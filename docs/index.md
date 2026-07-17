@@ -17,7 +17,7 @@ Inspirado em Mushoku Tensei, Sword Art Online, Fabula Ultima, Skyrim, Dragon Age
 - **Magia e habilidades unificadas** — não há sistema de magia separado
 - **Tudo baseado em Mana**
 - **Pontos de Ação** para ações em combate
-- **Armas com 3 níveis de habilidade**: Básica, Treinada, Especial
+- **Armas com 3 níveis de habilidade**: Básica, Avançada, Especial
 - **Pacotes** — kits/sugestões de arquétipo (inspirados em Grand Chase), nunca obrigatórios
 - **Raças variadas**, no estilo Daggerheart e animes
 

@@ -3,20 +3,63 @@
 Cada arma concede acesso a 3 níveis de habilidade:
 
 1. **Habilidade Básica**
-2. **Habilidade Treinada**
+2. **Habilidade Avançada**
 3. **Habilidade Especial**
 
-*(Em construção — lista de armas e suas habilidades específicas a definir com o usuário.)*
+Cada tier consome Pontos de Ação ao ser usado:
 
-## Tabela de Ataques
+| Tier | Custo em Pontos de Ação |
+|---|---|
+| Básica | ◈ (1) |
+| Avançada | ◈◈ (2) |
+| Especial | ◈◈◈ (3) |
 
-Todo ataque tem três valores: **Acerto** (bônus no teste), **Dano** (dado rolado) e **Tipo** (fonte do ataque).
+*(Em construção — lista de armas a definir com o usuário.)*
 
-| Acerto | Dano | Tipo |
-|---|---|---|
-| *(valor)* | *(dado)* | *(ver Tipos de Ataque abaixo)* |
+## Espada
 
-*(Progressão exata de Acerto/Dano — a definir)*
+Dano: **1d8**
+
+**Golpe Certeiro** — *Básica*
+
+*Um golpe preciso e brutal, direto ao ponto fraco do inimigo.*
+
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Onda de Aço** — *Avançada*
+
+*Um giro completo da lâmina espalha uma onda cortante por todos ao redor.*
+
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Impacto Aéreo** — *Especial*
+
+*O guerreiro salta e desaba sobre o chão como um meteoro de aço.*
+
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** área de 2 casas de raio ao redor de um ponto de queda
+- **Alcance do salto:** até o valor de Movimento do personagem, em casas
+- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo atingido
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo atingido
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Resolução de Ataque
+
+**Acerto:** d20 + Atributo relevante (ver Tipos de Ataque abaixo). Armas básicas não concedem bônus de Acerto.
+
+**Dano:** dado da arma, varia por tipo/raridade — de d4 a d12, incluindo combinações (2d4, 2d6, 2d8, 2d10, 2d12). *(Valores específicos por arma — a definir)*
+
+Um ataque é resolvido como **d20 + Atributo vs Defesa do alvo**. Igualar ou superar a Defesa é acerto.
+
+**Crítico (20 natural):** dano máximo do dado + mais uma rolagem normal do mesmo dado.
 
 ## Tipos de Ataque
 

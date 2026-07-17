@@ -23,11 +23,20 @@ Não existem classes no Prisma RPG. Em vez disso, todas as habilidades do jogo s
 Cada habilidade é registrada com:
 
 - **Nome**
-- **Chave** — Grupo + Subtipo (ex: "Marcial - Ataque")
-- **Custo** — em Mana
+- **Descrição breve** — 1 frase evocativa, deixando claro o que a habilidade faz
+- **Chave** — para habilidades de arma: "Arma - Tier" (ex: "Espada - Básica"). Para habilidades gerais de grupo: "Grupo - Subtipo" (ex: "Marcial - Especial")
+- **Custo em Mana**
+- **Custo em Pontos de Ação (◈)** — 1, 2 ou 3, conforme o tier ou tipo de habilidade
 - **Atributo** — atributo usado no teste (ex: FOR)
 - **Efeitos / Alvos**
 - **Tiers de Sucesso** (inspirado em Draw Steel) — o resultado do teste determina qual tier de efeito é aplicado
 - **Crítico** — 20 natural
 
-*(Faixas de resultado de cada tier — a definir)*
+O total é **d20 + Atributo**:
+
+| Tier | Total (d20 + Atributo) |
+|---|---|
+| Tier 1 (fraco) | ≤ 10 |
+| Tier 2 (médio) | 11–16 |
+| Tier 3 (forte) | ≥ 17 |
+| Crítico | 20 natural — efeito extra, além do tier |

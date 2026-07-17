@@ -30,7 +30,7 @@ Estas são decisões **já tomadas pelo usuário** — não são sugestões, sã
 ### Sistema de Armas
 Cada arma concede acesso a 3 níveis de habilidade:
 1. **Habilidade Básica**
-2. **Habilidade Treinada**
+2. **Habilidade Avançada**
 3. **Habilidade Especial**
 
 *(Detalhes de como essas habilidades funcionam por tipo de arma: a definir.)*
