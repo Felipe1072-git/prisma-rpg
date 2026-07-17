@@ -42,6 +42,15 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Efeito:** por 2 rodadas, o usuário não pode ser derrubado por nenhuma habilidade.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
 
+**Modo Fúria**
+
+*A adrenalina toma conta do corpo — cada movimento fica mais rápido, mais forte, mais selvagem.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário ganha +1d4 de dano em ataques desarmados e +2 de Movimento, mas só pode usar ataques físicos e Habilidades Marciais enquanto durar.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
 **Hora da Dança**
 
 *Uma melodia contagiante ergue o ânimo de todos ao redor, e os golpes ficam mais certeiros.*

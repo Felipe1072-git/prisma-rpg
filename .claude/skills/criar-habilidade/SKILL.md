@@ -106,6 +106,12 @@ A exceção são **habilidades dedicadas a Reação** — o texto diz explicitam
 
 Ao criar uma habilidade dedicada a Reação: escreva `**Nome** *(usada como Reação)*` no título, e no campo Custo use `X Mana | 0 PA (habilidade dedicada a Reação)` em vez do formato normal com ◈.
 
+## Golpes desarmados não travam em arma nenhuma
+
+Se o moveset do personagem-fonte é literalmente socos e chutes (sem depender de segurar nada — caso da Amy e do Jin), essas habilidades vão pra **Habilidades Gerais de Marciais** usando o [Dano Desarmado](../../docs/habilidades/marciais.md#dano-desarmado) (escala por nível, não por arma), não pra uma arma. É a mesma lógica de "arma mágica não trava feitiço": ninguém deveria precisar equipar um objeto específico só pra usar um soco.
+
+Isso **não impede** de também criar uma arma tematicamente relacionada (ex: Manopla) — só que as habilidades dela precisam ter identidade própria, desenhada do zero (ver seção acima sobre arma ≠ personagem-fonte), e não podem ser os mesmos golpes desarmados só travados atrás de um item.
+
 ## Armas mágicas são genéricas — não travam feitiços
 
 Isso é uma decisão de design deliberada, ligada ao fato de o Prisma RPG não ter classes: as 3 habilidades de uma arma mágica (Cetro é o único exemplo até agora) são canalizações **neutras**, sem elemento ou tema fixo (ex: "Investida Arcana", um pulso de dano sem forma definida). Se uma arma mágica travasse "Petrificar" ou "Cura" como sua Habilidade Básica, isso empurraria o jogo de volta pra uma lógica de classe ("mago do cetro só petrifica"), o que contradiz a premissa central do sistema.

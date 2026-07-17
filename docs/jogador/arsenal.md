@@ -52,7 +52,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ⬜ | Amy | Violino | 1d6 | arma atípica, dano vem de efeitos |
 | ⬜ | Amy | Báculo | 1d8 | foco mágico médio |
 | ⬜ | Amy | Pandora | 1d10 | artefato único, arma final |
-| ⬜ | Jin | Manopla | 1d6 | luta desarmada, golpes rápidos |
+| ✅ | Jin | Manopla | 1d6 | luta desarmada, golpes rápidos |
 | ⬜ | Jin | Tonfas | 1d6 | par leve |
 | ⬜ | Jin | Bastão | 1d8 | arma de haste média |
 | ⬜ | Jin | Vajras | 1d8 | arma mística, foco médio |
@@ -353,6 +353,46 @@ Dano: **1d6**
 - **Tier 2 (11–16):** 1d6 de dano + a área vira Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
 - **Tier 3 (≥17):** 1d6 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, Terreno Difícil, e Lento
+
+## Manopla
+
+*Habilidades originais focadas em precisão e ruptura de guarda (não ligadas a nenhum personagem específico de Grand Chase).*
+
+Dano: **1d6**
+
+**Golpe do Punho Selado** — *Básica*
+
+*Um soco certeiro que trava a respiração do alvo por um instante.*
+
+- **Chave:** [Manopla](../glossario.md#manopla) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d6 de dano + perde Reação e Ação Básica
+- **Crítico:** dano máximo (6) + 1d6 extra + perde Reação e Ação Básica
+
+**Punhos em Cadeia** — *Avançada*
+
+*Uma explosão de socos em todas as direções, rápidos demais pra bloquear.*
+
+- **Chave:** [Manopla](../glossario.md#manopla) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e derruba cada alvo
+
+**Punho Rompe-Guarda** — *Especial*
+
+*Um único soco carregado de força total, capaz de atravessar qualquer defesa.*
+
+- **Chave:** [Manopla](../glossario.md#manopla) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Efeito:** ignora o bônus de Armadura na Defesa do alvo
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + derruba o alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra + Atordoado
 
 ## Resolução de Ataque
 

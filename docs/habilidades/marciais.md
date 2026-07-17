@@ -98,6 +98,55 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 3 (≥17):** dano desarmado + derruba cada alvo
 - **Crítico:** dano desarmado máximo + rolagem extra em todos, e derruba cada alvo
 
+**Dragão Celeste**
+
+*Um golpe no chão seguido de um uppercut que ergue o alvo pelos ares.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado
+- **Tier 2 (11–16):** dano desarmado + empurra 1 casa
+- **Tier 3 (≥17):** dano desarmado + derruba o alvo
+- **Crítico:** dano desarmado máximo + rolagem extra, e derruba o alvo
+
+**Espírito Indomável**
+
+*Uma rajada de socos poderosos, terminando numa explosão que arrasta tudo ao redor.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado em cada alvo
+- **Tier 2 (11–16):** dano desarmado + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** dano desarmado + derruba cada alvo
+- **Crítico:** dano desarmado máximo + rolagem extra em todos, e derruba cada alvo
+
+**Fim dos Dias**
+
+*Uma investida com soco e explosão, terminando com um golpe surpresa pelas costas.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 2 criaturas diferentes
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado em cada alvo, usuário se desloca até o primeiro alvo
+- **Tier 2 (11–16):** dano desarmado + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** dano desarmado + derruba cada alvo
+- **Crítico:** dano desarmado máximo + rolagem extra em todos, e derruba cada alvo
+
+**Chute do Vento Cortante**
+
+*Um movimento contínuo, veloz como vento cortante, golpeando tudo em seu caminho.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** até 4 criaturas à escolha, ao alcance do Movimento
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Efeito adicional:** se esta habilidade derrubar pelo menos 1 alvo, o usuário recupera 3 Mana
+- **Tier 1 (≤10):** dano desarmado em cada alvo
+- **Tier 2 (11–16):** dano desarmado + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** dano desarmado + derruba cada alvo
+- **Crítico:** dano desarmado máximo + rolagem extra em todos, e derruba cada alvo
+
 **Espada do Infinito**
 
 *Espadas fantasmas emergem do chão, e ao centro, uma lâmina maior dispara em linha reta, perfurando tudo em seu caminho.*

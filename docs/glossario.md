@@ -48,6 +48,10 @@ Arma marcial Híbrida, dano 1d6. Ver [Arsenal → Gládio](jogador/arsenal.md#gl
 
 Arma de pontaria, dano 1d6. Ver [Arsenal → Chakram](jogador/arsenal.md#chakram).
 
+### Manopla
+
+Arma marcial, dano 1d6. Ver [Arsenal → Manopla](jogador/arsenal.md#manopla).
+
 ## Propriedades de Arma
 
 ### Finesse
