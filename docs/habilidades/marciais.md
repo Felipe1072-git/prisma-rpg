@@ -38,3 +38,15 @@ Armas a curta distância e combate corpo a corpo.
 - **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
 - **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo
+
+**Espada do Infinito**
+
+*Espadas fantasmas emergem do chão, e ao centro, uma lâmina maior dispara em linha reta, perfurando tudo em seu caminho.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo

@@ -42,7 +42,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ⬜ | Ryan | Lâmina Dupla | 1d6 | par leve, dano vem da velocidade |
 | ⬜ | Ryan | Gadanha | 1d10 | foice pesada de duas mãos |
 | ⬜ | Ryan | Pique | 1d10 | arma de alcance pesada |
-| ⬜ | Ronan | Gládio | 1d6 | espada curta, leve |
+| ✅ | Ronan | Gládio | 1d6 | espada curta, leve |
 | ⬜ | Ronan | Glaive | 1d10 | arma de haste, alcance |
 | ⬜ | Ronan | Égide | 1d6 | híbrido de escudo, dano baixo compensado por defesa |
 | ⬜ | Ronan | Tirfing | 1d10 | lâmina lendária, arma final |
@@ -273,6 +273,46 @@ Dano: **1d12**
 - **Tier 3 (≥17):** 1d12 de dano + derruba por acerto
 - **Crítico:** dano máximo (12) + 1d12 extra por acerto, e derruba
 
+## Gládio
+
+Arma Híbrida (ver [Armas Híbridas](#armas-híbridas) abaixo) — usa Força ou Inteligência, o que for maior.
+
+Dano: **1d6**
+
+**Investida Mágica** — *Básica*
+
+*Uma estocada rápida, impulsionada por magia ancestral.*
+
+- **Chave:** [Gládio](../glossario.md#gládio) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Corte em Cruz** — *Avançada*
+
+*Dois cortes cruzados seguidos de uma aura protetora ao redor do lutador.*
+
+- **Chave:** [Gládio](../glossario.md#gládio) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + usuário ganha Escudo de 1d6 pontos
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo + usuário ganha Escudo de 1d6 pontos
+- **Crítico:** dano máximo (6) + 1d6 extra + derruba o alvo + Escudo de 1d6 pontos
+
+**Lâmina Tempestuosa** — *Especial*
+
+*Uma rajada de golpes furiosos que termina com um corte devastador — o lutador pode se mover livremente durante o ataque.*
+
+- **Chave:** [Gládio](../glossario.md#gládio) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Inteligência | **Alvos:** até 3 criaturas à escolha, ao alcance corpo a corpo
+- **Efeito adicional:** o usuário pode se mover livremente até seu Movimento em casas durante o ataque, sem gastar PA extra
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
 ## Resolução de Ataque
 
 **Acerto:** d20 + Atributo relevante (ver Tipos de Ataque abaixo). Armas básicas não concedem bônus de Acerto.
@@ -288,6 +328,12 @@ Um ataque é resolvido como **d20 + Atributo vs Defesa do alvo**. Igualar ou sup
 Algumas armas leves e ágeis são marcadas como **Finesse**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Agilidade** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
 
 Armas Finesse até agora: **Adagas**.
+
+### Armas Híbridas
+
+Algumas armas que misturam combate físico e magia são marcadas como **Híbridas**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Inteligência** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
+
+Armas Híbridas até agora: **Gládio**.
 
 ## Tipos de Ataque
 

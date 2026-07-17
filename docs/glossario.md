@@ -40,11 +40,19 @@ Arma marcial Finesse, dano 1d4. Ver [Arsenal → Adagas](jogador/arsenal.md#adag
 
 Arma marcial pesada, dano 1d12. Ver [Arsenal → Machado](jogador/arsenal.md#machado).
 
+### Gládio
+
+Arma marcial Híbrida, dano 1d6. Ver [Arsenal → Gládio](jogador/arsenal.md#gládio).
+
 ## Propriedades de Arma
 
 ### Finesse
 
 O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver [Arsenal → Armas Finesse](jogador/arsenal.md#armas-finesse).
+
+### Híbrida
+
+O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Arsenal → Armas Híbridas](jogador/arsenal.md#armas-híbridas).
 
 ## Grupos de Habilidade
 
@@ -98,8 +106,12 @@ Ver [Mágicas por Elemento → Fogo](habilidades/magicas-elementais.md#fogo).
 
 Ver [Mágicas por Elemento → Terra](habilidades/magicas-elementais.md#terra).
 
+### Gelo
+
+Ver [Mágicas por Elemento → Gelo](habilidades/magicas-elementais.md#gelo).
+
 ### Raio
 
 Ver [Mágicas por Elemento → Raio](habilidades/magicas-elementais.md#raio).
 
-*(Gelo, Sombras, Luz e outros elementos ainda sem habilidades — a criar)*
+*(Sombras, Luz e outros elementos ainda sem habilidades — a criar)*
