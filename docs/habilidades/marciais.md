@@ -230,3 +230,99 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** 2x dado de dano + derruba o alvo
 - **Tier 3 (≥17):** 2x dado de dano + derruba o alvo + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
 - **Crítico:** dado máximo (2x) + 1x dado extra + derruba + Atordoado
+
+**Corte Triplo**
+
+*Um movimento giratório que corta o ar três vezes seguidas.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1x dado de dano + derruba o alvo
+- **Crítico:** dado máximo + 1x dado extra, e derruba o alvo
+
+**Rodamoinho**
+
+*Dois cortes poderosos, girando o corpo inteiro pra frente.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** todas as criaturas adjacentes
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo
+
+**Grande X**
+
+*Energia se acumula na lâmina durante um salto, disparada num golpe diagonal devastador.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
+- **Tier 1 (≤10):** 2x dado de dano
+- **Tier 2 (11–16):** 2x dado de dano + empurra 1 casa
+- **Tier 3 (≥17):** 2x dado de dano + derruba o alvo
+- **Crítico:** dado máximo (2x) + 1x dado extra, e derruba o alvo
+
+**Giga Corte**
+
+*Um ataque destruidor que atinge com toda a força à frente.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** cone de 3 casas à frente
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo
+
+**Erupção de Ferroadas**
+
+*Um salto seguido de um impacto que libera todo o poder da lâmina no chão.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor do ponto
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo
+
+**Esmagador de Ossos**
+
+*A lâmina gira abrindo caminho à força, esmagando tudo que estiver perto.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** linha de 5 casas à frente
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo
+
+**Dança da Perdição**
+
+*Um tornado de lâminas se forma ao redor do usuário, empurrando tudo pra longe.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 2 casas de raio ao redor do usuário
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + empurra 2 casas e derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, empurra 2 casas, e derruba cada alvo
+
+**Pressão Brutal**
+
+*Um empurrão bruto, arremessando o alvo com a força pura da lâmina.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano
+- **Tier 2 (11–16):** 1x dado de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1x dado de dano + empurra 3 casas
+- **Crítico:** dado máximo + 1x dado extra, e empurra 3 casas

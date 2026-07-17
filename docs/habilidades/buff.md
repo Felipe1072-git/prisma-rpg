@@ -86,3 +86,30 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário, e aliados em 2 casas de raio
 - **Efeito:** por 3 rodadas, o usuário ganha +1d4 de dano em ataques corpo a corpo e +2 de Movimento. Aliados dentro de 2 casas do usuário ganham +1 de dano em ataques corpo a corpo enquanto permanecerem na área.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Espada Defensiva** *(usada como Reação)*
+
+*A espada se põe à frente do corpo, pronta para interceptar qualquer golpe.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 3 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra ganhar um Escudo de 1d6 pontos contra aquele ataque, absorvendo o dano antes da Vida ser afetada.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Aumentar**
+
+*Zero concentra sua energia, e cada músculo responde com mais força que o normal.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário ganha +1d4 de dano em ataques corpo a corpo e +1 de Defesa.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Dominação Zero** *(Supremo)*
+
+*O verdadeiro poder de Zero desperta — cada golpe seguinte carrega o peso de um mestre da espada.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário ganha +1d6 de dano extra em ataques corpo a corpo, +2 de Defesa, e ataques corpo a corpo do usuário ignoram Armadura.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

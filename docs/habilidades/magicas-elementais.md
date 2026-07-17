@@ -32,6 +32,17 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 1d6 de dano + alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra + Paralisado por 1 rodada completa
 
+**Força Gélida**
+
+*Um sopro congelante envolve a lâmina, e o golpe seguinte deixa o alvo mais lento a cada instante.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d8 de dano + Lento + alvo perde a próxima Ação Básica
+- **Crítico:** dano máximo (8) + 1d8 extra + Lento + perde Ação Básica
+
 ## Raio
 
 **Relâmpago**
@@ -106,6 +117,17 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 2 (11–16):** 1d8 de dano + o chão pega fogo, virando Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
 - **Tier 3 (≥17):** 1d8 de dano + Terreno Difícil + cada alvo fica Sangrando (queimaduras, perde 1d4 de Vida no início do próximo turno dele)
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, Terreno Difícil, e Sangrando
+
+**Força Flamejante**
+
+*Chamas envolvem a lâmina, e o golpe seguinte deixa uma queimadura que arde por muito tempo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 2 casas
+- **Crítico:** dano máximo (8) + 1d8 extra + Sangrando + empurra 2 casas
 
 ## Sombras
 
@@ -196,6 +218,28 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
 - **Efeito:** 1d8 de dano automático imediatamente e no início de cada uma das 2 rodadas seguintes (3 aplicações no total). Ao final da 3ª aplicação, uma onda de choque empurra 2 casas e derruba todas as criaturas hostis ainda na área.
+
+**Fissura Dimensional**
+
+*Uma fenda no espaço se abre sob o alvo, puxando-o com violência para dentro dela.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + puxa o alvo 2 casas em direção ao usuário
+- **Tier 3 (≥17):** 1d8 de dano + puxa o alvo 3 casas em direção ao usuário e o derruba
+- **Crítico:** dano máximo (8) + 1d8 extra + puxa 3 casas + derruba
+
+**Olho Maligno** *(Supremo)*
+
+*Um olho sombrio se abre no céu, observando um único alvo — e nada escapa ao seu julgamento.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 2d8 de dano
+- **Tier 2 (11–16):** 2d8 de dano + alvo fica Marcado e Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 2d8 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (16) + 2d8 extra + Atordoado por 1 rodada completa
 
 ## Luz
 

@@ -65,7 +65,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ⬜ | Mari | Marreta | 1d12 | a mais pesada do arsenal dela |
 | ⬜ | Mari | WDW (Wing Drive Weapon) | 1d10 | aparato mecânico especial |
 | ✅ | Dio | Foice | 1d10 | foice pesada |
-| ⬜ | Zero | Grandark | 1d12 | espada imensa e senciente |
+| ✅ | Zero | Espadão | 1d12 | espada imensa e senciente (renomeada — "Espada" e "Lâmina" já existem) |
 | ⬜ | Rey | Endless | 1d10 | arma única, poder moderado-alto |
 | ⬜ | Lupus | Scarlet | 1d8 | espada padrão |
 | ⬜ | Lupus | Espada Espiritual | 1d8 | lâmina espectral, foco médio |
@@ -510,6 +510,45 @@ Dano: **1d10**
 - **Tier 2 (11–16):** 1d10 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
 - **Tier 3 (≥17):** 1d10 de dano + Marcado + derruba o alvo
 - **Crítico:** dano máximo (10) + 1d10 extra, Marcado, e derruba o alvo
+
+## Espadão
+
+*Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit do Zero (a espada senciente Grandark canaliza magia e energia) virou habilidades gerais espalhadas por Marciais, Debuff, Buff, Mágicas Básicas e Mágicas por Elemento.*
+
+Dano: **1d12**
+
+**Corte Pesado** — *Básica*
+
+*Um golpe lento, mas de peso avassalador.*
+
+- **Chave:** [Espadão](../glossario.md#espadão) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+
+**Giro Devastador** — *Avançada*
+
+*A lâmina gigante gira num arco largo, varrendo tudo ao redor.*
+
+- **Chave:** [Espadão](../glossario.md#espadão) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d12 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, Sangrando, e derruba cada alvo
+
+**Golpe Colossal** — *Especial*
+
+*Um golpe único capaz de rachar o chão com seu impacto.*
+
+- **Chave:** [Espadão](../glossario.md#espadão) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d12 de dano + Atordoado + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, Atordoado, e derruba o alvo
 
 ## Resolução de Ataque
 
