@@ -51,6 +51,40 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo atingido
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
+## Arco
+
+Dano: **1d8**
+
+**Rajada de Flechas** — *Básica*
+
+*Uma rajada de flechas disparada tão rápido que parece um único golpe.*
+
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Chuva de Flechas** — *Avançada*
+
+*Uma cortina de flechas desaba do céu, cobrindo uma área inteira antes que qualquer um consiga fugir.*
+
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Tempestade de Flechas** — *Especial*
+
+*Um turbilhão de flechas se espalha em todas as direções ao redor da arqueira.*
+
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
 ## Resolução de Ataque
 
 **Acerto:** d20 + Atributo relevante (ver Tipos de Ataque abaixo). Armas básicas não concedem bônus de Acerto.
