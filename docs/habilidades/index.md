@@ -15,6 +15,7 @@ Não existem classes no Prisma RPG. Em vez disso, todas as habilidades do jogo s
 | [Mobilidade](mobilidade.md) | Voo, deslocamento |
 | [Buff](buff.md) | Incremento de força, imbuir elementos em armas, etc. |
 | [Debuff](debuff.md) | Desvantagens para inimigos ou em testes |
+| [Suporte](suporte.md) | Cura e apoio a aliados |
 
 *(Lista de grupos pode crescer — ainda em definição com o usuário.)*
 
@@ -40,3 +41,5 @@ O total é **d20 + Atributo**:
 | Tier 2 (médio) | 11–16 |
 | Tier 3 (forte) | ≥ 17 |
 | Crítico | 20 natural — efeito extra, além do tier |
+
+Habilidades sem teste de ataque (buffs puros, efeitos automáticos como uma Habilidade Suprema inevitável) não precisam de Tiers de Sucesso — só existem tiers quando há uma rolagem cujo resultado varia o efeito.

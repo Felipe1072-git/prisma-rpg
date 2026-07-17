@@ -3,3 +3,15 @@
 Criar desvantagens para inimigos ou em testes.
 
 *(Em construção.)*
+
+## Habilidades Gerais
+
+**Antigravidade**
+
+*A gravidade se dobra à vontade da conjuradora, e o inimigo é arrancado do chão... só pra ser jogado de volta com violência.*
+
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica prostrado
+- **Tier 3 (≥17):** 1d8 de dano + alvo fica prostrado + perde a próxima Reação
+- **Crítico:** dano máximo (8) + 1d8 extra + efeito do Tier 3
