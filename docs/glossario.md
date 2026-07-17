@@ -36,6 +36,10 @@ Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cetro](jog
 
 Arma marcial Finesse, dano 1d4. Ver [Arsenal → Adagas](jogador/arsenal.md#adagas).
 
+### Machado
+
+Arma marcial pesada, dano 1d12. Ver [Arsenal → Machado](jogador/arsenal.md#machado).
+
 ## Propriedades de Arma
 
 ### Finesse

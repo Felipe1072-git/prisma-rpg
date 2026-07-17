@@ -50,3 +50,11 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 2 (11–16):** 2d8 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+
+**Chamas Espirituais** *(Supremo)*
+
+*Um totem se ergue do chão, pulsando com a fúria dos espíritos da floresta, lançando fogo em todas as direções.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alcance:** 8 casas (onde o totem surge)
+- **Efeito:** por 3 rodadas, no início de cada rodada, o totem causa 1d6 de dano automático a 1 alvo hostil aleatório em 3 casas de raio dele

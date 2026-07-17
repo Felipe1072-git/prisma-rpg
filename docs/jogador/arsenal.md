@@ -36,6 +36,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga |
 | Lass | Garras | 1d6 | par leve, parecido com Adagas |
 | Lass | Katana | 1d10 | lâmina única, mais poderosa que a alfange |
+| Ryan | Machado | 1d12 | machado pesado de duas mãos |
 
 *(Em construção — as demais armas da lista completa de personagens ainda não foram avaliadas.)*
 
@@ -192,6 +193,43 @@ Dano: **1d4**
 - **Tier 2 (11–16):** 1d4 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d4 de dano + derruba cada alvo
 - **Crítico:** dano máximo (4) + 1d4 extra em todos, e derruba cada alvo
+
+## Machado
+
+Dano: **1d12**
+
+**Lâminas Gêmeas** — *Básica*
+
+*Dois golpes largos em sequência, arremessando o inimigo pro alto.*
+
+- **Chave:** [Machado](../glossario.md#machado) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+
+**Fúria do Titã** — *Avançada*
+
+*Uma pancada brutal que arremessa o inimigo longe, com toda a força do machado.*
+
+- **Chave:** [Machado](../glossario.md#machado) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d12 de dano + empurra 3 casas e derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, empurra 3 casas e derruba o alvo
+
+**Arremesso Selvagem** — *Especial*
+
+*O machado voa da mão, corta tudo em seu caminho, e retorna às mãos do guerreiro — atingindo de novo na volta.*
+
+- **Chave:** [Machado](../glossario.md#machado) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha, atingidas até 2 vezes (ida e volta)
+- **Tier 1 (≤10):** 1d12 de dano por acerto
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa por acerto
+- **Tier 3 (≥17):** 1d12 de dano + derruba por acerto
+- **Crítico:** dano máximo (12) + 1d12 extra por acerto, e derruba
 
 ## Resolução de Ataque
 

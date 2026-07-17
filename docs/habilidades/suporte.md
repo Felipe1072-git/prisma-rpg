@@ -12,3 +12,15 @@ Cura e apoio a aliados.
 - **Custo:** 4 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** até 3 criaturas aliadas em 3 casas de raio
 - **Efeito:** cada alvo recupera 2d6 + Sabedoria de Vida
 - *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
+
+**Ressuscitar**
+
+*Um sussurro da natureza convence o espírito a voltar, ainda que por pouco tempo.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** 18 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alvos:** 1 aliado morto a até 3 casas
+- **Teste:** d20 + Sabedoria
+- **Tier 1 (≤10):** falha total — o espírito do aliado se perde de vez. Ele não pode mais ser trazido de volta, por essa ou qualquer outra habilidade
+- **Tier 2 (11–16):** falha, mas o espírito ainda está por perto — outra tentativa (de qualquer fonte) ainda pode salvá-lo antes do fim da cena
+- **Tier 3 (≥17):** sucesso — o aliado revive com 20% da Vida máxima
+- **Crítico (20 natural):** sucesso — o aliado revive com 50% da Vida máxima
