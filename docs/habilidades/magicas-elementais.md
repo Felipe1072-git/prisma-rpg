@@ -49,7 +49,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
-- **Efeito:** 1d6 de dano automático (sem teste) no início de cada uma das próximas 3 rodadas
+- **Efeito:** 1d6 de dano automático (sem teste) imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
 
 ## Fogo
 
@@ -81,4 +81,4 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alcance:** 8 casas (onde o totem surge)
-- **Efeito:** por 3 rodadas, no início de cada rodada, o totem causa 1d6 de dano automático a 1 alvo hostil aleatório em 3 casas de raio dele
+- **Efeito:** o totem causa 1d6 de dano automático a 1 alvo hostil aleatório em 3 casas de raio dele imediatamente ao ser invocado, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
