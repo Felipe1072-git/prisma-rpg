@@ -18,27 +18,69 @@ Cada tier consome Pontos de Ação ao ser usado:
 
 Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do personagem — nenhuma arma é mais forte só por ser a 2ª/3ª/4ª de alguém, isso reintroduziria progressão de classe).
 
-| Personagem | Arma | Dado | Nota |
-|---|---|---|---|
-| Elesis | Espada | 1d8 | arma versátil de uma mão |
-| Elesis | Lança | 1d10 | alcance, mais pesada |
-| Elesis | Montante | 1d12 | espada grande de duas mãos |
-| Elesis | Sabres | 1d6 | par de lâminas leves |
-| Lire | Arco | 1d8 | arma de precisão padrão |
-| Lire | Bestas | 1d6 | dupla empunhadura, tipo adagas/sabres |
-| Lire | Balista | 1d12 | arma de cerco, a mais pesada |
-| Lire | Gakkung | 1d6 | arco tradicional, mais leve/ágil |
-| Arme | Cetro | 1d8 | foco arcano genérico |
-| Arme | Pote | 1d6 | arremesso alquímico, leve e imprevisível |
-| Arme | Lâmpada | 1d8 | foco médio |
-| Arme | Cajado | 1d10 | canalização pesada de duas mãos |
-| Lass | Adagas | 1d4 | par leve, identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
-| Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga |
-| Lass | Garras | 1d6 | par leve, parecido com Adagas |
-| Lass | Katana | 1d10 | lâmina única, mais poderosa que a alfange |
-| Ryan | Machado | 1d12 | machado pesado de duas mãos |
+**Nomes de personagem são referência temporária de inspiração** (não vão pro conteúdo final — remover essa coluna quando todas as armas tiverem habilidades escritas). Dados de armas ainda não pesquisadas são só "vibe" baseada no nome/arquétipo, ajustáveis quando forem trabalhadas de verdade.
 
-*(Em construção — as demais armas da lista completa de personagens ainda não foram avaliadas.)*
+| Status | Personagem | Arma | Dado | Nota |
+|---|---|---|---|---|
+| ✅ | Elesis | Espada | 1d8 | arma versátil de uma mão |
+| ✅ | Elesis | Lança | 1d10 | alcance, mais pesada |
+| ✅ | Elesis | Montante | 1d12 | espada grande de duas mãos |
+| ✅ | Elesis | Sabres | 1d6 | par de lâminas leves |
+| ✅ | Lire | Arco | 1d8 | arma de precisão padrão |
+| ✅ | Lire | Bestas | 1d6 | dupla empunhadura, tipo adagas/sabres |
+| ✅ | Lire | Balista | 1d12 | arma de cerco, a mais pesada |
+| ✅ | Lire | Gakkung | 1d6 | arco tradicional, mais leve/ágil |
+| ✅ | Arme | Cetro | 1d8 | foco arcano genérico |
+| ✅ | Arme | Pote | 1d6 | arremesso alquímico, leve e imprevisível |
+| ✅ | Arme | Lâmpada | 1d8 | foco médio |
+| ✅ | Arme | Cajado | 1d10 | canalização pesada de duas mãos |
+| ✅ | Lass | Adagas | 1d4 | par leve, identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
+| ✅ | Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga |
+| ✅ | Lass | Garras | 1d6 | par leve, parecido com Adagas |
+| ✅ | Lass | Katana | 1d10 | lâmina única, mais poderosa que a alfange |
+| ✅ | Ryan | Machado | 1d12 | machado pesado de duas mãos |
+| ⬜ | Ryan | Lâmina Dupla | 1d6 | par leve, dano vem da velocidade |
+| ⬜ | Ryan | Gadanha | 1d10 | foice pesada de duas mãos |
+| ⬜ | Ryan | Pique | 1d10 | arma de alcance pesada |
+| ⬜ | Ronan | Gládio | 1d6 | espada curta, leve |
+| ⬜ | Ronan | Glaive | 1d10 | arma de haste, alcance |
+| ⬜ | Ronan | Égide | 1d6 | híbrido de escudo, dano baixo compensado por defesa |
+| ⬜ | Ronan | Tirfing | 1d10 | lâmina lendária, arma final |
+| ⬜ | Amy | Chakram | 1d6 | anel de arremesso, leve |
+| ⬜ | Amy | Violino | 1d6 | arma atípica, dano vem de efeitos |
+| ⬜ | Amy | Báculo | 1d8 | foco mágico médio |
+| ⬜ | Amy | Pandora | 1d10 | artefato único, arma final |
+| ⬜ | Jin | Manopla | 1d6 | luta desarmada, golpes rápidos |
+| ⬜ | Jin | Tonfas | 1d6 | par leve |
+| ⬜ | Jin | Bastão | 1d8 | arma de haste média |
+| ⬜ | Jin | Vajras | 1d8 | arma mística, foco médio |
+| ⬜ | Sieghart | Lâmina | 1d8 | espada padrão |
+| ⬜ | Sieghart | Lança e Espada | 1d10 | combo de duas armas, mais versátil e pesado |
+| ⬜ | Sieghart | Espadas | 1d6 | par de lâminas |
+| ⬜ | Sieghart | Soluna | 1d10 | lâmina lendária, arma final |
+| ⬜ | Mari | Manual | 1d6 | grimório leve |
+| ⬜ | Mari | Revólver | 1d8 | arma de fogo de precisão |
+| ⬜ | Mari | Marreta | 1d12 | a mais pesada do arsenal dela |
+| ⬜ | Mari | WDW (Wing Drive Weapon) | 1d10 | aparato mecânico especial |
+| ⬜ | Dio | Deathstar (Foice) | 1d10 | foice pesada |
+| ⬜ | Zero | Grandark | 1d12 | espada imensa e senciente |
+| ⬜ | Rey | Endless | 1d10 | arma única, poder moderado-alto |
+| ⬜ | Lupus | Scarlet | 1d8 | espada padrão |
+| ⬜ | Lupus | Espada Espiritual | 1d8 | lâmina espectral, foco médio |
+| ⬜ | Lupus | Ruptura | 1d10 | arma pesada, dano de ruptura |
+| ⬜ | Lupus | Juiz das Almas | 1d12 | arma final, a mais pesada |
+| ⬜ | Lin | Leque | 1d6 | leve, arma de precisão/finesse |
+| ⬜ | Azin | Vembrassa | 1d8 | poder médio, natureza incerta |
+| ⬜ | Holy | Martelo | 1d12 | arma de esmagamento, pesada |
+| ⬜ | Edel | Florete | 1d6 | leve, arma de finesse |
+| ⬜ | Edel | Flintlock | 1d8 | pistola de precisão |
+| ⬜ | Veigas | Tesserato | 1d8 | poder médio, natureza incerta |
+| ⬜ | Uno | Muramasa | 1d10 | katana lendária amaldiçoada |
+| ⬜ | Decanee | Olho Maléfico | 1d8 | foco mágico atípico |
+| ⬜ | Ai | Chave dos Céus | 1d8 | arma-artefato, natureza incerta |
+| ⬜ | Kallia | Esmagador Ardente | 1d12 | nome sugere arma de esmagamento pesada |
+
+*(Em construção — armas ⬜ ainda não tiveram habilidades pesquisadas/escritas; dados são estimativa inicial.)*
 
 ## Espada
 
