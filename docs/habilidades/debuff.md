@@ -10,6 +10,7 @@ Criar desvantagens para inimigos ou em testes.
 
 *A gravidade se dobra à vontade da conjuradora, e o inimigo é arrancado do chão... só pra ser jogado de volta com violência.*
 
+- **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d8 de dano
 - **Tier 2 (11–16):** 1d8 de dano + alvo fica prostrado

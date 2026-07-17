@@ -24,6 +24,7 @@ Dano: **1d8**
 
 *Um golpe preciso e brutal, direto ao ponto fraco do inimigo.*
 
+- **Chave:** [Espada](../glossario.md#espada) - [Básica](../glossario.md#básica)
 - **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d8 de dano
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
@@ -34,6 +35,7 @@ Dano: **1d8**
 
 *Um giro completo da lâmina espalha uma onda cortante por todos ao redor.*
 
+- **Chave:** [Espada](../glossario.md#espada) - [Avançada](../glossario.md#avançada)
 - **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
@@ -44,6 +46,7 @@ Dano: **1d8**
 
 *O guerreiro salta e desaba sobre o chão como um meteoro de aço.*
 
+- **Chave:** [Espada](../glossario.md#espada) - [Especial](../glossario.md#especial)
 - **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** área de 2 casas de raio ao redor de um ponto de queda
 - **Alcance do salto:** até o valor de Movimento do personagem, em casas
 - **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o ponto
@@ -59,6 +62,7 @@ Dano: **1d8**
 
 *Uma rajada de flechas disparada tão rápido que parece um único golpe.*
 
+- **Chave:** [Arco](../glossario.md#arco) - [Básica](../glossario.md#básica)
 - **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d8 de dano
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
@@ -69,6 +73,7 @@ Dano: **1d8**
 
 *Uma cortina de flechas desaba do céu, cobrindo uma área inteira antes que qualquer um consiga fugir.*
 
+- **Chave:** [Arco](../glossario.md#arco) - [Avançada](../glossario.md#avançada)
 - **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 3 casas de raio do ponto
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
@@ -79,6 +84,7 @@ Dano: **1d8**
 
 *Um turbilhão de flechas se espalha em todas as direções ao redor da arqueira.*
 
+- **Chave:** [Arco](../glossario.md#arco) - [Especial](../glossario.md#especial)
 - **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
@@ -95,6 +101,7 @@ Dano: **1d8**
 
 *Um pulso de energia bruta, sem forma definida, moldado pela vontade de quem o lança.*
 
+- **Chave:** [Cetro](../glossario.md#cetro) - [Básica](../glossario.md#básica)
 - **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d8 de dano
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
@@ -105,6 +112,7 @@ Dano: **1d8**
 
 *Uma onda de energia crua se espalha, indiferente à forma que toma.*
 
+- **Chave:** [Cetro](../glossario.md#cetro) - [Avançada](../glossario.md#avançada)
 - **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 3 casas de raio do ponto
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
@@ -115,6 +123,7 @@ Dano: **1d8**
 
 *Toda a energia acumulada é liberada de uma vez, num estrondo que sacode o campo de batalha.*
 
+- **Chave:** [Cetro](../glossario.md#cetro) - [Especial](../glossario.md#especial)
 - **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
