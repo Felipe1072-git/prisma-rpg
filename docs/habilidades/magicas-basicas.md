@@ -23,5 +23,5 @@ Uso básico da magia.
 
 - **Chave:** [Mágicas Básicas](../glossario.md#mágicas-básicas)
 - **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Efeito:** por 2 rodadas, no início de cada rodada, cada criatura hostil na área sofre 1d6 de dano automático
+- **Efeito:** cada criatura hostil na área sofre 1d6 de dano automático imediatamente ao ser lançada, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*

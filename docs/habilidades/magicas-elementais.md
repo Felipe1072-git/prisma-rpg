@@ -166,7 +166,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Efeito:** por 2 rodadas, no início de cada rodada, cada criatura hostil na área sofre 1d6 de dano automático
+- **Efeito:** cada criatura hostil na área sofre 1d6 de dano automático imediatamente ao ser invocada, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
 
 **Esfera das Trevas**
@@ -175,7 +175,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Efeito:** por 2 rodadas, no início de cada rodada, cada criatura hostil na área sofre 1d4 de dano automático e sofre -1 no dano de ataques enquanto permanecer na área
+- **Efeito:** cada criatura hostil na área sofre 1d4 de dano automático e -1 no dano de ataques imediatamente ao ser lançada, e mais uma vez no início da rodada seguinte (2 aplicações no total); o -1 no dano dura enquanto a criatura permanecer na área
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
 
 **Corte Caótico**
