@@ -14,7 +14,30 @@ Cada tier consome Pontos de Ação ao ser usado:
 | Avançada | ◈◈ (2) |
 | Especial | ◈◈◈ (3) |
 
-*(Em construção — lista de armas a definir com o usuário.)*
+## Tabela de Dados de Dano
+
+Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do personagem — nenhuma arma é mais forte só por ser a 2ª/3ª/4ª de alguém, isso reintroduziria progressão de classe).
+
+| Personagem | Arma | Dado | Nota |
+|---|---|---|---|
+| Elesis | Espada | 1d8 | arma versátil de uma mão |
+| Elesis | Lança | 1d10 | alcance, mais pesada |
+| Elesis | Montante | 1d12 | espada grande de duas mãos |
+| Elesis | Sabres | 1d6 | par de lâminas leves |
+| Lire | Arco | 1d8 | arma de precisão padrão |
+| Lire | Bestas | 1d6 | dupla empunhadura, tipo adagas/sabres |
+| Lire | Balista | 1d12 | arma de cerco, a mais pesada |
+| Lire | Gakkung | 1d6 | arco tradicional, mais leve/ágil |
+| Arme | Cetro | 1d8 | foco arcano genérico |
+| Arme | Pote | 1d6 | arremesso alquímico, leve e imprevisível |
+| Arme | Lâmpada | 1d8 | foco médio |
+| Arme | Cajado | 1d10 | canalização pesada de duas mãos |
+| Lass | Adagas | 1d4 | par leve, identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
+| Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga |
+| Lass | Garras | 1d6 | par leve, parecido com Adagas |
+| Lass | Katana | 1d10 | lâmina única, mais poderosa que a alfange |
+
+*(Em construção — as demais armas da lista completa de personagens ainda não foram avaliadas.)*
 
 ## Espada
 
@@ -130,6 +153,46 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
+## Adagas
+
+Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d4**
+
+**Corte Impactante** — *Básica*
+
+*Um corte horizontal rápido, cravado no ponto certo pra desequilibrar o inimigo.*
+
+- **Chave:** [Adagas](../glossario.md#adagas) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d4 de dano
+- **Tier 2 (11–16):** 1d4 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d4 de dano + derruba o alvo
+- **Crítico:** dano máximo (4) + 1d4 extra, e derruba o alvo
+
+**Fúria Fatal** — *Avançada*
+
+*Um golpe imprevisível — às vezes de raspão, às vezes fatal.*
+
+- **Chave:** [Adagas](../glossario.md#adagas) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d4 de dano
+- **Tier 2 (11–16):** 2d4 de dano
+- **Tier 3 (≥17):** 4d4 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo do 4d4 (16) + 4d4 extra, e Sangrando
+
+**Golpe Final** — *Especial*
+
+*Recua num salto enquanto crava lâminas certeiras no chão, longe do alcance de contra-ataques.*
+
+- **Chave:** [Adagas](../glossario.md#adagas) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor da posição original do usuário
+- **Alcance do recuo:** até o valor de Movimento do personagem, em casas — o usuário se desloca pra trás, saindo da área afetada
+- **Tier 1 (≤10):** 1d4 de dano em cada alvo
+- **Tier 2 (11–16):** 1d4 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d4 de dano + derruba cada alvo
+- **Crítico:** dano máximo (4) + 1d4 extra em todos, e derruba cada alvo
+
 ## Resolução de Ataque
 
 **Acerto:** d20 + Atributo relevante (ver Tipos de Ataque abaixo). Armas básicas não concedem bônus de Acerto.
@@ -139,6 +202,12 @@ Dano: **1d8**
 Um ataque é resolvido como **d20 + Atributo vs Defesa do alvo**. Igualar ou superar a Defesa é acerto.
 
 **Crítico (20 natural):** dano máximo do dado + mais uma rolagem normal do mesmo dado.
+
+### Armas Finesse
+
+Algumas armas leves e ágeis são marcadas como **Finesse**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Agilidade** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
+
+Armas Finesse até agora: **Adagas**.
 
 ## Tipos de Ataque
 

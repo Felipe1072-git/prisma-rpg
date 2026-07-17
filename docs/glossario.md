@@ -32,6 +32,16 @@ Arma de pontaria, dano 1d8. Ver [Arsenal → Arco](jogador/arsenal.md#arco).
 
 Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cetro](jogador/arsenal.md#cetro).
 
+### Adagas
+
+Arma marcial Finesse, dano 1d4. Ver [Arsenal → Adagas](jogador/arsenal.md#adagas).
+
+## Propriedades de Arma
+
+### Finesse
+
+O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver [Arsenal → Armas Finesse](jogador/arsenal.md#armas-finesse).
+
 ## Grupos de Habilidade
 
 ### Marciais
