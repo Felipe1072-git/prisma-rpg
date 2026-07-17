@@ -6,7 +6,7 @@ Armas a curta distância e combate corpo a corpo.
 
 ## Habilidades Gerais
 
-**Fúria da Lâmina**
+**Caminho da Espada**
 
 *A mente se aquieta, e só resta a fúria — cada golpe mais selvagem que o anterior.*
 

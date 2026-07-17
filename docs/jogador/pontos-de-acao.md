@@ -26,6 +26,6 @@ Habilidades de arma sempre custam PA conforme o tier (ver [Arsenal](arsenal.md))
 |---|---|---|
 | ◈ (1) | Efeito instantâneo/reativo — buff rápido, defesa, gesto único | Escudo Mágico |
 | ◈◈ (2) | Conjuração padrão — a maioria dos ataques/efeitos de alvo único ou área pequena | Antigravidade, Cura, Petrificar, Relâmpago |
-| ◈◈◈ (3) | Domina o turno inteiro — grandes áreas, invocações, ultimates | Fúria da Lâmina, Dança Élfica, Chuva de Meteoros, Raios e Relâmpagos |
+| ◈◈◈ (3) | Domina o turno inteiro — grandes áreas, invocações, ultimates | Caminho da Espada, Dança Élfica, Chuva de Meteoros, Raios e Relâmpagos |
 
 Uma habilidade Suprema em Mana pode, em teoria, custar só ◈◈ se for um efeito rápido de gatilhar — a força está no efeito, não no tempo de execução.

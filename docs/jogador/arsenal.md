@@ -43,7 +43,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 
 Dano: **1d8**
 
-**Golpe Certeiro** — *Básica*
+**Corte Incandescente** — *Básica*
 
 *Um golpe preciso e brutal, direto ao ponto fraco do inimigo.*
 
@@ -54,7 +54,7 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
 - **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
 
-**Onda de Aço** — *Avançada*
+**Espada Flamejante** — *Avançada*
 
 *Um giro completo da lâmina espalha uma onda cortante por todos ao redor.*
 
@@ -65,7 +65,7 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
-**Impacto Aéreo** — *Especial*
+**Crítico X** — *Especial*
 
 *O guerreiro salta e desaba sobre o chão como um meteoro de aço.*
 

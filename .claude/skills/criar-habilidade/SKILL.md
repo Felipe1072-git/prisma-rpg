@@ -22,7 +22,7 @@ O CLAUDE.md do projeto proíbe escrever conteúdo de jogo em `docs/` sem aprova�
 2. **Pergunte o que não é óbvio.** Se o atributo, o grupo, um valor numérico ou uma escolha de design não tiver uma resposta clara a partir do que já existe no projeto, use `AskUserQuestion` em vez de decidir sozinho. É melhor perguntar demais do que inventar uma regra que o usuário depois tem que desfazer.
 3. **Só grave depois do "pode gravar" / aprovação explícita.** Mostre o preview, espere confirmação, então edite o arquivo.
 
-Se a habilidade for inspirada numa obra (anime, filme, jogo — Grand Chase é a referência usada até agora), pode pesquisar a fonte pra entender o conceito, mas o nome e a mecânica final precisam ser **originais**. No chat, parafraseie o conceito da fonte em 1-2 frases — nunca reproduza texto longo dela.
+Se a habilidade for inspirada numa obra (anime, filme, jogo — Grand Chase é a referência usada até agora), pode pesquisar a fonte pra entender o conceito. O usuário prefere usar o **nome original da habilidade/personagem-fonte** quando existir um bom (ficou "bem mais legal" segundo ele, e foi o que aconteceu com Lire/Arme/Lass — só a Elesis ficou pra trás com nomes genéricos no início da sessão, e depois precisou ser corrigida). A **mecânica e os números**, esses sim precisam ser originais — desenhados a partir do conceito, não copiados de uma versão em vídeo game com números totalmente diferentes de contexto. No chat, parafraseie o conceito da fonte em 1-2 frases — nunca reproduza texto longo dela.
 
 ## A Ficha de Habilidade
 
