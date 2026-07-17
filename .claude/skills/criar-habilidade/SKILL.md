@@ -50,6 +50,8 @@ O teste é **d20 + Atributo**. Os tiers são:
 
 **Habilidades sem teste de ataque não precisam de tiers.** Um buff puro (ex: um escudo de valor fixo) ou um efeito automático (ex: uma habilidade Suprema que causa dano inevitável, sem chance de esquiva) pode pular direto pra um campo **Efeito** único, sem tabela de tiers — porque não existe rolagem cujo resultado varie o efeito. Isso é uma escolha de design válida, não um campo esquecido; só não abuse dela pra fugir de decidir números.
 
+**Nem todo tier precisa escalar dano/força.** Pra efeitos binários (funciona ou não funciona — reviver um aliado é o exemplo até agora), os 4 degraus dos tiers ainda se aplicam, mas como **pass/fail com gravidade crescente**: Tier 1 pode ser uma falha pior que Tier 2 (ex: "o espírito se perde pra sempre" vs "ainda dá pra tentar de novo"), e só Tier 3/Crítico produzem sucesso de fato. Use esse padrão quando o efeito não faz sentido em "meio-sucesso" (não dá pra reviver alguém "um pouco").
+
 ## Chave — e por que ela precisa ser um link
 
 Toda habilidade deve linkar seus termos pro [Glossário](../../docs/glossario.md), pra funcionar como navegação cruzada quando o site for publicado.
