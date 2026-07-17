@@ -118,6 +118,8 @@ Isso é uma decisão de design deliberada, ligada ao fato de o Prisma RPG não t
 
 Os feitiços temáticos (fogo, cura, controle mental, o que for) **não** vivem no Arsenal — vivem soltos nos grupos de Habilidades (Mágicas por Elemento, Buff, Debuff, Suporte etc.), disponíveis pra qualquer personagem, com qualquer arma, sem lock algum. Se o usuário pedir uma habilidade nova claramente mágica/temática, ela quase certamente é uma "Habilidade Geral" de grupo, não uma habilidade de arma.
 
+**Essa regra vale pra QUALQUER arma, não só armas mágicas.** Descobrimos isso tarde (Espada Flamejante e Onda de Chamas da Lâmina nasceram com efeito elemental — fogo, energia sombria — travado numa arma puramente física, e tivemos que corrigir depois). Habilidades de arma devem ser sempre **mundanas**: técnica, força, momento, peso — coisa que qualquer wielder daquela arma consegue fazer treinando, sem precisar de nenhuma afinidade mágica. Se a ideia pra uma habilidade de arma envolve fogo, gelo, energia sombria, cura, ou qualquer efeito claramente elemental/arcano/divino, ela é uma habilidade geral de Mágicas por Elemento (ou Buff/Debuff/Suporte), e a arma ganha uma substituta mundana no lugar. Habilidades gerais "Especial" de grupo com flavor grandioso (espadas fantasmas, pilares de energia) ainda podem ficar em Marciais/Pontaria contanto que usem `dado de dano da arma equipada` e Atributo físico (Força/Agilidade) — a linha é: precisa de Inteligência/Sabedoria pra fazer sentido? Então é magia, vai pra Mágicas por Elemento.
+
 ## Onde a habilidade mora
 
 - Habilidade de arma → `docs/jogador/arsenal.md`, na seção `## NomeDaArma`

@@ -158,3 +158,15 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
 - **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo
+
+**Extinção da Alma**
+
+*Um pilar de energia se ergue do chão, arrastando todos os inimigos próximos pelos ares.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** 8 casas | **Alvos:** todas as criaturas em 3 casas de raio de um ponto
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1x dado de dano + Sangrando + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, Sangrando, e derruba cada alvo

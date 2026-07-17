@@ -51,6 +51,15 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Efeito:** por 2 rodadas, o usuário ganha +1d4 de dano em ataques desarmados e +2 de Movimento, mas só pode usar ataques físicos e Habilidades Marciais enquanto durar.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
 
+**Fúria Imortal**
+
+*Seis séculos de batalhas convergem num único instante — o corpo se torna quase indestrutível.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário causa +1d4 de dano extra em ataques corpo a corpo e reduz em 2 o dano recebido (mínimo 1).
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
 **Hora da Dança**
 
 *Uma melodia contagiante ergue o ânimo de todos ao redor, e os golpes ficam mais certeiros.*

@@ -52,6 +52,10 @@ Arma de pontaria, dano 1d6. Ver [Arsenal → Chakram](jogador/arsenal.md#chakram
 
 Arma marcial, dano 1d6. Ver [Arsenal → Manopla](jogador/arsenal.md#manopla).
 
+### Lâmina
+
+Arma marcial, dano 1d8. Ver [Arsenal → Lâmina](jogador/arsenal.md#lâmina).
+
 ## Propriedades de Arma
 
 ### Finesse
@@ -122,4 +126,8 @@ Ver [Mágicas por Elemento → Gelo](habilidades/magicas-elementais.md#gelo).
 
 Ver [Mágicas por Elemento → Raio](habilidades/magicas-elementais.md#raio).
 
-*(Sombras, Luz e outros elementos ainda sem habilidades — a criar)*
+### Sombras
+
+Ver [Mágicas por Elemento → Sombras](habilidades/magicas-elementais.md#sombras).
+
+*(Luz e outros elementos ainda sem habilidades — a criar)*

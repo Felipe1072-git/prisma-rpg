@@ -2,6 +2,8 @@
 
 Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 
+**Regra importante:** efeitos elementais/mágicos (fogo, energia sombria, gelo etc.) nunca ficam travados numa arma específica, mesmo quando a arma é física — sempre vivem aqui como habilidades gerais. Ver [skill criar-habilidade](../../.claude/skills/criar-habilidade/SKILL.md) pro racional completo.
+
 *(Em construção — lista final de elementos a confirmar com o usuário.)*
 
 ## Terra
@@ -82,3 +84,27 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alcance:** 8 casas (onde o totem surge)
 - **Efeito:** o totem causa 1d6 de dano automático a 1 alvo hostil aleatório em 3 casas de raio dele imediatamente ao ser invocado, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
+
+**Espada Flamejante**
+
+*Um giro flamejante da lâmina em chamas espalha uma onda cortante por todos ao redor.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 1 casa de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + o chão pega fogo, virando Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
+- **Tier 3 (≥17):** 1d8 de dano + Terreno Difícil + cada alvo fica Sangrando (queimaduras, perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Terreno Difícil, e Sangrando
+
+## Sombras
+
+**Onda de Chamas**
+
+*Uma onda de energia sombria rasga o chão, arremessando tudo em seu caminho pelos ares.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo

@@ -56,7 +56,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ⬜ | Jin | Tonfas | 1d6 | par leve |
 | ⬜ | Jin | Bastão | 1d8 | arma de haste média |
 | ⬜ | Jin | Vajras | 1d8 | arma mística, foco médio |
-| ⬜ | Sieghart | Lâmina | 1d8 | espada padrão |
+| ✅ | Sieghart | Lâmina | 1d8 | espada padrão |
 | ⬜ | Sieghart | Lança e Espada | 1d10 | combo de duas armas, mais versátil e pesado |
 | ⬜ | Sieghart | Espadas | 1d6 | par de lâminas |
 | ⬜ | Sieghart | Soluna | 1d10 | lâmina lendária, arma final |
@@ -99,16 +99,16 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
 - **Crítico:** dano máximo (8) + 1d8 extra, Sangrando, e derruba o alvo
 
-**Espada Flamejante** — *Avançada*
+**Redemoinho de Aço** — *Avançada*
 
-*Um giro completo da lâmina espalha uma onda cortante por todos ao redor.*
+*Um giro completo da lâmina, cortando tudo que estiver ao alcance.*
 
 - **Chave:** [Espada](../glossario.md#espada) - [Avançada](../glossario.md#avançada)
 - **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + o chão pega fogo, virando Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
-- **Tier 3 (≥17):** 1d8 de dano + Terreno Difícil + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, Terreno Difícil, e Sangrando
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
 
 **Crítico X** — *Especial*
 
@@ -393,6 +393,45 @@ Dano: **1d6**
 - **Tier 2 (11–16):** 1d6 de dano + derruba o alvo
 - **Tier 3 (≥17):** 1d6 de dano + derruba o alvo + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra + Atordoado
+
+## Lâmina
+
+*Habilidades de arma são sempre mundanas — técnica e força física, nunca elemento/magia inata (ver [Onda de Chamas](../habilidades/magicas-elementais.md#sombras), que representa a mesma fantasia como feitiço geral).*
+
+Dano: **1d8**
+
+**Lâmina Esmagadora** — *Básica*
+
+*Um giro completo da lâmina antes de descer com um golpe brutal.*
+
+- **Chave:** [Lâmina](../glossario.md#lâmina) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Corte Rasante** — *Avançada*
+
+*A lâmina raspa o chão numa investida rasteira, cortando as pernas de quem estiver no caminho.*
+
+- **Chave:** [Lâmina](../glossario.md#lâmina) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo
+
+**Punição Ascendente** — *Especial*
+
+*Um corte ascendente gigantesco, executado duas vezes no ar — a distância pode ser ajustada em pleno voo.*
+
+- **Chave:** [Lâmina](../glossario.md#lâmina) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** até o valor de Movimento, em casas (ajustável em pleno ataque) | **Alvos:** 1 criatura, atingida 2 vezes
+- **Tier 1 (≤10):** 1d8 de dano por acerto
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele) por acerto
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba (aplicado no 2º acerto)
+- **Crítico:** dano máximo (8) + 1d8 extra por acerto, Sangrando, e derruba
 
 ## Resolução de Ataque
 
