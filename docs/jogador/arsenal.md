@@ -20,7 +20,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 
 **Nomes de personagem são referência temporária de inspiração** (não vão pro conteúdo final — remover essa coluna quando todas as armas tiverem habilidades escritas). Dados de armas ainda não pesquisadas são só "vibe" baseada no nome/arquétipo, ajustáveis quando forem trabalhadas de verdade.
 
-**Por decisão consciente, só a arma da 1ª classe de cada personagem ganha habilidades escritas por enquanto** — as demais armas (2ª/3ª/4ª classe) ficam com o dado estimado mas sem kit próprio, já que cada uma exigiria o mesmo tanto de trabalho que uma arma inteira nova.
+**Elesis→Mari (os primeiros 10 personagens) só tiveram a arma da 1ª classe coberta** — decisão consciente de ritmo, não retroativa. **A partir do Dio, toda arma das 4 classes de cada personagem é coberta** (ou, se as classes compartilharem a mesma arma, ela vira uma única entrada genérica no Arsenal).
 
 | Status | Personagem | Arma | Dado | Nota |
 |---|---|---|---|---|
@@ -64,7 +64,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ⬜ | Mari | Revólver | 1d8 | arma de fogo de precisão |
 | ⬜ | Mari | Marreta | 1d12 | a mais pesada do arsenal dela |
 | ⬜ | Mari | WDW (Wing Drive Weapon) | 1d10 | aparato mecânico especial |
-| ⬜ | Dio | Deathstar (Foice) | 1d10 | foice pesada |
+| ✅ | Dio | Foice | 1d10 | foice pesada |
 | ⬜ | Zero | Grandark | 1d12 | espada imensa e senciente |
 | ⬜ | Rey | Endless | 1d10 | arma única, poder moderado-alto |
 | ⬜ | Lupus | Scarlet | 1d8 | espada padrão |
@@ -471,6 +471,45 @@ Dano: **1d6**
 - **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Foice
+
+*Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit demoníaco do Dio virou habilidades gerais espalhadas por Marciais, Debuff, Mágicas Básicas e Mágicas por Elemento.*
+
+Dano: **1d10**
+
+**Corte da Foice** — *Básica*
+
+*Um corte largo e certeiro, guiado pelo peso da lâmina curva.*
+
+- **Chave:** [Foice](../glossario.md#foice) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Ceifar** — *Avançada*
+
+*Um giro amplo da foice, ceifando tudo ao alcance como trigo maduro.*
+
+- **Chave:** [Foice](../glossario.md#foice) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d10 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, Sangrando, e derruba cada alvo
+
+**Golpe da Colheita** — *Especial*
+
+*Um golpe final, pesado e implacável, como o fim de um ciclo.*
+
+- **Chave:** [Foice](../glossario.md#foice) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
+- **Tier 3 (≥17):** 1d10 de dano + Marcado + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, Marcado, e derruba o alvo
 
 ## Resolução de Ataque
 

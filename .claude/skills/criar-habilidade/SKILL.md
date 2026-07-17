@@ -106,6 +106,17 @@ A exceção são **habilidades dedicadas a Reação** — o texto diz explicitam
 
 Ao criar uma habilidade dedicada a Reação: escreva `**Nome** *(usada como Reação)*` no título, e no campo Custo use `X Mana | 0 PA (habilidade dedicada a Reação)` em vez do formato normal com ◈.
 
+## Escopo por personagem: todas as classes, a partir do Dio
+
+Os primeiros 10 personagens (Elesis→Mari) só tiveram a arma/kit da **1ª classe** coberto, por decisão consciente de ritmo — isso não é retroativo, não precisa completá-los. **A partir do Dio, o padrão virou cobrir as 4 classes completas de cada personagem** (todas as habilidades nomeadas de cada árvore de talentos/kit, não só uma seleção). Isso gera bem mais habilidades por personagem (o Dio sozinho gerou 23), o que é intencional — o usuário quer volume.
+
+Na prática:
+- Pesquise a página de cada uma das 4 classes do personagem (e a árvore de talentos de cada uma, se existir — geralmente em `Árvore de Talentos do <Classe>`), não só a 1ª.
+- Se as classes compartilham a mesma arma (caso do Dio, que usa "Deathstar" nas 4 classes), ela vira **uma única entrada no Arsenal**, com 3 habilidades mundanas originais — não recrie a arma pra cada classe.
+- Se uma habilidade suprema/especial se repete idêntica entre classes (também o caso do Dio com "Império Sombrio"), trate como **uma única habilidade geral**, não duplique.
+- Nomes de talento redundantes entre si (várias variações de "golpe + lança pro ar", por exemplo) podem virar habilidades gerais distintas mesmo assim — diferencie pelos efeitos de tier (ver menu de efeitos acima), não precisa inventar uma mecânica nova pra cada uma.
+- Pode pular nós de talento puramente passivos/incrementais (bônus de dano genérico, redução de intervalo, etc.) — foque nas habilidades **ativas e nomeadas**.
+
 ## Golpes desarmados não travam em arma nenhuma
 
 Se o moveset do personagem-fonte é literalmente socos e chutes (sem depender de segurar nada — caso da Amy e do Jin), essas habilidades vão pra **Habilidades Gerais de Marciais** usando o [Dano Desarmado](../../docs/habilidades/marciais.md#dano-desarmado) (escala por nível, não por arma), não pra uma arma. É a mesma lógica de "arma mágica não trava feitiço": ninguém deveria precisar equipar um objeto específico só pra usar um soco.

@@ -120,6 +120,83 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo
 
+**Choque Maligno**
+
+*Um feitiço comprimido é liberado num único instante, explodindo com violência.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Fenda Profunda**
+
+*Magia se acumula perigosamente antes de explodir num estrondo devastador.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 8 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Zona Mortal**
+
+*O chão se torna um território amaldiçoado, ferindo qualquer um que ouse atravessá-lo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** área de 3 casas de raio
+- **Efeito:** por 2 rodadas, a área vira Terreno Difícil, e qualquer criatura hostil que termine o turno nela sofre 1d6 de dano automático
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Aparar**
+
+*Uma lâmina espectral é fincada no chão a distância, ferindo continuamente quem chegar perto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
+- **Efeito:** por 2 rodadas, qualquer criatura hostil que termine o turno na área sofre 1d6 de dano automático
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Brilho Caótico**
+
+*Uma esfera com espinhos ocultos paira no ar, ferindo tudo ao seu redor continuamente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Efeito:** por 2 rodadas, no início de cada rodada, cada criatura hostil na área sofre 1d6 de dano automático
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Esfera das Trevas**
+
+*Uma pressão obscura e invisível esmaga os inimigos próximos, drenando sua força aos poucos.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Efeito:** por 2 rodadas, no início de cada rodada, cada criatura hostil na área sofre 1d4 de dano automático e sofre -1 no dano de ataques enquanto permanecer na área
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Corte Caótico**
+
+*O poder demoníaco mais puro rasga a realidade numa explosão mágica avassaladora.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 10 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
+
+**Império Sombrio** *(Supremo)*
+
+*Os poderes do submundo são invocados, causando dano contínuo aos inimigos próximos antes de se libertarem numa onda de choque que varre o chão.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
+- **Efeito:** 1d8 de dano automático imediatamente e no início de cada uma das 2 rodadas seguintes (3 aplicações no total). Ao final da 3ª aplicação, uma onda de choque empurra 2 casas e derruba todas as criaturas hostis ainda na área.
+
 ## Luz
 
 **Raio Laser**

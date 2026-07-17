@@ -170,3 +170,63 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** 1x dado de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
 - **Tier 3 (≥17):** 1x dado de dano + Sangrando + derruba cada alvo
 - **Crítico:** dado máximo + 1x dado extra em todos, Sangrando, e derruba cada alvo
+
+**Foice Mortal**
+
+*Um combo contínuo de cortes, avançando em linha reta e ceifando tudo à frente.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** cone de 3 casas à frente
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1x dado de dano + Sangrando + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, Sangrando, e derruba cada alvo
+
+**Estocada**
+
+*Uma investida direta, perfurando o alvo com força total.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano
+- **Tier 2 (11–16):** 1x dado de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
+- **Tier 3 (≥17):** 1x dado de dano + Marcado + derruba o alvo
+- **Crítico:** dado máximo + 1x dado extra, Marcado, e derruba o alvo
+
+**Carga com Lança**
+
+*Um avanço rápido e brutal, arremessando o corpo inteiro contra o alvo.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1x dado de dano + derruba o alvo
+- **Crítico:** dado máximo + 1x dado extra, e derruba o alvo
+
+**Empalar**
+
+*O alvo é erguido do chão e atingido por mais dois cortes cruzados antes de cair.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano
+- **Tier 2 (11–16):** 1x dado de dano + derruba o alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba o alvo + alvo perde a próxima Reação
+- **Crítico:** dado máximo + 1x dado extra + derruba o alvo + perde Reação
+
+**Destruição**
+
+*O poder demoníaco mais puro se concentra nas garras, explodindo num dano avassalador.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
+- **Tier 1 (≤10):** 2x dado de dano
+- **Tier 2 (11–16):** 2x dado de dano + derruba o alvo
+- **Tier 3 (≥17):** 2x dado de dano + derruba o alvo + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dado máximo (2x) + 1x dado extra + derruba + Atordoado

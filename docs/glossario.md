@@ -60,6 +60,10 @@ Arma marcial, dano 1d8. Ver [Arsenal → Lâmina](jogador/arsenal.md#lâmina).
 
 Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Manual](jogador/arsenal.md#manual).
 
+### Foice
+
+Arma marcial pesada, dano 1d10. Ver [Arsenal → Foice](jogador/arsenal.md#foice).
+
 ## Propriedades de Arma
 
 ### Finesse
