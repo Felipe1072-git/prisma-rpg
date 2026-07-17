@@ -45,6 +45,17 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 1d8 de dano + alvo perde a próxima Ação Básica e Reação
 - **Crítico:** dano máximo (8) + 1d8 extra + efeito do Tier 3 em todos
 
+**Campo Eletrônico**
+
+*Uma granada mágica é lançada a curta distância, emitindo um raio poderoso antes de explodir violentamente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 4 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo perde a próxima Ação Básica e Reação
+- **Crítico:** dano máximo (8) + 1d8 extra em todos + efeito do Tier 3 em todos
+
 **Raios e Relâmpagos** *(Supremo)*
 
 *O céu se enche de fúria elétrica, e por um instante, ninguém está seguro em lugar nenhum do campo.*
@@ -108,3 +119,16 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
 - **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo
+
+## Luz
+
+**Raio Laser**
+
+*Um construto surge do nada e dispara um laser caótico em linha reta, atingindo tudo em seu longo alcance.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 10 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo

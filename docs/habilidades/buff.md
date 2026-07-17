@@ -60,6 +60,15 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Efeito:** por 2 rodadas, o usuário causa +1d4 de dano extra em ataques corpo a corpo e reduz em 2 o dano recebido (mínimo 1).
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
 
+**Poder Dinâmico** *(Supremo)*
+
+*Um surto de energia redireciona o potencial interno do conjurador, turbinando cada habilidade lançada em seguida.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, todas as habilidades do usuário causam +1d6 de dano extra.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
 **Hora da Dança**
 
 *Uma melodia contagiante ergue o ânimo de todos ao redor, e os golpes ficam mais certeiros.*

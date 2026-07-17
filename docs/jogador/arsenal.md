@@ -60,7 +60,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ⬜ | Sieghart | Lança e Espada | 1d10 | combo de duas armas, mais versátil e pesado |
 | ⬜ | Sieghart | Espadas | 1d6 | par de lâminas |
 | ⬜ | Sieghart | Soluna | 1d10 | lâmina lendária, arma final |
-| ⬜ | Mari | Manual | 1d6 | grimório leve |
+| ✅ | Mari | Manual | 1d6 | grimório leve |
 | ⬜ | Mari | Revólver | 1d8 | arma de fogo de precisão |
 | ⬜ | Mari | Marreta | 1d12 | a mais pesada do arsenal dela |
 | ⬜ | Mari | WDW (Wing Drive Weapon) | 1d10 | aparato mecânico especial |
@@ -432,6 +432,45 @@ Dano: **1d8**
 - **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele) por acerto
 - **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba (aplicado no 2º acerto)
 - **Crítico:** dano máximo (8) + 1d8 extra por acerto, Sangrando, e derruba
+
+## Manual
+
+Armas mágicas como o Manual não travam feitiços específicos — suas 3 habilidades são canalizações genéricas de magia-tecnológica calculada, sem tema fixo.
+
+Dano: **1d6**
+
+**Fórmula Certeira** — *Básica*
+
+*Uma fórmula mágica se materializa na página e dispara como um projétil certeiro.*
+
+- **Chave:** [Manual](../glossario.md#manual) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Detonação Calculada** — *Avançada*
+
+*Uma sequência de símbolos se acende e detona num raio perfeitamente calculado.*
+
+- **Chave:** [Manual](../glossario.md#manual) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
+- **Tier 3 (≥17):** 1d6 de dano + Marcado + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Marcado, e derruba cada alvo
+
+**Construto Temporário** — *Especial*
+
+*Um construto de energia se materializa por um instante, atacando com precisão mecânica antes de se desfazer.*
+
+- **Chave:** [Manual](../glossario.md#manual) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Resolução de Ataque
 

@@ -56,6 +56,10 @@ Arma marcial, dano 1d6. Ver [Arsenal → Manopla](jogador/arsenal.md#manopla).
 
 Arma marcial, dano 1d8. Ver [Arsenal → Lâmina](jogador/arsenal.md#lâmina).
 
+### Manual
+
+Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Manual](jogador/arsenal.md#manual).
+
 ## Propriedades de Arma
 
 ### Finesse
@@ -130,4 +134,8 @@ Ver [Mágicas por Elemento → Raio](habilidades/magicas-elementais.md#raio).
 
 Ver [Mágicas por Elemento → Sombras](habilidades/magicas-elementais.md#sombras).
 
-*(Luz e outros elementos ainda sem habilidades — a criar)*
+### Luz
+
+Ver [Mágicas por Elemento → Luz](habilidades/magicas-elementais.md#luz).
+
+*(Outros elementos ainda sem habilidades — a criar)*
