@@ -12,6 +12,7 @@ Esta skill existe porque o padrão de habilidades do Prisma RPG foi fixado com b
 - [docs/jogador/arsenal.md](../../docs/jogador/arsenal.md) — armas existentes e suas 3 habilidades
 - [docs/jogador/mana.md](../../docs/jogador/mana.md) — Custo por Tier de Poder
 - [docs/glossario.md](../../docs/glossario.md) — todo termo que pode virar um link de Chave
+- [docs/habilidades/marciais.md](../../docs/habilidades/marciais.md) — tabela de Dano Desarmado (pra habilidades de soco/chute sem arma, escala por nível)
 - [CLAUDE.md](../../CLAUDE.md) — regras gerais do projeto (nunca inventar sem consultar, sempre AskUserQuestion pra escolhas)
 
 ## O processo, não pule etapas
@@ -23,6 +24,8 @@ O CLAUDE.md do projeto proíbe escrever conteúdo de jogo em `docs/` sem aprova�
 3. **Só grave depois do "pode gravar" / aprovação explícita.** Mostre o preview, espere confirmação, então edite o arquivo.
 
 Se a habilidade for inspirada numa obra (anime, filme, jogo — Grand Chase é a referência usada até agora), pode pesquisar a fonte pra entender o conceito. O usuário prefere usar o **nome original da habilidade/personagem-fonte** quando existir um bom (ficou "bem mais legal" segundo ele, e foi o que aconteceu com Lire/Arme/Lass — só a Elesis ficou pra trás com nomes genéricos no início da sessão, e depois precisou ser corrigida). A **mecânica e os números**, esses sim precisam ser originais — desenhados a partir do conceito, não copiados de uma versão em vídeo game com números totalmente diferentes de contexto. No chat, parafraseie o conceito da fonte em 1-2 frases — nunca reproduza texto longo dela.
+
+**As 3 habilidades de arma são temáticas da ARMA, não necessariamente do personagem-fonte.** Ficou claro no caso da Amy: o moveset dela na fonte é todo chutes/socos (desarmado), nada a ver com o Chakram que ela empunha. Se o moveset do personagem não combina com a arma dele, é válido (e melhor) buscar outra referência SÓ pra desenhar as 3 habilidades de arma — pode ser outra mídia (ex: o Chakram acabou inspirado na Xena, não em Grand Chase) — e usar o kit inteiro do personagem-fonte como habilidades gerais de grupo. Pergunte ao usuário quando não estiver óbvio se o kit combina com a arma ou não.
 
 ## A Ficha de Habilidade
 
@@ -51,6 +54,14 @@ O teste é **d20 + Atributo**. Os tiers são:
 **Habilidades sem teste de ataque não precisam de tiers.** Um buff puro (ex: um escudo de valor fixo) ou um efeito automático (ex: uma habilidade Suprema que causa dano inevitável, sem chance de esquiva) pode pular direto pra um campo **Efeito** único, sem tabela de tiers — porque não existe rolagem cujo resultado varie o efeito. Isso é uma escolha de design válida, não um campo esquecido; só não abuse dela pra fugir de decidir números.
 
 **Nem todo tier precisa escalar dano/força.** Pra efeitos binários (funciona ou não funciona — reviver um aliado é o exemplo até agora), os 4 degraus dos tiers ainda se aplicam, mas como **pass/fail com gravidade crescente**: Tier 1 pode ser uma falha pior que Tier 2 (ex: "o espírito se perde pra sempre" vs "ainda dá pra tentar de novo"), e só Tier 3/Crítico produzem sucesso de fato. Use esse padrão quando o efeito não faz sentido em "meio-sucesso" (não dá pra reviver alguém "um pouco").
+
+**Varie o efeito de Tier 2/3 — não caia sempre em "empurra 1 casa" / "derruba".** Isso já virou um padrão repetitivo nas primeiras habilidades (Espada, Arco, Cetro, Adagas, Machado, Gládio todas usavam a mesma fórmula) e o usuário pediu pra diversificar. Pra Tier 1, dano puro (ou o efeito central da habilidade) costuma bastar — é o Tier 2/3 que precisa de identidade própria. Um menu de riders pra variar, escolhendo o que combina com o conceito da habilidade:
+- **Condição negativa:** Sangrando (perde Xd de Vida no início do próximo turno), Lento (metade do Movimento), Petrificado/Paralisado/Atordoado (não pode agir), perde a próxima Ação Básica/Reação
+- **Controle de campo:** Terreno Difícil (custa o dobro de Movimento), empurra/puxa, prende no lugar
+- **Suporte a aliados:** marca o alvo (próximo ataque aliado tem vantagem), concede Escudo ao usuário
+- **Clássico:** empurra / derruba (ainda válido — só não usar em toda habilidade nova)
+
+Não precisa forçar os 4 riders numa habilidade só; 1-2 bem escolhidos, coerentes com o conceito (um golpe cortante sangra, um golpe de área congela o chão, um golpe de impacto derruba), valem mais que variedade por variedade.
 
 ## Chave — e por que ela precisa ser um link
 
@@ -85,7 +96,15 @@ O custo em Mana é um eixo **independente** do custo em Pontos de Ação — um 
 |---|---|---|
 | ◈ (1) | Efeito instantâneo/reativo — buff rápido, defesa, gesto único | Escudo Mágico |
 | ◈◈ (2) | Conjuração padrão — a maioria dos ataques/efeitos de alvo único ou área pequena | Antigravidade, Cura, Petrificar, Relâmpago |
-| ◈◈◈ (3) | Domina o turno inteiro — grandes áreas, invocações, ultimates | Fúria da Lâmina, Dança Élfica, Chuva de Meteoros, Raios e Relâmpagos |
+| ◈◈◈ (3) | Domina o turno inteiro — grandes áreas, invocações, ultimates | Caminho da Espada, Dança Élfica, Chuva de Meteoros, Raios e Relâmpagos |
+
+## Habilidades usadas como Reação
+
+O sistema é deliberadamente livre aqui: **qualquer Habilidade pode ser usada como Reação**, fora do turno do personagem, contanto que ele ainda tenha PA sobrando no pool (do turno anterior) pra pagar o custo normal dela — não existe uma lista fechada de "isso pode ser reação, isso não pode".
+
+A exceção são **habilidades dedicadas a Reação** — o texto diz explicitamente "usada como Reação" (ex: Defesa Mágica, Cambalhota) — essas custam **0 PA, só Mana**, e ficam sempre disponíveis mesmo se o personagem já gastou todo o PA no próprio turno. Isso evita que gastar PA atacando deixe o personagem sem nenhuma defesa reativa.
+
+Ao criar uma habilidade dedicada a Reação: escreva `**Nome** *(usada como Reação)*` no título, e no campo Custo use `X Mana | 0 PA (habilidade dedicada a Reação)` em vez do formato normal com ◈.
 
 ## Armas mágicas são genéricas — não travam feitiços
 
@@ -115,7 +134,7 @@ Os feitiços temáticos (fogo, cura, controle mental, o que for) **não** vivem 
 De `docs/jogador/arsenal.md`, a Habilidade Básica da Espada:
 
 ```markdown
-**Golpe Certeiro** — *Básica*
+**Corte Incandescente** — *Básica*
 
 *Um golpe preciso e brutal, direto ao ponto fraco do inimigo.*
 

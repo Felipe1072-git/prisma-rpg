@@ -44,6 +44,10 @@ Arma marcial pesada, dano 1d12. Ver [Arsenal → Machado](jogador/arsenal.md#mac
 
 Arma marcial Híbrida, dano 1d6. Ver [Arsenal → Gládio](jogador/arsenal.md#gládio).
 
+### Chakram
+
+Arma de pontaria, dano 1d6. Ver [Arsenal → Chakram](jogador/arsenal.md#chakram).
+
 ## Propriedades de Arma
 
 ### Finesse

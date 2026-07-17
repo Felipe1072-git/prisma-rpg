@@ -13,6 +13,15 @@ Cura e apoio a aliados.
 - **Efeito:** cada alvo recupera 2d6 + Sabedoria de Vida
 - *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
 
+**O Amor Está no Ar**
+
+*Uma canção suave preenche o ar, e as feridas dos companheiros começam a fechar aos poucos.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Efeito:** por 3 rodadas, no início de cada rodada, cada alvo recupera 1d4 + Sabedoria de Vida. Se isso trouxer um aliado caído de volta a 1 ou mais pontos de Vida, ele revive automaticamente.
+- *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
+
 **Ressuscitar**
 
 *Um sussurro da natureza convence o espírito a voltar, ainda que por pouco tempo.*

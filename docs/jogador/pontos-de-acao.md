@@ -11,6 +11,10 @@ Cada personagem tem **3 Pontos de Ação (◈◈◈)** por turno.
 | Ataque Básico | ◈ (1) |
 | Reação | ◈ (1) — consome do mesmo pool |
 
+**Qualquer Habilidade pode ser usada como Reação**, fora do seu turno, desde que o personagem ainda tenha PA sobrando no pool (do turno anterior) pra pagar o custo normal dela. O sistema é deliberadamente livre nesse ponto — se o jogador guardou PA, pode reagir com o que quiser, não só com uma lista fixa de "habilidades de reação".
+
+**Habilidades dedicadas a Reação** (o texto diz explicitamente "usada como Reação", ex: Defesa Mágica, Cambalhota) são a exceção: custam **0 PA — só Mana**. Ficam sempre disponíveis como rede de segurança, mesmo se o personagem já gastou todo o PA no próprio turno.
+
 ## Movimento
 
 Movimento base = **3 casas + Agilidade** (valor com sinal).

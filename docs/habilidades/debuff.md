@@ -27,3 +27,14 @@ Criar desvantagens para inimigos ou em testes.
 - **Tier 2 (11–16):** 1d6 de dano + alvo não recupera Vida (de nenhuma fonte) até o fim do próximo turno dele
 - **Tier 3 (≥17):** 1d6 de dano + alvo não recupera Vida até o fim do próximo turno dele, e perde 1d4 de Vida adicional nesse período
 - **Crítico:** dano máximo (6) + 1d6 extra + efeito do Tier 3
+
+**Dança Contagiante** *(Supremo)*
+
+*Uma melodia irresistível toma conta do campo, e os inimigos não conseguem deixar de dançar — vulneráveis a cada segundo que passa.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo não pode usar Ações Básicas nem Habilidades (só Movimento e Reação) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra em todos + efeito do Tier 3 em todos

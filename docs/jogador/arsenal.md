@@ -20,24 +20,26 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 
 **Nomes de personagem são referência temporária de inspiração** (não vão pro conteúdo final — remover essa coluna quando todas as armas tiverem habilidades escritas). Dados de armas ainda não pesquisadas são só "vibe" baseada no nome/arquétipo, ajustáveis quando forem trabalhadas de verdade.
 
+**Por decisão consciente, só a arma da 1ª classe de cada personagem ganha habilidades escritas por enquanto** — as demais armas (2ª/3ª/4ª classe) ficam com o dado estimado mas sem kit próprio, já que cada uma exigiria o mesmo tanto de trabalho que uma arma inteira nova.
+
 | Status | Personagem | Arma | Dado | Nota |
 |---|---|---|---|---|
 | ✅ | Elesis | Espada | 1d8 | arma versátil de uma mão |
-| ✅ | Elesis | Lança | 1d10 | alcance, mais pesada |
-| ✅ | Elesis | Montante | 1d12 | espada grande de duas mãos |
-| ✅ | Elesis | Sabres | 1d6 | par de lâminas leves |
+| ⬜ | Elesis | Lança | 1d10 | alcance, mais pesada |
+| ⬜ | Elesis | Montante | 1d12 | espada grande de duas mãos |
+| ⬜ | Elesis | Sabres | 1d6 | par de lâminas leves |
 | ✅ | Lire | Arco | 1d8 | arma de precisão padrão |
-| ✅ | Lire | Bestas | 1d6 | dupla empunhadura, tipo adagas/sabres |
-| ✅ | Lire | Balista | 1d12 | arma de cerco, a mais pesada |
-| ✅ | Lire | Gakkung | 1d6 | arco tradicional, mais leve/ágil |
+| ⬜ | Lire | Bestas | 1d6 | dupla empunhadura, tipo adagas/sabres |
+| ⬜ | Lire | Balista | 1d12 | arma de cerco, a mais pesada |
+| ⬜ | Lire | Gakkung | 1d6 | arco tradicional, mais leve/ágil |
 | ✅ | Arme | Cetro | 1d8 | foco arcano genérico |
-| ✅ | Arme | Pote | 1d6 | arremesso alquímico, leve e imprevisível |
-| ✅ | Arme | Lâmpada | 1d8 | foco médio |
-| ✅ | Arme | Cajado | 1d10 | canalização pesada de duas mãos |
+| ⬜ | Arme | Pote | 1d6 | arremesso alquímico, leve e imprevisível |
+| ⬜ | Arme | Lâmpada | 1d8 | foco médio |
+| ⬜ | Arme | Cajado | 1d10 | canalização pesada de duas mãos |
 | ✅ | Lass | Adagas | 1d4 | par leve, identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
-| ✅ | Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga |
-| ✅ | Lass | Garras | 1d6 | par leve, parecido com Adagas |
-| ✅ | Lass | Katana | 1d10 | lâmina única, mais poderosa que a alfange |
+| ⬜ | Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga |
+| ⬜ | Lass | Garras | 1d6 | par leve, parecido com Adagas |
+| ⬜ | Lass | Katana | 1d10 | lâmina única, mais poderosa que a alfange |
 | ✅ | Ryan | Machado | 1d12 | machado pesado de duas mãos |
 | ⬜ | Ryan | Lâmina Dupla | 1d6 | par leve, dano vem da velocidade |
 | ⬜ | Ryan | Gadanha | 1d10 | foice pesada de duas mãos |
@@ -46,7 +48,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ⬜ | Ronan | Glaive | 1d10 | arma de haste, alcance |
 | ⬜ | Ronan | Égide | 1d6 | híbrido de escudo, dano baixo compensado por defesa |
 | ⬜ | Ronan | Tirfing | 1d10 | lâmina lendária, arma final |
-| ⬜ | Amy | Chakram | 1d6 | anel de arremesso, leve |
+| ✅ | Amy | Chakram | 1d6 | anel de arremesso, leve |
 | ⬜ | Amy | Violino | 1d6 | arma atípica, dano vem de efeitos |
 | ⬜ | Amy | Báculo | 1d8 | foco mágico médio |
 | ⬜ | Amy | Pandora | 1d10 | artefato único, arma final |
@@ -93,9 +95,9 @@ Dano: **1d8**
 - **Chave:** [Espada](../glossario.md#espada) - [Básica](../glossario.md#básica)
 - **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, Sangrando, e derruba o alvo
 
 **Espada Flamejante** — *Avançada*
 
@@ -104,9 +106,9 @@ Dano: **1d8**
 - **Chave:** [Espada](../glossario.md#espada) - [Avançada](../glossario.md#avançada)
 - **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + o chão pega fogo, virando Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
+- **Tier 3 (≥17):** 1d8 de dano + Terreno Difícil + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Terreno Difícil, e Sangrando
 
 **Crítico X** — *Especial*
 
@@ -131,9 +133,9 @@ Dano: **1d8**
 - **Chave:** [Arco](../glossario.md#arco) - [Básica](../glossario.md#básica)
 - **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
+- **Tier 3 (≥17):** 1d8 de dano + Marcado + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, Marcado, e derruba o alvo
 
 **Chuva de Flechas** — *Avançada*
 
@@ -142,9 +144,9 @@ Dano: **1d8**
 - **Chave:** [Arco](../glossario.md#arco) - [Avançada](../glossario.md#avançada)
 - **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 3 casas de raio do ponto
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + flechas cravadas viram Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
+- **Tier 3 (≥17):** 1d8 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Terreno Difícil, e Lento
 
 **Tempestade de Flechas** — *Especial*
 
@@ -153,9 +155,9 @@ Dano: **1d8**
 - **Chave:** [Arco](../glossario.md#arco) - [Especial](../glossario.md#especial)
 - **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
 
 ## Cetro
 
@@ -181,9 +183,9 @@ Dano: **1d8**
 - **Chave:** [Cetro](../glossario.md#cetro) - [Avançada](../glossario.md#avançada)
 - **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 3 casas de raio do ponto
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo perde a próxima Ação Básica e Reação
+- **Crítico:** dano máximo (8) + 1d8 extra em todos + efeito do Tier 3 em todos
 
 **Explosão Arcana** — *Especial*
 
@@ -232,9 +234,9 @@ Dano: **1d4**
 - **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor da posição original do usuário
 - **Alcance do recuo:** até o valor de Movimento do personagem, em casas — o usuário se desloca pra trás, saindo da área afetada
 - **Tier 1 (≤10):** 1d4 de dano em cada alvo
-- **Tier 2 (11–16):** 1d4 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d4 de dano + derruba cada alvo
-- **Crítico:** dano máximo (4) + 1d4 extra em todos, e derruba cada alvo
+- **Tier 2 (11–16):** 1d4 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d4 de dano + Lento + derruba cada alvo
+- **Crítico:** dano máximo (4) + 1d4 extra em todos, Lento, e derruba cada alvo
 
 ## Machado
 
@@ -269,9 +271,9 @@ Dano: **1d12**
 - **Chave:** [Machado](../glossario.md#machado) - [Especial](../glossario.md#especial)
 - **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha, atingidas até 2 vezes (ida e volta)
 - **Tier 1 (≤10):** 1d12 de dano por acerto
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa por acerto
-- **Tier 3 (≥17):** 1d12 de dano + derruba por acerto
-- **Crítico:** dano máximo (12) + 1d12 extra por acerto, e derruba
+- **Tier 2 (11–16):** 1d12 de dano + Sangrando (perde 1d4 de Vida no início do próximo turno) por acerto
+- **Tier 3 (≥17):** 1d12 de dano + Sangrando + derruba por acerto
+- **Crítico:** dano máximo (12) + 1d12 extra por acerto, Sangrando, e derruba
 
 ## Gládio
 
@@ -309,9 +311,48 @@ Dano: **1d6**
 - **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Inteligência | **Alvos:** até 3 criaturas à escolha, ao alcance corpo a corpo
 - **Efeito adicional:** o usuário pode se mover livremente até seu Movimento em casas durante o ataque, sem gastar PA extra
 - **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e derruba cada alvo
+
+## Chakram
+
+*Habilidades originais inspiradas no clássico chakram de arremesso giratório (não ligadas a nenhum personagem específico de Grand Chase).*
+
+Dano: **1d6**
+
+**Disco Cortante** — *Básica*
+
+*Um disco de lâminas gira pelo ar, corta o alvo, e retorna à mão como se nunca tivesse partido.*
+
+- **Chave:** [Chakram](../glossario.md#chakram) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Ricochete Mortal** — *Avançada*
+
+*O chakram ricocheteia de inimigo a inimigo, cortando a todos antes de voltar à mão.*
+
+- **Chave:** [Chakram](../glossario.md#chakram) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 3 criaturas diferentes, atingidas em sequência
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos neste turno rola com vantagem (rola 2x e fica com o maior)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e vantagem pro próximo ataque aliado
+
+**Círculo da Perdição** — *Especial*
+
+*O chakram descreve um círculo perfeito ao redor de um ponto escolhido, cortando tudo que estiver na borda antes de retornar.*
+
+- **Chave:** [Chakram](../glossario.md#chakram) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (centro) | **Alvos:** todas as criaturas na borda de um círculo de 3 casas de raio
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + a área vira Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
+- **Tier 3 (≥17):** 1d6 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Terreno Difícil, e Lento
 
 ## Resolução de Ataque
 
