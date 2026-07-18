@@ -973,6 +973,26 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 3d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (18) + 3d6 extra em todos, e derruba cada alvo
 
+**Chuva Carmesim**
+
+*Flechas vermelhas sobem ao céu, abrindo vórtices que despejam mais flechas sobre a área.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e empurra 1 casa
+
+**Tiro do Vazio** *(Supremo)*
+
+*Três flechas abrem vazios instáveis onde tocam, sugando tudo pra dentro continuamente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** até 3 pontos diferentes, 1 casa de raio cada
+- **Efeito:** cada criatura hostil em qualquer uma das áreas é puxada 1 casa em direção ao centro dela e sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
 ## Luz
 
 **Raio Laser**

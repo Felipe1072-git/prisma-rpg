@@ -452,3 +452,14 @@ Criar desvantagens para inimigos ou em testes.
 - **Tier 2 (11–16):** 2d8 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
 - **Tier 3 (≥17):** 2d8 de dano + cada alvo não pode usar Movimento até o fim do próximo turno dele
 - **Crítico:** dano máximo (16) + 2d8 extra em todos + efeito do Tier 3 em todos
+
+**Catástrofe** *(Supremo)*
+
+*Um selo mágico se forma a distância — uma rajada de flechas empurra o alvo pra dentro dele, onde tudo explode.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura (puxada até o selo) + 2 casas de raio ao redor do selo (explosão)
+- **Tier 1 (≤10):** 2d8 de dano ao alvo principal, puxado até o selo
+- **Tier 2 (11–16):** mesmo + explosão final causa 1d8 de dano a todos em 2 casas do selo
+- **Tier 3 (≥17):** mesmo + derruba todos na explosão
+- **Crítico:** dano máximo (16) + 2d8 extra no alvo, dano máximo (8) + 1d8 extra nos demais, e derruba todos

@@ -29,9 +29,9 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Elesis | Montante | 1d12 | espada grande de duas mãos |
 | ✅ | Elesis | Sabres | 1d6 | par de lâminas leves |
 | ✅ | Lire | Arco | 1d8 | arma de precisão padrão |
-| ⬜ | Lire | Bestas | 1d6 | dupla empunhadura, tipo adagas/sabres |
-| ⬜ | Lire | Balista | 1d12 | arma de cerco, a mais pesada |
-| ⬜ | Lire | Gakkung | 1d6 | arco tradicional, mais leve/ágil |
+| ✅ | Lire | Bestas | 1d6 | dupla empunhadura, tipo adagas/sabres |
+| ✅ | Lire | Balista | 1d12 | arma de cerco, a mais pesada |
+| ✅ | Lire | Gakkung | 1d6 | arco tradicional, mais leve/ágil |
 | ✅ | Arme | Cetro | 1d8 | foco arcano genérico |
 | ⬜ | Arme | Pote | 1d6 | arremesso alquímico, leve e imprevisível |
 | ⬜ | Arme | Lâmpada | 1d8 | foco médio |
@@ -269,6 +269,117 @@ Dano: **1d8**
 - **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
 - **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
+
+## Bestas
+
+Dano: **1d6**
+
+**Tiro em Leque** — *Básica*
+
+*Quatro dardos disparam em formação de leque, cobrindo um arco à frente.*
+
+- **Chave:** [Bestas](../glossario.md#bestas) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Chute Trampolim** — *Avançada*
+
+*Um chute simples mas certeiro lança o inimigo pro alto.*
+
+- **Chave:** [Bestas](../glossario.md#bestas) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra, e Atordoado
+
+**Investida Retumbante** — *Especial*
+
+*O corpo inteiro dispara pra frente como uma flecha viva, arrasando quem estiver no caminho.*
+
+- **Chave:** [Bestas](../glossario.md#bestas) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo, usuário se desloca até o fim da linha
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Balista
+
+Dano: **1d12**
+
+**Tiro Hiper** — *Básica*
+
+*Uma flecha comprida atravessa todo o campo de batalha numa linha reta.*
+
+- **Chave:** [Balista](../glossario.md#balista) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
+**Vento Branco** — *Avançada*
+
+*O arco gira como uma lâmina, num redemoinho que acerta tudo ao redor.*
+
+- **Chave:** [Balista](../glossario.md#balista) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
+**Chakra** — *Especial*
+
+*Flechas disparadas pro alto caem simultaneamente dos dois lados, com força total.*
+
+- **Chave:** [Balista](../glossario.md#balista) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alvos:** duas linhas de 3 casas, uma de cada lado do usuário
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
+## Gakkung
+
+Dano: **1d6**
+
+**Tiro Carregado** — *Básica*
+
+*Um golpe de ombro desequilibra o inimigo antes de uma rajada de flechas certeiras.*
+
+- **Chave:** [Gakkung](../glossario.md#gakkung) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Chute Aéreo** — *Avançada*
+
+*Um salto termina num chute certeiro desde o alto.*
+
+- **Chave:** [Gakkung](../glossario.md#gakkung) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
+
+**Rajada Explosiva** — *Especial*
+
+*Uma saraivada de flechas cobre uma área inteira, explodindo ao contato.*
+
+- **Chave:** [Gakkung](../glossario.md#gakkung) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Cetro
 

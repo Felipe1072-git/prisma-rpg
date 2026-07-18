@@ -80,3 +80,25 @@ Armas a distância e precisão (feitiços de precisão inclusos).
 - **Tier 2 (11–16):** 3d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
 - **Tier 3 (≥17):** 3d8 de dano + Sangrando + empurra 5 casas e derruba o alvo
 - **Crítico:** dano máximo (24) + 3d8 extra, Sangrando, empurra 5 casas, e derruba o alvo
+
+**Flecha Perfurante**
+
+*Uma flecha perfurante avança lentamente pelo alvo, causando múltiplos golpes conforme atravessa.*
+
+- **Chave:** [Pontaria](../glossario.md#pontaria)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 2d4 de dano
+- **Tier 2 (11–16):** 2d4 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 2d4 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (8) + 2d4 extra, e Sangrando
+
+**Tiro Colossal** *(Maior)*
+
+*Uma flecha gigante arrasta o alvo por uma longa distância antes de explodir com violência.*
+
+- **Chave:** [Pontaria](../glossario.md#pontaria)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura (arrastada) + 2 casas de raio ao redor dela (explosão)
+- **Tier 1 (≤10):** 2d6 de dano ao alvo principal, e 1d6 a cada criatura na área da explosão
+- **Tier 2 (11–16):** mesmo dano + empurra 1 casa todos na explosão
+- **Tier 3 (≥17):** mesmo dano + derruba todos na explosão
+- **Crítico:** dano máximo (12) + 2d6 extra no alvo principal, dano máximo (6) + 1d6 extra nos demais, e derruba todos

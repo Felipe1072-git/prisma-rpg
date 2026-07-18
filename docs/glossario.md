@@ -40,6 +40,18 @@ Par de lâminas leves, dano 1d6. Ver [Arsenal → Sabres](jogador/arsenal.md#sab
 
 Arma de pontaria, dano 1d8. Ver [Arsenal → Arco](jogador/arsenal.md#arco).
 
+### Bestas
+
+Par de bestas leves, dano 1d6. Ver [Arsenal → Bestas](jogador/arsenal.md#bestas).
+
+### Balista
+
+Arma de pontaria pesada, dano 1d12. Ver [Arsenal → Balista](jogador/arsenal.md#balista).
+
+### Gakkung
+
+Arco tradicional leve e ágil, dano 1d6. Ver [Arsenal → Gakkung](jogador/arsenal.md#gakkung).
+
 ### Cetro
 
 Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cetro](jogador/arsenal.md#cetro).
