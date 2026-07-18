@@ -72,6 +72,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Lupus | Espingarda | 1d10 | usada como nunchaku, 3ª arma |
 | ✅ | Lupus | Metralhadora | 1d12 | giratória, 4ª arma (a mais pesada) |
 | ✅ | Lin | Leque | 1d6 | canalização mágica genérica, sem elemento fixo (personagem-fonte é a Rin) |
+| ✅ | Azin | Vembrassa | 1d6 | reflexo da Manopla — punho aberto (Naegakwon Yu), mão esquerda (personagem-fonte é o Asin) |
 | ⬜ | Holy | Martelo | 1d12 | arma de esmagamento, pesada |
 | ⬜ | Edel | Florete | 1d6 | leve, arma de finesse |
 | ⬜ | Edel | Flintlock | 1d8 | pistola de precisão |
@@ -782,6 +783,45 @@ Dano: **1d6**
 - **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Vembrassa
+
+*Conhecida como o reflexo da Manopla — usada na mão esquerda (a Manopla é na direita), com o estilo Naegakwon Yu de palma aberta (o oposto do punho fechado da Manopla). Mesmo porte da Manopla, mas identidade própria: controle e redirecionamento de força, em vez de força bruta.*
+
+Dano: **1d6**
+
+**Palma Fluida** — *Básica*
+
+*Um golpe de palma aberta desvia o impulso do inimigo, arremessando-o pelo próprio peso.*
+
+- **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
+
+**Correnteza de Palmas** — *Avançada*
+
+*Uma sequência de palmas abertas em fluxo contínuo, atingindo todos ao redor.*
+
+- **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Lento
+
+**Selo do Fluxo Interno** — *Especial*
+
+*Um toque preciso interrompe o fluxo de energia interna do alvo, drenando sua força.*
+
+- **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo perde 2 no dano de ataques até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + perde 2 no dano de ataques + alvo perde 2 Mana
+- **Crítico:** dano máximo (6) + 1d6 extra + perde 2 no dano de ataques + alvo perde 4 Mana
 
 ## Resolução de Ataque
 
