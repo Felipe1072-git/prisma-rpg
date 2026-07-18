@@ -72,7 +72,6 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Lupus | Espingarda | 1d10 | usada como nunchaku, 3ª arma |
 | ✅ | Lupus | Metralhadora | 1d12 | giratória, 4ª arma (a mais pesada) |
 | ✅ | Lin | Leque | 1d6 | canalização mágica genérica, sem elemento fixo (personagem-fonte é a Rin) |
-| ⬜ | Azin | Vembrassa | 1d8 | poder médio, natureza incerta |
 | ⬜ | Holy | Martelo | 1d12 | arma de esmagamento, pesada |
 | ⬜ | Edel | Florete | 1d6 | leve, arma de finesse |
 | ⬜ | Edel | Flintlock | 1d8 | pistola de precisão |

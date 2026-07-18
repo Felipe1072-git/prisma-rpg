@@ -185,3 +185,48 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 10 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 2 casas de raio ao redor do usuário (dano) + o próprio usuário (buff)
 - **Efeito:** os inimigos na área sofrem 1d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +3 de Defesa e reduz em 2 o dano recebido (mínimo 1).
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Corpo Fortalecido**
+
+*Uma aura visível envolve o corpo, endurecendo a pele como se fosse aço.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário reduz em 3 o dano recebido (mínimo 1) e não pode ser derrubado.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Repouso Silencioso**
+
+*Uma pausa profunda, imóvel e impenetrável, acelera o fluxo de energia interna.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** o usuário fica imóvel até o início do próprio próximo turno, mas ignora todo dano recebido nesse período. No início do turno seguinte, recupera 4 Mana.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Vão Nebuloso**
+
+*O corpo se torna leve como nuvem, atravessando inimigos como se não estivessem lá.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário pode se mover através de casas ocupadas por outras criaturas livremente, como se elas não estivessem lá.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Fluxo** *(usada como Reação)*
+
+*Um golpe que deveria acertar simplesmente... não acerta. E de repente, é o atacante que está sendo puxado pro alcance do golpe seguinte.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Força | **Alvos:** 1 criatura (o atacante)
+- **Efeito:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra anular completamente aquele ataque, e puxar o atacante 2 casas em direção a si.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Disciplina Marcial**
+
+*Anos de treinamento se manifestam num instante — corpo e mente alinhados em perfeita disciplina.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário ganha +1 no dano de ataques, +2 de Defesa, e +2 de Movimento.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

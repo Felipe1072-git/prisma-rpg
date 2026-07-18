@@ -193,6 +193,17 @@ Criar desvantagens para inimigos ou em testes.
 - **Tier 3 (≥17):** 1d6 de dano + alvo não pode usar Ações Básicas nem Habilidades (só Movimento e Reação) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra + efeito do Tier 3
 
+**Ponto de Pressão**
+
+*Um toque preciso nos pontos vitais do corpo desliga, um a um, os sistemas do inimigo.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura, corpo a corpo
+- **Tier 1 (≤10):** 1d6 de dano + alvo perde 3 de Defesa até o fim do próximo turno dele
+- **Tier 2 (11–16):** 1d6 de dano + perde 3 de Defesa + perde 2 no dano de ataques até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + perde 3 de Defesa + perde 2 no dano de ataques + não pode usar Habilidades (só Movimento e Reação) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra + todos os efeitos do Tier 3 + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+
 **Etiqueta do Mordomo**
 
 *Jeeves surge por um instante, desfere um soco devastador, e desaparece numa nuvem de fumaça.*

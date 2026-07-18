@@ -338,3 +338,87 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
 - **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo
+
+**Chute Navalha**
+
+*Um mergulho aéreo termina num chute certeiro, seguido por um giro que acerta de surpresa.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado
+- **Tier 2 (11–16):** dano desarmado + empurra 1 casa
+- **Tier 3 (≥17):** dano desarmado + derruba o alvo
+- **Crítico:** dano desarmado máximo + rolagem extra, e derruba o alvo
+
+**Hanuman**
+
+*Uma sequência furiosa de chutes giratórios termina com um salto que arremessa o atacante pra trás do alvo.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 3 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado), rolado 2 vezes
+- **Tier 1 (≤10):** 2x dano desarmado
+- **Tier 2 (11–16):** 2x dano desarmado + empurra 2 casas
+- **Tier 3 (≥17):** 2x dano desarmado + derruba o alvo
+- **Crítico:** dano desarmado máximo (2x) + rolagem extra, e derruba o alvo
+
+**Andorinhas de Bambu**
+
+*O lutador se torna um borrão entre ilusões de bambu, atingindo tudo que estiver por perto antes de finalizar com um chute descendente.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado em cada alvo
+- **Tier 2 (11–16):** dano desarmado + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** dano desarmado + derruba cada alvo
+- **Crítico:** dano desarmado máximo + rolagem extra em todos, e derruba cada alvo
+
+**Mão Infinita**
+
+*Uma rajada de golpes de palma, rápidos demais pra acompanhar, termina com um chute lateral.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado
+- **Tier 2 (11–16):** dano desarmado + alvo perde a próxima Reação
+- **Tier 3 (≥17):** dano desarmado + derruba o alvo
+- **Crítico:** dano desarmado máximo + rolagem extra, e derruba o alvo
+
+**Queda de Fogo**
+
+*Um golpe arremessa o inimigo longe — mas o lutador já teleportou acima dele, esmagando o chão com um impacto que atinge até quem estiver no ar.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado, usuário se desloca até o alvo
+- **Tier 2 (11–16):** dano desarmado + empurra 2 casas
+- **Tier 3 (≥17):** dano desarmado + derruba o alvo
+- **Crítico:** dano desarmado máximo + rolagem extra, empurra 2 casas, e derruba o alvo
+
+**Postura do Dragão**
+
+*O corpo se move como um dragão em fúria, teleportando pra trás do inimigo antes que ele perceba.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado, usuário se desloca pra trás do alvo
+- **Tier 2 (11–16):** dano desarmado + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
+- **Tier 3 (≥17):** dano desarmado + Marcado + empurra 1 casa
+- **Crítico:** dano desarmado máximo + rolagem extra, Marcado, e empurra 1 casa
+
+**Postura do Tigre**
+
+*Depois de um golpe certeiro, o corpo assume a postura do tigre branco — pronta pra atacar de novo, mais forte.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado
+- **Tier 2 (11–16):** dano desarmado + usuário ganha Escudo de 1d4 pontos
+- **Tier 3 (≥17):** dano desarmado + derruba o alvo + usuário ganha Escudo de 1d4 pontos
+- **Crítico:** dano desarmado máximo + rolagem extra + derruba + Escudo de 1d4 pontos

@@ -170,4 +170,8 @@ Ver [Mágicas por Elemento → Sombras](habilidades/magicas-elementais.md#sombra
 
 Ver [Mágicas por Elemento → Luz](habilidades/magicas-elementais.md#luz).
 
+### Água
+
+Ver [Mágicas por Elemento → Água](habilidades/magicas-elementais.md#água).
+
 *(Outros elementos ainda sem habilidades — a criar)*

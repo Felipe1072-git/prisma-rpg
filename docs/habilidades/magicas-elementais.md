@@ -549,3 +549,56 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
 - **Tier 3 (≥17):** 1d10 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
 - **Crítico:** dano máximo (10) + 1d10 extra, empurra 1 casa, e Marcado
+
+## Água
+
+**Tempestade Caótica**
+
+*Um véu de água gira ao redor do lutador, marcando quem tocar nele — a marca detona pouco depois.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Efeito:** cada criatura hostil na área recebe uma marca de água instável (sem dano nesse momento); no início do próximo turno do usuário, cada marca detona, causando 1d8 de dano à criatura marcada e a qualquer criatura hostil adjacente a ela
+- *(Sem Tiers de Sucesso — efeito automático de tempo retardado, sem teste de ataque)*
+
+**Estrela Cadente Desperta**
+
+*Um teleporte repentino ergue o alvo pelos ares, seguido por um chute descendente que provoca uma explosão de água no impacto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d8 de dano + derruba o alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra + derruba + Lento
+
+**Bomba Shuju**
+
+*Uma pequena correnteza de água é chutada com força, condensando-se numa esfera compacta.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Poça d'Água**
+
+*Uma poça se forma no chão, enfraquecendo a defesa de quem pisar nela.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Efeito:** por 2 rodadas, a área vira Terreno Difícil (custa o dobro de Movimento pra atravessar); qualquer criatura hostil que termine o turno nela perde 2 de Defesa até o fim do turno seguinte dela
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Ira do Rei** *(Supremo)*
+
+*Energia é golpeada contra o chão, e cinco pilares de água irrompem violentamente numa área ampla.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
