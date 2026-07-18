@@ -88,6 +88,10 @@ Espingarda usada como nunchaku, dano 1d10. Ver [Arsenal → Espingarda](jogador/
 
 Metralhadora giratória, dano 1d12. Ver [Arsenal → Metralhadora](jogador/arsenal.md#metralhadora).
 
+### Leque
+
+Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Leque](jogador/arsenal.md#leque).
+
 ## Propriedades de Arma
 
 ### Finesse

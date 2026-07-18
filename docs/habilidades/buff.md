@@ -131,3 +131,57 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 10 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
 - **Efeito:** por 3 rodadas, no início de cada um dos próprios turnos seguintes do usuário (a partir do próximo), todas as criaturas hostis em 2 casas de raio dele sofrem 1d6 de dano automático (3 aplicações no total)
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Escudo da Alma**
+
+*Uma esfera protetora envolve o alvo, anulando qualquer golpe que tentar atravessá-la.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 1 criatura (pode ser o próprio usuário)
+- **Efeito:** o alvo ganha um Escudo de 2d6 pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Bênção do Talismã**
+
+*Um talismã brilhante voa até o aliado, agilizando seus passos e envolvendo-o numa barreira leve.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 1 aliado (pode ser o próprio usuário)
+- **Efeito:** por 2 rodadas, o alvo ganha +2 de Movimento; e ganha um Escudo de 1d4 pontos que bloqueia o próximo golpe recebido.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Aumento Sombrio**
+
+*O poder das trevas é absorvido às pressas — quanto mais fundo, maior o preço.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 0 Mana (custa Vida, não Mana) | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** o usuário perde 1d4 de Vida e ganha +2 no dano de ataques por 2 rodadas. Pode ser usada de novo antes de expirar, empilhando o bônus (e o custo de Vida) até 3 vezes.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Fúria da Arma**
+
+*O leque é envolto por uma aura corrosiva — cada golpe passa a deixar marcas duradouras.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, os ataques do usuário que causarem dano também aplicam Sangrando (perde 1d4 de Vida no início do próximo turno do alvo) — não empilha num mesmo alvo.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Vão da Alma** *(usada como Reação)*
+
+*Num piscar de olhos, o corpo se desfaz num vazio silencioso — e volta ileso um instante depois.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra evitar completamente o dano daquele ataque, e recupera 1d4 de Vida.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Transformação da Deusa** *(Maior)*
+
+*O corpo se envolve em luz e sombra ao mesmo tempo, e por um instante, a deusa desperta.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 10 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 2 casas de raio ao redor do usuário (dano) + o próprio usuário (buff)
+- **Efeito:** os inimigos na área sofrem 1d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +3 de Defesa e reduz em 2 o dano recebido (mínimo 1).
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

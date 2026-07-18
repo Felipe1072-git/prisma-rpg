@@ -71,7 +71,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Lupus | Punhal | 1d6 | adaga Finesse, 2ª arma (renomeada de "Espada Espiritual" — é uma adaga, não espada) |
 | ✅ | Lupus | Espingarda | 1d10 | usada como nunchaku, 3ª arma |
 | ✅ | Lupus | Metralhadora | 1d12 | giratória, 4ª arma (a mais pesada) |
-| ⬜ | Lin | Leque | 1d6 | leve, arma de precisão/finesse |
+| ✅ | Lin | Leque | 1d6 | canalização mágica genérica, sem elemento fixo (personagem-fonte é a Rin) |
 | ⬜ | Azin | Vembrassa | 1d8 | poder médio, natureza incerta |
 | ⬜ | Holy | Martelo | 1d12 | arma de esmagamento, pesada |
 | ⬜ | Edel | Florete | 1d6 | leve, arma de finesse |
@@ -744,6 +744,45 @@ Dano: **1d12**
 - **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
 - **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
+## Leque
+
+Arma mágica genérica como o Cetro, o Manual e o Orbe — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo. *(O resto do kit da Rin — magia de Luz e de Sombras, buffs, controle — virou habilidades gerais espalhadas por Mágicas por Elemento, Buff, Debuff e Mobilidade.)*
+
+Dano: **1d6**
+
+**Lampejo** — *Básica*
+
+*Um clarão repentino atinge o alvo com um golpe de luz condensada.*
+
+- **Chave:** [Leque](../glossario.md#leque) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Olho da Tempestade** — *Avançada*
+
+*Uma esfera de energia paira no ar antes de se romper num pequeno vórtice.*
+
+- **Chave:** [Leque](../glossario.md#leque) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Lampejo Final** — *Especial*
+
+*Uma onda de força é disparada à distância, atravessando tudo em seu caminho.*
+
+- **Chave:** [Leque](../glossario.md#leque) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Resolução de Ataque
 

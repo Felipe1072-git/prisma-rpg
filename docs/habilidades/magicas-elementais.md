@@ -160,6 +160,17 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Efeito:** por 2 rodadas, a linha pega fogo e vira Terreno Difícil (custa o dobro de Movimento pra atravessar); qualquer criatura hostil que termine o turno nela sofre 1d6 de dano automático
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
 
+**Força Desesperada**
+
+*Uma investida desesperada é envolta por uma onda de fogo repentina.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, Sangrando, e derruba o alvo
+
 ## Sombras
 
 **Onda de Chamas**
@@ -367,6 +378,77 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 2d8 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
 - **Crítico:** dano máximo (16) + 2d8 extra + Atordoado por 1 rodada completa
 
+**Força Interminável**
+
+*Uma explosão de energia sombria irrompe do corpo, atingindo tudo ao redor.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 1 casa, e Sangrando
+
+**Asas do Vento**
+
+*Um redemoinho sombrio se ergue ao redor do corpo, ferindo tudo que estiver perto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Lento
+
+**Lamento Uivante** *(Maior)*
+
+*Um uivo sombrio se espalha ao redor da conjuradora, corroendo tudo em seu alcance continuamente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** 3 casas de raio ao redor do usuário
+- **Efeito:** cada criatura hostil na área sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Espinhos de Sangue**
+
+*Três espinhos de sangue brotam do chão ao redor de um ponto, perfurando quem estiver perto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e empurra 1 casa
+
+**Muralha de Sangue**
+
+*Uma parede de sangue endurecido se ergue do chão, bloqueando a passagem.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas em linha (formam a parede)
+- **Efeito:** por 2 rodadas, as casas da parede viram Terreno Difícil (custa o dobro de Movimento pra atravessar) e bloqueiam linha de visada de ataques à distância
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Paixão Interna** *(Maior)*
+
+*Uma esfera sombria persegue o alvo antes de explodir com violência.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 2d6 de dano
+- **Tier 2 (11–16):** 2d6 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 2d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 2d6 extra, e derruba o alvo
+
+**Fonte da Explosão** *(Supremo)*
+
+*Duas esferas sombrias atraem tudo ao redor antes de explodir com violência total.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Efeito:** todos os alvos são puxados 2 casas em direção ao centro e sofrem 2d8 de dano automático, tudo isso imediatamente ao usar
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
 ## Luz
 
 **Raio Laser**
@@ -379,6 +461,83 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
+
+**Rajada de Ventos**
+
+*Duas lufadas de vento cortante disparam do leque em sequência.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d8 de dano + empurra 3 casas e derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, empurra 3 casas, e derruba o alvo
+
+**Restrição de Luz**
+
+*Uma esfera de luz atravessa o alvo e prende sua energia, passando adiante quando encontra outro inimigo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** até 2 criaturas na linha (a esfera atinge a 1ª e passa pra 2ª)
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo atingido
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + Lento + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra em ambos, Lento, e Sangrando
+
+**Ventos Cruzados**
+
+*Dois tornados se abrem em direções opostas, arrastando quem estiver por perto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** linha de 6 casas
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo na linha
+- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro da linha)
+- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e Lento
+
+**Vendaval Reverso**
+
+*Um giro brusco lança um redemoinho de vento pra trás do usuário.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** linha de 5 casas atrás do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Luz do Paraíso** *(Maior)*
+
+*Dezenas de pequenos orbes de luz descem em diagonal, cobrindo uma área ampla.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
+
+**Fragmento do Espírito**
+
+*Correntes de luz prendem os alvos, sufocando sua capacidade de reagir.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo não pode usar Habilidades (só Movimento e Reação) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra em todos + efeito do Tier 3 em todos
+
+**Luz Infinita** *(Supremo)*
+
+*Duas ondas de energia pura se espalham em direções opostas, varrendo tudo à frente e atrás.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** duas linhas de 6 casas, uma à frente e outra atrás do usuário
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 **Lágrimas Gêmeas**
 

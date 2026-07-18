@@ -182,6 +182,17 @@ Criar desvantagens para inimigos ou em testes.
 - **Tier 3 (≥17):** 1d6 de dano + Lento + alvo fica Sangrando (veneno, perde 1d4 de Vida no início do próximo turno dele)
 - **Crítico:** dano máximo (6) + 1d6 extra + Lento + Sangrando
 
+**Repouso Forçado**
+
+*Uma calma sobrenatural toma conta do inimigo, apagando por completo sua vontade de lutar.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo perde a próxima Ação Básica
+- **Tier 3 (≥17):** 1d6 de dano + alvo não pode usar Ações Básicas nem Habilidades (só Movimento e Reação) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra + efeito do Tier 3
+
 **Etiqueta do Mordomo**
 
 *Jeeves surge por um instante, desfere um soco devastador, e desaparece numa nuvem de fumaça.*

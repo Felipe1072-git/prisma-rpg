@@ -62,6 +62,7 @@ O teste é **d20 + Atributo**. Os tiers são:
 - **Controle de campo:** Terreno Difícil (custa o dobro de Movimento), empurra/puxa, prende no lugar
 - **Suporte a aliados:** marca o alvo (próximo ataque aliado tem vantagem), concede Escudo ao usuário
 - **Recurso do alvo:** drena Mana do alvo (introduzido na Rey/Latido Drenante) — bom pra personagens com tema de "sugar" poder
+- **Rolagem prejudicada:** Desvantagem (introduzido na Rin/Passo Sombrio) — o oposto de Vantagem: quem rola, rola 2x e fica com o **pior** resultado. Útil pra habilidades de esquiva/reposicionamento que dificultam o próximo golpe contra o usuário, sem negar o ataque por completo.
 - **Clássico:** empurra / derruba (ainda válido — só não usar em toda habilidade nova)
 
 Não precisa forçar os 4 riders numa habilidade só; 1-2 bem escolhidos, coerentes com o conceito (um golpe cortante sangra, um golpe de área congela o chão, um golpe de impacto derruba), valem mais que variedade por variedade.
@@ -90,6 +91,8 @@ O custo em Mana é um eixo **independente** do custo em Pontos de Ação — um 
 | Moderado | 4–8 | 2–4 vezes por descanso |
 | Maior | 9–15 | 1–2 vezes por descanso |
 | Supremo | 16+ | 1 vez por descanso, possivelmente com restrição extra |
+
+**Custo pode ser em Vida em vez de Mana** (introduzido na Rin/Aumento Sombrio) — uma escolha de design válida pra habilidades de risco/recompensa temáticas (pacto sombrio, sacrifício, fúria). Quando usar isso, deixe explícito no campo Custo (`0 Mana (custa Vida, não Mana)`) e no Efeito quanto de Vida é gasto — nunca deixe implícito que "sem custo em Mana" significa "de graça".
 
 **As 3 habilidades de toda arma (Básica/Avançada/Especial) usam sempre o tier Menor** — são as técnicas do dia a dia, não deveriam competir por relevância com as habilidades grandiosas dos grupos. Habilidades gerais de grupo (feitiços, buffs, ultimates) variam o Custo em Mana conforme o impacto real do efeito: algo que invoca um clone ou controla o campo de batalha inteiro pesa mais que um golpe a mais.
 
