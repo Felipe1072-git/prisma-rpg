@@ -18,248 +18,231 @@ Cada tier consome Pontos de Ação ao ser usado:
 
 Dado de dano por arma, definido pelo arquétipo/peso (não por progressão de personagem — nenhuma arma é mais forte só por vir "depois" na sequência de alguém).
 
-**Grupo** é o estilo de combate predominante (Marciais, Pontaria ou Arcano — ver [Grupos de Habilidade](../glossario.md#grupos-de-habilidade)). **Chaves** lista as propriedades mecânicas da arma: [Finesse](#armas-finesse), [Híbrida](#armas-híbridas), [Leve](#leve) ou Duas Mãos — toda arma tem exatamente uma de Leve/Duas Mãos, mais Finesse/Híbrida quando aplicável.
+**Grupo** é o estilo de combate predominante (Marciais, Pontaria ou Arcano — ver [Grupos de Habilidade](../glossario.md#grupos-de-habilidade)). **Chaves** lista as propriedades mecânicas da arma — toda arma tem exatamente uma de [Leve](#leve)/Duas Mãos, mais [Finesse](#finesse)/[Híbrida](#híbrida) e [Efeito Especial](#efeito-especial) quando aplicável. **Requisito** mostra o mínimo de atributo pra equipar a arma, quando houver (ver [Requisito de Atributo Mínimo](#requisito-de-atributo-mínimo) abaixo pra detalhes de cada uma).
 
 Dentro de cada família, as armas são ordenadas por poder (dado crescente; empate resolvido por ordem alfabética). **Preço** ainda não tem valores — depende do sistema de moeda, a definir.
 
+### Marciais
+
+| Arma | Família | Dado | Preço | Chaves | Requisito | Nota |
+|---|---|---|---|---|---|---|
+| [Florete](#florete) | Espadas Leves | 1d6 | — | Finesse, Leve | — | leve, arma de duelista |
+| [Gládio](#gládio) | Espadas Leves | 1d6 | — | Híbrida, Leve | Força +2 e Inteligência +2 | espada curta, leve |
+| [Rapiers](#rapiers) | Espadas Leves | 1d6 | — | Leve | — | par de lâminas finas |
+| [Espada](#espada) | Espadas Leves | 1d8 | — | Leve | — | arma versátil |
+| [Espada-Chave](#espada-chave) | Espadas Leves | 1d8 | — | Híbrida, Leve | — | inspirada em Keyblade |
+| [Lâmina](#lâmina) | Espadas Leves | 1d8 | — | Leve | — | espada padrão |
+| [Adagas](#adagas) | Lâminas Curtas | 1d4 | — | Finesse, Leve | — | par leve; identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
+| [Garras](#garras) | Lâminas Curtas | 1d6 | — | Finesse, Leve | — | par leve |
+| [Punhal](#punhal) | Lâminas Curtas | 1d6 | — | Finesse, Leve, Efeito Especial | — | adaga leve |
+| [Sabres](#sabres) | Duplas Ágeis | 1d6 | — | Leve | — | par de lâminas leves |
+| [Tonfas](#tonfas) | Duplas Ágeis | 1d6 | — | Leve | — | par leve |
+| [Manopla](#manopla) | Punhos | 1d6 | — | Leve | — | luta desarmada, golpes rápidos |
+| [Vembrassa](#vembrassa) | Punhos | 1d6 | — | Leve | — | reflexo da Manopla — punho aberto, mão esquerda |
+| [Soqueira Pesada](#soqueira-pesada) | Punhos | 1d12 | — | Duas Mãos, Efeito Especial | — | arma de esmagamento, pesada |
+| [Alfange](#alfange) | Lâminas Curvas | 1d8 | — | Finesse, Leve | Agilidade +3 | lâmina única, mais pesada que a adaga |
+| [Foice](#foice) | Lâminas Curvas | 1d10 | — | Duas Mãos | — | foice pesada |
+| [Gadanha](#gadanha) | Lâminas Curvas | 1d10 | — | Duas Mãos | — | foice pesada de duas mãos |
+| [Lâmina Dupla](#lâmina-dupla) | Hastes | 1d6 | — | Leve | — | arma ancestral com lâmina em cada extremidade |
+| [Bastão](#bastão) | Hastes | 1d8 | — | Duas Mãos | — | haste média |
+| [Glaive](#glaive) | Hastes | 1d10 | — | Duas Mãos | — | arma de haste, alcance |
+| [Lança](#lança) | Hastes | 1d10 | — | Duas Mãos | — | alcance, mais pesada |
+| [Pique](#pique) | Hastes | 1d10 | — | Duas Mãos | — | lâminas gêmeas que se combinam num pique de alcance |
+| [Machado](#machado) | Impacto Pesado | 1d12 | — | Duas Mãos | Força +2 | pesado de duas mãos |
+| [Marreta Mágica](#marreta-mágica) | Impacto Pesado | 1d12 | — | Duas Mãos | — | a mais pesada do arquétipo |
+| [Martelo](#martelo) | Impacto Pesado | 1d12 | — | Duas Mãos | — | arma de esmagamento, pesada |
+| [Katana Muramasa](#katana-muramasa) | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos, Efeito Especial | Força ou Agilidade +3 | lâmina amaldiçoada, exige sangue |
+| [Lâmina do Crepúsculo](#lâmina-do-crepúsculo) | Lâminas Longas/Lendárias | 1d10 | — | Duas Mãos | — | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
+| [Katana Nodachi](#katana-nodachi) | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos | Força ou Agilidade +3 | lâmina longa clássica |
+| [Soluna](#soluna) | Lâminas Longas/Lendárias | 1d10 | — | Duas Mãos | — | lâmina lendária, duas metades (Sol e Lua) que se combinam |
+| [Espada Senciente](#espada-senciente) | Lâminas Longas/Lendárias | 1d12 | — | Duas Mãos, Efeito Especial | — | absorve energias e dificulta a mobilidade de quem a empunha |
+| [Montante](#montante) | Lâminas Longas/Lendárias | 1d12 | — | Duas Mãos | Força +3 | espada grande de duas mãos |
+| [Violino](#violino) | Focos Atípicos | 1d6 | — | Leve | Vontade +4 | instrumento usado como arma contundente |
+| [Báculo](#báculo) | Focos Atípicos | 1d8 | — | Leve | — | bastão com lâmina circular e cristal, símbolo dos bardos |
+| [Vajras](#vajras) | Focos Atípicos | 1d8 | — | Leve | Sabedoria +6 | arma mística, foco médio |
+| [Bolsa de Truques](#bolsa-de-truques) | Focos Atípicos | 1d10 | — | Duas Mãos | — | bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
+| [Égide](#égide) | Única | 1d6 | — | Duas Mãos | — | pacote fechado espada+escudo — identidade defensiva vem do Buff Supremo do grupo |
+
+### Pontaria
+
+| Arma | Família | Dado | Preço | Chaves | Requisito | Nota |
+|---|---|---|---|---|---|---|
+| [Bestas](#bestas) | Arcos | 1d6 | — | Leve | — | dupla empunhadura, tipo adagas/sabres |
+| [Gakkung](#gakkung) | Arcos | 1d6 | — | Duas Mãos | Agilidade +6 | arco tradicional, mais leve/ágil |
+| [Arco](#arco) | Arcos | 1d8 | — | Duas Mãos | — | arma de precisão padrão |
+| [Balista](#balista) | Arcos | 1d12 | — | Duas Mãos | — | arma de cerco, a mais pesada |
+| [Chakram](#chakram) | Arremesso | 1d6 | — | Leve | — | anel de arremesso |
+| [Pistolas](#pistolas) | Armas de Fogo Leves | 1d6 | — | Leve | — | dupla de pistolas leves, usadas sempre em par |
+| [Flintlock](#flintlock) | Armas de Fogo Leves | 1d8 | — | Leve | — | pistola de precisão |
+| [Revólver Maverick](#revólver-maverick) | Armas de Fogo Leves | 1d8 | — | Leve | — | revólver pesado, usado sempre sozinho |
+| [Espingarda](#espingarda) | Armas de Fogo Pesadas | 1d10 | — | Duas Mãos | — | "A Ruptura" — tiro único e devastador, arma dos Justiceiros |
+| [Metralhadora](#metralhadora) | Armas de Fogo Pesadas | 1d12 | — | Duas Mãos | — | giratória, a mais pesada |
+
+### Arcano
+
+| Arma | Família | Dado | Preço | Chaves | Requisito | Nota |
+|---|---|---|---|---|---|---|
+| [Leque](#leque) | Focos Mágicos | 1d6 | — | Leve | — | canalização mágica genérica |
+| [Manual](#manual) | Focos Mágicos | 1d6 | — | Leve | — | grimório leve |
+| [Pote](#pote) | Focos Mágicos | 1d6 | — | Leve | — | arremesso alquímico, leve e imprevisível |
+| [Cetro](#cetro) | Focos Mágicos | 1d8 | — | Leve | — | foco arcano genérico |
+| [Cubo Mágico](#cubo-mágico) | Focos Mágicos | 1d8 | — | Leve | — | cubo cósmico senciente |
+| [Lâmpada](#lâmpada) | Focos Mágicos | 1d8 | — | Leve | Inteligência +5 | foco médio |
+| [Manopla Mística](#manopla-mística) | Focos Mágicos | 1d8 | — | Leve | — | invoca criaturas através de uma gema com pentagramas e hexagramas |
+| [Olho Mágico](#olho-mágico) | Focos Mágicos | 1d8 | — | Leve | — | genérica, sem elemento fixo |
+| [Orbe](#orbe) | Focos Mágicos | 1d8 | — | Leve | — | esfera mágica que guarda poder |
+| [Cajado](#cajado) | Focos Mágicos | 1d10 | — | Duas Mãos | — | canalização pesada |
+| [Módulo Alado](#módulo-alado) | Focos Mágicos | 1d10 | — | *(especial — não é empunhado)* | — | enxame tecnológico de lâminas voadoras |
+
+## Propriedades de Arma
+
+Explica cada valor possível da coluna **Chaves** das tabelas acima. Toda arma tem exatamente uma de Leve/Duas Mãos; as demais só aparecem quando aplicável.
+
+### Leve
+
+Armas marcadas como **Leve** ocupam só uma mão pra funcionar — a mão secundária fica livre pra outra arma Leve (habilitando [Dupla Empunhadura](#dupla-empunhadura)), pra um [Escudo](#escudos), ou fica livre pra magia/interação. Armas que não são Leve (**Duas Mãos**) exigem as duas mãos pra funcionar, mesmo quando usadas sozinhas — nenhuma combinação de mão secundária é possível com elas.
+
+Ter duas armas Leve equipadas não dá bônus automático algum — só habilita as habilidades gerais específicas marcadas com a chave Dupla Empunhadura pra aquele par exato, desenhadas uma combinação de cada vez (não existe uma combinação "livre" pra qualquer par de armas Leve).
+
+*(Caso especial: Módulo Alado não é empunhado — é um enxame que segue a usuária — não se encaixa nessa categoria. Égide também fica de fora — ela é um "pacote fechado" espada+escudo, independente do Escudo avulso abaixo.)*
+
+### Finesse
+
+Algumas armas leves e ágeis são marcadas como **Finesse**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Agilidade** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
+
+Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**, **Alfange**, **Garras**, **Katana Nodachi**, **Katana Muramasa** — as duas últimas são Finesse mesmo sendo Duas Mãos, uma combinação incomum, mantida de propósito.
+
+### Híbrida
+
+Algumas armas que misturam combate físico e magia são marcadas como **Híbridas**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Inteligência** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
+
+Armas Híbridas até agora: **Gládio**, **Espada-Chave**.
+
 ### Requisito de Atributo Mínimo
 
-Algumas armas (não todas) exigem um mínimo de atributo pra serem equipadas — sem atender o mínimo, a arma simplesmente não pode ser usada. O número reflete **exotismo/raridade**, não peso físico: uma arma comum e pesada (Machado, Montante) pode ter um mínimo baixo, enquanto uma arma rara ou mística (Vajras, Lâmpada) tem um mínimo alto, mesmo sendo fisicamente leve.
+Algumas armas exigem um mínimo de atributo pra serem equipadas — sem atender o mínimo, a arma simplesmente não pode ser usada. O número reflete **exotismo/raridade**, não peso físico: uma arma comum e pesada (Machado, Montante) pode ter um mínimo baixo, enquanto uma arma rara ou mística (Vajras, Lâmpada) tem um mínimo alto, mesmo sendo fisicamente leve.
 
 - **Armas Finesse** usam requisito **"ou"** (Força ou Agilidade, o que for maior) — é a mesma perícia expressa de duas formas.
 - **Armas Híbridas** usam requisito **"e"** (as duas, não só a maior) — são duas disciplinas simultâneas (luta + magia), não uma alternativa à outra.
 - Armas de som/carisma (ex: Violino) usam **Vontade**, não Sabedoria — Vontade é o substituto de Carisma nesse sistema.
 
-### Marciais
+Armas com Requisito até agora: **Machado** (Força +2), **Montante** (Força +3), **Alfange** (Agilidade +3), **Gakkung** (Agilidade +6), **Violino** (Vontade +4), **Vajras** (Sabedoria +6), **Lâmpada** (Inteligência +5), **Katana Nodachi** e **Katana Muramasa** (Força ou Agilidade +3), **Gládio** (Força +2 e Inteligência +2).
 
-| Arma | Família | Dado | Preço | Chaves | Nota |
-|---|---|---|---|---|---|
-| Florete | Espadas Leves | 1d6 | — | Finesse, Leve | leve, arma de duelista |
-| Gládio | Espadas Leves | 1d6 | — | Híbrida, Leve | espada curta, leve |
-| Rapiers | Espadas Leves | 1d6 | — | Leve | par de lâminas finas |
-| Espada | Espadas Leves | 1d8 | — | Leve | arma versátil |
-| Espada-Chave | Espadas Leves | 1d8 | — | Híbrida, Leve | inspirada em Keyblade |
-| Lâmina | Espadas Leves | 1d8 | — | Leve | espada padrão |
-| Adagas | Lâminas Curtas | 1d4 | — | Finesse, Leve | par leve; identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
-| Garras | Lâminas Curtas | 1d6 | — | Finesse, Leve | par leve |
-| Punhal | Lâminas Curtas | 1d6 | — | Finesse, Leve | adaga leve |
-| Sabres | Duplas Ágeis | 1d6 | — | Leve | par de lâminas leves |
-| Tonfas | Duplas Ágeis | 1d6 | — | Leve | par leve |
-| Manopla | Punhos | 1d6 | — | Leve | luta desarmada, golpes rápidos |
-| Vembrassa | Punhos | 1d6 | — | Leve | reflexo da Manopla — punho aberto, mão esquerda |
-| Soqueira Pesada | Punhos | 1d12 | — | Duas Mãos | arma de esmagamento, pesada |
-| Alfange | Lâminas Curvas | 1d8 | — | Finesse, Leve | lâmina única, mais pesada que a adaga |
-| Foice | Lâminas Curvas | 1d10 | — | Duas Mãos | foice pesada |
-| Gadanha | Lâminas Curvas | 1d10 | — | Duas Mãos | foice pesada de duas mãos |
-| Lâmina Dupla | Hastes | 1d6 | — | Leve | arma ancestral com lâmina em cada extremidade |
-| Bastão | Hastes | 1d8 | — | Duas Mãos | haste média |
-| Glaive | Hastes | 1d10 | — | Duas Mãos | arma de haste, alcance |
-| Lança | Hastes | 1d10 | — | Duas Mãos | alcance, mais pesada |
-| Pique | Hastes | 1d10 | — | Duas Mãos | lâminas gêmeas que se combinam num pique de alcance |
-| Machado | Impacto Pesado | 1d12 | — | Duas Mãos | pesado de duas mãos |
-| Marreta Mágica | Impacto Pesado | 1d12 | — | Duas Mãos | a mais pesada do arquétipo |
-| Martelo | Impacto Pesado | 1d12 | — | Duas Mãos | arma de esmagamento, pesada |
-| Katana | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos | lâmina longa |
-| Lâmina do Crepúsculo | Lâminas Longas/Lendárias | 1d10 | — | Duas Mãos | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
-| Nodachi | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos | lâmina longa clássica |
-| Soluna | Lâminas Longas/Lendárias | 1d10 | — | Duas Mãos | lâmina lendária, duas metades (Sol e Lua) que se combinam |
-| Espada Senciente | Lâminas Longas/Lendárias | 1d12 | — | Duas Mãos | renomeada de "Espadão" — conceito da Grandark; absorve energias e dificulta a mobilidade de quem a empunha |
-| Montante | Lâminas Longas/Lendárias | 1d12 | — | Duas Mãos | espada grande de duas mãos |
-| Violino | Focos Atípicos | 1d6 | — | Leve | instrumento usado como arma contundente |
-| Báculo | Focos Atípicos | 1d8 | — | Leve | bastão com lâmina circular e cristal, símbolo dos bardos |
-| Vajras | Focos Atípicos | 1d8 | — | Leve | arma mística, foco médio |
-| Bolsa de Truques | Focos Atípicos | 1d10 | — | Duas Mãos | bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
-| Égide | Única | 1d6 | — | Duas Mãos | pacote fechado espada+escudo — identidade defensiva vem do Buff Supremo do grupo |
+### Efeito Especial
 
-### Pontaria
+Algumas armas têm uma mecânica única além das 3 habilidades normais — maldição, passiva, ou uma Reação exclusiva. O efeito completo está descrito na seção da própria arma, ao longo deste documento.
 
-| Arma | Família | Dado | Preço | Chaves | Nota |
-|---|---|---|---|---|---|
-| Bestas | Arcos | 1d6 | — | Leve | dupla empunhadura, tipo adagas/sabres |
-| Gakkung | Arcos | 1d6 | — | Duas Mãos | arco tradicional, mais leve/ágil |
-| Arco | Arcos | 1d8 | — | Duas Mãos | arma de precisão padrão |
-| Balista | Arcos | 1d12 | — | Duas Mãos | arma de cerco, a mais pesada |
-| Chakram | Arremesso | 1d6 | — | Leve | anel de arremesso |
-| Pistolas | Armas de Fogo Leves | 1d6 | — | Leve | dupla de pistolas leves, usadas sempre em par |
-| Flintlock | Armas de Fogo Leves | 1d8 | — | Leve | pistola de precisão |
-| Revólver Maverick | Armas de Fogo Leves | 1d8 | — | Leve | revólver pesado, usado sempre sozinho |
-| Espingarda | Armas de Fogo Pesadas | 1d10 | — | Duas Mãos | "A Ruptura" — tiro único e devastador, arma dos Justiceiros |
-| Metralhadora | Armas de Fogo Pesadas | 1d12 | — | Duas Mãos | giratória, a mais pesada |
+- **Punhal** — o Tier 3/Crítico da Especial causa um Ferimento Amaldiçoado, que não cicatriza por cura normal.
+- **Espada Senciente** — reduz o Movimento do usuário em 1 casa enquanto equipada; sua energia de absorção vive na habilidade geral [Esferas Sombrias](../habilidades/magicas-elementais.md#sombras).
+- **Katana Muramasa** — a lâmina exige sangue: se não causar dano numa cena de combate, o usuário ganha Estresse.
+- **Soqueira Pesada** — habilita a Reação exclusiva [Impulso da Soqueira](../habilidades/mobilidade.md).
 
-### Arcano
+### Dupla Empunhadura
 
-| Arma | Família | Dado | Preço | Chaves | Nota |
-|---|---|---|---|---|---|
-| Leque | Focos Mágicos | 1d6 | — | Leve | canalização mágica genérica |
-| Manual | Focos Mágicos | 1d6 | — | Leve | grimório leve |
-| Pote | Focos Mágicos | 1d6 | — | Leve | arremesso alquímico, leve e imprevisível |
-| Cetro | Focos Mágicos | 1d8 | — | Leve | foco arcano genérico |
-| Cubo Mágico | Focos Mágicos | 1d8 | — | Leve | cubo cósmico senciente |
-| Lâmpada | Focos Mágicos | 1d8 | — | Leve | foco médio |
-| Manopla Mística | Focos Mágicos | 1d8 | — | Leve | invoca criaturas através de uma gema com pentagramas e hexagramas |
-| Olho Mágico | Focos Mágicos | 1d8 | — | Leve | genérica, sem elemento fixo |
-| Orbe | Focos Mágicos | 1d8 | — | Leve | esfera mágica que guarda poder |
-| Cajado | Focos Mágicos | 1d10 | — | Duas Mãos | canalização pesada |
-| Módulo Alado | Focos Mágicos | 1d10 | — | *(especial — não é empunhado)* | enxame tecnológico de lâminas voadoras |
+Quando um personagem usa duas armas específicas ao mesmo tempo (não uma arma "combo" própria, mas duas armas já existentes no Arsenal, empunhadas juntas), isso não vira uma entrada nova de arma — vira uma **habilidade geral** marcada com a chave **Dupla Empunhadura**, exigindo as duas armas equipadas simultaneamente pra ser usada.
 
-## Espada
+O dano dessas habilidades é a **soma dos dados das duas armas exigidas**, rolados juntos na mesma habilidade.
 
-*A Espada é uma arma longa, formada por uma lâmina e uma empunhadura — uma das armas mais usadas que existem.*
+Combinações de Dupla Empunhadura até agora: **Lança + Espada** (ver [Investida Dupla, Combo Punitivo e Mergulho Furioso](../habilidades/marciais.md) — origem: Sieghart).
+
+*(Pendente: revisar retroativamente se alguma habilidade já escrita da Elesis deveria ganhar essa chave também.)*
+
+### Escudos
+
+Diferente de uma arma, um Escudo não concede as 3 habilidades de Básica/Avançada/Especial — ele ocupa a mão secundária e concede um bônus passivo de Defesa, sempre ativo, sem custo de Mana ou PA. Só pode ser equipado se a mão principal tiver uma arma [Leve](#leve) (ou estiver livre).
+
+| Tier | Bônus de Defesa | Restrição |
+|---|---|---|
+| Escudo Leve | +2 | Nenhuma — combina com qualquer arma Leve |
+| Escudo Pesado | +3 | Nenhuma — combina com qualquer arma Leve |
+| Escudo Torre | +5 | Ocupa as duas mãos sozinho — usuário não pode equipar nenhuma arma junto (luta com [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)) |
+
+Ter um Escudo equipado também habilita a habilidade geral [Bloqueio](../habilidades/buff.md), independente do tier.
+
+## Adagas
+
+*As Adagas são, basicamente, espadas pequenas que exigem velocidade e precisão nos golpes.*
+
+Arma Finesse (ver [Finesse](#finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d4**
+
+**Corte Impactante** — *Básica*
+
+*Um corte horizontal rápido, cravado no ponto certo pra desequilibrar o inimigo.*
+
+- **Chave:** [Adagas](../glossario.md#adagas) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d4 de dano
+- **Tier 2 (11–16):** 1d4 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d4 de dano + derruba o alvo
+- **Crítico:** dano máximo (4) + 1d4 extra, e derruba o alvo
+
+**Fúria Fatal** — *Avançada*
+
+*Um golpe imprevisível — às vezes de raspão, às vezes fatal.*
+
+- **Chave:** [Adagas](../glossario.md#adagas) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d4 de dano
+- **Tier 2 (11–16):** 2d4 de dano
+- **Tier 3 (≥17):** 4d4 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo do 4d4 (16) + 4d4 extra, e Sangrando
+
+**Golpe Final** — *Especial*
+
+*Recua num salto enquanto crava lâminas certeiras no chão, longe do alcance de contra-ataques.*
+
+- **Chave:** [Adagas](../glossario.md#adagas) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor da posição original do usuário
+- **Alcance do recuo:** até o valor de Movimento do personagem, em casas — o usuário se desloca pra trás, saindo da área afetada
+- **Tier 1 (≤10):** 1d4 de dano em cada alvo
+- **Tier 2 (11–16):** 1d4 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d4 de dano + Lento + derruba cada alvo
+- **Crítico:** dano máximo (4) + 1d4 extra em todos, Lento, e derruba cada alvo
+
+## Alfange
+
+*O Alfange (cimitarra) é uma espada curva, tipicamente usada por mercenários — exige muita agilidade de quem a empunha. Normalmente é usado junto de uma arma secundária, criando combos ágeis em corrente.*
+
+**Requisito:** Agilidade +3 — sem esse mínimo, o Alfange não pode ser equipado.
+
+Arma Finesse (ver [Finesse](#finesse) abaixo) — usa Força ou Agilidade, o que for maior.
 
 Dano: **1d8**
 
-**Corte Incandescente** — *Básica*
+**Fúria da Lâmina** — *Básica*
 
-*Um golpe preciso e brutal, direto ao ponto fraco do inimigo.*
+*Dois cortes baixos terminam com um golpe alto que lança o inimigo pro alto.*
 
-- **Chave:** [Espada](../glossario.md#espada) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Chave:** [Alfange](../glossario.md#alfange) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, Sangrando, e derruba o alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
 
-**Redemoinho de Aço** — *Avançada*
+**Explosão em Corrente** — *Avançada*
 
-*Um giro completo da lâmina, cortando tudo que estiver ao alcance.*
+*Uma corrente presa ao braço golpeia o inimigo e o arrasta pra perto.*
 
-- **Chave:** [Espada](../glossario.md#espada) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Chave:** [Alfange](../glossario.md#alfange) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + puxa 2 casas
+- **Tier 3 (≥17):** 1d8 de dano + puxa 3 casas e derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, puxa 3 casas, e derruba o alvo
+
+**Golpe Fantasma** — *Especial*
+
+*O corpo se desfaz em fumaça e avança rapidamente, cortando tudo no caminho antes de retornar à posição original.*
+
+- **Chave:** [Alfange](../glossario.md#alfange) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
-
-**Crítico X** — *Especial*
-
-*O guerreiro salta e desaba sobre o chão como um meteoro de aço.*
-
-- **Chave:** [Espada](../glossario.md#espada) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** área de 2 casas de raio ao redor de um ponto de queda
-- **Alcance do salto:** até o valor de Movimento do personagem, em casas
-- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo atingido
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo atingido
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Lança
-
-*A Lança é uma arma constituída por uma longa vara com uma ponta afiada. Os guerreiros que a utilizam se especializam em combate a média distância, o que pode ser uma grande vantagem contra um oponente que lute corpo a corpo.*
-
-Dano: **1d10**
-
-**Golpe de Força** — *Básica*
-
-*A lança gira no ar antes de bater com força total no chão.*
-
-- **Chave:** [Lança](../glossario.md#lança) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
-
-**Investida Ascendente** — *Avançada*
-
-*Duas estocadas rápidas terminam com um golpe ascendente que ergue o inimigo do chão.*
-
-- **Chave:** [Lança](../glossario.md#lança) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Crítico:** dano máximo (10) + 1d10 extra, e Atordoado
-
-**Corte Compacto** — *Especial*
-
-*Um giro horizontal completo acerta tudo à frente e atrás.*
-
-- **Chave:** [Lança](../glossario.md#lança) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-## Montante
-
-*A Montante é uma espada de empunhadura mediana, com a lâmina maior que a guarda. É uma arma de difícil domínio graças ao tamanho da lâmina — só guerreiros brutais conseguem dominá-la.*
-
-**Requisito:** Força +3 — sem esse mínimo, a Montante não pode ser equipada.
-
-Dano: **1d12**
-
-**Ruptura de Força** — *Básica*
-
-*Um talho largo e pesado arremessa o inimigo pra longe.*
-
-- **Chave:** [Montante](../glossario.md#montante) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d12 de dano + empurra 4 casas
-- **Crítico:** dano máximo (12) + 1d12 extra, e empurra 4 casas
-
-**Mergulho do Dragão** — *Avançada*
-
-*Um golpe ascendente é seguido por uma queda violenta que esmaga o chão.*
-
-- **Chave:** [Montante](../glossario.md#montante) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
-
-**Feixe da Lâmina** — *Especial*
-
-*Um feixe poderoso é disparado à frente, enquanto outro mais fraco é lançado pra trás.*
-
-- **Chave:** [Montante](../glossario.md#montante) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** duas linhas de 6 casas, uma à frente e outra atrás do usuário
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
-
-## Sabres
-
-*Os Sabres são lâminas leves, normalmente usadas em dupla. São pouco vistas, mas quem as domina se torna um grande guerreiro.*
-
-Dano: **1d6**
-
-**Corte Circular** — *Básica*
-
-*Duas lâminas cortam em sequência antes de golpear com força pra baixo.*
-
-- **Chave:** [Sabres](../glossario.md#sabres) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Valsa Mortal** — *Avançada*
-
-*Um giro veloz e implacável termina lançando ondas de energia ao chão.*
-
-- **Chave:** [Sabres](../glossario.md#sabres) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Sangrando
-
-**Redemoinho de Lâminas** — *Especial*
-
-*As duas lâminas se tornam um redemoinho contínuo, cortando tudo ao alcance.*
-
-- **Chave:** [Sabres](../glossario.md#sabres) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Arco
 
@@ -300,44 +283,44 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
 
-## Bestas
+## Báculo
 
-*As Bestas são armas com aparência de espingarda, com um arco de flechas acoplado no lado oposto da coronha, acionado por gatilho, que projeta flechas mais curtas e leves. São consideradas pequenos "arcos mecânicos".*
+*O Báculo é constituído por um bastão com uma lâmina circular e um cristal no centro da lâmina. Essa arma mágica é o símbolo máximo dos bardos — o instrumento é capaz de direcionar o som e amplificá-lo por meio de vibrações do cristal sagrado raríssimo preso à ponta do bastão.*
 
-Dano: **1d6**
+Dano: **1d8**
 
-**Tiro em Leque** — *Básica*
+**Reverberação** — *Básica*
 
-*Quatro dardos disparam em formação de leque, cobrindo um arco à frente.*
+*Três golpes certeiros terminam erguendo o inimigo no ar.*
 
-- **Chave:** [Bestas](../glossario.md#bestas) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Chave:** [Báculo](../glossario.md#báculo) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
 
-**Chute Trampolim** — *Avançada*
+**Tiro da Sereia** — *Avançada*
 
-*Um chute simples mas certeiro lança o inimigo pro alto.*
+*Um orbe sonoro é disparado contra o alvo à distância.*
 
-- **Chave:** [Bestas](../glossario.md#bestas) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra, e Atordoado
+- **Chave:** [Báculo](../glossario.md#báculo) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
 
-**Investida Retumbante** — *Especial*
+**Mergulho Sonoro** — *Especial*
 
-*O corpo inteiro dispara pra frente como uma flecha viva, arrasando quem estiver no caminho.*
+*Um salto termina num mergulho certeiro, orbe e corpo atingindo juntos.*
 
-- **Chave:** [Bestas](../glossario.md#bestas) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo, usuário se desloca até o fim da linha
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Chave:** [Báculo](../glossario.md#báculo) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 ## Balista
 
@@ -378,46 +361,163 @@ Dano: **1d12**
 - **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
 - **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
 
-## Gakkung
+## Bastão
 
-*O Gakkung é considerado o Arco mais poderoso de todos, reunindo a potência da Balista, a velocidade de disparo das Bestas e a precisão do Arco leve. Essa versatilidade também o torna extremamente difícil de manusear.*
+*O Bastão é uma arma que prega a luta a média distância.*
 
-**Requisito:** Agilidade +6 — sem esse mínimo, o Gakkung não pode ser equipado.
+Dano: **1d8**
+
+**Golpe Ascendente** — *Básica*
+
+*Dois golpes ascendentes erguem o inimigo no ar.*
+
+- **Chave:** [Bastão](../glossario.md#bastão) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Corte em Espiral** — *Avançada*
+
+*Três giros pra frente terminam num golpe final pesado.*
+
+- **Chave:** [Bastão](../glossario.md#bastão) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 2d8 de dano
+- **Tier 3 (≥17):** 2d8 de dano + derruba o alvo
+- **Crítico:** dano máximo do 2d8 (16) + 2d8 extra, e derruba o alvo
+
+**Investida Celestial** — *Especial*
+
+*Um giro rápido crava o bastão no chão — o usuário salta ao alto e desaba com força total.*
+
+- **Chave:** [Bastão](../glossario.md#bastão) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Bestas
+
+*As Bestas são armas com aparência de espingarda, com um arco de flechas acoplado no lado oposto da coronha, acionado por gatilho, que projeta flechas mais curtas e leves. São consideradas pequenos "arcos mecânicos".*
 
 Dano: **1d6**
 
-**Tiro Carregado** — *Básica*
+**Tiro em Leque** — *Básica*
 
-*Um golpe de ombro desequilibra o inimigo antes de uma rajada de flechas certeiras.*
+*Quatro dardos disparam em formação de leque, cobrindo um arco à frente.*
 
-- **Chave:** [Gakkung](../glossario.md#gakkung) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Chute Aéreo** — *Avançada*
-
-*Um salto termina num chute certeiro desde o alto.*
-
-- **Chave:** [Gakkung](../glossario.md#gakkung) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
-
-**Rajada Explosiva** — *Especial*
-
-*Uma saraivada de flechas cobre uma área inteira, explodindo ao contato.*
-
-- **Chave:** [Gakkung](../glossario.md#gakkung) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Chave:** [Bestas](../glossario.md#bestas) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** até 2 criaturas diferentes ao alcance
 - **Tier 1 (≤10):** 1d6 de dano em cada alvo
 - **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Chute Trampolim** — *Avançada*
+
+*Um chute simples mas certeiro lança o inimigo pro alto.*
+
+- **Chave:** [Bestas](../glossario.md#bestas) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra, e Atordoado
+
+**Investida Retumbante** — *Especial*
+
+*O corpo inteiro dispara pra frente como uma flecha viva, arrasando quem estiver no caminho.*
+
+- **Chave:** [Bestas](../glossario.md#bestas) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo, usuário se desloca até o fim da linha
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Bolsa de Truques
+
+*A Bolsa de Truques é uma arma mágica capaz de dar forma e vida aos pensamentos de quem a abre.*
+
+Dano: **1d10**
+
+**Contra-Ataque Triplo** — *Básica*
+
+*Um buquê é sacado da bolsa e golpeia três vezes em sequência.*
+
+- **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Canhão Portátil** — *Avançada*
+
+*Um canhão é sacado da bolsa, disparando uma bomba que explode ao contato.*
+
+- **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Metralhadora da Bolsa** — *Especial*
+
+*Uma metralhadora surge da bolsa, disparando uma rajada certeira contra tudo à frente.*
+
+- **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+## Cajado
+
+*O Cajado é uma arma de poder gigantesco, capaz de canalizar uma quantidade muito maior de energia arcana, com muito mais precisão.*
+
+Armas mágicas como o Cajado não travam feitiços específicos — suas 3 habilidades são canalizações genéricas de energia bruta, sem elemento fixo.
+
+Dano: **1d10**
+
+**Impacto do Cajado** — *Básica*
+
+*Um pulso de energia neutra é disparado da ponta do cajado.*
+
+- **Chave:** [Cajado](../glossario.md#cajado) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Onda do Cajado** — *Avançada*
+
+*Uma onda de força neutra se espalha a partir de um ponto escolhido.*
+
+- **Chave:** [Cajado](../glossario.md#cajado) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Ruptura Arcana** — *Especial*
+
+*A canalização se rompe de vez, liberando toda a energia acumulada ao redor do usuário.*
+
+- **Chave:** [Cajado](../glossario.md#cajado) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
 
 ## Cetro
 
@@ -460,44 +560,817 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
-## Pote
+## Chakram
 
-*O Pote Mágico é uma arma muito poderosa, capaz de transformar energia mágica em energia explosiva.*
+*O Chakram é uma antiga arma de arremesso, consistindo num anel de metal afiado na parte externa, com diâmetro entre 12 e 30 cm.*
 
-Armas mágicas como o Pote não travam feitiços específicos — suas 3 habilidades são canalizações genéricas de energia bruta, sem elemento fixo.
+Habilidades originais inspiradas no clássico chakram de arremesso giratório (não ligadas a nenhum personagem específico de Grand Chase).
 
 Dano: **1d6**
 
-**Arremesso Instável** — *Básica*
+**Disco Cortante** — *Básica*
 
-*Um jato de energia instável é lançado do pote, sem forma definida.*
+*Um disco de lâminas gira pelo ar, corta o alvo, e retorna à mão como se nunca tivesse partido.*
 
-- **Chave:** [Pote](../glossario.md#pote) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Chave:** [Chakram](../glossario.md#chakram) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d6 de dano
 - **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
 - **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
 - **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
 
-**Explosão do Pote** — *Avançada*
+**Ricochete Mortal** — *Avançada*
 
-*O conteúdo do pote se rompe numa explosão descontrolada numa área.*
+*O chakram ricocheteia de inimigo a inimigo, cortando a todos antes de voltar à mão.*
 
-- **Chave:** [Pote](../glossario.md#pote) - [Avançada](../glossario.md#avançada)
+- **Chave:** [Chakram](../glossario.md#chakram) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 3 criaturas diferentes, atingidas em sequência
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos neste turno rola com vantagem (rola 2x e fica com o maior)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e vantagem pro próximo ataque aliado
+
+**Círculo da Perdição** — *Especial*
+
+*O chakram descreve um círculo perfeito ao redor de um ponto escolhido, cortando tudo que estiver na borda antes de retornar.*
+
+- **Chave:** [Chakram](../glossario.md#chakram) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (centro) | **Alvos:** todas as criaturas na borda de um círculo de 3 casas de raio
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + a área vira Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
+- **Tier 3 (≥17):** 1d6 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Terreno Difícil, e Lento
+
+## Cubo Mágico
+
+*O Cubo Mágico é um cubo perfeito que gira eternamente sobre si mesmo, cada face revelando uma geometria impossível diferente. Reorganiza sua própria estrutura interna pra canalizar qualquer tipo de energia mágica, de acordo com a vontade de quem o carrega.*
+
+Arma mágica genérica como o Cetro, o Manual e o Orbe — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo.
+
+Dano: **1d8**
+
+**Impacto do Cubo** — *Básica*
+
+*Um pulso de energia crua é disparado do cubo, sem forma ou tema definido.*
+
+- **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Ruptura do Cubo** — *Avançada*
+
+*O cubo gira sobre si mesmo antes de liberar uma onda de força numa área.*
+
+- **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Avançada](../glossario.md#avançada)
 - **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Colapso do Cubo** — *Especial*
+
+*Todas as faces do cubo se abrem de uma vez, liberando toda a energia contida ao redor do usuário.*
+
+- **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Égide
+
+*A Égide é uma arma que trabalha em conjunto — constituída por um Escudo e uma Espada. Também pode invocar runas misteriosas pra ajudar na batalha.*
+
+Dano: **1d6**
+
+**Talho Divino** — *Básica*
+
+*Três cortes rápidos terminam num golpe descendente poderoso.*
+
+- **Chave:** [Égide](../glossario.md#égide) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Investida Furiosa** — *Avançada*
+
+*Dois golpes ascendentes furiosos erguem o inimigo no ar.*
+
+- **Chave:** [Égide](../glossario.md#égide) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
+
+**Estocada Arcana** — *Especial*
+
+*Um círculo mágico se forma à frente da lâmina, e uma estocada o atravessa, perfurando tudo numa longa linha reta.*
+
+- **Chave:** [Égide](../glossario.md#égide) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
 - **Tier 1 (≤10):** 1d6 de dano em cada alvo
 - **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
-**Caldeirão Reverso** — *Especial*
+## Espada
 
-*O pote se vira de ponta-cabeça, liberando toda a energia acumulada ao redor do usuário.*
+*A Espada é uma arma longa, formada por uma lâmina e uma empunhadura — uma das armas mais usadas que existem.*
 
-- **Chave:** [Pote](../glossario.md#pote) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+Dano: **1d8**
+
+**Corte Incandescente** — *Básica*
+
+*Um golpe preciso e brutal, direto ao ponto fraco do inimigo.*
+
+- **Chave:** [Espada](../glossario.md#espada) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, Sangrando, e derruba o alvo
+
+**Redemoinho de Aço** — *Avançada*
+
+*Um giro completo da lâmina, cortando tudo que estiver ao alcance.*
+
+- **Chave:** [Espada](../glossario.md#espada) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
+
+**Crítico X** — *Especial*
+
+*O guerreiro salta e desaba sobre o chão como um meteoro de aço.*
+
+- **Chave:** [Espada](../glossario.md#espada) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** área de 2 casas de raio ao redor de um ponto de queda
+- **Alcance do salto:** até o valor de Movimento do personagem, em casas
+- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo atingido
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo atingido
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Espada Senciente
+
+*A Espada Senciente pode ser usada tanto ofensivamente quanto defensivamente. Absorve as energias de outros seres e também produz ataques com esferas sombrias. Porém, devido ao imenso poder da espada, ela também dificulta a mobilidade do usuário no processo.*
+
+**Passiva:** enquanto equipada, reduz o Movimento do usuário em 1 casa.
+
+Habilidades originais mundanas. A absorção de energia mencionada acima vive como habilidade geral — ver [Esferas Sombrias](../habilidades/magicas-elementais.md#sombras).
+
+Dano: **1d12**
+
+**Corte Pesado** — *Básica*
+
+*Um golpe lento, mas de peso avassalador.*
+
+- **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+
+**Giro Devastador** — *Avançada*
+
+*A lâmina gigante gira num arco largo, varrendo tudo ao redor.*
+
+- **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d12 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, Sangrando, e derruba cada alvo
+
+**Golpe Colossal** — *Especial*
+
+*Um golpe único capaz de rachar o chão com seu impacto.*
+
+- **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d12 de dano + Atordoado + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, Atordoado, e derruba o alvo
+
+## Espada-Chave
+
+*A Espada-Chave é uma lâmina cujo formato lembra uma chave antiga — capaz de abrir fechaduras que a força bruta jamais romperia, tanto no mundo físico quanto nas barreiras da própria magia.*
+
+Arma Híbrida (ver [Híbrida](#híbrida) abaixo) — usa Força ou Inteligência, o que for maior.
+
+Dano: **1d8**
+
+**Golpe Estiloso** — *Básica*
+
+*Três cortes rápidos terminam com uma estocada poderosa que arremessa o inimigo pra trás.*
+
+- **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d8 de dano + empurra 4 casas
+- **Crítico:** dano máximo (8) + 1d8 extra, e empurra 4 casas
+
+**Investida Celestial** — *Avançada*
+
+*Dois cortes seguidos de um golpe ascendente que lança o inimigo pro alto.*
+
+- **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Tempestade Divina** — *Especial*
+
+*Uma sequência de estocadas termina num salto que invoca lâminas do chão ao redor.*
+
+- **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Espingarda
+
+*Conhecida como "A Ruptura" — uma arma de cano duplo e grande poder, cujos tiros certeiros causam danos enormes. Usada pelos Justiceiros, uma classe de caçadores de recompensas de elite. Diz a lenda que ela já mandou almas direto pra Hades com um único tiro certeiro.*
+
+Dano: **1d10**
+
+**Disparo Certeiro** — *Básica*
+
+*Um único disparo carregado com força total, mirado no ponto fraco do alvo.*
+
+- **Chave:** [Espingarda](../glossario.md#espingarda) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Estampido Fatal** — *Avançada*
+
+*O coice da arma é quase tão brutal quanto o próprio disparo.*
+
+- **Chave:** [Espingarda](../glossario.md#espingarda) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 2d10 de dano
+- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo
+- **Crítico:** dano máximo do 2d10 (20) + 2d10 extra, e derruba o alvo
+
+**Sentença de Hades** — *Especial*
+
+*Um disparo final e implacável — a lenda diz que essa arma já mandou almas direto pro além com um único tiro.*
+
+- **Chave:** [Espingarda](../glossario.md#espingarda) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 12 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 2d10 de dano, ignora Armadura do alvo
+- **Tier 2 (11–16):** 2d10 de dano + empurra 3 casas, ignora Armadura
+- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo, ignora Armadura
+- **Crítico:** dano máximo (20) + 2d10 extra, derruba o alvo, e ignora Armadura
+
+## Flintlock
+
+*As Flintlocks são usadas como armas de autodefesa militar. Seu alcance efetivo é curto, e são frequentemente utilizadas como complemento pra uma espada — diferente das Pistolas, feitas pra serem a arma principal do duo.*
+
+Dano: **1d8**
+
+**Tiro Certeiro** — *Básica*
+
+*Um disparo preciso atordoa o alvo e rouba um pouco de sua energia mágica.*
+
+- **Chave:** [Flintlock](../glossario.md#flintlock) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 5 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d8 de dano + perde a próxima Reação + alvo perde 2 Mana
+- **Crítico:** dano máximo (8) + 1d8 extra + perde Reação + alvo perde 4 Mana
+
+**Disparo Duplo** — *Avançada*
+
+*Dois tiros rápidos e certeiros, cada um mirando um alvo diferente.*
+
+- **Chave:** [Flintlock](../glossario.md#flintlock) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 5 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em cada, e derruba cada alvo
+
+**Saraivada** — *Especial*
+
+*Uma rajada de tiros cobre uma área inteira, sem dar chance de fuga.*
+
+- **Chave:** [Flintlock](../glossario.md#flintlock) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 5 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Florete
+
+*O Florete é uma espada leve, altamente eficaz em duelos graças à velocidade com que pode ser manuseada. Apesar de não possuir gumes, se mostra muito afiado — por isso o estilo de luta é a esgrima, com ataques na horizontal (não na vertical, como nas espadas), causando dano no oponente através da perfuração.*
+
+Arma Finesse (ver [Finesse](#finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d6**
+
+**Investida** — *Básica*
+
+*Um avanço rápido crava a lâmina fina no alvo antes que ele perceba.*
+
+- **Chave:** [Florete](../glossario.md#florete) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Investida Frenética** — *Avançada*
+
+*Uma sequência de estocadas rápidas avança em linha reta, perfurando tudo no caminho.*
+
+- **Chave:** [Florete](../glossario.md#florete) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Giro Circular** — *Especial*
+
+*Um giro completo com a lâmina estendida arremessa qualquer um que estiver perto pra longe.*
+
+- **Chave:** [Florete](../glossario.md#florete) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
 - **Tier 1 (≤10):** 1d6 de dano em cada alvo
 - **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e empurra 4 casas
+
+## Foice
+
+*A Foice é um instrumento composto por uma lâmina encurvada presa a um cabo longo.*
+
+Dano: **1d10**
+
+**Corte da Foice** — *Básica*
+
+*Um corte largo e certeiro, guiado pelo peso da lâmina curva.*
+
+- **Chave:** [Foice](../glossario.md#foice) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Ceifar** — *Avançada*
+
+*Um giro amplo da foice, ceifando tudo ao alcance como trigo maduro.*
+
+- **Chave:** [Foice](../glossario.md#foice) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d10 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, Sangrando, e derruba cada alvo
+
+**Golpe da Colheita** — *Especial*
+
+*Um golpe final, pesado e implacável, como o fim de um ciclo.*
+
+- **Chave:** [Foice](../glossario.md#foice) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
+- **Tier 3 (≥17):** 1d10 de dano + Marcado + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, Marcado, e derruba o alvo
+
+## Gadanha
+
+*A Gadanha é constituída por uma longa haste e uma lâmina curvilínea bastante afiada na ponta.*
+
+Dano: **1d10**
+
+**Justiça Selvagem** — *Básica*
+
+*Um corte rápido é seguido por um salto e um golpe diagonal certeiro.*
+
+- **Chave:** [Gadanha](../glossario.md#gadanha) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Asa de Corvo** — *Avançada*
+
+*A foice é arremessada a curta distância, girando furiosamente no ar antes de retornar à mão.*
+
+- **Chave:** [Gadanha](../glossario.md#gadanha) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + puxa 2 casas
+- **Tier 3 (≥17):** 1d10 de dano + puxa 3 casas e derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, puxa 3 casas, e derruba o alvo
+
+**Ceifa Ampla** — *Especial*
+
+*Um giro completo com a foice ceifa tudo ao alcance, num arco largo e implacável.*
+
+- **Chave:** [Gadanha](../glossario.md#gadanha) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e Sangrando
+
+## Gakkung
+
+*O Gakkung é considerado o Arco mais poderoso de todos, reunindo a potência da Balista, a velocidade de disparo das Bestas e a precisão do Arco leve. Essa versatilidade também o torna extremamente difícil de manusear.*
+
+**Requisito:** Agilidade +6 — sem esse mínimo, o Gakkung não pode ser equipado.
+
+Dano: **1d6**
+
+**Tiro Carregado** — *Básica*
+
+*Um golpe de ombro desequilibra o inimigo antes de uma rajada de flechas certeiras.*
+
+- **Chave:** [Gakkung](../glossario.md#gakkung) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Chute Aéreo** — *Avançada*
+
+*Um salto termina num chute certeiro desde o alto.*
+
+- **Chave:** [Gakkung](../glossario.md#gakkung) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
+
+**Rajada Explosiva** — *Especial*
+
+*Uma saraivada de flechas cobre uma área inteira, explodindo ao contato.*
+
+- **Chave:** [Gakkung](../glossario.md#gakkung) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Garras
+
+*As Garras são luvas com lâminas acopladas, letais quando bem usadas. São de uso comum entre assassinos profissionais, e extremamente perigosas.*
+
+Arma Finesse (ver [Finesse](#finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d6**
+
+**Passo Hipersônico** — *Básica*
+
+*Uma investida veloz corta o inimigo com uma sequência de golpes rápidos.*
+
+- **Chave:** [Garras](../glossario.md#garras) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Lâmina Sem Limites** — *Avançada*
+
+*Uma rajada de cortes rápidos termina com o lutador atacando repetidamente pelas costas do inimigo.*
+
+- **Chave:** [Garras](../glossario.md#garras) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Investida das Sombras** — *Especial*
+
+*As garras se tornam um borrão, cortando tudo ao redor num único movimento contínuo.*
+
+- **Chave:** [Garras](../glossario.md#garras) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Sangrando
+
+## Gládio
+
+*O Gládio é uma espada especial que permite executar magia ao mesmo tempo em que se usa a perícia como espadachim.*
+
+**Requisito:** Força +2 **e** Inteligência +2 — por ser Híbrida (duas disciplinas simultâneas, não uma ou outra), o Gládio exige um mínimo nas duas, não só na maior.
+
+Arma Híbrida (ver [Híbrida](#híbrida) abaixo) — usa Força ou Inteligência, o que for maior.
+
+Dano: **1d6**
+
+**Investida Mágica** — *Básica*
+
+*Uma estocada rápida, impulsionada por magia ancestral.*
+
+- **Chave:** [Gládio](../glossario.md#gládio) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Corte em Cruz** — *Avançada*
+
+*Dois cortes cruzados seguidos de uma aura protetora ao redor do lutador.*
+
+- **Chave:** [Gládio](../glossario.md#gládio) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + usuário ganha Escudo de 1d6 pontos
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo + usuário ganha Escudo de 1d6 pontos
+- **Crítico:** dano máximo (6) + 1d6 extra + derruba o alvo + Escudo de 1d6 pontos
+
+**Lâmina Tempestuosa** — *Especial*
+
+*Uma rajada de golpes furiosos que termina com um corte devastador — o lutador pode se mover livremente durante o ataque.*
+
+- **Chave:** [Gládio](../glossario.md#gládio) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Inteligência | **Alvos:** até 3 criaturas à escolha, ao alcance corpo a corpo
+- **Efeito adicional:** o usuário pode se mover livremente até seu Movimento em casas durante o ataque, sem gastar PA extra
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e derruba cada alvo
+
+## Glaive
+
+*O Glaive é constituído por uma lança de lâmina larga, com runas arcanas em sua empunhadura.*
+
+Dano: **1d10**
+
+**Espada Infinita** — *Básica*
+
+*Duas varreduras baixas erguem o inimigo, seguidas de dois golpes ascendentes e um último golpe mais forte.*
+
+- **Chave:** [Glaive](../glossario.md#glaive) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Investida do Dragão** — *Avançada*
+
+*O usuário dispara pra frente, atravessando qualquer coisa no caminho.*
+
+- **Chave:** [Glaive](../glossario.md#glaive) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o fim da linha
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Salto do Dragão** — *Especial*
+
+*Um salto termina numa queda diagonal, a lâmina cravando fundo no ponto de impacto.*
+
+- **Chave:** [Glaive](../glossario.md#glaive) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+## Katana Muramasa
+
+*A Katana Muramasa é um sabre curvado com gume de apenas um lado. Espadas desse tipo ficaram famosas por serem incrivelmente afiadas, mas ganharam reputação sombria de serem amaldiçoadas: dizia-se que, uma vez retirada da bainha, a lâmina exigia sangue antes de poder ser guardada de novo, levando o portador à loucura ou ao assassinato.*
+
+**Requisito:** Força ou Agilidade +3 (o que for usado no ataque) — sem esse mínimo, a arma não pode ser equipada.
+
+**Maldição:** a lâmina exige sangue. Se o usuário terminar uma cena de combate sem ter causado dano com ela pelo menos uma vez, ganha 1 ponto de Estresse (ver [Estresse](sistema-d20.md#estresse)).
+
+Arma Finesse (ver [Finesse](#finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d10**
+
+**Vento Místico** — *Básica*
+
+*Dois cortes rápidos terminam com um salto e um golpe duplo no ar.*
+
+- **Chave:** [Katana Muramasa](../glossario.md#katana-muramasa) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Relâmpago do Vento** — *Avançada*
+
+*Um corte ascendente é seguido por um salto e uma estocada mergulhante desde o alto.*
+
+- **Chave:** [Katana Muramasa](../glossario.md#katana-muramasa) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e derruba o alvo
+
+**Rajada Violenta** — *Especial*
+
+*Um salto termina com três ondas de energia cortante disparadas pra frente, deixando feridas profundas.*
+
+- **Chave:** [Katana Muramasa](../glossario.md#katana-muramasa) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, empurra 1 casa, e Sangrando
+
+## Katana Nodachi
+
+*A Katana Nodachi é uma espada longa guardada numa bainha presa ao atacante, treinado pra sacá-la à velocidade da luz — permitindo golpes extremamente rápidos num piscar de olhos. É uma arma difícil de empunhar, por causa de suas técnicas quase esquecidas.*
+
+**Requisito:** Força ou Agilidade +3 (o que for usado no ataque) — sem esse mínimo, a arma não pode ser equipada.
+
+Arma Finesse (ver [Finesse](#finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d10**
+
+**Corte da Fúria** — *Básica*
+
+*Um corte único, rápido e certeiro.*
+
+- **Chave:** [Katana Nodachi](../glossario.md#katana-nodachi) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Lâmina Fantasma** — *Avançada*
+
+*Uma rajada de cortes rápidos termina com um golpe final decisivo.*
+
+- **Chave:** [Katana Nodachi](../glossario.md#katana-nodachi) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d10 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e Sangrando
+
+**Espírito da Lâmina** — *Especial*
+
+*Uma energia espectral triplica o alcance da lâmina — dois cortes ascendentes terminam num golpe descendente devastador.*
+
+- **Chave:** [Katana Nodachi](../glossario.md#katana-nodachi) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+## Lâmina
+
+*A Lâmina é uma arma constituída por dois gumes e uma empunhadura. É uma arma ancestral da Espada — depois de muito tempo, a Lâmina foi considerada primitiva e substituída pelas espadas.*
+
+Habilidades de arma são sempre mundanas — técnica e força física, nunca elemento/magia inata (ver [Onda de Chamas](../habilidades/magicas-elementais.md#sombras), que representa a mesma fantasia como feitiço geral).
+
+Dano: **1d8**
+
+**Lâmina Esmagadora** — *Básica*
+
+*Um giro completo da lâmina antes de descer com um golpe brutal.*
+
+- **Chave:** [Lâmina](../glossario.md#lâmina) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Corte Rasante** — *Avançada*
+
+*A lâmina raspa o chão numa investida rasteira, cortando as pernas de quem estiver no caminho.*
+
+- **Chave:** [Lâmina](../glossario.md#lâmina) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo
+
+**Punição Ascendente** — *Especial*
+
+*Um corte ascendente gigantesco, executado duas vezes no ar — a distância pode ser ajustada em pleno voo.*
+
+- **Chave:** [Lâmina](../glossario.md#lâmina) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** até o valor de Movimento, em casas (ajustável em pleno ataque) | **Alvos:** 1 criatura, atingida 2 vezes
+- **Tier 1 (≤10):** 1d8 de dano por acerto
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele) por acerto
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba (aplicado no 2º acerto)
+- **Crítico:** dano máximo (8) + 1d8 extra por acerto, Sangrando, e derruba
+
+## Lâmina do Crepúsculo
+
+*A Lâmina do Crepúsculo é uma arma muito poderosa, mas também muito perigosa. Ela concede um poder inimaginável ao usuário, mas potencializa a escuridão em seu coração, amaldiçoando-o a ser consumido pelas trevas. Pra controlá-la, é preciso de um coração mágico — uma jóia que amplia a bondade da alma e contrabalança a maldição.*
+
+Dano: **1d10**
+
+**Ferrão Sombrio** — *Básica*
+
+*A lâmina é arremessada pro alto, apanhada de volta num corte, seguido de vários golpes rápidos e uma estocada final.*
+
+- **Chave:** [Lâmina do Crepúsculo](../glossario.md#lâmina-do-crepúsculo) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 2d10 de dano
+- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo
+- **Crítico:** dano máximo do 2d10 (20) + 2d10 extra, e derruba o alvo
+
+**Explosão de Rocha** — *Avançada*
+
+*Uma rajada de golpes é seguida por um salto e uma barragem final, terminando numa explosão poderosa.*
+
+- **Chave:** [Lâmina do Crepúsculo](../glossario.md#lâmina-do-crepúsculo) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Ferrão do Tornado** — *Especial*
+
+*Uma array giratória de lâminas espectrais é arremessada à frente, gira furiosamente no ponto mais distante, e retorna cortando tudo de novo.*
+
+- **Chave:** [Lâmina do Crepúsculo](../glossario.md#lâmina-do-crepúsculo) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha, atingidas até 2 vezes (ida e volta)
+- **Tier 1 (≤10):** 1d10 de dano por acerto
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa por acerto
+- **Tier 3 (≥17):** 1d10 de dano + derruba por acerto
+- **Crítico:** dano máximo (10) + 1d10 extra por acerto, e derruba
+
+## Lâmina Dupla
+
+*A Lâmina Dupla é uma arma ancestral, com um punho no centro e uma lâmina em cada extremidade. Utilizada no passado por druidas chamados de sentinelas.*
+
+Dano: **1d6**
+
+**Corte Reverso** — *Básica*
+
+*Dois cortes seguidos de um giro veloz lançam o inimigo pro alto.*
+
+- **Chave:** [Lâmina Dupla](../glossario.md#lâmina-dupla) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Impacto da Alma** — *Avançada*
+
+*Uma aura de força se ergue da lâmina, arremessando o inimigo através do campo de batalha.*
+
+- **Chave:** [Lâmina Dupla](../glossario.md#lâmina-dupla) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas
+- **Crítico:** dano máximo (6) + 1d6 extra, e empurra 4 casas
+
+**Fantasma Giratório** — *Especial*
+
+*O corpo gira em alta velocidade, avançando através de tudo que estiver no caminho.*
+
+- **Chave:** [Lâmina Dupla](../glossario.md#lâmina-dupla) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo, usuário se desloca até o fim da linha
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
@@ -544,215 +1417,85 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
-## Cajado
+## Lança
 
-*O Cajado é uma arma de poder gigantesco, capaz de canalizar uma quantidade muito maior de energia arcana, com muito mais precisão.*
-
-Armas mágicas como o Cajado não travam feitiços específicos — suas 3 habilidades são canalizações genéricas de energia bruta, sem elemento fixo.
+*A Lança é uma arma constituída por uma longa vara com uma ponta afiada. Os guerreiros que a utilizam se especializam em combate a média distância, o que pode ser uma grande vantagem contra um oponente que lute corpo a corpo.*
 
 Dano: **1d10**
 
-**Impacto do Cajado** — *Básica*
+**Golpe de Força** — *Básica*
 
-*Um pulso de energia neutra é disparado da ponta do cajado.*
+*A lança gira no ar antes de bater com força total no chão.*
 
-- **Chave:** [Cajado](../glossario.md#cajado) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Chave:** [Lança](../glossario.md#lança) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d10 de dano
 - **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
 - **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
 - **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
 
-**Onda do Cajado** — *Avançada*
+**Investida Ascendente** — *Avançada*
 
-*Uma onda de força neutra se espalha a partir de um ponto escolhido.*
+*Duas estocadas rápidas terminam com um golpe ascendente que ergue o inimigo do chão.*
 
-- **Chave:** [Cajado](../glossario.md#cajado) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Chave:** [Lança](../glossario.md#lança) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d10 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (10) + 1d10 extra, e Atordoado
+
+**Corte Compacto** — *Especial*
+
+*Um giro horizontal completo acerta tudo à frente e atrás.*
+
+- **Chave:** [Lança](../glossario.md#lança) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
 - **Tier 1 (≤10):** 1d10 de dano em cada alvo
 - **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
 - **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
 
-**Ruptura Arcana** — *Especial*
+## Leque
 
-*A canalização se rompe de vez, liberando toda a energia acumulada ao redor do usuário.*
+*O Leque é uma arma de grande poder, capaz de controlar os ventos — transforma movimentos fluidos de dança ou combate em rajadas cortantes, furacões e barreiras de vento protetoras.*
 
-- **Chave:** [Cajado](../glossario.md#cajado) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-## Adagas
-
-*As Adagas são, basicamente, espadas pequenas que exigem velocidade e precisão nos golpes.*
-
-Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
-
-Dano: **1d4**
-
-**Corte Impactante** — *Básica*
-
-*Um corte horizontal rápido, cravado no ponto certo pra desequilibrar o inimigo.*
-
-- **Chave:** [Adagas](../glossario.md#adagas) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d4 de dano
-- **Tier 2 (11–16):** 1d4 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d4 de dano + derruba o alvo
-- **Crítico:** dano máximo (4) + 1d4 extra, e derruba o alvo
-
-**Fúria Fatal** — *Avançada*
-
-*Um golpe imprevisível — às vezes de raspão, às vezes fatal.*
-
-- **Chave:** [Adagas](../glossario.md#adagas) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d4 de dano
-- **Tier 2 (11–16):** 2d4 de dano
-- **Tier 3 (≥17):** 4d4 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo do 4d4 (16) + 4d4 extra, e Sangrando
-
-**Golpe Final** — *Especial*
-
-*Recua num salto enquanto crava lâminas certeiras no chão, longe do alcance de contra-ataques.*
-
-- **Chave:** [Adagas](../glossario.md#adagas) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor da posição original do usuário
-- **Alcance do recuo:** até o valor de Movimento do personagem, em casas — o usuário se desloca pra trás, saindo da área afetada
-- **Tier 1 (≤10):** 1d4 de dano em cada alvo
-- **Tier 2 (11–16):** 1d4 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d4 de dano + Lento + derruba cada alvo
-- **Crítico:** dano máximo (4) + 1d4 extra em todos, Lento, e derruba cada alvo
-
-## Alfange
-
-*O Alfange (cimitarra) é uma espada curva, tipicamente usada por mercenários — exige muita agilidade de quem a empunha. Normalmente é usado junto de uma arma secundária, criando combos ágeis em corrente.*
-
-**Requisito:** Agilidade +3 — sem esse mínimo, o Alfange não pode ser equipado.
-
-Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
-
-Dano: **1d8**
-
-**Fúria da Lâmina** — *Básica*
-
-*Dois cortes baixos terminam com um golpe alto que lança o inimigo pro alto.*
-
-- **Chave:** [Alfange](../glossario.md#alfange) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Explosão em Corrente** — *Avançada*
-
-*Uma corrente presa ao braço golpeia o inimigo e o arrasta pra perto.*
-
-- **Chave:** [Alfange](../glossario.md#alfange) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + puxa 2 casas
-- **Tier 3 (≥17):** 1d8 de dano + puxa 3 casas e derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, puxa 3 casas, e derruba o alvo
-
-**Golpe Fantasma** — *Especial*
-
-*O corpo se desfaz em fumaça e avança rapidamente, cortando tudo no caminho antes de retornar à posição original.*
-
-- **Chave:** [Alfange](../glossario.md#alfange) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Garras
-
-*As Garras são luvas com lâminas acopladas, letais quando bem usadas. São de uso comum entre assassinos profissionais, e extremamente perigosas.*
-
-Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+Arma mágica genérica como o Cetro, o Manual e o Orbe — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo. A afinidade com vento descrita acima é só inspiração — a magia de Vento em si mora em [Mágicas por Elemento → Vento](../habilidades/magicas-elementais.md#vento), disponível pra qualquer personagem, não só quem usa o Leque.
 
 Dano: **1d6**
 
-**Passo Hipersônico** — *Básica*
+**Lampejo** — *Básica*
 
-*Uma investida veloz corta o inimigo com uma sequência de golpes rápidos.*
+*Um clarão repentino atinge o alvo com um golpe de luz condensada.*
 
-- **Chave:** [Garras](../glossario.md#garras) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
+- **Chave:** [Leque](../glossario.md#leque) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
 - **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
 - **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
 - **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
 
-**Lâmina Sem Limites** — *Avançada*
+**Olho da Tempestade** — *Avançada*
 
-*Uma rajada de cortes rápidos termina com o lutador atacando repetidamente pelas costas do inimigo.*
+*Uma esfera de energia paira no ar antes de se romper num pequeno vórtice.*
 
-- **Chave:** [Garras](../glossario.md#garras) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo perde a próxima Reação
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Investida das Sombras** — *Especial*
-
-*As garras se tornam um borrão, cortando tudo ao redor num único movimento contínuo.*
-
-- **Chave:** [Garras](../glossario.md#garras) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Chave:** [Leque](../glossario.md#leque) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
 - **Tier 1 (≤10):** 1d6 de dano em cada alvo
 - **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Sangrando
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
-## Nodachi
+**Lampejo Final** — *Especial*
 
-*A Nodachi é uma espada longa guardada numa bainha presa ao atacante, treinado pra sacá-la à velocidade da luz — permitindo golpes extremamente rápidos num piscar de olhos. É uma arma difícil de empunhar, por causa de suas técnicas quase esquecidas.*
+*Uma onda de força é disparada à distância, atravessando tudo em seu caminho.*
 
-**Requisito:** Força ou Agilidade +3 (o que for usado no ataque) — sem esse mínimo, a Nodachi não pode ser equipada.
-
-Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
-
-Dano: **1d10**
-
-**Corte da Fúria** — *Básica*
-
-*Um corte único, rápido e certeiro.*
-
-- **Chave:** [Nodachi](../glossario.md#nodachi) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
-
-**Lâmina Fantasma** — *Avançada*
-
-*Uma rajada de cortes rápidos termina com um golpe final decisivo.*
-
-- **Chave:** [Nodachi](../glossario.md#nodachi) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e Sangrando
-
-**Espírito da Lâmina** — *Especial*
-
-*Uma energia espectral triplica o alcance da lâmina — dois cortes ascendentes terminam num golpe descendente devastador.*
-
-- **Chave:** [Nodachi](../glossario.md#nodachi) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Chave:** [Leque](../glossario.md#leque) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Machado
 
@@ -794,91 +1537,6 @@ Dano: **1d12**
 - **Tier 2 (11–16):** 1d12 de dano + Sangrando (perde 1d4 de Vida no início do próximo turno) por acerto
 - **Tier 3 (≥17):** 1d12 de dano + Sangrando + derruba por acerto
 - **Crítico:** dano máximo (12) + 1d12 extra por acerto, Sangrando, e derruba
-
-## Gládio
-
-*O Gládio é uma espada especial que permite executar magia ao mesmo tempo em que se usa a perícia como espadachim.*
-
-**Requisito:** Força +2 **e** Inteligência +2 — por ser Híbrida (duas disciplinas simultâneas, não uma ou outra), o Gládio exige um mínimo nas duas, não só na maior.
-
-Arma Híbrida (ver [Armas Híbridas](#armas-híbridas) abaixo) — usa Força ou Inteligência, o que for maior.
-
-Dano: **1d6**
-
-**Investida Mágica** — *Básica*
-
-*Uma estocada rápida, impulsionada por magia ancestral.*
-
-- **Chave:** [Gládio](../glossario.md#gládio) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Corte em Cruz** — *Avançada*
-
-*Dois cortes cruzados seguidos de uma aura protetora ao redor do lutador.*
-
-- **Chave:** [Gládio](../glossario.md#gládio) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + usuário ganha Escudo de 1d6 pontos
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo + usuário ganha Escudo de 1d6 pontos
-- **Crítico:** dano máximo (6) + 1d6 extra + derruba o alvo + Escudo de 1d6 pontos
-
-**Lâmina Tempestuosa** — *Especial*
-
-*Uma rajada de golpes furiosos que termina com um corte devastador — o lutador pode se mover livremente durante o ataque.*
-
-- **Chave:** [Gládio](../glossario.md#gládio) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Inteligência | **Alvos:** até 3 criaturas à escolha, ao alcance corpo a corpo
-- **Efeito adicional:** o usuário pode se mover livremente até seu Movimento em casas durante o ataque, sem gastar PA extra
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e derruba cada alvo
-
-## Chakram
-
-*O Chakram é uma antiga arma de arremesso, consistindo num anel de metal afiado na parte externa, com diâmetro entre 12 e 30 cm.*
-
-Habilidades originais inspiradas no clássico chakram de arremesso giratório (não ligadas a nenhum personagem específico de Grand Chase).
-
-Dano: **1d6**
-
-**Disco Cortante** — *Básica*
-
-*Um disco de lâminas gira pelo ar, corta o alvo, e retorna à mão como se nunca tivesse partido.*
-
-- **Chave:** [Chakram](../glossario.md#chakram) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Ricochete Mortal** — *Avançada*
-
-*O chakram ricocheteia de inimigo a inimigo, cortando a todos antes de voltar à mão.*
-
-- **Chave:** [Chakram](../glossario.md#chakram) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 3 criaturas diferentes, atingidas em sequência
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos neste turno rola com vantagem (rola 2x e fica com o maior)
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e vantagem pro próximo ataque aliado
-
-**Círculo da Perdição** — *Especial*
-
-*O chakram descreve um círculo perfeito ao redor de um ponto escolhido, cortando tudo que estiver na borda antes de retornar.*
-
-- **Chave:** [Chakram](../glossario.md#chakram) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (centro) | **Alvos:** todas as criaturas na borda de um círculo de 3 casas de raio
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + a área vira Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
-- **Tier 3 (≥17):** 1d6 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, Terreno Difícil, e Lento
 
 ## Manopla
 
@@ -922,46 +1580,42 @@ Dano: **1d6**
 - **Tier 3 (≥17):** 1d6 de dano + derruba o alvo + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra + Atordoado
 
-## Lâmina
+## Manopla Mística
 
-*A Lâmina é uma arma constituída por dois gumes e uma empunhadura. É uma arma ancestral da Espada — depois de muito tempo, a Lâmina foi considerada primitiva e substituída pelas espadas.*
-
-Habilidades de arma são sempre mundanas — técnica e força física, nunca elemento/magia inata (ver [Onda de Chamas](../habilidades/magicas-elementais.md#sombras), que representa a mesma fantasia como feitiço geral).
+*A Manopla Mística é uma arma usada pra invocar seres, coisas e criaturas. Contém uma gema com todos os pentagramas e hexagramas necessários pra invocação, evitando gastar tempo desenhando os círculos em campo.*
 
 Dano: **1d8**
 
-**Lâmina Esmagadora** — *Básica*
+**Convocação Menor** — *Básica*
 
-*Um giro completo da lâmina antes de descer com um golpe brutal.*
+*Um espírito é convocado da gema pra atacar o alvo antes de se dissipar.*
 
-- **Chave:** [Lâmina](../glossario.md#lâmina) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Chave:** [Manopla Mística](../glossario.md#manopla-mística) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d8 de dano
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
 - **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
 - **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
 
-**Corte Rasante** — *Avançada*
+**Círculo de Invocação** — *Avançada*
 
-*A lâmina raspa o chão numa investida rasteira, cortando as pernas de quem estiver no caminho.*
+*Um pentagrama se abre no chão, liberando pequenas criaturas que atacam tudo ao redor antes de sumir.*
 
-- **Chave:** [Lâmina](../glossario.md#lâmina) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Chave:** [Manopla Mística](../glossario.md#manopla-mística) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
-**Punição Ascendente** — *Especial*
+**Guardião Invocado** — *Especial*
 
-*Um corte ascendente gigantesco, executado duas vezes no ar — a distância pode ser ajustada em pleno voo.*
+*Um hexagrama brilha intensamente, materializando um guardião que ataca repetidamente antes de retornar à gema.*
 
-- **Chave:** [Lâmina](../glossario.md#lâmina) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** até o valor de Movimento, em casas (ajustável em pleno ataque) | **Alvos:** 1 criatura, atingida 2 vezes
-- **Tier 1 (≤10):** 1d8 de dano por acerto
-- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele) por acerto
-- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba (aplicado no 2º acerto)
-- **Crítico:** dano máximo (8) + 1d8 extra por acerto, Sangrando, e derruba
+- **Chave:** [Manopla Mística](../glossario.md#manopla-mística) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Efeito:** o alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
 
 ## Manual
 
@@ -1004,403 +1658,44 @@ Dano: **1d6**
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
-## Foice
+## Marreta Mágica
 
-*A Foice é um instrumento composto por uma lâmina encurvada presa a um cabo longo.*
-
-Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit demoníaco do Dio virou habilidades gerais espalhadas por Marciais, Debuff, Mágicas Básicas e Mágicas por Elemento.
-
-Dano: **1d10**
-
-**Corte da Foice** — *Básica*
-
-*Um corte largo e certeiro, guiado pelo peso da lâmina curva.*
-
-- **Chave:** [Foice](../glossario.md#foice) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
-
-**Ceifar** — *Avançada*
-
-*Um giro amplo da foice, ceifando tudo ao alcance como trigo maduro.*
-
-- **Chave:** [Foice](../glossario.md#foice) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d10 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, Sangrando, e derruba cada alvo
-
-**Golpe da Colheita** — *Especial*
-
-*Um golpe final, pesado e implacável, como o fim de um ciclo.*
-
-- **Chave:** [Foice](../glossario.md#foice) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
-- **Tier 3 (≥17):** 1d10 de dano + Marcado + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, Marcado, e derruba o alvo
-
-## Espada Senciente
-
-*A Espada Senciente pode ser usada tanto ofensivamente quanto defensivamente. Absorve as energias de outros seres e também produz ataques com esferas sombrias. Porém, devido ao imenso poder da espada, ela também dificulta a mobilidade do usuário no processo.*
-
-**Passiva:** enquanto equipada, reduz o Movimento do usuário em 1 casa.
-
-Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit do Zero virou habilidades gerais espalhadas por Marciais, Debuff, Buff, Mágicas Básicas e Mágicas por Elemento, incluindo a absorção de energia (ver [Esferas Sombrias](../habilidades/magicas-elementais.md#sombras)).
+*A Marreta Mágica é constituída por um cabo longo com duas extremidades cilíndricas na ponta pra atacar. Apresenta uma fenda ou gema central que brilha, indicando o uso de energia ou mana.*
 
 Dano: **1d12**
 
-**Corte Pesado** — *Básica*
+**Sem Piedade** — *Básica*
 
-*Um golpe lento, mas de peso avassalador.*
+*Um golpe de taco arremessa o inimigo pro alto — uma bomba grudada nele explode antes da queda.*
 
-- **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Básica](../glossario.md#básica)
+- **Chave:** [Marreta Mágica](../glossario.md#marreta-mágica) - [Básica](../glossario.md#básica)
 - **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
+- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d12 de dano + empurra 2 casas e derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, empurra 2 casas, e derruba o alvo
+
+**Impacto Propulsor** — *Avançada*
+
+*Propulsores escondidos na marreta disparam, somando força total a um golpe devastador.*
+
+- **Chave:** [Marreta Mágica](../glossario.md#marreta-mágica) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 3 casas
 - **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, empurra 3 casas, e derruba o alvo
 
-**Giro Devastador** — *Avançada*
+**Marretada Sísmica** — *Especial*
 
-*A lâmina gigante gira num arco largo, varrendo tudo ao redor.*
+*Um golpe no chão libera uma onda de choque que se espalha em todas as direções.*
 
-- **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d12 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, Sangrando, e derruba cada alvo
-
-**Golpe Colossal** — *Especial*
-
-*Um golpe único capaz de rachar o chão com seu impacto.*
-
-- **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d12 de dano + Atordoado + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, Atordoado, e derruba o alvo
-
-## Orbe
-
-Arma mágica genérica como o Cetro e o Manual — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de força bruta, sem elemento fixo. *(O resto do kit da Rey — invocações, magia sombria, curses — virou habilidades gerais espalhadas por Mágicas por Elemento, Mágicas Básicas, Debuff e Buff.)*
-
-Dano: **1d8**
-
-**Impacto do Orbe** — *Básica*
-
-*Um pulso de força bruta é comprimido no orbe e disparado contra o alvo.*
-
-- **Chave:** [Orbe](../glossario.md#orbe) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Colapso do Orbe** — *Avançada*
-
-*O orbe implode sobre um ponto escolhido, sugando tudo próximo antes de se romper.*
-
-- **Chave:** [Orbe](../glossario.md#orbe) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo (em direção ao ponto)
-- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e derruba cada alvo
-
-**Ruptura do Orbe** — *Especial*
-
-*Toda a energia contida se libera de uma vez, ondulando pra fora em todas as direções.*
-
-- **Chave:** [Orbe](../glossario.md#orbe) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Manopla Mística
-
-*A Manopla Mística é uma arma usada pra invocar seres, coisas e criaturas. Contém uma gema com todos os pentagramas e hexagramas necessários pra invocação, evitando gastar tempo desenhando os círculos em campo.*
-
-Dano: **1d8**
-
-**Convocação Menor** — *Básica*
-
-*Um espírito é convocado da gema pra atacar o alvo antes de se dissipar.*
-
-- **Chave:** [Manopla Mística](../glossario.md#manopla-mística) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Círculo de Invocação** — *Avançada*
-
-*Um pentagrama se abre no chão, liberando pequenas criaturas que atacam tudo ao redor antes de sumir.*
-
-- **Chave:** [Manopla Mística](../glossario.md#manopla-mística) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-**Guardião Invocado** — *Especial*
-
-*Um hexagrama brilha intensamente, materializando um guardião que ataca repetidamente antes de retornar à gema.*
-
-- **Chave:** [Manopla Mística](../glossario.md#manopla-mística) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Efeito:** o alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
-- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
-
-## Pistolas
-
-*Pistolas são armas de fogo — sua principal utilidade em combate é disparar projéteis pra eliminar inimigos. Leves e sempre usadas em par, uma em cada mão, ao contrário do Revólver Maverick (pesado demais pra empunhar dois). A arma constante do caçador de recompensas, presente desde a 1ª classe. As outras 3 armas que ele acumula ao longo da progressão (Punhal, Espingarda, Metralhadora) também viraram entradas próprias no Arsenal, cada uma com identidade mundana independente.*
-
-Dano: **1d6**
-
-**Presas Gêmeas** — *Básica*
-
-*Dois tiros perfurantes seguidos por um golpe final mais poderoso.*
-
-- **Chave:** [Pistolas](../glossario.md#pistolas) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Tiro Cruzado** — *Avançada*
-
-*Dois disparos simultâneos cobrem direções opostas, sem deixar brechas.*
-
-- **Chave:** [Pistolas](../glossario.md#pistolas) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em cada, e derruba cada alvo
-
-**Chuva de Chumbo** — *Especial*
-
-*Um dilúvio de balas desaba do alto sobre uma área inteira.*
-
-- **Chave:** [Pistolas](../glossario.md#pistolas) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-## Punhal
-
-*O Punhal é constituído por uma lâmina pequena de apenas um gume, com empunhadura proporcional à lâmina. Diz a lenda que essa adaga tem o terrível poder de realizar cortes que se recusam a cicatrizar.*
-
-Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior. O poder de impedir cicatrização vira o Ferimento Amaldiçoado do Corte Crescente (Especial), abaixo.
-
-Dano: **1d6**
-
-**Corte Etéreo** — *Básica*
-
-*Uma lâmina espectral corta o inimigo, deixando um ferimento que não para de sangrar.*
-
-- **Chave:** [Punhal](../glossario.md#punhal) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d6 de dano + Sangrando + empurra 1 casa
-- **Crítico:** dano máximo (6) + 1d6 extra, Sangrando, e empurra 1 casa
-
-**Corte Ceifador** — *Avançada*
-
-*Dois cortes em sequência lançam o inimigo pra cima, deixando feridas profundas.*
-
-- **Chave:** [Punhal](../glossario.md#punhal) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, Sangrando, e derruba o alvo
-
-**Corte Crescente** — *Especial*
-
-*Dois cortes rápidos, seguidos por um terceiro golpe muito mais forte.*
-
-- **Chave:** [Punhal](../glossario.md#punhal) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 2d6 de dano
-- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 2d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (como Sangrando — perde 1d4 de Vida no início do próximo turno dele — mas não pode ser removido ou curado por nenhum efeito até terminar o curso)
-- **Crítico:** dano máximo (12) + 1d6 extra, derruba o alvo, e Ferimento Amaldiçoado
-
-## Espingarda
-
-*Conhecida como "A Ruptura" — uma arma de cano duplo e grande poder, cujos tiros certeiros causam danos enormes. Usada pelos Justiceiros, uma classe de caçadores de recompensas de elite. Diz a lenda que ela já mandou almas direto pra Hades com um único tiro certeiro.*
-
-Dano: **1d10**
-
-**Disparo Certeiro** — *Básica*
-
-*Um único disparo carregado com força total, mirado no ponto fraco do alvo.*
-
-- **Chave:** [Espingarda](../glossario.md#espingarda) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
-
-**Estampido Fatal** — *Avançada*
-
-*O coice da arma é quase tão brutal quanto o próprio disparo.*
-
-- **Chave:** [Espingarda](../glossario.md#espingarda) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 2d10 de dano
-- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo
-- **Crítico:** dano máximo do 2d10 (20) + 2d10 extra, e derruba o alvo
-
-**Sentença de Hades** — *Especial*
-
-*Um disparo final e implacável — a lenda diz que essa arma já mandou almas direto pro além com um único tiro.*
-
-- **Chave:** [Espingarda](../glossario.md#espingarda) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 12 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 2d10 de dano, ignora Armadura do alvo
-- **Tier 2 (11–16):** 2d10 de dano + empurra 3 casas, ignora Armadura
-- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo, ignora Armadura
-- **Crítico:** dano máximo (20) + 2d10 extra, derruba o alvo, e ignora Armadura
-
-## Metralhadora
-
-*A Metralhadora é constituída por longos canos conectados a uma estrutura metálica. Acima da estrutura fica o gatilho, que, enquanto pressionado, é capaz de atirar rajadas contínuas de projéteis — a arma final do caçador de recompensas.*
-
-Dano: **1d12**
-
-**Fuzilamento** — *Básica*
-
-*A metralhadora dispara sem parar, mantendo o alvo sob fogo constante.*
-
-- **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
-
-**Giro Mortal** — *Avançada*
-
-*Uma virada repentina dispara uma rajada rápida antes que o inimigo perceba.*
-
-- **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + alvo perde a próxima Reação
-- **Tier 3 (≥17):** 1d12 de dano + alvo perde a próxima Ação Básica e Reação
-- **Crítico:** dano máximo (12) + 1d12 extra + efeito do Tier 3
-
-**Estilhaçar** — *Especial*
-
-*Uma saraivada de tiros ergue a mira aos poucos, arremessando os inimigos pra cima.*
-
-- **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Chave:** [Marreta Mágica](../glossario.md#marreta-mágica) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
 - **Tier 1 (≤10):** 1d12 de dano em cada alvo
 - **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
 - **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
-
-## Leque
-
-*O Leque é uma arma de grande poder, capaz de controlar os ventos — transforma movimentos fluidos de dança ou combate em rajadas cortantes, furacões e barreiras de vento protetoras.*
-
-Arma mágica genérica como o Cetro, o Manual e o Orbe — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo. A afinidade com vento descrita acima é só inspiração — a magia de Vento em si mora em [Mágicas por Elemento → Vento](../habilidades/magicas-elementais.md#vento), disponível pra qualquer personagem, não só quem usa o Leque. O resto do kit da Rin — magia de Luz e de Sombras, buffs, controle — virou habilidades gerais espalhadas por Mágicas por Elemento, Buff, Debuff e Mobilidade.
-
-Dano: **1d6**
-
-**Lampejo** — *Básica*
-
-*Um clarão repentino atinge o alvo com um golpe de luz condensada.*
-
-- **Chave:** [Leque](../glossario.md#leque) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Olho da Tempestade** — *Avançada*
-
-*Uma esfera de energia paira no ar antes de se romper num pequeno vórtice.*
-
-- **Chave:** [Leque](../glossario.md#leque) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-**Lampejo Final** — *Especial*
-
-*Uma onda de força é disparada à distância, atravessando tudo em seu caminho.*
-
-- **Chave:** [Leque](../glossario.md#leque) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-## Vembrassa
-
-*A Vembrassa também é conhecida como o reflexo da Manopla, pois se usa a Vembrassa na mão esquerda — o oposto da Manopla, usada na mão direita. O estilo de luta da Vembrassa usa a palma da mão aberta, o oposto do punho fechado da Manopla.*
-
-Dano: **1d6**
-
-**Palma Fluida** — *Básica*
-
-*Um golpe de palma aberta desvia o impulso do inimigo, arremessando-o pelo próprio peso.*
-
-- **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
-
-**Correnteza de Palmas** — *Avançada*
-
-*Uma sequência de palmas abertas em fluxo contínuo, atingindo todos ao redor.*
-
-- **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Lento
-
-**Selo do Fluxo Interno** — *Especial*
-
-*Um toque preciso interrompe o fluxo de energia interna do alvo, drenando sua força.*
-
-- **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo perde 2 no dano de ataques até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d6 de dano + perde 2 no dano de ataques + alvo perde 2 Mana
-- **Crítico:** dano máximo (6) + 1d6 extra + perde 2 no dano de ataques + alvo perde 4 Mana
 
 ## Martelo
 
@@ -1441,918 +1736,40 @@ Dano: **1d12**
 - **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
 - **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
 
-## Florete
+## Metralhadora
 
-*O Florete é uma espada leve, altamente eficaz em duelos graças à velocidade com que pode ser manuseada. Apesar de não possuir gumes, se mostra muito afiado — por isso o estilo de luta é a esgrima, com ataques na horizontal (não na vertical, como nas espadas), causando dano no oponente através da perfuração.*
-
-Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
-
-Dano: **1d6**
-
-**Investida** — *Básica*
-
-*Um avanço rápido crava a lâmina fina no alvo antes que ele perceba.*
-
-- **Chave:** [Florete](../glossario.md#florete) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Investida Frenética** — *Avançada*
-
-*Uma sequência de estocadas rápidas avança em linha reta, perfurando tudo no caminho.*
-
-- **Chave:** [Florete](../glossario.md#florete) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-**Giro Circular** — *Especial*
-
-*Um giro completo com a lâmina estendida arremessa qualquer um que estiver perto pra longe.*
-
-- **Chave:** [Florete](../glossario.md#florete) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e empurra 4 casas
-
-## Flintlock
-
-*As Flintlocks são usadas como armas de autodefesa militar. Seu alcance efetivo é curto, e são frequentemente utilizadas como complemento pra uma espada — diferente das Pistolas, feitas pra serem a arma principal do duo.*
-
-Dano: **1d8**
-
-**Tiro Certeiro** — *Básica*
-
-*Um disparo preciso atordoa o alvo e rouba um pouco de sua energia mágica.*
-
-- **Chave:** [Flintlock](../glossario.md#flintlock) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 5 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + alvo perde a próxima Reação
-- **Tier 3 (≥17):** 1d8 de dano + perde a próxima Reação + alvo perde 2 Mana
-- **Crítico:** dano máximo (8) + 1d8 extra + perde Reação + alvo perde 4 Mana
-
-**Disparo Duplo** — *Avançada*
-
-*Dois tiros rápidos e certeiros, cada um mirando um alvo diferente.*
-
-- **Chave:** [Flintlock](../glossario.md#flintlock) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 5 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em cada, e derruba cada alvo
-
-**Saraivada** — *Especial*
-
-*Uma rajada de tiros cobre uma área inteira, sem dar chance de fuga.*
-
-- **Chave:** [Flintlock](../glossario.md#flintlock) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 5 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Katana
-
-*A Katana é um sabre curvado com gume de apenas um lado — um tipo de lâmina conhecida como "Muramasa". As espadas Muramasa ficaram famosas por serem incrivelmente afiadas, mas ganharam reputação sombria de serem amaldiçoadas: dizia-se que, uma vez retirada da bainha, a lâmina exigia sangue antes de poder ser guardada de novo, levando o portador à loucura ou ao assassinato.*
-
-**Requisito:** Força ou Agilidade +3 (o que for usado no ataque) — sem esse mínimo, a Katana não pode ser equipada.
-
-**Maldição:** a lâmina exige sangue. Se o usuário terminar uma cena de combate sem ter causado dano com a Katana pelo menos uma vez, ganha 1 ponto de Estresse (ver [Estresse](sistema-d20.md#estresse)).
-
-Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit sanguinário do Uno virou habilidades gerais espalhadas por Marciais, Debuff, Buff e Sombras. Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
-
-Dano: **1d10**
-
-**Vento Místico** — *Básica*
-
-*Dois cortes rápidos terminam com um salto e um golpe duplo no ar.*
-
-- **Chave:** [Katana](../glossario.md#katana) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
-
-**Relâmpago do Vento** — *Avançada*
-
-*Um corte ascendente é seguido por um salto e uma estocada mergulhante desde o alto.*
-
-- **Chave:** [Katana](../glossario.md#katana) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano, usuário se desloca até o alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e derruba o alvo
-
-**Rajada Violenta** — *Especial*
-
-*Um salto termina com três ondas de energia cortante disparadas pra frente, deixando feridas profundas.*
-
-- **Chave:** [Katana](../glossario.md#katana) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, empurra 1 casa, e Sangrando
-
-## Cubo Mágico
-
-*O Cubo Mágico é um cubo perfeito que gira eternamente sobre si mesmo, cada face revelando uma geometria impossível diferente. Reorganiza sua própria estrutura interna pra canalizar qualquer tipo de energia mágica, de acordo com a vontade de quem o carrega.*
-
-Arma mágica genérica como o Cetro, o Manual e o Orbe — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo. *(O resto do kit de destruição do Veigas — vórtices, buracos negros, campos sombrios — virou habilidades gerais espalhadas por Mágicas por Elemento, Debuff e Buff.)*
-
-Dano: **1d8**
-
-**Impacto do Cubo** — *Básica*
-
-*Um pulso de energia crua é disparado do cubo, sem forma ou tema definido.*
-
-- **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Ruptura do Cubo** — *Avançada*
-
-*O cubo gira sobre si mesmo antes de liberar uma onda de força numa área.*
-
-- **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-**Colapso do Cubo** — *Especial*
-
-*Todas as faces do cubo se abrem de uma vez, liberando toda a energia contida ao redor do usuário.*
-
-- **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Olho Mágico
-
-*O Olho Mágico é uma esfera com uma íris viva em seu centro, que se abre e se fecha conforme a vontade do usuário. Enxerga além do que os olhos comuns alcançam, e transforma o que vê em pura energia mágica.*
-
-Arma mágica genérica como o Cetro, o Manual, o Orbe e o Cubo Mágico — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo. *(O resto do kit amaldiçoado da Decanee — sombras, fogo, raio, maldições — virou habilidades gerais espalhadas por Mágicas por Elemento, Buff e Debuff.)*
-
-Dano: **1d8**
-
-**Impacto do Olho Mágico** — *Básica*
-
-*Um pulso de energia é disparado do olho arcano, sem forma ou tema definido.*
-
-- **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Ruptura do Olho Mágico** — *Avançada*
-
-*A pupila se dilata por um instante, liberando uma onda de força numa área.*
-
-- **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-**Colapso do Olho Mágico** — *Especial*
-
-*O olho se abre por completo, liberando toda a energia contida ao redor do usuário.*
-
-- **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Espada-Chave
-
-*A Espada-Chave é uma lâmina cujo formato lembra uma chave antiga — capaz de abrir fechaduras que a força bruta jamais romperia, tanto no mundo físico quanto nas barreiras da própria magia.*
-
-Arma Híbrida (ver [Armas Híbridas](#armas-híbridas) abaixo) — usa Força ou Inteligência, o que for maior.
-
-Dano: **1d8**
-
-**Golpe Estiloso** — *Básica*
-
-*Três cortes rápidos terminam com uma estocada poderosa que arremessa o inimigo pra trás.*
-
-- **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d8 de dano + empurra 4 casas
-- **Crítico:** dano máximo (8) + 1d8 extra, e empurra 4 casas
-
-**Investida Celestial** — *Avançada*
-
-*Dois cortes seguidos de um golpe ascendente que lança o inimigo pro alto.*
-
-- **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Tempestade Divina** — *Especial*
-
-*Uma sequência de estocadas termina num salto que invoca lâminas do chão ao redor.*
-
-- **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Soqueira Pesada
-
-*A Soqueira Pesada é um par de grandes manoplas tecnológicas. O usuário desfere ataques físicos nos inimigos, função potencializada por sequências extremamente rápidas de golpes diretos. Além disso, as Soqueiras possuem um impulsionador que contribui muito com a locomoção rápida — podendo ser usado até como esquiva em combate.*
-
-Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit explosivo da Kallia virou habilidades gerais em Fogo, Buff e Mobilidade, incluindo o impulsionador de esquiva (ver [Impulso da Soqueira](../habilidades/mobilidade.md)).
+*A Metralhadora é constituída por longos canos conectados a uma estrutura metálica. Acima da estrutura fica o gatilho, que, enquanto pressionado, é capaz de atirar rajadas contínuas de projéteis — a arma final do caçador de recompensas.*
 
 Dano: **1d12**
 
-**Golpe Sequencial** — *Básica*
+**Fuzilamento** — *Básica*
 
-*Uma sequência de quatro socos termina com um giro poderoso.*
+*A metralhadora dispara sem parar, mantendo o alvo sob fogo constante.*
 
-- **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d12 de dano
 - **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
 - **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
 - **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
 
-**Golpe Ascendente** — *Avançada*
+**Giro Mortal** — *Avançada*
 
-*Um soco ascendente lança o inimigo pelos ares.*
+*Uma virada repentina dispara uma rajada rápida antes que o inimigo perceba.*
 
-- **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d12 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Crítico:** dano máximo (12) + 1d12 extra, e Atordoado
+- **Tier 2 (11–16):** 1d12 de dano + alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d12 de dano + alvo perde a próxima Ação Básica e Reação
+- **Crítico:** dano máximo (12) + 1d12 extra + efeito do Tier 3
 
-**Impacto Sísmico** — *Especial*
+**Estilhaçar** — *Especial*
 
-*Um golpe no chão libera uma onda de choque puramente cinética ao redor.*
+*Uma saraivada de tiros ergue a mira aos poucos, arremessando os inimigos pra cima.*
 
-- **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
-
-## Lâmina Dupla
-
-*A Lâmina Dupla é uma arma ancestral, com um punho no centro e uma lâmina em cada extremidade. Utilizada no passado por druidas chamados de sentinelas.*
-
-Dano: **1d6**
-
-**Corte Reverso** — *Básica*
-
-*Dois cortes seguidos de um giro veloz lançam o inimigo pro alto.*
-
-- **Chave:** [Lâmina Dupla](../glossario.md#lâmina-dupla) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Impacto da Alma** — *Avançada*
-
-*Uma aura de força se ergue da lâmina, arremessando o inimigo através do campo de batalha.*
-
-- **Chave:** [Lâmina Dupla](../glossario.md#lâmina-dupla) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas
-- **Crítico:** dano máximo (6) + 1d6 extra, e empurra 4 casas
-
-**Fantasma Giratório** — *Especial*
-
-*O corpo gira em alta velocidade, avançando através de tudo que estiver no caminho.*
-
-- **Chave:** [Lâmina Dupla](../glossario.md#lâmina-dupla) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo, usuário se desloca até o fim da linha
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-## Gadanha
-
-*A Gadanha é constituída por uma longa haste e uma lâmina curvilínea bastante afiada na ponta.*
-
-Dano: **1d10**
-
-**Justiça Selvagem** — *Básica*
-
-*Um corte rápido é seguido por um salto e um golpe diagonal certeiro.*
-
-- **Chave:** [Gadanha](../glossario.md#gadanha) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
-
-**Asa de Corvo** — *Avançada*
-
-*A foice é arremessada a curta distância, girando furiosamente no ar antes de retornar à mão.*
-
-- **Chave:** [Gadanha](../glossario.md#gadanha) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 6 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + puxa 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + puxa 3 casas e derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, puxa 3 casas, e derruba o alvo
-
-**Ceifa Ampla** — *Especial*
-
-*Um giro completo com a foice ceifa tudo ao alcance, num arco largo e implacável.*
-
-- **Chave:** [Gadanha](../glossario.md#gadanha) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e Sangrando
-
-## Pique
-
-*O Pique é constituído de uma Lança, com uma lâmina na ponta.*
-
-Dano: **1d10**
-
-**Espiral Metralhadora** — *Básica*
-
-*Uma rajada de estocadas rápidas termina com um golpe final carregado de força total.*
-
-- **Chave:** [Pique](../glossario.md#pique) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 2d10 de dano
-- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo
-- **Crítico:** dano máximo do 2d10 (20) + 2d10 extra, e derruba o alvo
-
-**Golpe Relâmpago** — *Avançada*
-
-*Um chute varredor é seguido por um avanço fulminante que deixa um rastro de energia.*
-
-- **Chave:** [Pique](../glossario.md#pique) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o fim da linha
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-**Golpe Poderoso** — *Especial*
-
-*Uma sequência de golpes termina quando as lâminas são arremessadas contra o inimigo, seguidas por um salto explosivo.*
-
-- **Chave:** [Pique](../glossario.md#pique) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-## Glaive
-
-*O Glaive é constituído por uma lança de lâmina larga, com runas arcanas em sua empunhadura.*
-
-Dano: **1d10**
-
-**Espada Infinita** — *Básica*
-
-*Duas varreduras baixas erguem o inimigo, seguidas de dois golpes ascendentes e um último golpe mais forte.*
-
-- **Chave:** [Glaive](../glossario.md#glaive) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
-
-**Investida do Dragão** — *Avançada*
-
-*O usuário dispara pra frente, atravessando qualquer coisa no caminho.*
-
-- **Chave:** [Glaive](../glossario.md#glaive) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o fim da linha
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-**Salto do Dragão** — *Especial*
-
-*Um salto termina numa queda diagonal, a lâmina cravando fundo no ponto de impacto.*
-
-- **Chave:** [Glaive](../glossario.md#glaive) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-## Égide
-
-*A Égide é uma arma que trabalha em conjunto — constituída por um Escudo e uma Espada. Também pode invocar runas misteriosas pra ajudar na batalha.*
-
-Dano: **1d6**
-
-**Talho Divino** — *Básica*
-
-*Três cortes rápidos terminam num golpe descendente poderoso.*
-
-- **Chave:** [Égide](../glossario.md#égide) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Investida Furiosa** — *Avançada*
-
-*Dois golpes ascendentes furiosos erguem o inimigo no ar.*
-
-- **Chave:** [Égide](../glossario.md#égide) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
-
-**Estocada Arcana** — *Especial*
-
-*Um círculo mágico se forma à frente da lâmina, e uma estocada o atravessa, perfurando tudo numa longa linha reta.*
-
-- **Chave:** [Égide](../glossario.md#égide) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-## Lâmina do Crepúsculo
-
-*A Lâmina do Crepúsculo é uma arma muito poderosa, mas também muito perigosa. Ela concede um poder inimaginável ao usuário, mas potencializa a escuridão em seu coração, amaldiçoando-o a ser consumido pelas trevas. Pra controlá-la, é preciso de um coração mágico — uma jóia que amplia a bondade da alma e contrabalança a maldição.*
-
-Dano: **1d10**
-
-**Ferrão Sombrio** — *Básica*
-
-*A lâmina é arremessada pro alto, apanhada de volta num corte, seguido de vários golpes rápidos e uma estocada final.*
-
-- **Chave:** [Lâmina do Crepúsculo](../glossario.md#lâmina-do-crepúsculo) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 2d10 de dano
-- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo
-- **Crítico:** dano máximo do 2d10 (20) + 2d10 extra, e derruba o alvo
-
-**Explosão de Rocha** — *Avançada*
-
-*Uma rajada de golpes é seguida por um salto e uma barragem final, terminando numa explosão poderosa.*
-
-- **Chave:** [Lâmina do Crepúsculo](../glossario.md#lâmina-do-crepúsculo) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-**Ferrão do Tornado** — *Especial*
-
-*Uma array giratória de lâminas espectrais é arremessada à frente, gira furiosamente no ponto mais distante, e retorna cortando tudo de novo.*
-
-- **Chave:** [Lâmina do Crepúsculo](../glossario.md#lâmina-do-crepúsculo) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha, atingidas até 2 vezes (ida e volta)
-- **Tier 1 (≤10):** 1d10 de dano por acerto
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa por acerto
-- **Tier 3 (≥17):** 1d10 de dano + derruba por acerto
-- **Crítico:** dano máximo (10) + 1d10 extra por acerto, e derruba
-
-## Violino
-
-*O Violino é um instrumento musical mágico — uma arma muito difícil de empunhar, pois exige muitos requisitos. É preciso vocação e força espiritual pra dominar o instrumento, quanto mais pra se tornar mestre em sua arte.*
-
-**Requisito:** Vontade +4 — sem esse mínimo, o Violino não pode ser equipado.
-
-Dano: **1d6**
-
-**Acorde Certeiro** — *Básica*
-
-*Uma sequência de notas certeiras acerta o alvo em rápida sucessão.*
-
-- **Chave:** [Violino](../glossario.md#violino) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Golpe do Coração** — *Avançada*
-
-*Uma aura sonora se ergue do violino, arremessando o inimigo pra longe.*
-
-- **Chave:** [Violino](../glossario.md#violino) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas
-- **Crítico:** dano máximo (6) + 1d6 extra, e empurra 4 casas
-
-**Chamado da Orquestra** — *Especial*
-
-*Uma orquestra inteira de instrumentos surge no ar e desaba sobre um ponto escolhido.*
-
-- **Chave:** [Violino](../glossario.md#violino) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-## Báculo
-
-*O Báculo é constituído por um bastão com uma lâmina circular e um cristal no centro da lâmina. Essa arma mágica é o símbolo máximo dos bardos — o instrumento é capaz de direcionar o som e amplificá-lo por meio de vibrações do cristal sagrado raríssimo preso à ponta do bastão.*
-
-Dano: **1d8**
-
-**Reverberação** — *Básica*
-
-*Três golpes certeiros terminam erguendo o inimigo no ar.*
-
-- **Chave:** [Báculo](../glossario.md#báculo) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Tiro da Sereia** — *Avançada*
-
-*Um orbe sonoro é disparado contra o alvo à distância.*
-
-- **Chave:** [Báculo](../glossario.md#báculo) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Mergulho Sonoro** — *Especial*
-
-*Um salto termina num mergulho certeiro, orbe e corpo atingindo juntos.*
-
-- **Chave:** [Báculo](../glossario.md#báculo) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Bolsa de Truques
-
-*A Bolsa de Truques é uma arma mágica capaz de dar forma e vida aos pensamentos de quem a abre.*
-
-Dano: **1d10**
-
-**Contra-Ataque Triplo** — *Básica*
-
-*Um buquê é sacado da bolsa e golpeia três vezes em sequência.*
-
-- **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
-
-**Canhão Portátil** — *Avançada*
-
-*Um canhão é sacado da bolsa, disparando uma bomba que explode ao contato.*
-
-- **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-**Metralhadora da Bolsa** — *Especial*
-
-*Uma metralhadora surge da bolsa, disparando uma rajada certeira contra tudo à frente.*
-
-- **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-## Tonfas
-
-*As Tonfas são uma espécie de pequenos bastões que dão ainda mais poder aos socos.*
-
-Dano: **1d6**
-
-**Cauda do Dragão Certeira** — *Básica*
-
-*Três golpes de tonfa terminam com um chute certeiro.*
-
-- **Chave:** [Tonfas](../glossario.md#tonfas) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Ascensão do Poder** — *Avançada*
-
-*Um avanço deslizante termina em dois socos e numa explosão de força à frente.*
-
-- **Chave:** [Tonfas](../glossario.md#tonfas) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** cone de 2 casas à frente
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-**Brilho Explosivo** — *Especial*
-
-*Uma sequência de golpes de tonfa cria uma série de explosões, terminando num deslizar que produz uma explosão ainda maior.*
-
-- **Chave:** [Tonfas](../glossario.md#tonfas) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-## Bastão
-
-*O Bastão é uma arma que prega a luta a média distância.*
-
-Dano: **1d8**
-
-**Golpe Ascendente** — *Básica*
-
-*Dois golpes ascendentes erguem o inimigo no ar.*
-
-- **Chave:** [Bastão](../glossario.md#bastão) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Corte em Espiral** — *Avançada*
-
-*Três giros pra frente terminam num golpe final pesado.*
-
-- **Chave:** [Bastão](../glossario.md#bastão) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 2d8 de dano
-- **Tier 3 (≥17):** 2d8 de dano + derruba o alvo
-- **Crítico:** dano máximo do 2d8 (16) + 2d8 extra, e derruba o alvo
-
-**Investida Celestial** — *Especial*
-
-*Um giro rápido crava o bastão no chão — o usuário salta ao alto e desaba com força total.*
-
-- **Chave:** [Bastão](../glossario.md#bastão) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Vajras
-
-*Os Vajras são pequenos cetros divinos raros — uma arma de empunhadura curta, semelhante a um pequeno cetro ou adaga ritualística, feita pra ser manejada com uma única mão. Pequenas mas muito fortes, requerem um indivíduo espiritualmente evoluído pra manuseá-las.*
-
-**Requisito:** Sabedoria +6 — sem esse mínimo, os Vajras não podem ser equipados.
-
-Dano: **1d8**
-
-**Chute da Serpente** — *Básica*
-
-*Um chute giratório poderoso termina com um pisão que produz um pequeno estrondo.*
-
-- **Chave:** [Vajras](../glossario.md#vajras) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Marca Celestial** — *Avançada*
-
-*Um avanço em linha reta marca tudo no caminho — pequenas explosões atingem cada marcado.*
-
-- **Chave:** [Vajras](../glossario.md#vajras) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-**Vórtice do Macaco Branco** — *Especial*
-
-*Uma energia vibrante suga os inimigos próximos antes de um golpe final no chão explodir tudo ao redor.*
-
-- **Chave:** [Vajras](../glossario.md#vajras) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + puxa 2 casas e derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 2 casas, e derruba cada alvo
-
-## Rapiers
-
-*As Rapiers são um par de lâminas finas e leves, mais adequadas a perfurar do que a cortar. Favorecem golpes rápidos e precisos, e são a arma preferida de duelistas que valorizam velocidade acima de força bruta.*
-
-Dano: **1d6**
-
-**Quebra de Regras** — *Básica*
-
-*Quatro cortes rápidos terminam com um golpe duplo certeiro.*
-
-- **Chave:** [Rapiers](../glossario.md#rapiers) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
-
-**Punição Rancorosa** — *Avançada*
-
-*Cortes furiosos e descontrolados terminam quando as rapieiras são embainhadas, gerando uma explosão.*
-
-- **Chave:** [Rapiers](../glossario.md#rapiers) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-**Fúria Adrenalina** — *Especial*
-
-*Um avanço veloz crava as duas rapieiras repetidamente em tudo no caminho.*
-
-- **Chave:** [Rapiers](../glossario.md#rapiers) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
-
-## Soluna
-
-*A Soluna é uma espada composta, na verdade, por duas espadas — pode se dividir em Sol e Luna. A espada maior (Sol) é um montante de lâmina larga e robusta. A espada menor (Luna) é mais curta e ágil, com design que espelha a maior, mas em proporções reduzidas pra garantir velocidade.*
-
-Dano: **1d10**
-
-**Investida do Highlander** — *Básica*
-
-*Golpes alternados das duas metades da lâmina terminam numa varredura certeira.*
-
-- **Chave:** [Soluna](../glossario.md#soluna) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
-
-**Dança das Lâminas** — *Avançada*
-
-*Um giro vertical da lâmina arremessa o inimigo pro alto.*
-
-- **Chave:** [Soluna](../glossario.md#soluna) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e derruba o alvo
-
-**Corte Ilimitado** — *Especial*
-
-*Um giro veloz precede cortes desferidos de todos os ângulos possíveis, terminando num golpe final que sacode o chão.*
-
-- **Chave:** [Soluna](../glossario.md#soluna) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
-
-## Revólver Maverick
-
-*O Revólver Maverick é uma arma mágica. Diferente de uma arma de fogo convencional, tem uma silhueta mais grossa e angular, parecida com uma pistola de alta tecnologia ou um pequeno canhão de mão. A parte central e os vãos do cano emitem um brilho, indicando que a arma é alimentada por energia pura — pesado demais pra empunhar dois, então é sempre usado sozinho, com a outra mão livre.*
-
-Dano: **1d8**
-
-**Onda de Choque** — *Básica*
-
-*Um tiro no chão libera duas explosões de energia que sobem em sequência.*
-
-- **Chave:** [Revólver Maverick](../glossario.md#revólver-maverick) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
-
-**Investida de Alta Potência** — *Avançada*
-
-*Uma caixa de mísseis é convocada — os projéteis sobem, arqueiam no ar e explodem ao cair.*
-
-- **Chave:** [Revólver Maverick](../glossario.md#revólver-maverick) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-**Feixe do Caos** — *Especial*
-
-*Um canhão improvisado é montado às pressas — um feixe multicolorido varre tudo à frente.*
-
-- **Chave:** [Revólver Maverick](../glossario.md#revólver-maverick) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-## Marreta Mágica
-
-*A Marreta Mágica é constituída por um cabo longo com duas extremidades cilíndricas na ponta pra atacar. Apresenta uma fenda ou gema central que brilha, indicando o uso de energia ou mana.*
-
-Dano: **1d12**
-
-**Sem Piedade** — *Básica*
-
-*Um golpe de taco arremessa o inimigo pro alto — uma bomba grudada nele explode antes da queda.*
-
-- **Chave:** [Marreta Mágica](../glossario.md#marreta-mágica) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d12 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, empurra 2 casas, e derruba o alvo
-
-**Impacto Propulsor** — *Avançada*
-
-*Propulsores escondidos na marreta disparam, somando força total a um golpe devastador.*
-
-- **Chave:** [Marreta Mágica](../glossario.md#marreta-mágica) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 3 casas
-- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, empurra 3 casas, e derruba o alvo
-
-**Marretada Sísmica** — *Especial*
-
-*Um golpe no chão libera uma onda de choque que se espalha em todas as direções.*
-
-- **Chave:** [Marreta Mágica](../glossario.md#marreta-mágica) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Tier 1 (≤10):** 1d12 de dano em cada alvo
 - **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
@@ -2397,11 +1814,649 @@ Dano: **1d10**
 - **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
 - **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
 
+## Montante
+
+*A Montante é uma espada de empunhadura mediana, com a lâmina maior que a guarda. É uma arma de difícil domínio graças ao tamanho da lâmina — só guerreiros brutais conseguem dominá-la.*
+
+**Requisito:** Força +3 — sem esse mínimo, a Montante não pode ser equipada.
+
+Dano: **1d12**
+
+**Ruptura de Força** — *Básica*
+
+*Um talho largo e pesado arremessa o inimigo pra longe.*
+
+- **Chave:** [Montante](../glossario.md#montante) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d12 de dano + empurra 4 casas
+- **Crítico:** dano máximo (12) + 1d12 extra, e empurra 4 casas
+
+**Mergulho do Dragão** — *Avançada*
+
+*Um golpe ascendente é seguido por uma queda violenta que esmaga o chão.*
+
+- **Chave:** [Montante](../glossario.md#montante) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+
+**Feixe da Lâmina** — *Especial*
+
+*Um feixe poderoso é disparado à frente, enquanto outro mais fraco é lançado pra trás.*
+
+- **Chave:** [Montante](../glossario.md#montante) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** duas linhas de 6 casas, uma à frente e outra atrás do usuário
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
+## Olho Mágico
+
+*O Olho Mágico é uma esfera com uma íris viva em seu centro, que se abre e se fecha conforme a vontade do usuário. Enxerga além do que os olhos comuns alcançam, e transforma o que vê em pura energia mágica.*
+
+Arma mágica genérica como o Cetro, o Manual, o Orbe e o Cubo Mágico — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo.
+
+Dano: **1d8**
+
+**Impacto do Olho Mágico** — *Básica*
+
+*Um pulso de energia é disparado do olho arcano, sem forma ou tema definido.*
+
+- **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Ruptura do Olho Mágico** — *Avançada*
+
+*A pupila se dilata por um instante, liberando uma onda de força numa área.*
+
+- **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Colapso do Olho Mágico** — *Especial*
+
+*O olho se abre por completo, liberando toda a energia contida ao redor do usuário.*
+
+- **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Orbe
+
+Arma mágica genérica como o Cetro e o Manual — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de força bruta, sem elemento fixo.
+
+Dano: **1d8**
+
+**Impacto do Orbe** — *Básica*
+
+*Um pulso de força bruta é comprimido no orbe e disparado contra o alvo.*
+
+- **Chave:** [Orbe](../glossario.md#orbe) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Colapso do Orbe** — *Avançada*
+
+*O orbe implode sobre um ponto escolhido, sugando tudo próximo antes de se romper.*
+
+- **Chave:** [Orbe](../glossario.md#orbe) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo (em direção ao ponto)
+- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e derruba cada alvo
+
+**Ruptura do Orbe** — *Especial*
+
+*Toda a energia contida se libera de uma vez, ondulando pra fora em todas as direções.*
+
+- **Chave:** [Orbe](../glossario.md#orbe) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Pique
+
+*O Pique é constituído de uma Lança, com uma lâmina na ponta.*
+
+Dano: **1d10**
+
+**Espiral Metralhadora** — *Básica*
+
+*Uma rajada de estocadas rápidas termina com um golpe final carregado de força total.*
+
+- **Chave:** [Pique](../glossario.md#pique) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 2d10 de dano
+- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo
+- **Crítico:** dano máximo do 2d10 (20) + 2d10 extra, e derruba o alvo
+
+**Golpe Relâmpago** — *Avançada*
+
+*Um chute varredor é seguido por um avanço fulminante que deixa um rastro de energia.*
+
+- **Chave:** [Pique](../glossario.md#pique) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o fim da linha
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Golpe Poderoso** — *Especial*
+
+*Uma sequência de golpes termina quando as lâminas são arremessadas contra o inimigo, seguidas por um salto explosivo.*
+
+- **Chave:** [Pique](../glossario.md#pique) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+## Pistolas
+
+*Pistolas são armas de fogo — sua principal utilidade em combate é disparar projéteis pra eliminar inimigos. Leves e sempre usadas em par, uma em cada mão, ao contrário do Revólver Maverick (pesado demais pra empunhar dois). A arma constante do caçador de recompensas, presente desde a 1ª classe. As outras 3 armas que ele acumula ao longo da progressão (Punhal, Espingarda, Metralhadora) também viraram entradas próprias no Arsenal, cada uma com identidade mundana independente.*
+
+Dano: **1d6**
+
+**Presas Gêmeas** — *Básica*
+
+*Dois tiros perfurantes seguidos por um golpe final mais poderoso.*
+
+- **Chave:** [Pistolas](../glossario.md#pistolas) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Tiro Cruzado** — *Avançada*
+
+*Dois disparos simultâneos cobrem direções opostas, sem deixar brechas.*
+
+- **Chave:** [Pistolas](../glossario.md#pistolas) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em cada, e derruba cada alvo
+
+**Chuva de Chumbo** — *Especial*
+
+*Um dilúvio de balas desaba do alto sobre uma área inteira.*
+
+- **Chave:** [Pistolas](../glossario.md#pistolas) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Pote
+
+*O Pote Mágico é uma arma muito poderosa, capaz de transformar energia mágica em energia explosiva.*
+
+Armas mágicas como o Pote não travam feitiços específicos — suas 3 habilidades são canalizações genéricas de energia bruta, sem elemento fixo.
+
+Dano: **1d6**
+
+**Arremesso Instável** — *Básica*
+
+*Um jato de energia instável é lançado do pote, sem forma definida.*
+
+- **Chave:** [Pote](../glossario.md#pote) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Explosão do Pote** — *Avançada*
+
+*O conteúdo do pote se rompe numa explosão descontrolada numa área.*
+
+- **Chave:** [Pote](../glossario.md#pote) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Caldeirão Reverso** — *Especial*
+
+*O pote se vira de ponta-cabeça, liberando toda a energia acumulada ao redor do usuário.*
+
+- **Chave:** [Pote](../glossario.md#pote) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Punhal
+
+*O Punhal é constituído por uma lâmina pequena de apenas um gume, com empunhadura proporcional à lâmina. Diz a lenda que essa adaga tem o terrível poder de realizar cortes que se recusam a cicatrizar.*
+
+Arma Finesse (ver [Finesse](#finesse) abaixo) — usa Força ou Agilidade, o que for maior. O poder de impedir cicatrização vira o Ferimento Amaldiçoado do Corte Crescente (Especial), abaixo.
+
+Dano: **1d6**
+
+**Corte Etéreo** — *Básica*
+
+*Uma lâmina espectral corta o inimigo, deixando um ferimento que não para de sangrar.*
+
+- **Chave:** [Punhal](../glossario.md#punhal) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + empurra 1 casa
+- **Crítico:** dano máximo (6) + 1d6 extra, Sangrando, e empurra 1 casa
+
+**Corte Ceifador** — *Avançada*
+
+*Dois cortes em sequência lançam o inimigo pra cima, deixando feridas profundas.*
+
+- **Chave:** [Punhal](../glossario.md#punhal) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, Sangrando, e derruba o alvo
+
+**Corte Crescente** — *Especial*
+
+*Dois cortes rápidos, seguidos por um terceiro golpe muito mais forte.*
+
+- **Chave:** [Punhal](../glossario.md#punhal) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 2d6 de dano
+- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 2d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (como Sangrando — perde 1d4 de Vida no início do próximo turno dele — mas não pode ser removido ou curado por nenhum efeito até terminar o curso)
+- **Crítico:** dano máximo (12) + 1d6 extra, derruba o alvo, e Ferimento Amaldiçoado
+
+## Rapiers
+
+*As Rapiers são um par de lâminas finas e leves, mais adequadas a perfurar do que a cortar. Favorecem golpes rápidos e precisos, e são a arma preferida de duelistas que valorizam velocidade acima de força bruta.*
+
+Dano: **1d6**
+
+**Quebra de Regras** — *Básica*
+
+*Quatro cortes rápidos terminam com um golpe duplo certeiro.*
+
+- **Chave:** [Rapiers](../glossario.md#rapiers) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Punição Rancorosa** — *Avançada*
+
+*Cortes furiosos e descontrolados terminam quando as rapieiras são embainhadas, gerando uma explosão.*
+
+- **Chave:** [Rapiers](../glossario.md#rapiers) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Fúria Adrenalina** — *Especial*
+
+*Um avanço veloz crava as duas rapieiras repetidamente em tudo no caminho.*
+
+- **Chave:** [Rapiers](../glossario.md#rapiers) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Revólver Maverick
+
+*O Revólver Maverick é uma arma mágica. Diferente de uma arma de fogo convencional, tem uma silhueta mais grossa e angular, parecida com uma pistola de alta tecnologia ou um pequeno canhão de mão. A parte central e os vãos do cano emitem um brilho, indicando que a arma é alimentada por energia pura — pesado demais pra empunhar dois, então é sempre usado sozinho, com a outra mão livre.*
+
+Dano: **1d8**
+
+**Onda de Choque** — *Básica*
+
+*Um tiro no chão libera duas explosões de energia que sobem em sequência.*
+
+- **Chave:** [Revólver Maverick](../glossario.md#revólver-maverick) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Investida de Alta Potência** — *Avançada*
+
+*Uma caixa de mísseis é convocada — os projéteis sobem, arqueiam no ar e explodem ao cair.*
+
+- **Chave:** [Revólver Maverick](../glossario.md#revólver-maverick) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Feixe do Caos** — *Especial*
+
+*Um canhão improvisado é montado às pressas — um feixe multicolorido varre tudo à frente.*
+
+- **Chave:** [Revólver Maverick](../glossario.md#revólver-maverick) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Sabres
+
+*Os Sabres são lâminas leves, normalmente usadas em dupla. São pouco vistas, mas quem as domina se torna um grande guerreiro.*
+
+Dano: **1d6**
+
+**Corte Circular** — *Básica*
+
+*Duas lâminas cortam em sequência antes de golpear com força pra baixo.*
+
+- **Chave:** [Sabres](../glossario.md#sabres) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Valsa Mortal** — *Avançada*
+
+*Um giro veloz e implacável termina lançando ondas de energia ao chão.*
+
+- **Chave:** [Sabres](../glossario.md#sabres) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Sangrando
+
+**Redemoinho de Lâminas** — *Especial*
+
+*As duas lâminas se tornam um redemoinho contínuo, cortando tudo ao alcance.*
+
+- **Chave:** [Sabres](../glossario.md#sabres) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Soluna
+
+*A Soluna é uma espada composta, na verdade, por duas espadas — pode se dividir em Sol e Luna. A espada maior (Sol) é um montante de lâmina larga e robusta. A espada menor (Luna) é mais curta e ágil, com design que espelha a maior, mas em proporções reduzidas pra garantir velocidade.*
+
+Dano: **1d10**
+
+**Investida do Highlander** — *Básica*
+
+*Golpes alternados das duas metades da lâmina terminam numa varredura certeira.*
+
+- **Chave:** [Soluna](../glossario.md#soluna) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Dança das Lâminas** — *Avançada*
+
+*Um giro vertical da lâmina arremessa o inimigo pro alto.*
+
+- **Chave:** [Soluna](../glossario.md#soluna) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e derruba o alvo
+
+**Corte Ilimitado** — *Especial*
+
+*Um giro veloz precede cortes desferidos de todos os ângulos possíveis, terminando num golpe final que sacode o chão.*
+
+- **Chave:** [Soluna](../glossario.md#soluna) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+## Soqueira Pesada
+
+*A Soqueira Pesada é um par de grandes manoplas tecnológicas. O usuário desfere ataques físicos nos inimigos, função potencializada por sequências extremamente rápidas de golpes diretos. Além disso, as Soqueiras possuem um impulsionador que contribui muito com a locomoção rápida — podendo ser usado até como esquiva em combate.*
+
+Habilidades originais mundanas. O impulsionador de esquiva mencionado acima vive como habilidade geral — ver [Impulso da Soqueira](../habilidades/mobilidade.md).
+
+Dano: **1d12**
+
+**Golpe Sequencial** — *Básica*
+
+*Uma sequência de quatro socos termina com um giro poderoso.*
+
+- **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+
+**Golpe Ascendente** — *Avançada*
+
+*Um soco ascendente lança o inimigo pelos ares.*
+
+- **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d12 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (12) + 1d12 extra, e Atordoado
+
+**Impacto Sísmico** — *Especial*
+
+*Um golpe no chão libera uma onda de choque puramente cinética ao redor.*
+
+- **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
+## Tonfas
+
+*As Tonfas são uma espécie de pequenos bastões que dão ainda mais poder aos socos.*
+
+Dano: **1d6**
+
+**Cauda do Dragão Certeira** — *Básica*
+
+*Três golpes de tonfa terminam com um chute certeiro.*
+
+- **Chave:** [Tonfas](../glossario.md#tonfas) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Ascensão do Poder** — *Avançada*
+
+*Um avanço deslizante termina em dois socos e numa explosão de força à frente.*
+
+- **Chave:** [Tonfas](../glossario.md#tonfas) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** cone de 2 casas à frente
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Brilho Explosivo** — *Especial*
+
+*Uma sequência de golpes de tonfa cria uma série de explosões, terminando num deslizar que produz uma explosão ainda maior.*
+
+- **Chave:** [Tonfas](../glossario.md#tonfas) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Vajras
+
+*Os Vajras são pequenos cetros divinos raros — uma arma de empunhadura curta, semelhante a um pequeno cetro ou adaga ritualística, feita pra ser manejada com uma única mão. Pequenas mas muito fortes, requerem um indivíduo espiritualmente evoluído pra manuseá-las.*
+
+**Requisito:** Sabedoria +6 — sem esse mínimo, os Vajras não podem ser equipados.
+
+Dano: **1d8**
+
+**Chute da Serpente** — *Básica*
+
+*Um chute giratório poderoso termina com um pisão que produz um pequeno estrondo.*
+
+- **Chave:** [Vajras](../glossario.md#vajras) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Marca Celestial** — *Avançada*
+
+*Um avanço em linha reta marca tudo no caminho — pequenas explosões atingem cada marcado.*
+
+- **Chave:** [Vajras](../glossario.md#vajras) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Vórtice do Macaco Branco** — *Especial*
+
+*Uma energia vibrante suga os inimigos próximos antes de um golpe final no chão explodir tudo ao redor.*
+
+- **Chave:** [Vajras](../glossario.md#vajras) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + puxa 2 casas e derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 2 casas, e derruba cada alvo
+
+## Vembrassa
+
+*A Vembrassa também é conhecida como o reflexo da Manopla, pois se usa a Vembrassa na mão esquerda — o oposto da Manopla, usada na mão direita. O estilo de luta da Vembrassa usa a palma da mão aberta, o oposto do punho fechado da Manopla.*
+
+Dano: **1d6**
+
+**Palma Fluida** — *Básica*
+
+*Um golpe de palma aberta desvia o impulso do inimigo, arremessando-o pelo próprio peso.*
+
+- **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
+
+**Correnteza de Palmas** — *Avançada*
+
+*Uma sequência de palmas abertas em fluxo contínuo, atingindo todos ao redor.*
+
+- **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Lento
+
+**Selo do Fluxo Interno** — *Especial*
+
+*Um toque preciso interrompe o fluxo de energia interna do alvo, drenando sua força.*
+
+- **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo perde 2 no dano de ataques até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + perde 2 no dano de ataques + alvo perde 2 Mana
+- **Crítico:** dano máximo (6) + 1d6 extra + perde 2 no dano de ataques + alvo perde 4 Mana
+
+## Violino
+
+*O Violino é um instrumento musical mágico — uma arma muito difícil de empunhar, pois exige muitos requisitos. É preciso vocação e força espiritual pra dominar o instrumento, quanto mais pra se tornar mestre em sua arte.*
+
+**Requisito:** Vontade +4 — sem esse mínimo, o Violino não pode ser equipado.
+
+Dano: **1d6**
+
+**Acorde Certeiro** — *Básica*
+
+*Uma sequência de notas certeiras acerta o alvo em rápida sucessão.*
+
+- **Chave:** [Violino](../glossario.md#violino) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Golpe do Coração** — *Avançada*
+
+*Uma aura sonora se ergue do violino, arremessando o inimigo pra longe.*
+
+- **Chave:** [Violino](../glossario.md#violino) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas
+- **Crítico:** dano máximo (6) + 1d6 extra, e empurra 4 casas
+
+**Chamado da Orquestra** — *Especial*
+
+*Uma orquestra inteira de instrumentos surge no ar e desaba sobre um ponto escolhido.*
+
+- **Chave:** [Violino](../glossario.md#violino) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
 ## Resolução de Ataque
 
 Toda habilidade de arma segue a resolução padrão de [Habilidade](../habilidades/index.md#ficha-de-habilidade) — resumindo:
 
-1. Role **d20 + Atributo da arma** (ver Tipos de Ataque abaixo).
+1. Role **d20 + Atributo da arma** (cada habilidade de arma já declara qual — Marciais tipicamente Força, Pontaria sempre Agilidade, Arcano sempre Inteligência, com exceções pra Finesse/Híbrida, ver [Propriedades de Arma](#propriedades-de-arma) acima).
 2. **20 natural** sempre acerta e conta como Tier 3; **1 natural** sempre falha, sem efeito.
 3. Nos demais casos, o total precisa igualar ou superar a **Defesa do alvo**, ou não há efeito.
 4. Se superar, o total determina o Tier (≤10 / 11–16 / ≥17), que define o efeito da habilidade usada.
@@ -2409,64 +2464,3 @@ Toda habilidade de arma segue a resolução padrão de [Habilidade](../habilidad
 **Dano:** dado da própria arma (ver [Tabela de Dados de Dano](#tabela-de-dados-de-dano) acima) — de 1d4 a 1d12, dependendo do arquétipo/peso.
 
 **Crítico (20 natural):** dano máximo do dado + mais uma rolagem normal do mesmo dado, além de contar automaticamente como acerto e como Tier 3.
-
-### Armas Finesse
-
-Algumas armas leves e ágeis são marcadas como **Finesse**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Agilidade** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
-
-Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**, **Alfange**, **Garras**, **Nodachi**, **Katana**.
-
-### Armas Híbridas
-
-Algumas armas que misturam combate físico e magia são marcadas como **Híbridas**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Inteligência** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
-
-Armas Híbridas até agora: **Gládio**, **Espada-Chave**.
-
-### Dupla Empunhadura
-
-Quando um personagem usa duas armas específicas ao mesmo tempo (não uma arma "combo" própria, mas duas armas já existentes no Arsenal, empunhadas juntas), isso não vira uma entrada nova de arma — vira uma **habilidade geral** marcada com a chave **Dupla Empunhadura**, exigindo as duas armas equipadas simultaneamente pra ser usada.
-
-O dano dessas habilidades é a **soma dos dados das duas armas exigidas**, rolados juntos na mesma habilidade.
-
-Combinações de Dupla Empunhadura até agora: **Lança + Espada** (ver [Investida Dupla, Combo Punitivo e Mergulho Furioso](../habilidades/marciais.md) — origem: Sieghart).
-
-*(Pendente: revisar retroativamente se alguma habilidade já escrita da Elesis deveria ganhar essa chave também.)*
-
-### Leve
-
-Armas marcadas como **Leve** ocupam só uma mão pra funcionar — a mão secundária fica livre pra outra arma Leve (habilitando Dupla Empunhadura), pra um escudo (futuro), ou fica livre pra magia/interação. Armas que não são Leve exigem as duas mãos, mesmo quando usadas sozinhas — nenhuma combinação de mão secundária é possível com elas.
-
-Ter duas armas Leve equipadas não dá bônus automático algum — só habilita as habilidades gerais específicas marcadas com a chave [Dupla Empunhadura](#dupla-empunhadura) pra aquele par exato, desenhadas uma combinação de cada vez (não existe uma combinação "livre" pra qualquer par de armas Leve).
-
-Armas Leve até agora: **Espada**, **Sabres**, **Bestas**, **Cetro**, **Pote**, **Lâmpada**, **Adagas**, **Alfange**, **Garras**, **Lâmina Dupla**, **Gládio**, **Chakram**, **Violino**, **Báculo**, **Manopla**, **Tonfas**, **Vajras**, **Lâmina**, **Rapiers**, **Manual**, **Orbe**, **Pistolas**, **Punhal**, **Leque**, **Vembrassa**, **Florete**, **Flintlock**, **Cubo Mágico**, **Olho Mágico**, **Espada-Chave**, **Revólver Maverick**.
-
-Armas de Duas Mãos (não-Leve) até agora: **Lança**, **Montante**, **Arco**, **Balista**, **Gakkung**, **Cajado**, **Machado**, **Gadanha**, **Pique**, **Glaive**, **Lâmina do Crepúsculo**, **Bastão**, **Soluna**, **Marreta Mágica**, **Bolsa de Truques**, **Foice**, **Espada Senciente**, **Metralhadora**, **Martelo**, **Soqueira Pesada**, **Nodachi**, **Katana**, **Espingarda**.
-
-*(Nodachi e Katana são Finesse mesmo sendo de duas mãos — combinação incomum, mantida de propósito.)*
-
-*(Caso especial: Módulo Alado não é empunhado — é um enxame que segue a usuária — não se encaixa nessa categoria.)*
-
-*(Égide fica de fora por enquanto — ela continua sendo o "pacote fechado" espada+escudo, independente do Escudo avulso abaixo.)*
-
-### Escudos
-
-Diferente de uma arma, um Escudo não concede as 3 habilidades de Básica/Avançada/Especial — ele ocupa a mão secundária e concede um bônus passivo de Defesa, sempre ativo, sem custo de Mana ou PA. Só pode ser equipado se a mão principal tiver uma arma [Leve](#leve) (ou estiver livre).
-
-| Tier | Bônus de Defesa | Restrição |
-|---|---|---|
-| Escudo Leve | +2 | Nenhuma — combina com qualquer arma Leve |
-| Escudo Pesado | +3 | Nenhuma — combina com qualquer arma Leve |
-| Escudo Torre | +5 | Ocupa as duas mãos sozinho — usuário não pode equipar nenhuma arma junto (luta com [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)) |
-
-Ter um Escudo equipado também habilita a habilidade geral [Bloqueio](../habilidades/buff.md), independente do tier.
-
-## Tipos de Ataque
-
-| Tipo | Atributo associado |
-|---|---|
-| Força | Força |
-| Pontaria | Agilidade |
-| Arcano | Inteligência |
-| Divino | Sabedoria |
-
-*(Lista pode crescer)*

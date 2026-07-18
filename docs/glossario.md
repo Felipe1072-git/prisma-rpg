@@ -80,9 +80,9 @@ Arma marcial Finesse, dano 1d8. Ver [Arsenal → Alfange](jogador/arsenal.md#alf
 
 Arma marcial Finesse, dano 1d6. Ver [Arsenal → Garras](jogador/arsenal.md#garras).
 
-### Nodachi
+### Katana Nodachi
 
-Arma marcial Finesse (duas mãos), dano 1d10 (lâmina longa clássica). Ver [Arsenal → Nodachi](jogador/arsenal.md#nodachi).
+Arma marcial Finesse (duas mãos), dano 1d10 (lâmina longa clássica). Ver [Arsenal → Katana Nodachi](jogador/arsenal.md#katana-nodachi).
 
 ### Machado
 
@@ -160,9 +160,9 @@ Arma marcial Finesse, dano 1d6. Ver [Arsenal → Florete](jogador/arsenal.md#flo
 
 Pistola de precisão, dano 1d8. Ver [Arsenal → Flintlock](jogador/arsenal.md#flintlock).
 
-### Katana
+### Katana Muramasa
 
-Arma marcial Finesse (duas mãos), dano 1d10. Ver [Arsenal → Katana](jogador/arsenal.md#katana).
+Arma marcial Finesse (duas mãos), dano 1d10 (lâmina amaldiçoada, exige sangue). Ver [Arsenal → Katana Muramasa](jogador/arsenal.md#katana-muramasa).
 
 ### Cubo Mágico
 
