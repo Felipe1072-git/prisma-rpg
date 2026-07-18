@@ -224,6 +224,50 @@ Criar desvantagens para inimigos ou em testes.
 - **Efeito:** até o fim do próximo turno de cada alvo, ele só pode atacar o usuário desta habilidade (se for capaz de fazê-lo)
 - *(Sem Tiers de Sucesso — efeito automático de controle, sem teste de ataque)*
 
+**Quebra de Arma**
+
+*Um golpe certeiro na guarda do inimigo enfraquece a força por trás de cada ataque seguinte.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura, corpo a corpo
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo perde 2 no dano de ataques até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + alvo perde 3 no dano de ataques até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra + alvo perde 3 no dano de ataques até o fim do próximo turno dele
+
+**Quebra de Mente**
+
+*Um golpe certeiro atordoa os sentidos do inimigo, drenando sua energia mágica.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura, corpo a corpo
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo perde 2 Mana
+- **Tier 3 (≥17):** 1d6 de dano + alvo perde 4 Mana
+- **Crítico:** dano máximo (6) + 1d6 extra + alvo perde 4 Mana
+
+**Quebra de Perna**
+
+*Um golpe preciso nas pernas do inimigo compromete seus próximos movimentos.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura, corpo a corpo
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + alvo não pode usar Movimento até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra + alvo não pode usar Movimento até o fim do próximo turno dele
+
+**Golpe Lunar** *(Supremo)*
+
+*As sombras se dobram sob a luz da lua, prendendo até cinco alvos antes de um corte duplo desabar sobre todos eles.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** até 5 criaturas diferentes ao alcance
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
+
 **Etiqueta do Mordomo**
 
 *Jeeves surge por um instante, desfere um soco devastador, e desaparece numa nuvem de fumaça.*

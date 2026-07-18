@@ -54,6 +54,17 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e Paralisado em todos
 
+**Chuva Gélida** *(Maior)*
+
+*Pétalas voam ao redor do corpo enquanto uma chuva pesada de gelo desaba sobre a área à frente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, empurra 1 casa, e Lento em todos
+
 ## Raio
 
 **Relâmpago**

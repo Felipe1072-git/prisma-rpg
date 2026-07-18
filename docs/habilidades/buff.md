@@ -302,3 +302,30 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário (dano) + todos os aliados no campo de batalha (buff)
 - **Efeito:** os inimigos na área sofrem 2d6 de dano automático imediatamente ao usar. Todos os aliados ganham a Bênção da Redenção: a próxima vez que cada um cair a 0 de Vida nesta cena, ele revive imediatamente com 50% da Vida máxima em vez de cair (efeito de uso único por aliado).
 - *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Fase** *(usada como Reação)*
+
+*Energia se concentra no corpo — no instante em que o golpe chega, ela já não está mais lá.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra evitar completamente o dano daquele ataque, e teleportar pra uma casa adjacente ao atacante.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Encanto do Relâmpago**
+
+*A lâmina crepita com eletricidade — o próximo golpe promete travar os músculos do alvo.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, os ataques do usuário que causarem dano também fazem o alvo perder a próxima Reação — não empilha num mesmo alvo.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Encanto das Trevas**
+
+*A lâmina se envolve numa névoa sombria — o próximo golpe amaldiçoa o alvo, drenando sua vida aos poucos.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, os ataques do usuário que causarem dano também deixam o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele) — não empilha num mesmo alvo.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

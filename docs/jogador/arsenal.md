@@ -74,8 +74,8 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Lin | Leque | 1d6 | canalização mágica genérica, sem elemento fixo (personagem-fonte é a Rin) |
 | ✅ | Azin | Vembrassa | 1d6 | reflexo da Manopla — punho aberto (Naegakwon Yu), mão esquerda (personagem-fonte é o Asin) |
 | ✅ | Holy | Martelo | 1d12 | arma de esmagamento, pesada (personagem-fonte é a Lime) |
-| ⬜ | Edel | Florete | 1d6 | leve, arma de finesse |
-| ⬜ | Edel | Flintlock | 1d8 | pistola de precisão |
+| ✅ | Edel | Florete | 1d6 | leve, arma de finesse |
+| ✅ | Edel | Flintlock | 1d8 | pistola de precisão |
 | ⬜ | Veigas | Tesserato | 1d8 | poder médio, natureza incerta |
 | ⬜ | Uno | Muramasa | 1d10 | katana lendária amaldiçoada |
 | ⬜ | Decanee | Olho Maléfico | 1d8 | foco mágico atípico |
@@ -860,6 +860,82 @@ Dano: **1d12**
 - **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
 - **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
 
+## Florete
+
+Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d6**
+
+**Investida** — *Básica*
+
+*Um avanço rápido crava a lâmina fina no alvo antes que ele perceba.*
+
+- **Chave:** [Florete](../glossario.md#florete) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Investida Frenética** — *Avançada*
+
+*Uma sequência de estocadas rápidas avança em linha reta, perfurando tudo no caminho.*
+
+- **Chave:** [Florete](../glossario.md#florete) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Giro Circular** — *Especial*
+
+*Um giro completo com a lâmina estendida arremessa qualquer um que estiver perto pra longe.*
+
+- **Chave:** [Florete](../glossario.md#florete) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e empurra 4 casas
+
+## Flintlock
+
+Dano: **1d8**
+
+**Tiro Certeiro** — *Básica*
+
+*Um disparo preciso atordoa o alvo e rouba um pouco de sua energia mágica.*
+
+- **Chave:** [Flintlock](../glossario.md#flintlock) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d8 de dano + perde a próxima Reação + alvo perde 2 Mana
+- **Crítico:** dano máximo (8) + 1d8 extra + perde Reação + alvo perde 4 Mana
+
+**Disparo Duplo** — *Avançada*
+
+*Dois tiros rápidos e certeiros, cada um mirando um alvo diferente.*
+
+- **Chave:** [Flintlock](../glossario.md#flintlock) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em cada, e derruba cada alvo
+
+**Saraivada** — *Especial*
+
+*Uma rajada de tiros cobre uma área inteira, sem dar chance de fuga.*
+
+- **Chave:** [Flintlock](../glossario.md#flintlock) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
 ## Resolução de Ataque
 
 **Acerto:** d20 + Atributo relevante (ver Tipos de Ataque abaixo). Armas básicas não concedem bônus de Acerto.
@@ -874,7 +950,7 @@ Um ataque é resolvido como **d20 + Atributo vs Defesa do alvo**. Igualar ou sup
 
 Algumas armas leves e ágeis são marcadas como **Finesse**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Agilidade** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
 
-Armas Finesse até agora: **Adagas**, **Punhal**.
+Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**.
 
 ### Armas Híbridas
 

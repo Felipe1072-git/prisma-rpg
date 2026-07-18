@@ -100,6 +100,14 @@ Arma marcial, dano 1d6 (reflexo da Manopla — punho aberto, mão esquerda). Ver
 
 Arma marcial pesada, dano 1d12. Ver [Arsenal → Martelo](jogador/arsenal.md#martelo).
 
+### Florete
+
+Arma marcial Finesse, dano 1d6. Ver [Arsenal → Florete](jogador/arsenal.md#florete).
+
+### Flintlock
+
+Pistola de precisão, dano 1d8. Ver [Arsenal → Flintlock](jogador/arsenal.md#flintlock).
+
 ## Propriedades de Arma
 
 ### Finesse

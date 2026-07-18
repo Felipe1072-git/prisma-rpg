@@ -446,3 +446,39 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** 1x dado de dano + puxa cada alvo até a posição final do usuário
 - **Tier 3 (≥17):** 1x dado de dano + puxa + derruba cada alvo
 - **Crítico:** dado máximo + 1x dado extra em todos, puxa, e derruba cada alvo
+
+**Golpe Veloz**
+
+*Um corte rápido com a lâmina, finalizado por um tiro certeiro da pistola.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1x dado de dano + alvo perde a próxima Reação
+- **Crítico:** dado máximo + 1x dado extra, empurra 1 casa, e perde Reação
+
+**Onda Lunática**
+
+*Um golpe poderoso libera uma onda de força que viaja à distância.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo
+
+**Golpe do Desespero**
+
+*Um golpe de ombro desequilibra o inimigo, seguido por um tiro certeiro à queima-roupa.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1x dado de dano + derruba o alvo
+- **Crítico:** dado máximo + 1x dado extra, e derruba o alvo
