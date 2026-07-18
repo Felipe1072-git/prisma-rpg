@@ -16,72 +16,80 @@ Cada tier consome Pontos de Ação ao ser usado:
 
 ## Tabela de Dados de Dano
 
-Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do personagem — nenhuma arma é mais forte só por ser a 2ª/3ª/4ª de alguém, isso reintroduziria progressão de classe).
+Dado de dano por arma, definido pelo arquétipo/peso (não por progressão de personagem — nenhuma arma é mais forte só por vir "depois" na sequência de alguém).
 
-**Nomes de personagem são referência temporária de inspiração** (não vão pro conteúdo final — remover essa coluna quando todas as armas tiverem habilidades escritas). Dados de armas ainda não pesquisadas são só "vibe" baseada no nome/arquétipo, ajustáveis quando forem trabalhadas de verdade.
+**Grupo** é o estilo de combate predominante (Marciais, Pontaria ou Arcano — ver [Grupos de Habilidade](../glossario.md#grupos-de-habilidade)). **Chaves** lista as propriedades mecânicas da arma: [Finesse](#armas-finesse), [Híbrida](#armas-híbridas), [Leve](#leve) ou Duas Mãos — toda arma tem exatamente uma de Leve/Duas Mãos, mais Finesse/Híbrida quando aplicável.
 
-**Elesis→Mari (os primeiros 10 personagens) só tiveram a arma da 1ª classe coberta** — decisão consciente de ritmo, não retroativa. **A partir do Dio, toda arma das 4 classes de cada personagem é coberta** (ou, se as classes compartilharem a mesma arma, ela vira uma única entrada genérica no Arsenal).
+### Marciais
 
-| Status | Personagem | Arma | Dado | Nota |
-|---|---|---|---|---|
-| ✅ | Elesis | Espada | 1d8 | arma versátil de uma mão |
-| ✅ | Elesis | Lança | 1d10 | alcance, mais pesada |
-| ✅ | Elesis | Montante | 1d12 | espada grande de duas mãos |
-| ✅ | Elesis | Sabres | 1d6 | par de lâminas leves |
-| ✅ | Lire | Arco | 1d8 | arma de precisão padrão |
-| ✅ | Lire | Bestas | 1d6 | dupla empunhadura, tipo adagas/sabres |
-| ✅ | Lire | Balista | 1d12 | arma de cerco, a mais pesada |
-| ✅ | Lire | Gakkung | 1d6 | arco tradicional, mais leve/ágil |
-| ✅ | Arme | Cetro | 1d8 | foco arcano genérico |
-| ✅ | Arme | Pote | 1d6 | arremesso alquímico, leve e imprevisível |
-| ✅ | Arme | Lâmpada | 1d8 | foco médio |
-| ✅ | Arme | Cajado | 1d10 | canalização pesada de duas mãos |
-| ✅ | Lass | Adagas | 1d4 | par leve, identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
-| ✅ | Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga (Finesse) |
-| ✅ | Lass | Garras | 1d6 | par leve, parecido com Adagas (Finesse) |
-| ✅ | Lass | Katana | 1d10 | lâmina longa clássica (Finesse) — nome liberado após o Uno virar "Muramasa" |
-| ✅ | Ryan | Machado | 1d12 | machado pesado de duas mãos |
-| ✅ | Ryan | Gancho de Jade | 1d6 | arma de gancho leve e ágil (renomeada de "Lâmina Dupla" — a arma real é um gancho único, não um par de lâminas) |
-| ✅ | Ryan | Gadanha | 1d10 | foice pesada de duas mãos |
-| ✅ | Ryan | Pique | 1d10 | lâminas gêmeas que se combinam num pique de alcance |
-| ✅ | Ronan | Gládio | 1d6 | espada curta, leve |
-| ✅ | Ronan | Glaive | 1d10 | arma de haste, alcance |
-| ✅ | Ronan | Égide | 1d6 | espada e escudo, identidade defensiva vem do Buff Supremo do grupo |
-| ✅ | Ronan | Lâmina do Crepúsculo | 1d10 | renomeada de "Tirfing" — lâmina amaldiçoada, arma final |
-| ✅ | Amy | Chakram | 1d6 | anel de arremesso, leve |
-| ✅ | Amy | Violino | 1d6 | instrumento usado como arma contundente |
-| ✅ | Amy | Microfone | 1d8 | renomeado de "Báculo" — arma real é um microfone (Kleiophone) |
-| ✅ | Amy | Bolsa de Truques | 1d10 | renomeado de "Pandora" — bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
-| ✅ | Jin | Manopla | 1d6 | luta desarmada, golpes rápidos |
-| ✅ | Jin | Tonfas | 1d6 | par leve |
-| ✅ | Jin | Bastão | 1d8 | arma de haste média (arma real é a Chamma) |
-| ✅ | Jin | Vajras | 1d8 | arma mística, foco médio |
-| ✅ | Sieghart | Lâmina | 1d8 | espada padrão |
-| ✅ | Sieghart | Rapiers | 1d6 | par de lâminas finas |
-| ✅ | Sieghart | Soluna | 1d10 | lâmina lendária, arma final |
-| ✅ | Mari | Manual | 1d6 | grimório leve |
-| ✅ | Mari | Revólver Maverick | 1d8 | revólver pesado usado sozinho, arma real da Gunslinger (Pontaria, não Marciais) |
-| ✅ | Mari | Marreta Mágica | 1d12 | a mais pesada do arsenal dela |
-| ✅ | Mari | Módulo Alado | 1d10 | renomeado de "WDW" — enxame tecnológico de lâminas voadoras (arma real é a Soul Taker) |
-| ✅ | Dio | Foice | 1d10 | foice pesada |
-| ✅ | Zero | Espadão | 1d12 | espada imensa e senciente (renomeada — "Espada" e "Lâmina" já existem) |
-| ✅ | Rey | Orbe | 1d8 | esfera mágica que guarda poder (renomeada — "Endless" era só um placeholder; personagem-fonte é a Ley) |
-| ✅ | Lupus | Pistolas | 1d6 | dupla de pistolas, constante nas 4 classes (personagem-fonte é o Rufus) |
-| ✅ | Lupus | Punhal | 1d6 | adaga Finesse, 2ª arma (renomeada de "Espada Espiritual" — é uma adaga, não espada) |
-| ✅ | Lupus | Espingarda | 1d10 | "A Ruptura" — tiro único e devastador, arma dos Justiceiros, 3ª arma |
-| ✅ | Lupus | Metralhadora | 1d12 | giratória, 4ª arma (a mais pesada) |
-| ✅ | Lin | Leque | 1d6 | canalização mágica genérica, sem elemento fixo (personagem-fonte é a Rin) |
-| ✅ | Azin | Vembrassa | 1d6 | reflexo da Manopla — punho aberto (Naegakwon Yu), mão esquerda (personagem-fonte é o Asin) |
-| ✅ | Holy | Martelo | 1d12 | arma de esmagamento, pesada (personagem-fonte é a Lime) |
-| ✅ | Edel | Florete | 1d6 | leve, arma de finesse |
-| ✅ | Edel | Flintlock | 1d8 | pistola de precisão |
-| ✅ | Veigas | Cubo Mágico | 1d8 | renomeado de "Tesserato" — cubo cósmico senciente (personagem-fonte é o Veigas, cujo "Deus Ex Machina" virou genérico) |
-| ✅ | Uno | Muramasa | 1d10 | nome original da wiki, mantido — libera "Katana" pro Lass |
-| ✅ | Decanee | Olho Mágico | 1d8 | renomeada de "Olho Maléfico" — genérica, sem ligação a um personagem-fonte específico |
-| ✅ | Ai | Espada-Chave | 1d8 | Híbrida (Força ou Inteligência) — renomeada de "Chave dos Céus", inspirada em Keyblade |
-| ✅ | Kallia | Soqueira Pesada | 1d12 | renomeada de "Esmagador Ardente" — o "ardente" (fogo) virou habilidades gerais |
+| Arma | Dado | Chaves | Nota |
+|---|---|---|---|
+| Adagas | 1d4 | Finesse, Leve | par leve; identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
+| Alfange | 1d8 | Finesse, Leve | lâmina única, mais pesada que a adaga |
+| Bastão | 1d8 | Duas Mãos | haste média |
+| Bolsa de Truques | 1d10 | Duas Mãos | bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
+| Égide | 1d6 | Duas Mãos | pacote fechado espada+escudo — identidade defensiva vem do Buff Supremo do grupo |
+| Espada | 1d8 | Leve | arma versátil |
+| Espada-Chave | 1d8 | Híbrida, Leve | inspirada em Keyblade |
+| Espadão | 1d12 | Duas Mãos | espada imensa e senciente |
+| Florete | 1d6 | Finesse, Leve | leve, arma de duelista |
+| Foice | 1d10 | Duas Mãos | foice pesada |
+| Gadanha | 1d10 | Duas Mãos | foice pesada de duas mãos |
+| Gancho de Jade | 1d6 | Leve | gancho único, leve e ágil |
+| Garras | 1d6 | Finesse, Leve | par leve |
+| Glaive | 1d10 | Duas Mãos | arma de haste, alcance |
+| Gládio | 1d6 | Híbrida, Leve | espada curta, leve |
+| Katana | 1d10 | Finesse, Duas Mãos | lâmina longa clássica |
+| Lâmina | 1d8 | Leve | espada padrão |
+| Lâmina do Crepúsculo | 1d10 | Duas Mãos | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
+| Lança | 1d10 | Duas Mãos | alcance, mais pesada |
+| Machado | 1d12 | Duas Mãos | pesado de duas mãos |
+| Manopla | 1d6 | Leve | luta desarmada, golpes rápidos |
+| Marreta Mágica | 1d12 | Duas Mãos | a mais pesada do arquétipo |
+| Martelo | 1d12 | Duas Mãos | arma de esmagamento, pesada |
+| Microfone | 1d8 | Leve | formato de microfone |
+| Montante | 1d12 | Duas Mãos | espada grande de duas mãos |
+| Muramasa | 1d10 | Finesse, Duas Mãos | lâmina longa |
+| Pique | 1d10 | Duas Mãos | lâminas gêmeas que se combinam num pique de alcance |
+| Punhal | 1d6 | Finesse, Leve | adaga leve |
+| Rapiers | 1d6 | Leve | par de lâminas finas |
+| Sabres | 1d6 | Leve | par de lâminas leves |
+| Soluna | 1d10 | Duas Mãos | lâmina lendária, duas metades (Sol e Lua) que se combinam |
+| Soqueira Pesada | 1d12 | Duas Mãos | arma de esmagamento, pesada |
+| Tonfas | 1d6 | Leve | par leve |
+| Vajras | 1d8 | Leve | arma mística, foco médio |
+| Vembrassa | 1d6 | Leve | reflexo da Manopla — punho aberto, mão esquerda |
+| Violino | 1d6 | Leve | instrumento usado como arma contundente |
 
-*(Em construção — armas ⬜ ainda não tiveram habilidades pesquisadas/escritas; dados são estimativa inicial.)*
+### Pontaria
+
+| Arma | Dado | Chaves | Nota |
+|---|---|---|---|
+| Arco | 1d8 | Duas Mãos | arma de precisão padrão |
+| Balista | 1d12 | Duas Mãos | arma de cerco, a mais pesada |
+| Bestas | 1d6 | Leve | dupla empunhadura, tipo adagas/sabres |
+| Chakram | 1d6 | Leve | anel de arremesso |
+| Espingarda | 1d10 | Duas Mãos | "A Ruptura" — tiro único e devastador, arma dos Justiceiros |
+| Flintlock | 1d8 | Leve | pistola de precisão |
+| Gakkung | 1d6 | Duas Mãos | arco tradicional, mais leve/ágil |
+| Metralhadora | 1d12 | Duas Mãos | giratória, a mais pesada |
+| Pistolas | 1d6 | Leve | dupla de pistolas leves, usadas sempre em par |
+| Revólver Maverick | 1d8 | Leve | revólver pesado, usado sempre sozinho |
+
+### Arcano
+
+| Arma | Dado | Chaves | Nota |
+|---|---|---|---|
+| Cajado | 1d10 | Duas Mãos | canalização pesada |
+| Cetro | 1d8 | Leve | foco arcano genérico |
+| Cubo Mágico | 1d8 | Leve | cubo cósmico senciente |
+| Lâmpada | 1d8 | Leve | foco médio |
+| Leque | 1d6 | Leve | canalização mágica genérica |
+| Manual | 1d6 | Leve | grimório leve |
+| Módulo Alado | 1d10 | *(especial — não é empunhado)* | enxame tecnológico de lâminas voadoras |
+| Olho Mágico | 1d8 | Leve | genérica, sem elemento fixo |
+| Orbe | 1d8 | Leve | esfera mágica que guarda poder |
+| Pote | 1d6 | Leve | arremesso alquímico, leve e imprevisível |
 
 ## Espada
 
