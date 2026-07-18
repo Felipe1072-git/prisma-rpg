@@ -42,3 +42,12 @@ Cura e apoio a aliados.
 - **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
 - **Efeito:** cada alvo recupera 2d4 + Sabedoria de Vida imediatamente ao usar, e mais 1d4 de Vida no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
 - *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
+
+**Bênção Alquímica**
+
+*Um frasco de energia curativa se rompe sobre o aliado, fechando feridas na hora.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** 1 aliado
+- **Efeito:** o alvo recupera 2d6 + Sabedoria de Vida, e ganha um Escudo de 1d4 pontos.
+- *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*

@@ -410,3 +410,12 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
 - **Efeito:** por 3 rodadas, o usuário ganha +1d4 no dano de ataques.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Anel de Fogo**
+
+*Um anel de chamas envolve o corpo, triplicando a resistência a golpes.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 8 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário ganha +4 de Defesa.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

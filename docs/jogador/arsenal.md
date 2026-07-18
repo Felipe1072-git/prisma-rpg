@@ -33,9 +33,9 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Lire | Balista | 1d12 | arma de cerco, a mais pesada |
 | ✅ | Lire | Gakkung | 1d6 | arco tradicional, mais leve/ágil |
 | ✅ | Arme | Cetro | 1d8 | foco arcano genérico |
-| ⬜ | Arme | Pote | 1d6 | arremesso alquímico, leve e imprevisível |
-| ⬜ | Arme | Lâmpada | 1d8 | foco médio |
-| ⬜ | Arme | Cajado | 1d10 | canalização pesada de duas mãos |
+| ✅ | Arme | Pote | 1d6 | arremesso alquímico, leve e imprevisível |
+| ✅ | Arme | Lâmpada | 1d8 | foco médio |
+| ✅ | Arme | Cajado | 1d10 | canalização pesada de duas mãos |
 | ✅ | Lass | Adagas | 1d4 | par leve, identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
 | ⬜ | Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga |
 | ⬜ | Lass | Garras | 1d6 | par leve, parecido com Adagas |
@@ -419,6 +419,123 @@ Dano: **1d8**
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Pote
+
+Armas mágicas como o Pote não travam feitiços específicos — suas 3 habilidades são canalizações genéricas de energia bruta, sem elemento fixo.
+
+Dano: **1d6**
+
+**Arremesso Instável** — *Básica*
+
+*Um jato de energia instável é lançado do pote, sem forma definida.*
+
+- **Chave:** [Pote](../glossario.md#pote) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Explosão do Pote** — *Avançada*
+
+*O conteúdo do pote se rompe numa explosão descontrolada numa área.*
+
+- **Chave:** [Pote](../glossario.md#pote) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Caldeirão Reverso** — *Especial*
+
+*O pote se vira de ponta-cabeça, liberando toda a energia acumulada ao redor do usuário.*
+
+- **Chave:** [Pote](../glossario.md#pote) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Lâmpada
+
+Armas mágicas como a Lâmpada não travam feitiços específicos — suas 3 habilidades são canalizações genéricas de energia bruta, sem elemento fixo.
+
+Dano: **1d8**
+
+**Chama da Lâmpada** — *Básica*
+
+*Uma chama neutra é liberada da lâmpada, sem forma definida.*
+
+- **Chave:** [Lâmpada](../glossario.md#lâmpada) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Clarão da Lâmpada** — *Avançada*
+
+*Um clarão intenso se espalha numa área, sem tema ou elemento definido.*
+
+- **Chave:** [Lâmpada](../glossario.md#lâmpada) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Explosão Espiritual** — *Especial*
+
+*Toda a energia contida na lâmpada é liberada de uma vez, ao redor do usuário.*
+
+- **Chave:** [Lâmpada](../glossario.md#lâmpada) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Cajado
+
+Armas mágicas como o Cajado não travam feitiços específicos — suas 3 habilidades são canalizações genéricas de energia bruta, sem elemento fixo.
+
+Dano: **1d10**
+
+**Impacto do Cajado** — *Básica*
+
+*Um pulso de energia neutra é disparado da ponta do cajado.*
+
+- **Chave:** [Cajado](../glossario.md#cajado) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Onda do Cajado** — *Avançada*
+
+*Uma onda de força neutra se espalha a partir de um ponto escolhido.*
+
+- **Chave:** [Cajado](../glossario.md#cajado) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Ruptura Arcana** — *Especial*
+
+*A canalização se rompe de vez, liberando toda a energia acumulada ao redor do usuário.*
+
+- **Chave:** [Cajado](../glossario.md#cajado) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
 
 ## Adagas
 

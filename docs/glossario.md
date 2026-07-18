@@ -56,6 +56,18 @@ Arco tradicional leve e ágil, dano 1d6. Ver [Arsenal → Gakkung](jogador/arsen
 
 Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cetro](jogador/arsenal.md#cetro).
 
+### Pote
+
+Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Pote](jogador/arsenal.md#pote).
+
+### Lâmpada
+
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Lâmpada](jogador/arsenal.md#lâmpada).
+
+### Cajado
+
+Arma mágica genérica, dano 1d10, sem elemento fixo. Ver [Arsenal → Cajado](jogador/arsenal.md#cajado).
+
 ### Adagas
 
 Arma marcial Finesse, dano 1d4. Ver [Arsenal → Adagas](jogador/arsenal.md#adagas).

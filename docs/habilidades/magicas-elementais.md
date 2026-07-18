@@ -65,6 +65,26 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 2d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, empurra 1 casa, e Lento em todos
 
+**Nevasca**
+
+*Uma nevasca cai sobre uma área ampla, congelando tudo em seu caminho.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e Paralisado em todos
+
+**Investida Encadeada** *(Maior)*
+
+*Vento puxa os inimigos pra perto, fogo os consome em sequência, e gelo os congela no lugar.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Efeito:** todos os alvos na área são puxados 2 casas em direção ao centro e sofrem 1d10 de dano automático imediatamente ao usar; os que ainda estiverem na área ficam Paralisados (não podem agir) até o fim do próprio próximo turno
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
 ## Raio
 
 **Relâmpago**
@@ -194,6 +214,17 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
 - **Efeito:** a área não sofre dano nesse momento; no início do próximo turno do usuário, ela é atingida por uma explosão massiva, causando 3d8 de dano automático a cada criatura hostil que estiver lá nesse momento
 - *(Sem Tiers de Sucesso — efeito automático de tempo retardado, sem teste de ataque)*
+
+**Força de Choque**
+
+*Uma cortina de raios envolve o corpo, atingindo tudo ao redor e acima.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e Atordoado em todos
 
 ## Fogo
 
@@ -481,6 +512,37 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
 - **Efeito:** cada alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Explosão de Fogo**
+
+*Um pilar de fogo irrompe do chão, empurrando tudo ao redor com violência.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + empurra 3 casas cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e empurra 3 casas
+
+**Impacto Profundo** *(Maior)*
+
+*Meteoros flamejantes desabam por toda parte, cobrindo um campo de batalha inteiro em fogo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 2d6 de dano + Sangrando + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, Sangrando, e empurra 1 casa
+
+**O Fim** *(Supremo)*
+
+*Dez meteoros colossais despencam lentamente do céu, explodindo ao tocar o chão e deixando um rastro de fogo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Efeito:** cada criatura na área sofre 2d8 de dano automático imediatamente ao usar. Por 2 rodadas, a área permanece em chamas: qualquer criatura hostil que termine o turno lá sofre mais 1d6 de dano automático.
 - *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
 
 ## Sombras

@@ -463,3 +463,23 @@ Criar desvantagens para inimigos ou em testes.
 - **Tier 2 (11–16):** mesmo + explosão final causa 1d8 de dano a todos em 2 casas do selo
 - **Tier 3 (≥17):** mesmo + derruba todos na explosão
 - **Crítico:** dano máximo (16) + 2d8 extra no alvo, dano máximo (8) + 1d8 extra nos demais, e derruba todos
+
+**Nuvem Mortal**
+
+*Uma nuvem verde e tóxica paira sobre a área, ficando mais perigosa perto do centro.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + Lento + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Lento, e Sangrando
+
+**Campo da Morte** *(Supremo)*
+
+*Uma bomba gigantesca é lançada, e ao explodir, espalha minúsculas minas por toda a área.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Efeito:** cada criatura na área sofre 2d6 de dano automático imediatamente ao usar. A área permanece minada por 2 rodadas: qualquer criatura hostil que termine o turno lá sofre mais 1d6 de dano automático.
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
