@@ -72,6 +72,22 @@ Arma marcial pesada, dano 1d12. Ver [Arsenal → Espadão](jogador/arsenal.md#es
 
 Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Orbe](jogador/arsenal.md#orbe).
 
+### Presas
+
+Dupla de pistolas, dano 1d6. Ver [Arsenal → Presas](jogador/arsenal.md#presas).
+
+### Lâmina Espectral
+
+Adaga Finesse, dano 1d6. Ver [Arsenal → Lâmina Espectral](jogador/arsenal.md#lâmina-espectral).
+
+### Ruptura
+
+Espingarda usada como nunchaku, dano 1d10. Ver [Arsenal → Ruptura](jogador/arsenal.md#ruptura).
+
+### Juiz das Almas
+
+Metralhadora giratória, dano 1d12. Ver [Arsenal → Juiz das Almas](jogador/arsenal.md#juiz-das-almas).
+
 ## Propriedades de Arma
 
 ### Finesse

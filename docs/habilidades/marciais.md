@@ -326,3 +326,15 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** 1x dado de dano + empurra 2 casas
 - **Tier 3 (≥17):** 1x dado de dano + empurra 3 casas
 - **Crítico:** dado máximo + 1x dado extra, e empurra 3 casas
+
+**Grilhões da Alma**
+
+*A lâmina se finca no chão com força, explodindo e arremessando tudo ao redor pelos ares.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo

@@ -120,6 +120,8 @@ Na prática:
 - Nomes de talento redundantes entre si (várias variações de "golpe + lança pro ar", por exemplo) podem virar habilidades gerais distintas mesmo assim — diferencie pelos efeitos de tier (ver menu de efeitos acima), não precisa inventar uma mecânica nova pra cada uma.
 - Pode pular nós de talento puramente passivos/incrementais (bônus de dano genérico, redução de intervalo, etc.) — foque nas habilidades **ativas e nomeadas**.
 
+**Nem todo personagem AP compartilha UMA arma entre as classes.** Dio/Zero/Ley reusam a mesma arma nas 4 classes (vira 1 entrada no Arsenal). O Rufus (Lupus) é diferente: ele mantém a arma da 1ª classe (Eyeteeth/Presas) e cada classe seguinte **acrescenta** uma arma de suporte nova (faca → espingarda → metralhadora) — 4 armas fisicamente distintas, não reskins. Pra esse padrão, pergunte ao usuário se prefere (a) dobrar as armas extras em habilidades gerais de Marciais/Pontaria como se fosse o padrão Dio/Zero, ou (b) dar Arsenal próprio pra cada arma (3 habilidades cada). O Rufus usou a opção (b) — 4 entradas no Arsenal, uma combo/ultimate que usa todas as armas juntas vira Supremo geral (não cabe em nenhum slot de arma sozinho).
+
 ## Golpes desarmados não travam em arma nenhuma
 
 Se o moveset do personagem-fonte é literalmente socos e chutes (sem depender de segurar nada — caso da Amy e do Jin), essas habilidades vão pra **Habilidades Gerais de Marciais** usando o [Dano Desarmado](../../docs/habilidades/marciais.md#dano-desarmado) (escala por nível, não por arma), não pra uma arma. É a mesma lógica de "arma mágica não trava feitiço": ninguém deveria precisar equipar um objeto específico só pra usar um soco.

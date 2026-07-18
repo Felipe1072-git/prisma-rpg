@@ -67,10 +67,10 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Dio | Foice | 1d10 | foice pesada |
 | ✅ | Zero | Espadão | 1d12 | espada imensa e senciente (renomeada — "Espada" e "Lâmina" já existem) |
 | ✅ | Rey | Orbe | 1d8 | esfera mágica que guarda poder (renomeada — "Endless" era só um placeholder; personagem-fonte é a Ley) |
-| ⬜ | Lupus | Scarlet | 1d8 | espada padrão |
-| ⬜ | Lupus | Espada Espiritual | 1d8 | lâmina espectral, foco médio |
-| ⬜ | Lupus | Ruptura | 1d10 | arma pesada, dano de ruptura |
-| ⬜ | Lupus | Juiz das Almas | 1d12 | arma final, a mais pesada |
+| ✅ | Lupus | Presas | 1d6 | dupla de pistolas, constante nas 4 classes (personagem-fonte é o Rufus) |
+| ✅ | Lupus | Lâmina Espectral | 1d6 | adaga Finesse, 2ª arma (renomeada de "Espada Espiritual" — é uma adaga, não espada) |
+| ✅ | Lupus | Ruptura | 1d10 | espingarda usada como nunchaku, 3ª arma |
+| ✅ | Lupus | Juiz das Almas | 1d12 | metralhadora giratória, 4ª arma (a mais pesada) |
 | ⬜ | Lin | Leque | 1d6 | leve, arma de precisão/finesse |
 | ⬜ | Azin | Vembrassa | 1d8 | poder médio, natureza incerta |
 | ⬜ | Holy | Martelo | 1d12 | arma de esmagamento, pesada |
@@ -589,6 +589,162 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
+## Presas
+
+*Dupla de pistolas — a arma constante do caçador de recompensas, presente desde a 1ª classe. As outras 3 armas que ele acumula ao longo da progressão (Lâmina Espectral, Ruptura, Juiz das Almas) também viraram entradas próprias no Arsenal, cada uma com identidade mundana independente.*
+
+Dano: **1d6**
+
+**Presas Gêmeas** — *Básica*
+
+*Dois tiros perfurantes seguidos por um golpe final mais poderoso.*
+
+- **Chave:** [Presas](../glossario.md#presas) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Tiro Cruzado** — *Avançada*
+
+*Dois disparos simultâneos cobrem direções opostas, sem deixar brechas.*
+
+- **Chave:** [Presas](../glossario.md#presas) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em cada, e derruba cada alvo
+
+**Chuva de Chumbo** — *Especial*
+
+*Um dilúvio de balas desaba do alto sobre uma área inteira.*
+
+- **Chave:** [Presas](../glossario.md#presas) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Lâmina Espectral
+
+Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d6**
+
+**Corte Etéreo** — *Básica*
+
+*Uma lâmina espectral corta o inimigo, deixando um ferimento que não para de sangrar.*
+
+- **Chave:** [Lâmina Espectral](../glossario.md#lâmina-espectral) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + empurra 1 casa
+- **Crítico:** dano máximo (6) + 1d6 extra, Sangrando, e empurra 1 casa
+
+**Corte Ceifador** — *Avançada*
+
+*Dois cortes em sequência lançam o inimigo pra cima, deixando feridas profundas.*
+
+- **Chave:** [Lâmina Espectral](../glossario.md#lâmina-espectral) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, Sangrando, e derruba o alvo
+
+**Corte Crescente** — *Especial*
+
+*Dois cortes rápidos, seguidos por um terceiro golpe muito mais forte.*
+
+- **Chave:** [Lâmina Espectral](../glossario.md#lâmina-espectral) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 2d6 de dano
+- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 2d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d6 extra, e derruba o alvo
+
+## Ruptura
+
+*Espingarda empunhada como um nunchaku — habilidades originais mundanas.*
+
+Dano: **1d10**
+
+**Rajada Perfurante** — *Básica*
+
+*Uma sequência de tiros certeiros perfura o alvo várias vezes seguidas.*
+
+- **Chave:** [Ruptura](../glossario.md#ruptura) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Vendaval Uivante** — *Avançada*
+
+*A arma gira como um nunchaku, disparando sem parar para todos os lados.*
+
+- **Chave:** [Ruptura](../glossario.md#ruptura) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Investida Explosiva** — *Especial*
+
+*O atirador avança rápido e crava a arma no inimigo, detonando um estrondo à queima-roupa.*
+
+- **Chave:** [Ruptura](../glossario.md#ruptura) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor do ponto final
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+## Juiz das Almas
+
+*Metralhadora giratória — a arma final do caçador de recompensas.*
+
+Dano: **1d12**
+
+**Fuzilamento** — *Básica*
+
+*A metralhadora dispara sem parar, mantendo o alvo sob fogo constante.*
+
+- **Chave:** [Juiz das Almas](../glossario.md#juiz-das-almas) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+
+**Giro Mortal** — *Avançada*
+
+*Uma virada repentina dispara uma rajada rápida antes que o inimigo perceba.*
+
+- **Chave:** [Juiz das Almas](../glossario.md#juiz-das-almas) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d12 de dano + alvo perde a próxima Ação Básica e Reação
+- **Crítico:** dano máximo (12) + 1d12 extra + efeito do Tier 3
+
+**Estilhaçar** — *Especial*
+
+*Uma saraivada de tiros ergue a mira aos poucos, arremessando os inimigos pra cima.*
+
+- **Chave:** [Juiz das Almas](../glossario.md#juiz-das-almas) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
 ## Resolução de Ataque
 
 **Acerto:** d20 + Atributo relevante (ver Tipos de Ataque abaixo). Armas básicas não concedem bônus de Acerto.
@@ -603,7 +759,7 @@ Um ataque é resolvido como **d20 + Atributo vs Defesa do alvo**. Igualar ou sup
 
 Algumas armas leves e ágeis são marcadas como **Finesse**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Agilidade** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
 
-Armas Finesse até agora: **Adagas**.
+Armas Finesse até agora: **Adagas**, **Lâmina Espectral**.
 
 ### Armas Híbridas
 
