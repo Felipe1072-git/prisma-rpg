@@ -80,9 +80,9 @@ Arma marcial Finesse, dano 1d8. Ver [Arsenal → Alfange](jogador/arsenal.md#alf
 
 Arma marcial Finesse, dano 1d6. Ver [Arsenal → Garras](jogador/arsenal.md#garras).
 
-### Nodachi
+### Katana
 
-Arma marcial Finesse, dano 1d10. Ver [Arsenal → Nodachi](jogador/arsenal.md#nodachi).
+Arma marcial Finesse (duas mãos), dano 1d10 (lâmina longa clássica). Ver [Arsenal → Katana](jogador/arsenal.md#katana).
 
 ### Machado
 
@@ -122,7 +122,7 @@ Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Orbe](joga
 
 ### Pistolas
 
-Dupla de pistolas, dano 1d6. Ver [Arsenal → Pistolas](jogador/arsenal.md#pistolas).
+Dupla de pistolas leves, dano 1d6 — usadas sempre em par, uma em cada mão. Ver [Arsenal → Pistolas](jogador/arsenal.md#pistolas).
 
 ### Punhal
 
@@ -130,7 +130,7 @@ Adaga Finesse, dano 1d6. Ver [Arsenal → Punhal](jogador/arsenal.md#punhal).
 
 ### Espingarda
 
-Espingarda usada como nunchaku, dano 1d10. Ver [Arsenal → Espingarda](jogador/arsenal.md#espingarda).
+Conhecida como "A Ruptura", dano 1d10 — tiro único e devastador, arma dos Justiceiros (caçadores de recompensas de elite). Ver [Arsenal → Espingarda](jogador/arsenal.md#espingarda).
 
 ### Metralhadora
 
@@ -156,9 +156,9 @@ Arma marcial Finesse, dano 1d6. Ver [Arsenal → Florete](jogador/arsenal.md#flo
 
 Pistola de precisão, dano 1d8. Ver [Arsenal → Flintlock](jogador/arsenal.md#flintlock).
 
-### Katana
+### Muramasa
 
-Arma marcial pesada, dano 1d10. Ver [Arsenal → Katana](jogador/arsenal.md#katana).
+Arma marcial Finesse (duas mãos), dano 1d10 (nome original da wiki, mantido). Ver [Arsenal → Muramasa](jogador/arsenal.md#muramasa).
 
 ### Cubo Mágico
 
@@ -176,6 +176,74 @@ Arma Híbrida, dano 1d8. Ver [Arsenal → Espada-Chave](jogador/arsenal.md#espad
 
 Arma marcial pesada, dano 1d12. Ver [Arsenal → Soqueira Pesada](jogador/arsenal.md#soqueira-pesada).
 
+### Gancho de Jade
+
+Arma marcial, dano 1d6 (renomeada de "Lâmina Dupla" — arma real é um gancho único). Ver [Arsenal → Gancho de Jade](jogador/arsenal.md#gancho-de-jade).
+
+### Gadanha
+
+Arma marcial pesada, dano 1d10. Ver [Arsenal → Gadanha](jogador/arsenal.md#gadanha).
+
+### Pique
+
+Arma marcial pesada, dano 1d10 (lâminas gêmeas que se combinam num pique de alcance). Ver [Arsenal → Pique](jogador/arsenal.md#pique).
+
+### Glaive
+
+Arma marcial de haste, dano 1d10. Ver [Arsenal → Glaive](jogador/arsenal.md#glaive).
+
+### Égide
+
+Arma marcial (espada e escudo), dano 1d6. Ver [Arsenal → Égide](jogador/arsenal.md#égide).
+
+### Lâmina do Crepúsculo
+
+Arma marcial pesada, dano 1d10 (renomeada de "Tirfing" — lâmina amaldiçoada, concede poder imenso mas corrói com trevas quem a empunha). Ver [Arsenal → Lâmina do Crepúsculo](jogador/arsenal.md#lâmina-do-crepúsculo).
+
+### Violino
+
+Arma marcial, dano 1d6 (instrumento usado como arma contundente). Ver [Arsenal → Violino](jogador/arsenal.md#violino).
+
+### Microfone
+
+Arma marcial, dano 1d8 (renomeada de "Báculo" — a arma real é um microfone). Ver [Arsenal → Microfone](jogador/arsenal.md#microfone).
+
+### Bolsa de Truques
+
+Arma marcial pesada, dano 1d10 (renomeada de "Pandora" — bolsa mágica com itens aleatórios). Ver [Arsenal → Bolsa de Truques](jogador/arsenal.md#bolsa-de-truques).
+
+### Tonfas
+
+Par de tonfas, dano 1d6. Ver [Arsenal → Tonfas](jogador/arsenal.md#tonfas).
+
+### Bastão
+
+Arma marcial de haste média, dano 1d8 (arma real é a Chamma). Ver [Arsenal → Bastão](jogador/arsenal.md#bastão).
+
+### Vajras
+
+Arma marcial mística, dano 1d8. Ver [Arsenal → Vajras](jogador/arsenal.md#vajras).
+
+### Rapiers
+
+Par de lâminas finas, dano 1d6. Ver [Arsenal → Rapiers](jogador/arsenal.md#rapiers).
+
+### Soluna
+
+Arma marcial pesada, dano 1d10 (lâmina lendária, duas metades — Sol e Lua). Ver [Arsenal → Soluna](jogador/arsenal.md#soluna).
+
+### Revólver Maverick
+
+Revólver pesado, dano 1d8 — quase uma espingarda de uma mão só, usado sempre sozinho por causa do coice e do poder de fogo (a outra mão fica livre). Ver [Arsenal → Revólver Maverick](jogador/arsenal.md#revólver-maverick).
+
+### Marreta Mágica
+
+Arma marcial pesada, dano 1d12. Ver [Arsenal → Marreta Mágica](jogador/arsenal.md#marreta-mágica).
+
+### Módulo Alado
+
+Arma marcial, dano 1d10 (renomeada de "WDW" — enxame tecnológico de lâminas voadoras; arma real é a Soul Taker). Ver [Arsenal → Módulo Alado](jogador/arsenal.md#módulo-alado).
+
 ## Propriedades de Arma
 
 ### Finesse
@@ -185,6 +253,18 @@ O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver
 ### Híbrida
 
 O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Arsenal → Armas Híbridas](jogador/arsenal.md#armas-híbridas).
+
+### Dupla Empunhadura
+
+Habilidade geral que exige duas armas específicas equipadas ao mesmo tempo; o dano soma os dados das duas. Ver [Arsenal → Dupla Empunhadura](jogador/arsenal.md#dupla-empunhadura).
+
+### Leve
+
+Arma que ocupa só uma mão — a mão secundária fica livre pra outra arma Leve, um escudo, ou magia/interação. Ver [Arsenal → Leve](jogador/arsenal.md#leve).
+
+### Escudo
+
+Item de mão secundária (Leve, Pesado ou Torre) que concede bônus passivo de Defesa e habilita a habilidade [Bloqueio](habilidades/buff.md). Ver [Arsenal → Escudos](jogador/arsenal.md#escudos).
 
 ## Grupos de Habilidade
 

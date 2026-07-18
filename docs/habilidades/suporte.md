@@ -51,3 +51,39 @@ Cura e apoio a aliados.
 - **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** 1 aliado
 - **Efeito:** o alvo recupera 2d6 + Sabedoria de Vida, e ganha um Escudo de 1d4 pontos.
 - *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
+
+**Rapsódia**
+
+*Uma melodia suave acelera o fluxo de energia mágica de quem a escuta.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** 4 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Efeito:** cada alvo recupera 1d6 de Mana imediatamente.
+- *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
+
+**Palco Central**
+
+*Um palco se ergue sob os pés da usuária — pilares de luz emergem e restauram a vitalidade de quem estiver por perto.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Efeito:** cada alvo recupera 1d8 + Sabedoria de Vida imediatamente ao usar, e mais 1d4 de Vida no início de cada um dos 2 turnos seguintes do usuário.
+- *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
+
+**Amy Encantadora**
+
+*Uma dança envolve um oponente, que sai tonto e machucado — os aliados ao redor saem revigorados pelo espetáculo.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 criatura (dano) + usuário e aliados em 3 casas de raio (cura)
+- **Efeito:** o alvo sofre 1d6 de dano automático imediatamente ao usar. Usuário e aliados na área recuperam 1d6 + Sabedoria de Vida.
+- *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
+
+**Divisor de Mana**
+
+*Um pequeno construto de metal irradia um campo que acelera a recuperação de mana de quem estiver por perto.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Efeito:** cada alvo recupera 1d8 de Mana imediatamente.
+- *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*

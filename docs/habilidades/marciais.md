@@ -577,3 +577,64 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** 2x dado de dano + empurra 2 casas cada alvo
 - **Tier 3 (≥17):** 2x dado de dano + derruba cada alvo
 - **Crítico:** dado máximo (2x) + 1x dado extra em todos, e derruba cada alvo
+
+**Queda Celestial** *(Supremo)*
+
+*Seis flores de chi desabrocham ao redor do usuário, e mais uma sob cada inimigo à vista — todas explodem ao mesmo tempo, arremessando tudo pro alto.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+
+**Investida Dupla** *(Dupla Empunhadura: Lança + Espada)*
+
+*Duas estocadas de lança precedem um golpe baixo e um corte ascendente de espada curta.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
+- **Requisito:** usuário precisa ter Lança e Espada equipadas simultaneamente
+- **Custo:** 3 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Dano:** soma dos dados das duas armas (1d10 + 1d8)
+- **Tier 1 (≤10):** 1x dano
+- **Tier 2 (11–16):** 1x dano + empurra 1 casa
+- **Tier 3 (≥17):** 1x dano + derruba o alvo
+- **Crítico:** dano máximo + 1x dano extra, e derruba o alvo
+
+**Combo Punitivo** *(Dupla Empunhadura: Lança + Espada)*
+
+*Quatro golpes de lança em sequência terminam quando a espada curta é cravada no chão com força total.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
+- **Requisito:** usuário precisa ter Lança e Espada equipadas simultaneamente
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Dano:** soma dos dados das duas armas (1d10 + 1d8) em cada alvo
+- **Tier 1 (≤10):** 1x dano em cada alvo
+- **Tier 2 (11–16):** 1x dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dano + derruba cada alvo
+- **Crítico:** dano máximo + 1x dano extra em todos, e derruba cada alvo
+
+**Mergulho Furioso** *(Dupla Empunhadura: Lança + Espada)*
+
+*Um giro no ar termina num mergulho diagonal que esmaga o chão, gerando uma pequena explosão ao redor.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
+- **Requisito:** usuário precisa ter Lança e Espada equipadas simultaneamente
+- **Custo:** 6 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Dano:** soma dos dados das duas armas (1d10 + 1d8) em cada alvo
+- **Tier 1 (≤10):** 1x dano em cada alvo, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1x dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dano + derruba cada alvo
+- **Crítico:** dano máximo + 1x dano extra em todos, e derruba cada alvo
+
+**Nascimento das Lâminas** *(Supremo)*
+
+*Sete espadas espectrais são invocadas, cortando o campo de batalha repetidas vezes antes de atacarem juntas num golpe final.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas hostis em 5 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo

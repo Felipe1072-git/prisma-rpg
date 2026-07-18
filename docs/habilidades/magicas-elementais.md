@@ -19,6 +19,28 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 1d6 de dano + alvo fica Petrificado (não pode agir) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra + Petrificado por 1 rodada completa
 
+**Fúria da Natureza**
+
+*Espinhos brotam do chão num ponto escolhido, perfurando tudo que estiver por perto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + a área vira Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
+- **Tier 3 (≥17):** 1d6 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Terreno Difícil, e Lento
+
+**Fúria em Espiral** *(Supremo)*
+
+*Nove espinhos gigantescos irrompem do chão, cruzando o campo de batalha inteiro e arremessando tudo pelos ares.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
+
 ## Gelo
 
 **Congelar**
@@ -84,6 +106,28 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
 - **Efeito:** todos os alvos na área são puxados 2 casas em direção ao centro e sofrem 1d10 de dano automático imediatamente ao usar; os que ainda estiverem na área ficam Paralisados (não podem agir) até o fim do próprio próximo turno
 - *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Extinção**
+
+*Uma esfera cristalina avança lentamente, arrastando os inimigos consigo antes de explodir em estilhaços de gelo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e cada alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e Paralisado em todos
+
+**Tempestade Congelante** *(Supremo)*
+
+*Fragmentos de gelo despencam do céu numa área imensa, congelando tudo que tocam.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 6 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 2d8 de dano + cada alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, e Paralisado em todos
 
 ## Raio
 
@@ -218,6 +262,28 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 **Força de Choque**
 
 *Uma cortina de raios envolve o corpo, atingindo tudo ao redor e acima.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e Atordoado em todos
+
+**Lágrimas da Deusa**
+
+*Nuvens sombrias se formam no céu — raios e chuva desabam sobre tudo ao redor.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e Lento
+
+**Descarga Carregada**
+
+*Um círculo elétrico envolve o corpo, eletrocutando quem chegar perto.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
@@ -544,6 +610,61 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
 - **Efeito:** cada criatura na área sofre 2d8 de dano automático imediatamente ao usar. Por 2 rodadas, a área permanece em chamas: qualquer criatura hostil que termine o turno lá sofre mais 1d6 de dano automático.
 - *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Chama do Torvelinho**
+
+*Um giro rápido crava a lâmina no chão, provocando explosões de fogo que arremessam o inimigo pra longe.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e Sangrando
+
+**Onda Explosiva** *(Supremo)*
+
+*Um dragão etéreo surge no céu e dispara três bolas de fogo que atravessam tudo em seu caminho, incendiando o chão onde caem.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 2d6 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, Sangrando, e derruba cada alvo
+
+**Rastro Flamejante**
+
+*Um golpe certeiro deixa um rastro de chamas roxas queimando no ar.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (8) + 1d8 extra, e Sangrando
+
+**Lança Ilusória**
+
+*Golpes flamejantes precedem uma lança ilusória arremessada à frente, atravessando tudo no caminho.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e Sangrando
+
+**Ataque Ilusório** *(Supremo)*
+
+*Cinco lanças flamejantes e ilusórias se espalham em ângulos diferentes, atravessando tudo em seu caminho.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 6 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 2d6 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, Sangrando, e derruba cada alvo
 
 ## Sombras
 
@@ -1054,6 +1175,39 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** até 3 pontos diferentes, 1 casa de raio cada
 - **Efeito:** cada criatura hostil em qualquer uma das áreas é puxada 1 casa em direção ao centro dela e sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Pilar Sombrio**
+
+*Uma lâmina crava o chão, erguendo um pilar de trevas que fere quem tocar.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Filo da Alma**
+
+*Um salto termina num mergulho certeiro, cravando a lâmina no chão e liberando uma explosão de trevas.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Chamado da Ruína**
+
+*Um círculo rúnico com um olho ao centro invoca garras sombrias que rasgam o alvo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (8) + 1d8 extra, e Sangrando
 
 ## Luz
 

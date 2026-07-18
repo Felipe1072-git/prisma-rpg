@@ -419,3 +419,67 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 8 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
 - **Efeito:** por 2 rodadas, o usuário ganha +4 de Defesa.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Fúria do Lobo**
+
+*O corpo se contorce, e por um instante, o instinto selvagem do lobo toma controle.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário ganha +1d4 no dano de ataques e +2 no Movimento, mas perde 2 de Defesa.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Avatar Nephilim** *(Maior)*
+
+*Uma presença selvagem e alada toma forma, envolta numa aura que repele tudo ao redor.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 10 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas hostis em 2 casas de raio ao redor do usuário (empurrão) + o próprio usuário (buff)
+- **Efeito:** os inimigos na área são empurrados 2 casas imediatamente ao usar. Por 3 rodadas, o usuário ganha +4 de Defesa e não pode ser derrubado.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Punhos do Céu e da Terra** *(Supremo)*
+
+*Corpo e mente se fundem — por um instante, cada movimento vira um golpe à distância tão poderoso quanto de perto.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, todas as habilidades Marciais do usuário ganham Alcance de 6 casas (o dano continua sendo resolvido normalmente), e o usuário ganha +1d6 no dano de ataques.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Liberação de Poder** *(Supremo)*
+
+*Toda restrição cai — os golpes se tornam estocadas rápidas e certeiras, tão precisas quanto mortais.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário ganha +2d4 no dano de ataques Marciais.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Arma Definitiva** *(Supremo)*
+
+*A arma para de precisar de descanso — cada disparo sai mais rápido, mais forte, e impossível de bloquear.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário ganha +2d4 no dano de ataques de Pontaria, e esses ataques não podem ser bloqueados ou defletidos por nenhum efeito.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Bloqueio** *(usada como Reação)*
+
+*O escudo se ergue no último instante, absorvendo o impacto que era pra te derrubar.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Requisito:** usuário precisa ter um [Escudo](../jogador/arsenal.md#escudos) equipado
+- **Custo:** 3 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação. Com Escudo Leve ou Pesado, reduz o dano daquele ataque à metade (arredondado pra baixo). Com Escudo Torre, anula o dano por completo.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Couraça Angelical** *(Supremo)*
+
+*Um salto termina num golpe de escudo contra o chão, convocando um raio sagrado que blinda o usuário e os aliados próximos.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** criaturas hostis em 2 casas de raio (dano) + usuário e aliados em 3 casas de raio (buff)
+- **Efeito:** os inimigos na área sofrem 2d6 de dano automático imediatamente ao usar. Por 2 rodadas, o usuário e os aliados afetados reduzem pra 1 ponto qualquer dano recebido (empurrões, quedas e outros efeitos continuam valendo normalmente).
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

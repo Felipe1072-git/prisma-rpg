@@ -494,3 +494,116 @@ Criar desvantagens para inimigos ou em testes.
 - **Tier 2 (11–16):** 2d8 de dano + empurra 2 casas cada alvo
 - **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+
+**Domador da Natureza**
+
+*Uma semente arremessada brota instantaneamente numa flor que libera esporos atordoantes.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d4 de dano
+- **Tier 2 (11–16):** 1d4 de dano + alvo perde a próxima Ação Básica
+- **Tier 3 (≥17):** 1d4 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (4) + 1d4 extra, e Atordoado
+
+**Tempestade Furiosa** *(Supremo)*
+
+*Um glifo colossal se abre no ar, sugando tudo em seu entorno pra dentro do vazio.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (centro) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + puxa 2 casas cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + puxa 3 casas e derruba cada alvo
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, puxa 3 casas, e derruba cada alvo
+
+**Manto de Lâminas** *(Supremo)*
+
+*Uma esfera de lâminas espectrais passa a orbitar o usuário, cortando quem se aproximar, até explodir num estrondo final.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário (proteção) + todas as criaturas hostis em 2 casas de raio dele (dano contínuo e explosão final)
+- **Efeito:** por 2 rodadas, o usuário não pode ser alvo de ataques. Nesse período, qualquer criatura hostil que termine o turno em 2 casas dele sofre 1d6 de dano automático. Ao fim da duração, todas as criaturas hostis ainda em 2 casas de raio sofrem 2d6 de dano automático e são derrubadas.
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Confete Explosivo**
+
+*Uma esfera reluzente viaja um curto trecho antes de explodir, deixando o alvo desorientado.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d4 de dano
+- **Tier 2 (11–16):** 1d4 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d4 de dano + alvo perde a próxima Ação Básica
+- **Crítico:** dano máximo (4) + 1d4 extra, e perde a próxima Ação Básica
+
+**Valsa da Imperatriz** *(Supremo)*
+
+*Cinco esferas de notas musicais avançam em direções opostas, arrastando os inimigos consigo antes de explodir num estrondo final.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + puxa 2 casas cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + puxa 3 casas e derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, puxa 3 casas, e derruba cada alvo
+
+**Vírus Encantador**
+
+*Três orbes grudam no alvo, corroendo sua vitalidade aos poucos.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo perde 1d4 de Vida no início do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + alvo perde 1d4 de Vida no início de cada uma das 2 rodadas seguintes
+- **Crítico:** dano máximo (6) + 1d6 extra, e alvo perde 1d4 de Vida no início de cada uma das 2 rodadas seguintes
+
+**Grito Dissonante**
+
+*Um grito estridente ecoa pelo campo, embaralhando os sentidos de quem ouve.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + o próximo ataque de cada alvo até o fim do turno dele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado)
+- **Tier 3 (≥17):** 1d6 de dano + Desvantagem + cada alvo perde a próxima Reação
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Desvantagem, e perde a próxima Reação
+
+**Super Estrela**
+
+*Duas séries de quatro explosões sonoras cercam o palco invocado, atordoando quem for pego dentro.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Ação Básica
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo perde a próxima Ação Básica e Reação
+- **Crítico:** dano máximo (8) + 1d8 extra em todos + efeito do Tier 3 em todos
+
+**Fluxo Elegante** *(Supremo)*
+
+*Quatro triângulos de energia rosa se prendem a diferentes alvos, cada um corrompendo uma parte diferente de sua força.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** até 4 criaturas diferentes ao alcance
+- **Efeito:** cada alvo atingido sofre 2d6 de dano automático imediatamente ao usar, e recebe um destes debuffs à escolha do usuário (sem repetir entre os alvos), por 2 rodadas: perde a Ação Básica no início do turno dele; ou fica com -3 de Defesa; ou não recupera Vida por nenhum efeito; ou não recupera Mana por nenhum efeito.
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Explosão Total** *(Supremo)*
+
+*Uma esfera de chi suga os inimigos próximos antes de um golpe de palma prendê-los num círculo que fere continuamente, explodindo ao fim.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas hostis em 2 casas de raio ao redor do usuário
+- **Efeito:** os alvos são puxados 1 casa em direção ao usuário e sofrem 1d8 de dano automático imediatamente ao usar. Por 2 rodadas, qualquer um deles que continue a até 2 casas do usuário sofre mais 1d6 de dano automático no início do turno dele. Ao fim da duração, todos ainda na área sofrem 2d6 de dano automático e são empurrados 3 casas.
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Ruptura do Núcleo** *(Supremo)*
+
+*A arma orbita o corpo, disparando lasers pro alto — o resíduo mágico se espalha por todo o campo de batalha, corroendo tudo aos poucos.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Efeito:** cada alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
