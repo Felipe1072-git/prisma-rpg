@@ -79,7 +79,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Veigas | Cubo Mágico | 1d8 | renomeado de "Tesserato" — cubo cósmico senciente (personagem-fonte é o Veigas, cujo "Deus Ex Machina" virou genérico) |
 | ✅ | Uno | Katana | 1d10 | renomeada de "Muramasa" — genérica, sem ligação a um personagem-fonte específico |
 | ✅ | Decanee | Olho Mágico | 1d8 | renomeada de "Olho Maléfico" — genérica, sem ligação a um personagem-fonte específico |
-| ⬜ | Ai | Chave dos Céus | 1d8 | arma-artefato, natureza incerta |
+| ✅ | Ai | Espada-Chave | 1d8 | Híbrida (Força ou Inteligência) — renomeada de "Chave dos Céus", inspirada em Keyblade |
 | ⬜ | Kallia | Esmagador Ardente | 1d12 | nome sugere arma de esmagamento pesada |
 
 *(Em construção — armas ⬜ ainda não tiveram habilidades pesquisadas/escritas; dados são estimativa inicial.)*
@@ -1053,6 +1053,45 @@ Dano: **1d8**
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
+## Espada-Chave
+
+Arma Híbrida (ver [Armas Híbridas](#armas-híbridas) abaixo) — usa Força ou Inteligência, o que for maior.
+
+Dano: **1d8**
+
+**Golpe Estiloso** — *Básica*
+
+*Três cortes rápidos terminam com uma estocada poderosa que arremessa o inimigo pra trás.*
+
+- **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d8 de dano + empurra 4 casas
+- **Crítico:** dano máximo (8) + 1d8 extra, e empurra 4 casas
+
+**Investida Celestial** — *Avançada*
+
+*Dois cortes seguidos de um golpe ascendente que lança o inimigo pro alto.*
+
+- **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Tempestade Divina** — *Especial*
+
+*Uma sequência de estocadas termina num salto que invoca lâminas do chão ao redor.*
+
+- **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
 ## Resolução de Ataque
 
 **Acerto:** d20 + Atributo relevante (ver Tipos de Ataque abaixo). Armas básicas não concedem bônus de Acerto.
@@ -1073,7 +1112,7 @@ Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**.
 
 Algumas armas que misturam combate físico e magia são marcadas como **Híbridas**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Inteligência** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
 
-Armas Híbridas até agora: **Gládio**.
+Armas Híbridas até agora: **Gládio**, **Espada-Chave**.
 
 ## Tipos de Ataque
 

@@ -392,3 +392,12 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
 - **Efeito:** por 2 rodadas, o usuário ganha um Escudo de 2d6 pontos e não pode ser derrubado. Enquanto o Escudo durar, qualquer criatura que acertar o usuário corpo a corpo sofre 1d4 de dano automático.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Módulo de Comando**
+
+*Parte do sistema de defesa é redirecionado pra ofensiva — menos blindagem, mais poder de fogo.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário perde 2 de Defesa e ganha +1d4 no dano de ataques.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

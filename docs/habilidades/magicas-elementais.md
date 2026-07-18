@@ -117,6 +117,84 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 3d6 de dano + Atordoado + empurra 3 casas
 - **Crítico:** dano máximo (18) + 3d6 extra + Atordoado + empurra 3 casas
 
+**Investida Brilhante**
+
+*Um avanço repentino descarrega toda a energia da lâmina, confundindo os sentidos do alvo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d8 de dano + alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d8 de dano + perde Reação + o próximo ataque do alvo rola com Desvantagem
+- **Crítico:** dano máximo (8) + 1d8 extra + perde Reação + Desvantagem
+
+**Detonação de Choque**
+
+*Energia se acumula à frente antes de explodir com força total.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Campo Estático** *(Maior)*
+
+*A explosão deixa um campo estático crepitando no ar, ferindo continuamente quem o atravessar.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Efeito:** por 2 rodadas, qualquer criatura hostil que termine o turno na área sofre 1d6 de dano automático
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Pulso Eletrônico**
+
+*Três descarregadores elétricos surgem ao redor do alvo, atraindo-o pro centro enquanto ferem continuamente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Efeito:** cada criatura hostil na área é puxada 1 casa em direção ao centro e sofre 1d6 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Convergência Elétrica** *(Maior)*
+
+*Os descarregadores se aproximam lentamente do centro, intensificando a atração e o dano a cada instante.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Efeito:** cada criatura hostil na área sofre 1d6 de dano automático e é puxada 1 casa em direção ao centro imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total, puxando mais 1 casa a cada aplicação)
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Explosão em Cadeia**
+
+*Uma sequência de descargas elétricas avança à frente, a última arremessando o alvo pro alto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo perde 1 de Defesa até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + perde 1 de Defesa + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, perde Defesa, e derruba cada alvo
+
+**Ataque Orbital** *(Maior)*
+
+*Um ponto é marcado no céu — quatro descargas caem sobre ele em intervalos regulares.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 2 casas de raio do ponto
+- **Efeito:** a área sofre 1d6 de dano automático imediatamente ao marcar o ponto, e mais uma vez no início de cada uma das 3 rodadas seguintes (4 aplicações no total) — o ponto marcado não pode ser movido depois de escolhido
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Devastação Local** *(Supremo)*
+
+*Um arranjo de descarregadores de laser surge no céu, mirando um único ponto — a explosão vem um instante depois.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
+- **Efeito:** a área não sofre dano nesse momento; no início do próximo turno do usuário, ela é atingida por uma explosão massiva, causando 3d8 de dano automático a cada criatura hostil que estiver lá nesse momento
+- *(Sem Tiers de Sucesso — efeito automático de tempo retardado, sem teste de ataque)*
+
 ## Fogo
 
 **Chuva de Meteoros**
@@ -221,6 +299,28 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
 - **Tier 3 (≥17):** 1d6 de dano + Sangrando + empurra 1 casa cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e empurra 1 casa
+
+**Chama Solar**
+
+*Labaredas explodem para os dois lados, cobrindo a retaguarda e a frente ao mesmo tempo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** duas linhas de 5 casas, uma à frente e outra atrás do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e empurra 1 casa
+
+**Chama Investida**
+
+*Um avanço rápido termina com uma labareda intensa disparada à frente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, Sangrando, e derruba o alvo
 
 ## Sombras
 

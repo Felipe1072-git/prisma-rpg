@@ -120,6 +120,10 @@ Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cubo Mági
 
 Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Olho Mágico](jogador/arsenal.md#olho-mágico).
 
+### Espada-Chave
+
+Arma Híbrida, dano 1d8. Ver [Arsenal → Espada-Chave](jogador/arsenal.md#espada-chave).
+
 ## Propriedades de Arma
 
 ### Finesse
