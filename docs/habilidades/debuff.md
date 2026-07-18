@@ -317,6 +317,26 @@ Criar desvantagens para inimigos ou em testes.
 - **Efeito:** por 2 rodadas, cada criatura hostil que terminar o turno na área sofre 1d6 de dano automático, perde 2 de Defesa, e perde 1 Mana
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
 
+**Dominação: Enfraquecer**
+
+*A mesma energia, voltada contra o inimigo, corrói sua força.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Efeito:** por 2 rodadas, cada criatura hostil na área perde 1 no dano de ataques.
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Convergência**
+
+*Energia demoníaca se acumula e explode, arrastando os inimigos próximos para o centro.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + puxa 2 casas cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + puxa 3 casas cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e puxa 3 casas
+
 **Chuva de Sangue** *(Maior)*
 
 *Uma chuva de lâminas espectrais desaba sobre a área, encharcando o chão de vermelho.*

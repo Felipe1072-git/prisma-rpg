@@ -97,6 +97,26 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
 - **Efeito:** 1d6 de dano automático (sem teste) imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
 
+**Astrape Sombria**
+
+*Um raio sombrio e potente desaba sobre até cinco inimigos, eletrocutando-os continuamente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 7 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** até 5 criaturas diferentes ao alcance
+- **Efeito:** cada alvo sofre 1d6 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total); na 2ª aplicação, cada alvo também fica Atordoado (não pode agir) até o fim do turno seguinte dele
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Foco Sombrio** *(Maior)*
+
+*Toda a energia do raio se concentra num único ponto, com força devastadora.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 3d6 de dano
+- **Tier 2 (11–16):** 3d6 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 3d6 de dano + Atordoado + empurra 3 casas
+- **Crítico:** dano máximo (18) + 3d6 extra + Atordoado + empurra 3 casas
+
 ## Fogo
 
 **Chuva de Meteoros**
@@ -181,6 +201,26 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
 - **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
 - **Crítico:** dano máximo (8) + 1d8 extra, Sangrando, e derruba o alvo
+
+**Chama Amaldiçoada**
+
+*Explosões de fogo amaldiçoado irrompem repetidamente sobre o alvo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Efeito:** o alvo sofre 1d6 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Chama Espelhada**
+
+*As chamas amaldiçoadas se espalham em duas direções opostas ao mesmo tempo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** duas linhas de 5 casas, uma à frente e outra atrás do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d6 de dano + Sangrando + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e empurra 1 casa
 
 ## Sombras
 
@@ -583,6 +623,94 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** 3 casas de raio ao redor do usuário
 - **Efeito:** 1d8 de dano automático imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total). Ao final da 3ª aplicação, uma explosão final causa mais 2d8 de dano automático a todos que ainda estiverem na área.
 - *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Flecha Amaldiçoada**
+
+*Três olhos malignos disparam em sequência, cada um cravando uma maldição diferente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + o próximo ataque do alvo rola com Desvantagem
+- **Crítico:** dano máximo (8) + 1d8 extra + Sangrando + Desvantagem
+
+**Libertação Limitada**
+
+*Uma fração do selo se rompe, e uma lâmina de energia corta tudo à frente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Vazio**
+
+*Um pequeno buraco negro se abre, sugando tudo ao redor antes de explodir.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e derruba cada alvo
+
+**Corte Cruel**
+
+*Uma esfera de energia condensada avança lentamente antes de se romper num corte violento.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 2 casas
+- **Crítico:** dano máximo (8) + 1d8 extra + Sangrando + empurra 2 casas
+
+**Colapso do Vazio** *(Maior)*
+
+*A energia se condensa rapidamente num único ponto antes de explodir com violência redobrada.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 2d8 de dano
+- **Tier 2 (11–16):** 2d8 de dano + empurra 3 casas
+- **Tier 3 (≥17):** 2d8 de dano + empurra 3 casas e derruba o alvo
+- **Crítico:** dano máximo (16) + 2d8 extra, empurra 3 casas, e derruba o alvo
+
+**Extermínio** *(Maior)*
+
+*O selo se rompe quase por completo, aniquilando tudo numa área extensa.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** cone de 5 casas à frente
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
+
+**Ilusão Cruel** *(Maior)*
+
+*O olho maligno se multiplica, espalhando-se por uma área ampla.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d10 de dano + Sangrando + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, Sangrando, e empurra 1 casa
+
+**Apocalipse** *(Supremo)*
+
+*O selo se rompe por completo, e uma besta demoníaca imensa surge para devastar tudo ao redor.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
+- **Tier 1 (≤10):** 3d6 de dano em cada alvo
+- **Tier 2 (11–16):** 3d6 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 3d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (18) + 3d6 extra em todos, e derruba cada alvo
 
 ## Luz
 

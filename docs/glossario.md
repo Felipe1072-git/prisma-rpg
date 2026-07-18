@@ -116,6 +116,10 @@ Arma marcial pesada, dano 1d10. Ver [Arsenal → Katana](jogador/arsenal.md#kata
 
 Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cubo Mágico](jogador/arsenal.md#cubo-mágico).
 
+### Olho Mágico
+
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Olho Mágico](jogador/arsenal.md#olho-mágico).
+
 ## Propriedades de Arma
 
 ### Finesse

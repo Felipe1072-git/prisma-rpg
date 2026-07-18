@@ -78,7 +78,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Edel | Flintlock | 1d8 | pistola de precisão |
 | ✅ | Veigas | Cubo Mágico | 1d8 | renomeado de "Tesserato" — cubo cósmico senciente (personagem-fonte é o Veigas, cujo "Deus Ex Machina" virou genérico) |
 | ✅ | Uno | Katana | 1d10 | renomeada de "Muramasa" — genérica, sem ligação a um personagem-fonte específico |
-| ⬜ | Decanee | Olho Maléfico | 1d8 | foco mágico atípico |
+| ✅ | Decanee | Olho Mágico | 1d8 | renomeada de "Olho Maléfico" — genérica, sem ligação a um personagem-fonte específico |
 | ⬜ | Ai | Chave dos Céus | 1d8 | arma-artefato, natureza incerta |
 | ⬜ | Kallia | Esmagador Ardente | 1d12 | nome sugere arma de esmagamento pesada |
 
@@ -1008,6 +1008,45 @@ Dano: **1d8**
 *Todas as faces do cubo se abrem de uma vez, liberando toda a energia contida ao redor do usuário.*
 
 - **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Olho Mágico
+
+Arma mágica genérica como o Cetro, o Manual, o Orbe e o Cubo Mágico — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo. *(O resto do kit amaldiçoado da Decanee — sombras, fogo, raio, maldições — virou habilidades gerais espalhadas por Mágicas por Elemento, Buff e Debuff.)*
+
+Dano: **1d8**
+
+**Impacto do Olho Mágico** — *Básica*
+
+*Um pulso de energia é disparado do olho arcano, sem forma ou tema definido.*
+
+- **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Ruptura do Olho Mágico** — *Avançada*
+
+*A pupila se dilata por um instante, liberando uma onda de força numa área.*
+
+- **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Colapso do Olho Mágico** — *Especial*
+
+*O olho se abre por completo, liberando toda a energia contida ao redor do usuário.*
+
+- **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Especial](../glossario.md#especial)
 - **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
 - **Tier 1 (≤10):** 1d8 de dano em cada alvo
 - **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo

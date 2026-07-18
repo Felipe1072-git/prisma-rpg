@@ -374,3 +374,21 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
 - **Efeito:** por 3 rodadas, o usuário ganha +2 de Defesa e recupera 2 Mana no início de cada um dos próprios turnos seguintes (a partir do próximo).
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Dominação**
+
+*Energia demoníaca se acumula e explode, fortalecendo os golpes dos aliados próximos.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** usuário e aliados em 3 casas de raio
+- **Efeito:** por 2 rodadas, os alvos ganham +1 no dano de ataques.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Proteção**
+
+*Um escudo demoníaco envolve o usuário, retribuindo cada golpe recebido com dano.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário ganha um Escudo de 2d6 pontos e não pode ser derrubado. Enquanto o Escudo durar, qualquer criatura que acertar o usuário corpo a corpo sofre 1d4 de dano automático.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
