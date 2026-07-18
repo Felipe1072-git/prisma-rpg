@@ -356,3 +356,21 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
 - **Efeito:** por 2 rodadas, o usuário ganha +1d4 no dano de ataques. Esse bônus aumenta pra +1d8 enquanto o usuário estiver com menos da metade da Vida máxima.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Barreira Negra**
+
+*Um campo de escuridão se ergue ao redor do usuário, interceptando o que vier de longe.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** até 3 ataques à distância ou mágicos contra o usuário nas próximas 2 rodadas são anulados automaticamente (sem rolagem).
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Cubo Protetor**
+
+*Um cubo espectral paira ao redor do usuário, reforçando corpo e energia.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário ganha +2 de Defesa e recupera 2 Mana no início de cada um dos próprios turnos seguintes (a partir do próximo).
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

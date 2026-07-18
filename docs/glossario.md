@@ -112,6 +112,10 @@ Pistola de precisão, dano 1d8. Ver [Arsenal → Flintlock](jogador/arsenal.md#f
 
 Arma marcial pesada, dano 1d10. Ver [Arsenal → Katana](jogador/arsenal.md#katana).
 
+### Cubo Mágico
+
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cubo Mágico](jogador/arsenal.md#cubo-mágico).
+
 ## Propriedades de Arma
 
 ### Finesse

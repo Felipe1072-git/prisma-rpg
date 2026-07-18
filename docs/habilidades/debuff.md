@@ -288,6 +288,35 @@ Criar desvantagens para inimigos ou em testes.
 - **Efeito:** por 2 rodadas, qualquer ataque feito por uma criatura hostil que estiver dentro da área rola com Desvantagem
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
 
+**Fenda Dimensional**
+
+*Um portal dimensional se abre no chão — um segundo comando é só o suficiente pra sugar o alvo pra dentro dele.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo é puxado até a casa do portal
+- **Tier 3 (≥17):** 1d6 de dano + puxado até o portal + fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra + puxado + Atordoado
+
+**Enterrar**
+
+*Uma mina sombria se esconde no chão, prendendo com escuridão quem pisar nela.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 casa
+- **Efeito:** a mina fica escondida até uma criatura hostil pisar nela (ou até o fim da cena); quando isso acontecer, ela sofre 1d8 de dano e fica Lento (metade do Movimento) até o fim do próximo turno dela
+- *(Sem Tiers de Sucesso — efeito de armadilha automático, sem teste de ataque)*
+
+**Escuridão Absoluta** *(Maior)*
+
+*Um campo de trevas absolutas consome a área, corroendo a defesa e a energia de quem estiver dentro.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Efeito:** por 2 rodadas, cada criatura hostil que terminar o turno na área sofre 1d6 de dano automático, perde 2 de Defesa, e perde 1 Mana
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
 **Chuva de Sangue** *(Maior)*
 
 *Uma chuva de lâminas espectrais desaba sobre a área, encharcando o chão de vermelho.*
