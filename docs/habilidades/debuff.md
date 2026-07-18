@@ -483,3 +483,14 @@ Criar desvantagens para inimigos ou em testes.
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
 - **Efeito:** cada criatura na área sofre 2d6 de dano automático imediatamente ao usar. A área permanece minada por 2 rodadas: qualquer criatura hostil que termine o turno lá sofre mais 1d6 de dano automático.
 - *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Corte Rápido Final** *(Supremo)*
+
+*Um corte diagonal cruza todo o campo de batalha num único golpe fulminante.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo

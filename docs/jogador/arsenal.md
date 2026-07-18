@@ -37,9 +37,9 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Arme | Lâmpada | 1d8 | foco médio |
 | ✅ | Arme | Cajado | 1d10 | canalização pesada de duas mãos |
 | ✅ | Lass | Adagas | 1d4 | par leve, identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
-| ⬜ | Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga |
-| ⬜ | Lass | Garras | 1d6 | par leve, parecido com Adagas |
-| ⬜ | Lass | Katana | 1d10 | lâmina única, mais poderosa que a alfange |
+| ✅ | Lass | Alfange | 1d8 | lâmina única, mais pesada que a adaga (Finesse) |
+| ✅ | Lass | Garras | 1d6 | par leve, parecido com Adagas (Finesse) |
+| ✅ | Lass | Nodachi | 1d10 | renomeada de "Katana" — já existe uma Katana genérica (Uno); lâmina longa (Finesse) |
 | ✅ | Ryan | Machado | 1d12 | machado pesado de duas mãos |
 | ⬜ | Ryan | Lâmina Dupla | 1d6 | par leve, dano vem da velocidade |
 | ⬜ | Ryan | Gadanha | 1d10 | foice pesada de duas mãos |
@@ -576,6 +576,123 @@ Dano: **1d4**
 - **Tier 2 (11–16):** 1d4 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
 - **Tier 3 (≥17):** 1d4 de dano + Lento + derruba cada alvo
 - **Crítico:** dano máximo (4) + 1d4 extra em todos, Lento, e derruba cada alvo
+
+## Alfange
+
+Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d8**
+
+**Fúria da Lâmina** — *Básica*
+
+*Dois cortes baixos terminam com um golpe alto que lança o inimigo pro alto.*
+
+- **Chave:** [Alfange](../glossario.md#alfange) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Explosão em Corrente** — *Avançada*
+
+*Uma corrente presa ao braço golpeia o inimigo e o arrasta pra perto.*
+
+- **Chave:** [Alfange](../glossario.md#alfange) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + puxa 2 casas
+- **Tier 3 (≥17):** 1d8 de dano + puxa 3 casas e derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, puxa 3 casas, e derruba o alvo
+
+**Golpe Fantasma** — *Especial*
+
+*O corpo se desfaz em fumaça e avança rapidamente, cortando tudo no caminho antes de retornar à posição original.*
+
+- **Chave:** [Alfange](../glossario.md#alfange) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Garras
+
+Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d6**
+
+**Passo Hipersônico** — *Básica*
+
+*Uma investida veloz corta o inimigo com uma sequência de golpes rápidos.*
+
+- **Chave:** [Garras](../glossario.md#garras) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Lâmina Sem Limites** — *Avançada*
+
+*Uma rajada de cortes rápidos termina com o lutador atacando repetidamente pelas costas do inimigo.*
+
+- **Chave:** [Garras](../glossario.md#garras) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Investida das Sombras** — *Especial*
+
+*As garras se tornam um borrão, cortando tudo ao redor num único movimento contínuo.*
+
+- **Chave:** [Garras](../glossario.md#garras) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Sangrando
+
+## Nodachi
+
+Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d10**
+
+**Corte da Fúria** — *Básica*
+
+*Um corte único, rápido e certeiro.*
+
+- **Chave:** [Nodachi](../glossario.md#nodachi) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Lâmina Fantasma** — *Avançada*
+
+*Uma rajada de cortes rápidos termina com um golpe final decisivo.*
+
+- **Chave:** [Nodachi](../glossario.md#nodachi) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d10 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e Sangrando
+
+**Espírito da Lâmina** — *Especial*
+
+*Uma energia espectral triplica o alcance da lâmina — dois cortes ascendentes terminam num golpe descendente devastador.*
+
+- **Chave:** [Nodachi](../glossario.md#nodachi) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
 
 ## Machado
 
@@ -1484,7 +1601,7 @@ Um ataque é resolvido como **d20 + Atributo vs Defesa do alvo**. Igualar ou sup
 
 Algumas armas leves e ágeis são marcadas como **Finesse**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Agilidade** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
 
-Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**.
+Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**, **Alfange**, **Garras**, **Nodachi**.
 
 ### Armas Híbridas
 

@@ -17,3 +17,12 @@ Furtividade, ladinagem.
 - **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Desaparecimento**
+
+*O corpo se dissolve nas sombras — o primeiro golpe desferido a partir daí é devastador.*
+
+- **Chave:** [Infiltração](../glossario.md#infiltração)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas (ou até atacar, o que vier primeiro), o usuário fica invisível — qualquer ataque contra ele rola com Desvantagem, e ele não pode ser alvo de ataques que exijam vê-lo. O primeiro ataque do usuário enquanto invisível causa +1d6 de dano extra.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

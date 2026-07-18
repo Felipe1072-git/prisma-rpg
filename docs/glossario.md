@@ -72,6 +72,18 @@ Arma mágica genérica, dano 1d10, sem elemento fixo. Ver [Arsenal → Cajado](j
 
 Arma marcial Finesse, dano 1d4. Ver [Arsenal → Adagas](jogador/arsenal.md#adagas).
 
+### Alfange
+
+Arma marcial Finesse, dano 1d8. Ver [Arsenal → Alfange](jogador/arsenal.md#alfange).
+
+### Garras
+
+Arma marcial Finesse, dano 1d6. Ver [Arsenal → Garras](jogador/arsenal.md#garras).
+
+### Nodachi
+
+Arma marcial Finesse, dano 1d10. Ver [Arsenal → Nodachi](jogador/arsenal.md#nodachi).
+
 ### Machado
 
 Arma marcial pesada, dano 1d12. Ver [Arsenal → Machado](jogador/arsenal.md#machado).

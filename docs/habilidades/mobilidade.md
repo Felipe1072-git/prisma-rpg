@@ -32,3 +32,12 @@ Voo, deslocamento.
 - **Custo:** 3 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
 - **Efeito:** o usuário se desloca até 4 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
 - *(Sem Tiers de Sucesso — habilidade de mobilidade, sem teste de ataque)*
+
+**Postura da Sombra** *(usada como Reação)*
+
+*Um tronco surge no lugar do corpo — o verdadeiro golpe já está vindo por trás do inimigo.*
+
+- **Chave:** [Mobilidade](../glossario.md#mobilidade)
+- **Custo:** 4 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Efeito:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra evitar completamente o dano daquele ataque, e se teleportar pra uma casa adjacente ao atacante.
+- *(Sem Tiers de Sucesso — habilidade de mobilidade, sem teste de ataque)*

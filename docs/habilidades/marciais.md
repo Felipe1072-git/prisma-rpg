@@ -565,3 +565,15 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa
 - **Tier 3 (≥17):** 1x dado de dano + derruba o alvo
 - **Crítico:** dado máximo + 1x dado extra, e derruba o alvo
+
+**Divisão Espacial** *(Supremo)*
+
+*Uma sequência de cortes impossivelmente rápidos varre o campo de batalha inteiro.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
+- **Tier 1 (≤10):** 2x dado de dano em cada alvo
+- **Tier 2 (11–16):** 2x dado de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2x dado de dano + derruba cada alvo
+- **Crítico:** dado máximo (2x) + 1x dado extra em todos, e derruba cada alvo
