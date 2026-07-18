@@ -61,6 +61,7 @@ O teste é **d20 + Atributo**. Os tiers são:
 - **Condição negativa:** Sangrando (perde Xd de Vida no início do próximo turno), Lento (metade do Movimento), Petrificado/Paralisado/Atordoado (não pode agir), perde a próxima Ação Básica/Reação
 - **Controle de campo:** Terreno Difícil (custa o dobro de Movimento), empurra/puxa, prende no lugar
 - **Suporte a aliados:** marca o alvo (próximo ataque aliado tem vantagem), concede Escudo ao usuário
+- **Recurso do alvo:** drena Mana do alvo (introduzido na Rey/Latido Drenante) — bom pra personagens com tema de "sugar" poder
 - **Clássico:** empurra / derruba (ainda válido — só não usar em toda habilidade nova)
 
 Não precisa forçar os 4 riders numa habilidade só; 1-2 bem escolhidos, coerentes com o conceito (um golpe cortante sangra, um golpe de área congela o chão, um golpe de impacto derruba), valem mais que variedade por variedade.

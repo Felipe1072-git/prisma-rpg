@@ -181,3 +181,99 @@ Criar desvantagens para inimigos ou em testes.
 - **Tier 2 (11–16):** 1d6 de dano + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
 - **Tier 3 (≥17):** 1d6 de dano + Lento + alvo fica Sangrando (veneno, perde 1d4 de Vida no início do próximo turno dele)
 - **Crítico:** dano máximo (6) + 1d6 extra + Lento + Sangrando
+
+**Etiqueta do Mordomo**
+
+*Jeeves surge por um instante, desfere um soco devastador, e desaparece numa nuvem de fumaça.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 3 casas
+- **Tier 3 (≥17):** 1d8 de dano + empurra 5 casas e derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, empurra 5 casas, e derruba o alvo
+
+**Fúria do Mordomo**
+
+*Jeeves aparece com fúria total, golpeando tudo ao redor antes que qualquer um consiga reagir.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo não pode usar Habilidades (só Movimento e Reação) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra em todos + efeito do Tier 3 em todos
+
+**Matilha Selvagem**
+
+*Bastion Mary surge rosnando, atacando de formas imprevisíveis.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, Lento, e derruba o alvo
+
+**Maldição Tríplice**
+
+*Uma praga em três camadas se instala no alvo — cada uma mais corrosiva que a anterior.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano + alvo perde 2 de Defesa até o fim do próximo turno dele
+- **Tier 2 (11–16):** 1d6 de dano + perde 2 de Defesa + perde 1 no dano de ataques até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + perde 2 de Defesa + perde 1 no dano de ataques + fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra + todos os efeitos do Tier 3
+
+**Marca Fatal**
+
+*Uma marca invisível se grava no alvo — se não for removida a tempo, o preço será alto.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Efeito:** o alvo fica Marcado pela morte; se continuar em combate até o início do próximo turno dele, sofre 3d6 de dano automático nesse momento (a marca não causa dano nenhum antes disso)
+- *(Sem Tiers de Sucesso — efeito automático de tempo retardado, sem teste de ataque)*
+
+**Latido Drenante**
+
+*Um latido sobrenatural ecoa, e a energia mágica do alvo é sugada para longe.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo perde 2 Mana
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo perde 4 Mana
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e cada alvo perde 4 Mana
+
+**Armadilha do Relógio**
+
+*Sebastian é arremessado ao chão feito uma bomba-relógio, e o que sobra dele continua perigoso.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Efeito adicional:** depois do impacto, os destroços continuam na área até o fim do próximo turno do usuário, virando Terreno Difícil (custa o dobro de Movimento pra atravessar)
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, derruba, e Terreno Difícil
+
+**Cerco de Espinhos**
+
+*Vinhas espectrais brotam do chão, empurrando e prendendo quem tentar atravessar.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas + a área vira Terreno Difícil por 2 rodadas (custa o dobro de Movimento pra atravessar)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 2 casas, e Terreno Difícil
+
+**Zona Cinzenta**
+
+*Jeeves aparece por um instante, suspendendo o alvo no ar antes de sumir — e a queda dói.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Efeito:** o alvo fica Atordoado (não pode agir) até o fim do próximo turno dele; nesse momento (ao cair de volta ao chão), sofre 2d6 de dano automático
+- *(Sem Tiers de Sucesso — efeito automático de controle + dano retardado)*

@@ -36,3 +36,14 @@ Uso básico da magia.
 - **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
 - **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba o alvo
 - **Crítico:** dano máximo (8) + 1d8 extra, empurra 2 casas, e derruba o alvo
+
+**Investida Voraz**
+
+*Um projétil compacto de energia crua dispara às pressas contra o alvo.*
+
+- **Chave:** [Mágicas Básicas](../glossario.md#mágicas-básicas)
+- **Custo:** 4 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo

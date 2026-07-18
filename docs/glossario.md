@@ -68,6 +68,10 @@ Arma marcial pesada, dano 1d10. Ver [Arsenal → Foice](jogador/arsenal.md#foice
 
 Arma marcial pesada, dano 1d12. Ver [Arsenal → Espadão](jogador/arsenal.md#espadão).
 
+### Orbe
+
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Orbe](jogador/arsenal.md#orbe).
+
 ## Propriedades de Arma
 
 ### Finesse

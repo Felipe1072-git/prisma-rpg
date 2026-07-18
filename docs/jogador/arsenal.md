@@ -66,7 +66,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ⬜ | Mari | WDW (Wing Drive Weapon) | 1d10 | aparato mecânico especial |
 | ✅ | Dio | Foice | 1d10 | foice pesada |
 | ✅ | Zero | Espadão | 1d12 | espada imensa e senciente (renomeada — "Espada" e "Lâmina" já existem) |
-| ⬜ | Rey | Endless | 1d10 | arma única, poder moderado-alto |
+| ✅ | Rey | Orbe | 1d8 | esfera mágica que guarda poder (renomeada — "Endless" era só um placeholder; personagem-fonte é a Ley) |
 | ⬜ | Lupus | Scarlet | 1d8 | espada padrão |
 | ⬜ | Lupus | Espada Espiritual | 1d8 | lâmina espectral, foco médio |
 | ⬜ | Lupus | Ruptura | 1d10 | arma pesada, dano de ruptura |
@@ -549,6 +549,45 @@ Dano: **1d12**
 - **Tier 2 (11–16):** 1d12 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
 - **Tier 3 (≥17):** 1d12 de dano + Atordoado + derruba o alvo
 - **Crítico:** dano máximo (12) + 1d12 extra, Atordoado, e derruba o alvo
+
+## Orbe
+
+Arma mágica genérica como o Cetro e o Manual — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de força bruta, sem elemento fixo. *(O resto do kit da Rey — invocações, magia sombria, curses — virou habilidades gerais espalhadas por Mágicas por Elemento, Mágicas Básicas, Debuff e Buff.)*
+
+Dano: **1d8**
+
+**Impacto do Orbe** — *Básica*
+
+*Um pulso de força bruta é comprimido no orbe e disparado contra o alvo.*
+
+- **Chave:** [Orbe](../glossario.md#orbe) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Colapso do Orbe** — *Avançada*
+
+*O orbe implode sobre um ponto escolhido, sugando tudo próximo antes de se romper.*
+
+- **Chave:** [Orbe](../glossario.md#orbe) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo (em direção ao ponto)
+- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e derruba cada alvo
+
+**Ruptura do Orbe** — *Especial*
+
+*Toda a energia contida se libera de uma vez, ondulando pra fora em todas as direções.*
+
+- **Chave:** [Orbe](../glossario.md#orbe) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 ## Resolução de Ataque
 

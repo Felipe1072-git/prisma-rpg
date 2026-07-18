@@ -113,3 +113,21 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
 - **Efeito:** por 3 rodadas, o usuário ganha +1d6 de dano extra em ataques corpo a corpo, +2 de Defesa, e ataques corpo a corpo do usuário ignoram Armadura.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Inspiração Arcana**
+
+*Uma onda calmante de energia arcana acelera a recuperação de poder.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 3 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** o usuário recupera 2 Mana imediatamente ao usar, e mais 2 Mana no início de cada uma das 2 rodadas seguintes (3 aplicações no total, 6 Mana ao todo)
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Enxame Flamejante**
+
+*Pássaros de fogo passam a orbitar a conjuradora, atacando por conta própria sempre que um inimigo se aproxima.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 10 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, no início de cada um dos próprios turnos seguintes do usuário (a partir do próximo), todas as criaturas hostis em 2 casas de raio dele sofrem 1d6 de dano automático (3 aplicações no total)
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
