@@ -80,9 +80,9 @@ Arma marcial Finesse, dano 1d8. Ver [Arsenal → Alfange](jogador/arsenal.md#alf
 
 Arma marcial Finesse, dano 1d6. Ver [Arsenal → Garras](jogador/arsenal.md#garras).
 
-### Katana
+### Nodachi
 
-Arma marcial Finesse (duas mãos), dano 1d10 (lâmina longa clássica). Ver [Arsenal → Katana](jogador/arsenal.md#katana).
+Arma marcial Finesse (duas mãos), dano 1d10 (lâmina longa clássica). Ver [Arsenal → Nodachi](jogador/arsenal.md#nodachi).
 
 ### Machado
 
@@ -112,13 +112,17 @@ Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Manual](jo
 
 Arma marcial pesada, dano 1d10. Ver [Arsenal → Foice](jogador/arsenal.md#foice).
 
-### Espadão
+### Espada Senciente
 
-Arma marcial pesada, dano 1d12. Ver [Arsenal → Espadão](jogador/arsenal.md#espadão).
+Arma marcial pesada, dano 1d12 (renomeada de "Espadão" — conceito da Grandark; absorve energias, mas dificulta a mobilidade de quem a empunha). Ver [Arsenal → Espada Senciente](jogador/arsenal.md#espada-senciente).
 
 ### Orbe
 
 Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Orbe](jogador/arsenal.md#orbe).
+
+### Manopla Mística
+
+Arma marcial, dano 1d8 (invoca criaturas através de uma gema com pentagramas e hexagramas). Ver [Arsenal → Manopla Mística](jogador/arsenal.md#manopla-mística).
 
 ### Pistolas
 
@@ -156,9 +160,9 @@ Arma marcial Finesse, dano 1d6. Ver [Arsenal → Florete](jogador/arsenal.md#flo
 
 Pistola de precisão, dano 1d8. Ver [Arsenal → Flintlock](jogador/arsenal.md#flintlock).
 
-### Muramasa
+### Katana
 
-Arma marcial Finesse (duas mãos), dano 1d10 (nome original da wiki, mantido). Ver [Arsenal → Muramasa](jogador/arsenal.md#muramasa).
+Arma marcial Finesse (duas mãos), dano 1d10. Ver [Arsenal → Katana](jogador/arsenal.md#katana).
 
 ### Cubo Mágico
 
@@ -176,9 +180,9 @@ Arma Híbrida, dano 1d8. Ver [Arsenal → Espada-Chave](jogador/arsenal.md#espad
 
 Arma marcial pesada, dano 1d12. Ver [Arsenal → Soqueira Pesada](jogador/arsenal.md#soqueira-pesada).
 
-### Gancho de Jade
+### Lâmina Dupla
 
-Arma marcial, dano 1d6 (renomeada de "Lâmina Dupla" — arma real é um gancho único). Ver [Arsenal → Gancho de Jade](jogador/arsenal.md#gancho-de-jade).
+Arma marcial, dano 1d6 (arma ancestral com lâmina em cada extremidade). Ver [Arsenal → Lâmina Dupla](jogador/arsenal.md#lâmina-dupla).
 
 ### Gadanha
 
@@ -204,9 +208,9 @@ Arma marcial pesada, dano 1d10 (renomeada de "Tirfing" — lâmina amaldiçoada,
 
 Arma marcial, dano 1d6 (instrumento usado como arma contundente). Ver [Arsenal → Violino](jogador/arsenal.md#violino).
 
-### Microfone
+### Báculo
 
-Arma marcial, dano 1d8 (renomeada de "Báculo" — a arma real é um microfone). Ver [Arsenal → Microfone](jogador/arsenal.md#microfone).
+Arma marcial, dano 1d8 (bastão com lâmina circular e cristal, símbolo dos bardos). Ver [Arsenal → Báculo](jogador/arsenal.md#báculo).
 
 ### Bolsa de Truques
 
