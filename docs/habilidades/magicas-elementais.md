@@ -322,6 +322,125 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
 - **Crítico:** dano máximo (8) + 1d8 extra, Sangrando, e derruba o alvo
 
+**Explosão em Massa**
+
+*Múltiplas explosões irrompem ao redor, uma após a outra.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde 1 de Defesa até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d8 de dano + perde 1 de Defesa + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, perde Defesa, e empurra 1 casa
+
+**Golpe Supremo**
+
+*Uma explosão devastadora irrompe à frente, alcançando tudo em seu caminho.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 7 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** cone de 5 casas à frente
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Punho Flamejante**
+
+*Os punhos se envolvem em chamas antes de um avanço que termina numa explosão.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o alvo
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra + Sangrando + derruba o alvo
+
+**Soco Ígneo** *(Maior)*
+
+*Um soco ascendente carregado de fogo detona no impacto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 2d6 de dano
+- **Tier 2 (11–16):** 2d6 de dano + alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 2d6 de dano + Sangrando + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (12) + 2d6 extra + Sangrando + Atordoado
+
+**Investida Explosiva**
+
+*O punho crava no chão, impulsionando um avanço que termina num impacto explosivo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+**Trilha de Fogo** *(Maior)*
+
+*O avanço deixa um rastro de chamas que continua queimando por onde passa.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** linha de 6 casas | **Alvos:** linha de 6 casas
+- **Efeito:** por 2 rodadas, a linha pega fogo e vira Terreno Difícil (custa o dobro de Movimento pra atravessar); qualquer criatura hostil que termine o turno nela sofre 1d6 de dano automático
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Impacto Meteórico**
+
+*O punho desaba no chão, e o impacto atinge tudo próximo com força de meteoro.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Queda Meteórica** *(Maior)*
+
+*Um salto termina num impacto avassalador, seguido por um tremor que abala tudo ao redor.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 3 casas de raio ao redor do ponto de queda
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 2d6 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
+
+**Punho Escaldante**
+
+*Um soco simples, mas envolto em calor abrasador.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 2 casas
+- **Crítico:** dano máximo (8) + 1d8 extra + Sangrando + empurra 2 casas
+
+**Explosão Extrema** *(Maior)*
+
+*Uma explosão de calor extremo consome uma área inteira.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 2d6 de dano + Sangrando + empurra 2 casas cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, Sangrando, e empurra 2 casas
+
+**Erupção Vulcânica** *(Supremo)*
+
+*Lava fervente jorra do chão, engolindo tudo numa área ampla.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Tier 1 (≤10):** 3d6 de dano em cada alvo
+- **Tier 2 (11–16):** 3d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 3d6 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (18) + 3d6 extra em todos, Sangrando, e derruba cada alvo
+
 ## Sombras
 
 **Onda de Chamas**

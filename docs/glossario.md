@@ -124,6 +124,10 @@ Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Olho Mági
 
 Arma Híbrida, dano 1d8. Ver [Arsenal → Espada-Chave](jogador/arsenal.md#espada-chave).
 
+### Soqueira Pesada
+
+Arma marcial pesada, dano 1d12. Ver [Arsenal → Soqueira Pesada](jogador/arsenal.md#soqueira-pesada).
+
 ## Propriedades de Arma
 
 ### Finesse

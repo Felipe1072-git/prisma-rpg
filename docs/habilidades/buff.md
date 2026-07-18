@@ -401,3 +401,12 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
 - **Efeito:** por 3 rodadas, o usuário perde 2 de Defesa e ganha +1d4 no dano de ataques.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Superaquecimento**
+
+*Cada golpe acumula mais calor no corpo, e a força cresce a cada instante.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário ganha +1d4 no dano de ataques.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

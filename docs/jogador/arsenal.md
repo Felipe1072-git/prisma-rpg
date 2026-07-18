@@ -80,7 +80,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Uno | Katana | 1d10 | renomeada de "Muramasa" — genérica, sem ligação a um personagem-fonte específico |
 | ✅ | Decanee | Olho Mágico | 1d8 | renomeada de "Olho Maléfico" — genérica, sem ligação a um personagem-fonte específico |
 | ✅ | Ai | Espada-Chave | 1d8 | Híbrida (Força ou Inteligência) — renomeada de "Chave dos Céus", inspirada em Keyblade |
-| ⬜ | Kallia | Esmagador Ardente | 1d12 | nome sugere arma de esmagamento pesada |
+| ✅ | Kallia | Soqueira Pesada | 1d12 | renomeada de "Esmagador Ardente" — o "ardente" (fogo) virou habilidades gerais |
 
 *(Em construção — armas ⬜ ainda não tiveram habilidades pesquisadas/escritas; dados são estimativa inicial.)*
 
@@ -1091,6 +1091,45 @@ Dano: **1d8**
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Soqueira Pesada
+
+*Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit explosivo da Kallia virou habilidades gerais em Fogo, Buff e Mobilidade.*
+
+Dano: **1d12**
+
+**Golpe Sequencial** — *Básica*
+
+*Uma sequência de quatro socos termina com um giro poderoso.*
+
+- **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+
+**Golpe Ascendente** — *Avançada*
+
+*Um soco ascendente lança o inimigo pelos ares.*
+
+- **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d12 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (12) + 1d12 extra, e Atordoado
+
+**Impacto Sísmico** — *Especial*
+
+*Um golpe no chão libera uma onda de choque puramente cinética ao redor.*
+
+- **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
 
 ## Resolução de Ataque
 

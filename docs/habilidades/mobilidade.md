@@ -23,3 +23,12 @@ Voo, deslocamento.
 - **Custo:** 3 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
 - **Efeito:** o usuário se desloca até 3 casas para trás, ignorando Terreno Difícil nesse movimento. Até o início do próximo turno do usuário, o primeiro ataque corpo a corpo contra ele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado).
 - *(Sem Tiers de Sucesso — habilidade de mobilidade, sem teste de ataque)*
+
+**Impulso**
+
+*Uma explosão nos pés impulsiona um deslocamento rápido, atravessando qualquer coisa no caminho.*
+
+- **Chave:** [Mobilidade](../glossario.md#mobilidade)
+- **Custo:** 3 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** o usuário se desloca até 4 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
+- *(Sem Tiers de Sucesso — habilidade de mobilidade, sem teste de ataque)*
