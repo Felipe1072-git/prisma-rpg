@@ -230,3 +230,75 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
 - **Efeito:** por 2 rodadas, o usuário ganha +1 no dano de ataques, +2 de Defesa, e +2 de Movimento.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Aura de Defesa**
+
+*Uma aura protetora se espalha, envolvendo o grupo com uma barreira invisível.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Efeito:** por 3 rodadas, os alvos ganham +2 de Defesa.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Aura de Ataque**
+
+*Uma aura fervorosa desperta a força de todos por perto.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Efeito:** por 3 rodadas, os alvos ganham +1 no dano de ataques.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Aura de Auxílio**
+
+*Uma aura tranquila acelera o fluxo de energia mágica de todos por perto.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Efeito:** por 3 rodadas, no início de cada um dos próprios turnos seguintes de cada alvo (a partir do próximo), ele recupera 2 Mana.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Reforço Momentâneo**
+
+*O corpo se enrijece por um instante, imune a qualquer interrupção.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 3 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** até o fim do próprio próximo turno, o usuário não pode ser derrubado nem Atordoado.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Fúria Selvagem**
+
+*Toda cautela desaparece — só resta a força bruta, crua e sem limites.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário ganha +1d6 no dano de ataques e passa a acertar Crítico com 19 ou 20 natural (em vez de só 20), mas não pode usar nenhuma Habilidade além de Ataques Básicos.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Postura Veloz**
+
+*O corpo se torna mais leve, cada passo mais rápido que o normal.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 3 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário ganha +3 de Movimento.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Postura Defensiva** *(usada como Reação)*
+
+*O martelo se ergue bem a tempo de interceptar o golpe.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 3 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra reduzir o dano daquele ataque à metade (arredondado pra baixo).
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Redenção** *(Supremo)*
+
+*Uma bênção divina desce sobre o campo de batalha, ferindo os corruptos e prometendo aos justos uma segunda chance.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário (dano) + todos os aliados no campo de batalha (buff)
+- **Efeito:** os inimigos na área sofrem 2d6 de dano automático imediatamente ao usar. Todos os aliados ganham a Bênção da Redenção: a próxima vez que cada um cair a 0 de Vida nesta cena, ele revive imediatamente com 50% da Vida máxima em vez de cair (efeito de uso único por aliado).
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*

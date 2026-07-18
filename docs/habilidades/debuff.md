@@ -204,6 +204,26 @@ Criar desvantagens para inimigos ou em testes.
 - **Tier 3 (≥17):** 1d6 de dano + perde 3 de Defesa + perde 2 no dano de ataques + não pode usar Habilidades (só Movimento e Reação) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra + todos os efeitos do Tier 3 + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
 
+**Redemoinho**
+
+*O martelo gira acima da cabeça, criando um vórtice que arrasta os inimigos pra perto.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + puxa 2 casas cada alvo (em direção ao centro)
+- **Tier 3 (≥17):** 1d8 de dano + puxa 3 casas cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e puxa 3 casas
+
+**Provocação**
+
+*Um brado desafiador ecoa pelo campo — ninguém mais existe além dela.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis
+- **Efeito:** até o fim do próximo turno de cada alvo, ele só pode atacar o usuário desta habilidade (se for capaz de fazê-lo)
+- *(Sem Tiers de Sucesso — efeito automático de controle, sem teste de ataque)*
+
 **Etiqueta do Mordomo**
 
 *Jeeves surge por um instante, desfere um soco devastador, e desaparece numa nuvem de fumaça.*

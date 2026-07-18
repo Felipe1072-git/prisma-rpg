@@ -73,7 +73,7 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | ✅ | Lupus | Metralhadora | 1d12 | giratória, 4ª arma (a mais pesada) |
 | ✅ | Lin | Leque | 1d6 | canalização mágica genérica, sem elemento fixo (personagem-fonte é a Rin) |
 | ✅ | Azin | Vembrassa | 1d6 | reflexo da Manopla — punho aberto (Naegakwon Yu), mão esquerda (personagem-fonte é o Asin) |
-| ⬜ | Holy | Martelo | 1d12 | arma de esmagamento, pesada |
+| ✅ | Holy | Martelo | 1d12 | arma de esmagamento, pesada (personagem-fonte é a Lime) |
 | ⬜ | Edel | Florete | 1d6 | leve, arma de finesse |
 | ⬜ | Edel | Flintlock | 1d8 | pistola de precisão |
 | ⬜ | Veigas | Tesserato | 1d8 | poder médio, natureza incerta |
@@ -822,6 +822,43 @@ Dano: **1d6**
 - **Tier 2 (11–16):** 1d6 de dano + alvo perde 2 no dano de ataques até o fim do próximo turno dele
 - **Tier 3 (≥17):** 1d6 de dano + perde 2 no dano de ataques + alvo perde 2 Mana
 - **Crítico:** dano máximo (6) + 1d6 extra + perde 2 no dano de ataques + alvo perde 4 Mana
+
+## Martelo
+
+Dano: **1d12**
+
+**Golpe do Poder** — *Básica*
+
+*Um giro poderoso aproveita o peso do martelo, acertando quem estiver à frente e atrás.*
+
+- **Chave:** [Martelo](../glossario.md#martelo) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
+**Esmagar** — *Avançada*
+
+*Golpes pesados e sucessivos esmagam tudo que estiver à frente.*
+
+- **Chave:** [Martelo](../glossario.md#martelo) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** cone de 3 casas à frente
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
+**Martelo Demolidor** — *Especial*
+
+*Um salto termina com um golpe demolidor, esmagando tudo à frente com violência total.*
+
+- **Chave:** [Martelo](../glossario.md#martelo) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor do ponto de queda
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo, usuário se desloca até o ponto
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
 
 ## Resolução de Ataque
 

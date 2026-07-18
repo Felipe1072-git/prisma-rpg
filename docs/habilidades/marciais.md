@@ -422,3 +422,27 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** dano desarmado + usuário ganha Escudo de 1d4 pontos
 - **Tier 3 (≥17):** dano desarmado + derruba o alvo + usuário ganha Escudo de 1d4 pontos
 - **Crítico:** dano desarmado máximo + rolagem extra + derruba + Escudo de 1d4 pontos
+
+**Justiça**
+
+*Uma sequência de golpes com o martelo termina com um golpe direto no chão, lançando o inimigo pro alto.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1x dado de dano + derruba o alvo
+- **Crítico:** dado máximo + 1x dado extra, e derruba o alvo
+
+**Martelo Explosivo**
+
+*Um avanço brutal arrasta tudo no caminho antes de terminar com um golpe gigantesco.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + puxa cada alvo até a posição final do usuário
+- **Tier 3 (≥17):** 1x dado de dano + puxa + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, puxa, e derruba cada alvo

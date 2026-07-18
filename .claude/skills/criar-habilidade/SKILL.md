@@ -63,6 +63,7 @@ O teste é **d20 + Atributo**. Os tiers são:
 - **Suporte a aliados:** marca o alvo (próximo ataque aliado tem vantagem), concede Escudo ao usuário
 - **Recurso do alvo:** drena Mana do alvo (introduzido na Rey/Latido Drenante) — bom pra personagens com tema de "sugar" poder
 - **Rolagem prejudicada:** Desvantagem (introduzido na Rin/Passo Sombrio) — o oposto de Vantagem: quem rola, rola 2x e fica com o **pior** resultado. Útil pra habilidades de esquiva/reposicionamento que dificultam o próximo golpe contra o usuário, sem negar o ataque por completo.
+- **Controle de comportamento:** Provocação (introduzido na Lime/Provocação) — força o(s) alvo(s) a só atacar o usuário da habilidade até um prazo definido (se forem capazes). Bom pra personagens tanque/paladino.
 - **Clássico:** empurra / derruba (ainda válido — só não usar em toda habilidade nova)
 
 Não precisa forçar os 4 riders numa habilidade só; 1-2 bem escolhidos, coerentes com o conceito (um golpe cortante sangra, um golpe de área congela o chão, um golpe de impacto derruba), valem mais que variedade por variedade.
@@ -80,6 +81,12 @@ O caminho relativo depende de onde o arquivo da habilidade mora: tanto `docs/jog
 **Propriedades de arma** (Finesse = Força ou Agilidade; Híbrida = Força ou Inteligência) entram como um 3º segmento na Chave, mas **só nas habilidades da própria arma que tem a propriedade** — ex: `[Adagas](../glossario.md#adagas) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)`, `[Gládio](../glossario.md#gládio) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)`. Habilidades gerais de grupo que apenas *mencionam* a propriedade condicionalmente no texto (ex: "Força, ou Agilidade se a arma equipada for Finesse") não ganham esse segmento — a Chave descreve o que a habilidade **é**, não toda regra que ela pode tocar de leve. Se o personagem-fonte tiver uma identidade "híbrida" (guerreiro-mago, ladino-atirador etc.), considere se uma propriedade nova desse tipo faz sentido pra arma dele, em vez de travar num único atributo.
 
 **Se a habilidade introduzir um termo que ainda não existe no Glossário** (uma arma nova, um grupo novo, um elemento novo), adicione uma entrada `###` correspondente em `docs/glossario.md` no mesmo lote de edição — senão o link fica quebrado.
+
+## Atributo de Mágicas por Elemento: Inteligência por padrão, Sabedoria pra personagens Divino
+
+Toda habilidade de Mágicas por Elemento até a Rin usou Inteligência, sem exceção, mesmo quando o personagem-fonte não era um "mago" clássico (ex: ventos da Rin). Isso mudou com a Lime — como ela é explicitamente uma paladina (Holy Knight/Saint, poder "divino" e não "arcano"), suas habilidades de Luz usam **Sabedoria**, aproveitando a distinção que já existe na tabela de Tipos de Ataque (Arcano→Inteligência, Divino→Sabedoria) mas que antes só aparecia em Suporte.
+
+**Critério pra decidir:** se o personagem-fonte é claramente um conjurador arcano (bruxa, feiticeira, invocador) → Inteligência, como sempre. Se é claramente um conjurador divino (paladino, clérigo, algo com tema de deusa/bênção/oração) → Sabedoria. Na dúvida, pergunte ao usuário — foi o que gerou essa própria distinção.
 
 ## Custo por Tier de Poder
 

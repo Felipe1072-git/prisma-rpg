@@ -33,3 +33,12 @@ Cura e apoio a aliados.
 - **Tier 2 (11–16):** falha, mas o espírito ainda está por perto — outra tentativa (de qualquer fonte) ainda pode salvá-lo antes do fim da cena
 - **Tier 3 (≥17):** sucesso — o aliado revive com 20% da Vida máxima
 - **Crítico (20 natural):** sucesso — o aliado revive com 50% da Vida máxima
+
+**Glória**
+
+*Poder divino invocado em súplica restaura as feridas de todos por perto.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Efeito:** cada alvo recupera 2d4 + Sabedoria de Vida imediatamente ao usar, e mais 1d4 de Vida no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
+- *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*

@@ -96,6 +96,10 @@ Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Leque](jog
 
 Arma marcial, dano 1d6 (reflexo da Manopla — punho aberto, mão esquerda). Ver [Arsenal → Vembrassa](jogador/arsenal.md#vembrassa).
 
+### Martelo
+
+Arma marcial pesada, dano 1d12. Ver [Arsenal → Martelo](jogador/arsenal.md#martelo).
+
 ## Propriedades de Arma
 
 ### Finesse

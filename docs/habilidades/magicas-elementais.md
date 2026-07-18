@@ -550,6 +550,37 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 1d10 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
 - **Crítico:** dano máximo (10) + 1d10 extra, empurra 1 casa, e Marcado
 
+**Oráculo**
+
+*Um orbe sagrado se rompe em três fragmentos que avançam continuamente, corroendo quem tocarem.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alcance:** linha de 8 casas | **Alvos:** até 3 criaturas na linha
+- **Efeito:** cada alvo sofre 1d6 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Nêmesis**
+
+*Cruzes de luz descem do céu, cada uma mirando um alvo diferente com precisão implacável.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alcance:** 8 casas | **Alvos:** até 3 criaturas diferentes
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Golpe Sagrado** *(Supremo)*
+
+*O martelo se torna gigantesco, envolto em poder sagrado — o impacto no chão sacode tudo ao redor.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alvos:** 4 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+
 ## Água
 
 **Tempestade Caótica**
