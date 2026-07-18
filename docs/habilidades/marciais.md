@@ -482,3 +482,74 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa
 - **Tier 3 (≥17):** 1x dado de dano + derruba o alvo
 - **Crítico:** dado máximo + 1x dado extra, e derruba o alvo
+
+**Golpe da Alma**
+
+*Um corte baixo mirando os pés é seguido por um golpe ascendente certeiro.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano
+- **Tier 2 (11–16):** 1x dado de dano + derruba o alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba o alvo + alvo perde a próxima Reação
+- **Crítico:** dado máximo + 1x dado extra + derruba + perde Reação
+
+**Escamas Cortantes**
+
+*Estocadas rápidas avançam e recuam repetidamente, terminando com um golpe diagonal ascendente.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
+- **Tier 1 (≤10):** 2x dado de dano
+- **Tier 2 (11–16):** 2x dado de dano + empurra 1 casa
+- **Tier 3 (≥17):** 2x dado de dano + derruba o alvo
+- **Crítico:** dado máximo (2x) + 1x dado extra, e derruba o alvo
+
+**Lampejo de Luz**
+
+*Um corte horizontal longo e preciso, seguido por um segundo golpe no mesmo arco.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + derruba cada alvo
+- **Crítico:** dado máximo + 1x dado extra em todos, e derruba cada alvo
+
+**Lua Crescente**
+
+*Um corte em arco, no formato de uma lua minguante, varre tudo ao redor.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** todas as criaturas adjacentes
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano em cada alvo
+- **Tier 2 (11–16):** 1x dado de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dado de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dado máximo + 1x dado extra em todos, empurra 1 casa, e Sangrando
+
+**Sede de Sangue**
+
+*A lâmina suga a força vital do alvo, transferindo-a de volta ao usuário.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 3 Mana | ◈◈ (2 PA) | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
+- **Dano:** usa o dado de dano da arma equipada
+- **Tier 1 (≤10):** 1x dado de dano
+- **Tier 2 (11–16):** 1x dado de dano + usuário recupera Vida igual à metade do dano causado
+- **Tier 3 (≥17):** 1x dado de dano + usuário recupera Vida igual ao dano causado
+- **Crítico:** dado máximo + 1x dado extra, e usuário recupera Vida igual ao dano causado
+
+**Erradicação** *(Supremo)*
+
+*Toda a força contida é liberada de uma vez, devastando tudo ao redor num único golpe.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo

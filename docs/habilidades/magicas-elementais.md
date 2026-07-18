@@ -367,6 +367,15 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
+**Floração Eterna** *(Maior)*
+
+*Dez katanas etéreas se erguem ao redor, criando um campo onde lâminas menores caem sem parar.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Efeito:** por 2 rodadas, qualquer criatura hostil que termine o turno na área sofre 1d8 de dano automático
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
 **Fissura Dimensional**
 
 *Uma fenda no espaço se abre sob o alvo, puxando-o com violência para dentro dela.*

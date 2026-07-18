@@ -108,6 +108,10 @@ Arma marcial Finesse, dano 1d6. Ver [Arsenal → Florete](jogador/arsenal.md#flo
 
 Pistola de precisão, dano 1d8. Ver [Arsenal → Flintlock](jogador/arsenal.md#flintlock).
 
+### Katana
+
+Arma marcial pesada, dano 1d10. Ver [Arsenal → Katana](jogador/arsenal.md#katana).
+
 ## Propriedades de Arma
 
 ### Finesse

@@ -329,3 +329,30 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
 - **Efeito:** por 2 rodadas, os ataques do usuário que causarem dano também deixam o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele) — não empilha num mesmo alvo.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Sombra Vazia** *(usada como Reação)*
+
+*O corpo se desfaz em sombra líquida no instante exato do impacto.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra evitar completamente o dano daquele ataque, e se deslocar até 3 casas.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Flor Carmesim** *(Maior)*
+
+*O sangue interno é liberado por completo — o corpo se torna um avatar demoníaco, envolto numa aura que fere tudo ao redor.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 0 Mana (custa Vida, não Mana) | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, todas as criaturas hostis em 1 casa de raio do usuário sofrem 1d4 de dano automático no início de cada um dos turnos seguintes dele (a partir do próximo), e o usuário ganha +1d6 no dano de ataques. Em compensação, o usuário perde 1d6 de Vida no início de cada um desses mesmos turnos.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Fúria Sanguinária**
+
+*O gosto do sangue desperta um instinto selvagem, cada golpe mais violento que o anterior.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário ganha +1d4 no dano de ataques. Esse bônus aumenta pra +1d8 enquanto o usuário estiver com menos da metade da Vida máxima.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

@@ -268,6 +268,35 @@ Criar desvantagens para inimigos ou em testes.
 - **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
+**Aroma Sangrento**
+
+*O cheiro do sangue guia a lâmina até o alvo certo, marcando-o pra sempre.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
+- **Tier 3 (≥17):** 1d8 de dano + Marcado + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (8) + 1d8 extra + Marcado + Sangrando
+
+**Névoa Sangrenta**
+
+*Uma névoa espessa e vermelha toma conta da área, confundindo os sentidos de quem estiver dentro.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Efeito:** por 2 rodadas, qualquer ataque feito por uma criatura hostil que estiver dentro da área rola com Desvantagem
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Chuva de Sangue** *(Maior)*
+
+*Uma chuva de lâminas espectrais desaba sobre a área, encharcando o chão de vermelho.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Efeito:** cada criatura hostil na área sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
 **Etiqueta do Mordomo**
 
 *Jeeves surge por um instante, desfere um soco devastador, e desaparece numa nuvem de fumaça.*
