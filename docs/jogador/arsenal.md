@@ -20,77 +20,87 @@ Dado de dano por arma, definido pelo arquétipo/peso (não por progressão de pe
 
 **Grupo** é o estilo de combate predominante (Marciais, Pontaria ou Arcano — ver [Grupos de Habilidade](../glossario.md#grupos-de-habilidade)). **Chaves** lista as propriedades mecânicas da arma: [Finesse](#armas-finesse), [Híbrida](#armas-híbridas), [Leve](#leve) ou Duas Mãos — toda arma tem exatamente uma de Leve/Duas Mãos, mais Finesse/Híbrida quando aplicável.
 
+Dentro de cada família, as armas são ordenadas por poder (dado crescente; empate resolvido por ordem alfabética). **Preço** ainda não tem valores — depende do sistema de moeda, a definir.
+
+### Requisito de Atributo Mínimo
+
+Algumas armas (não todas) exigem um mínimo de atributo pra serem equipadas — sem atender o mínimo, a arma simplesmente não pode ser usada. O número reflete **exotismo/raridade**, não peso físico: uma arma comum e pesada (Machado, Montante) pode ter um mínimo baixo, enquanto uma arma rara ou mística (Vajras, Lâmpada) tem um mínimo alto, mesmo sendo fisicamente leve.
+
+- **Armas Finesse** usam requisito **"ou"** (Força ou Agilidade, o que for maior) — é a mesma perícia expressa de duas formas.
+- **Armas Híbridas** usam requisito **"e"** (as duas, não só a maior) — são duas disciplinas simultâneas (luta + magia), não uma alternativa à outra.
+- Armas de som/carisma (ex: Violino) usam **Vontade**, não Sabedoria — Vontade é o substituto de Carisma nesse sistema.
+
 ### Marciais
 
-| Arma | Dado | Chaves | Nota |
-|---|---|---|---|
-| Adagas | 1d4 | Finesse, Leve | par leve; identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
-| Alfange | 1d8 | Finesse, Leve | lâmina única, mais pesada que a adaga |
-| Bastão | 1d8 | Duas Mãos | haste média |
-| Bolsa de Truques | 1d10 | Duas Mãos | bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
-| Égide | 1d6 | Duas Mãos | pacote fechado espada+escudo — identidade defensiva vem do Buff Supremo do grupo |
-| Espada | 1d8 | Leve | arma versátil |
-| Espada-Chave | 1d8 | Híbrida, Leve | inspirada em Keyblade |
-| Espada Senciente | 1d12 | Duas Mãos | renomeada de "Espadão" — conceito da Grandark; absorve energias e dificulta a mobilidade de quem a empunha |
-| Florete | 1d6 | Finesse, Leve | leve, arma de duelista |
-| Foice | 1d10 | Duas Mãos | foice pesada |
-| Gadanha | 1d10 | Duas Mãos | foice pesada de duas mãos |
-| Lâmina Dupla | 1d6 | Leve | arma ancestral com lâmina em cada extremidade |
-| Garras | 1d6 | Finesse, Leve | par leve |
-| Glaive | 1d10 | Duas Mãos | arma de haste, alcance |
-| Gládio | 1d6 | Híbrida, Leve | espada curta, leve |
-| Nodachi | 1d10 | Finesse, Duas Mãos | lâmina longa clássica |
-| Lâmina | 1d8 | Leve | espada padrão |
-| Lâmina do Crepúsculo | 1d10 | Duas Mãos | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
-| Lança | 1d10 | Duas Mãos | alcance, mais pesada |
-| Machado | 1d12 | Duas Mãos | pesado de duas mãos |
-| Manopla | 1d6 | Leve | luta desarmada, golpes rápidos |
-| Marreta Mágica | 1d12 | Duas Mãos | a mais pesada do arquétipo |
-| Martelo | 1d12 | Duas Mãos | arma de esmagamento, pesada |
-| Báculo | 1d8 | Leve | bastão com lâmina circular e cristal, símbolo dos bardos |
-| Montante | 1d12 | Duas Mãos | espada grande de duas mãos |
-| Katana | 1d10 | Finesse, Duas Mãos | lâmina longa |
-| Pique | 1d10 | Duas Mãos | lâminas gêmeas que se combinam num pique de alcance |
-| Punhal | 1d6 | Finesse, Leve | adaga leve |
-| Rapiers | 1d6 | Leve | par de lâminas finas |
-| Sabres | 1d6 | Leve | par de lâminas leves |
-| Soluna | 1d10 | Duas Mãos | lâmina lendária, duas metades (Sol e Lua) que se combinam |
-| Soqueira Pesada | 1d12 | Duas Mãos | arma de esmagamento, pesada |
-| Tonfas | 1d6 | Leve | par leve |
-| Vajras | 1d8 | Leve | arma mística, foco médio |
-| Vembrassa | 1d6 | Leve | reflexo da Manopla — punho aberto, mão esquerda |
-| Violino | 1d6 | Leve | instrumento usado como arma contundente |
+| Arma | Família | Dado | Preço | Chaves | Nota |
+|---|---|---|---|---|---|
+| Florete | Espadas Leves | 1d6 | — | Finesse, Leve | leve, arma de duelista |
+| Gládio | Espadas Leves | 1d6 | — | Híbrida, Leve | espada curta, leve |
+| Rapiers | Espadas Leves | 1d6 | — | Leve | par de lâminas finas |
+| Espada | Espadas Leves | 1d8 | — | Leve | arma versátil |
+| Espada-Chave | Espadas Leves | 1d8 | — | Híbrida, Leve | inspirada em Keyblade |
+| Lâmina | Espadas Leves | 1d8 | — | Leve | espada padrão |
+| Adagas | Lâminas Curtas | 1d4 | — | Finesse, Leve | par leve; identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
+| Garras | Lâminas Curtas | 1d6 | — | Finesse, Leve | par leve |
+| Punhal | Lâminas Curtas | 1d6 | — | Finesse, Leve | adaga leve |
+| Sabres | Duplas Ágeis | 1d6 | — | Leve | par de lâminas leves |
+| Tonfas | Duplas Ágeis | 1d6 | — | Leve | par leve |
+| Manopla | Punhos | 1d6 | — | Leve | luta desarmada, golpes rápidos |
+| Vembrassa | Punhos | 1d6 | — | Leve | reflexo da Manopla — punho aberto, mão esquerda |
+| Soqueira Pesada | Punhos | 1d12 | — | Duas Mãos | arma de esmagamento, pesada |
+| Alfange | Lâminas Curvas | 1d8 | — | Finesse, Leve | lâmina única, mais pesada que a adaga |
+| Foice | Lâminas Curvas | 1d10 | — | Duas Mãos | foice pesada |
+| Gadanha | Lâminas Curvas | 1d10 | — | Duas Mãos | foice pesada de duas mãos |
+| Lâmina Dupla | Hastes | 1d6 | — | Leve | arma ancestral com lâmina em cada extremidade |
+| Bastão | Hastes | 1d8 | — | Duas Mãos | haste média |
+| Glaive | Hastes | 1d10 | — | Duas Mãos | arma de haste, alcance |
+| Lança | Hastes | 1d10 | — | Duas Mãos | alcance, mais pesada |
+| Pique | Hastes | 1d10 | — | Duas Mãos | lâminas gêmeas que se combinam num pique de alcance |
+| Machado | Impacto Pesado | 1d12 | — | Duas Mãos | pesado de duas mãos |
+| Marreta Mágica | Impacto Pesado | 1d12 | — | Duas Mãos | a mais pesada do arquétipo |
+| Martelo | Impacto Pesado | 1d12 | — | Duas Mãos | arma de esmagamento, pesada |
+| Katana | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos | lâmina longa |
+| Lâmina do Crepúsculo | Lâminas Longas/Lendárias | 1d10 | — | Duas Mãos | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
+| Nodachi | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos | lâmina longa clássica |
+| Soluna | Lâminas Longas/Lendárias | 1d10 | — | Duas Mãos | lâmina lendária, duas metades (Sol e Lua) que se combinam |
+| Espada Senciente | Lâminas Longas/Lendárias | 1d12 | — | Duas Mãos | renomeada de "Espadão" — conceito da Grandark; absorve energias e dificulta a mobilidade de quem a empunha |
+| Montante | Lâminas Longas/Lendárias | 1d12 | — | Duas Mãos | espada grande de duas mãos |
+| Violino | Focos Atípicos | 1d6 | — | Leve | instrumento usado como arma contundente |
+| Báculo | Focos Atípicos | 1d8 | — | Leve | bastão com lâmina circular e cristal, símbolo dos bardos |
+| Vajras | Focos Atípicos | 1d8 | — | Leve | arma mística, foco médio |
+| Bolsa de Truques | Focos Atípicos | 1d10 | — | Duas Mãos | bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
+| Égide | Única | 1d6 | — | Duas Mãos | pacote fechado espada+escudo — identidade defensiva vem do Buff Supremo do grupo |
 
 ### Pontaria
 
-| Arma | Dado | Chaves | Nota |
-|---|---|---|---|
-| Arco | 1d8 | Duas Mãos | arma de precisão padrão |
-| Balista | 1d12 | Duas Mãos | arma de cerco, a mais pesada |
-| Bestas | 1d6 | Leve | dupla empunhadura, tipo adagas/sabres |
-| Chakram | 1d6 | Leve | anel de arremesso |
-| Espingarda | 1d10 | Duas Mãos | "A Ruptura" — tiro único e devastador, arma dos Justiceiros |
-| Flintlock | 1d8 | Leve | pistola de precisão |
-| Gakkung | 1d6 | Duas Mãos | arco tradicional, mais leve/ágil |
-| Metralhadora | 1d12 | Duas Mãos | giratória, a mais pesada |
-| Pistolas | 1d6 | Leve | dupla de pistolas leves, usadas sempre em par |
-| Revólver Maverick | 1d8 | Leve | revólver pesado, usado sempre sozinho |
+| Arma | Família | Dado | Preço | Chaves | Nota |
+|---|---|---|---|---|---|
+| Bestas | Arcos | 1d6 | — | Leve | dupla empunhadura, tipo adagas/sabres |
+| Gakkung | Arcos | 1d6 | — | Duas Mãos | arco tradicional, mais leve/ágil |
+| Arco | Arcos | 1d8 | — | Duas Mãos | arma de precisão padrão |
+| Balista | Arcos | 1d12 | — | Duas Mãos | arma de cerco, a mais pesada |
+| Chakram | Arremesso | 1d6 | — | Leve | anel de arremesso |
+| Pistolas | Armas de Fogo Leves | 1d6 | — | Leve | dupla de pistolas leves, usadas sempre em par |
+| Flintlock | Armas de Fogo Leves | 1d8 | — | Leve | pistola de precisão |
+| Revólver Maverick | Armas de Fogo Leves | 1d8 | — | Leve | revólver pesado, usado sempre sozinho |
+| Espingarda | Armas de Fogo Pesadas | 1d10 | — | Duas Mãos | "A Ruptura" — tiro único e devastador, arma dos Justiceiros |
+| Metralhadora | Armas de Fogo Pesadas | 1d12 | — | Duas Mãos | giratória, a mais pesada |
 
 ### Arcano
 
-| Arma | Dado | Chaves | Nota |
-|---|---|---|---|
-| Cajado | 1d10 | Duas Mãos | canalização pesada |
-| Cetro | 1d8 | Leve | foco arcano genérico |
-| Cubo Mágico | 1d8 | Leve | cubo cósmico senciente |
-| Lâmpada | 1d8 | Leve | foco médio |
-| Leque | 1d6 | Leve | canalização mágica genérica |
-| Manopla Mística | 1d8 | Leve | invoca criaturas através de uma gema com pentagramas e hexagramas |
-| Manual | 1d6 | Leve | grimório leve |
-| Módulo Alado | 1d10 | *(especial — não é empunhado)* | enxame tecnológico de lâminas voadoras |
-| Olho Mágico | 1d8 | Leve | genérica, sem elemento fixo |
-| Orbe | 1d8 | Leve | esfera mágica que guarda poder |
-| Pote | 1d6 | Leve | arremesso alquímico, leve e imprevisível |
+| Arma | Família | Dado | Preço | Chaves | Nota |
+|---|---|---|---|---|---|
+| Leque | Focos Mágicos | 1d6 | — | Leve | canalização mágica genérica |
+| Manual | Focos Mágicos | 1d6 | — | Leve | grimório leve |
+| Pote | Focos Mágicos | 1d6 | — | Leve | arremesso alquímico, leve e imprevisível |
+| Cetro | Focos Mágicos | 1d8 | — | Leve | foco arcano genérico |
+| Cubo Mágico | Focos Mágicos | 1d8 | — | Leve | cubo cósmico senciente |
+| Lâmpada | Focos Mágicos | 1d8 | — | Leve | foco médio |
+| Manopla Mística | Focos Mágicos | 1d8 | — | Leve | invoca criaturas através de uma gema com pentagramas e hexagramas |
+| Olho Mágico | Focos Mágicos | 1d8 | — | Leve | genérica, sem elemento fixo |
+| Orbe | Focos Mágicos | 1d8 | — | Leve | esfera mágica que guarda poder |
+| Cajado | Focos Mágicos | 1d10 | — | Duas Mãos | canalização pesada |
+| Módulo Alado | Focos Mágicos | 1d10 | — | *(especial — não é empunhado)* | enxame tecnológico de lâminas voadoras |
 
 ## Espada
 
@@ -174,6 +184,8 @@ Dano: **1d10**
 ## Montante
 
 *A Montante é uma espada de empunhadura mediana, com a lâmina maior que a guarda. É uma arma de difícil domínio graças ao tamanho da lâmina — só guerreiros brutais conseguem dominá-la.*
+
+**Requisito:** Força +3 — sem esse mínimo, a Montante não pode ser equipada.
 
 Dano: **1d12**
 
@@ -370,6 +382,8 @@ Dano: **1d12**
 
 *O Gakkung é considerado o Arco mais poderoso de todos, reunindo a potência da Balista, a velocidade de disparo das Bestas e a precisão do Arco leve. Essa versatilidade também o torna extremamente difícil de manusear.*
 
+**Requisito:** Agilidade +6 — sem esse mínimo, o Gakkung não pode ser equipado.
+
 Dano: **1d6**
 
 **Tiro Carregado** — *Básica*
@@ -490,6 +504,8 @@ Dano: **1d6**
 ## Lâmpada
 
 *As Lâmpadas Mágicas são armas muito poderosas — pra usá-las, o guerreiro precisa fazer um contrato místico com espíritos. Só quem se encaixa em todos os requisitos se torna um verdadeiro feiticeiro.*
+
+**Requisito:** Inteligência +5 — sem esse mínimo, a Lâmpada não pode ser equipada.
 
 Armas mágicas como a Lâmpada não travam feitiços específicos — suas 3 habilidades são canalizações genéricas de energia bruta, sem elemento fixo.
 
@@ -615,6 +631,8 @@ Dano: **1d4**
 
 *O Alfange (cimitarra) é uma espada curva, tipicamente usada por mercenários — exige muita agilidade de quem a empunha. Normalmente é usado junto de uma arma secundária, criando combos ágeis em corrente.*
 
+**Requisito:** Agilidade +3 — sem esse mínimo, o Alfange não pode ser equipado.
+
 Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
 
 Dano: **1d8**
@@ -697,6 +715,8 @@ Dano: **1d6**
 
 *A Nodachi é uma espada longa guardada numa bainha presa ao atacante, treinado pra sacá-la à velocidade da luz — permitindo golpes extremamente rápidos num piscar de olhos. É uma arma difícil de empunhar, por causa de suas técnicas quase esquecidas.*
 
+**Requisito:** Força ou Agilidade +3 (o que for usado no ataque) — sem esse mínimo, a Nodachi não pode ser equipada.
+
 Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
 
 Dano: **1d10**
@@ -738,6 +758,8 @@ Dano: **1d10**
 
 *O Machado é uma arma constituída por um cabo mediano e duas cunhas. Poucos conseguem utilizá-la, pois exige uma grande quantidade de força bruta.*
 
+**Requisito:** Força +2 — sem esse mínimo, o Machado não pode ser equipado.
+
 Dano: **1d12**
 
 **Lâminas Gêmeas** — *Básica*
@@ -776,6 +798,8 @@ Dano: **1d12**
 ## Gládio
 
 *O Gládio é uma espada especial que permite executar magia ao mesmo tempo em que se usa a perícia como espadachim.*
+
+**Requisito:** Força +2 **e** Inteligência +2 — por ser Híbrida (duas disciplinas simultâneas, não uma ou outra), o Gládio exige um mínimo nas duas, não só na maior.
 
 Arma Híbrida (ver [Armas Híbridas](#armas-híbridas) abaixo) — usa Força ou Inteligência, o que for maior.
 
@@ -1025,7 +1049,9 @@ Dano: **1d10**
 
 *A Espada Senciente pode ser usada tanto ofensivamente quanto defensivamente. Absorve as energias de outros seres e também produz ataques com esferas sombrias. Porém, devido ao imenso poder da espada, ela também dificulta a mobilidade do usuário no processo.*
 
-Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit do Zero virou habilidades gerais espalhadas por Marciais, Debuff, Buff, Mágicas Básicas e Mágicas por Elemento. *(A absorção de energia e a penalidade de mobilidade descritas acima ainda não têm efeito mecânico — ficam pra passada de Requisitos e Efeitos Especiais.)*
+**Passiva:** enquanto equipada, reduz o Movimento do usuário em 1 casa.
+
+Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit do Zero virou habilidades gerais espalhadas por Marciais, Debuff, Buff, Mágicas Básicas e Mágicas por Elemento, incluindo a absorção de energia (ver [Esferas Sombrias](../habilidades/magicas-elementais.md#sombras)).
 
 Dano: **1d12**
 
@@ -1181,7 +1207,7 @@ Dano: **1d6**
 
 *O Punhal é constituído por uma lâmina pequena de apenas um gume, com empunhadura proporcional à lâmina. Diz a lenda que essa adaga tem o terrível poder de realizar cortes que se recusam a cicatrizar.*
 
-Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior. *(O poder de impedir cicatrização ainda não tem efeito mecânico — fica pra passada de Requisitos e Efeitos Especiais.)*
+Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior. O poder de impedir cicatrização vira o Ferimento Amaldiçoado do Corte Crescente (Especial), abaixo.
 
 Dano: **1d6**
 
@@ -1215,8 +1241,8 @@ Dano: **1d6**
 - **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Tier 1 (≤10):** 2d6 de dano
 - **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 2d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d6 extra, e derruba o alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (como Sangrando — perde 1d4 de Vida no início do próximo turno dele — mas não pode ser removido ou curado por nenhum efeito até terminar o curso)
+- **Crítico:** dano máximo (12) + 1d6 extra, derruba o alvo, e Ferimento Amaldiçoado
 
 ## Espingarda
 
@@ -1300,7 +1326,7 @@ Dano: **1d12**
 
 *O Leque é uma arma de grande poder, capaz de controlar os ventos — transforma movimentos fluidos de dança ou combate em rajadas cortantes, furacões e barreiras de vento protetoras.*
 
-Arma mágica genérica como o Cetro, o Manual e o Orbe — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo. *(A descrição acima aponta pro elemento Vento especificamente, o que ainda não existe no sistema — fica pra passada de Requisitos e Efeitos Especiais decidir se o Leque ganha um tema fixo ou continua genérico. O resto do kit da Rin — magia de Luz e de Sombras, buffs, controle — virou habilidades gerais espalhadas por Mágicas por Elemento, Buff, Debuff e Mobilidade.)*
+Arma mágica genérica como o Cetro, o Manual e o Orbe — não trava feitiços específicos, suas 3 habilidades são pulsos neutros de energia, sem elemento fixo. A afinidade com vento descrita acima é só inspiração — a magia de Vento em si mora em [Mágicas por Elemento → Vento](../habilidades/magicas-elementais.md#vento), disponível pra qualquer personagem, não só quem usa o Leque. O resto do kit da Rin — magia de Luz e de Sombras, buffs, controle — virou habilidades gerais espalhadas por Mágicas por Elemento, Buff, Debuff e Mobilidade.
 
 Dano: **1d6**
 
@@ -1499,7 +1525,11 @@ Dano: **1d8**
 
 *A Katana é um sabre curvado com gume de apenas um lado — um tipo de lâmina conhecida como "Muramasa". As espadas Muramasa ficaram famosas por serem incrivelmente afiadas, mas ganharam reputação sombria de serem amaldiçoadas: dizia-se que, uma vez retirada da bainha, a lâmina exigia sangue antes de poder ser guardada de novo, levando o portador à loucura ou ao assassinato.*
 
-Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit sanguinário do Uno virou habilidades gerais espalhadas por Marciais, Debuff, Buff e Sombras. Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior. *(A maldição descrita acima ainda não tem efeito mecânico — fica pra passada de Requisitos e Efeitos Especiais.)*
+**Requisito:** Força ou Agilidade +3 (o que for usado no ataque) — sem esse mínimo, a Katana não pode ser equipada.
+
+**Maldição:** a lâmina exige sangue. Se o usuário terminar uma cena de combate sem ter causado dano com a Katana pelo menos uma vez, ganha 1 ponto de Estresse (ver [Estresse](sistema-d20.md#estresse)).
+
+Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit sanguinário do Uno virou habilidades gerais espalhadas por Marciais, Debuff, Buff e Sombras. Arma Finesse (ver [Armas Finesse](#armas-finesse) abaixo) — usa Força ou Agilidade, o que for maior.
 
 Dano: **1d10**
 
@@ -1663,7 +1693,7 @@ Dano: **1d8**
 
 *A Soqueira Pesada é um par de grandes manoplas tecnológicas. O usuário desfere ataques físicos nos inimigos, função potencializada por sequências extremamente rápidas de golpes diretos. Além disso, as Soqueiras possuem um impulsionador que contribui muito com a locomoção rápida — podendo ser usado até como esquiva em combate.*
 
-Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit explosivo da Kallia virou habilidades gerais em Fogo, Buff e Mobilidade. *(O impulsionador de esquiva descrito acima ainda não tem efeito mecânico próprio — fica pra passada de Requisitos e Efeitos Especiais.)*
+Habilidades originais mundanas (não ligadas a nenhum personagem específico de Grand Chase) — o resto do kit explosivo da Kallia virou habilidades gerais em Fogo, Buff e Mobilidade, incluindo o impulsionador de esquiva (ver [Impulso da Soqueira](../habilidades/mobilidade.md)).
 
 Dano: **1d12**
 
@@ -1938,6 +1968,8 @@ Dano: **1d10**
 
 *O Violino é um instrumento musical mágico — uma arma muito difícil de empunhar, pois exige muitos requisitos. É preciso vocação e força espiritual pra dominar o instrumento, quanto mais pra se tornar mestre em sua arte.*
 
+**Requisito:** Vontade +4 — sem esse mínimo, o Violino não pode ser equipado.
+
 Dano: **1d6**
 
 **Acorde Certeiro** — *Básica*
@@ -2133,6 +2165,8 @@ Dano: **1d8**
 
 *Os Vajras são pequenos cetros divinos raros — uma arma de empunhadura curta, semelhante a um pequeno cetro ou adaga ritualística, feita pra ser manejada com uma única mão. Pequenas mas muito fortes, requerem um indivíduo espiritualmente evoluído pra manuseá-las.*
 
+**Requisito:** Sabedoria +6 — sem esse mínimo, os Vajras não podem ser equipados.
+
 Dano: **1d8**
 
 **Chute da Serpente** — *Básica*
@@ -2169,6 +2203,8 @@ Dano: **1d8**
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 2 casas, e derruba cada alvo
 
 ## Rapiers
+
+*As Rapiers são um par de lâminas finas e leves, mais adequadas a perfurar do que a cortar. Favorecem golpes rápidos e precisos, e são a arma preferida de duelistas que valorizam velocidade acima de força bruta.*
 
 Dano: **1d6**
 
@@ -2324,6 +2360,8 @@ Dano: **1d12**
 
 ## Módulo Alado
 
+*O Módulo Alado é uma arma composta por quatro lâminas flutuantes — utilizada da forma correta, também pode se tornar um canhão de energia.*
+
 Dano: **1d10**
 
 **Chicote Reverso** — *Básica*
@@ -2361,13 +2399,16 @@ Dano: **1d10**
 
 ## Resolução de Ataque
 
-**Acerto:** d20 + Atributo relevante (ver Tipos de Ataque abaixo). Armas básicas não concedem bônus de Acerto.
+Toda habilidade de arma segue a resolução padrão de [Habilidade](../habilidades/index.md#ficha-de-habilidade) — resumindo:
 
-**Dano:** dado da arma, varia por tipo/raridade — de d4 a d12, incluindo combinações (2d4, 2d6, 2d8, 2d10, 2d12). *(Valores específicos por arma — a definir)*
+1. Role **d20 + Atributo da arma** (ver Tipos de Ataque abaixo).
+2. **20 natural** sempre acerta e conta como Tier 3; **1 natural** sempre falha, sem efeito.
+3. Nos demais casos, o total precisa igualar ou superar a **Defesa do alvo**, ou não há efeito.
+4. Se superar, o total determina o Tier (≤10 / 11–16 / ≥17), que define o efeito da habilidade usada.
 
-Um ataque é resolvido como **d20 + Atributo vs Defesa do alvo**. Igualar ou superar a Defesa é acerto.
+**Dano:** dado da própria arma (ver [Tabela de Dados de Dano](#tabela-de-dados-de-dano) acima) — de 1d4 a 1d12, dependendo do arquétipo/peso.
 
-**Crítico (20 natural):** dano máximo do dado + mais uma rolagem normal do mesmo dado.
+**Crítico (20 natural):** dano máximo do dado + mais uma rolagem normal do mesmo dado, além de contar automaticamente como acerto e como Tier 3.
 
 ### Armas Finesse
 

@@ -1,6 +1,6 @@
 # Habilidades Mágicas por Elemento
 
-Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
+Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 
 **Regra importante:** efeitos elementais/mágicos (fogo, energia sombria, gelo etc.) nunca ficam travados numa arma específica, mesmo quando a arma é física — sempre vivem aqui como habilidades gerais. Ver [skill criar-habilidade](../../.claude/skills/criar-habilidade/SKILL.md) pro racional completo.
 
@@ -1209,6 +1209,17 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
 - **Crítico:** dano máximo (8) + 1d8 extra, e Sangrando
 
+**Esferas Sombrias**
+
+*Orbes de trevas absorvem a vitalidade de quem tocam, devolvendo parte dela ao usuário.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano; usuário recupera Vida igual à metade do dano causado
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa; usuário recupera Vida igual à metade do dano causado
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo; usuário recupera Vida igual ao dano causado
+- **Crítico:** dano máximo (8) + 1d8 extra, derruba o alvo, e usuário recupera Vida igual ao dano causado
+
 ## Luz
 
 **Raio Laser**
@@ -1222,17 +1233,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
-**Rajada de Ventos**
-
-*Duas lufadas de vento cortante disparam do leque em sequência.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d8 de dano + empurra 3 casas e derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, empurra 3 casas, e derruba o alvo
-
 **Restrição de Luz**
 
 *Uma esfera de luz atravessa o alvo e prende sua energia, passando adiante quando encontra outro inimigo.*
@@ -1243,28 +1243,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
 - **Tier 3 (≥17):** 1d6 de dano + Lento + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
 - **Crítico:** dano máximo (6) + 1d6 extra em ambos, Lento, e Sangrando
-
-**Ventos Cruzados**
-
-*Dois tornados se abrem em direções opostas, arrastando quem estiver por perto.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** linha de 6 casas
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo na linha
-- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro da linha)
-- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e Lento
-
-**Vendaval Reverso**
-
-*Um giro brusco lança um redemoinho de vento pra trás do usuário.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** linha de 5 casas atrás do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 **Luz do Paraíso** *(Maior)*
 
@@ -1393,3 +1371,60 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 2 (11–16):** 2d8 de dano + empurra 2 casas cada alvo
 - **Tier 3 (≥17):** 2d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+
+## Vento
+
+**Rajada de Ventos**
+
+*Duas lufadas de vento cortante disparam do leque em sequência.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d8 de dano + empurra 3 casas e derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, empurra 3 casas, e derruba o alvo
+
+**Ventos Cruzados**
+
+*Dois tornados se abrem em direções opostas, arrastando quem estiver por perto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** linha de 6 casas
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo na linha
+- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro da linha)
+- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e Lento
+
+**Vendaval Reverso**
+
+*Um giro brusco lança um redemoinho de vento pra trás do usuário.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** linha de 5 casas atrás do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Lâminas de Ar**
+
+*Cortes invisíveis de vento comprimido rasgam o ar, atingindo tudo à frente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e Sangrando
+
+**Fúria do Vendaval** *(Supremo)*
+
+*Um ciclone violento se ergue ao redor do usuário, sugando e arremessando tudo que estiver por perto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + puxa 2 casas cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + puxa 2 casas e derruba cada alvo
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, puxa 2 casas, e derruba cada alvo

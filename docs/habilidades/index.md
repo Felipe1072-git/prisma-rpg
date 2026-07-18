@@ -33,13 +33,20 @@ Cada habilidade é registrada com:
 - **Tiers de Sucesso** (inspirado em Draw Steel) — o resultado do teste determina qual tier de efeito é aplicado
 - **Crítico** — 20 natural
 
-O total é **d20 + Atributo**:
+### Resolução
+
+1. O usuário rola **d20 + Atributo da habilidade**.
+2. **20 natural** sempre acerta e conta automaticamente como Tier 3 (além do bônus de dano do Crítico) — mesmo que o total não chegasse lá sozinho. **1 natural** sempre falha, sem nenhum efeito, independente do total.
+3. Nos demais casos, o total precisa **igualar ou superar a Defesa do alvo** (ver [Defesa](sistema-d20.md#defesa)). Se não superar, a habilidade não causa nenhum efeito.
+4. Se superar a Defesa, o total (sem ajuste) é comparado à tabela abaixo pra determinar o Tier:
 
 | Tier | Total (d20 + Atributo) |
 |---|---|
 | Tier 1 (fraco) | ≤ 10 |
 | Tier 2 (médio) | 11–16 |
 | Tier 3 (forte) | ≥ 17 |
-| Crítico | 20 natural — efeito extra, além do tier |
+| Crítico | 20 natural — sempre acerta, conta como Tier 3, e soma dano máximo do dado + mais uma rolagem normal do mesmo dado |
 
-Habilidades sem teste de ataque (buffs puros, efeitos automáticos como uma Habilidade Suprema inevitável) não precisam de Tiers de Sucesso — só existem tiers quando há uma rolagem cujo resultado varia o efeito.
+Como a Defesa da maioria dos alvos já é 11 ou mais, **Tier 1 na prática só ocorre contra alvos fracos ou despreparados** (Defesa ≤10) — contra a maioria dos inimigos, o pior resultado que ainda causa efeito já é Tier 2.
+
+Habilidades sem teste de ataque (buffs puros, efeitos automáticos como uma Habilidade Suprema inevitável) não precisam de Tiers de Sucesso nem checam Defesa — o efeito simplesmente acontece, sem rolagem.

@@ -342,4 +342,8 @@ Ver [Mágicas por Elemento → Luz](habilidades/magicas-elementais.md#luz).
 
 Ver [Mágicas por Elemento → Água](habilidades/magicas-elementais.md#água).
 
+### Vento
+
+Ver [Mágicas por Elemento → Vento](habilidades/magicas-elementais.md#vento).
+
 *(Outros elementos ainda sem habilidades — a criar)*

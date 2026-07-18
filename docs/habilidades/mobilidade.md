@@ -41,3 +41,13 @@ Voo, deslocamento.
 - **Custo:** 4 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - **Efeito:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra evitar completamente o dano daquele ataque, e se teleportar pra uma casa adjacente ao atacante.
 - *(Sem Tiers de Sucesso — habilidade de mobilidade, sem teste de ataque)*
+
+**Impulso da Soqueira** *(usada como Reação)*
+
+*Os propulsores disparam no último instante, arrastando o usuário pra longe do golpe.*
+
+- **Chave:** [Mobilidade](../glossario.md#mobilidade)
+- **Requisito:** usuário precisa ter a [Soqueira Pesada](../jogador/arsenal.md#soqueira-pesada) equipada
+- **Custo:** 3 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 3 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
+- *(Sem Tiers de Sucesso — habilidade de mobilidade, sem teste de ataque)*
