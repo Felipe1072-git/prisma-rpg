@@ -441,3 +441,14 @@ Criar desvantagens para inimigos ou em testes.
 - **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Efeito:** o alvo fica Atordoado (não pode agir) até o fim do próximo turno dele; nesse momento (ao cair de volta ao chão), sofre 2d6 de dano automático
 - *(Sem Tiers de Sucesso — efeito automático de controle + dano retardado)*
+
+**Aniquilação** *(Supremo)*
+
+*O impacto se retorce numa tempestade violenta, prendendo os inimigos em seu centro.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 2d8 de dano + cada alvo não pode usar Movimento até o fim do próximo turno dele
+- **Crítico:** dano máximo (16) + 2d8 extra em todos + efeito do Tier 3 em todos

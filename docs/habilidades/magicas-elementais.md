@@ -441,6 +441,48 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, etc.
 - **Tier 3 (≥17):** 3d6 de dano + Sangrando + derruba cada alvo
 - **Crítico:** dano máximo (18) + 3d6 extra em todos, Sangrando, e derruba cada alvo
 
+**Lança de Fogo**
+
+*Uma lança em chamas é arremessada, atravessando todo o campo de batalha numa linha reta.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e empurra 1 casa
+
+**Lança Espiritual** *(Maior)*
+
+*Uma lança de energia perfura tudo em linha reta, incendiando cada alvo que atravessa.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 8 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + cada alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 2d6 de dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, Sangrando, e derruba cada alvo
+
+**Círculo do Destino**
+
+*As duas lâminas se conectam numa roda flamejante, lançada girando contra o inimigo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (queimadura, perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 2 casas
+- **Crítico:** dano máximo (8) + 1d8 extra + Sangrando + empurra 2 casas
+
+**Julgamento Caótico** *(Supremo)*
+
+*Um salto termina num impacto que rasga o chão — pilares de fogo irrompem sob cada inimigo no campo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Efeito:** cada alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
 ## Sombras
 
 **Onda de Chamas**

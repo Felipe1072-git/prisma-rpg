@@ -24,6 +24,18 @@ Custo ◈◈◈ (3 Pontos de Ação). A habilidade mais poderosa da arma.
 
 Arma marcial, dano 1d8. Ver [Arsenal → Espada](jogador/arsenal.md#espada).
 
+### Lança
+
+Arma marcial de alcance, dano 1d10. Ver [Arsenal → Lança](jogador/arsenal.md#lança).
+
+### Montante
+
+Arma marcial pesada de duas mãos, dano 1d12. Ver [Arsenal → Montante](jogador/arsenal.md#montante).
+
+### Sabres
+
+Par de lâminas leves, dano 1d6. Ver [Arsenal → Sabres](jogador/arsenal.md#sabres).
+
 ### Arco
 
 Arma de pontaria, dano 1d8. Ver [Arsenal → Arco](jogador/arsenal.md#arco).

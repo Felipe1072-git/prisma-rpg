@@ -25,9 +25,9 @@ Dado de dano por arma. Definido pelo arquétipo/peso da arma (não pela ordem do
 | Status | Personagem | Arma | Dado | Nota |
 |---|---|---|---|---|
 | ✅ | Elesis | Espada | 1d8 | arma versátil de uma mão |
-| ⬜ | Elesis | Lança | 1d10 | alcance, mais pesada |
-| ⬜ | Elesis | Montante | 1d12 | espada grande de duas mãos |
-| ⬜ | Elesis | Sabres | 1d6 | par de lâminas leves |
+| ✅ | Elesis | Lança | 1d10 | alcance, mais pesada |
+| ✅ | Elesis | Montante | 1d12 | espada grande de duas mãos |
+| ✅ | Elesis | Sabres | 1d6 | par de lâminas leves |
 | ✅ | Lire | Arco | 1d8 | arma de precisão padrão |
 | ⬜ | Lire | Bestas | 1d6 | dupla empunhadura, tipo adagas/sabres |
 | ⬜ | Lire | Balista | 1d12 | arma de cerco, a mais pesada |
@@ -121,6 +121,117 @@ Dano: **1d8**
 - **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo atingido
 - **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo atingido
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+## Lança
+
+Dano: **1d10**
+
+**Golpe de Força** — *Básica*
+
+*A lança gira no ar antes de bater com força total no chão.*
+
+- **Chave:** [Lança](../glossario.md#lança) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Investida Ascendente** — *Avançada*
+
+*Duas estocadas rápidas terminam com um golpe ascendente que ergue o inimigo do chão.*
+
+- **Chave:** [Lança](../glossario.md#lança) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d10 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (10) + 1d10 extra, e Atordoado
+
+**Corte Compacto** — *Especial*
+
+*Um giro horizontal completo acerta tudo à frente e atrás.*
+
+- **Chave:** [Lança](../glossario.md#lança) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+## Montante
+
+Dano: **1d12**
+
+**Ruptura de Força** — *Básica*
+
+*Um talho largo e pesado arremessa o inimigo pra longe.*
+
+- **Chave:** [Montante](../glossario.md#montante) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d12 de dano + empurra 4 casas
+- **Crítico:** dano máximo (12) + 1d12 extra, e empurra 4 casas
+
+**Mergulho do Dragão** — *Avançada*
+
+*Um golpe ascendente é seguido por uma queda violenta que esmaga o chão.*
+
+- **Chave:** [Montante](../glossario.md#montante) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d12 de dano
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
+- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+
+**Feixe da Lâmina** — *Especial*
+
+*Um feixe poderoso é disparado à frente, enquanto outro mais fraco é lançado pra trás.*
+
+- **Chave:** [Montante](../glossario.md#montante) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** duas linhas de 6 casas, uma à frente e outra atrás do usuário
+- **Tier 1 (≤10):** 1d12 de dano em cada alvo
+- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+
+## Sabres
+
+Dano: **1d6**
+
+**Corte Circular** — *Básica*
+
+*Duas lâminas cortam em sequência antes de golpear com força pra baixo.*
+
+- **Chave:** [Sabres](../glossario.md#sabres) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
+- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+
+**Valsa Mortal** — *Avançada*
+
+*Um giro veloz e implacável termina lançando ondas de energia ao chão.*
+
+- **Chave:** [Sabres](../glossario.md#sabres) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Sangrando
+
+**Redemoinho de Lâminas** — *Especial*
+
+*As duas lâminas se tornam um redemoinho contínuo, cortando tudo ao alcance.*
+
+- **Chave:** [Sabres](../glossario.md#sabres) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Arco
 
