@@ -115,6 +115,10 @@ Vida é cumulativa: o dado de cada nível fica "congelado" no total quando rolad
 
 Essa fórmula é calibrada de propósito pra ficar compatível com os [Tiers de Sucesso](../habilidades/index.md#ficha-de-habilidade): contra a maioria dos alvos (Defesa 11+), Tier 1 nunca acontece — o pior resultado que ainda causa efeito já é Tier 2. Tier 1 só é alcançável contra alvos fracos ou despreparados (Defesa ≤10). Contra monstros colossais, mesmo Tier 3 pode não ser suficiente sem um 20 natural.
 
+### Resistência e Imunidade
+
+**Resistência** a um tipo de dano (ex: um elemento) reduz esse dano pela metade (arredondado pra baixo). **Imunidade** ignora esse dano por completo (0 de dano). Ambas se aplicam depois de qualquer outro cálculo, incluindo Crítico.
+
 ## Testes Sociais
 
 Persuadir, Intimidar, Amedrontar.

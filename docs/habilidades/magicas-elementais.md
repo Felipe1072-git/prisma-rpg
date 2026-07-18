@@ -1428,3 +1428,19 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 2 (11–16):** 2d8 de dano + puxa 2 casas cada alvo
 - **Tier 3 (≥17):** 2d8 de dano + puxa 2 casas e derruba cada alvo
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, puxa 2 casas, e derruba cada alvo
+
+## Habilidades Raciais
+
+Habilidades elementais que não pertencem a um elemento fixo — o elemento é escolhido pelo jogador na criação do personagem, conforme a raça.
+
+**Baforada Dracônica** *(Requisito: raça [Sangue-de-Dragão](../racas/index.md#sangue-de-dragão))*
+
+*Uma rajada do elemento ancestral irrompe da garganta, varrendo tudo à frente num cone abrasador.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** cone de 5 casas | **Alvos:** todas as criaturas na área
+- **Efeito:** o dano é do elemento escolhido na Resistência Elemental da raça (ver [Sangue-de-Dragão](../racas/index.md#sangue-de-dragão))
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
