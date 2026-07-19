@@ -17,6 +17,18 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 
 ## Habilidades Gerais
 
+**Ataque Desarmado**
+
+*Punhos, cotovelos, joelhos — o corpo inteiro vira arma quando não há nada mais em mãos.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado
+- **Tier 2 (11–16):** dano desarmado + empurra 1 casa
+- **Tier 3 (≥17):** dano desarmado + derruba o alvo
+- **Crítico:** dano desarmado máximo + dano desarmado extra, e derruba o alvo
+
 **Caminho da Espada**
 
 *A mente se aquieta, e só resta a fúria — cada golpe mais selvagem que o anterior.*

@@ -126,3 +126,110 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 **Traço Racial:**
 
 - **Sangue Fervente** — sempre que estiver abaixo de metade da Vida máxima, seus ataques causam +1d6 de dano extra.
+
+## Raças de Animal
+
+Uma segunda leva de raças, cada uma com identidade de um animal específico — em vez de um "beastfolk" genérico, cada uma tem seu próprio traço físico e mecânica.
+
+## Leão
+
+*Uma juba imponente e um rugido que já vale como ameaça — onde um Leão entra, todos sabem quem manda.*
+
+**Traço Físico:** juba, orelhas felinas, garras retráteis, cauda.
+
+**Atributos:** escolha 2 dentre Força, Vontade, Sabedoria, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Rugido do Rei** — 1x por cena, solta um rugido que causa Desvantagem no próximo teste de ataque de todos os inimigos em 3 casas de raio.
+- **Garras do Rei** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; um Crítico com qualquer Habilidade desarmada deixa o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele).
+
+## Tigre
+
+*Pelagem listrada que se confunde com sombra e luz — o predador perfeito só é visto no instante do ataque.*
+
+**Traço Físico:** pelagem listrada, orelhas felinas, garras, cauda.
+
+**Atributos:** escolha 2 dentre Força, Agilidade, Sabedoria, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Emboscada Felina** — vantagem no primeiro teste de ataque de cada combate.
+- **Garras Retráteis** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela.
+
+## Lobo
+
+*Sozinho, já é perigoso. Ao lado de aliados, se torna uma matilha completa.*
+
+**Traço Físico:** pelagem, orelhas de lobo, focinho alongado com presas, cauda.
+
+**Atributos:** escolha 2 dentre Força, Agilidade, Vontade, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Instinto de Matilha** — vantagem em testes de ataque quando há pelo menos 1 aliado adjacente ao mesmo alvo.
+- **Mordida Feroz** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada deixa o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele).
+
+## Sapo
+
+*Pele úmida, olhos grandes, e um salto que atravessa distâncias que ninguém mais consegue.*
+
+**Traço Físico:** pele anfíbia, mãos e pés palmados, boca larga, olhos saltados.
+
+**Atributos:** escolha 2 dentre Agilidade, Vitalidade, Sabedoria, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Salto Potente** — o Movimento pode ser usado em saltos verticais e horizontais, ignorando a restrição normal de terreno.
+- **Língua Presa** — custa 3 Mana | ◈ (1 PA); puxa uma criatura a até 3 casas de distância pra 1 casa adjacente ao usuário.
+
+## Bode
+
+*Cascos firmes em qualquer penhasco — teimosia e equilíbrio que nenhuma queda ameaça.*
+
+**Traço Físico:** chifres, cascos, pupilas retangulares, rabo curto.
+
+**Atributos:** escolha 2 dentre Força, Vitalidade, Vontade, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Passo Inabalável** — sem penalidade de Movimento em terreno rochoso ou íngreme; não pode ser derrubado enquanto estiver em contato com o chão.
+- **Investida de Chifres** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Se avançar pelo menos 2 casas em linha reta antes de um ataque desarmado, esse ataque usa o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela, e empurra o alvo 2 casas.
+
+## Urso
+
+*Um corpo robusto o suficiente pra absorver golpes que derrubariam qualquer outra raça.*
+
+**Traço Físico:** pelagem espessa, orelhas de urso, garras, porte robusto.
+
+**Atributos:** escolha 2 dentre Força, Vitalidade, Sanidade, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Pele de Urso** — reduz em 2 todo dano físico recebido; dano de 2 ou menos é reduzido a 0.
+- **Garras Poderosas** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela.
+
+## Raposa
+
+*Esperteza e sorte andam juntas — ninguém engana uma Raposa duas vezes.*
+
+**Traço Físico:** orelhas de raposa, cauda peluda, feições afiadas.
+
+**Atributos:** escolha 2 dentre Agilidade, Inteligência, Sorte, e distribua +2/+1 entre eles.
+
+**Traço Racial:**
+
+- **Ardil da Raposa** — 1x por descanso longo, força uma criatura a rerolar um teste de ataque contra o usuário, ficando com o pior resultado.
+
+## Corvo
+
+*Penas escuras e um voo silencioso — o melhor jeito de ver o campo de batalha é de cima.*
+
+**Traço Físico:** penas, asas, feições de bico, pés com garras.
+
+**Atributos:** escolha 2 dentre Agilidade, Inteligência, Sabedoria, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Voo** — o Movimento pode ser usado voando em vez de andando, com ganho de altitude inclusive em combate.
+- **Visão de Corvo** — vantagem em testes de percepção a longa distância.
