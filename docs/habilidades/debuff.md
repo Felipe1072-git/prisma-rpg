@@ -607,3 +607,12 @@ Criar desvantagens para inimigos ou em testes.
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
 - **Efeito:** cada alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
 - *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Dissipar**
+
+*Um gesto simples desfaz o que a magia teceu — não importa a origem.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Efeito:** remove um efeito de Buff ativo na criatura alvo, aliada ou inimiga.
+- *(Sem Tiers de Sucesso — habilidade de debuff, sem teste de ataque)*

@@ -541,3 +541,30 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** 1 aliado (pode ser o próprio usuário)
 - **Efeito:** o alvo ganha um Escudo de 1d6 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Fluidez de Combate**
+
+*A troca de arma vira parte do próprio golpe — nem uma pausa se perde entre um aço e outro.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, trocar a arma equipada não consome nenhuma ação. O primeiro ataque feito com uma arma diferente da usada no ataque anterior, nesse período, rola com vantagem.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Proteção do Guarda-costas** *(usada como Reação)*
+
+*Um passo à frente, e o golpe que era pro aliado agora é problema seu.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 3 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Força | **Alvos:** 1 aliado adjacente
+- **Efeito:** quando um aliado adjacente for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se tornar o novo alvo daquele ataque no lugar dele, desde que também esteja ao alcance do atacante.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Zona de Paz**
+
+*Um silêncio sagrado se instala — por um instante, nenhuma violência consegue tocar ninguém ali.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 10 Mana | ◈◈◈ (3 PA) | **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** todas as criaturas em 2 casas de raio do ponto
+- **Efeito:** por 1 rodada, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

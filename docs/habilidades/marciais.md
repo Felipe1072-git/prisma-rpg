@@ -628,6 +628,45 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Tier 3 (≥17):** 1x dano + derruba cada alvo
 - **Crítico:** dano máximo + 1x dano extra em todos, e derruba cada alvo
 
+**Dança das Lâminas Gêmeas** *(Dupla Empunhadura: Katana Nodachi + Katana Muramasa)*
+
+*Nodachi e Muramasa se cruzam no ar, honra e maldição golpeando como uma coisa só.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
+- **Requisito:** usuário precisa ter Katana Nodachi e Katana Muramasa equipadas simultaneamente
+- **Custo:** 3 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Dano:** soma dos dados das duas armas (1d10 + 1d10)
+- **Tier 1 (≤10):** 1x dano
+- **Tier 2 (11–16):** 1x dano + empurra 1 casa
+- **Tier 3 (≥17):** 1x dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo + 1x dano extra, e Sangrando
+
+**Corte Cruzado** *(Dupla Empunhadura: Katana Nodachi + Katana Muramasa)*
+
+*Um golpe de cada lâmina, em direções opostas, abre duas feridas ao mesmo tempo.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
+- **Requisito:** usuário precisa ter Katana Nodachi e Katana Muramasa equipadas simultaneamente
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** até 2 criaturas diferentes adjacentes
+- **Dano:** soma dos dados das duas armas (1d10 + 1d10) em cada alvo
+- **Tier 1 (≤10):** 1x dano em cada alvo
+- **Tier 2 (11–16):** 1x dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1x dano + cada alvo fica Sangrando
+- **Crítico:** dano máximo + 1x dano extra em ambos, e Sangrando
+
+**Fúria das Lâminas Gêmeas** *(Dupla Empunhadura: Katana Nodachi + Katana Muramasa)*
+
+*As duas espadas se movem tão rápido que parecem uma tempestade de aço — ninguém ao redor sai ileso.*
+
+- **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
+- **Requisito:** usuário precisa ter Katana Nodachi e Katana Muramasa equipadas simultaneamente
+- **Custo:** 6 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Dano:** soma dos dados das duas armas (1d10 + 1d10) em cada alvo
+- **Tier 1 (≤10):** 1x dano em cada alvo
+- **Tier 2 (11–16):** 1x dano + derruba cada alvo
+- **Tier 3 (≥17):** 1x dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo + 1x dano extra em todos, Sangrando, e derruba cada alvo
+
 **Nascimento das Lâminas** *(Supremo)*
 
 *Sete espadas espectrais são invocadas, cortando o campo de batalha repetidas vezes antes de atacarem juntas num golpe final.*

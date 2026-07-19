@@ -80,6 +80,7 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 | [Chakram](#chakram) | Arremesso | 1d6 | — | Leve | — | anel de arremesso |
 | [Pistolas](#pistolas) | Armas de Fogo Leves | 1d6 | — | Leve | — | dupla de pistolas leves, usadas sempre em par |
 | [Flintlock](#flintlock) | Armas de Fogo Leves | 1d8 | — | Leve | — | pistola de precisão |
+| [Pistola Arcana](#pistola-arcana) | Armas de Fogo Leves | 1d8 | — | Híbrida, Leve | — | pólvora e magia crua no mesmo disparo |
 | [Revólver Maverick](#revólver-maverick) | Armas de Fogo Leves | 1d8 | — | Leve | — | revólver pesado, usado sempre sozinho |
 | [Espingarda](#espingarda) | Armas de Fogo Pesadas | 1d10 | — | Duas Mãos | — | "A Ruptura" — tiro único e devastador, arma dos Justiceiros |
 | [Metralhadora](#metralhadora) | Armas de Fogo Pesadas | 1d12 | — | Duas Mãos | — | giratória, a mais pesada |
@@ -120,9 +121,9 @@ Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**, **Alfange**, **Ga
 
 ### Híbrida
 
-Algumas armas que misturam combate físico e magia são marcadas como **Híbridas**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Inteligência** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
+Algumas armas que misturam combate físico e magia são marcadas como **Híbridas**: o usuário escolhe, no momento do teste de ataque, usar **Inteligência ou o atributo físico normal da arma** (Força pra armas Marciais, Agilidade pra armas de Pontaria) — o que for maior. Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
 
-Armas Híbridas até agora: **Gládio**, **Espada-Chave**.
+Armas Híbridas até agora: **Gládio** (Força ou Inteligência), **Espada-Chave** (Força ou Inteligência), **Pistola Arcana** (Agilidade ou Inteligência).
 
 ### Requisito de Atributo Mínimo
 
@@ -149,7 +150,7 @@ Quando um personagem usa duas armas específicas ao mesmo tempo (não uma arma "
 
 O dano dessas habilidades é a **soma dos dados das duas armas exigidas**, rolados juntos na mesma habilidade.
 
-Combinações de Dupla Empunhadura até agora: **Lança + Espada** (ver [Investida Dupla, Combo Punitivo e Mergulho Furioso](../habilidades/marciais.md) — origem: Sieghart).
+Combinações de Dupla Empunhadura até agora: **Lança + Espada** (ver [Investida Dupla, Combo Punitivo e Mergulho Furioso](../habilidades/marciais.md)) e **Katana Nodachi + Katana Muramasa** (ver [Dança das Lâminas Gêmeas, Corte Cruzado e Fúria das Lâminas Gêmeas](../habilidades/marciais.md)) — a segunda combinação não exige que as duas armas sejam Leve, só que estejam ambas equipadas.
 
 *(Pendente: revisar retroativamente se alguma habilidade já escrita da Elesis deveria ganhar essa chave também.)*
 
@@ -2060,6 +2061,47 @@ Dano: **1d10**
 - **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
 - **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+## Pistola Arcana
+
+*A Pistola Arcana funde um mecanismo de pólvora comum com um núcleo de cristal encantado — cada disparo é meio explosão, meio feitiço, e nenhum ferreiro comum sabe consertar uma.*
+
+Arma Híbrida (ver [Híbrida](#híbrida) acima) — usa Agilidade ou Inteligência, o que for maior.
+
+Dano: **1d8**
+
+**Disparo Encantado** — *Básica*
+
+*A bala é substituída por um pulso de energia condensada — nem pólvora nem magia sozinhas seriam capazes disso.*
+
+- **Chave:** [Pistola Arcana](../glossario.md#pistola-arcana) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+
+**Rajada Elemental** — *Avançada*
+
+*Cada disparo carrega um elemento diferente, imprevisível como a própria magia crua.*
+
+- **Chave:** [Pistola Arcana](../glossario.md#pistola-arcana) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Reação
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, perde Reação, e Sangrando
+
+**Detonação Arcana** — *Especial*
+
+*Toda a energia acumulada na arma é disparada de uma vez, numa explosão que mistura pólvora e magia crua.*
+
+- **Chave:** [Pistola Arcana](../glossario.md#pistola-arcana) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 ## Pistolas
 

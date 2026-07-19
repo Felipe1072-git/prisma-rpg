@@ -264,6 +264,10 @@ Arma marcial pesada, dano 1d10 (ignora bônus de Escudo na Especial). Ver [Arsen
 
 Arma de pontaria, dano 1d4 (foco em veneno e status, não em dano bruto). Ver [Arsenal → Zarabatana](jogador/arsenal.md#zarabatana).
 
+### Pistola Arcana
+
+Arma de pontaria Híbrida (Agilidade ou Inteligência), dano 1d8. Ver [Arsenal → Pistola Arcana](jogador/arsenal.md#pistola-arcana).
+
 ## Propriedades de Arma
 
 ### Finesse
