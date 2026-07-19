@@ -123,3 +123,209 @@ Cada pacote sugere uma arma (ou família de armas) e a "vibe" central de habilid
 98. **Exilado das Sombras** — punhos e chutes imbuídos de trevas; estilo de luta marcial sombrio e rápido.
 99. **Demolidor** — marretas pesadas e pólvora; destrói armaduras, escudos, portões e estruturas físicas.
 100. **Chakramista** — discos afiados; armas de arremesso que ricocheteiam entre inimigos antes de voltar à mão.
+
+## Pacotes Detalhados
+
+Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª Habilidade sugerida pro nível 1) e **trilha sugerida** até o nível 20 (as 10 escolhas de Habilidade da carreira, nos níveis ímpares — ver [Progressão de Nível](../jogador/sistema-d20.md#progressão-de-nível)). A trilha é só sugestão: nada impede pegar uma Habilidade fora dela em qualquer nível, ou abandonar o pacote por completo. Onde a trilha usa mais de um grau da mesma arma, a ordem sempre respeita o [Aprendizado progressivo](../jogador/arsenal.md) (Básica antes de Avançada, Avançada antes de Especial).
+
+### Espadachim
+
+*Esgrima clássica, posturas de combate e golpes precisos.*
+
+- **Arma inicial:** [Espada](../jogador/arsenal.md#espada)
+- **Atributo em foco:** Força
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Espada - Básica |
+| 3 | Aumentar |
+| 5 | Espada - Avançada |
+| 7 | Disciplina Marcial |
+| 9 | Espada - Especial |
+| 11 | Caminho da Espada |
+| 13 | Postura Defensiva |
+| 15 | Maestria Desperta *(Supremo)* |
+| 17 | Espada do Infinito |
+| 19 | Erradicação *(Supremo)* |
+
+### Berserker
+
+*Machados pesados, fúria crescente e dano que aumenta quanto mais vida já perdeu.*
+
+- **Arma inicial:** [Machado](../jogador/arsenal.md#machado)
+- **Atributo em foco:** Força
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Machado - Básica |
+| 3 | Modo Fúria |
+| 5 | Machado - Avançada |
+| 7 | Fúria Sanguinária |
+| 9 | Machado - Especial |
+| 11 | Sede de Sangue |
+| 13 | Fúria Imortal |
+| 15 | Esmagador de Ossos |
+| 17 | Fúria do Lobo |
+| 19 | Nascimento das Lâminas *(Supremo)* |
+
+### Piromante
+
+*Cajados ou catalisadores de brasa; explosões de fogo em área e queimaduras contínuas.*
+
+- **Arma inicial:** [Cajado](../jogador/arsenal.md#cajado)
+- **Atributo em foco:** Inteligência
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Cajado - Básica |
+| 3 | Lança de Fogo |
+| 5 | Cajado - Avançada |
+| 7 | Explosão de Fogo |
+| 9 | Cajado - Especial |
+| 11 | Chama Solar |
+| 13 | Chuva de Meteoros |
+| 15 | Círculo do Destino |
+| 17 | Impacto Meteórico |
+| 19 | Erupção Vulcânica *(Supremo)* |
+
+### Necromante
+
+*Foices ou grimórios de osso; reanima lacaios temporários e maldições de definhamento.*
+
+- **Arma inicial:** [Foice](../jogador/arsenal.md#foice)
+- **Atributo em foco:** Inteligência
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Foice - Básica |
+| 3 | Lacaio Reanimado |
+| 5 | Foice - Avançada |
+| 7 | Chamado da Ruína |
+| 9 | Foice - Especial |
+| 11 | Esferas Sombrias |
+| 13 | Aumento Sombrio |
+| 15 | Encanto das Trevas |
+| 17 | Barreira Negra |
+| 19 | Aniquilação *(Supremo)* |
+
+### Assassino das Sombras
+
+*Lâminas ocultas ou garras; desloca-se entre sombras e usa venenos letais.*
+
+- **Arma inicial:** [Garras](../jogador/arsenal.md#garras)
+- **Atributo em foco:** Agilidade
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Garras - Básica |
+| 3 | Passo Sombrio |
+| 5 | Garras - Avançada |
+| 7 | Desaparecimento |
+| 9 | Garras - Especial |
+| 11 | Choque das Sombras |
+| 13 | Chamado da Ruína |
+| 15 | Postura da Sombra |
+| 17 | Esferas Sombrias |
+| 19 | Golpe Lunar *(Supremo)* |
+
+### Caçador de Recompensas
+
+*Boleadeiras, redes e espadas curtas; marca um alvo e persegue até derrubá-lo — o arsenal completo do caçador de recompensas clássico.*
+
+- **Arma inicial:** [Pistolas](../jogador/arsenal.md#pistolas)
+- **Atributo em foco:** Agilidade
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Pistolas - Básica |
+| 3 | Investida Certeira |
+| 5 | Punhal - Básica |
+| 7 | Pistolas - Avançada |
+| 9 | Espingarda - Básica |
+| 11 | Metralhadora - Básica |
+| 13 | Punhal - Avançada |
+| 15 | Rodamoinho de Balas |
+| 17 | Espingarda - Avançada |
+| 19 | Sentença Final *(Supremo)* |
+
+### Templário
+
+*Espada longa e escudo heráldico; auras de proteção e golpes de retribuição luminosa.*
+
+- **Arma inicial:** [Espada](../jogador/arsenal.md#espada) + [Escudo](../jogador/arsenal.md#escudos) Leve
+- **Atributo em foco:** Força
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Espada - Básica |
+| 3 | Bloqueio *(Requisito: Escudo)* |
+| 5 | Espada - Avançada |
+| 7 | Bênção Divina |
+| 9 | Espada - Especial |
+| 11 | Aura de Defesa |
+| 13 | Postura Defensiva |
+| 15 | Aura de Ataque |
+| 17 | Justiça |
+| 19 | Redenção *(Supremo)* |
+
+### Monge Asceta
+
+*Punhos puros e faixas; canaliza energia interna pra curar a si mesmo e golpear rápido.*
+
+- **Arma inicial:** [Manopla](../jogador/arsenal.md#manopla)
+- **Atributo em foco:** Força
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Manopla - Básica |
+| 3 | Repouso Silencioso |
+| 5 | Manopla - Avançada |
+| 7 | Corpo Fortalecido |
+| 9 | Manopla - Especial |
+| 11 | Toma Toma Toma |
+| 13 | Chute Meteoro |
+| 15 | Turbilhão de Chutes |
+| 17 | Postura do Tigre |
+| 19 | Punhos do Céu e da Terra *(Supremo)* |
+
+### Nascido do Dragão
+
+*Manoplas ou espadas pesadas; sopros elementais, rugidos de medo e escamas rígidas.*
+
+- **Arma inicial:** [Montante](../jogador/arsenal.md#montante)
+- **Atributo em foco:** Força
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Montante - Básica |
+| 3 | Fôlego Ardente |
+| 5 | Montante - Avançada |
+| 7 | Postura do Dragão |
+| 9 | Montante - Especial |
+| 11 | Dragão Celeste |
+| 13 | Escamas Cortantes |
+| 15 | Fôlego Glacial |
+| 17 | Espírito Indomável |
+| 19 | Chamas Espirituais *(Supremo)* |
+
+*Se combinado com a raça [Sangue-de-Dragão](../racas/index.md#sangue-de-dragão), considere trocar uma dessas escolhas por [Baforada Dracônica](../habilidades/magicas-elementais.md#habilidades-raciais) — mas o pacote funciona igual sem a raça.*
+
+### Druida Metamorfo
+
+*Garras e presas; transforma-se em feras, trocando o kit de combate.*
+
+- **Arma inicial:** nenhuma — luta com Forma Selvagem e Dano Desarmado
+- **Atributo em foco:** Força ou Sabedoria
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Forma Selvagem |
+| 3 | Transformação do Lobo |
+| 5 | Fúria da Natureza |
+| 7 | Fúria do Lobo |
+| 9 | Domador da Natureza |
+| 11 | Matilha Selvagem |
+| 13 | Postura do Tigre |
+| 15 | Aura de Auxílio |
+| 17 | Investida Encadeada *(Maior)* |
+| 19 | Fúria em Espiral *(Supremo)* |
