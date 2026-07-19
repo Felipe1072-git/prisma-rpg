@@ -125,4 +125,4 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 
 **Traço Racial:**
 
-- **Fúria Selvagem** — sempre que estiver abaixo de metade da Vida máxima, seus ataques causam +1d6 de dano extra.
+- **Sangue Fervente** — sempre que estiver abaixo de metade da Vida máxima, seus ataques causam +1d6 de dano extra.

@@ -1220,6 +1220,15 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 3 (≥17):** 1d8 de dano + derruba o alvo; usuário recupera Vida igual ao dano causado
 - **Crítico:** dano máximo (8) + 1d8 extra, derruba o alvo, e usuário recupera Vida igual ao dano causado
 
+**Lacaio Reanimado**
+
+*Um cadáver próximo se ergue, movido por vontade alheia — obedece por pouco tempo, mas obedece sem hesitar.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas
+- **Efeito:** invoca um lacaio reanimado num ponto ao alcance, com 1d8 + Inteligência de Vida temporária. No início de cada turno do usuário (a partir do próximo), o lacaio ataca automaticamente a criatura hostil mais próxima dele, causando 1d6 de dano. O lacaio dura até ser destruído ou até o fim da cena.
+- *(Sem Tiers de Sucesso — invocação automática, sem teste de ataque)*
+
 ## Luz
 
 **Raio Laser**

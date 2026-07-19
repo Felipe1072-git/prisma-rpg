@@ -1,5 +1,17 @@
 # O Sistema d20
 
+## Criação de Personagem
+
+Um personagem de nível 1 é composto por:
+
+1. **Atributos** — distribuídos por um dos 3 métodos abaixo (ver [Distribuição na Criação](#distribuição-na-criação)).
+2. **Raça** — pool de atributos + 1-3 traços raciais (ver [Raças](../racas/index.md)).
+3. **Origem** — 3 escolhas independentes (Passado, Ambiente de Origem, Evento Formador), cada uma com 1 traço leve (ver [Origem](origem.md)).
+4. **1ª Habilidade** — de qualquer grupo, inclusive a Básica de uma arma (ver [Progressão de Nível](#progressão-de-nível) abaixo).
+5. **Equipamento inicial** — a arma (ou armas) que o personagem carrega fisicamente, escolhida livremente (frequentemente sugerida por um [Pacote](../pacotes/index.md)).
+
+**Ter uma arma em mãos e saber uma técnica nomeada dela são coisas diferentes.** Qualquer arma equipada pode ser usada com **Ataque Básico** (dano da arma, sem efeito de Tier — ver [Pontos de Ação](pontos-de-acao.md)), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade daquela arma. Aprender a Habilidade Básica de uma arma (gastando uma escolha de nível) é o que desbloqueia a técnica nomeada e os efeitos de Tier dela.
+
 ## Atributos
 
 Personagens possuem 8 atributos:

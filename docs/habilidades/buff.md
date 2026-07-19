@@ -98,16 +98,16 @@ Incremento de força, imbuir elementos em armas, etc.
 
 **Aumentar**
 
-*Zero concentra sua energia, e cada músculo responde com mais força que o normal.*
+*O usuário concentra sua energia, e cada músculo responde com mais força que o normal.*
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
 - **Efeito:** por 2 rodadas, o usuário ganha +1d4 de dano em ataques corpo a corpo e +1 de Defesa.
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
 
-**Dominação Zero** *(Supremo)*
+**Maestria Desperta** *(Supremo)*
 
-*O verdadeiro poder de Zero desperta — cada golpe seguinte carrega o peso de um mestre da espada.*
+*Um poder latente finalmente desperta — cada golpe seguinte carrega o peso de um mestre da espada.*
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
@@ -482,4 +482,14 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Chave:** [Buff](../glossario.md#buff)
 - **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** criaturas hostis em 2 casas de raio (dano) + usuário e aliados em 3 casas de raio (buff)
 - **Efeito:** os inimigos na área sofrem 2d6 de dano automático imediatamente ao usar. Por 2 rodadas, o usuário e os aliados afetados reduzem pra 1 ponto qualquer dano recebido (empurrões, quedas e outros efeitos continuam valendo normalmente).
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Forma Selvagem**
+
+*O corpo se contorce e estica — pelos, garras e presas emergem, e por um tempo, a fera está no comando.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 8 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (1d8 de dano corpo a corpo), **Mordida** (1d10 de dano corpo a corpo; Tier 3 deixa o alvo Sangrando), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 1d6 de dano a quem estiver no caminho). Também ganha +2 de Movimento e +2 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
+- *(A forma específica — lobo, urso, ave etc. — é só flavor; a mecânica é sempre a mesma.)*
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

@@ -70,7 +70,7 @@ Cura e apoio a aliados.
 - **Efeito:** cada alvo recupera 1d8 + Sabedoria de Vida imediatamente ao usar, e mais 1d4 de Vida no início de cada um dos 2 turnos seguintes do usuário.
 - *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
 
-**Amy Encantadora**
+**Dança Encantadora**
 
 *Uma dança envolve um oponente, que sai tonto e machucado — os aliados ao redor saem revigorados pelo espetáculo.*
 
