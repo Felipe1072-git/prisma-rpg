@@ -292,6 +292,18 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e Atordoado em todos
 
+**Corrente Elétrica** *(Requisito: raça [Enguia](../racas/index.md#enguia))*
+
+*Uma descarga elétrica salta do corpo da enguia, buscando o próximo alvo condutor antes mesmo de terminar o primeiro golpe.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, com possibilidade de encadear
+- **Dano:** usa o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado
+- **Tier 2 (11–16):** dano desarmado + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** dano desarmado + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele; a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Atordoadas também
+- **Crítico:** dano desarmado máximo + dano desarmado extra, Atordoado, e o mesmo encadeamento do Tier 3
+
 ## Fogo
 
 **Chuva de Meteoros**

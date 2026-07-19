@@ -170,19 +170,6 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 - **Instinto de Matilha** — vantagem em testes de ataque quando há pelo menos 1 aliado adjacente ao mesmo alvo.
 - **Mordida Feroz** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada deixa o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele).
 
-## Sapo
-
-*Pele úmida, olhos grandes, e um salto que atravessa distâncias que ninguém mais consegue.*
-
-**Traço Físico:** pele anfíbia, mãos e pés palmados, boca larga, olhos saltados.
-
-**Atributos:** escolha 2 dentre Agilidade, Vitalidade, Sabedoria, e distribua +1/+1 entre eles.
-
-**Traços Raciais:**
-
-- **Salto Potente** — o Movimento pode ser usado em saltos verticais e horizontais, ignorando a restrição normal de terreno.
-- **Língua Presa** — custa 3 Mana | ◈ (1 PA); puxa uma criatura a até 3 casas de distância pra 1 casa adjacente ao usuário.
-
 ## Bode
 
 *Cascos firmes em qualquer penhasco — teimosia e equilíbrio que nenhuma queda ameaça.*
@@ -238,6 +225,10 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 
 Uma terceira leva de raças, com identidade aquática — cada uma com seu próprio traço físico e mecânica, no mesmo molde das Raças de Animal.
 
+Todas as raças desta leva têm, além dos traços listados individualmente, o traço de exceção abaixo — não conta contra os pontos de atributo da raça:
+
+- **Respiração Aquática** — nada e respira debaixo d'água livremente, sem nenhuma penalidade. Em compensação, um descanso longo só concede seus benefícios completos (recuperar Mana, remover Estresse, resetar Rerolagem) se for feito na água ou parcialmente submerso — fora d'água, um descanso longo funciona como um descanso curto. Descanso curto funciona normalmente em qualquer lugar.
+
 ## Tubarão
 
 *Dentes serrilhados e um instinto que nunca hesita — quem sangra na água já perdeu.*
@@ -248,7 +239,7 @@ Uma terceira leva de raças, com identidade aquática — cada uma com seu próp
 
 **Traço Racial:**
 
-- **Mordida de Tubarão** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada deixa o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele). Nada e respira debaixo d'água livremente.
+- **Mordida de Tubarão** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada deixa o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele).
 
 ## Tartaruga
 
@@ -286,7 +277,7 @@ Uma terceira leva de raças, com identidade aquática — cada uma com seu próp
 
 **Traço Racial:**
 
-- **Canto do Mar** — vantagem em testes sociais quando o alvo consegue ouvir a voz do usuário. Na água, ganha +4 de Movimento e respira livremente.
+- **Canto do Mar** — vantagem em testes sociais quando o alvo consegue ouvir a voz do usuário. Na água, ganha +4 de Movimento.
 
 ## Golfinho
 
@@ -298,7 +289,7 @@ Uma terceira leva de raças, com identidade aquática — cada uma com seu próp
 
 **Traço Racial:**
 
-- **Ecolocalização** — vantagem em testes de percepção mesmo sem visão (escuro, água turva, contra invisibilidade). Na água, ganha +4 de Movimento e respira livremente.
+- **Ecolocalização** — vantagem em testes de percepção mesmo sem visão (escuro, água turva, contra invisibilidade). Na água, ganha +4 de Movimento.
 
 ## Enguia
 
@@ -310,7 +301,7 @@ Uma terceira leva de raças, com identidade aquática — cada uma com seu próp
 
 **Traço Racial:**
 
-- **Choque Elétrico** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada deixa o alvo Atordoado (não pode agir) até o fim do próximo turno dele. Nada e respira debaixo d'água livremente.
+- **Corrente Elétrica** — concede a Habilidade geral [Corrente Elétrica](../habilidades/magicas-elementais.md#raio) gratuitamente (não consome uma escolha de nível).
 
 ## Caranguejo
 
@@ -322,4 +313,17 @@ Uma terceira leva de raças, com identidade aquática — cada uma com seu próp
 
 **Traço Racial:**
 
-- **Garra Esmagadora** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada empurra o alvo 2 casas. Nada e respira debaixo d'água livremente.
+- **Garra Esmagadora** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada empurra o alvo 2 casas.
+
+## Sapo
+
+*Pele úmida, olhos grandes, e um salto que atravessa distâncias que ninguém mais consegue.*
+
+**Traço Físico:** pele anfíbia, mãos e pés palmados, boca larga, olhos saltados.
+
+**Atributos:** escolha 2 dentre Agilidade, Vitalidade, Sabedoria, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Salto Potente** — o Movimento pode ser usado em saltos verticais e horizontais, ignorando a restrição normal de terreno.
+- **Língua Presa** — custa 3 Mana | ◈ (1 PA); puxa uma criatura a até 3 casas de distância pra 1 casa adjacente ao usuário.
