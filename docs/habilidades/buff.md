@@ -493,3 +493,51 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Efeito:** por 3 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (1d8 de dano corpo a corpo), **Mordida** (1d10 de dano corpo a corpo; Tier 3 deixa o alvo Sangrando), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 1d6 de dano a quem estiver no caminho). Também ganha +2 de Movimento e +2 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
 - *(A forma específica — lobo, urso, ave etc. — é só flavor; a mecânica é sempre a mesma.)*
 - *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Vínculo Selvagem**
+
+*Um companheiro fiel — lobo, ave de rapina, raposa, ou outra fera pequena à escolha — luta ao lado do usuário, ligado a ele desde então.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** o próprio usuário
+- **Efeito:** invoca um companheiro animal permanente (a forma é escolhida ao aprender esta Habilidade, e não muda depois). O companheiro não tem Vida própria: no início de cada turno do usuário, ele ataca automaticamente a criatura hostil mais próxima, causando 1d6 de dano, sem gastar Mana ou PA do usuário. Se o usuário cair a 0 de Vida, o companheiro foge e some da cena, voltando a aparecer no início do próximo descanso longo.
+- *(Sem Tiers de Sucesso — o vínculo é permanente; o ataque automático do companheiro não rola teste)*
+
+**Totem Ancestral**
+
+*Um totem entalhado se finca no chão, irradiando uma força que os ancestrais concedem a quem estiver por perto.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** usuário e aliados em 3 casas de raio do ponto onde o totem é colocado
+- **Efeito:** o totem tem 1d6 + Sabedoria de Vida temporária, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +1 no dano de ataques.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Canalização Espiritual**
+
+*Um espírito ancestral se instala no corpo por um instante — o estilo de luta muda por completo enquanto ele guiar os movimentos.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 8 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário escolhe 1 dos 3 espíritos abaixo pra canalizar, podendo trocar de espírito gastando uma Reação (no máximo uma vez por rodada):
+  - **Espírito do Guerreiro** — +1d6 no dano de ataques corpo a corpo
+  - **Espírito do Vigia** — +3 de Defesa e vantagem em testes de percepção
+  - **Espírito do Curandeiro** — recupera 1d6 de Vida no início de cada um dos próprios turnos
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Passagem Etérea**
+
+*O corpo se dissolve numa névoa fina o bastante pra atravessar pedra, madeira, e carne — nada é sólido por tempo suficiente.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade ou Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, o usuário pode se mover livremente através de criaturas e de obstáculos sólidos (paredes, portas fechadas), como se não estivessem lá. Não pode terminar o movimento dentro de um obstáculo sólido.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Reparo de Campo**
+
+*Um martelo bate rápido contra o metal amassado — não é bonito, mas resolve.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** 1 aliado (pode ser o próprio usuário)
+- **Efeito:** o alvo ganha um Escudo de 1d6 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*

@@ -51,3 +51,12 @@ Voo, deslocamento.
 - **Custo:** 3 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Força | **Alvos:** o próprio usuário
 - **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 3 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
 - *(Sem Tiers de Sucesso — habilidade de mobilidade, sem teste de ataque)*
+
+**Montaria de Guerra**
+
+*Um corcel treinado pra batalha responde a cada comando — juntos, cavaleiro e montaria avançam como um só.*
+
+- **Chave:** [Mobilidade](../glossario.md#mobilidade)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** o próprio usuário
+- **Efeito:** o usuário monta seu corcel. Enquanto montado, ganha +4 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +1d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
+- *(Sem Tiers de Sucesso — habilidade de mobilidade, sem teste de ataque)*

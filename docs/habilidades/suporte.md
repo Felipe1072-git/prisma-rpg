@@ -87,3 +87,12 @@ Cura e apoio a aliados.
 - **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
 - **Efeito:** cada alvo recupera 1d8 de Mana imediatamente.
 - *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
+
+**Ordem de Ataque**
+
+*Um comando claro corta a confusão da batalha — o aliado certo age no momento certo.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Vontade | **Alcance:** 6 casas | **Alvos:** 1 aliado
+- **Efeito:** o aliado escolhido ganha +1 Ponto de Ação extra, utilizável imediatamente (antes do próprio turno dele).
+- *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
