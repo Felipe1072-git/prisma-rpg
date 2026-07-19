@@ -233,3 +233,93 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 
 - **Voo** — o Movimento pode ser usado voando em vez de andando, com ganho de altitude inclusive em combate.
 - **Visão de Corvo** — vantagem em testes de percepção a longa distância.
+
+## Raças de Peixe/Água
+
+Uma terceira leva de raças, com identidade aquática — cada uma com seu próprio traço físico e mecânica, no mesmo molde das Raças de Animal.
+
+## Tubarão
+
+*Dentes serrilhados e um instinto que nunca hesita — quem sangra na água já perdeu.*
+
+**Traço Físico:** pele áspera como lixa, fileiras de dentes serrilhados, nadadeira dorsal.
+
+**Atributos:** escolha 2 dentre Força, Agilidade, Sanidade, e distribua +2/+1 entre eles.
+
+**Traço Racial:**
+
+- **Mordida de Tubarão** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada deixa o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele). Nada e respira debaixo d'água livremente.
+
+## Tartaruga
+
+*Devagar por fora, inabalável por dentro — o casco já viu mais batalhas do que parece.*
+
+**Traço Físico:** casco nas costas, pele coriácea, bico córneo no lugar da boca.
+
+**Atributos:** escolha 2 dentre Vitalidade, Sabedoria, Vontade, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Casco Protetor** — conta como +2 de Couraça Natural na fórmula de [Defesa](../jogador/sistema-d20.md#defesa).
+- **Recolher no Casco** *(usada como Reação)* — 1x por cena, quando for alvo de um ataque, pode se recolher no casco pra anular completamente o dano daquele ataque.
+
+## Polvo
+
+*Um corpo sem ossos e uma mente afiada — a forma que você vê pode não ser a real.*
+
+**Traço Físico:** pele que muda de cor, tentáculos no lugar dos braços, sem ossos visíveis nos membros.
+
+**Atributos:** escolha 2 dentre Inteligência, Agilidade, Vontade, e distribua +1/+1 entre eles.
+
+**Traços Raciais:**
+
+- **Camuflagem Aquática** — vantagem em testes de Furtividade.
+- **Membros Flexíveis** — escapa de agarrões ou amarras automaticamente, sem precisar de teste; ataques desarmados alcançam 2 casas em vez de exigir adjacência.
+
+## Sereia/Tritão
+
+*Uma voz que atravessa as ondas e uma cauda que nunca se cansa de nadar.*
+
+**Traço Físico:** cauda de peixe no lugar das pernas, escamas iridescentes, guelras no pescoço.
+
+**Atributos:** escolha 2 dentre Agilidade, Vontade, Sabedoria, e distribua +2/+1 entre eles.
+
+**Traço Racial:**
+
+- **Canto do Mar** — vantagem em testes sociais quando o alvo consegue ouvir a voz do usuário. Na água, ganha +4 de Movimento e respira livremente.
+
+## Golfinho
+
+*Um sorriso permanente esconde um dos sentidos mais aguçados do oceano.*
+
+**Traço Físico:** pele lisa e acinzentada, focinho alongado, "sorriso" permanente característico.
+
+**Atributos:** escolha 2 dentre Agilidade, Inteligência, Sabedoria, e distribua +2/+1 entre eles.
+
+**Traço Racial:**
+
+- **Ecolocalização** — vantagem em testes de percepção mesmo sem visão (escuro, água turva, contra invisibilidade). Na água, ganha +4 de Movimento e respira livremente.
+
+## Enguia
+
+*Um corpo sinuoso e uma descarga que ninguém vê chegar.*
+
+**Traço Físico:** pele viscosa, corpo serpenteante, pequenas fendas branquiais no pescoço.
+
+**Atributos:** escolha 2 dentre Agilidade, Vontade, Inteligência, e distribua +2/+1 entre eles.
+
+**Traço Racial:**
+
+- **Choque Elétrico** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada deixa o alvo Atordoado (não pode agir) até o fim do próximo turno dele. Nada e respira debaixo d'água livremente.
+
+## Caranguejo
+
+*Uma garra capaz de esmagar qualquer coisa que se aproxime demais.*
+
+**Traço Físico:** exoesqueleto, uma garra grande no lugar de uma mão, olhos em pedúnculos.
+
+**Atributos:** escolha 2 dentre Força, Vitalidade, Vontade, e distribua +2/+1 entre eles.
+
+**Traço Racial:**
+
+- **Garra Esmagadora** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada empurra o alvo 2 casas. Nada e respira debaixo d'água livremente.
