@@ -246,7 +246,23 @@ Arma marcial pesada, dano 1d12. Ver [Arsenal → Marreta Mágica](jogador/arsena
 
 ### Módulo Alado
 
-Arma marcial, dano 1d10 (renomeada de "WDW" — enxame tecnológico de lâminas voadoras; arma real é a Soul Taker). Ver [Arsenal → Módulo Alado](jogador/arsenal.md#módulo-alado).
+Arma marcial, dano 1d10 (enxame tecnológico de lâminas voadoras). Ver [Arsenal → Módulo Alado](jogador/arsenal.md#módulo-alado).
+
+### Tridente
+
+Arma marcial Leve, dano 1d8 (combina com Escudo). Ver [Arsenal → Tridente](jogador/arsenal.md#tridente).
+
+### Chicote
+
+Arma marcial Finesse, dano 1d6 (alcance incomum, puxa e prende). Ver [Arsenal → Chicote](jogador/arsenal.md#chicote).
+
+### Mangual
+
+Arma marcial pesada, dano 1d10 (ignora bônus de Escudo na Especial). Ver [Arsenal → Mangual](jogador/arsenal.md#mangual).
+
+### Zarabatana
+
+Arma de pontaria, dano 1d4 (foco em veneno e status, não em dano bruto). Ver [Arsenal → Zarabatana](jogador/arsenal.md#zarabatana).
 
 ## Propriedades de Arma
 

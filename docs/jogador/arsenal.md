@@ -47,12 +47,15 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 | [Gadanha](#gadanha) | Lâminas Curvas | 1d10 | — | Duas Mãos | — | foice pesada de duas mãos |
 | [Lâmina Dupla](#lâmina-dupla) | Hastes | 1d6 | — | Leve | — | arma ancestral com lâmina em cada extremidade |
 | [Bastão](#bastão) | Hastes | 1d8 | — | Duas Mãos | — | haste média |
+| [Tridente](#tridente) | Hastes | 1d8 | — | Leve | — | haste de três pontas, combina com Escudo |
 | [Glaive](#glaive) | Hastes | 1d10 | — | Duas Mãos | — | arma de haste, alcance |
 | [Lança](#lança) | Hastes | 1d10 | — | Duas Mãos | — | alcance, mais pesada |
 | [Pique](#pique) | Hastes | 1d10 | — | Duas Mãos | — | lâminas gêmeas que se combinam num pique de alcance |
 | [Machado](#machado) | Impacto Pesado | 1d12 | — | Duas Mãos | Força +2 | pesado de duas mãos |
 | [Marreta Mágica](#marreta-mágica) | Impacto Pesado | 1d12 | — | Duas Mãos | — | a mais pesada do arquétipo |
 | [Martelo](#martelo) | Impacto Pesado | 1d12 | — | Duas Mãos | — | arma de esmagamento, pesada |
+| [Chicote](#chicote) | Armas Flexíveis | 1d6 | — | Finesse, Leve | — | alcance incomum pra uma arma corpo a corpo, puxa e prende |
+| [Mangual](#mangual) | Armas Flexíveis | 1d10 | — | Duas Mãos | — | golpe pesado e imprevisível, difícil de bloquear |
 | [Katana Muramasa](#katana-muramasa) | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos, Efeito Especial | Força ou Agilidade +3 | lâmina amaldiçoada, exige sangue |
 | [Lâmina do Crepúsculo](#lâmina-do-crepúsculo) | Lâminas Longas/Lendárias | 1d10 | — | Duas Mãos | — | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
 | [Katana Nodachi](#katana-nodachi) | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos | Força ou Agilidade +3 | lâmina longa clássica |
@@ -69,6 +72,7 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 
 | Arma | Família | Dado | Preço | Chaves | Requisito | Nota |
 |---|---|---|---|---|---|---|
+| [Zarabatana](#zarabatana) | Dardos | 1d4 | — | Leve | — | dardos leves, foco em veneno e status, não em dano bruto |
 | [Bestas](#bestas) | Arcos | 1d6 | — | Leve | — | dupla empunhadura, tipo adagas/sabres |
 | [Gakkung](#gakkung) | Arcos | 1d6 | — | Duas Mãos | Agilidade +6 | arco tradicional, mais leve/ágil |
 | [Arco](#arco) | Arcos | 1d8 | — | Duas Mãos | — | arma de precisão padrão |
@@ -112,7 +116,7 @@ Ter duas armas Leve equipadas não dá bônus automático algum — só habilita
 
 Algumas armas leves e ágeis são marcadas como **Finesse**: o usuário escolhe, no momento do teste de ataque, usar **Força ou Agilidade** (o que for maior). Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
 
-Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**, **Alfange**, **Garras**, **Katana Nodachi**, **Katana Muramasa** — as duas últimas são Finesse mesmo sendo Duas Mãos, uma combinação incomum, mantida de propósito.
+Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**, **Alfange**, **Garras**, **Chicote**, **Katana Nodachi**, **Katana Muramasa** — as duas últimas são Finesse mesmo sendo Duas Mãos, uma combinação incomum, mantida de propósito.
 
 ### Híbrida
 
@@ -602,6 +606,47 @@ Dano: **1d6**
 - **Tier 2 (11–16):** 1d6 de dano + a área vira Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
 - **Tier 3 (≥17):** 1d6 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, Terreno Difícil, e Lento
+
+## Chicote
+
+*O Chicote é uma arma flexível, de couro trançado ou correntes finas, capaz de golpear e prender a uma distância que nenhuma outra arma corpo a corpo alcança.*
+
+Arma Finesse (ver [Finesse](#finesse) abaixo) — usa Força ou Agilidade, o que for maior.
+
+Dano: **1d6**
+
+**Golpe de Correntes** — *Básica*
+
+*O chicote estala no ar antes de fisgar o alvo à distância.*
+
+- **Chave:** [Chicote](../glossario.md#chicote) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 4 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + puxa 1 casa
+- **Tier 3 (≥17):** 1d6 de dano + puxa 2 casas
+- **Crítico:** dano máximo (6) + 1d6 extra, e puxa 2 casas
+
+**Chicotada em Arco** — *Avançada*
+
+*Um giro largo faz o couro cortar o ar num arco amplo, alcançando vários alvos de uma vez.*
+
+- **Chave:** [Chicote](../glossario.md#chicote) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 3 casas | **Alvos:** até 3 criaturas diferentes ao alcance
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo perde a próxima Reação
+- **Crítico:** dano máximo (6) + 1d6 extra em todos, e todos perdem a próxima Reação
+
+**Laço Inescapável** — *Especial*
+
+*As correntes se enrolam no alvo como uma serpente, prendendo-o por completo.*
+
+- **Chave:** [Chicote](../glossario.md#chicote) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 5 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra, e Atordoado
 
 ## Cubo Mágico
 
@@ -1540,6 +1585,46 @@ Dano: **1d12**
 - **Tier 3 (≥17):** 1d12 de dano + Sangrando + derruba por acerto
 - **Crítico:** dano máximo (12) + 1d12 extra por acerto, Sangrando, e derruba
 
+## Mangual
+
+*O Mangual é uma bola de ferro presa por uma corrente a um cabo curto — o peso solto e imprevisível torna cada golpe difícil de antecipar ou bloquear.*
+
+Dano: **1d10**
+
+**Balanço Brutal** — *Básica*
+
+*A bola de ferro gira antes de desabar com um peso imprevisível.*
+
+- **Chave:** [Mangual](../glossario.md#mangual) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
+- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+
+**Redemoinho de Correntes** — *Avançada*
+
+*O mangual gira em círculos cada vez mais largos, esmagando tudo que estiver por perto.*
+
+- **Chave:** [Mangual](../glossario.md#mangual) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d10 de dano em cada alvo
+- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
+- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+
+**Golpe Imparável** — *Especial*
+
+*O peso e a imprevisibilidade das correntes tornam esse golpe quase impossível de bloquear.*
+
+- **Chave:** [Mangual](../glossario.md#mangual) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Efeito:** este ataque ignora bônus de Defesa vindo de Escudos e da habilidade Bloqueio
+- **Tier 1 (≤10):** 1d10 de dano
+- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d10 de dano + empurra 2 casas e derruba o alvo
+- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e derruba o alvo
+
 ## Manopla
 
 *A Manopla é uma arma muito poderosa, capaz de aumentar o dano de punho fechado do usuário. Usa-se a Manopla na mão direita — o oposto da Vembrassa, usada na mão esquerda.*
@@ -2333,6 +2418,45 @@ Dano: **1d6**
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
+## Tridente
+
+*O Tridente é uma haste de três pontas, leve o bastante pra ser usada com uma só mão — a mão livre segura um Escudo, ou fica pronta pra prender o oponente com uma rede.*
+
+Dano: **1d8**
+
+**Investida do Tridente** — *Básica*
+
+*Um golpe direto empurra o alvo pra trás com a força de três pontas.*
+
+- **Chave:** [Tridente](../glossario.md#tridente) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alcance:** 2 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
+- **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, empurra 2 casas, e derruba o alvo
+
+**Puxão das Profundezas** — *Avançada*
+
+*As pontas fisgam o alvo como um arpão, arrastando-o pra perto antes do golpe final.*
+
+- **Chave:** [Tridente](../glossario.md#tridente) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 5 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano, puxa o alvo 3 casas em direção ao usuário
+- **Tier 2 (11–16):** 1d8 de dano + puxa 3 casas + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d8 de dano + puxa 3 casas + derruba o alvo
+- **Crítico:** dano máximo (8) + 1d8 extra, puxa 3 casas, Lento, e derruba o alvo
+
+**Domínio da Arena** — *Especial*
+
+*Um giro amplo prende e humilha todos ao redor — ninguém sai ileso do palco.*
+
+- **Chave:** [Tridente](../glossario.md#tridente) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e Marcado
+
 ## Vajras
 
 *Os Vajras são pequenos cetros divinos raros — uma arma de empunhadura curta, semelhante a um pequeno cetro ou adaga ritualística, feita pra ser manejada com uma única mão. Pequenas mas muito fortes, requerem um indivíduo espiritualmente evoluído pra manuseá-las.*
@@ -2453,6 +2577,45 @@ Dano: **1d6**
 - **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+
+## Zarabatana
+
+*A Zarabatana dispara dardos leves quase sem ruído — o dano do impacto é pequeno, mas o que vem depois da picada é o que realmente conta.*
+
+Dano: **1d4**
+
+**Dardo Silencioso** — *Básica*
+
+*Um sopro rápido e quase inaudível manda o dardo direto ao alvo.*
+
+- **Chave:** [Zarabatana](../glossario.md#zarabatana) - [Básica](../glossario.md#básica)
+- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d4 de dano
+- **Tier 2 (11–16):** 1d4 de dano + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d4 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Crítico:** dano máximo (4) + 1d4 extra, Lento, e Sangrando
+
+**Rajada de Dardos** — *Avançada*
+
+*Vários dardos saem em sequência rápida, cada um carregando sua própria dose de veneno.*
+
+- **Chave:** [Zarabatana](../glossario.md#zarabatana) - [Avançada](../glossario.md#avançada)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Tier 1 (≤10):** 1d4 de dano em cada alvo
+- **Tier 2 (11–16):** 1d4 de dano + cada alvo fica Lento até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d4 de dano + cada alvo fica Sangrando
+- **Crítico:** dano máximo (4) + 1d4 extra em todos, Lento, e Sangrando
+
+**Toxina Paralisante** — *Especial*
+
+*Um dardo carregado com uma toxina rara mergulha o alvo numa paralisia repentina.*
+
+- **Chave:** [Zarabatana](../glossario.md#zarabatana) - [Especial](../glossario.md#especial)
+- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d4 de dano
+- **Tier 2 (11–16):** 1d4 de dano + alvo fica Lento até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d4 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (4) + 1d4 extra, e Atordoado
 
 ## Resolução de Ataque
 
