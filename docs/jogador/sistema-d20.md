@@ -10,7 +10,7 @@ Um personagem de nível 1 é composto por:
 4. **1ª Habilidade** — de qualquer grupo, inclusive a Básica de uma arma (ver [Progressão de Nível](#progressão-de-nível) abaixo).
 5. **Equipamento inicial** — a arma (ou armas) que o personagem carrega fisicamente, escolhida livremente (frequentemente sugerida por um [Pacote](../pacotes/index.md)).
 
-**Ter uma arma em mãos e saber uma técnica nomeada dela são coisas diferentes.** Qualquer arma equipada pode ser usada com **Ataque Básico** (dano da arma, sem efeito de Tier — ver [Pontos de Ação](pontos-de-acao.md)), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade daquela arma. Aprender a Habilidade Básica de uma arma (gastando uma escolha de nível) é o que desbloqueia a técnica nomeada e os efeitos de Tier dela.
+**Ter uma arma em mãos e saber uma técnica nomeada dela são coisas diferentes.** Qualquer arma equipada pode ser usada com **Ataque Básico** (dano da arma, sem efeito de Tier — ver [Pontos de Ação](pontos-de-acao.md)), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade daquela arma. Aprender a Habilidade Básica de uma arma (gastando uma escolha de nível) é o que desbloqueia a técnica nomeada e os efeitos de Tier dela — e é sempre o primeiro passo: a Avançada e a Especial de uma arma só podem ser aprendidas depois da Básica (e da Avançada, respectivamente) daquela mesma arma (ver "Aprendizado progressivo" no topo do [Arsenal](arsenal.md)).
 
 ## Atributos
 

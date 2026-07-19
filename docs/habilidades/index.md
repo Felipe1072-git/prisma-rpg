@@ -27,7 +27,7 @@ Cada habilidade é registrada com:
 - **Descrição breve** — 1 frase evocativa, deixando claro o que a habilidade faz
 - **Chave** — para habilidades de arma: "Arma - Tier" (ex: "Espada - Básica"). Para habilidades gerais de grupo: "Grupo - Subtipo" (ex: "Marcial - Especial")
 - **Custo em Mana**
-- **Custo em Pontos de Ação (◈)** — 1, 2 ou 3, conforme o tier ou tipo de habilidade
+- **Custo em Pontos de Ação (◈)** — 1, 2 ou 3, conforme o grau ou tipo de habilidade
 - **Atributo** — atributo usado no teste (ex: FOR)
 - **Efeitos / Alvos**
 - **Tiers de Sucesso** (inspirado em Draw Steel) — o resultado do teste determina qual tier de efeito é aplicado

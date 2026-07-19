@@ -6,13 +6,15 @@ Cada arma concede acesso a 3 níveis de habilidade:
 2. **Habilidade Avançada**
 3. **Habilidade Especial**
 
-Cada tier consome Pontos de Ação ao ser usado:
+Cada grau consome Pontos de Ação ao ser usado:
 
-| Tier | Custo em Pontos de Ação |
+| Grau | Custo em Pontos de Ação |
 |---|---|
 | Básica | ◈ (1) |
 | Avançada | ◈◈ (2) |
 | Especial | ◈◈◈ (3) |
+
+**Aprendizado progressivo:** nenhum grau é automático só por empunhar a arma — cada um precisa ser aprendido separadamente, gastando uma escolha de Habilidade de nível (ver [Progressão de Nível](sistema-d20.md#progressão-de-nível)). Dentro de uma mesma arma, os graus seguem uma ordem obrigatória: só é possível aprender a Avançada depois de já ter a Básica *daquela arma*, e a Especial depois de já ter a Avançada *dela*. Essa trava vale só dentro da mesma arma — não afeta a liberdade de escolher habilidades gerais ou de outras armas a qualquer momento, em qualquer ordem. Empunhar uma arma sem ter aprendido nenhuma Habilidade dela ainda permite o Ataque Básico, sem efeito de Tier (ver [Criação de Personagem](sistema-d20.md#criação-de-personagem)).
 
 ## Tabela de Dados de Dano
 
@@ -151,13 +153,13 @@ Combinações de Dupla Empunhadura até agora: **Lança + Espada** (ver [Investi
 
 Diferente de uma arma, um Escudo não concede as 3 habilidades de Básica/Avançada/Especial — ele ocupa a mão secundária e concede um bônus passivo de Defesa, sempre ativo, sem custo de Mana ou PA. Só pode ser equipado se a mão principal tiver uma arma [Leve](#leve) (ou estiver livre).
 
-| Tier | Bônus de Defesa | Restrição |
+| Categoria | Bônus de Defesa | Restrição |
 |---|---|---|
 | Escudo Leve | +2 | Nenhuma — combina com qualquer arma Leve |
 | Escudo Pesado | +3 | Nenhuma — combina com qualquer arma Leve |
 | Escudo Torre | +5 | Ocupa as duas mãos sozinho — usuário não pode equipar nenhuma arma junto (luta com [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)) |
 
-Ter um Escudo equipado também habilita a habilidade geral [Bloqueio](../habilidades/buff.md), independente do tier.
+Ter um Escudo equipado também habilita a habilidade geral [Bloqueio](../habilidades/buff.md), independente da categoria.
 
 ## Adagas
 

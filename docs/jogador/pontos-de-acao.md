@@ -26,7 +26,7 @@ Mínimo de movimento: **1 casa**.
 
 ## Custo em PA de Habilidades Gerais (não-arma)
 
-Habilidades de arma sempre custam PA conforme o tier (ver [Arsenal](arsenal.md)). Para habilidades gerais de grupo, o custo em PA é um eixo **independente** do Custo em Mana (ver [Custo por Tier de Poder](mana.md#custo-por-tier-de-poder)) — um mede quanto tempo de execução a habilidade consome, o outro mede quão forte ela é:
+Habilidades de arma sempre custam PA conforme o grau (ver [Arsenal](arsenal.md)). Para habilidades gerais de grupo, o custo em PA é um eixo **independente** do Custo em Mana (ver [Custo por Grau de Poder](mana.md#custo-por-grau-de-poder)) — um mede quanto tempo de execução a habilidade consome, o outro mede quão forte ela é:
 
 | PA | Critério | Exemplos já criados |
 |---|---|---|

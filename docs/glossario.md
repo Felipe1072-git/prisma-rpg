@@ -2,9 +2,9 @@
 
 Referência rápida dos termos usados na **Chave** de cada habilidade. Cada termo linka pra sua página de origem.
 
-## Tiers de Habilidade de Arma
+## Graus de Habilidade de Arma
 
-Toda arma concede 3 habilidades, nesses tiers fixos (ver [Arsenal](jogador/arsenal.md)):
+Toda arma concede 3 habilidades, nesses graus fixos (ver [Arsenal](jogador/arsenal.md)):
 
 ### Básica
 

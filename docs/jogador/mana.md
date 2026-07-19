@@ -13,11 +13,11 @@ Exemplo: nível 1, Vontade 0 → 13 Mana. Nível 5, Vontade 3 → 31 Mana.
 - **Descanso longo:** recupera todo o Mana
 - **Descanso curto:** recupera metade do Mana máximo
 
-## Custo por Tier de Poder
+## Custo por Grau de Poder
 
 O custo em Mana de uma habilidade é independente do seu custo em Pontos de Ação — um reflete quanto do turno ela consome, o outro reflete quão poderosa ela é. Serve de guia pra precificar qualquer habilidade nova, de qualquer grupo:
 
-| Tier de Poder | Custo em Mana | Uso esperado |
+| Grau de Poder | Custo em Mana | Uso esperado |
 |---|---|---|
 | Menor | 1–3 | Várias vezes por combate (ex: técnicas básicas de arma) |
 | Moderado | 4–8 | 2–4 vezes por descanso |
