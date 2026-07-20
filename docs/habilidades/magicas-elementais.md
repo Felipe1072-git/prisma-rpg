@@ -1,10 +1,8 @@
 # Habilidades Mágicas por Elemento
 
-Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
+Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tempo.
 
 **Regra importante:** efeitos elementais/mágicos (fogo, energia sombria, gelo etc.) nunca ficam travados numa arma específica, mesmo quando a arma é física — sempre vivem aqui como habilidades gerais. Ver [skill criar-habilidade](../../.claude/skills/criar-habilidade/SKILL.md) pro racional completo.
-
-*(Em construção — lista final de elementos a confirmar com o usuário.)*
 
 ## Terra
 
@@ -29,6 +27,47 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 2 (11–16):** 1d6 de dano + a área vira Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
 - **Tier 3 (≥17):** 1d6 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, Terreno Difícil, e Lento
+
+**Couraça de Pedra**
+
+*A pele endurece como rocha — os golpes ainda doem, mas não tanto quanto deveriam.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
+- **Custo:** 5 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** o usuário ganha um Escudo de 1d10 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do usuário, ou até ser destruído.
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Muralha de Pedra**
+
+*Um bloco de pedra ergue-se do chão instantaneamente, bloqueando passagem e visão.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 ponto
+- **Efeito:** ergue uma parede de pedra de até 3 casas de comprimento e 1 casa de altura, bloqueando movimento e linha de visão através dela. Dura 3 rodadas, ou até o usuário desfazê-la como ação livre.
+- *(Sem Tiers de Sucesso — efeito automático de controle de campo, sem teste de ataque)*
+
+**Emboscada de Pedra**
+
+*Uma coluna de pedra dispara do chão bem debaixo do alvo, sem aviso algum.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Condição de uso:** só pode ser usada contra um alvo que ainda não agiu neste combate
+- **Tier 1 (≤10):** 2d6 de dano
+- **Tier 2 (11–16):** 2d6 de dano + derruba o alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba o alvo + fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (12) + 2d6 extra, derruba o alvo, e Atordoado
+
+**Tremor**
+
+*O chão inteiro treme por um instante — ninguém que estiver de pé continua nessa condição por muito tempo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
+- **Custo:** 7 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + derruba cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo + a área vira Terreno Difícil por 1 rodada
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, derruba cada alvo, e Terreno Difícil
 
 **Fúria em Espiral** *(Supremo)*
 
@@ -291,18 +330,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Reação
 - **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e Atordoado em todos
-
-**Corrente Elétrica** *(Requisito: raça [Enguia](../racas/index.md#enguia))*
-
-*Uma descarga elétrica salta do corpo da enguia, buscando o próximo alvo condutor antes mesmo de terminar o primeiro golpe.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, com possibilidade de encadear
-- **Dano:** usa o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)
-- **Tier 1 (≤10):** dano desarmado
-- **Tier 2 (11–16):** dano desarmado + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Tier 3 (≥17):** dano desarmado + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele; a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Atordoadas também
-- **Crítico:** dano desarmado máximo + dano desarmado extra, Atordoado, e o mesmo encadeamento do Tier 3
 
 ## Fogo
 
@@ -680,7 +707,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 
 ## Sombras
 
-**Onda de Chamas**
+**Onda Sombria**
 
 *Uma onda de energia sombria rasga o chão, arremessando tudo em seu caminho pelos ares.*
 
@@ -821,37 +848,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Lento
 
-**Crescente Sombrio**
-
-*Uma lâmina de gravidade pura avança em linha reta, cortando o espaço à sua frente.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
-
-**Peso das Trevas**
-
-*Um campo gravitacional invisível se forma sobre a área, tornando cada passo insuportavelmente pesado.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d6 de dano + cada alvo não pode usar Movimento até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra em todos + efeito do Tier 3 em todos
-
-**Horizonte de Eventos** *(Supremo)*
-
-*Um ponto de gravidade impossível se forma no campo, atraindo tudo em volta antes de explodir num colapso violento.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (centro) | **Alvos:** todas as criaturas hostis em 3 casas de raio do ponto
-- **Efeito:** cada alvo é puxado 2 casas em direção ao centro e sofre 2d6 de dano automático, tudo isso imediatamente ao usar
-- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
-
 **Julgamento das Trevas** *(Supremo)*
 
 *Um feixe de escuridão absoluta desaba do céu, varrendo tudo abaixo dele.*
@@ -871,17 +867,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
 - **Efeito:** por 2 rodadas, qualquer criatura hostil que termine o turno na área sofre 1d8 de dano automático
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
-
-**Fissura Dimensional**
-
-*Uma fenda no espaço se abre sob o alvo, puxando-o com violência para dentro dela.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + puxa o alvo 2 casas em direção ao usuário
-- **Tier 3 (≥17):** 1d8 de dano + puxa o alvo 3 casas em direção ao usuário e o derruba
-- **Crítico:** dano máximo (8) + 1d8 extra + puxa 3 casas + derruba
 
 **Olho Maligno** *(Supremo)*
 
@@ -905,7 +890,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 1 casa, e Sangrando
 
-**Asas do Vento**
+**Redemoinho Sombrio**
 
 *Um redemoinho sombrio se ergue ao redor do corpo, ferindo tudo que estiver perto.*
 
@@ -925,26 +910,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Efeito:** cada criatura hostil na área sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
 
-**Espinhos de Sangue**
-
-*Três espinhos de sangue brotam do chão ao redor de um ponto, perfurando quem estiver perto.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e empurra 1 casa
-
-**Muralha de Sangue**
-
-*Uma parede de sangue endurecido se ergue do chão, bloqueando a passagem.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas em linha (formam a parede)
-- **Efeito:** por 2 rodadas, as casas da parede viram Terreno Difícil (custa o dobro de Movimento pra atravessar) e bloqueiam linha de visada de ataques à distância
-- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
-
 **Paixão Interna** *(Maior)*
 
 *Uma esfera sombria persegue o alvo antes de explodir com violência.*
@@ -955,15 +920,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 2 (11–16):** 2d6 de dano + empurra 2 casas
 - **Tier 3 (≥17):** 2d6 de dano + derruba o alvo
 - **Crítico:** dano máximo (12) + 2d6 extra, e derruba o alvo
-
-**Fonte da Explosão** *(Supremo)*
-
-*Duas esferas sombrias atraem tudo ao redor antes de explodir com violência total.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Efeito:** todos os alvos são puxados 2 casas em direção ao centro e sofrem 2d8 de dano automático, tudo isso imediatamente ao usar
-- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
 
 **Rajada Sombria**
 
@@ -1029,7 +985,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e derruba cada alvo
 
-**Agonia Ardente** *(Maior)*
+**Agonia Sombria** *(Maior)*
 
 *Um vórtice imenso suga tudo ao redor, atordoando antes de detonar num estrondo devastador.*
 
@@ -1048,17 +1004,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Efeito:** por 2 rodadas, qualquer criatura hostil que termine o turno na área não pode usar Movimento até o fim do turno seguinte dela
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
-
-**Buraco Negro**
-
-*Um projétil sombrio persegue o alvo e o teleporta pra cima do usuário no impacto.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 7 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano, alvo é teleportado pra uma casa adjacente ao usuário
-- **Tier 2 (11–16):** 1d8 de dano + teleportado + derruba o alvo
-- **Tier 3 (≥17):** 1d8 de dano + teleportado + derruba + alvo perde a próxima Reação
-- **Crítico:** dano máximo (8) + 1d8 extra + teleportado + derruba + perde Reação
 
 **Lanças Sombrias**
 
@@ -1102,17 +1047,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
-**Vazio**
-
-*Um pequeno buraco negro se abre, sugando tudo ao redor antes de explodir.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e derruba cada alvo
-
 **Corte Cruel**
 
 *Uma esfera de energia condensada avança lentamente antes de se romper num corte violento.*
@@ -1123,17 +1057,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
 - **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 2 casas
 - **Crítico:** dano máximo (8) + 1d8 extra + Sangrando + empurra 2 casas
-
-**Colapso do Vazio** *(Maior)*
-
-*A energia se condensa rapidamente num único ponto antes de explodir com violência redobrada.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 2d8 de dano
-- **Tier 2 (11–16):** 2d8 de dano + empurra 3 casas
-- **Tier 3 (≥17):** 2d8 de dano + empurra 3 casas e derruba o alvo
-- **Crítico:** dano máximo (16) + 2d8 extra, empurra 3 casas, e derruba o alvo
 
 **Extermínio** *(Maior)*
 
@@ -1167,26 +1090,6 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 2 (11–16):** 3d6 de dano + empurra 2 casas cada alvo
 - **Tier 3 (≥17):** 3d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (18) + 3d6 extra em todos, e derruba cada alvo
-
-**Chuva Carmesim**
-
-*Flechas vermelhas sobem ao céu, abrindo vórtices que despejam mais flechas sobre a área.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e empurra 1 casa
-
-**Tiro do Vazio** *(Supremo)*
-
-*Três flechas abrem vazios instáveis onde tocam, sugando tudo pra dentro continuamente.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** até 3 pontos diferentes, 1 casa de raio cada
-- **Efeito:** cada criatura hostil em qualquer uma das áreas é puxada 1 casa em direção ao centro dela e sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
-- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
 
 **Pilar Sombrio**
 
@@ -1382,6 +1285,37 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Efeito:** por 2 rodadas, a área vira Terreno Difícil (custa o dobro de Movimento pra atravessar); qualquer criatura hostil que termine o turno nela perde 2 de Defesa até o fim do turno seguinte dela
 - *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
 
+**Correntes de Água**
+
+*Tentáculos líquidos brotam do chão, prendendo os pés de quem passa por perto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d6 de dano
+- **Tier 2 (11–16):** 1d6 de dano + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra, e Atordoado
+
+**Véu de Vapor**
+
+*Um véu de vapor quente envolve o usuário, turvando a mira de quem tenta acertá-lo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 2 rodadas, qualquer ataque à distância contra o usuário rola com Desvantagem
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Abraço das Profundezas**
+
+*A água se ergue e engole o alvo por completo, arrastando-o para baixo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
+- **Custo:** 7 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + puxa o alvo até 3 casas em direção ao usuário
+- **Tier 3 (≥17):** 1d8 de dano + puxa 3 casas + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Crítico:** dano máximo (8) + 1d8 extra + puxa 3 casas + Lento
+
 **Ira do Rei** *(Supremo)*
 
 *Energia é golpeada contra o chão, e cinco pilares de água irrompem violentamente numa área ampla.*
@@ -1439,6 +1373,33 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
 - **Crítico:** dano máximo (6) + 1d6 extra em todos, e Sangrando
 
+**Passos do Vento**
+
+*Uma brisa constante envolve as pernas do usuário, tornando cada passo mais leve que o normal.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o Movimento do usuário aumenta em 2 casas, e ele ignora Terreno Difícil
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Rajada Evasiva** *(usada como Reação)*
+
+*Um sopro de vento no último instante empurra o corpo pra fora da trajetória do golpe.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
+- **Custo:** 3 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação para se mover até 2 casas antes do ataque resolver — se isso tirar o usuário do alcance ou área do ataque, ele erra automaticamente
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Olhos do Vento**
+
+*Uma corrente de ar sobe alto no céu e volta trazendo consigo uma visão nítida de tudo ao redor.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
+- **Custo:** 3 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** enxerga claramente toda a área num raio de 15 casas ao redor de si por 1 rodada, ignorando obstáculos leves (folhagem, neblina, cantos baixos) — não revela criaturas escondidas por magia (Invisibilidade e afins continuam funcionando)
+- *(Sem Tiers de Sucesso — habilidade de utilidade, sem teste de ataque)*
+
 **Fúria do Vendaval** *(Supremo)*
 
 *Um ciclone violento se ergue ao redor do usuário, sugando e arremessando tudo que estiver por perto.*
@@ -1450,18 +1411,289 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, etc.
 - **Tier 3 (≥17):** 2d8 de dano + puxa 2 casas e derruba cada alvo
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, puxa 2 casas, e derruba cada alvo
 
-## Habilidades Raciais
+## Veneno
 
-Habilidades elementais que não pertencem a um elemento fixo — o elemento é escolhido pelo jogador na criação do personagem, conforme a raça.
+*Habilidades de Veneno, por padrão, checam [Defesa](../jogador/sistema-d20.md#defesa) (Vitalidade) do alvo em vez de Agilidade — veneno ataca a resistência do corpo, não os reflexos.*
 
-**Baforada Dracônica** *(Requisito: raça [Sangue-de-Dragão](../racas/index.md#sangue-de-dragão))*
+**Picada Tóxica**
 
-*Uma rajada do elemento ancestral irrompe da garganta, varrendo tudo à frente num cone abrasador.*
+*Uma agulha invisível de veneno perfura a pele — a dor real só vem depois.*
 
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento)
-- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** cone de 5 casas | **Alvos:** todas as criaturas na área
-- **Efeito:** o dano é do elemento escolhido na Resistência Elemental da raça (ver [Sangue-de-Dragão](../racas/index.md#sangue-de-dragão))
-- **Tier 1 (≤10):** 2d6 de dano em cada alvo
-- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Veneno](../glossario.md#veneno)
+- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** alvo fica Envenenado — perde 1d4 de Vida no início de cada um dos seus próximos 2 turnos
+- **Tier 2 (11–16):** mesmo que Tier 1, mas por 3 turnos
+- **Tier 3 (≥17):** Envenenado por 3 turnos, com o dano de cada aplicação subindo pra 1d6
+- **Crítico:** 1d6 de dano imediato, e Envenenado (1d6 por 3 turnos)
+
+**Névoa Corrosiva**
+
+*Uma nuvem verde se espalha rasteira pelo chão, corroendo tudo que respira dentro dela.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Veneno](../glossario.md#veneno)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Efeito:** por 2 rodadas, qualquer criatura que termine o turno dentro da área sofre 1d6 de dano automático
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Toque Debilitante**
+
+*Um veneno lento entra na corrente sanguínea, e a força do alvo esvai junto com ele.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Veneno](../glossario.md#veneno)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** alvo sofre -1 em Força até o fim da cena
+- **Tier 2 (11–16):** -1 em Força e -1 em Agilidade até o fim da cena
+- **Tier 3 (≥17):** -2 em Força e -1 em Agilidade até o fim da cena
+- **Crítico:** mesmo que Tier 3, durando até o fim do próximo descanso (não só da cena)
+
+**Chuva Ácida**
+
+*Gotas corrosivas caem do nada, dissolvendo tudo que tocam.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Veneno](../glossario.md#veneno)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + Envenenado (1d4 no início do próximo turno de cada alvo)
+- **Tier 3 (≥17):** 1d8 de dano + Envenenado por 2 turnos
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e Envenenado por 2 turnos
+
+**Praga Definitiva** *(Supremo)*
+
+*Uma doença impossível se espalha pelo ar, apodrecendo tudo que ainda respira num raio enorme.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Veneno](../glossario.md#veneno)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + Envenenado (1d6 por 3 turnos) em cada alvo
+- **Tier 3 (≥17):** 2d8 de dano + Envenenado + -1 em todos os atributos físicos até o fim da cena
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, Envenenado, e -1 em todos os atributos físicos
+
+## Sangue
+
+**Lâmina de Sangue**
+
+*O usuário abre um corte na própria palma, e o sangue se solidifica numa lâmina afiada o bastante pra cortar aço.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
+- **Custo:** 0 Mana (custa 1d4 de Vida, não Mana) | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + recupera metade do dano causado como Vida (arredondado pra baixo)
+- **Tier 3 (≥17):** 1d8 de dano + recupera o dano causado como Vida por completo
+- **Crítico:** dano máximo (8) + 1d8 extra, e recupera o dano causado como Vida por completo
+
+**Pacto de Sangue**
+
+*Um corte profundo sela um pacto silencioso — poder emprestado sempre cobra um preço depois.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
+- **Custo:** 0 Mana (custa 1d6 de Vida, não Mana) | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário ganha +2 no dano de todos os ataques
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+
+**Chuva de Espinhos Vermelhos**
+
+*Estilhaços de sangue endurecido se espalham pelo ar como estacas.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + usuário recupera 1d6 de Vida por alvo atingido
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e recupera 2d6 de Vida
+
+**Vínculo Sanguíneo**
+
+*Um fio invisível de sangue compartilhado liga o usuário a um aliado — a dor de um agora é a dor dos dois.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
+- **Custo:** 0 Mana (custa até 10 de Vida, não Mana) | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 aliado
+- **Efeito:** o usuário transfere até 10 pontos da própria Vida diretamente pro aliado (respeitando o máximo de Vida de cada um)
+- *(Sem Tiers de Sucesso — habilidade de suporte, sem teste de ataque)*
+
+**Colheita Vermelha** *(Supremo)*
+
+*Todo o sangue derramado no campo de batalha responde ao chamado, voando em espirais até o usuário.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 2d8 de dano + Sangrando + usuário recupera Vida igual à metade do dano total causado (arredondado pra baixo)
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, Sangrando, e recupera Vida igual ao dano total causado
+
+**Espinhos de Sangue**
+
+*Três espinhos de sangue brotam do chão ao redor de um ponto, perfurando quem estiver perto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e empurra 1 casa
+
+**Muralha de Sangue**
+
+*Uma parede de sangue endurecido se ergue do chão, bloqueando a passagem.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas em linha (formam a parede)
+- **Efeito:** por 2 rodadas, as casas da parede viram Terreno Difícil (custa o dobro de Movimento pra atravessar) e bloqueiam linha de visada de ataques à distância
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Chuva Carmesim**
+
+*Flechas vermelhas sobem ao céu, abrindo vórtices que despejam mais flechas sobre a área.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
+- **Tier 3 (≥17):** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e empurra 1 casa
+
+## Espaço-Tempo
+
+**Dobra Espacial**
+
+*O espaço ao redor do alvo se dobra por um instante, e ele simplesmente deixa de estar onde estava.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** teleporta o alvo até 2 casas em qualquer direção (escolhida pelo usuário)
+- **Tier 2 (11–16):** teleporta o alvo até 4 casas
+- **Tier 3 (≥17):** teleporta o alvo até 4 casas, e ele fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** mesmo que Tier 3, teleportando até 6 casas
+
+**Bolha Temporal**
+
+*O tempo dentro de uma bolha invisível se arrasta, pesado como mel — só quem a criou se move em velocidade normal.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 7 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Efeito:** por 2 rodadas, qualquer criatura hostil que comece o turno dentro da área tem o Movimento reduzido à metade nesse turno
+- *(Sem Tiers de Sucesso — efeito de zona automático, sem teste de ataque)*
+
+**Aceleração Temporal**
+
+*O tempo ao redor do usuário acelera bruscamente — um piscar de olhos que os outros nem percebem, mas que pra ele dura o suficiente pra agir de novo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 9 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** o usuário ganha +1 Ponto de Ação (◈) imediatamente, utilizável ainda neste turno
+- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque. Diferente de [Ordem de Ataque](suporte.md#habilidades-gerais), que dá +1 PA a um aliado — esta é só pro próprio usuário.)*
+
+**Eco do Passado**
+
+*Por uma fração de segundo, o momento se repete — o mesmo golpe acontece de novo, como se o tempo tivesse soluçado.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano imediato
+- **Tier 2 (11–16):** 1d8 de dano imediato, e mais 1d8 de dano automático no início do próximo turno do usuário (2 aplicações no total)
+- **Tier 3 (≥17):** 1d8 de dano imediato, e mais 1d8 de dano automático no início de cada um dos 2 próximos turnos do usuário (3 aplicações no total)
+- **Crítico:** dano máximo (8) + 1d8 extra imediato, e mais 1d8 de dano automático no início de cada um dos 2 próximos turnos do usuário
+
+**Ruptura Dimensional** *(Supremo)*
+
+*Uma fenda se abre na realidade por um instante — o que quer que exista dentro dela deixa de existir aqui.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Tier 1 (≤10):** 2d8 de dano em cada alvo
+- **Tier 2 (11–16):** 2d8 de dano + cada alvo é deslocado até 3 casas em direção aleatória (Mestre escolhe)
+- **Tier 3 (≥17):** mesmo que Tier 2, e cada alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
+- **Crítico:** dano máximo (16) + 2d8 extra em todos, desloca, e Atordoado
+
+**Crescente Sombrio**
+
+*Uma lâmina de gravidade pura avança em linha reta, cortando o espaço à sua frente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+
+**Peso das Trevas**
+
+*Um campo gravitacional invisível se forma sobre a área, tornando cada passo insuportavelmente pesado.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d6 de dano em cada alvo
+- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** 1d6 de dano + cada alvo não pode usar Movimento até o fim do próximo turno dele
+- **Crítico:** dano máximo (6) + 1d6 extra em todos + efeito do Tier 3 em todos
+
+**Horizonte de Eventos** *(Supremo)*
+
+*Um ponto de gravidade impossível se forma no campo, atraindo tudo em volta antes de explodir num colapso violento.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (centro) | **Alvos:** todas as criaturas hostis em 3 casas de raio do ponto
+- **Efeito:** cada alvo é puxado 2 casas em direção ao centro e sofre 2d6 de dano automático, tudo isso imediatamente ao usar
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Fissura Dimensional**
+
+*Uma fenda no espaço se abre sob o alvo, puxando-o com violência para dentro dela.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano
+- **Tier 2 (11–16):** 1d8 de dano + puxa o alvo 2 casas em direção ao usuário
+- **Tier 3 (≥17):** 1d8 de dano + puxa o alvo 3 casas em direção ao usuário e o derruba
+- **Crítico:** dano máximo (8) + 1d8 extra + puxa 3 casas + derruba
+
+**Fonte da Explosão** *(Supremo)*
+
+*Duas esferas sombrias atraem tudo ao redor antes de explodir com violência total.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Efeito:** todos os alvos são puxados 2 casas em direção ao centro e sofrem 2d8 de dano automático, tudo isso imediatamente ao usar
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+
+**Buraco Negro**
+
+*Um projétil sombrio persegue o alvo e o teleporta pra cima do usuário no impacto.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 7 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 1d8 de dano, alvo é teleportado pra uma casa adjacente ao usuário
+- **Tier 2 (11–16):** 1d8 de dano + teleportado + derruba o alvo
+- **Tier 3 (≥17):** 1d8 de dano + teleportado + derruba + alvo perde a próxima Reação
+- **Crítico:** dano máximo (8) + 1d8 extra + teleportado + derruba + perde Reação
+
+**Vazio**
+
+*Um pequeno buraco negro se abre, sugando tudo ao redor antes de explodir.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 6 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Tier 1 (≤10):** 1d8 de dano em cada alvo
+- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo
+- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e derruba cada alvo
+- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e derruba cada alvo
+
+**Colapso do Vazio** *(Maior)*
+
+*A energia se condensa rapidamente num único ponto antes de explodir com violência redobrada.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 9 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Tier 1 (≤10):** 2d8 de dano
+- **Tier 2 (11–16):** 2d8 de dano + empurra 3 casas
+- **Tier 3 (≥17):** 2d8 de dano + empurra 3 casas e derruba o alvo
+- **Crítico:** dano máximo (16) + 2d8 extra, empurra 3 casas, e derruba o alvo
+
+**Tiro do Vazio** *(Supremo)*
+
+*Três flechas abrem vazios instáveis onde tocam, sugando tudo pra dentro continuamente.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
+- **Custo:** 16 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** até 3 pontos diferentes, 1 casa de raio cada
+- **Efeito:** cada criatura hostil em qualquer uma das áreas é puxada 1 casa em direção ao centro dela e sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*

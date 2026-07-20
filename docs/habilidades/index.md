@@ -37,7 +37,7 @@ Cada habilidade é registrada com:
 
 1. O usuário rola **d20 + Atributo da habilidade**.
 2. **20 natural** sempre acerta e conta automaticamente como Tier 3 (além do bônus de dano do Crítico) — mesmo que o total não chegasse lá sozinho. **1 natural** sempre falha, sem nenhum efeito, independente do total.
-3. Nos demais casos, o total precisa **igualar ou superar a Defesa do alvo** (ver [Defesa](sistema-d20.md#defesa)). Se não superar, a habilidade não causa nenhum efeito.
+3. Nos demais casos, o total precisa **igualar ou superar a Defesa do alvo** (ver [Defesa](sistema-d20.md#defesa)). Por padrão isso é a Defesa física (Agilidade) — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual atributo testar em vez disso, mas a lógica de comparação é sempre a mesma. Se não superar, a habilidade não causa nenhum efeito.
 4. Se superar a Defesa, o total (sem ajuste) é comparado à tabela abaixo pra determinar o Tier:
 
 | Tier | Total (d20 + Atributo) |

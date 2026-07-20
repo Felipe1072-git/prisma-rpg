@@ -366,4 +366,16 @@ Ver [Mágicas por Elemento → Água](habilidades/magicas-elementais.md#água).
 
 Ver [Mágicas por Elemento → Vento](habilidades/magicas-elementais.md#vento).
 
+### Veneno
+
+Ver [Mágicas por Elemento → Veneno](habilidades/magicas-elementais.md#veneno).
+
+### Sangue
+
+Ver [Mágicas por Elemento → Sangue](habilidades/magicas-elementais.md#sangue).
+
+### Espaço-Tempo
+
+Ver [Mágicas por Elemento → Espaço-Tempo](habilidades/magicas-elementais.md#espaço-tempo).
+
 *(Outros elementos ainda sem habilidades — a criar)*

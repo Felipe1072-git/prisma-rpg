@@ -88,7 +88,19 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 **Traços Raciais:**
 
 - **Resistência Elemental** — escolha 1 dos 8 elementos (ver [Mágicas por Elemento](../habilidades/magicas-elementais.md)) na criação do personagem; ganha [Resistência](../jogador/sistema-d20.md#resistência-e-imunidade) a esse tipo de dano.
-- **Baforada Dracônica** — habilita a habilidade geral [Baforada Dracônica](../habilidades/magicas-elementais.md#habilidades-raciais), do mesmo elemento escolhido acima.
+- **Baforada Dracônica** — concede a habilidade abaixo gratuitamente (não consome uma escolha de nível), do mesmo elemento escolhido acima.
+
+**Baforada Dracônica**
+
+*Uma rajada do elemento ancestral irrompe da garganta, varrendo tudo à frente num cone abrasador.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento)
+- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** cone de 5 casas | **Alvos:** todas as criaturas na área
+- **Efeito:** o dano é do elemento escolhido em Resistência Elemental, acima
+- **Tier 1 (≤10):** 2d6 de dano em cada alvo
+- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
+- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 ## Autômato
 
@@ -301,7 +313,19 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Racial:**
 
-- **Corrente Elétrica** — concede a Habilidade geral [Corrente Elétrica](../habilidades/magicas-elementais.md#raio) gratuitamente (não consome uma escolha de nível).
+- **Corrente Elétrica** — concede a habilidade abaixo gratuitamente (não consome uma escolha de nível).
+
+**Corrente Elétrica**
+
+*Uma descarga elétrica salta do corpo da enguia, buscando o próximo alvo condutor antes mesmo de terminar o primeiro golpe.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, com possibilidade de encadear
+- **Dano:** usa o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)
+- **Tier 1 (≤10):** dano desarmado
+- **Tier 2 (11–16):** dano desarmado + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
+- **Tier 3 (≥17):** dano desarmado + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele; a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Atordoadas também
+- **Crítico:** dano desarmado máximo + dano desarmado extra, Atordoado, e o mesmo encadeamento do Tier 3
 
 ## Caranguejo
 

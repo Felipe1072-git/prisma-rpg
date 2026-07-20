@@ -1638,7 +1638,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 | 17 | Espírito Indomável |
 | 19 | Chamas Espirituais *(Supremo)* |
 
-*Se combinado com a raça [Sangue-de-Dragão](../racas/index.md#sangue-de-dragão), considere trocar uma dessas escolhas por [Baforada Dracônica](../habilidades/magicas-elementais.md#habilidades-raciais) — mas o pacote funciona igual sem a raça.*
+*Se combinado com a raça [Sangue-de-Dragão](../racas/index.md#sangue-de-dragão), o personagem já ganha [Baforada Dracônica](../racas/index.md#sangue-de-dragão) de graça — mas o pacote funciona igual sem a raça.*
 
 ### Necromante
 

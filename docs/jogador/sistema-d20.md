@@ -112,20 +112,33 @@ O tamanho do dado rolado em cada nível depende da Vitalidade do personagem *naq
 
 Vida é cumulativa: o dado de cada nível fica "congelado" no total quando rolado — não há recálculo retroativo se a Vitalidade mudar depois.
 
+### Base de Resiliência
+
+Toda criatura (personagem ou monstro) tem uma **Base de Resiliência**, definida pelo nível de ameaça que ela representa — não pelo tamanho físico nem pela espécie. Um Lich não é fisicamente colossal, mas é Lendário o bastante pra ter a mesma Base de um dragão.
+
+| Tier de Ameaça | Base | Exemplos |
+|---|---|---|
+| Comum | 6 | civis, animais pequenos, sem treino algum |
+| Treinado | 8 | soldados, aventureiros, guardas experientes |
+| Formidável | 10 | a maioria dos monstros, feras perigosas |
+| Lendário | 14 | dragões, lichs, arqui-demônios, entidades cósmicas |
+
 ### Defesa
 
-**Defesa = Base do arquétipo + Agilidade + bônus de Armadura/Couraça Natural.**
+**Defesa = Base de Resiliência + o atributo relevante ao tipo de efeito** (+ bônus natural relevante, se houver). O padrão — ataques físicos, o caso mais comum — usa **Agilidade**. Habilidades que impõem outra coisa (um estado mental, uma doença, pânico) declaram explicitamente qual atributo testar; a fórmula é sempre a mesma, só troca o atributo.
 
-| Arquétipo | Base |
-|---|---|
-| Humanoide comum (sem treino) | 6 |
-| Humanoide treinado (aventureiro, soldado) | 8 |
-| Monstro comum | 10 |
-| Monstro colossal (dragões, criaturas lendárias) | 14 |
+| Tipo de efeito | Atributo de Defesa | Bônus natural |
+|---|---|---|
+| Físico (dano, empurrar, derrubar) — padrão | Agilidade | Armadura/Couraça Natural *(a detalhar com o Bestiário/equipamentos)* |
+| Mental/comportamental (charme, medo, provocação, controle) | Vontade | — |
+| Veneno, doença, exaustão | Vitalidade | — |
+| Horror, insanidade, colapso mental | Sanidade | — |
+| Ilusão, engano | Sabedoria | — |
+| Furtividade, detecção (perceber um roubo, um disfarce) | Sabedoria | — |
 
-*(Bônus de Armadura/Couraça Natural — a detalhar conforme o Bestiário e o sistema de equipamentos forem escritos.)*
+Essa lista não é fechada — cresce conforme habilidades novas pedirem.
 
-Essa fórmula é calibrada de propósito pra ficar compatível com os [Tiers de Sucesso](../habilidades/index.md#ficha-de-habilidade): contra a maioria dos alvos (Defesa 11+), Tier 1 nunca acontece — o pior resultado que ainda causa efeito já é Tier 2. Tier 1 só é alcançável contra alvos fracos ou despreparados (Defesa ≤10). Contra monstros colossais, mesmo Tier 3 pode não ser suficiente sem um 20 natural.
+Essa fórmula é calibrada de propósito pra ficar compatível com os [Tiers de Sucesso](../habilidades/index.md#ficha-de-habilidade): contra a maioria dos alvos (Defesa 11+), Tier 1 nunca acontece — o pior resultado que ainda causa efeito já é Tier 2. Tier 1 só é alcançável contra alvos fracos ou despreparados (Defesa ≤10). Contra ameaças Lendárias, mesmo Tier 3 pode não ser suficiente sem um 20 natural.
 
 ### Resistência e Imunidade
 
