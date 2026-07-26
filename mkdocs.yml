@@ -74,4 +74,5 @@ nav:
   - Livro do Mestre:
     - Visão Geral: mestre/index.md
     - Bestiário: mestre/bestiario.md
+    - Montagem de Encontro: mestre/encontros.md
   - Glossário: glossario.md

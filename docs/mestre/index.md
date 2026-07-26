@@ -5,8 +5,9 @@ Ferramentas pra conduzir a mesa: criaturas, dificuldades, e como montar um comba
 ## Conteúdo
 
 - **[Bestiário](bestiario.md)** — criaturas prontas, e as regras pra montar as suas
+- **[Montagem de Encontro](encontros.md)** — quantas criaturas colocar na sala, e por quê
 
-*(Em construção — tabelas de DC, montagem de encontro, recompensas e regras de exploração ainda vêm por aí.)*
+*(Em construção — tabelas de DC, recompensas e regras de exploração ainda vêm por aí.)*
 
 ## O que muda pro Mestre neste sistema
 

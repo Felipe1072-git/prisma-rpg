@@ -15,7 +15,7 @@ Criatura não é personagem: ela não sobe de nível, não distribui pontos e n�
 
 ### Vida é valor fixo
 
-Sem rolagem: abra a ficha e use o número. A Vida foi calibrada contra o dano real que um grupo entrega — um **Comum cai num único golpe** (o dano médio de uma habilidade em Intensidade I é ~6), um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
+Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra personagens de **nível 1 a 4** — grupos mais fortes usam a [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nível). A Vida foi calibrada contra o dano real que um grupo entrega — um **Comum cai num único golpe** (o dano médio de uma habilidade em Intensidade I é ~6), um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
 
 ### Pontos de Ação por Tier
 
