@@ -17,7 +17,7 @@ Cada elemento **joga de um jeito diferente**. Duas habilidades podem causar o me
 | **Água** | Arrasta | puxa 1 casa → puxa 2 e Lento → puxa 3, Lento e derruba |
 | **Vento** | Arremessa longe | empurra 2 → empurra 4 → empurra 6 e derruba |
 | **Luz** | Prende e cala | perde Reação → perde Reação e [Marcado](../glossario.md#marcado) → Imóvel e perde Reação |
-| **Sombras** | Nega o terreno e drena | área amaldiçoada 1 rodada → 2 rodadas → 3 rodadas a 2d4 *(em alvo único: dreno de Vida crescente)* |
+| **Sombras** | Nega o terreno e drena | [Zona Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada → 2 rodadas → 3 rodadas a 2d4 *(em alvo único: dreno de Vida crescente)* |
 | **Veneno** | Acumula | [Envenenado](../glossario.md#envenenado) → 2 acúmulos → 3 acúmulos |
 | **Sangue** | Troca Vida por poder | dreno pela metade → dreno total → dreno dobrado, sempre sob [Risco](../glossario.md#risco) |
 | **Espaço-Tempo** | Reposiciona | teleporta 2 casas → 4 casas → 4 casas e Atordoado |
@@ -714,9 +714,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Choque Maligno**
@@ -736,9 +736,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 5 Mana:** 1d10 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** 1d10 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** 1d10 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** 1d10 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** 1d10 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** 1d10 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (10) + 1d10 extra em todos, e sobe 1 Intensidade
 
 **Zona Mortal**
@@ -783,7 +783,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 10 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 2d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Acerto:** 2d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 **Império Sombrio** *(Supremo)*
@@ -820,7 +820,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈ (2 PA) + 11 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Acerto:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e Atordoado em todos
 
 **Vórtice das Trevas**
@@ -829,9 +829,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro), e a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e derruba cada alvo, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro), e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e derruba cada alvo, e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Giro Espectral**
@@ -840,9 +840,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** todas as criaturas adjacentes
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Julgamento das Trevas** *(Supremo)*
@@ -851,7 +851,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 2d8 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Acerto:** 2d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 **Floração Eterna** *(Maior)*
@@ -878,9 +878,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** todas as criaturas adjacentes
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Redemoinho Sombrio**
@@ -889,9 +889,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Lamento Uivante** *(Maior)*
@@ -940,9 +940,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Carícia da Morte**
@@ -951,9 +951,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Sobrecarga**
@@ -973,9 +973,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro), e a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e derruba cada alvo, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro), e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e derruba cada alvo, e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Agonia Sombria** *(Maior)*
@@ -984,7 +984,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 2d6 de dano + puxa 2 casas e cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Acerto:** 2d6 de dano + puxa 2 casas e cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, puxa 2 casas, e Atordoado em todos
 
 **Selo Sombrio**
@@ -1002,7 +1002,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈ (2 PA) + 10 Mana | **Atributo:** Inteligência | **Alvos:** 3 casas de raio ao redor do usuário
-- **Acerto:** 1d8 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Acerto:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 **Dia do Julgamento** *(Supremo)*
@@ -1031,9 +1031,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Corte Cruel**
@@ -1053,9 +1053,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** cone de 5 casas à frente
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e sobe 1 Intensidade
 
 **Ilusão Cruel** *(Maior)*
@@ -1064,7 +1064,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
-- **Acerto:** 1d10 de dano + Sangrando + empurra 1 casa cada alvo, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Acerto:** 1d10 de dano + Sangrando + empurra 1 casa cada alvo, e a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (10) + 1d10 extra em todos, Sangrando, e empurra 1 casa
 
 **Apocalipse** *(Supremo)*
@@ -1073,7 +1073,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
-- **Acerto:** 3d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Acerto:** 3d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (18) + 3d6 extra em todos, e derruba cada alvo
 
 **Pilar Sombrio**
@@ -1082,9 +1082,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Filo da Alma**
@@ -1093,9 +1093,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo, usuário se desloca até o ponto + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo, usuário se desloca até o ponto + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 1 rodada (1d4 a quem entrar ou ficar)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 2 rodadas (1d4)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldiçoada) por 3 rodadas (2d4)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Chamado da Ruína**

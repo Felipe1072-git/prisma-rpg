@@ -12,7 +12,11 @@ Perde **1d4 de Vida** no início do próximo turno dele. Efeito de uma vez só �
 
 ### Queimando
 
-Perde **1d4 de Vida** no início de **cada** turno dele, e não para sozinho: dura até alguém apagar o fogo (o próprio alvo gastando uma Ação Básica, um aliado adjacente gastando a dele, ou contato com água em quantidade). Assinatura do elemento [Fogo](habilidades/magicas-elementais.md#fogo) — diferente de Sangrando justamente por não ter prazo.
+Perde **1d4 de Vida imediatamente ao pegar fogo**, e mais **1d4 no início de cada turno dele**. Assinatura do elemento [Fogo](habilidades/magicas-elementais.md#fogo) — diferente de Sangrando justamente por não ter prazo.
+
+- **Não acumula.** Pegar fogo de novo não soma um segundo dado: vale o valor maior entre os dois (mesma lógica do [Escudo](#escudo)). Uma habilidade que diz "Queimando causando 2d4 por turno" simplesmente substitui o 1d4 enquanto durar.
+- **Não para sozinho durante o combate.** Termina de três formas: o alvo gasta uma **Ação Básica** pra se apagar, um aliado **adjacente** gasta a dele, ou o alvo entra em contato com água em quantidade (o Mestre decide o que conta).
+- **Apaga no fim do combate.** Encerrada a cena de combate, o fogo se apaga sozinho — ninguém sai queimando pela estrada.
 
 ### Lento
 
@@ -20,7 +24,9 @@ Movimento reduzido à **metade**.
 
 ### Imóvel
 
-**Movimento 0** — não sai do lugar por vontade própria, nem voando. Continua agindo normalmente: Ações Básicas, Habilidades e Reações seguem disponíveis. É o degrau acima de Lento, e não se confunde com [Atordoado](#atordoado), que trava tudo.
+**Movimento 0** — não sai do lugar **por vontade própria**, nem voando. Continua agindo normalmente: Ações Básicas, Habilidades e Reações seguem disponíveis. É o degrau acima de Lento, e não se confunde com [Atordoado](#atordoado), que trava tudo.
+
+**Força externa ainda move.** Empurrar, puxar e teleportar não são movimento do alvo — são coisas feitas *a* ele, e funcionam normalmente contra quem está Imóvel. Um alvo preso no lugar pode ser arrancado dele por um empurrão de Vento ou pela [Dobra Espacial](habilidades/magicas-elementais.md#espaço-tempo).
 
 ### Atordoado
 
@@ -32,7 +38,10 @@ O **próximo ataque de um aliado** contra ele neste turno rola com Vantagem.
 
 ### Envenenado
 
-Perde **1d4 de Vida** no início de cada um dos próximos turnos dele, até ser curado.
+Perde **1d4 de Vida por acúmulo** no início de cada turno dele, até ser curado. Diferente do fogo, o veneno leva tempo pra agir: **não há dano no momento em que é aplicado** — a primeira perda de Vida acontece no início do próximo turno do alvo.
+
+- **Acúmulos:** cada nova aplicação soma 1 acúmulo, e cada acúmulo vale 1d4 por turno (1 acúmulo = 1d4, 2 = 2d4, 3 = 3d4). O **máximo é 3 acúmulos** (3d4 por turno).
+- **Cura limpa tudo.** Qualquer efeito que cure Vida ou remova condições apaga **todos** os acúmulos de uma vez — não é preciso curar três vezes.
 
 ### Escudo
 
@@ -41,6 +50,20 @@ Pontos temporários que **absorvem dano** antes da Vida. Não acumulam com outro
 ### Risco
 
 Algumas habilidades cobram um preço de quem as usa: se **algum dos dados de dano cair em 1**, a habilidade escapa ao controle e o usuário sofre o efeito descrito na ficha dela. Reservado a habilidades de tema perigoso — lâminas amaldiçoadas, magia de sangue, poder emprestado.
+
+## Efeitos de Terreno
+
+Ao contrário das Condições, que ficam grudadas numa criatura, estes efeitos ficam grudados no **chão** — e valem para quem quer que passe por ali.
+
+### Zona Amaldiçoada
+
+Assinatura de [Sombras](habilidades/magicas-elementais.md#sombras) em área: a região atingida continua ferindo depois do golpe. Qualquer criatura que **entrar** na área, ou que **terminar o turno** dentro dela, sofre o dano indicado pela habilidade (tipicamente 1d4, ou 2d4 na Intensidade III).
+
+- **A zona não repete o impacto.** Quem estava na área no momento do golpe já sofreu o dano da habilidade; a zona passa a valer **a partir daí**, atingindo quem entrar depois ou quem escolher ficar.
+- **Fere todo mundo, sem distinção.** É terreno amaldiçoado, não uma armadilha inteligente: pega inimigos, aliados e o próprio usuário. Plantar uma zona no meio da batalha é uma decisão de posicionamento, não dano grátis.
+- **É visível.** A mancha no chão é óbvia para qualquer um que olhe — ninguém entra sem saber. Um inimigo com um mínimo de instinto vai desviar, e é justamente assim que a zona controla o campo: negando espaço, mais do que causando dano.
+- **Zonas sobrepostas não somam.** Onde duas zonas se cruzam, vale só a **mais forte** — nunca 1d4 + 1d4.
+- **Duração:** a que a habilidade declarar (1, 2 ou 3 rodadas, conforme a Intensidade). Encerrado o prazo, a maldição se dissolve.
 
 ## Graus de Habilidade de Arma
 

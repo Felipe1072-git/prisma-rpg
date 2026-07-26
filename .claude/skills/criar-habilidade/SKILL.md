@@ -104,7 +104,11 @@ III 2d4 + empurra 3 casas, derruba, e ele perde a próxima Reação
 | **Envenenado** | 1d4 por turno até ser curado; acumula |
 | **Escudo** | Pontos temporários que absorvem dano antes da Vida |
 
+Há também **efeitos de terreno**, que grudam no chão em vez de numa criatura: [Zona Amaldiçoada](../../docs/glossario.md#zona-amaldiçoada) (assinatura de Sombras em área) fere quem entrar ou terminar o turno nela, **inclusive aliados**, é visível, e zonas sobrepostas não somam.
+
 Se precisar de uma condição que não existe, isso é decisão de design: **pergunte antes**, e se aprovada, adicione a entrada em `docs/glossario.md` no mesmo lote de edição.
+
+**Efeito periódico exige dizer se a primeira aplicação é imediata** — a regra acima na seção de Ficha vale em dobro aqui, e é fácil escorregar: Queimando causa dano na hora, Envenenado só no início do próximo turno do alvo, e a Zona Amaldiçoada não repete o dano do impacto. Se criar uma mecânica periódica nova, decida isso explicitamente.
 
 ### Elemento tem assinatura própria
 
