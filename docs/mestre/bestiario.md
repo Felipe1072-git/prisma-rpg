@@ -25,6 +25,35 @@ Cada ficha traz o **Ataque** já calculado, pra você não precisar somar atribu
 - **20 natural** é crítico: **dano máximo dos dados + uma rolagem extra**, e nada além disso. Criatura **não** sobe de Intensidade no crítico — esse bônus é dos personagens.
 - Ataque que impõe efeito mental, veneno ou medo é comparado à **Defesa mental** (ou à Defesa do atributo que o efeito indicar), não à física. Por isso toda ficha traz as duas.
 
+**Como ler a linha de um ataque.** Cada ataque vem escrito assim:
+
+```
+Mordida — ◈ | +2 vs Defesa física | 1 criatura adjacente
+```
+
+Isso é, na ordem: o **custo em PA** (◈), o **bônus que o Mestre soma no d20** e contra qual **Defesa** comparar, e quem pode ser **alvo**. No caso: gasta 1 PA, role d20+2 contra a Defesa física do alvo, atingindo uma criatura adjacente.
+
+### Um turno jogado
+
+O [Dragão Filhote](#dragão-filhote) (Ataque **+3**, 3 PA, 20 Mana) está à frente de dois personagens: a **Guerreira** (Defesa física **10**) e o **Mago** (Defesa física **16** — ágil e difícil de acertar).
+
+**O Mestre escolhe a Baforada em Intensidade II:** gasta **2 PA** e **6 Mana**, sobrando 1 PA e 14 Mana.
+
+1. **Quem é alvo?** A Baforada em Intensidade II é um cone de 3 casas à frente. Os dois estão dentro, então os dois são alvos.
+2. **Rola o dado:** sai **12** no d20. Somando o Ataque +3, o total é **15**. Uma rolagem só, comparada com cada alvo.
+3. **Compara com cada Defesa:**
+
+| Alvo | Defesa física | Comparação | Resultado |
+|---|---|---|---|
+| Guerreira | 10 | 15 ≥ 10 | **acertou** — 2d6 de dano, e fica [Queimando](../glossario.md#queimando) |
+| Mago | 16 | 15 < 16 | **errou** — nada acontece com ele |
+
+4. **O efeito extra não precisa de rolagem.** A Intensidade II espalha o fogo para 1 criatura adjacente a cada alvo atingido: se o Ladino estiver ao lado da Guerreira, ele pega fogo automaticamente. Espalhamento não é ataque, então não há d20.
+5. **Ainda sobrou 1 PA.** O Dragão usa **Garras e Presas** (◈, 0 Mana) na Guerreira: rola de novo, sai 8 → 8+3 = **11** contra a Defesa 10, acerta, mais 2d6.
+6. **No turno seguinte da Guerreira**, ela perde 1d4 de Vida pelo Queimando antes de agir — e vai continuar perdendo até alguém apagar o fogo.
+
+**O que limitou as escolhas do Mestre:** o **PA** decide quantas coisas ele faz no turno (Baforada III sozinha consome os 3; Baforada II + Garras também dá 3; três Garras dão 3 rolagens separadas). O **Mana** decide quantas vezes na luta inteira — com 20 de Mana e sem recarga, cabem só duas Baforadas em Intensidade III (9 + 9 = 18) e o tanque seca. É justamente por isso que **Garras e Presas custa 0 Mana**: é o ataque de rotina que mantém o chefe relevante depois de gastar o combustível.
+
 ### Vida é valor fixo
 
 Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra personagens de **nível 1 a 4** — grupos mais fortes usam a [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nível). A Vida foi calibrada contra o dano real que um grupo entrega: um **Comum cai num único golpe**, um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
