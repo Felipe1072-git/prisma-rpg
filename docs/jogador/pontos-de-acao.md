@@ -11,7 +11,7 @@ Cada personagem tem **3 Pontos de Ação (◈◈◈)** por turno.
 | Ataque Básico | ◈ (1) |
 | Reação | ◈ (1) — consome do mesmo pool |
 
-**Ataque Básico** funciona com qualquer arma equipada, mesmo uma cujas Habilidades o personagem nunca aprendeu — causa o dado de dano da arma, sem nenhum efeito de Tier. É o que permite "ter uma arma na mão" desde o nível 1 sem precisar gastar uma Habilidade nela (ver [Criação de Personagem](sistema-d20.md#criação-de-personagem)).
+**Ataque Básico** funciona com qualquer arma equipada, mesmo uma cujas Habilidades o personagem nunca aprendeu — causa o dado de dano da arma, sem nenhum efeito extra. É o que permite "ter uma arma na mão" desde o nível 1 sem precisar gastar uma Habilidade nela (ver [Criação de Personagem](sistema-d20.md#criação-de-personagem)).
 
 **Qualquer Habilidade pode ser usada como Reação**, fora do seu turno, desde que o personagem ainda tenha PA sobrando no pool (do turno anterior) pra pagar o custo normal dela. O sistema é deliberadamente livre nesse ponto — se o jogador guardou PA, pode reagir com o que quiser, não só com uma lista fixa de "habilidades de reação".
 
@@ -24,14 +24,16 @@ Mínimo de movimento: **1 casa**.
 
 "Casas" é uma unidade abstrata — o mapa pode usar quadrados ou hexágonos.
 
-## Custo em PA de Habilidades Gerais (não-arma)
+## Custo em PA de Habilidades
 
-Habilidades de arma sempre custam PA conforme o grau (ver [Arsenal](arsenal.md)). Para habilidades gerais de grupo, o custo em PA é um eixo **independente** do Custo em Mana (ver [Custo por Grau de Poder](mana.md#custo-por-grau-de-poder)) — um mede quanto tempo de execução a habilidade consome, o outro mede quão forte ela é:
+O custo em PA de uma Habilidade **é a Intensidade escolhida** — não um valor fixo por habilidade. Isso vale igualmente para habilidades de arma e habilidades gerais de grupo:
 
-| PA | Critério | Exemplos já criados |
+| PA | Intensidade | O que ela entrega |
 |---|---|---|
-| ◈ (1) | Efeito instantâneo/reativo — buff rápido, defesa, gesto único | Escudo Mágico |
-| ◈◈ (2) | Conjuração padrão — a maioria dos ataques/efeitos de alvo único ou área pequena | Antigravidade, Cura, Petrificar, Relâmpago |
-| ◈◈◈ (3) | Domina o turno inteiro — grandes áreas, invocações, ultimates | Caminho da Espada, Dança Élfica, Chuva de Meteoros, Raios e Relâmpagos |
+| ◈ (1) | I | O efeito base — normalmente só o dano |
+| ◈◈ (2) | II | Acrescenta o efeito secundário (empurrar, Sangrando, Marcado) |
+| ◈◈◈ (3) | III | O efeito completo (derrubar, Atordoado) |
 
-Uma habilidade Suprema em Mana pode, em teoria, custar só ◈◈ se for um efeito rápido de gatilhar — a força está no efeito, não no tempo de execução.
+Como o pool é de 3 PA por turno, isso vira uma decisão a cada turno: **uma habilidade em Intensidade III consome o turno inteiro** (sem movimento, sem reação guardada), enquanto três usos em Intensidade I fazem muito mais coisa por muito menos efeito cada. Ver [Intensidade](../habilidades/index.md#intensidade).
+
+**Exceções — habilidades de Custo fixo.** Áreas de 3 casas de raio ou mais, Supremas e buffs sem rolagem não têm Intensidade: cobram um valor fixo de PA (quase sempre ◈◈◈) e entregam um único resultado. A força delas já está na área ou no efeito, não na graduação.

@@ -10,7 +10,7 @@ Um personagem de nível 1 é composto por:
 4. **1ª Habilidade** — de qualquer grupo, inclusive a Básica de uma arma (ver [Progressão de Nível](#progressão-de-nível) abaixo).
 5. **Equipamento inicial** — a arma (ou armas) que o personagem carrega fisicamente, escolhida livremente (frequentemente sugerida por um [Pacote](../pacotes/index.md)).
 
-**Ter uma arma em mãos e saber uma técnica nomeada dela são coisas diferentes.** Qualquer arma equipada pode ser usada com **Ataque Básico** (dano da arma, sem efeito de Tier — ver [Pontos de Ação](pontos-de-acao.md)), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade daquela arma. Aprender a Habilidade Básica de uma arma (gastando uma escolha de nível) é o que desbloqueia a técnica nomeada e os efeitos de Tier dela — e é sempre o primeiro passo: a Avançada e a Especial de uma arma só podem ser aprendidas depois da Básica (e da Avançada, respectivamente) daquela mesma arma (ver "Aprendizado progressivo" no topo do [Arsenal](arsenal.md)).
+**Ter uma arma em mãos e saber uma técnica nomeada dela são coisas diferentes.** Qualquer arma equipada pode ser usada com **Ataque Básico** (dano da arma, sem nenhum efeito extra — ver [Pontos de Ação](pontos-de-acao.md)), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade daquela arma. Aprender a Habilidade Básica de uma arma (gastando uma escolha de nível) é o que desbloqueia a técnica nomeada e as três [Intensidades](../habilidades/index.md#intensidade) dela — e é sempre o primeiro passo: a Avançada e a Especial de uma arma só podem ser aprendidas depois da Básica (e da Avançada, respectivamente) daquela mesma arma (ver "Aprendizado progressivo" no topo do [Arsenal](arsenal.md)).
 
 ## Atributos
 
@@ -88,7 +88,7 @@ Vida e Mana crescem automaticamente todo nível, independente dessa tabela — v
 
 Um teste é resolvido como **d20 + Atributo vs Dificuldade (DC)** definida pelo Mestre. Igualar ou superar a DC é sucesso.
 
-Tiers de Sucesso (fraco/médio/forte) são exclusivos de rolagens de Habilidade — ver [Ficha de Habilidade](../habilidades/index.md#ficha-de-habilidade). Testes gerais usam sucesso/fracasso simples.
+Rolagens de Habilidade usam exatamente a mesma lógica, trocando a DC pela Defesa do alvo — igualou ou superou, acertou. O quanto a habilidade faz **não depende da rolagem**: depende da [Intensidade](../habilidades/index.md#intensidade) que o jogador pagou.
 
 ### Iniciativa
 
@@ -138,7 +138,7 @@ Toda criatura (personagem ou monstro) tem uma **Base de Resiliência**, definida
 
 Essa lista não é fechada — cresce conforme habilidades novas pedirem.
 
-Essa fórmula é calibrada de propósito pra ficar compatível com os [Tiers de Sucesso](../habilidades/index.md#ficha-de-habilidade): contra a maioria dos alvos (Defesa 11+), Tier 1 nunca acontece — o pior resultado que ainda causa efeito já é Tier 2. Tier 1 só é alcançável contra alvos fracos ou despreparados (Defesa ≤10). Contra ameaças Lendárias, mesmo Tier 3 pode não ser suficiente sem um 20 natural.
+A Defesa decide **se** o golpe acerta, nunca o quanto ele faz — isso já foi decidido pela [Intensidade](../habilidades/index.md#intensidade) paga. Por isso a Defesa do alvo pesa na escolha de quanto investir: contra um alvo Lendário (Base 14 + atributo), gastar 3 PA e o Mana de uma Intensidade III num único ataque é uma aposta alta — se errar, perde tudo e o turno inteiro. Contra alvos Comuns, a mesma Intensidade III praticamente não erra.
 
 ### Resistência e Imunidade
 

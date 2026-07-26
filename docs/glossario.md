@@ -2,21 +2,53 @@
 
 Referência rápida dos termos usados na **Chave** de cada habilidade. Cada termo linka pra sua página de origem.
 
+## Condições
+
+Efeitos que uma habilidade impõe ao alvo. Salvo quando a habilidade disser outra coisa, duram **até o fim do próximo turno do alvo**.
+
+### Sangrando
+
+Perde **1d4 de Vida** no início do próximo turno dele.
+
+### Lento
+
+Movimento reduzido à **metade**.
+
+### Atordoado
+
+**Não pode agir** — nem ação, nem movimento, nem reação.
+
+### Marcado
+
+O **próximo ataque de um aliado** contra ele neste turno rola com Vantagem.
+
+### Envenenado
+
+Perde **1d4 de Vida** no início de cada um dos próximos turnos dele, até ser curado.
+
+### Escudo
+
+Pontos temporários que **absorvem dano** antes da Vida. Não acumulam com outro Escudo — vale o maior.
+
+### Risco
+
+Algumas habilidades cobram um preço de quem as usa: se **algum dos dados de dano cair em 1**, a habilidade escapa ao controle e o usuário sofre o efeito descrito na ficha dela. Reservado a habilidades de tema perigoso — lâminas amaldiçoadas, magia de sangue, poder emprestado.
+
 ## Graus de Habilidade de Arma
 
-Toda arma concede 3 habilidades, nesses graus fixos (ver [Arsenal](jogador/arsenal.md)):
+Toda arma concede 3 habilidades, aprendidas nessa ordem obrigatória (ver [Arsenal](jogador/arsenal.md)). O grau **não** define o custo — cada uma tem suas próprias [Intensidades](habilidades/index.md#intensidade) I/II/III. O que o grau define é o quanto a técnica entrega e o quanto de Mana ela cobra:
 
 ### Básica
 
-Custo ◈ (1 Ponto de Ação). Primeira habilidade de qualquer arma.
+Primeira habilidade de qualquer arma. Parte do dado da arma + um efeito leve. Mana: 1 / 3 / 6.
 
 ### Avançada
 
-Custo ◈◈ (2 Pontos de Ação).
+Bate mais forte que a Básica (tipicamente o dado dobrado) e alcança condições que ela não impõe. Mana: 2 / 5 / 9.
 
 ### Especial
 
-Custo ◈◈◈ (3 Pontos de Ação). A habilidade mais poderosa da arma.
+A habilidade mais poderosa da arma — dano alto, condição severa e frequentemente área. Mana: 3 / 7 / 12.
 
 ## Armas
 

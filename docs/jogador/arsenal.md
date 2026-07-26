@@ -1,20 +1,22 @@
 # Arsenal
 
-Cada arma concede acesso a 3 níveis de habilidade:
+Cada arma concede acesso a 3 habilidades, em ordem de aprendizado:
 
 1. **Habilidade Básica**
 2. **Habilidade Avançada**
 3. **Habilidade Especial**
 
-Cada grau consome Pontos de Ação ao ser usado:
+O grau **não** define o custo — cada uma das três é uma habilidade completa, com suas próprias [Intensidades](../habilidades/index.md#intensidade) I/II/III (◈, ◈◈, ◈◈◈). O que o grau define é **o quanto a técnica entrega** por Intensidade: a Básica atinge um alvo, a Especial costuma atingir uma área ou impor condições severas. O custo em Mana também sobe com o grau, então o investimento na arma fica visível na ficha:
 
-| Grau | Custo em Pontos de Ação |
-|---|---|
-| Básica | ◈ (1) |
-| Avançada | ◈◈ (2) |
-| Especial | ◈◈◈ (3) |
+| Grau | Intensidade I (◈) | Intensidade II (◈◈) | Intensidade III (◈◈◈) |
+|---|---|---|---|
+| Básica | 1 Mana | 3 Mana | 6 Mana |
+| Avançada | 2 Mana | 5 Mana | 9 Mana |
+| Especial | 3 Mana | 7 Mana | 12 Mana |
 
-**Aprendizado progressivo:** nenhum grau é automático só por empunhar a arma — cada um precisa ser aprendido separadamente, gastando uma escolha de Habilidade de nível (ver [Progressão de Nível](sistema-d20.md#progressão-de-nível)). Dentro de uma mesma arma, os graus seguem uma ordem obrigatória: só é possível aprender a Avançada depois de já ter a Básica *daquela arma*, e a Especial depois de já ter a Avançada *dela*. Essa trava vale só dentro da mesma arma — não afeta a liberdade de escolher habilidades gerais ou de outras armas a qualquer momento, em qualquer ordem. Empunhar uma arma sem ter aprendido nenhuma Habilidade dela ainda permite o Ataque Básico, sem efeito de Tier (ver [Criação de Personagem](sistema-d20.md#criação-de-personagem)).
+Especiais que cobrem **3 casas de raio ou mais** são exceção: têm **Custo fixo** de ◈◈◈ + 12 Mana e um único resultado, já que a área por si só é o poder da técnica.
+
+**Aprendizado progressivo:** nenhum grau é automático só por empunhar a arma — cada um precisa ser aprendido separadamente, gastando uma escolha de Habilidade de nível (ver [Progressão de Nível](sistema-d20.md#progressão-de-nível)). Dentro de uma mesma arma, os graus seguem uma ordem obrigatória: só é possível aprender a Avançada depois de já ter a Básica *daquela arma*, e a Especial depois de já ter a Avançada *dela*. Essa trava vale só dentro da mesma arma — não afeta a liberdade de escolher habilidades gerais ou de outras armas a qualquer momento, em qualquer ordem. Empunhar uma arma sem ter aprendido nenhuma Habilidade dela ainda permite o Ataque Básico, sem nenhum efeito extra (ver [Criação de Personagem](sistema-d20.md#criação-de-personagem)).
 
 ## Tabela de Dados de Dano
 
@@ -139,7 +141,7 @@ Armas com Requisito até agora: **Machado** (Força +2), **Montante** (Força +3
 
 Algumas armas têm uma mecânica única além das 3 habilidades normais — maldição, passiva, ou uma Reação exclusiva. O efeito completo está descrito na seção da própria arma, ao longo deste documento.
 
-- **Punhal** — o Tier 3/Crítico da Especial causa um Ferimento Amaldiçoado, que não cicatriza por cura normal.
+- **Punhal** — a Intensidade III/Crítico da Especial causa um Ferimento Amaldiçoado, que não cicatriza por cura normal.
 - **Espada Senciente** — reduz o Movimento do usuário em 1 casa enquanto equipada; sua energia de absorção vive na habilidade geral [Esferas Sombrias](../habilidades/magicas-elementais.md#sombras).
 - **Katana Muramasa** — a lâmina exige sangue: se não causar dano numa cena de combate, o usuário ganha Estresse.
 - **Soqueira Pesada** — habilita a Reação exclusiva [Impulso da Soqueira](../habilidades/mobilidade.md).
@@ -179,34 +181,32 @@ Dano: **1d4**
 *Um corte horizontal rápido, cravado no ponto certo pra desequilibrar o inimigo.*
 
 - **Chave:** [Adagas](../glossario.md#adagas) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d4 de dano
-- **Tier 2 (11–16):** 1d4 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d4 de dano + derruba o alvo
-- **Crítico:** dano máximo (4) + 1d4 extra, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d4 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d4 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d4 de dano + empurra 3 casas, derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo (4) + 1d4 extra, e sobe 1 Intensidade
 
 **Fúria Fatal** — *Avançada*
 
 *Um golpe imprevisível — às vezes de raspão, às vezes fatal.*
 
 - **Chave:** [Adagas](../glossario.md#adagas) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d4 de dano
-- **Tier 2 (11–16):** 2d4 de dano
-- **Tier 3 (≥17):** 4d4 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo do 4d4 (16) + 4d4 extra, e Sangrando
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d4 de dano
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 4d4 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 6d4 de dano + [Sangrando](../glossario.md#sangrando), e todo ataque contra o alvo rola com Vantagem até o fim do próximo turno dele
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Golpe Final** — *Especial*
 
 *Recua num salto enquanto crava lâminas certeiras no chão, longe do alcance de contra-ataques.*
 
 - **Chave:** [Adagas](../glossario.md#adagas) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor da posição original do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor da posição original do usuário
 - **Alcance do recuo:** até o valor de Movimento do personagem, em casas — o usuário se desloca pra trás, saindo da área afetada
-- **Tier 1 (≤10):** 1d4 de dano em cada alvo
-- **Tier 2 (11–16):** 1d4 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d4 de dano + Lento + derruba cada alvo
-- **Crítico:** dano máximo (4) + 1d4 extra em todos, Lento, e derruba cada alvo
+- **Acerto:** 2d4 de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento) e é derrubado
+- **Crítico (20 natural):** dano máximo (8) + 2d4 extra em todos, [Lento](../glossario.md#lento), e derruba cada alvo
 
 ## Alfange
 
@@ -223,33 +223,33 @@ Dano: **1d8**
 *Dois cortes baixos terminam com um golpe alto que lança o inimigo pro alto.*
 
 - **Chave:** [Alfange](../glossario.md#alfange) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Explosão em Corrente** — *Avançada*
 
 *Uma corrente presa ao braço golpeia o inimigo e o arrasta pra perto.*
 
 - **Chave:** [Alfange](../glossario.md#alfange) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + puxa 2 casas
-- **Tier 3 (≥17):** 1d8 de dano + puxa 3 casas e derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, puxa 3 casas, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano + puxa 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + puxa 3 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + puxa 5 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Golpe Fantasma** — *Especial*
 
 *O corpo se desfaz em fumaça e avança rapidamente, cortando tudo no caminho antes de retornar à posição original.*
 
 - **Chave:** [Alfange](../glossario.md#alfange) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Atributo:** Força ou Agilidade | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Arco
 
@@ -262,33 +262,29 @@ Dano: **1d8**
 *Uma rajada de flechas disparada tão rápido que parece um único golpe.*
 
 - **Chave:** [Arco](../glossario.md#arco) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
-- **Tier 3 (≥17):** 1d8 de dano + Marcado + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, Marcado, e derruba o alvo
+- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + alvo fica [Marcado](../glossario.md#marcado)
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + Marcado + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + Marcado + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Chuva de Flechas** — *Avançada*
 
 *Uma cortina de flechas desaba do céu, cobrindo uma área inteira antes que qualquer um consiga fugir.*
 
 - **Chave:** [Arco](../glossario.md#arco) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + flechas cravadas viram Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
-- **Tier 3 (≥17):** 1d8 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, Terreno Difícil, e Lento
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 3 casas de raio do ponto
+- **Acerto:** 1d8 de dano + Terreno Difícil + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, Terreno Difícil, e Lento
 
 **Tempestade de Flechas** — *Especial*
 
 *Um turbilhão de flechas se espalha em todas as direções ao redor da arqueira.*
 
 - **Chave:** [Arco](../glossario.md#arco) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Acerto:** 1d8 de dano + Sangrando + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
 
 ## Báculo
 
@@ -301,33 +297,33 @@ Dano: **1d8**
 *Três golpes certeiros terminam erguendo o inimigo no ar.*
 
 - **Chave:** [Báculo](../glossario.md#báculo) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Tiro da Sereia** — *Avançada*
 
 *Um orbe sonoro é disparado contra o alvo à distância.*
 
 - **Chave:** [Báculo](../glossario.md#báculo) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Mergulho Sonoro** — *Especial*
 
 *Um salto termina num mergulho certeiro, orbe e corpo atingindo juntos.*
 
 - **Chave:** [Báculo](../glossario.md#báculo) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o ponto
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Balista
 
@@ -340,33 +336,33 @@ Dano: **1d12**
 *Uma flecha comprida atravessa todo o campo de batalha numa linha reta.*
 
 - **Chave:** [Balista](../glossario.md#balista) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Agilidade | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Vento Branco** — *Avançada*
 
 *O arco gira como uma lâmina, num redemoinho que acerta tudo ao redor.*
 
 - **Chave:** [Balista](../glossario.md#balista) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Chakra** — *Especial*
 
 *Flechas disparadas pro alto caem simultaneamente dos dois lados, com força total.*
 
 - **Chave:** [Balista](../glossario.md#balista) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alvos:** duas linhas de 3 casas, uma de cada lado do usuário
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Agilidade | **Alvos:** duas linhas de 3 casas, uma de cada lado do usuário
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Bastão
 
@@ -379,33 +375,33 @@ Dano: **1d8**
 *Dois golpes ascendentes erguem o inimigo no ar.*
 
 - **Chave:** [Bastão](../glossario.md#bastão) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte em Espiral** — *Avançada*
 
 *Três giros pra frente terminam num golpe final pesado.*
 
 - **Chave:** [Bastão](../glossario.md#bastão) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 2d8 de dano
-- **Tier 3 (≥17):** 2d8 de dano + derruba o alvo
-- **Crítico:** dano máximo do 2d8 (16) + 2d8 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + empurra 3 casas, derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida Celestial** — *Especial*
 
 *Um giro rápido crava o bastão no chão — o usuário salta ao alto e desaba com força total.*
 
 - **Chave:** [Bastão](../glossario.md#bastão) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o ponto
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Bestas
 
@@ -418,33 +414,33 @@ Dano: **1d6**
 *Quatro dardos disparam em formação de leque, cobrindo um arco à frente.*
 
 - **Chave:** [Bestas](../glossario.md#bestas) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Chute Trampolim** — *Avançada*
 
 *Um chute simples mas certeiro lança o inimigo pro alto.*
 
 - **Chave:** [Bestas](../glossario.md#bestas) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra, e Atordoado
+- **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida Retumbante** — *Especial*
 
 *O corpo inteiro dispara pra frente como uma flecha viva, arrasando quem estiver no caminho.*
 
 - **Chave:** [Bestas](../glossario.md#bestas) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo, usuário se desloca até o fim da linha
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o fim da linha
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Bolsa de Truques
 
@@ -457,33 +453,33 @@ Dano: **1d10**
 *Um buquê é sacado da bolsa e golpeia três vezes em sequência.*
 
 - **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Canhão Portátil** — *Avançada*
 
 *Um canhão é sacado da bolsa, disparando uma bomba que explode ao contato.*
 
 - **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Metralhadora da Bolsa** — *Especial*
 
 *Uma metralhadora surge da bolsa, disparando uma rajada certeira contra tudo à frente.*
 
 - **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Cajado
 
@@ -498,33 +494,29 @@ Dano: **1d10**
 *Um pulso de energia neutra é disparado da ponta do cajado.*
 
 - **Chave:** [Cajado](../glossario.md#cajado) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Onda do Cajado** — *Avançada*
 
 *Uma onda de força neutra se espalha a partir de um ponto escolhido.*
 
 - **Chave:** [Cajado](../glossario.md#cajado) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d10 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
 
 **Ruptura Arcana** — *Especial*
 
 *A canalização se rompe de vez, liberando toda a energia acumulada ao redor do usuário.*
 
 - **Chave:** [Cajado](../glossario.md#cajado) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Acerto:** 1d10 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
 
 ## Cetro
 
@@ -539,33 +531,29 @@ Dano: **1d8**
 *Um pulso de energia bruta, sem forma definida, moldado pela vontade de quem o lança.*
 
 - **Chave:** [Cetro](../glossario.md#cetro) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Descarga Arcana** — *Avançada*
 
 *Uma onda de energia crua se espalha, indiferente à forma que toma.*
 
 - **Chave:** [Cetro](../glossario.md#cetro) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Reação
-- **Tier 3 (≥17):** 1d8 de dano + cada alvo perde a próxima Ação Básica e Reação
-- **Crítico:** dano máximo (8) + 1d8 extra em todos + efeito do Tier 3 em todos
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 3 casas de raio do ponto
+- **Acerto:** 1d8 de dano + cada alvo perde a próxima Ação Básica e Reação
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos
 
 **Explosão Arcana** — *Especial*
 
 *Toda a energia acumulada é liberada de uma vez, num estrondo que sacode o campo de batalha.*
 
 - **Chave:** [Cetro](../glossario.md#cetro) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 ## Chakram
 
@@ -580,33 +568,31 @@ Dano: **1d6**
 *Um disco de lâminas gira pelo ar, corta o alvo, e retorna à mão como se nunca tivesse partido.*
 
 - **Chave:** [Chakram](../glossario.md#chakram) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Ricochete Mortal** — *Avançada*
 
 *O chakram ricocheteia de inimigo a inimigo, cortando a todos antes de voltar à mão.*
 
 - **Chave:** [Chakram](../glossario.md#chakram) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 3 criaturas diferentes, atingidas em sequência
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos neste turno rola com vantagem (rola 2x e fica com o maior)
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e vantagem pro próximo ataque aliado
+- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 3 criaturas diferentes, atingidas em sequência
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos neste turno rola com vantagem (rola 2x e fica com o maior)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos neste turno rola com vantagem (rola 2x e fica com o maior), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Círculo da Perdição** — *Especial*
 
 *O chakram descreve um círculo perfeito ao redor de um ponto escolhido, cortando tudo que estiver na borda antes de retornar.*
 
 - **Chave:** [Chakram](../glossario.md#chakram) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (centro) | **Alvos:** todas as criaturas na borda de um círculo de 3 casas de raio
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + a área vira Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
-- **Tier 3 (≥17):** 1d6 de dano + Terreno Difícil + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, Terreno Difícil, e Lento
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Agilidade | **Alcance:** 8 casas (centro) | **Alvos:** todas as criaturas na borda de um círculo de 3 casas de raio
+- **Acerto:** 1d6 de dano + Terreno Difícil + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, Terreno Difícil, e Lento
 
 ## Chicote
 
@@ -621,33 +607,33 @@ Dano: **1d6**
 *O chicote estala no ar antes de fisgar o alvo à distância.*
 
 - **Chave:** [Chicote](../glossario.md#chicote) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 4 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + puxa 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + puxa 2 casas
-- **Crítico:** dano máximo (6) + 1d6 extra, e puxa 2 casas
+- **Atributo:** Força ou Agilidade | **Alcance:** 4 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + puxa 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + puxa 2 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + puxa 4 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Chicotada em Arco** — *Avançada*
 
 *Um giro largo faz o couro cortar o ar num arco amplo, alcançando vários alvos de uma vez.*
 
 - **Chave:** [Chicote](../glossario.md#chicote) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 3 casas | **Alvos:** até 3 criaturas diferentes ao alcance
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + cada alvo perde a próxima Reação
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e todos perdem a próxima Reação
+- **Atributo:** Força ou Agilidade | **Alcance:** 3 casas | **Alvos:** até 3 criaturas diferentes ao alcance
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 1 casa cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + cada alvo perde a próxima Reação + empurra 3 casas cada alvo e derruba cada alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Laço Inescapável** — *Especial*
 
 *As correntes se enrolam no alvo como uma serpente, prendendo-o por completo.*
 
 - **Chave:** [Chicote](../glossario.md#chicote) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alcance:** 5 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d6 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra, e Atordoado
+- **Atributo:** Força ou Agilidade | **Alcance:** 5 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Cubo Mágico
 
@@ -662,33 +648,29 @@ Dano: **1d8**
 *Um pulso de energia crua é disparado do cubo, sem forma ou tema definido.*
 
 - **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Ruptura do Cubo** — *Avançada*
 
 *O cubo gira sobre si mesmo antes de liberar uma onda de força numa área.*
 
 - **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 **Colapso do Cubo** — *Especial*
 
 *Todas as faces do cubo se abrem de uma vez, liberando toda a energia contida ao redor do usuário.*
 
 - **Chave:** [Cubo Mágico](../glossario.md#cubo-mágico) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 ## Égide
 
@@ -701,33 +683,33 @@ Dano: **1d6**
 *Três cortes rápidos terminam num golpe descendente poderoso.*
 
 - **Chave:** [Égide](../glossario.md#égide) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida Furiosa** — *Avançada*
 
 *Dois golpes ascendentes furiosos erguem o inimigo no ar.*
 
 - **Chave:** [Égide](../glossario.md#égide) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + empurra 4 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Estocada Arcana** — *Especial*
 
 *Um círculo mágico se forma à frente da lâmina, e uma estocada o atravessa, perfurando tudo numa longa linha reta.*
 
 - **Chave:** [Égide](../glossario.md#égide) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Espada
 
@@ -740,34 +722,34 @@ Dano: **1d8**
 *Um golpe preciso e brutal, direto ao ponto fraco do inimigo.*
 
 - **Chave:** [Espada](../glossario.md#espada) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, Sangrando, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + Sangrando + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + Sangrando + derruba o alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Redemoinho de Aço** — *Avançada*
 
 *Um giro completo da lâmina, cortando tudo que estiver ao alcance.*
 
 - **Chave:** [Espada](../glossario.md#espada) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + Sangrando + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Crítico X** — *Especial*
 
 *O guerreiro salta e desaba sobre o chão como um meteoro de aço.*
 
 - **Chave:** [Espada](../glossario.md#espada) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** área de 2 casas de raio ao redor de um ponto de queda
+- **Atributo:** Força | **Alvos:** área de 2 casas de raio ao redor de um ponto de queda
 - **Alcance do salto:** até o valor de Movimento do personagem, em casas
-- **Tier 1 (≤10):** 1d8 de dano, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo atingido
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo atingido
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano + empurra 1 casa cada alvo atingido, e o usuário se desloca até o ponto
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + derruba cada alvo atingido
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo atingido, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Espada Senciente
 
@@ -784,33 +766,33 @@ Dano: **1d12**
 *Um golpe lento, mas de peso avassalador.*
 
 - **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Giro Devastador** — *Avançada*
 
 *A lâmina gigante gira num arco largo, varrendo tudo ao redor.*
 
 - **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d12 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, Sangrando, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + Sangrando + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Golpe Colossal** — *Especial*
 
 *Um golpe único capaz de rachar o chão com seu impacto.*
 
 - **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d12 de dano + Atordoado + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, Atordoado, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + Atordoado + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + Atordoado + derruba o alvo, e empurra 2 casas
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Espada-Chave
 
@@ -825,33 +807,33 @@ Dano: **1d8**
 *Três cortes rápidos terminam com uma estocada poderosa que arremessa o inimigo pra trás.*
 
 - **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d8 de dano + empurra 4 casas
-- **Crítico:** dano máximo (8) + 1d8 extra, e empurra 4 casas
+- **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + empurra 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + empurra 6 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida Celestial** — *Avançada*
 
 *Dois cortes seguidos de um golpe ascendente que lança o inimigo pro alto.*
 
 - **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Tempestade Divina** — *Especial*
 
 *Uma sequência de estocadas termina num salto que invoca lâminas do chão ao redor.*
 
 - **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Atributo:** Força ou Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Espingarda
 
@@ -864,33 +846,33 @@ Dano: **1d10**
 *Um único disparo carregado com força total, mirado no ponto fraco do alvo.*
 
 - **Chave:** [Espingarda](../glossario.md#espingarda) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Estampido Fatal** — *Avançada*
 
 *O coice da arma é quase tão brutal quanto o próprio disparo.*
 
 - **Chave:** [Espingarda](../glossario.md#espingarda) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 2d10 de dano
-- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo
-- **Crítico:** dano máximo do 2d10 (20) + 2d10 extra, e derruba o alvo
+- **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano + empurra o alvo 2 casas, e o coice empurra o próprio usuário 1 casa pra trás
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + empurra o alvo 3 casas e derruba, e o coice empurra o usuário 1 casa pra trás
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + empurra o alvo 4 casas, derruba, e ele perde a próxima Reação; o coice empurra o usuário 2 casas pra trás
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Sentença de Hades** — *Especial*
 
 *Um disparo final e implacável — a lenda diz que essa arma já mandou almas direto pro além com um único tiro.*
 
 - **Chave:** [Espingarda](../glossario.md#espingarda) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 12 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 2d10 de dano, ignora Armadura do alvo
-- **Tier 2 (11–16):** 2d10 de dano + empurra 3 casas, ignora Armadura
-- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo, ignora Armadura
-- **Crítico:** dano máximo (20) + 2d10 extra, derruba o alvo, e ignora Armadura
+- **Atributo:** Agilidade | **Alcance:** 12 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano, ignora Armadura do alvo + empurra 3 casas, ignora Armadura
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba o alvo, ignora Armadura
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba o alvo, ignora Armadura, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Flintlock
 
@@ -903,33 +885,31 @@ Dano: **1d8**
 *Um disparo preciso atordoa o alvo e rouba um pouco de sua energia mágica.*
 
 - **Chave:** [Flintlock](../glossario.md#flintlock) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 5 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + alvo perde a próxima Reação
-- **Tier 3 (≥17):** 1d8 de dano + perde a próxima Reação + alvo perde 2 Mana
-- **Crítico:** dano máximo (8) + 1d8 extra + perde Reação + alvo perde 4 Mana
+- **Atributo:** Agilidade | **Alcance:** 5 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + perde a próxima Reação + alvo perde 2 Mana
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + alvo perde a próxima Reação + perde a próxima Reação + alvo perde 2 Mana
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + perde a próxima Reação + alvo perde 2 Mana, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Disparo Duplo** — *Avançada*
 
 *Dois tiros rápidos e certeiros, cada um mirando um alvo diferente.*
 
 - **Chave:** [Flintlock](../glossario.md#flintlock) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 5 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em cada, e derruba cada alvo
+- **Atributo:** Agilidade | **Alcance:** 5 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Saraivada** — *Especial*
 
 *Uma rajada de tiros cobre uma área inteira, sem dar chance de fuga.*
 
 - **Chave:** [Flintlock](../glossario.md#flintlock) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 5 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Agilidade | **Alcance:** 5 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 ## Florete
 
@@ -944,33 +924,33 @@ Dano: **1d6**
 *Um avanço rápido crava a lâmina fina no alvo antes que ele perceba.*
 
 - **Chave:** [Florete](../glossario.md#florete) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa, e o usuário se desloca até o alvo
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida Frenética** — *Avançada*
 
 *Uma sequência de estocadas rápidas avança em linha reta, perfurando tudo no caminho.*
 
 - **Chave:** [Florete](../glossario.md#florete) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Força ou Agilidade | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Giro Circular** — *Especial*
 
 *Um giro completo com a lâmina estendida arremessa qualquer um que estiver perto pra longe.*
 
 - **Chave:** [Florete](../glossario.md#florete) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e empurra 4 casas
+- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 2 casas cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + empurra 4 casas cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + empurra 6 casas cada alvo e derruba cada alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Foice
 
@@ -983,33 +963,33 @@ Dano: **1d10**
 *Um corte largo e certeiro, guiado pelo peso da lâmina curva.*
 
 - **Chave:** [Foice](../glossario.md#foice) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Ceifar** — *Avançada*
 
 *Um giro amplo da foice, ceifando tudo ao alcance como trigo maduro.*
 
 - **Chave:** [Foice](../glossario.md#foice) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d10 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, Sangrando, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + Sangrando + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Golpe da Colheita** — *Especial*
 
 *Um golpe final, pesado e implacável, como o fim de um ciclo.*
 
 - **Chave:** [Foice](../glossario.md#foice) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
-- **Tier 3 (≥17):** 1d10 de dano + Marcado + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, Marcado, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano + alvo fica [Marcado](../glossario.md#marcado)
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + Marcado + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + Marcado + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Gadanha
 
@@ -1022,33 +1002,33 @@ Dano: **1d10**
 *Um corte rápido é seguido por um salto e um golpe diagonal certeiro.*
 
 - **Chave:** [Gadanha](../glossario.md#gadanha) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Asa de Corvo** — *Avançada*
 
 *A foice é arremessada a curta distância, girando furiosamente no ar antes de retornar à mão.*
 
 - **Chave:** [Gadanha](../glossario.md#gadanha) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 6 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + puxa 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + puxa 3 casas e derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, puxa 3 casas, e derruba o alvo
+- **Atributo:** Força | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano + puxa 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + puxa 3 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + puxa 5 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Ceifa Ampla** — *Especial*
 
 *Um giro completo com a foice ceifa tudo ao alcance, num arco largo e implacável.*
 
 - **Chave:** [Gadanha](../glossario.md#gadanha) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e Sangrando
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Gakkung
 
@@ -1063,33 +1043,31 @@ Dano: **1d6**
 *Um golpe de ombro desequilibra o inimigo antes de uma rajada de flechas certeiras.*
 
 - **Chave:** [Gakkung](../glossario.md#gakkung) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa, e o usuário se desloca até o alvo
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Chute Aéreo** — *Avançada*
 
 *Um salto termina num chute certeiro desde o alto.*
 
 - **Chave:** [Gakkung](../glossario.md#gakkung) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
+- **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + empurra 4 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Rajada Explosiva** — *Especial*
 
 *Uma saraivada de flechas cobre uma área inteira, explodindo ao contato.*
 
 - **Chave:** [Gakkung](../glossario.md#gakkung) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d6 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Garras
 
@@ -1104,33 +1082,33 @@ Dano: **1d6**
 *Uma investida veloz corta o inimigo com uma sequência de golpes rápidos.*
 
 - **Chave:** [Garras](../glossario.md#garras) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa, e o usuário se desloca até o alvo
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Lâmina Sem Limites** — *Avançada*
 
 *Uma rajada de cortes rápidos termina com o lutador atacando repetidamente pelas costas do inimigo.*
 
 - **Chave:** [Garras](../glossario.md#garras) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo perde a próxima Reação
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + alvo perde a próxima Reação + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida das Sombras** — *Especial*
 
 *As garras se tornam um borrão, cortando tudo ao redor num único movimento contínuo.*
 
 - **Chave:** [Garras](../glossario.md#garras) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Sangrando
+- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Gládio
 
@@ -1147,34 +1125,34 @@ Dano: **1d6**
 *Uma estocada rápida, impulsionada por magia ancestral.*
 
 - **Chave:** [Gládio](../glossario.md#gládio) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano, usuário se desloca até o alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força ou Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa, e o usuário se desloca até o alvo
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte em Cruz** — *Avançada*
 
 *Dois cortes cruzados seguidos de uma aura protetora ao redor do lutador.*
 
 - **Chave:** [Gládio](../glossario.md#gládio) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + usuário ganha Escudo de 1d6 pontos
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo + usuário ganha Escudo de 1d6 pontos
-- **Crítico:** dano máximo (6) + 1d6 extra + derruba o alvo + Escudo de 1d6 pontos
+- **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + usuário ganha Escudo de 1d6 pontos
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + derruba o alvo + usuário ganha Escudo de 1d6 pontos
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba o alvo + usuário ganha Escudo de 1d6 pontos, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Lâmina Tempestuosa** — *Especial*
 
 *Uma rajada de golpes furiosos que termina com um corte devastador — o lutador pode se mover livremente durante o ataque.*
 
 - **Chave:** [Gládio](../glossario.md#gládio) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Inteligência | **Alvos:** até 3 criaturas à escolha, ao alcance corpo a corpo
+- **Atributo:** Força ou Inteligência | **Alvos:** até 3 criaturas à escolha, ao alcance corpo a corpo
 - **Efeito adicional:** o usuário pode se mover livremente até seu Movimento em casas durante o ataque, sem gastar PA extra
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + Sangrando + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Glaive
 
@@ -1187,33 +1165,33 @@ Dano: **1d10**
 *Duas varreduras baixas erguem o inimigo, seguidas de dois golpes ascendentes e um último golpe mais forte.*
 
 - **Chave:** [Glaive](../glossario.md#glaive) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida do Dragão** — *Avançada*
 
 *O usuário dispara pra frente, atravessando qualquer coisa no caminho.*
 
 - **Chave:** [Glaive](../glossario.md#glaive) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o fim da linha
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o fim da linha
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Salto do Dragão** — *Especial*
 
 *Um salto termina numa queda diagonal, a lâmina cravando fundo no ponto de impacto.*
 
 - **Chave:** [Glaive](../glossario.md#glaive) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o ponto
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Katana Muramasa
 
@@ -1232,33 +1210,33 @@ Dano: **1d10**
 *Dois cortes rápidos terminam com um salto e um golpe duplo no ar.*
 
 - **Chave:** [Katana Muramasa](../glossario.md#katana-muramasa) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Relâmpago do Vento** — *Avançada*
 
 *Um corte ascendente é seguido por um salto e uma estocada mergulhante desde o alto.*
 
 - **Chave:** [Katana Muramasa](../glossario.md#katana-muramasa) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano, usuário se desloca até o alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano + empurra 2 casas, e o usuário se desloca até o alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Rajada Violenta** — *Especial*
 
 *Um salto termina com três ondas de energia cortante disparadas pra frente, deixando feridas profundas.*
 
 - **Chave:** [Katana Muramasa](../glossario.md#katana-muramasa) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, empurra 1 casa, e Sangrando
+- **Atributo:** Força ou Agilidade | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Katana Nodachi
 
@@ -1275,33 +1253,33 @@ Dano: **1d10**
 *Um corte único, rápido e certeiro.*
 
 - **Chave:** [Katana Nodachi](../glossario.md#katana-nodachi) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Lâmina Fantasma** — *Avançada*
 
 *Uma rajada de cortes rápidos termina com um golpe final decisivo.*
 
 - **Chave:** [Katana Nodachi](../glossario.md#katana-nodachi) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e Sangrando
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Espírito da Lâmina** — *Especial*
 
 *Uma energia espectral triplica o alcance da lâmina — dois cortes ascendentes terminam num golpe descendente devastador.*
 
 - **Chave:** [Katana Nodachi](../glossario.md#katana-nodachi) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Lâmina
 
@@ -1316,33 +1294,33 @@ Dano: **1d8**
 *Um giro completo da lâmina antes de descer com um golpe brutal.*
 
 - **Chave:** [Lâmina](../glossario.md#lâmina) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte Rasante** — *Avançada*
 
 *A lâmina raspa o chão numa investida rasteira, cortando as pernas de quem estiver no caminho.*
 
 - **Chave:** [Lâmina](../glossario.md#lâmina) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + empurra 2 casas cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + empurra 2 casas e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + empurra 4 casas e derruba cada alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Punição Ascendente** — *Especial*
 
 *Um corte ascendente gigantesco, executado duas vezes no ar — a distância pode ser ajustada em pleno voo.*
 
 - **Chave:** [Lâmina](../glossario.md#lâmina) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** até o valor de Movimento, em casas (ajustável em pleno ataque) | **Alvos:** 1 criatura, atingida 2 vezes
-- **Tier 1 (≤10):** 1d8 de dano por acerto
-- **Tier 2 (11–16):** 1d8 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele) por acerto
-- **Tier 3 (≥17):** 1d8 de dano + Sangrando + derruba (aplicado no 2º acerto)
-- **Crítico:** dano máximo (8) + 1d8 extra por acerto, Sangrando, e derruba
+- **Atributo:** Força | **Alcance:** até o valor de Movimento, em casas (ajustável em pleno ataque) | **Alvos:** 1 criatura, atingida 2 vezes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano por acerto + alvo fica [Sangrando](../glossario.md#sangrando) por acerto
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + Sangrando + derruba (aplicado no 2º acerto)
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + Sangrando + derruba (aplicado no 2º acerto), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Lâmina do Crepúsculo
 
@@ -1355,33 +1333,34 @@ Dano: **1d10**
 *A lâmina é arremessada pro alto, apanhada de volta num corte, seguido de vários golpes rápidos e uma estocada final.*
 
 - **Chave:** [Lâmina do Crepúsculo](../glossario.md#lâmina-do-crepúsculo) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 2d10 de dano
-- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo
-- **Crítico:** dano máximo do 2d10 (20) + 2d10 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando) e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando), derruba o alvo, e ele perde a próxima Reação
+- **[Risco](../glossario.md#risco):** se algum dos dados de dano cair em 1, as trevas cobram o preço — o usuário perde 1d6 de Vida
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Explosão de Rocha** — *Avançada*
 
 *Uma rajada de golpes é seguida por um salto e uma barragem final, terminando numa explosão poderosa.*
 
 - **Chave:** [Lâmina do Crepúsculo](../glossario.md#lâmina-do-crepúsculo) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Ferrão do Tornado** — *Especial*
 
 *Uma array giratória de lâminas espectrais é arremessada à frente, gira furiosamente no ponto mais distante, e retorna cortando tudo de novo.*
 
 - **Chave:** [Lâmina do Crepúsculo](../glossario.md#lâmina-do-crepúsculo) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha, atingidas até 2 vezes (ida e volta)
-- **Tier 1 (≤10):** 1d10 de dano por acerto
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa por acerto
-- **Tier 3 (≥17):** 1d10 de dano + derruba por acerto
-- **Crítico:** dano máximo (10) + 1d10 extra por acerto, e derruba
+- **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha, atingidas até 2 vezes (ida e volta)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano por acerto + empurra 1 casa por acerto
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba por acerto
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba por acerto, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Lâmina Dupla
 
@@ -1394,33 +1373,33 @@ Dano: **1d6**
 *Dois cortes seguidos de um giro veloz lançam o inimigo pro alto.*
 
 - **Chave:** [Lâmina Dupla](../glossario.md#lâmina-dupla) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Impacto da Alma** — *Avançada*
 
 *Uma aura de força se ergue da lâmina, arremessando o inimigo através do campo de batalha.*
 
 - **Chave:** [Lâmina Dupla](../glossario.md#lâmina-dupla) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas
-- **Crítico:** dano máximo (6) + 1d6 extra, e empurra 4 casas
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + empurra 6 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Fantasma Giratório** — *Especial*
 
 *O corpo gira em alta velocidade, avançando através de tudo que estiver no caminho.*
 
 - **Chave:** [Lâmina Dupla](../glossario.md#lâmina-dupla) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo, usuário se desloca até o fim da linha
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o fim da linha
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Lâmpada
 
@@ -1437,33 +1416,29 @@ Dano: **1d8**
 *Uma chama neutra é liberada da lâmpada, sem forma definida.*
 
 - **Chave:** [Lâmpada](../glossario.md#lâmpada) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Clarão da Lâmpada** — *Avançada*
 
 *Um clarão intenso se espalha numa área, sem tema ou elemento definido.*
 
 - **Chave:** [Lâmpada](../glossario.md#lâmpada) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 **Explosão Espiritual** — *Especial*
 
 *Toda a energia contida na lâmpada é liberada de uma vez, ao redor do usuário.*
 
 - **Chave:** [Lâmpada](../glossario.md#lâmpada) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 ## Lança
 
@@ -1476,33 +1451,33 @@ Dano: **1d10**
 *A lança gira no ar antes de bater com força total no chão.*
 
 - **Chave:** [Lança](../glossario.md#lança) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida Ascendente** — *Avançada*
 
 *Duas estocadas rápidas terminam com um golpe ascendente que ergue o inimigo do chão.*
 
 - **Chave:** [Lança](../glossario.md#lança) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Crítico:** dano máximo (10) + 1d10 extra, e Atordoado
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte Compacto** — *Especial*
 
 *Um giro horizontal completo acerta tudo à frente e atrás.*
 
 - **Chave:** [Lança](../glossario.md#lança) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Leque
 
@@ -1517,33 +1492,33 @@ Dano: **1d6**
 *Um clarão repentino atinge o alvo com um golpe de luz condensada.*
 
 - **Chave:** [Leque](../glossario.md#leque) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Olho da Tempestade** — *Avançada*
 
 *Uma esfera de energia paira no ar antes de se romper num pequeno vórtice.*
 
 - **Chave:** [Leque](../glossario.md#leque) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Lampejo Final** — *Especial*
 
 *Uma onda de força é disparada à distância, atravessando tudo em seu caminho.*
 
 - **Chave:** [Leque](../glossario.md#leque) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Inteligência | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Machado
 
@@ -1558,33 +1533,33 @@ Dano: **1d12**
 *Dois golpes largos em sequência, arremessando o inimigo pro alto.*
 
 - **Chave:** [Machado](../glossario.md#machado) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Fúria do Titã** — *Avançada*
 
 *Uma pancada brutal que arremessa o inimigo longe, com toda a força do machado.*
 
 - **Chave:** [Machado](../glossario.md#machado) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d12 de dano + empurra 3 casas e derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, empurra 3 casas e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + empurra 3 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + empurra 5 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Arremesso Selvagem** — *Especial*
 
 *O machado voa da mão, corta tudo em seu caminho, e retorna às mãos do guerreiro — atingindo de novo na volta.*
 
 - **Chave:** [Machado](../glossario.md#machado) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha, atingidas até 2 vezes (ida e volta)
-- **Tier 1 (≤10):** 1d12 de dano por acerto
-- **Tier 2 (11–16):** 1d12 de dano + Sangrando (perde 1d4 de Vida no início do próximo turno) por acerto
-- **Tier 3 (≥17):** 1d12 de dano + Sangrando + derruba por acerto
-- **Crítico:** dano máximo (12) + 1d12 extra por acerto, Sangrando, e derruba
+- **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha, atingidas até 2 vezes (ida e volta)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano por acerto + Sangrando (perde 1d4 de Vida no início do próximo turno) por acerto
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + Sangrando + derruba por acerto
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + Sangrando + derruba por acerto, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Mangual
 
@@ -1597,34 +1572,34 @@ Dano: **1d10**
 *A bola de ferro gira antes de desabar com um peso imprevisível.*
 
 - **Chave:** [Mangual](../glossario.md#mangual) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Redemoinho de Correntes** — *Avançada*
 
 *O mangual gira em círculos cada vez mais largos, esmagando tudo que estiver por perto.*
 
 - **Chave:** [Mangual](../glossario.md#mangual) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Golpe Imparável** — *Especial*
 
 *O peso e a imprevisibilidade das correntes tornam esse golpe quase impossível de bloquear.*
 
 - **Chave:** [Mangual](../glossario.md#mangual) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alvos:** 1 criatura
 - **Efeito:** este ataque ignora bônus de Defesa vindo de Escudos e da habilidade Bloqueio
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + empurra 4 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Manopla
 
@@ -1639,34 +1614,34 @@ Dano: **1d6**
 *Um soco certeiro que trava a respiração do alvo por um instante.*
 
 - **Chave:** [Manopla](../glossario.md#manopla) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo perde a próxima Reação
-- **Tier 3 (≥17):** 1d6 de dano + perde Reação e Ação Básica
-- **Crítico:** dano máximo (6) + 1d6 extra + perde Reação e Ação Básica
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + alvo perde a próxima Reação e a próxima Ação Básica
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + alvo perde a próxima Reação e Ação Básica, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Punhos em Cadeia** — *Avançada*
 
 *Uma explosão de socos em todas as direções, rápidos demais pra bloquear.*
 
 - **Chave:** [Manopla](../glossario.md#manopla) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, Sangrando, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + Sangrando + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Punho Rompe-Guarda** — *Especial*
 
 *Um único soco carregado de força total, capaz de atravessar qualquer defesa.*
 
 - **Chave:** [Manopla](../glossario.md#manopla) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alvos:** 1 criatura
 - **Efeito:** ignora o bônus de Armadura na Defesa do alvo
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + derruba o alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra + Atordoado
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba o alvo + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba o alvo + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Manopla Mística
 
@@ -1679,31 +1654,31 @@ Dano: **1d8**
 *Um espírito é convocado da gema pra atacar o alvo antes de se dissipar.*
 
 - **Chave:** [Manopla Mística](../glossario.md#manopla-mística) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Círculo de Invocação** — *Avançada*
 
 *Um pentagrama se abre no chão, liberando pequenas criaturas que atacam tudo ao redor antes de sumir.*
 
 - **Chave:** [Manopla Mística](../glossario.md#manopla-mística) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Guardião Invocado** — *Especial*
 
 *Um hexagrama brilha intensamente, materializando um guardião que ataca repetidamente antes de retornar à gema.*
 
 - **Chave:** [Manopla Mística](../glossario.md#manopla-mística) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Custo fixo:** ◈◈◈ (3 PA) + 3 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Efeito:** o alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
-- *(Sem Tiers de Sucesso — efeito automático, sem teste de ataque)*
+- *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
 ## Manual
 
@@ -1718,33 +1693,29 @@ Dano: **1d6**
 *Uma fórmula mágica se materializa na página e dispara como um projétil certeiro.*
 
 - **Chave:** [Manual](../glossario.md#manual) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Detonação Calculada** — *Avançada*
 
 *Uma sequência de símbolos se acende e detona num raio perfeitamente calculado.*
 
 - **Chave:** [Manual](../glossario.md#manual) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + cada alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
-- **Tier 3 (≥17):** 1d6 de dano + Marcado + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, Marcado, e derruba cada alvo
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d6 de dano + Marcado + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, Marcado, e derruba cada alvo
 
 **Construto Temporário** — *Especial*
 
 *Um construto de energia se materializa por um instante, atacando com precisão mecânica antes de se desfazer.*
 
 - **Chave:** [Manual](../glossario.md#manual) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Acerto:** 1d6 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Marreta Mágica
 
@@ -1757,33 +1728,33 @@ Dano: **1d12**
 *Um golpe de taco arremessa o inimigo pro alto — uma bomba grudada nele explode antes da queda.*
 
 - **Chave:** [Marreta Mágica](../glossario.md#marreta-mágica) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d12 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, empurra 2 casas, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + empurra 4 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Impacto Propulsor** — *Avançada*
 
 *Propulsores escondidos na marreta disparam, somando força total a um golpe devastador.*
 
 - **Chave:** [Marreta Mágica](../glossario.md#marreta-mágica) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 3 casas
-- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, empurra 3 casas, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano + empurra 3 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Marretada Sísmica** — *Especial*
 
 *Um golpe no chão libera uma onda de choque que se espalha em todas as direções.*
 
 - **Chave:** [Marreta Mágica](../glossario.md#marreta-mágica) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Martelo
 
@@ -1796,33 +1767,33 @@ Dano: **1d12**
 *Um giro poderoso aproveita o peso do martelo, acertando quem estiver à frente e atrás.*
 
 - **Chave:** [Martelo](../glossario.md#martelo) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Esmagar** — *Avançada*
 
 *Golpes pesados e sucessivos esmagam tudo que estiver à frente.*
 
 - **Chave:** [Martelo](../glossario.md#martelo) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** cone de 3 casas à frente
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** cone de 3 casas à frente
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Martelo Demolidor** — *Especial*
 
 *Um salto termina com um golpe demolidor, esmagando tudo à frente com violência total.*
 
 - **Chave:** [Martelo](../glossario.md#martelo) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor do ponto de queda
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor do ponto de queda
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o ponto
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Metralhadora
 
@@ -1835,33 +1806,33 @@ Dano: **1d12**
 *A metralhadora dispara sem parar, mantendo o alvo sob fogo constante.*
 
 - **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Giro Mortal** — *Avançada*
 
 *Uma virada repentina dispara uma rajada rápida antes que o inimigo perceba.*
 
 - **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + alvo perde a próxima Reação
-- **Tier 3 (≥17):** 1d12 de dano + alvo perde a próxima Ação Básica e Reação
-- **Crítico:** dano máximo (12) + 1d12 extra + efeito do Tier 3
+- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + alvo perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + alvo perde a próxima Ação Básica e Reação + derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Estilhaçar** — *Especial*
 
 *Uma saraivada de tiros ergue a mira aos poucos, arremessando os inimigos pra cima.*
 
 - **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Módulo Alado
 
@@ -1874,33 +1845,33 @@ Dano: **1d10**
 *Um golpe certeiro lança o inimigo verticalmente pro alto.*
 
 - **Chave:** [Módulo Alado](../glossario.md#módulo-alado) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Lança da Alma** — *Avançada*
 
 *Um mergulho rápido forma uma casca pontiaguda de lâminas ao redor do ponto de impacto.*
 
 - **Chave:** [Módulo Alado](../glossario.md#módulo-alado) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o ponto
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Inteligência | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o ponto
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Investida Espectral** — *Especial*
 
 *Golpes alternados terminam num avanço de estocadas repetidas, recuando em seguida.*
 
 - **Chave:** [Módulo Alado](../glossario.md#módulo-alado) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Inteligência | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Montante
 
@@ -1915,33 +1886,33 @@ Dano: **1d12**
 *Um talho largo e pesado arremessa o inimigo pra longe.*
 
 - **Chave:** [Montante](../glossario.md#montante) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d12 de dano + empurra 4 casas
-- **Crítico:** dano máximo (12) + 1d12 extra, e empurra 4 casas
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + empurra 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + empurra 6 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Mergulho do Dragão** — *Avançada*
 
 *Um golpe ascendente é seguido por uma queda violenta que esmaga o chão.*
 
 - **Chave:** [Montante](../glossario.md#montante) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Feixe da Lâmina** — *Especial*
 
 *Um feixe poderoso é disparado à frente, enquanto outro mais fraco é lançado pra trás.*
 
 - **Chave:** [Montante](../glossario.md#montante) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** duas linhas de 6 casas, uma à frente e outra atrás do usuário
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** duas linhas de 6 casas, uma à frente e outra atrás do usuário
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Olho Mágico
 
@@ -1956,33 +1927,29 @@ Dano: **1d8**
 *Um pulso de energia é disparado do olho arcano, sem forma ou tema definido.*
 
 - **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Ruptura do Olho Mágico** — *Avançada*
 
 *A pupila se dilata por um instante, liberando uma onda de força numa área.*
 
 - **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 **Colapso do Olho Mágico** — *Especial*
 
 *O olho se abre por completo, liberando toda a energia contida ao redor do usuário.*
 
 - **Chave:** [Olho Mágico](../glossario.md#olho-mágico) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 ## Orbe
 
@@ -1995,33 +1962,29 @@ Dano: **1d8**
 *Um pulso de força bruta é comprimido no orbe e disparado contra o alvo.*
 
 - **Chave:** [Orbe](../glossario.md#orbe) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Colapso do Orbe** — *Avançada*
 
 *O orbe implode sobre um ponto escolhido, sugando tudo próximo antes de se romper.*
 
 - **Chave:** [Orbe](../glossario.md#orbe) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo (em direção ao ponto)
-- **Tier 3 (≥17):** 1d8 de dano + puxa 1 casa e derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e derruba cada alvo
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d8 de dano + puxa 1 casa e derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, puxa 1 casa, e derruba cada alvo
 
 **Ruptura do Orbe** — *Especial*
 
 *Toda a energia contida se libera de uma vez, ondulando pra fora em todas as direções.*
 
 - **Chave:** [Orbe](../glossario.md#orbe) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 ## Pique
 
@@ -2034,33 +1997,31 @@ Dano: **1d10**
 *Uma rajada de estocadas rápidas termina com um golpe final carregado de força total.*
 
 - **Chave:** [Pique](../glossario.md#pique) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 2d10 de dano
-- **Tier 3 (≥17):** 2d10 de dano + derruba o alvo
-- **Crítico:** dano máximo do 2d10 (20) + 2d10 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando) e empurra 2 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando), empurra 3 casas e derruba o alvo, e o Sangrando causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Golpe Relâmpago** — *Avançada*
 
 *Um chute varredor é seguido por um avanço fulminante que deixa um rastro de energia.*
 
 - **Chave:** [Pique](../glossario.md#pique) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo, usuário se desloca até o fim da linha
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o fim da linha
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Golpe Poderoso** — *Especial*
 
 *Uma sequência de golpes termina quando as lâminas são arremessadas contra o inimigo, seguidas por um salto explosivo.*
 
 - **Chave:** [Pique](../glossario.md#pique) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d10 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
 
 ## Pistola Arcana
 
@@ -2075,33 +2036,33 @@ Dano: **1d8**
 *A bala é substituída por um pulso de energia condensada — nem pólvora nem magia sozinhas seriam capazes disso.*
 
 - **Chave:** [Pistola Arcana](../glossario.md#pistola-arcana) - [Básica](../glossario.md#básica) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Rajada Elemental** — *Avançada*
 
 *Cada disparo carrega um elemento diferente, imprevisível como a própria magia crua.*
 
 - **Chave:** [Pistola Arcana](../glossario.md#pistola-arcana) - [Avançada](../glossario.md#avançada) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + cada alvo perde a próxima Reação
-- **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, perde Reação, e Sangrando
+- **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + cada alvo perde a próxima Reação + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Detonação Arcana** — *Especial*
 
 *Toda a energia acumulada na arma é disparada de uma vez, numa explosão que mistura pólvora e magia crua.*
 
 - **Chave:** [Pistola Arcana](../glossario.md#pistola-arcana) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#híbrida)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 2 casas cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Pistolas
 
@@ -2114,33 +2075,31 @@ Dano: **1d6**
 *Dois tiros perfurantes seguidos por um golpe final mais poderoso.*
 
 - **Chave:** [Pistolas](../glossario.md#pistolas) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Tiro Cruzado** — *Avançada*
 
 *Dois disparos simultâneos cobrem direções opostas, sem deixar brechas.*
 
 - **Chave:** [Pistolas](../glossario.md#pistolas) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em cada, e derruba cada alvo
+- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Chuva de Chumbo** — *Especial*
 
 *Um dilúvio de balas desaba do alto sobre uma área inteira.*
 
 - **Chave:** [Pistolas](../glossario.md#pistolas) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d6 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Pote
 
@@ -2155,33 +2114,29 @@ Dano: **1d6**
 *Um jato de energia instável é lançado do pote, sem forma definida.*
 
 - **Chave:** [Pote](../glossario.md#pote) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Explosão do Pote** — *Avançada*
 
 *O conteúdo do pote se rompe numa explosão descontrolada numa área.*
 
 - **Chave:** [Pote](../glossario.md#pote) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d6 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 **Caldeirão Reverso** — *Especial*
 
 *O pote se vira de ponta-cabeça, liberando toda a energia acumulada ao redor do usuário.*
 
 - **Chave:** [Pote](../glossario.md#pote) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Acerto:** 1d6 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
 
 ## Punhal
 
@@ -2196,33 +2151,33 @@ Dano: **1d6**
 *Uma lâmina espectral corta o inimigo, deixando um ferimento que não para de sangrar.*
 
 - **Chave:** [Punhal](../glossario.md#punhal) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d6 de dano + Sangrando + empurra 1 casa
-- **Crítico:** dano máximo (6) + 1d6 extra, Sangrando, e empurra 1 casa
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + Sangrando + empurra 1 casa
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + Sangrando + empurra 3 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte Ceifador** — *Avançada*
 
 *Dois cortes em sequência lançam o inimigo pra cima, deixando feridas profundas.*
 
 - **Chave:** [Punhal](../glossario.md#punhal) - [Avançada](../glossario.md#avançada) - [Finesse](../glossario.md#finesse)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Tier 3 (≥17):** 1d6 de dano + Sangrando + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, Sangrando, e derruba o alvo
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + Sangrando + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + Sangrando + derruba o alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte Crescente** — *Especial*
 
 *Dois cortes rápidos, seguidos por um terceiro golpe muito mais forte.*
 
 - **Chave:** [Punhal](../glossario.md#punhal) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 2d6 de dano
-- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 2d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (como Sangrando — perde 1d4 de Vida no início do próximo turno dele — mas não pode ser removido ou curado por nenhum efeito até terminar o curso)
-- **Crítico:** dano máximo (12) + 1d6 extra, derruba o alvo, e Ferimento Amaldiçoado
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (como Sangrando — perde 1d4 de Vida no início do próximo turno dele — mas não pode ser removido ou curado por nenhum efeito até terminar o curso)
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (como Sangrando — perde 1d4 de Vida no início do próximo turno dele — mas não pode ser removido ou curado por nenhum efeito até terminar o curso), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Rapiers
 
@@ -2235,33 +2190,33 @@ Dano: **1d6**
 *Quatro cortes rápidos terminam com um golpe duplo certeiro.*
 
 - **Chave:** [Rapiers](../glossario.md#rapiers) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Punição Rancorosa** — *Avançada*
 
 *Cortes furiosos e descontrolados terminam quando as rapieiras são embainhadas, gerando uma explosão.*
 
 - **Chave:** [Rapiers](../glossario.md#rapiers) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Fúria Adrenalina** — *Especial*
 
 *Um avanço veloz crava as duas rapieiras repetidamente em tudo no caminho.*
 
 - **Chave:** [Rapiers](../glossario.md#rapiers) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Revólver Maverick
 
@@ -2274,33 +2229,33 @@ Dano: **1d8**
 *Um tiro no chão libera duas explosões de energia que sobem em sequência.*
 
 - **Chave:** [Revólver Maverick](../glossario.md#revólver-maverick) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida de Alta Potência** — *Avançada*
 
 *Uma caixa de mísseis é convocada — os projéteis sobem, arqueiam no ar e explodem ao cair.*
 
 - **Chave:** [Revólver Maverick](../glossario.md#revólver-maverick) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Feixe do Caos** — *Especial*
 
 *Um canhão improvisado é montado às pressas — um feixe multicolorido varre tudo à frente.*
 
 - **Chave:** [Revólver Maverick](../glossario.md#revólver-maverick) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Atributo:** Agilidade | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Sabres
 
@@ -2313,33 +2268,33 @@ Dano: **1d6**
 *Duas lâminas cortam em sequência antes de golpear com força pra baixo.*
 
 - **Chave:** [Sabres](../glossario.md#sabres) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Valsa Mortal** — *Avançada*
 
 *Um giro veloz e implacável termina lançando ondas de energia ao chão.*
 
 - **Chave:** [Sabres](../glossario.md#sabres) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Sangrando
+- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Redemoinho de Lâminas** — *Especial*
 
 *As duas lâminas se tornam um redemoinho contínuo, cortando tudo ao alcance.*
 
 - **Chave:** [Sabres](../glossario.md#sabres) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Soluna
 
@@ -2352,33 +2307,33 @@ Dano: **1d10**
 *Golpes alternados das duas metades da lâmina terminam numa varredura certeira.*
 
 - **Chave:** [Soluna](../glossario.md#soluna) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Dança das Lâminas** — *Avançada*
 
 *Um giro vertical da lâmina arremessa o inimigo pro alto.*
 
 - **Chave:** [Soluna](../glossario.md#soluna) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d10 de dano
-- **Tier 2 (11–16):** 1d10 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d10 de dano + derruba o alvo
-- **Crítico:** dano máximo (10) + 1d10 extra, empurra 2 casas, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte Ilimitado** — *Especial*
 
 *Um giro veloz precede cortes desferidos de todos os ângulos possíveis, terminando num golpe final que sacode o chão.*
 
 - **Chave:** [Soluna](../glossario.md#soluna) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d10 de dano em cada alvo
-- **Tier 2 (11–16):** 1d10 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Soqueira Pesada
 
@@ -2393,33 +2348,33 @@ Dano: **1d12**
 *Uma sequência de quatro socos termina com um giro poderoso.*
 
 - **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d12 de dano + derruba o alvo
-- **Crítico:** dano máximo (12) + 1d12 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Golpe Ascendente** — *Avançada*
 
 *Um soco ascendente lança o inimigo pelos ares.*
 
 - **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d12 de dano
-- **Tier 2 (11–16):** 1d12 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d12 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Crítico:** dano máximo (12) + 1d12 extra, e Atordoado
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Impacto Sísmico** — *Especial*
 
 *Um golpe no chão libera uma onda de choque puramente cinética ao redor.*
 
 - **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d12 de dano em cada alvo
-- **Tier 2 (11–16):** 1d12 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d12 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 1d12 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Tonfas
 
@@ -2432,33 +2387,33 @@ Dano: **1d6**
 *Três golpes de tonfa terminam com um chute certeiro.*
 
 - **Chave:** [Tonfas](../glossario.md#tonfas) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Ascensão do Poder** — *Avançada*
 
 *Um avanço deslizante termina em dois socos e numa explosão de força à frente.*
 
 - **Chave:** [Tonfas](../glossario.md#tonfas) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** cone de 2 casas à frente
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** cone de 2 casas à frente
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Brilho Explosivo** — *Especial*
 
 *Uma sequência de golpes de tonfa cria uma série de explosões, terminando num deslizar que produz uma explosão ainda maior.*
 
 - **Chave:** [Tonfas](../glossario.md#tonfas) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Tridente
 
@@ -2471,33 +2426,33 @@ Dano: **1d8**
 *Um golpe direto empurra o alvo pra trás com a força de três pontas.*
 
 - **Chave:** [Tridente](../glossario.md#tridente) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alcance:** 2 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d8 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, empurra 2 casas, e derruba o alvo
+- **Atributo:** Força | **Alcance:** 2 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + empurra 4 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Puxão das Profundezas** — *Avançada*
 
 *As pontas fisgam o alvo como um arpão, arrastando-o pra perto antes do golpe final.*
 
 - **Chave:** [Tridente](../glossario.md#tridente) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** 5 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano, puxa o alvo 3 casas em direção ao usuário
-- **Tier 2 (11–16):** 1d8 de dano + puxa 3 casas + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d8 de dano + puxa 3 casas + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, puxa 3 casas, Lento, e derruba o alvo
+- **Atributo:** Força | **Alcance:** 5 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano, puxa o alvo 3 casas em direção ao usuário + puxa 3 casas + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + puxa 3 casas + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + puxa 5 casas + derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Domínio da Arena** — *Especial*
 
 *Um giro amplo prende e humilha todos ao redor — ninguém sai ileso do palco.*
 
 - **Chave:** [Tridente](../glossario.md#tridente) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 2 casas cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + cada alvo fica Marcado (o próximo ataque de um aliado contra ele neste turno rola com vantagem)
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e Marcado
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 2 casas cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + cada alvo fica [Marcado](../glossario.md#marcado)
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + cada alvo fica [Marcado](../glossario.md#marcado), e derruba cada alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Vajras
 
@@ -2512,33 +2467,33 @@ Dano: **1d8**
 *Um chute giratório poderoso termina com um pisão que produz um pequeno estrondo.*
 
 - **Chave:** [Vajras](../glossario.md#vajras) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Marca Celestial** — *Avançada*
 
 *Um avanço em linha reta marca tudo no caminho — pequenas explosões atingem cada marcado.*
 
 - **Chave:** [Vajras](../glossario.md#vajras) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Vórtice do Macaco Branco** — *Especial*
 
 *Uma energia vibrante suga os inimigos próximos antes de um golpe final no chão explodir tudo ao redor.*
 
 - **Chave:** [Vajras](../glossario.md#vajras) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
-- **Tier 1 (≤10):** 1d8 de dano em cada alvo
-- **Tier 2 (11–16):** 1d8 de dano + puxa 1 casa cada alvo
-- **Tier 3 (≥17):** 1d8 de dano + puxa 2 casas e derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, puxa 2 casas, e derruba cada alvo
+- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + puxa 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + puxa 2 casas e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + puxa 4 casas e derruba cada alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Vembrassa
 
@@ -2551,33 +2506,33 @@ Dano: **1d6**
 *Um golpe de palma aberta desvia o impulso do inimigo, arremessando-o pelo próprio peso.*
 
 - **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 2 casas e derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, empurra 2 casas, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + empurra 4 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Correnteza de Palmas** — *Avançada*
 
 *Uma sequência de palmas abertas em fluxo contínuo, atingindo todos ao redor.*
 
 - **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + cada alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, empurra 1 casa, e Lento
+- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e derruba cada alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Selo do Fluxo Interno** — *Especial*
 
 *Um toque preciso interrompe o fluxo de energia interna do alvo, drenando sua força.*
 
 - **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + alvo perde 2 no dano de ataques até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d6 de dano + perde 2 no dano de ataques + alvo perde 2 Mana
-- **Crítico:** dano máximo (6) + 1d6 extra + perde 2 no dano de ataques + alvo perde 4 Mana
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + alvo perde 2 no dano de ataques até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + perde 2 no dano de ataques + alvo perde 2 Mana + derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Violino
 
@@ -2592,33 +2547,33 @@ Dano: **1d6**
 *Uma sequência de notas certeiras acerta o alvo em rápida sucessão.*
 
 - **Chave:** [Violino](../glossario.md#violino) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d6 de dano + derruba o alvo
-- **Crítico:** dano máximo (6) + 1d6 extra, e derruba o alvo
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Golpe do Coração** — *Avançada*
 
 *Uma aura sonora se ergue do violino, arremessando o inimigo pra longe.*
 
 - **Chave:** [Violino](../glossario.md#violino) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d6 de dano
-- **Tier 2 (11–16):** 1d6 de dano + empurra 2 casas
-- **Tier 3 (≥17):** 1d6 de dano + empurra 4 casas
-- **Crítico:** dano máximo (6) + 1d6 extra, e empurra 4 casas
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + empurra 6 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Chamado da Orquestra** — *Especial*
 
 *Uma orquestra inteira de instrumentos surge no ar e desaba sobre um ponto escolhido.*
 
 - **Chave:** [Violino](../glossario.md#violino) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Tier 1 (≤10):** 1d6 de dano em cada alvo
-- **Tier 2 (11–16):** 1d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 1d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Zarabatana
 
@@ -2631,43 +2586,43 @@ Dano: **1d4**
 *Um sopro rápido e quase inaudível manda o dardo direto ao alvo.*
 
 - **Chave:** [Zarabatana](../glossario.md#zarabatana) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d4 de dano
-- **Tier 2 (11–16):** 1d4 de dano + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d4 de dano + alvo fica Sangrando (perde 1d4 de Vida no início do próximo turno dele)
-- **Crítico:** dano máximo (4) + 1d4 extra, Lento, e Sangrando
+- **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d4 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d4 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d4 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Rajada de Dardos** — *Avançada*
 
 *Vários dardos saem em sequência rápida, cada um carregando sua própria dose de veneno.*
 
 - **Chave:** [Zarabatana](../glossario.md#zarabatana) - [Avançada](../glossario.md#avançada)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Tier 1 (≤10):** 1d4 de dano em cada alvo
-- **Tier 2 (11–16):** 1d4 de dano + cada alvo fica Lento até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d4 de dano + cada alvo fica Sangrando
-- **Crítico:** dano máximo (4) + 1d4 extra em todos, Lento, e Sangrando
+- **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** até 2 criaturas diferentes ao alcance
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d4 de dano em cada alvo + cada alvo fica Lento até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d4 de dano + cada alvo fica Sangrando
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d4 de dano + cada alvo fica Sangrando, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Toxina Paralisante** — *Especial*
 
 *Um dardo carregado com uma toxina rara mergulha o alvo numa paralisia repentina.*
 
 - **Chave:** [Zarabatana](../glossario.md#zarabatana) - [Especial](../glossario.md#especial)
-- **Custo:** 3 Mana | ◈◈◈ (3 PA) | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d4 de dano
-- **Tier 2 (11–16):** 1d4 de dano + alvo fica Lento até o fim do próximo turno dele
-- **Tier 3 (≥17):** 1d4 de dano + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele
-- **Crítico:** dano máximo (4) + 1d4 extra, e Atordoado
+- **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d4 de dano + alvo fica Lento até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d4 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d4 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Resolução de Ataque
 
 Toda habilidade de arma segue a resolução padrão de [Habilidade](../habilidades/index.md#ficha-de-habilidade) — resumindo:
 
-1. Role **d20 + Atributo da arma** (cada habilidade de arma já declara qual — Marciais tipicamente Força, Pontaria sempre Agilidade, Arcano sempre Inteligência, com exceções pra Finesse/Híbrida, ver [Propriedades de Arma](#propriedades-de-arma) acima).
-2. **20 natural** sempre acerta e conta como Tier 3; **1 natural** sempre falha, sem efeito.
-3. Nos demais casos, o total precisa igualar ou superar a **Defesa do alvo**, ou não há efeito.
-4. Se superar, o total determina o Tier (≤10 / 11–16 / ≥17), que define o efeito da habilidade usada.
+1. Escolha a **Intensidade** (I, II ou III) e pague o PA + Mana dela.
+2. Role **d20 + Atributo da arma** (cada habilidade de arma já declara qual — Marciais tipicamente Força, Pontaria sempre Agilidade, Arcano sempre Inteligência, com exceções pra Finesse/Híbrida, ver [Propriedades de Arma](#propriedades-de-arma) acima).
+3. O total precisa igualar ou superar a **Defesa do alvo**, ou não há efeito nenhum.
+4. Acertou → aplica o efeito da Intensidade paga. **1 natural** sempre falha.
 
 **Dano:** dado da própria arma (ver [Tabela de Dados de Dano](#tabela-de-dados-de-dano) acima) — de 1d4 a 1d12, dependendo do arquétipo/peso.
 
-**Crítico (20 natural):** dano máximo do dado + mais uma rolagem normal do mesmo dado, além de contar automaticamente como acerto e como Tier 3.
+**Crítico (20 natural):** sempre acerta, causa o dano máximo do dado + mais uma rolagem normal do mesmo dado, e **sobe 1 Intensidade de graça**.

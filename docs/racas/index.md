@@ -23,7 +23,7 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 
 **Traço Racial:**
 
-- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a DC, ou não superou a Defesa do alvo — inclusive um 1 natural) em um sucesso. Em teste de Habilidade, conta como Tier 1.
+- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a DC, ou não superou a Defesa do alvo — inclusive um 1 natural) em um sucesso. Em teste de Habilidade, conta como acerto normal: aplica o efeito da Intensidade que foi paga.
 
 ## Elfo
 
@@ -95,12 +95,12 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 *Uma rajada do elemento ancestral irrompe da garganta, varrendo tudo à frente num cone abrasador.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento)
-- **Custo:** 5 Mana | ◈◈ (2 PA) | **Atributo:** Força | **Alcance:** cone de 5 casas | **Alvos:** todas as criaturas na área
+- **Atributo:** Força | **Alcance:** cone de 5 casas | **Alvos:** todas as criaturas na área
 - **Efeito:** o dano é do elemento escolhido em Resistência Elemental, acima
-- **Tier 1 (≤10):** 2d6 de dano em cada alvo
-- **Tier 2 (11–16):** 2d6 de dano + empurra 1 casa cada alvo
-- **Tier 3 (≥17):** 2d6 de dano + derruba cada alvo
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 1 casa cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 2d6 de dano + derruba cada alvo
+- **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e sobe 1 Intensidade
 
 ## Autômato
 
@@ -154,7 +154,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 **Traços Raciais:**
 
 - **Rugido do Rei** — 1x por cena, solta um rugido que causa Desvantagem no próximo teste de ataque de todos os inimigos em 3 casas de raio.
-- **Garras do Rei** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; um Crítico com qualquer Habilidade desarmada deixa o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele).
+- **Garras do Rei** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; um Crítico com qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
 
 ## Tigre
 
@@ -180,7 +180,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 **Traços Raciais:**
 
 - **Instinto de Matilha** — vantagem em testes de ataque quando há pelo menos 1 aliado adjacente ao mesmo alvo.
-- **Mordida Feroz** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada deixa o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele).
+- **Mordida Feroz** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
 
 ## Bode
 
@@ -251,7 +251,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Racial:**
 
-- **Mordida de Tubarão** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada deixa o alvo Sangrando (perde 1d4 de Vida no início do próximo turno dele).
+- **Mordida de Tubarão** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
 
 ## Tartaruga
 
@@ -320,12 +320,12 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 *Uma descarga elétrica salta do corpo da enguia, buscando o próximo alvo condutor antes mesmo de terminar o primeiro golpe.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Custo:** 2 Mana | ◈◈ (2 PA) | **Atributo:** Agilidade | **Alvos:** 1 criatura, com possibilidade de encadear
+- **Atributo:** Agilidade | **Alvos:** 1 criatura, com possibilidade de encadear
 - **Dano:** usa o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)
-- **Tier 1 (≤10):** dano desarmado
-- **Tier 2 (11–16):** dano desarmado + alvo fica Lento (metade do Movimento) até o fim do próximo turno dele
-- **Tier 3 (≥17):** dano desarmado + alvo fica Atordoado (não pode agir) até o fim do próximo turno dele; a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Atordoadas também
-- **Crítico:** dano desarmado máximo + dano desarmado extra, Atordoado, e o mesmo encadeamento do Tier 3
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele; a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Atordoadas também
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele; a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Atordoadas também, e empurra 2 casas
+- **Crítico (20 natural):** dano desarmado máximo + dano desarmado extra, e sobe 1 Intensidade
 
 ## Caranguejo
 
@@ -337,7 +337,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Racial:**
 
-- **Garra Esmagadora** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; o Tier 3 de qualquer Habilidade desarmada empurra o alvo 2 casas.
+- **Garra Esmagadora** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; a Intensidade III de qualquer Habilidade desarmada empurra o alvo 2 casas.
 
 ## Sapo
 

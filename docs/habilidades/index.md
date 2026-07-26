@@ -25,28 +25,56 @@ Cada habilidade é registrada com:
 
 - **Nome**
 - **Descrição breve** — 1 frase evocativa, deixando claro o que a habilidade faz
-- **Chave** — para habilidades de arma: "Arma - Tier" (ex: "Espada - Básica"). Para habilidades gerais de grupo: "Grupo - Subtipo" (ex: "Marcial - Especial")
-- **Custo em Mana**
-- **Custo em Pontos de Ação (◈)** — 1, 2 ou 3, conforme o grau ou tipo de habilidade
+- **Chave** — para habilidades de arma: "Arma - Grau" (ex: "Espada - Básica"). Para habilidades gerais de grupo: "Grupo - Subtipo" (ex: "Marcial - Especial")
 - **Atributo** — atributo usado no teste (ex: FOR)
 - **Efeitos / Alvos**
-- **Tiers de Sucesso** (inspirado em Draw Steel) — o resultado do teste determina qual tier de efeito é aplicado
+- **Intensidade I / II / III** — as três versões da habilidade, cada uma com seu custo em Pontos de Ação e Mana
 - **Crítico** — 20 natural
+
+### Intensidade
+
+Toda habilidade de ataque existe em **três Intensidades**. Elas não são compradas com escolhas de nível: estão todas disponíveis desde o momento em que o personagem aprende a habilidade. O que muda é quanto custa usar cada uma — o jogador decide **na hora de ativar**, conforme quanto do turno e do Mana quer investir.
+
+| Intensidade | Pontos de Ação | O que ela entrega |
+|---|---|---|
+| I | ◈ (1) | O efeito base — normalmente só o dano |
+| II | ◈◈ (2) | Acrescenta o efeito secundário (empurrar, Sangrando, Marcado) |
+| III | ◈◈◈ (3) | O efeito completo (derrubar, Atordoado) — consome o turno inteiro |
+
+O custo em Mana sobe junto com a Intensidade (ver [Escala de Mana por Intensidade](../jogador/mana.md#escala-de-mana-por-intensidade)).
+
+**Alcance e área nunca escalam com Intensidade.** Uma habilidade que cobre 2 casas de raio cobre 2 casas de raio em qualquer Intensidade — o que a Intensidade compra é o efeito, não o tamanho.
+
+### Habilidades de Custo Fixo
+
+Algumas habilidades não têm Intensidade: trazem **Custo fixo** e um único resultado de **Acerto** na ficha. São os casos em que a força da habilidade já está em outro lugar:
+
+- **Área de 3 casas de raio ou mais** — a área já é o poder; escalar o efeito por cima seria demais
+- **Habilidades Supremas** — o custo em Mana (16+) já as coloca fora da escala
+- **Buffs e efeitos sem rolagem** — não há teste de ataque pra graduar
+
+### Habilidades com Tiers de Resultado
+
+Um punhado de habilidades faz algo que **não deveria ser garantido só por pagar o custo** — trazer um aliado morto de volta é o caso central. Nessas, o d20 volta a graduar o resultado: a rolagem decide entre falha catastrófica, falha recuperável e sucesso.
+
+| Total (d20 + Atributo) | Resultado |
+|---|---|
+| ≤ 10 | Falha total — a pior consequência possível |
+| 11–16 | Falha, mas recuperável |
+| ≥ 17 | Sucesso |
+| 20 natural | Sucesso ampliado |
+
+Essas habilidades têm **Custo fixo** (não têm Intensidade) e escrevem as faixas explicitamente na ficha. São deliberadamente raras — a graduação existe justamente pra impedir que um efeito dessa magnitude se torne confiável. Hoje só [Ressuscitar](suporte.md) usa esse formato.
 
 ### Resolução
 
-1. O usuário rola **d20 + Atributo da habilidade**.
-2. **20 natural** sempre acerta e conta automaticamente como Tier 3 (além do bônus de dano do Crítico) — mesmo que o total não chegasse lá sozinho. **1 natural** sempre falha, sem nenhum efeito, independente do total.
-3. Nos demais casos, o total precisa **igualar ou superar a Defesa do alvo** (ver [Defesa](sistema-d20.md#defesa)). Por padrão isso é a Defesa física (Agilidade) — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual atributo testar em vez disso, mas a lógica de comparação é sempre a mesma. Se não superar, a habilidade não causa nenhum efeito.
-4. Se superar a Defesa, o total (sem ajuste) é comparado à tabela abaixo pra determinar o Tier:
+1. O jogador declara a habilidade e **a Intensidade**, e paga o PA + Mana daquela Intensidade.
+2. Rola **d20 + Atributo da habilidade**.
+3. O total precisa **igualar ou superar a Defesa do alvo** (ver [Defesa](../jogador/sistema-d20.md#defesa)). Por padrão isso é a Defesa física (Agilidade) — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual atributo testar em vez disso, mas a lógica de comparação é sempre a mesma.
+4. **Acertou** → aplica o efeito da Intensidade paga. **Não acertou** → nenhum efeito; o PA e o Mana foram gastos de todo jeito.
+5. **1 natural** sempre falha, independente do total.
+6. **20 natural** é **Crítico**: sempre acerta, soma o dano máximo do dado + mais uma rolagem normal do mesmo dado, e **sobe 1 Intensidade de graça** — aplica o efeito da Intensidade acima da que foi paga, sem pagar a diferença. Usado já em Intensidade III (ou numa habilidade de Custo fixo), o Crítico entrega apenas o bônus de dano.
 
-| Tier | Total (d20 + Atributo) |
-|---|---|
-| Tier 1 (fraco) | ≤ 10 |
-| Tier 2 (médio) | 11–16 |
-| Tier 3 (forte) | ≥ 17 |
-| Crítico | 20 natural — sempre acerta, conta como Tier 3, e soma dano máximo do dado + mais uma rolagem normal do mesmo dado |
+O d20 responde só "acertou ou não" — **quão forte** o golpe é já foi decidido no momento em que o jogador escolheu a Intensidade.
 
-Como a Defesa da maioria dos alvos já é 11 ou mais, **Tier 1 na prática só ocorre contra alvos fracos ou despreparados** (Defesa ≤10) — contra a maioria dos inimigos, o pior resultado que ainda causa efeito já é Tier 2.
-
-Habilidades sem teste de ataque (buffs puros, efeitos automáticos como uma Habilidade Suprema inevitável) não precisam de Tiers de Sucesso nem checam Defesa — o efeito simplesmente acontece, sem rolagem.
+Habilidades sem teste de ataque (buffs puros, efeitos automáticos como uma Habilidade Suprema inevitável) não checam Defesa nem têm Intensidade — o efeito simplesmente acontece, sem rolagem.

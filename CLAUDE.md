@@ -27,13 +27,29 @@ Estas são decisões **já tomadas pelo usuário** — não são sugestões, sã
 - **Tudo baseado em Mana** — o recurso universal para ativar habilidades.
 - **Pontos de Ação (◈)** mantidos como no sistema anterior (Diablo RPG).
 
+### Intensidade (I / II / III)
+
+**Não existem "Tiers de Sucesso".** Foram removidos em 2026-07-26 pra simplificar o jogo. O d20 responde só "acertou ou não" (d20 + Atributo vs Defesa); **quão forte** o golpe é já foi decidido pelo jogador ao escolher a Intensidade no momento de ativar:
+
+| Intensidade | PA | Entrega |
+|---|---|---|
+| I | ◈ (1) | efeito base — normalmente só o dano |
+| II | ◈◈ (2) | + efeito secundário (empurrar, Sangrando, Marcado) |
+| III | ◈◈◈ (3) | efeito completo (derrubar, Atordoado) |
+
+- O Mana sobe junto com a Intensidade (ver `docs/jogador/mana.md`).
+- **Alcance e área nunca escalam** — só o efeito.
+- **Crítico (20 natural):** dano máximo + rolagem extra, e **sobe 1 Intensidade de graça**.
+- **Custo fixo** (sem Intensidade): áreas de raio 3+, Supremas, buffs sem rolagem.
+- **Tiers de Resultado:** exceção rara pra efeitos que não devem ser confiáveis — o d20 gradua falha total / falha recuperável / sucesso. Só `Ressuscitar` usa.
+
 ### Sistema de Armas
-Cada arma concede acesso a 3 níveis de habilidade:
+Cada arma concede acesso a 3 habilidades, em ordem de aprendizado obrigatória:
 1. **Habilidade Básica**
 2. **Habilidade Avançada**
 3. **Habilidade Especial**
 
-*(Detalhes de como essas habilidades funcionam por tipo de arma: a definir.)*
+O grau **não** define o custo — cada uma tem suas 3 Intensidades. O grau define o quanto a técnica entrega e o custo em Mana: Básica 1/3/6, Avançada 2/5/9, Especial 3/7/12.
 
 ### Grupos de Habilidades
 
