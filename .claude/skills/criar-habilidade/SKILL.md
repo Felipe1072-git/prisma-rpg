@@ -40,6 +40,8 @@ Toda habilidade — sem exceção — tem estes campos, cada um em seu próprio 
 - **Intensidade I / II / III**, um bullet cada, com o PA, o Mana e o valor numérico completo já resolvido (nunca "dano da arma" genérico, nunca duas Intensidades comprimidas na mesma linha com `|`)
 - **Crítico**
 
+Quando o efeito é longo (mais de ~150 caracteres — acontece em buffs de grupo e invocações), repetir o texto inteiro três vezes fica ilegível: nesses casos a Intensidade II/III pode dizer **"o mesmo, com 2d6 de dano"**, apontando só o que mudou. O que nunca se abrevia é o **número** — "o mesmo, mas mais forte" não serve.
+
 Mecânicas que valem em **qualquer** Intensidade (um deslocamento de investida, um requisito de arma, uma linha de Risco) ganham **bullet próprio** acima das Intensidades — não repita dentro de cada uma. Isso já causou perda de conteúdo: seis investidas de Fogo tinham "o usuário se desloca até o alvo" só na Intensidade I e o texto sumia quando o jogador subia a Intensidade.
 
 ### Intensidade
@@ -59,7 +61,11 @@ O teste é **d20 + Atributo vs Defesa** e responde só **acertou ou não**. Quã
 
 **Hierarquia de grau de arma.** A Básica parte de 1x o dado + um efeito; a Avançada e a Especial partem de **2x** o dado e alcançam condições que a Básica não impõe; a Especial costuma somar área. Em qualquer Intensidade, o grau superior tem que ser visivelmente melhor — senão a Avançada custa mais Mana pra entregar o mesmo, o que já aconteceu e o usuário reclamou.
 
-**Habilidades de Custo fixo não têm Intensidade.** Use `- **Custo fixo:** ◈◈◈ (3 PA) + N Mana` e um único bullet **Acerto** quando: a área é de raio 3+ (a área já é o poder), a habilidade é Suprema (16+ Mana), ou não há rolagem nenhuma (buff puro). Nesse caso o custo cobra o valor da Intensidade III, porque é o efeito que ela entrega.
+**Habilidades de Custo fixo não têm Intensidade.** Use `- **Custo fixo:** ◈◈◈ (3 PA) + N Mana` e um único bullet **Acerto** quando: a área é de raio 3+ (a área já é o poder), a habilidade é Suprema (16+ Mana), ou o efeito é **absoluto** e não tem degrau acima (uma Reação que anula um ataque por completo — não existe "anular mais"). Nesse caso o custo cobra o valor da Intensidade III, porque é o efeito que ela entrega.
+
+**Buff e cura também têm Intensidade** — não ter teste de ataque não isenta de escala. O que cresce é o efeito, e o eixo é escolhido caso a caso: **magnitude** quando há um valor que é a identidade (Escudo de 1d8 → 2d8 → 3d8), **duração** quando o efeito é absoluto e não tem número (não pode ser derrubado por 2 → 3 → 4 rodadas), ou **ambos** em buff de grupo e transformação. Diferente dos ataques, aqui a Intensidade I **mantém o efeito e o custo em Mana que a habilidade já tinha** — o jogador nunca paga um pedágio pra ter o de antes.
+
+**Reações dedicadas custam 0 PA em qualquer Intensidade** — a rede de segurança precisa funcionar mesmo com o PA todo gasto. Nelas a Intensidade escolhe só quanto Mana queimar: `- **Intensidade I — 0 PA + 3 Mana:**`, depois 6, depois 9.
 
 **Tiers de Resultado — exceção rara.** Quando o efeito não faz sentido em meio-sucesso (reviver um aliado é o único caso hoje), o d20 volta a graduar o **resultado**: `≤10` falha catastrófica, `11–16` falha recuperável, `≥17` sucesso, 20 natural sucesso ampliado. Custo fixo, sem Intensidade. O usuário aprovou isso justamente para que ressurreição não vire efeito confiável — não estenda o padrão sem perguntar.
 
@@ -211,7 +217,9 @@ Os feitiços temáticos (fogo, cura, controle mental, o que for) **não** vivem 
 - [ ] Se é de elemento: carrega a assinatura daquele elemento
 - [ ] Só condições canônicas, sempre linkadas ao Glossário — nenhum nome inventado
 - [ ] Alcance/raio em casas, se não for corpo a corpo (e nunca escala com Intensidade)
-- [ ] Cada Intensidade é seu próprio bullet, com valor numérico completo (ou é Custo fixo, com o motivo claro: área raio 3+, Suprema, ou sem rolagem)
+- [ ] Cada Intensidade é seu próprio bullet, com valor numérico completo (ou é Custo fixo, com o motivo claro: área raio 3+, Suprema, ou efeito absoluto sem degrau acima)
+- [ ] Se é buff/cura/mobilidade: escala pelo eixo que faz sentido (magnitude, duração ou ambos), e a Intensidade I preserva o efeito e o Mana que a habilidade já tinha
+- [ ] Se é Reação dedicada: 0 PA em todas as Intensidades, escalando só o Mana
 - [ ] Mecânica que vale em toda Intensidade está em bullet próprio, não repetida dentro de cada uma
 - [ ] Crítico definido
 - [ ] Usuário aprovou explicitamente antes da escrita no arquivo
@@ -247,7 +255,7 @@ Custo fixo por área grande, de `docs/jogador/arsenal.md` (Especial das Adagas �
 - **Crítico (20 natural):** dano máximo (8) + 2d4 extra em todos, [Lento](../glossario.md#lento), e derruba cada alvo
 ```
 
-Buff sem rolagem, de `docs/habilidades/buff.md`:
+Buff escalando por **magnitude**, de `docs/habilidades/buff.md` (sem teste de ataque, mas com Intensidade):
 
 ```markdown
 **Escudo Mágico**
@@ -255,7 +263,23 @@ Buff sem rolagem, de `docs/habilidades/buff.md`:
 *Uma barreira translúcida se ergue, absorvendo o impacto antes que ele chegue.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Custo fixo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** 1 criatura (pode ser o próprio usuário)
-- **Efeito:** o alvo ganha um [Escudo](../glossario.md#escudo) de 1d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
-- *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
+- **Atributo:** Inteligência | **Alvos:** 1 criatura (pode ser o próprio usuário)
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** o alvo ganha um [Escudo](../glossario.md#escudo) de 1d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o alvo ganha um [Escudo](../glossario.md#escudo) de 2d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o alvo ganha um [Escudo](../glossario.md#escudo) de 3d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
+```
+
+Reação dedicada, que escala **só por Mana**:
+
+```markdown
+**Defesa Mágica** *(usada como Reação)*
+
+*A lâmina se ergue no último instante, desviando o golpe que viria.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Força | **Alvos:** o próprio usuário
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 3 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +4 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade II — 0 PA + 6 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +5 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade III — 0 PA + 9 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +6 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
 ```

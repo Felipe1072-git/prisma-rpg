@@ -51,7 +51,21 @@ Algumas habilidades não têm Intensidade: trazem **Custo fixo** e um único res
 
 - **Área de 3 casas de raio ou mais** — a área já é o poder; escalar o efeito por cima seria demais
 - **Habilidades Supremas** — o custo em Mana (16+) já as coloca fora da escala
-- **Buffs e efeitos sem rolagem** — não há teste de ataque pra graduar
+- **Efeitos sem nada pra graduar** — quando o efeito é absoluto, não há degrau acima dele. Uma Reação que **anula por completo** um ataque é o caso típico: não existe "anular mais"
+
+### Buffs, Suporte e Mobilidade também têm Intensidade
+
+Não ter teste de ataque **não** significa não ter Intensidade. O que escala num buff não é a chance de acertar — é o tamanho do efeito. Cada habilidade escala pelo eixo que faz sentido pra ela:
+
+| Eixo | Quando se aplica | Exemplo |
+|---|---|---|
+| **Magnitude** | Há um valor que é a identidade do buff | Escudo Mágico: Escudo de 1d8 → 2d8 → 3d8 |
+| **Duração** | O efeito é absoluto e não tem número pra crescer | Postura Inabalável: não pode ser derrubado por 2 → 3 → 4 rodadas |
+| **Ambos** | Buff de grupo ou transformação, que tem valor *e* prazo | Bênção Divina: +1 → +2 → +3 de bônus, por 3 → 4 → 5 rodadas |
+
+**Habilidades dedicadas a Reação são a exceção parcial:** continuam custando **0 PA** sempre — essa é a rede de segurança que permite reagir mesmo tendo gastado o turno inteiro. Nelas a Intensidade escolhe apenas **quanto Mana** queimar no momento em que você é atacado.
+
+Como o buff mantém na Intensidade I exatamente o efeito e o custo em Mana que sempre teve, subir de Intensidade é sempre ganho — nunca um pedágio pra ter o de antes.
 
 ### Habilidades com Tiers de Resultado
 
@@ -77,4 +91,4 @@ Essas habilidades têm **Custo fixo** (não têm Intensidade) e escrevem as faix
 
 O d20 responde só "acertou ou não" — **quão forte** o golpe é já foi decidido no momento em que o jogador escolheu a Intensidade.
 
-Habilidades sem teste de ataque (buffs puros, efeitos automáticos como uma Habilidade Suprema inevitável) não checam Defesa nem têm Intensidade — o efeito simplesmente acontece, sem rolagem.
+Habilidades sem teste de ataque (buffs, cura, efeitos automáticos como uma Habilidade Suprema inevitável) **não checam Defesa** — o efeito simplesmente acontece. Mas isso não as isenta de Intensidade: elas ainda escolhem quanto investir, e o que cresce é o tamanho do efeito (ver acima).

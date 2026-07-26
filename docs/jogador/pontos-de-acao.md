@@ -36,4 +36,8 @@ O custo em PA de uma Habilidade **é a Intensidade escolhida** — não um valor
 
 Como o pool é de 3 PA por turno, isso vira uma decisão a cada turno: **uma habilidade em Intensidade III consome o turno inteiro** (sem movimento, sem reação guardada), enquanto três usos em Intensidade I fazem muito mais coisa por muito menos efeito cada. Ver [Intensidade](../habilidades/index.md#intensidade).
 
-**Exceções — habilidades de Custo fixo.** Áreas de 3 casas de raio ou mais, Supremas e buffs sem rolagem não têm Intensidade: cobram um valor fixo de PA (quase sempre ◈◈◈) e entregam um único resultado. A força delas já está na área ou no efeito, não na graduação.
+Vale igualmente para buffs, cura e mobilidade: não há teste de ataque neles, mas há Intensidade — o que cresce é o tamanho do efeito, não a chance de acertar (ver [Buffs, Suporte e Mobilidade](../habilidades/index.md#buffs-suporte-e-mobilidade-também-têm-intensidade)).
+
+**Exceções — habilidades de Custo fixo.** Áreas de 3 casas de raio ou mais, Supremas, e efeitos absolutos que não têm degrau acima (uma Reação que anula um ataque por completo) cobram um valor fixo de PA e entregam um único resultado.
+
+**Reações dedicadas** são um caso próprio: custam **0 PA** em qualquer Intensidade — é o que garante uma defesa reativa mesmo depois de gastar o turno inteiro atacando. Nelas, a Intensidade escolhe só quanto Mana gastar.

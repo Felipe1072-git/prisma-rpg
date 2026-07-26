@@ -1365,7 +1365,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um sopro de vento no último instante empurra o corpo pra fora da trajetória do golpe.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
-- **Custo fixo:** 3 Mana | 0 PA (habilidade dedicada a Reação) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Custo fixo:** 0 PA + 3 Mana (dedicada a Reação) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
 - **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação para se mover até 2 casas antes do ataque resolver — se isso tirar o usuário do alcance ou área do ataque, ele erra automaticamente
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
 
