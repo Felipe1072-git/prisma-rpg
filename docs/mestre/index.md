@@ -8,8 +8,7 @@ Ferramentas pra conduzir a mesa: criaturas, dificuldades, e como montar um comba
 - **[Montagem de Encontro](encontros.md)** — quantas criaturas colocar na sala, e por quê
 - **[Testes e Dificuldades](testes.md)** — quanto pedir num teste, e quando não pedir nada
 - **[Recompensas](recompensas.md)** — nível, dinheiro, item, e o que não tem ficha
-
-*(Em construção — regras de exploração ainda vêm por aí.)*
+- **[Exploração](exploracao.md)** — viagem, descanso, exaustão, clima e escuridão
 
 ## O que muda pro Mestre neste sistema
 

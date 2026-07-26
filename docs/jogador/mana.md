@@ -10,8 +10,10 @@ Exemplo: nível 1, Vontade 0 → 13 Mana. Nível 5, Vontade 3 → 31 Mana.
 
 ## Recuperação
 
-- **Descanso longo:** recupera todo o Mana
-- **Descanso curto:** recupera metade do Mana máximo
+- **Descanso curto** (cerca de 1 hora): recupera **metade** do Mana máximo
+- **Descanso longo** (uma noite de sono em lugar seguro): recupera **todo** o Mana
+
+Ver [Descanso](../mestre/exploracao.md#descanso) para o que mais cada um recupera, e por que descanso longo exige segurança.
 
 ## Escala de Mana por Intensidade
 

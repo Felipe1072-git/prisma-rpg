@@ -47,6 +47,18 @@ Perde **1d4 de Vida por acúmulo** no início de cada turno dele, até ser curad
 
 Pontos temporários que **absorvem dano** antes da Vida. Não acumulam com outro Escudo — vale o maior.
 
+### Exausto
+
+Desgaste do corpo, acumulado em **graus**. Diferente das outras condições, não vem de habilidade: vem de [privação e viagem](mestre/exploracao.md#exaustão) — fome, sede, frio, noite sem dormir, marcha forçada.
+
+| Grau | Efeito (acumulativo) |
+|---|---|
+| **1** | Desvantagem em todos os testes |
+| **2** | também fica [Lento](#lento) |
+| **3** | cai inconsciente até receber ajuda ou descansar |
+
+**Some 1 grau** por cada dia de privação ou noite sem descanso adequado. **Remove 1 grau** por [descanso longo](mestre/exploracao.md#descanso) — desde que a causa tenha sido resolvida (comeu, bebeu, se aqueceu). Descansar com fome não remove nada.
+
 ### Risco
 
 Algumas habilidades cobram um preço de quem as usa: se **algum dos dados de dano cair em 1**, a habilidade escapa ao controle e o usuário sofre o efeito descrito na ficha dela. Reservado a habilidades de tema perigoso — lâminas amaldiçoadas, magia de sangue, poder emprestado.
@@ -54,6 +66,12 @@ Algumas habilidades cobram um preço de quem as usa: se **algum dos dados de dan
 ## Efeitos de Terreno
 
 Ao contrário das Condições, que ficam grudadas numa criatura, estes efeitos ficam grudados no **chão** — e valem para quem quer que passe por ali.
+
+### Terreno Difícil
+
+Atravessar **custa o dobro de Movimento**: cada casa consome duas. Vale para escombros, lama, gelo, mato fechado, escada, e para o terreno que algumas habilidades criam.
+
+Não é dano nem condição — é o chão cobrando pedágio. Num sistema onde deslocar-se custa ◈, dobrar esse custo é uma das formas mais baratas de mudar como uma luta se desenrola.
 
 ### Zona Amaldiçoada
 
