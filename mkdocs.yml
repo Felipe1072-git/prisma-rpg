@@ -71,4 +71,7 @@ nav:
     - Suporte: habilidades/suporte.md
   - Pacotes: pacotes/index.md
   - Raças: racas/index.md
+  - Livro do Mestre:
+    - Visão Geral: mestre/index.md
+    - Bestiário: mestre/bestiario.md
   - Glossário: glossario.md

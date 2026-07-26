@@ -140,9 +140,34 @@ Essa lista não é fechada — cresce conforme habilidades novas pedirem.
 
 A Defesa decide **se** o golpe acerta, nunca o quanto ele faz — isso já foi decidido pela [Intensidade](../habilidades/index.md#intensidade) paga. Por isso a Defesa do alvo pesa na escolha de quanto investir: contra um alvo Lendário (Base 14 + atributo), gastar 3 PA e o Mana de uma Intensidade III num único ataque é uma aposta alta — se errar, perde tudo e o turno inteiro. Contra alvos Comuns, a mesma Intensidade III praticamente não erra.
 
-### Resistência e Imunidade
+### Tipos de Dano
 
-**Resistência** a um tipo de dano (ex: um elemento) reduz esse dano pela metade (arredondado pra baixo). **Imunidade** ignora esse dano por completo (0 de dano). Ambas se aplicam depois de qualquer outro cálculo, incluindo Crítico.
+Todo dano tem um tipo, e é por isso que a arma escolhida importa contra certas criaturas. Os três primeiros são físicos, e vêm da arma empunhada (ver a coluna **Tipo** na [Tabela de Dados de Dano](arsenal.md#tabela-de-dados-de-dano)):
+
+| Tipo | De onde vem | Contra o que costuma ser bom |
+|---|---|---|
+| **Cortante** | espadas, machados, foices, garras | carne e criaturas de tecido mole |
+| **Perfurante** | lanças, adagas, flechas, projéteis | brechas de armadura, alvos volumosos |
+| **Impacto** | martelos, bastões, punhos, manguais | ossos, cascas, armaduras rígidas, esqueletos |
+| **Arcano** | focos mágicos, canalizações sem forma definida | quem depende de resistência física |
+
+Habilidades de **Mágicas por Elemento** causam dano do próprio elemento (fogo, gelo, sombras...), não desses quatro — é o elemento que o alvo resiste ou não.
+
+**Dano Desarmado** é sempre Impacto, salvo quando um traço racial disser outra coisa (garras naturais cortam).
+
+### Resistência, Imunidade e Vulnerabilidade
+
+Aplicadas a um tipo de dano — físico ou elemental — sempre **depois** de qualquer outro cálculo, incluindo Crítico:
+
+| | Efeito |
+|---|---|
+| **Resistência** | o dano daquele tipo cai pela **metade** (arredondado pra baixo) |
+| **Imunidade** | o dano daquele tipo é **ignorado** por completo (0) |
+| **Vulnerabilidade** | o dano daquele tipo é **dobrado** |
+
+Uma criatura nunca tem Resistência e Vulnerabilidade ao mesmo tipo; se algum efeito criar essa situação, as duas se cancelam e o dano é normal.
+
+Vulnerabilidade é a ferramenta que transforma conhecimento em vantagem: descobrir que o morto-vivo cai mais rápido sob Luz, ou que a criatura de gelo derrete no Fogo, vale mais que um bônus numérico — e é o que faz um grupo trocar de arma antes de entrar na masmorra.
 
 ## Testes Sociais
 

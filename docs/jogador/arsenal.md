@@ -9,7 +9,7 @@ Cada arma concede acesso a 3 habilidades, em ordem de aprendizado:
 O grau **não** define o custo — cada uma das três é uma habilidade completa, com suas próprias [Intensidades](../habilidades/index.md#intensidade) I/II/III (◈, ◈◈, ◈◈◈). O que o grau define é **o quanto a técnica entrega** por Intensidade: a Básica atinge um alvo, a Especial costuma atingir uma área ou impor condições severas. O custo em Mana também sobe com o grau, então o investimento na arma fica visível na ficha:
 
 | Grau | Intensidade I (◈) | Intensidade II (◈◈) | Intensidade III (◈◈◈) |
-|---|---|---|---|
+|---|---|---|---|---|
 | Básica | 1 Mana | 3 Mana | 6 Mana |
 | Avançada | 2 Mana | 5 Mana | 9 Mana |
 | Especial | 3 Mana | 7 Mana | 12 Mana |
@@ -22,86 +22,88 @@ Especiais que cobrem **3 casas de raio ou mais** são exceção: têm **Custo fi
 
 Dado de dano por arma, definido pelo arquétipo/peso (não por progressão de personagem — nenhuma arma é mais forte só por vir "depois" na sequência de alguém).
 
+**Tipo** é o tipo de dano que a arma causa (ver [Tipos de Dano](sistema-d20.md#tipos-de-dano)) — é o que decide se ela é boa ou inútil contra uma criatura específica: um esqueleto ri de espada e teme martelo.
+
 **Grupo** é o estilo de combate predominante (Marciais, Pontaria ou Arcano — ver [Grupos de Habilidade](../glossario.md#grupos-de-habilidade)). **Chaves** lista as propriedades mecânicas da arma — toda arma tem exatamente uma de [Leve](#leve)/Duas Mãos, mais [Finesse](#finesse)/[Híbrida](#híbrida) e [Efeito Especial](#efeito-especial) quando aplicável. **Requisito** mostra o mínimo de atributo pra equipar a arma, quando houver (ver [Requisito de Atributo Mínimo](#requisito-de-atributo-mínimo) abaixo pra detalhes de cada uma).
 
 Dentro de cada família, as armas são ordenadas por poder (dado crescente; empate resolvido por ordem alfabética). **Preço** ainda não tem valores — depende do sistema de moeda, a definir.
 
 ### Marciais
 
-| Arma | Família | Dado | Preço | Chaves | Requisito | Nota |
-|---|---|---|---|---|---|---|
-| [Florete](#florete) | Espadas Leves | 1d6 | — | Finesse, Leve | — | leve, arma de duelista |
-| [Gládio](#gládio) | Espadas Leves | 1d6 | — | Híbrida, Leve | Força +2 e Inteligência +2 | espada curta, leve |
-| [Rapiers](#rapiers) | Espadas Leves | 1d6 | — | Leve | — | par de lâminas finas |
-| [Espada](#espada) | Espadas Leves | 1d8 | — | Leve | — | arma versátil |
-| [Espada-Chave](#espada-chave) | Espadas Leves | 1d8 | — | Híbrida, Leve | — | inspirada em Keyblade |
-| [Lâmina](#lâmina) | Espadas Leves | 1d8 | — | Leve | — | espada padrão |
-| [Adagas](#adagas) | Lâminas Curtas | 1d4 | — | Finesse, Leve | — | par leve; identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
-| [Garras](#garras) | Lâminas Curtas | 1d6 | — | Finesse, Leve | — | par leve |
-| [Punhal](#punhal) | Lâminas Curtas | 1d6 | — | Finesse, Leve, Efeito Especial | — | adaga leve |
-| [Sabres](#sabres) | Duplas Ágeis | 1d6 | — | Leve | — | par de lâminas leves |
-| [Tonfas](#tonfas) | Duplas Ágeis | 1d6 | — | Leve | — | par leve |
-| [Manopla](#manopla) | Punhos | 1d6 | — | Leve | — | luta desarmada, golpes rápidos |
-| [Vembrassa](#vembrassa) | Punhos | 1d6 | — | Leve | — | reflexo da Manopla — punho aberto, mão esquerda |
-| [Soqueira Pesada](#soqueira-pesada) | Punhos | 1d12 | — | Duas Mãos, Efeito Especial | — | arma de esmagamento, pesada |
-| [Alfange](#alfange) | Lâminas Curvas | 1d8 | — | Finesse, Leve | Agilidade +3 | lâmina única, mais pesada que a adaga |
-| [Foice](#foice) | Lâminas Curvas | 1d10 | — | Duas Mãos | — | foice pesada |
-| [Gadanha](#gadanha) | Lâminas Curvas | 1d10 | — | Duas Mãos | — | foice pesada de duas mãos |
-| [Lâmina Dupla](#lâmina-dupla) | Hastes | 1d6 | — | Leve | — | arma ancestral com lâmina em cada extremidade |
-| [Bastão](#bastão) | Hastes | 1d8 | — | Duas Mãos | — | haste média |
-| [Tridente](#tridente) | Hastes | 1d8 | — | Leve | — | haste de três pontas, combina com Escudo |
-| [Glaive](#glaive) | Hastes | 1d10 | — | Duas Mãos | — | arma de haste, alcance |
-| [Lança](#lança) | Hastes | 1d10 | — | Duas Mãos | — | alcance, mais pesada |
-| [Pique](#pique) | Hastes | 1d10 | — | Duas Mãos | — | lâminas gêmeas que se combinam num pique de alcance |
-| [Machado](#machado) | Impacto Pesado | 1d12 | — | Duas Mãos | Força +2 | pesado de duas mãos |
-| [Marreta Mágica](#marreta-mágica) | Impacto Pesado | 1d12 | — | Duas Mãos | — | a mais pesada do arquétipo |
-| [Martelo](#martelo) | Impacto Pesado | 1d12 | — | Duas Mãos | — | arma de esmagamento, pesada |
-| [Chicote](#chicote) | Armas Flexíveis | 1d6 | — | Finesse, Leve | — | alcance incomum pra uma arma corpo a corpo, puxa e prende |
-| [Mangual](#mangual) | Armas Flexíveis | 1d10 | — | Duas Mãos | — | golpe pesado e imprevisível, difícil de bloquear |
-| [Katana Muramasa](#katana-muramasa) | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos, Efeito Especial | Força ou Agilidade +3 | lâmina amaldiçoada, exige sangue |
-| [Lâmina do Crepúsculo](#lâmina-do-crepúsculo) | Lâminas Longas/Lendárias | 1d10 | — | Duas Mãos | — | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
-| [Katana Nodachi](#katana-nodachi) | Lâminas Longas/Lendárias | 1d10 | — | Finesse, Duas Mãos | Força ou Agilidade +3 | lâmina longa clássica |
-| [Soluna](#soluna) | Lâminas Longas/Lendárias | 1d10 | — | Duas Mãos | — | lâmina lendária, duas metades (Sol e Lua) que se combinam |
-| [Espada Senciente](#espada-senciente) | Lâminas Longas/Lendárias | 1d12 | — | Duas Mãos, Efeito Especial | — | absorve energias e dificulta a mobilidade de quem a empunha |
-| [Montante](#montante) | Lâminas Longas/Lendárias | 1d12 | — | Duas Mãos | Força +3 | espada grande de duas mãos |
-| [Violino](#violino) | Focos Atípicos | 1d6 | — | Leve | Vontade +4 | instrumento usado como arma contundente |
-| [Báculo](#báculo) | Focos Atípicos | 1d8 | — | Leve | — | bastão com lâmina circular e cristal, símbolo dos bardos |
-| [Vajras](#vajras) | Focos Atípicos | 1d8 | — | Leve | Sabedoria +6 | arma mística, foco médio |
-| [Bolsa de Truques](#bolsa-de-truques) | Focos Atípicos | 1d10 | — | Duas Mãos | — | bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
-| [Égide](#égide) | Única | 1d6 | — | Duas Mãos | — | pacote fechado espada+escudo — identidade defensiva vem do Buff Supremo do grupo |
+| Arma | Família | Dado | Tipo | Preço | Chaves | Requisito | Nota |
+|---|---|---|---|---|---|---|---|
+| [Florete](#florete) | Espadas Leves | 1d6 | Perfurante | — | Finesse, Leve | — | leve, arma de duelista |
+| [Gládio](#gládio) | Espadas Leves | 1d6 | Perfurante | — | Híbrida, Leve | Força +2 e Inteligência +2 | espada curta, leve |
+| [Rapiers](#rapiers) | Espadas Leves | 1d6 | Perfurante | — | Leve | — | par de lâminas finas |
+| [Espada](#espada) | Espadas Leves | 1d8 | Cortante | — | Leve | — | arma versátil |
+| [Espada-Chave](#espada-chave) | Espadas Leves | 1d8 | Cortante | — | Híbrida, Leve | — | inspirada em Keyblade |
+| [Lâmina](#lâmina) | Espadas Leves | 1d8 | Cortante | — | Leve | — | espada padrão |
+| [Adagas](#adagas) | Lâminas Curtas | 1d4 | Perfurante | — | Finesse, Leve | — | par leve; identidade vem dos efeitos (derrubar, sangrar, risco/recompensa) |
+| [Garras](#garras) | Lâminas Curtas | 1d6 | Cortante | — | Finesse, Leve | — | par leve |
+| [Punhal](#punhal) | Lâminas Curtas | 1d6 | Perfurante | — | Finesse, Leve, Efeito Especial | — | adaga leve |
+| [Sabres](#sabres) | Duplas Ágeis | 1d6 | Cortante | — | Leve | — | par de lâminas leves |
+| [Tonfas](#tonfas) | Duplas Ágeis | 1d6 | Impacto | — | Leve | — | par leve |
+| [Manopla](#manopla) | Punhos | 1d6 | Impacto | — | Leve | — | luta desarmada, golpes rápidos |
+| [Vembrassa](#vembrassa) | Punhos | 1d6 | Impacto | — | Leve | — | reflexo da Manopla — punho aberto, mão esquerda |
+| [Soqueira Pesada](#soqueira-pesada) | Punhos | 1d12 | Impacto | — | Duas Mãos, Efeito Especial | — | arma de esmagamento, pesada |
+| [Alfange](#alfange) | Lâminas Curvas | 1d8 | Cortante | — | Finesse, Leve | Agilidade +3 | lâmina única, mais pesada que a adaga |
+| [Foice](#foice) | Lâminas Curvas | 1d10 | Cortante | — | Duas Mãos | — | foice pesada |
+| [Gadanha](#gadanha) | Lâminas Curvas | 1d10 | Cortante | — | Duas Mãos | — | foice pesada de duas mãos |
+| [Lâmina Dupla](#lâmina-dupla) | Hastes | 1d6 | Cortante | — | Leve | — | arma ancestral com lâmina em cada extremidade |
+| [Bastão](#bastão) | Hastes | 1d8 | Impacto | — | Duas Mãos | — | haste média |
+| [Tridente](#tridente) | Hastes | 1d8 | Perfurante | — | Leve | — | haste de três pontas, combina com Escudo |
+| [Glaive](#glaive) | Hastes | 1d10 | Cortante | — | Duas Mãos | — | arma de haste, alcance |
+| [Lança](#lança) | Hastes | 1d10 | Perfurante | — | Duas Mãos | — | alcance, mais pesada |
+| [Pique](#pique) | Hastes | 1d10 | Perfurante | — | Duas Mãos | — | lâminas gêmeas que se combinam num pique de alcance |
+| [Machado](#machado) | Impacto Pesado | 1d12 | Cortante | — | Duas Mãos | Força +2 | pesado de duas mãos |
+| [Marreta Mágica](#marreta-mágica) | Impacto Pesado | 1d12 | Impacto | — | Duas Mãos | — | a mais pesada do arquétipo |
+| [Martelo](#martelo) | Impacto Pesado | 1d12 | Impacto | — | Duas Mãos | — | arma de esmagamento, pesada |
+| [Chicote](#chicote) | Armas Flexíveis | 1d6 | Impacto | — | Finesse, Leve | — | alcance incomum pra uma arma corpo a corpo, puxa e prende |
+| [Mangual](#mangual) | Armas Flexíveis | 1d10 | Impacto | — | Duas Mãos | — | golpe pesado e imprevisível, difícil de bloquear |
+| [Katana Muramasa](#katana-muramasa) | Lâminas Longas/Lendárias | 1d10 | Cortante | — | Finesse, Duas Mãos, Efeito Especial | Força ou Agilidade +3 | lâmina amaldiçoada, exige sangue |
+| [Lâmina do Crepúsculo](#lâmina-do-crepúsculo) | Lâminas Longas/Lendárias | 1d10 | Cortante | — | Duas Mãos | — | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
+| [Katana Nodachi](#katana-nodachi) | Lâminas Longas/Lendárias | 1d10 | Cortante | — | Finesse, Duas Mãos | Força ou Agilidade +3 | lâmina longa clássica |
+| [Soluna](#soluna) | Lâminas Longas/Lendárias | 1d10 | Cortante | — | Duas Mãos | — | lâmina lendária, duas metades (Sol e Lua) que se combinam |
+| [Espada Senciente](#espada-senciente) | Lâminas Longas/Lendárias | 1d12 | Cortante | — | Duas Mãos, Efeito Especial | — | absorve energias e dificulta a mobilidade de quem a empunha |
+| [Montante](#montante) | Lâminas Longas/Lendárias | 1d12 | Cortante | — | Duas Mãos | Força +3 | espada grande de duas mãos |
+| [Violino](#violino) | Focos Atípicos | 1d6 | Impacto | — | Leve | Vontade +4 | instrumento usado como arma contundente |
+| [Báculo](#báculo) | Focos Atípicos | 1d8 | Impacto | — | Leve | — | bastão com lâmina circular e cristal, símbolo dos bardos |
+| [Vajras](#vajras) | Focos Atípicos | 1d8 | Impacto | — | Leve | Sabedoria +6 | arma mística, foco médio |
+| [Bolsa de Truques](#bolsa-de-truques) | Focos Atípicos | 1d10 | Arcano | — | Duas Mãos | — | bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
+| [Égide](#égide) | Única | 1d6 | Cortante | — | Duas Mãos | — | pacote fechado espada+escudo — identidade defensiva vem do Buff Supremo do grupo |
 
 ### Pontaria
 
-| Arma | Família | Dado | Preço | Chaves | Requisito | Nota |
-|---|---|---|---|---|---|---|
-| [Zarabatana](#zarabatana) | Dardos | 1d4 | — | Leve | — | dardos leves, foco em veneno e status, não em dano bruto |
-| [Bestas](#bestas) | Arcos | 1d6 | — | Leve | — | dupla empunhadura, tipo adagas/sabres |
-| [Gakkung](#gakkung) | Arcos | 1d6 | — | Duas Mãos | Agilidade +6 | arco tradicional, mais leve/ágil |
-| [Arco](#arco) | Arcos | 1d8 | — | Duas Mãos | — | arma de precisão padrão |
-| [Balista](#balista) | Arcos | 1d12 | — | Duas Mãos | — | arma de cerco, a mais pesada |
-| [Chakram](#chakram) | Arremesso | 1d6 | — | Leve | — | anel de arremesso |
-| [Pistolas](#pistolas) | Armas de Fogo Leves | 1d6 | — | Leve | — | dupla de pistolas leves, usadas sempre em par |
-| [Flintlock](#flintlock) | Armas de Fogo Leves | 1d8 | — | Leve | — | pistola de precisão |
-| [Pistola Arcana](#pistola-arcana) | Armas de Fogo Leves | 1d8 | — | Híbrida, Leve | — | pólvora e magia crua no mesmo disparo |
-| [Revólver Maverick](#revólver-maverick) | Armas de Fogo Leves | 1d8 | — | Leve | — | revólver pesado, usado sempre sozinho |
-| [Espingarda](#espingarda) | Armas de Fogo Pesadas | 1d10 | — | Duas Mãos | — | "A Ruptura" — tiro único e devastador, arma dos Justiceiros |
-| [Metralhadora](#metralhadora) | Armas de Fogo Pesadas | 1d12 | — | Duas Mãos | — | giratória, a mais pesada |
+| Arma | Família | Dado | Tipo | Preço | Chaves | Requisito | Nota |
+|---|---|---|---|---|---|---|---|
+| [Zarabatana](#zarabatana) | Dardos | 1d4 | Perfurante | — | Leve | — | dardos leves, foco em veneno e status, não em dano bruto |
+| [Bestas](#bestas) | Arcos | 1d6 | Perfurante | — | Leve | — | dupla empunhadura, tipo adagas/sabres |
+| [Gakkung](#gakkung) | Arcos | 1d6 | Perfurante | — | Duas Mãos | Agilidade +6 | arco tradicional, mais leve/ágil |
+| [Arco](#arco) | Arcos | 1d8 | Perfurante | — | Duas Mãos | — | arma de precisão padrão |
+| [Balista](#balista) | Arcos | 1d12 | Perfurante | — | Duas Mãos | — | arma de cerco, a mais pesada |
+| [Chakram](#chakram) | Arremesso | 1d6 | Cortante | — | Leve | — | anel de arremesso |
+| [Pistolas](#pistolas) | Armas de Fogo Leves | 1d6 | Perfurante | — | Leve | — | dupla de pistolas leves, usadas sempre em par |
+| [Flintlock](#flintlock) | Armas de Fogo Leves | 1d8 | Perfurante | — | Leve | — | pistola de precisão |
+| [Pistola Arcana](#pistola-arcana) | Armas de Fogo Leves | 1d8 | Perfurante | — | Híbrida, Leve | — | pólvora e magia crua no mesmo disparo |
+| [Revólver Maverick](#revólver-maverick) | Armas de Fogo Leves | 1d8 | Perfurante | — | Leve | — | revólver pesado, usado sempre sozinho |
+| [Espingarda](#espingarda) | Armas de Fogo Pesadas | 1d10 | Perfurante | — | Duas Mãos | — | "A Ruptura" — tiro único e devastador, arma dos Justiceiros |
+| [Metralhadora](#metralhadora) | Armas de Fogo Pesadas | 1d12 | Perfurante | — | Duas Mãos | — | giratória, a mais pesada |
 
 ### Arcano
 
-| Arma | Família | Dado | Preço | Chaves | Requisito | Nota |
-|---|---|---|---|---|---|---|
-| [Leque](#leque) | Focos Mágicos | 1d6 | — | Leve | — | canalização mágica genérica |
-| [Manual](#manual) | Focos Mágicos | 1d6 | — | Leve | — | grimório leve |
-| [Pote](#pote) | Focos Mágicos | 1d6 | — | Leve | — | arremesso alquímico, leve e imprevisível |
-| [Cetro](#cetro) | Focos Mágicos | 1d8 | — | Leve | — | foco arcano genérico |
-| [Cubo Mágico](#cubo-mágico) | Focos Mágicos | 1d8 | — | Leve | — | cubo cósmico senciente |
-| [Lâmpada](#lâmpada) | Focos Mágicos | 1d8 | — | Leve | Inteligência +5 | foco médio |
-| [Manopla Mística](#manopla-mística) | Focos Mágicos | 1d8 | — | Leve | — | invoca criaturas através de uma gema com pentagramas e hexagramas |
-| [Olho Mágico](#olho-mágico) | Focos Mágicos | 1d8 | — | Leve | — | genérica, sem elemento fixo |
-| [Orbe](#orbe) | Focos Mágicos | 1d8 | — | Leve | — | esfera mágica que guarda poder |
-| [Cajado](#cajado) | Focos Mágicos | 1d10 | — | Duas Mãos | — | canalização pesada |
-| [Módulo Alado](#módulo-alado) | Focos Mágicos | 1d10 | — | *(especial — não é empunhado)* | — | enxame tecnológico de lâminas voadoras |
+| Arma | Família | Dado | Tipo | Preço | Chaves | Requisito | Nota |
+|---|---|---|---|---|---|---|---|
+| [Leque](#leque) | Focos Mágicos | 1d6 | Arcano | — | Leve | — | canalização mágica genérica |
+| [Manual](#manual) | Focos Mágicos | 1d6 | Arcano | — | Leve | — | grimório leve |
+| [Pote](#pote) | Focos Mágicos | 1d6 | Arcano | — | Leve | — | arremesso alquímico, leve e imprevisível |
+| [Cetro](#cetro) | Focos Mágicos | 1d8 | Arcano | — | Leve | — | foco arcano genérico |
+| [Cubo Mágico](#cubo-mágico) | Focos Mágicos | 1d8 | Arcano | — | Leve | — | cubo cósmico senciente |
+| [Lâmpada](#lâmpada) | Focos Mágicos | 1d8 | Arcano | — | Leve | Inteligência +5 | foco médio |
+| [Manopla Mística](#manopla-mística) | Focos Mágicos | 1d8 | Arcano | — | Leve | — | invoca criaturas através de uma gema com pentagramas e hexagramas |
+| [Olho Mágico](#olho-mágico) | Focos Mágicos | 1d8 | Arcano | — | Leve | — | genérica, sem elemento fixo |
+| [Orbe](#orbe) | Focos Mágicos | 1d8 | Arcano | — | Leve | — | esfera mágica que guarda poder |
+| [Cajado](#cajado) | Focos Mágicos | 1d10 | Arcano | — | Duas Mãos | — | canalização pesada |
+| [Módulo Alado](#módulo-alado) | Focos Mágicos | 1d10 | Arcano | — | *(especial — não é empunhado)* | — | enxame tecnológico de lâminas voadoras |
 
 ## Propriedades de Arma
 
@@ -161,7 +163,7 @@ Combinações de Dupla Empunhadura até agora: **Lança + Espada** (ver [Investi
 Diferente de uma arma, um Escudo não concede as 3 habilidades de Básica/Avançada/Especial — ele ocupa a mão secundária e concede um bônus passivo de Defesa, sempre ativo, sem custo de Mana ou PA. Só pode ser equipado se a mão principal tiver uma arma [Leve](#leve) (ou estiver livre).
 
 | Categoria | Bônus de Defesa | Restrição |
-|---|---|---|
+|---|---|---|---|
 | Escudo Leve | +2 | Nenhuma — combina com qualquer arma Leve |
 | Escudo Pesado | +3 | Nenhuma — combina com qualquer arma Leve |
 | Escudo Torre | +5 | Ocupa as duas mãos sozinho — usuário não pode equipar nenhuma arma junto (luta com [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)) |

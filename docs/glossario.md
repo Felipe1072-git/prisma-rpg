@@ -65,6 +65,38 @@ Assinatura de [Sombras](habilidades/magicas-elementais.md#sombras) em área: a r
 - **Zonas sobrepostas não somam.** Onde duas zonas se cruzam, vale só a **mais forte** — nunca 1d4 + 1d4.
 - **Duração:** a que a habilidade declarar (1, 2 ou 3 rodadas, conforme a Intensidade). Encerrado o prazo, a maldição se dissolve.
 
+## Dano
+
+Todo dano tem um tipo. Os três primeiros vêm da arma empunhada; o quarto, de focos mágicos. Ver [Tipos de Dano](jogador/sistema-d20.md#tipos-de-dano).
+
+### Cortante
+
+Espadas, machados, foices, garras.
+
+### Perfurante
+
+Lanças, adagas, flechas, projéteis de arma de fogo.
+
+### Impacto
+
+Martelos, bastões, punhos, manguais. Também é o tipo do [Dano Desarmado](habilidades/marciais.md#dano-desarmado).
+
+### Arcano
+
+Focos mágicos — canalização sem forma física definida.
+
+### Resistência
+
+O dano daquele tipo cai pela **metade** (arredondado pra baixo).
+
+### Imunidade
+
+O dano daquele tipo é **ignorado** por completo.
+
+### Vulnerabilidade
+
+O dano daquele tipo é **dobrado** — espelho da Resistência. É o que recompensa descobrir a fraqueza de uma criatura e trocar de arma antes da luta.
+
 ## Graus de Habilidade de Arma
 
 Toda arma concede 3 habilidades, aprendidas nessa ordem obrigatória (ver [Arsenal](jogador/arsenal.md)). O grau **não** define o custo — cada uma tem suas próprias [Intensidades](habilidades/index.md#intensidade) I/II/III. O que o grau define é o quanto a técnica entrega e o quanto de Mana ela cobra:
@@ -335,11 +367,11 @@ Arma de pontaria Híbrida (Agilidade ou Inteligência), dano 1d8. Ver [Arsenal �
 
 ### Finesse
 
-O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver [Arsenal → Armas Finesse](jogador/arsenal.md#armas-finesse).
+O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver [Arsenal → Armas Finesse](jogador/arsenal.md#finesse).
 
 ### Híbrida
 
-O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Arsenal → Armas Híbridas](jogador/arsenal.md#armas-híbridas).
+O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Arsenal → Armas Híbridas](jogador/arsenal.md#híbrida).
 
 ### Dupla Empunhadura
 

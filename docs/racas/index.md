@@ -87,7 +87,7 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 
 **Traços Raciais:**
 
-- **Resistência Elemental** — escolha 1 dos 8 elementos (ver [Mágicas por Elemento](../habilidades/magicas-elementais.md)) na criação do personagem; ganha [Resistência](../jogador/sistema-d20.md#resistência-e-imunidade) a esse tipo de dano.
+- **Resistência Elemental** — escolha 1 dos 8 elementos (ver [Mágicas por Elemento](../habilidades/magicas-elementais.md)) na criação do personagem; ganha [Resistência](../jogador/sistema-d20.md#resistência-imunidade-e-vulnerabilidade) a esse tipo de dano.
 - **Baforada Dracônica** — concede a habilidade abaixo gratuitamente (não consome uma escolha de nível), do mesmo elemento escolhido acima.
 
 **Baforada Dracônica**
