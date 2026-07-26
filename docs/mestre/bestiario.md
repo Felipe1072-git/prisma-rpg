@@ -13,9 +13,21 @@ Criatura não é personagem: ela não sobe de nível, não distribui pontos e n�
 | **Formidável** | 10 | 60 | ◈◈◈ (3) | os 8 atributos | com [Intensidade](../habilidades/index.md#intensidade) + Mana |
 | **Lendário** | 14 | 180 | ◈◈◈ (3) + Ação de Lenda | os 8 atributos | com Intensidade + Mana |
 
+### Como resolver o ataque de uma criatura
+
+**Quem age, rola** — vale pra criatura do mesmo jeito que vale pro personagem. Quando a criatura ataca, **o Mestre rola**:
+
+**d20 + o Ataque da criatura vs a Defesa do personagem.**
+
+Cada ficha traz o **Ataque** já calculado, pra você não precisar somar atributo na hora. A Defesa do personagem vem da ficha dele: aventureiros são **Treinado**, então **Defesa física = 8 + Agilidade + Armadura** e **Defesa mental = 8 + Vontade** (ver [Defesa](../jogador/sistema-d20.md#defesa)).
+
+- **1 natural** sempre falha.
+- **20 natural** é crítico: **dano máximo dos dados + uma rolagem extra**, e nada além disso. Criatura **não** sobe de Intensidade no crítico — esse bônus é dos personagens.
+- Ataque que impõe efeito mental, veneno ou medo é comparado à **Defesa mental** (ou à Defesa do atributo que o efeito indicar), não à física. Por isso toda ficha traz as duas.
+
 ### Vida é valor fixo
 
-Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra personagens de **nível 1 a 4** — grupos mais fortes usam a [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nível). A Vida foi calibrada contra o dano real que um grupo entrega — um **Comum cai num único golpe** (o dano médio de uma habilidade em Intensidade I é ~6), um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
+Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra personagens de **nível 1 a 4** — grupos mais fortes usam a [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nível). A Vida foi calibrada contra o dano real que um grupo entrega: um **Comum cai num único golpe**, um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
 
 ### Pontos de Ação por Tier
 
@@ -33,7 +45,8 @@ O bônus que faltava ser definido na [tabela de Defesa](../jogador/sistema-d20.m
 | Blindada | +3 | placas ósseas, armadura de placas, casco pesado |
 | Dracônica | +4 | escamas de dragão adulto, pedra viva, aço encantado |
 
-**Defesa física = Base de Resiliência + Agilidade + Couraça Natural.**
+- **Defesa física** = Base de Resiliência + Agilidade + Couraça Natural
+- **Defesa mental** = Base de Resiliência + Vontade
 
 ### Ataques: capangas são fixos, chefes decidem
 
@@ -51,94 +64,105 @@ Exclusiva do Tier Lendário: **uma vez por rodada, fora do próprio turno**, a c
 
 *Baixo, magro e covarde sozinho — mas eles nunca estão sozinhos.*
 
-- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Couraça:** Coriácea (+1)
-- **Atributos:** Agilidade +1, Vitalidade -1
-- **Defesa física:** 6 + 1 + 1 = **8**
-- **Iniciativa:** d20 + 0
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +0
+- **Ataque:** +1 | **Defesa física:** 8 | **Defesa mental:** 6
+- **Atributos:** Agilidade +1, Vitalidade -1 | **Couraça:** Coriácea (+1)
 
-**Adaga Enferrujada** — ◈ | 1 criatura adjacente
-: 1d4 de dano.
+**Adaga Enferrujada** — ◈ | +1 vs Defesa física | 1 criatura adjacente
+
+- **1d4** de dano ([Perfurante](../glossario.md#perfurante)).
 
 **Bando** *(passiva)*
-: Se houver outro Goblin adjacente ao mesmo alvo, o ataque causa +1d4. Goblin é ameaça por quantidade, não por indivíduo.
+
+- Se houver outro Goblin adjacente ao mesmo alvo, o ataque causa **+1d4**. Goblin é ameaça por quantidade, não por indivíduo.
 
 **Covardia** *(passiva)*
-: Ao ficar com 3 ou menos de Vida, o Goblin usa seu PA pra fugir na direção mais segura, se houver rota. Não é medo mecânico — é o Mestre jogando o bicho como ele é.
+
+- Ao ficar com 3 ou menos de Vida, usa seu PA pra fugir pela rota mais segura, se houver. Não é medo mecânico — é o Mestre jogando o bicho como ele é.
 
 ## Lobo
 
 *Ele não ataca o mais forte do grupo. Ataca o que se afastou.*
 
-- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Couraça:** Coriácea (+1)
-- **Atributos:** Agilidade +2, Vitalidade +1, Sabedoria +1
-- **Defesa física:** 6 + 2 + 1 = **9**
-- **Movimento:** 5 casas (3 + Agilidade) — mais rápido que a maioria dos personagens
-- **Iniciativa:** d20 + 0
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +0
+- **Ataque:** +2 | **Defesa física:** 9 | **Defesa mental:** 6
+- **Atributos:** Agilidade +2, Vitalidade +1, Sabedoria +1 | **Couraça:** Coriácea (+1)
+- **Movimento:** 5 casas — mais rápido que a maioria dos personagens
 
-**Mordida** — ◈ | 1 criatura adjacente
-: 1d6 de dano. Se o alvo estiver sozinho (nenhum aliado dele adjacente), derruba também.
+**Mordida** — ◈ | +2 vs Defesa física | 1 criatura adjacente
+
+- **1d6** de dano ([Perfurante](../glossario.md#perfurante)). Se o alvo estiver sozinho (nenhum aliado dele adjacente), **derruba** também.
 
 **Matilha** *(passiva)*
-: O ataque rola com Vantagem se outro Lobo estiver adjacente ao mesmo alvo.
+
+- O ataque rola com **Vantagem** se outro Lobo estiver adjacente ao mesmo alvo.
 
 **Faro** *(passiva)*
-: Não pode ser surpreendido por criatura que dependa apenas de ocultação visual.
+
+- Não pode ser surpreendido por criatura que dependa apenas de ocultação visual.
 
 ## Bandido
 
 *Sabe exatamente onde doer, e cobra pela informação.*
 
-- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Couraça:** Coriácea (+1)
-- **Atributos:** Força +2, Agilidade +2, Vitalidade +1, Vontade +1
-- **Defesa física:** 8 + 2 + 1 = **11**
-- **Iniciativa:** d20 + 0
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +0
+- **Ataque:** +2 | **Defesa física:** 11 | **Defesa mental:** 9
+- **Atributos:** Força +2, Agilidade +2, Vitalidade +1, Vontade +1 | **Couraça:** Coriácea (+1)
 
-**Espada Curta** — ◈ | 1 criatura adjacente
-: 1d8 de dano.
+**Espada Curta** — ◈ | +2 vs Defesa física | 1 criatura adjacente
 
-**Golpe Sujo** — ◈◈ | 1 criatura adjacente
-: 1d8 de dano + o alvo fica [Sangrando](../glossario.md#sangrando). Contra alvo já derrubado, 2d8 em vez de 1d8.
+- **1d8** de dano ([Cortante](../glossario.md#cortante)).
 
-**Recuar e Atirar** — ◈◈ | 1 criatura a até 8 casas
-: o Bandido se afasta até 3 casas e dispara uma besta de mão: 1d6 de dano. Não provoca reação ao se afastar.
+**Golpe Sujo** — ◈◈ | +2 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano + o alvo fica [Sangrando](../glossario.md#sangrando). Contra alvo já derrubado, **2d8** em vez de 1d8.
+
+**Recuar e Atirar** — ◈◈ | +2 vs Defesa física | 1 criatura a até 8 casas
+
+- Afasta-se até 3 casas e dispara uma besta de mão: **1d6** de dano ([Perfurante](../glossario.md#perfurante)). Afastar-se assim não provoca reação.
 
 ## Esqueleto
 
 *Cortar não resolve. Ele não tem o que sangrar.*
 
-- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Couraça:** Escamada (+2, ossos e escudo velho)
-- **Atributos:** Força +2, Agilidade +0, Vitalidade +3
-- **Defesa física:** 8 + 0 + 2 = **10**
-- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, medo
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +0
+- **Ataque:** +2 | **Defesa física:** 10 | **Defesa mental:** imune a efeito mental
+- **Atributos:** Força +2, Agilidade +0, Vitalidade +3 | **Couraça:** Escamada (+2, ossos e escudo velho)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental** (medo, charme, provocação, ilusão) — não há mente pra atingir
 - **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante) — lâmina e ponta não têm o que rasgar num esqueleto
 - **Vulnerabilidade:** [Impacto](../glossario.md#impacto) — osso quebra; martelos e maças causam o **dobro**
-- **Iniciativa:** d20 + 0
 
-**Lâmina Antiga** — ◈ | 1 criatura adjacente
-: 1d8 de dano.
+**Lâmina Antiga** — ◈ | +2 vs Defesa física | 1 criatura adjacente
 
-**Investida de Ossos** — ◈◈ | 1 criatura a até o Movimento
-: avança e golpeia: 1d8 de dano + empurra 1 casa.
+- **1d8** de dano ([Cortante](../glossario.md#cortante)).
+
+**Investida de Ossos** — ◈◈ | +2 vs Defesa física | 1 criatura a até o Movimento
+
+- Avança e golpeia: **1d8** de dano + **empurra 1 casa**.
 
 **Remontar** *(passiva)*
-: Ao chegar a 0 de Vida pela primeira vez, o Esqueleto se remonta no início do próprio próximo turno com **8 de Vida** — a não ser que o golpe final tenha sido de [Impacto](../glossario.md#impacto), ou que os ossos tenham sido espalhados (uma Ação Básica de um personagem adjacente resolve).
+
+- Ao chegar a 0 de Vida pela primeira vez, remonta-se no início do próprio próximo turno com **8 de Vida** — a não ser que o golpe final tenha sido de [Impacto](../glossario.md#impacto), ou que os ossos sejam espalhados (uma Ação Básica de um personagem adjacente resolve).
 
 ## Slime
 
 *Bater com a espada só faz dois problemas onde havia um.*
 
-- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Couraça:** Nenhuma (+0)
-- **Atributos:** Vitalidade +2, Agilidade -2
-- **Defesa física:** 6 - 2 + 0 = **4** (é lento e não desvia; acertar é fácil, resolver não)
-- **Imunidades:** derrubar, empurrar, [Sangrando](../glossario.md#sangrando), veneno
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +0
+- **Ataque:** +0 | **Defesa física:** 4 | **Defesa mental:** imune a efeito mental
+- **Atributos:** Vitalidade +2, Agilidade -2 | **Couraça:** Nenhuma (+0)
+- **Imunidades:** derrubar, empurrar, [Sangrando](../glossario.md#sangrando), veneno, e **todo efeito mental**
 - **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante) — a lâmina atravessa a gelatina sem cortar nada
-- **Iniciativa:** d20 + 0
 
-**Investida Ácida** — ◈ | 1 criatura adjacente
-: 1d4 de dano, e o alvo fica [Envenenado](../glossario.md#envenenado) (o ácido continua corroendo).
+Defesa física 4 é de propósito: o Slime é lento e não desvia de nada. **Acertar é fácil; resolver não.**
+
+**Investida Ácida** — ◈ | +0 vs Defesa física | 1 criatura adjacente
+
+- **1d4** de dano, e o alvo fica [Envenenado](../glossario.md#envenenado) — o ácido continua corroendo.
 
 **Divisão** *(passiva)*
-: Quando sofre dano **[Cortante](../glossario.md#cortante) ou [Perfurante](../glossario.md#perfurante)** e sobrevive, o Slime se divide: surge um segundo Slime adjacente com metade da Vida atual (arredondada pra baixo, mínimo 1), e o original fica com a outra metade. Dano de [Impacto](../glossario.md#impacto), [Arcano](../glossario.md#arcano) e elemental não divide — esmaga ou queima.
+
+- Quando sofre dano **[Cortante](../glossario.md#cortante) ou [Perfurante](../glossario.md#perfurante)** e sobrevive, o Slime se divide: surge um segundo Slime adjacente com metade da Vida atual (arredondada pra baixo, mínimo 1), e o original fica com a outra metade. Dano de [Impacto](../glossario.md#impacto), [Arcano](../glossario.md#arcano) e elemental não divide — esmaga ou queima.
 
 ## Dragão Filhote
 
@@ -146,26 +170,28 @@ Exclusiva do Tier Lendário: **uma vez por rodada, fora do próprio turno**, a c
 
 Primeiro chefe do Bestiário: usa **Mana e [Intensidade](../habilidades/index.md#intensidade)**, e o Mestre decide quanto investir em cada turno, como um jogador faria.
 
-- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈ (3) | **Mana:** 20 | **Couraça:** Blindada (+3)
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈ (3) | **Mana:** 20 | **Iniciativa:** +0
+- **Ataque:** +3 | **Defesa física:** 15 | **Defesa mental:** 12
 - **Atributos:** Força +3, Vitalidade +3, Agilidade +2, Inteligência +2, Sabedoria +1, Vontade +2, Sorte +0, Sanidade +2
-- **Defesa física:** 10 + 2 + 3 = **15**
-- **Defesa mental:** 10 + 2 = **12**
-- **Resistência:** fogo
-- **Movimento:** 5 casas no chão, 8 casas voando (mas precisa de 1 ◈ pra alçar voo)
-- **Iniciativa:** d20 + 0
+- **Couraça:** Blindada (+3) | **Resistência:** fogo
+- **Movimento:** 5 casas no chão, 8 voando — alçar voo custa ◈
 
-**Garras e Presas** — ◈ | 0 Mana | 1 criatura adjacente
-: 2d6 de dano. É o ataque de rotina — não gasta Mana.
+**Garras e Presas** — ◈ | 0 Mana | +3 vs Defesa física | 1 criatura adjacente
 
-**Baforada** — 1 criatura ou área, conforme a Intensidade | **Atributo:** Força
-: A assinatura do elemento [Fogo](../habilidades/magicas-elementais.md#fogo): o alvo pega fogo e continua queimando.
-: **Intensidade I — ◈ (1 PA) + 3 Mana:** cone de 3 casas, 2d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
-: **Intensidade II — ◈◈ (2 PA) + 6 Mana:** cone de 3 casas, 2d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a cada alvo
-: **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** cone de 5 casas, 3d6 de dano + [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes
-: **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
+- **2d6** de dano ([Cortante](../glossario.md#cortante)). É o ataque de rotina: não gasta Mana.
 
-**Voo Rasante** — ◈◈ | 2 Mana | linha de 6 casas
-: o Dragão sobrevoa a linha causando 2d6 em cada criatura nela, e termina o movimento fora do alcance corpo a corpo de todas. Só pode ser usada se já estiver voando.
+**Baforada** — +3 vs Defesa física | cone à frente, tamanho conforme a Intensidade
+
+Assinatura do elemento [Fogo](../habilidades/magicas-elementais.md#fogo): quem é atingido pega fogo e continua queimando. O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alvo dentro do cone.
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** cone de 3 casas, **2d6** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** cone de 3 casas, **2d6** de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** cone de 5 casas, **3d6** de dano + [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes
+
+**Voo Rasante** — ◈◈ | 2 Mana | +3 vs Defesa física | linha de 6 casas
+
+- **2d6** de dano em cada criatura na linha, e o Dragão termina o movimento fora do alcance corpo a corpo de todas. Só pode ser usada se já estiver voando.
 
 **Escamas Quentes** *(passiva)*
-: Quem atinge o Dragão com ataque corpo a corpo sofre 1d4 de dano de fogo.
+
+- Quem atinge o Dragão com ataque corpo a corpo sofre **1d4** de dano de fogo.

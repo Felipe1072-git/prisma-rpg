@@ -127,6 +127,23 @@ Toda criatura (personagem ou monstro) tem uma **Base de Resiliência**, definida
 
 **Defesa = Base de Resiliência + o atributo relevante ao tipo de efeito** (+ bônus natural relevante, se houver). O padrão — ataques físicos, o caso mais comum — usa **Agilidade**. Habilidades que impõem outra coisa (um estado mental, uma doença, pânico) declaram explicitamente qual atributo testar; a fórmula é sempre a mesma, só troca o atributo.
 
+**Um personagem jogador é Treinado** (Base 8) — a mesma linha de soldados e aventureiros experientes. Na prática:
+
+- **Defesa física** = 8 + Agilidade + Armadura
+- **Defesa mental** = 8 + Vontade
+- e assim por diante, trocando o atributo conforme o efeito
+
+Vale a pena anotar essas duas na ficha antes da sessão: são os números que o Mestre vai consultar a cada ataque de criatura.
+
+### Quem rola o dado
+
+**Quem age, rola.** Isso vale nos dois sentidos e é a única regra de resolução do jogo:
+
+- O personagem ataca uma criatura → **o jogador** rola d20 + Atributo contra a Defesa da criatura.
+- Uma criatura ataca o personagem → **o Mestre** rola d20 + o Ataque da criatura contra a Defesa do personagem.
+
+Não existe rolagem de defesa: quem está sendo atacado não rola nada, seu número de Defesa é o alvo a ser superado. Ver [Bestiário](../mestre/bestiario.md#como-resolver-o-ataque-de-uma-criatura) para o lado do Mestre.
+
 | Tipo de efeito | Atributo de Defesa | Bônus natural |
 |---|---|---|
 | Físico (dano, empurrar, derrubar) — padrão | Agilidade | Armadura/Couraça Natural *(a detalhar com o Bestiário/equipamentos)* |
