@@ -1,17 +1,18 @@
 ---
 name: criar-habilidade
-description: Cria ou ajusta habilidades de jogo do Prisma RPG (o RPG de mesa homebrew deste repositório), mantendo o padrão mecânico e de formatação já estabelecido no projeto. Use esta skill sempre que o usuário pedir pra criar, desenhar, balancear ou revisar uma habilidade, feitiço, magia, golpe de arma, ou "poder" de personagem — inclusive quando o pedido vier como "cria uma habilidade parecida com X do anime/filme/jogo Y", ou como uma ideia solta tipo "queria algo tipo controle mental" ou "e se tivesse voo?". Também use ao criar uma arma nova (que precisa de 3 tiers de habilidade) ou um elemento/subgrupo novo dentro de Mágicas por Elemento.
+description: Cria ou ajusta habilidades de jogo do Prisma RPG (o RPG de mesa homebrew deste repositório), mantendo o padrão mecânico e de formatação já estabelecido no projeto. Use esta skill sempre que o usuário pedir pra criar, desenhar, balancear ou revisar uma habilidade, feitiço, magia, golpe de arma, ou "poder" de personagem — inclusive quando o pedido vier como "cria uma habilidade parecida com X do anime/filme/jogo Y", ou como uma ideia solta tipo "queria algo tipo controle mental" ou "e se tivesse voo?". Também use ao criar uma arma nova (que precisa de 3 graus de habilidade) ou um elemento/subgrupo novo dentro de Mágicas por Elemento.
 ---
 
 # Criar Habilidade — Prisma RPG
 
-Esta skill existe porque o padrão de habilidades do Prisma RPG foi fixado com bastante detalhe numa sessão de design, e é fácil perder essa consistência em sessões futuras (esquecer um campo, comprimir os tiers numa linha só, inventar uma habilidade sem consultar o usuário). Ela é uma referência de consulta rápida — leia as fontes vivas linkadas abaixo quando precisar do valor exato de algo, não confie de cor em números que possam ter mudado.
+Esta skill existe porque o padrão de habilidades do Prisma RPG foi fixado com bastante detalhe numa sessão de design, e é fácil perder essa consistência em sessões futuras (esquecer um campo, comprimir as Intensidades numa linha só, inventar uma habilidade sem consultar o usuário). Ela é uma referência de consulta rápida — leia as fontes vivas linkadas abaixo quando precisar do valor exato de algo, não confie de cor em números que possam ter mudado.
 
 **Fontes vivas** (sempre a verdade mais atual — releia se um número aqui parecer estranho):
-- [docs/habilidades/index.md](../../docs/habilidades/index.md) — Ficha de Habilidade, tiers de sucesso, lista de grupos
+- [docs/habilidades/index.md](../../docs/habilidades/index.md) — Ficha de Habilidade, Intensidade, Custo fixo, lista de grupos
 - [docs/jogador/arsenal.md](../../docs/jogador/arsenal.md) — armas existentes e suas 3 habilidades
-- [docs/jogador/mana.md](../../docs/jogador/mana.md) — Custo por Tier de Poder
-- [docs/glossario.md](../../docs/glossario.md) — todo termo que pode virar um link de Chave
+- [docs/jogador/mana.md](../../docs/jogador/mana.md) — Escala de Mana por Intensidade
+- [docs/habilidades/magicas-elementais.md](../../docs/habilidades/magicas-elementais.md) — Assinatura de Elemento (o que cada elemento faz de único)
+- [docs/glossario.md](../../docs/glossario.md) — todo termo que pode virar link de Chave, **e a lista fechada de Condições**
 - [docs/habilidades/marciais.md](../../docs/habilidades/marciais.md) — tabela de Dano Desarmado (pra habilidades de soco/chute sem arma, escala por nível)
 - [CLAUDE.md](../../CLAUDE.md) — regras gerais do projeto (nunca inventar sem consultar, sempre AskUserQuestion pra escolhas)
 
@@ -19,7 +20,7 @@ Esta skill existe porque o padrão de habilidades do Prisma RPG foi fixado com b
 
 O CLAUDE.md do projeto proíbe escrever conteúdo de jogo em `docs/` sem aprovação explícita. Isso vale em dobro pra habilidades novas:
 
-1. **Proponha no chat primeiro** — nome, descrição evocativa, Chave, custos, e os tiers com valores já preenchidos (nunca "TBD"). O usuário precisa conseguir avaliar a habilidade pronta, não uma ideia vaga.
+1. **Proponha no chat primeiro** — nome, descrição evocativa, Chave, atributo, e as três Intensidades com valores já preenchidos (nunca "TBD"). O usuário precisa conseguir avaliar a habilidade pronta, não uma ideia vaga.
 2. **Pergunte o que não é óbvio.** Se o atributo, o grupo, um valor numérico ou uma escolha de design não tiver uma resposta clara a partir do que já existe no projeto, use `AskUserQuestion` em vez de decidir sozinho. É melhor perguntar demais do que inventar uma regra que o usuário depois tem que desfazer.
 3. **Só grave depois do "pode gravar" / aprovação explícita.** Mostre o preview, espere confirmação, então edite o arquivo.
 
@@ -34,45 +35,86 @@ Toda habilidade — sem exceção — tem estes campos, cada um em seu próprio 
 - **Nome**
 - *Descrição breve*, em itálico, logo abaixo do nome: 1 frase evocativa que deixa claro o que a habilidade faz. Evite números específicos que o jogador possa confundir com regra (ex: não diga "cinco flechas" se mecanicamente é só 1 rolagem de dano — isso já aconteceu e gerou confusão).
 - **Chave** — ver seção própria abaixo
-- **Custo** em Mana e em Pontos de Ação (◈), normalmente na mesma linha: `- **Custo:** X Mana | ◈◈ (2 PA)`
 - **Atributo**
 - **Alvos** (e **Alcance** sempre que a habilidade não for corpo a corpo — nunca deixe alcance ou raio de área vagos tipo "uma área", sempre um número de casas)
-- **Tiers de Sucesso**, um bullet por tier, cada um com o valor numérico completo já resolvido (nunca "dano da arma" genérico, nunca dois tiers comprimidos na mesma linha com `|`)
+- **Intensidade I / II / III**, um bullet cada, com o PA, o Mana e o valor numérico completo já resolvido (nunca "dano da arma" genérico, nunca duas Intensidades comprimidas na mesma linha com `|`)
 - **Crítico**
 
-### Tiers de Sucesso
+Mecânicas que valem em **qualquer** Intensidade (um deslocamento de investida, um requisito de arma, uma linha de Risco) ganham **bullet próprio** acima das Intensidades — não repita dentro de cada uma. Isso já causou perda de conteúdo: seis investidas de Fogo tinham "o usuário se desloca até o alvo" só na Intensidade I e o texto sumia quando o jogador subia a Intensidade.
 
-O teste é **d20 + Atributo**. Os tiers são:
+### Intensidade
 
-| Tier | Total (d20 + Atributo) |
-|---|---|
-| Tier 1 (fraco) | ≤ 10 |
-| Tier 2 (médio) | 11–16 |
-| Tier 3 (forte) | ≥ 17 |
-| Crítico | 20 natural — efeito extra, além do tier 3 |
+O teste é **d20 + Atributo vs Defesa** e responde só **acertou ou não**. Quão forte o golpe é não vem da rolagem — vem da **Intensidade que o jogador escolheu pagar** ao ativar:
 
-**Habilidades sem teste de ataque não precisam de tiers.** Um buff puro (ex: um escudo de valor fixo) ou um efeito automático (ex: uma habilidade Suprema que causa dano inevitável, sem chance de esquiva) pode pular direto pra um campo **Efeito** único, sem tabela de tiers — porque não existe rolagem cujo resultado varie o efeito. Isso é uma escolha de design válida, não um campo esquecido; só não abuse dela pra fugir de decidir números.
+| Intensidade | PA | O que entrega |
+|---|---|---|
+| I | ◈ (1) | O efeito base — **nunca só o dano** (ver abaixo) |
+| II | ◈◈ (2) | O efeito secundário aparece ou cresce |
+| III | ◈◈◈ (3) | O efeito completo — consome o turno inteiro |
+| Crítico | 20 natural | Dano máximo + rolagem extra, e **sobe 1 Intensidade de graça** |
+
+**Alcance e área nunca escalam com Intensidade** — só o efeito. Uma habilidade de 2 casas de raio cobre 2 casas de raio na Intensidade I.
+
+**A Intensidade I precisa valer mais que o Ataque Básico.** Essa é a regra mais importante desta seção, e a orientação anterior desta skill ("pra Tier 1, dano puro costuma bastar") produziu **163 habilidades defeituosas** que o usuário teve que apontar numa captura de tela. O Ataque Básico custa ◈ e **0 Mana**, e já causa o dado da arma: se a Intensidade I entrega só o dado da arma, o jogador pagou Mana **e** uma escolha de nível de progressão para ter o que qualquer um tem de graça. Toda Intensidade I precisa de dano maior, um efeito, ou área.
+
+**Hierarquia de grau de arma.** A Básica parte de 1x o dado + um efeito; a Avançada e a Especial partem de **2x** o dado e alcançam condições que a Básica não impõe; a Especial costuma somar área. Em qualquer Intensidade, o grau superior tem que ser visivelmente melhor — senão a Avançada custa mais Mana pra entregar o mesmo, o que já aconteceu e o usuário reclamou.
+
+**Habilidades de Custo fixo não têm Intensidade.** Use `- **Custo fixo:** ◈◈◈ (3 PA) + N Mana` e um único bullet **Acerto** quando: a área é de raio 3+ (a área já é o poder), a habilidade é Suprema (16+ Mana), ou não há rolagem nenhuma (buff puro). Nesse caso o custo cobra o valor da Intensidade III, porque é o efeito que ela entrega.
+
+**Tiers de Resultado — exceção rara.** Quando o efeito não faz sentido em meio-sucesso (reviver um aliado é o único caso hoje), o d20 volta a graduar o **resultado**: `≤10` falha catastrófica, `11–16` falha recuperável, `≥17` sucesso, 20 natural sucesso ampliado. Custo fixo, sem Intensidade. O usuário aprovou isso justamente para que ressurreição não vire efeito confiável — não estenda o padrão sem perguntar.
 
 **Todo efeito automático periódico ("por N rodadas", "no início de cada rodada") precisa deixar explícito se a primeira aplicação é imediata.** Já corrigimos essa ambiguidade 3 vezes (Raios e Relâmpagos, Chamas Espirituais, e depois Brilho Caótico/Esfera das Trevas/Espada Vingadora do Dio) — é fácil escrever "no início de cada rodada" sem dizer se isso inclui o momento do lançamento. Escreva sempre no formato: "X de dano automático imediatamente ao usar/invocar, e mais uma vez no início de cada uma das N rodadas seguintes (N+1 aplicações no total)". Confira isso *toda vez* que escrever uma habilidade com efeito de zona/DoT — não só quando o usuário reclamar.
 
-**Nem todo tier precisa escalar dano/força.** Pra efeitos binários (funciona ou não funciona — reviver um aliado é o exemplo até agora), os 4 degraus dos tiers ainda se aplicam, mas como **pass/fail com gravidade crescente**: Tier 1 pode ser uma falha pior que Tier 2 (ex: "o espírito se perde pra sempre" vs "ainda dá pra tentar de novo"), e só Tier 3/Crítico produzem sucesso de fato. Use esse padrão quando o efeito não faz sentido em "meio-sucesso" (não dá pra reviver alguém "um pouco").
+### Assinatura: a habilidade escala o que ela É
 
-**Varie o efeito de Tier 2/3 — não caia sempre em "empurra 1 casa" / "derruba".** Isso já virou um padrão repetitivo nas primeiras habilidades (Espada, Arco, Cetro, Adagas, Machado, Gládio todas usavam a mesma fórmula) e o usuário pediu pra diversificar. Pra Tier 1, dano puro (ou o efeito central da habilidade) costuma bastar — é o Tier 2/3 que precisa de identidade própria. Um menu de riders pra variar, escolhendo o que combina com o conceito da habilidade:
-- **Condição negativa:** Sangrando (perde Xd de Vida no início do próximo turno), Lento (metade do Movimento), Petrificado/Paralisado/Atordoado (não pode agir), perde a próxima Ação Básica/Reação
-- **Controle de campo:** Terreno Difícil (custa o dobro de Movimento), empurra/puxa, prende no lugar
-- **Suporte a aliados:** marca o alvo (próximo ataque aliado tem vantagem), concede Escudo ao usuário
-- **Recurso do alvo:** drena Mana do alvo (introduzido na Rey/Latido Drenante) — bom pra personagens com tema de "sugar" poder
-- **Rolagem prejudicada:** Desvantagem (introduzido na Rin/Passo Sombrio) — o oposto de Vantagem: quem rola, rola 2x e fica com o **pior** resultado. Útil pra habilidades de esquiva/reposicionamento que dificultam o próximo golpe contra o usuário, sem negar o ataque por completo.
-- **Controle de comportamento:** Provocação (introduzido na Lime/Provocação) — força o(s) alvo(s) a só atacar o usuário da habilidade até um prazo definido (se forem capazes). Bom pra personagens tanque/paladino.
-- **Clássico:** empurra / derruba (ainda válido — só não usar em toda habilidade nova)
+A Intensidade **amplifica** o efeito característico da habilidade, em vez de trocá-lo por outro. Escolha uma assinatura (o verbo daquela habilidade) e construa a escada em cima dela:
 
-Não precisa forçar os 4 riders numa habilidade só; 1-2 bem escolhidos, coerentes com o conceito (um golpe cortante sangra, um golpe de área congela o chão, um golpe de impacto derruba), valem mais que variedade por variedade.
+```
+Corte Impactante (assinatura: desequilibrar)
+I   1d4 + empurra 1 casa
+II  1d4 + empurra 2 casas e derruba
+III 2d4 + empurra 3 casas, derruba, e ele perde a próxima Reação
+```
+
+**Não caia sempre em "empurra 1 casa" / "derruba".** Isso já virou padrão repetitivo duas vezes no projeto e o usuário reclamou nas duas. Menu de assinaturas possíveis:
+
+- **Condição negativa:** [Sangrando], [Queimando], [Lento], [Imóvel], [Atordoado], [Envenenado], perde a próxima Ação Básica/Reação
+- **Controle de campo:** empurra/puxa, área que persiste ferindo quem fica nela (assinatura de Sombras), Terreno Difícil
+- **Suporte a aliados:** [Marcado] (próximo ataque aliado tem Vantagem), concede [Escudo] ao usuário
+- **Recurso do alvo:** drena Mana (Rey/Latido Drenante) — bom pra tema de "sugar" poder
+- **Rolagem prejudicada:** Desvantagem (Rin/Passo Sombrio) — rola 2x e fica com o **pior**
+- **Controle de comportamento:** Provocação (Lime) — força o alvo a só atacar o usuário
+- **Dreno:** usuário recupera Vida em fração do dano (assinatura de Sangue e de Sombras em alvo único)
+- **Risco:** se algum dado de dano cair em 1, a habilidade cobra um preço de quem a usou — só pra tema perigoso (lâmina amaldiçoada, magia de sangue). Ver [Risco](../../docs/glossario.md#risco)
+
+1-2 bem escolhidos, coerentes com o conceito (um golpe cortante sangra, um de impacto derruba), valem mais que variedade por variedade.
+
+### Condições: vocabulário fechado
+
+**Não invente nome de condição.** O projeto já pagou por isso: "Paralisado" (9 usos), "prostrado" e "preso no lugar" foram criados solto e depois tiveram que ser normalizados. As canônicas vivem em [Condições](../../docs/glossario.md#condições) — sempre linke (`[Sangrando](../glossario.md#sangrando)`) em vez de repetir a definição no corpo do texto:
+
+| Condição | O que faz |
+|---|---|
+| **Sangrando** | 1d4 de Vida no início do próximo turno — uma vez só |
+| **Queimando** | 1d4 por turno, **não para sozinho** até apagarem (assinatura de Fogo) |
+| **Lento** | Movimento pela metade |
+| **Imóvel** | Movimento 0, mas continua agindo |
+| **Atordoado** | Não pode agir — nem ação, nem movimento, nem reação |
+| **Marcado** | Próximo ataque de aliado contra ele rola com Vantagem |
+| **Envenenado** | 1d4 por turno até ser curado; acumula |
+| **Escudo** | Pontos temporários que absorvem dano antes da Vida |
+
+Se precisar de uma condição que não existe, isso é decisão de design: **pergunte antes**, e se aprovada, adicione a entrada em `docs/glossario.md` no mesmo lote de edição.
+
+### Elemento tem assinatura própria
+
+Se a habilidade é de Mágicas por Elemento, ela **precisa** carregar a assinatura do elemento — é o que faz Fogo e Sombras jogarem diferente mesmo com o mesmo dano. Consulte [Assinatura de Elemento](../../docs/habilidades/magicas-elementais.md#assinatura-de-elemento) antes de escrever; em resumo: Fogo consome, Gelo trava, Raio rouba a ação, Terra põe no chão, Água arrasta, Vento arremessa, Luz prende, Sombras nega terreno e drena, Veneno acumula, Sangue troca Vida por poder, Espaço-Tempo reposiciona.
 
 ## Chave — e por que ela precisa ser um link
 
 Toda habilidade deve linkar seus termos pro [Glossário](../../docs/glossario.md), pra funcionar como navegação cruzada quando o site for publicado.
 
-- **Habilidade de arma:** `[Arma](../glossario.md#arma) - [Tier](../glossario.md#tier)` — ex: `[Espada](../glossario.md#espada) - [Básica](../glossario.md#básica)`
+- **Habilidade de arma:** `[Arma](../glossario.md#arma) - [Grau](../glossario.md#grau)` — ex: `[Espada](../glossario.md#espada) - [Básica](../glossario.md#básica)`
 - **Habilidade geral de grupo, sem subtipo:** `[Grupo](../glossario.md#grupo)` — ex: `[Buff](../glossario.md#buff)`
 - **Habilidade geral de grupo, com subtipo** (hoje só Mágicas por Elemento tem subtipos): `[Grupo](../glossario.md#grupo) - [Subtipo](../glossario.md#subtipo)` — ex: `[Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)`
 
@@ -88,28 +130,30 @@ Toda habilidade de Mágicas por Elemento até a Rin usou Inteligência, sem exce
 
 **Critério pra decidir:** se o personagem-fonte é claramente um conjurador arcano (bruxa, feiticeira, invocador) → Inteligência, como sempre. Se é claramente um conjurador divino (paladino, clérigo, algo com tema de deusa/bênção/oração) → Sabedoria. Na dúvida, pergunte ao usuário — foi o que gerou essa própria distinção.
 
-## Custo por Tier de Poder
+## Custos: PA vem da Intensidade, Mana escala com ela
 
-O custo em Mana é um eixo **independente** do custo em Pontos de Ação — um mede quanto da força bruta da habilidade, o outro quanto do turno ela consome. Ver [docs/jogador/mana.md](../../docs/jogador/mana.md) pra fórmula de Mana máximo, mas o guia de custo é:
+**O PA não é mais escolha de design** — ele é a Intensidade (I=◈, II=◈◈, III=◈◈◈). O que você define é a **escala de Mana**. Ver [docs/jogador/mana.md](../../docs/jogador/mana.md).
 
-| Tier de Poder | Custo em Mana | Uso esperado |
+**Habilidades de arma** usam escala fixa pelo grau, para o investimento na arma ficar visível:
+
+| Grau | Intensidade I | II | III |
+|---|---|---|---|
+| Básica | 1 Mana | 3 | 6 |
+| Avançada | 2 Mana | 5 | 9 |
+| Especial | 3 Mana | 7 | 12 |
+
+**Habilidades gerais de grupo** usam **1 / 3 / 6**. Se a habilidade é mais forte que a média do grupo, parta do custo dela e suba **+3 Mana por Intensidade** (2/5/8, 3/6/9, 4/7/10). O teto da habilidade — o custo da Intensidade III — classifica o Grau de Poder dela:
+
+| Grau de Poder | Mana na Intensidade III | Uso esperado |
 |---|---|---|
 | Menor | 1–3 | Várias vezes por combate |
 | Moderado | 4–8 | 2–4 vezes por descanso |
 | Maior | 9–15 | 1–2 vezes por descanso |
-| Supremo | 16+ | 1 vez por descanso, possivelmente com restrição extra |
+| Supremo | 16+ | 1 vez por descanso, com Custo fixo e possivelmente restrição extra |
 
-**Custo pode ser em Vida em vez de Mana** (introduzido na Rin/Aumento Sombrio) — uma escolha de design válida pra habilidades de risco/recompensa temáticas (pacto sombrio, sacrifício, fúria). Quando usar isso, deixe explícito no campo Custo (`0 Mana (custa Vida, não Mana)`) e no Efeito quanto de Vida é gasto — nunca deixe implícito que "sem custo em Mana" significa "de graça".
+**Escadas rasas são defeito.** Se subir da Intensidade I à III custa 2 Mana no total, ninguém usa a I. Já corrigimos 17 habilidades assim (Ressuscitar chegou a ficar 16/17/18) — mantenha os degraus de 3 em 3.
 
-**As 3 habilidades de toda arma (Básica/Avançada/Especial) usam sempre o tier Menor** — são as técnicas do dia a dia, não deveriam competir por relevância com as habilidades grandiosas dos grupos. Habilidades gerais de grupo (feitiços, buffs, ultimates) variam o Custo em Mana conforme o impacto real do efeito: algo que invoca um clone ou controla o campo de batalha inteiro pesa mais que um golpe a mais.
-
-**PA é um eixo independente de Mana** — mede tempo de execução, não força. Pra habilidades de arma, PA já vem fixo pelo tier (Básica=1, Avançada=2, Especial=3). Pra habilidades gerais, use este critério (ver [docs/jogador/pontos-de-acao.md](../../docs/jogador/pontos-de-acao.md)):
-
-| PA | Critério | Exemplos já criados |
-|---|---|---|
-| ◈ (1) | Efeito instantâneo/reativo — buff rápido, defesa, gesto único | Escudo Mágico |
-| ◈◈ (2) | Conjuração padrão — a maioria dos ataques/efeitos de alvo único ou área pequena | Antigravidade, Cura, Petrificar, Relâmpago |
-| ◈◈◈ (3) | Domina o turno inteiro — grandes áreas, invocações, ultimates | Caminho da Espada, Dança Élfica, Chuva de Meteoros, Raios e Relâmpagos |
+**Custo pode ser em Vida em vez de Mana** (Rin/Aumento Sombrio, e o elemento Sangue) — escolha válida pra risco/recompensa temático. Nesse caso a **Vida** é que escala com a Intensidade: `◈ (1 PA) + 1d4 de Vida`, `◈◈ + 2d4`, `◈◈◈ + 3d4`. Nunca deixe implícito que "sem custo em Mana" significa "de graça".
 
 ## Habilidades usadas como Reação
 
@@ -117,7 +161,7 @@ O sistema é deliberadamente livre aqui: **qualquer Habilidade pode ser usada co
 
 A exceção são **habilidades dedicadas a Reação** — o texto diz explicitamente "usada como Reação" (ex: Defesa Mágica, Cambalhota) — essas custam **0 PA, só Mana**, e ficam sempre disponíveis mesmo se o personagem já gastou todo o PA no próprio turno. Isso evita que gastar PA atacando deixe o personagem sem nenhuma defesa reativa.
 
-Ao criar uma habilidade dedicada a Reação: escreva `**Nome** *(usada como Reação)*` no título, e no campo Custo use `X Mana | 0 PA (habilidade dedicada a Reação)` em vez do formato normal com ◈.
+Ao criar uma habilidade dedicada a Reação: escreva `**Nome** *(usada como Reação)*` no título, e use `- **Custo fixo:** X Mana | 0 PA (habilidade dedicada a Reação)` — sem Intensidade, já que não há PA para graduar.
 
 ## Escopo por personagem: todas as classes, a partir do Dio
 
@@ -127,7 +171,7 @@ Na prática:
 - Pesquise a página de cada uma das 4 classes do personagem (e a árvore de talentos de cada uma, se existir — geralmente em `Árvore de Talentos do <Classe>`), não só a 1ª.
 - Se as classes compartilham a mesma arma (caso do Dio, que usa "Deathstar" nas 4 classes), ela vira **uma única entrada no Arsenal**, com 3 habilidades mundanas originais — não recrie a arma pra cada classe.
 - Se uma habilidade suprema/especial se repete idêntica entre classes (também o caso do Dio com "Império Sombrio"), trate como **uma única habilidade geral**, não duplique.
-- Nomes de talento redundantes entre si (várias variações de "golpe + lança pro ar", por exemplo) podem virar habilidades gerais distintas mesmo assim — diferencie pelos efeitos de tier (ver menu de efeitos acima), não precisa inventar uma mecânica nova pra cada uma.
+- Nomes de talento redundantes entre si (várias variações de "golpe + lança pro ar", por exemplo) podem virar habilidades gerais distintas mesmo assim — diferencie pela assinatura de cada uma (ver o menu de assinaturas acima), não precisa inventar uma mecânica nova pra cada uma.
 - Pode pular nós de talento puramente passivos/incrementais (bônus de dano genérico, redução de intervalo, etc.) — foque nas habilidades **ativas e nomeadas**.
 
 **Nem todo personagem AP compartilha UMA arma entre as classes.** Dio/Zero/Ley reusam a mesma arma nas 4 classes (vira 1 entrada no Arsenal). O Rufus (Lupus) é diferente: ele mantém a arma da 1ª classe (Eyeteeth/Presas) e cada classe seguinte **acrescenta** uma arma de suporte nova (faca → espingarda → metralhadora) — 4 armas fisicamente distintas, não reskins. Pra esse padrão, pergunte ao usuário se prefere (a) dobrar as armas extras em habilidades gerais de Marciais/Pontaria como se fosse o padrão Dio/Zero, ou (b) dar Arsenal próprio pra cada arma (3 habilidades cada). O Rufus usou a opção (b) — 4 entradas no Arsenal, uma combo/ultimate que usa todas as armas juntas vira Supremo geral (não cabe em nenhum slot de arma sozinho).
@@ -157,30 +201,49 @@ Os feitiços temáticos (fogo, cura, controle mental, o que for) **não** vivem 
 
 - [ ] Descrição breve é 1 frase evocativa, sem número que confunda mecânica com narrativa
 - [ ] Chave é um link válido pros 1-2 termos corretos no Glossário (e o Glossário tem essas entradas)
-- [ ] Custo em Mana bate com o Tier de Poder certo, e Custo em PA bate com o critério de PA — avaliados separadamente, um não implica o outro
-- [ ] Alcance/raio em casas, se não for corpo a corpo
-- [ ] Cada Tier de Sucesso é seu próprio bullet, com valor numérico completo (ou a habilidade explicitamente não usa tiers, com justificativa implícita clara)
-- [ ] Crítico definido (ou "sem tiers" documentado)
+- [ ] **A Intensidade I entrega mais que o Ataque Básico** (dano maior, efeito, ou área — nunca só o dado da arma)
+- [ ] As três Intensidades são diferentes entre si, e a escada de Mana sobe de 3 em 3
+- [ ] Se é habilidade de arma: o grau superior é visivelmente melhor que o inferior em toda Intensidade
+- [ ] Se é de elemento: carrega a assinatura daquele elemento
+- [ ] Só condições canônicas, sempre linkadas ao Glossário — nenhum nome inventado
+- [ ] Alcance/raio em casas, se não for corpo a corpo (e nunca escala com Intensidade)
+- [ ] Cada Intensidade é seu próprio bullet, com valor numérico completo (ou é Custo fixo, com o motivo claro: área raio 3+, Suprema, ou sem rolagem)
+- [ ] Mecânica que vale em toda Intensidade está em bullet próprio, não repetida dentro de cada uma
+- [ ] Crítico definido
 - [ ] Usuário aprovou explicitamente antes da escrita no arquivo
 
 ## Exemplo completo (referência de formatação)
 
-De `docs/jogador/arsenal.md`, a Habilidade Básica da Espada:
+Habilidade de arma com as 3 Intensidades, de `docs/jogador/arsenal.md` (Básica das Adagas — note que a Intensidade I já empurra, não é dano puro):
 
 ```markdown
-**Corte Incandescente** — *Básica*
+**Corte Impactante** — *Básica*
 
-*Um golpe preciso e brutal, direto ao ponto fraco do inimigo.*
+*Um corte horizontal rápido, cravado no ponto certo pra desequilibrar o inimigo.*
 
-- **Chave:** [Espada](../glossario.md#espada) - [Básica](../glossario.md#básica)
-- **Custo:** 1 Mana | ◈ (1 PA) | **Atributo:** Força | **Alvos:** 1 criatura
-- **Tier 1 (≤10):** 1d8 de dano
-- **Tier 2 (11–16):** 1d8 de dano + empurra 1 casa
-- **Tier 3 (≥17):** 1d8 de dano + derruba o alvo
-- **Crítico:** dano máximo (8) + 1d8 extra, e derruba o alvo
+- **Chave:** [Adagas](../glossario.md#adagas) - [Básica](../glossario.md#básica) - [Finesse](../glossario.md#finesse)
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d4 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d4 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d4 de dano + empurra 3 casas, derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo (4) + 1d4 extra, e sobe 1 Intensidade
 ```
 
-E um exemplo sem tiers, de `docs/habilidades/buff.md`:
+Custo fixo por área grande, de `docs/jogador/arsenal.md` (Especial das Adagas — raio 3, então cobra o Mana da Intensidade III):
+
+```markdown
+**Golpe Final** — *Especial*
+
+*Recua num salto enquanto crava lâminas certeiras no chão, longe do alcance de contra-ataques.*
+
+- **Chave:** [Adagas](../glossario.md#adagas) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 3 casas de raio ao redor da posição original do usuário
+- **Alcance do recuo:** até o valor de Movimento do personagem, em casas — o usuário se desloca pra trás, saindo da área afetada
+- **Acerto:** 2d4 de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento) e é derrubado
+- **Crítico (20 natural):** dano máximo (8) + 2d4 extra em todos, [Lento](../glossario.md#lento), e derruba cada alvo
+```
+
+Buff sem rolagem, de `docs/habilidades/buff.md`:
 
 ```markdown
 **Escudo Mágico**
@@ -188,7 +251,7 @@ E um exemplo sem tiers, de `docs/habilidades/buff.md`:
 *Uma barreira translúcida se ergue, absorvendo o impacto antes que ele chegue.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Custo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** 1 criatura (pode ser o próprio usuário)
-- **Efeito:** o alvo ganha um Escudo de 1d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
-- *(Sem Tiers de Sucesso — habilidade de buff, sem teste de ataque)*
+- **Custo fixo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** 1 criatura (pode ser o próprio usuário)
+- **Efeito:** o alvo ganha um [Escudo](../glossario.md#escudo) de 1d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
+- *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
 ```

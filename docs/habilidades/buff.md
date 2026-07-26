@@ -12,7 +12,7 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Custo fixo:** 4 Mana | ◈ (1 PA) | **Atributo:** Inteligência | **Alvos:** 1 criatura (pode ser o próprio usuário)
-- **Efeito:** o alvo ganha um Escudo de 1d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
+- **Efeito:** o alvo ganha um [Escudo](../glossario.md#escudo) de 1d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
 
 **Bênção Divina**
