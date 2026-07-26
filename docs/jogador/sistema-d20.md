@@ -112,6 +112,25 @@ O tamanho do dado rolado em cada nível depende da Vitalidade do personagem *naq
 
 Vida é cumulativa: o dado de cada nível fica "congelado" no total quando rolado — não há recálculo retroativo se a Vitalidade mudar depois.
 
+### Dados de Vida
+
+Além de definirem a Vida máxima, os dados de Vida são o **recurso de recuperação** do personagem — é com eles que se cura fora de combate.
+
+**O personagem tem um Dado de Vida por nível**, no tamanho atual da tabela acima. Um personagem de nível 6 com Vitalidade +4 tem **6d8** disponíveis.
+
+Ao [descansar](../mestre/exploracao.md#descanso), o jogador escolhe quantos gastar e rola cada um, recuperando **o resultado rolado** em Vida. Não se soma Vitalidade — pela mesma razão que a Vida máxima também não soma: ela já está embutida no *tamanho* do dado, e somar de novo faria a cura passar da Vida total nos níveis altos.
+
+| | Quantos pode gastar | Quantos voltam ao pool |
+|---|---|---|
+| **Descanso curto** (~1h) | até **metade do nível** (mínimo 1) | nenhum |
+| **Descanso longo** (noite) | **todos** os que ainda tiver | **metade do nível** (mínimo 1), ao fim do descanso |
+
+Os dados gastos **não voltam sozinhos**: só o descanso longo devolve, e devolve metade. Isso significa que uma sequência de dias difíceis vai esvaziando o poço — e a decisão de quantos dados queimar agora, sabendo que a noite só devolve parte, é o principal recurso de longo prazo do personagem.
+
+**Na prática:** gastar o limite do descanso curto devolve cerca de **45% da Vida máxima**, e esvaziar o poço num descanso longo devolve perto de **90%**. Um dia de aventura consome mais ou menos o que a noite repõe, então o poço se sustenta em ritmo normal — e só afunda quando o grupo encara vários dias duros seguidos sem voltar pra base.
+
+Cura por Habilidade (ver [Suporte](../habilidades/suporte.md)) **não** gasta Dados de Vida — é justamente por isso que ter um curandeiro no grupo importa: ele cura sem consumir o poço de ninguém.
+
 ### Base de Resiliência
 
 Toda criatura (personagem ou monstro) tem uma **Base de Resiliência**, definida pelo nível de ameaça que ela representa — não pelo tamanho físico nem pela espécie. Um Lich não é fisicamente colossal, mas é Lendário o bastante pra ter a mesma Base de um dragão.

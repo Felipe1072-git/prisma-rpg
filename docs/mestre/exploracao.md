@@ -8,12 +8,16 @@ Duas escalas, e é delas que dependem as dezenas de habilidades que dizem "1x po
 
 | | Dura | Recupera |
 |---|---|---|
-| **Descanso curto** | cerca de **1 hora** — respirar, enfaixar, comer algo | metade do [Mana](../jogador/mana.md) máximo |
-| **Descanso longo** | uma **noite de sono** (~8 horas) em lugar minimamente seguro | todo o Mana, 1d6 de [Estresse](../jogador/sistema-d20.md#estresse), 1 grau de [Exausto](../glossario.md#exausto), e reseta habilidades "1x por descanso longo" |
+| **Descanso curto** | cerca de **1 hora** — respirar, enfaixar, comer algo | metade do [Mana](../jogador/mana.md) máximo, e permite gastar até **metade do nível** em [Dados de Vida](../jogador/sistema-d20.md#dados-de-vida) |
+| **Descanso longo** | uma **noite de sono** (~8 horas) em lugar minimamente seguro | todo o Mana; permite gastar **todos** os Dados de Vida restantes e devolve **metade do nível** ao pool; remove 1d6 de [Estresse](../jogador/sistema-d20.md#estresse) e 1 grau de [Exausto](../glossario.md#exausto); reseta habilidades "1x por descanso longo" |
 
 **Descanso longo precisa de segurança mínima.** Dormir de armadura no chão de uma masmorra com criaturas rondando não conta — o grupo consegue no máximo um descanso curto. Isso não é punição: é a regra que faz "voltar pra cidade" ser uma decisão de verdade.
 
-**Vida não volta com descanso.** Só com cura, e é intencional — num sistema onde a [Cura](../habilidades/suporte.md) é uma habilidade que alguém escolheu ter, um grupo sem curandeiro sente a falta. Se ninguém do grupo cura, considere deixar poções acessíveis; caso contrário, a primeira luta define o resto da campanha.
+### A Vida volta, mas custa recurso
+
+Diferente do Mana, a Vida **não se recupera sozinha** ao descansar: ela vem dos [Dados de Vida](../jogador/sistema-d20.md#dados-de-vida), que o personagem gasta e que só voltam pela metade a cada noite.
+
+Na prática, isso cria a decisão que faz a exploração ter peso: *"curo agora e chego fraco no fim da masmorra, ou aguento machucado e guardo o poço?"*. E é o que dá valor real a quem investiu em [Cura](../habilidades/suporte.md) — a cura por Habilidade não consome Dado de Vida de ninguém, então um curandeiro no grupo literalmente economiza o recurso de longo prazo dos companheiros.
 
 ## Viagem
 
