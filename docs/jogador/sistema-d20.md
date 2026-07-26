@@ -131,6 +131,44 @@ Os dados gastos **não voltam sozinhos**: só o descanso longo devolve, e devolv
 
 Cura por Habilidade (ver [Suporte](../habilidades/suporte.md)) **não** gasta Dados de Vida — é justamente por isso que ter um curandeiro no grupo importa: ele cura sem consumir o poço de ninguém.
 
+### Chegando a 0 de Vida
+
+Zero não é morte. O personagem fica **Caído**: inconsciente, sem agir, sem rolar nada — e morrendo devagar.
+
+**No início de cada turno dele, role d20 contra DC 10.** Falhando, ele piora. O tanto que ele aguenta piorar antes de morrer é a **Vitalidade** dele (mínimo 1):
+
+| Vitalidade | Falhas até morrer | Quanto tempo aguenta, em média |
+|---|---|---|
+| 0 ou menos | 1 | ~2 turnos |
+| +2 | 2 | ~4 turnos |
+| +4 | 4 | ~9 turnos |
+| +8 | 8 | ~18 turnos |
+
+A Vitalidade **não** entra na rolagem — ela já está representada em quantas falhas o corpo suporta. O dado mede só a sorte do momento, e é igual pra todos.
+
+**Como sair de Caído:**
+
+- **Estabilizar** — um aliado adjacente gasta uma **Ação Básica** (◈). O personagem para de rolar e fica **Estável**: segue inconsciente, mas fora de risco. Acorda ao fim da cena com 1 de Vida. (As origens *Curandeiro de Vila* e *Salvou uma Vida* fazem isso como Reação e sem custo — ver [Origem](origem.md).)
+- **Cura** — qualquer efeito que devolva Vida traz o personagem de volta com aquela Vida, e ele age normalmente no próximo turno.
+
+Sofrer dano enquanto Caído conta como **uma falha imediata**, além da rolagem do turno.
+
+### O Último Turno
+
+Um personagem Caído pode escolher **não resistir**. Em vez de rolar contra a morte, ele decide que aquele é o fim — e se levanta pra gastar tudo o que resta.
+
+Declarado no início de um turno dele enquanto estiver Caído, o Último Turno funciona assim:
+
+- Ele **se levanta e joga um turno completo**: 3 PA, Mana, habilidades, tudo. Ainda rola pra acertar normalmente.
+- **Todo sucesso é tratado como Crítico** — dano máximo, rolagem extra e [sobe 1 Intensidade de graça](../habilidades/index.md#resolução), mesmo sem tirar 20.
+- **Toda falha é tratada como falha crítica** — não há acerto raspado; o que dá errado, dá errado por completo.
+- **Nenhuma cura funciona nele** durante o Último Turno. Não há como voltar atrás depois de declarar.
+- **Ao fim do turno, o personagem morre.** Sem rolagem, sem resistência, sem chance. Foi o preço.
+
+É a única escolha do sistema em que o jogador **troca a chance de sobreviver por certeza de impacto**. Um personagem que ia morrer de qualquer jeito em duas rodadas, sem agir, pode em vez disso derrubar o chefe com um golpe garantido como crítico — e sair de cena tendo decidido como.
+
+**Cabe ao Mestre dar espaço pra isso.** Se um jogador declara o Último Turno, a mesa para e escuta: é o momento daquele personagem, e ele não vai ter outro.
+
 ### Base de Resiliência
 
 Toda criatura (personagem ou monstro) tem uma **Base de Resiliência**, definida pelo nível de ameaça que ela representa — não pelo tamanho físico nem pela espécie. Um Lich não é fisicamente colossal, mas é Lendário o bastante pra ter a mesma Base de um dragão.

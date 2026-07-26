@@ -54,6 +54,14 @@ O [Dragão Filhote](#dragão-filhote) (Ataque **+3**, 3 PA, 20 Mana) está à fr
 
 **O que limitou as escolhas do Mestre:** o **PA** decide quantas coisas ele faz no turno (Baforada III sozinha consome os 3; Baforada II + Garras também dá 3; três Garras dão 3 rolagens separadas). O **Mana** decide quantas vezes na luta inteira — com 20 de Mana e sem recarga, cabem só duas Baforadas em Intensidade III (9 + 9 = 18) e o tanque seca. É justamente por isso que **Garras e Presas custa 0 Mana**: é o ataque de rotina que mantém o chefe relevante depois de gastar o combustível.
 
+### Criatura a 0 de Vida morre
+
+Personagens ficam [Caídos](../jogador/sistema-d20.md#chegando-a-0-de-vida) e rolam contra a morte. **Criaturas não**: chegou a zero, acabou. Nenhuma rolagem, nenhum turno de agonia.
+
+É o que impede a mesa de travar — oito goblins derrotados seriam oito contagens paralelas pra você administrar. E preserva o peso da regra: rolar contra a morte é privilégio de quem tem nome.
+
+**Exceção que vale usar:** um chefe ou NPC importante pode ficar Caído como um personagem, se você quiser a chance de capturá-lo vivo, ou o drama de vê-lo se arrastar. Aí é escolha sua, anunciada na hora — não regra.
+
 ### Vida é valor fixo
 
 Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra personagens de **nível 1 a 4** — grupos mais fortes usam a [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nível). A Vida foi calibrada contra o dano real que um grupo entrega: um **Comum cai num único golpe**, um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
