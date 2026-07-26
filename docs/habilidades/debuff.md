@@ -12,9 +12,9 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica prostrado
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica prostrado + perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica prostrado + perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Golpe Sangrento**
@@ -87,10 +87,10 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo não pode usar Movimento até o fim do próximo turno dele + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e derruba o alvo
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra + alvo preso no lugar até o fim do próximo turno dele, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Lento](../glossario.md#lento)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Lento](../glossario.md#lento) e rola o próximo ataque com Desvantagem
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Imóvel](../glossario.md#imóvel) (não sai do lugar por vontade própria)
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra + alvo fica [Imóvel](../glossario.md#imóvel), e sobe 1 Intensidade
 
 **Esquife de Ossos**
 
@@ -246,9 +246,9 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Força | **Alvos:** 1 criatura, corpo a corpo
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + alvo não pode usar Movimento até o fim do próximo turno dele + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) e é derrubado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + alvo fica [Imóvel](../glossario.md#imóvel) e é derrubado
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra + alvo não pode usar Movimento até o fim do próximo turno dele, e sobe 1 Intensidade
 
 **Golpe Lunar** *(Supremo)*
@@ -515,8 +515,8 @@ Criar desvantagens para inimigos ou em testes.
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d4 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d4 de dano + empurra 1 casa
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d4 de dano + alvo perde a próxima Ação Básica + empurra 3 casas e derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d4 de dano + empurra 2 casas e derruba
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d4 de dano + empurra 3 casas, derruba, e alvo perde a próxima Ação Básica
 - **Crítico (20 natural):** dano máximo (4) + 1d4 extra, e sobe 1 Intensidade
 
 **Valsa da Imperatriz** *(Supremo)*

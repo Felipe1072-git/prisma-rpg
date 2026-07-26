@@ -8,11 +8,19 @@ Efeitos que uma habilidade impõe ao alvo. Salvo quando a habilidade disser outr
 
 ### Sangrando
 
-Perde **1d4 de Vida** no início do próximo turno dele.
+Perde **1d4 de Vida** no início do próximo turno dele. Efeito de uma vez só — ferida que fecha.
+
+### Queimando
+
+Perde **1d4 de Vida** no início de **cada** turno dele, e não para sozinho: dura até alguém apagar o fogo (o próprio alvo gastando uma Ação Básica, um aliado adjacente gastando a dele, ou contato com água em quantidade). Assinatura do elemento [Fogo](habilidades/magicas-elementais.md#fogo) — diferente de Sangrando justamente por não ter prazo.
 
 ### Lento
 
 Movimento reduzido à **metade**.
+
+### Imóvel
+
+**Movimento 0** — não sai do lugar por vontade própria, nem voando. Continua agindo normalmente: Ações Básicas, Habilidades e Reações seguem disponíveis. É o degrau acima de Lento, e não se confunde com [Atordoado](#atordoado), que trava tudo.
 
 ### Atordoado
 

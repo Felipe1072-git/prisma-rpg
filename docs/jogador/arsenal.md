@@ -886,9 +886,9 @@ Dano: **1d8**
 
 - **Chave:** [Flintlock](../glossario.md#flintlock) - [Básica](../glossario.md#básica)
 - **Atributo:** Agilidade | **Alcance:** 5 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + perde a próxima Reação + alvo perde 2 Mana
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + alvo perde a próxima Reação + perde a próxima Reação + alvo perde 2 Mana
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + perde a próxima Reação + alvo perde 2 Mana, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + alvo perde a próxima Reação e 2 Mana
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + alvo perde a próxima Reação e 2 Mana, e fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Disparo Duplo** — *Avançada*

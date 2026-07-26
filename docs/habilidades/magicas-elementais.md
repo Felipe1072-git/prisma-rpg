@@ -4,6 +4,26 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 **Regra importante:** efeitos elementais/mágicos (fogo, energia sombria, gelo etc.) nunca ficam travados numa arma específica, mesmo quando a arma é física — sempre vivem aqui como habilidades gerais. Ver [skill criar-habilidade](../../.claude/skills/criar-habilidade/SKILL.md) pro racional completo.
 
+## Assinatura de Elemento
+
+Cada elemento **joga de um jeito diferente**. Duas habilidades podem causar o mesmo dano e ainda assim resolver problemas distintos, porque cada elemento tem uma assinatura própria que aparece já na [Intensidade](index.md#intensidade) I e cresce nas seguintes. Escolher um elemento é escolher um verbo:
+
+| Elemento | Assinatura | Como escala (I → II → III) |
+|---|---|---|
+| **Fogo** | Consome com o tempo | [Queimando](../glossario.md#queimando) → o fogo se espalha para 1 adjacente → 2d4 por turno e espalha para todos os adjacentes |
+| **Gelo** | Trava o movimento | [Lento](../glossario.md#lento) → Lento e sem Reações → [Imóvel](../glossario.md#imóvel) |
+| **Raio** | Rouba a ação | perde Reação → perde Reação e Ação Básica → [Atordoado](../glossario.md#atordoado) |
+| **Terra** | Põe no chão e prende | derruba → derruba e Lento → derruba e Imóvel |
+| **Água** | Arrasta | puxa 1 casa → puxa 2 e Lento → puxa 3, Lento e derruba |
+| **Vento** | Arremessa longe | empurra 2 → empurra 4 → empurra 6 e derruba |
+| **Luz** | Prende e cala | perde Reação → perde Reação e [Marcado](../glossario.md#marcado) → Imóvel e perde Reação |
+| **Sombras** | Nega o terreno e drena | área amaldiçoada 1 rodada → 2 rodadas → 3 rodadas a 2d4 *(em alvo único: dreno de Vida crescente)* |
+| **Veneno** | Acumula | [Envenenado](../glossario.md#envenenado) → 2 acúmulos → 3 acúmulos |
+| **Sangue** | Troca Vida por poder | dreno pela metade → dreno total → dreno dobrado, sempre sob [Risco](../glossario.md#risco) |
+| **Espaço-Tempo** | Reposiciona | teleporta 2 casas → 4 casas → 4 casas e Atordoado |
+
+Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o degrau da Intensidade III.
+
 ## Terra
 
 **Petrificar**
@@ -12,9 +32,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
 - **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + alvo fica Petrificado (não pode agir) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + alvo fica Petrificado (não pode agir) até o fim do próximo turno dele, e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + derruba o alvo e ele fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + derruba o alvo e ele fica [Imóvel](../glossario.md#imóvel)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra + Petrificado por 1 rodada completa, e sobe 1 Intensidade
 
 **Fúria da Natureza**
@@ -23,9 +43,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área vira Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + Terreno Difícil + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + derruba cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + derruba cada alvo e ele fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + derruba cada alvo e ele fica [Imóvel](../glossario.md#imóvel)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Couraça de Pedra**
@@ -54,8 +74,8 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Condição de uso:** só pode ser usada contra um alvo que ainda não agiu neste combate
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + derruba o alvo + fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + derruba o alvo + fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + derruba o alvo e ele fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + derruba o alvo e ele fica [Imóvel](../glossario.md#imóvel)
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra, e sobe 1 Intensidade
 
 **Tremor**
@@ -64,7 +84,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
 - **Custo fixo:** ◈◈ (2 PA) + 10 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
-- **Acerto:** 1d8 de dano + derruba cada alvo + a área vira Terreno Difícil por 1 rodada
+- **Acerto:** 1d8 de dano + derruba cada alvo e ele fica [Imóvel](../glossario.md#imóvel)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, derruba cada alvo, e Terreno Difícil
 
 **Fúria em Espiral** *(Supremo)*
@@ -73,7 +93,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Terra](../glossario.md#terra)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
-- **Acerto:** 2d6 de dano + derruba cada alvo
+- **Acerto:** 2d6 de dano + derruba cada alvo e ele fica [Imóvel](../glossario.md#imóvel)
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 ## Gelo
@@ -84,10 +104,10 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
-- **Crítico (20 natural):** dano máximo (6) + 1d6 extra + Paralisado por 1 rodada completa, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) e não pode usar Reações
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel)
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra + [Atordoado](../glossario.md#atordoado) por 1 rodada completa, e sobe 1 Intensidade
 
 **Força Gélida**
 
@@ -95,9 +115,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + Lento + alvo perde a próxima Ação Básica
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Lento + alvo perde a próxima Ação Básica, e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Lento](../glossario.md#lento)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Lento](../glossario.md#lento) e não pode usar Reações
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Imóvel](../glossario.md#imóvel)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Fôlego Glacial**
@@ -106,9 +126,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
 - **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) e não pode usar Reações
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Chuva Gélida** *(Maior)*
@@ -117,7 +137,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 2d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Acerto:** 2d6 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel)
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, empurra 1 casa, e Lento em todos
 
 **Nevasca**
@@ -126,8 +146,8 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
 - **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 1d8 de dano + cada alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e Paralisado em todos
+- **Acerto:** 1d8 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel)
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e [Atordoado](../glossario.md#atordoado) em todos
 
 **Investida Encadeada** *(Maior)*
 
@@ -135,7 +155,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Efeito:** todos os alvos na área são puxados 2 casas em direção ao centro e sofrem 1d10 de dano automático imediatamente ao usar; os que ainda estiverem na área ficam Paralisados (não podem agir) até o fim do próprio próximo turno
+- **Efeito:** todos os alvos na área são puxados 2 casas em direção ao centro e sofrem 1d10 de dano automático imediatamente ao usar; os que ainda estiverem na área ficam [Atordoado](../glossario.md#atordoado)s (não podem agir) até o fim do próprio próximo turno
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
 **Extinção**
@@ -144,9 +164,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e cada alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Lento](../glossario.md#lento) e não pode usar Reações
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Tempestade Congelante** *(Supremo)*
@@ -155,8 +175,8 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Gelo](../glossario.md#gelo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 6 casas de raio ao redor do usuário
-- **Acerto:** 2d8 de dano + cada alvo fica Paralisado (não pode agir) até o fim do próximo turno dele
-- **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e Paralisado em todos
+- **Acerto:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel)
+- **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e [Atordoado](../glossario.md#atordoado) em todos
 
 ## Raio
 
@@ -166,9 +186,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Inteligência | **Alcance:** linha de 8 casas
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo na linha
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo perde a próxima Ação Básica e Reação
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo na linha + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo perde a próxima Reação e Ação Básica
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Campo Eletrônico**
@@ -177,9 +197,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Inteligência | **Alcance:** 4 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo perde a próxima Ação Básica e Reação
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo perde a próxima Reação e Ação Básica
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Raios e Relâmpagos** *(Supremo)*
@@ -205,9 +225,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 3d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 3d6 de dano + Atordoado + empurra 3 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + Atordoado + empurra 5 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 3d6 de dano + alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 3d6 de dano + alvo perde a próxima Reação e Ação Básica
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (18) + 3d6 extra, e sobe 1 Intensidade
 
 **Investida Brilhante**
@@ -216,9 +236,10 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano, usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + perde Reação + o próximo ataque do alvo rola com Desvantagem
+- **Investida:** o usuário se desloca até o alvo antes de atacar, em qualquer Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + alvo perde a próxima Reação e Ação Básica
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Detonação de Choque**
@@ -227,7 +248,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Acerto:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 **Campo Estático** *(Maior)*
@@ -263,9 +284,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Inteligência | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo perde 1 de Defesa até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + perde 1 de Defesa + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo perde a próxima Reação e Ação Básica
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Ataque Orbital** *(Maior)*
@@ -292,9 +313,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo perde a próxima Reação e Ação Básica
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Lágrimas da Deusa**
@@ -303,9 +324,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + cada alvo perde a próxima Reação e Ação Básica
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Descarga Carregada**
@@ -314,9 +335,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo perde a próxima Reação e Ação Básica
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 ## Fogo
@@ -327,7 +348,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 10 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 4 casas de raio
-- **Acerto:** 2d8 de dano + derruba cada alvo
+- **Acerto:** 2d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 **Alma em Chamas**
@@ -336,9 +357,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Chamas Espirituais** *(Supremo)*
@@ -355,9 +376,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** todas as criaturas em 1 casa de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + o chão pega fogo, virando Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Terreno Difícil + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Força Flamejante**
@@ -366,9 +387,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + Sangrando + empurra 2 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + empurra 4 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Fôlego Ardente**
@@ -377,9 +398,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + o chão pega fogo, virando Terreno Difícil por 1 rodada (custa o dobro de Movimento pra atravessar)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + Terreno Difícil + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Rastro em Chamas**
@@ -397,9 +418,10 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + Sangrando + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + derruba o alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Investida:** o usuário se desloca até o alvo antes de atacar, em qualquer Intensidade
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Chama Amaldiçoada**
@@ -417,9 +439,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** duas linhas de 5 casas, uma à frente e outra atrás do usuário
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + Sangrando + empurra 1 casa cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Chama Solar**
@@ -428,9 +450,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** duas linhas de 5 casas, uma à frente e outra atrás do usuário
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + Sangrando + empurra 1 casa cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Chama Investida**
@@ -439,9 +461,10 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + Sangrando + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + derruba o alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Investida:** o usuário se desloca até o alvo antes de atacar, em qualquer Intensidade
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Explosão em Massa**
@@ -450,9 +473,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo perde 1 de Defesa até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + perde 1 de Defesa + empurra 1 casa cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Golpe Supremo**
@@ -461,9 +484,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** cone de 5 casas à frente
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d10 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d10 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d10 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d10 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (10) + 1d10 extra em todos, e sobe 1 Intensidade
 
 **Punho Flamejante**
@@ -472,9 +495,10 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + Sangrando + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + Sangrando + derruba o alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Investida:** o usuário se desloca até o alvo antes de atacar, em qualquer Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Soco Ígneo** *(Maior)*
@@ -483,9 +507,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + Sangrando + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 2d6 de dano + Sangrando + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra, e sobe 1 Intensidade
 
 **Investida Explosiva**
@@ -494,9 +518,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Trilha de Fogo** *(Maior)*
@@ -514,9 +538,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Queda Meteórica** *(Maior)*
@@ -525,7 +549,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 8 Mana | **Atributo:** Inteligência | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 3 casas de raio ao redor do ponto de queda
-- **Acerto:** 2d6 de dano + derruba cada alvo
+- **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 **Punho Escaldante**
@@ -534,9 +558,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + Sangrando + empurra 2 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + empurra 4 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Explosão Extrema** *(Maior)*
@@ -545,8 +569,8 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 8 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 2d6 de dano + Sangrando + empurra 2 casas cada alvo
-- **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, Sangrando, e empurra 2 casas
+- **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
+- **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, Queimando, e empurra 2 casas
 
 **Erupção Vulcânica** *(Supremo)*
 
@@ -554,8 +578,8 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
-- **Acerto:** 3d6 de dano + Sangrando + derruba cada alvo
-- **Crítico (20 natural):** dano máximo (18) + 3d6 extra em todos, Sangrando, e derruba cada alvo
+- **Acerto:** 3d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
+- **Crítico (20 natural):** dano máximo (18) + 3d6 extra em todos, Queimando, e derruba cada alvo
 
 **Lança de Fogo**
 
@@ -563,9 +587,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Lança Espiritual** *(Maior)*
@@ -574,9 +598,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 2d6 de dano + Sangrando + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 2d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e sobe 1 Intensidade
 
 **Círculo do Destino**
@@ -585,9 +609,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + Sangrando + empurra 2 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + Sangrando + empurra 4 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Julgamento Caótico** *(Supremo)*
@@ -605,9 +629,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + empurra 2 casas cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + empurra 3 casas cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Impacto Profundo** *(Maior)*
@@ -616,9 +640,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis no campo de batalha
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + Sangrando + empurra 1 casa cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e sobe 1 Intensidade
 
 **O Fim** *(Supremo)*
@@ -636,9 +660,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Onda Explosiva** *(Supremo)*
@@ -647,8 +671,8 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
-- **Acerto:** 2d6 de dano + Sangrando + derruba cada alvo
-- **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, Sangrando, e derruba cada alvo
+- **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
+- **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, Queimando, e derruba cada alvo
 
 **Rastro Flamejante**
 
@@ -656,9 +680,10 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 1 casa, e o usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Investida:** o usuário se desloca até o alvo antes de atacar, em qualquer Intensidade
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Lança Ilusória**
@@ -667,9 +692,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Ataque Ilusório** *(Supremo)*
@@ -678,8 +703,8 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 6 casas de raio ao redor do usuário
-- **Acerto:** 2d6 de dano + Sangrando + derruba cada alvo
-- **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, Sangrando, e derruba cada alvo
+- **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
+- **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, Queimando, e derruba cada alvo
 
 ## Sombras
 
@@ -689,9 +714,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 2 casas cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 2 casas e derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Choque Maligno**
@@ -700,9 +725,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Fenda Profunda**
@@ -711,9 +736,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 5 Mana:** 1d10 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** 1d10 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** 1d10 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** 1d10 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** 1d10 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** 1d10 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (10) + 1d10 extra em todos, e sobe 1 Intensidade
 
 **Zona Mortal**
@@ -758,7 +783,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 10 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 2d6 de dano + derruba cada alvo
+- **Acerto:** 2d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 **Império Sombrio** *(Supremo)*
@@ -775,9 +800,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 1 casa
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo perde a próxima Reação + empurra 3 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo perde a próxima Reação + empurra 3 casas e derruba o alvo, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Véu Sombrio**
@@ -795,7 +820,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈ (2 PA) + 11 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Acerto:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e Atordoado em todos
 
 **Vórtice das Trevas**
@@ -804,9 +829,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro), e a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e derruba cada alvo, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Giro Espectral**
@@ -815,9 +840,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** todas as criaturas adjacentes
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Julgamento das Trevas** *(Supremo)*
@@ -826,7 +851,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 2d8 de dano + derruba cada alvo
+- **Acerto:** 2d8 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 **Floração Eterna** *(Maior)*
@@ -844,7 +869,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Acerto:** 2d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Acerto:** 2d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra + Atordoado por 1 rodada completa
 
 **Força Interminável**
@@ -853,9 +878,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** todas as criaturas adjacentes
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Redemoinho Sombrio**
@@ -864,9 +889,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Lamento Uivante** *(Maior)*
@@ -884,9 +909,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra, e sobe 1 Intensidade
 
 **Rajada Sombria**
@@ -895,9 +920,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Distorção**
@@ -915,9 +940,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Carícia da Morte**
@@ -926,9 +951,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Sobrecarga**
@@ -937,9 +962,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 12 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra, e sobe 1 Intensidade
 
 **Frenesi Sombrio**
@@ -948,9 +973,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro), e a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e derruba cada alvo, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Agonia Sombria** *(Maior)*
@@ -959,7 +984,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 2d6 de dano + puxa 2 casas e cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Acerto:** 2d6 de dano + puxa 2 casas e cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, puxa 2 casas, e Atordoado em todos
 
 **Selo Sombrio**
@@ -977,7 +1002,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈ (2 PA) + 10 Mana | **Atributo:** Inteligência | **Alvos:** 3 casas de raio ao redor do usuário
-- **Acerto:** 1d8 de dano + derruba cada alvo
+- **Acerto:** 1d8 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 **Dia do Julgamento** *(Supremo)*
@@ -995,9 +1020,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + Sangrando + o próximo ataque do alvo rola com Desvantagem
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + o próximo ataque do alvo rola com Desvantagem, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + Sangrando + o próximo ataque do alvo rola com Desvantagem, e o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + o próximo ataque do alvo rola com Desvantagem, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Libertação Limitada**
@@ -1006,9 +1031,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Corte Cruel**
@@ -1017,9 +1042,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + Sangrando + empurra 2 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + empurra 4 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + Sangrando + empurra 2 casas, e o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + empurra 4 casas e derruba o alvo, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Extermínio** *(Maior)*
@@ -1028,9 +1053,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alvos:** cone de 5 casas à frente
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + empurra 2 casas cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e sobe 1 Intensidade
 
 **Ilusão Cruel** *(Maior)*
@@ -1039,7 +1064,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
-- **Acerto:** 1d10 de dano + Sangrando + empurra 1 casa cada alvo
+- **Acerto:** 1d10 de dano + Sangrando + empurra 1 casa cada alvo, e a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (10) + 1d10 extra em todos, Sangrando, e empurra 1 casa
 
 **Apocalipse** *(Supremo)*
@@ -1048,7 +1073,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
-- **Acerto:** 3d6 de dano + derruba cada alvo
+- **Acerto:** 3d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (18) + 3d6 extra em todos, e derruba cada alvo
 
 **Pilar Sombrio**
@@ -1057,9 +1082,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Filo da Alma**
@@ -1068,9 +1093,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo, usuário se desloca até o ponto
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo, usuário se desloca até o ponto + a área fica amaldiçoada até o fim do próximo turno do usuário: quem entrar nela ou terminar o turno dentro sofre 1d4
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + a área fica amaldiçoada por 2 rodadas, causando 1d4 a quem entrar ou terminar o turno nela
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + a área fica amaldiçoada por 3 rodadas, causando 2d4 a quem entrar ou terminar o turno nela
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Chamado da Ruína**
@@ -1079,9 +1104,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Esferas Sombrias**
@@ -1090,9 +1115,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano; usuário recupera Vida igual à metade do dano causado + empurra 1 casa; usuário recupera Vida igual à metade do dano causado
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + derruba o alvo; usuário recupera Vida igual ao dano causado
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + derruba o alvo; usuário recupera Vida igual ao dano causado, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano; usuário recupera Vida igual à metade do dano causado + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Lacaio Reanimado**
@@ -1112,9 +1137,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
 - **Atributo:** Inteligência | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** 2d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 2d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 2d6 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** 2d6 de dano em cada alvo + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 2d6 de dano + cada alvo perde a próxima Reação e fica [Marcado](../glossario.md#marcado)
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 2d6 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel) e perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e sobe 1 Intensidade
 
 **Restrição de Luz**
@@ -1123,9 +1148,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
 - **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** até 2 criaturas na linha (a esfera atinge a 1ª e passa pra 2ª)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo atingido
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + Lento + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo atingido + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo perde a próxima Reação e fica [Marcado](../glossario.md#marcado)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel) e perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em ambos, e sobe 1 Intensidade
 
 **Luz do Paraíso** *(Maior)*
@@ -1134,7 +1159,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
 - **Custo fixo:** ◈◈◈ (3 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
-- **Acerto:** 2d6 de dano + derruba cada alvo
+- **Acerto:** 2d6 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel) e perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 **Fragmento do Espírito**
@@ -1143,9 +1168,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo não pode usar Habilidades (só Movimento e Reação) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo perde a próxima Reação e fica [Marcado](../glossario.md#marcado)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel) e perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Luz Infinita** *(Supremo)*
@@ -1154,7 +1179,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** duas linhas de 6 casas, uma à frente e outra atrás do usuário
-- **Acerto:** 2d8 de dano + derruba cada alvo
+- **Acerto:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel) e perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 **Lágrimas Gêmeas**
@@ -1163,9 +1188,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d10 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d10 de dano + alvo fica [Marcado](../glossario.md#marcado)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d10 de dano + alvo fica [Marcado](../glossario.md#marcado), e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d10 de dano + alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d10 de dano + alvo perde a próxima Reação e fica [Marcado](../glossario.md#marcado)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d10 de dano + alvo fica [Imóvel](../glossario.md#imóvel) e perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (10) + 1d10 extra, e sobe 1 Intensidade
 
 **Oráculo**
@@ -1183,9 +1208,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
 - **Atributo:** Sabedoria | **Alcance:** 8 casas | **Alvos:** até 3 criaturas diferentes
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + cada alvo perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo perde a próxima Reação e fica [Marcado](../glossario.md#marcado)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel) e perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Golpe Sagrado** *(Supremo)*
@@ -1194,7 +1219,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Luz](../glossario.md#luz)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Sabedoria | **Alvos:** 4 casas de raio ao redor do usuário
-- **Acerto:** 2d8 de dano + derruba cada alvo
+- **Acerto:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imóvel) e perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 ## Água
@@ -1214,9 +1239,10 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + derruba o alvo, e o usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + derruba o alvo + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + derruba o alvo + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e derruba o alvo
+- **Investida:** o usuário se desloca até o alvo antes de atacar, em qualquer Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + puxa o alvo 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa o alvo 2 casas e ele fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa o alvo 3 casas, ele fica [Lento](../glossario.md#lento) e é derrubado
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Bomba Shuju**
@@ -1225,9 +1251,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d6 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d6 de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d6 de dano + puxa o alvo 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d6 de dano + puxa o alvo 2 casas e ele fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d6 de dano + puxa o alvo 3 casas, ele fica [Lento](../glossario.md#lento) e é derrubado
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
 
 **Poça d'Água**
@@ -1245,9 +1271,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + puxa o alvo 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + puxa o alvo 2 casas e ele fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + puxa o alvo 3 casas, ele fica [Lento](../glossario.md#lento) e é derrubado
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
 
 **Véu de Vapor**
@@ -1265,9 +1291,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d8 de dano + puxa o alvo até 3 casas em direção ao usuário
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d8 de dano + puxa 3 casas + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d8 de dano + puxa 5 casas + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d8 de dano + puxa o alvo 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d8 de dano + puxa o alvo 2 casas e ele fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d8 de dano + puxa o alvo 3 casas, ele fica [Lento](../glossario.md#lento) e é derrubado
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Ira do Rei** *(Supremo)*
@@ -1276,7 +1302,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Água](../glossario.md#água)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
-- **Acerto:** 2d8 de dano + derruba cada alvo
+- **Acerto:** 2d8 de dano + puxa cada alvo 3 casas, ele fica [Lento](../glossario.md#lento) e é derrubado
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 ## Vento
@@ -1288,8 +1314,8 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 3 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 5 casas e derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 6 casas e derruba
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Ventos Cruzados**
@@ -1298,9 +1324,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** linha de 6 casas
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo na linha
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo (em direção ao centro da linha)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo na linha + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + empurra 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + empurra 6 casas e derruba
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Vendaval Reverso**
@@ -1309,9 +1335,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
 - **Atributo:** Inteligência | **Alvos:** linha de 5 casas atrás do usuário
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 2 casas cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 6 casas e derruba
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Lâminas de Ar**
@@ -1320,9 +1346,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
 - **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + empurra 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + empurra 6 casas e derruba
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Passos do Vento**
@@ -1358,7 +1384,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Vento](../glossario.md#vento)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
-- **Acerto:** 2d8 de dano + puxa 2 casas e derruba cada alvo
+- **Acerto:** 2d8 de dano + empurra 6 casas e derruba
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, puxa 2 casas, e derruba cada alvo
 
 ## Veneno
@@ -1371,9 +1397,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Veneno](../glossario.md#veneno)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** alvo fica Envenenado — perde 1d4 de Vida no início de cada um dos seus próximos 2 turnos
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** mesmo que a Intensidade I, mas por 3 turnos
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** Envenenado por 3 turnos, com o dano de cada aplicação subindo pra 1d6
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** alvo fica [Envenenado](../glossario.md#envenenado)
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** [Envenenado](../glossario.md#envenenado) com 2 acúmulos (2d4 por turno)
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** [Envenenado](../glossario.md#envenenado) com 3 acúmulos (3d4 por turno)
 - **Crítico (20 natural):** 1d6 de dano imediato, e sobe 1 Intensidade
 
 **Névoa Corrosiva**
@@ -1391,9 +1417,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Veneno](../glossario.md#veneno)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** alvo sofre -1 em Força até o fim da cena
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** -1 em Força e -1 em Agilidade até o fim da cena
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** -2 em Força e -1 em Agilidade até o fim da cena
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** alvo fica [Envenenado](../glossario.md#envenenado)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** [Envenenado](../glossario.md#envenenado) com 2 acúmulos (2d4 por turno)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** [Envenenado](../glossario.md#envenenado) com 3 acúmulos (3d4 por turno)
 - **Crítico (20 natural):** sobe 1 Intensidade
 
 **Chuva Ácida**
@@ -1402,9 +1428,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Veneno](../glossario.md#veneno)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + Envenenado (1d4 no início do próximo turno de cada alvo)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + Envenenado por 2 turnos
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Envenenado](../glossario.md#envenenado)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + [Envenenado](../glossario.md#envenenado) com 2 acúmulos (2d4 por turno)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + [Envenenado](../glossario.md#envenenado) com 3 acúmulos (3d4 por turno)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Praga Definitiva** *(Supremo)*
@@ -1413,7 +1439,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Veneno](../glossario.md#veneno)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
-- **Acerto:** 2d8 de dano + Envenenado + -1 em todos os atributos físicos até o fim da cena
+- **Acerto:** 2d8 de dano + [Envenenado](../glossario.md#envenenado) com 3 acúmulos (3d4 por turno)
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, Envenenado, e -1 em todos os atributos físicos
 
 ## Sangue
@@ -1425,7 +1451,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Custo em Vida:** esta habilidade não gasta Mana — o custo de cada Intensidade é pago em **Vida**
-- **Intensidade I — ◈ (1 PA) + 1d4 de Vida:** 1d8 de dano
+- **Intensidade I — ◈ (1 PA) + 1d4 de Vida:** 1d8 de dano, e o usuário recupera Vida igual à metade do dano causado
 - **Intensidade II — ◈◈ (2 PA) + 2d4 de Vida:** 1d8 de dano + recupera metade do dano causado como Vida (arredondado pra baixo)
 - **Intensidade III — ◈◈◈ (3 PA) + 3d4 de Vida:** 1d8 de dano + recupera o dano causado como Vida por completo
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
@@ -1445,10 +1471,11 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + Sangrando + usuário recupera 1d6 de Vida por alvo atingido
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + Sangrando + usuário recupera 1d6 de Vida por alvo atingido, e o usuário recupera Vida igual ao dobro do dano causado
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
+- **[Risco](../glossario.md#risco):** se algum dos dados de dano cair em 1, o sangue se volta contra quem o invocou — o usuário perde 1d4 de Vida
 
 **Vínculo Sanguíneo**
 
@@ -1465,8 +1492,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
-- **Acerto:** 2d8 de dano + Sangrando + usuário recupera Vida igual à metade do dano total causado (arredondado pra baixo)
+- **Acerto:** 2d8 de dano + o usuário recupera Vida igual ao dobro do dano causado
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, Sangrando, e recupera Vida igual ao dano total causado
+- **[Risco](../glossario.md#risco):** se algum dos dados de dano cair em 1, o sangue se volta contra quem o invocou — o usuário perde 1d4 de Vida
 
 **Espinhos de Sangue**
 
@@ -1474,10 +1502,11 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano em cada alvo + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + Sangrando + empurra 1 casa cada alvo, e o usuário recupera Vida igual ao dobro do dano causado
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
+- **[Risco](../glossario.md#risco):** se algum dos dados de dano cair em 1, o sangue se volta contra quem o invocou — o usuário perde 1d4 de Vida
 
 **Muralha de Sangue**
 
@@ -1494,10 +1523,11 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Sangue](../glossario.md#sangue)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + Sangrando + empurra 1 casa cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + o usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + Sangrando + empurra 1 casa cada alvo, e o usuário recupera Vida igual ao dobro do dano causado
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
+- **[Risco](../glossario.md#risco):** se algum dos dados de dano cair em 1, o sangue se volta contra quem o invocou — o usuário perde 1d4 de Vida
 
 ## Espaço-Tempo
 
@@ -1507,9 +1537,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** teleporta o alvo até 2 casas em qualquer direção (escolhida pelo usuário)
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** teleporta o alvo até 4 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** teleporta o alvo até 4 casas, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** teleporta o alvo 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** sobe 1 Intensidade
 
 **Bolha Temporal**
@@ -1536,9 +1566,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano imediato
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano imediato, e mais 1d8 de dano automático no início do próximo turno do usuário (2 aplicações no total)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano imediato, e mais 1d8 de dano automático no início de cada um dos 2 próximos turnos do usuário (3 aplicações no total)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano imediato + teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano imediato, e mais 1d8 de dano automático no início do próximo turno do usuário (2 aplicações no total) + teleporta o alvo 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano imediato, e mais 1d8 de dano automático no início de cada um dos 2 próximos turnos do usuário (3 aplicações no total) + teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra imediato, e sobe 1 Intensidade
 
 **Ruptura Dimensional** *(Supremo)*
@@ -1547,7 +1577,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
-- **Acerto:** 2d8 de dano + cada alvo é deslocado até 3 casas em direção aleatória (Mestre escolhe), e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Acerto:** 2d8 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, desloca, e Atordoado
 
 **Crescente Sombrio**
@@ -1556,9 +1586,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
 - **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + empurra 2 casas cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + teleporta cada alvo 2 casas em qualquer direção (escolhida pelo usuário)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + teleporta cada alvo 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Peso das Trevas**
@@ -1567,9 +1597,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + cada alvo não pode usar Movimento até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo + teleporta cada alvo 2 casas em qualquer direção (escolhida pelo usuário)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + teleporta cada alvo 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Horizonte de Eventos** *(Supremo)*
@@ -1587,9 +1617,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + puxa o alvo 2 casas em direção ao usuário
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa o alvo 3 casas em direção ao usuário e o derruba
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa o alvo 3 casas em direção ao usuário e o derruba, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + teleporta o alvo 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Fonte da Explosão** *(Supremo)*
@@ -1607,9 +1637,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
 - **Atributo:** Inteligência | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d8 de dano, alvo é teleportado pra uma casa adjacente ao usuário + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d8 de dano + teleportado + derruba + alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d8 de dano + teleportado + derruba + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d8 de dano, alvo é teleportado pra uma casa adjacente ao usuário + teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d8 de dano + teleporta o alvo 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d8 de dano + teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra + teleportado, e sobe 1 Intensidade
 
 **Vazio**
@@ -1618,9 +1648,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + puxa 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + puxa 1 casa e derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + teleporta cada alvo 2 casas em qualquer direção (escolhida pelo usuário)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + teleporta cada alvo 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 
 **Colapso do Vazio** *(Maior)*
@@ -1629,9 +1659,9 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tem
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaço-tempo)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano + empurra 3 casas
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d8 de dano + empurra 3 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d8 de dano + empurra 5 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano + teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d8 de dano + teleporta o alvo 4 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d8 de dano + teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra, e sobe 1 Intensidade
 
 **Tiro do Vazio** *(Supremo)*

@@ -465,8 +465,8 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 - **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
 - **Dano:** usa o dado de dano da arma equipada
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + empurra 1 casa
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + alvo perde a próxima Reação + empurra 3 casas e derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + empurra 3 casas, derruba o alvo, e ele perde a próxima Reação
 - **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
 
 **Onda Lunática**
