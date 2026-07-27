@@ -180,7 +180,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 **Traços Raciais:**
 
 - **Instinto de Matilha** — vantagem em testes de ataque quando há pelo menos 1 aliado adjacente ao mesmo alvo.
-- **Mordida Feroz** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
+- **Mordida Feroz** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela e causam dano [Perfurante](../glossario.md#perfurante) em vez de Impacto (as presas rasgam); a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
 
 ## Bode
 
@@ -251,7 +251,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Racial:**
 
-- **Mordida de Tubarão** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
+- **Mordida de Tubarão** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela e causam dano [Perfurante](../glossario.md#perfurante) em vez de Impacto (os dentes serrilhados dilaceram); a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
 
 ## Tartaruga
 

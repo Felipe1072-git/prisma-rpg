@@ -15,6 +15,10 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 | 11–16 | 1d8 |
 | 17+ | 1d10 |
 
+**O corpo conta como arma [Finesse](../jogador/arsenal.md#finesse):** toda habilidade desarmada usa **Força ou Agilidade, o que for maior**. Arte marcial é técnica tanto quanto força — travar o punho em Força puna justamente o lutador ágil, que é o arquétipo que mais depende dele.
+
+O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo quando um traço racial disser outra coisa (garras naturais cortam).
+
 ## Habilidades Gerais
 
 **Ataque Desarmado**
@@ -22,7 +26,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Punhos, cotovelos, joelhos — o corpo inteiro vira arma quando não há nada mais em mãos.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
@@ -67,7 +71,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Uma rajada de socos rápidos, o corpo avançando junto com os golpes.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa, e o usuário se desloca até 2 casas em direção ao alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
@@ -79,7 +83,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Três chutes no ar seguidos por um golpe final certeiro.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
@@ -91,7 +95,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Uma investida agitada que termina com um tropeço brutal, derrubando o alvo de cara no chão.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + derruba o alvo, e o usuário se desloca até o alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo + alvo perde a próxima Reação
@@ -103,7 +107,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Uma sequência de chutes giratórios que varre tudo ao redor, terminando com um chute descendente.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
@@ -115,7 +119,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Um golpe no chão seguido de um uppercut que ergue o alvo pelos ares.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
@@ -127,7 +131,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Uma rajada de socos poderosos, terminando numa explosão que arrasta tudo ao redor.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
@@ -139,7 +143,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Uma investida com soco e explosão, terminando com um golpe surpresa pelas costas.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 2 criaturas diferentes
+- **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 2 criaturas diferentes
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o primeiro alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
@@ -151,7 +155,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Um movimento contínuo, veloz como vento cortante, golpeando tudo em seu caminho.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** até 4 criaturas à escolha, ao alcance do Movimento
+- **Atributo:** Força ou Agilidade | **Alvos:** até 4 criaturas à escolha, ao alcance do Movimento
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Efeito adicional:** se esta habilidade derrubar pelo menos 1 alvo, o usuário recupera 3 Mana
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
@@ -354,7 +358,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Um mergulho aéreo termina num chute certeiro, seguido por um giro que acerta de surpresa.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** dano desarmado + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** dano desarmado + derruba o alvo
@@ -366,7 +370,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Uma sequência furiosa de chutes giratórios termina com um salto que arremessa o atacante pra trás do alvo.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado), rolado 2 vezes
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 2x dano desarmado + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2x dano desarmado + derruba o alvo
@@ -378,7 +382,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *O lutador se torna um borrão entre ilusões de bambu, atingindo tudo que estiver por perto antes de finalizar com um chute descendente.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Força ou Agilidade | **Alvos:** 2 casas de raio ao redor do usuário
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
@@ -390,7 +394,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Uma rajada de golpes de palma, rápidos demais pra acompanhar, termina com um chute lateral.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + alvo perde a próxima Reação + derruba o alvo
@@ -402,7 +406,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Um golpe arremessa o inimigo longe — mas o lutador já teleportou acima dele, esmagando o chão com um impacto que atinge até quem estiver no ar.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 2 casas, e o usuário se desloca até o alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
@@ -414,7 +418,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *O corpo se move como um dragão em fúria, teleportando pra trás do inimigo antes que ele perceba.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + alvo fica [Marcado](../glossario.md#marcado), e o usuário se desloca pra trás do alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + Marcado + empurra 1 casa
@@ -426,7 +430,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 *Depois de um golpe certeiro, o corpo assume a postura do tigre branco — pronta pra atacar de novo, mais forte.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + usuário ganha Escudo de 1d4 pontos
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo + usuário ganha Escudo de 1d4 pontos
