@@ -11,7 +11,7 @@ Cada personagem tem **3 Pontos de Ação (◈◈◈)** por turno.
 | Ataque Básico | ◈ (1) |
 | Reação | ◈ (1) — consome do mesmo pool |
 
-**Ataque Básico** funciona com qualquer arma equipada, mesmo uma cujas Habilidades o personagem nunca aprendeu — causa o dado de dano da arma, sem nenhum efeito extra. É o que permite "ter uma arma na mão" desde o nível 1 sem precisar gastar uma Habilidade nela (ver [Criação de Personagem](sistema-d20.md#criação-de-personagem)).
+**Ataque Básico** funciona com qualquer arma equipada, mesmo uma cujas Habilidades o personagem nunca aprendeu — causa o dado de dano da arma, sem nenhum efeito extra. É o que permite "ter uma arma na mão" desde o nível 1 sem precisar gastar uma Habilidade nela (ver [Criação de Personagem](sistema-d20.md#criacao-de-personagem)).
 
 **Qualquer Habilidade pode ser usada como Reação**, fora do seu turno, desde que o personagem ainda tenha PA sobrando no pool (do turno anterior) pra pagar o custo normal dela. O sistema é deliberadamente livre nesse ponto — se o jogador guardou PA, pode reagir com o que quiser, não só com uma lista fixa de "habilidades de reação".
 
@@ -36,7 +36,7 @@ O custo em PA de uma Habilidade **é a Intensidade escolhida** — não um valor
 
 Como o pool é de 3 PA por turno, isso vira uma decisão a cada turno: **uma habilidade em Intensidade III consome o turno inteiro** (sem movimento, sem reação guardada), enquanto três usos em Intensidade I fazem muito mais coisa por muito menos efeito cada. Ver [Intensidade](../habilidades/index.md#intensidade).
 
-Vale igualmente para buffs, cura e mobilidade: não há teste de ataque neles, mas há Intensidade — o que cresce é o tamanho do efeito, não a chance de acertar (ver [Buffs, Suporte e Mobilidade](../habilidades/index.md#buffs-suporte-e-mobilidade-também-têm-intensidade)).
+Vale igualmente para buffs, cura e mobilidade: não há teste de ataque neles, mas há Intensidade — o que cresce é o tamanho do efeito, não a chance de acertar (ver [Buffs, Suporte e Mobilidade](../habilidades/index.md#buffs-suporte-e-mobilidade-tambem-tem-intensidade)).
 
 **Exceções — habilidades de Custo fixo.** Áreas de 3 casas de raio ou mais, Supremas, e efeitos absolutos que não têm degrau acima (uma Reação que anula um ataque por completo) cobram um valor fixo de PA e entregam um único resultado.
 

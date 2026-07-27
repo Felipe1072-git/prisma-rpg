@@ -31,7 +31,7 @@ Distância se mede em **trechos**. Um trecho é **meio dia de marcha** — a mes
 
 O Mestre diz as distâncias em trechos: *"a torre fica a cinco trechos, ou três se cortarem pelo pântano"*. Isso já é ferramenta de decisão — o atalho é mais curto e pior.
 
-**Terreno pesado dobra a conta.** Em [Terreno Difícil](../glossario.md#terreno-difícil) — pântano, montanha, neve funda, mata fechada — cada trecho conta como **dois**. É a mesma lógica do combate, na escala da estrada.
+**Terreno pesado dobra a conta.** Em [Terreno Difícil](../glossario.md#terreno-dificil) — pântano, montanha, neve funda, mata fechada — cada trecho conta como **dois**. É a mesma lógica do combate, na escala da estrada.
 
 **Montaria** troca cansaço por dinheiro: um cavalo (200 p) permite ritmo Forçado sem ganhar Exausto, mas o animal precisa de descanso, água e não sobe montanha.
 
@@ -97,7 +97,7 @@ Uma tocha ilumina o suficiente pra anular a escuridão parcial ao redor de quem 
 
 Armadilhas e passagens escondidas usam a [tabela de DC](testes.md#a-tabela) contra **Sabedoria** pra notar, e o atributo que a armadilha pedir pra desarmar (normalmente Agilidade). Duas habilidades do jogo já cobrem isso melhor que qualquer teste: [Sentidos Apurados](../habilidades/infiltracao.md) e [Arrombamento](../habilidades/infiltracao.md).
 
-**Não peça teste pra achar o que está à vista.** A porta com marcas de garra no chão, o corredor com o piso afundado — descreva e deixe o grupo decidir. Teste é pra o que foi **escondido de propósito**, e vale a regra geral: [se não pode dar errado, não role](testes.md#quando-não-pedir-teste).
+**Não peça teste pra achar o que está à vista.** A porta com marcas de garra no chão, o corredor com o piso afundado — descreva e deixe o grupo decidir. Teste é pra o que foi **escondido de propósito**, e vale a regra geral: [se não pode dar errado, não role](testes.md#quando-nao-pedir-teste).
 
 ## Tempo dentro da masmorra
 

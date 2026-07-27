@@ -6,7 +6,7 @@ O que o grupo leva de uma sessão: nível, dinheiro, item e as coisas que não t
 
 **Ao fim de cada sessão jogada, todo personagem sobe um nível.** Não há experiência pra somar, nem contabilidade de encontros — o grupo jogou, o grupo evoluiu.
 
-O que se ganha em cada nível está na [tabela de progressão](../jogador/sistema-d20.md#progressão-de-nível): **nível ímpar dá uma Habilidade nova, nível par dá +1 ponto de Atributo**, e Vida e Mana crescem em todos.
+O que se ganha em cada nível está na [tabela de progressão](../jogador/sistema-d20.md#progressao-de-nivel): **nível ímpar dá uma Habilidade nova, nível par dá +1 ponto de Atributo**, e Vida e Mana crescem em todos.
 
 **O que isso significa de ritmo.** Uma campanha do nível 1 ao 20 dura **20 sessões** — jogando semanalmente, uns cinco meses. É ritmo de campanha curta e densa: o grupo ganha uma habilidade nova a cada duas sessões e sente progresso toda vez que senta à mesa. Se você quiser uma crônica mais longa, o ajuste é direto: **1 nível a cada 2 sessões** dobra a campanha para 40, e a cada 3 leva a 60. A regra é a mesma, só muda o divisor.
 
@@ -38,7 +38,7 @@ Todos os preços do [Arsenal](../jogador/arsenal.md#tabela-de-dados-de-dano) est
 | Cavalo de sela | 200 p |
 | Passagem de navio entre cidades | 20 p |
 
-**Riqueza inicial:** 50 prata, além do equipamento e da arma escolhidos na criação (ver [Criação de Personagem](../jogador/sistema-d20.md#criação-de-personagem)). Dá pra comprar armadura leve e sobrar troco, ou guardar pra uma arma melhor.
+**Riqueza inicial:** 50 prata, além do equipamento e da arma escolhidos na criação (ver [Criação de Personagem](../jogador/sistema-d20.md#criacao-de-personagem)). Dá pra comprar armadura leve e sobrar troco, ou guardar pra uma arma melhor.
 
 ### Tesouro por criatura derrotada
 
@@ -90,4 +90,4 @@ Costumam valer mais que o tesouro, e não custam equilíbrio nenhum:
 - **Acesso** — a chave, a senha, o convite pro salão, o favor de quem abre portas.
 - **Aliado** — alguém que aparece quando chamado. Mecanicamente, é uma criatura do [Bestiário](bestiario.md) que luta ao lado do grupo por uma cena.
 - **Reputação** — o preço que baixa, o guarda que não revista, a taverna que não cobra. Rende mais sessões de jogo que uma bolsa de prata.
-- **Descanso garantido** — num sistema onde Mana só volta em [descanso](../jogador/mana.md#recuperação), oferecer um lugar seguro pra dormir **é** recompensa mecânica.
+- **Descanso garantido** — num sistema onde Mana só volta em [descanso](../jogador/mana.md#recuperacao), oferecer um lugar seguro pra dormir **é** recompensa mecânica.

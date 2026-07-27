@@ -4,7 +4,7 @@ Criaturas prontas pra usar em mesa, e as regras pra montar as suas.
 
 ## Como Ler uma Ficha de Criatura
 
-Criatura não é personagem: ela não sobe de nível, não distribui pontos e não precisa de ficha completa. O que define uma criatura é o **[Tier de Ameaça](../jogador/sistema-d20.md#base-de-resiliência)** — e dele saem quase todos os números dela.
+Criatura não é personagem: ela não sobe de nível, não distribui pontos e não precisa de ficha completa. O que define uma criatura é o **[Tier de Ameaça](../jogador/sistema-d20.md#base-de-resiliencia)** — e dele saem quase todos os números dela.
 
 | Tier | Base de Resiliência | Vida | Pontos de Ação | Ficha | Ataques |
 |---|---|---|---|---|---|
@@ -35,7 +35,7 @@ Isso é, na ordem: o **custo em PA** (◈), o **bônus que o Mestre soma no d20*
 
 ### Um turno jogado
 
-O [Dragão Filhote](#dragão-filhote) (Ataque **+3**, 3 PA, 20 Mana) está à frente de dois personagens: a **Guerreira** (Defesa física **10**) e o **Mago** (Defesa física **16** — ágil e difícil de acertar).
+O [Dragão Filhote](#dragao-filhote) (Ataque **+3**, 3 PA, 20 Mana) está à frente de dois personagens: a **Guerreira** (Defesa física **10**) e o **Mago** (Defesa física **16** — ágil e difícil de acertar).
 
 **O Mestre escolhe a Baforada em Intensidade II:** gasta **2 PA** e **6 Mana**, sobrando 1 PA e 14 Mana.
 
@@ -64,7 +64,7 @@ Personagens ficam [Caídos](../jogador/sistema-d20.md#chegando-a-0-de-vida) e ro
 
 ### Vida é valor fixo
 
-Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra personagens de **nível 1 a 4** — grupos mais fortes usam a [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nível). A Vida foi calibrada contra o dano real que um grupo entrega: um **Comum cai num único golpe**, um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
+Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra personagens de **nível 1 a 4** — grupos mais fortes usam a [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nivel). A Vida foi calibrada contra o dano real que um grupo entrega: um **Comum cai num único golpe**, um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
 
 ### Pontos de Ação por Tier
 
@@ -115,7 +115,7 @@ Você não precisa calcular nada: escolha o Tier e copie a coluna.
 | **Atributo principal** | +1 a +2 | +2 a +3 | +3 | +4 a +5 |
 | **Traços especiais** | 1 | 1 a 2 | 2 a 3 | 3 a 4 |
 
-Para grupos acima do nível 4, troque a linha de Vida pela [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nível). Todo o resto continua igual.
+Para grupos acima do nível 4, troque a linha de Vida pela [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nivel). Todo o resto continua igual.
 
 No **Ataque**, use o topo da faixa quando a criatura for precisa ou treinada, e o piso quando for desajeitada ou lenta. Nas criaturas deste livro: [Lobo](#lobo) +2 (caçador), [Goblin](#goblin) +1 (desajeitado), [Bandido](#bandido) +2 (competente, não excepcional).
 
@@ -181,7 +181,7 @@ Isso pede: um Treinado (obstáculo sério, não vilão), veneno, e algo que pren
 
 **Teia** — ◈ | +3 vs Defesa física | 1 criatura a até 6 casas
 
-- O alvo fica [Imóvel](../glossario.md#imóvel) até se soltar: gastar uma Ação Básica e sofrer 1d4 de dano ao arrancar a teia.
+- O alvo fica [Imóvel](../glossario.md#imovel) até se soltar: gastar uma Ação Básica e sofrer 1d4 de dano ao arrancar a teia.
 
 **Sentinela da Teia** *(passiva)*
 

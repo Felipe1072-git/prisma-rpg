@@ -87,8 +87,8 @@ Criar desvantagens para inimigos ou em testes.
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + alvo fica [Lento](../glossario.md#lento)
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + alvo fica [Lento](../glossario.md#lento) e rola o próximo ataque com Desvantagem
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Imóvel](../glossario.md#imóvel) (não sai do lugar por vontade própria)
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra + alvo fica [Imóvel](../glossario.md#imóvel), e sobe 1 Intensidade
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + alvo fica [Imóvel](../glossario.md#imovel) (não sai do lugar por vontade própria)
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra + alvo fica [Imóvel](../glossario.md#imovel), e sobe 1 Intensidade
 
 **Esquife de Ossos**
 
@@ -246,7 +246,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Atributo:** Força | **Alvos:** 1 criatura, corpo a corpo
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento)
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) e é derrubado
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + alvo fica [Imóvel](../glossario.md#imóvel) e é derrubado
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + alvo fica [Imóvel](../glossario.md#imovel) e é derrubado
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra + alvo não pode usar Movimento até o fim do próximo turno dele, e sobe 1 Intensidade
 
 **Golpe Lunar** *(Supremo)*

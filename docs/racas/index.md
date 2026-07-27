@@ -11,7 +11,7 @@ Cada raça concede:
 - **Atributos** — um pool de 2 ou 3 atributos temáticos; o jogador escolhe entre eles e distribui os pontos indicados (nunca todos os atributos do pool ao mesmo tempo, quando o pool tem 3).
 - **Traço(s) Racial(is)** — 1 a 3 traços únicos, dependendo da raça. Sem fórmula fixa entre número de traços e pontos de atributo — cada raça foi calibrada pela fantasia que representa, não por uma conta.
 
-Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [Progressão de Nível](../jogador/sistema-d20.md#progressão-de-nível)) — são um extra fixo da raça, disponível desde a criação do personagem.
+Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [Progressão de Nível](../jogador/sistema-d20.md#progressao-de-nivel)) — são um extra fixo da raça, disponível desde a criação do personagem.
 
 ## Humano
 
@@ -87,14 +87,14 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 
 **Traços Raciais:**
 
-- **Resistência Elemental** — escolha 1 dos 8 elementos (ver [Mágicas por Elemento](../habilidades/magicas-elementais.md)) na criação do personagem; ganha [Resistência](../jogador/sistema-d20.md#resistência-imunidade-e-vulnerabilidade) a esse tipo de dano.
+- **Resistência Elemental** — escolha 1 dos 8 elementos (ver [Mágicas por Elemento](../habilidades/magicas-elementais.md)) na criação do personagem; ganha [Resistência](../jogador/sistema-d20.md#resistencia-imunidade-e-vulnerabilidade) a esse tipo de dano.
 - **Baforada Dracônica** — concede a habilidade abaixo gratuitamente (não consome uma escolha de nível), do mesmo elemento escolhido acima.
 
 **Baforada Dracônica**
 
 *Uma rajada do elemento ancestral irrompe da garganta, varrendo tudo à frente num cone abrasador.*
 
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento)
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento)
 - **Atributo:** Força | **Alcance:** cone de 5 casas | **Alvos:** todas as criaturas na área
 - **Efeito:** o dano é do elemento escolhido em Resistência Elemental, acima
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo
@@ -319,7 +319,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 *Uma descarga elétrica salta do corpo da enguia, buscando o próximo alvo condutor antes mesmo de terminar o primeiro golpe.*
 
-- **Chave:** [Mágicas por Elemento](../glossario.md#mágicas-por-elemento) - [Raio](../glossario.md#raio)
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Agilidade | **Alvos:** 1 criatura, com possibilidade de encadear
 - **Dano:** usa o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele

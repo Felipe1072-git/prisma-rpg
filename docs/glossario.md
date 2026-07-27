@@ -26,7 +26,7 @@ Movimento reduzido à **metade**.
 
 **Movimento 0** — não sai do lugar **por vontade própria**, nem voando. Continua agindo normalmente: Ações Básicas, Habilidades e Reações seguem disponíveis. É o degrau acima de Lento, e não se confunde com [Atordoado](#atordoado), que trava tudo.
 
-**Força externa ainda move.** Empurrar, puxar e teleportar não são movimento do alvo — são coisas feitas *a* ele, e funcionam normalmente contra quem está Imóvel. Um alvo preso no lugar pode ser arrancado dele por um empurrão de Vento ou pela [Dobra Espacial](habilidades/magicas-elementais.md#espaço-tempo).
+**Força externa ainda move.** Empurrar, puxar e teleportar não são movimento do alvo — são coisas feitas *a* ele, e funcionam normalmente contra quem está Imóvel. Um alvo preso no lugar pode ser arrancado dele por um empurrão de Vento ou pela [Dobra Espacial](habilidades/magicas-elementais.md#espaco-tempo).
 
 ### Atordoado
 
@@ -49,7 +49,7 @@ Pontos temporários que **absorvem dano** antes da Vida. Não acumulam com outro
 
 ### Exausto
 
-Desgaste do corpo, acumulado em **graus**. Diferente das outras condições, não vem de habilidade: vem de [privação e viagem](mestre/exploracao.md#exaustão) — fome, sede, frio, noite sem dormir, marcha forçada.
+Desgaste do corpo, acumulado em **graus**. Diferente das outras condições, não vem de habilidade: vem de [privação e viagem](mestre/exploracao.md#exaustao) — fome, sede, frio, noite sem dormir, marcha forçada.
 
 | Grau | Efeito (acumulativo) |
 |---|---|
@@ -139,7 +139,7 @@ Arma marcial, dano 1d8. Ver [Arsenal → Espada](jogador/arsenal.md#espada).
 
 ### Lança
 
-Arma marcial de alcance, dano 1d10. Ver [Arsenal → Lança](jogador/arsenal.md#lança).
+Arma marcial de alcance, dano 1d10. Ver [Arsenal → Lança](jogador/arsenal.md#lanca).
 
 ### Montante
 
@@ -175,7 +175,7 @@ Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Pote](joga
 
 ### Lâmpada
 
-Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Lâmpada](jogador/arsenal.md#lâmpada).
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Lâmpada](jogador/arsenal.md#lampada).
 
 ### Cajado
 
@@ -203,7 +203,7 @@ Arma marcial pesada, dano 1d12. Ver [Arsenal → Machado](jogador/arsenal.md#mac
 
 ### Gládio
 
-Arma marcial Híbrida, dano 1d6. Ver [Arsenal → Gládio](jogador/arsenal.md#gládio).
+Arma marcial Híbrida, dano 1d6. Ver [Arsenal → Gládio](jogador/arsenal.md#gladio).
 
 ### Chakram
 
@@ -215,7 +215,7 @@ Arma marcial, dano 1d6. Ver [Arsenal → Manopla](jogador/arsenal.md#manopla).
 
 ### Lâmina
 
-Arma marcial, dano 1d8. Ver [Arsenal → Lâmina](jogador/arsenal.md#lâmina).
+Arma marcial, dano 1d8. Ver [Arsenal → Lâmina](jogador/arsenal.md#lamina).
 
 ### Manual
 
@@ -235,7 +235,7 @@ Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Orbe](joga
 
 ### Manopla Mística
 
-Arma marcial, dano 1d8 (invoca criaturas através de uma gema com pentagramas e hexagramas). Ver [Arsenal → Manopla Mística](jogador/arsenal.md#manopla-mística).
+Arma marcial, dano 1d8 (invoca criaturas através de uma gema com pentagramas e hexagramas). Ver [Arsenal → Manopla Mística](jogador/arsenal.md#manopla-mistica).
 
 ### Pistolas
 
@@ -279,11 +279,11 @@ Arma marcial Finesse (duas mãos), dano 1d10 (lâmina amaldiçoada, exige sangue
 
 ### Cubo Mágico
 
-Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cubo Mágico](jogador/arsenal.md#cubo-mágico).
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cubo Mágico](jogador/arsenal.md#cubo-magico).
 
 ### Olho Mágico
 
-Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Olho Mágico](jogador/arsenal.md#olho-mágico).
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Olho Mágico](jogador/arsenal.md#olho-magico).
 
 ### Espada-Chave
 
@@ -295,7 +295,7 @@ Arma marcial pesada, dano 1d12. Ver [Arsenal → Soqueira Pesada](jogador/arsena
 
 ### Lâmina Dupla
 
-Arma marcial, dano 1d6 (arma ancestral com lâmina em cada extremidade). Ver [Arsenal → Lâmina Dupla](jogador/arsenal.md#lâmina-dupla).
+Arma marcial, dano 1d6 (arma ancestral com lâmina em cada extremidade). Ver [Arsenal → Lâmina Dupla](jogador/arsenal.md#lamina-dupla).
 
 ### Gadanha
 
@@ -311,11 +311,11 @@ Arma marcial de haste, dano 1d10. Ver [Arsenal → Glaive](jogador/arsenal.md#gl
 
 ### Égide
 
-Arma marcial (espada e escudo), dano 1d6. Ver [Arsenal → Égide](jogador/arsenal.md#égide).
+Arma marcial (espada e escudo), dano 1d6. Ver [Arsenal → Égide](jogador/arsenal.md#egide).
 
 ### Lâmina do Crepúsculo
 
-Arma marcial pesada, dano 1d10 (renomeada de "Tirfing" — lâmina amaldiçoada, concede poder imenso mas corrói com trevas quem a empunha). Ver [Arsenal → Lâmina do Crepúsculo](jogador/arsenal.md#lâmina-do-crepúsculo).
+Arma marcial pesada, dano 1d10 (renomeada de "Tirfing" — lâmina amaldiçoada, concede poder imenso mas corrói com trevas quem a empunha). Ver [Arsenal → Lâmina do Crepúsculo](jogador/arsenal.md#lamina-do-crepusculo).
 
 ### Violino
 
@@ -323,7 +323,7 @@ Arma marcial, dano 1d6 (instrumento usado como arma contundente). Ver [Arsenal �
 
 ### Báculo
 
-Arma marcial, dano 1d8 (bastão com lâmina circular e cristal, símbolo dos bardos). Ver [Arsenal → Báculo](jogador/arsenal.md#báculo).
+Arma marcial, dano 1d8 (bastão com lâmina circular e cristal, símbolo dos bardos). Ver [Arsenal → Báculo](jogador/arsenal.md#baculo).
 
 ### Bolsa de Truques
 
@@ -335,7 +335,7 @@ Par de tonfas, dano 1d6. Ver [Arsenal → Tonfas](jogador/arsenal.md#tonfas).
 
 ### Bastão
 
-Arma marcial de haste média, dano 1d8 (arma real é a Chamma). Ver [Arsenal → Bastão](jogador/arsenal.md#bastão).
+Arma marcial de haste média, dano 1d8 (arma real é a Chamma). Ver [Arsenal → Bastão](jogador/arsenal.md#bastao).
 
 ### Vajras
 
@@ -351,15 +351,15 @@ Arma marcial pesada, dano 1d10 (lâmina lendária, duas metades — Sol e Lua). 
 
 ### Revólver Maverick
 
-Revólver pesado, dano 1d8 — quase uma espingarda de uma mão só, usado sempre sozinho por causa do coice e do poder de fogo (a outra mão fica livre). Ver [Arsenal → Revólver Maverick](jogador/arsenal.md#revólver-maverick).
+Revólver pesado, dano 1d8 — quase uma espingarda de uma mão só, usado sempre sozinho por causa do coice e do poder de fogo (a outra mão fica livre). Ver [Arsenal → Revólver Maverick](jogador/arsenal.md#revolver-maverick).
 
 ### Marreta Mágica
 
-Arma marcial pesada, dano 1d12. Ver [Arsenal → Marreta Mágica](jogador/arsenal.md#marreta-mágica).
+Arma marcial pesada, dano 1d12. Ver [Arsenal → Marreta Mágica](jogador/arsenal.md#marreta-magica).
 
 ### Módulo Alado
 
-Arma marcial, dano 1d10 (enxame tecnológico de lâminas voadoras). Ver [Arsenal → Módulo Alado](jogador/arsenal.md#módulo-alado).
+Arma marcial, dano 1d10 (enxame tecnológico de lâminas voadoras). Ver [Arsenal → Módulo Alado](jogador/arsenal.md#modulo-alado).
 
 ### Tridente
 
@@ -389,7 +389,7 @@ O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver
 
 ### Híbrida
 
-O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Arsenal → Armas Híbridas](jogador/arsenal.md#híbrida).
+O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Arsenal → Armas Híbridas](jogador/arsenal.md#hibrida).
 
 ### Dupla Empunhadura
 
@@ -473,7 +473,7 @@ Ver [Mágicas por Elemento → Luz](habilidades/magicas-elementais.md#luz).
 
 ### Água
 
-Ver [Mágicas por Elemento → Água](habilidades/magicas-elementais.md#água).
+Ver [Mágicas por Elemento → Água](habilidades/magicas-elementais.md#agua).
 
 ### Vento
 
@@ -489,6 +489,6 @@ Ver [Mágicas por Elemento → Sangue](habilidades/magicas-elementais.md#sangue)
 
 ### Espaço-Tempo
 
-Ver [Mágicas por Elemento → Espaço-Tempo](habilidades/magicas-elementais.md#espaço-tempo).
+Ver [Mágicas por Elemento → Espaço-Tempo](habilidades/magicas-elementais.md#espaco-tempo).
 
 *(Outros elementos ainda sem habilidades — a criar)*

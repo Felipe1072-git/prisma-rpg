@@ -4,10 +4,10 @@
 
 Um personagem de nível 1 é composto por:
 
-1. **Atributos** — distribuídos por um dos 3 métodos abaixo (ver [Distribuição na Criação](#distribuição-na-criação)).
+1. **Atributos** — distribuídos por um dos 3 métodos abaixo (ver [Distribuição na Criação](#distribuicao-na-criacao)).
 2. **Raça** — pool de atributos + 1-3 traços raciais (ver [Raças](../racas/index.md)).
 3. **Origem** — 3 escolhas independentes (Passado, Ambiente de Origem, Evento Formador), cada uma com 1 traço leve (ver [Origem](origem.md)).
-4. **1ª Habilidade** — de qualquer grupo, inclusive a Básica de uma arma (ver [Progressão de Nível](#progressão-de-nível) abaixo).
+4. **1ª Habilidade** — de qualquer grupo, inclusive a Básica de uma arma (ver [Progressão de Nível](#progressao-de-nivel) abaixo).
 5. **Equipamento inicial** — a arma (ou armas) que o personagem carrega fisicamente, escolhida livremente (frequentemente sugerida por um [Pacote](../pacotes/index.md)).
 
 **Ter uma arma em mãos e saber uma técnica nomeada dela são coisas diferentes.** Qualquer arma equipada pode ser usada com **Ataque Básico** (dano da arma, sem nenhum efeito extra — ver [Pontos de Ação](pontos-de-acao.md)), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade daquela arma. Aprender a Habilidade Básica de uma arma (gastando uma escolha de nível) é o que desbloqueia a técnica nomeada e as três [Intensidades](../habilidades/index.md#intensidade) dela — e é sempre o primeiro passo: a Avançada e a Especial de uma arma só podem ser aprendidas depois da Básica (e da Avançada, respectivamente) daquela mesma arma (ver "Aprendizado progressivo" no topo do [Arsenal](arsenal.md)).
@@ -29,7 +29,7 @@ Personagens possuem 8 atributos:
 
 Atributos podem assumir valores negativos (ex: por penalidades, dano, debuffs).
 
-**Na criação, cada atributo começa entre -2 e +3.** Um atributo bem focado ao longo de toda a carreira pode chegar a aproximadamente **+13** no nível 20 (ver [Progressão de Nível](#progressão-de-nível) abaixo).
+**Na criação, cada atributo começa entre -2 e +3.** Um atributo bem focado ao longo de toda a carreira pode chegar a aproximadamente **+13** no nível 20 (ver [Progressão de Nível](#progressao-de-nivel) abaixo).
 
 ### Distribuição na Criação
 
@@ -160,7 +160,7 @@ Um personagem Caído pode escolher **não resistir**. Em vez de rolar contra a m
 Declarado no início de um turno dele enquanto estiver Caído, o Último Turno funciona assim:
 
 - Ele **se levanta e joga um turno completo**: 3 PA, Mana, habilidades, tudo. Ainda rola pra acertar normalmente.
-- **Todo sucesso é tratado como Crítico** — dano máximo, rolagem extra e [sobe 1 Intensidade de graça](../habilidades/index.md#resolução), mesmo sem tirar 20.
+- **Todo sucesso é tratado como Crítico** — dano máximo, rolagem extra e [sobe 1 Intensidade de graça](../habilidades/index.md#resolucao), mesmo sem tirar 20.
 - **Toda falha é tratada como falha crítica** — não há acerto raspado; o que dá errado, dá errado por completo.
 - **Nenhuma cura funciona nele** durante o Último Turno. Não há como voltar atrás depois de declarar.
 - **Ao fim do turno, o personagem morre.** Sem rolagem, sem resistência, sem chance. Foi o preço.

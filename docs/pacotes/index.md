@@ -22,14 +22,14 @@ Role 1d20 pra sortear um pacote dessa vertente, ou escolha livremente (não é o
 | 9 | [Samurai](#samurai) | katana; saque rápido devastador (Iaijutsu) e foco mental absoluto |
 | 10 | [Lutador de Rua](#lutador-de-rua) | punhos nus, manoplas ou soqueiras; agarrões, socos ingleses e uso do cenário |
 | 11 | [Vanguarda](#vanguarda) | escudo colossal e espada curta; absorve impactos e cria uma parede intransponível |
-| 12 | [Mercenário](#mercenário) | truques sujos, bestas de mão e redes; eficiência, pragmatismo e vantagem tática |
+| 12 | [Mercenário](#mercenario) | truques sujos, bestas de mão e redes; eficiência, pragmatismo e vantagem tática |
 | 13 | [Cavaleiro Errante](#cavaleiro-errante) | espada longa e montaria; investidas montadas e bônus de moral em combate aberto |
 | 14 | [Retalhador](#retalhador) | duas espadas médias/grandes; agilidade extrema com golpes cortantes em área |
 | 15 | [Guarda-costas](#guarda-costas) | armas de haste ou escudos médios; intercepta ataques direcionados a aliados frágeis |
-| 16 | [Centurião](#centurião) | escudo de corpo e lança curta; táticas de formação defensiva e bônus de bando |
+| 16 | [Centurião](#centuriao) | escudo de corpo e lança curta; táticas de formação defensiva e bônus de bando |
 | 17 | [Ceifador](#ceifador) | foice longa; arcos de ataque amplos que atingem múltiplos alvos |
-| 18 | [Guerreiro Rúnico](#guerreiro-rúnico) | lâminas gravadas com runas; ativa símbolos pra efeitos físicos secundários |
-| 19 | [Bárbaro Flagelo](#bárbaro-flagelo) | chicotes de corrente e manguais; desarma inimigos e causa sangramento à distância |
+| 18 | [Guerreiro Rúnico](#guerreiro-runico) | lâminas gravadas com runas; ativa símbolos pra efeitos físicos secundários |
+| 19 | [Bárbaro Flagelo](#barbaro-flagelo) | chicotes de corrente e manguais; desarma inimigos e causa sangramento à distância |
 | 20 | [Defensor da Torre](#defensor-da-torre) | bestas pesadas fixas ou arcos longos; bônus massivos ao fincar os pés e não se mover |
 
 ## Senhores do Arcano
@@ -50,7 +50,7 @@ Role 1d20 pra sortear um pacote dessa vertente, ou escolha livremente (não é o
 | 9 | [Mago de Sangue](#mago-de-sangue) | adagas ritualísticas; consome a própria vida ou o sangue do inimigo pra potencializar feitiços |
 | 10 | [Arcanista](#arcanista) | cajados de cristal; energia pura, mísseis teleguiados e barreiras de força |
 | 11 | [Mentalista](#mentalista) | sem arma visível; telecinese, rajadas psíquicas e controle mental leve |
-| 12 | [Astrólogo](#astrólogo) | globos celestes ou mapas astrais; magias de gravidade, órbitas e fases da lua |
+| 12 | [Astrólogo](#astrologo) | globos celestes ou mapas astrais; magias de gravidade, órbitas e fases da lua |
 | 13 | [Encantador](#encantador) | flautas, harpas ou cajados ornamentados; hipnose, pacificação e buffs de atributo |
 | 14 | [Taumaturgo](#taumaturgo) | relíquias estranhas; quebra as regras de probabilidade (altera dados/sorte) |
 | 15 | [Alquimista de Combate](#alquimista-de-combate) | bolsas de reagentes e frascos; ácidos, curas rápidas e gases nocivos |
@@ -58,7 +58,7 @@ Role 1d20 pra sortear um pacote dessa vertente, ou escolha livremente (não é o
 | 17 | [Oniromante](#oniromante) | incensários ou fumaça mágica; indução ao sono, pesadelos e dano mental |
 | 18 | [Bruxo do Pacto](#bruxo-do-pacto) | grimórios corrompidos; rajadas de energia sombria e maldições direcionadas |
 | 19 | [Conjurador do Caos](#conjurador-do-caos) | varinhas instáveis; efeitos aleatórios de uma tabela de selvageria mágica |
-| 20 | [Sábio Imortal](#sábio-imortal) | cajado longo e pergaminhos; barreiras de anulação mágica e dissipação de feitiços |
+| 20 | [Sábio Imortal](#sabio-imortal) | cajado longo e pergaminhos; barreiras de anulação mágica e dissipação de feitiços |
 
 ## Sombras e Perdigueiros
 *(Furtividade, Agilidade e Subterfúgio)*
@@ -69,20 +69,20 @@ Role 1d20 pra sortear um pacote dessa vertente, ou escolha livremente (não é o
 |---|---|---|
 | 1 | [Gatuno](#gatuno) | adagas curtas e gazuas; bônus por atacar pelas costas, roubo em combate e agilidade vertical |
 | 2 | [Assassino das Sombras](#assassino-das-sombras) | lâminas ocultas ou garras; desloca-se entre sombras e usa venenos letais |
-| 3 | [Caçador de Monstros](#caçador-de-monstros) | espadas duplas e bestas de pulso; explora fraquezas de tipos de criatura específicos |
-| 4 | [Caçador de Recompensas](#caçador-de-recompensas) | boleadeiras, redes e espadas curtas; marca um alvo e persegue até derrubá-lo |
+| 3 | [Caçador de Monstros](#cacador-de-monstros) | espadas duplas e bestas de pulso; explora fraquezas de tipos de criatura específicos |
+| 4 | [Caçador de Recompensas](#cacador-de-recompensas) | boleadeiras, redes e espadas curtas; marca um alvo e persegue até derrubá-lo |
 | 5 | [Atirador de Elite](#atirador-de-elite) | arcos longos ou rifles de precisão; mira focada, tiros perfurantes e camuflagem |
-| 6 | [Lâmina Noturna](#lâmina-noturna) | cimitarras infundidas com trevas; silencia conjuradores e golpeia na escuridão |
+| 6 | [Lâmina Noturna](#lamina-noturna) | cimitarras infundidas com trevas; silencia conjuradores e golpeia na escuridão |
 | 7 | [Acrobata de Combate](#acrobata-de-combate) | leques metálicos, aros ou bastões ágeis; esquivas acrobáticas viram dano |
 | 8 | [Sabotador](#sabotador) | bombas de fumaça, abrojos e minas; prepara o terreno com armadilhas antes da luta |
 | 9 | [Pirata](#pirata) | pistola numa mão, sabre na outra; combate sujo e mobilidade em água/cordas |
-| 10 | [Dançarino das Lâminas](#dançarino-das-lâminas) | múltiplas adagas voadoras ou cimitarras; ataques cortantes em sequência contínua |
+| 10 | [Dançarino das Lâminas](#dancarino-das-laminas) | múltiplas adagas voadoras ou cimitarras; ataques cortantes em sequência contínua |
 | 11 | [Contrabandista](#contrabandista) | capas com bolsos ocultos e porretes leves; poções contrabandeadas e fuga rápida |
 | 12 | [Rastreador Selvagem](#rastreador-selvagem) | arco curto; atira em movimento e encontra caminhos seguros em ambiente hostil |
-| 13 | [Espião de Elite](#espião-de-elite) | estiletes ou agulhas envenenadas; disfarces rápidos e golpes em pontos vitais |
-| 14 | [Caçador de Bruxas](#caçador-de-bruxas) | bestas de repetição e algemas de ferro-frio; caça, rastreia e pune usuários de magia |
+| 13 | [Espião de Elite](#espiao-de-elite) | estiletes ou agulhas envenenadas; disfarces rápidos e golpes em pontos vitais |
+| 14 | [Caçador de Bruxas](#cacador-de-bruxas) | bestas de repetição e algemas de ferro-frio; caça, rastreia e pune usuários de magia |
 | 15 | [Infiltrador Urbano](#infiltrador-urbano) | ganchos de escalada e adagas; bônus massivos em becos, telhados e espaços apertados |
-| 16 | [Ladrão de Almas](#ladrão-de-almas) | adagas ritualísticas; drena estamina, mana ou foco do alvo a cada crítico |
+| 16 | [Ladrão de Almas](#ladrao-de-almas) | adagas ritualísticas; drena estamina, mana ou foco do alvo a cada crítico |
 | 17 | [Atirador Arcano](#atirador-arcano) | arco mágico sem flechas físicas; canaliza feitiços diretamente pelos disparos |
 | 18 | [Executor Silencioso](#executor-silencioso) | garrote ou adagas de estilete; neutraliza ameaças sem fazer nenhum barulho |
 | 19 | [Vingador Errante](#vingador-errante) | bestas de repetição de braço; resiste a dano fatal por pura força de vontade |
@@ -95,23 +95,23 @@ Role 1d20 pra sortear um pacote dessa vertente, ou escolha livremente (não é o
 
 | d20 | Pacote | Conceito |
 |---|---|---|
-| 1 | [Templário](#templário) | espada longa e escudo heráldico; auras de proteção e golpes de retribuição luminosa |
+| 1 | [Templário](#templario) | espada longa e escudo heráldico; auras de proteção e golpes de retribuição luminosa |
 | 2 | [Inquisidor](#inquisidor) | chicotes e espadas de fogo sagrado; pune infiéis, causa medo e purifica alvos |
 | 3 | [Arauto](#arauto) | estandartes de batalha ou cornetas; buffs de área baseados no posicionamento do símbolo |
 | 4 | [Exorcista](#exorcista) | símbolos sagrados e água benta; bane, repele e causa dano massivo a mortos-vivos e demônios |
-| 5 | [Clérigo da Guerra](#clérigo-da-guerra) | maças pesadas e escudos de ferro; magias de suporte que fortalecem o dano do grupo |
+| 5 | [Clérigo da Guerra](#clerigo-da-guerra) | maças pesadas e escudos de ferro; magias de suporte que fortalecem o dano do grupo |
 | 6 | [Profeta](#profeta) | cajados rituais; concede vantagem prévia ou prevê o movimento do inimigo |
-| 7 | [Zelote Fanático](#zelote-fanático) | machados duplos; ignora a dor, ganha bônus sagrados quanto menor a vida atual |
+| 7 | [Zelote Fanático](#zelote-fanatico) | machados duplos; ignora a dor, ganha bônus sagrados quanto menor a vida atual |
 | 8 | [Monge Asceta](#monge-asceta) | punhos puros e faixas; canaliza energia interna pra curar a si mesmo e golpear rápido |
 | 9 | [Portador da Luz](#portador-da-luz) | lanternas mágicas ou cajados de luz; ilumina, cega inimigos e regenera aliados |
 | 10 | [Sacerdote das Sombras](#sacerdote-das-sombras) | adagas ou cetros profanos; cura sugando força vital do inimigo (ou do próprio grupo) |
 | 11 | [Flagelante](#flagelante) | chicotes com espinhos; causa dano a si mesmo pra gerar efeitos devastadores no grupo |
 | 12 | [Justiceiro Sagrado](#justiceiro-sagrado) | grandes espadas de duas mãos; aplica "julgamentos" com dano extra por ação do alvo |
 | 13 | [Canalizador](#canalizador) | relíquias de santos; permite que espíritos incorporem no corpo, mudando o estilo de luta |
-| 14 | [Guardião do Templo](#guardião-do-templo) | alabardas sagradas; postura estática que impede a passagem por uma área |
-| 15 | [Cavaleiro Caído](#cavaleiro-caído) | grandes espadas profanas; auras de desespero, enfraquecimento e dreno de vida |
+| 14 | [Guardião do Templo](#guardiao-do-templo) | alabardas sagradas; postura estática que impede a passagem por uma área |
+| 15 | [Cavaleiro Caído](#cavaleiro-caido) | grandes espadas profanas; auras de desespero, enfraquecimento e dreno de vida |
 | 16 | [Paladino do Juramento](#paladino-do-juramento) | escudos colossais; mecânicas focadas em cumprir um juramento feito no início da sessão |
-| 17 | [Missionário](#missionário) | sem arma, foco na palavra; diplomacia em combate, pacificação e cura em massa |
+| 17 | [Missionário](#missionario) | sem arma, foco na palavra; diplomacia em combate, pacificação e cura em massa |
 | 18 | [Pastor de Almas](#pastor-de-almas) | cajados de pastor ou foices leves; guia espíritos aliados caídos pra bônus temporários |
 | 19 | [Cultista do Vazio](#cultista-do-vazio) | adagas de osso alienígena; invoca tentáculos e consome a sanidade do inimigo |
 | 20 | [Pacificador Divino](#pacificador-divino) | símbolos de paz; cria barreiras onde nenhum ataque pode ser desferido |
@@ -124,29 +124,29 @@ Role 1d20 pra sortear um pacote dessa vertente, ou escolha livremente (não é o
 | d20 | Pacote | Conceito |
 |---|---|---|
 | 1 | [Skald](#skald) | machado-alaúde ou espadas-flauta; canções de guerra que aumentam dano físico e velocidade |
-| 2 | [Artífice](#artífice) | chaves inglesas ou mosquetes; constrói torres de tiro temporárias e pequenas engenhocas |
+| 2 | [Artífice](#artifice) | chaves inglesas ou mosquetes; constrói torres de tiro temporárias e pequenas engenhocas |
 | 3 | [Druida Metamorfo](#druida-metamorfo) | garras e presas; transforma-se em feras, trocando o kit de combate |
 | 4 | [Mestre das Feras](#mestre-das-feras) | lanças ou arcos; luta em dupla com um companheiro animal persistente |
-| 5 | [Xamã Totêmico](#xamã-totêmico) | clavas de madeira; espalha totens no chão que emitem buffs elementais em área |
+| 5 | [Xamã Totêmico](#xama-totemico) | clavas de madeira; espalha totens no chão que emitem buffs elementais em área |
 | 6 | [Patrulheiro das Estepes](#patrulheiro-das-estepes) | arcos curtos; combate montado, arqueria em movimento e guerrilha |
-| 7 | [Dançarino da Morte](#dançarino-da-morte) | foices encadeadas ou chakrams; movimentos teatrais que causam dano e encantam |
+| 7 | [Dançarino da Morte](#dancarino-da-morte) | foices encadeadas ou chakrams; movimentos teatrais que causam dano e encantam |
 | 8 | [Forjador de Almas](#forjador-de-almas) | martelo de forja portátil; conserta armaduras e aprimora armas dos aliados em combate |
-| 9 | [Nascido do Dragão](#nascido-do-dragão) | manoplas ou espadas pesadas; sopros elementais, rugidos de medo e escamas rígidas |
+| 9 | [Nascido do Dragão](#nascido-do-dragao) | manoplas ou espadas pesadas; sopros elementais, rugidos de medo e escamas rígidas |
 | 10 | [Tecnomago](#tecnomago) | armas de fogo infundidas com mana; projéteis que misturam pólvora com magia elemental |
-| 11 | [Guardião do Bosque](#guardião-do-bosque) | chicotes de vinhas ou cajados vivos; raízes que prendem e armadura de casca de árvore |
-| 12 | [Nômade do Deserto](#nômade-do-deserto) | cimitarras duplas; controle de redemoinhos de areia e resistência a clima/fadiga |
+| 11 | [Guardião do Bosque](#guardiao-do-bosque) | chicotes de vinhas ou cajados vivos; raízes que prendem e armadura de casca de árvore |
+| 12 | [Nômade do Deserto](#nomade-do-deserto) | cimitarras duplas; controle de redemoinhos de areia e resistência a clima/fadiga |
 | 13 | [Herborista de Combate](#herborista-de-combate) | zarabatanas e adagas; extratos de plantas pra curar ou paralisar |
 | 14 | [Mestre do Fluxo](#mestre-do-fluxo) | bastões ou mãos livres; redireciona o ataque inimigo contra ele mesmo |
-| 15 | [Capitão do Ar](#capitão-do-ar) | pistolas de pederneira e ganchos; alturas, saltos ousados e bônus em navios/dirigíveis |
-| 16 | [Andarilho do Véu](#andarilho-do-véu) | lâminas etéreas; transita ao plano espiritual pra atravessar paredes e golpes |
-| 17 | [Comandante Tático](#comandante-tático) | espada curta e luneta; ordens que concedem ações extras ou posicionamento a aliados |
+| 15 | [Capitão do Ar](#capitao-do-ar) | pistolas de pederneira e ganchos; alturas, saltos ousados e bônus em navios/dirigíveis |
+| 16 | [Andarilho do Véu](#andarilho-do-veu) | lâminas etéreas; transita ao plano espiritual pra atravessar paredes e golpes |
+| 17 | [Comandante Tático](#comandante-tatico) | espada curta e luneta; ordens que concedem ações extras ou posicionamento a aliados |
 | 18 | [Exilado das Sombras](#exilado-das-sombras) | punhos e chutes imbuídos de trevas; estilo de luta marcial sombrio e rápido |
 | 19 | [Demolidor](#demolidor) | marretas pesadas e pólvora; destrói armaduras, escudos, portões e estruturas físicas |
 | 20 | [Chakramista](#chakramista) | discos afiados; armas de arremesso que ricocheteiam entre inimigos antes de voltar à mão |
 
 ## Pacotes Detalhados
 
-Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª Habilidade sugerida pro nível 1) e **trilha sugerida** até o nível 20 (as 10 escolhas de Habilidade da carreira, nos níveis ímpares — ver [Progressão de Nível](../jogador/sistema-d20.md#progressão-de-nível)). A trilha é só sugestão: nada impede pegar uma Habilidade fora dela em qualquer nível, ou abandonar o pacote por completo. Onde a trilha usa mais de um grau da mesma arma, a ordem sempre respeita o [Aprendizado progressivo](../jogador/arsenal.md) (Básica antes de Avançada, Avançada antes de Especial).
+Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª Habilidade sugerida pro nível 1) e **trilha sugerida** até o nível 20 (as 10 escolhas de Habilidade da carreira, nos níveis ímpares — ver [Progressão de Nível](../jogador/sistema-d20.md#progressao-de-nivel)). A trilha é só sugestão: nada impede pegar uma Habilidade fora dela em qualquer nível, ou abandonar o pacote por completo. Onde a trilha usa mais de um grau da mesma arma, a ordem sempre respeita o [Aprendizado progressivo](../jogador/arsenal.md) (Básica antes de Avançada, Avançada antes de Especial).
 
 ### Acrobata de Combate
 
@@ -252,7 +252,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Buffs de área baseados no posicionamento do símbolo.*
 
-- **Arma inicial:** [Báculo](../jogador/arsenal.md#báculo)
+- **Arma inicial:** [Báculo](../jogador/arsenal.md#baculo)
 - **Atributo em foco:** Sabedoria
 
 | Nível | Habilidade |
@@ -570,7 +570,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 | 17 | Barreira Negra |
 | 19 | Aniquilação *(Supremo)* |
 
-*Combina bem com a raça [Amaldiçoado](../racas/index.md#amaldiçoado).*
+*Combina bem com a raça [Amaldiçoado](../racas/index.md#amaldicoado).*
 
 ### Cavaleiro Errante
 
@@ -616,7 +616,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Táticas de formação defensiva e bônus de bando.*
 
-- **Arma inicial:** [Lança](../jogador/arsenal.md#lança) + [Escudo](../jogador/arsenal.md#escudos) Leve
+- **Arma inicial:** [Lança](../jogador/arsenal.md#lanca) + [Escudo](../jogador/arsenal.md#escudos) Leve
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -696,7 +696,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Efeitos aleatórios de uma tabela de selvageria mágica.*
 
-- **Arma inicial:** [Cubo Mágico](../jogador/arsenal.md#cubo-mágico)
+- **Arma inicial:** [Cubo Mágico](../jogador/arsenal.md#cubo-magico)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -856,7 +856,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Destrói armaduras, escudos, portões e estruturas físicas.*
 
-- **Arma inicial:** [Marreta Mágica](../jogador/arsenal.md#marreta-mágica)
+- **Arma inicial:** [Marreta Mágica](../jogador/arsenal.md#marreta-magica)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1218,7 +1218,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Ativa símbolos na arma pra efeitos físicos secundários.*
 
-- **Arma inicial:** [Lâmina](../jogador/arsenal.md#lâmina)
+- **Arma inicial:** [Lâmina](../jogador/arsenal.md#lamina)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1400,7 +1400,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Mantém inimigos à distância e perfura armaduras.*
 
-- **Arma inicial:** [Lança](../jogador/arsenal.md#lança)
+- **Arma inicial:** [Lança](../jogador/arsenal.md#lanca)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1462,7 +1462,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Telecinese, rajadas psíquicas e controle mental leve.*
 
-- **Arma inicial:** [Olho Mágico](../jogador/arsenal.md#olho-mágico)
+- **Arma inicial:** [Olho Mágico](../jogador/arsenal.md#olho-magico)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1502,7 +1502,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Luta em dupla com um companheiro animal persistente.*
 
-- **Arma inicial:** [Lança](../jogador/arsenal.md#lança)
+- **Arma inicial:** [Lança](../jogador/arsenal.md#lanca)
 - **Atributo em foco:** Força ou Sabedoria
 
 | Nível | Habilidade |
@@ -1562,7 +1562,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Redireciona o ataque inimigo contra ele mesmo.*
 
-- **Arma inicial:** [Bastão](../jogador/arsenal.md#bastão)
+- **Arma inicial:** [Bastão](../jogador/arsenal.md#bastao)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1638,7 +1638,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 | 17 | Espírito Indomável |
 | 19 | Chamas Espirituais *(Supremo)* |
 
-*Se combinado com a raça [Sangue-de-Dragão](../racas/index.md#sangue-de-dragão), o personagem já ganha [Baforada Dracônica](../racas/index.md#sangue-de-dragão) de graça — mas o pacote funciona igual sem a raça.*
+*Se combinado com a raça [Sangue-de-Dragão](../racas/index.md#sangue-de-dragao), o personagem já ganha [Baforada Dracônica](../racas/index.md#sangue-de-dragao) de graça — mas o pacote funciona igual sem a raça.*
 
 ### Necromante
 
@@ -1748,7 +1748,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Guia espíritos aliados caídos pra bônus temporários.*
 
-- **Arma inicial:** [Báculo](../jogador/arsenal.md#báculo)
+- **Arma inicial:** [Báculo](../jogador/arsenal.md#baculo)
 - **Atributo em foco:** Sabedoria
 
 | Nível | Habilidade |
@@ -1830,7 +1830,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Ilumina, cega inimigos e regenera aliados.*
 
-- **Arma inicial:** [Lâmpada](../jogador/arsenal.md#lâmpada)
+- **Arma inicial:** [Lâmpada](../jogador/arsenal.md#lampada)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -2138,7 +2138,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Espalha totens no chão que emitem buffs elementais em área.*
 
-- **Arma inicial:** [Bastão](../jogador/arsenal.md#bastão)
+- **Arma inicial:** [Bastão](../jogador/arsenal.md#bastao)
 - **Atributo em foco:** Sabedoria
 
 | Nível | Habilidade |

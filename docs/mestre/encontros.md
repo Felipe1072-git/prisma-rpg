@@ -85,7 +85,7 @@ Montados com o orçamento acima, para um grupo de 4.
 
 **Ninho** — nível 4–6, Mortal (16 pontos)
 
-- 1 [Dragão Filhote](bestiario.md#dragão-filhote) (8) + 8 [Goblins](bestiario.md#goblin) (8) que o servem. Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. Chefe escoltado, do jeito certo.
+- 1 [Dragão Filhote](bestiario.md#dragao-filhote) (8) + 8 [Goblins](bestiario.md#goblin) (8) que o servem. Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. Chefe escoltado, do jeito certo.
 
 **O Poço** — nível 2–4, **Leve no papel (3 pontos), Difícil na prática**
 

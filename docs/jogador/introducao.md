@@ -46,7 +46,7 @@ Nenhuma das três é a certa. É isso que o sistema pede de você a cada turno.
 
 ## Como criar um personagem
 
-Cinco passos, na ordem. Os detalhes de cada um estão em [O Sistema d20](sistema-d20.md#criação-de-personagem):
+Cinco passos, na ordem. Os detalhes de cada um estão em [O Sistema d20](sistema-d20.md#criacao-de-personagem):
 
 1. **Atributos** — oito deles (Força, Vitalidade, Agilidade, Inteligência, Sabedoria, Vontade, Sorte, Sanidade), distribuídos por array fixo, rolagem ou ponto-compra.
 2. **[Raça](../racas/index.md)** — 25 disponíveis, cada uma com um traço físico inconfundível e 1 a 3 traços mecânicos.
