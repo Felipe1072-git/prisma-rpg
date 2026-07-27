@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "mkdocs", "serve", "--dev-addr", "127.0.0.1:8000"],
       "port": 8000
+    },
+    {
+      "name": "prisma-docs-alt",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "mkdocs", "serve", "--dev-addr", "127.0.0.1:8011"],
+      "port": 8011
     }
   ]
 }

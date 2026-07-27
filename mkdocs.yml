@@ -43,14 +43,26 @@ plugins:
   - search:
       lang: pt
 
+hooks:
+  - hooks/prisma.py
+
+extra_css:
+  - assets/css/prisma.css
+
+extra_javascript:
+  - assets/js/prisma.js
+
 markdown_extensions:
   - tables
   - attr_list
   - def_list
   - admonition
   - md_in_html
+  - footnotes
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.mark
   - toc:
       permalink: true
       toc_depth: 3

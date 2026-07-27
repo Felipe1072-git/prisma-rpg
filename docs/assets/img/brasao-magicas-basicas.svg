@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Habilidades Mágicas Básicas" focusable="false">
+  <path d="M32 3 L61 32 L32 61 L3 32z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".45"/>
+  <path d="M32 9 L55 32 L32 55 L9 32z" fill="currentColor" opacity=".05"/>
+
+  <!-- Orbe: o gesto mais simples da magia -->
+  <circle cx="32" cy="32" r="11" fill="none" stroke="currentColor" stroke-width="1.8" opacity=".8"/>
+  <circle cx="32" cy="32" r="5.5" fill="currentColor" opacity=".9"/>
+  <circle cx="28.5" cy="28.5" r="2" fill="currentColor" opacity=".35"/>
+
+  <!-- Quatro faíscas nas diagonais -->
+  <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".7">
+    <path d="M17 17 L22 22"/>
+    <path d="M47 17 L42 22"/>
+    <path d="M17 47 L22 42"/>
+    <path d="M47 47 L42 42"/>
+  </g>
+</svg>
