@@ -63,6 +63,8 @@ A raridade decide **que tipo** de coisa o item faz — não só o quanto.
 | **Raro** | concede **uma Habilidade** de graça, sem gastar escolha de nível | não se compra; tesouro de Lendário ou recompensa de arco |
 | **Lendário** | concede uma Habilidade **Suprema**, ou faz algo que nenhuma regra faz | um por campanha, e a história inteira gira em volta dele |
 
+Acima de tudo isso existe uma recompensa que não é item: tornar o personagem [**Tocado**](../jogador/tocado.md). Ela não se compra, não se acha num tesouro e não se perde — é consequência de algo que aconteceu em jogo, e muda o personagem para sempre. Guarde para o fecho de um arco.
+
 ### Por que Raro concede habilidade
 
 Num sistema onde **tudo é habilidade** e não há classes, dar uma habilidade é a recompensa mais forte que existe — mais que qualquer +1. E há precedente: [raças](../racas/index.md) já concedem habilidade de graça (a Baforada Dracônica do Sangue-de-Dragão, a Mordida Feroz), então a mecânica não é nova, só está sendo reaproveitada.

@@ -27,3 +27,4 @@ Inspirado em Mushoku Tensei, Sword Art Online, Fabula Ultima, Skyrim, Dragon Age
 - [Habilidades](habilidades/index.md)
 - [Pacotes](pacotes/index.md)
 - [Raças](racas/index.md)
+- [Tocado](jogador/tocado.md)

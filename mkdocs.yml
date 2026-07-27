@@ -56,6 +56,7 @@ nav:
     - Mana: jogador/mana.md
     - Pontos de Ação: jogador/pontos-de-acao.md
     - Origem: jogador/origem.md
+    - Tocado: jogador/tocado.md
     - Arsenal: jogador/arsenal.md
   - Habilidades:
     - Visão Geral: habilidades/index.md
