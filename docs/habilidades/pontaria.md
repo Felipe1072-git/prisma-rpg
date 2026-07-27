@@ -2,8 +2,6 @@
 
 Armas a distância e precisão (feitiços de precisão inclusos).
 
-*(Em construção.)*
-
 ## Habilidades Gerais
 
 **Dança Élfica**

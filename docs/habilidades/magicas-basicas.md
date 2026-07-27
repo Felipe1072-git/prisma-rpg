@@ -2,8 +2,6 @@
 
 Uso básico da magia.
 
-*(Em construção.)*
-
 ## Habilidades Gerais
 
 **Arrasador**

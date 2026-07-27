@@ -2,8 +2,6 @@
 
 Voo, deslocamento.
 
-*(Em construção.)*
-
 ## Habilidades Gerais
 
 **Cambalhota** *(usada como Reação)*

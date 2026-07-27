@@ -2,8 +2,6 @@
 
 Furtividade, ladinagem.
 
-*(Em construção.)*
-
 ## Habilidades Gerais
 
 **Choque das Sombras**

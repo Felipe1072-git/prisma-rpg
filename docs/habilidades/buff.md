@@ -2,8 +2,6 @@
 
 Incremento de força, imbuir elementos em armas, etc.
 
-*(Em construção.)*
-
 ## Habilidades Gerais
 
 **Escudo Mágico**

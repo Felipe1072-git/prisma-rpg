@@ -2,7 +2,7 @@
 
 Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tempo.
 
-**Regra importante:** efeitos elementais/mágicos (fogo, energia sombria, gelo etc.) nunca ficam travados numa arma específica, mesmo quando a arma é física — sempre vivem aqui como habilidades gerais. Ver [skill criar-habilidade](../../.claude/skills/criar-habilidade/SKILL.md) pro racional completo.
+**Regra importante:** efeitos elementais/mágicos (fogo, energia sombria, gelo etc.) nunca ficam travados numa arma específica, mesmo quando a arma é física — sempre vivem aqui como habilidades gerais. Uma espada não "ensina" bola de fogo: as habilidades de uma arma são sempre mundanas (técnica, força, peso, momento), e qualquer efeito que precise de Inteligência ou Sabedoria pra fazer sentido pertence a este grupo. Isso existe pra que o sistema não volte a ter classes pela porta dos fundos — se a arma travasse o elemento, "mago de cajado de fogo" viraria uma classe de fato.
 
 ## Assinatura de Elemento
 

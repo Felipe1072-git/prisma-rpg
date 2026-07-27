@@ -2,8 +2,6 @@
 
 Armas a curta distância e combate corpo a corpo.
 
-*(Em construção.)*
-
 ## Dano Desarmado
 
 Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam sozinhos conforme o nível do personagem, parecido com o dado de artes marciais de sistemas como D&D/Pathfinder:
