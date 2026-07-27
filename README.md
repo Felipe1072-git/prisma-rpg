@@ -68,4 +68,14 @@ Mushoku Tensei, Sword Art Online, Fabula Ultima, Skyrim, Dragon Age, The Witcher
 
 ## Licença
 
-Sistema autoral de Paulo Souza. Sem licença definida ainda — se você quiser usar em mesa, fique à vontade; para republicar ou derivar, abra uma issue.
+Sistema autoral de **Paulo Souza**, licenciado sob [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br).
+
+**Você pode**, sem pedir permissão:
+
+- usar em mesa, do jeito que quiser
+- copiar, imprimir e distribuir
+- adaptar, remixar e criar material derivado — inclusive para fins comerciais
+
+**A única condição** é dar crédito: mencione Paulo Souza como autor do Prisma RPG, com link para este repositório, e indique se você fez mudanças.
+
+O texto legal completo está em [`LICENSE`](LICENSE).

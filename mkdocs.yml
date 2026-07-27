@@ -4,6 +4,10 @@ site_author: Paulo Souza
 site_url: https://felipe1072-git.github.io/prisma-rpg/
 repo_url: https://github.com/Felipe1072-git/prisma-rpg
 repo_name: Felipe1072-git/prisma-rpg
+copyright: >
+  Prisma RPG © Paulo Souza —
+  <a href="https://creativecommons.org/licenses/by/4.0/deed.pt-br" rel="license">CC BY 4.0</a>.
+  Use, copie e adapte livremente, creditando o autor.
 
 theme:
   name: material
