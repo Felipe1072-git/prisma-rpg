@@ -23,7 +23,7 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 
 **Traço Racial:**
 
-- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a DC, ou não superou a Defesa do alvo — inclusive um 1 natural) em um sucesso. Em teste de Habilidade, conta como acerto normal: aplica o efeito da Intensidade que foi paga.
+- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a DC, ou não superou a Defesa do alvo — inclusive um 1 natural) em um sucesso. Em teste de Habilidade, conta como acerto normal: aplica o efeito da Intensidade que foi paga. **Não** funciona em habilidades com [Tiers de Resultado](../habilidades/index.md#habilidades-com-tiers-de-resultado) nem durante o [Último Turno](../jogador/sistema-d20.md#o-ultimo-turno).
 
 ## Elfo
 
@@ -50,7 +50,7 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 **Traços Raciais:**
 
 - **Teimosia de Pedra** — vantagem em todos os testes de Estresse.
-- **Pés Fincados** — não pode ser derrubado ou empurrado contra sua vontade.
+- **Pés Fincados** — não pode ser derrubado, empurrado nem puxado contra sua vontade.
 
 ## Amaldiçoado
 
@@ -87,7 +87,7 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 
 **Traços Raciais:**
 
-- **Resistência Elemental** — escolha 1 dos 8 elementos (ver [Mágicas por Elemento](../habilidades/magicas-elementais.md)) na criação do personagem; ganha [Resistência](../jogador/sistema-d20.md#resistencia-imunidade-e-vulnerabilidade) a esse tipo de dano.
+- **Resistência Elemental** — escolha 1 dos 11 elementos (ver [Mágicas por Elemento](../habilidades/magicas-elementais.md)) na criação do personagem; ganha [Resistência](../jogador/sistema-d20.md#resistencia-imunidade-e-vulnerabilidade) a esse tipo de dano.
 - **Baforada Dracônica** — concede a habilidade abaixo gratuitamente (não consome uma escolha de nível), do mesmo elemento escolhido acima.
 
 **Baforada Dracônica**
@@ -239,7 +239,7 @@ Uma terceira leva de raças, com identidade aquática — cada uma com seu próp
 
 Todas as raças desta leva têm, além dos traços listados individualmente, o traço de exceção abaixo — não conta contra os pontos de atributo da raça:
 
-- **Respiração Aquática** — nada e respira debaixo d'água livremente, sem nenhuma penalidade. Em compensação, um descanso longo só concede seus benefícios completos (recuperar Mana, remover Estresse, resetar Rerolagem) se for feito na água ou parcialmente submerso — fora d'água, um descanso longo funciona como um descanso curto. Descanso curto funciona normalmente em qualquer lugar.
+- **Respiração Aquática** — nada e respira debaixo d'água livremente, sem nenhuma penalidade (ver [Água](../mestre/exploracao.md#agua)). Em compensação, um descanso longo só concede seus benefícios se for feito na água ou parcialmente submerso — fora d'água, um descanso longo conta como **descanso curto** pra todos os efeitos (Mana, Dados de Vida, Estresse, Exaustão, usos "1x por descanso longo"). Descanso curto funciona normalmente em qualquer lugar.
 
 ## Tubarão
 
@@ -264,7 +264,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 **Traços Raciais:**
 
 - **Casco Protetor** — conta como +2 de Couraça Natural na fórmula de [Defesa](../jogador/sistema-d20.md#defesa).
-- **Recolher no Casco** *(usada como Reação)* — 1x por cena, quando for alvo de um ataque, pode se recolher no casco pra anular completamente o dano daquele ataque.
+- **Recolher no Casco** *(usada como Reação)* — 1x por cena, quando for alvo de um ataque, pode se recolher no casco pra anular completamente aquele ataque — dano **e** efeitos.
 
 ## Polvo
 
@@ -323,8 +323,8 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 - **Atributo:** Agilidade | **Alvos:** 1 criatura, com possibilidade de encadear
 - **Dano:** usa o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele; a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Atordoadas também
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele; a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Atordoadas também, e empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento); a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Lentas também
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + a descarga salta pra até 2 outras criaturas adjacentes (mesmo dano, todas Lentas); o **alvo original** fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano desarmado máximo + dano desarmado extra, e sobe 1 Intensidade
 
 ## Caranguejo
@@ -350,4 +350,4 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 **Traços Raciais:**
 
 - **Salto Potente** — o Movimento pode ser usado em saltos verticais e horizontais, ignorando a restrição normal de terreno.
-- **Língua Presa** — custa 3 Mana | ◈ (1 PA); puxa uma criatura a até 3 casas de distância pra 1 casa adjacente ao usuário.
+- **Língua Presa** — custa 3 Mana | ◈ (1 PA); rola d20 + Força contra a Defesa física do alvo — acertando, puxa uma criatura a até 3 casas de distância pra 1 casa adjacente ao usuário.

@@ -9,9 +9,10 @@ Duas escalas, e é delas que dependem as dezenas de habilidades que dizem "1x po
 | | Dura | Recupera |
 |---|---|---|
 | **Descanso curto** | cerca de **1 hora** — respirar, enfaixar, comer algo | metade do [Mana](../jogador/mana.md) máximo, e permite gastar até **metade do nível** em [Dados de Vida](../jogador/sistema-d20.md#dados-de-vida) |
-| **Descanso longo** | uma **noite de sono** (~8 horas) em lugar minimamente seguro | todo o Mana; permite gastar **todos** os Dados de Vida restantes e devolve **metade do nível** ao pool; remove 1d6 de [Estresse](../jogador/sistema-d20.md#estresse) e 1 grau de [Exausto](../glossario.md#exausto); reseta habilidades "1x por descanso longo" |
+| **Descanso longo** | uma **noite de sono** (~8 horas) em lugar minimamente seguro | todo o Mana; permite gastar **todos** os Dados de Vida restantes e devolve **metade do nível** ao pool; remove 1d6 de [Estresse](../jogador/sistema-d20.md#estresse) e 1 grau de [Exausto](../glossario.md#exausto) (este só se a causa foi resolvida — ver [Exaustão](#exaustao)); reseta habilidades "1x por descanso longo" |
 
-**Descanso longo precisa de segurança mínima.** Dormir de armadura no chão de uma masmorra com criaturas rondando não conta — o grupo consegue no máximo um descanso curto. Isso não é punição: é a regra que faz "voltar pra cidade" ser uma decisão de verdade.
+!!! regra "Descanso longo precisa de segurança mínima"
+    Dormir de armadura no chão de uma masmorra com criaturas rondando não conta — o grupo consegue no máximo um descanso curto. Isso não é punição: é a regra que faz "voltar pra cidade" ser uma decisão de verdade.
 
 ### A Vida volta, mas custa recurso
 
@@ -31,7 +32,8 @@ Distância se mede em **trechos**. Um trecho é **meio dia de marcha** — a mes
 
 O Mestre diz as distâncias em trechos: *"a torre fica a cinco trechos, ou três se cortarem pelo pântano"*. Isso já é ferramenta de decisão — o atalho é mais curto e pior.
 
-**Terreno pesado dobra a conta.** Em [Terreno Difícil](../glossario.md#terreno-dificil) — pântano, montanha, neve funda, mata fechada — cada trecho conta como **dois**. É a mesma lógica do combate, na escala da estrada.
+!!! regra "Terreno pesado dobra a conta"
+    Em [Terreno Difícil](../glossario.md#terreno-dificil) — pântano, montanha, neve funda, mata fechada — cada trecho conta como **dois**. É a mesma lógica do combate, na escala da estrada.
 
 **Montaria** troca cansaço por dinheiro: um cavalo (200 p) permite ritmo Forçado sem ganhar Exausto, mas o animal precisa de descanso, água e não sobe montanha.
 
@@ -42,7 +44,7 @@ Cada personagem pode assumir **uma** função por dia de viagem. Isso dá papel 
 | Função | Teste | Se passar |
 |---|---|---|
 | **Guiar** | Sabedoria vs DC do terreno | o grupo não se perde nem gasta trecho extra |
-| **Vigiar** | Sabedoria | Vantagem contra emboscada; sem ninguém vigiando, o grupo é surpreendido |
+| **Vigiar** | Sabedoria (DC 12) | passando, o grupo **não** fica [Desprevenido](../glossario.md#desprevenido) numa emboscada; sem ninguém vigiando (ou falhando), o grupo começa o combate Desprevenido |
 | **Forragear** | Sabedoria vs DC 12 | comida e água pra todos naquele dia |
 | **Rastrear** | Sabedoria vs DC do rastro | descobre o que passou por ali, quando e quantos |
 
@@ -79,6 +81,14 @@ Duas origens do jogo já concedem resistência a isso ([Deserto](../jogador/orig
 
 **Proteção adequada** é o que a ficção pedir: roupa apropriada, abrigo, fogo, uma habilidade de elemento oposto. Quem tem a origem **Deserto** ignora calor extremo (e gasta metade da água e comida); quem tem **Tundra** ignora frio extremo.
 
+## Água
+
+A regra que vários traços de Raça e Origem modificam (Marinheiro, Costa, Pântano, Ilha, Sereia, Golfinho, Respiração Aquática):
+
+- **Nadar:** água funda é [Terreno Difícil](../glossario.md#terreno-dificil) — cada casa custa o dobro de Movimento. Traços de "sem penalidade em água" ignoram esse pedágio; bônus como "+4 de Movimento na água" somam por cima.
+- **Fôlego:** debaixo d'água, um personagem aguenta **1 + Vitalidade** rodadas (mínimo 1) antes de começar a se afogar. Afogando, sofre **1 grau de [Exausto](../glossario.md#exausto) por rodada** até respirar — quem chega ao grau 3 desmaia e passa a rolar como [Caído](../jogador/sistema-d20.md#chegando-a-0-de-vida). Quem respira na água ignora tudo isso.
+- **Combate na água:** sem um traço aquático, ataques corpo a corpo rolam com Desvantagem e armas de Pontaria não funcionam submersas.
+
 ## Luz e escuridão
 
 A origem **Subterrâneo** concede "sem Desvantagem por escuridão parcial" e o traço élfico **Visão no Escuro** promete enxergar no escuro total — as duas dependem desta regra, que faltava.
@@ -95,9 +105,10 @@ Uma tocha ilumina o suficiente pra anular a escuridão parcial ao redor de quem 
 
 ## Detectar e desarmar
 
-Armadilhas e passagens escondidas usam a [tabela de DC](testes.md#a-tabela) contra **Sabedoria** pra notar, e o atributo que a armadilha pedir pra desarmar (normalmente Agilidade). Duas habilidades do jogo já cobrem isso melhor que qualquer teste: [Sentidos Apurados](../habilidades/infiltracao.md) e [Arrombamento](../habilidades/infiltracao.md).
+Armadilhas e passagens escondidas usam a [tabela de DC](testes.md#a-tabela) contra **Sabedoria** pra notar, e o atributo que a armadilha pedir pra desarmar (normalmente Agilidade). Duas habilidades do jogo já cobrem isso melhor que qualquer teste: [Instinto Ladino](../habilidades/infiltracao.md) e [Arrombamento](../habilidades/infiltracao.md).
 
-**Não peça teste pra achar o que está à vista.** A porta com marcas de garra no chão, o corredor com o piso afundado — descreva e deixe o grupo decidir. Teste é pra o que foi **escondido de propósito**, e vale a regra geral: [se não pode dar errado, não role](testes.md#quando-nao-pedir-teste).
+!!! mestre "Não peça teste pra achar o que está à vista"
+    A porta com marcas de garra no chão, o corredor com o piso afundado — descreva e deixe o grupo decidir. Teste é pra o que foi **escondido de propósito**, e vale a regra geral: [se não pode dar errado, não role](testes.md#quando-nao-pedir-teste).
 
 ## Tempo dentro da masmorra
 

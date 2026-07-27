@@ -60,11 +60,12 @@ Personagens ficam [Caídos](../jogador/sistema-d20.md#chegando-a-0-de-vida) e ro
 
 É o que impede a mesa de travar — oito goblins derrotados seriam oito contagens paralelas pra você administrar. E preserva o peso da regra: rolar contra a morte é privilégio de quem tem nome.
 
-**Exceção que vale usar:** um chefe ou NPC importante pode ficar Caído como um personagem, se você quiser a chance de capturá-lo vivo, ou o drama de vê-lo se arrastar. Aí é escolha sua, anunciada na hora — não regra.
+!!! mestre "Exceção que vale usar"
+    Um chefe ou NPC importante pode ficar Caído como um personagem, se você quiser a chance de capturá-lo vivo, ou o drama de vê-lo se arrastar. Aí é escolha sua, anunciada na hora — não regra.
 
 ### Vida é valor fixo
 
-Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra personagens de **nível 1 a 4** — grupos mais fortes usam a [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nivel). A Vida foi calibrada contra o dano real que um grupo entrega: um **Comum cai num único golpe**, um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
+Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra personagens de **nível 1 a 4** — grupos mais fortes usam a [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nivel). A Vida foi calibrada contra o dano real que um grupo entrega: um **Comum cai em um ou dois golpes**, um **Treinado** aguenta 2-3, um **Formidável** absorve mais ou menos uma rodada inteira de um grupo de 4, e um **Lendário** dura 3-5 rodadas.
 
 ### Pontos de Ação por Tier
 
@@ -119,7 +120,8 @@ Para grupos acima do nível 4, troque a linha de Vida pela [Vida por faixa de n�
 
 No **Ataque**, use o topo da faixa quando a criatura for precisa ou treinada, e o piso quando for desajeitada ou lenta. Nas criaturas deste livro: [Lobo](#lobo) +2 (caçador), [Goblin](#goblin) +1 (desajeitado), [Bandido](#bandido) +2 (competente, não excepcional).
 
-**Os valores são ponto de partida, não algema.** Desviar é o que dá personalidade — e desviar *pra baixo* também é desviar: o [Slime](#slime) tem Ataque +0 e Defesa física 4, abaixo de qualquer faixa, porque é lento e não desvia de nada. Ele compensa em outro lugar (imunidades e a *Divisão*). Se você tirar de um canto, devolva em outro.
+!!! mestre "Os valores são ponto de partida, não algema"
+    Desviar é o que dá personalidade — e desviar *pra baixo* também é desviar: o [Slime](#slime) tem Ataque +0 e Defesa física 4, abaixo de qualquer faixa, porque é lento e não desvia de nada. Ele compensa em outro lugar (imunidades e a *Divisão*). Se você tirar de um canto, devolva em outro.
 
 ### Os cinco passos
 
@@ -159,7 +161,8 @@ Traço é o que transforma estatística em criatura. Pensando no que você quer 
 - **Traço que muda a solução** — faz a ferramenta importar mais que o dano. A [Vulnerabilidade](../glossario.md#vulnerabilidade) a Impacto do Esqueleto, a *Divisão* do Slime, uma imunidade a fogo. Estes recompensam preparação e conhecimento.
 - **Traço que muda o tempo** — faz a luta não acabar quando parecia. *Remontar* do Esqueleto, cura, invocação de reforços, uma segunda forma. Estes criam clímax, e são os mais fortes: use no máximo um por criatura.
 
-**Combine no máximo dois.** Uma criatura com quatro traços não é interessante, é uma ficha que o Mestre esquece de aplicar no meio do combate.
+!!! cuidado "Combine no máximo dois"
+    Uma criatura com quatro traços não é interessante, é uma ficha que o Mestre esquece de aplicar no meio do combate.
 
 ### Exemplo: do conceito à ficha
 
@@ -250,7 +253,7 @@ Repare no que veio de onde: **Vida, PA, Ataque e dano saíram direto da tabela**
 
 **Recuar e Atirar** — ◈◈ | +2 vs Defesa física | 1 criatura a até 8 casas
 
-- Afasta-se até 3 casas e dispara uma besta de mão: **1d6** de dano ([Perfurante](../glossario.md#perfurante)). Afastar-se assim não provoca reação.
+- Afasta-se até 3 casas e dispara uma besta de mão: **1d6** de dano ([Perfurante](../glossario.md#perfurante)).
 
 ## Esqueleto
 
@@ -311,13 +314,13 @@ Primeiro chefe do Bestiário: usa **Mana e [Intensidade](../habilidades/index.md
 
 - **2d6** de dano ([Cortante](../glossario.md#cortante)). É o ataque de rotina: não gasta Mana.
 
-**Baforada** — +3 vs Defesa física | cone à frente, tamanho conforme a Intensidade
+**Baforada** — +3 vs Defesa física | cone de 3 casas à frente
 
-Assinatura do elemento [Fogo](../habilidades/magicas-elementais.md#fogo): quem é atingido pega fogo e continua queimando. O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alvo dentro do cone.
+Assinatura do elemento [Fogo](../habilidades/magicas-elementais.md#fogo): quem é atingido pega fogo e continua queimando. O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alvo dentro do cone. Como toda habilidade, [a área não muda com a Intensidade](../habilidades/index.md#intensidade) — o que cresce é o fogo.
 
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** cone de 3 casas, **2d6** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** cone de 3 casas, **2d6** de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** cone de 5 casas, **3d6** de dano + [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** **2d6** de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano + [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes
 
 **Voo Rasante** — ◈◈ | 2 Mana | +3 vs Defesa física | linha de 6 casas
 

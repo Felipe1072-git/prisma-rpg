@@ -26,7 +26,7 @@ Role 1d20 pra sortear um pacote dessa vertente, ou escolha livremente (não é o
 | 13 | [Cavaleiro Errante](#cavaleiro-errante) | espada longa e montaria; investidas montadas e bônus de moral em combate aberto |
 | 14 | [Retalhador](#retalhador) | duas espadas médias/grandes; agilidade extrema com golpes cortantes em área |
 | 15 | [Guarda-costas](#guarda-costas) | armas de haste ou escudos médios; intercepta ataques direcionados a aliados frágeis |
-| 16 | [Centurião](#centuriao) | escudo de corpo e lança curta; táticas de formação defensiva e bônus de bando |
+| 16 | [Centurião](#centuriao) | escudo de corpo e tridente; táticas de formação defensiva e bônus de bando |
 | 17 | [Ceifador](#ceifador) | foice longa; arcos de ataque amplos que atingem múltiplos alvos |
 | 18 | [Guerreiro Rúnico](#guerreiro-runico) | lâminas gravadas com runas; ativa símbolos pra efeitos físicos secundários |
 | 19 | [Bárbaro Flagelo](#barbaro-flagelo) | chicotes de corrente e manguais; desarma inimigos e causa sangramento à distância |
@@ -616,16 +616,16 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Táticas de formação defensiva e bônus de bando.*
 
-- **Arma inicial:** [Lança](../jogador/arsenal.md#lanca) + [Escudo](../jogador/arsenal.md#escudos) Leve
+- **Arma inicial:** [Tridente](../jogador/arsenal.md#tridente) + [Escudo](../jogador/arsenal.md#escudos) Leve
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Lança - Básica |
+| 1 | Tridente - Básica |
 | 3 | Bloqueio *(Requisito: Escudo)* |
-| 5 | Lança - Avançada |
+| 5 | Tridente - Avançada |
 | 7 | Aura de Defesa |
-| 9 | Lança - Especial |
+| 9 | Tridente - Especial |
 | 11 | Disciplina Marcial |
 | 13 | Postura Inabalável |
 | 15 | Aura de Ataque |
@@ -936,7 +936,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Hipnose, pacificação e buffs de atributo.*
 
-- **Arma inicial:** [Violino](../jogador/arsenal.md#violino)
+- **Arma inicial:** [Violino](../jogador/arsenal.md#violino) *(requer Vontade +4 — só é equipável no nível 1 com um bônus racial de Vontade; senão, comece com [Báculo](../jogador/arsenal.md#baculo) e troque depois)*
 - **Atributo em foco:** Vontade
 
 | Nível | Habilidade |
@@ -1726,7 +1726,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Mecânicas focadas em cumprir um juramento feito no início da sessão.*
 
-- **Arma inicial:** [Espada](../jogador/arsenal.md#espada) + [Escudo](../jogador/arsenal.md#escudos) Torre
+- **Arma inicial:** [Espada](../jogador/arsenal.md#espada) + [Escudo](../jogador/arsenal.md#escudos) Pesado
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1830,7 +1830,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Ilumina, cega inimigos e regenera aliados.*
 
-- **Arma inicial:** [Lâmpada](../jogador/arsenal.md#lampada)
+- **Arma inicial:** [Lâmpada](../jogador/arsenal.md#lampada) *(requer Inteligência +5 — só é equipável no nível 1 com um bônus racial de Inteligência; senão, comece com [Cetro](../jogador/arsenal.md#cetro) e troque depois)*
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1994,7 +1994,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Canções de guerra que aumentam dano físico e velocidade.*
 
-- **Arma inicial:** [Violino](../jogador/arsenal.md#violino)
+- **Arma inicial:** [Violino](../jogador/arsenal.md#violino) *(requer Vontade +4 — só é equipável no nível 1 com um bônus racial de Vontade; senão, comece com [Báculo](../jogador/arsenal.md#baculo) e troque depois)*
 - **Atributo em foco:** Vontade
 
 | Nível | Habilidade |
@@ -2096,7 +2096,7 @@ Os pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª 
 
 *Absorve impactos e cria uma parede intransponível.*
 
-- **Arma inicial:** [Espada](../jogador/arsenal.md#espada) + [Escudo](../jogador/arsenal.md#escudos) Torre
+- **Arma inicial:** [Espada](../jogador/arsenal.md#espada) + [Escudo](../jogador/arsenal.md#escudos) Pesado
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |

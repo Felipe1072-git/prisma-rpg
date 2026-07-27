@@ -8,9 +8,11 @@ O que o grupo leva de uma sessão: nível, dinheiro, item e as coisas que não t
 
 O que se ganha em cada nível está na [tabela de progressão](../jogador/sistema-d20.md#progressao-de-nivel): **nível ímpar dá uma Habilidade nova, nível par dá +1 ponto de Atributo**, e Vida e Mana crescem em todos.
 
-**O que isso significa de ritmo.** Uma campanha do nível 1 ao 20 dura **20 sessões** — jogando semanalmente, uns cinco meses. É ritmo de campanha curta e densa: o grupo ganha uma habilidade nova a cada duas sessões e sente progresso toda vez que senta à mesa. Se você quiser uma crônica mais longa, o ajuste é direto: **1 nível a cada 2 sessões** dobra a campanha para 40, e a cada 3 leva a 60. A regra é a mesma, só muda o divisor.
+!!! mestre "O que isso significa de ritmo"
+    Uma campanha do nível 1 ao 20 dura **20 sessões** — jogando semanalmente, uns cinco meses. É ritmo de campanha curta e densa: o grupo ganha uma habilidade nova a cada duas sessões e sente progresso toda vez que senta à mesa. Se você quiser uma crônica mais longa, o ajuste é direto: **1 nível a cada 2 sessões** dobra a campanha para 40, e a cada 3 leva a 60. A regra é a mesma, só muda o divisor.
 
-**Quem faltou.** O nível é da sessão, não da presença — se um jogador não pôde vir, ele sobe junto. O contrário cria uma bola de neve onde quem falta uma vez nunca mais alcança o grupo, e isso pune a vida real, não o personagem.
+!!! regra "Quem faltou"
+    O nível é da sessão, não da presença — se um jogador não pôde vir, ele sobe junto. O contrário cria uma bola de neve onde quem falta uma vez nunca mais alcança o grupo, e isso pune a vida real, não o personagem.
 
 ## Dinheiro
 
@@ -51,7 +53,8 @@ Some o que cada criatura carrega. Um bicho selvagem não carrega dinheiro — s�
 | **Formidável** | 2d20 prata | e **1 item** de raridade Comum, se fizer sentido pro conceito |
 | **Lendário** | 3d100 prata | e **1 item Raro ou Lendário** — é o tesouro do arco, não da sessão |
 
-**Na prática:** um encontro Padrão (8 pontos) rende de 3 a 60 prata, dependendo de você usar oito goblins ou um Formidável. Depois de cinco ou seis encontros o grupo consegue bancar armadura média ou trocar de arma — que é o ritmo certo, porque equipamento aqui é conforto, não requisito.
+!!! exemplo "Na prática"
+    Um encontro Padrão (8 pontos) rende de 3 a 40 prata, dependendo de você usar oito goblins ou um Formidável (2d20 prata). Depois de cinco ou seis encontros o grupo consegue bancar armadura média ou trocar de arma — que é o ritmo certo, porque equipamento aqui é conforto, não requisito.
 
 ## Itens
 

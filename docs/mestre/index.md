@@ -12,7 +12,7 @@ Ferramentas pra conduzir a mesa: criaturas, dificuldades, e como montar um comba
 
 ## O que muda pro Mestre neste sistema
 
-Três coisas fogem do que se espera de um d20 tradicional, e vale saber antes da primeira sessão:
+Quatro coisas fogem do que se espera de um d20 tradicional, e vale saber antes da primeira sessão:
 
 **A rolagem não decide a força do golpe.** O d20 só responde se acertou; o quanto o ataque faz foi decidido pelo jogador quando ele escolheu a Intensidade. Na prática, o Mestre nunca consulta tabela de resultado — pergunta "qual Intensidade?" e compara o total com a Defesa.
 

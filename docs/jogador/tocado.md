@@ -12,7 +12,8 @@ Um personagem **Tocado** entrou em contato com uma força maior que ele — desc
 - **Cada Tocado dá duas coisas:** um **traço passivo** sempre ativo, e **uma Habilidade** do tema, de graça, sem gastar escolha de nível.
 - **Não substitui nada.** O personagem mantém Raça, Origem e as 10 escolhas de Habilidade. Ser Tocado é um quarto eixo, somado aos três.
 
-**Aviso ao Mestre:** conceder um Tocado é decisão de campanha, não de sessão. Ele muda o personagem para sempre e reescreve como o mundo reage a ele. Use quando um arco fechar de um jeito que exija consequência — e ofereça, não imponha: alguns jogadores não vão querer que o personagem deixe de ser humano.
+!!! mestre "Aviso ao Mestre"
+    Conceder um Tocado é decisão de campanha, não de sessão. Ele muda o personagem para sempre e reescreve como o mundo reage a ele. Use quando um arco fechar de um jeito que exija consequência — e ofereça, não imponha: alguns jogadores não vão querer que o personagem deixe de ser humano.
 
 ---
 
@@ -22,7 +23,7 @@ Um personagem **Tocado** entrou em contato com uma força maior que ele — desc
 
 **Marca:** veias escuras que pulsam sob a pele quando ele se exalta, e olhos que não devolvem reflexo — nem de espelho, nem de água, nem de fogo.
 
-**Traço passivo — Olhos do Vazio:** enxerga normalmente na [escuridão total](../mestre/exploracao.md#luz-e-escuridao). Além disso, enquanto estiver em escuridão parcial ou total, ataques contra ele rolam com **Desvantagem** — o contorno dele não fica quieto o suficiente pra ser acertado.
+**Traço passivo — Olhos do Vazio:** enxerga normalmente na [escuridão total](../mestre/exploracao.md#luz-e-escuridao). Além disso, enquanto estiver em escuridão parcial ou total, ataques contra ele rolam com **Desvantagem** — o contorno dele não fica quieto o suficiente pra ser acertado. Vale **mesmo contra quem tem Visão no Escuro**: o problema é o corpo dele, não a luz.
 
 **Habilidade concedida:** uma habilidade de [Sombras](../habilidades/magicas-elementais.md#sombras) à escolha, de graça.
 
@@ -32,7 +33,7 @@ Um personagem **Tocado** entrou em contato com uma força maior que ele — desc
 
 **Marca:** placas de casca de árvore em partes do corpo, e cabelo entremeado de folhas e musgo que rebrota se cortado.
 
-**Traço passivo — Passo de Raiz:** [Terreno Difícil](../glossario.md#terreno-dificil) de origem natural (mato fechado, raízes, lama, neve) não afeta o Movimento dele. Animais e feras não-corrompidas não o atacam sem serem provocadas primeiro.
+**Traço passivo — Passo de Raiz:** [Terreno Difícil](../glossario.md#terreno-dificil) de origem natural (mato fechado, raízes, lama, neve) não afeta o Movimento dele. Animais e feras não o atacam sem serem provocadas primeiro (criaturas corrompidas, aberrações e mortos-vivos — o que o Mestre declarar como não-natural — não contam como feras).
 
 **Habilidade concedida:** uma habilidade de [Terra](../habilidades/magicas-elementais.md#terra) à escolha, de graça.
 
@@ -42,7 +43,7 @@ Um personagem **Tocado** entrou em contato com uma força maior que ele — desc
 
 **Marca:** uma cicatriz ramificada que sobe pelo corpo como um relâmpago congelado, cabelo permanentemente erguido, e estalos audíveis quando ele se move rápido.
 
-**Traço passivo — Condutor:** **Imune** a dano de raio e elétrico. Enquanto estiver molhado ou sob chuva, suas habilidades de [Raio](../habilidades/magicas-elementais.md#raio) causam **+1d4** de dano.
+**Traço passivo — Condutor:** **Imune** a dano de [Raio](../habilidades/magicas-elementais.md#raio). Enquanto estiver molhado ou sob chuva, suas habilidades de Raio causam **+1d4** de dano.
 
 **Habilidade concedida:** uma habilidade de [Raio](../habilidades/magicas-elementais.md#raio) à escolha, de graça.
 
@@ -52,7 +53,7 @@ Um personagem **Tocado** entrou em contato com uma força maior que ele — desc
 
 **Marca:** pele translúcida e azulada nas extremidades, fendas branquiais no pescoço, e olhos grandes demais que não têm pálpebra.
 
-**Traço passivo — Pulmão de Pedra:** respira debaixo d'água indefinidamente, não sofre penalidade de escuridão enquanto submerso, e tem [Resistência](../jogador/sistema-d20.md#resistencia-imunidade-e-vulnerabilidade) a frio.
+**Traço passivo — Pulmão de Pedra:** respira debaixo d'água indefinidamente, não sofre penalidade de escuridão enquanto submerso, tem [Resistência](../jogador/sistema-d20.md#resistencia-imunidade-e-vulnerabilidade) a dano de [Gelo](../habilidades/magicas-elementais.md#gelo), e ignora os efeitos de [frio extremo](../mestre/exploracao.md#clima-extremo).
 
 **Habilidade concedida:** uma habilidade de [Água](../habilidades/magicas-elementais.md#agua) à escolha, de graça.
 
@@ -87,3 +88,4 @@ O molde é curto, e a parte difícil é a primeira linha:
 3. **Um traço passivo**, sempre ativo, que resolva um problema que o resto do sistema não resolve — ver no escuro, respirar na água, ignorar terreno. Passivo de dano (+1 no golpe) é desperdício de um Tocado.
 4. **Um tema de Habilidade** que ele passa a acessar de graça. Use os elementos que já existem em [Mágicas por Elemento](../habilidades/magicas-elementais.md); criar tema novo é projeto à parte.
 5. **O que isso custa socialmente.** Esta é a parte que faz Tocado valer: o mundo trata diferente quem tem a marca. Um Tocado pelas Sombras não é bem-vindo em templo; um Tocado pela Natureza é procurado por druidas e caçado por quem derruba floresta. Se a marca não muda nenhuma cena fora de combate, ela ainda não está pronta.
+6. **Confira a raça de quem vai receber.** Se o traço passivo repete algo que a raça do personagem já tem (ver no escuro num Elfo, respirar na água numa raça aquática), troque a parte redundante por outro benefício do mesmo tema — um Tocado nunca deve chegar pela metade.

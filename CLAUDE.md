@@ -119,7 +119,7 @@ Sistema RPG/
 [felipe1072-git.github.io/prisma-rpg](https://felipe1072-git.github.io/prisma-rpg/), sob CC BY 4.0,
 com deploy automático a cada push (workflow em `.github/workflows/deploy.yml`).
 
-O que existe: 574 habilidades nos 9 grupos, 62 armas com 3 habilidades cada, 25 raças, 100 pacotes,
+O que existe: 573 habilidades nos 10 grupos, 62 armas com 3 habilidades cada, 25 raças, 100 pacotes,
 11 elementos com assinatura mecânica própria, sistema Tocado, e Livro do Mestre em 5 partes
 (Bestiário, Encontros, Testes, Recompensas, Exploração).
 

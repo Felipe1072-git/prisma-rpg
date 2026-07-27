@@ -6,6 +6,9 @@ Origem representa o passado do personagem antes de virar aventureiro — três e
 - **Ambiente de Origem** — a paisagem/cultura onde cresceu (independente da Raça biológica).
 - **Evento Formador** — o momento que definiu o personagem.
 
+!!! regra "Traços idênticos não acumulam"
+    Algumas tabelas repetem o mesmo traço com nomes diferentes (Soldado ≡ Cresceu em Guerra, Curandeiro de Vila ≡ Salvou uma Vida...). Traços de texto idêntico **não acumulam** — se sortear (ou escolher) um efeito que o personagem já tem por outra fonte, escolha outra linha da tabela.
+
 *(Ambiente de Origem fica propositalmente abstrato — paisagem e cultura genéricas, não uma nação ou cidade nomeada. O mundo ainda não tem geografia definida; isso pode ser "aterrissado" num lugar de verdade depois, sem quebrar nada retroativamente.)*
 
 ## Passado
@@ -16,11 +19,11 @@ Pode ser escolhido livremente, ou sorteado rolando 1d20 (não é obrigatório ro
 |---|---|---|
 | 1 | Nobre | Vantagem em testes sociais com autoridades, nobreza ou burocracia |
 | 2 | Soldado | Vantagem em testes de Iniciativa |
-| 3 | Criminoso | Vantagem em testes de Furtividade e Infiltração |
+| 3 | Criminoso | Vantagem em testes de Furtividade e de ladinagem (arrombar, esconder, disfarçar) |
 | 4 | Erudito | Vantagem pra identificar magias, criaturas ou lugares por conhecimento prévio |
 | 5 | Artesão | Repara ou fabrica itens simples fora de combate, sem ferramentas especiais |
-| 6 | Órfão de Rua | Nunca fica Desprevenido no primeiro turno de um combate |
-| 7 | Marinheiro | Sem penalidade de Movimento em terreno instável ou água |
+| 6 | Órfão de Rua | Nunca fica [Desprevenido](../glossario.md#desprevenido) |
+| 7 | Marinheiro | Ignora o [Terreno Difícil](../glossario.md#terreno-dificil) de água e de terreno instável (convés, cordame) |
 | 8 | Curandeiro de Vila | 1x por descanso longo, estabiliza um aliado a 0 de Vida como Reação, sem gastar Mana |
 | 9 | Mercador | Vantagem em testes de negociação ou barganha |
 | 10 | Servo | Vantagem pra passar despercebido em ambientes formais ou domésticos |
@@ -41,23 +44,23 @@ Pode ser escolhido livremente, ou sorteado rolando 1d20 (não é obrigatório ro
 
 | d20 | Ambiente | Traço |
 |---|---|---|
-| 1 | Montanhas | Sem penalidade de Movimento em terreno rochoso ou íngreme |
+| 1 | Montanhas | Ignora o [Terreno Difícil](../glossario.md#terreno-dificil) de terreno rochoso ou íngreme |
 | 2 | Floresta | Vantagem em Furtividade dentro de vegetação densa |
-| 3 | Deserto | Resistência a calor extremo; precisa de metade da água/comida pra sobreviver |
+| 3 | Deserto | Ignora os efeitos de [calor extremo](../mestre/exploracao.md#clima-extremo); precisa de metade da água/comida pra sobreviver |
 | 4 | Cidade Grande | Vantagem em testes sociais e de navegação urbana |
-| 5 | Costa | Sem penalidade de Movimento em água |
+| 5 | Costa | Ignora o [Terreno Difícil](../glossario.md#terreno-dificil) da água |
 | 6 | Estrada (Nômade) | Nunca fica perdido — sempre sabe a direção geral de onde veio |
 | 7 | Subterrâneo | Sem Desvantagem por escuridão parcial |
-| 8 | Pântano | Sem penalidade de Movimento em lama ou água rasa |
+| 8 | Pântano | Ignora o [Terreno Difícil](../glossario.md#terreno-dificil) de lama e água rasa |
 | 9 | Ilha | Vantagem em testes de natação e pequenas embarcações |
-| 10 | Tundra | Resistência a frio extremo |
+| 10 | Tundra | Ignora os efeitos de [frio extremo](../mestre/exploracao.md#clima-extremo) |
 | 11 | Planície | Vantagem em testes de percepção a longa distância |
 | 12 | Vila Pequena | Vantagem em testes sociais quando todos se conhecem |
 | 13 | Ruínas Antigas | Vantagem pra identificar armadilhas ou mecanismos antigos |
 | 14 | Corte Real | Vantagem em testes de etiqueta e protocolo formal |
 | 15 | Rota de Caravana | Vantagem em negociação com estranhos |
 | 16 | Fronteira Selvagem | Vantagem em testes de percepção contra ameaças |
-| 17 | Floresta Amaldiçoada | Vantagem em testes contra efeitos de Medo |
+| 17 | Floresta Amaldiçoada | Efeitos de Medo (pânico, fuga, terror) contra ele rolam com Desvantagem |
 | 18 | Terras Vulcânicas | Resistência a dano de Fogo |
 | 19 | Minas de Cristal | Vantagem pra identificar pedras ou metais preciosos |
 | 20 | Monastério Isolado | Vantagem em testes de Estresse |
@@ -72,16 +75,16 @@ Pode ser escolhido livremente, ou sorteado rolando 1d20 (não é obrigatório ro
 | 2 | Treinado por um Mestre | Vantagem no primeiro teste de ataque de Habilidade de cada cena |
 | 3 | Fez um Pacto | +1 num atributo à escolha, mas -1 permanente em Vontade |
 | 4 | Perdeu Alguém | Vantagem em testes de Estresse ao proteger um aliado específico (escolhido na criação) |
-| 5 | Testemunhou algo Sobrenatural | Vantagem contra efeitos de Medo e ilusões |
+| 5 | Testemunhou algo Sobrenatural | Efeitos de Medo e ilusões contra ele rolam com Desvantagem |
 | 6 | Traído por um Aliado | Vantagem pra perceber mentiras ou intenções ocultas |
 | 7 | Salvou uma Vida | 1x por descanso longo, estabiliza um aliado a 0 de Vida como Reação, sem gastar Mana |
 | 8 | Cresceu em Guerra | Vantagem em testes de Iniciativa |
-| 9 | Quase Morreu | Reduz em 1 o primeiro dano fatal que sofreria numa cena, sobrevivendo com 1 de Vida |
+| 9 | Quase Morreu | 1x por cena, a primeira vez que cairia a 0 de Vida, fica com 1 em vez disso |
 | 10 | Foi Refém | Vantagem pra escapar de amarras ou prisões |
 | 11 | Encontrou algo Estranho | Vantagem pra identificar magia |
 | 12 | Foi Abandonado | Vantagem em testes de Estresse ligados a solidão ou rejeição |
 | 13 | Descobriu um Segredo Perigoso | Vantagem em percepção pra notar quando está sendo vigiado |
-| 14 | Fez um Juramento Inquebrável | Vantagem em testes de Vontade pra resistir controle mental |
+| 14 | Fez um Juramento Inquebrável | Efeitos de controle mental contra ele rolam com Desvantagem |
 | 15 | Sobreviveu Sozinho na Natureza | Vantagem em testes de sobrevivência |
 | 16 | Foi Escravizado | Vantagem em testes de Estresse contra intimidação ou coerção |
 | 17 | Domou uma Fera Selvagem | Animais selvagens hostis começam neutros com o personagem |

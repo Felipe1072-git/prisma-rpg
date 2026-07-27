@@ -25,13 +25,15 @@ Em números: **DC 10 vira quase automático com atributo +7** (por volta do nív
 
 Duas regras que economizam mais tempo de mesa que qualquer tabela:
 
-**Se não pode dar errado, não role.** Um ladrão experiente abrindo um cadeado comum, sem ninguém por perto e sem pressa, simplesmente abre. Pedir rolagem transforma competência em sorteio, e um 1 natural gera uma cena idiota — o especialista falhando no que ele é.
+!!! regra "Se não pode dar errado, não role"
+    Um ladrão experiente abrindo um cadeado comum, sem ninguém por perto e sem pressa, simplesmente abre. Pedir rolagem transforma competência em sorteio, e um 1 natural gera uma cena idiota — o especialista falhando no que ele é.
 
-**Se é impossível, também não role.** Pedir um teste é dizer "isso pode dar certo". Um jogador que rola acredita que existe caminho, e negar depois do dado é quebrar a promessa. Se a resposta é não, diga não antes — e ofereça o que *seria* possível.
+!!! regra "Se é impossível, também não role"
+    Pedir um teste é dizer "isso pode dar certo". Um jogador que rola acredita que existe caminho, e negar depois do dado é quebrar a promessa. Se a resposta é não, diga não antes — e ofereça o que *seria* possível.
 
 ## 1 natural e 20 natural
 
-**1 natural sempre falha**, qualquer que seja o total, e gera [Estresse](../jogador/sistema-d20.md#estresse) se o Mestre pedir.
+**1 natural sempre falha**, qualquer que seja o total, e marca **1 ponto de [Estresse](../jogador/sistema-d20.md#estresse)** automaticamente.
 
 **20 natural sempre passa** — mesmo contra uma DC que o personagem jamais alcançaria somando. E isso não tira nada do Mestre, porque a decisão vem antes: **se a tarefa fosse impossível, o teste não deveria ter sido permitido.** Autorizar a rolagem já é admitir que há chance. O 20 natural apenas garante que a chance existe de fato.
 
@@ -78,7 +80,8 @@ Esconder-se em grupo não segue nenhum dos três limpo: **o grupo é tão furtiv
 
 Use a tabela de DC só quando **não há criatura do outro lado** — convencer uma multidão sem líder definido, manter a compostura numa corte hostil, decifrar a intenção de uma carta.
 
-**O que o teste social não faz:** ele muda a **disposição** do alvo, não a vontade dele. Um guarda persuadido pode fazer vista grossa, aceitar suborno ou olhar pro outro lado — não vai trair quem ama nem abrir a cela do assassino do próprio irmão. Se o pedido contraria algo central pro personagem, a resposta é não antes do dado (a mesma regra de "se é impossível, não role").
+!!! cuidado "O que o teste social não faz"
+    Ele muda a **disposição** do alvo, não a vontade dele. Um guarda persuadido pode fazer vista grossa, aceitar suborno ou olhar pro outro lado — não vai trair quem ama nem abrir a cela do assassino do próprio irmão. Se o pedido contraria algo central pro personagem, a resposta é não antes do dado (a mesma regra de "se é impossível, não role").
 
 ## Vantagem, Desvantagem e rerrolagem
 

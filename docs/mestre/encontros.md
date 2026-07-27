@@ -22,7 +22,7 @@ Cada criatura vale pontos conforme o [Tier](bestiario.md#como-ler-uma-ficha-de-c
 | **Difícil** | 3 | 12 pontos | recursos gastos de verdade; alguém pode cair |
 | **Mortal** | 4+ | 16+ pontos | morte é resultado provável, não acidente |
 
-Com 8 pontos (Padrão pra 4 PJs) você pode montar: **8 Comuns**, ou **2 Treinados + 2 Comuns**, ou **1 Formidável**. Com 16 (Mortal): **2 Formidáveis**, ou **1 Formidável + 8 Comuns**, ou **5 Treinados**.
+Com 8 pontos (Padrão pra 4 PJs) você pode montar: **8 Comuns**, ou **2 Treinados + 2 Comuns**, ou **1 Formidável**. Com 16 (Mortal): **2 Formidáveis**, ou **1 Formidável + 8 Comuns**, ou **5 Treinados + 1 Comum**.
 
 ## Vida por faixa de nível
 
@@ -35,9 +35,10 @@ A Vida no [Bestiário](bestiario.md) é calibrada pra personagens de **nível 1 
 | **Formidável** | 60 | 110 | 160 | 220 |
 | **Lendário** | 180 | 320 | 460 | 600 |
 
-Esses números mantêm a **sensação** constante em toda a campanha: um Comum sempre cai em cerca de dois golpes, um Formidável sempre consome mais ou menos uma rodada do grupo inteiro, um Lendário sempre dura de três a quatro rodadas.
+Esses números mantêm a **sensação** constante em toda a campanha: um Comum sempre cai em um ou dois golpes, um Formidável sempre consome mais ou menos uma rodada do grupo inteiro, um Lendário sempre dura de três a cinco rodadas.
 
-**Use isso pra reaproveitar criaturas, não pra inflar as antigas.** Um goblin com 50 de Vida no nível 20 é estranho se for "o mesmo goblin da estrada" — mas faz todo sentido se for a guarda de elite do rei goblin. Em nível alto o normal é trocar de criatura; a tabela existe pra quando você quer que aquela criatura volte mais séria, e aí o nome muda junto com o número.
+!!! mestre "Use isso pra reaproveitar criaturas, não pra inflar as antigas"
+    Um goblin com 50 de Vida no nível 20 é estranho se for "o mesmo goblin da estrada" — mas faz todo sentido se for a guarda de elite do rei goblin. Em nível alto o normal é trocar de criatura; a tabela existe pra quando você quer que aquela criatura volte mais séria, e aí o nome muda junto com o número.
 
 ## Três coisas que a matemática deste sistema revela
 
@@ -45,11 +46,11 @@ Vale saber antes de montar a primeira sala, porque contraria o instinto de quem 
 
 ### Capanga não é parede de Vida, é ladrão de ação
 
-Um Comum morre em ~2 golpes em qualquer nível. Ele **não** existe pra absorver dano — existe pra ocupar espaço, forçar posicionamento e gastar o turno de alguém. Oito goblins contra um grupo de nível 1 causam 20 de dano por rodada, o suficiente pra derrubar metade do grupo em duas rodadas, e ainda assim são limpos em uma. É um encontro tenso e rápido — e é assim que capanga funciona aqui.
+Um Comum morre em um ou dois golpes em qualquer nível. Ele **não** existe pra absorver dano — existe pra ocupar espaço, forçar posicionamento e gastar o turno de alguém. Oito goblins contra um grupo de nível 1 causam 20 de dano por rodada, o suficiente pra derrubar metade do grupo em duas rodadas, e ainda assim são limpos em uma ou duas. É um encontro tenso e rápido — e é assim que capanga funciona aqui.
 
 ### A janela entre trivial e mortal é estreita
 
-Com capangas que caem num golpe, dobrar a quantidade não dobra a dificuldade: **multiplica**. Contra um grupo de nível 1, 4 goblins são um aquecimento (o grupo cai em 4 rodadas, limpa em menos de 1), 8 são um combate de verdade, e 12 são um empate mortal (o grupo cai em 1,3 rodadas e limpa em 1,3). O salto de 8 pra 12 é quase todo o caminho entre "divertido" e "TPK".
+Com capangas que caem em um ou dois golpes, dobrar a quantidade não dobra a dificuldade: **multiplica**. Contra um grupo de nível 1, 4 goblins são um aquecimento (o grupo cai em 4 rodadas, limpa em cerca de 1), 8 são um combate de verdade, e 12 são um empate mortal — o grupo cai em pouco mais de uma rodada e limpa em cerca de duas: corrida quase empatada, e quem perde a iniciativa perde gente. O salto de 8 pra 12 é quase todo o caminho entre "divertido" e "TPK".
 
 ### Mais de 8 criaturas travam a mesa
 
@@ -80,6 +81,8 @@ Montados com o orçamento acima, para um grupo de 4.
 - 2 [Bandidos](bestiario.md#bandido) (6) + 2 [Lobos](bestiario.md#lobo) (2). Os Lobos correm 5 casas e vão atrás de quem se afastou; os Bandidos usam Recuar e Atirar pra manter distância. Ensina posicionamento sem punir demais.
 
 **Cripta Rasa** — nível 3–5, Difícil (12 pontos)
+
+*(Nos exemplos, use a [Vida da faixa](#vida-por-faixa-de-nivel) em que o grupo realmente está — as fichas do Bestiário valem pro nível 1-4; na metade de cima da faixa anunciada, ajuste.)*
 
 - 4 [Esqueletos](bestiario.md#esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogador/sistema-d20.md#tipos-de-dano) na prática.
 

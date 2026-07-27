@@ -2,11 +2,11 @@
 
 > Um d20 de mesa sem classes, onde todas as habilidades do jogo estão disponíveis para qualquer personagem — e onde a força de um golpe é escolha do jogador, não resultado do dado.
 
-**Versão 0.2** — jogável de ponta a ponta: regras completas, 574 habilidades e um Livro do Mestre com bestiário, encontros e recompensas. Ainda não foi testado em mesa.
+**Versão 0.2** — jogável de ponta a ponta: regras completas, 573 habilidades e um Livro do Mestre com bestiário, encontros e recompensas. Ainda não foi testado em mesa.
 
 ## O que faz este sistema diferente
 
-**Sem classes.** Não existe "lista de magias do mago" nem "manobras do guerreiro". As 574 habilidades estão abertas a todo mundo desde o nível 1, e a sua build é a soma das dez escolhas que você faz ao longo da campanha.
+**Sem classes.** Não existe "lista de magias do mago" nem "manobras do guerreiro". As 573 habilidades estão abertas a todo mundo desde o nível 1, e a sua build é a soma das dez escolhas que você faz ao longo da campanha.
 
 **Magia e técnica têm a mesma ficha.** Um golpe de espada e uma bola de fogo custam [Mana](jogador/mana.md), gastam [Pontos de Ação](jogador/pontos-de-acao.md) e resolvem igual. Não há dois sistemas pra aprender.
 
@@ -22,7 +22,7 @@
 
 | | |
 |---|---|
-| **574** habilidades | marciais, mágicas por elemento, sociais, infiltração, mobilidade, buff, debuff, suporte |
+| **573** habilidades | marciais, mágicas por elemento, sociais, infiltração, mobilidade, buff, debuff, suporte |
 | **62** armas | cada uma com 3 habilidades próprias (186 no total), tipo de dano e preço |
 | **25** raças | todas com traço físico inconfundível — nenhuma é "humano com poderes" |
 | **100** pacotes | kits de arquétipo prontos, no espírito de Grand Chase: sugestão, nunca obrigação |
@@ -41,7 +41,7 @@
 
 **Conteúdo**
 
-- [Habilidades](habilidades/index.md) — os nove grupos
+- [Habilidades](habilidades/index.md) — os dez grupos
 - [Raças](racas/index.md) · [Pacotes](pacotes/index.md)
 
 **Livro do Mestre**

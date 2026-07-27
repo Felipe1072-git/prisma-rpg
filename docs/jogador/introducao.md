@@ -4,7 +4,7 @@ O Prisma RPG é um d20 de mesa sem classes. Você não escolhe ser guerreiro ou 
 
 ## As três coisas que você precisa saber antes de tudo
 
-**Não existem classes.** Todas as 574 habilidades do jogo estão disponíveis pra qualquer personagem, desde o nível 1. O que limita a sua build é o número de escolhas que você tem (uma habilidade a cada nível ímpar, dez ao longo da campanha), não uma lista fechada por arquétipo.
+**Não existem classes.** Todas as 573 habilidades do jogo estão disponíveis pra qualquer personagem, desde o nível 1. O que limita a sua build é o número de escolhas que você tem (uma habilidade a cada nível ímpar, dez ao longo da campanha), não uma lista fechada por arquétipo.
 
 **Magia e técnica são a mesma coisa.** Não há "sistema de magia" separado. Um golpe de espada e uma bola de fogo têm a mesma ficha, o mesmo custo em [Mana](mana.md) e a mesma forma de resolver. A diferença entre o guerreiro e o mago é qual atributo eles usam, não qual conjunto de regras.
 
@@ -51,10 +51,10 @@ Cinco passos, na ordem. Os detalhes de cada um estão em [O Sistema d20](sistema
 1. **Atributos** — oito deles (Força, Vitalidade, Agilidade, Inteligência, Sabedoria, Vontade, Sorte, Sanidade), distribuídos por array fixo, rolagem ou ponto-compra.
 2. **[Raça](../racas/index.md)** — 25 disponíveis, cada uma com um traço físico inconfundível e 1 a 3 traços mecânicos.
 3. **[Origem](origem.md)** — o que você viveu antes de virar aventureiro: três escolhas independentes, cada uma com um traço leve.
-4. **Primeira Habilidade** — qualquer uma das 574, inclusive a Básica de uma arma.
-5. **Equipamento** — a arma que você carrega (das 62 do [Arsenal](arsenal.md)), armadura, e 50 de prata.
+4. **Primeira Habilidade** — qualquer uma das 573, inclusive a Básica de uma arma.
+5. **Equipamento** — a arma que você carrega, grátis (das 62 do [Arsenal](arsenal.md), atendendo o requisito dela), e **50 de prata** pra armadura e equipamento.
 
-**Se for a sua primeira ficha**, comece por um dos [100 Pacotes](../pacotes/index.md): são kits prontos de arma + habilidades que montam um arquétipo (Espadachim, Necromante, Atirador de Elite). Não são classes e não travam nada — só poupam você de escolher entre 574 opções na primeira vez.
+**Se for a sua primeira ficha**, comece por um dos [100 Pacotes](../pacotes/index.md): são kits prontos de arma + habilidades que montam um arquétipo (Espadachim, Necromante, Atirador de Elite). Não são classes e não travam nada — só poupam você de escolher entre 573 opções na primeira vez.
 
 **Duas coisas que confundem no começo:**
 
