@@ -2,6 +2,40 @@
 
 Referência rápida dos termos usados na **Chave** de cada habilidade. Cada termo linka pra sua página de origem.
 
+## Termos de Resolução
+
+### Vantagem
+
+Role **2d20 e use o melhor**. Fontes múltiplas de Vantagem não acumulam — rola-se 2d20 uma vez só.
+
+### Desvantagem
+
+Role **2d20 e use o pior**. Também não acumula. Se uma mesma rolagem tiver Vantagem e Desvantagem ao mesmo tempo (de qualquer quantidade de fontes), **elas se cancelam** e rola-se 1d20 normal.
+
+### Turno
+
+A vez de **um** participante agir: seus 3 ◈, suas Reações pendentes, seus efeitos "no início/fim do turno".
+
+### Rodada
+
+Um ciclo completo da ordem de iniciativa — termina quando **todos** os participantes jogaram seu turno. Um efeito de "X rodadas" expira **no início do turno de quem o criou**, X rodadas depois da ativação.
+
+### Cena
+
+Uma unidade contínua de ação num mesmo lugar e tempo — uma luta, uma negociação, uma travessia. **Um combate é sempre uma cena própria**: efeitos e usos "por cena" resetam quando ele termina.
+
+### Empurrar e Puxar
+
+Deslocamentos forçados não são movimento do alvo (funcionam contra [Imóvel](#imovel)). O deslocamento **para ao encontrar um obstáculo** — parede, criatura, borda — e as casas não percorridas são perdidas, sem dano de colisão. Ser empurrado ou puxado pra dentro de uma zona de dano conta como **entrar** nela.
+
+### Perde a próxima Reação
+
+A próxima Reação que o alvo tentaria usar é negada — **inclusive Reações dedicadas** (0 PA). Vale até o fim da **próxima rodada**; se ele não tentar reagir nesse prazo, o efeito expira sem uso.
+
+### Acúmulo de bônus
+
+**Bônus numéricos planos de buffs diferentes não somam — vale o maior.** Um personagem sob Aura de Ataque (+3) e Bênção Divina (+2) usa +3, não +5 (uma habilidade que declara empilhar **consigo mesma**, como a Bênção Divina, é exceção explícita e só empilha com ela própria). Bônus de fontes de natureza diferente (buff + item + traço racial) somam normalmente. **Resistências ao mesmo tipo de dano também não acumulam** — duas Resistências a Fogo valem uma.
+
 ## Condições
 
 Efeitos que uma habilidade impõe ao alvo. Salvo quando a habilidade disser outra coisa, duram **até o fim do próximo turno do alvo**.
@@ -10,31 +44,47 @@ Efeitos que uma habilidade impõe ao alvo. Salvo quando a habilidade disser outr
 
 Perde **1d4 de Vida** no início do próximo turno dele. Efeito de uma vez só — ferida que fecha.
 
+- **Não acumula.** Reaplicado antes de disparar, vale só o **dado maior** (um "Sangrando 2d4" substitui o 1d4 — mesma lógica de Queimando). Depois de disparar, o alvo pode voltar a Sangrar normalmente.
+
 ### Queimando
 
 Perde **1d4 de Vida imediatamente ao pegar fogo**, e mais **1d4 no início de cada turno dele**. Assinatura do elemento [Fogo](habilidades/magicas-elementais.md#fogo) — diferente de Sangrando justamente por não ter prazo.
 
 - **Não acumula.** Pegar fogo de novo não soma um segundo dado: vale o valor maior entre os dois (mesma lógica do [Escudo](#escudo)). Uma habilidade que diz "Queimando causando 2d4 por turno" simplesmente substitui o 1d4 enquanto durar.
-- **Não para sozinho durante o combate.** Termina de três formas: o alvo gasta uma **Ação Básica** pra se apagar, um aliado **adjacente** gasta a dele, ou o alvo entra em contato com água em quantidade (o Mestre decide o que conta).
+- **Não para sozinho durante o combate.** Termina de três formas: o alvo gasta uma **Ação Básica** pra se apagar, um aliado **adjacente** gasta a dele, ou o alvo entra em contato com água em quantidade (o Mestre decide o que conta). **Sofrer dano de Gelo ou Água também apaga o fogo.**
+- **Espalhamento:** quando uma habilidade diz que o fogo "se espalha" pra uma criatura adjacente, **o usuário escolhe qual** (pode ser um aliado — fogo não distingue). Quem pegou fogo por espalhamento **não espalha de novo**: não há cadeia.
 - **Apaga no fim do combate.** Encerrada a cena de combate, o fogo se apaga sozinho — ninguém sai queimando pela estrada.
 
 ### Lento
 
-Movimento reduzido à **metade**.
+Movimento reduzido à **metade**. Afeta só o **Movimento** (a ação de ◈) — deslocamentos concedidos por habilidades (saltos, investidas, teleportes) não são reduzidos.
 
 ### Imóvel
 
 **Movimento 0** — não sai do lugar **por vontade própria**, nem voando. Continua agindo normalmente: Ações Básicas, Habilidades e Reações seguem disponíveis. É o degrau acima de Lento, e não se confunde com [Atordoado](#atordoado), que trava tudo.
 
-**Força externa ainda move.** Empurrar, puxar e teleportar não são movimento do alvo — são coisas feitas *a* ele, e funcionam normalmente contra quem está Imóvel. Um alvo preso no lugar pode ser arrancado dele por um empurrão de Vento ou pela [Dobra Espacial](habilidades/magicas-elementais.md#espaco-tempo).
+!!! regra "Força externa ainda move — e teleporte também"
+    Empurrar, puxar e teleportar não são movimento do alvo — são coisas feitas *a* ele, e funcionam normalmente contra quem está Imóvel. Um alvo preso no lugar pode ser arrancado dele por um empurrão de Vento ou pela [Dobra Espacial](habilidades/magicas-elementais.md#espaco-tempo). O mesmo vale pro **teleporte próprio**: quem está Imóvel não anda nem salta, mas ainda pode se teleportar (Passo Sombrio, Fora de Lugar) — ele não se move, ele deixa de estar ali. Deslocamentos **físicos** de habilidade (saltos, investidas) continuam negados.
 
 ### Atordoado
 
 **Não pode agir** — nem ação, nem movimento, nem reação.
 
+### Derrubado
+
+Está **no chão**. Enquanto Derrubado, seu Movimento é 0, e ataques **corpo a corpo** contra ele rolam com [Vantagem](#vantagem). **Levantar custa ◈ (1)** no próprio turno e encerra a condição. Não se confunde com **Caído** ([a 0 de Vida](jogador/sistema-d20.md#chegando-a-0-de-vida)) — Derrubado é chão, Caído é morte chegando.
+
+### Desprevenido
+
+Foi pego de surpresa: **não pode agir nem reagir durante a primeira rodada do combate**. É o que acontece com um grupo emboscado sem vigia (ver [Exploração](mestre/exploracao.md#detectar-e-desarmar)). "Surpreendido" é a mesma condição.
+
+### Agarrado
+
+Está preso por uma criatura ou restrição física: fica [Imóvel](#imovel) enquanto durar. **Escapar custa ◈ (1)** e um teste de **Força ou Agilidade** (o que for maior) contra a Defesa física de quem prende — ou contra a DC da restrição, se for um objeto. Quem prende solta automaticamente se ficar Atordoado ou Caído.
+
 ### Marcado
 
-O **próximo ataque de um aliado** contra ele neste turno rola com Vantagem.
+O **próximo ataque de um aliado** contra ele **nesta rodada** rola com Vantagem.
 
 ### Envenenado
 
@@ -45,7 +95,10 @@ Perde **1d4 de Vida por acúmulo** no início de cada turno dele, até ser curad
 
 ### Escudo
 
-Pontos temporários que **absorvem dano** antes da Vida. Não acumulam com outro Escudo — vale o maior.
+Pontos temporários que **absorvem dano** antes da Vida. Não acumulam com outro Escudo — vale o maior. Substituir um Escudo por outro maior **não** remove os demais efeitos do buff original (retaliação, anti-derrubar etc.), que valem pela duração declarada dele.
+
+!!! regra "Escudo (condição) ≠ Escudo (item)"
+    O **item** Escudo ([Arsenal → Escudos](jogador/arsenal.md#escudos)) dá bônus passivo de **Defesa**. A **condição** Escudo dá pontos que absorvem dano. Quando uma habilidade diz "ignora bônus de Escudo", refere-se ao **item**; quando diz "ganha um Escudo de Xd6", é a condição.
 
 ### Exausto
 
@@ -57,7 +110,7 @@ Desgaste do corpo, acumulado em **graus**. Diferente das outras condições, nã
 | **2** | também fica [Lento](#lento) |
 | **3** | cai inconsciente até receber ajuda ou descansar |
 
-**Some 1 grau** por cada dia de privação ou noite sem descanso adequado. **Remove 1 grau** por [descanso longo](mestre/exploracao.md#descanso) — desde que a causa tenha sido resolvida (comeu, bebeu, se aqueceu). Descansar com fome não remove nada.
+**Some 1 grau** a partir do **segundo dia** de privação (o primeiro só incomoda) e por noite sem descanso adequado depois de um dia de esforço — ver [Exaustão](mestre/exploracao.md#exaustao), que é a regra completa. **Remove 1 grau** por [descanso longo](mestre/exploracao.md#descanso) — desde que a causa tenha sido resolvida (comeu, bebeu, se aqueceu). Descansar com fome não remove nada.
 
 ### Risco
 
@@ -66,6 +119,11 @@ Algumas habilidades cobram um preço de quem as usa: se **algum dos dados de dan
 ## Efeitos de Terreno
 
 Ao contrário das Condições, que ficam grudadas numa criatura, estes efeitos ficam grudados no **chão** — e valem para quem quer que passe por ali.
+
+Duas regras valem pra **todo** efeito de terreno criado por habilidade, de qualquer elemento:
+
+- **Não somam.** Onde duas zonas de dano se sobrepõem — sejam de Sombras, Fogo, Raio ou qualquer outro tema — vale só a **mais forte**, nunca a soma.
+- **Cobertura e prazo padrão:** salvo texto contrário na ficha, o terreno criado cobre a **área da habilidade** e dura **até o fim do combate**.
 
 ### Terreno Difícil
 
@@ -130,6 +188,9 @@ Bate mais forte que a Básica (tipicamente o dado dobrado) e alcança condiçõe
 ### Especial
 
 A habilidade mais poderosa da arma — dano alto, condição severa e frequentemente área. Mana: 3 / 7 / 12.
+
+!!! regra "Em habilidades gerais de grupo, 'Especial' é só o subtipo"
+    Uma Chave como "Marciais - Especial" marca o subtipo temático da habilidade geral — a escala de Mana continua sendo a do grupo (1/3/6 ou passos de +3), **não** a 3/7/12 das armas.
 
 ## Armas
 
@@ -235,7 +296,7 @@ Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Orbe](joga
 
 ### Manopla Mística
 
-Arma marcial, dano 1d8 (invoca criaturas através de uma gema com pentagramas e hexagramas). Ver [Arsenal → Manopla Mística](jogador/arsenal.md#manopla-mistica).
+Arma mágica (Foco Mágico), dano 1d8, ataca com Inteligência (invoca criaturas através de uma gema com pentagramas e hexagramas). Ver [Arsenal → Manopla Mística](jogador/arsenal.md#manopla-mistica).
 
 ### Pistolas
 
@@ -359,7 +420,7 @@ Arma marcial pesada, dano 1d12. Ver [Arsenal → Marreta Mágica](jogador/arsena
 
 ### Módulo Alado
 
-Arma marcial, dano 1d10 (enxame tecnológico de lâminas voadoras). Ver [Arsenal → Módulo Alado](jogador/arsenal.md#modulo-alado).
+Arma mágica (Foco Mágico), dano 1d10, ataca com Inteligência (enxame tecnológico de lâminas voadoras; não é empunhado — conta como Duas Mãos pra fins de regra). Ver [Arsenal → Módulo Alado](jogador/arsenal.md#modulo-alado).
 
 ### Tridente
 

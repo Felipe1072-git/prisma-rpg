@@ -8,7 +8,7 @@ Um personagem de nível 1 é composto por:
 2. **Raça** — pool de atributos + 1-3 traços raciais (ver [Raças](../racas/index.md)).
 3. **Origem** — 3 escolhas independentes (Passado, Ambiente de Origem, Evento Formador), cada uma com 1 traço leve (ver [Origem](origem.md)).
 4. **1ª Habilidade** — de qualquer grupo, inclusive a Básica de uma arma (ver [Progressão de Nível](#progressao-de-nivel) abaixo).
-5. **Equipamento inicial** — a arma (ou armas) que o personagem carrega fisicamente, escolhida livremente (frequentemente sugerida por um [Pacote](../pacotes/index.md)).
+5. **Equipamento inicial** — a arma (ou armas) que o personagem carrega fisicamente, escolhida livremente e **gratuita** — desde que ele atenda o [Requisito de Atributo](arsenal.md#requisito-de-atributo-minimo) dela (frequentemente sugerida por um [Pacote](../pacotes/index.md)). Além dela, **50 de prata** pra comprar armadura, escudo e equipamento no [Arsenal](arsenal.md).
 
 **Ter uma arma em mãos e saber uma técnica nomeada dela são coisas diferentes.** Qualquer arma equipada pode ser usada com **Ataque Básico** (dano da arma, sem nenhum efeito extra — ver [Pontos de Ação](pontos-de-acao.md)), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade daquela arma. Aprender a Habilidade Básica de uma arma (gastando uma escolha de nível) é o que desbloqueia a técnica nomeada e as três [Intensidades](../habilidades/index.md#intensidade) dela — e é sempre o primeiro passo: a Avançada e a Especial de uma arma só podem ser aprendidas depois da Básica (e da Avançada, respectivamente) daquela mesma arma (ver "Aprendizado progressivo" no topo do [Arsenal](arsenal.md)).
 
@@ -127,7 +127,8 @@ Ao [descansar](../mestre/exploracao.md#descanso), o jogador escolhe quantos gast
 
 Os dados gastos **não voltam sozinhos**: só o descanso longo devolve, e devolve metade. Isso significa que uma sequência de dias difíceis vai esvaziando o poço — e a decisão de quantos dados queimar agora, sabendo que a noite só devolve parte, é o principal recurso de longo prazo do personagem.
 
-**Na prática:** gastar o limite do descanso curto devolve cerca de **45% da Vida máxima**, e esvaziar o poço num descanso longo devolve perto de **90%**. Um dia de aventura consome mais ou menos o que a noite repõe, então o poço se sustenta em ritmo normal — e só afunda quando o grupo encara vários dias duros seguidos sem voltar pra base.
+!!! exemplo "Na prática"
+    Gastar o limite do descanso curto devolve cerca de **45% da Vida máxima**, e esvaziar o poço num descanso longo devolve perto de **90%**. Um dia de aventura consome mais ou menos o que a noite repõe, então o poço se sustenta em ritmo normal — e só afunda quando o grupo encara vários dias duros seguidos sem voltar pra base.
 
 Cura por Habilidade (ver [Suporte](../habilidades/suporte.md)) **não** gasta Dados de Vida — é justamente por isso que ter um curandeiro no grupo importa: ele cura sem consumir o poço de ninguém.
 
@@ -167,7 +168,8 @@ Declarado no início de um turno dele enquanto estiver Caído, o Último Turno f
 
 É a única escolha do sistema em que o jogador **troca a chance de sobreviver por certeza de impacto**. Um personagem que ia morrer de qualquer jeito em duas rodadas, sem agir, pode em vez disso derrubar o chefe com um golpe garantido como crítico — e sair de cena tendo decidido como.
 
-**Cabe ao Mestre dar espaço pra isso.** Se um jogador declara o Último Turno, a mesa para e escuta: é o momento daquele personagem, e ele não vai ter outro.
+!!! mestre "Cabe ao Mestre dar espaço pra isso"
+    Se um jogador declara o Último Turno, a mesa para e escuta: é o momento daquele personagem, e ele não vai ter outro.
 
 ### Base de Resiliência
 
@@ -194,7 +196,8 @@ Vale a pena anotar essas duas na ficha antes da sessão: são os números que o 
 
 ### Quem rola o dado
 
-**Quem age, rola.** Isso vale nos dois sentidos e é a única regra de resolução do jogo:
+!!! regra "Quem age, rola"
+    Isso vale nos dois sentidos e é a única regra de resolução do jogo:
 
 - O personagem ataca uma criatura → **o jogador** rola d20 + Atributo contra a Defesa da criatura.
 - Uma criatura ataca o personagem → **o Mestre** rola d20 + o Ataque da criatura contra a Defesa do personagem.
@@ -261,7 +264,7 @@ O personagem recebe Estresse ao sofrer um crítico, ao tirar uma falha crítica 
 
 **Estresse máximo = 10 + Sanidade.**
 
-Ao ser pedido um teste de Estresse, o jogador rola **d20 + Sanidade vs DC do Mestre**. Se falhar, marca 1-2 pontos de Estresse.
+**Quantidades:** sofrer um crítico ou tirar 1 natural marca **1 ponto**, automaticamente. Num teste de Estresse pedido pelo Mestre, o jogador rola **d20 + Sanidade vs DC do Mestre**; falhando, marca **1 ponto** (**2**, se a fonte for especialmente perturbadora — o Mestre decide antes da rolagem).
 
 Estresse não reseta com descanso curto — representa desgaste acumulado.
 
