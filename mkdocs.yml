@@ -1,6 +1,9 @@
 site_name: Prisma RPG
 site_description: Sistema de RPG de mesa homebrew autoral — d20 simplificado, sem classes
 site_author: Paulo Souza
+site_url: https://felipe1072-git.github.io/prisma-rpg/
+repo_url: https://github.com/Felipe1072-git/prisma-rpg
+repo_name: Felipe1072-git/prisma-rpg
 
 theme:
   name: material
