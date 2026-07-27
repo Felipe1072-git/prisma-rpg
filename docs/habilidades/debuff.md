@@ -12,7 +12,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Golpe Sangrento**
@@ -23,7 +23,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura, corpo a corpo
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + alvo não recupera Vida (de nenhuma fonte) até o fim do próximo turno dele
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + alvo não recupera Vida até o fim do próximo turno dele, e perde 1d4 de Vida adicional nesse período
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + alvo não recupera Vida e perde 2d4 de Vida adicional; além disso, nenhuma cura funciona nele até o fim da cena
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + alvo não recupera Vida e perde 2d4 de Vida adicional; além disso, nenhum efeito que devolva Vida (cura, dreno ou reviver) funciona nele até o fim da cena
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
 
 **Dança Contagiante** *(Supremo)*
@@ -42,8 +42,8 @@ Criar desvantagens para inimigos ou em testes.
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + derruba o alvo + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Estrela da Morte**
@@ -118,7 +118,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + derruba o alvo + alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + derruba o alvo + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + derruba o alvo + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Impacto Grandioso**
@@ -168,10 +168,10 @@ Criar desvantagens para inimigos ou em testes.
 *Um veneno mágico é injetado no alvo, corroendo sua força e vigor.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Inteligência | **Defesa:** Vitalidade (é veneno) | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + Lento + alvo fica Sangrando (veneno, perde 1d4 de Vida no início do próximo turno dele)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + Lento + alvo fica Sangrando (veneno, perde 1d4 de Vida no início do próximo turno dele), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + Lento + alvo fica [Envenenado](../glossario.md#envenenado) (1 acúmulo)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + Lento + alvo fica [Envenenado](../glossario.md#envenenado) com **2 acúmulos**
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
 
 **Repouso Forçado**
@@ -212,9 +212,9 @@ Criar desvantagens para inimigos ou em testes.
 *Um brado desafiador ecoa pelo campo — ninguém mais existe além dela.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈ (2 PA) + 5 Mana | **Atributo:** Força | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis
-- **Efeito:** até o fim do próximo turno de cada alvo, ele só pode atacar o usuário desta habilidade (se for capaz de fazê-lo)
-- *(Sem Intensidade — efeito automático de controle, sem teste de ataque)*
+- **Custo fixo:** ◈◈ (2 PA) + 5 Mana | **Atributo:** Força | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis
+- **Acerto:** até o fim do próximo turno de cada alvo, ele só pode atacar o usuário desta habilidade (se for capaz de fazê-lo)
+- *(Custo fixo — rola teste de ataque contra a **Defesa mental (Vontade)** de cada alvo)*
 
 **Quebra de Arma**
 
@@ -275,18 +275,18 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo fixo:** ◈◈ (2 PA) + 6 Mana | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Efeito:** por 2 rodadas, qualquer ataque feito por uma criatura hostil que estiver dentro da área rola com Desvantagem
-- *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
+- **Acerto:** por 2 rodadas, qualquer ataque feito por uma criatura hostil que estiver dentro da área rola com Desvantagem
+- *(Custo fixo — rola teste de ataque contra a Defesa de cada alvo)*
 
 **Fenda Dimensional**
 
 *Um portal dimensional se abre no chão — um segundo comando é só o suficiente pra sugar o alvo pra dentro dele.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano + puxado até o portal + fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + alvo é puxado até a casa do portal + puxado até o portal + fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + puxado até o portal + fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura — o portal abre numa casa livre à escolha do usuário, dentro do alcance
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano + alvo é puxado até a casa do portal
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + puxado até o portal + fica [Derrubado](../glossario.md#derrubado)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + puxado até o portal + fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
 
 **Enterrar**
@@ -295,8 +295,8 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo fixo:** ◈◈ (2 PA) + 5 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 casa
-- **Efeito:** a mina fica escondida até uma criatura hostil pisar nela (ou até o fim da cena); quando isso acontecer, ela sofre 1d8 de dano e fica [Lento](../glossario.md#lento) até o fim do próximo turno dela
-- *(Sem Intensidade — efeito de armadilha automático, sem teste de ataque)*
+- **Acerto:** a mina fica escondida até uma criatura hostil pisar nela (ou até o fim da cena); quando isso acontecer, ela sofre 1d8 de dano e fica [Lento](../glossario.md#lento) até o fim do próximo turno dela
+- *(Custo fixo — rola teste de ataque contra a Defesa do alvo)*
 
 **Escuridão Absoluta** *(Maior)*
 
@@ -304,8 +304,8 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo fixo:** ◈◈◈ (3 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Efeito:** por 2 rodadas, cada criatura hostil que terminar o turno na área sofre 1d6 de dano automático, perde 2 de Defesa, e perde 1 Mana
-- *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
+- **Acerto:** por 2 rodadas, cada criatura hostil que terminar o turno na área sofre 1d6 de dano automático, perde 2 de Defesa, e perde 1 Mana
+- *(Custo fixo — rola teste de ataque contra a Defesa de cada alvo)*
 
 **Dominação: Enfraquecer**
 
@@ -313,8 +313,8 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo fixo:** ◈◈ (2 PA) + 5 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Efeito:** por 2 rodadas, cada criatura hostil na área perde 1 no dano de ataques.
-- *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
+- **Acerto:** por 2 rodadas, cada criatura hostil na área perde 1 no dano de ataques.
+- *(Custo fixo — rola teste de ataque contra a Defesa de cada alvo)*
 
 **Convergência**
 
@@ -325,14 +325,14 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** 1d6 de dano + puxa 3 casas cada alvo
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e puxa 3 casas
 
-**Chuva de Sangue** *(Maior)*
+**Chuva de Sangue** *(Moderado)*
 
 *Uma chuva de lâminas espectrais desaba sobre a área, encharcando o chão de vermelho.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo fixo:** ◈◈◈ (3 PA) + 8 Mana | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Efeito:** cada criatura hostil na área sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
-- *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
+- **Acerto:** cada criatura hostil na área sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Custo fixo — rola teste de ataque contra a Defesa de cada alvo)*
 
 **Etiqueta do Mordomo**
 
@@ -384,8 +384,8 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo fixo:** ◈◈ (2 PA) + 6 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Efeito:** o alvo fica Marcado pela morte; se continuar em combate até o início do próximo turno dele, sofre 3d6 de dano automático nesse momento (a marca não causa dano nenhum antes disso)
-- *(Sem Intensidade — efeito automático de tempo retardado, sem teste de ataque)*
+- **Acerto:** o alvo fica Marcado pela morte; se continuar em combate até o início do próximo turno dele, sofre 3d6 de dano automático nesse momento (a marca não causa dano nenhum antes disso)
+- *(Custo fixo — rola teste de ataque contra a Defesa do alvo)*
 
 **Latido Drenante**
 
@@ -426,9 +426,9 @@ Criar desvantagens para inimigos ou em testes.
 *Jeeves aparece por um instante, suspendendo o alvo no ar antes de sumir — e a queda dói.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈ (2 PA) + 6 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Efeito:** o alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele; nesse momento (ao cair de volta ao chão), sofre 2d6 de dano automático
-- *(Sem Intensidade — efeito automático de controle + dano retardado)*
+- **Custo fixo:** ◈◈◈ (3 PA) + 6 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Acerto:** o alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele; nesse momento (ao cair de volta ao chão), sofre 2d6 de dano automático
+- *(Custo fixo — rola teste de ataque contra a Defesa do alvo)*
 
 **Aniquilação** *(Supremo)*
 
@@ -445,7 +445,7 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura (puxada até o selo) + 2 casas de raio ao redor do selo (explosão)
-- **Acerto:** mesmo + derruba todos na explosão
+- **Acerto:** 2d8 de dano no alvo puxado + 1d8 de dano nas demais criaturas na explosão + derruba todos na explosão
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra no alvo, dano máximo (8) + 1d8 extra nos demais, e derruba todos
 
 **Nuvem Mortal**
@@ -453,10 +453,10 @@ Criar desvantagens para inimigos ou em testes.
 *Uma nuvem verde e tóxica paira sobre a área, ficando mais perigosa perto do centro.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Inteligência | **Defesa:** Vitalidade (é veneno) | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + Lento + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + Lento + cada alvo fica [Envenenado](../glossario.md#envenenado) (1 acúmulo)
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e sobe 1 Intensidade
 
 **Campo da Morte** *(Supremo)*
@@ -483,9 +483,9 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d4 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d4 de dano + alvo perde a próxima Ação Básica + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d4 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d4 de dano + alvo fica [Lento](../glossario.md#lento)
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d4 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d4 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano máximo (4) + 1d4 extra, e sobe 1 Intensidade
 
 **Tempestade Furiosa** *(Supremo)*
@@ -512,9 +512,9 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d4 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d4 de dano + empurra 2 casas e derruba
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d4 de dano + empurra 3 casas, derruba, e alvo perde a próxima Ação Básica
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d4 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d4 de dano + empurra 2 casas e derruba
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d4 de dano + empurra 3 casas, derruba, e alvo perde a próxima Ação Básica
 - **Crítico (20 natural):** dano máximo (4) + 1d4 extra, e sobe 1 Intensidade
 
 **Valsa da Imperatriz** *(Supremo)*
@@ -590,5 +590,5 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo fixo:** ◈◈ (2 PA) + 5 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Efeito:** remove um efeito de Buff ativo na criatura alvo, aliada ou inimiga.
+- **Efeito:** remove um efeito benéfico ativo criado por habilidade (de qualquer grupo), incluindo Escudos e invocações — à escolha do usuário — na criatura alvo, aliada ou inimiga.
 - *(Sem Intensidade — habilidade de debuff, sem teste de ataque)*

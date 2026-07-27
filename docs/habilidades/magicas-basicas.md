@@ -10,9 +10,9 @@ Uso básico da magia.
 
 - **Chave:** [Mágicas Básicas](../glossario.md#magicas-basicas)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + empurra 3 casas
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + empurra 5 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + empurra 7 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 3 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 5 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 7 casas e derruba o alvo
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Espada Vingadora**
@@ -20,9 +20,9 @@ Uso básico da magia.
 *Espadas espectrais brotam do chão continuamente, perfurando qualquer um que passe por perto.*
 
 - **Chave:** [Mágicas Básicas](../glossario.md#magicas-basicas)
-- **Custo fixo:** ◈◈ (2 PA) + 6 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Efeito:** cada criatura hostil na área sofre 1d6 de dano automático imediatamente ao ser lançada, e mais uma vez no início da rodada seguinte (2 aplicações no total)
-- *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
+- **Custo fixo:** ◈◈◈ (3 PA) + 6 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Acerto:** cada criatura hostil na área sofre 1d6 de dano imediatamente ao ser lançada, e mais uma vez no início da rodada seguinte (2 aplicações no total)
+- *(Custo fixo — rola um único teste de ataque, comparado à Defesa de cada alvo)*
 
 **Força Perfeita**
 
@@ -31,8 +31,8 @@ Uso básico da magia.
 - **Chave:** [Mágicas Básicas](../glossario.md#magicas-basicas)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 2 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 4 casas e derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 4 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 6 casas e derruba o alvo
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
 
 **Investida Voraz**

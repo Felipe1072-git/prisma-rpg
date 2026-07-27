@@ -61,7 +61,7 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 | [Chicote](#chicote) | Armas Flexíveis | 1d6 | Impacto | 30 p | Finesse, Leve | — | alcance incomum pra uma arma corpo a corpo, puxa e prende |
 | [Mangual](#mangual) | Armas Flexíveis | 1d10 | Impacto | 120 p | Duas Mãos | — | golpe pesado e imprevisível, difícil de bloquear |
 | [Katana Muramasa](#katana-muramasa) | Lâminas Longas/Lendárias | 1d10 | Cortante | — | Finesse, Duas Mãos, Efeito Especial | Força ou Agilidade +3 | lâmina amaldiçoada, exige sangue |
-| [Lâmina do Crepúsculo](#lamina-do-crepusculo) | Lâminas Longas/Lendárias | 1d10 | Cortante | — | Duas Mãos | — | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
+| [Lâmina do Crepúsculo](#lamina-do-crepusculo) | Lâminas Longas/Lendárias | 1d10 | Cortante | — | Duas Mãos, Efeito Especial | — | lâmina amaldiçoada — concede poder imenso, mas corrói com trevas quem a empunha |
 | [Katana Nodachi](#katana-nodachi) | Lâminas Longas/Lendárias | 1d10 | Cortante | — | Finesse, Duas Mãos | Força ou Agilidade +3 | lâmina longa clássica |
 | [Soluna](#soluna) | Lâminas Longas/Lendárias | 1d10 | Cortante | — | Duas Mãos | — | lâmina lendária, duas metades (Sol e Lua) que se combinam |
 | [Espada Senciente](#espada-senciente) | Lâminas Longas/Lendárias | 1d12 | Cortante | — | Duas Mãos, Efeito Especial | — | absorve energias e dificulta a mobilidade de quem a empunha |
@@ -111,11 +111,13 @@ Explica cada valor possível da coluna **Chaves** das tabelas acima. Toda arma t
 
 ### Leve
 
-Armas marcadas como **Leve** ocupam só uma mão pra funcionar — a mão secundária fica livre pra outra arma Leve (habilitando [Dupla Empunhadura](#dupla-empunhadura)), pra um [Escudo](#escudos), ou fica livre pra magia/interação. Armas que não são Leve (**Duas Mãos**) exigem as duas mãos pra funcionar, mesmo quando usadas sozinhas — nenhuma combinação de mão secundária é possível com elas.
+Armas marcadas como **Leve** ocupam só uma mão pra funcionar — a mão secundária fica livre pra outra arma Leve (habilitando [Dupla Empunhadura](#dupla-empunhadura)), pra um [Escudo](#escudos), ou fica livre pra magia/interação. Armas que não são Leve (**Duas Mãos**) exigem as duas mãos pra funcionar, mesmo quando usadas sozinhas — nenhuma combinação de mão secundária é possível com elas (salvo as exceções sancionadas de [Dupla Empunhadura](#dupla-empunhadura), abaixo).
+
+**Armas em par** (Adagas, Sabres, Garras, Tonfas, Rapiers, Bestas, Pistolas) são um caso à parte: a chave Leve indica só o peso da categoria — o par **ocupa as duas mãos** e não deixa mão livre pra escudo, outra arma ou outro par.
 
 Ter duas armas Leve equipadas não dá bônus automático algum — só habilita as habilidades gerais específicas marcadas com a chave Dupla Empunhadura pra aquele par exato, desenhadas uma combinação de cada vez (não existe uma combinação "livre" pra qualquer par de armas Leve).
 
-*(Caso especial: Módulo Alado não é empunhado — é um enxame que segue a usuária — não se encaixa nessa categoria. Égide também fica de fora — ela é um "pacote fechado" espada+escudo, independente do Escudo avulso abaixo.)*
+*(Caso especial: Módulo Alado não é empunhado — é um enxame que segue a usuária. Pra fins de regra, **conta como Duas Mãos**: não combina com escudo nem com outra arma. Égide também fica de fora — ela é um "pacote fechado" espada+escudo, independente do Escudo avulso abaixo.)*
 
 ### Finesse
 
@@ -143,10 +145,11 @@ Armas com Requisito até agora: **Machado** (Força +2), **Montante** (Força +3
 
 Algumas armas têm uma mecânica única além das 3 habilidades normais — maldição, passiva, ou uma Reação exclusiva. O efeito completo está descrito na seção da própria arma, ao longo deste documento.
 
-- **Punhal** — a Intensidade III/Crítico da Especial causa um Ferimento Amaldiçoado, que não cicatriza por cura normal.
+- **Punhal** — as Intensidades II e III da Especial causam um Ferimento Amaldiçoado: perde 1d4 de Vida no início de cada turno, e nenhum efeito remove ou cura — só o fim da cena fecha a ferida.
 - **Espada Senciente** — reduz o Movimento do usuário em 1 casa enquanto equipada; sua energia de absorção vive na habilidade geral [Esferas Sombrias](../habilidades/magicas-elementais.md#sombras).
 - **Katana Muramasa** — a lâmina exige sangue: se não causar dano numa cena de combate, o usuário ganha Estresse.
 - **Soqueira Pesada** — habilita a Reação exclusiva [Impulso da Soqueira](../habilidades/mobilidade.md).
+- **Lâmina do Crepúsculo** — lâmina amaldiçoada com cláusula de [Risco](../glossario.md#risco): se algum dado de dano cair em 1, as trevas cobram — o usuário perde 1d6 de Vida.
 
 ### Dupla Empunhadura
 
@@ -154,7 +157,10 @@ Quando um personagem usa duas armas específicas ao mesmo tempo (não uma arma "
 
 O dano dessas habilidades é a **soma dos dados das duas armas exigidas**, rolados juntos na mesma habilidade.
 
-Combinações de Dupla Empunhadura até agora: **Lança + Espada** (ver [Investida Dupla, Combo Punitivo e Mergulho Furioso](../habilidades/marciais.md)) e **Katana Nodachi + Katana Muramasa** (ver [Dança das Lâminas Gêmeas, Corte Cruzado e Fúria das Lâminas Gêmeas](../habilidades/marciais.md)) — a segunda combinação não exige que as duas armas sejam Leve, só que estejam ambas equipadas.
+Combinações de Dupla Empunhadura até agora: **Lança + Espada** (ver [Investida Dupla, Combo Punitivo e Mergulho Furioso](../habilidades/marciais.md)) e **Katana Nodachi + Katana Muramasa** (ver [Dança das Lâminas Gêmeas, Corte Cruzado e Fúria das Lâminas Gêmeas](../habilidades/marciais.md)).
+
+!!! regra "As combinações são exceções sancionadas"
+    As duas combinações acima envolvem armas Duas Mãos e **valem mesmo assim**: a técnica pressupõe manejo alternado — carregar as duas e alternar entre elas no fluxo dos golpes — e não exige que as armas sejam Leve nem que caibam nas duas mãos ao mesmo tempo. Fora dessas combinações nomeadas, a regra de [Leve/Duas Mãos](#leve) vale integralmente.
 
 *(Pendente: revisar retroativamente se alguma habilidade já escrita da Elesis deveria ganhar essa chave também.)*
 
@@ -202,7 +208,7 @@ Dano: **1d4**
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d4 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d4 de dano + empurra 2 casas e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d4 de dano + empurra 3 casas, derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano máximo (4) + 1d4 extra, e sobe 1 Intensidade
+- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Fúria Fatal** — *Avançada*
 
@@ -598,8 +604,8 @@ Dano: **1d6**
 - **Chave:** [Chakram](../glossario.md#chakram) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** até 3 criaturas diferentes, atingidas em sequência
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos neste turno rola com vantagem (rola 2x e fica com o maior)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos neste turno rola com vantagem (rola 2x e fica com o maior), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos nesta rodada rola com [Vantagem](../glossario.md#vantagem)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + Sangrando + o próximo ataque de um aliado contra qualquer um desses alvos nesta rodada rola com [Vantagem](../glossario.md#vantagem), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
 - **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 **Círculo da Perdição** — *Especial*
@@ -692,6 +698,8 @@ Dano: **1d8**
 ## Égide
 
 *A Égide é uma arma que trabalha em conjunto — constituída por um Escudo e uma Espada. Também pode invocar runas misteriosas pra ajudar na batalha.*
+
+O escudo do conjunto é parte da arma: **não** dá bônus passivo de Defesa nem habilita [Bloqueio](../habilidades/buff.md) — a identidade defensiva da Égide vem das próprias habilidades dela.
 
 Dano: **1d6**
 
@@ -806,9 +814,9 @@ Dano: **1d12**
 
 - **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Especial](../glossario.md#especial)
 - **Atributo:** Força | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + Atordoado + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + Atordoado + derruba o alvo, e empurra 2 casas
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Espada-Chave
@@ -886,9 +894,10 @@ Dano: **1d10**
 
 - **Chave:** [Espingarda](../glossario.md#espingarda) - [Especial](../glossario.md#especial)
 - **Atributo:** Agilidade | **Alcance:** 12 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano, ignora Armadura do alvo + empurra 3 casas, ignora Armadura
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba o alvo, ignora Armadura
-- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba o alvo, ignora Armadura, e ele perde a próxima Reação
+- **Efeito:** em qualquer Intensidade, este ataque ignora o bônus de Armadura do alvo (a Defesa é calculada sem ele)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano + empurra 3 casas
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Flintlock
@@ -1693,7 +1702,7 @@ Dano: **1d8**
 *Um hexagrama brilha intensamente, materializando um guardião que ataca repetidamente antes de retornar à gema.*
 
 - **Chave:** [Manopla Mística](../glossario.md#manopla-mistica) - [Especial](../glossario.md#especial)
-- **Custo fixo:** ◈◈◈ (3 PA) + 3 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Efeito:** o alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
@@ -2016,7 +2025,7 @@ Dano: **1d10**
 - **Chave:** [Pique](../glossario.md#pique) - [Básica](../glossario.md#basica)
 - **Atributo:** Força | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando) e empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + [Sangrando](../glossario.md#sangrando) e empurra 2 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando), empurra 3 casas e derruba o alvo, e o Sangrando causa 2d4 em vez de 1d4
 - **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
@@ -2192,8 +2201,8 @@ Dano: **1d6**
 - **Chave:** [Punhal](../glossario.md#punhal) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
 - **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (como Sangrando — perde 1d4 de Vida no início do próximo turno dele — mas não pode ser removido ou curado por nenhum efeito até terminar o curso)
-- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (como Sangrando — perde 1d4 de Vida no início do próximo turno dele — mas não pode ser removido ou curado por nenhum efeito até terminar o curso), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (perde **1d4 de Vida no início de cada turno dele até o fim da cena** — e nenhum efeito remove ou cura a ferida)
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado que sangra **2d4 por turno** em vez de 1d4 (mesmas regras: até o fim da cena, sem remoção nem cura)
 - **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Rapiers
@@ -2455,8 +2464,8 @@ Dano: **1d8**
 
 - **Chave:** [Tridente](../glossario.md#tridente) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Força | **Alcance:** 5 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano, puxa o alvo 3 casas em direção ao usuário + puxa 3 casas + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + puxa 3 casas + derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano + puxa o alvo 3 casas em direção ao usuário + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + puxa o alvo 3 casas em direção ao usuário + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + puxa 5 casas + derruba o alvo
 - **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 

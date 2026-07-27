@@ -2,6 +2,8 @@
 
 Armas a distância e precisão (feitiços de precisão inclusos).
 
+Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma de Pontaria equipada**.
+
 ## Habilidades Gerais
 
 **Dança Élfica**
@@ -9,9 +11,9 @@ Armas a distância e precisão (feitiços de precisão inclusos).
 *Duas cópias etéreas surgem ao lado da arqueira, disparando em perfeita sincronia.*
 
 - **Chave:** [Pontaria](../glossario.md#pontaria) - [Especial](../glossario.md#especial)
-- **Custo fixo:** ◈◈◈ (3 PA) + 3 Mana | **Atributo:** Agilidade | **Alvos:** até 2 criaturas (1 por clone), dentro do alcance de 8 casas
-- **Efeito:** invoca 2 clones que desaparecem no fim da rodada. Cada clone rola seu próprio teste (d20 + Agilidade) e aplica o tier de dano da Rajada de Flechas contra um alvo à escolha.
-- *(Sem tabela de tiers própria — usa os tiers da Rajada de Flechas)*
+- **Custo fixo:** ◈◈◈ (3 PA) + 6 Mana | **Atributo:** Agilidade | **Alvos:** até 2 criaturas (1 por clone), dentro do alcance de 8 casas
+- **Efeito:** invoca 2 clones que desaparecem no fim da rodada. Cada clone rola seu próprio teste (d20 + Agilidade) contra um alvo à escolha e, em acerto, aplica o efeito da Intensidade I da [Rajada de Flechas](../jogador/arsenal.md#arco) (1d8 de dano + alvo fica [Marcado](../glossario.md#marcado)).
+- *(Sem Intensidade própria — cada clone entrega o efeito base da Rajada de Flechas)*
 
 **Investida Certeira**
 
@@ -20,8 +22,8 @@ Armas a distância e precisão (feitiços de precisão inclusos).
 - **Chave:** [Pontaria](../glossario.md#pontaria)
 - **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa, e o usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 4 Mana:** 1d6 de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 7 Mana:** 1d6 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1d6 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
 
 **Salto Certeiro**
@@ -96,5 +98,5 @@ Armas a distância e precisão (feitiços de precisão inclusos).
 - **Atributo:** Agilidade | **Alcance:** 10 casas | **Alvos:** 1 criatura (arrastada) + 2 casas de raio ao redor dela (explosão)
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano ao alvo principal, e 1d6 a cada criatura na área da explosão + empurra 1 casa todos na explosão
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** mesmo dano + derruba todos na explosão
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** mesmo dano + derruba todos na explosão, e ele perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** mesmo dano + derruba todos na explosão, e o alvo principal perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra no alvo principal, e sobe 1 Intensidade

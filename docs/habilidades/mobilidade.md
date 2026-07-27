@@ -40,7 +40,7 @@ Voo, deslocamento.
 *Um tronco surge no lugar do corpo — o verdadeiro golpe já está vindo por trás do inimigo.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Custo fixo:** 0 PA + 4 Mana (dedicada a Reação) | **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Custo fixo:** 0 PA + 7 Mana (dedicada a Reação) | **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - **Efeito:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra evitar completamente o dano daquele ataque, e se teleportar pra uma casa adjacente ao atacante.
 - *(Sem Intensidade — habilidade de mobilidade, sem teste de ataque)*
 
@@ -65,3 +65,4 @@ Voo, deslocamento.
 - **Intensidade I — ◈ (1 PA) + 4 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +4 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +1d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +5 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +2d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
 - **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +6 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +3d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
+- **O corcel:** dura até o fim da cena. O corcel tem 15 de Vida e Defesa 10 e é um alvo válido; se ele cair, o usuário é derrubado no chão ([Derrubado](../glossario.md#derrubado)).

@@ -66,6 +66,7 @@ Cura e apoio a aliados.
 - **Intensidade I — ◈ (1 PA) + 4 Mana:** cada alvo recupera 1d6 de Mana imediatamente.
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** cada alvo recupera 2d6 de Mana imediatamente.
 - **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** cada alvo recupera 3d6 de Mana imediatamente.
+- *(Só pode ser usada em combate.)*
 
 **Palco Central**
 
@@ -83,9 +84,9 @@ Cura e apoio a aliados.
 
 - **Chave:** [Suporte](../glossario.md#suporte)
 - **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 criatura (dano) + usuário e aliados em 3 casas de raio (cura)
-- **Intensidade I — ◈ (1 PA) + 5 Mana:** o alvo sofre 1d6 de dano automático imediatamente ao usar. Usuário e aliados na área recuperam 1d6 + Sabedoria de Vida.
-- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o alvo sofre 2d6 de dano automático imediatamente ao usar. Usuário e aliados na área recuperam 2d6 + Sabedoria de Vida.
-- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o alvo sofre 3d6 de dano automático imediatamente ao usar. Usuário e aliados na área recuperam 3d6 + Sabedoria de Vida.
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** o alvo sofre 1d6 de dano imediatamente ao usar (rola teste de ataque contra a Defesa dele). Usuário e aliados na área recuperam 1d6 + Sabedoria de Vida.
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o alvo sofre 2d6 de dano imediatamente ao usar (rola teste de ataque contra a Defesa dele). Usuário e aliados na área recuperam 2d6 + Sabedoria de Vida.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o alvo sofre 3d6 de dano imediatamente ao usar (rola teste de ataque contra a Defesa dele). Usuário e aliados na área recuperam 3d6 + Sabedoria de Vida.
 
 **Divisor de Mana**
 
@@ -96,6 +97,7 @@ Cura e apoio a aliados.
 - **Intensidade I — ◈ (1 PA) + 5 Mana:** cada alvo recupera 1d8 de Mana imediatamente.
 - **Intensidade II — ◈◈ (2 PA) + 8 Mana:** cada alvo recupera 2d8 de Mana imediatamente.
 - **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** cada alvo recupera 3d8 de Mana imediatamente.
+- *(Só pode ser usada em combate.)*
 
 **Ordem de Ataque**
 
