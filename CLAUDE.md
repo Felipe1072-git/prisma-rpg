@@ -7,9 +7,10 @@ Este arquivo orienta o Claude Code ao trabalhar neste projeto.
 **Prisma RPG** — sistema de RPG de mesa homebrew autoral, criado por Paulo Souza. É o "D&D definitivo" do autor: um d20 tradicional simplificado, sem classes, focado em liberdade total de construção de personagem.
 
 - **Nome do sistema:** Prisma RPG (nome de trabalho — pode mudar)
-- **Versão atual:** 0.1 (Rascunho inicial)
+- **Versão atual:** 0.2 (sistema jogável de ponta a ponta — ver [Status](#status))
 - **Pasta do projeto:** `C:\Users\Paulo Souza\Documents\Sistema RPG\`
-- **Repositório:** local por enquanto (sem remoto/GitHub ainda)
+- **Repositório:** `https://github.com/Felipe1072-git/prisma-rpg` (remoto `origin`, branch principal `main`)
+- **Site publicado:** [felipe1072-git.github.io/prisma-rpg](https://felipe1072-git.github.io/prisma-rpg/) — **todo push na `main` publica**, via `.github/workflows/deploy.yml`
 
 ### Inspirações de ambientação/tom
 
@@ -123,11 +124,23 @@ O que existe: 573 habilidades nos 10 grupos, 62 armas com 3 habilidades cada, 25
 11 elementos com assinatura mecânica própria, sistema Tocado, e Livro do Mestre em 5 partes
 (Bestiário, Encontros, Testes, Recompensas, Exploração).
 
+**Auditoria de consistência (2026-07-27).** O sistema foi lido de uma vez como corpo único pela
+primeira vez: ~185 achados, corrigidos em seguida. Dez termos que o jogo usava sem nunca definir
+entraram no glossário (Derrubado, Vantagem, rodada/cena, empurrar, agarrado, Desprevenido, acúmulo
+de bônus, zonas, voo, água). Relatório completo, lições e pendências em `notas/auditoria.md`.
+
+⚠ **~15 decisões de design foram tomadas por mim durante essa auditoria** (marcadas com ⚠ no
+relatório) porque a regra não existia e o texto precisava de uma. Já estão publicadas, mas o autor
+ainda não as revisou uma a uma — a mais pesada é *bônus planos de buffs diferentes não somam, vale
+o maior*. Se ele quiser mudar alguma, é edição pontual.
+
 **Nada foi testado em mesa.** Todo o equilíbrio veio de cálculo. Relato de jogo real vale mais que
-qualquer simulação minha.
+qualquer simulação minha — e vale ainda mais para as regras novas acima, que fecham no papel mas
+nunca passaram por uma sessão.
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
 2. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — problema conhecido, adiado de
-   propósito porque a correção mexeria nas 419 habilidades. Só reabrir se ele trouxer
-3. Conteúdo novo é sempre bem-vindo, mas nenhuma lacuna estrutural de regra permanece
+   propósito porque a correção mexeria nas 573 habilidades. Só reabrir se ele trouxer
+3. Os sete itens da seção 4.3 de `notas/auditoria.md` — exigem escolha de conteúdo, não correção
+4. Conteúdo novo é sempre bem-vindo, mas nenhuma lacuna estrutural de regra permanece
