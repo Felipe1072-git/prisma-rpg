@@ -79,7 +79,7 @@ Variadas, no estilo **Daggerheart** e animes em geral. *(Lista de raças: a defi
 
 ### Ficha de Personagem
 
-Usuário já desenhou um modelo em um caderno físico — foto pendente de envio. Não inventar estrutura de ficha até receber a referência.
+**A foto do modelo do caderno foi descartada** (decisão de 2026-07-26) — a ficha será construída do zero. O método pedido pelo usuário: **pensar elemento por elemento**, um campo de cada vez, discutindo *o que* precisa estar lá e *por quê*, antes de desenhar qualquer layout. Não montar uma ficha inteira de uma vez e apresentar pronta.
 
 ## Criação de Conteúdo — REGRAS DE TRABALHO
 
@@ -115,9 +115,19 @@ Sistema RPG/
 
 ## Status
 
-Projeto recém-criado (2026-07-16). Estrutura inicial montada, aguardando:
-1. Foto do modelo de ficha do usuário
-2. Definição dos grupos de habilidade restantes
-3. Conteúdo detalhado de cada grupo de habilidade
-4. Lista de raças
-5. Lista de pacotes
+**Versão 0.2 (2026-07-26) — sistema jogável de ponta a ponta.** Publicado em
+[felipe1072-git.github.io/prisma-rpg](https://felipe1072-git.github.io/prisma-rpg/), sob CC BY 4.0,
+com deploy automático a cada push (workflow em `.github/workflows/deploy.yml`).
+
+O que existe: 574 habilidades nos 9 grupos, 62 armas com 3 habilidades cada, 25 raças, 100 pacotes,
+11 elementos com assinatura mecânica própria, sistema Tocado, e Livro do Mestre em 5 partes
+(Bestiário, Encontros, Testes, Recompensas, Exploração).
+
+**Nada foi testado em mesa.** Todo o equilíbrio veio de cálculo. Relato de jogo real vale mais que
+qualquer simulação minha.
+
+Em aberto:
+1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
+2. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — problema conhecido, adiado de
+   propósito porque a correção mexeria nas 419 habilidades. Só reabrir se ele trouxer
+3. Conteúdo novo é sempre bem-vindo, mas nenhuma lacuna estrutural de regra permanece
