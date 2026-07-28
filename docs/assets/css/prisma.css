@@ -123,6 +123,15 @@
 .prg-chip--sangue      { --prg-chip-cor: var(--prg-c-sangue); }
 .prg-chip--espacotempo { --prg-chip-cor: var(--prg-c-espacotempo); }
 
+/* As 5 vertentes de pacote reaproveitam as cores de grupo: a leitura é a
+   mesma (aço = marcial, arcano = mágico, sombras = infiltração) e uma paleta
+   nova só competiria com a que o leitor já aprendeu na lista de habilidades. */
+.prg-chip--vert-campeoes-do-aco        { --prg-chip-cor: var(--prg-c-marciais); }
+.prg-chip--vert-senhores-do-arcano     { --prg-chip-cor: var(--prg-c-arcano); }
+.prg-chip--vert-sombras-e-perdigueiros { --prg-chip-cor: var(--prg-c-infiltracao); }
+.prg-chip--vert-arautos-e-devotos      { --prg-chip-cor: var(--prg-c-sociais); }
+.prg-chip--vert-exploradores-e-hibridos { --prg-chip-cor: var(--prg-c-pontaria); }
+
 /* -------------------------------------------------- card de habilidade */
 
 .prg-card {
@@ -132,6 +141,8 @@
   background: var(--prg-fundo-card);
   box-shadow: var(--prg-sombra);
   overflow: hidden;
+  /* Folga inicial; quem chega por link direto ainda leva um ajuste fino no
+     JS, porque a barra de filtro sticky muda de altura conforme a largura. */
   scroll-margin-top: 4rem;
 }
 
@@ -333,6 +344,46 @@
   .prg-card__col[data-rot="Alvos"] { white-space: normal; max-width: 100%; }
 }
 
+/* ------------------------------------------------------ card de pacote */
+
+/* O número do d20 ocupa o lugar do custo: é o campo curto e alinhado que se
+   compara de olho ao varrer a lista, do mesmo jeito que a Mana lá. */
+.prg-card__d20 {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light);
+  opacity: 0.75;
+}
+
+/* A trilha é o conteúdo principal do card: 10 níveis, compacta. */
+.prg-card--pacote .prg-card__bd table:not([class]) {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 0.7rem;
+}
+
+.prg-card--pacote .prg-card__bd table:not([class]) td {
+  padding: 0.28rem 0.7rem;
+}
+
+/* O nível é um número curto: não precisa de mais que a própria largura. */
+.prg-card--pacote .prg-card__bd table:not([class]) td:first-child {
+  width: 3.5rem;
+  text-align: right;
+  color: var(--md-default-fg-color--light);
+}
+
+.prg-card--pacote .prg-card__bd ul li {
+  font-size: 0.76rem;
+}
+
+/* O card recém-sorteado precisa se distinguir do que o leitor já tinha
+   aberto — some no primeiro clique seguinte. */
+.prg-card.is-sorteado {
+  border-color: var(--prg-c-suprema);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--prg-c-suprema) 25%, transparent);
+}
+
 /* Mais espaço para tabelas largas e para os cards, sem inchar o texto. */
 .md-grid {
   max-width: 68rem;
@@ -462,6 +513,42 @@
 .prg-filtro__desarmado-campo {
   accent-color: var(--prg-c-arcano);
   cursor: pointer;
+}
+
+/* ------------------------------------------------------ sorteio de pacote */
+
+.prg-filtro__sorteio-vertente {
+  flex: 0 1 12rem;
+  min-width: 0;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: 0.72rem;
+}
+
+.prg-filtro__sortear {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--prg-borda-forte);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--prg-c-arcano) 12%, transparent);
+  color: var(--prg-c-arcano);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.prg-filtro__sortear:hover {
+  background: color-mix(in srgb, var(--prg-c-arcano) 22%, transparent);
+}
+
+.prg-filtro__sorteio-saida {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
 }
 
 @media screen and (max-width: 40em) {

@@ -718,6 +718,322 @@ def monta_listagem_habilidades(docs_dir: Path) -> tuple[list[str], int]:
     return todos, total
 
 
+# ----------------------------------------------------------------- pacotes
+#
+# Um pacote não é uma habilidade: é uma trilha de 10 escolhas. O card dele
+# reaproveita a mesma carcaça (.prg-card) porque o comportamento de leitura é
+# idêntico — abre, fecha, filtra, responde a link direto —, mas o conteúdo é
+# outro: vertente, arma inicial, atributo e a tabela de níveis, com cada
+# habilidade linkada para o card que já existe na Listagem de Habilidades.
+
+
+class Pacote(NamedTuple):
+    inicio: int  # linha do `### Nome`
+    fim: int  # linha seguinte ao fim da seção (exclusiva)
+    nome: str
+    flavor: str
+    arma_md: str  # o campo inteiro, cru — pode trazer duas armas ou nenhuma
+    atributo: str
+    trilha: list[tuple[str, str]]  # [(nível, habilidade), ...]
+
+
+def extrai_sorteio(markdown: str) -> dict[str, dict[str, object]]:
+    """Slug do pacote -> vertente, número do d20 e conceito.
+
+    Lido das 5 tabelas de sorteio: é lá que o jogo já declara a que vertente
+    cada pacote pertence e com que número ele sai no d20. A listagem não
+    repete essa lista — consulta.
+    """
+    fora: dict[str, dict[str, object]] = {}
+    vertente = ""
+    for linha in markdown.split("\n"):
+        if m := re.match(r"^## (.+?)\s*$", linha):
+            vertente = m.group(1).strip()
+            continue
+        if not vertente or not linha.startswith("|"):
+            continue
+        celulas = [c.strip() for c in linha.strip("|").split("|")]
+        if len(celulas) < 3 or not celulas[0].isdigit():
+            continue
+        if not (m := re.match(r"^\[([^\]]+)\]\([^)#]*#([^)]+)\)", celulas[1])):
+            continue
+        chave = m.group(2).removeprefix("pac-")
+        fora[chave] = {
+            "vertente": vertente,
+            "d20": int(celulas[0]),
+            "conceito": celulas[2],
+        }
+    return fora
+
+
+def extrai_pacotes(linhas: list[str]) -> list[Pacote]:
+    """Toda seção `### Nome` com flavor + arma + atributo + tabela de níveis."""
+    cabecalhos = [
+        (m.group(1).strip(), i)
+        for i, linha in enumerate(linhas)
+        if (m := re.match(r"^### (.+?)\s*$", linha))
+    ]
+    pacotes: list[Pacote] = []
+    for idx, (nome, inicio) in enumerate(cabecalhos):
+        fim = cabecalhos[idx + 1][1] if idx + 1 < len(cabecalhos) else len(linhas)
+        flavor = arma_md = atributo = ""
+        trilha: list[tuple[str, str]] = []
+        for linha in linhas[inicio + 1 : fim]:
+            txt = linha.strip()
+            if not txt:
+                continue
+            if not flavor and RE_FLAVOR.match(txt):
+                flavor = txt.strip("*").strip()
+            elif m := re.match(r"^-\s+\*\*Arma inicial:\*\*\s*(.+)$", txt):
+                arma_md = m.group(1).strip()
+            elif m := re.match(r"^-\s+\*\*Atributo em foco:\*\*\s*(.+)$", txt):
+                atributo = m.group(1).strip()
+            elif txt.startswith("|"):
+                celulas = [c.strip() for c in txt.strip("|").split("|")]
+                if len(celulas) >= 2 and celulas[0].isdigit():
+                    trilha.append((celulas[0], celulas[1]))
+        # Sem trilha não é um pacote — é outra coisa que usa `###`.
+        if trilha:
+            pacotes.append(
+                Pacote(inicio, fim, nome, flavor, arma_md, atributo, trilha)
+            )
+    return pacotes
+
+
+class IndiceHabilidades(NamedTuple):
+    por_nome: dict[str, list[str]]
+    por_arma_grau: dict[tuple[str, str], str]
+    nomes_de_arma: dict[str, str]
+
+
+def indice_de_habilidades(docs_dir: Path) -> IndiceHabilidades:
+    """Os três dicionários que a trilha precisa pra virar link e faceta:
+
+    1. slug do nome -> ids de card com aquele nome (lista: três nomes são
+       usados por duas armas diferentes, daí o prefixo de arma no id);
+    2. (slug da arma, grau) -> id — porque a trilha escreve "Espada - Básica",
+       que não é o nome de nenhuma habilidade, e sim uma referência indireta;
+    3. slug da arma -> nome como o Arsenal escreve. É esse o vocabulário que a
+       faceta de arma usa, o mesmo da Listagem de Habilidades — o texto do
+       link no pacote pode divergir ("Escudo" para a seção "Escudos").
+    """
+    por_nome: dict[str, list[str]] = {}
+    por_arma_grau: dict[tuple[str, str], str] = {}
+    nomes_de_arma: dict[str, str] = {}
+
+    arsenal = (docs_dir / "jogador" / "arsenal.md").read_text(encoding="utf-8")
+    for nome_arma, secao in extrai_secoes_de_arma(arsenal):
+        arma = slug(nome_arma)
+        nomes_de_arma[arma] = nome_arma
+        for b in extrai_blocos_de_habilidade(secao.split("\n")):
+            ident = f"hab-{arma}-{slug(b.nome)}"
+            por_nome.setdefault(slug(b.nome), []).append(ident)
+            grau = sem_acento(b.qualificador)
+            if grau in _GRAUS_ARMA:
+                por_arma_grau[(arma, grau)] = ident
+
+    for stem in _GRUPOS_ARQUIVO + ("magicas-elementais",):
+        md = (docs_dir / "habilidades" / f"{stem}.md").read_text(encoding="utf-8")
+        for b in extrai_blocos_de_habilidade(md.split("\n")):
+            por_nome.setdefault(slug(b.nome), []).append(f"hab-{slug(b.nome)}")
+
+    return IndiceHabilidades(por_nome, por_arma_grau, nomes_de_arma)
+
+
+# Uma única linha de trilha usa um nome que existe em dois cards: o Astrólogo
+# pega "Onda de Choque" no nível 7, e esse nome é tanto a Especial do Revólver
+# Maverick quanto uma habilidade de Debuff. O autor decidiu (2026-07-28) que é
+# a de Debuff — a trilha inteira do Astrólogo é mágica. Qualquer colisão nova
+# que apareça fica sem link de propósito: apontar pro card errado é pior do
+# que não apontar.
+DESAMBIGUACAO = {("astrologo", "onda-de-choque"): "hab-onda-de-choque"}
+
+RE_GRAU_DE_ARMA = re.compile(r"^(.+?)\s+-\s+(Básica|Avançada|Especial)\s*$")
+RE_MARCA = re.compile(r"\s*\*\(([^)]+)\)\*\s*$")
+
+
+def resolve_habilidade(
+    bruto: str,
+    pacote_slug: str,
+    por_nome: dict[str, list[str]],
+    por_arma_grau: dict[tuple[str, str], str],
+) -> tuple[str, str, str]:
+    """'Fluxo Elegante *(Supremo)*' -> (nome, marca, id do card ou '').
+
+    Id vazio significa "não deu pra ter certeza" — o texto sai sem link.
+    """
+    marca = m.group(1) if (m := RE_MARCA.search(bruto)) else ""
+    nome = RE_MARCA.sub("", bruto).strip()
+
+    if m := RE_GRAU_DE_ARMA.match(nome):
+        chave = (slug(m.group(1)), sem_acento(m.group(2)))
+        return nome, marca, por_arma_grau.get(chave, "")
+
+    if ident := DESAMBIGUACAO.get((pacote_slug, slug(nome))):
+        return nome, marca, ident
+
+    ids = por_nome.get(slug(nome), [])
+    return nome, marca, ids[0] if len(ids) == 1 else ""
+
+
+def armas_do_campo(arma_md: str, nomes_de_arma: dict[str, str]) -> list[tuple[str, str]]:
+    """[(slug, nome), ...] de toda arma linkada no campo Arma inicial.
+
+    O campo nem sempre é um link só: alguns pacotes começam com arma + escudo,
+    com duas armas, ou com uma alternativa ("senão, comece com Báculo"). Todas
+    entram no filtro, porque todas são caminhos que o texto de fato oferece.
+
+    A identidade da arma vem da âncora do link, não do texto: o pacote escreve
+    "Escudo" onde o Arsenal tem a seção "Escudos", e as duas precisam cair no
+    mesmo valor de filtro que a Listagem de Habilidades usa.
+    """
+    achados = re.findall(r"\[([^\]]+)\]\([^)]*arsenal\.md#([^)\s]+)\)", arma_md)
+    vistos: dict[str, str] = {}
+    for texto, ancora in achados:
+        # Âncora desconhecida (uma seção do Arsenal que não é arma, por
+        # exemplo): cai no texto, que ao menos continua legível no filtro.
+        vistos.setdefault(ancora, nomes_de_arma.get(ancora, texto))
+    return list(vistos.items())
+
+
+def monta_card_pacote(
+    p: Pacote,
+    meta: dict[str, object],
+    indice: IndiceHabilidades,
+    sem_link: list[str],
+) -> str:
+    ident = "pac-" + slug(p.nome)
+    vertente_nome = str(meta.get("vertente", ""))
+    d20 = meta.get("d20")
+
+    linhas_trilha: list[str] = []
+    nomes_trilha: list[str] = []
+    final_nome = ""
+    for nivel, bruto in p.trilha:
+        nome, marca, alvo = resolve_habilidade(
+            bruto, slug(p.nome), indice.por_nome, indice.por_arma_grau
+        )
+        nomes_trilha.append(nome)
+        if not alvo:
+            sem_link.append(f"{p.nome} · nível {nivel} · {nome}")
+        texto = f"[{nome}](../habilidades/index.md#{alvo})" if alvo else nome
+        if marca:
+            texto += f" *({marca})*"
+        linhas_trilha.append(f"| {nivel} | {texto} |")
+        if nivel == "19":
+            final_nome = nome
+
+    armas = armas_do_campo(p.arma_md, indice.nomes_de_arma)
+    atributos = computa_atributos(p.atributo)
+
+    colunas = ""
+    for rotulo, valor in (
+        ("Arma inicial", ", ".join(n for _, n in armas) or "sem arma"),
+        ("Atributo", resume_atributo(p.atributo)),
+        ("Termina em", final_nome),
+    ):
+        if valor:
+            colunas += (
+                f'<span class="prg-card__col" data-rot="{rotulo}">'
+                f"{escapa(valor)}</span>"
+            )
+
+    chip = (
+        f'<span class="prg-chip prg-chip--vert-{slug(vertente_nome)}">'
+        f"{escapa(vertente_nome)}</span>"
+        if vertente_nome
+        else ""
+    )
+
+    # A trilha inteira entra no índice: "que pacote usa Fluxo?" tem que se
+    # responder digitando "fluxo" na busca, não só pelos menus.
+    busca = escapa(
+        sem_acento(
+            " ".join(
+                " ".join(
+                    [
+                        p.nome,
+                        p.flavor,
+                        vertente_nome,
+                        str(meta.get("conceito", "")),
+                        texto_puro(p.arma_md),
+                        p.atributo,
+                        *nomes_trilha,
+                    ]
+                ).split()
+            )
+        )
+    )
+
+    facetas = (
+        f'data-vertente="{slug(vertente_nome)}" '
+        f'data-vertente-nome="{escapa(vertente_nome)}" '
+        f'data-d20="{d20 if d20 is not None else ""}" '
+        f'data-armas="{" ".join(s for s, _ in armas) or "sem-arma"}" '
+        f'data-armas-nome="{escapa("|".join(n for _, n in armas) or "Sem arma inicial")}" '
+        f'data-atributos="{" ".join(atributos)}" '
+        f'data-final="{slug(final_nome)}" '
+        f'data-final-nome="{escapa(final_nome)}"'
+    )
+
+    corpo = [
+        f"*{p.flavor}*" if p.flavor else "",
+        "",
+        f"- **Arma inicial:** {p.arma_md}",
+        f"- **Atributo em foco:** {p.atributo}",
+        "",
+        "| Nível | Habilidade |",
+        "|---|---|",
+        *linhas_trilha,
+    ]
+
+    selo = f"nº {d20}" if d20 is not None else ""
+    return (
+        f'<div class="prg-card prg-card--pacote" id="{ident}" data-busca="{busca}" '
+        f'{facetas} markdown="block">\n'
+        f'<button class="prg-card__hd" type="button" aria-expanded="false" '
+        f'aria-controls="{ident}-bd">\n'
+        f'<span class="prg-card__nome">{escapa(p.nome)}</span>\n'
+        f'<span class="prg-card__chips">{chip}</span>\n'
+        f'<span class="prg-card__custo prg-card__d20">{escapa(selo)}</span>\n'
+        f'<span class="prg-card__seta" aria-hidden="true"></span>\n'
+        f'<span class="prg-card__cols">{colunas}</span>\n'
+        f"</button>\n"
+        f'<div class="prg-card__bd" id="{ident}-bd" markdown="1">\n\n'
+        + "\n".join(corpo)
+        + f"\n\n</div>\n</div>\n"
+    )
+
+
+def transforma_pacotes(markdown: str, docs_dir: Path) -> tuple[str, int, list[str]]:
+    """Cada `### Pacote` vira um card; o resto da página fica como está.
+
+    Retorna também a lista de pontos da trilha que ficaram sem link, pra que
+    o build possa reclamar em voz alta em vez de esconder o problema.
+    """
+    linhas = markdown.split("\n")
+    pacotes = extrai_pacotes(linhas)
+    if not pacotes:
+        return markdown, 0, []
+
+    sorteio_md = (docs_dir / "pacotes" / "sorteio.md").read_text(encoding="utf-8")
+    sorteio = extrai_sorteio(sorteio_md)
+    indice = indice_de_habilidades(docs_dir)
+
+    sem_link: list[str] = []
+    saida: list[str] = []
+    cursor = 0
+    for p in pacotes:
+        saida.extend(linhas[cursor : p.inicio])
+        saida.append(
+            monta_card_pacote(p, sorteio.get(slug(p.nome), {}), indice, sem_link)
+        )
+        cursor = p.fim
+    saida.extend(linhas[cursor:])
+
+    return "\n".join(saida), len(pacotes), sem_link
+
+
 # --------------------------------------------------------------- glossário
 
 RE_VERBETE = re.compile(r"^###\s+(.+?)\s*$")
@@ -830,7 +1146,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
     if caminho == "habilidades/index.md":
         cards, total = monta_listagem_habilidades(Path(config["docs_dir"]))
         barra = (
-            '<div class="prg-filtro" data-alvo=".prg-card">\n'
+            '<div class="prg-filtro" data-rotulo="habilidades">\n'
             '<div class="prg-filtro__linha1">\n'
             '<input type="search" class="prg-filtro__campo" '
             'placeholder="Filtrar por nome, efeito, condição…" '
@@ -845,7 +1161,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             'aria-label="Filtrar por elemento"><option value="">Todos os elementos</option></select>\n'
             '<select class="prg-filtro__select" data-faceta="arma" '
             'aria-label="Filtrar por arma"><option value="">Todas as armas</option></select>\n'
-            '<select class="prg-filtro__select" data-faceta="atributos" '
+            '<select class="prg-filtro__select" data-faceta="atributos" data-multi="1" '
             'aria-label="Filtrar por atributo"><option value="">Todos os atributos</option></select>\n'
             '<select class="prg-filtro__select" data-faceta="alvo" '
             'aria-label="Filtrar por alvo"><option value="">Todos os alvos</option></select>\n'
@@ -864,6 +1180,52 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             "</div>\n\n"
         )
         return markdown.rstrip() + "\n\n" + barra + "\n".join(cards)
+
+    if caminho == "pacotes/index.md":
+        markdown, total, sem_link = transforma_pacotes(
+            markdown, Path(config["docs_dir"])
+        )
+        if sem_link:
+            print(
+                f"[prisma] {len(sem_link)} habilidade(s) da trilha sem link: "
+                + "; ".join(sem_link)
+            )
+        barra = (
+            '<div class="prg-filtro" data-rotulo="pacotes">\n'
+            '<div class="prg-filtro__linha1">\n'
+            '<input type="search" class="prg-filtro__campo" '
+            'placeholder="Filtrar por nome, conceito, habilidade da trilha…" '
+            'aria-label="Filtrar pacotes">\n'
+            '<span class="prg-filtro__contagem"></span>\n'
+            '<button type="button" class="prg-filtro__tudo">Expandir tudo</button>\n'
+            "</div>\n"
+            '<div class="prg-filtro__linha2">\n'
+            '<select class="prg-filtro__select" data-faceta="vertente" '
+            'aria-label="Filtrar por vertente">'
+            "<option value=\"\">Todas as vertentes</option></select>\n"
+            '<select class="prg-filtro__select" data-faceta="armas" data-multi="1" '
+            'aria-label="Filtrar por arma inicial">'
+            "<option value=\"\">Todas as armas iniciais</option></select>\n"
+            '<select class="prg-filtro__select" data-faceta="atributos" data-multi="1" '
+            'aria-label="Filtrar por atributo em foco">'
+            "<option value=\"\">Todos os atributos</option></select>\n"
+            '<select class="prg-filtro__select" data-faceta="final" '
+            'aria-label="Filtrar pela habilidade de nível 19">'
+            "<option value=\"\">Termina em qualquer coisa</option></select>\n"
+            "</div>\n"
+            '<div class="prg-filtro__linha3">\n'
+            '<select class="prg-filtro__sorteio-vertente" '
+            'aria-label="Vertente do sorteio">'
+            "<option value=\"\">Qualquer vertente</option></select>\n"
+            '<button type="button" class="prg-filtro__sortear">Sortear pacote (1d20)'
+            "</button>\n"
+            '<span class="prg-filtro__sorteio-saida" role="status"></span>\n'
+            "</div>\n"
+            "</div>\n\n"
+        )
+        marca = '<div class="prg-card prg-card--pacote"'
+        corte = markdown.find(marca)
+        return markdown[:corte] + barra + markdown[corte:] if corte != -1 else markdown
 
     if caminho == "jogador/arsenal.md":
         markdown, total = ponteiros_no_arsenal(markdown, "../habilidades/index.md")
