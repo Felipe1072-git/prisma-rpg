@@ -27,7 +27,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
@@ -74,7 +74,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa, e o usuário se desloca até 2 casas em direção ao alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
@@ -86,7 +86,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
@@ -98,7 +98,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + derruba o alvo, e o usuário se desloca até o alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo + alvo perde a próxima Reação
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
@@ -110,7 +110,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
 - **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -122,7 +122,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
@@ -134,7 +134,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -146,7 +146,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 2 criaturas diferentes
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o primeiro alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -158,7 +158,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
 - **Atributo:** Força ou Agilidade | **Alvos:** até 4 criaturas à escolha, ao alcance do Movimento
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Efeito adicional:** se esta habilidade derrubar pelo menos 1 alvo, o usuário recupera **1 Mana**
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
@@ -361,7 +361,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
@@ -373,7 +373,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado), rolado 2 vezes
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado), rolado 2 vezes
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 2x dano desarmado + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2x dano desarmado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2x dano desarmado + derruba o alvo, e ele perde a próxima Reação
@@ -385,7 +385,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
 - **Atributo:** Força ou Agilidade | **Alvos:** 2 casas de raio ao redor do usuário
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -397,7 +397,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + alvo perde a próxima Reação + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** **2x** dano desarmado + derruba o alvo, e ele perde a próxima Reação
@@ -409,7 +409,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
 - **Atributo:** Força ou Agilidade | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 2 casas, e o usuário se desloca até o alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
@@ -421,7 +421,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + alvo fica [Marcado](../glossario.md#marcado), e o usuário se desloca pra trás do alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + Marcado + empurra 1 casa
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + Marcado + empurra 3 casas e derruba o alvo
@@ -433,7 +433,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + usuário ganha Escudo de 1d4 pontos
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo + usuário ganha Escudo de 1d4 pontos
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo + usuário ganha Escudo de 1d4 pontos, e ele perde a próxima Reação

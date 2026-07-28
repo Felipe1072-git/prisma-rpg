@@ -10,7 +10,7 @@ Criatura não é personagem: ela não sobe de nível, não distribui pontos e n�
 |---|---|---|---|---|---|
 | **Comum** | 6 | 8 | ◈ (1) | só os atributos relevantes | custo fixo |
 | **Treinado** | 8 | 25 | ◈◈ (2) | só os atributos relevantes | custo fixo |
-| **Formidável** | 10 | 60 | ◈◈◈ (3) | os 8 atributos | com [Intensidade](../habilidades/index.md#intensidade) + Mana |
+| **Formidável** | 10 | 60 | ◈◈◈ (3) | os 8 atributos | com [Intensidade](../habilidades/regras.md#intensidade) + Mana |
 | **Lendário** | 14 | 180 | ◈◈◈ (3) + Ação de Lenda | os 8 atributos | com Intensidade + Mana |
 
 ### Como resolver o ataque de uma criatura
@@ -90,7 +90,7 @@ O bônus que faltava ser definido na [tabela de Defesa](../jogador/sistema-d20.m
 
 **Comum e Treinado** têm ataques de **custo fixo**, sem Mana: o Mestre lê a linha e rola. É o que permite rodar oito capangas sem administrar oito reservas de recurso.
 
-**Formidável e Lendário** são chefes: têm **Mana** e usam [Intensidade](../habilidades/index.md#intensidade) como um jogador — o Mestre decide se gasta 1 PA num golpe rápido ou queima o turno inteiro numa Intensidade III. É onde a decisão tática vale a pena, porque é uma criatura só.
+**Formidável e Lendário** são chefes: têm **Mana** e usam [Intensidade](../habilidades/regras.md#intensidade) como um jogador — o Mestre decide se gasta 1 PA num golpe rápido ou queima o turno inteiro numa Intensidade III. É onde a decisão tática vale a pena, porque é uma criatura só.
 
 ### Ação de Lenda
 
@@ -302,7 +302,7 @@ Defesa física 4 é de propósito: o Slime é lento e não desvia de nada. **Ace
 
 *Ainda não voa bem. Já queima tudo.*
 
-Primeiro chefe do Bestiário: usa **Mana e [Intensidade](../habilidades/index.md#intensidade)**, e o Mestre decide quanto investir em cada turno, como um jogador faria.
+Primeiro chefe do Bestiário: usa **Mana e [Intensidade](../habilidades/regras.md#intensidade)**, e o Mestre decide quanto investir em cada turno, como um jogador faria.
 
 - **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈ (3) | **Mana:** 20 | **Iniciativa:** +0
 - **Ataque:** +3 | **Defesa física:** 15 | **Defesa mental:** 12
@@ -316,7 +316,7 @@ Primeiro chefe do Bestiário: usa **Mana e [Intensidade](../habilidades/index.md
 
 **Baforada** — +3 vs Defesa física | cone de 3 casas à frente
 
-Assinatura do elemento [Fogo](../habilidades/magicas-elementais.md#fogo): quem é atingido pega fogo e continua queimando. O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alvo dentro do cone. Como toda habilidade, [a área não muda com a Intensidade](../habilidades/index.md#intensidade) — o que cresce é o fogo.
+Assinatura do elemento [Fogo](../habilidades/magicas-elementais.md#fogo): quem é atingido pega fogo e continua queimando. O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alvo dentro do cone. Como toda habilidade, [a área não muda com a Intensidade](../habilidades/regras.md#intensidade) — o que cresce é o fogo.
 
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** **2d6** de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a cada alvo

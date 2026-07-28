@@ -6,7 +6,7 @@ Cada arma concede acesso a 3 habilidades, em ordem de aprendizado:
 2. **Habilidade Avançada**
 3. **Habilidade Especial**
 
-O grau **não** define o custo — cada uma das três é uma habilidade completa, com suas próprias [Intensidades](../habilidades/index.md#intensidade) I/II/III (◈, ◈◈, ◈◈◈). O que o grau define é **o quanto a técnica entrega** por Intensidade: a Básica atinge um alvo, a Especial costuma atingir uma área ou impor condições severas. O custo em Mana também sobe com o grau, então o investimento na arma fica visível na ficha:
+O grau **não** define o custo — cada uma das três é uma habilidade completa, com suas próprias [Intensidades](../habilidades/regras.md#intensidade) I/II/III (◈, ◈◈, ◈◈◈). O que o grau define é **o quanto a técnica entrega** por Intensidade: a Básica atinge um alvo, a Especial costuma atingir uma área ou impor condições severas. O custo em Mana também sobe com o grau, então o investimento na arma fica visível na ficha:
 
 | Grau | Intensidade I (◈) | Intensidade II (◈◈) | Intensidade III (◈◈◈) |
 |---|---|---|---|---|
@@ -2642,7 +2642,7 @@ Dano: **1d4**
 
 ## Resolução de Ataque
 
-Toda habilidade de arma segue a resolução padrão de [Habilidade](../habilidades/index.md#ficha-de-habilidade) — resumindo:
+Toda habilidade de arma segue a resolução padrão de [Habilidade](../habilidades/regras.md#ficha-de-habilidade) — resumindo:
 
 1. Escolha a **Intensidade** (I, II ou III) e pague o PA + Mana dela.
 2. Role **d20 + Atributo da arma** (cada habilidade de arma já declara qual — Marciais tipicamente Força, Pontaria sempre Agilidade, Arcano sempre Inteligência, com exceções pra Finesse/Híbrida, ver [Propriedades de Arma](#propriedades-de-arma) acima).

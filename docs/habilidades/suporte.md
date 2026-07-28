@@ -35,7 +35,7 @@ Cura e apoio a aliados.
 - **11–16:** falha, mas o espírito ainda está por perto — outra tentativa (de qualquer fonte) ainda pode salvá-lo antes do fim da cena
 - **≥ 17:** sucesso — o aliado revive com 20% da Vida máxima
 - **Crítico (20 natural):** sucesso — o aliado revive com 50% da Vida máxima
-- *(Sem Intensidade — o d20 aqui decide o **resultado** da ressurreição, não a potência dela. Ver [Habilidades com Tiers de Resultado](index.md#habilidades-com-tiers-de-resultado))*
+- *(Sem Intensidade — o d20 aqui decide o **resultado** da ressurreição, não a potência dela. Ver [Habilidades com Tiers de Resultado](regras.md#habilidades-com-tiers-de-resultado))*
 
 **Glória**
 

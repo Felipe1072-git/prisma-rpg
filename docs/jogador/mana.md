@@ -17,7 +17,7 @@ Ver [Descanso](../mestre/exploracao.md#descanso) para o que mais cada um recuper
 
 ## Escala de Mana por Intensidade
 
-Mana e Pontos de Ação sobem **juntos** com a [Intensidade](../habilidades/index.md#intensidade): empurrar uma habilidade mais longe consome mais do turno *e* mais Mana. A Intensidade I de qualquer habilidade é sempre barata; a III pesa de verdade no orçamento.
+Mana e Pontos de Ação sobem **juntos** com a [Intensidade](../habilidades/regras.md#intensidade): empurrar uma habilidade mais longe consome mais do turno *e* mais Mana. A Intensidade I de qualquer habilidade é sempre barata; a III pesa de verdade no orçamento.
 
 **Habilidades de arma** seguem uma escala fixa pelo grau, então o investimento na arma continua visível — uma Especial custa mais que uma Básica na mesma Intensidade:
 
@@ -29,7 +29,7 @@ Mana e Pontos de Ação sobem **juntos** com a [Intensidade](../habilidades/inde
 
 **Habilidades gerais de grupo** usam a escala regular **1 / 3 / 6 Mana**. As que foram precificadas acima disso (por serem mais fortes que a média do grupo) mantêm o próprio custo e escalam em passos de **+3 Mana por Intensidade** — ex: 2/5/8, 3/6/9, 4/7/10.
 
-Habilidades de **Custo fixo** (áreas de raio 3+, Supremas, e efeitos absolutos sem degrau) cobram o valor da Intensidade III, já que entregam o efeito completo. **Buffs, cura e mobilidade têm Intensidade normalmente** — o que escala é o tamanho do efeito (ver [Buffs, Suporte e Mobilidade também têm Intensidade](../habilidades/index.md#buffs-suporte-e-mobilidade-tambem-tem-intensidade)); só ficam com Custo fixo os que não têm nada pra graduar. Habilidades **dedicadas a Reação** custam 0 PA e só Mana (ver [Pontos de Ação](pontos-de-acao.md)).
+Habilidades de **Custo fixo** (áreas de raio 3+, Supremas, e efeitos absolutos sem degrau) cobram o valor da Intensidade III, já que entregam o efeito completo. **Buffs, cura e mobilidade têm Intensidade normalmente** — o que escala é o tamanho do efeito (ver [Buffs, Suporte e Mobilidade também têm Intensidade](../habilidades/regras.md#buffs-suporte-e-mobilidade-tambem-tem-intensidade)); só ficam com Custo fixo os que não têm nada pra graduar. Habilidades **dedicadas a Reação** custam 0 PA e só Mana (ver [Pontos de Ação](pontos-de-acao.md)).
 
 ## Grau de Poder
 

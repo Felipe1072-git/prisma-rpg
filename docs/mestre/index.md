@@ -1,6 +1,6 @@
 # Livro do Mestre
 
-Ferramentas pra conduzir a mesa: criaturas, dificuldades, e como montar um combate que funcione com o sistema de [Intensidade](../habilidades/index.md#intensidade).
+Ferramentas pra conduzir a mesa: criaturas, dificuldades, e como montar um combate que funcione com o sistema de [Intensidade](../habilidades/regras.md#intensidade).
 
 ## Conteúdo
 

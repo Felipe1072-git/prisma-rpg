@@ -10,7 +10,7 @@ Um personagem de nível 1 é composto por:
 4. **1ª Habilidade** — de qualquer grupo, inclusive a Básica de uma arma (ver [Progressão de Nível](#progressao-de-nivel) abaixo).
 5. **Equipamento inicial** — a arma (ou armas) que o personagem carrega fisicamente, escolhida livremente e **gratuita** — desde que ele atenda o [Requisito de Atributo](arsenal.md#requisito-de-atributo-minimo) dela (frequentemente sugerida por um [Pacote](../pacotes/index.md)). Além dela, **50 de prata** pra comprar armadura, escudo e equipamento no [Arsenal](arsenal.md).
 
-**Ter uma arma em mãos e saber uma técnica nomeada dela são coisas diferentes.** Qualquer arma equipada pode ser usada com **Ataque Básico** (dano da arma, sem nenhum efeito extra — ver [Pontos de Ação](pontos-de-acao.md)), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade daquela arma. Aprender a Habilidade Básica de uma arma (gastando uma escolha de nível) é o que desbloqueia a técnica nomeada e as três [Intensidades](../habilidades/index.md#intensidade) dela — e é sempre o primeiro passo: a Avançada e a Especial de uma arma só podem ser aprendidas depois da Básica (e da Avançada, respectivamente) daquela mesma arma (ver "Aprendizado progressivo" no topo do [Arsenal](arsenal.md)).
+**Ter uma arma em mãos e saber uma técnica nomeada dela são coisas diferentes.** Qualquer arma equipada pode ser usada com **Ataque Básico** (dano da arma, sem nenhum efeito extra — ver [Pontos de Ação](pontos-de-acao.md)), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade daquela arma. Aprender a Habilidade Básica de uma arma (gastando uma escolha de nível) é o que desbloqueia a técnica nomeada e as três [Intensidades](../habilidades/regras.md#intensidade) dela — e é sempre o primeiro passo: a Avançada e a Especial de uma arma só podem ser aprendidas depois da Básica (e da Avançada, respectivamente) daquela mesma arma (ver "Aprendizado progressivo" no topo do [Arsenal](arsenal.md)).
 
 ## Atributos
 
@@ -54,7 +54,7 @@ O grupo escolhe um dos três métodos abaixo pra distribuir os atributos iniciai
 
 O jogo tem **20 níveis**. O personagem ganha, alternando a cada nível:
 
-- **Nível ímpar** — uma **nova Habilidade**, de qualquer [grupo](../habilidades/index.md#grupos)
+- **Nível ímpar** — uma **nova Habilidade**, de qualquer [grupo](../habilidades/regras.md#grupos)
 - **Nível par** — **+1 ponto de Atributo**, a distribuir livremente entre os 8 atributos
 
 | Nível | Ganho |
@@ -88,7 +88,7 @@ Vida e Mana crescem automaticamente todo nível, independente dessa tabela — v
 
 Um teste é resolvido como **d20 + Atributo vs Dificuldade (DC)** definida pelo Mestre. Igualar ou superar a DC é sucesso.
 
-Rolagens de Habilidade usam exatamente a mesma lógica, trocando a DC pela Defesa do alvo — igualou ou superou, acertou. O quanto a habilidade faz **não depende da rolagem**: depende da [Intensidade](../habilidades/index.md#intensidade) que o jogador pagou.
+Rolagens de Habilidade usam exatamente a mesma lógica, trocando a DC pela Defesa do alvo — igualou ou superou, acertou. O quanto a habilidade faz **não depende da rolagem**: depende da [Intensidade](../habilidades/regras.md#intensidade) que o jogador pagou.
 
 ### Iniciativa
 
@@ -161,7 +161,7 @@ Um personagem Caído pode escolher **não resistir**. Em vez de rolar contra a m
 Declarado no início de um turno dele enquanto estiver Caído, o Último Turno funciona assim:
 
 - Ele **se levanta e joga um turno completo**: 3 PA, Mana, habilidades, tudo. Ainda rola pra acertar normalmente.
-- **Todo sucesso é tratado como Crítico** — dano máximo, rolagem extra e [sobe 1 Intensidade de graça](../habilidades/index.md#resolucao), mesmo sem tirar 20.
+- **Todo sucesso é tratado como Crítico** — dano máximo, rolagem extra e [sobe 1 Intensidade de graça](../habilidades/regras.md#resolucao), mesmo sem tirar 20.
 - **Toda falha é tratada como falha crítica** — não há acerto raspado; o que dá errado, dá errado por completo.
 - **Nenhuma cura funciona nele** durante o Último Turno. Não há como voltar atrás depois de declarar.
 - **Ao fim do turno, o personagem morre.** Sem rolagem, sem resistência, sem chance. Foi o preço.
@@ -215,7 +215,7 @@ Não existe rolagem de defesa: quem está sendo atacado não rola nada, seu núm
 
 Essa lista não é fechada — cresce conforme habilidades novas pedirem.
 
-A Defesa decide **se** o golpe acerta, nunca o quanto ele faz — isso já foi decidido pela [Intensidade](../habilidades/index.md#intensidade) paga. Por isso a Defesa do alvo pesa na escolha de quanto investir: contra um alvo Lendário (Base 14 + atributo), gastar 3 PA e o Mana de uma Intensidade III num único ataque é uma aposta alta — se errar, perde tudo e o turno inteiro. Contra alvos Comuns, a mesma Intensidade III praticamente não erra.
+A Defesa decide **se** o golpe acerta, nunca o quanto ele faz — isso já foi decidido pela [Intensidade](../habilidades/regras.md#intensidade) paga. Por isso a Defesa do alvo pesa na escolha de quanto investir: contra um alvo Lendário (Base 14 + atributo), gastar 3 PA e o Mana de uma Intensidade III num único ataque é uma aposta alta — se errar, perde tudo e o turno inteiro. Contra alvos Comuns, a mesma Intensidade III praticamente não erra.
 
 ### Tipos de Dano
 

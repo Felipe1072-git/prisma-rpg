@@ -8,7 +8,7 @@ O Prisma RPG é um d20 de mesa sem classes. Você não escolhe ser guerreiro ou 
 
 **Magia e técnica são a mesma coisa.** Não há "sistema de magia" separado. Um golpe de espada e uma bola de fogo têm a mesma ficha, o mesmo custo em [Mana](mana.md) e a mesma forma de resolver. A diferença entre o guerreiro e o mago é qual atributo eles usam, não qual conjunto de regras.
 
-**A rolagem não decide o quanto o golpe faz.** Isso é o que mais estranha quem vem de outro d20. Aqui o d20 responde só *"acertou ou não"* — e o quanto o ataque entrega você decidiu **antes de rolar**, ao escolher a [Intensidade](../habilidades/index.md#intensidade).
+**A rolagem não decide o quanto o golpe faz.** Isso é o que mais estranha quem vem de outro d20. Aqui o d20 responde só *"acertou ou não"* — e o quanto o ataque entrega você decidiu **antes de rolar**, ao escolher a [Intensidade](../habilidades/regras.md#intensidade).
 
 ## Como funciona um turno
 

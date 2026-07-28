@@ -77,18 +77,8 @@ nav:
     - Origem: jogador/origem.md
     - Tocado: jogador/tocado.md
     - Arsenal: jogador/arsenal.md
-  - Habilidades:
-    - Visão Geral: habilidades/index.md
-    - Marciais: habilidades/marciais.md
-    - Pontaria: habilidades/pontaria.md
-    - Mágicas Básicas: habilidades/magicas-basicas.md
-    - Mágicas por Elemento: habilidades/magicas-elementais.md
-    - Sociais: habilidades/sociais.md
-    - Infiltração: habilidades/infiltracao.md
-    - Mobilidade: habilidades/mobilidade.md
-    - Buff: habilidades/buff.md
-    - Debuff: habilidades/debuff.md
-    - Suporte: habilidades/suporte.md
+  - Habilidades: habilidades/index.md
+  - Regras de Habilidade: habilidades/regras.md
   - Pacotes: pacotes/index.md
   - Raças: racas/index.md
   - Livro do Mestre:

@@ -89,6 +89,58 @@
       .replace(/[\u0300-\u036f]/g, "");
   }
 
+  // Rótulos fixos pras facetas de vocabulário pequeno e conhecido — arma é a
+  // única faceta com rótulo dinâmico (data-arma-nome), porque são 62 valores.
+  var RESUMO_GRUPO = {
+    marciais: "Marciais", pontaria: "Pontaria", arcano: "Arcano (foco mágico)",
+    "magicas-basicas": "Mágicas Básicas", "magicas-elementais": "Mágicas por Elemento",
+    sociais: "Sociais", infiltracao: "Infiltração", mobilidade: "Mobilidade",
+    buff: "Buff", debuff: "Debuff", suporte: "Suporte"
+  };
+  var RESUMO_ELEMENTO = {
+    fogo: "Fogo", gelo: "Gelo", terra: "Terra", raio: "Raio", vento: "Vento",
+    agua: "Água", luz: "Luz", sombras: "Sombras", veneno: "Veneno",
+    sangue: "Sangue", "espaco-tempo": "Espaço-Tempo"
+  };
+  var RESUMO_ATRIBUTO = {
+    forca: "Força", agilidade: "Agilidade", inteligencia: "Inteligência",
+    sabedoria: "Sabedoria", vontade: "Vontade"
+  };
+  var RESUMO_ALVO = {
+    unico: "Um alvo", area: "Área", "si-mesmo": "Você mesmo",
+    "linha-cone": "Linha ou cone", adjacentes: "Adjacentes", aliados: "Aliados"
+  };
+
+  function preencheSelect(select, valores) {
+    // valores: [[value, label], ...] já ordenado
+    valores.forEach(function (par) {
+      var opt = document.createElement("option");
+      opt.value = par[0];
+      opt.textContent = par[1];
+      select.appendChild(opt);
+    });
+  }
+
+  function coletaFaceta(cards, campo) {
+    var vistos = {};
+    cards.forEach(function (card) {
+      var v = card.dataset[campo];
+      if (v) vistos[v] = true;
+    });
+    return Object.keys(vistos);
+  }
+
+  function coletaFacetaMultipla(cards, campo) {
+    // pra data-atributos, que guarda vários valores separados por espaço
+    var vistos = {};
+    cards.forEach(function (card) {
+      var v = card.dataset[campo];
+      if (!v) return;
+      v.split(" ").forEach(function (item) { if (item) vistos[item] = true; });
+    });
+    return Object.keys(vistos);
+  }
+
   function iniciaFiltro() {
     var barra = document.querySelector(".prg-filtro");
     if (!barra) return;
@@ -96,13 +148,96 @@
     var campo = barra.querySelector(".prg-filtro__campo");
     var contagem = barra.querySelector(".prg-filtro__contagem");
     var botao = barra.querySelector(".prg-filtro__tudo");
+    var selectGrupo = barra.querySelector('[data-faceta="grupo"]');
+    var selectElemento = barra.querySelector('[data-faceta="elemento"]');
+    var selectArma = barra.querySelector('[data-faceta="arma"]');
+    var selectAtributo = barra.querySelector('[data-faceta="atributos"]');
+    var selectAlvo = barra.querySelector('[data-faceta="alvo"]');
+    var sliderMana = barra.querySelector(".prg-filtro__mana-slider");
+    var valorMana = barra.querySelector(".prg-filtro__mana-valor");
+    var checkDesarmado = barra.querySelector(".prg-filtro__desarmado-campo");
     var cards = Array.prototype.slice.call(document.querySelectorAll(".prg-card"));
+
+    // --- popula os selects a partir do que de fato existe nos cards ---
+
+    if (selectGrupo) {
+      var grupos = coletaFaceta(cards, "grupo").sort(function (a, b) {
+        return (RESUMO_GRUPO[a] || a).localeCompare(RESUMO_GRUPO[b] || b, "pt-BR");
+      });
+      preencheSelect(selectGrupo, grupos.map(function (g) { return [g, RESUMO_GRUPO[g] || g]; }));
+    }
+
+    if (selectElemento) {
+      var elementos = coletaFaceta(cards, "elemento").sort(function (a, b) {
+        return (RESUMO_ELEMENTO[a] || a).localeCompare(RESUMO_ELEMENTO[b] || b, "pt-BR");
+      });
+      preencheSelect(selectElemento, elementos.map(function (e) { return [e, RESUMO_ELEMENTO[e] || e]; }));
+    }
+
+    if (selectArma) {
+      var nomesArma = {};
+      cards.forEach(function (card) {
+        var a = card.dataset.arma;
+        if (a && !nomesArma[a]) nomesArma[a] = card.dataset.armaNome || a;
+      });
+      var armas = Object.keys(nomesArma).sort(function (a, b) {
+        return nomesArma[a].localeCompare(nomesArma[b], "pt-BR");
+      });
+      preencheSelect(selectArma, armas.map(function (a) { return [a, nomesArma[a]]; }));
+    }
+
+    if (selectAtributo) {
+      var atributos = coletaFacetaMultipla(cards, "atributos").sort(function (a, b) {
+        return (RESUMO_ATRIBUTO[a] || a).localeCompare(RESUMO_ATRIBUTO[b] || b, "pt-BR");
+      });
+      preencheSelect(selectAtributo, atributos.map(function (a) { return [a, RESUMO_ATRIBUTO[a] || a]; }));
+    }
+
+    if (selectAlvo) {
+      var alvos = coletaFaceta(cards, "alvo").sort(function (a, b) {
+        return (RESUMO_ALVO[a] || a).localeCompare(RESUMO_ALVO[b] || b, "pt-BR");
+      });
+      preencheSelect(selectAlvo, alvos.map(function (a) { return [a, RESUMO_ALVO[a] || a]; }));
+    }
+
+    // Mana: o teto do slider é o maior custo mínimo realmente usado — assim
+    // o slider no máximo sempre mostra tudo, sem precisar hardcodar um valor
+    // que desatualiza se o conteúdo mudar.
+    var manaMaxima = 0;
+    cards.forEach(function (card) {
+      var m = card.dataset.manaMin;
+      if (m !== "" && m !== undefined) manaMaxima = Math.max(manaMaxima, Number(m));
+    });
+    if (sliderMana) {
+      sliderMana.max = String(manaMaxima);
+      sliderMana.value = String(manaMaxima);
+      if (valorMana) valorMana.textContent = String(manaMaxima);
+    }
 
     function atualiza() {
       var termo = normaliza(campo.value.trim());
+      var grupo = selectGrupo ? selectGrupo.value : "";
+      var elemento = selectElemento ? selectElemento.value : "";
+      var arma = selectArma ? selectArma.value : "";
+      var atributo = selectAtributo ? selectAtributo.value : "";
+      var alvo = selectAlvo ? selectAlvo.value : "";
+      var manaDisponivel = sliderMana ? Number(sliderMana.value) : Infinity;
+      var soDesarmado = checkDesarmado ? checkDesarmado.checked : false;
+
       var visiveis = 0;
       cards.forEach(function (card) {
-        var bate = !termo || (card.dataset.busca || "").indexOf(termo) !== -1;
+        var d = card.dataset;
+        var bate = !termo || (d.busca || "").indexOf(termo) !== -1;
+        if (bate && grupo) bate = d.grupo === grupo;
+        if (bate && elemento) bate = d.elemento === elemento;
+        if (bate && arma) bate = d.arma === arma;
+        if (bate && atributo) bate = (d.atributos || "").split(" ").indexOf(atributo) !== -1;
+        if (bate && alvo) bate = d.alvo === alvo;
+        if (bate && soDesarmado) bate = d.desarmado === "1";
+        // Sem mana-min = custa Vida, não Mana — cabe em qualquer orçamento.
+        if (bate && d.manaMin !== "" && d.manaMin !== undefined) {
+          bate = Number(d.manaMin) <= manaDisponivel;
+        }
         card.classList.toggle("is-oculto", !bate);
         if (bate) visiveis++;
       });
@@ -116,6 +251,19 @@
     campo.addEventListener("keydown", function (e) {
       if (e.key === "Escape") { campo.value = ""; atualiza(); }
     });
+
+    [selectGrupo, selectElemento, selectArma, selectAtributo, selectAlvo].forEach(function (sel) {
+      if (sel) sel.addEventListener("change", atualiza);
+    });
+
+    if (sliderMana) {
+      sliderMana.addEventListener("input", function () {
+        if (valorMana) valorMana.textContent = sliderMana.value;
+        atualiza();
+      });
+    }
+
+    if (checkDesarmado) checkDesarmado.addEventListener("change", atualiza);
 
     botao.addEventListener("click", function () {
       var abrir = botao.dataset.estado !== "aberto";
