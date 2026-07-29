@@ -73,7 +73,7 @@ As DCs vêm da [tabela de Dificuldades](../mestre/testes.md#a-tabela) — estrad
 
 ## Clima extremo
 
-Duas origens do jogo já concedem resistência a isso ([Deserto](../jogador/origem.md#ambiente-de-origem) e Tundra), então a regra precisa existir pra que o traço signifique algo.
+Duas origens do jogo já concedem resistência a isso ([Deserto](../origens/index.md#ori-ambiente-de-origem-deserto) e [Tundra](../origens/index.md#ori-ambiente-de-origem-tundra)), então a regra precisa existir pra que o traço signifique algo.
 
 | Clima | Sem proteção adequada |
 |---|---|
@@ -85,7 +85,7 @@ Duas origens do jogo já concedem resistência a isso ([Deserto](../jogador/orig
 
 ## Água
 
-A regra que vários traços de [Raça](../racas/index.md) e [Origem](../jogador/origem.md) modificam (Marinheiro, Costa, Pântano, Ilha, Sereia, Golfinho, Respiração Aquática):
+A regra que vários traços de [Raça](../racas/index.md) e [Origem](../origens/index.md) modificam (Marinheiro, Costa, Pântano, Ilha, Sereia, Golfinho, Respiração Aquática):
 
 - **Nadar:** água funda é [Terreno Difícil](../glossario.md#terreno-dificil) — cada casa custa o dobro de [Movimento](combate.md#movimento). Traços de "sem penalidade em água" ignoram esse pedágio; bônus como "+4 de Movimento na água" somam por cima.
 - **Fôlego:** debaixo d'água, um personagem aguenta **1 + Vitalidade** rodadas (mínimo 1) antes de começar a se afogar. Afogando, sofre **1 grau de [Exausto](../glossario.md#exausto) por rodada** até respirar — quem chega ao grau 3 desmaia e passa a rolar como [Caído](dano-e-cura.md#chegando-a-0-de-vida). Quem respira na água ignora tudo isso.

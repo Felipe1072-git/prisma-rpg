@@ -4,7 +4,7 @@ Quantas criaturas colocar na sala, e por quê.
 
 ## Pontos de Ameaça
 
-Cada criatura vale pontos conforme o [Tier](bestiario.md#como-ler-uma-ficha-de-criatura). Some os pontos do encontro e compare com o orçamento do grupo:
+Cada criatura vale pontos conforme o [Tier](../mestre/criando-criaturas.md#como-ler-uma-ficha-de-criatura). Some os pontos do encontro e compare com o orçamento do grupo:
 
 | Tier | Pontos |
 |---|---|
@@ -78,18 +78,18 @@ Montados com o orçamento acima, para um grupo de 4.
 
 **Emboscada na Estrada** — nível 1–2, Padrão (8 pontos)
 
-- 2 [Bandidos](bestiario.md#bandido) (6) + 2 [Lobos](bestiario.md#lobo) (2). Os Lobos correm 5 casas e vão atrás de quem se afastou; os Bandidos usam Recuar e Atirar pra manter distância. Ensina posicionamento sem punir demais.
+- 2 [Bandidos](../mestre/bestiario.md#bes-bandido) (6) + 2 [Lobos](../mestre/bestiario.md#bes-lobo) (2). Os Lobos correm 5 casas e vão atrás de quem se afastou; os Bandidos usam Recuar e Atirar pra manter distância. Ensina posicionamento sem punir demais.
 
 **Cripta Rasa** — nível 3–5, Difícil (12 pontos)
 
 *(Nos exemplos, use a [Vida da faixa](#vida-por-faixa-de-nivel) em que o grupo realmente está — as fichas do Bestiário valem pro nível 1-4; na metade de cima da faixa anunciada, ajuste.)*
 
-- 4 [Esqueletos](bestiario.md#esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano) na prática.
+- 4 [Esqueletos](../mestre/bestiario.md#bes-esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano) na prática.
 
 **Ninho** — nível 4–6, Mortal (16 pontos)
 
-- 1 [Dragão Filhote](bestiario.md#dragao-filhote) (8) + 8 [Goblins](bestiario.md#goblin) (8) que o servem. Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. Chefe escoltado, do jeito certo.
+- 1 [Dragão Filhote](../mestre/bestiario.md#bes-dragao-filhote) (8) + 8 [Goblins](../mestre/bestiario.md#bes-goblin) (8) que o servem. Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. Chefe escoltado, do jeito certo.
 
 **O Poço** — nível 2–4, **Leve no papel (3 pontos), Difícil na prática**
 
-- 3 [Slimes](bestiario.md#slime) num corredor estreito. É o encontro que mostra o limite dos Pontos de Ameaça: cada golpe **cortante ou perfurante** divide o Slime, então um grupo de espadachins termina lutando contra oito criaturas em vez de três. Quem trouxe martelo passa fácil. Sempre que uma criatura se multiplica, se cura ou revive, os pontos subestimam o encontro — conte o dobro.
+- 3 [Slimes](../mestre/bestiario.md#bes-slime) num corredor estreito. É o encontro que mostra o limite dos Pontos de Ameaça: cada golpe **cortante ou perfurante** divide o Slime, então um grupo de espadachins termina lutando contra oito criaturas em vez de três. Quem trouxe martelo passa fácil. Sempre que uma criatura se multiplica, se cura ou revive, os pontos subestimam o encontro — conte o dobro.

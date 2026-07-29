@@ -98,7 +98,7 @@ Perde **1d4 de Vida por acúmulo** no início de cada turno dele, até ser curad
 Pontos temporários que **absorvem dano** antes da Vida. Não acumulam com outro Escudo — vale o maior. Substituir um Escudo por outro maior **não** remove os demais efeitos do buff original (retaliação, anti-derrubar etc.), que valem pela duração declarada dele.
 
 !!! regra "Escudo (condição) ≠ Escudo (item)"
-    O **item** Escudo ([Arsenal → Escudos](jogador/arsenal.md#escudos)) dá bônus passivo de **Defesa**. A **condição** Escudo dá pontos que absorvem dano. Quando uma habilidade diz "ignora bônus de Escudo", refere-se ao **item**; quando diz "ganha um Escudo de Xd6", é a condição.
+    O **item** Escudo ([Arsenal → Escudos](equipamento/index.md#equ-escudo-leve)) dá bônus passivo de **Defesa**. A **condição** Escudo dá pontos que absorvem dano. Quando uma habilidade diz "ignora bônus de Escudo", refere-se ao **item**; quando diz "ganha um Escudo de Xd6", é a condição.
 
 ### Exausto
 
@@ -175,7 +175,7 @@ O dano daquele tipo é **dobrado** — espelho da Resistência. É o que recompe
 
 ## Graus de Habilidade de Arma
 
-Toda arma concede 3 habilidades, aprendidas nessa ordem obrigatória (ver [Arsenal](jogador/arsenal.md)). O grau **não** define o custo — cada uma tem suas próprias [Intensidades](habilidades/regras.md#intensidade) I/II/III. O que o grau define é o quanto a técnica entrega e o quanto de Mana ela cobra:
+Toda arma concede 3 habilidades, aprendidas nessa ordem obrigatória (ver [Arsenal](equipamento/index.md)). O grau **não** define o custo — cada uma tem suas próprias [Intensidades](habilidades/regras.md#intensidade) I/II/III. O que o grau define é o quanto a técnica entrega e o quanto de Mana ela cobra:
 
 ### Básica
 
@@ -196,273 +196,273 @@ A habilidade mais poderosa da arma — dano alto, condição severa e frequentem
 
 ### Espada
 
-Arma marcial, dano 1d8. Ver [Arsenal → Espada](jogador/arsenal.md#espada).
+Arma marcial, dano 1d8. Ver [Arsenal → Espada](equipamento/index.md#equ-espada).
 
 ### Lança
 
-Arma marcial de alcance, dano 1d10. Ver [Arsenal → Lança](jogador/arsenal.md#lanca).
+Arma marcial de alcance, dano 1d10. Ver [Arsenal → Lança](equipamento/index.md#equ-lanca).
 
 ### Montante
 
-Arma marcial pesada de duas mãos, dano 1d12. Ver [Arsenal → Montante](jogador/arsenal.md#montante).
+Arma marcial pesada de duas mãos, dano 1d12. Ver [Arsenal → Montante](equipamento/index.md#equ-montante).
 
 ### Sabres
 
-Par de lâminas leves, dano 1d6. Ver [Arsenal → Sabres](jogador/arsenal.md#sabres).
+Par de lâminas leves, dano 1d6. Ver [Arsenal → Sabres](equipamento/index.md#equ-sabres).
 
 ### Arco
 
-Arma de pontaria, dano 1d8. Ver [Arsenal → Arco](jogador/arsenal.md#arco).
+Arma de pontaria, dano 1d8. Ver [Arsenal → Arco](equipamento/index.md#equ-arco).
 
 ### Bestas
 
-Par de bestas leves, dano 1d6. Ver [Arsenal → Bestas](jogador/arsenal.md#bestas).
+Par de bestas leves, dano 1d6. Ver [Arsenal → Bestas](equipamento/index.md#equ-bestas).
 
 ### Balista
 
-Arma de pontaria pesada, dano 1d12. Ver [Arsenal → Balista](jogador/arsenal.md#balista).
+Arma de pontaria pesada, dano 1d12. Ver [Arsenal → Balista](equipamento/index.md#equ-balista).
 
 ### Gakkung
 
-Arco tradicional leve e ágil, dano 1d6. Ver [Arsenal → Gakkung](jogador/arsenal.md#gakkung).
+Arco tradicional leve e ágil, dano 1d6. Ver [Arsenal → Gakkung](equipamento/index.md#equ-gakkung).
 
 ### Cetro
 
-Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cetro](jogador/arsenal.md#cetro).
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cetro](equipamento/index.md#equ-cetro).
 
 ### Pote
 
-Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Pote](jogador/arsenal.md#pote).
+Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Pote](equipamento/index.md#equ-pote).
 
 ### Lâmpada
 
-Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Lâmpada](jogador/arsenal.md#lampada).
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Lâmpada](equipamento/index.md#equ-lampada).
 
 ### Cajado
 
-Arma mágica genérica, dano 1d10, sem elemento fixo. Ver [Arsenal → Cajado](jogador/arsenal.md#cajado).
+Arma mágica genérica, dano 1d10, sem elemento fixo. Ver [Arsenal → Cajado](equipamento/index.md#equ-cajado).
 
 ### Adagas
 
-Arma marcial Finesse, dano 1d4. Ver [Arsenal → Adagas](jogador/arsenal.md#adagas).
+Arma marcial Finesse, dano 1d4. Ver [Arsenal → Adagas](equipamento/index.md#equ-adagas).
 
 ### Alfange
 
-Arma marcial Finesse, dano 1d8. Ver [Arsenal → Alfange](jogador/arsenal.md#alfange).
+Arma marcial Finesse, dano 1d8. Ver [Arsenal → Alfange](equipamento/index.md#equ-alfange).
 
 ### Garras
 
-Arma marcial Finesse, dano 1d6. Ver [Arsenal → Garras](jogador/arsenal.md#garras).
+Arma marcial Finesse, dano 1d6. Ver [Arsenal → Garras](equipamento/index.md#equ-garras).
 
 ### Katana Nodachi
 
-Arma marcial Finesse (duas mãos), dano 1d10 (lâmina longa clássica). Ver [Arsenal → Katana Nodachi](jogador/arsenal.md#katana-nodachi).
+Arma marcial Finesse (duas mãos), dano 1d10 (lâmina longa clássica). Ver [Arsenal → Katana Nodachi](equipamento/index.md#equ-katana-nodachi).
 
 ### Machado
 
-Arma marcial pesada, dano 1d12. Ver [Arsenal → Machado](jogador/arsenal.md#machado).
+Arma marcial pesada, dano 1d12. Ver [Arsenal → Machado](equipamento/index.md#equ-machado).
 
 ### Gládio
 
-Arma marcial Híbrida, dano 1d6. Ver [Arsenal → Gládio](jogador/arsenal.md#gladio).
+Arma marcial Híbrida, dano 1d6. Ver [Arsenal → Gládio](equipamento/index.md#equ-gladio).
 
 ### Chakram
 
-Arma de pontaria, dano 1d6. Ver [Arsenal → Chakram](jogador/arsenal.md#chakram).
+Arma de pontaria, dano 1d6. Ver [Arsenal → Chakram](equipamento/index.md#equ-chakram).
 
 ### Manopla
 
-Arma marcial, dano 1d6. Ver [Arsenal → Manopla](jogador/arsenal.md#manopla).
+Arma marcial, dano 1d6. Ver [Arsenal → Manopla](equipamento/index.md#equ-manopla).
 
 ### Lâmina
 
-Arma marcial, dano 1d8. Ver [Arsenal → Lâmina](jogador/arsenal.md#lamina).
+Arma marcial, dano 1d8. Ver [Arsenal → Lâmina](equipamento/index.md#equ-lamina).
 
 ### Manual
 
-Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Manual](jogador/arsenal.md#manual).
+Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Manual](equipamento/index.md#equ-manual).
 
 ### Foice
 
-Arma marcial pesada, dano 1d10. Ver [Arsenal → Foice](jogador/arsenal.md#foice).
+Arma marcial pesada, dano 1d10. Ver [Arsenal → Foice](equipamento/index.md#equ-foice).
 
 ### Espada Senciente
 
-Arma marcial pesada, dano 1d12 (renomeada de "Espadão" — conceito da Grandark; absorve energias, mas dificulta a mobilidade de quem a empunha). Ver [Arsenal → Espada Senciente](jogador/arsenal.md#espada-senciente).
+Arma marcial pesada, dano 1d12 (renomeada de "Espadão" — conceito da Grandark; absorve energias, mas dificulta a mobilidade de quem a empunha). Ver [Arsenal → Espada Senciente](equipamento/index.md#equ-espada-senciente).
 
 ### Orbe
 
-Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Orbe](jogador/arsenal.md#orbe).
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Orbe](equipamento/index.md#equ-orbe).
 
 ### Manopla Mística
 
-Arma mágica (Foco Mágico), dano 1d8, ataca com Inteligência (invoca criaturas através de uma gema com pentagramas e hexagramas). Ver [Arsenal → Manopla Mística](jogador/arsenal.md#manopla-mistica).
+Arma mágica (Foco Mágico), dano 1d8, ataca com Inteligência (invoca criaturas através de uma gema com pentagramas e hexagramas). Ver [Arsenal → Manopla Mística](equipamento/index.md#equ-manopla-mistica).
 
 ### Pistolas
 
-Dupla de pistolas leves, dano 1d6 — usadas sempre em par, uma em cada mão. Ver [Arsenal → Pistolas](jogador/arsenal.md#pistolas).
+Dupla de pistolas leves, dano 1d6 — usadas sempre em par, uma em cada mão. Ver [Arsenal → Pistolas](equipamento/index.md#equ-pistolas).
 
 ### Punhal
 
-Adaga Finesse, dano 1d6. Ver [Arsenal → Punhal](jogador/arsenal.md#punhal).
+Adaga Finesse, dano 1d6. Ver [Arsenal → Punhal](equipamento/index.md#equ-punhal).
 
 ### Espingarda
 
-Conhecida como "A Ruptura", dano 1d10 — tiro único e devastador, arma dos Justiceiros (caçadores de recompensas de elite). Ver [Arsenal → Espingarda](jogador/arsenal.md#espingarda).
+Conhecida como "A Ruptura", dano 1d10 — tiro único e devastador, arma dos Justiceiros (caçadores de recompensas de elite). Ver [Arsenal → Espingarda](equipamento/index.md#equ-espingarda).
 
 ### Metralhadora
 
-Metralhadora giratória, dano 1d12. Ver [Arsenal → Metralhadora](jogador/arsenal.md#metralhadora).
+Metralhadora giratória, dano 1d12. Ver [Arsenal → Metralhadora](equipamento/index.md#equ-metralhadora).
 
 ### Leque
 
-Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Leque](jogador/arsenal.md#leque).
+Arma mágica genérica, dano 1d6, sem elemento fixo. Ver [Arsenal → Leque](equipamento/index.md#equ-leque).
 
 ### Vembrassa
 
-Arma marcial, dano 1d6 (reflexo da Manopla — punho aberto, mão esquerda). Ver [Arsenal → Vembrassa](jogador/arsenal.md#vembrassa).
+Arma marcial, dano 1d6 (reflexo da Manopla — punho aberto, mão esquerda). Ver [Arsenal → Vembrassa](equipamento/index.md#equ-vembrassa).
 
 ### Martelo
 
-Arma marcial pesada, dano 1d12. Ver [Arsenal → Martelo](jogador/arsenal.md#martelo).
+Arma marcial pesada, dano 1d12. Ver [Arsenal → Martelo](equipamento/index.md#equ-martelo).
 
 ### Florete
 
-Arma marcial Finesse, dano 1d6. Ver [Arsenal → Florete](jogador/arsenal.md#florete).
+Arma marcial Finesse, dano 1d6. Ver [Arsenal → Florete](equipamento/index.md#equ-florete).
 
 ### Flintlock
 
-Pistola de precisão, dano 1d8. Ver [Arsenal → Flintlock](jogador/arsenal.md#flintlock).
+Pistola de precisão, dano 1d8. Ver [Arsenal → Flintlock](equipamento/index.md#equ-flintlock).
 
 ### Katana Muramasa
 
-Arma marcial Finesse (duas mãos), dano 1d10 (lâmina amaldiçoada, exige sangue). Ver [Arsenal → Katana Muramasa](jogador/arsenal.md#katana-muramasa).
+Arma marcial Finesse (duas mãos), dano 1d10 (lâmina amaldiçoada, exige sangue). Ver [Arsenal → Katana Muramasa](equipamento/index.md#equ-katana-muramasa).
 
 ### Cubo Mágico
 
-Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cubo Mágico](jogador/arsenal.md#cubo-magico).
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Cubo Mágico](equipamento/index.md#equ-cubo-magico).
 
 ### Olho Mágico
 
-Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Olho Mágico](jogador/arsenal.md#olho-magico).
+Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Arsenal → Olho Mágico](equipamento/index.md#equ-olho-magico).
 
 ### Espada-Chave
 
-Arma Híbrida, dano 1d8. Ver [Arsenal → Espada-Chave](jogador/arsenal.md#espada-chave).
+Arma Híbrida, dano 1d8. Ver [Arsenal → Espada-Chave](equipamento/index.md#equ-espada-chave).
 
 ### Soqueira Pesada
 
-Arma marcial pesada, dano 1d12. Ver [Arsenal → Soqueira Pesada](jogador/arsenal.md#soqueira-pesada).
+Arma marcial pesada, dano 1d12. Ver [Arsenal → Soqueira Pesada](equipamento/index.md#equ-soqueira-pesada).
 
 ### Lâmina Dupla
 
-Arma marcial, dano 1d6 (arma ancestral com lâmina em cada extremidade). Ver [Arsenal → Lâmina Dupla](jogador/arsenal.md#lamina-dupla).
+Arma marcial, dano 1d6 (arma ancestral com lâmina em cada extremidade). Ver [Arsenal → Lâmina Dupla](equipamento/index.md#equ-lamina-dupla).
 
 ### Gadanha
 
-Arma marcial pesada, dano 1d10. Ver [Arsenal → Gadanha](jogador/arsenal.md#gadanha).
+Arma marcial pesada, dano 1d10. Ver [Arsenal → Gadanha](equipamento/index.md#equ-gadanha).
 
 ### Pique
 
-Arma marcial pesada, dano 1d10 (lâminas gêmeas que se combinam num pique de alcance). Ver [Arsenal → Pique](jogador/arsenal.md#pique).
+Arma marcial pesada, dano 1d10 (lâminas gêmeas que se combinam num pique de alcance). Ver [Arsenal → Pique](equipamento/index.md#equ-pique).
 
 ### Glaive
 
-Arma marcial de haste, dano 1d10. Ver [Arsenal → Glaive](jogador/arsenal.md#glaive).
+Arma marcial de haste, dano 1d10. Ver [Arsenal → Glaive](equipamento/index.md#equ-glaive).
 
 ### Égide
 
-Arma marcial (espada e escudo), dano 1d6. Ver [Arsenal → Égide](jogador/arsenal.md#egide).
+Arma marcial (espada e escudo), dano 1d6. Ver [Arsenal → Égide](equipamento/index.md#equ-egide).
 
 ### Lâmina do Crepúsculo
 
-Arma marcial pesada, dano 1d10 (renomeada de "Tirfing" — lâmina amaldiçoada, concede poder imenso mas corrói com trevas quem a empunha). Ver [Arsenal → Lâmina do Crepúsculo](jogador/arsenal.md#lamina-do-crepusculo).
+Arma marcial pesada, dano 1d10 (renomeada de "Tirfing" — lâmina amaldiçoada, concede poder imenso mas corrói com trevas quem a empunha). Ver [Arsenal → Lâmina do Crepúsculo](equipamento/index.md#equ-lamina-do-crepusculo).
 
 ### Violino
 
-Arma marcial, dano 1d6 (instrumento usado como arma contundente). Ver [Arsenal → Violino](jogador/arsenal.md#violino).
+Arma marcial, dano 1d6 (instrumento usado como arma contundente). Ver [Arsenal → Violino](equipamento/index.md#equ-violino).
 
 ### Báculo
 
-Arma marcial, dano 1d8 (bastão com lâmina circular e cristal, símbolo dos bardos). Ver [Arsenal → Báculo](jogador/arsenal.md#baculo).
+Arma marcial, dano 1d8 (bastão com lâmina circular e cristal, símbolo dos bardos). Ver [Arsenal → Báculo](equipamento/index.md#equ-baculo).
 
 ### Bolsa de Truques
 
-Arma marcial pesada, dano 1d10 (renomeada de "Pandora" — bolsa mágica com itens aleatórios). Ver [Arsenal → Bolsa de Truques](jogador/arsenal.md#bolsa-de-truques).
+Arma marcial pesada, dano 1d10 (renomeada de "Pandora" — bolsa mágica com itens aleatórios). Ver [Arsenal → Bolsa de Truques](equipamento/index.md#equ-bolsa-de-truques).
 
 ### Tonfas
 
-Par de tonfas, dano 1d6. Ver [Arsenal → Tonfas](jogador/arsenal.md#tonfas).
+Par de tonfas, dano 1d6. Ver [Arsenal → Tonfas](equipamento/index.md#equ-tonfas).
 
 ### Bastão
 
-Arma marcial de haste média, dano 1d8 (arma real é a Chamma). Ver [Arsenal → Bastão](jogador/arsenal.md#bastao).
+Arma marcial de haste média, dano 1d8 (arma real é a Chamma). Ver [Arsenal → Bastão](equipamento/index.md#equ-bastao).
 
 ### Vajras
 
-Arma marcial mística, dano 1d8. Ver [Arsenal → Vajras](jogador/arsenal.md#vajras).
+Arma marcial mística, dano 1d8. Ver [Arsenal → Vajras](equipamento/index.md#equ-vajras).
 
 ### Rapiers
 
-Par de lâminas finas, dano 1d6. Ver [Arsenal → Rapiers](jogador/arsenal.md#rapiers).
+Par de lâminas finas, dano 1d6. Ver [Arsenal → Rapiers](equipamento/index.md#equ-rapiers).
 
 ### Soluna
 
-Arma marcial pesada, dano 1d10 (lâmina lendária, duas metades — Sol e Lua). Ver [Arsenal → Soluna](jogador/arsenal.md#soluna).
+Arma marcial pesada, dano 1d10 (lâmina lendária, duas metades — Sol e Lua). Ver [Arsenal → Soluna](equipamento/index.md#equ-soluna).
 
 ### Revólver Maverick
 
-Revólver pesado, dano 1d8 — quase uma espingarda de uma mão só, usado sempre sozinho por causa do coice e do poder de fogo (a outra mão fica livre). Ver [Arsenal → Revólver Maverick](jogador/arsenal.md#revolver-maverick).
+Revólver pesado, dano 1d8 — quase uma espingarda de uma mão só, usado sempre sozinho por causa do coice e do poder de fogo (a outra mão fica livre). Ver [Arsenal → Revólver Maverick](equipamento/index.md#equ-revolver-maverick).
 
 ### Marreta Mágica
 
-Arma marcial pesada, dano 1d12. Ver [Arsenal → Marreta Mágica](jogador/arsenal.md#marreta-magica).
+Arma marcial pesada, dano 1d12. Ver [Arsenal → Marreta Mágica](equipamento/index.md#equ-marreta-magica).
 
 ### Módulo Alado
 
-Arma mágica (Foco Mágico), dano 1d10, ataca com Inteligência (enxame tecnológico de lâminas voadoras; não é empunhado — conta como Duas Mãos pra fins de regra). Ver [Arsenal → Módulo Alado](jogador/arsenal.md#modulo-alado).
+Arma mágica (Foco Mágico), dano 1d10, ataca com Inteligência (enxame tecnológico de lâminas voadoras; não é empunhado — conta como Duas Mãos pra fins de regra). Ver [Arsenal → Módulo Alado](equipamento/index.md#equ-modulo-alado).
 
 ### Tridente
 
-Arma marcial Leve, dano 1d8 (combina com Escudo). Ver [Arsenal → Tridente](jogador/arsenal.md#tridente).
+Arma marcial Leve, dano 1d8 (combina com Escudo). Ver [Arsenal → Tridente](equipamento/index.md#equ-tridente).
 
 ### Chicote
 
-Arma marcial Finesse, dano 1d6 (alcance incomum, puxa e prende). Ver [Arsenal → Chicote](jogador/arsenal.md#chicote).
+Arma marcial Finesse, dano 1d6 (alcance incomum, puxa e prende). Ver [Arsenal → Chicote](equipamento/index.md#equ-chicote).
 
 ### Mangual
 
-Arma marcial pesada, dano 1d10 (ignora bônus de Escudo na Especial). Ver [Arsenal → Mangual](jogador/arsenal.md#mangual).
+Arma marcial pesada, dano 1d10 (ignora bônus de Escudo na Especial). Ver [Arsenal → Mangual](equipamento/index.md#equ-mangual).
 
 ### Zarabatana
 
-Arma de pontaria, dano 1d4 (foco em veneno e status, não em dano bruto). Ver [Arsenal → Zarabatana](jogador/arsenal.md#zarabatana).
+Arma de pontaria, dano 1d4 (foco em veneno e status, não em dano bruto). Ver [Arsenal → Zarabatana](equipamento/index.md#equ-zarabatana).
 
 ### Pistola Arcana
 
-Arma de pontaria Híbrida (Agilidade ou Inteligência), dano 1d8. Ver [Arsenal → Pistola Arcana](jogador/arsenal.md#pistola-arcana).
+Arma de pontaria Híbrida (Agilidade ou Inteligência), dano 1d8. Ver [Arsenal → Pistola Arcana](equipamento/index.md#equ-pistola-arcana).
 
 ## Propriedades de Arma
 
 ### Finesse
 
-O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver [Arsenal → Armas Finesse](jogador/arsenal.md#finesse).
+O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver [Arsenal → Armas Finesse](equipamento/regras.md#finesse).
 
 ### Híbrida
 
-O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Arsenal → Armas Híbridas](jogador/arsenal.md#hibrida).
+O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Arsenal → Armas Híbridas](equipamento/regras.md#hibrida).
 
 ### Dupla Empunhadura
 
-Habilidade geral que exige duas armas específicas equipadas ao mesmo tempo; o dano soma os dados das duas. Ver [Arsenal → Dupla Empunhadura](jogador/arsenal.md#dupla-empunhadura).
+Habilidade geral que exige duas armas específicas equipadas ao mesmo tempo; o dano soma os dados das duas. Ver [Arsenal → Dupla Empunhadura](equipamento/regras.md#dupla-empunhadura).
 
 ### Leve
 
-Arma que ocupa só uma mão — a mão secundária fica livre pra outra arma Leve, um escudo, ou magia/interação. Ver [Arsenal → Leve](jogador/arsenal.md#leve).
+Arma que ocupa só uma mão — a mão secundária fica livre pra outra arma Leve, um escudo, ou magia/interação. Ver [Arsenal → Leve](equipamento/regras.md#leve).
 
 ### Escudo
 
-Item de mão secundária (Leve, Pesado ou Torre) que concede bônus passivo de Defesa e habilita a habilidade [Bloqueio](habilidades/buff.md). Ver [Arsenal → Escudos](jogador/arsenal.md#escudos).
+Item de mão secundária (Leve, Pesado ou Torre) que concede bônus passivo de Defesa e habilita a habilidade [Bloqueio](habilidades/buff.md). Ver [Arsenal → Escudos](equipamento/index.md#equ-escudo-leve).
 
 ## Grupos de Habilidade
 

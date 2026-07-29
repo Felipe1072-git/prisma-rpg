@@ -4,7 +4,8 @@ Ferramentas pra conduzir a mesa: criaturas, dificuldades, e como montar um comba
 
 ## Conteúdo
 
-- **[Bestiário](bestiario.md)** — criaturas prontas, e as regras pra montar as suas
+- **[Bestiário](bestiario.md)** — as criaturas prontas, em listagem filtrável
+- **[Criando uma Criatura](criando-criaturas.md)** — como ler uma ficha, e como montar as suas
 - **[Montagem de Encontro](encontros.md)** — quantas criaturas colocar na sala, e por quê
 - **[Testes e Dificuldades](testes.md)** — quanto pedir num teste, e quando não pedir nada
 - **[Recompensas](recompensas.md)** — nível, dinheiro, item, e o que não tem ficha

@@ -19,7 +19,7 @@ Atributos podem assumir valores **negativos** — por penalidades, dano ou debuf
 
 **Na criação, cada atributo começa entre -2 e +3** (ver [Distribuição na Criação](../criacao/index.md#1-atributos)).
 
-A partir daí, cada nível par dá **+1 ponto** a distribuir livremente (ver [Progressão](../criacao/progressao.md)), e traços de [Raça](../racas/index.md) e [Origem](../jogador/origem.md) podem somar por cima. Um atributo focado durante toda a carreira chega a aproximadamente **+13** no nível 20.
+A partir daí, cada nível par dá **+1 ponto** a distribuir livremente (ver [Progressão](../criacao/progressao.md)), e traços de [Raça](../racas/index.md) e [Origem](../origens/index.md) podem somar por cima. Um atributo focado durante toda a carreira chega a aproximadamente **+13** no nível 20.
 
 Isso quer dizer que o d20 continua importando o jogo inteiro: mesmo com +13, o dado responde por 20 pontos de variação. Nenhum atributo cresce o bastante pra tornar a rolagem decorativa.
 
@@ -31,4 +31,4 @@ Como não há classes, **nada impede um personagem de aprender uma habilidade cu
 
 ## Do lado do Mestre
 
-Criaturas usam os mesmos oito atributos, mas a ficha delas é mais enxuta — só o que entra em rolagem. Ver [Bestiário](../mestre/bestiario.md#como-ler-uma-ficha-de-criatura).
+Criaturas usam os mesmos oito atributos, mas a ficha delas é mais enxuta — só o que entra em rolagem. Ver [Bestiário](../mestre/criando-criaturas.md#como-ler-uma-ficha-de-criatura).

@@ -24,7 +24,7 @@ Três moedas, na escala de dez:
 | **Prata** (p) | 10 cobre | equipamento, serviços, viagem — **é a unidade de referência** dos preços |
 | **Ouro** (o) | 10 prata | o que muda de vida: cavalo, casa, suborno de gente importante |
 
-Todos os preços do [Arsenal](../jogador/arsenal.md#tabela-de-dados-de-dano) estão em **prata**.
+Todos os preços do [Arsenal](../equipamento/regras.md#tabela-de-dados-de-dano) estão em **prata**.
 
 ### Para dar escala
 

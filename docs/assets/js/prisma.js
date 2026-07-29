@@ -166,6 +166,26 @@
     return mapa;
   }
 
+  // Facetas que têm ordem própria — escala de ameaça, peso de arma. Ordenar
+  // "Comum, Formidável, Treinado" por alfabeto esconde justamente o que a
+  // faceta quer dizer. Quem não está aqui continua em ordem alfabética.
+  var ORDEM = {
+    tier: ["comum", "treinado", "formidavel", "lendario"],
+    couraca: ["nenhuma", "coriacea", "escamada", "blindada", "draconica"],
+    eixo: ["passado", "ambiente", "evento"]
+  };
+
+  function ordenaFaceta(faceta, mapa) {
+    var fixa = ORDEM[faceta];
+    return Object.keys(mapa).sort(function (a, b) {
+      if (fixa) {
+        var ia = fixa.indexOf(a), ib = fixa.indexOf(b);
+        if (ia !== -1 || ib !== -1) return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+      }
+      return mapa[a].localeCompare(mapa[b], "pt-BR");
+    });
+  }
+
   function iniciaFiltro() {
     var barra = document.querySelector(".prg-filtro");
     if (!barra) return;
@@ -173,8 +193,6 @@
     var campo = barra.querySelector(".prg-filtro__campo");
     var contagem = barra.querySelector(".prg-filtro__contagem");
     var botao = barra.querySelector(".prg-filtro__tudo");
-    var sliderMana = barra.querySelector(".prg-filtro__mana-slider");
-    var valorMana = barra.querySelector(".prg-filtro__mana-valor");
     var checkDesarmado = barra.querySelector(".prg-filtro__desarmado-campo");
     var rotulo = barra.dataset.rotulo || "itens";
     var cards = Array.prototype.slice.call(document.querySelectorAll(".prg-card"));
@@ -187,30 +205,43 @@
       var faceta = sel.dataset.faceta;
       var multi = sel.dataset.multi === "1";
       var mapa = coletaFaceta(cards, faceta, multi);
-      var valores = Object.keys(mapa).sort(function (a, b) {
-        return mapa[a].localeCompare(mapa[b], "pt-BR");
-      });
+      var valores = ordenaFaceta(faceta, mapa);
       preencheSelect(sel, valores.map(function (v) { return [v, mapa[v]]; }));
       return { el: sel, faceta: faceta, multi: multi };
     });
 
-    // Mana: o teto do slider é o maior custo mínimo realmente usado — assim
-    // o slider no máximo sempre mostra tudo, sem precisar hardcodar um valor
-    // que desatualiza se o conteúdo mudar.
-    var manaMaxima = 0;
-    cards.forEach(function (card) {
-      var m = card.dataset.manaMin;
-      if (m !== "" && m !== undefined) manaMaxima = Math.max(manaMaxima, Number(m));
+    // --- sliders de orçamento ("o que eu consigo pagar com X?") ---
+    //
+    // O mesmo controle serve pro Mana das Habilidades e pra prata do
+    // Equipamento: o card declara o seu custo em data-{campo}, e passa quem
+    // couber no valor escolhido. O teto do slider é o maior custo realmente
+    // usado — assim o slider no máximo sempre mostra tudo, sem hardcodar um
+    // número que desatualiza junto com o conteúdo.
+    var sliders = Array.prototype.slice.call(
+      barra.querySelectorAll(".prg-filtro__slider[data-campo]")
+    ).map(function (el) {
+      var chave = el.dataset.campo.replace(/-(\w)/g, function (_, c) {
+        return c.toUpperCase();
+      });
+      var teto = 0;
+      cards.forEach(function (card) {
+        var v = card.dataset[chave];
+        if (v !== "" && v !== undefined) teto = Math.max(teto, Number(v));
+      });
+      var saida = barra.querySelector(
+        '.prg-filtro__slider-valor[data-campo="' + el.dataset.campo + '"]'
+      );
+      el.max = String(teto);
+      el.value = String(teto);
+      if (saida) saida.textContent = String(teto);
+      // Card sem valor no campo significa coisas opostas em cada listagem: uma
+      // habilidade que cobra Vida cabe em qualquer Mana, mas uma arma lendária
+      // sem preço não cabe em orçamento nenhum — ela não se compra.
+      return { el: el, chave: chave, saida: saida, ocultaSemValor: el.dataset.semValor === "oculta" };
     });
-    if (sliderMana) {
-      sliderMana.max = String(manaMaxima);
-      sliderMana.value = String(manaMaxima);
-      if (valorMana) valorMana.textContent = String(manaMaxima);
-    }
 
     function atualiza() {
       var termo = normaliza(campo.value.trim());
-      var manaDisponivel = sliderMana ? Number(sliderMana.value) : Infinity;
       var soDesarmado = checkDesarmado ? checkDesarmado.checked : false;
 
       var visiveis = 0;
@@ -224,10 +255,15 @@
             : d[f.faceta] === f.el.value;
         });
         if (bate && soDesarmado) bate = d.desarmado === "1";
-        // Sem mana-min = custa Vida, não Mana — cabe em qualquer orçamento.
-        if (bate && d.manaMin !== "" && d.manaMin !== undefined) {
-          bate = Number(d.manaMin) <= manaDisponivel;
-        }
+        sliders.forEach(function (s) {
+          if (!bate) return;
+          var v = d[s.chave];
+          if (v !== "" && v !== undefined) {
+            bate = Number(v) <= Number(s.el.value);
+          } else if (s.ocultaSemValor && s.el.value !== s.el.max) {
+            bate = false;
+          }
+        });
         card.classList.toggle("is-oculto", !bate);
         if (bate) visiveis++;
       });
@@ -244,12 +280,12 @@
 
     selects.forEach(function (f) { f.el.addEventListener("change", atualiza); });
 
-    if (sliderMana) {
-      sliderMana.addEventListener("input", function () {
-        if (valorMana) valorMana.textContent = sliderMana.value;
+    sliders.forEach(function (s) {
+      s.el.addEventListener("input", function () {
+        if (s.saida) s.saida.textContent = s.el.value;
         atualiza();
       });
-    }
+    });
 
     if (checkDesarmado) checkDesarmado.addEventListener("change", atualiza);
 
@@ -268,27 +304,34 @@
 
   /* ------------------------------------------------------------- sorteio */
 
-  // A tabela de sorteio em papel continua existindo (Sorteio de Pacote); isto
-  // é a mesma rolagem feita aqui, pra não precisar sair da listagem — e sem
-  // repetir os 100 nomes numa segunda lista que teria que ser mantida junto.
+  // A tabela de sorteio em papel continua existindo (Sorteio de Pacote, e as
+  // três tabelas d20 de Origem); isto é a mesma rolagem feita aqui, pra não
+  // precisar sair da listagem — e sem repetir os nomes numa segunda lista que
+  // teria que ser mantida junto.
+  //
+  // O botão declara em que faceta ele sorteia (data-faceta), quantos lados tem
+  // o dado (data-lados) e em que campo do card está o número sorteado
+  // (data-campo). Pacote sorteia dentro de uma vertente; Origem, dentro de um
+  // eixo. A mecânica é a mesma.
   function iniciaSorteio(barra, cards, selects, campo, atualiza) {
     var botao = barra.querySelector(".prg-filtro__sortear");
     if (!botao) return;
-    var seletor = barra.querySelector(".prg-filtro__sorteio-vertente");
+    var faceta = botao.dataset.faceta;
+    var lados = Number(botao.dataset.lados) || 20;
+    var chave = botao.dataset.campo || "d20";
+    var seletor = barra.querySelector(".prg-filtro__sorteio-grupo");
     var saida = barra.querySelector(".prg-filtro__sorteio-saida");
 
-    var mapa = coletaFaceta(cards, "vertente", false);
-    var vertentes = Object.keys(mapa).sort(function (a, b) {
-      return mapa[a].localeCompare(mapa[b], "pt-BR");
-    });
-    if (seletor) preencheSelect(seletor, vertentes.map(function (v) { return [v, mapa[v]]; }));
+    var mapa = coletaFaceta(cards, faceta, false);
+    var grupos = ordenaFaceta(faceta, mapa);
+    if (seletor) preencheSelect(seletor, grupos.map(function (v) { return [v, mapa[v]]; }));
 
     botao.addEventListener("click", function () {
-      var escolhida = (seletor && seletor.value) ||
-        vertentes[Math.floor(Math.random() * vertentes.length)];
-      var d20 = 1 + Math.floor(Math.random() * 20);
+      var escolhido = (seletor && seletor.value) ||
+        grupos[Math.floor(Math.random() * grupos.length)];
+      var dado = 1 + Math.floor(Math.random() * lados);
       var alvo = cards.filter(function (c) {
-        return c.dataset.vertente === escolhida && c.dataset.d20 === String(d20);
+        return c.dataset[faceta] === escolhido && c.dataset[chave] === String(dado);
       })[0];
       if (!alvo) return;
 
@@ -303,7 +346,7 @@
       alvo.classList.add("is-sorteado");
       rolaAte(alvo);
       if (saida) {
-        saida.textContent = mapa[escolhida] + " · d20 = " + d20 + " → " +
+        saida.textContent = mapa[escolhido] + " · d" + lados + " = " + dado + " → " +
           (alvo.querySelector(".prg-card__nome") || {}).textContent;
       }
     });

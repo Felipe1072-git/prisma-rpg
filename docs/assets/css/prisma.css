@@ -132,6 +132,24 @@
 .prg-chip--vert-arautos-e-devotos      { --prg-chip-cor: var(--prg-c-sociais); }
 .prg-chip--vert-exploradores-e-hibridos { --prg-chip-cor: var(--prg-c-pontaria); }
 
+/* Os 3 eixos de Origem e as 3 levas de Raça: categorias lado a lado, sem
+   escala entre elas — cores distintas só pra separar a leitura. */
+.prg-chip--eixo-passado            { --prg-chip-cor: var(--prg-c-marciais); }
+.prg-chip--eixo-ambiente-de-origem { --prg-chip-cor: var(--prg-c-mobilidade); }
+.prg-chip--eixo-evento-formador    { --prg-chip-cor: var(--prg-c-sociais); }
+
+.prg-chip--leva-fundadoras          { --prg-chip-cor: var(--prg-c-neutro); }
+.prg-chip--leva-racas-de-animal     { --prg-chip-cor: var(--prg-c-buff); }
+.prg-chip--leva-racas-de-peixe-agua { --prg-chip-cor: var(--prg-c-agua); }
+
+/* Os 4 Tiers de Ameaça do Bestiário sobem em temperatura: quanto mais perigosa
+   a criatura, mais quente o chip. É a única faceta em que a ordem importa mais
+   que a categoria, então a cor carrega a escala. */
+.prg-chip--tier-comum      { --prg-chip-cor: var(--prg-c-neutro); }
+.prg-chip--tier-treinado   { --prg-chip-cor: var(--prg-c-pontaria); }
+.prg-chip--tier-formidavel { --prg-chip-cor: var(--prg-c-debuff); }
+.prg-chip--tier-lendario   { --prg-chip-cor: var(--prg-c-suprema); }
+
 /* -------------------------------------------------- card de habilidade */
 
 .prg-card {
@@ -492,7 +510,7 @@
   white-space: nowrap;
 }
 
-.prg-filtro__mana-valor {
+.prg-filtro__slider-valor {
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   color: var(--md-default-fg-color);
@@ -501,7 +519,7 @@
   text-align: right;
 }
 
-.prg-filtro__mana-slider {
+.prg-filtro__slider {
   width: 8rem;
   accent-color: var(--prg-c-arcano);
 }
@@ -515,9 +533,9 @@
   cursor: pointer;
 }
 
-/* ------------------------------------------------------ sorteio de pacote */
+/* ------------------------------------------------ sorteio (pacote, origem) */
 
-.prg-filtro__sorteio-vertente {
+.prg-filtro__sorteio-grupo {
   flex: 0 1 12rem;
   min-width: 0;
   padding: 0.3rem 0.5rem;

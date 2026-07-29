@@ -1,10 +1,14 @@
-# Origem
+# Origens
 
 Origem representa o passado do personagem antes de virar aventureiro — três escolhas separadas e independentes, feitas na criação do personagem. Cada uma concede **1 traço leve**. Juntas, valem o mesmo peso mecânico total de uma [Raça](../racas/index.md), só que divididas em mais eixos, pra dar mais combinações possíveis.
 
-- **Passado** — a vida ou profissão antes de aventurar.
-- **Ambiente de Origem** — a paisagem/cultura onde cresceu (independente da Raça biológica).
-- **Evento Formador** — o momento que definiu o personagem.
+Você escolhe **uma de cada eixo**. Cada eixo tem 20 opções, e cada uma pode ser escolhida livremente ou sorteada com 1d20 — o botão de sorteio abaixo rola por você, e o número de cada card é a linha dela na tabela de papel.
+
+| Eixo | O que responde |
+|---|---|
+| **Passado** | a vida ou profissão antes de aventurar |
+| **Ambiente de Origem** | a paisagem e a cultura onde cresceu (independente da Raça biológica) |
+| **Evento Formador** | o momento que definiu o personagem |
 
 !!! regra "Traços idênticos não acumulam"
     Algumas tabelas repetem o mesmo traço com nomes diferentes (Soldado ≡ Cresceu em Guerra, Curandeiro de Vila ≡ Salvou uma Vida...). Traços de texto idêntico **não acumulam** — se sortear (ou escolher) um efeito que o personagem já tem por outra fonte, escolha outra linha da tabela.

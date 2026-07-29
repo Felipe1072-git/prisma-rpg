@@ -18,11 +18,12 @@ caso é a página continuar igual a hoje.
 
 from __future__ import annotations
 
+import itertools
 import json
 import re
 import unicodedata
 from pathlib import Path
-from typing import NamedTuple
+from typing import Iterable, NamedTuple
 from urllib.parse import urlsplit
 
 # ---------------------------------------------------------------- utilidades
@@ -163,6 +164,24 @@ def resume_atributo(bruto: str) -> str:
 
 _ATRIBUTOS_BASE = ("forca", "agilidade", "inteligencia", "sabedoria", "vontade")
 
+# Habilidade só rola com um destes cinco, mas Raça e Origem mexem nos oito.
+ATRIBUTOS_TODOS = (
+    ("forca", "Força"),
+    ("vitalidade", "Vitalidade"),
+    ("agilidade", "Agilidade"),
+    ("inteligencia", "Inteligência"),
+    ("sabedoria", "Sabedoria"),
+    ("vontade", "Vontade"),
+    ("sorte", "Sorte"),
+    ("sanidade", "Sanidade"),
+)
+
+
+def atributos_citados(bruto: str) -> list[tuple[str, str]]:
+    """Os oito atributos citados num texto livre, na ordem canônica da ficha."""
+    texto = sem_acento(bruto)
+    return [(chave, nome) for chave, nome in ATRIBUTOS_TODOS if chave in texto]
+
 
 def computa_atributos(bruto: str) -> list[str]:
     """Todo atributo-base citado no campo Atributo, na ordem canônica.
@@ -259,6 +278,72 @@ def custo_resumido(campos: dict[str, str]) -> str:
 _GRAUS_ARMA = ("basica", "avancada", "especial")
 
 
+def chip(rotulo: str, familia: str = "") -> str:
+    """Um chip colorido no cabeçalho do card."""
+    classe = f"prg-chip--{familia}-{slug(rotulo)}" if familia else f"prg-chip--{classe_chip(rotulo)}"
+    return f'<span class="prg-chip {classe}">{escapa(rotulo)}</span>'
+
+
+def colunas_html(pares: Iterable[tuple[str, str]]) -> str:
+    """As colunas do cabeçalho colapsado: rótulo (via CSS) + valor."""
+    return "".join(
+        f'<span class="prg-card__col" data-rot="{rotulo}">{escapa(valor)}</span>'
+        for rotulo, valor in pares
+        if valor
+    )
+
+
+def indice_de_busca(*pedacos: str) -> str:
+    """Tudo o que a busca livre precisa achar, normalizado sem acento."""
+    return escapa(sem_acento(" ".join(" ".join(pedacos).split())))
+
+
+def facetas_html(pares: dict[str, str]) -> str:
+    return " ".join(f'data-{nome}="{escapa(valor)}"' for nome, valor in pares.items())
+
+
+def monta_card_base(
+    ident: str,
+    nome: str,
+    corpo_md: str,
+    *,
+    chips: str = "",
+    selo: str = "",
+    colunas: str = "",
+    facetas: str = "",
+    busca: str = "",
+    classe: str = "",
+    classe_selo: str = "",
+) -> str:
+    """A carcaça compartilhada por todos os cards do site.
+
+    Habilidade, pacote, raça, origem, equipamento e criatura têm conteúdos
+    completamente diferentes, mas o comportamento de leitura é o mesmo — abre,
+    fecha, filtra, responde a link direto —, então a casca é uma só. Quem chama
+    decide o que vira chip, coluna, selo e faceta.
+    """
+    extra = f" {classe}" if classe else ""
+    selo_extra = f" {classe_selo}" if classe_selo else ""
+    return (
+        # markdown="block" no container: sem ele, o md_in_html trata o card
+        # inteiro como HTML cru e a ficha nunca vira markdown.
+        f'<div class="prg-card{extra}" id="{ident}" data-busca="{busca}" '
+        f'{facetas} markdown="block">\n'
+        f'<button class="prg-card__hd" type="button" aria-expanded="false" '
+        f'aria-controls="{ident}-bd">\n'
+        f'<span class="prg-card__nome">{escapa(nome)}</span>\n'
+        f'<span class="prg-card__chips">{chips}</span>\n'
+        f'<span class="prg-card__custo{selo_extra}">{escapa(selo)}</span>\n'
+        f'<span class="prg-card__seta" aria-hidden="true"></span>\n'
+        f'<span class="prg-card__cols">{colunas}</span>\n'
+        f"</button>\n"
+        f'<div class="prg-card__bd" id="{ident}-bd" markdown="1">\n\n'
+        f"{corpo_md.strip()}\n\n"
+        f"</div>\n"
+        f"</div>\n"
+    )
+
+
 def monta_card(
     nome: str,
     flavor: str,
@@ -282,11 +367,7 @@ def monta_card(
     if qualificador and qualificador not in rotulos:
         rotulos.append(qualificador)
 
-    chips = "".join(
-        f'<span class="prg-chip prg-chip--{classe_chip(r)}">{escapa(r)}</span>'
-        for r in rotulos
-        if r
-    )
+    chips = "".join(chip(r) for r in rotulos if r)
 
     # O custo sai na primeira faixa, alinhado entre todos os cards: é o número
     # que o jogador compara ao varrer a lista. O resto vai na faixa de baixo.
@@ -295,7 +376,7 @@ def monta_card(
     if custo:
         valores_busca.append(custo)
 
-    colunas = ""
+    pares_coluna: list[tuple[str, str]] = []
     for rotulo in COLUNAS:
         if rotulo in ("Chave", "Custo"):
             continue
@@ -308,10 +389,7 @@ def monta_card(
         if not valor:
             continue
         valores_busca.append(valor)
-        colunas += (
-            f'<span class="prg-card__col" data-rot="{rotulo}">'
-            f"{escapa(valor)}</span>"
-        )
+        pares_coluna.append((rotulo, valor))
 
     valores_busca.extend(rotulos)
 
@@ -321,43 +399,33 @@ def monta_card(
     # e ver quais habilidades aplicam aquilo é o filtro que mais importa.
     valores_busca.append(flavor)
     valores_busca.append(texto_puro(detalhe))
-    busca = escapa(sem_acento(" ".join(" ".join(valores_busca).split())))
 
     # Facetas estruturadas pro filtro combinado — além da busca livre acima.
     grau = sem_acento(qualificador)
     grau = grau if grau in _GRAUS_ARMA else ""
-    atributos = computa_atributos(campos.get("Atributo", ""))
     mana_min = mana_minima(campos)
-    alvo_cat = computa_alvo_categoria(campos, corpo)
-    desarmado = computa_desarmado(campos, corpo)
 
-    facetas = (
-        f'data-grupo="{escapa(grupo)}" data-arma="{escapa(arma)}" '
-        f'data-arma-nome="{escapa(arma_nome)}" '
-        f'data-grau="{escapa(grau)}" data-elemento="{escapa(elemento)}" '
-        f'data-atributos="{" ".join(atributos)}" '
-        f'data-mana-min="{mana_min if mana_min is not None else ""}" '
-        f'data-alvo="{escapa(alvo_cat)}" '
-        f'data-desarmado="{"1" if desarmado else ""}"'
-    )
-
-    return (
-        # markdown="block" no container: sem ele, o md_in_html trata o card
-        # inteiro como HTML cru e a ficha nunca vira markdown.
-        f'<div class="prg-card" id="{ident}" data-busca="{busca}" {facetas} markdown="block">\n'
-        f'<button class="prg-card__hd" type="button" aria-expanded="false" '
-        f'aria-controls="{ident}-bd">\n'
-        f'<span class="prg-card__nome">{escapa(nome)}</span>\n'
-        f'<span class="prg-card__chips">{chips}</span>\n'
-        f'<span class="prg-card__custo">{escapa(custo)}</span>\n'
-        f'<span class="prg-card__seta" aria-hidden="true"></span>\n'
-        f'<span class="prg-card__cols">{colunas}</span>\n'
-        f"</button>\n"
-        f'<div class="prg-card__bd" id="{ident}-bd" markdown="1">\n\n'
-        f"{'*' + flavor + '*' if flavor else ''}\n\n"
-        f"{detalhe}\n\n"
-        f"</div>\n"
-        f"</div>\n"
+    return monta_card_base(
+        ident,
+        nome,
+        f"{'*' + flavor + '*' if flavor else ''}\n\n{detalhe}",
+        chips=chips,
+        selo=custo,
+        colunas=colunas_html(pares_coluna),
+        busca=indice_de_busca(*valores_busca),
+        facetas=facetas_html(
+            {
+                "grupo": grupo,
+                "arma": arma,
+                "arma-nome": arma_nome,
+                "grau": grau,
+                "elemento": elemento,
+                "atributos": " ".join(computa_atributos(campos.get("Atributo", ""))),
+                "mana-min": str(mana_min) if mana_min is not None else "",
+                "alvo": computa_alvo_categoria(campos, corpo),
+                "desarmado": "1" if computa_desarmado(campos, corpo) else "",
+            }
+        ),
     )
 
 
@@ -603,11 +671,383 @@ def monta_condicoes(docs_dir: Path) -> list[str]:
     return religa_ancoras(reancora_um_nivel(partes), presentes)
 
 
+# ------------------------------------------------------- seções `## Nome`
+#
+# Raças, criaturas e armas usam todas a mesma forma no markdown: uma seção
+# `## Nome`, um flavor em itálico, e o corpo. Quem varre é a mesma função; o
+# que muda é só o que cada listagem faz com o corpo.
+
+
+class Secao(NamedTuple):
+    nome: str
+    corpo: list[str]
+    familia: str  # o último `## ` sem corpo próprio, quando a página agrupa
+
+
+def extrai_secoes(
+    linhas: list[str], divisorias: frozenset[str] = frozenset()
+) -> list[Secao]:
+    """Cada `## Nome` vira uma seção, exceto as divisórias declaradas.
+
+    Uma divisória (`## Raças de Animal`) não é conteúdo: é o rótulo da leva que
+    vem depois dela, e vira o campo `familia` das seções seguintes.
+    """
+    secoes: list[Secao] = []
+    atual: str | None = None
+    familia = ""
+    buffer: list[str] = []
+
+    def grava() -> None:
+        if atual:
+            secoes.append(Secao(atual, list(buffer), familia))
+
+    for linha in linhas:
+        if linha.startswith("## "):
+            grava()
+            nome = linha[3:].strip()
+            buffer = []
+            if nome in divisorias:
+                familia, atual = nome, None
+            else:
+                atual = nome
+        elif atual is not None:
+            buffer.append(linha)
+    grava()
+    return secoes
+
+
+def flavor_e_resto(corpo: list[str]) -> tuple[str, list[str]]:
+    """O primeiro parágrafo em itálico é o flavor; o resto é a ficha."""
+    for i, linha in enumerate(corpo):
+        if not linha.strip():
+            continue
+        if RE_FLAVOR.match(linha.strip()):
+            return linha.strip().strip("*"), corpo[i + 1 :]
+        return "", corpo[i:]
+    return "", []
+
+
+def campos_do_bloco(corpo: list[str]) -> dict[str, str]:
+    """Junta os pares rótulo/valor dos bullets de ficha do topo do bloco."""
+    campos: dict[str, str] = {}
+    for linha in corpo:
+        if not linha.startswith("- **"):
+            if campos and linha.strip():
+                break  # a ficha acabou; o que vem depois é ataque ou traço
+            continue
+        campos.update(campos_da_linha(linha))
+    return campos
+
+
+# --------------------------------------------------------------- bestiário
+
+# O Tier é o eixo do Bestiário: dele saem Vida, PA, Ataque e a forma de jogar
+# a criatura. Vira chip colorido e faceta.
+TIERS = ("Comum", "Treinado", "Formidável", "Lendário")
+
+
+def monta_card_criatura(s: Secao) -> str:
+    flavor, resto = flavor_e_resto(s.corpo)
+    campos = campos_do_bloco(resto)
+
+    tier = texto_puro(campos.get("Tier", ""))
+    couraca = texto_puro(campos.get("Couraça", "")).split("(")[0].strip()
+    vida = texto_puro(campos.get("Vida", ""))
+    pa = texto_puro(campos.get("PA", ""))
+
+    # Quantos ◈ a criatura tem por turno — a primeira medida de ameaça, e o
+    # número que decide quantas rolagens o Mestre administra por rodada.
+    achado = re.search(r"\((\d+)\)", pa)
+    pa_n = achado.group(1) if achado else ""
+
+    corpo_md = "\n".join(
+        ([f"*{flavor}*", ""] if flavor else []) + [l for l in resto]
+    )
+
+    return monta_card_base(
+        "bes-" + slug(s.nome),
+        s.nome,
+        corpo_md,
+        classe="prg-card--criatura",
+        chips=chip(tier, "tier") if tier else "",
+        selo=f"{vida} de Vida" if vida else "",
+        colunas=colunas_html(
+            [
+                ("Ataque", texto_puro(campos.get("Ataque", ""))),
+                ("Defesa física", texto_puro(campos.get("Defesa física", ""))),
+                ("Defesa mental", texto_puro(campos.get("Defesa mental", ""))),
+                ("PA", pa),
+            ]
+        ),
+        busca=indice_de_busca(s.nome, flavor, texto_puro("\n".join(resto))),
+        facetas=facetas_html(
+            {
+                "tier": slug(tier),
+                "tier-nome": tier,
+                "couraca": slug(couraca),
+                "couraca-nome": couraca,
+                "pa": pa_n,
+                "pa-nome": f"{'◈' * int(pa_n)} ({pa_n})" if pa_n else "",
+                "vida": re.sub(r"\D", "", vida),
+            }
+        ),
+    )
+
+
+def monta_listagem_bestiario(markdown: str) -> tuple[str, int]:
+    linhas = markdown.split("\n")
+    secoes = extrai_secoes(linhas)
+    if not secoes:
+        return markdown, 0
+    corte = next(i for i, l in enumerate(linhas) if l.startswith("## "))
+    cards = [monta_card_criatura(s) for s in secoes]
+    return "\n".join(linhas[:corte]) + "\n\n" + "\n".join(cards), len(cards)
+
+
+# -------------------------------------------------------------------- raças
+
+# Nas Raças o campo é um parágrafo, não um bullet: `**Atributos:** ...` numa
+# linha só. As duas divisórias agrupam as levas.
+RE_CAMPO_PARAGRAFO = re.compile(r"^\*\*([^:*]+):\*\*\s*(.*)$")
+
+DIVISORIAS_RACA = frozenset({"Raças de Animal", "Raças de Peixe/Água"})
+
+# Quantos pontos de atributo a raça concede, no total. Duas formas aparecem:
+#   "escolha 2 dentre X, Y, Z, e distribua +2/+1 entre eles"  -> 3
+#   "+3 pontos (2+1), distribuídos entre quaisquer 2"          -> 3
+RE_PONTOS_PAR = re.compile(r"\+(\d+)\s*/\s*\+(\d+)")
+RE_PONTOS_UM = re.compile(r"\+(\d+)")
+
+
+def campos_de_paragrafo(corpo: list[str]) -> dict[str, str]:
+    campos: dict[str, str] = {}
+    for linha in corpo:
+        if m := RE_CAMPO_PARAGRAFO.match(linha.strip()):
+            campos[m.group(1).strip()] = m.group(2).strip()
+    return campos
+
+
+def pontos_de_atributo(bruto: str) -> int:
+    if m := RE_PONTOS_PAR.search(bruto):
+        return int(m.group(1)) + int(m.group(2))
+    if m := RE_PONTOS_UM.search(bruto):
+        return int(m.group(1))
+    return 0
+
+
+def monta_card_raca(s: Secao, levas_com_regra: set[str]) -> str:
+    flavor, resto = flavor_e_resto(s.corpo)
+    campos = campos_de_paragrafo(resto)
+
+    atributos_md = campos.get("Atributos", "")
+    fisico = campos.get("Traço Físico", "")
+    pontos = pontos_de_atributo(atributos_md)
+
+    # A leva de água concede um traço comum a todas as raças dela, escrito uma
+    # vez só na abertura. Num card lido isolado isso sumiria, então cada card
+    # da leva ganha um ponteiro — o texto continua existindo num lugar só.
+    if s.familia in levas_com_regra:
+        resto = resto + [
+            "",
+            f"Além dos traços acima, esta raça tem o traço comum de "
+            f"**[{s.familia}](#leva-{slug(s.familia)})**.",
+        ]
+
+    # Cada traço racial é um bullet `- **Nome** — efeito`, logo abaixo do
+    # rótulo "Traço Racial"/"Traços Raciais". Contar é o que responde "esta
+    # raça é simples ou carregada?" sem precisar abrir o card.
+    nomes_traco = re.findall(r"^-\s+\*\*([^*]+)\*\*", "\n".join(resto), re.M)
+    leva = s.familia or "Fundadoras"
+    # "escolha 2 dentre Força, Vitalidade, Vontade" -> o pool, não a frase: é
+    # o que responde "que raça serve pro personagem que eu quero".
+    pool = atributos_citados(atributos_md)
+
+    corpo_md = "\n".join(([f"*{flavor}*", ""] if flavor else []) + resto)
+
+    return monta_card_base(
+        "rac-" + slug(s.nome),
+        s.nome,
+        corpo_md,
+        classe="prg-card--raca",
+        chips=chip(leva, "leva"),
+        selo=f"+{pontos} atributo" + ("s" if pontos != 1 else ""),
+        colunas=colunas_html(
+            [
+                (
+                    "Atributos",
+                    " · ".join(n for _, n in pool) if pool else "livre entre os 8",
+                ),
+                ("Traço Físico", texto_puro(fisico).rstrip(".")),
+                ("Traços", str(len(nomes_traco))),
+            ]
+        ),
+        busca=indice_de_busca(s.nome, flavor, texto_puro("\n".join(resto))),
+        facetas=facetas_html(
+            {
+                "leva": slug(leva),
+                "leva-nome": leva,
+                "atributos": " ".join(c for c, _ in pool) or "livre",
+                "atributos-nome": "|".join(n for _, n in pool) or "Livre entre os 8",
+                "tracos": str(len(nomes_traco)),
+                "tracos-nome": f"{len(nomes_traco)} traço"
+                + ("s" if len(nomes_traco) != 1 else ""),
+                "pontos": str(pontos),
+            }
+        ),
+    )
+
+
+def prosa_das_levas(linhas: list[str]) -> tuple[str, set[str]]:
+    """A abertura de cada leva vira uma subseção da prosa, acima da listagem.
+
+    Sem isso, o traço comum das raças de água — escrito uma vez só, na abertura
+    da leva — desapareceria ao trocar as seções por cards.
+    """
+    partes: list[str] = []
+    com_regra: set[str] = set()
+    for i, linha in enumerate(linhas):
+        nome = linha[3:].strip() if linha.startswith("## ") else ""
+        if nome not in DIVISORIAS_RACA:
+            continue
+        corpo: list[str] = []
+        for seguinte in linhas[i + 1 :]:
+            if seguinte.startswith("## "):
+                break
+            corpo.append(seguinte)
+        texto = "\n".join(corpo).strip()
+        if not texto:
+            continue
+        # Âncora explícita: o slugify do toc descarta a barra de "Peixe/Água",
+        # e o ponteiro dentro dos cards precisa cair num id que a gente controla.
+        partes.append(f"### {nome} {{: #leva-{slug(nome)} }}\n\n{texto}")
+        if "- **" in texto:  # a leva concede um traço, não só se apresenta
+            com_regra.add(nome)
+    return ("\n\n".join(partes), com_regra)
+
+
+def monta_listagem_racas(markdown: str) -> tuple[str, int]:
+    linhas = markdown.split("\n")
+    # "Como Funcionam as Raças" é prosa de abertura, não uma raça: fica de fora
+    # da varredura e continua acima da barra de filtro.
+    corte = next(
+        (i for i, l in enumerate(linhas) if l.startswith("## ") and "Funcionam" not in l),
+        None,
+    )
+    if corte is None:
+        return markdown, 0
+
+    levas, com_regra = prosa_das_levas(linhas[corte:])
+    secoes = extrai_secoes(linhas[corte:], DIVISORIAS_RACA)
+    cards = [monta_card_raca(s, com_regra) for s in secoes]
+
+    abertura = "\n".join(linhas[:corte]).rstrip()
+    if levas:
+        abertura += "\n\n## As três levas\n\n" + levas
+    return abertura + "\n\n" + "\n".join(cards), len(cards)
+
+
+# ------------------------------------------------------------------ origens
+#
+# Origem não é seção: são três tabelas d20, e cada linha é uma escolha. O card
+# é curto de propósito — nome, eixo, número do dado e o traço —, porque é isso
+# que a linha da tabela já era. O ganho é poder filtrar e sortear as três
+# tabelas ao mesmo tempo, sem perder a tabela de papel.
+
+EIXOS_ORIGEM = {
+    "Passado": "a vida ou profissão antes de aventurar",
+    "Ambiente de Origem": "a paisagem e a cultura onde cresceu",
+    "Evento Formador": "o momento que definiu o personagem",
+}
+
+# Como o traço age, lido do próprio texto — não é classificação nova, é o verbo
+# que a linha já usa. Serve pra responder "que origem me dá um recurso, e não
+# só uma Vantagem?", que é a pergunta real de quem monta ficha.
+FEITIOS = (
+    ("recurso", "Recurso por descanso", r"\b1x por (descanso|cena)\b"),
+    ("resistencia", "Resistência ou imunidade", r"\bResist[êe]ncia\b|\bImune\b"),
+    ("ignora", "Ignora uma penalidade", r"\bIgnora\b|\bNunca\b|\bSem Desvantagem\b"),
+    ("desvantagem", "Impõe Desvantagem a quem age contra", r"\bcom Desvantagem\b"),
+    ("atributo", "Mexe num atributo", r"[+-]\d+\s+(em|permanente)"),
+    ("vantagem", "Vantagem num teste", r"\bVantagem\b"),
+)
+
+RE_LINHA_TABELA = re.compile(r"^\|\s*(\d+)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*$")
+
+
+def feitio_do_traco(traco: str) -> tuple[str, str]:
+    texto = texto_puro(traco)
+    for chave, nome, padrao in FEITIOS:
+        if re.search(padrao, texto, re.I):
+            return chave, nome
+    return "outro", "Outro efeito"
+
+
+def monta_card_origem(eixo: str, d20: str, nome: str, traco: str) -> str:
+    chave, feitio = feitio_do_traco(traco)
+    pool = atributos_citados(traco)
+
+    return monta_card_base(
+        f"ori-{slug(eixo)}-{slug(nome)}",
+        nome,
+        f"- **Traço:** {traco}\n\n"
+        f"*{eixo} · resultado {d20} na tabela de 1d20.*",
+        classe="prg-card--origem",
+        chips=chip(eixo, "eixo"),
+        selo=f"nº {d20}",
+        classe_selo="prg-card__d20",
+        colunas=colunas_html([("Traço", texto_puro(traco))]),
+        busca=indice_de_busca(nome, eixo, texto_puro(traco)),
+        facetas=facetas_html(
+            {
+                "eixo": slug(eixo),
+                "eixo-nome": eixo,
+                "d20": d20,
+                "feitio": chave,
+                "feitio-nome": feitio,
+                "atributos": " ".join(c for c, _ in pool),
+                "atributos-nome": "|".join(n for _, n in pool),
+            }
+        ),
+    )
+
+
+def monta_listagem_origens(markdown: str) -> tuple[str, int]:
+    """As três tabelas viram uma listagem só.
+
+    O `## Passado`/`## Ambiente`/`## Evento` some da página junto com a frase
+    "pode ser escolhido ou sorteado", que se repetia igual nos três: o eixo
+    virou chip e faceta, e o sorteio virou botão. A tabela continua sendo a
+    fonte no markdown — o número do d20 vira o selo de cada card, então quem
+    rola em papel não perde nada.
+    """
+    linhas = markdown.split("\n")
+    cards: list[str] = []
+    eixo = ""
+    corte = len(linhas)
+
+    for i, linha in enumerate(linhas):
+        if linha.startswith("## "):
+            nome = linha[3:].strip()
+            if nome in EIXOS_ORIGEM:
+                eixo = nome
+                corte = min(corte, i)
+            else:
+                eixo = ""
+            continue
+        if eixo and (m := RE_LINHA_TABELA.match(linha)):
+            d20, nome_linha, traco = m.groups()
+            if d20.isdigit():
+                cards.append(monta_card_origem(eixo, d20, nome_linha, traco))
+
+    return "\n".join(linhas[:corte]).rstrip() + "\n\n" + "\n".join(cards), len(cards)
+
+
 # ----------------------------------------------------------------- arsenal
 
 # Seções do Arsenal que são referência (dado/preço/propriedades), não armas —
 # ficam de fora da varredura de habilidades de arma.
 _ARSENAL_NAO_ARMA = {
+    "graus de habilidade de arma",
     "tabela de dados de dano",
     "propriedades de arma",
     "resolucao de ataque",
@@ -670,32 +1110,224 @@ def cards_de_arma(arsenal_md: str) -> tuple[list[str], int]:
     return todos, total
 
 
-def ponteiros_no_arsenal(arsenal_md: str, destino: str) -> tuple[str, int]:
-    """Troca as 3 habilidades de cada arma por ponteiros pra listagem única,
-    preservando intactas as seções de referência (dado, propriedades, etc.)
-    e o flavor/Dano/Requisito de cada arma."""
+# -------------------------------------------------------------- equipamento
+#
+# O Arsenal tinha 2.654 linhas: três tabelas de referência, as regras de
+# propriedade, e 62 seções de arma com as 3 habilidades de cada uma. Virou
+# duas páginas geradas do mesmo markdown — a listagem (cards de arma, escudo
+# e armadura) e as regras (as tabelas e as propriedades, lidas ao vivo).
+#
+# A ficha de cada arma **já existia**, na tabela de dado de dano: Família,
+# Dado, Tipo, Preço, Chaves, Requisito, Nota. O card só junta essa linha com a
+# seção da arma; nada foi remodelado.
+
+COLUNAS_TABELA_ARMA = ("Arma", "Família", "Dado", "Tipo", "Preço", "Chaves", "Requisito", "Nota")
+
+
+class FichaArma(NamedTuple):
+    grupo: str  # marciais / pontaria / arcano
+    campos: dict[str, str]
+
+
+def le_tabelas_de_arma(arsenal_md: str) -> dict[str, FichaArma]:
+    """slug da arma -> a linha dela nas 3 tabelas de dado de dano."""
+    fichas: dict[str, FichaArma] = {}
+    grupo = ""
+    for linha in arsenal_md.split("\n"):
+        if m := re.match(r"^### (Marciais|Pontaria|Arcano)\s*$", linha):
+            grupo = sem_acento(m.group(1))
+            continue
+        if linha.startswith("## "):
+            grupo = ""
+            continue
+        if not grupo or not linha.startswith("|"):
+            continue
+        celulas = [c.strip() for c in linha.strip().strip("|").split("|")]
+        if len(celulas) != len(COLUNAS_TABELA_ARMA):
+            continue
+        m = re.match(r"^\[([^\]]+)\]", celulas[0])
+        if not m:
+            continue  # cabeçalho ou régua
+        campos = dict(zip(COLUNAS_TABELA_ARMA, celulas))
+        fichas[slug(m.group(1))] = FichaArma(grupo, campos)
+    return fichas
+
+
+def valor_em_prata(bruto: str) -> str:
+    """'60 p' -> '60'. Arma lendária não tem preço: fica vazia e o slider a
+    deixa passar sempre — não se compra, se acha."""
+    m = re.search(r"(\d+)\s*p\b", texto_puro(bruto))
+    return m.group(1) if m else ""
+
+
+def chaves_da_arma(bruto: str) -> list[tuple[str, str]]:
+    texto = texto_puro(bruto)
+    if not texto or texto.startswith("*("):
+        return []
+    return [(slug(p.strip()), p.strip()) for p in texto.split(",") if p.strip()]
+
+
+def monta_card_arma(
+    nome: str, secao_md: str, ficha: FichaArma | None, destino: str
+) -> str:
+    # As 3 habilidades da arma viram ponteiros pros cards que já existem na
+    # Listagem de Habilidades — o card de equipamento nunca repete a ficha
+    # de uma técnica.
+    corpo_md, _ = transforma_para_ponteiros(secao_md, destino, arma=slug(nome))
+    # "Arma Finesse (ver [Finesse](#finesse) abaixo)" — o "abaixo" era a seção
+    # de propriedades logo adiante na mesma página, que agora é `regras.md`.
+    corpo_md = RE_ANCORA_PURA.sub(r"](regras.md#\1)", corpo_md)
+    corpo = corpo_md.split("\n")
+    corpo = corpo[1:] if corpo and corpo[0].startswith("## ") else corpo
+
+    campos = ficha.campos if ficha else {}
+    grupo = ficha.grupo if ficha else ""
+    dado = texto_puro(campos.get("Dado", ""))
+    tipo = texto_puro(campos.get("Tipo", ""))
+    familia = texto_puro(campos.get("Família", ""))
+    requisito = texto_puro(campos.get("Requisito", "")).strip("—- ")
+    chaves = chaves_da_arma(campos.get("Chaves", ""))
+    preco = valor_em_prata(campos.get("Preço", ""))
+
+    return monta_card_base(
+        "equ-" + slug(nome),
+        nome,
+        "\n".join(corpo),
+        classe="prg-card--equipamento",
+        chips="".join(chip(g, "grupo") for g in [grupo.capitalize()] if g),
+        selo=dado,
+        colunas=colunas_html(
+            [
+                ("Tipo", tipo),
+                ("Família", familia),
+                ("Preço", texto_puro(campos.get("Preço", "")).replace("—", "não se compra")),
+                ("Chaves", ", ".join(n for _, n in chaves)),
+                ("Requisito", requisito),
+            ]
+        ),
+        busca=indice_de_busca(
+            nome, familia, dado, tipo, texto_puro(campos.get("Nota", "")),
+            requisito, texto_puro("\n".join(corpo)),
+        ),
+        facetas=facetas_html(
+            {
+                "grupo": grupo,
+                "categoria": "arma",
+                "categoria-nome": "Arma",
+                "familia": slug(familia),
+                "familia-nome": familia,
+                "dado": slug(dado),
+                "dado-nome": dado,
+                "tipo": slug(tipo),
+                "tipo-nome": tipo,
+                "chaves": " ".join(c for c, _ in chaves),
+                "chaves-nome": "|".join(n for _, n in chaves),
+                "requisito": "sim" if requisito else "nao",
+                "requisito-nome": "Exige atributo mínimo" if requisito else "Sem requisito",
+                "preco": preco,
+            }
+        ),
+    )
+
+
+def monta_card_protecao(categoria: str, celulas: list[str], nota: str) -> str:
+    """Escudo e Armadura não concedem habilidade: são uma linha de tabela.
+
+    Viram card pelo mesmo motivo que as armas — pra caírem no mesmo filtro de
+    preço e aparecerem na mesma varredura de "o que eu compro com 50 de prata".
+    """
+    nome, bonus, preco_md = celulas[0], celulas[1], celulas[2]
+    resto = celulas[3] if len(celulas) > 3 else ""
+
+    return monta_card_base(
+        "equ-" + slug(nome),
+        nome,
+        f"- **Bônus de Defesa:** {bonus}\n"
+        f"- **Preço:** {preco_md}\n"
+        + (f"- **{nota}:** {resto}\n" if resto else ""),
+        classe="prg-card--equipamento",
+        chips=chip(categoria, "categoria"),
+        selo=bonus,
+        colunas=colunas_html([("Preço", preco_md.replace("—", "—")), (nota, resto)]),
+        busca=indice_de_busca(nome, categoria, bonus, texto_puro(resto)),
+        facetas=facetas_html(
+            {
+                "categoria": slug(categoria),
+                "categoria-nome": categoria,
+                "preco": valor_em_prata(preco_md),
+            }
+        ),
+    )
+
+
+def cards_de_protecao(arsenal_md: str) -> list[str]:
     linhas = arsenal_md.split("\n")
-    cabecalhos = [
-        (m.group(1).strip(), i)
-        for i, linha in enumerate(linhas)
-        if (m := re.match(r"^## (.+?)\s*$", linha))
+    cards: list[str] = []
+    for titulo, categoria, nota in (
+        (r"^### Escudos\s*$", "Escudo", "Restrição"),
+        (r"^### Armaduras\s*$", "Armadura", "Custo de usar"),
+    ):
+        bloco = extrai_intervalo(linhas, titulo, r"^#{2,3} ")
+        for linha in bloco:
+            if not linha.startswith("|"):
+                continue
+            celulas = [c.strip() for c in linha.strip().strip("|").split("|")]
+            if len(celulas) < 3 or set(celulas[0]) <= {"-", " "}:
+                continue
+            if celulas[1].startswith("Bônus") or celulas[0] in ("Categoria", "Armadura"):
+                continue
+            # "Nenhuma" é a linha de referência da tabela — a ausência de
+            # armadura, não um item que se compra ou se carrega.
+            if celulas[0] == "Nenhuma":
+                continue
+            cards.append(monta_card_protecao(categoria, celulas, nota))
+    return cards
+
+
+def monta_listagem_equipamento(arsenal_md: str, destino: str) -> tuple[str, int]:
+    """A abertura fica; as 62 seções de arma e as duas tabelas de proteção
+    viram cards. As regras vão pra `equipamento/regras.md`."""
+    fichas = le_tabelas_de_arma(arsenal_md)
+    linhas = arsenal_md.split("\n")
+    corte = next(
+        (i for i, l in enumerate(linhas) if re.match(r"^## ", l)), len(linhas)
+    )
+    cards = [
+        monta_card_arma(nome, secao, fichas.get(slug(nome)), destino)
+        for nome, secao in extrai_secoes_de_arma(arsenal_md)
     ]
-    saida: list[str] = []
-    cursor = 0
-    total = 0
-    for idx, (nome, inicio) in enumerate(cabecalhos):
-        fim = cabecalhos[idx + 1][1] if idx + 1 < len(cabecalhos) else len(linhas)
-        saida.extend(linhas[cursor:inicio])
-        if sem_acento(nome) in _ARSENAL_NAO_ARMA:
-            saida.extend(linhas[inicio:fim])
-        else:
-            secao_md = "\n".join(linhas[inicio:fim])
-            novo_md, n = transforma_para_ponteiros(secao_md, destino, arma=slug(nome))
-            saida.extend(novo_md.split("\n"))
-            total += n
-        cursor = fim
-    saida.extend(linhas[cursor:])
-    return "\n".join(saida), total
+    cards.extend(cards_de_protecao(arsenal_md))
+    return "\n".join(linhas[:corte]).rstrip() + "\n\n" + "\n".join(cards), len(cards)
+
+
+def monta_regras_de_equipamento(docs_dir: Path) -> list[str]:
+    """As seções de referência do Arsenal, lidas ao vivo da listagem.
+
+    O markdown continua num arquivo só; esta página é a outra vista dele —
+    mesma ideia de `habilidades/regras.md`.
+    """
+    arsenal = (docs_dir / "equipamento" / "index.md").read_text(encoding="utf-8")
+    linhas = arsenal.split("\n")
+    partes = [
+        *extrai_intervalo(linhas, r"^## Graus de Habilidade de Arma\s*$", r"^## Tabela"),
+        "",
+        *extrai_intervalo(linhas, r"^## Tabela de Dados de Dano\s*$", r"^## Propriedades"),
+        "",
+        *extrai_intervalo(linhas, r"^## Propriedades de Arma\s*$", r"^## [A-ZÀ-Ú]"),
+        "",
+        *extrai_intervalo(linhas, r"^## Resolução de Ataque\s*$"),
+    ]
+
+    # As tabelas linkam cada arma com `#florete`, que era uma seção da mesma
+    # página. Agora a arma é um card na listagem: a âncora atravessa. O que
+    # continua sendo regra (`#finesse`, `#leve`) fica onde está.
+    armas = {slug(n) for n, _ in extrai_secoes_de_arma(arsenal)}
+
+    def religa(m: re.Match) -> str:
+        chave = m.group(1)
+        return f"](index.md#equ-{chave})" if chave in armas else m.group(0)
+
+    return [RE_ANCORA_PURA.sub(religa, l) for l in partes]
 
 
 # ------------------------------------------------------- listagem única
@@ -752,7 +1384,7 @@ def monta_listagem_habilidades(docs_dir: Path) -> tuple[list[str], int]:
     todos.extend(cards_elem)
     total += n_elem
 
-    arsenal_md = (docs_dir / "jogador" / "arsenal.md").read_text(encoding="utf-8")
+    arsenal_md = (docs_dir / "equipamento" / "index.md").read_text(encoding="utf-8")
     cards_arma, n_arma = cards_de_arma(arsenal_md)
     todos.extend(cards_arma)
     total += n_arma
@@ -863,7 +1495,7 @@ def indice_de_habilidades(docs_dir: Path) -> IndiceHabilidades:
     por_arma_grau: dict[tuple[str, str], str] = {}
     nomes_de_arma: dict[str, str] = {}
 
-    arsenal = (docs_dir / "jogador" / "arsenal.md").read_text(encoding="utf-8")
+    arsenal = (docs_dir / "equipamento" / "index.md").read_text(encoding="utf-8")
     for nome_arma, secao in extrai_secoes_de_arma(arsenal):
         arma = slug(nome_arma)
         nomes_de_arma[arma] = nome_arma
@@ -926,10 +1558,12 @@ def armas_do_campo(arma_md: str, nomes_de_arma: dict[str, str]) -> list[tuple[st
     entram no filtro, porque todas são caminhos que o texto de fato oferece.
 
     A identidade da arma vem da âncora do link, não do texto: o pacote escreve
-    "Escudo" onde o Arsenal tem a seção "Escudos", e as duas precisam cair no
+    "Escudo" onde o Equipamento tem o card "Escudos", e as duas precisam cair no
     mesmo valor de filtro que a Listagem de Habilidades usa.
     """
-    achados = re.findall(r"\[([^\]]+)\]\([^)]*arsenal\.md#([^)\s]+)\)", arma_md)
+    achados = re.findall(
+        r"\[([^\]]+)\]\([^)]*equipamento/index\.md#equ-([^)\s]+)\)", arma_md
+    )
     vistos: dict[str, str] = {}
     for texto, ancora in achados:
         # Âncora desconhecida (uma seção do Arsenal que não é arma, por
@@ -968,56 +1602,6 @@ def monta_card_pacote(
     armas = armas_do_campo(p.arma_md, indice.nomes_de_arma)
     atributos = computa_atributos(p.atributo)
 
-    colunas = ""
-    for rotulo, valor in (
-        ("Arma inicial", ", ".join(n for _, n in armas) or "sem arma"),
-        ("Atributo", resume_atributo(p.atributo)),
-        ("Termina em", final_nome),
-    ):
-        if valor:
-            colunas += (
-                f'<span class="prg-card__col" data-rot="{rotulo}">'
-                f"{escapa(valor)}</span>"
-            )
-
-    chip = (
-        f'<span class="prg-chip prg-chip--vert-{slug(vertente_nome)}">'
-        f"{escapa(vertente_nome)}</span>"
-        if vertente_nome
-        else ""
-    )
-
-    # A trilha inteira entra no índice: "que pacote usa Fluxo?" tem que se
-    # responder digitando "fluxo" na busca, não só pelos menus.
-    busca = escapa(
-        sem_acento(
-            " ".join(
-                " ".join(
-                    [
-                        p.nome,
-                        p.flavor,
-                        vertente_nome,
-                        str(meta.get("conceito", "")),
-                        texto_puro(p.arma_md),
-                        p.atributo,
-                        *nomes_trilha,
-                    ]
-                ).split()
-            )
-        )
-    )
-
-    facetas = (
-        f'data-vertente="{slug(vertente_nome)}" '
-        f'data-vertente-nome="{escapa(vertente_nome)}" '
-        f'data-d20="{d20 if d20 is not None else ""}" '
-        f'data-armas="{" ".join(s for s, _ in armas) or "sem-arma"}" '
-        f'data-armas-nome="{escapa("|".join(n for _, n in armas) or "Sem arma inicial")}" '
-        f'data-atributos="{" ".join(atributos)}" '
-        f'data-final="{slug(final_nome)}" '
-        f'data-final-nome="{escapa(final_nome)}"'
-    )
-
     corpo = [
         f"*{p.flavor}*" if p.flavor else "",
         "",
@@ -1029,21 +1613,44 @@ def monta_card_pacote(
         *linhas_trilha,
     ]
 
-    selo = f"nº {d20}" if d20 is not None else ""
-    return (
-        f'<div class="prg-card prg-card--pacote" id="{ident}" data-busca="{busca}" '
-        f'{facetas} markdown="block">\n'
-        f'<button class="prg-card__hd" type="button" aria-expanded="false" '
-        f'aria-controls="{ident}-bd">\n'
-        f'<span class="prg-card__nome">{escapa(p.nome)}</span>\n'
-        f'<span class="prg-card__chips">{chip}</span>\n'
-        f'<span class="prg-card__custo prg-card__d20">{escapa(selo)}</span>\n'
-        f'<span class="prg-card__seta" aria-hidden="true"></span>\n'
-        f'<span class="prg-card__cols">{colunas}</span>\n'
-        f"</button>\n"
-        f'<div class="prg-card__bd" id="{ident}-bd" markdown="1">\n\n'
-        + "\n".join(corpo)
-        + f"\n\n</div>\n</div>\n"
+    return monta_card_base(
+        ident,
+        p.nome,
+        "\n".join(corpo),
+        classe="prg-card--pacote",
+        chips=chip(vertente_nome, "vert") if vertente_nome else "",
+        selo=f"nº {d20}" if d20 is not None else "",
+        classe_selo="prg-card__d20",
+        colunas=colunas_html(
+            [
+                ("Arma inicial", ", ".join(n for _, n in armas) or "sem arma"),
+                ("Atributo", resume_atributo(p.atributo)),
+                ("Termina em", final_nome),
+            ]
+        ),
+        # A trilha inteira entra no índice: "que pacote usa Fluxo?" tem que se
+        # responder digitando "fluxo" na busca, não só pelos menus.
+        busca=indice_de_busca(
+            p.nome,
+            p.flavor,
+            vertente_nome,
+            str(meta.get("conceito", "")),
+            texto_puro(p.arma_md),
+            p.atributo,
+            *nomes_trilha,
+        ),
+        facetas=facetas_html(
+            {
+                "vertente": slug(vertente_nome),
+                "vertente-nome": vertente_nome,
+                "d20": str(d20) if d20 is not None else "",
+                "armas": " ".join(s for s, _ in armas) or "sem-arma",
+                "armas-nome": "|".join(n for _, n in armas) or "Sem arma inicial",
+                "atributos": " ".join(atributos),
+                "final": slug(final_nome),
+                "final-nome": final_nome,
+            }
+        ),
     )
 
 
@@ -1133,14 +1740,27 @@ _ARTE: dict[str, str] = {}
 _DIR_ARTE = Path(__file__).resolve().parent.parent / "docs" / "assets" / "img"
 
 
+_SEQ_ARTE = itertools.count()
+
+
 def svg(nome: str) -> str:
-    """SVG inline (herda currentColor, acompanha o tema claro/escuro)."""
+    """SVG inline (herda currentColor, acompanha o tema claro/escuro).
+
+    O divisor aparece várias vezes na mesma página, e ele carrega gradientes
+    com id próprio. Inline e repetido, isso viraria id duplicado no HTML — o
+    navegador resolveria toda referência pro primeiro. Cada cópia leva um
+    sufixo, então cada uma aponta pro próprio gradiente.
+    """
     if nome not in _ARTE:
         arquivo = _DIR_ARTE / f"{nome}.svg"
         _ARTE[nome] = (
             arquivo.read_text(encoding="utf-8").strip() if arquivo.exists() else ""
         )
-    return _ARTE[nome]
+    bruto = _ARTE[nome]
+    if 'id="' not in bruto:
+        return bruto
+    sufixo = f"-{next(_SEQ_ARTE)}"
+    return re.sub(r'(id="|url\(#)([\w-]+)', rf"\1\2{sufixo}", bruto)
 
 
 def aplica_arte(markdown: str, brasao: str) -> str:
@@ -1171,6 +1791,77 @@ def aplica_arte(markdown: str, brasao: str) -> str:
     return "\n".join(saida)
 
 
+# --------------------------------------------------------- barra de filtro
+#
+# Uma barra só, para as seis listagens. O JS popula cada menu a partir do que
+# os cards de fato declaram, então aqui basta dizer que faceta existe e como
+# ela se chama quando nada está selecionado.
+
+
+def monta_barra(
+    rotulo: str,
+    placeholder: str,
+    facetas: list[tuple[str, str, bool]],
+    linha3: str = "",
+) -> str:
+    menus = "".join(
+        f'<select class="prg-filtro__select" data-faceta="{nome}"'
+        + (' data-multi="1"' if multi else "")
+        + f' aria-label="{escapa(vazio)}">'
+        + f'<option value="">{escapa(vazio)}</option></select>\n'
+        for nome, vazio, multi in facetas
+    )
+    return (
+        f'<div class="prg-filtro" data-rotulo="{escapa(rotulo)}">\n'
+        '<div class="prg-filtro__linha1">\n'
+        '<input type="search" class="prg-filtro__campo" '
+        f'placeholder="{escapa(placeholder)}" '
+        f'aria-label="Filtrar {escapa(rotulo)}">\n'
+        '<span class="prg-filtro__contagem"></span>\n'
+        '<button type="button" class="prg-filtro__tudo">Expandir tudo</button>\n'
+        "</div>\n"
+        f'<div class="prg-filtro__linha2">\n{menus}</div>\n'
+        + (f'<div class="prg-filtro__linha3">\n{linha3}</div>\n' if linha3 else "")
+        + "</div>\n\n"
+    )
+
+
+def slider(campo: str, rotulo: str, oculta_sem_valor: bool = False) -> str:
+    """Controle de orçamento: mostra só o que cabe no valor escolhido.
+
+    `oculta_sem_valor` decide o que fazer com o card que não declara o campo.
+    No Mana, não declarar quer dizer "não custa Mana" e o card passa sempre. No
+    preço quer dizer "não se compra" (arma lendária), e aí o card tem que sair
+    da lista assim que o leitor define um orçamento.
+    """
+    return (
+        '<label class="prg-filtro__mana">\n'
+        f"<span>{escapa(rotulo)}: "
+        f'<output class="prg-filtro__slider-valor" data-campo="{campo}"></output>'
+        "</span>\n"
+        f'<input type="range" class="prg-filtro__slider" data-campo="{campo}" '
+        + ('data-sem-valor="oculta" ' if oculta_sem_valor else "")
+        + f'min="0" value="0" aria-label="{escapa(rotulo)}">\n'
+        "</label>\n"
+    )
+
+
+def sorteio(faceta: str, vazio: str, texto: str, lados: int = 20) -> str:
+    return (
+        f'<select class="prg-filtro__sorteio-grupo" aria-label="{escapa(vazio)}">'
+        f'<option value="">{escapa(vazio)}</option></select>\n'
+        f'<button type="button" class="prg-filtro__sortear" data-faceta="{faceta}" '
+        f'data-lados="{lados}" data-campo="d{lados}">{escapa(texto)}</button>\n'
+        '<span class="prg-filtro__sorteio-saida" role="status"></span>\n'
+    )
+
+
+def insere_barra(markdown: str, barra: str, marca: str) -> str:
+    """Põe a barra logo antes do primeiro card, depois da prosa de abertura."""
+    corte = markdown.find(marca)
+    return markdown[:corte] + barra + markdown[corte:] if corte != -1 else markdown
+
+
 # ------------------------------------------------------------------- hooks
 
 PAGINAS_COM_CARD = ("habilidades/",)
@@ -1189,41 +1880,63 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         corpo = monta_condicoes(Path(config["docs_dir"]))
         return markdown.rstrip() + "\n\n" + "\n".join(corpo)
 
+    if caminho == "origens/index.md":
+        markdown, total = monta_listagem_origens(markdown)
+        barra = monta_barra(
+            "origens",
+            "Filtrar por nome ou efeito do traço…",
+            [
+                ("eixo", "Os três eixos", False),
+                ("feitio", "Qualquer tipo de traço", False),
+                ("atributos", "Todos os atributos", True),
+            ],
+            linha3=sorteio("eixo", "Qualquer eixo", "Sortear origem (1d20)"),
+        )
+        return insere_barra(markdown, barra, '<div class="prg-card')
+
+    if caminho == "racas/index.md":
+        markdown, total = monta_listagem_racas(markdown)
+        barra = monta_barra(
+            "raças",
+            "Filtrar por nome, traço, aparência…",
+            [
+                ("leva", "Todas as levas", False),
+                ("atributos", "Todos os atributos", True),
+                ("tracos", "Qualquer nº de traços", False),
+            ],
+        )
+        return insere_barra(markdown, barra, '<div class="prg-card')
+
+    if caminho == "mestre/bestiario.md":
+        markdown, total = monta_listagem_bestiario(markdown)
+        barra = monta_barra(
+            "criaturas",
+            "Filtrar por nome, ataque, traço, condição…",
+            [
+                ("tier", "Todos os tiers", False),
+                ("couraca", "Toda couraça", False),
+                ("pa", "Qualquer PA", False),
+            ],
+        )
+        return insere_barra(markdown, barra, '<div class="prg-card')
+
     if caminho == "habilidades/index.md":
         cards, total = monta_listagem_habilidades(Path(config["docs_dir"]))
-        barra = (
-            '<div class="prg-filtro" data-rotulo="habilidades">\n'
-            '<div class="prg-filtro__linha1">\n'
-            '<input type="search" class="prg-filtro__campo" '
-            'placeholder="Filtrar por nome, efeito, condição…" '
-            'aria-label="Filtrar habilidades">\n'
-            '<span class="prg-filtro__contagem"></span>\n'
-            '<button type="button" class="prg-filtro__tudo">Expandir tudo</button>\n'
-            "</div>\n"
-            '<div class="prg-filtro__linha2">\n'
-            '<select class="prg-filtro__select" data-faceta="grupo" '
-            'aria-label="Filtrar por tipo"><option value="">Todos os tipos</option></select>\n'
-            '<select class="prg-filtro__select" data-faceta="elemento" '
-            'aria-label="Filtrar por elemento"><option value="">Todos os elementos</option></select>\n'
-            '<select class="prg-filtro__select" data-faceta="arma" '
-            'aria-label="Filtrar por arma"><option value="">Todas as armas</option></select>\n'
-            '<select class="prg-filtro__select" data-faceta="atributos" data-multi="1" '
-            'aria-label="Filtrar por atributo"><option value="">Todos os atributos</option></select>\n'
-            '<select class="prg-filtro__select" data-faceta="alvo" '
-            'aria-label="Filtrar por alvo"><option value="">Todos os alvos</option></select>\n'
-            "</div>\n"
-            '<div class="prg-filtro__linha3">\n'
-            '<label class="prg-filtro__mana">\n'
-            '<span>Mana disponível: <output class="prg-filtro__mana-valor"></output></span>\n'
-            '<input type="range" class="prg-filtro__mana-slider" min="0" value="0" '
-            'aria-label="Mana disponível">\n'
-            "</label>\n"
-            '<label class="prg-filtro__desarmado">\n'
+        barra = monta_barra(
+            "habilidades",
+            "Filtrar por nome, efeito, condição…",
+            [
+                ("grupo", "Todos os tipos", False),
+                ("elemento", "Todos os elementos", False),
+                ("arma", "Todas as armas", False),
+                ("atributos", "Todos os atributos", True),
+                ("alvo", "Todos os alvos", False),
+            ],
+            linha3=slider("mana-min", "Mana disponível")
+            + '<label class="prg-filtro__desarmado">\n'
             '<input type="checkbox" class="prg-filtro__desarmado-campo"> '
             "Só Dano Desarmado\n"
-            "</label>\n"
-            "</div>\n"
-            "</div>\n\n"
+            "</label>\n",
         )
         return markdown.rstrip() + "\n\n" + barra + "\n".join(cards)
 
@@ -1236,46 +1949,40 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
                 f"[prisma] {len(sem_link)} habilidade(s) da trilha sem link: "
                 + "; ".join(sem_link)
             )
-        barra = (
-            '<div class="prg-filtro" data-rotulo="pacotes">\n'
-            '<div class="prg-filtro__linha1">\n'
-            '<input type="search" class="prg-filtro__campo" '
-            'placeholder="Filtrar por nome, conceito, habilidade da trilha…" '
-            'aria-label="Filtrar pacotes">\n'
-            '<span class="prg-filtro__contagem"></span>\n'
-            '<button type="button" class="prg-filtro__tudo">Expandir tudo</button>\n'
-            "</div>\n"
-            '<div class="prg-filtro__linha2">\n'
-            '<select class="prg-filtro__select" data-faceta="vertente" '
-            'aria-label="Filtrar por vertente">'
-            "<option value=\"\">Todas as vertentes</option></select>\n"
-            '<select class="prg-filtro__select" data-faceta="armas" data-multi="1" '
-            'aria-label="Filtrar por arma inicial">'
-            "<option value=\"\">Todas as armas iniciais</option></select>\n"
-            '<select class="prg-filtro__select" data-faceta="atributos" data-multi="1" '
-            'aria-label="Filtrar por atributo em foco">'
-            "<option value=\"\">Todos os atributos</option></select>\n"
-            '<select class="prg-filtro__select" data-faceta="final" '
-            'aria-label="Filtrar pela habilidade de nível 19">'
-            "<option value=\"\">Termina em qualquer coisa</option></select>\n"
-            "</div>\n"
-            '<div class="prg-filtro__linha3">\n'
-            '<select class="prg-filtro__sorteio-vertente" '
-            'aria-label="Vertente do sorteio">'
-            "<option value=\"\">Qualquer vertente</option></select>\n"
-            '<button type="button" class="prg-filtro__sortear">Sortear pacote (1d20)'
-            "</button>\n"
-            '<span class="prg-filtro__sorteio-saida" role="status"></span>\n'
-            "</div>\n"
-            "</div>\n\n"
+        barra = monta_barra(
+            "pacotes",
+            "Filtrar por nome, conceito, habilidade da trilha…",
+            [
+                ("vertente", "Todas as vertentes", False),
+                ("armas", "Todas as armas iniciais", True),
+                ("atributos", "Todos os atributos", True),
+                ("final", "Termina em qualquer coisa", False),
+            ],
+            linha3=sorteio("vertente", "Qualquer vertente", "Sortear pacote (1d20)"),
         )
-        marca = '<div class="prg-card prg-card--pacote"'
-        corte = markdown.find(marca)
-        return markdown[:corte] + barra + markdown[corte:] if corte != -1 else markdown
+        return insere_barra(markdown, barra, '<div class="prg-card prg-card--pacote"')
 
-    if caminho == "jogador/arsenal.md":
-        markdown, total = ponteiros_no_arsenal(markdown, "../habilidades/index.md")
-        return markdown
+    if caminho == "equipamento/index.md":
+        markdown, total = monta_listagem_equipamento(
+            markdown, "../habilidades/index.md"
+        )
+        barra = monta_barra(
+            "itens",
+            "Filtrar por nome, técnica, propriedade…",
+            [
+                ("categoria", "Arma, escudo ou armadura", False),
+                ("grupo", "Todos os estilos", False),
+                ("familia", "Todas as famílias", False),
+                ("tipo", "Todo tipo de dano", False),
+                ("chaves", "Todas as propriedades", True),
+            ],
+            linha3=slider("preco", "Prata disponível", oculta_sem_valor=True),
+        )
+        return insere_barra(markdown, barra, '<div class="prg-card')
+
+    if caminho == "equipamento/regras.md":
+        corpo = monta_regras_de_equipamento(Path(config["docs_dir"]))
+        return markdown.rstrip() + "\n\n" + "\n".join(corpo)
 
     if caminho.startswith(PAGINAS_COM_CARD) and not caminho.endswith("index.md"):
         grupo = Path(caminho).stem

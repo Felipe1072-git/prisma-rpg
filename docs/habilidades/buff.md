@@ -519,7 +519,7 @@ Incremento de força, imbuir elementos em armas, etc.
 *O escudo se ergue no último instante, absorvendo o impacto que era pra te derrubar.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Requisito:** usuário precisa ter um [Escudo](../jogador/arsenal.md#escudos) equipado
+- **Requisito:** usuário precisa ter um [Escudo](../equipamento/index.md#equ-escudo-leve) equipado
 - **Custo fixo:** 0 PA + 3 Mana (dedicada a Reação) | **Atributo:** Força | **Alvos:** o próprio usuário
 - **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação. Com Escudo Leve ou Pesado, reduz o dano daquele ataque à metade (arredondado pra baixo). Com Escudo Torre, anula o dano por completo.
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque)*

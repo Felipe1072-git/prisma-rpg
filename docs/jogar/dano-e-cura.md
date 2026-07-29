@@ -44,7 +44,7 @@ Como toda habilidade, cura tem [Intensidade](../habilidades/regras.md#intensidad
 
 ## Tipos de Dano
 
-Todo dano tem um tipo, e é por isso que a arma escolhida importa contra certas criaturas. Os três primeiros são físicos, e vêm da arma empunhada (ver a coluna **Tipo** na [Tabela de Dados de Dano](../jogador/arsenal.md#tabela-de-dados-de-dano)):
+Todo dano tem um tipo, e é por isso que a arma escolhida importa contra certas criaturas. Os três primeiros são físicos, e vêm da arma empunhada (ver a coluna **Tipo** na [Tabela de Dados de Dano](../equipamento/regras.md#tabela-de-dados-de-dano)):
 
 | Tipo | De onde vem | Contra o que costuma ser bom |
 |---|---|---|
@@ -88,12 +88,12 @@ A Vitalidade **não** entra na rolagem — ela já está representada em quantas
 
 **Como sair de Caído:**
 
-- **Estabilizar** — um aliado adjacente gasta uma **Ação Básica** (◈). O personagem para de rolar e fica **Estável**: segue inconsciente, mas fora de risco. Acorda ao fim da cena com 1 de Vida. (As origens *Curandeiro de Vila* e *Salvou uma Vida* fazem isso como Reação e sem custo — ver [Origem](../jogador/origem.md).)
+- **Estabilizar** — um aliado adjacente gasta uma **Ação Básica** (◈). O personagem para de rolar e fica **Estável**: segue inconsciente, mas fora de risco. Acorda ao fim da cena com 1 de Vida. (As origens *Curandeiro de Vila* e *Salvou uma Vida* fazem isso como Reação e sem custo — ver [Origem](../origens/index.md).)
 - **Cura** — qualquer efeito que devolva Vida traz o personagem de volta com aquela Vida, e ele age normalmente no próximo turno.
 
 Sofrer dano enquanto Caído conta como **uma falha imediata**, além da rolagem do turno.
 
-Isso vale só pros personagens jogadores: uma **criatura a 0 de Vida morre** (ver [Bestiário](../mestre/bestiario.md#criatura-a-0-de-vida-morre)).
+Isso vale só pros personagens jogadores: uma **criatura a 0 de Vida morre** (ver [Bestiário](../mestre/criando-criaturas.md#criatura-a-0-de-vida-morre)).
 
 ## O Último Turno
 

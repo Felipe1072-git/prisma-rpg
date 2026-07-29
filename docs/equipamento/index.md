@@ -1,4 +1,13 @@
-# Arsenal
+# Equipamento
+
+**62 armas, 3 escudos e 3 armaduras**, num lugar só. Filtre por estilo de
+combate, família, tipo de dano, propriedade — ou arraste a prata disponível e
+veja o que cabe no bolso.
+
+As regras (o que cada propriedade faz, o requisito de atributo, como o ataque
+se resolve) estão em [Regras de Equipamento](regras.md).
+
+## Graus de Habilidade de Arma
 
 Cada arma concede acesso a 3 habilidades, em ordem de aprendizado:
 
@@ -9,7 +18,7 @@ Cada arma concede acesso a 3 habilidades, em ordem de aprendizado:
 O grau **não** define o custo — cada uma das três é uma habilidade completa, com suas próprias [Intensidades](../habilidades/regras.md#intensidade) I/II/III (◈, ◈◈, ◈◈◈). O que o grau define é **o quanto a técnica entrega** por Intensidade: a Básica atinge um alvo, a Especial costuma atingir uma área ou impor condições severas. O custo em Mana também sobe com o grau, então o investimento na arma fica visível na ficha:
 
 | Grau | Intensidade I (◈) | Intensidade II (◈◈) | Intensidade III (◈◈◈) |
-|---|---|---|---|---|
+|---|---|---|---|
 | Básica | 1 Mana | 3 Mana | 6 Mana |
 | Avançada | 2 Mana | 5 Mana | 9 Mana |
 | Especial | 3 Mana | 7 Mana | 12 Mana |
@@ -178,7 +187,7 @@ Ter um Escudo equipado também habilita a habilidade geral [Bloqueio](../habilid
 
 ### Armaduras
 
-A **Armadura** é o outro termo da fórmula de [Defesa](../jogar/combate.md#defesa) física — soma direto nela, sempre ativa, sem custo de Mana ou PA. É o equivalente da [Couraça Natural](../mestre/bestiario.md#couraca-natural) das criaturas: só protege contra dano, empurrão e queda, nunca contra veneno, medo ou ilusão.
+A **Armadura** é o outro termo da fórmula de [Defesa](../jogar/combate.md#defesa) física — soma direto nela, sempre ativa, sem custo de Mana ou PA. É o equivalente da [Couraça Natural](../mestre/criando-criaturas.md#couraca-natural) das criaturas: só protege contra dano, empurrão e queda, nunca contra veneno, medo ou ilusão.
 
 | Armadura | Bônus de Defesa | Preço | Custo de usar |
 |---|---|---|---|

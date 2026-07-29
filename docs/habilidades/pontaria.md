@@ -12,7 +12,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 
 - **Chave:** [Pontaria](../glossario.md#pontaria) - [Especial](../glossario.md#especial)
 - **Custo fixo:** ◈◈◈ (3 PA) + 6 Mana | **Atributo:** Agilidade | **Alvos:** até 2 criaturas (1 por clone), dentro do alcance de 8 casas
-- **Efeito:** invoca 2 clones que desaparecem no fim da rodada. Cada clone rola seu próprio teste (d20 + Agilidade) contra um alvo à escolha e, em acerto, aplica o efeito da Intensidade I da [Rajada de Flechas](../jogador/arsenal.md#arco) (1d8 de dano + alvo fica [Marcado](../glossario.md#marcado)).
+- **Efeito:** invoca 2 clones que desaparecem no fim da rodada. Cada clone rola seu próprio teste (d20 + Agilidade) contra um alvo à escolha e, em acerto, aplica o efeito da Intensidade I da [Rajada de Flechas](../equipamento/index.md#equ-arco) (1d8 de dano + alvo fica [Marcado](../glossario.md#marcado)).
 - *(Sem Intensidade própria — cada clone entrega o efeito base da Rajada de Flechas)*
 
 **Investida Certeira**

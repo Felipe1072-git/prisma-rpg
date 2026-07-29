@@ -86,7 +86,7 @@ Quem pode voar (traço racial ou habilidade) se move em três dimensões pelo **
 - O personagem ataca uma criatura → **o jogador** rola d20 + Atributo contra a Defesa da criatura.
 - Uma criatura ataca o personagem → **o Mestre** rola d20 + o Ataque da criatura contra a Defesa do personagem.
 
-Não existe rolagem de defesa: quem está sendo atacado não rola nada, seu número de Defesa é o alvo a ser superado. Ver [Bestiário](../mestre/bestiario.md#como-resolver-o-ataque-de-uma-criatura) para o lado do Mestre.
+Não existe rolagem de defesa: quem está sendo atacado não rola nada, seu número de Defesa é o alvo a ser superado. Ver [Bestiário](../mestre/criando-criaturas.md#como-resolver-o-ataque-de-uma-criatura) para o lado do Mestre.
 
 ## Base de Resiliência
 
@@ -126,4 +126,4 @@ A Defesa decide **se** o golpe acerta, nunca o quanto ele faz — isso já foi d
 
 ## Fim do combate
 
-Uma criatura que chega a 0 de Vida **morre** (ver [Bestiário](../mestre/bestiario.md#criatura-a-0-de-vida-morre)). Um personagem jogador, não: ele fica [Caído](dano-e-cura.md#chegando-a-0-de-vida) e passa a rolar contra a morte — a menos que escolha o [Último Turno](dano-e-cura.md#o-ultimo-turno).
+Uma criatura que chega a 0 de Vida **morre** (ver [Bestiário](../mestre/criando-criaturas.md#criatura-a-0-de-vida-morre)). Um personagem jogador, não: ele fica [Caído](dano-e-cura.md#chegando-a-0-de-vida) e passa a rolar contra a morte — a menos que escolha o [Último Turno](dano-e-cura.md#o-ultimo-turno).

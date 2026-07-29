@@ -15,7 +15,7 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 
 *Traços raciais de "1 grau acima": no nível 17+, o dado sobe pra **1d12**.*
 
-**O corpo conta como arma [Finesse](../jogador/arsenal.md#finesse):** toda habilidade desarmada usa **Força ou Agilidade, o que for maior**. Arte marcial é técnica tanto quanto força — travar o punho em Força puna justamente o lutador ágil, que é o arquétipo que mais depende dele.
+**O corpo conta como arma [Finesse](../equipamento/regras.md#finesse):** toda habilidade desarmada usa **Força ou Agilidade, o que for maior**. Arte marcial é técnica tanto quanto força — travar o punho em Força puna justamente o lutador ágil, que é o arquétipo que mais depende dele.
 
 O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo quando um traço racial disser outra coisa (garras naturais cortam).
 

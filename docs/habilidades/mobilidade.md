@@ -49,7 +49,7 @@ Voo, deslocamento.
 *Os propulsores disparam no último instante, arrastando o usuário pra longe do golpe.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Requisito:** usuário precisa ter a [Soqueira Pesada](../jogador/arsenal.md#soqueira-pesada) equipada
+- **Requisito:** usuário precisa ter a [Soqueira Pesada](../equipamento/index.md#equ-soqueira-pesada) equipada
 - **Atributo:** Força | **Alvos:** o próprio usuário
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
 - **Intensidade I — 0 PA + 3 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 3 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.

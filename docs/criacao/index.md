@@ -8,9 +8,9 @@ Se esta é a sua primeira ficha, comece por um dos [100 Pacotes](../pacotes/inde
 |---|---|---|
 | **1** | Atributos | [abaixo](#1-atributos) |
 | **2** | Raça | [Raças](../racas/index.md) |
-| **3** | Origem | [Origem](../jogador/origem.md) |
+| **3** | Origem | [Origem](../origens/index.md) |
 | **4** | Primeira Habilidade | [Habilidades](../habilidades/index.md) |
-| **5** | Equipamento | [Arsenal](../jogador/arsenal.md) |
+| **5** | Equipamento | [Arsenal](../equipamento/index.md) |
 
 ## 1. Atributos
 
@@ -46,13 +46,15 @@ Nenhuma raça jogável é visualmente indistinguível de um humano: toda raça n
 
 ## 3. Origem
 
-A [Origem](../jogador/origem.md) é o que você viveu antes de virar aventureiro — **três escolhas independentes**, cada uma com 1 traço leve:
+A [Origem](../origens/index.md) é o que você viveu antes de virar aventureiro — **três escolhas independentes**, cada uma com 1 traço leve:
 
-- **[Passado](../jogador/origem.md#passado)** — a vida ou profissão antes de aventurar
-- **[Ambiente de Origem](../jogador/origem.md#ambiente-de-origem)** — a paisagem e cultura onde cresceu (independente da Raça)
-- **[Evento Formador](../jogador/origem.md#evento-formador)** — o momento que definiu o personagem
+- **Passado** — a vida ou profissão antes de aventurar
+- **Ambiente de Origem** — a paisagem e cultura onde cresceu (independente da Raça)
+- **Evento Formador** — o momento que definiu o personagem
 
 Cada uma pode ser escolhida livremente ou sorteada com 1d20. Somadas, as três valem o mesmo peso mecânico de uma Raça — só divididas em mais eixos.
+
+Na [listagem de Origens](../origens/index.md) as três estão juntas: filtre pelo eixo, ou use o botão de sorteio.
 
 ## 4. Primeira Habilidade
 
@@ -65,8 +67,8 @@ Escolha **uma** habilidade de qualquer [grupo](../habilidades/regras.md#grupos),
 
 ## 5. Equipamento
 
-- **A arma (ou armas) que você carrega** — escolhida livremente e **gratuita**, desde que você atenda o [Requisito de Atributo](../jogador/arsenal.md#requisito-de-atributo-minimo) dela.
-- **50 de prata** pra comprar armadura, escudo e equipamento no [Arsenal](../jogador/arsenal.md).
+- **A arma (ou armas) que você carrega** — escolhida livremente e **gratuita**, desde que você atenda o [Requisito de Atributo](../equipamento/regras.md#requisito-de-atributo-minimo) dela.
+- **50 de prata** pra comprar armadura, escudo e equipamento no [Arsenal](../equipamento/index.md).
 
 ## Valores que você calcula no fim
 

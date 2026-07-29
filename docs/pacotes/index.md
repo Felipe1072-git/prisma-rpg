@@ -2,7 +2,7 @@
 
 Pacotes são kits/trilhas de Armas e Habilidades para jogar dentro de um arquétipo — inspirados em Grand Chase e em arquétipos amplos de fantasia (Witcher, Dragon Age, D&D, Skyrim, etc.), não etiquetas de uma mídia específica. Não são classes: são só um ponto de partida sugerido. Nada impede montar um personagem fora de qualquer pacote, misturar elementos de vários, ou começar num pacote e sair da trilha depois.
 
-Os 100 pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª Habilidade sugerida pro nível 1) e **trilha sugerida** até o nível 20 (as 10 escolhas de Habilidade da carreira, nos níveis ímpares — ver [Progressão de Nível](../criacao/progressao.md)). A trilha é só sugestão: nada impede pegar uma Habilidade fora dela em qualquer nível, ou abandonar o pacote por completo. Onde a trilha usa mais de um grau da mesma arma, a ordem sempre respeita o [Aprendizado progressivo](../jogador/arsenal.md) (Básica antes de Avançada, Avançada antes de Especial).
+Os 100 pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª Habilidade sugerida pro nível 1) e **trilha sugerida** até o nível 20 (as 10 escolhas de Habilidade da carreira, nos níveis ímpares — ver [Progressão de Nível](../criacao/progressao.md)). A trilha é só sugestão: nada impede pegar uma Habilidade fora dela em qualquer nível, ou abandonar o pacote por completo. Onde a trilha usa mais de um grau da mesma arma, a ordem sempre respeita o [Aprendizado progressivo](../equipamento/index.md) (Básica antes de Avançada, Avançada antes de Especial).
 
 Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por qualquer habilidade da trilha — ou deixe o d20 escolher por você. As cinco tabelas de sorteio em papel ficam em [Sorteio de Pacote](sorteio.md).
 
@@ -10,7 +10,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Esquivas acrobáticas viram dano.*
 
-- **Arma inicial:** [Leque](../jogador/arsenal.md#leque)
+- **Arma inicial:** [Leque](../equipamento/index.md#equ-leque)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -30,7 +30,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Rajadas, alta mobilidade e repulsão de inimigos.*
 
-- **Arma inicial:** [Adagas](../jogador/arsenal.md#adagas)
+- **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -50,7 +50,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Finalizações violentas contra alvos debilitados.*
 
-- **Arma inicial:** [Montante](../jogador/arsenal.md#montante)
+- **Arma inicial:** [Montante](../equipamento/index.md#equ-montante)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -70,7 +70,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Arremesso de ácidos, poções de cura rápida e gases nocivos.*
 
-- **Arma inicial:** [Pote](../jogador/arsenal.md#pote)
+- **Arma inicial:** [Pote](../equipamento/index.md#equ-pote)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -90,7 +90,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Transita ao plano espiritual pra atravessar paredes e golpes.*
 
-- **Arma inicial:** [Katana Nodachi](../jogador/arsenal.md#katana-nodachi)
+- **Arma inicial:** [Katana Nodachi](../equipamento/index.md#equ-katana-nodachi)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -110,7 +110,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Buffs de área baseados no posicionamento do símbolo.*
 
-- **Arma inicial:** [Báculo](../jogador/arsenal.md#baculo)
+- **Arma inicial:** [Báculo](../equipamento/index.md#equ-baculo)
 - **Atributo em foco:** Sabedoria
 
 | Nível | Habilidade |
@@ -130,7 +130,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Energia pura, mísseis teleguiados e barreiras de força.*
 
-- **Arma inicial:** [Cetro](../jogador/arsenal.md#cetro)
+- **Arma inicial:** [Cetro](../equipamento/index.md#equ-cetro)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -150,7 +150,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Constrói torres de tiro temporárias e pequenas engenhocas.*
 
-- **Arma inicial:** [Flintlock](../jogador/arsenal.md#flintlock)
+- **Arma inicial:** [Flintlock](../equipamento/index.md#equ-flintlock)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -172,7 +172,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Lâminas ocultas ou garras; desloca-se entre sombras e usa venenos letais.*
 
-- **Arma inicial:** [Garras](../jogador/arsenal.md#garras)
+- **Arma inicial:** [Garras](../equipamento/index.md#equ-garras)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -192,7 +192,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Magias de gravidade, órbitas e fases da lua.*
 
-- **Arma inicial:** [Orbe](../jogador/arsenal.md#orbe)
+- **Arma inicial:** [Orbe](../equipamento/index.md#equ-orbe)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -212,7 +212,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Canaliza feitiços diretamente pelos disparos.*
 
-- **Arma inicial:** [Arco](../jogador/arsenal.md#arco)
+- **Arma inicial:** [Arco](../equipamento/index.md#equ-arco)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -232,7 +232,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Mira focada, tiros perfurantes e camuflagem.*
 
-- **Arma inicial:** [Arco](../jogador/arsenal.md#arco)
+- **Arma inicial:** [Arco](../equipamento/index.md#equ-arco)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -252,7 +252,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Desarma inimigos e causa sangramento à distância.*
 
-- **Arma inicial:** [Mangual](../jogador/arsenal.md#mangual)
+- **Arma inicial:** [Mangual](../equipamento/index.md#equ-mangual)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -272,7 +272,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Machados pesados, fúria crescente e dano que aumenta quanto mais vida já perdeu.*
 
-- **Arma inicial:** [Machado](../jogador/arsenal.md#machado)
+- **Arma inicial:** [Machado](../equipamento/index.md#equ-machado)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -292,7 +292,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Rajadas de energia sombria e maldições direcionadas.*
 
-- **Arma inicial:** [Manual](../jogador/arsenal.md#manual)
+- **Arma inicial:** [Manual](../equipamento/index.md#equ-manual)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -312,7 +312,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Caça, rastreia e pune usuários de magia.*
 
-- **Arma inicial:** [Bestas](../jogador/arsenal.md#bestas)
+- **Arma inicial:** [Bestas](../equipamento/index.md#equ-bestas)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -332,7 +332,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Explora fraquezas de tipos de criatura específicos.*
 
-- **Arma inicial:** [Sabres](../jogador/arsenal.md#sabres)
+- **Arma inicial:** [Sabres](../equipamento/index.md#equ-sabres)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -352,7 +352,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Boleadeiras, redes e espadas curtas; marca um alvo e persegue até derrubá-lo — o arsenal completo do caçador de recompensas clássico.*
 
-- **Arma inicial:** [Pistolas](../jogador/arsenal.md#pistolas)
+- **Arma inicial:** [Pistolas](../equipamento/index.md#equ-pistolas)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -392,7 +392,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Alturas, saltos ousados e bônus em navios/dirigíveis.*
 
-- **Arma inicial:** [Flintlock](../jogador/arsenal.md#flintlock)
+- **Arma inicial:** [Flintlock](../equipamento/index.md#equ-flintlock)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -412,7 +412,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Auras de desespero, enfraquecimento e dreno de vida.*
 
-- **Arma inicial:** [Espada Senciente](../jogador/arsenal.md#espada-senciente)
+- **Arma inicial:** [Espada Senciente](../equipamento/index.md#equ-espada-senciente)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -434,7 +434,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Investidas montadas e bônus de moral em combate aberto.*
 
-- **Arma inicial:** [Espada](../jogador/arsenal.md#espada)
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -454,7 +454,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Arcos de ataque amplos que atingem múltiplos alvos.*
 
-- **Arma inicial:** [Foice](../jogador/arsenal.md#foice)
+- **Arma inicial:** [Foice](../equipamento/index.md#equ-foice)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -474,7 +474,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Táticas de formação defensiva e bônus de bando.*
 
-- **Arma inicial:** [Tridente](../jogador/arsenal.md#tridente) + [Escudo](../jogador/arsenal.md#escudos) Leve
+- **Arma inicial:** [Tridente](../equipamento/index.md#equ-tridente) + [Escudo](../equipamento/index.md#equ-escudo-leve) Leve
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -494,7 +494,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Discos afiados que ricocheteiam entre inimigos antes de voltar à mão.*
 
-- **Arma inicial:** [Chakram](../jogador/arsenal.md#chakram)
+- **Arma inicial:** [Chakram](../equipamento/index.md#equ-chakram)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -514,7 +514,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Magias de suporte que fortalecem o dano do grupo.*
 
-- **Arma inicial:** [Martelo](../jogador/arsenal.md#martelo)
+- **Arma inicial:** [Martelo](../equipamento/index.md#equ-martelo)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -534,7 +534,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Ordens que concedem ações extras ou posicionamento a aliados.*
 
-- **Arma inicial:** [Espada](../jogador/arsenal.md#espada)
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada)
 - **Atributo em foco:** Vontade
 
 | Nível | Habilidade |
@@ -554,7 +554,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Efeitos aleatórios de uma tabela de selvageria mágica.*
 
-- **Arma inicial:** [Cubo Mágico](../jogador/arsenal.md#cubo-magico)
+- **Arma inicial:** [Cubo Mágico](../equipamento/index.md#equ-cubo-magico)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -574,7 +574,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Poções contrabandeadas e fuga rápida.*
 
-- **Arma inicial:** [Punhal](../jogador/arsenal.md#punhal)
+- **Arma inicial:** [Punhal](../equipamento/index.md#equ-punhal)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -594,7 +594,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Controle de grupo, barreiras de gelo e lentidão.*
 
-- **Arma inicial:** [Cajado](../jogador/arsenal.md#cajado)
+- **Arma inicial:** [Cajado](../equipamento/index.md#equ-cajado)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -614,7 +614,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Acelera aliados, desacelera inimigos ou desfaz dano recente.*
 
-- **Arma inicial:** [Adagas](../jogador/arsenal.md#adagas)
+- **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -634,7 +634,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Invoca tentáculos e consome a sanidade do inimigo.*
 
-- **Arma inicial:** [Adagas](../jogador/arsenal.md#adagas)
+- **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -654,7 +654,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Movimentos teatrais que causam dano e encantam.*
 
-- **Arma inicial:** [Gadanha](../jogador/arsenal.md#gadanha)
+- **Arma inicial:** [Gadanha](../equipamento/index.md#equ-gadanha)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -674,7 +674,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Ataques cortantes em sequência contínua.*
 
-- **Arma inicial:** [Chakram](../jogador/arsenal.md#chakram)
+- **Arma inicial:** [Chakram](../equipamento/index.md#equ-chakram)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -694,7 +694,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Bônus massivos ao fincar os pés e não se mover.*
 
-- **Arma inicial:** [Balista](../jogador/arsenal.md#balista)
+- **Arma inicial:** [Balista](../equipamento/index.md#equ-balista)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -714,7 +714,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Destrói armaduras, escudos, portões e estruturas físicas.*
 
-- **Arma inicial:** [Marreta Mágica](../jogador/arsenal.md#marreta-magica)
+- **Arma inicial:** [Marreta Mágica](../equipamento/index.md#equ-marreta-magica)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -734,7 +734,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Martelos colossais, armadura pesada e avanço imparável.*
 
-- **Arma inicial:** [Martelo](../jogador/arsenal.md#martelo)
+- **Arma inicial:** [Martelo](../equipamento/index.md#equ-martelo)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -774,7 +774,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Esquivas milimétricas, estocadas rápidas e contra-ataques.*
 
-- **Arma inicial:** [Florete](../jogador/arsenal.md#florete)
+- **Arma inicial:** [Florete](../equipamento/index.md#equ-florete)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -794,7 +794,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Hipnose, pacificação e buffs de atributo.*
 
-- **Arma inicial:** [Violino](../jogador/arsenal.md#violino) *(requer Vontade +4 — só é equipável no nível 1 com um bônus racial de Vontade; senão, comece com [Báculo](../jogador/arsenal.md#baculo) e troque depois)*
+- **Arma inicial:** [Violino](../equipamento/index.md#equ-violino) *(requer Vontade +4 — só é equipável no nível 1 com um bônus racial de Vontade; senão, comece com [Báculo](../equipamento/index.md#equ-baculo) e troque depois)*
 - **Atributo em foco:** Vontade
 
 | Nível | Habilidade |
@@ -814,7 +814,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Esgrima clássica, posturas de combate e golpes precisos.*
 
-- **Arma inicial:** [Espada](../jogador/arsenal.md#espada)
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -834,7 +834,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Disfarces rápidos e golpes em pontos vitais.*
 
-- **Arma inicial:** [Punhal](../jogador/arsenal.md#punhal)
+- **Arma inicial:** [Punhal](../equipamento/index.md#equ-punhal)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -850,13 +850,13 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 | 17 | Aroma Sangrento |
 | 19 | Corte Rápido Final *(Supremo)* |
 
-*Combina bem com o Passado [Espião](../jogador/origem.md#passado) da Origem, que já dá vantagem pra manter disfarces.*
+*Combina bem com o Passado [Espião](../origens/index.md#passado) da Origem, que já dá vantagem pra manter disfarces.*
 
 ### Executor Silencioso
 
 *Neutraliza ameaças sem fazer nenhum barulho.*
 
-- **Arma inicial:** [Punhal](../jogador/arsenal.md#punhal)
+- **Arma inicial:** [Punhal](../equipamento/index.md#equ-punhal)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -876,7 +876,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Um estilo de luta marcial sombrio e rápido.*
 
-- **Arma inicial:** [Manopla](../jogador/arsenal.md#manopla)
+- **Arma inicial:** [Manopla](../equipamento/index.md#equ-manopla)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -896,7 +896,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Bane, repele e causa dano massivo a mortos-vivos e demônios.*
 
-- **Arma inicial:** [Cetro](../jogador/arsenal.md#cetro)
+- **Arma inicial:** [Cetro](../equipamento/index.md#equ-cetro)
 - **Atributo em foco:** Sabedoria
 
 | Nível | Habilidade |
@@ -916,7 +916,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Causa dano a si mesmo pra gerar efeitos devastadores no grupo.*
 
-- **Arma inicial:** [Chicote](../jogador/arsenal.md#chicote)
+- **Arma inicial:** [Chicote](../equipamento/index.md#equ-chicote)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -936,7 +936,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Conserta armaduras e aprimora armas dos aliados em combate.*
 
-- **Arma inicial:** [Martelo](../jogador/arsenal.md#martelo)
+- **Arma inicial:** [Martelo](../equipamento/index.md#equ-martelo)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -956,7 +956,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Bônus por atacar pelas costas, roubo em combate e agilidade vertical.*
 
-- **Arma inicial:** [Adagas](../jogador/arsenal.md#adagas)
+- **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -976,7 +976,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Manipulação de terreno, terremotos e armaduras de rocha.*
 
-- **Arma inicial:** [Manopla](../jogador/arsenal.md#manopla)
+- **Arma inicial:** [Manopla](../equipamento/index.md#equ-manopla)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -996,7 +996,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Controle de arena, provocações e bônus por "entreter" aliados.*
 
-- **Arma inicial:** [Tridente](../jogador/arsenal.md#tridente)
+- **Arma inicial:** [Tridente](../equipamento/index.md#equ-tridente)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1016,7 +1016,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Intercepta ataques direcionados a aliados frágeis.*
 
-- **Arma inicial:** [Glaive](../jogador/arsenal.md#glaive)
+- **Arma inicial:** [Glaive](../equipamento/index.md#equ-glaive)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1036,7 +1036,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Raízes que prendem e armadura de casca de árvore.*
 
-- **Arma inicial:** [Chicote](../jogador/arsenal.md#chicote)
+- **Arma inicial:** [Chicote](../equipamento/index.md#equ-chicote)
 - **Atributo em foco:** Sabedoria
 
 | Nível | Habilidade |
@@ -1056,7 +1056,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Postura estática que impede a passagem por uma área.*
 
-- **Arma inicial:** [Glaive](../jogador/arsenal.md#glaive)
+- **Arma inicial:** [Glaive](../equipamento/index.md#equ-glaive)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1076,7 +1076,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Ativa símbolos na arma pra efeitos físicos secundários.*
 
-- **Arma inicial:** [Lâmina](../jogador/arsenal.md#lamina)
+- **Arma inicial:** [Lâmina](../equipamento/index.md#equ-lamina)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1096,7 +1096,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Extratos de plantas pra curar ou paralisar.*
 
-- **Arma inicial:** [Zarabatana](../jogador/arsenal.md#zarabatana)
+- **Arma inicial:** [Zarabatana](../equipamento/index.md#equ-zarabatana)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -1116,7 +1116,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Duplicatas, camuflagem e confusão de alvos.*
 
-- **Arma inicial:** [Leque](../jogador/arsenal.md#leque)
+- **Arma inicial:** [Leque](../equipamento/index.md#equ-leque)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1136,7 +1136,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Bônus massivos em becos, telhados e espaços apertados.*
 
-- **Arma inicial:** [Adagas](../jogador/arsenal.md#adagas)
+- **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -1152,13 +1152,13 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 | 17 | Passagem Etérea |
 | 19 | Fluxo Elegante *(Supremo)* |
 
-*Combina bem com o Ambiente de Origem [Cidade Grande](../jogador/origem.md#ambiente-de-origem).*
+*Combina bem com o Ambiente de Origem [Cidade Grande](../origens/index.md#ambiente-de-origem).*
 
 ### Inquisidor
 
 *Pune infiéis, causa medo e purifica alvos.*
 
-- **Arma inicial:** [Chicote](../jogador/arsenal.md#chicote)
+- **Arma inicial:** [Chicote](../equipamento/index.md#equ-chicote)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -1178,7 +1178,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Invoca entidades planares, espíritos ou feras pra lutar em seu lugar.*
 
-- **Arma inicial:** [Orbe](../jogador/arsenal.md#orbe)
+- **Arma inicial:** [Orbe](../equipamento/index.md#equ-orbe)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1198,7 +1198,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Aplica "julgamentos" com dano extra por ação do alvo.*
 
-- **Arma inicial:** [Montante](../jogador/arsenal.md#montante)
+- **Arma inicial:** [Montante](../equipamento/index.md#equ-montante)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1218,7 +1218,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Drena estamina, mana ou foco do alvo a cada crítico.*
 
-- **Arma inicial:** [Adagas](../jogador/arsenal.md#adagas)
+- **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -1238,7 +1238,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Silencia conjuradores e golpeia na escuridão.*
 
-- **Arma inicial:** [Alfange](../jogador/arsenal.md#alfange)
+- **Arma inicial:** [Alfange](../equipamento/index.md#equ-alfange)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -1258,7 +1258,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Mantém inimigos à distância e perfura armaduras.*
 
-- **Arma inicial:** [Lança](../jogador/arsenal.md#lanca)
+- **Arma inicial:** [Lança](../equipamento/index.md#equ-lanca)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1274,13 +1274,13 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 | 17 | Investida Dupla *(Dupla Empunhadura: Lança + Espada)* |
 | 19 | Queda Celestial *(Supremo)* |
 
-*O nível 17 exige também ter uma [Espada](../jogador/arsenal.md#espada) equipada — troque por outra Habilidade se preferir não montar essa combinação.*
+*O nível 17 exige também ter uma [Espada](../equipamento/index.md#equ-espada) equipada — troque por outra Habilidade se preferir não montar essa combinação.*
 
 ### Lutador de Rua
 
 *Agarrões, socos ingleses e uso do cenário.*
 
-- **Arma inicial:** [Manopla](../jogador/arsenal.md#manopla)
+- **Arma inicial:** [Manopla](../equipamento/index.md#equ-manopla)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1300,7 +1300,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Consome a própria vida ou o sangue do inimigo pra potencializar feitiços.*
 
-- **Arma inicial:** [Manual](../jogador/arsenal.md#manual)
+- **Arma inicial:** [Manual](../equipamento/index.md#equ-manual)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1320,7 +1320,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Telecinese, rajadas psíquicas e controle mental leve.*
 
-- **Arma inicial:** [Olho Mágico](../jogador/arsenal.md#olho-magico)
+- **Arma inicial:** [Olho Mágico](../equipamento/index.md#equ-olho-magico)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1340,7 +1340,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Eficiência, pragmatismo e vantagem tática.*
 
-- **Arma inicial:** [Bestas](../jogador/arsenal.md#bestas)
+- **Arma inicial:** [Bestas](../equipamento/index.md#equ-bestas)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -1360,7 +1360,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Luta em dupla com um companheiro animal persistente.*
 
-- **Arma inicial:** [Lança](../jogador/arsenal.md#lanca)
+- **Arma inicial:** [Lança](../equipamento/index.md#equ-lanca)
 - **Atributo em foco:** Força ou Sabedoria
 
 | Nível | Habilidade |
@@ -1380,7 +1380,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Desenha glifos que criam zonas de efeito permanentes.*
 
-- **Arma inicial:** [Martelo](../jogador/arsenal.md#martelo)
+- **Arma inicial:** [Martelo](../equipamento/index.md#equ-martelo)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1400,7 +1400,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Arsenal variado; bônus ao alternar dinamicamente entre armas no meio do turno.*
 
-- **Arma inicial:** [Espada](../jogador/arsenal.md#espada)
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -1420,7 +1420,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Redireciona o ataque inimigo contra ele mesmo.*
 
-- **Arma inicial:** [Bastão](../jogador/arsenal.md#bastao)
+- **Arma inicial:** [Bastão](../equipamento/index.md#equ-bastao)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1460,7 +1460,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Punhos puros e faixas; canaliza energia interna pra curar a si mesmo e golpear rápido.*
 
-- **Arma inicial:** [Manopla](../jogador/arsenal.md#manopla)
+- **Arma inicial:** [Manopla](../equipamento/index.md#equ-manopla)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1480,7 +1480,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Manoplas ou espadas pesadas; sopros elementais, rugidos de medo e escamas rígidas.*
 
-- **Arma inicial:** [Montante](../jogador/arsenal.md#montante)
+- **Arma inicial:** [Montante](../equipamento/index.md#equ-montante)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1502,7 +1502,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Foices ou grimórios de osso; reanima lacaios temporários e maldições de definhamento.*
 
-- **Arma inicial:** [Foice](../jogador/arsenal.md#foice)
+- **Arma inicial:** [Foice](../equipamento/index.md#equ-foice)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1522,7 +1522,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Controle de redemoinhos de areia e resistência a clima/fadiga.*
 
-- **Arma inicial:** [Alfange](../jogador/arsenal.md#alfange)
+- **Arma inicial:** [Alfange](../equipamento/index.md#equ-alfange)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -1538,13 +1538,13 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 | 17 | Chama Solar |
 | 19 | Erupção Vulcânica *(Supremo)* |
 
-*Combina bem com o Ambiente de Origem [Deserto](../jogador/origem.md#ambiente-de-origem).*
+*Combina bem com o Ambiente de Origem [Deserto](../origens/index.md#ambiente-de-origem).*
 
 ### Oniromante
 
 *Indução ao sono, pesadelos e dano mental.*
 
-- **Arma inicial:** [Cetro](../jogador/arsenal.md#cetro)
+- **Arma inicial:** [Cetro](../equipamento/index.md#equ-cetro)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1584,7 +1584,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Mecânicas focadas em cumprir um juramento feito no início da sessão.*
 
-- **Arma inicial:** [Espada](../jogador/arsenal.md#espada) + [Escudo](../jogador/arsenal.md#escudos) Pesado
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo](../equipamento/index.md#equ-escudo-leve) Pesado
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1606,7 +1606,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Guia espíritos aliados caídos pra bônus temporários.*
 
-- **Arma inicial:** [Báculo](../jogador/arsenal.md#baculo)
+- **Arma inicial:** [Báculo](../equipamento/index.md#equ-baculo)
 - **Atributo em foco:** Sabedoria
 
 | Nível | Habilidade |
@@ -1626,7 +1626,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Combate montado, arqueria em movimento e guerrilha.*
 
-- **Arma inicial:** [Arco](../jogador/arsenal.md#arco)
+- **Arma inicial:** [Arco](../equipamento/index.md#equ-arco)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -1646,7 +1646,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Combate sujo e mobilidade em água/cordas.*
 
-- **Arma inicial:** [Pistolas](../jogador/arsenal.md#pistolas)
+- **Arma inicial:** [Pistolas](../equipamento/index.md#equ-pistolas)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -1662,13 +1662,13 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 | 17 | Sabres - Especial |
 | 19 | Sentença Final *(Supremo)* |
 
-*Combina bem com o Passado [Marinheiro](../jogador/origem.md#passado) da Origem.*
+*Combina bem com o Passado [Marinheiro](../origens/index.md#passado) da Origem.*
 
 ### Piromante
 
 *Cajados ou catalisadores de brasa; explosões de fogo em área e queimaduras contínuas.*
 
-- **Arma inicial:** [Cajado](../jogador/arsenal.md#cajado)
+- **Arma inicial:** [Cajado](../equipamento/index.md#equ-cajado)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1688,7 +1688,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Ilumina, cega inimigos e regenera aliados.*
 
-- **Arma inicial:** [Lâmpada](../jogador/arsenal.md#lampada) *(requer Inteligência +5 — só é equipável no nível 1 com um bônus racial de Inteligência; senão, comece com [Cetro](../jogador/arsenal.md#cetro) e troque depois)*
+- **Arma inicial:** [Lâmpada](../equipamento/index.md#equ-lampada) *(requer Inteligência +5 — só é equipável no nível 1 com um bônus racial de Inteligência; senão, comece com [Cetro](../equipamento/index.md#equ-cetro) e troque depois)*
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1708,7 +1708,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Concede vantagem prévia ou prevê o movimento do inimigo.*
 
-- **Arma inicial:** [Cajado](../jogador/arsenal.md#cajado)
+- **Arma inicial:** [Cajado](../equipamento/index.md#equ-cajado)
 - **Atributo em foco:** Sabedoria
 
 | Nível | Habilidade |
@@ -1724,13 +1724,13 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 | 17 | Cubo Protetor |
 | 19 | Poder Dinâmico *(Supremo)* |
 
-*Combina bem com o atributo Sorte — o Ambiente de Origem [Ruínas Antigas](../jogador/origem.md#ambiente-de-origem) reforça essa sensibilidade a sinais do destino.*
+*Combina bem com o atributo Sorte — o Ambiente de Origem [Ruínas Antigas](../origens/index.md#ambiente-de-origem) reforça essa sensibilidade a sinais do destino.*
 
 ### Rastreador Selvagem
 
 *Atira em movimento e encontra caminhos seguros em ambiente hostil.*
 
-- **Arma inicial:** [Arco](../jogador/arsenal.md#arco)
+- **Arma inicial:** [Arco](../equipamento/index.md#equ-arco)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -1750,7 +1750,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Agilidade extrema com golpes cortantes em área.*
 
-- **Arma inicial:** [Katana Nodachi](../jogador/arsenal.md#katana-nodachi) + [Katana Muramasa](../jogador/arsenal.md#katana-muramasa)
+- **Arma inicial:** [Katana Nodachi](../equipamento/index.md#equ-katana-nodachi) + [Katana Muramasa](../equipamento/index.md#equ-katana-muramasa)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -1766,13 +1766,13 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 | 17 | Katana Muramasa - Especial |
 | 19 | Fúria das Lâminas Gêmeas *(Dupla Empunhadura)* |
 
-*Primeiro pacote a usar a Dupla Empunhadura entre duas armas Não-Leve — ver [Dupla Empunhadura](../jogador/arsenal.md#dupla-empunhadura).*
+*Primeiro pacote a usar a Dupla Empunhadura entre duas armas Não-Leve — ver [Dupla Empunhadura](../equipamento/regras.md#dupla-empunhadura).*
 
 ### Sábio Imortal
 
 *Barreiras de anulação mágica e dissipação de feitiços.*
 
-- **Arma inicial:** [Cajado](../jogador/arsenal.md#cajado)
+- **Arma inicial:** [Cajado](../equipamento/index.md#equ-cajado)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1792,7 +1792,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Prepara o terreno com armadilhas antes da luta.*
 
-- **Arma inicial:** [Punhal](../jogador/arsenal.md#punhal)
+- **Arma inicial:** [Punhal](../equipamento/index.md#equ-punhal)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -1812,7 +1812,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Cura sugando força vital do inimigo (ou do próprio grupo).*
 
-- **Arma inicial:** [Manual](../jogador/arsenal.md#manual)
+- **Arma inicial:** [Manual](../equipamento/index.md#equ-manual)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1832,7 +1832,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Saque rápido devastador (Iaijutsu) e foco mental absoluto.*
 
-- **Arma inicial:** [Katana Nodachi](../jogador/arsenal.md#katana-nodachi)
+- **Arma inicial:** [Katana Nodachi](../equipamento/index.md#equ-katana-nodachi)
 - **Atributo em foco:** Força ou Agilidade
 
 | Nível | Habilidade |
@@ -1852,7 +1852,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Canções de guerra que aumentam dano físico e velocidade.*
 
-- **Arma inicial:** [Violino](../jogador/arsenal.md#violino) *(requer Vontade +4 — só é equipável no nível 1 com um bônus racial de Vontade; senão, comece com [Báculo](../jogador/arsenal.md#baculo) e troque depois)*
+- **Arma inicial:** [Violino](../equipamento/index.md#equ-violino) *(requer Vontade +4 — só é equipável no nível 1 com um bônus racial de Vontade; senão, comece com [Báculo](../equipamento/index.md#equ-baculo) e troque depois)*
 - **Atributo em foco:** Vontade
 
 | Nível | Habilidade |
@@ -1892,7 +1892,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Quebra as regras de probabilidade (altera dados/sorte).*
 
-- **Arma inicial:** [Cetro](../jogador/arsenal.md#cetro)
+- **Arma inicial:** [Cetro](../equipamento/index.md#equ-cetro)
 - **Atributo em foco:** Inteligência
 
 | Nível | Habilidade |
@@ -1908,13 +1908,13 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 | 17 | Cubo Protetor |
 | 19 | Ruptura do Núcleo *(Supremo)* |
 
-*Combina bem com o traço [Fez um Pacto](../jogador/origem.md#evento-formador) ou o Passado [Erudito](../jogador/origem.md#passado) na Origem, reforçando a fantasia de mexer com forças que fogem do controle normal.*
+*Combina bem com o traço [Fez um Pacto](../origens/index.md#evento-formador) ou o Passado [Erudito](../origens/index.md#passado) na Origem, reforçando a fantasia de mexer com forças que fogem do controle normal.*
 
 ### Tecnomago
 
 *Projéteis que misturam pólvora com magia elemental.*
 
-- **Arma inicial:** [Pistola Arcana](../jogador/arsenal.md#pistola-arcana)
+- **Arma inicial:** [Pistola Arcana](../equipamento/index.md#equ-pistola-arcana)
 - **Atributo em foco:** Agilidade ou Inteligência
 
 | Nível | Habilidade |
@@ -1934,7 +1934,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Espada longa e escudo heráldico; auras de proteção e golpes de retribuição luminosa.*
 
-- **Arma inicial:** [Espada](../jogador/arsenal.md#espada) + [Escudo](../jogador/arsenal.md#escudos) Leve
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo](../equipamento/index.md#equ-escudo-leve) Leve
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1954,7 +1954,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Absorve impactos e cria uma parede intransponível.*
 
-- **Arma inicial:** [Espada](../jogador/arsenal.md#espada) + [Escudo](../jogador/arsenal.md#escudos) Pesado
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo](../equipamento/index.md#equ-escudo-leve) Pesado
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1974,7 +1974,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Resiste a dano fatal por pura força de vontade.*
 
-- **Arma inicial:** [Bestas](../jogador/arsenal.md#bestas)
+- **Arma inicial:** [Bestas](../equipamento/index.md#equ-bestas)
 - **Atributo em foco:** Agilidade
 
 | Nível | Habilidade |
@@ -1990,13 +1990,13 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 | 17 | Rajada Sangrenta *(Maior)* |
 | 19 | Sentença Final *(Supremo)* |
 
-*Combina bem com o Evento Formador [Quase Morreu](../jogador/origem.md#evento-formador) da Origem, que já reflete essa resiliência.*
+*Combina bem com o Evento Formador [Quase Morreu](../origens/index.md#evento-formador) da Origem, que já reflete essa resiliência.*
 
 ### Xamã Totêmico
 
 *Espalha totens no chão que emitem buffs elementais em área.*
 
-- **Arma inicial:** [Bastão](../jogador/arsenal.md#bastao)
+- **Arma inicial:** [Bastão](../equipamento/index.md#equ-bastao)
 - **Atributo em foco:** Sabedoria
 
 | Nível | Habilidade |
@@ -2016,7 +2016,7 @@ Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por
 
 *Ignora a dor, ganha bônus sagrados quanto menor a vida atual.*
 
-- **Arma inicial:** [Machado](../jogador/arsenal.md#machado)
+- **Arma inicial:** [Machado](../equipamento/index.md#equ-machado)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |

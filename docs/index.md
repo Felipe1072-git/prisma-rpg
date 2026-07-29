@@ -27,7 +27,7 @@
 |---|---|
 | **571** habilidades | marciais, mágicas por elemento, sociais, infiltração, mobilidade, buff, debuff, suporte |
 | **62** armas | cada uma com 3 habilidades próprias (186 no total), tipo de dano e preço |
-| **25** raças | todas com traço físico inconfundível — nenhuma é "humano com poderes" |
+| **24** raças | todas com traço físico inconfundível — nenhuma é "humano com poderes" |
 | **100** pacotes | kits de arquétipo prontos, no espírito de Grand Chase: sugestão, nunca obrigação |
 | **11** elementos | cada um com assinatura mecânica própria — Fogo consome, Gelo trava, Sombras nega terreno |
 | **5** peças de Livro do Mestre | Bestiário, Encontros, Testes, Recompensas, Exploração |
@@ -44,17 +44,23 @@
 
 - [Progressão de Nível](criacao/progressao.md) · [Tocado](criacao/tocado.md)
 
-**Compêndio** — as listagens filtráveis
+**Compêndio** — tudo o que se escolhe, em listagens filtráveis
 
-- [Habilidades](habilidades/index.md) — filtrável por grupo, elemento, arma, atributo, alvo e Mana
-- [Regras de Habilidade](habilidades/regras.md) · [Raças](racas/index.md) · [Origens](jogador/origem.md)
-- [Equipamento](jogador/arsenal.md) · [Pacotes](pacotes/index.md) · [Sorteio de Pacote](pacotes/sorteio.md)
+| Listagem | Filtre por |
+|---|---|
+| [**Habilidades**](habilidades/index.md) — 571 | grupo, elemento, arma, atributo, alvo, Mana disponível |
+| [**Raças**](racas/index.md) — 24 | leva, atributos concedidos, nº de traços |
+| [**Origens**](origens/index.md) — 60 | eixo, tipo de traço, atributo — com sorteio 1d20 |
+| [**Equipamento**](equipamento/index.md) — 68 | estilo, família, tipo de dano, propriedade, prata disponível |
+| [**Pacotes**](pacotes/index.md) — 100 | vertente, arma inicial, atributo, Suprema final — com sorteio 1d20 |
+
+As regras de cada um: [Habilidade](habilidades/regras.md) · [Equipamento](equipamento/regras.md) · [Sorteio de Pacote](pacotes/sorteio.md)
 
 **[Livro do Mestre](mestre/index.md)**
 
-- [Bestiário](mestre/bestiario.md) — criaturas prontas e como montar as suas
-- [Montagem de Encontro](mestre/encontros.md) · [Testes e Dificuldades](mestre/testes.md)
-- [Recompensas](mestre/recompensas.md) · [Exploração na Mesa](mestre/exploracao.md)
+- [Bestiário](mestre/bestiario.md) — as criaturas prontas, filtráveis por tier, couraça e PA
+- [Criando uma Criatura](mestre/criando-criaturas.md) · [Montagem de Encontro](mestre/encontros.md)
+- [Testes e Dificuldades](mestre/testes.md) · [Recompensas](mestre/recompensas.md) · [Exploração na Mesa](mestre/exploracao.md)
 
 ---
 

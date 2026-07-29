@@ -91,13 +91,15 @@ nav:
     - Habilidades: habilidades/index.md
     - Regras de Habilidade: habilidades/regras.md
     - Raças: racas/index.md
-    - Origens: jogador/origem.md
-    - Equipamento: jogador/arsenal.md
+    - Origens: origens/index.md
+    - Equipamento: equipamento/index.md
+    - Regras de Equipamento: equipamento/regras.md
     - Pacotes: pacotes/index.md
     - Sorteio de Pacote: pacotes/sorteio.md
   - Livro do Mestre:
     - mestre/index.md
     - Bestiário: mestre/bestiario.md
+    - Criando uma Criatura: mestre/criando-criaturas.md
     - Montagem de Encontro: mestre/encontros.md
     - Testes e Dificuldades: mestre/testes.md
     - Recompensas: mestre/recompensas.md
