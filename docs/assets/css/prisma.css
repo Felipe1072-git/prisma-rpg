@@ -573,8 +573,83 @@
   .prg-filtro__select { flex-basis: 45%; }
 }
 
-.prg-card.is-oculto {
+.prg-card.is-oculto,
+.prg-verbete.is-oculto,
+.prg-grupo.is-oculto {
   display: none;
+}
+
+/* --------------------------------------------------- glossário: índice A-Z */
+
+/* O glossário é lido agrupado por categoria (é assim que os termos se
+   explicam), mas é *consultado* por ordem alfabética. O índice é a segunda
+   porta: quem já sabe o termo entra por aqui e não percorre a página. */
+
+.prg-az {
+  margin: 1.2rem 0 2rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--md-default-fg-color) 3%, transparent);
+  font-size: 0.75rem;
+  line-height: 1.9;
+}
+
+.prg-az__letra {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+  padding: 0.15rem 0;
+  border-top: 1px solid color-mix(in srgb, var(--prg-borda) 45%, transparent);
+  flex-wrap: wrap;
+}
+
+.prg-az__letra:first-child {
+  border-top: none;
+}
+
+.prg-az__letra > b {
+  flex: 0 0 1.2rem;
+  color: var(--prg-c-arcano);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.prg-az__item {
+  color: var(--md-default-fg-color--light);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.prg-az__item::after {
+  content: " ·";
+  color: var(--prg-borda-forte);
+}
+
+.prg-az__letra > .prg-az__item:last-child::after {
+  content: "";
+}
+
+.prg-az__item:hover {
+  color: var(--prg-c-arcano);
+  text-decoration: underline;
+}
+
+/* Verbete alvo de link direto: o mesmo realce que o card sorteado usa, pra
+   que chegar por `#atordoado` mostre onde você caiu. */
+.prg-verbete:target > h3 {
+  color: var(--prg-c-arcano);
+}
+
+/* Quem cita este termo. Gerado dos links que já existem entre os verbetes —
+   por isso fica visualmente subordinado ao texto da definição. */
+.prg-vejatambem {
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.7rem;
+  border-left: 2px solid var(--prg-borda);
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
 }
 
 .prg-vazio {

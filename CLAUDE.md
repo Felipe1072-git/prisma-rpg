@@ -144,7 +144,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 | `mestre/bestiario.md` | as seções `##` viram cards de criatura (tier, couraça, PA) | `bes-{nome}` |
 | `habilidades/*.md` (grupos) | cada habilidade vira um ponteiro de uma linha pro card | — |
 | `habilidades/regras.md`, `equipamento/regras.md`, `jogar/condicoes.md` | montam-se lendo ao vivo seções que vivem noutro arquivo — nenhum texto duplicado em disco | — |
-| `glossario.md` | cada verbete vira popover ao passar o mouse | — |
+| `glossario.md` | cada verbete vira popover ao passar o mouse; a página ganha índice A–Z, filtro por categoria e "Veja também" derivado dos links entre verbetes | o `###` (mantido: 1.400 links dependem dele) |
 
 Convenções que precisam se manter estáveis (o cross-link depende delas):
 
@@ -236,9 +236,19 @@ Duas contagens estavam erradas e foram corrigidas contra os cards gerados: são 
 habilidades (não 573) e **24** raças (não 25). E uma tabela do Arsenal tinha régua de 5 colunas
 pra 4 cabeçalhos — nunca renderizou como tabela no site publicado; agora renderiza.
 
-Fases seguintes, já acordadas com o autor: **(3)** glossário ganha índice A–Z, filtro por
-categoria, e para de duplicar armas/grupos/elementos; **(4)** auto-link do glossário e popover
-de habilidade; **(5)** Livro do Mestre.
+**Fase 3 (2026-07-29) — glossário consultável.** Os 121 verbetes ganharam índice alfabético
+gerado, busca e filtro por categoria (a categoria some da tela quando fica sem verbete visível),
+e um **"Veja também"** derivado dos links que os verbetes já faziam entre si — a ligação existia
+num sentido só, agora navega nos dois. A fonte continua agrupada por categoria, que é como se lê;
+o índice é a outra porta, pra quem já sabe o termo. As âncoras `###` foram preservadas: mais de
+1.400 links do site apontam pra elas.
+
+A duplicação que eu esperava cortar era menor do que parecia — os verbetes de arma, grupo e
+elemento já eram ponteiros de uma linha. O que havia de real era o **dado de dano de 62 armas,
+escrito à mão no glossário e de novo na tabela do Equipamento**: conferi um a um, os 62 batem, e
+a checagem virou parte do `notas/verifica.py` pra que continuem batendo.
+
+Fases seguintes: **(4)** auto-link do glossário e popover de habilidade; **(5)** Livro do Mestre.
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)

@@ -71,6 +71,25 @@
     });
   }
 
+  // Chegar num verbete por link direto (`glossario/#atordoado`, o destino de
+  // mais de mil links no site) precisa da mesma correção de rolagem que os
+  // cards: sem ela o termo fica escondido atrás da barra sticky, justamente
+  // no momento em que o leitor quer lê-lo.
+  function iniciaVerbetes() {
+    var verbetes = document.querySelectorAll(".prg-verbete");
+    if (!verbetes.length) return;
+
+    function vaiPeloHash() {
+      var hash = decodeURIComponent(location.hash || "").slice(1);
+      if (!hash) return;
+      var alvo = document.getElementById(hash);
+      var verbete = alvo && alvo.closest(".prg-verbete");
+      if (verbete) rolaAte(verbete);
+    }
+    vaiPeloHash();
+    window.addEventListener("hashchange", vaiPeloHash);
+  }
+
   function iniciaCards() {
     var cards = document.querySelectorAll(".prg-card");
     if (!cards.length) return;
@@ -195,7 +214,12 @@
     var botao = barra.querySelector(".prg-filtro__tudo");
     var checkDesarmado = barra.querySelector(".prg-filtro__desarmado-campo");
     var rotulo = barra.dataset.rotulo || "itens";
-    var cards = Array.prototype.slice.call(document.querySelectorAll(".prg-card"));
+    // O glossário filtra verbetes, não cards: mesma barra, alvo diferente.
+    var cards = Array.prototype.slice.call(
+      document.querySelectorAll(barra.dataset.alvo || ".prg-card")
+    );
+    if (!cards.length) return;
+    var grupos = Array.prototype.slice.call(document.querySelectorAll(".prg-grupo"));
 
     // --- popula cada select a partir do que de fato existe nos cards ---
 
@@ -267,6 +291,14 @@
         card.classList.toggle("is-oculto", !bate);
         if (bate) visiveis++;
       });
+      // Categoria sem nenhum item visível some junto com o próprio título —
+      // senão o glossário filtrado vira uma sequência de cabeçalhos vazios.
+      grupos.forEach(function (g) {
+        g.classList.toggle(
+          "is-oculto",
+          !g.querySelector(".prg-verbete:not(.is-oculto), .prg-card:not(.is-oculto)")
+        );
+      });
       contagem.textContent =
         visiveis === cards.length
           ? cards.length + " " + rotulo
@@ -289,14 +321,17 @@
 
     if (checkDesarmado) checkDesarmado.addEventListener("change", atualiza);
 
-    botao.addEventListener("click", function () {
-      var abrir = botao.dataset.estado !== "aberto";
-      cards.forEach(function (card) {
-        if (!card.classList.contains("is-oculto")) abre(card, abrir);
+    // O glossário não tem botão de expandir: os verbetes já vêm abertos.
+    if (botao) {
+      botao.addEventListener("click", function () {
+        var abrir = botao.dataset.estado !== "aberto";
+        cards.forEach(function (card) {
+          if (!card.classList.contains("is-oculto")) abre(card, abrir);
+        });
+        botao.dataset.estado = abrir ? "aberto" : "fechado";
+        botao.textContent = abrir ? "Recolher tudo" : "Expandir tudo";
       });
-      botao.dataset.estado = abrir ? "aberto" : "fechado";
-      botao.textContent = abrir ? "Recolher tudo" : "Expandir tudo";
-    });
+    }
 
     iniciaSorteio(barra, cards, selects, campo, atualiza);
     atualiza();
@@ -442,6 +477,7 @@
 
   function inicia() {
     iniciaCards();
+    iniciaVerbetes();
     iniciaFiltro();
     iniciaPopover();
   }

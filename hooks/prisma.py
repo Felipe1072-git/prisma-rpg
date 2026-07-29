@@ -1703,6 +1703,131 @@ def html_do_verbete(md: str) -> str:
     return " ".join(txt.split())
 
 
+class Verbete(NamedTuple):
+    termo: str
+    categoria: str
+    corpo: list[str]
+
+
+def extrai_verbetes(markdown: str) -> list[Verbete]:
+    """Cada `### Termo` do glossário, com a `## Categoria` que o contém."""
+    verbetes: list[Verbete] = []
+    categoria = ""
+    termo = ""
+    buffer: list[str] = []
+
+    def grava() -> None:
+        if termo:
+            verbetes.append(Verbete(termo, categoria, list(buffer)))
+
+    for linha in markdown.split("\n"):
+        if linha.startswith("## "):
+            grava()
+            categoria, termo, buffer = linha[3:].strip(), "", []
+        elif m := RE_VERBETE.match(linha):
+            grava()
+            termo, buffer = m.group(1).strip(), []
+        elif termo:
+            buffer.append(linha)
+    grava()
+    return verbetes
+
+
+# A categoria é longa demais pra virar rótulo de filtro e de chip ("Elementos
+# (dentro de Mágicas por Elemento)"). O nome curto é só de exibição — a fonte
+# continua sendo o `## ` do arquivo.
+CATEGORIA_CURTA = {
+    "Elementos (dentro de Mágicas por Elemento)": "Elementos",
+    "Graus de Habilidade de Arma": "Graus de Arma",
+}
+
+
+def indice_az(verbetes: list[Verbete]) -> str:
+    """O índice alfabético que o glossário não tinha.
+
+    A fonte continua agrupada por categoria — é assim que se lê. Isto é a outra
+    entrada: quem chega sabendo o termo e só quer achar onde ele está.
+    """
+    por_letra: dict[str, list[Verbete]] = {}
+    for v in sorted(verbetes, key=lambda v: sem_acento(v.termo)):
+        por_letra.setdefault(sem_acento(v.termo)[:1].upper(), []).append(v)
+
+    blocos = []
+    for letra, itens in por_letra.items():
+        links = " ".join(
+            f'<a class="prg-az__item" href="#{slug(v.termo)}">{escapa(v.termo)}</a>'
+            for v in itens
+        )
+        blocos.append(
+            f'<div class="prg-az__letra"><b>{letra}</b>{links}</div>'
+        )
+
+    return (
+        '<nav class="prg-az" aria-label="Índice alfabético de termos">\n'
+        + "\n".join(blocos)
+        + "\n</nav>\n"
+    )
+
+
+def retrolinks(verbetes: list[Verbete]) -> dict[str, list[str]]:
+    """Quem cita quem, dentro do próprio glossário.
+
+    Não é classificação minha: se o verbete de *Agarrado* diz "fica Imóvel", os
+    dois estão relacionados por decisão do texto. O "Veja também" só torna essa
+    ligação navegável nos dois sentidos — hoje ela só funciona num.
+    """
+    existentes = {slug(v.termo) for v in verbetes}
+    citam: dict[str, list[str]] = {}
+    for v in verbetes:
+        corpo = "\n".join(v.corpo)
+        alvos = set(re.findall(r"\]\((?:[^)#]*glossario\.md)?#([a-z0-9-]+)\)", corpo))
+        for alvo in alvos:
+            if alvo in existentes and alvo != slug(v.termo):
+                citam.setdefault(alvo, []).append(v.termo)
+    return {k: sorted(set(vs), key=sem_acento) for k, vs in citam.items()}
+
+
+def monta_glossario(markdown: str) -> tuple[str, int]:
+    """Envolve cada verbete pra que o filtro consiga escondê-lo, e acrescenta
+    o índice A–Z e o "Veja também". O texto de cada verbete não é tocado."""
+    verbetes = extrai_verbetes(markdown)
+    if not verbetes:
+        return markdown, 0
+    citacoes = retrolinks(verbetes)
+
+    linhas = markdown.split("\n")
+    corte = next(i for i, l in enumerate(linhas) if l.startswith("## "))
+    abertura = "\n".join(linhas[:corte]).rstrip()
+
+    saida: list[str] = []
+    categoria = ""
+    for v in verbetes:
+        if v.categoria != categoria:
+            if categoria:
+                saida.append("</div>\n")
+            categoria = v.categoria
+            curta = CATEGORIA_CURTA.get(categoria, categoria)
+            saida.append(
+                f'<div class="prg-grupo" data-grupo-nome="{escapa(curta)}" '
+                f'markdown="block">\n\n## {categoria}\n'
+            )
+        corpo = "\n".join(v.corpo).strip()
+        vizinhos = citacoes.get(slug(v.termo), [])
+        if vizinhos:
+            links = ", ".join(f"[{n}](#{slug(n)})" for n in vizinhos)
+            corpo += f'\n\n<span class="prg-vejatambem">Veja também: {links}</span>'
+        saida.append(
+            f'<div class="prg-verbete" '
+            f'data-categoria="{slug(categoria)}" '
+            f'data-categoria-nome="{escapa(curta)}" '
+            f'data-busca="{indice_de_busca(v.termo, texto_puro(corpo))}" '
+            f'markdown="block">\n\n### {v.termo}\n\n{corpo}\n\n</div>\n'
+        )
+    saida.append("</div>\n")
+
+    return abertura + "\n\n" + indice_az(verbetes) + "\n" + "\n".join(saida), len(verbetes)
+
+
 def coleta_glossario(markdown: str) -> None:
     linhas = markdown.split("\n")
     atual: str | None = None
@@ -1803,7 +1928,11 @@ def monta_barra(
     placeholder: str,
     facetas: list[tuple[str, str, bool]],
     linha3: str = "",
+    alvo: str = "",
+    expandir: bool = True,
 ) -> str:
+    """`alvo` troca o que a barra filtra (o padrão é `.prg-card`); `expandir`
+    some com o botão de abrir tudo, que só faz sentido pra card colapsável."""
     menus = "".join(
         f'<select class="prg-filtro__select" data-faceta="{nome}"'
         + (' data-multi="1"' if multi else "")
@@ -1812,14 +1941,20 @@ def monta_barra(
         for nome, vazio, multi in facetas
     )
     return (
-        f'<div class="prg-filtro" data-rotulo="{escapa(rotulo)}">\n'
+        f'<div class="prg-filtro" data-rotulo="{escapa(rotulo)}"'
+        + (f' data-alvo="{escapa(alvo)}"' if alvo else "")
+        + ">\n"
         '<div class="prg-filtro__linha1">\n'
         '<input type="search" class="prg-filtro__campo" '
         f'placeholder="{escapa(placeholder)}" '
         f'aria-label="Filtrar {escapa(rotulo)}">\n'
         '<span class="prg-filtro__contagem"></span>\n'
-        '<button type="button" class="prg-filtro__tudo">Expandir tudo</button>\n'
-        "</div>\n"
+        + (
+            '<button type="button" class="prg-filtro__tudo">Expandir tudo</button>\n'
+            if expandir
+            else ""
+        )
+        + "</div>\n"
         f'<div class="prg-filtro__linha2">\n{menus}</div>\n'
         + (f'<div class="prg-filtro__linha3">\n{linha3}</div>\n' if linha3 else "")
         + "</div>\n\n"
@@ -1872,6 +2007,15 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
 
     if caminho == "glossario.md":
         coleta_glossario(markdown)
+        markdown, total = monta_glossario(markdown)
+        barra = monta_barra(
+            "termos",
+            "Filtrar por termo ou definição…",
+            [("categoria", "Todas as categorias", False)],
+            alvo=".prg-verbete",
+            expandir=False,
+        )
+        return insere_barra(markdown, barra, '<nav class="prg-az"')
 
     if caminho == "habilidades/regras.md":
         return acrescenta_regras_dos_grupos(markdown, Path(config["docs_dir"]))
