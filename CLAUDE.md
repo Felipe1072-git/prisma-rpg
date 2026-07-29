@@ -97,7 +97,11 @@ Variadas, no estilo **Daggerheart** e animes em geral. *(Lista de raças: a defi
 Sistema RPG/
 ├── docs/                     ← fonte canônica; é o que o site publica
 │   ├── index.md
-│   ├── jogador/              ← regras principais (d20, mana, PA, arsenal)
+│   ├── jogar/                ← Jogando o Jogo: atributos, testes, combate, mana,
+│   │                            dano-e-cura, condicoes, estresse, exploracao
+│   ├── criacao/              ← Criação de Personagem: index (5 passos),
+│   │                            progressao, tocado
+│   ├── jogador/              ← origem.md e arsenal.md (viram listagem na Fase 2)
 │   ├── habilidades/          ← index.md = listagem única; regras.md = as regras;
 │   │                            um arquivo por grupo (a fonte de cada habilidade)
 │   ├── pacotes/              ← index.md = listagem única; sorteio.md = tabelas d20
@@ -111,6 +115,9 @@ Sistema RPG/
 ├── notas/                    ← rascunhos, auditoria, prompts (não publicado)
 └── referencia/               ← material de referência pessoal (não publicado)
 ```
+
+O header tem 6 abas: **Início · Jogando o Jogo · Criação de Personagem · Compêndio ·
+Livro do Mestre · Glossário**. Toda listagem filtrável mora no Compêndio.
 
 ## Site e camada de exibição
 
@@ -128,6 +135,7 @@ O que o hook faz:
 | `habilidades/regras.md` | monta-se lendo ao vivo as seções de regra que vivem noutros arquivos |
 | `pacotes/index.md` | as 100 seções `###` viram cards com vertente, arma, atributo e Suprema final; a trilha vira link pros cards de habilidade |
 | `glossario.md` | cada verbete vira popover ao passar o mouse |
+| `jogar/condicoes.md` | monta-se lendo ao vivo as seções *Condições* e *Efeitos de Terreno* do glossário — não há texto duplicado em disco |
 
 Convenções que precisam se manter estáveis (o cross-link depende delas):
 
@@ -140,6 +148,11 @@ Convenções que precisam se manter estáveis (o cross-link depende delas):
 - Faceta de filtro: `data-{nome}` no card + um `<select data-faceta="{nome}">` na barra.
   Multivalor leva `data-multi="1"` e rótulos em `data-{nome}-nome` separados por `|`.
   O JS popula os menus sozinho a partir dos cards — não há lista fixa a manter.
+
+`on_post_build` também escreve as páginas de redirecionamento dos endereços antigos
+(`jogador/sistema-d20`, `jogador/pontos-de-acao`, `jogador/mana`, `jogador/introducao`,
+`jogador/tocado`), preservando a âncora quando ela tem destino equivalente. Mexer nos
+mapas `REDIRECIONA` / `ANCORAS_*` é o que mantém link antigo funcionando.
 
 Ao mexer nisso:
 
@@ -187,6 +200,20 @@ habilidade correspondente.
 **Nada foi testado em mesa.** Todo o equilíbrio veio de cálculo. Relato de jogo real vale mais que
 qualquer simulação minha — e vale ainda mais para as regras novas acima, que fecham no papel mas
 nunca passaram por uma sessão.
+
+**Reorganização no molde do PHB (2026-07-29) — Fase 1 de 5.** O Livro do Jogador deixou de
+ser um monólito: `jogador/sistema-d20.md` (299 linhas com criação + atributos + progressão +
+testes + Defesa + Vida + dano + Estresse) e `pontos-de-acao.md` foram divididos em duas seções
+no espírito do *Playing the Game* / *Character Creation* do D&D 5.5e — `docs/jogar/` e
+`docs/criacao/`. As regras de exploração (descanso, viagem, exaustão, clima, água, luz)
+migraram do Livro do Mestre pro do Jogador, porque é o jogador quem as aplica; `mestre/exploracao.md`
+virou *Exploração na Mesa* e ficou só com armadilhas, pressão de tempo e o porquê disso importar.
+Nenhuma regra mudou — foi recorte, ordenação e texto de transição.
+
+Fases seguintes, já acordadas com o autor: **(2)** Raças, Origens, Equipamento e Bestiário viram
+listagens facetadas como Habilidades e Pacotes — o Arsenal encolhe pra página de regra + ponteiros;
+**(3)** glossário ganha índice A–Z, filtro por categoria, e para de duplicar armas/grupos/elementos;
+**(4)** auto-link do glossário e popover de habilidade; **(5)** Livro do Mestre.
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)

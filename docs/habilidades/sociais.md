@@ -2,7 +2,7 @@
 
 Habilidades para convencer, manipular, ler pessoas e resolver situações sem violência — tanto dentro de combate quanto fora dele.
 
-Habilidades Sociais que afetam um **alvo involuntário** rolam contra a [Defesa mental](../jogador/sistema-d20.md#defesa) dele (8 + Vontade, no caso de um personagem). As que entregam resultado garantido (Barganha, Máscara Social) são atalhos pagos em Mana: quando usadas, **substituem** o teste social comum — não se rola duas vezes.
+Habilidades Sociais que afetam um **alvo involuntário** rolam contra a [Defesa mental](../jogar/combate.md#defesa) dele (8 + Vontade, no caso de um personagem). As que entregam resultado garantido (Barganha, Máscara Social) são atalhos pagos em Mana: quando usadas, **substituem** o teste social comum — não se rola duas vezes.
 
 ## Habilidades Gerais
 

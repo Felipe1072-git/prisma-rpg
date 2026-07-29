@@ -72,7 +72,7 @@ Movimento reduzido à **metade**. Afeta só o **Movimento** (a ação de ◈) �
 
 ### Derrubado
 
-Está **no chão**. Enquanto Derrubado, seu Movimento é 0, e ataques **corpo a corpo** contra ele rolam com [Vantagem](#vantagem). **Levantar custa ◈ (1)** no próprio turno e encerra a condição. Não se confunde com **Caído** ([a 0 de Vida](jogador/sistema-d20.md#chegando-a-0-de-vida)) — Derrubado é chão, Caído é morte chegando.
+Está **no chão**. Enquanto Derrubado, seu Movimento é 0, e ataques **corpo a corpo** contra ele rolam com [Vantagem](#vantagem). **Levantar custa ◈ (1)** no próprio turno e encerra a condição. Não se confunde com **Caído** ([a 0 de Vida](jogar/dano-e-cura.md#chegando-a-0-de-vida)) — Derrubado é chão, Caído é morte chegando.
 
 ### Desprevenido
 
@@ -102,7 +102,7 @@ Pontos temporários que **absorvem dano** antes da Vida. Não acumulam com outro
 
 ### Exausto
 
-Desgaste do corpo, acumulado em **graus**. Diferente das outras condições, não vem de habilidade: vem de [privação e viagem](mestre/exploracao.md#exaustao) — fome, sede, frio, noite sem dormir, marcha forçada.
+Desgaste do corpo, acumulado em **graus**. Diferente das outras condições, não vem de habilidade: vem de [privação e viagem](jogar/exploracao.md#exaustao) — fome, sede, frio, noite sem dormir, marcha forçada.
 
 | Grau | Efeito (acumulativo) |
 |---|---|
@@ -110,7 +110,7 @@ Desgaste do corpo, acumulado em **graus**. Diferente das outras condições, nã
 | **2** | também fica [Lento](#lento) |
 | **3** | cai inconsciente até receber ajuda ou descansar |
 
-**Some 1 grau** a partir do **segundo dia** de privação (o primeiro só incomoda) e por noite sem descanso adequado depois de um dia de esforço — ver [Exaustão](mestre/exploracao.md#exaustao), que é a regra completa. **Remove 1 grau** por [descanso longo](mestre/exploracao.md#descanso) — desde que a causa tenha sido resolvida (comeu, bebeu, se aqueceu). Descansar com fome não remove nada.
+**Some 1 grau** a partir do **segundo dia** de privação (o primeiro só incomoda) e por noite sem descanso adequado depois de um dia de esforço — ver [Exaustão](jogar/exploracao.md#exaustao), que é a regra completa. **Remove 1 grau** por [descanso longo](jogar/exploracao.md#descanso) — desde que a causa tenha sido resolvida (comeu, bebeu, se aqueceu). Descansar com fome não remove nada.
 
 ### Risco
 
@@ -143,7 +143,7 @@ Assinatura de [Sombras](habilidades/magicas-elementais.md#sombras) em área: a r
 
 ## Dano
 
-Todo dano tem um tipo. Os três primeiros vêm da arma empunhada; o quarto, de focos mágicos. Ver [Tipos de Dano](jogador/sistema-d20.md#tipos-de-dano).
+Todo dano tem um tipo. Os três primeiros vêm da arma empunhada; o quarto, de focos mágicos. Ver [Tipos de Dano](jogar/dano-e-cura.md#tipos-de-dano).
 
 ### Cortante
 

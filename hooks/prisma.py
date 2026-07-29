@@ -23,6 +23,7 @@ import re
 import unicodedata
 from pathlib import Path
 from typing import NamedTuple
+from urllib.parse import urlsplit
 
 # ---------------------------------------------------------------- utilidades
 
@@ -559,6 +560,47 @@ def acrescenta_regras_dos_grupos(markdown: str, docs_dir: Path) -> str:
         *monta_assinaturas_elemento(docs_dir),
     ]
     return "\n".join(partes)
+
+
+# -------------------------------------------------------- página de condições
+#
+# "Condições" também não tem conteúdo próprio: reaproveita, ao vivo, as seções
+# do glossário. O glossário segue sendo a única fonte — o que muda aqui é só o
+# lugar de consulta (durante o combate, dentro do Livro do Jogador).
+
+# Link relativo à raiz de docs/ (o glossário mora lá) reescrito para uma página
+# um nível abaixo. Âncora pura, URL absoluta e link já relativo ficam de fora.
+RE_LINK_RAIZ = re.compile(r"\]\((?!#|https?:|/|\.\./)([^)]+)\)")
+
+
+def reancora_um_nivel(linhas: list[str]) -> list[str]:
+    return [RE_LINK_RAIZ.sub(r"](../\1)", l) for l in linhas]
+
+
+# Âncora pura: `[Lento](#lento)`. Vale se o verbete apontado veio junto; se
+# ficou no glossário (`#vantagem`), o link tem que atravessar pra lá.
+RE_ANCORA_PURA = re.compile(r"\]\(#([^)]+)\)")
+
+
+def religa_ancoras(linhas: list[str], presentes: set[str]) -> list[str]:
+    def sub(m: re.Match) -> str:
+        chave = m.group(1)
+        return m.group(0) if chave in presentes else f"](../glossario.md#{chave})"
+
+    return [RE_ANCORA_PURA.sub(sub, l) for l in linhas]
+
+
+def monta_condicoes(docs_dir: Path) -> list[str]:
+    linhas = (docs_dir / "glossario.md").read_text(encoding="utf-8").split("\n")
+    # O `## Condições` do glossário sai fora: nesta página ele repetiria o
+    # próprio título. A prosa logo abaixo dele — a duração padrão — fica.
+    partes = [
+        *extrai_intervalo(linhas, r"^## Condições\s*$", r"^## ")[1:],
+        "",
+        *extrai_intervalo(linhas, r"^## Efeitos de Terreno\s*$", r"^## "),
+    ]
+    presentes = {slug(m.group(1)) for l in partes if (m := RE_VERBETE.match(l))}
+    return religa_ancoras(reancora_um_nivel(partes), presentes)
 
 
 # ----------------------------------------------------------------- arsenal
@@ -1143,6 +1185,10 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
     if caminho == "habilidades/regras.md":
         return acrescenta_regras_dos_grupos(markdown, Path(config["docs_dir"]))
 
+    if caminho == "jogar/condicoes.md":
+        corpo = monta_condicoes(Path(config["docs_dir"]))
+        return markdown.rstrip() + "\n\n" + "\n".join(corpo)
+
     if caminho == "habilidades/index.md":
         cards, total = monta_listagem_habilidades(Path(config["docs_dir"]))
         barra = (
@@ -1251,7 +1297,128 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
     return markdown
 
 
+# ------------------------------------------------------------ redirecionamento
+#
+# A reorganização de 2026-07-29 mudou o endereço de cinco páginas do Livro do
+# Jogador. Links que já circulam por aí (e o histórico do navegador de quem
+# leu antes) continuam valendo: cada endereço antigo vira uma página que
+# redireciona, preservando a âncora quando ela tem um destino equivalente.
+
+# url antiga (sem barra final) -> url nova
+REDIRECIONA = {
+    "jogador/introducao": "jogar/",
+    "jogador/sistema-d20": "jogar/",
+    "jogador/pontos-de-acao": "jogar/combate/",
+    "jogador/mana": "jogar/mana/",
+    "jogador/tocado": "criacao/tocado/",
+}
+
+# âncora antiga em jogador/sistema-d20 -> url nova completa
+ANCORAS_D20 = {
+    "criacao-de-personagem": "criacao/",
+    "distribuicao-na-criacao": "criacao/#1-atributos",
+    "progressao-de-nivel": "criacao/progressao/",
+    "atributos": "jogar/atributos/",
+    "testes": "jogar/testes/",
+    "testes-sociais": "jogar/testes/#testes-sociais",
+    "rerolagens": "jogar/testes/#rerolagens",
+    "iniciativa": "jogar/combate/#iniciativa",
+    "defesa": "jogar/combate/#defesa",
+    "base-de-resiliencia": "jogar/combate/#base-de-resiliencia",
+    "quem-rola-o-dado": "jogar/combate/#quem-rola-o-dado",
+    "valores-derivados": "jogar/dano-e-cura/",
+    "vida": "jogar/dano-e-cura/#vida",
+    "dados-de-vida": "jogar/dano-e-cura/#dados-de-vida",
+    "chegando-a-0-de-vida": "jogar/dano-e-cura/#chegando-a-0-de-vida",
+    "o-ultimo-turno": "jogar/dano-e-cura/#o-ultimo-turno",
+    "tipos-de-dano": "jogar/dano-e-cura/#tipos-de-dano",
+    "resistencia-imunidade-e-vulnerabilidade":
+        "jogar/dano-e-cura/#resistencia-imunidade-e-vulnerabilidade",
+    "estresse": "jogar/estresse/",
+    "colapso": "jogar/estresse/#colapso",
+    "reduzindo-estresse": "jogar/estresse/#reduzindo-estresse",
+}
+
+# âncora antiga em jogador/pontos-de-acao -> url nova completa
+ANCORAS_PA = {
+    "movimento": "jogar/combate/#movimento",
+    "voo": "jogar/combate/#voo",
+    "custo-em-pa-de-habilidades": "jogar/combate/#custo-em-pa-de-habilidades",
+}
+
+# A exploração virou duas páginas: a regra foi pro jogador, o uso ficou com o
+# Mestre. Só as âncoras que migraram entram aqui — as que ficaram não precisam.
+ANCORAS_EXPLORACAO = {
+    "descanso": "jogar/exploracao/#descanso",
+    "viagem": "jogar/exploracao/#viagem",
+    "exaustao": "jogar/exploracao/#exaustao",
+    "clima-extremo": "jogar/exploracao/#clima-extremo",
+    "agua": "jogar/exploracao/#agua",
+    "luz-e-escuridao": "jogar/exploracao/#luz-e-escuridao",
+}
+
+PAGINA_REDIRECT = """<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Esta página mudou de lugar</title>
+<link rel="canonical" href="{base}{destino}">
+<script>
+var mapa = {mapa};
+var chave = decodeURIComponent(location.hash.replace('#', ''));
+var alvo = (chave && mapa[chave]) || {destino_js};
+location.replace({base_js} + alvo);
+</script>
+<meta http-equiv="refresh" content="2; url={base}{destino}">
+</head><body>
+<p>Esta página mudou de lugar. Se o navegador não seguir sozinho,
+<a href="{base}{destino}">clique aqui</a>.</p>
+</body></html>
+"""
+
+
+def escreve_redirecionamentos(site_dir: Path, base: str) -> int:
+    ancoras = {
+        "jogador/sistema-d20": ANCORAS_D20,
+        "jogador/pontos-de-acao": ANCORAS_PA,
+    }
+    escritos = 0
+    for antiga, destino in REDIRECIONA.items():
+        pasta = site_dir / antiga
+        pasta.mkdir(parents=True, exist_ok=True)
+        mapa = ancoras.get(antiga, {})
+        (pasta / "index.html").write_text(
+            PAGINA_REDIRECT.format(
+                base=base,
+                base_js=json.dumps(base),
+                destino=destino,
+                destino_js=json.dumps(destino),
+                mapa=json.dumps(mapa, ensure_ascii=False),
+            ),
+            encoding="utf-8",
+        )
+        escritos += 1
+
+    # mestre/exploracao continua existindo — só as âncoras migradas redirecionam,
+    # e isso é feito por um script embutido na própria página gerada.
+    pagina = site_dir / "mestre" / "exploracao" / "index.html"
+    if pagina.exists():
+        script = (
+            "<script>(function(){var m="
+            + json.dumps(ANCORAS_EXPLORACAO, ensure_ascii=False)
+            + ";var c=decodeURIComponent(location.hash.replace('#',''));"
+            + "if(c&&m[c]){location.replace(" + json.dumps(base) + "+m[c]);}})();</script>"
+        )
+        html = pagina.read_text(encoding="utf-8")
+        pagina.write_text(html.replace("</head>", script + "</head>", 1), encoding="utf-8")
+        escritos += 1
+
+    return escritos
+
+
 def on_post_build(config, **kwargs):
+    base = urlsplit(config["site_url"] or "/").path or "/"
+    n = escreve_redirecionamentos(Path(config["site_dir"]), base)
+    print(f"[prisma] {n} redirecionamento(s) de endereço antigo escrito(s)")
+
     destino = Path(config["site_dir"]) / "assets" / "glossario.json"
     destino.parent.mkdir(parents=True, exist_ok=True)
     destino.write_text(

@@ -84,7 +84,7 @@ Montados com o orçamento acima, para um grupo de 4.
 
 *(Nos exemplos, use a [Vida da faixa](#vida-por-faixa-de-nivel) em que o grupo realmente está — as fichas do Bestiário valem pro nível 1-4; na metade de cima da faixa anunciada, ajuste.)*
 
-- 4 [Esqueletos](bestiario.md#esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogador/sistema-d20.md#tipos-de-dano) na prática.
+- 4 [Esqueletos](bestiario.md#esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano) na prática.
 
 **Ninho** — nível 4–6, Mortal (16 pontos)
 

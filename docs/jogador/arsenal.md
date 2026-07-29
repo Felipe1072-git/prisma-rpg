@@ -16,13 +16,13 @@ O grau **não** define o custo — cada uma das três é uma habilidade completa
 
 Especiais que cobrem **3 casas de raio ou mais** são exceção: têm **Custo fixo** de ◈◈◈ + 12 Mana e um único resultado, já que a área por si só é o poder da técnica.
 
-**Aprendizado progressivo:** nenhum grau é automático só por empunhar a arma — cada um precisa ser aprendido separadamente, gastando uma escolha de Habilidade de nível (ver [Progressão de Nível](sistema-d20.md#progressao-de-nivel)). Dentro de uma mesma arma, os graus seguem uma ordem obrigatória: só é possível aprender a Avançada depois de já ter a Básica *daquela arma*, e a Especial depois de já ter a Avançada *dela*. Essa trava vale só dentro da mesma arma — não afeta a liberdade de escolher habilidades gerais ou de outras armas a qualquer momento, em qualquer ordem. Empunhar uma arma sem ter aprendido nenhuma Habilidade dela ainda permite o Ataque Básico, sem nenhum efeito extra (ver [Criação de Personagem](sistema-d20.md#criacao-de-personagem)).
+**Aprendizado progressivo:** nenhum grau é automático só por empunhar a arma — cada um precisa ser aprendido separadamente, gastando uma escolha de Habilidade de nível (ver [Progressão de Nível](../criacao/progressao.md)). Dentro de uma mesma arma, os graus seguem uma ordem obrigatória: só é possível aprender a Avançada depois de já ter a Básica *daquela arma*, e a Especial depois de já ter a Avançada *dela*. Essa trava vale só dentro da mesma arma — não afeta a liberdade de escolher habilidades gerais ou de outras armas a qualquer momento, em qualquer ordem. Empunhar uma arma sem ter aprendido nenhuma Habilidade dela ainda permite o Ataque Básico, sem nenhum efeito extra (ver [Criação de Personagem](../criacao/index.md)).
 
 ## Tabela de Dados de Dano
 
 Dado de dano por arma, definido pelo arquétipo/peso (não por progressão de personagem — nenhuma arma é mais forte só por vir "depois" na sequência de alguém).
 
-**Tipo** é o tipo de dano que a arma causa (ver [Tipos de Dano](sistema-d20.md#tipos-de-dano)) — é o que decide se ela é boa ou inútil contra uma criatura específica: um esqueleto ri de espada e teme martelo.
+**Tipo** é o tipo de dano que a arma causa (ver [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano)) — é o que decide se ela é boa ou inútil contra uma criatura específica: um esqueleto ri de espada e teme martelo.
 
 **Grupo** é o estilo de combate predominante (Marciais, Pontaria ou Arcano — ver [Grupos de Habilidade](../glossario.md#grupos-de-habilidade)). **Chaves** lista as propriedades mecânicas da arma — toda arma tem exatamente uma de [Leve](#leve)/Duas Mãos, mais [Finesse](#finesse)/[Híbrida](#hibrida) e [Efeito Especial](#efeito-especial) quando aplicável. **Requisito** mostra o mínimo de atributo pra equipar a arma, quando houver (ver [Requisito de Atributo Mínimo](#requisito-de-atributo-minimo) abaixo pra detalhes de cada uma).
 
@@ -178,7 +178,7 @@ Ter um Escudo equipado também habilita a habilidade geral [Bloqueio](../habilid
 
 ### Armaduras
 
-A **Armadura** é o outro termo da fórmula de [Defesa](sistema-d20.md#defesa) física — soma direto nela, sempre ativa, sem custo de Mana ou PA. É o equivalente da [Couraça Natural](../mestre/bestiario.md#couraca-natural) das criaturas: só protege contra dano, empurrão e queda, nunca contra veneno, medo ou ilusão.
+A **Armadura** é o outro termo da fórmula de [Defesa](../jogar/combate.md#defesa) física — soma direto nela, sempre ativa, sem custo de Mana ou PA. É o equivalente da [Couraça Natural](../mestre/bestiario.md#couraca-natural) das criaturas: só protege contra dano, empurrão e queda, nunca contra veneno, medo ou ilusão.
 
 | Armadura | Bônus de Defesa | Preço | Custo de usar |
 |---|---|---|---|
@@ -1225,7 +1225,7 @@ Dano: **1d10**
 
 **Requisito:** Força ou Agilidade +3 (o que for usado no ataque) — sem esse mínimo, a arma não pode ser equipada.
 
-**Maldição:** a lâmina exige sangue. Se o usuário terminar uma cena de combate sem ter causado dano com ela pelo menos uma vez, ganha 1 ponto de Estresse (ver [Estresse](sistema-d20.md#estresse)).
+**Maldição:** a lâmina exige sangue. Se o usuário terminar uma cena de combate sem ter causado dano com ela pelo menos uma vez, ganha 1 ponto de Estresse (ver [Estresse](../jogar/estresse.md)).
 
 Arma Finesse (ver [Finesse](#finesse) abaixo) — usa Força ou Agilidade, o que for maior.
 

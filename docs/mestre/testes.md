@@ -33,7 +33,7 @@ Duas regras que economizam mais tempo de mesa que qualquer tabela:
 
 ## 1 natural e 20 natural
 
-**1 natural sempre falha**, qualquer que seja o total, e marca **1 ponto de [Estresse](../jogador/sistema-d20.md#estresse)** automaticamente.
+**1 natural sempre falha**, qualquer que seja o total, e marca **1 ponto de [Estresse](../jogar/estresse.md)** automaticamente.
 
 **20 natural sempre passa** — mesmo contra uma DC que o personagem jamais alcançaria somando. E isso não tira nada do Mestre, porque a decisão vem antes: **se a tarefa fosse impossível, o teste não deveria ter sido permitido.** Autorizar a rolagem já é admitir que há chance. O 20 natural apenas garante que a chance existe de fato.
 
@@ -69,7 +69,7 @@ Esconder-se em grupo não segue nenhum dos três limpo: **o grupo é tão furtiv
 
 ## Testes Sociais têm alvo, não DC
 
-[Persuadir, Intimidar e Amedrontar](../jogador/sistema-d20.md#testes-sociais) contra uma criatura **não** usam a tabela de DC: usam a **Defesa mental** dela, que está na ficha (Base de Resiliência + Vontade). É o mesmo princípio de qualquer efeito mental no jogo — quem resiste é a Vontade do alvo, não uma dificuldade abstrata.
+[Persuadir, Intimidar e Amedrontar](../jogar/testes.md#testes-sociais) contra uma criatura **não** usam a tabela de DC: usam a **Defesa mental** dela, que está na ficha (Base de Resiliência + Vontade). É o mesmo princípio de qualquer efeito mental no jogo — quem resiste é a Vontade do alvo, não uma dificuldade abstrata.
 
 | Alvo | Defesa mental típica | Um personagem com Vontade +3 convence |
 |---|---|---|
@@ -87,6 +87,6 @@ Use a tabela de DC só quando **não há criatura do outro lado** — convencer 
 
 - **Vantagem:** role 2d20 e use o **melhor**. Boa ferramenta pra premiar preparação, ferramenta certa ou boa ideia — mais elegante que dar bônus numérico.
 - **Desvantagem:** role 2d20 e use o **pior**. Para condições ruins, pressa, ferimento, improviso.
-- **[Rerrolagem](../jogador/sistema-d20.md#rerolagens):** o jogador tem **1 + Sorte** por descanso longo e pode gastar depois de ver o resultado. Se um teste é dramático o bastante, vale avisar que é a única chance — assim ele decide se queima o recurso.
+- **[Rerrolagem](../jogar/testes.md#rerolagens):** o jogador tem **1 + Sorte** por descanso longo e pode gastar depois de ver o resultado. Se um teste é dramático o bastante, vale avisar que é a única chance — assim ele decide se queima o recurso.
 
 Vantagem e Desvantagem **não acumulam**: duas fontes de Vantagem seguem sendo uma, e uma de cada se cancelam.

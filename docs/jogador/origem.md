@@ -46,14 +46,14 @@ Pode ser escolhido livremente, ou sorteado rolando 1d20 (não é obrigatório ro
 |---|---|---|
 | 1 | Montanhas | Ignora o [Terreno Difícil](../glossario.md#terreno-dificil) de terreno rochoso ou íngreme |
 | 2 | Floresta | Vantagem em Furtividade dentro de vegetação densa |
-| 3 | Deserto | Ignora os efeitos de [calor extremo](../mestre/exploracao.md#clima-extremo); precisa de metade da água/comida pra sobreviver |
+| 3 | Deserto | Ignora os efeitos de [calor extremo](../jogar/exploracao.md#clima-extremo); precisa de metade da água/comida pra sobreviver |
 | 4 | Cidade Grande | Vantagem em testes sociais e de navegação urbana |
 | 5 | Costa | Ignora o [Terreno Difícil](../glossario.md#terreno-dificil) da água |
 | 6 | Estrada (Nômade) | Nunca fica perdido — sempre sabe a direção geral de onde veio |
 | 7 | Subterrâneo | Sem Desvantagem por escuridão parcial |
 | 8 | Pântano | Ignora o [Terreno Difícil](../glossario.md#terreno-dificil) de lama e água rasa |
 | 9 | Ilha | Vantagem em testes de natação e pequenas embarcações |
-| 10 | Tundra | Ignora os efeitos de [frio extremo](../mestre/exploracao.md#clima-extremo) |
+| 10 | Tundra | Ignora os efeitos de [frio extremo](../jogar/exploracao.md#clima-extremo) |
 | 11 | Planície | Vantagem em testes de percepção a longa distância |
 | 12 | Vila Pequena | Vantagem em testes sociais quando todos se conhecem |
 | 13 | Ruínas Antigas | Vantagem pra identificar armadilhas ou mecanismos antigos |

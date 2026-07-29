@@ -11,7 +11,7 @@ Cada raça concede:
 - **Atributos** — um pool de 2 ou 3 atributos temáticos; o jogador escolhe entre eles e distribui os pontos indicados (nunca todos os atributos do pool ao mesmo tempo, quando o pool tem 3).
 - **Traço(s) Racial(is)** — 1 a 3 traços únicos, dependendo da raça. Sem fórmula fixa entre número de traços e pontos de atributo — cada raça foi calibrada pela fantasia que representa, não por uma conta.
 
-Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [Progressão de Nível](../jogador/sistema-d20.md#progressao-de-nivel)) — são um extra fixo da raça, disponível desde a criação do personagem.
+Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [Progressão de Nível](../criacao/progressao.md)) — são um extra fixo da raça, disponível desde a criação do personagem.
 
 ## Humano
 
@@ -23,7 +23,7 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 
 **Traço Racial:**
 
-- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a DC, ou não superou a Defesa do alvo — inclusive um 1 natural) em um sucesso. Em teste de Habilidade, conta como acerto normal: aplica o efeito da Intensidade que foi paga. **Não** funciona em habilidades com [Tiers de Resultado](../habilidades/regras.md#habilidades-com-tiers-de-resultado) nem durante o [Último Turno](../jogador/sistema-d20.md#o-ultimo-turno).
+- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a DC, ou não superou a Defesa do alvo — inclusive um 1 natural) em um sucesso. Em teste de Habilidade, conta como acerto normal: aplica o efeito da Intensidade que foi paga. **Não** funciona em habilidades com [Tiers de Resultado](../habilidades/regras.md#habilidades-com-tiers-de-resultado) nem durante o [Último Turno](../jogar/dano-e-cura.md#o-ultimo-turno).
 
 ## Elfo
 
@@ -87,7 +87,7 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 
 **Traços Raciais:**
 
-- **Resistência Elemental** — escolha 1 dos 11 elementos (ver [Mágicas por Elemento](../habilidades/magicas-elementais.md)) na criação do personagem; ganha [Resistência](../jogador/sistema-d20.md#resistencia-imunidade-e-vulnerabilidade) a esse tipo de dano.
+- **Resistência Elemental** — escolha 1 dos 11 elementos (ver [Mágicas por Elemento](../habilidades/magicas-elementais.md)) na criação do personagem; ganha [Resistência](../jogar/dano-e-cura.md#resistencia-imunidade-e-vulnerabilidade) a esse tipo de dano.
 - **Baforada Dracônica** — concede a habilidade abaixo gratuitamente (não consome uma escolha de nível), do mesmo elemento escolhido acima.
 
 **Baforada Dracônica**
@@ -113,7 +113,7 @@ Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [P
 **Traços Raciais:**
 
 - **Corpo Artificial** — imune a venenos e doenças; não precisa respirar.
-- **Blindagem Natural** — o corpo mecânico conta como +1 de Couraça Natural na fórmula de [Defesa](../jogador/sistema-d20.md#defesa).
+- **Blindagem Natural** — o corpo mecânico conta como +1 de Couraça Natural na fórmula de [Defesa](../jogar/combate.md#defesa).
 
 ## Feérico
 
@@ -239,7 +239,7 @@ Uma terceira leva de raças, com identidade aquática — cada uma com seu próp
 
 Todas as raças desta leva têm, além dos traços listados individualmente, o traço de exceção abaixo — não conta contra os pontos de atributo da raça:
 
-- **Respiração Aquática** — nada e respira debaixo d'água livremente, sem nenhuma penalidade (ver [Água](../mestre/exploracao.md#agua)). Em compensação, um descanso longo só concede seus benefícios se for feito na água ou parcialmente submerso — fora d'água, um descanso longo conta como **descanso curto** pra todos os efeitos (Mana, Dados de Vida, Estresse, Exaustão, usos "1x por descanso longo"). Descanso curto funciona normalmente em qualquer lugar.
+- **Respiração Aquática** — nada e respira debaixo d'água livremente, sem nenhuma penalidade (ver [Água](../jogar/exploracao.md#agua)). Em compensação, um descanso longo só concede seus benefícios se for feito na água ou parcialmente submerso — fora d'água, um descanso longo conta como **descanso curto** pra todos os efeitos (Mana, Dados de Vida, Estresse, Exaustão, usos "1x por descanso longo"). Descanso curto funciona normalmente em qualquer lugar.
 
 ## Tubarão
 
@@ -263,7 +263,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traços Raciais:**
 
-- **Casco Protetor** — conta como +2 de Couraça Natural na fórmula de [Defesa](../jogador/sistema-d20.md#defesa).
+- **Casco Protetor** — conta como +2 de Couraça Natural na fórmula de [Defesa](../jogar/combate.md#defesa).
 - **Recolher no Casco** *(usada como Reação)* — 1x por cena, quando for alvo de um ataque, pode se recolher no casco pra anular completamente aquele ataque — dano **e** efeitos.
 
 ## Polvo

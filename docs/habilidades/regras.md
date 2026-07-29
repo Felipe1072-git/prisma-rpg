@@ -41,7 +41,7 @@ Toda habilidade de ataque existe em **três Intensidades**. Elas não são compr
 | II | ◈◈ (2) | Acrescenta o efeito secundário (empurrar, Sangrando, Marcado) |
 | III | ◈◈◈ (3) | O efeito completo (derrubar, Atordoado) — consome o turno inteiro |
 
-O custo em Mana sobe junto com a Intensidade (ver [Escala de Mana por Intensidade](../jogador/mana.md#escala-de-mana-por-intensidade)).
+O custo em Mana sobe junto com a Intensidade (ver [Escala de Mana por Intensidade](../jogar/mana.md#escala-de-mana-por-intensidade)).
 
 !!! regra "Alcance e área nunca escalam com Intensidade"
     Uma habilidade que cobre 2 casas de raio cobre 2 casas de raio em qualquer Intensidade — o que a Intensidade compra é o efeito, não o tamanho.
@@ -94,7 +94,7 @@ Essas habilidades têm **Custo fixo** (não têm Intensidade) e escrevem as faix
 
 1. O jogador declara a habilidade e **a Intensidade**, e paga o PA + Mana daquela Intensidade.
 2. Rola **d20 + Atributo da habilidade**.
-3. O total precisa **igualar ou superar a Defesa do alvo** (ver [Defesa](../jogador/sistema-d20.md#defesa)). Por padrão isso é a Defesa física (Agilidade) — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual atributo testar em vez disso, mas a lógica de comparação é sempre a mesma.
+3. O total precisa **igualar ou superar a Defesa do alvo** (ver [Defesa](../jogar/combate.md#defesa)). Por padrão isso é a Defesa física (Agilidade) — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual atributo testar em vez disso, mas a lógica de comparação é sempre a mesma.
 4. **Acertou** → aplica o efeito da Intensidade paga. **Não acertou** → nenhum efeito; o PA e o Mana foram gastos de todo jeito.
 5. **1 natural** sempre falha, independente do total.
 6. **20 natural** é **Crítico**: sempre acerta, soma o dano máximo do dado + mais uma rolagem normal do mesmo dado, e **sobe 1 Intensidade de graça** — aplica o efeito da Intensidade acima da que foi paga, sem pagar a diferença. Usado já em Intensidade III (ou numa habilidade de Custo fixo), o Crítico entrega o bônus de dano — mais o efeito extra de Crítico que a própria ficha declarar, se houver.

@@ -1398,7 +1398,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Veneno
 
-*Habilidades de Veneno, por padrão, checam [Defesa](../jogador/sistema-d20.md#defesa) (Vitalidade) do alvo em vez de Agilidade — veneno ataca a resistência do corpo, não os reflexos.*
+*Habilidades de Veneno, por padrão, checam [Defesa](../jogar/combate.md#defesa) (Vitalidade) do alvo em vez de Agilidade — veneno ataca a resistência do corpo, não os reflexos.*
 
 **Picada Tóxica**
 

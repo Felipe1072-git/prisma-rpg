@@ -33,10 +33,14 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    - navigation.indexes
+    - navigation.path
     - navigation.top
+    - navigation.footer
     - search.highlight
     - search.suggest
     - content.tables
+    - content.tooltips
     - toc.follow
 
 plugins:
@@ -69,24 +73,33 @@ markdown_extensions:
 
 nav:
   - Início: index.md
-  - Livro do Jogador:
-    - Introdução: jogador/introducao.md
-    - O Sistema d20: jogador/sistema-d20.md
-    - Mana: jogador/mana.md
-    - Pontos de Ação: jogador/pontos-de-acao.md
-    - Origem: jogador/origem.md
-    - Tocado: jogador/tocado.md
-    - Arsenal: jogador/arsenal.md
-  - Habilidades: habilidades/index.md
-  - Regras de Habilidade: habilidades/regras.md
-  - Pacotes: pacotes/index.md
-  - Sorteio de Pacote: pacotes/sorteio.md
-  - Raças: racas/index.md
+  - Jogando o Jogo:
+    - jogar/index.md
+    - Os Oito Atributos: jogar/atributos.md
+    - Testes de d20: jogar/testes.md
+    - Combate: jogar/combate.md
+    - Mana: jogar/mana.md
+    - Dano e Cura: jogar/dano-e-cura.md
+    - Condições: jogar/condicoes.md
+    - Estresse: jogar/estresse.md
+    - Exploração: jogar/exploracao.md
+  - Criação de Personagem:
+    - criacao/index.md
+    - Progressão de Nível: criacao/progressao.md
+    - Tocado: criacao/tocado.md
+  - Compêndio:
+    - Habilidades: habilidades/index.md
+    - Regras de Habilidade: habilidades/regras.md
+    - Raças: racas/index.md
+    - Origens: jogador/origem.md
+    - Equipamento: jogador/arsenal.md
+    - Pacotes: pacotes/index.md
+    - Sorteio de Pacote: pacotes/sorteio.md
   - Livro do Mestre:
-    - Visão Geral: mestre/index.md
+    - mestre/index.md
     - Bestiário: mestre/bestiario.md
     - Montagem de Encontro: mestre/encontros.md
     - Testes e Dificuldades: mestre/testes.md
     - Recompensas: mestre/recompensas.md
-    - Exploração: mestre/exploracao.md
+    - Exploração na Mesa: mestre/exploracao.md
   - Glossário: glossario.md

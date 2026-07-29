@@ -4,7 +4,7 @@ Criaturas prontas pra usar em mesa, e as regras pra montar as suas.
 
 ## Como Ler uma Ficha de Criatura
 
-Criatura não é personagem: ela não sobe de nível, não distribui pontos e não precisa de ficha completa. O que define uma criatura é o **[Tier de Ameaça](../jogador/sistema-d20.md#base-de-resiliencia)** — e dele saem quase todos os números dela.
+Criatura não é personagem: ela não sobe de nível, não distribui pontos e não precisa de ficha completa. O que define uma criatura é o **[Tier de Ameaça](../jogar/combate.md#base-de-resiliencia)** — e dele saem quase todos os números dela.
 
 | Tier | Base de Resiliência | Vida | Pontos de Ação | Ficha | Ataques |
 |---|---|---|---|---|---|
@@ -19,7 +19,7 @@ Criatura não é personagem: ela não sobe de nível, não distribui pontos e n�
 
 **d20 + o Ataque da criatura vs a Defesa do personagem.**
 
-Cada ficha traz o **Ataque** já calculado, pra você não precisar somar atributo na hora. A Defesa do personagem vem da ficha dele: aventureiros são **Treinado**, então **Defesa física = 8 + Agilidade + Armadura** e **Defesa mental = 8 + Vontade** (ver [Defesa](../jogador/sistema-d20.md#defesa)).
+Cada ficha traz o **Ataque** já calculado, pra você não precisar somar atributo na hora. A Defesa do personagem vem da ficha dele: aventureiros são **Treinado**, então **Defesa física = 8 + Agilidade + Armadura** e **Defesa mental = 8 + Vontade** (ver [Defesa](../jogar/combate.md#defesa)).
 
 - **1 natural** sempre falha.
 - **20 natural** é crítico: **dano máximo dos dados + uma rolagem extra**, e nada além disso. Criatura **não** sobe de Intensidade no crítico — esse bônus é dos personagens.
@@ -56,7 +56,7 @@ O [Dragão Filhote](#dragao-filhote) (Ataque **+3**, 3 PA, 20 Mana) está à fre
 
 ### Criatura a 0 de Vida morre
 
-Personagens ficam [Caídos](../jogador/sistema-d20.md#chegando-a-0-de-vida) e rolam contra a morte. **Criaturas não**: chegou a zero, acabou. Nenhuma rolagem, nenhum turno de agonia.
+Personagens ficam [Caídos](../jogar/dano-e-cura.md#chegando-a-0-de-vida) e rolam contra a morte. **Criaturas não**: chegou a zero, acabou. Nenhuma rolagem, nenhum turno de agonia.
 
 É o que impede a mesa de travar — oito goblins derrotados seriam oito contagens paralelas pra você administrar. E preserva o peso da regra: rolar contra a morte é privilégio de quem tem nome.
 
@@ -73,7 +73,7 @@ Um personagem tem 3 ◈. Se cada capanga também tivesse 3, seis goblins geraria
 
 ### Couraça Natural
 
-O bônus que faltava ser definido na [tabela de Defesa](../jogador/sistema-d20.md#defesa). Soma **só na Defesa física** (dano, empurrar, derrubar) — não protege contra veneno, medo ou ilusão:
+O bônus que faltava ser definido na [tabela de Defesa](../jogar/combate.md#defesa). Soma **só na Defesa física** (dano, empurrar, derrubar) — não protege contra veneno, medo ou ilusão:
 
 | Couraça | Bônus | Exemplo |
 |---|---|---|
