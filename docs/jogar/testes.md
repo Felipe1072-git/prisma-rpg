@@ -17,10 +17,9 @@ A escala de DCs que o Mestre usa está na [tabela de Dificuldades](../mestre/tes
 
 ## Vantagem e Desvantagem
 
-- **[Vantagem](../glossario.md#vantagem)** — role 2d20 e use o **maior**.
-- **[Desvantagem](../glossario.md#desvantagem)** — role 2d20 e use o **menor**.
+<!-- prisma:verbetes Vantagem Desvantagem -->
 
-Elas **não acumulam**: ter três fontes de Vantagem é igual a ter uma. E uma Vantagem e uma Desvantagem se cancelam, sobrando uma rolagem normal — independente de quantas houver de cada lado.
+Quando o Mestre concede uma e quando concede a outra está em [Vantagem, Desvantagem e rerrolagem](../mestre/testes.md#vantagem-desvantagem-e-rerrolagem).
 
 ## 1 natural e 20 natural
 

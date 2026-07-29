@@ -162,7 +162,7 @@ Algumas armas têm uma mecânica única além das 3 habilidades normais — mald
 
 ### Dupla Empunhadura
 
-Quando um personagem usa duas armas específicas ao mesmo tempo (não uma arma "combo" própria, mas duas armas já existentes no Arsenal, empunhadas juntas), isso não vira uma entrada nova de arma — vira uma **habilidade geral** marcada com a chave **Dupla Empunhadura**, exigindo as duas armas equipadas simultaneamente pra ser usada.
+Quando um personagem usa duas armas específicas ao mesmo tempo (não uma arma "combo" própria, mas duas armas já existentes no Equipamento, empunhadas juntas), isso não vira uma entrada nova de arma — vira uma **habilidade geral** marcada com a chave **Dupla Empunhadura**, exigindo as duas armas equipadas simultaneamente pra ser usada.
 
 O dano dessas habilidades é a **soma dos dados das duas armas exigidas**, rolados juntos na mesma habilidade.
 
@@ -2101,7 +2101,7 @@ Dano: **1d8**
 
 ## Pistolas
 
-*Pistolas são armas de fogo — sua principal utilidade em combate é disparar projéteis pra eliminar inimigos. Leves e sempre usadas em par, uma em cada mão, ao contrário do Revólver Maverick (pesado demais pra empunhar dois). A arma constante do caçador de recompensas, presente desde a 1ª classe. As outras 3 armas que ele acumula ao longo da progressão (Punhal, Espingarda, Metralhadora) também viraram entradas próprias no Arsenal, cada uma com identidade mundana independente.*
+*Pistolas são armas de fogo — sua principal utilidade em combate é disparar projéteis pra eliminar inimigos. Leves e sempre usadas em par, uma em cada mão, ao contrário do Revólver Maverick (pesado demais pra empunhar dois). A arma constante do caçador de recompensas, presente desde a 1ª classe. As outras 3 armas que ele acumula ao longo da progressão (Punhal, Espingarda, Metralhadora) também viraram entradas próprias no Equipamento, cada uma com identidade mundana independente.*
 
 Dano: **1d6**
 

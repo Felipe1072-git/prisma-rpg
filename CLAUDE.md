@@ -144,6 +144,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 | `mestre/bestiario.md` | as seções `##` viram cards de criatura (tier, couraça, PA) | `bes-{nome}` |
 | `habilidades/*.md` (grupos) | cada habilidade vira um ponteiro de uma linha pro card | — |
 | `habilidades/regras.md`, `equipamento/regras.md`, `jogar/condicoes.md` | montam-se lendo ao vivo seções que vivem noutro arquivo — nenhum texto duplicado em disco | — |
+| qualquer página | `<!-- prisma:verbetes Vantagem Desvantagem -->` vira os verbetes inteiros, lidos do glossário | — |
 | `glossario.md` | cada verbete vira popover ao passar o mouse; a página ganha índice A–Z, filtro por categoria e "Veja também" derivado dos links entre verbetes | o `###` (mantido: 1.400 links dependem dele) |
 | `jogar/`, `criacao/`, `mestre/` | a primeira menção de cada termo de regra vira link pro glossário (e ganha popover junto) | — |
 
@@ -276,7 +277,22 @@ condição e o item), e o segundo virava `escudo_1`. Os 3 links de `#escudo` apo
 condição, mas o popover mostrava o item, porque o último lido sobrescrevia o primeiro no
 dicionário. Agora o item tem âncora explícita e o `verifica.py` acusa qualquer novo homônimo.
 
-Fase seguinte: **(5)** Livro do Mestre.
+**Fase 5 (2026-07-29) — Livro do Mestre.** O conteúdo já estava bom e no lugar certo (a
+exploração saiu na Fase 1, o Bestiário virou listagem na Fase 2), então esta fase foi curta e
+quase toda estrutural: o nav ganhou duas seções no molde do DMG — **Criaturas** (Bestiário,
+Criando uma Criatura, Montagem de Encontro) e **Conduzindo a Mesa** (Testes, Exploração,
+Recompensas) —, e `mestre/index.md` deixou de ser um sumário que repetia o nav pra virar
+*O que muda pro Mestre*: as quatro diferenças do sistema, com um roteiro de primeira sessão.
+
+A duplicação real que sobrava era **"role 2d20 e use o melhor", escrito em três lugares** —
+glossário, `jogar/testes.md` e `mestre/testes.md` — já com três redações diferentes
+("maior/menor" contra "melhor/pior"). Virou marcador `<!-- prisma:verbetes -->`: o glossário é
+a fonte, o Livro do Jogador cita o verbete inteiro, e o Livro do Mestre ficou só com o conselho
+(*quando* conceder Vantagem), que é o que cabe a ele.
+
+Fica registrado o que o DMG do 5.5e tem e o Prisma não: *Preparando uma sessão*, *Como conduzir
+uma sessão*, armadilhas com ficha, e o lado do Mestre do Estresse. **Não escrevi nenhuma delas**
+— é conteúdo novo, e conteúdo novo passa pelo autor.
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)

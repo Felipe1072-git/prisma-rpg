@@ -705,6 +705,47 @@ def religa_ancoras(linhas: list[str], presentes: set[str]) -> list[str]:
     return [RE_ANCORA_PURA.sub(sub, l) for l in linhas]
 
 
+# Uma página de regra pede verbetes inteiros do glossário assim:
+#
+#     <!-- prisma:verbetes Vantagem Desvantagem -->
+#
+# "Role 2d20 e use o melhor" estava escrito em três lugares — glossário,
+# Testes de d20 e Testes e Dificuldades — já com três redações diferentes
+# ("maior/menor" contra "melhor/pior"). Uma fonte, várias vistas.
+RE_PEDE_VERBETES = re.compile(r"^<!--\s*prisma:verbetes\s+(.+?)\s*-->\s*$", re.M)
+
+
+def puxa_verbetes(docs_dir: Path, nomes: list[str], caminho: str) -> list[str]:
+    verbetes = {
+        v.termo: v
+        for v in extrai_verbetes(
+            (docs_dir / "glossario.md").read_text(encoding="utf-8")
+        )
+    }
+    subida = "../" * caminho.count("/")
+    partes: list[str] = []
+    for nome in nomes:
+        if v := verbetes.get(nome):
+            # O próprio termo linka pro verbete: não dá pra contar com o
+            # auto-link, que só passa nas páginas de prosa.
+            titulo = f"**[{v.termo}]({subida}glossario.md#{v.ancora})**"
+            partes.extend([f"{titulo} — " + "\n".join(v.corpo).strip(), ""])
+
+    # O glossário mora na raiz de docs/; os links dentro do verbete precisam
+    # subir tantos níveis quantos a página que está citando.
+    for _ in range(caminho.count("/")):
+        partes = reancora_um_nivel(partes)
+    return religa_ancoras(partes, set())
+
+
+def resolve_pedidos_de_verbete(markdown: str, caminho: str, docs_dir: Path) -> str:
+    def troca(m: re.Match) -> str:
+        nomes = m.group(1).split()
+        return "\n".join(puxa_verbetes(docs_dir, nomes, caminho)).rstrip()
+
+    return RE_PEDE_VERBETES.sub(troca, markdown)
+
+
 def monta_condicoes(docs_dir: Path) -> list[str]:
     linhas = (docs_dir / "glossario.md").read_text(encoding="utf-8").split("\n")
     # O `## Condições` do glossário sai fora: nesta página ele repetiria o
@@ -2213,8 +2254,13 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
     caminho = page.file.src_uri
     docs_dir = Path(config["docs_dir"])
 
-    # Antes de qualquer transformação: o auto-link trabalha no markdown de
-    # prosa, e as listagens são montadas depois, a partir do próprio markdown.
+    # Verbete pedido por marcador entra antes de tudo: o auto-link precisa
+    # enxergar o texto já montado pra não linkar duas vezes o mesmo termo.
+    if caminho != "glossario.md":
+        markdown = resolve_pedidos_de_verbete(markdown, caminho, docs_dir)
+
+    # O auto-link trabalha no markdown de prosa, e as listagens são montadas
+    # depois, a partir do próprio markdown.
     if caminho.startswith(PAGINAS_AUTOLINK):
         markdown, n = autolinka(markdown, caminho, docs_dir)
         _AUTOLINK_TOTAL[caminho] = n

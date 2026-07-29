@@ -98,10 +98,12 @@ nav:
     - Sorteio de Pacote: pacotes/sorteio.md
   - Livro do Mestre:
     - mestre/index.md
-    - Bestiário: mestre/bestiario.md
-    - Criando uma Criatura: mestre/criando-criaturas.md
-    - Montagem de Encontro: mestre/encontros.md
-    - Testes e Dificuldades: mestre/testes.md
-    - Recompensas: mestre/recompensas.md
-    - Exploração na Mesa: mestre/exploracao.md
+    - Criaturas:
+      - Bestiário: mestre/bestiario.md
+      - Criando uma Criatura: mestre/criando-criaturas.md
+      - Montagem de Encontro: mestre/encontros.md
+    - Conduzindo a Mesa:
+      - Testes e Dificuldades: mestre/testes.md
+      - Exploração na Mesa: mestre/exploracao.md
+      - Recompensas: mestre/recompensas.md
   - Glossário: glossario.md

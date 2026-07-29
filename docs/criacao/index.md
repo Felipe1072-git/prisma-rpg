@@ -10,7 +10,7 @@ Se esta é a sua primeira ficha, comece por um dos [100 Pacotes](../pacotes/inde
 | **2** | Raça | [Raças](../racas/index.md) |
 | **3** | Origem | [Origem](../origens/index.md) |
 | **4** | Primeira Habilidade | [Habilidades](../habilidades/index.md) |
-| **5** | Equipamento | [Arsenal](../equipamento/index.md) |
+| **5** | Equipamento | [Equipamento](../equipamento/index.md) |
 
 ## 1. Atributos
 
@@ -68,7 +68,7 @@ Escolha **uma** habilidade de qualquer [grupo](../habilidades/regras.md#grupos),
 ## 5. Equipamento
 
 - **A arma (ou armas) que você carrega** — escolhida livremente e **gratuita**, desde que você atenda o [Requisito de Atributo](../equipamento/regras.md#requisito-de-atributo-minimo) dela.
-- **50 de prata** pra comprar armadura, escudo e equipamento no [Arsenal](../equipamento/index.md).
+- **50 de prata** pra comprar armadura, escudo e equipamento na listagem de [Equipamento](../equipamento/index.md).
 
 ## Valores que você calcula no fim
 

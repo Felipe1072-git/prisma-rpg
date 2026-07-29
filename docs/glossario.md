@@ -177,7 +177,7 @@ O dano daquele tipo é **dobrado** — espelho da Resistência. É o que recompe
 
 ## Graus de Habilidade de Arma
 
-Toda arma concede 3 habilidades, aprendidas nessa ordem obrigatória (ver [Arsenal](equipamento/index.md)). O grau **não** define o custo — cada uma tem suas próprias [Intensidades](habilidades/regras.md#intensidade) I/II/III. O que o grau define é o quanto a técnica entrega e o quanto de Mana ela cobra:
+Toda arma concede 3 habilidades, aprendidas nessa ordem obrigatória (ver [Equipamento](equipamento/index.md)). O grau **não** define o custo — cada uma tem suas próprias [Intensidades](habilidades/regras.md#intensidade) I/II/III. O que o grau define é o quanto a técnica entrega e o quanto de Mana ela cobra:
 
 ### Básica
 

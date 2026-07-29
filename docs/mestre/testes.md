@@ -85,8 +85,10 @@ Use a tabela de DC só quando **não há criatura do outro lado** — convencer 
 
 ## Vantagem, Desvantagem e rerrolagem
 
-- **Vantagem:** role 2d20 e use o **melhor**. Boa ferramenta pra premiar preparação, ferramenta certa ou boa ideia — mais elegante que dar bônus numérico.
-- **Desvantagem:** role 2d20 e use o **pior**. Para condições ruins, pressa, ferimento, improviso.
-- **[Rerrolagem](../jogar/testes.md#rerolagens):** o jogador tem **1 + Sorte** por descanso longo e pode gastar depois de ver o resultado. Se um teste é dramático o bastante, vale avisar que é a única chance — assim ele decide se queima o recurso.
+A regra está em [Vantagem e Desvantagem](../jogar/testes.md#vantagem-e-desvantagem). O que interessa aqui é **quando** você concede uma ou outra:
 
-Vantagem e Desvantagem **não acumulam**: duas fontes de Vantagem seguem sendo uma, e uma de cada se cancelam.
+- **Vantagem** — pra premiar preparação, ferramenta certa ou boa ideia. É mais elegante que dar bônus numérico: não infla nada e o jogador sente na hora.
+- **Desvantagem** — pra condição ruim, pressa, ferimento, improviso. É como o mundo cobra sem precisar de uma penalidade nova.
+- **[Rerrolagem](../jogar/testes.md#rerolagens)** — o jogador tem **1 + Sorte** por descanso longo e pode gastar depois de ver o resultado. Se um teste é dramático o bastante, vale avisar que é a única chance: assim ele decide se queima o recurso.
+
+Como as duas não acumulam, não adianta empilhar motivos — **uma Vantagem já é toda a Vantagem que existe**. Se você quer premiar mais que isso, o caminho é baixar a DC ou dispensar a rolagem.

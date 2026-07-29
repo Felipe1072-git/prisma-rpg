@@ -57,7 +57,7 @@ Algumas habilidades não têm Intensidade: trazem **Custo fixo** e um único res
 O preço de uma habilidade de Custo fixo segue duas regras:
 
 - **Mana:** o valor da Intensidade III da escala em que ela viveria (6-12 pra habilidades comuns; 16+ pra Supremas).
-- **PA:** **◈◈◈**, como uma Intensidade III — com duas exceções: **Avançadas de arma** de área cobram **◈◈** (padrão consolidado do Arsenal: ◈◈ + 9 Mana), e **Reações dedicadas** cobram 0. Habilidades utilitárias fora de combate podem declarar PA menor na própria ficha.
+- **PA:** **◈◈◈**, como uma Intensidade III — com duas exceções: **Avançadas de arma** de área cobram **◈◈** (padrão consolidado do Equipamento: ◈◈ + 9 Mana), e **Reações dedicadas** cobram 0. Habilidades utilitárias fora de combate podem declarar PA menor na própria ficha.
 
 !!! regra "Custo fixo não dispensa a rolagem"
     Habilidade de Custo fixo com alvo hostil **rola teste de ataque normalmente** contra a Defesa do alvo. Só ficam sem rolagem os casos que a [Resolução](#resolucao) isenta: buffs, cura, e Supremas declaradas como inevitáveis.
