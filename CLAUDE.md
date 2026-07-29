@@ -95,17 +95,59 @@ Variadas, no estilo **Daggerheart** e animes em geral. *(Lista de raças: a defi
 
 ```
 Sistema RPG/
-├── docs/                    ← fonte canônica (vai virar site MkDocs)
+├── docs/                     ← fonte canônica; é o que o site publica
 │   ├── index.md
-│   ├── jogador/             ← regras principais (d20, mana, pontos de ação, armas)
-│   ├── habilidades/         ← grupos de habilidades
-│   ├── pacotes/             ← "pacotes" estilo Grand Chase
+│   ├── jogador/              ← regras principais (d20, mana, PA, arsenal)
+│   ├── habilidades/          ← index.md = listagem única; regras.md = as regras;
+│   │                            um arquivo por grupo (a fonte de cada habilidade)
+│   ├── pacotes/              ← index.md = listagem única; sorteio.md = tabelas d20
 │   ├── racas/                ← raças jogáveis
-│   ├── mestre/               ← regras/ferramentas do mestre (futuro)
-│   └── assets/                ← CSS, JS, imagens
-├── notas/                    ← rascunhos e ideias soltas (não publicado)
-└── referencia/                ← material de referência pessoal (não publicado)
+│   ├── mestre/               ← Livro do Mestre
+│   ├── glossario.md          ← vira popover ao passar o mouse nos termos
+│   └── assets/{css,js,img}/  ← prisma.css, prisma.js, SVGs de brasão/divisor
+├── hooks/prisma.py           ← camada de exibição (ver abaixo) — não altera docs/
+├── mkdocs.yml                ← nav, tema, extensões
+├── .github/workflows/        ← deploy.yml: publica a cada push na main
+├── notas/                    ← rascunhos, auditoria, prompts (não publicado)
+└── referencia/               ← material de referência pessoal (não publicado)
 ```
+
+## Site e camada de exibição
+
+**O markdown em `docs/` é sempre a fonte da verdade.** Nunca migrar conteúdo pra YAML,
+JSON ou banco: `hooks/prisma.py` roda durante o `mkdocs build` e transforma o markdown
+pra exibição, sem escrever nada em disco. Se o hook não reconhecer um bloco, ele fica
+exatamente como está — o pior caso é a página continuar igual a hoje.
+
+O que o hook faz:
+
+| Página | O que acontece |
+|---|---|
+| `habilidades/index.md` | recebe as 571 habilidades como cards filtráveis (grupo, elemento, arma, atributo, alvo, Mana) |
+| `habilidades/*.md` (grupos) e `jogador/arsenal.md` | cada habilidade vira um ponteiro de uma linha pro card, pra não duplicar a lista |
+| `habilidades/regras.md` | monta-se lendo ao vivo as seções de regra que vivem noutros arquivos |
+| `pacotes/index.md` | as 100 seções `###` viram cards com vertente, arma, atributo e Suprema final; a trilha vira link pros cards de habilidade |
+| `glossario.md` | cada verbete vira popover ao passar o mouse |
+
+Convenções que precisam se manter estáveis (o cross-link depende delas):
+
+- Id de card de habilidade: `hab-{arma}-{nome}` quando é habilidade de arma, `hab-{nome}`
+  quando não é. O prefixo de arma existe porque três nomes são usados por duas armas
+  diferentes ("Onda de Choque", "Golpe Ascendente", "Investida Celestial").
+- Id de card de pacote: `pac-{nome}`.
+- A identidade de uma arma vem da **âncora do link** (`arsenal.md#escudos`), não do texto
+  — um pacote escreve "Escudo" onde o Arsenal tem a seção "Escudos".
+- Faceta de filtro: `data-{nome}` no card + um `<select data-faceta="{nome}">` na barra.
+  Multivalor leva `data-multi="1"` e rótulos em `data-{nome}-nome` separados por `|`.
+  O JS popula os menus sozinho a partir dos cards — não há lista fixa a manter.
+
+Ao mexer nisso:
+
+- `mkdocs serve` **não** recarrega `hooks/prisma.py` — pare e suba o servidor de novo.
+- `mkdocs build --strict` pega link e âncora quebrados, mas **não** pega id duplicado;
+  vale uma checagem à parte depois de gerar cards.
+- Em script de verificação no Windows, `sys.stdout.reconfigure(encoding='utf-8')` antes
+  de imprimir ◈ ou acento.
 
 ## Convenções de Commit
 
@@ -120,9 +162,9 @@ Sistema RPG/
 [felipe1072-git.github.io/prisma-rpg](https://felipe1072-git.github.io/prisma-rpg/), sob CC BY 4.0,
 com deploy automático a cada push (workflow em `.github/workflows/deploy.yml`).
 
-O que existe: 573 habilidades nos 10 grupos, 62 armas com 3 habilidades cada, 25 raças, 100 pacotes,
-11 elementos com assinatura mecânica própria, sistema Tocado, e Livro do Mestre em 5 partes
-(Bestiário, Encontros, Testes, Recompensas, Exploração).
+O que existe: 571 habilidades — 385 gerais nos 10 grupos mais 186 de arma (62 armas × 3 graus) —,
+25 raças, 100 pacotes, 11 elementos com assinatura mecânica própria, sistema Tocado, e Livro do
+Mestre em 5 partes (Bestiário, Encontros, Testes, Recompensas, Exploração).
 
 **Auditoria de consistência (2026-07-27).** O sistema foi lido de uma vez como corpo único pela
 primeira vez: ~185 achados, corrigidos em seguida. Dez termos que o jogo usava sem nunca definir
@@ -133,6 +175,14 @@ de bônus, zonas, voo, água). Relatório completo, lições e pendências em `n
 relatório) porque a regra não existia e o texto precisava de uma. Já estão publicadas, mas o autor
 ainda não as revisou uma a uma — a mais pesada é *bônus planos de buffs diferentes não somam, vale
 o maior*. Se ele quiser mudar alguma, é edição pontual.
+
+**Listagens únicas (2026-07-28).** Habilidades e Pacotes deixaram de estar espalhados por várias
+páginas: cada um virou uma listagem só, com card colapsável, busca livre e filtro facetado —
+mesma arquitetura, descrita em [Site e camada de exibição](#site-e-camada-de-exibição). As páginas
+de grupo e o Arsenal continuam existindo com o texto de regra, mas suas habilidades viraram
+ponteiros de uma linha pro card. As 5 tabelas de sorteio dos pacotes viraram
+`pacotes/sorteio.md`, e a trilha de cada pacote agora linka, nível a nível, pro card da
+habilidade correspondente.
 
 **Nada foi testado em mesa.** Todo o equilíbrio veio de cálculo. Relato de jogo real vale mais que
 qualquer simulação minha — e vale ainda mais para as regras novas acima, que fecham no papel mas
