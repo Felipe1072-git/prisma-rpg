@@ -44,7 +44,7 @@
 
 - [Progressão de Nível](criacao/progressao.md) · [Tocado](criacao/tocado.md)
 
-**Compêndio** — tudo o que se escolhe, em listagens filtráveis
+**[Compêndio](compendio/index.md)** — tudo o que se escolhe, em listagens filtráveis
 
 | Listagem | Filtre por |
 |---|---|

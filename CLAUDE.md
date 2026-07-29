@@ -122,6 +122,13 @@ Sistema RPG/
 O header tem 6 abas: **Início · Jogando o Jogo · Criação de Personagem · Compêndio ·
 Livro do Mestre · Glossário**. Toda listagem filtrável mora no Compêndio.
 
+⚠ **Toda seção do nav precisa do próprio `index.md` como primeiro item.** Com
+`navigation.indexes` ligado, o Material adota o primeiro item da seção como página-índice
+dela — e o item **perde o rótulo próprio**, passando a se chamar como a seção. Só arquivo
+literalmente chamado `index.md` é adotado; `compendio.md` não servia. Foi assim que
+"Habilidades" sumiu do menu por duas fases: era o primeiro item do Compêndio, que não tinha
+índice, e virou o próprio "Compêndio". Ao criar seção nova, crie o `index.md` dela junto.
+
 ## Site e camada de exibição
 
 **O markdown em `docs/` é sempre a fonte da verdade.** Nunca migrar conteúdo pra YAML,
