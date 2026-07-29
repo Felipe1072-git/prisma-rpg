@@ -161,6 +161,13 @@ Convenções que precisam se manter estáveis (o cross-link depende delas):
 - Slider de orçamento: `slider(campo, rótulo)`. `oculta_sem_valor=True` quando não ter
   valor significa "não se compra" (arma lendária), e não "não custa nada" (Mana).
 - Sorteio: `sorteio(faceta, ...)` + `data-d20` no card. Serve pacote e origem.
+- **Numa listagem, a lista é o conteúdo**: título → uma frase de orientação → barra de filtro,
+  tudo na primeira tela. O "como isso funciona" vai pra um bloco `???` fechado (helper
+  `colapsavel()`, ou escrito à mão no markdown). Régua: **até ~60 palavras visíveis** antes da
+  barra. O JS abre qualquer `<details>` fechado quando a âncora cai dentro dele.
+- **Traço que a leva concede vale pra raça inteira**: o markdown guarda uma cópia só, na
+  abertura da leva, e `monta_card_raca` injeta nos cards daquela leva. Ele conta no número de
+  traços do card, porque na ficha do jogador ele é um traço como os outros.
 - **Popover**: `on_post_build` grava `assets/glossario.json` e `assets/habilidades.json`;
   o JS liga o popover a qualquer link `…glossario…#termo` ou `…#hab-…`. Habilidade nova
   entra sozinha — o dicionário é montado junto com o card.

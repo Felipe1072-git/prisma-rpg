@@ -1,17 +1,17 @@
 # Raças
 
-Raças jogáveis variadas, no estilo **Daggerheart** e animes em geral.
+As **24 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhuma é "humano com poderes". Filtre por leva, atributos concedidos ou número de traços.
 
-Nenhuma raça jogável é visualmente indistinguível de um humano — toda raça não-humana tem pelo menos um **traço físico inconfundível**, óbvio à primeira vista, que só magia específica consegue esconder.
+??? regra "Como funcionam as Raças"
 
-## Como Funcionam as Raças
+    Cada raça concede:
 
-Cada raça concede:
+    - **Atributos** — um pool de 2 ou 3 atributos temáticos; o jogador escolhe entre eles e distribui os pontos indicados (nunca todos os atributos do pool ao mesmo tempo, quando o pool tem 3).
+    - **Traço(s) Racial(is)** — 1 a 3 traços únicos, dependendo da raça. Sem fórmula fixa entre número de traços e pontos de atributo — cada raça foi calibrada pela fantasia que representa, não por uma conta.
 
-- **Atributos** — um pool de 2 ou 3 atributos temáticos; o jogador escolhe entre eles e distribui os pontos indicados (nunca todos os atributos do pool ao mesmo tempo, quando o pool tem 3).
-- **Traço(s) Racial(is)** — 1 a 3 traços únicos, dependendo da raça. Sem fórmula fixa entre número de traços e pontos de atributo — cada raça foi calibrada pela fantasia que representa, não por uma conta.
+    Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [Progressão de Nível](../criacao/progressao.md)) — são um extra fixo da raça, disponível desde a criação do personagem.
 
-Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [Progressão de Nível](../criacao/progressao.md)) — são um extra fixo da raça, disponível desde a criação do personagem.
+    Nenhuma raça jogável é visualmente indistinguível de um humano: toda raça não-humana tem pelo menos um **traço físico inconfundível**, óbvio à primeira vista, que só magia específica consegue esconder.
 
 ## Humano
 

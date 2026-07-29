@@ -45,7 +45,18 @@
   // (de uma a quatro linhas). Sem esta correção, chegar num card por link
   // direto o deixa escondido atrás dela justamente no momento em que o
   // leitor quer lê-lo.
+  // Um link pode apontar pra dentro de um bloco `???` fechado. Sem abrir o
+  // bloco, o leitor cai numa página que aparentemente ignorou o clique.
+  function abreAncestrais(el) {
+    var d = el.closest("details");
+    while (d) {
+      d.open = true;
+      d = d.parentElement && d.parentElement.closest("details");
+    }
+  }
+
   function rolaAte(card) {
+    abreAncestrais(card);
     function ajusta() {
       var barra = document.querySelector(".prg-filtro");
       if (!barra) return;
@@ -510,9 +521,27 @@
 
   /* --------------------------------------------------------------- boot */
 
+  // Rede de segurança pra qualquer âncora: se o destino estiver dentro de um
+  // bloco colapsável fechado, abre antes de rolar. Vale pros casos que não são
+  // card nem verbete — um título dentro de "Como funcionam as Raças", por
+  // exemplo.
+  function iniciaAncoras() {
+    function trata() {
+      var hash = decodeURIComponent(location.hash || "").slice(1);
+      if (!hash) return;
+      var alvo = document.getElementById(hash);
+      if (!alvo || !alvo.closest("details")) return;
+      abreAncestrais(alvo);
+      alvo.scrollIntoView({ block: "start" });
+    }
+    trata();
+    window.addEventListener("hashchange", trata);
+  }
+
   function inicia() {
     iniciaCards();
     iniciaVerbetes();
+    iniciaAncoras();
     iniciaFiltro();
     iniciaPopover();
   }

@@ -1,10 +1,16 @@
 # Pacotes
 
-Pacotes são kits/trilhas de Armas e Habilidades para jogar dentro de um arquétipo — inspirados em Grand Chase e em arquétipos amplos de fantasia (Witcher, Dragon Age, D&D, Skyrim, etc.), não etiquetas de uma mídia específica. Não são classes: são só um ponto de partida sugerido. Nada impede montar um personagem fora de qualquer pacote, misturar elementos de vários, ou começar num pacote e sair da trilha depois.
+**100 kits de arquétipo prontos** — arma inicial + uma trilha de habilidades até o nível 20. **Não são classes:** são um ponto de partida, e você pode sair da trilha a qualquer momento. Filtre por vertente, arma, atributo ou Suprema final — ou deixe o d20 escolher.
 
-Os 100 pacotes abaixo já têm o detalhamento completo: **kit inicial** (arma + 1ª Habilidade sugerida pro nível 1) e **trilha sugerida** até o nível 20 (as 10 escolhas de Habilidade da carreira, nos níveis ímpares — ver [Progressão de Nível](../criacao/progressao.md)). A trilha é só sugestão: nada impede pegar uma Habilidade fora dela em qualquer nível, ou abandonar o pacote por completo. Onde a trilha usa mais de um grau da mesma arma, a ordem sempre respeita o [Aprendizado progressivo](../equipamento/index.md) (Básica antes de Avançada, Avançada antes de Especial).
+??? regra "Como ler um pacote"
 
-Filtre por vertente, arma inicial, atributo em foco ou Suprema final, busque por qualquer habilidade da trilha — ou deixe o d20 escolher por você. As cinco tabelas de sorteio em papel ficam em [Sorteio de Pacote](sorteio.md).
+    Pacotes são kits/trilhas de Armas e Habilidades para jogar dentro de um arquétipo — inspirados em Grand Chase e em arquétipos amplos de fantasia (Witcher, Dragon Age, D&D, Skyrim, etc.), não etiquetas de uma mídia específica. Nada impede montar um personagem fora de qualquer pacote, misturar elementos de vários, ou começar num pacote e sair da trilha depois.
+
+    Cada um traz o detalhamento completo: **kit inicial** (arma + 1ª Habilidade sugerida pro nível 1) e **trilha sugerida** até o nível 20 (as 10 escolhas de Habilidade da carreira, nos níveis ímpares — ver [Progressão de Nível](../criacao/progressao.md)). A trilha é só sugestão: nada impede pegar uma Habilidade fora dela em qualquer nível, ou abandonar o pacote por completo.
+
+    Onde a trilha usa mais de um grau da mesma arma, a ordem sempre respeita o [Aprendizado progressivo](../equipamento/regras.md#graus-de-habilidade-de-arma) (Básica antes de Avançada, Avançada antes de Especial).
+
+    As cinco tabelas de sorteio em papel ficam em [Sorteio de Pacote](sorteio.md).
 
 ### Acrobata de Combate
 

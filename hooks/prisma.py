@@ -923,7 +923,7 @@ def pontos_de_atributo(bruto: str) -> int:
     return 0
 
 
-def monta_card_raca(s: Secao, levas_com_regra: set[str]) -> str:
+def monta_card_raca(s: Secao, levas_com_regra: dict[str, list[str]]) -> str:
     flavor, resto = flavor_e_resto(s.corpo)
     campos = campos_de_paragrafo(resto)
 
@@ -932,14 +932,11 @@ def monta_card_raca(s: Secao, levas_com_regra: set[str]) -> str:
     pontos = pontos_de_atributo(atributos_md)
 
     # A leva de água concede um traço comum a todas as raças dela, escrito uma
-    # vez só na abertura. Num card lido isolado isso sumiria, então cada card
-    # da leva ganha um ponteiro — o texto continua existindo num lugar só.
-    if s.familia in levas_com_regra:
-        resto = resto + [
-            "",
-            f"Além dos traços acima, esta raça tem o traço comum de "
-            f"**[{s.familia}](#leva-{slug(s.familia)})**.",
-        ]
+    # vez só na abertura. O traço é da raça tanto quanto os outros, então ele
+    # entra na ficha de cada uma — o markdown continua tendo uma cópia só, o
+    # hook é que a distribui.
+    if tracos_leva := levas_com_regra.get(s.familia, []):
+        resto = resto + ["", f"**Traço de {s.familia}:**", "", *tracos_leva]
 
     # Cada traço racial é um bullet `- **Nome** — efeito`, logo abaixo do
     # rótulo "Traço Racial"/"Traços Raciais". Contar é o que responde "esta
@@ -985,14 +982,15 @@ def monta_card_raca(s: Secao, levas_com_regra: set[str]) -> str:
     )
 
 
-def prosa_das_levas(linhas: list[str]) -> tuple[str, set[str]]:
-    """A abertura de cada leva vira uma subseção da prosa, acima da listagem.
+def prosa_das_levas(linhas: list[str]) -> tuple[str, dict[str, list[str]]]:
+    """A apresentação de cada leva, e os traços que ela concede a todas.
 
-    Sem isso, o traço comum das raças de água — escrito uma vez só, na abertura
-    da leva — desapareceria ao trocar as seções por cards.
+    Devolve (prosa, {leva: [bullets de traço]}). A prosa é só a apresentação —
+    os traços saem dela e vão pra dentro dos cards, que é onde o jogador
+    procura o que a raça dele tem.
     """
     partes: list[str] = []
-    com_regra: set[str] = set()
+    tracos: dict[str, list[str]] = {}
     for i, linha in enumerate(linhas):
         nome = linha[3:].strip() if linha.startswith("## ") else ""
         if nome not in DIVISORIAS_RACA:
@@ -1002,15 +1000,19 @@ def prosa_das_levas(linhas: list[str]) -> tuple[str, set[str]]:
             if seguinte.startswith("## "):
                 break
             corpo.append(seguinte)
-        texto = "\n".join(corpo).strip()
-        if not texto:
-            continue
-        # Âncora explícita: o slugify do toc descarta a barra de "Peixe/Água",
-        # e o ponteiro dentro dos cards precisa cair num id que a gente controla.
-        partes.append(f"### {nome} {{: #leva-{slug(nome)} }}\n\n{texto}")
-        if "- **" in texto:  # a leva concede um traço, não só se apresenta
-            com_regra.add(nome)
-    return ("\n\n".join(partes), com_regra)
+
+        bullets = [l for l in corpo if l.startswith("- **")]
+        if bullets:
+            tracos[nome] = bullets
+        # A apresentação é o que sobra: sem os bullets, e sem a frase que os
+        # anunciava (ela some junto com eles).
+        apresentacao = [
+            l for l in corpo if l not in bullets and "traço de exceção abaixo" not in l
+        ]
+        texto = "\n".join(apresentacao).strip()
+        if texto:
+            partes.append(f"**{nome}** — {texto}")
+    return ("\n\n".join(partes), tracos)
 
 
 def monta_listagem_racas(markdown: str) -> tuple[str, int]:
@@ -1028,9 +1030,14 @@ def monta_listagem_racas(markdown: str) -> tuple[str, int]:
     secoes = extrai_secoes(linhas[corte:], DIVISORIAS_RACA)
     cards = [monta_card_raca(s, com_regra) for s in secoes]
 
+    # A apresentação das levas entra recuada, o que a faz cair dentro do
+    # bloco `???` que a página já abriu — uma caixa só, não duas.
     abertura = "\n".join(linhas[:corte]).rstrip()
     if levas:
-        abertura += "\n\n## As três levas\n\n" + levas
+        recuado = "\n".join(
+            ("    " + l if l.strip() else "") for l in levas.split("\n")
+        )
+        abertura += "\n\n    As raças vieram em três levas:\n\n" + recuado
     return abertura + "\n\n" + "\n".join(cards), len(cards)
 
 
@@ -2235,6 +2242,20 @@ def sorteio(faceta: str, vazio: str, texto: str, lados: int = 20) -> str:
         f'data-lados="{lados}" data-campo="d{lados}">{escapa(texto)}</button>\n'
         '<span class="prg-filtro__sorteio-saida" role="status"></span>\n'
     )
+
+
+def colapsavel(titulo: str, corpo: str, aberto: bool = False) -> str:
+    """Bloco `???` do pymdownx.details, fechado por padrão.
+
+    Numa página de catálogo a lista é o conteúdo: a barra de filtro precisa
+    caber na primeira tela. O texto de "como isso funciona" não some — fica a
+    um clique, pra quem chega sem saber.
+    """
+    marcador = "???+" if aberto else "???"
+    recuado = "\n".join(
+        ("    " + l if l.strip() else "") for l in corpo.split("\n")
+    )
+    return f'{marcador} regra "{titulo}"\n\n{recuado}\n'
 
 
 def insere_barra(markdown: str, barra: str, marca: str) -> str:
