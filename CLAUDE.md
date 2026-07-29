@@ -145,6 +145,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 | `habilidades/*.md` (grupos) | cada habilidade vira um ponteiro de uma linha pro card | — |
 | `habilidades/regras.md`, `equipamento/regras.md`, `jogar/condicoes.md` | montam-se lendo ao vivo seções que vivem noutro arquivo — nenhum texto duplicado em disco | — |
 | `glossario.md` | cada verbete vira popover ao passar o mouse; a página ganha índice A–Z, filtro por categoria e "Veja também" derivado dos links entre verbetes | o `###` (mantido: 1.400 links dependem dele) |
+| `jogar/`, `criacao/`, `mestre/` | a primeira menção de cada termo de regra vira link pro glossário (e ganha popover junto) | — |
 
 Convenções que precisam se manter estáveis (o cross-link depende delas):
 
@@ -159,6 +160,16 @@ Convenções que precisam se manter estáveis (o cross-link depende delas):
 - Slider de orçamento: `slider(campo, rótulo)`. `oculta_sem_valor=True` quando não ter
   valor significa "não se compra" (arma lendária), e não "não custa nada" (Mana).
 - Sorteio: `sorteio(faceta, ...)` + `data-d20` no card. Serve pacote e origem.
+- **Popover**: `on_post_build` grava `assets/glossario.json` e `assets/habilidades.json`;
+  o JS liga o popover a qualquer link `…glossario…#termo` ou `…#hab-…`. Habilidade nova
+  entra sozinha — o dicionário é montado junto com o card.
+- **Auto-link**: só nas páginas de prosa (`PAGINAS_AUTOLINK`) e só nas categorias de regra
+  (`CATEGORIAS_AUTOLINK`), pulando `AMBIGUOS_AUTOLINK` e as expressões de
+  `GUARDAS_AUTOLINK`. Termo já linkado à mão na página não recebe outro. **Ao mexer nessas
+  listas, audite os links gerados um a um** — link errado é pior que link nenhum.
+- **Verbete homônimo precisa de âncora explícita**: `### Escudo (item) {: #escudo-item }`.
+  Sem ela o segundo vira `escudo_1` (id que depende da ordem do arquivo) e o popover do
+  primeiro mostra o verbete errado. O `notas/verifica.py` acusa.
 
 `on_post_build` também escreve as páginas de redirecionamento dos endereços antigos
 (`jogador/sistema-d20`, `jogador/pontos-de-acao`, `jogador/mana`, `jogador/introducao`,
@@ -248,7 +259,24 @@ elemento já eram ponteiros de uma linha. O que havia de real era o **dado de da
 escrito à mão no glossário e de novo na tabela do Equipamento**: conferi um a um, os 62 batem, e
 a checagem virou parte do `notas/verifica.py` pra que continuem batendo.
 
-Fases seguintes: **(4)** auto-link do glossário e popover de habilidade; **(5)** Livro do Mestre.
+**Fase 4 (2026-07-29) — hovers.** O popover deixou de servir só o glossário: qualquer link
+pra um card de habilidade passa a mostrar chaves, custo, atributo, alvo e o efeito da
+Intensidade I sem sair da página — o que torna as trilhas de pacote legíveis sem dez idas e
+voltas. O dicionário é gerado junto com o card, então habilidade nova entra sozinha.
+
+O **auto-link** rendeu menos do que eu esperava, e isso é a notícia boa: só **14 links novos
+em 7 páginas**, porque a cobertura manual já era alta (1.415 links, 111 dos 121 verbetes).
+Ele é deliberadamente tímido — só páginas de prosa, só categorias de regra, primeira
+ocorrência, e uma lista de termos ambíguos de fora. Auditando os links gerados um a um, 3 dos
+17 primeiros estavam **errados** ("Resistência física" da Vitalidade não é a mecânica
+Resistência; "Último Turno" não é o verbete Turno) — daí as guardas de contexto.
+
+Um bug vivo apareceu no caminho: o glossário define **Escudo duas vezes** de propósito (a
+condição e o item), e o segundo virava `escudo_1`. Os 3 links de `#escudo` apontavam pra
+condição, mas o popover mostrava o item, porque o último lido sobrescrevia o primeiro no
+dicionário. Agora o item tem âncora explícita e o `verifica.py` acusa qualquer novo homônimo.
+
+Fase seguinte: **(5)** Livro do Mestre.
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)

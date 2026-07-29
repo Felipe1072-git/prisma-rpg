@@ -10,24 +10,27 @@
 (function () {
   "use strict";
 
-  // Resolvido no carregamento: o JSON do glossário mora ao lado deste script.
-  var URL_GLOSSARIO = (function () {
+  // Resolvidos no carregamento: os dois JSON moram ao lado deste script.
+  // Glossário responde "o que esse termo quer dizer"; habilidades responde
+  // "o que essa habilidade faz" — mesma interação, dicionários diferentes.
+  function urlDe(nome) {
     var s = document.currentScript;
-    return s ? s.src.replace(/\/js\/prisma\.js.*$/, "/glossario.json") : null;
-  })();
+    return s ? s.src.replace(/\/js\/prisma\.js.*$/, "/" + nome + ".json") : null;
+  }
 
-  var glossario = null;
-  var carregando = null;
+  var URL = { glossario: urlDe("glossario"), habilidades: urlDe("habilidades") };
+  var dicionarios = {};
+  var carregando = {};
 
-  function pegaGlossario() {
-    if (glossario) return Promise.resolve(glossario);
-    if (carregando) return carregando;
-    if (!URL_GLOSSARIO) return Promise.resolve({});
-    carregando = fetch(URL_GLOSSARIO)
+  function pegaDicionario(nome) {
+    if (dicionarios[nome]) return Promise.resolve(dicionarios[nome]);
+    if (carregando[nome]) return carregando[nome];
+    if (!URL[nome]) return Promise.resolve({});
+    carregando[nome] = fetch(URL[nome])
       .then(function (r) { return r.ok ? r.json() : {}; })
-      .then(function (dados) { glossario = dados; return dados; })
-      .catch(function () { glossario = {}; return glossario; });
-    return carregando;
+      .then(function (d) { dicionarios[nome] = d; return d; })
+      .catch(function () { dicionarios[nome] = {}; return dicionarios[nome]; });
+    return carregando[nome];
   }
 
   /* --------------------------------------------------------------- cards */
@@ -430,45 +433,77 @@
     if (pop) pop.classList.remove("is-visivel");
   }
 
-  function mostra(el, verbete) {
+  function mostra(el, verbete, rodape) {
     var p = criaPop();
     p.innerHTML =
       '<span class="prg-pop__titulo">' + verbete.titulo + "</span>" +
       verbete.corpo +
-      '<span class="prg-pop__rodape">clique para abrir o verbete completo</span>';
+      '<span class="prg-pop__rodape">' +
+      (rodape || "clique para abrir o verbete completo") + "</span>";
     p.classList.add("is-visivel");
     posiciona(el);
   }
 
-  function chaveDoLink(a) {
+  // Qual dicionário responde por este link, e com que chave.
+  //
+  // Glossário: qualquer link pra `glossario#termo` (ou pra uma âncora da
+  // própria página do glossário). Habilidades: link pra um card da listagem,
+  // reconhecido pelo prefixo `hab-` do id — o mesmo que o hook gera.
+  function fonteDoLink(a) {
     var href = a.getAttribute("href") || "";
     if (href.indexOf("#") === -1) return null;
     var partes = href.split("#");
     var alvo = partes[0];
-    // Só links que apontam para o glossário (mesma página ou relativo).
-    var ehGlossario =
-      /glossario/i.test(alvo) ||
-      (alvo === "" && /\/glossario\/?$/.test(location.pathname));
-    return ehGlossario ? decodeURIComponent(partes[1]) : null;
+    var chave = decodeURIComponent(partes.slice(1).join("#"));
+    if (!chave) return null;
+
+    if (/glossario/i.test(alvo) ||
+        (alvo === "" && /\/glossario\/?$/.test(location.pathname))) {
+      return { dic: "glossario", chave: chave };
+    }
+    if (chave.indexOf("hab-") === 0) {
+      return { dic: "habilidades", chave: chave };
+    }
+    return null;
   }
+
+  var RODAPE = {
+    glossario: "clique para abrir o verbete completo",
+    habilidades: "clique para abrir a ficha completa"
+  };
 
   function iniciaPopover() {
     var links = document.querySelectorAll(".md-typeset a[href*='#']");
     if (!links.length) return;
 
-    pegaGlossario().then(function (dados) {
-      Array.prototype.forEach.call(links, function (a) {
-        var chave = chaveDoLink(a);
-        if (!chave || !dados[chave]) return;
-        a.classList.add("prg-termo");
+    // Só busca o dicionário que esta página de fato usa: uma página de prosa
+    // não precisa baixar as 571 habilidades.
+    var precisa = {};
+    Array.prototype.forEach.call(links, function (a) {
+      var f = fonteDoLink(a);
+      if (f) precisa[f.dic] = true;
+    });
 
-        a.addEventListener("mouseenter", function () {
-          clearTimeout(timer);
-          timer = setTimeout(function () { mostra(a, dados[chave]); }, 180);
+    Object.keys(precisa).forEach(function (nome) {
+      pegaDicionario(nome).then(function (dados) {
+        Array.prototype.forEach.call(links, function (a) {
+          var f = fonteDoLink(a);
+          if (!f || f.dic !== nome || !dados[f.chave]) return;
+          // Link pro card que está nesta mesma página não precisa de espiada:
+          // clicar já abre a ficha logo ali.
+          if (document.getElementById(f.chave)) return;
+          a.classList.add("prg-termo");
+
+          var verbete = dados[f.chave];
+          var rodape = RODAPE[nome];
+          a.addEventListener("mouseenter", function () {
+            clearTimeout(timer);
+            timer = setTimeout(function () { mostra(a, verbete, rodape); }, 180);
+          });
+          a.addEventListener("mouseleave", esconde);
+          a.addEventListener("focus", function () { mostra(a, verbete, rodape); });
+          a.addEventListener("blur", esconde);
         });
-        a.addEventListener("mouseleave", esconde);
-        a.addEventListener("focus", function () { mostra(a, dados[chave]); });
-        a.addEventListener("blur", esconde);
       });
     });
   }

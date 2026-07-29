@@ -84,6 +84,21 @@ verbetes = prisma.extrai_verbetes(
     (DOCS / "glossario.md").read_text(encoding="utf-8")
 )
 
+# Dois verbetes com o mesmo nome geram `termo` e `termo_1` — um id que depende
+# da ordem do arquivo. Os links apontam pro primeiro, e o dicionário do popover
+# fica com o último: o leitor clica num verbete e o mouse mostra outro. Foi o
+# que aconteceu com "Escudo" (a condição e o item). A cura é âncora explícita,
+# `### Nome {: #ancora }`; esta checagem é o alarme.
+vistos: dict[str, str] = {}
+for v in verbetes:
+    if v.ancora in vistos:
+        problemas += 1
+        print(
+            f"[âncora repetida] '{v.termo}' ({v.categoria}) e "
+            f"'{vistos[v.ancora]}' disputam #{v.ancora} — dê âncora explícita a um"
+        )
+    vistos[v.ancora] = v.termo
+
 armas = 0
 for v in verbetes:
     if v.categoria != "Armas":

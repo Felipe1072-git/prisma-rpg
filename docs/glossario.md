@@ -462,9 +462,9 @@ Habilidade geral que exige duas armas específicas equipadas ao mesmo tempo; o d
 
 Arma que ocupa só uma mão — a mão secundária fica livre pra outra arma Leve, um escudo, ou magia/interação. Ver [Equipamento → Leve](equipamento/regras.md#leve).
 
-### Escudo
+### Escudo (item) {: #escudo-item }
 
-Item de mão secundária (Leve, Pesado ou Torre) que concede bônus passivo de Defesa e habilita a habilidade [Bloqueio](habilidades/buff.md). Ver [Equipamento → Escudos](equipamento/index.md#equ-escudo-leve).
+Item de mão secundária (Leve, Pesado ou Torre) que concede bônus passivo de Defesa e habilita a habilidade [Bloqueio](habilidades/buff.md). Ver [Equipamento → Escudos](equipamento/index.md#equ-escudo-leve). Não confundir com a **condição** [Escudo](#escudo), que dá pontos que absorvem dano.
 
 ## Grupos de Habilidade
 

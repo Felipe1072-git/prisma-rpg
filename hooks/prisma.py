@@ -277,6 +277,45 @@ def custo_resumido(campos: dict[str, str]) -> str:
 
 _GRAUS_ARMA = ("basica", "avancada", "especial")
 
+# Ficha resumida de cada habilidade, pro popover. Mesmo contrato do glossário:
+# o `on_post_build` grava em assets/habilidades.json e o JS mostra ao passar o
+# mouse num link que aponte pro card.
+_POPOVER: dict[str, dict[str, str]] = {}
+
+
+def resumo_para_popover(
+    rotulos: list[str], custo: str, campos: dict[str, str], corpo: list[str]
+) -> str:
+    """Uma espiada, não a ficha: chaves, custo, alvo e o efeito da Intensidade I.
+
+    Quem quer o resto clica — o card completo está a um clique, e repetir as
+    três Intensidades aqui faria um popover do tamanho da tela.
+    """
+    linhas: list[str] = []
+    if rotulos:
+        linhas.append("<b>" + escapa(" · ".join(rotulos)) + "</b>")
+
+    ficha = " · ".join(
+        p
+        for p in (
+            custo,
+            resume_atributo(campos.get("Atributo", "")),
+            texto_puro(campos.get("Alvos", "")).split("|")[0].strip(),
+        )
+        if p
+    )
+    if ficha:
+        linhas.append(escapa(ficha))
+
+    # A primeira linha de efeito: a Intensidade I, ou o Custo fixo quando a
+    # habilidade não tem degrau.
+    for linha in corpo:
+        if m := re.match(r"^-\s+\*\*(Intensidade I\b|Acerto|Efeito)[^:]*:\*\*\s*(.+)$", linha):
+            linhas.append(html_do_verbete(m.group(2)))
+            break
+
+    return "<br>".join(linhas)
+
 
 def chip(rotulo: str, familia: str = "") -> str:
     """Um chip colorido no cabeçalho do card."""
@@ -404,6 +443,14 @@ def monta_card(
     grau = sem_acento(qualificador)
     grau = grau if grau in _GRAUS_ARMA else ""
     mana_min = mana_minima(campos)
+
+    # A ficha resumida pro popover: o que o leitor precisa pra decidir se vale
+    # abrir o card. Custo e alvo vêm do cabeçalho; o resto é a primeira linha
+    # de efeito, que já diz o que a habilidade faz.
+    _POPOVER[ident] = {
+        "titulo": nome,
+        "corpo": resumo_para_popover(rotulos, custo, campos, corpo),
+    }
 
     return monta_card_base(
         ident,
@@ -1707,6 +1754,18 @@ class Verbete(NamedTuple):
     termo: str
     categoria: str
     corpo: list[str]
+    ancora: str
+
+
+# Âncora explícita num verbete: `### Escudo (item) {: #escudo-item }`.
+#
+# O slug automático só é único porque os nomes são únicos — e eles não são: o
+# glossário define "Escudo" duas vezes de propósito (a condição e o item), e o
+# próprio verbete avisa da colisão. Sem âncora explícita o segundo virava
+# `escudo_1`, um id gerado por ordem de arquivo: nada podia linkar pra ele com
+# segurança, e o popover de "Escudo" mostrava o verbete errado, porque o último
+# a ser lido sobrescrevia o primeiro no dicionário.
+RE_ANCORA_EXPLICITA = re.compile(r"^(.*?)\s*\{:\s*#([\w-]+)\s*\}\s*$")
 
 
 def extrai_verbetes(markdown: str) -> list[Verbete]:
@@ -1714,19 +1773,25 @@ def extrai_verbetes(markdown: str) -> list[Verbete]:
     verbetes: list[Verbete] = []
     categoria = ""
     termo = ""
+    ancora = ""
     buffer: list[str] = []
 
     def grava() -> None:
         if termo:
-            verbetes.append(Verbete(termo, categoria, list(buffer)))
+            verbetes.append(Verbete(termo, categoria, list(buffer), ancora))
 
     for linha in markdown.split("\n"):
         if linha.startswith("## "):
             grava()
-            categoria, termo, buffer = linha[3:].strip(), "", []
+            categoria, termo, ancora, buffer = linha[3:].strip(), "", "", []
         elif m := RE_VERBETE.match(linha):
             grava()
-            termo, buffer = m.group(1).strip(), []
+            bruto = m.group(1).strip()
+            if e := RE_ANCORA_EXPLICITA.match(bruto):
+                termo, ancora = e.group(1).strip(), e.group(2)
+            else:
+                termo, ancora = bruto, slug(bruto)
+            buffer = []
         elif termo:
             buffer.append(linha)
     grava()
@@ -1755,7 +1820,7 @@ def indice_az(verbetes: list[Verbete]) -> str:
     blocos = []
     for letra, itens in por_letra.items():
         links = " ".join(
-            f'<a class="prg-az__item" href="#{slug(v.termo)}">{escapa(v.termo)}</a>'
+            f'<a class="prg-az__item" href="#{v.ancora}">{escapa(v.termo)}</a>'
             for v in itens
         )
         blocos.append(
@@ -1769,22 +1834,24 @@ def indice_az(verbetes: list[Verbete]) -> str:
     )
 
 
-def retrolinks(verbetes: list[Verbete]) -> dict[str, list[str]]:
-    """Quem cita quem, dentro do próprio glossário.
+def retrolinks(verbetes: list[Verbete]) -> dict[str, list[tuple[str, str]]]:
+    """Quem cita quem, dentro do próprio glossário: âncora -> [(termo, âncora)].
 
     Não é classificação minha: se o verbete de *Agarrado* diz "fica Imóvel", os
     dois estão relacionados por decisão do texto. O "Veja também" só torna essa
     ligação navegável nos dois sentidos — hoje ela só funciona num.
     """
-    existentes = {slug(v.termo) for v in verbetes}
-    citam: dict[str, list[str]] = {}
+    existentes = {v.ancora for v in verbetes}
+    citam: dict[str, set[tuple[str, str]]] = {}
     for v in verbetes:
         corpo = "\n".join(v.corpo)
-        alvos = set(re.findall(r"\]\((?:[^)#]*glossario\.md)?#([a-z0-9-]+)\)", corpo))
+        alvos = set(re.findall(r"\]\((?:[^)#]*glossario\.md)?#([\w-]+)\)", corpo))
         for alvo in alvos:
-            if alvo in existentes and alvo != slug(v.termo):
-                citam.setdefault(alvo, []).append(v.termo)
-    return {k: sorted(set(vs), key=sem_acento) for k, vs in citam.items()}
+            if alvo in existentes and alvo != v.ancora:
+                citam.setdefault(alvo, set()).add((v.termo, v.ancora))
+    return {
+        k: sorted(vs, key=lambda par: sem_acento(par[0])) for k, vs in citam.items()
+    }
 
 
 def monta_glossario(markdown: str) -> tuple[str, int]:
@@ -1812,9 +1879,9 @@ def monta_glossario(markdown: str) -> tuple[str, int]:
                 f'markdown="block">\n\n## {categoria}\n'
             )
         corpo = "\n".join(v.corpo).strip()
-        vizinhos = citacoes.get(slug(v.termo), [])
+        vizinhos = citacoes.get(v.ancora, [])
         if vizinhos:
-            links = ", ".join(f"[{n}](#{slug(n)})" for n in vizinhos)
+            links = ", ".join(f"[{nome}](#{anc})" for nome, anc in vizinhos)
             corpo += f'\n\n<span class="prg-vejatambem">Veja também: {links}</span>'
         saida.append(
             f'<div class="prg-verbete" '
@@ -1828,35 +1895,173 @@ def monta_glossario(markdown: str) -> tuple[str, int]:
     return abertura + "\n\n" + indice_az(verbetes) + "\n" + "\n".join(saida), len(verbetes)
 
 
-def coleta_glossario(markdown: str) -> None:
-    linhas = markdown.split("\n")
-    atual: str | None = None
-    buffer: list[str] = []
+# ------------------------------------------------- auto-link do glossário
+#
+# O popover só aparece onde alguém escreveu o link à mão. Nas habilidades a
+# cobertura é alta (o campo Chave sempre linka), mas nas páginas de texto
+# corrido um "fica Atordoado" costuma passar sem link — justamente onde o
+# leitor mais precisaria da definição.
+#
+# Duas restrições deliberadas:
+#
+# 1. Só nas páginas de prosa. As páginas que viram listagem têm markdown
+#    *estruturado* (`- **Chave:** ...`), que os extratores leem; injetar link
+#    ali arriscaria quebrar o parsing pra ganhar pouco.
+# 2. Só nas categorias que são regra. Linkar as 62 armas, os 10 grupos e os 11
+#    elementos encheria o texto de links — "Fogo", "Luz" e "Marciais" aparecem
+#    o tempo todo sem querer dizer o verbete.
 
-    def grava() -> None:
-        if not atual:
-            return
-        corpo = "\n".join(buffer).strip()
+CATEGORIAS_AUTOLINK = frozenset(
+    {
+        "Termos de Resolução",
+        "Condições",
+        "Efeitos de Terreno",
+        "Dano",
+        "Graus de Habilidade de Arma",
+        "Propriedades de Arma",
+    }
+)
+
+# Termos que são também palavra comum do português, ou que colidem com outro
+# conceito do próprio jogo. Linkar automaticamente daria links errados, que são
+# piores que link nenhum — o leitor confia no que clica.
+#
+#   Básica/Avançada/Especial  graus de arma, mas "Ação Básica" e "caso especial"
+#                             aparecem o tempo todo querendo dizer outra coisa
+#   Escudo                    o item e a condição têm o mesmo nome (o próprio
+#                             glossário avisa dessa colisão)
+#   Leve                      propriedade de arma, armadura leve, escudo leve
+#   Impacto                   tipo de dano, mas também "de impacto" corrente
+#   Arcano                    tipo de dano e grupo de arma
+#   Híbrida, Risco            curtos demais pra desambiguar sem contexto
+#
+# Continuam linkáveis à mão em qualquer lugar — o que sai daqui é só o
+# automático.
+AMBIGUOS_AUTOLINK = frozenset(
+    {"Básica", "Avançada", "Especial", "Escudo", "Leve", "Impacto", "Arcano",
+     "Híbrida", "Risco"}
+)
+
+# Termo que só é ambíguo dentro de uma expressão maior. Em vez de descartar o
+# termo inteiro, descarta-se a ocorrência: (lookbehind, lookahead).
+#
+#   "Último Turno"       é a regra de morrer agindo, não a unidade de tempo
+#   "Resistência física" é a robustez do corpo (a Vitalidade), não a mecânica
+#                        que corta o dano pela metade
+GUARDAS_AUTOLINK = {
+    "Turno": (r"(?<!Último )", ""),
+    "Resistência": ("", r"(?! física| mental)"),
+}
+
+PAGINAS_AUTOLINK = ("jogar/", "criacao/", "mestre/")
+
+# Trechos onde um link não pode entrar, na ordem em que precisam ser achados:
+# bloco de código, código inline, link ou imagem que já existe, tag HTML,
+# título, e a linha de título de um admonition.
+# Nada de re.DOTALL aqui: com ele, `.*$` do título percorreria o arquivo
+# inteiro até o último fim de linha e protegeria a página toda. Os padrões de
+# linha usam [^\n] de propósito, e o bloco de código traz o seu próprio
+# [\s\S] delimitado.
+RE_PROTEGIDO = re.compile(
+    r"```[\s\S]*?```"
+    r"|`[^`\n]+`"
+    r"|!?\[[^\]]*\]\([^)]*\)"
+    r"|<[^>\n]+>"
+    r"|^#{1,6} [^\n]*"
+    r"|^[ \t]*!!![^\n]*"
+    r"|^[ \t]*\|[\s\-:|]+\|[ \t]*$",
+    re.M,
+)
+
+_TERMOS_AUTOLINK: list[tuple[str, str]] | None = None
+
+
+def termos_para_autolink(docs_dir: Path) -> list[tuple[str, str]]:
+    """[(termo, slug), ...] do mais longo pro mais curto.
+
+    A ordem importa: "Terreno Difícil" precisa ser testado antes de "Terreno",
+    senão o termo curto quebra o longo ao meio.
+    """
+    global _TERMOS_AUTOLINK
+    if _TERMOS_AUTOLINK is None:
+        verbetes = extrai_verbetes(
+            (docs_dir / "glossario.md").read_text(encoding="utf-8")
+        )
+        _TERMOS_AUTOLINK = sorted(
+            (
+                (v.termo, v.ancora)
+                for v in verbetes
+                if v.categoria in CATEGORIAS_AUTOLINK
+                and v.termo not in AMBIGUOS_AUTOLINK
+            ),
+            key=lambda par: -len(par[0]),
+        )
+    return _TERMOS_AUTOLINK
+
+
+def autolinka(markdown: str, caminho: str, docs_dir: Path) -> tuple[str, int]:
+    """Linka a primeira ocorrência de cada termo ainda não linkado na página.
+
+    Primeira ocorrência só: linkar as sete vezes que "Atordoado" aparece numa
+    página transforma o texto num campo minado azul. A primeira basta — o
+    popover está a um passar de mouse dali.
+    """
+    subida = "../" * caminho.count("/")
+    alvo = f"{subida}glossario.md"
+
+    # Termo que a página já linka à mão não recebe outro: quem escreveu
+    # escolheu onde queria a âncora.
+    ja_linkados = set(re.findall(r"\]\([^)]*glossario\.md#([a-z0-9-]+)\)", markdown))
+
+    pendentes = [
+        (termo, chave)
+        for termo, chave in termos_para_autolink(docs_dir)
+        if chave not in ja_linkados
+    ]
+    if not pendentes:
+        return markdown, 0
+
+    # O texto é fatiado nos trechos protegidos; só os pedaços entre eles são
+    # candidatos. Assim nenhum regex precisa "entender" markdown.
+    pedacos: list[str] = []
+    fim = 0
+    for m in RE_PROTEGIDO.finditer(markdown):
+        pedacos.append(markdown[fim : m.start()])
+        pedacos.append(m.group(0))
+        fim = m.end()
+    pedacos.append(markdown[fim:])
+
+    feitos: set[str] = set()
+    for i in range(0, len(pedacos), 2):  # só os índices pares são linkáveis
+        for termo, chave in pendentes:
+            if chave in feitos:
+                continue
+            antes, depois = GUARDAS_AUTOLINK.get(termo, ("", ""))
+            padrao = re.compile(
+                rf"(?<![\w\[]){antes}({re.escape(termo)})(?![\w\]]){depois}"
+            )
+            novo, n = padrao.subn(rf"[\1]({alvo}#{chave})", pedacos[i], count=1)
+            if n:
+                pedacos[i] = novo
+                feitos.add(chave)
+
+    return "".join(pedacos), len(feitos)
+
+
+def coleta_glossario(markdown: str) -> None:
+    """Alimenta o dicionário do popover, com a mesma leitura que a página usa.
+
+    Passou a usar `extrai_verbetes` justamente por causa do "Escudo": havia
+    dois parsers do mesmo arquivo, e só um sabia de âncora explícita.
+    """
+    for v in extrai_verbetes(markdown):
         # Só o essencial: o primeiro parágrafo já define o termo.
-        resumo = corpo.split("\n\n")[0].strip()
+        resumo = "\n".join(v.corpo).strip().split("\n\n")[0].strip()
         if resumo:
-            _glossario[slug(atual)] = {
-                "titulo": atual,
+            _glossario[v.ancora] = {
+                "titulo": v.termo,
                 "corpo": html_do_verbete(resumo),
             }
-
-    for linha in linhas:
-        if m := RE_VERBETE.match(linha):
-            grava()
-            atual = m.group(1).strip()
-            buffer = []
-        elif linha.startswith("## "):
-            grava()
-            atual = None
-            buffer = []
-        elif atual is not None:
-            buffer.append(linha)
-    grava()
 
 
 # ----------------------------------------------------------------- arte
@@ -2001,9 +2206,18 @@ def insere_barra(markdown: str, barra: str, marca: str) -> str:
 
 PAGINAS_COM_CARD = ("habilidades/",)
 
+_AUTOLINK_TOTAL: dict[str, int] = {}
+
 
 def on_page_markdown(markdown, page, config, files, **kwargs):
     caminho = page.file.src_uri
+    docs_dir = Path(config["docs_dir"])
+
+    # Antes de qualquer transformação: o auto-link trabalha no markdown de
+    # prosa, e as listagens são montadas depois, a partir do próprio markdown.
+    if caminho.startswith(PAGINAS_AUTOLINK):
+        markdown, n = autolinka(markdown, caminho, docs_dir)
+        _AUTOLINK_TOTAL[caminho] = n
 
     if caminho == "glossario.md":
         coleta_glossario(markdown)
@@ -2266,12 +2480,22 @@ def escreve_redirecionamentos(site_dir: Path, base: str) -> int:
 
 
 def on_post_build(config, **kwargs):
+    if _AUTOLINK_TOTAL:
+        print(
+            f"[prisma] auto-link do glossário: {sum(_AUTOLINK_TOTAL.values())} "
+            f"termo(s) em {len([p for p, n in _AUTOLINK_TOTAL.items() if n])} página(s)"
+        )
+
     base = urlsplit(config["site_url"] or "/").path or "/"
     n = escreve_redirecionamentos(Path(config["site_dir"]), base)
     print(f"[prisma] {n} redirecionamento(s) de endereço antigo escrito(s)")
 
-    destino = Path(config["site_dir"]) / "assets" / "glossario.json"
-    destino.parent.mkdir(parents=True, exist_ok=True)
-    destino.write_text(
+    assets = Path(config["site_dir"]) / "assets"
+    assets.mkdir(parents=True, exist_ok=True)
+    (assets / "glossario.json").write_text(
         json.dumps(_glossario, ensure_ascii=False), encoding="utf-8"
     )
+    (assets / "habilidades.json").write_text(
+        json.dumps(_POPOVER, ensure_ascii=False), encoding="utf-8"
+    )
+    print(f"[prisma] popover: {len(_glossario)} verbetes, {len(_POPOVER)} habilidades")
