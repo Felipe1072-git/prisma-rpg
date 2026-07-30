@@ -244,8 +244,12 @@
   max-width: 100%;
 }
 
+.prg-card__col-valor {
+  min-width: 0;
+}
+
 /* Alvos costuma ser longo: corta com reticências e revela ao abrir o card. */
-.prg-card__col[data-rot="Alvos"] {
+.prg-card__col[data-rot="Alvos"] .prg-card__col-valor {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -359,7 +363,7 @@
   }
   .prg-card__custo { justify-self: start; }
   .prg-card__seta  { align-self: start; margin-top: 0.3rem; }
-  .prg-card__col[data-rot="Alvos"] { white-space: normal; max-width: 100%; }
+  .prg-card__col[data-rot="Alvos"] .prg-card__col-valor { white-space: normal; max-width: 100%; }
 }
 
 /* ------------------------------------------------------ card de pacote */

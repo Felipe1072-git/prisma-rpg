@@ -1,6 +1,6 @@
 # Glossário de Termos
 
-Os **121 termos** que o jogo usa: condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
+Os **122 termos** que o jogo usa: condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
 
 Há duas formas de chegar num termo: o **índice alfabético** abaixo, se você já sabe o nome, ou a **busca e o filtro por categoria**, se você está procurando o que existe.
 
@@ -33,6 +33,10 @@ Deslocamentos forçados não são movimento do alvo (funcionam contra [Imóvel](
 ### Perde a próxima Reação
 
 A próxima Reação que o alvo tentaria usar é negada — **inclusive Reações dedicadas** (0 PA). Vale até o fim da **próxima rodada**; se ele não tentar reagir nesse prazo, o efeito expira sem uso.
+
+### Base de Resiliência
+
+Define a Defesa de qualquer criatura — personagem ou monstro: **Defesa = Base de Resiliência + o atributo relevante** (Agilidade pra física, Vontade pra mental, e assim por diante). Um personagem jogador é sempre **Treinado (Base 8)**. Ver [Combate → Base de Resiliência](jogar/combate.md#base-de-resiliencia) pra a tabela completa dos tiers (Comum, Treinado, Formidável, Lendário), usada principalmente pra criar criaturas.
 
 ### Acúmulo de bônus
 

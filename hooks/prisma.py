@@ -324,9 +324,19 @@ def chip(rotulo: str, familia: str = "") -> str:
 
 
 def colunas_html(pares: Iterable[tuple[str, str]]) -> str:
-    """As colunas do cabeçalho colapsado: rótulo (via CSS) + valor."""
+    """As colunas do cabeçalho colapsado: rótulo (via CSS) + valor.
+
+    O valor vive num `<span>` próprio: quando ele mistura texto solto com um
+    link (ex: "...imune a [Atordoado](...)"), cada trecho de texto e cada
+    link viram itens de flex separados se ficarem soltos direto dentro do
+    `.prg-card__col` (que é flex) — o navegador os organiza em colunas lado a
+    lado em vez de deixar o texto fluir, e a palavra do link quebra letra por
+    letra tentando caber. Um span só em volta do valor inteiro vira um único
+    item de flex, e o texto quebra normalmente nos espaços.
+    """
     return "".join(
-        f'<span class="prg-card__col" data-rot="{rotulo}">{escapa(valor)}</span>'
+        f'<span class="prg-card__col" data-rot="{rotulo}">'
+        f'<span class="prg-card__col-valor">{escapa(valor)}</span></span>'
         for rotulo, valor in pares
         if valor
     )
