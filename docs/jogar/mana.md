@@ -6,9 +6,11 @@ Enquanto os [Pontos de Ação](combate.md#pontos-de-acao) são o orçamento **do
 
 ## Mana Máximo
 
-**Mana Máximo = 10 (base) + (Nível × 3) + (Vontade × 2)**
+**Mana Máximo = 10 (base) + (Nível × 3) + (Vontade × 2) + Mana de equipamento**
 
 Exemplo: nível 1, Vontade 0 → 13 Mana. Nível 5, Vontade 3 → 31 Mana.
+
+O termo de equipamento é 0 pra quase tudo — hoje só as [Roupas Místicas](../equipamento/index.md#equ-roupas-misticas) somam algo (+5).
 
 ## Recuperação
 

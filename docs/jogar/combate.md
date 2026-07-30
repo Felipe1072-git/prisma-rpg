@@ -62,7 +62,7 @@ Um efeito que faça o alvo [perder a próxima Reação](../glossario.md#perde-a-
 
 ## Movimento
 
-Movimento base = **3 casas + Agilidade** (valor com sinal). Mínimo de movimento: **1 casa**.
+Movimento base = **6 casas + Agilidade** (valor com sinal). Mínimo de movimento: **1 casa**.
 
 "Casas" é uma unidade abstrata — o mapa pode usar quadrados ou hexágonos.
 

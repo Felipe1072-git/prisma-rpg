@@ -193,13 +193,19 @@ A **Armadura** é o outro termo da fórmula de [Defesa](../jogar/combate.md#defe
 | Armadura | Bônus de Defesa | Preço | Custo de usar |
 |---|---|---|---|
 | Nenhuma | +0 | — | — |
-| Leve (couro, gibão) | +1 | 40 p | nenhum |
-| Média (cota de malha, escamas) | +2 | 100 p | −1 de Movimento |
-| Pesada (placas, brunea) | +3 | 250 p | −2 de Movimento, e Desvantagem em testes de furtividade |
+| Tecido Reforçado | +1 | 40 p | Vantagem em testes de furtividade |
+| Couro Batido | +1 | 40 p | Resistência a dano Cortante |
+| Roupas Místicas | +0 | 40 p | +5 de Mana Máximo (zero proteção física é o preço) |
+| Armadura de Escamas | +2 | 100 p | nenhum |
+| Brigandina | +2 | 100 p | −1 de Movimento; Resistência a dano de Impacto |
+| Cota de Malha | +2 | 100 p | −1 de Movimento; Resistência a dano Cortante |
+| Meia-Armadura | +3 | 250 p | −1 de Movimento, e Desvantagem em testes de furtividade; Resistência a dano Perfurante |
+| Placa de Torneio | +4 | 300 p | −2 de Movimento, e Desvantagem em testes de furtividade; Resistência a dano Cortante; a Defesa física ignora o bônus de Agilidade (usa só 8 + Armadura) |
+| Armadura de Cerco | +3 | 250 p | Movimento reduzido à metade (como [Lento](../glossario.md#lento)), e Desvantagem em testes de furtividade; Resistência a dano de Impacto e imune a [Atordoado](../glossario.md#atordoado) |
 
-**Defesa física = 8 + Agilidade + Armadura** (+ Escudo, se houver). Um personagem ágil sem armadura pode ter Defesa parecida com a de um encouraçado lento — a diferença é que o primeiro paga em risco e o segundo em mobilidade.
+**Defesa física = 8 + Agilidade + Armadura** (+ Escudo, se houver) — exceto com Placa de Torneio, cuja Defesa física ignora o bônus de Agilidade (bom pra quem tem Agilidade negativa, ruim pra quem tem positiva). Um personagem ágil sem armadura pode ter Defesa parecida com a de um encouraçado lento — a diferença é que o primeiro paga em risco e o segundo em mobilidade.
 
-Armadura **não** exige requisito de atributo nem treino: qualquer personagem veste qualquer uma. O que a limita é o preço e a penalidade de Movimento, que num sistema onde deslocamento custa ◈ pesa mais do que parece.
+Armadura **não** exige requisito de atributo nem treino: qualquer personagem veste qualquer uma. O que a limita é o preço, a penalidade de Movimento (que num sistema onde deslocamento custa ◈ pesa mais do que parece), e a identidade de cada uma — Resistência, Vantagem/Desvantagem em furtividade e o bônus de Mana das Roupas Místicas nunca deixam uma armadura pior que andar sem nada, só diferente.
 
 ## Adagas
 

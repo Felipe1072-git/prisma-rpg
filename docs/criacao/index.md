@@ -77,10 +77,10 @@ Com atributos, raça e equipamento fechados, anote na ficha:
 | Valor | Fórmula |
 |---|---|
 | **Vida** | 10 + o [dado de Vida](../jogar/dano-e-cura.md#vida) do nível 1, pelo seu Vitalidade |
-| **Mana Máximo** | [10 + (Nível × 3) + (Vontade × 2)](../jogar/mana.md#mana-maximo) |
+| **Mana Máximo** | [10 + (Nível × 3) + (Vontade × 2) + Mana de equipamento](../jogar/mana.md#mana-maximo) |
 | **Defesa física** | [8 + Agilidade + Armadura](../jogar/combate.md#defesa) |
 | **Defesa mental** | [8 + Vontade](../jogar/combate.md#defesa) |
-| **Movimento** | [3 casas + Agilidade](../jogar/combate.md#movimento) (mínimo 1) |
+| **Movimento** | [6 casas + Agilidade](../jogar/combate.md#movimento) (mínimo 1) |
 | **Estresse Máximo** | [10 + Sanidade](../jogar/estresse.md) |
 | **Rerolagens** | [1 + Sorte](../jogar/testes.md#rerolagens) por descanso longo |
 | **Pontos de Ação** | 3 ◈ por turno — igual pra todo mundo |
