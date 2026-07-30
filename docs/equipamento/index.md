@@ -200,10 +200,10 @@ A **Armadura** é o outro termo da fórmula de [Defesa](../jogar/combate.md#defe
 | Brigandina | +2 | 100 p | −1 de Movimento; Resistência a dano de Impacto |
 | Cota de Malha | +2 | 100 p | −1 de Movimento; Resistência a dano Cortante |
 | Meia-Armadura | +3 | 250 p | −1 de Movimento, e Desvantagem em testes de furtividade; Resistência a dano Perfurante |
-| Placa de Torneio | +4 | 300 p | −2 de Movimento, e Desvantagem em testes de furtividade; Resistência a dano Cortante; a Defesa física ignora o bônus de Agilidade (usa só 8 + Armadura) |
-| Armadura de Cerco | +3 | 250 p | Movimento reduzido à metade (como [Lento](../glossario.md#lento)), e Desvantagem em testes de furtividade; Resistência a dano de Impacto e imune a [Atordoado](../glossario.md#atordoado) |
+| Armadura de Cerco | +4 | 250 p | −2 de Movimento, e Desvantagem em testes de furtividade; Resistência a todo dano físico (Impacto, Cortante e Perfurante); imune a [Atordoado](../glossario.md#atordoado); a Defesa física ignora o bônus de Agilidade (usa só 8 + Armadura) |
+| Placa de Torneio | +5 | 300 p | −3 de Movimento, e Desvantagem em testes de furtividade; Resistência a todo dano físico (Impacto, Cortante e Perfurante); a Defesa física ignora o bônus de Agilidade (usa só 8 + Armadura) |
 
-**Defesa física = 8 + Agilidade + Armadura** (+ Escudo, se houver) — exceto com Placa de Torneio, cuja Defesa física ignora o bônus de Agilidade (bom pra quem tem Agilidade negativa, ruim pra quem tem positiva). Um personagem ágil sem armadura pode ter Defesa parecida com a de um encouraçado lento — a diferença é que o primeiro paga em risco e o segundo em mobilidade.
+**Defesa física = 8 + Agilidade + Armadura** (+ Escudo, se houver) — exceto com Armadura de Cerco ou Placa de Torneio, cuja Defesa física ignora o bônus de Agilidade (bom pra quem tem Agilidade negativa, ruim pra quem tem positiva). Um personagem ágil sem armadura pode ter Defesa parecida com a de um encouraçado lento — a diferença é que o primeiro paga em risco e o segundo em mobilidade.
 
 Armadura **não** exige requisito de atributo nem treino: qualquer personagem veste qualquer uma. O que a limita é o preço, a penalidade de Movimento (que num sistema onde deslocamento custa ◈ pesa mais do que parece), e a identidade de cada uma — Resistência, Vantagem/Desvantagem em furtividade e o bônus de Mana das Roupas Místicas nunca deixam uma armadura pior que andar sem nada, só diferente.
 
