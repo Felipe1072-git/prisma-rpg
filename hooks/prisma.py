@@ -1370,7 +1370,7 @@ def cards_de_protecao(arsenal_md: str) -> list[str]:
     cards: list[str] = []
     for titulo, categoria, nota in (
         (r"^### Escudos\s*$", "Escudo", "Restrição"),
-        (r"^### Armaduras\s*$", "Armadura", "Custo de usar"),
+        (r"^### Armaduras\s*$", "Armadura", "Traços"),
     ):
         bloco = extrai_intervalo(linhas, titulo, r"^#{2,3} ")
         for linha in bloco:

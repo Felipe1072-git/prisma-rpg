@@ -190,7 +190,7 @@ Ter um Escudo equipado também habilita a habilidade geral [Bloqueio](../habilid
 
 A **Armadura** é o outro termo da fórmula de [Defesa](../jogar/combate.md#defesa) física — soma direto nela, sempre ativa, sem custo de Mana ou PA. É o equivalente da [Couraça Natural](../mestre/criando-criaturas.md#couraca-natural) das criaturas: só protege contra dano, empurrão e queda, nunca contra veneno, medo ou ilusão.
 
-| Armadura | Bônus de Defesa | Preço | Custo de usar |
+| Armadura | Bônus de Defesa | Preço | Traços |
 |---|---|---|---|
 | Nenhuma | +0 | — | — |
 | Tecido Reforçado | +1 | 40 p | Vantagem em testes de furtividade |
