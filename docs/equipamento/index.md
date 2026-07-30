@@ -78,7 +78,6 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 | [Violino](#violino) | Focos Atípicos | 1d6 | Impacto | 30 p | Leve | Vontade +4 | instrumento usado como arma contundente |
 | [Báculo](#baculo) | Focos Atípicos | 1d8 | Impacto | 60 p | Leve | — | bastão com lâmina circular e cristal, símbolo dos bardos |
 | [Vajras](#vajras) | Focos Atípicos | 1d8 | Impacto | 60 p | Leve | Sabedoria +6 | arma mística, foco médio |
-| [Bolsa de Truques](#bolsa-de-truques) | Focos Atípicos | 1d10 | Arcano | 120 p | Duas Mãos | — | bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
 | [Égide](#egide) | Única | 1d6 | Cortante | 30 p | Duas Mãos | — | pacote fechado espada+escudo — identidade defensiva vem do Buff Supremo do grupo |
 
 ### Pontaria
@@ -111,6 +110,7 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 | [Manopla Mística](#manopla-mistica) | Focos Mágicos | 1d8 | Arcano | 60 p | Leve | — | invoca criaturas através de uma gema com pentagramas e hexagramas |
 | [Olho Mágico](#olho-magico) | Focos Mágicos | 1d8 | Arcano | 60 p | Leve | — | genérica, sem elemento fixo |
 | [Orbe](#orbe) | Focos Mágicos | 1d8 | Arcano | 60 p | Leve | — | esfera mágica que guarda poder |
+| [Bolsa de Truques](#bolsa-de-truques) | Focos Mágicos | 1d10 | Arcano | 120 p | Duas Mãos | — | bolsa mágica com itens aleatórios (buquê, canhão, metralhadora) |
 | [Cajado](#cajado) | Focos Mágicos | 1d10 | Arcano | 120 p | Duas Mãos | — | canalização pesada |
 | [Módulo Alado](#modulo-alado) | Focos Mágicos | 1d10 | Arcano | 120 p | *(especial — não é empunhado)* | — | enxame tecnológico de lâminas voadoras |
 
@@ -492,7 +492,7 @@ Dano: **1d10**
 *Um buquê é sacado da bolsa e golpeia três vezes em sequência.*
 
 - **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Inteligência | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -503,7 +503,7 @@ Dano: **1d10**
 *Um canhão é sacado da bolsa, disparando uma bomba que explode ao contato.*
 
 - **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -514,7 +514,7 @@ Dano: **1d10**
 *Uma metralhadora surge da bolsa, disparando uma rajada certeira contra tudo à frente.*
 
 - **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação

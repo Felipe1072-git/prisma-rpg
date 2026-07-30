@@ -394,7 +394,7 @@ Arma marcial, dano 1d8 (bastão com lâmina circular e cristal, símbolo dos bar
 
 ### Bolsa de Truques
 
-Arma marcial pesada, dano 1d10 (renomeada de "Pandora" — bolsa mágica com itens aleatórios). Ver [Equipamento → Bolsa de Truques](equipamento/index.md#equ-bolsa-de-truques).
+Foco mágico pesado, dano 1d10 (renomeada de "Pandora" — bolsa mágica com itens aleatórios). Ver [Equipamento → Bolsa de Truques](equipamento/index.md#equ-bolsa-de-truques).
 
 ### Tonfas
 
