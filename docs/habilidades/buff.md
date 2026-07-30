@@ -427,7 +427,7 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Intensidade II — ◈◈ (2 PA) + 8 Mana:** por 3 rodadas, os alvos ganham +2 no dano de ataques.
 - **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** por 4 rodadas, os alvos ganham +3 no dano de ataques.
 
-**Proteção**
+**Couraça Vingativa**
 
 *Um escudo demoníaco envolve o usuário, retribuindo cada golpe recebido com dano.*
 
@@ -535,6 +535,40 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Intensidade I — 0 PA + 3 Mana:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra ganhar +3 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
 - **Intensidade II — 0 PA + 6 Mana:** o mesmo, com +5 de Defesa.
 - **Intensidade III — 0 PA + 9 Mana:** o mesmo, com +7 de Defesa. Se o ataque errar, o usuário pode imediatamente fazer um Ataque Básico contra o atacante, sem gastar PA.
+
+**Cúpula Protetora**
+
+*Uma cúpula translúcida se ergue do escudo do usuário, protegendo todos sob seu brilho.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Requisito:** usuário precisa ter algum Escudo (item) equipado — [Broquel](../equipamento/index.md#equ-broquel), [Escudo](../equipamento/index.md#equ-escudo), [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado) ou [Escudo Torre](../equipamento/index.md#equ-escudo-torre)
+- **Atributo:** Inteligência | **Alvos:** usuário e aliados em 2 casas de raio
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** cada alvo ganha um [Escudo](../glossario.md#escudo) de 1d6 pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno de cada alvo, ou até ser destruído.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, com 2d6.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, com 3d6.
+
+**Muralha de Ferro**
+
+*O escudo é fincado no chão, e placas de metal brotam da terra, formando uma barricada que protege quem estiver atrás dela.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Requisito:** usuário precisa ter algum Escudo (item) equipado — [Broquel](../equipamento/index.md#equ-broquel), [Escudo](../equipamento/index.md#equ-escudo), [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado) ou [Escudo Torre](../equipamento/index.md#equ-escudo-torre)
+- **Custo fixo:** ◈◈◈ (3 PA) + 7 Mana | **Atributo:** Força | **Alcance:** 4 casas | **Alvos:** 3 casas em linha (formam a parede)
+- **Efeito:** por 3 rodadas, as casas da parede viram [Terreno Difícil](../glossario.md#terreno-dificil) (custa o dobro de Movimento pra atravessar) e bloqueiam linha de visada de ataques à distância. Aliados adjacentes à parede, do lado do usuário, ganham +2 de Defesa enquanto ela durar.
+- *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
+
+**Escudo Elemental** *(usada como Reação)*
+
+*Uma película de energia elemental recobre o escudo no instante do impacto — o golpe recebido devolve o elemento escolhido.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Requisito:** usuário precisa ter algum Escudo (item) equipado — [Broquel](../equipamento/index.md#equ-broquel), [Escudo](../equipamento/index.md#equ-escudo), [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado) ou [Escudo Torre](../equipamento/index.md#equ-escudo-torre)
+- **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Elemento:** ao ativar, o usuário escolhe Fogo, Gelo ou Raio — a condição aplicada no atacante muda de acordo
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 3 Mana:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra reduzir o dano daquele ataque à metade (arredondado pra baixo), e o atacante sofre a condição do elemento escolhido: Fogo → fica [Queimando](../glossario.md#queimando) (1d4 por turno); Gelo → fica [Lento](../glossario.md#lento); Raio → perde a próxima Reação.
+- **Intensidade II — 0 PA + 6 Mana:** o mesmo, reduzindo o dano a um terço (arredondado pra baixo), com a mesma condição da Intensidade I.
+- **Intensidade III — 0 PA + 9 Mana:** anula o dano por completo, e o atacante sofre a versão mais forte da condição: Fogo → [Queimando](../glossario.md#queimando) (2d4 por turno); Gelo → fica [Imóvel](../glossario.md#imovel) até o fim do próprio turno; Raio → perde a próxima Ação Básica e a próxima Reação.
 
 **Couraça Angelical** *(Supremo)*
 

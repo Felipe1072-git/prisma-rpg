@@ -464,7 +464,7 @@ Arma que ocupa só uma mão — a mão secundária fica livre pra outra arma Lev
 
 ### Escudo (item) {: #escudo-item }
 
-Item de mão secundária (Broquel, Escudo, Pesado ou Torre) que concede bônus passivo de Defesa. Escudo, Pesado e Torre habilitam a habilidade [Bloqueio](habilidades/buff.md); o Broquel habilita [Aparar](habilidades/buff.md) no lugar. Ver [Equipamento → Escudos](equipamento/index.md#equ-escudo). Não confundir com a **condição** [Escudo](#escudo), que dá pontos que absorvem dano.
+Item de mão secundária (Broquel, Escudo, Pesado ou Torre) que concede bônus passivo de Defesa e habilita um punhado de habilidades gerais que exigem ter algum Escudo equipado — [Cúpula Protetora](habilidades/buff.md), [Muralha de Ferro](habilidades/buff.md), [Escudo Elemental](habilidades/buff.md) e [Ataque com Escudo](habilidades/marciais.md) funcionam com qualquer um deles; [Bloqueio](habilidades/buff.md) exige Escudo, Pesado ou Torre, e o Broquel habilita [Aparar](habilidades/buff.md) no lugar. Ver [Equipamento → Escudos](equipamento/index.md#equ-escudo). Não confundir com a **condição** [Escudo](#escudo), que dá pontos que absorvem dano.
 
 ## Grupos de Habilidade
 

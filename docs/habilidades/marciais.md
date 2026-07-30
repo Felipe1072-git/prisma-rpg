@@ -33,6 +33,19 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
 - **Crítico (20 natural):** dano desarmado máximo + dano desarmado extra, e sobe 1 Intensidade
 
+**Ataque com Escudo**
+
+*O escudo vira arma — um golpe seco que usa o peso do metal pra empurrar e desequilibrar.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Requisito:** usuário precisa ter algum Escudo (item) equipado — [Broquel](../equipamento/index.md#equ-broquel), [Escudo](../equipamento/index.md#equ-escudo), [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado) ou [Escudo Torre](../equipamento/index.md#equ-escudo-torre)
+- **Atributo:** Força | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](marciais.md#dano-desarmado)
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + empurra 3 casas, derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+
 **Caminho da Espada**
 
 *A mente se aquieta, e só resta a fúria — cada golpe mais selvagem que o anterior.*
