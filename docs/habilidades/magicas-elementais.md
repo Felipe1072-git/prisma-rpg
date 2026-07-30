@@ -752,7 +752,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** por 2 rodadas, a área vira Terreno Difícil, e qualquer criatura hostil que termine o turno nela sofre 1d6 de dano automático
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Aparar**
+**Lâmina Emboscada**
 
 *Uma lâmina espectral é fincada no chão a distância, ferindo continuamente quem chegar perto.*
 

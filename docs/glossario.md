@@ -100,7 +100,7 @@ Perde **1d4 de Vida por acúmulo** no início de cada turno dele, até ser curad
 Pontos temporários que **absorvem dano** antes da Vida. Não acumulam com outro Escudo — vale o maior. Substituir um Escudo por outro maior **não** remove os demais efeitos do buff original (retaliação, anti-derrubar etc.), que valem pela duração declarada dele.
 
 !!! regra "Escudo (condição) ≠ Escudo (item)"
-    O **item** Escudo ([Equipamento → Escudos](equipamento/index.md#equ-escudo-leve)) dá bônus passivo de **Defesa**. A **condição** Escudo dá pontos que absorvem dano. Quando uma habilidade diz "ignora bônus de Escudo", refere-se ao **item**; quando diz "ganha um Escudo de Xd6", é a condição.
+    O **item** Escudo ([Equipamento → Escudos](equipamento/index.md#equ-escudo)) dá bônus passivo de **Defesa**. A **condição** Escudo dá pontos que absorvem dano. Quando uma habilidade diz "ignora bônus de Escudo", refere-se ao **item**; quando diz "ganha um Escudo de Xd6", é a condição.
 
 ### Exausto
 
@@ -464,7 +464,7 @@ Arma que ocupa só uma mão — a mão secundária fica livre pra outra arma Lev
 
 ### Escudo (item) {: #escudo-item }
 
-Item de mão secundária (Leve, Pesado ou Torre) que concede bônus passivo de Defesa e habilita a habilidade [Bloqueio](habilidades/buff.md). Ver [Equipamento → Escudos](equipamento/index.md#equ-escudo-leve). Não confundir com a **condição** [Escudo](#escudo), que dá pontos que absorvem dano.
+Item de mão secundária (Broquel, Escudo, Pesado ou Torre) que concede bônus passivo de Defesa. Escudo, Pesado e Torre habilitam a habilidade [Bloqueio](habilidades/buff.md); o Broquel habilita [Aparar](habilidades/buff.md) no lugar. Ver [Equipamento → Escudos](equipamento/index.md#equ-escudo). Não confundir com a **condição** [Escudo](#escudo), que dá pontos que absorvem dano.
 
 ## Grupos de Habilidade
 

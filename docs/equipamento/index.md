@@ -1,6 +1,6 @@
 # Equipamento
 
-**62 armas, 3 escudos e 3 armaduras**, num lugar só. Filtre por estilo de
+**62 armas, 4 escudos e 3 armaduras**, num lugar só. Filtre por estilo de
 combate, família, tipo de dano, propriedade — ou arraste a prata disponível e
 veja o que cabe no bolso.
 
@@ -179,9 +179,10 @@ Diferente de uma arma, um Escudo não concede as 3 habilidades de Básica/Avanç
 
 | Categoria | Bônus de Defesa | Preço | Restrição |
 |---|---|---|---|
-| Escudo Leve | +2 | 40 p | Nenhuma — combina com qualquer arma Leve |
-| Escudo Pesado | +3 | 90 p | Nenhuma — combina com qualquer arma Leve |
-| Escudo Torre | +5 | 200 p | Ocupa as duas mãos sozinho — usuário não pode equipar nenhuma arma junto (luta com [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)) |
+| Broquel | +1 | 20 p | Nenhuma — combina com qualquer arma Leve |
+| Escudo | +2 | 40 p | Nenhuma — combina com qualquer arma Leve |
+| Escudo Pesado | +3 | 90 p | Requisito Força +2 — combina com qualquer arma Leve |
+| Escudo Torre | +5 | 200 p | Requisito Força +4 — reduz o Movimento do usuário em 1; combina com qualquer arma Leve |
 
 Ter um Escudo equipado também habilita a habilidade geral [Bloqueio](../habilidades/buff.md), independente da categoria.
 

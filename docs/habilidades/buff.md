@@ -519,10 +519,22 @@ Incremento de força, imbuir elementos em armas, etc.
 *O escudo se ergue no último instante, absorvendo o impacto que era pra te derrubar.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Requisito:** usuário precisa ter um [Escudo](../equipamento/index.md#equ-escudo-leve) equipado
+- **Requisito:** usuário precisa ter um [Escudo](../equipamento/index.md#equ-escudo), [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado) ou [Escudo Torre](../equipamento/index.md#equ-escudo-torre) equipado — não vale com [Broquel](../equipamento/index.md#equ-broquel) (ver Aparar, abaixo)
 - **Custo fixo:** 0 PA + 3 Mana (dedicada a Reação) | **Atributo:** Força | **Alvos:** o próprio usuário
-- **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação. Com Escudo Leve ou Pesado, reduz o dano daquele ataque à metade (arredondado pra baixo). Com Escudo Torre, anula o dano por completo.
+- **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação. Com Escudo ou Escudo Pesado, reduz o dano daquele ataque à metade (arredondado pra baixo). Com Escudo Torre, anula o dano por completo.
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
+
+**Aparar** *(usada como Reação)*
+
+*Um desvio preciso no último instante — o golpe erra o alvo, e a abertura vira contra-ataque.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Requisito:** usuário precisa ter um [Broquel](../equipamento/index.md#equ-broquel) equipado
+- **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 3 Mana:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra ganhar +3 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade II — 0 PA + 6 Mana:** o mesmo, com +5 de Defesa.
+- **Intensidade III — 0 PA + 9 Mana:** o mesmo, com +7 de Defesa. Se o ataque errar, o usuário pode imediatamente fazer um Ataque Básico contra o atacante, sem gastar PA.
 
 **Couraça Angelical** *(Supremo)*
 

@@ -480,7 +480,7 @@
 
 *Táticas de formação defensiva e bônus de bando.*
 
-- **Arma inicial:** [Tridente](../equipamento/index.md#equ-tridente) + [Escudo](../equipamento/index.md#equ-escudo-leve) Leve
+- **Arma inicial:** [Tridente](../equipamento/index.md#equ-tridente) + [Escudo](../equipamento/index.md#equ-escudo)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1590,7 +1590,7 @@
 
 *Mecânicas focadas em cumprir um juramento feito no início da sessão.*
 
-- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo](../equipamento/index.md#equ-escudo-leve) Pesado
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1940,7 +1940,7 @@
 
 *Espada longa e escudo heráldico; auras de proteção e golpes de retribuição luminosa.*
 
-- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo](../equipamento/index.md#equ-escudo-leve) Leve
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo](../equipamento/index.md#equ-escudo)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
@@ -1960,7 +1960,7 @@
 
 *Absorve impactos e cria uma parede intransponível.*
 
-- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo](../equipamento/index.md#equ-escudo-leve) Pesado
+- **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado)
 - **Atributo em foco:** Força
 
 | Nível | Habilidade |
