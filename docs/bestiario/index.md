@@ -120,7 +120,7 @@ As regras de como ler e como montar uma criatura estão em
 - **Ataque:** +3 | **Defesa física:** 15 | **Defesa mental:** 12
 - **Atributos:** Força +3, Vitalidade +3, Agilidade +2, Inteligência +2, Sabedoria +1, Vontade +2, Sorte +0, Sanidade +2
 - **Couraça:** Blindada (+3) | **Resistência:** fogo
-- **Movimento:** 8 casas, no chão ou voando — alçar voo custa ◈
+- **Movimento:** 8 casas, no chão ou voando
 
 **Garras e Presas** — ◈ | 0 Mana | +3 vs Defesa física | 1 criatura adjacente
 

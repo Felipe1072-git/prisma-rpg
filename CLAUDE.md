@@ -180,7 +180,8 @@ Convenções que precisam se manter estáveis (o cross-link depende delas):
   turno, e comentário ali é ruído. O *porquê* de cada escolha continua existindo — em
   `mestre/criando-criaturas.md`, que é a página que ensina — e o conceito do bicho continua
   na frase em itálico no topo do card. Regra de resolução não é justificativa: "o Mestre rola
-  uma vez pro cone inteiro" e "alçar voo custa ◈" ficam.
+  uma vez pro cone inteiro" fica. Mas **exceção que a regra geral já cobre não é regra, é
+  ruído**: o "alçar voo custa ◈" do Dragão saiu porque voar já é movimento.
 - **Criatura nova segue a forma do markdown, não um template de HTML**: bullets
   `- **Rótulo:** valor` pra ficha (rótulo de `DESTAQUES_CRIATURA` vira tile; o resto vira
   linha de defesa), `**Nome** — ◈ | +X vs Defesa | alvo` pra ataque, `**Nome** *(passiva)*`
@@ -354,9 +355,9 @@ mesa** — é a mesma aritmética de antes, com o número novo.
 
 **Movimento das criaturas (2026-08-02).** Todas as fichas passaram a trazer o campo, em
 **6 + Agilidade**. *Criando uma Criatura* ainda dizia "3 + Agilidade", de antes da mudança da
-regra — corrigido. O Dragão tinha 5 no chão / 8 voando, uma exceção de antes; o autor decidiu
-alinhar com a regra de Voo, que não prevê velocidade de voo separada — **8 casas, no chão ou
-voando**, e alçar voo continua custando ◈.
+regra — corrigido. O Dragão tinha 5 no chão / 8 voando e um "alçar voo custa ◈"; as duas eram
+exceções que a regra de Voo já cobre (voa-se em três dimensões pelo mesmo custo de Movimento,
+sem velocidade separada e sem pedágio de decolagem). Ficou **8 casas, no chão ou voando**.
 
 **Iniciativa = d20 + Agilidade + Sorte (2026-08-02).** Era só Sorte. Mudança pedida pelo
 autor; as seis criaturas do Bestiário e a Aranha de exemplo foram recalculadas (Sorte é 0 em
