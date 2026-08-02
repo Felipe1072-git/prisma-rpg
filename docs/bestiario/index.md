@@ -112,6 +112,104 @@ As regras de como ler e como montar uma criatura estão em
 
 - Quando sofre dano **[Cortante](../glossario.md#cortante) ou [Perfurante](../glossario.md#perfurante)** e sobrevive, o Slime se divide: surge um segundo Slime adjacente com metade da Vida atual (arredondada pra baixo, mínimo 1), e o original fica com a outra metade. Dano de [Impacto](../glossario.md#impacto), [Arcano](../glossario.md#arcano) e elemental não divide.
 
+## Zumbi
+
+*Ele já morreu uma vez. Não tem pressa nenhuma.*
+
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈◈ (2) | **Iniciativa:** -2
+- **Ataque:** +1 | **Defesa física:** 4 | **Defesa mental:** imune a efeito mental
+- **Atributos:** Força +1, Vitalidade +2, Agilidade -2 | **Couraça:** Nenhuma (+0)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental**
+- **Movimento:** 4 casas
+
+**Punho e Dentes** — ◈ | +1 vs Defesa física | 1 criatura adjacente
+
+- **1d6** de dano ([Impacto](../glossario.md#impacto)).
+
+**Tenacidade Morta-viva** *(passiva)*
+
+- Ao chegar a 0 de Vida, fica de pé com **1 de Vida** em vez de cair. Não acontece se o golpe final for de [Luz](../habilidades/magicas-elementais.md#luz) ou um crítico, e vale uma vez por [cena](../glossario.md#cena).
+
+## Enxame de Ratos
+
+*Não é um bicho. É o chão se movendo.*
+
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈◈ (2) | **Iniciativa:** +2
+- **Ataque:** +2 | **Defesa física:** 8 | **Defesa mental:** 6
+- **Atributos:** Agilidade +2, Vitalidade -1 | **Couraça:** Nenhuma (+0)
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto)
+- **Movimento:** 8 casas
+
+**Dentes por Todo Lado** — ◈ | +2 vs Defesa física | 1 criatura na mesma casa ou adjacente
+
+- **1d4** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Enxame** *(passiva)*
+
+- Ocupa a mesma casa de outra criatura e se move através dela. Não pode [empurrar](../glossario.md#empurrar-e-puxar), [agarrar](../glossario.md#agarrado) nem ser agarrado.
+
+## Orc
+
+*Ele não procura a melhor posição. Procura a mais curta.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +1
+- **Ataque:** +3 | **Defesa física:** 10 | **Defesa mental:** 9
+- **Atributos:** Força +3, Vitalidade +2, Agilidade +1, Vontade +1 | **Couraça:** Coriácea (+1)
+- **Movimento:** 7 casas
+
+**Machado Pesado** — ◈ | +3 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano ([Cortante](../glossario.md#cortante)).
+
+**Investida Selvagem** *(passiva)*
+
+- Se mover **3 casas ou mais em linha reta** na direção do alvo antes de atacar, o ataque causa **+1d8**.
+
+## Carniçal
+
+*O primeiro que ele pega para de se mexer.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
+- **Ataque:** +3 | **Defesa física:** 10 | **Defesa mental:** imune a efeito mental
+- **Atributos:** Agilidade +2, Força +1, Vitalidade +1 | **Couraça:** Nenhuma (+0)
+- **Imunidades:** [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental**
+- **Movimento:** 8 casas
+
+**Garras** — ◈ | +3 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano ([Cortante](../glossario.md#cortante)).
+
+**Mordida Paralisante** — ◈◈◈ | +3 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano ([Perfurante](../glossario.md#perfurante)) e o alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele.
+
+**Fome Insaciável** *(passiva)*
+
+- Ataques contra alvo [Atordoado](../glossario.md#atordoado) ou [Derrubado](../glossario.md#derrubado) causam **+1d8**.
+
+## Sombra
+
+*A parede não é obstáculo. É caminho.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
+- **Ataque:** +3 | **Defesa física:** 11 | **Defesa mental:** 9
+- **Atributos:** Agilidade +3, Vontade +1 | **Couraça:** Nenhuma (+0)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), veneno, doença, [agarrar](../glossario.md#agarrado) e [empurrar](../glossario.md#empurrar-e-puxar)
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto)
+- **Movimento:** 9 casas
+
+**Toque Gélido** — ◈ | +3 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano de [Sombras](../habilidades/magicas-elementais.md#sombras) e o alvo perde **1 de Força**, até um [descanso longo](../jogar/exploracao.md#descanso).
+
+**Incorpórea** *(passiva)*
+
+- Atravessa criaturas, objetos e paredes, gastando Movimento como [Terreno Difícil](../glossario.md#terreno-dificil). Não pode terminar o turno dentro de um objeto sólido.
+
+**Some na Penumbra** *(passiva)*
+
+- Em [luz fraca ou escuridão](../jogar/exploracao.md#luz-e-escuridao), esconde-se sem precisar de cobertura. Em luz forte, seus ataques rolam com [Desvantagem](../glossario.md#desvantagem).
+
 ## Dragão Filhote
 
 *Ainda não voa bem. Já queima tudo.*
@@ -141,3 +239,31 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 **Escamas Quentes** *(passiva)*
 
 - Quem atinge o Dragão com ataque corpo a corpo sofre **1d4** de dano de fogo.
+
+## Troll
+
+*Corte o quanto quiser. Ele tem a tarde inteira.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +1
+- **Ataque:** +4 | **Defesa física:** 13 | **Defesa mental:** 10
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +1, Inteligência -2, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Escamada (+2) | **Vulnerabilidade:** [Fogo](../habilidades/magicas-elementais.md#fogo)
+- **Movimento:** 7 casas
+
+**Garras e Presas** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Cortante](../glossario.md#cortante)).
+
+**Dilacerar** — +4 vs Defesa física | 1 criatura adjacente
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano e o alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** **2d6** de dano, o alvo fica [Sangrando](../glossario.md#sangrando) e [Agarrado](../glossario.md#agarrado)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano, o alvo fica [Sangrando](../glossario.md#sangrando) e [Derrubado](../glossario.md#derrubado), e o Troll recupera Vida igual à metade do dano causado
+
+**Regeneração** *(passiva)*
+
+- Recupera **10 de Vida** no início do próprio turno. Não recupera nada se tiver sofrido dano de [Fogo](../habilidades/magicas-elementais.md#fogo) desde o fim do último turno dele.
+
+**Só o Fogo Encerra** *(passiva)*
+
+- Ao chegar a 0 de Vida, cai imóvel e volta com **10 de Vida** no início do próximo turno dele. Morre de vez se o golpe que o levou a 0 for de [Fogo](../habilidades/magicas-elementais.md#fogo), ou se sofrer qualquer dano de Fogo enquanto está caído.

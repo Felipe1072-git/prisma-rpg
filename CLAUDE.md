@@ -348,6 +348,18 @@ parecer que eram dois valores. Decisão do autor, vendo as duas versões: ficha 
 mais. Ela continua no markdown e no filtro da barra. O custo assumido é que os três efeitos
 que **ignoram o bônus de Armadura** do alvo obrigam o Mestre a buscar o valor fora do card.
 
+**Bestiário vai a 12 criaturas (2026-08-02).** A leva 1 saiu da lista do SRD em
+`notas/bestiario-elenco.md`, escolhida por lacuna mecânica — cada uma resolve um problema que
+o Bestiário não sabia fazer: **Zumbi** (não cai), **Enxame de Ratos** (arma não resolve,
+divide a casa), **Orc** (avança e pune quem recuou), **Carniçal** (Atordoado por ◈◈◈ — tira o
+turno), **Sombra** (incorpórea, drena Força) e **Troll** (regenera; só Fogo encerra). Números
+derivados da tabela de construção, nenhum importado do SRD.
+
+Duas coisas que o vocabulário existente forçou, e valem pra próxima leva: **não existe
+"Paralisado"** (o Carniçal usa Atordoado) e **não existe dano de "Ácido"** (o Troll morre só
+pra Fogo). Ao converter criatura do SRD, confira o glossário antes — nome de condição de
+outro sistema não entra.
+
 **PA das criaturas sobe um degrau em cada Tier (2026-08-02).** Comum **2** (move e ataca —
 agir uma vez só virou traço de bicho lento, não regra do Tier), Treinado **3** (os mesmos de
 um personagem), Formidável **4**, Lendário **5** + Ação de Lenda. Decisão do autor.

@@ -42,8 +42,8 @@ Tier de cada criatura escolhida é decisão sua, uma a uma.
 
 ## O que o Bestiário já cobre
 
-Antes de escolher, o que as seis atuais já ensinam — porque criatura nova só se justifica se
-trouxer um **problema novo**, não outro saco de Vida:
+Antes de escolher, o que as criaturas atuais já ensinam — porque criatura nova só se
+justifica se trouxer um **problema novo**, não outro saco de Vida:
 
 | Já coberto | Por quem |
 |---|---|
@@ -53,6 +53,15 @@ trouxer um **problema novo**, não outro saco de Vida:
 | o tipo de dano importa (resistência + vulnerabilidade) | Esqueleto |
 | a criatura se multiplica | Slime |
 | chefe com Mana e Intensidade | Dragão Filhote |
+| não cai quando deveria | Zumbi *(leva 1)* |
+| arma não resolve; divide a casa | Enxame de Ratos *(leva 1)* |
+| avança e pune quem recuou | Orc *(leva 1)* |
+| tira o turno do personagem | Carniçal *(leva 1)* |
+| atravessa parede e drena atributo | Sombra *(leva 1)* |
+| regenera; só fogo encerra | Troll *(leva 1)* |
+
+**Leva 1 entregue em 2026-08-02** — as seis marcadas abaixo já estão em
+`docs/bestiario/index.md`. O Bestiário passou de 6 para 12 criaturas.
 
 ## Sugestões, por banda de potência
 
@@ -63,8 +72,8 @@ fraca, a criatura provavelmente não vale uma ficha.
 
 | | Criatura | O que acrescenta |
 |---|---|---|
-| [ ] | Zumbi | não cai: continua de pé quando deveria ter morrido |
-| [ ] | Enxame de Ratos | enxame — ocupa uma casa, e espada não resolve |
+| [x] | Zumbi | não cai: continua de pé quando deveria ter morrido |
+| [x] | Enxame de Ratos | enxame — ocupa uma casa, e espada não resolve |
 | [ ] | Kobold | covarde que só é perigoso em grupo grande *(muito perto do Goblin)* |
 | [ ] | Stirge | gruda no alvo e drena até ser arrancada |
 | [ ] | Falcão-de-sangue | voador barato — obriga o grupo a ter resposta pro ar |
@@ -74,11 +83,11 @@ fraca, a criatura provavelmente não vale uma ficha.
 
 | | Criatura | O que acrescenta |
 |---|---|---|
-| [ ] | Orc | o capanga marcial que avança e bate forte |
+| [x] | Orc | o capanga marcial que avança e bate forte |
 | [ ] | Hobgoblin | inimigo com disciplina militar — formação, não bando |
 | [ ] | Gnoll | frenesi: fica mais perigoso a cada abate |
-| [ ] | Sombra | incorpórea: atravessa parede e drena atributo |
-| [ ] | Carniçal (Ghoul) | paralisia — tira o turno do personagem |
+| [x] | Sombra | incorpórea: atravessa parede e drena atributo |
+| [x] | Carniçal | paralisia — tira o turno do personagem |
 | [ ] | Bugbear | emboscada: dano brutal no primeiro golpe, medíocre depois |
 | [ ] | Ogro | bruto lento: muito dano, pouca precisão |
 | [ ] | Mímico | armadilha viva — o baú era o monstro |
@@ -100,7 +109,7 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [ ] | Lobo do Inverno | sopro de gelo — a contraparte elemental do Dragão |
 | [ ] | Fantasma | possui um personagem: o grupo luta contra o próprio aliado |
 | [ ] | Súcubo | ameaça social — vence sem combate se ninguém perceber |
-| [ ] | Troll | regeneração: só fogo e ácido resolvem de vez |
+| [x] | Troll | regeneração: só fogo resolve de vez (não existe dano de Ácido no Prisma) |
 | [ ] | Gigante da Colina | arremessa pedras — e arremessa personagens |
 | [ ] | Elemental (Fogo/Água/Terra/Ar) | um elemento puro em forma de criatura — encaixa nos 11 |
 | [ ] | Medusa | petrifica pelo olhar e ainda atira de longe |
