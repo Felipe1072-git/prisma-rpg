@@ -26,7 +26,7 @@ Com 8 pontos (Padrão pra 4 PJs) você pode montar: **8 Comuns**, ou **2 Treinad
 
 ## Vida por faixa de nível
 
-A Vida no [Bestiário](bestiario.md) é calibrada pra personagens de **nível 1 a 4**. Grupos mais fortes precisam de criaturas mais duras — não porque o goblin engordou, mas porque o dano do grupo cresceu:
+A Vida no [Bestiário](../bestiario/index.md) é calibrada pra personagens de **nível 1 a 4**. Grupos mais fortes precisam de criaturas mais duras — não porque o goblin engordou, mas porque o dano do grupo cresceu:
 
 | Tier | Nv 1–4 | Nv 5–10 | Nv 11–15 | Nv 16–20 |
 |---|---|---|---|---|
@@ -78,18 +78,18 @@ Montados com o orçamento acima, para um grupo de 4.
 
 **Emboscada na Estrada** — nível 1–2, Padrão (8 pontos)
 
-- 2 [Bandidos](../mestre/bestiario.md#bes-bandido) (6) + 2 [Lobos](../mestre/bestiario.md#bes-lobo) (2). Os Lobos correm 5 casas e vão atrás de quem se afastou; os Bandidos usam Recuar e Atirar pra manter distância. Ensina posicionamento sem punir demais.
+- 2 [Bandidos](../bestiario/index.md#bes-bandido) (6) + 2 [Lobos](../bestiario/index.md#bes-lobo) (2). Os Lobos correm 5 casas e vão atrás de quem se afastou; os Bandidos usam Recuar e Atirar pra manter distância. Ensina posicionamento sem punir demais.
 
 **Cripta Rasa** — nível 3–5, Difícil (12 pontos)
 
 *(Nos exemplos, use a [Vida da faixa](#vida-por-faixa-de-nivel) em que o grupo realmente está — as fichas do Bestiário valem pro nível 1-4; na metade de cima da faixa anunciada, ajuste.)*
 
-- 4 [Esqueletos](../mestre/bestiario.md#bes-esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano) na prática.
+- 4 [Esqueletos](../bestiario/index.md#bes-esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano) na prática.
 
 **Ninho** — nível 4–6, Mortal (16 pontos)
 
-- 1 [Dragão Filhote](../mestre/bestiario.md#bes-dragao-filhote) (8) + 8 [Goblins](../mestre/bestiario.md#bes-goblin) (8) que o servem. Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. Chefe escoltado, do jeito certo.
+- 1 [Dragão Filhote](../bestiario/index.md#bes-dragao-filhote) (8) + 8 [Goblins](../bestiario/index.md#bes-goblin) (8) que o servem. Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. Chefe escoltado, do jeito certo.
 
 **O Poço** — nível 2–4, **Leve no papel (3 pontos), Difícil na prática**
 
-- 3 [Slimes](../mestre/bestiario.md#bes-slime) num corredor estreito. É o encontro que mostra o limite dos Pontos de Ameaça: cada golpe **cortante ou perfurante** divide o Slime, então um grupo de espadachins termina lutando contra oito criaturas em vez de três. Quem trouxe martelo passa fácil. Sempre que uma criatura se multiplica, se cura ou revive, os pontos subestimam o encontro — conte o dobro.
+- 3 [Slimes](../bestiario/index.md#bes-slime) num corredor estreito. É o encontro que mostra o limite dos Pontos de Ameaça: cada golpe **cortante ou perfurante** divide o Slime, então um grupo de espadachins termina lutando contra oito criaturas em vez de três. Quem trouxe martelo passa fácil. Sempre que uma criatura se multiplica, se cura ou revive, os pontos subestimam o encontro — conte o dobro.

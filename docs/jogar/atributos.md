@@ -6,7 +6,7 @@ Todo personagem e toda criatura do jogo é descrito pelos mesmos oito números. 
 |---|---|---|
 | **Força** | Poder físico bruto — ataques marciais pesados, testes de força bruta | requisito de armas pesadas |
 | **Vitalidade** | Resistência física | define o [dado de Vida](dano-e-cura.md#vida) e quantas falhas você aguenta [Caído](dano-e-cura.md#chegando-a-0-de-vida) |
-| **Agilidade** | Reflexos e velocidade — ataques à distância e furtivos | [Defesa física](combate.md#defesa) e [Movimento](combate.md#movimento) |
+| **Agilidade** | Reflexos e velocidade — ataques à distância e furtivos | [Defesa física](combate.md#defesa), [Movimento](combate.md#movimento) e [Iniciativa](combate.md#iniciativa) |
 | **Inteligência** | Raciocínio e poder arcano — ataques de magias arcanas | — |
 | **Sabedoria** | Percepção e intuição — [Suporte](../habilidades/suporte.md)/cura, percepção | testes de [viagem](exploracao.md#quem-faz-o-que-na-estrada) |
 | **Vontade** | Força de vontade e presença (o "Carisma" deste sistema) — testes sociais, resistir a controle mental | [Mana Máximo](mana.md#mana-maximo) e [Defesa mental](combate.md#defesa) |

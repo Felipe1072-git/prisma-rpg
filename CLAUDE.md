@@ -108,8 +108,9 @@ Sistema RPG/
 │   ├── equipamento/          ← index.md = listagem (armas/escudos/armaduras) e a fonte
 │   │                            de tudo; regras.md monta-se lendo as seções de regra
 │   ├── pacotes/              ← index.md = listagem única; sorteio.md = tabelas d20
-│   ├── mestre/               ← Livro do Mestre; bestiario.md = listagem,
-│   │                            criando-criaturas.md = as regras
+│   ├── bestiario/            ← index.md = listagem única (aba própria no header)
+│   ├── mestre/               ← Livro do Mestre; criando-criaturas.md = as regras
+│   │                            de montar criatura
 │   ├── glossario.md          ← vira popover ao passar o mouse nos termos
 │   └── assets/{css,js,img}/  ← prisma.css, prisma.js, SVGs de brasão/divisor
 ├── hooks/prisma.py           ← camada de exibição (ver abaixo) — não altera docs/
@@ -119,8 +120,10 @@ Sistema RPG/
 └── referencia/               ← material de referência pessoal (não publicado)
 ```
 
-O header tem 6 abas: **Início · Jogando o Jogo · Criação de Personagem · Compêndio ·
-Livro do Mestre · Glossário**. Toda listagem filtrável mora no Compêndio.
+O header tem 7 abas: **Início · Jogando o Jogo · Criação de Personagem · Compêndio ·
+Bestiário · Livro do Mestre · Glossário**. Toda listagem filtrável mora no Compêndio —
+menos o Bestiário, que ganhou aba própria em 2026-08-02 por ser a página que o Mestre
+mais abre no meio de um turno.
 
 ⚠ **Toda seção do nav precisa do próprio `index.md` como primeiro item.** Com
 `navigation.indexes` ligado, o Material adota o primeiro item da seção como página-índice
@@ -148,7 +151,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 | `origens/index.md` | as 3 tabelas d20 viram 60 cards (eixo, tipo de traço, atributo) + sorteio | `ori-{eixo}-{nome}` |
 | `equipamento/index.md` | as 62 seções de arma + escudos + armaduras viram 68 cards; a ficha vem da tabela de dado de dano | `equ-{nome}` |
 | `pacotes/index.md` | as 100 seções `###` viram cards (vertente, arma, atributo, Suprema final) + sorteio | `pac-{nome}` |
-| `mestre/bestiario.md` | as seções `##` viram cards de criatura (tier, couraça, PA) | `bes-{nome}` |
+| `bestiario/index.md` | as seções `##` viram fichas de criatura no molde do stat block do D&D Beyond: tiles dos números de rodada, grade fixa dos 8 atributos, linhas de defesa, e traços/ações em uma linha cada | `bes-{nome}` |
 | `habilidades/*.md` (grupos) | cada habilidade vira um ponteiro de uma linha pro card | — |
 | `habilidades/regras.md`, `equipamento/regras.md`, `jogar/condicoes.md` | montam-se lendo ao vivo seções que vivem noutro arquivo — nenhum texto duplicado em disco | — |
 | qualquer página | `<!-- prisma:verbetes Vantagem Desvantagem -->` vira os verbetes inteiros, lidos do glossário | — |
@@ -172,6 +175,17 @@ Convenções que precisam se manter estáveis (o cross-link depende delas):
   tudo na primeira tela. O "como isso funciona" vai pra um bloco `???` fechado (helper
   `colapsavel()`, ou escrito à mão no markdown). Régua: **até ~60 palavras visíveis** antes da
   barra. O JS abre qualquer `<details>` fechado quando a âncora cai dentro dele.
+- **Ficha de criatura é só mecânica**: nada de justificar a regra dentro dela ("Goblin é
+  ameaça por quantidade", "osso quebra", "esmaga ou queima"). O card é lido no meio de um
+  turno, e comentário ali é ruído. O *porquê* de cada escolha continua existindo — em
+  `mestre/criando-criaturas.md`, que é a página que ensina — e o conceito do bicho continua
+  na frase em itálico no topo do card. Regra de resolução não é justificativa: "o Mestre rola
+  uma vez pro cone inteiro" e "alçar voo custa ◈" ficam.
+- **Criatura nova segue a forma do markdown, não um template de HTML**: bullets
+  `- **Rótulo:** valor` pra ficha (rótulo de `DESTAQUES_CRIATURA` vira tile; o resto vira
+  linha de defesa), `**Nome** — ◈ | +X vs Defesa | alvo` pra ataque, `**Nome** *(passiva)*`
+  pra traço. Um bullet abaixo do nome sobe pra mesma linha; dois ou mais viram lista
+  (é assim que as três Intensidades continuam sendo escolha visível).
 - **Traço que a leva concede vale pra raça inteira**: o markdown guarda uma cópia só, na
   abertura da leva, e `monta_card_raca` injeta nos cards daquela leva. Ele conta no número de
   traços do card, porque na ficha do jogador ele é um traço como os outros.
@@ -307,6 +321,32 @@ a fonte, o Livro do Jogador cita o verbete inteiro, e o Livro do Mestre ficou s�
 Fica registrado o que o DMG do 5.5e tem e o Prisma não: *Preparando uma sessão*, *Como conduzir
 uma sessão*, armadilhas com ficha, e o lado do Mestre do Estresse. **Não escrevi nenhuma delas**
 — é conteúdo novo, e conteúdo novo passa pelo autor.
+
+**Bestiário no molde do stat block (2026-08-02).** O Bestiário saiu do Livro do Mestre e
+virou aba própria (`docs/bestiario/index.md`; o endereço antigo redireciona preservando a
+âncora). A ficha de criatura foi refeita no molde do D&D Beyond: os números de rodada em
+tiles, os **oito atributos numa grade fixa** — mesmo os que valem +0, porque é a posição que
+deixa comparar duas criaturas sem reler rótulo —, imunidade e resistência logo abaixo, e
+traços e ações **numa linha cada** (nome em negrito, meta do ataque em etiqueta, efeito na
+sequência) em vez de título mais bullet solto. Lista só sobrevive onde é escolha: as três
+Intensidades da Baforada. O markdown é o mesmo, só a exibição.
+
+A **Couraça não tem tile próprio**: ela já está somada na Defesa física (Base + Agilidade +
+Couraça), e um tile do mesmo tamanho fazia parecer que eram dois números. Virou legenda
+embaixo da Defesa física, como o "Gear" embaixo do AC no D&D Beyond — some do lugar errado
+sem sumir do card, porque três efeitos do jogo ignoram o bônus de Armadura do alvo e aí o
+Mestre precisa saber quanto subtrair.
+
+**Iniciativa = d20 + Agilidade + Sorte (2026-08-02).** Era só Sorte. Mudança pedida pelo
+autor; as seis criaturas do Bestiário e a Aranha de exemplo foram recalculadas (Sorte é 0 em
+todas, então a Iniciativa virou a Agilidade delas: Lobo +2, Slime -2). Empate resolve por
+Agilidade, depois Sorte, depois o Mestre. Fica registrado que a Agilidade era o atributo mais
+carregado do jogo antes disso (Defesa física, Movimento, ataques à distância e furtivos) e
+ganhou mais um — não foi testado em mesa, como nada aqui.
+
+A página de redirecionamento passou a **preservar o hash** quando o endereço muda mas o
+conteúdo não (o caso do Bestiário): sem mapa de âncoras, `#bes-goblin` viaja junto. Com
+mapa, o comportamento é o de antes.
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)

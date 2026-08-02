@@ -58,7 +58,7 @@ As regras de cada um: [Habilidade](habilidades/regras.md) · [Equipamento](equip
 
 **[Livro do Mestre](mestre/index.md)**
 
-- [Bestiário](mestre/bestiario.md) — as criaturas prontas, filtráveis por tier, couraça e PA
+- [Bestiário](bestiario/index.md) — as criaturas prontas, filtráveis por tier, couraça e PA
 - [Criando uma Criatura](mestre/criando-criaturas.md) · [Montagem de Encontro](mestre/encontros.md)
 - [Testes e Dificuldades](mestre/testes.md) · [Recompensas](mestre/recompensas.md) · [Exploração na Mesa](mestre/exploracao.md)
 

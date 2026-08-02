@@ -7,9 +7,11 @@ Combate é o modo de jogo em que o tempo é contado. A cena vira uma sequência 
 
 ## Iniciativa
 
-No início do combate, cada participante rola **d20 + [Sorte](atributos.md)**. A ordem decrescente do resultado define a sequência de turnos.
+No início do combate, cada participante rola **d20 + [Agilidade](atributos.md) + [Sorte](atributos.md)**. A ordem decrescente do resultado define a sequência de turnos.
 
-Empate é resolvido por quem tem Sorte mais alta; persistindo o empate, o Mestre decide.
+Quem reage rápido age antes — a Agilidade é o reflexo, e a Sorte é estar olhando pro lado certo na hora.
+
+Empate é resolvido por quem tem Agilidade mais alta; persistindo, por quem tem Sorte mais alta; e se ainda empatar, o Mestre decide.
 
 A ordem vale pro combate inteiro — não se rola de novo a cada rodada.
 

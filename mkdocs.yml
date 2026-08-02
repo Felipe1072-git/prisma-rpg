@@ -97,10 +97,10 @@ nav:
     - Regras de Equipamento: equipamento/regras.md
     - Pacotes: pacotes/index.md
     - Sorteio de Pacote: pacotes/sorteio.md
+  - Bestiário: bestiario/index.md
   - Livro do Mestre:
     - mestre/index.md
     - Criaturas:
-      - Bestiário: mestre/bestiario.md
       - Criando uma Criatura: mestre/criando-criaturas.md
       - Montagem de Encontro: mestre/encontros.md
     - Conduzindo a Mesa:

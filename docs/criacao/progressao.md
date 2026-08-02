@@ -59,7 +59,7 @@ O ponto do nível par pode ir pra qualquer um dos oito, sem teto por nível. Val
 | Se você subir | Muda na hora |
 |---|---|
 | Vitalidade | o **tamanho** dos dados de Vida dos próximos níveis (os já rolados não mudam) |
-| Agilidade | [Defesa física](../jogar/combate.md#defesa) e [Movimento](../jogar/combate.md#movimento) |
+| Agilidade | [Defesa física](../jogar/combate.md#defesa), [Movimento](../jogar/combate.md#movimento) e [Iniciativa](../jogar/combate.md#iniciativa) |
 | Vontade | [Mana Máximo](../jogar/mana.md#mana-maximo) (+2 por ponto) e Defesa mental |
 | Sorte | [Iniciativa](../jogar/combate.md#iniciativa) e o número de [rerolagens](../jogar/testes.md#rerolagens) por descanso longo |
 | Sanidade | [Estresse Máximo](../jogar/estresse.md) |

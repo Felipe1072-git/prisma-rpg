@@ -34,7 +34,7 @@ Pra rodar a primeira sessão, nesta ordem:
 
 | Você precisa de | Vá para |
 |---|---|
-| criaturas prontas | [Bestiário](bestiario.md) — filtre por tier e monte a sala |
+| criaturas prontas | [Bestiário](../bestiario/index.md) — filtre por tier e monte a sala |
 | saber quantas colocar | [Montagem de Encontro](encontros.md) — a janela entre trivial e mortal é estreita |
 | quanto pedir num teste | [Testes e Dificuldades](testes.md) — e quando não pedir nada |
 | o que o grupo leva | [Recompensas](recompensas.md) — nível, dinheiro, item |

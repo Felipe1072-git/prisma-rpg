@@ -4,13 +4,13 @@ Criaturas prontas pra usar em mesa. Cada card abre com a ficha completa —
 ataques, traços e o que a criatura faz na sua vez.
 
 As regras de como ler e como montar uma criatura estão em
-[Criando uma Criatura](criando-criaturas.md).
+[Criando uma Criatura](../mestre/criando-criaturas.md).
 
 ## Goblin
 
 *Baixo, magro e covarde sozinho — mas eles nunca estão sozinhos.*
 
-- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +0
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +1
 - **Ataque:** +1 | **Defesa física:** 8 | **Defesa mental:** 6
 - **Atributos:** Agilidade +1, Vitalidade -1 | **Couraça:** Coriácea (+1)
 
@@ -20,20 +20,20 @@ As regras de como ler e como montar uma criatura estão em
 
 **Bando** *(passiva)*
 
-- Se houver outro Goblin adjacente ao mesmo alvo, o ataque causa **+1d4**. Goblin é ameaça por quantidade, não por indivíduo.
+- Se houver outro Goblin adjacente ao mesmo alvo, o ataque causa **+1d4**.
 
 **Covardia** *(passiva)*
 
-- Ao ficar com 3 ou menos de Vida, usa seu PA pra fugir pela rota mais segura, se houver. Não é medo mecânico — é o Mestre jogando o bicho como ele é.
+- Ao ficar com 3 ou menos de Vida, usa seu PA pra fugir pela rota mais segura, se houver.
 
 ## Lobo
 
 *Ele não ataca o mais forte do grupo. Ataca o que se afastou.*
 
-- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +0
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +2
 - **Ataque:** +2 | **Defesa física:** 9 | **Defesa mental:** 6
 - **Atributos:** Agilidade +2, Vitalidade +1, Sabedoria +1 | **Couraça:** Coriácea (+1)
-- **Movimento:** 5 casas — mais rápido que a maioria dos personagens
+- **Movimento:** 5 casas
 
 **Mordida** — ◈ | +2 vs Defesa física | 1 criatura adjacente
 
@@ -51,7 +51,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Sabe exatamente onde doer, e cobra pela informação.*
 
-- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +0
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +2
 - **Ataque:** +2 | **Defesa física:** 11 | **Defesa mental:** 9
 - **Atributos:** Força +2, Agilidade +2, Vitalidade +1, Vontade +1 | **Couraça:** Coriácea (+1)
 
@@ -74,9 +74,9 @@ As regras de como ler e como montar uma criatura estão em
 - **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +0
 - **Ataque:** +2 | **Defesa física:** 10 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Força +2, Agilidade +0, Vitalidade +3 | **Couraça:** Escamada (+2, ossos e escudo velho)
-- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental** (medo, charme, provocação, ilusão) — não há mente pra atingir
-- **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante) — lâmina e ponta não têm o que rasgar num esqueleto
-- **Vulnerabilidade:** [Impacto](../glossario.md#impacto) — osso quebra; martelos e maças causam o **dobro**
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental** (medo, charme, provocação, ilusão)
+- **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante)
+- **Vulnerabilidade:** [Impacto](../glossario.md#impacto) — martelos e maças causam o **dobro**
 
 **Lâmina Antiga** — ◈ | +2 vs Defesa física | 1 criatura adjacente
 
@@ -94,29 +94,25 @@ As regras de como ler e como montar uma criatura estão em
 
 *Bater com a espada só faz dois problemas onde havia um.*
 
-- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +0
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** -2
 - **Ataque:** +0 | **Defesa física:** 4 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Vitalidade +2, Agilidade -2 | **Couraça:** Nenhuma (+0)
 - **Imunidades:** derrubar, empurrar, [Sangrando](../glossario.md#sangrando), veneno, e **todo efeito mental**
-- **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante) — a lâmina atravessa a gelatina sem cortar nada
-
-Defesa física 4 é de propósito: o Slime é lento e não desvia de nada. **Acertar é fácil; resolver não.**
+- **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante)
 
 **Investida Ácida** — ◈ | +0 vs Defesa física | 1 criatura adjacente
 
-- **1d4** de dano, e o alvo fica [Envenenado](../glossario.md#envenenado) — o ácido continua corroendo.
+- **1d4** de dano, e o alvo fica [Envenenado](../glossario.md#envenenado).
 
 **Divisão** *(passiva)*
 
-- Quando sofre dano **[Cortante](../glossario.md#cortante) ou [Perfurante](../glossario.md#perfurante)** e sobrevive, o Slime se divide: surge um segundo Slime adjacente com metade da Vida atual (arredondada pra baixo, mínimo 1), e o original fica com a outra metade. Dano de [Impacto](../glossario.md#impacto), [Arcano](../glossario.md#arcano) e elemental não divide — esmaga ou queima.
+- Quando sofre dano **[Cortante](../glossario.md#cortante) ou [Perfurante](../glossario.md#perfurante)** e sobrevive, o Slime se divide: surge um segundo Slime adjacente com metade da Vida atual (arredondada pra baixo, mínimo 1), e o original fica com a outra metade. Dano de [Impacto](../glossario.md#impacto), [Arcano](../glossario.md#arcano) e elemental não divide.
 
 ## Dragão Filhote
 
 *Ainda não voa bem. Já queima tudo.*
 
-Primeiro chefe do Bestiário: usa **Mana e [Intensidade](../habilidades/regras.md#intensidade)**, e o Mestre decide quanto investir em cada turno, como um jogador faria.
-
-- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈ (3) | **Mana:** 20 | **Iniciativa:** +0
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈ (3) | **Mana:** 20 | **Iniciativa:** +2
 - **Ataque:** +3 | **Defesa física:** 15 | **Defesa mental:** 12
 - **Atributos:** Força +3, Vitalidade +3, Agilidade +2, Inteligência +2, Sabedoria +1, Vontade +2, Sorte +0, Sanidade +2
 - **Couraça:** Blindada (+3) | **Resistência:** fogo
@@ -124,11 +120,11 @@ Primeiro chefe do Bestiário: usa **Mana e [Intensidade](../habilidades/regras.m
 
 **Garras e Presas** — ◈ | 0 Mana | +3 vs Defesa física | 1 criatura adjacente
 
-- **2d6** de dano ([Cortante](../glossario.md#cortante)). É o ataque de rotina: não gasta Mana.
+- **2d6** de dano ([Cortante](../glossario.md#cortante)).
 
 **Baforada** — +3 vs Defesa física | cone de 3 casas à frente
 
-Assinatura do elemento [Fogo](../habilidades/magicas-elementais.md#fogo): quem é atingido pega fogo e continua queimando. O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alvo dentro do cone. Como toda habilidade, [a área não muda com a Intensidade](../habilidades/regras.md#intensidade) — o que cresce é o fogo.
+O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alvo dentro do cone. [A área não muda com a Intensidade](../habilidades/regras.md#intensidade).
 
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** **2d6** de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a cada alvo

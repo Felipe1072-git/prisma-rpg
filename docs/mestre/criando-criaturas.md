@@ -35,7 +35,7 @@ Isso é, na ordem: o **custo em PA** (◈), o **bônus que o Mestre soma no d20*
 
 ### Um turno jogado
 
-O [Dragão Filhote](bestiario.md#bes-dragao-filhote) (Ataque **+3**, 3 PA, 20 Mana) está à frente de dois personagens: a **Guerreira** (Defesa física **10**) e o **Mago** (Defesa física **16** — ágil e difícil de acertar).
+O [Dragão Filhote](../bestiario/index.md#bes-dragao-filhote) (Ataque **+3**, 3 PA, 20 Mana) está à frente de dois personagens: a **Guerreira** (Defesa física **10**) e o **Mago** (Defesa física **16** — ágil e difícil de acertar).
 
 **O Mestre escolhe a Baforada em Intensidade II:** gasta **2 PA** e **6 Mana**, sobrando 1 PA e 14 Mana.
 
@@ -118,10 +118,10 @@ Você não precisa calcular nada: escolha o Tier e copie a coluna.
 
 Para grupos acima do nível 4, troque a linha de Vida pela [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nivel). Todo o resto continua igual.
 
-No **Ataque**, use o topo da faixa quando a criatura for precisa ou treinada, e o piso quando for desajeitada ou lenta. Nas criaturas deste livro: [Lobo](bestiario.md#bes-lobo) +2 (caçador), [Goblin](bestiario.md#bes-goblin) +1 (desajeitado), [Bandido](bestiario.md#bes-bandido) +2 (competente, não excepcional).
+No **Ataque**, use o topo da faixa quando a criatura for precisa ou treinada, e o piso quando for desajeitada ou lenta. Nas criaturas deste livro: [Lobo](../bestiario/index.md#bes-lobo) +2 (caçador), [Goblin](../bestiario/index.md#bes-goblin) +1 (desajeitado), [Bandido](../bestiario/index.md#bes-bandido) +2 (competente, não excepcional).
 
 !!! mestre "Os valores são ponto de partida, não algema"
-    Desviar é o que dá personalidade — e desviar *pra baixo* também é desviar: o [Slime](bestiario.md#bes-slime) tem Ataque +0 e Defesa física 4, abaixo de qualquer faixa, porque é lento e não desvia de nada. Ele compensa em outro lugar (imunidades e a *Divisão*). Se você tirar de um canto, devolva em outro.
+    Desviar é o que dá personalidade — e desviar *pra baixo* também é desviar: o [Slime](../bestiario/index.md#bes-slime) tem Ataque +0 e Defesa física 4, abaixo de qualquer faixa, porque é lento e não desvia de nada. Ele compensa em outro lugar (imunidades e a *Divisão*). Se você tirar de um canto, devolva em outro.
 
 ### Os cinco passos
 
@@ -147,7 +147,7 @@ No **Ataque**, use o topo da faixa quando a criatura for precisa ou treinada, e 
 | **Ataque** | o número que o Mestre soma no d20, já pronto | tabela, ±1 pelo conceito |
 | **Defesa física** | o alvo que o jogador precisa superar pra acertar | Base + Agilidade + Couraça |
 | **Defesa mental** | o alvo de charme, medo, provocação e teste social | Base + Vontade |
-| **Iniciativa** | bônus somado ao d20 na ordem de turnos | Sorte (0 na maioria) |
+| **Iniciativa** | bônus somado ao d20 na ordem de turnos | Agilidade + Sorte (a Sorte é 0 na maioria) |
 | **Couraça** | só a Defesa física; não protege de veneno nem medo | conceito (couro, escamas, placas) |
 | **Atributos** | o valor usado quando algo incomum é testado nela | conceito |
 | **Movimento** | quantas casas anda por PA gasto | 3 + Agilidade |
@@ -174,9 +174,9 @@ Isso pede: um Treinado (obstáculo sério, não vilão), veneno, e algo que pren
 
 *Ela não persegue. Ela espera — e a teia trabalha por ela.*
 
-- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +0
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +1
 - **Ataque:** +3 | **Defesa física:** 11 | **Defesa mental:** 8
-- **Atributos:** Agilidade +1, Vitalidade +2, Sabedoria +2 (sente vibração) | **Couraça:** Escamada (+2, quitina)
+- **Atributos:** Agilidade +1, Vitalidade +2, Sabedoria +2 | **Couraça:** Escamada (+2, quitina)
 
 **Mordida Peçonhenta** — ◈ | +3 vs Defesa física | 1 criatura adjacente
 
@@ -190,4 +190,4 @@ Isso pede: um Treinado (obstáculo sério, não vilão), veneno, e algo que pren
 
 - Enquanto estiver na própria teia, a Aranha rola ataques com **Vantagem** e não pode ser derrubada.
 
-Repare no que veio de onde: **Vida, PA, Ataque e dano saíram direto da tabela**. Agilidade +1 (em vez de +2 ou +3) veio da frase — ela não persegue, então não precisa ser rápida. Os dois traços cobrem tipos diferentes: *Teia* muda o alvo (prende quem tentava passar), *Sentinela* muda o terreno (lutar na teia dela é pior). E o veneno não é um terceiro traço — é o dano dela, do tipo que continua depois.
+Repare no que veio de onde: **Vida, PA, Ataque e dano saíram direto da tabela**. Agilidade +1 (em vez de +2 ou +3) veio da frase — ela não persegue, então não precisa ser rápida. A Sabedoria +2 é a mesma frase de outro jeito: ela sente a vibração da teia. Os dois traços cobrem tipos diferentes: *Teia* muda o alvo (prende quem tentava passar), *Sentinela* muda o terreno (lutar na teia dela é pior). E o veneno não é um terceiro traço — é o dano dela, do tipo que continua depois.

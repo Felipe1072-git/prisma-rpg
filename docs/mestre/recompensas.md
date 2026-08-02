@@ -91,6 +91,6 @@ Costumam valer mais que o tesouro, e não custam equilíbrio nenhum:
 
 - **Informação** — o mapa da masmorra, o nome verdadeiro do vilão, a fraqueza da criatura. Num sistema com [Vulnerabilidade](../glossario.md#vulnerabilidade), descobrir que o chefe teme Fogo vale mais que +1 de dano.
 - **Acesso** — a chave, a senha, o convite pro salão, o favor de quem abre portas.
-- **Aliado** — alguém que aparece quando chamado. Mecanicamente, é uma criatura do [Bestiário](bestiario.md) que luta ao lado do grupo por uma cena.
+- **Aliado** — alguém que aparece quando chamado. Mecanicamente, é uma criatura do [Bestiário](../bestiario/index.md) que luta ao lado do grupo por uma cena.
 - **Reputação** — o preço que baixa, o guarda que não revista, a taverna que não cobra. Rende mais sessões de jogo que uma bolsa de prata.
 - **Descanso garantido** — num sistema onde Mana só volta em [descanso](../jogar/mana.md#recuperacao), oferecer um lugar seguro pra dormir **é** recompensa mecânica.

@@ -72,7 +72,9 @@
   }
 
   function marcaIntensidades(card) {
-    var itens = card.querySelectorAll(".prg-card__bd > ul > li");
+    // Na ficha de criatura a lista de Intensidades mora dentro do bloco da
+    // ação, não solta no corpo do card — daí o descendente, não o filho.
+    var itens = card.querySelectorAll(".prg-card__bd ul > li");
     Array.prototype.forEach.call(itens, function (li) {
       var forte = li.querySelector("strong");
       if (!forte) return;

@@ -843,10 +843,219 @@ def campos_do_bloco(corpo: list[str]) -> dict[str, str]:
 # a criatura. Vira chip colorido e faceta.
 TIERS = ("Comum", "Treinado", "Formidável", "Lendário")
 
+# A ficha da criatura é lida no molde do stat block do D&D Beyond, em quatro
+# camadas: os números que o Mestre consulta a cada rodada, os oito atributos
+# numa grade fixa (sempre no mesmo lugar, mesmo valendo +0), o que muda a
+# resolução do dano, e só então traços e ações — cada uma em uma linha só.
+DESTAQUES_CRIATURA = (
+    "Vida",
+    "PA",
+    "Defesa física",
+    "Defesa mental",
+    "Ataque",
+    "Iniciativa",
+    "Mana",
+    "Movimento",
+)
+
+# Rótulos que já viraram tile, chip, legenda ou grade e não devem repetir nas
+# linhas de defesa. O que sobrar (Imunidades, Resistência, Vulnerabilidade, e
+# qualquer rótulo novo que uma criatura futura invente) cai lá sozinho.
+IGNORA_CRIATURA = frozenset(DESTAQUES_CRIATURA) | {"Tier", "Atributos", "Couraça"}
+
+ABREVIA_ATRIBUTO = {
+    "forca": "FOR",
+    "vitalidade": "VIT",
+    "agilidade": "AGI",
+    "inteligencia": "INT",
+    "sabedoria": "SAB",
+    "vontade": "VON",
+    "sorte": "SOR",
+    "sanidade": "SAN",
+}
+
+# Um ataque ou traço: a linha é só o nome em negrito, seguido do qualificador
+# `*(passiva)*` ou da meta do ataque (`— ◈ | +1 vs Defesa física | alvo`).
+RE_BLOCO_CRIATURA = re.compile(r"^\*\*([^*]+?)\*\*\s*(\*\([^)]+\)\*|—\s*\S.*)?$")
+
+# Um tile só usa o número grande quando o valor é mesmo um número: "Defesa
+# mental: imune a efeito mental" precisa de corpo de texto pra caber.
+RE_VALOR_NUMERICO = re.compile(r"^[+\-−–]?[\d◈()\s+/]+$")
+
+
+def separa_criatura(
+    resto: list[str],
+) -> tuple[dict[str, str], list[str], list[tuple[str, str, list[str]]]]:
+    """Divide o corpo da criatura em ficha, notas de prosa e blocos.
+
+    Cada bloco é (nome, meta, corpo) — um ataque ou um traço passivo. O que vem
+    solto antes do primeiro bloco e não é bullet de ficha é nota: existe em duas
+    criaturas (o aviso de chefe do Dragão, o porquê da Defesa 4 do Slime) e é
+    texto que o Mestre precisa ler.
+    """
+    campos: dict[str, str] = {}
+    notas: list[str] = []
+    blocos: list[tuple[str, str, list[str]]] = []
+    atual: list[str] | None = None
+
+    for linha in resto:
+        texto = linha.strip()
+        if not texto:
+            continue
+        if m := RE_BLOCO_CRIATURA.match(texto):
+            corpo: list[str] = []
+            blocos.append((m.group(1).strip(), (m.group(2) or "").strip(), corpo))
+            atual = corpo
+        elif atual is not None:
+            atual.append(texto)
+        elif texto.startswith("- **") and ":**" in texto:
+            campos.update(campos_da_linha(texto))
+        else:
+            notas.append(texto)
+    return campos, notas, blocos
+
+
+def legenda_de_couraca(rotulo: str, campos: dict[str, str]) -> str:
+    """A Couraça como legenda da Defesa física, não como número próprio.
+
+    Ela não é uma segunda defesa: já está somada ali dentro (Base + Agilidade +
+    Couraça). Mas também não é enfeite — três efeitos do jogo ignoram o bônus de
+    Armadura do alvo, e aí o Mestre precisa saber quanto tirar. É o papel do
+    "Gear" embaixo do AC no D&D Beyond: de onde o número veio.
+    """
+    bruto = campos.get("Couraça", "") if rotulo == "Defesa física" else ""
+    if not bruto:
+        return ""
+    # "Coriácea (+1)" -> "Coriácea +1"; o que vier junto do bônus ("+2, ossos e
+    # escudo velho") continua na legenda, que é onde esse detalhe se lê.
+    texto = re.sub(r"^(.+?)\s*\((.+)\)$", r"\1 \2", texto_puro(bruto).strip())
+    return f'<span class="prg-bes__legenda">{escapa(texto)}</span>'
+
+
+def tiles_criatura(campos: dict[str, str]) -> tuple[str, list[str]]:
+    """Os números de rodada em destaque; devolve (html, notas de rodapé).
+
+    Quando o valor traz um comentário depois do travessão ("5 casas — mais
+    rápido que a maioria dos personagens"), o número fica no tile e o comentário
+    vira nota: o tile precisa ser varrido de olho, o comentário precisa ser lido.
+    """
+    tiles: list[str] = []
+    notas: list[str] = []
+    for rotulo in DESTAQUES_CRIATURA:
+        bruto = campos.get(rotulo, "")
+        if not bruto:
+            continue
+        valor, _, cauda = texto_puro(bruto).partition("—")
+        valor = valor.strip().rstrip(",")
+        if not valor:
+            continue
+        if cauda.strip():
+            notas.append(f"**{rotulo}** — {cauda.strip()}")
+        classe = "" if RE_VALOR_NUMERICO.match(valor) else " prg-bes__val--texto"
+        tiles.append(
+            '<span class="prg-bes__tile">'
+            f'<span class="prg-bes__rot">{escapa(rotulo)}</span>'
+            f'<span class="prg-bes__val{classe}">{escapa(valor)}</span>'
+            f"{legenda_de_couraca(rotulo, campos)}</span>"
+        )
+    if not tiles:
+        return "", notas
+    return '<div class="prg-bes__tiles">' + "".join(tiles) + "</div>", notas
+
+
+def grade_de_atributos(bruto: str) -> str:
+    """Os oito atributos, sempre todos, sempre na mesma ordem.
+
+    A ficha no markdown só cita o que foge de zero; a grade completa o resto com
+    +0 — como o bloco de FOR/DES/CON do D&D Beyond, onde a posição é o que
+    permite comparar duas criaturas sem reler rótulo.
+    """
+    texto = sem_acento(texto_puro(bruto))
+    celulas: list[str] = []
+    for chave, nome in ATRIBUTOS_TODOS:
+        m = re.search(chave + r"\s*([+\-−–]?\s*\d+)", texto)
+        valor = re.sub(r"\s+", "", m.group(1)).replace("−", "-").replace("–", "-") if m else "0"
+        if not valor.startswith("-"):
+            valor = "+" + valor.lstrip("+")
+        zero = " prg-bes__atr--zero" if valor == "+0" else ""
+        celulas.append(
+            f'<span class="prg-bes__atr{zero}" title="{escapa(nome)}">'
+            f'<span class="prg-bes__rot">{ABREVIA_ATRIBUTO[chave]}</span>'
+            f'<span class="prg-bes__val">{valor}</span></span>'
+        )
+    return '<div class="prg-bes__atrs">' + "".join(celulas) + "</div>"
+
+
+def linha_de_bloco(nome: str, meta: str, corpo: list[str]) -> str:
+    """Um ataque ou traço numa linha só: nome em negrito, meta, efeito.
+
+    O formato antigo gastava duas linhas — título e um bullet solto abaixo — pra
+    dizer uma frase. Quando o bloco tem mais de um bullet (as três Intensidades
+    da Baforada), a lista continua embaixo: aí ela é escolha, não detalhe.
+    """
+    passiva = meta.startswith("*(")
+    cabeca = f"**{nome}.**"
+    if passiva:
+        cabeca += f' <span class="prg-bes__marca">({escapa(meta.strip("*()").strip())})</span>'
+    elif meta:
+        partes = [p.strip() for p in meta.lstrip("—").split("|") if p.strip()]
+        cabeca += ' <span class="prg-bes__meta">' + " · ".join(partes) + "</span>"
+
+    bullets = [l for l in corpo if l.startswith("- ")]
+    prosa = [l for l in corpo if not l.startswith("- ")]
+
+    # Um bullet só é a frase do efeito: sobe pra linha do nome. O travessão
+    # separa a etiqueta (quanto custa, contra o quê, em quem) do que acontece.
+    if len(bullets) == 1 and not prosa:
+        cabeca += (" — " if meta and not passiva else " ") + bullets[0][2:].strip()
+        bullets = []
+
+    partes_md = [cabeca, *prosa]
+    corpo_md = "\n\n".join(partes_md) + ("\n\n" + "\n".join(bullets) if bullets else "")
+    classe = "prg-bes__bloco" + (" prg-bes__bloco--passiva" if passiva else "")
+    return f'<div class="{classe}" markdown="1">\n\n{corpo_md}\n\n</div>'
+
+
+def ficha_de_criatura(flavor: str, resto: list[str]) -> tuple[str, dict[str, str]]:
+    """O corpo do card inteiro, no molde do stat block."""
+    campos, notas_prosa, blocos = separa_criatura(resto)
+    tiles, notas_tile = tiles_criatura(campos)
+
+    partes: list[str] = []
+    if flavor:
+        partes.append(f'<p class="prg-bes__flavor" markdown="span">{flavor}</p>')
+    if tiles:
+        partes.append(tiles)
+    if "Atributos" in campos:
+        partes.append(grade_de_atributos(campos["Atributos"]))
+
+    # Imunidade e resistência decidem se o golpe do jogador vale alguma coisa:
+    # ficam logo abaixo dos números, antes de qualquer ação.
+    defesas = [
+        f"**{rotulo}** — {valor}"
+        for rotulo, valor in campos.items()
+        if rotulo not in IGNORA_CRIATURA and valor
+    ]
+    for linha in defesas + notas_tile:
+        partes.append(f'<p class="prg-bes__defesa" markdown="span">{linha}</p>')
+    for linha in notas_prosa:
+        partes.append(f'<p class="prg-bes__nota" markdown="span">{linha}</p>')
+
+    passivas = [b for b in blocos if b[1].startswith("*(")]
+    acoes = [b for b in blocos if not b[1].startswith("*(")]
+    for titulo, grupo in (("Traços", passivas), ("Ações", acoes)):
+        if not grupo:
+            continue
+        partes.append(f'<p class="prg-bes__titulo">{titulo}</p>')
+        partes.extend(linha_de_bloco(*b) for b in grupo)
+
+    corpo = "\n\n".join(partes)
+    return f'<div class="prg-bes" markdown="1">\n\n{corpo}\n\n</div>', campos
+
 
 def monta_card_criatura(s: Secao) -> str:
     flavor, resto = flavor_e_resto(s.corpo)
-    campos = campos_do_bloco(resto)
+    corpo_md, campos = ficha_de_criatura(flavor, resto)
 
     tier = texto_puro(campos.get("Tier", ""))
     couraca = texto_puro(campos.get("Couraça", "")).split("(")[0].strip()
@@ -857,10 +1066,6 @@ def monta_card_criatura(s: Secao) -> str:
     # número que decide quantas rolagens o Mestre administra por rodada.
     achado = re.search(r"\((\d+)\)", pa)
     pa_n = achado.group(1) if achado else ""
-
-    corpo_md = "\n".join(
-        ([f"*{flavor}*", ""] if flavor else []) + [l for l in resto]
-    )
 
     return monta_card_base(
         "bes-" + slug(s.nome),
@@ -2342,7 +2547,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         )
         return insere_barra(markdown, barra, '<div class="prg-card')
 
-    if caminho == "mestre/bestiario.md":
+    if caminho == "bestiario/index.md":
         markdown, total = monta_listagem_bestiario(markdown)
         barra = monta_barra(
             "criaturas",
@@ -2453,6 +2658,9 @@ REDIRECIONA = {
     "jogador/pontos-de-acao": "jogar/combate/",
     "jogador/mana": "jogar/mana/",
     "jogador/tocado": "criacao/tocado/",
+    # O Bestiário saiu do Livro do Mestre e virou aba própria (2026-08-02). As
+    # âncoras `#bes-…` são as mesmas, então o hash é preservado sem mapa.
+    "mestre/bestiario": "bestiario/",
 }
 
 # âncora antiga em jogador/sistema-d20 -> url nova completa
@@ -2506,7 +2714,10 @@ PAGINA_REDIRECT = """<!DOCTYPE html>
 <script>
 var mapa = {mapa};
 var chave = decodeURIComponent(location.hash.replace('#', ''));
-var alvo = (chave && mapa[chave]) || {destino_js};
+// Sem mapa de âncoras, a página inteira mudou de endereço sem mudar de
+// conteúdo (o Bestiário) — aí o hash continua valendo e vai junto.
+var alvo = (chave && mapa[chave]) ||
+  {destino_js} + (chave && !Object.keys(mapa).length ? location.hash : '');
 location.replace({base_js} + alvo);
 </script>
 <meta http-equiv="refresh" content="2; url={base}{destino}">
