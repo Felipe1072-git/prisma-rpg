@@ -208,6 +208,10 @@ mapas `REDIRECIONA` / `ANCORAS_*` é o que mantém link antigo funcionando.
 Ao mexer nisso:
 
 - `mkdocs serve` **não** recarrega `hooks/prisma.py` — pare e suba o servidor de novo.
+- **O CSS e o JS levam `?h=<hash>` do próprio conteúdo** (`carimba_versao`, no `on_config`).
+  Sem isso o navegador de quem já visitou o site serve a cópia velha do `prisma.css` por até
+  10 minutos (`max-age=600` do GitHub Pages) — HTML novo com CSS velho, e a página aparece
+  sem estilo. Aconteceu de verdade no deploy do stat block.
 - **`--strict` não basta.** Ele pega página inexistente, mas âncora quebrada ele só
   reporta como INFO, e id duplicado ele não vê. Sempre feche com:
 
@@ -336,6 +340,22 @@ Couraça), e mostrá-la de novo — em tile, e depois em legenda embaixo do núm
 parecer que eram dois valores. Decisão do autor, vendo as duas versões: ficha limpa vale
 mais. Ela continua no markdown e no filtro da barra. O custo assumido é que os três efeitos
 que **ignoram o bônus de Armadura** do alvo obrigam o Mestre a buscar o valor fora do card.
+
+**PA das criaturas sobe um degrau em cada Tier (2026-08-02).** Comum **2** (move e ataca —
+agir uma vez só virou traço de bicho lento, não regra do Tier), Treinado **3** (os mesmos de
+um personagem), Formidável **4**, Lendário **5** + Ação de Lenda. Decisão do autor.
+
+Isso **dobra a economia de ação dos capangas**, e o orçamento de encontro foi reajustado
+junto: Pontos de Ameaça viraram Comum 2 / Treinado 4 / Formidável 10 / Lendário 30, o que
+preserva o mapeamento antigo (Leve = aquecimento, Padrão = combate de verdade, Difícil =
+empate mortal) com metade dos corpos. Os quatro exemplos prontos foram refeitos pra fechar
+no novo orçamento, e a janela "4/8/12 goblins" virou "2/4/6". **Nada disso foi testado em
+mesa** — é a mesma aritmética de antes, com o número novo.
+
+**Movimento das criaturas (2026-08-02).** Todas as fichas passaram a trazer o campo, em
+**6 + Agilidade**. *Criando uma Criatura* ainda dizia "3 + Agilidade", de antes da mudança da
+regra — corrigido. O Dragão tinha 5 no chão / 8 voando; portei mantendo o +3 de voo que o
+autor havia escolhido (8/11), embora a regra de [Voo] não preveja velocidade de voo separada.
 
 **Iniciativa = d20 + Agilidade + Sorte (2026-08-02).** Era só Sorte. Mudança pedida pelo
 autor; as seis criaturas do Bestiário e a Aranha de exemplo foram recalculadas (Sorte é 0 em

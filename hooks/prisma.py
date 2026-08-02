@@ -18,6 +18,7 @@ caso é a página continuar igual a hoje.
 
 from __future__ import annotations
 
+import hashlib
 import itertools
 import json
 import re
@@ -938,6 +939,10 @@ def tiles_criatura(campos: dict[str, str]) -> tuple[str, list[str]]:
             continue
         if cauda.strip():
             notas.append(f"**{rotulo}** — {cauda.strip()}")
+        # "7 casas" vira "7": o rótulo do tile já diz MOVIMENTO, e a unidade
+        # repetida rebaixaria o número a texto pequeno. O markdown mantém a
+        # unidade, que é como a linha se lê fora do card.
+        valor = re.sub(r"^(\d+)\s+casas?$", r"\1", valor)
         classe = "" if RE_VALOR_NUMERICO.match(valor) else " prg-bes__val--texto"
         tiles.append(
             '<span class="prg-bes__tile">'
@@ -2470,6 +2475,49 @@ def insere_barra(markdown: str, barra: str, marca: str) -> str:
 PAGINAS_COM_CARD = ("habilidades/",)
 
 _AUTOLINK_TOTAL: dict[str, int] = {}
+
+
+def carimba_versao(config) -> list[str]:
+    """Põe um hash do conteúdo na URL do nosso CSS e do nosso JS.
+
+    O tema carimba os arquivos dele (`main.ec1eaa64.min.css`), mas `extra_css` e
+    `extra_javascript` entram com o nome cru — e como o endereço nunca muda, o
+    navegador de quem já visitou o site continua servindo a cópia velha. O HTML
+    novo chega, o CSS novo não, e a página aparece sem estilo até o cache
+    expirar (o GitHub Pages manda `max-age=600`). Foi exatamente o que
+    aconteceu no deploy do stat block.
+
+    Com `?h=<hash>`, toda mudança de conteúdo muda o endereço e invalida o cache
+    sozinha; build sem mudança nenhuma gera o mesmo endereço e continua cacheado.
+    """
+    docs = Path(config["docs_dir"])
+    carimbados: list[str] = []
+    for lista in ("extra_css", "extra_javascript"):
+        novos = []
+        for item in config.get(lista) or []:
+            # extra_javascript aceita string ou objeto (type/async/defer); o
+            # caminho mora em `.path` no segundo caso.
+            caminho_str = getattr(item, "path", item)
+            arquivo = docs / caminho_str
+            if "?" in str(caminho_str) or not arquivo.is_file():
+                novos.append(item)
+                continue
+            digest = hashlib.sha256(arquivo.read_bytes()).hexdigest()[:8]
+            novo = f"{caminho_str}?h={digest}"
+            if hasattr(item, "path"):
+                item.path = novo
+            else:
+                item = novo
+            novos.append(item)
+            carimbados.append(novo)
+        config[lista] = novos
+    return carimbados
+
+
+def on_config(config, **kwargs):
+    for url in carimba_versao(config):
+        print(f"[prisma] versão no cache-buster: {url}")
+    return config
 
 
 def on_page_markdown(markdown, page, config, files, **kwargs):

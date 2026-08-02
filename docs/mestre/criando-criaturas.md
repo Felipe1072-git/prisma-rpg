@@ -8,10 +8,10 @@ Criatura não é personagem: ela não sobe de nível, não distribui pontos e n�
 
 | Tier | Base de Resiliência | Vida | Pontos de Ação | Ficha | Ataques |
 |---|---|---|---|---|---|
-| **Comum** | 6 | 8 | ◈ (1) | só os atributos relevantes | custo fixo |
-| **Treinado** | 8 | 25 | ◈◈ (2) | só os atributos relevantes | custo fixo |
-| **Formidável** | 10 | 60 | ◈◈◈ (3) | os 8 atributos | com [Intensidade](../habilidades/regras.md#intensidade) + Mana |
-| **Lendário** | 14 | 180 | ◈◈◈ (3) + Ação de Lenda | os 8 atributos | com Intensidade + Mana |
+| **Comum** | 6 | 8 | ◈◈ (2) | só os atributos relevantes | custo fixo |
+| **Treinado** | 8 | 25 | ◈◈◈ (3) | só os atributos relevantes | custo fixo |
+| **Formidável** | 10 | 60 | ◈◈◈◈ (4) | os 8 atributos | com [Intensidade](../habilidades/regras.md#intensidade) + Mana |
+| **Lendário** | 14 | 180 | ◈◈◈◈◈ (5) + Ação de Lenda | os 8 atributos | com Intensidade + Mana |
 
 ### Como resolver o ataque de uma criatura
 
@@ -69,7 +69,11 @@ Sem rolagem: abra a ficha e use o número. Os valores desta tabela valem pra per
 
 ### Pontos de Ação por Tier
 
-Um personagem tem 3 ◈. Se cada capanga também tivesse 3, seis goblins gerariam dezoito ataques por rodada — a mesa travaria e o grupo morreria. Então o PA é a primeira medida de ameaça: um **Comum age uma vez** (move **ou** ataca, não os dois), um Treinado tem dois, e só a partir de Formidável a criatura joga com o turno completo de um personagem.
+Um personagem tem 3 ◈. Uma criatura **Comum tem 2**: ela **move e ataca**, que é o mínimo que qualquer coisa viva faz numa rodada. Agir uma vez só é característica de bicho lento — e isso é traço da criatura, não regra do Tier.
+
+Um **Treinado tem 3**, os mesmos de um personagem: a partir daí ele é um oponente, não um obstáculo. **Formidável tem 4** e **Lendário tem 5**, mais a Ação de Lenda — são os seres capazes de agir além do que um corpo treinado consegue.
+
+O preço disso é tempo de mesa: oito Comuns geram dezesseis ações por rodada. O limite prático de oito criaturas na sala (ver [Montagem de Encontro](encontros.md#mais-de-8-criaturas-travam-a-mesa)) fica mais apertado, não menos — quando o orçamento pedir muitos corpos, troque quantidade por Tier.
 
 ### Couraça Natural
 
@@ -108,7 +112,7 @@ Você não precisa calcular nada: escolha o Tier e copie a coluna.
 |---|---|---|---|---|
 | **Base de Resiliência** | 6 | 8 | 10 | 14 |
 | **Vida** (nível 1–4) | 8 | 25 | 60 | 180 |
-| **Pontos de Ação** | ◈ (1) | ◈◈ (2) | ◈◈◈ (3) | ◈◈◈ + Ação de Lenda |
+| **Pontos de Ação** | ◈◈ (2) | ◈◈◈ (3) | ◈◈◈◈ (4) | ◈◈◈◈◈ (5) + Ação de Lenda |
 | **Ataque** | +1 a +2 | +2 a +3 | +3 a +5 | +5 a +7 |
 | **Dano por ataque** | 1d4 – 1d6 | 1d8 | 2d6 | 2d8 – 3d8 |
 | **Mana** | — | — | 20 | 40 |
@@ -150,7 +154,7 @@ No **Ataque**, use o topo da faixa quando a criatura for precisa ou treinada, e 
 | **Iniciativa** | bônus somado ao d20 na ordem de turnos | Agilidade + Sorte (a Sorte é 0 na maioria) |
 | **Couraça** | só a Defesa física; não protege de veneno nem medo | conceito (couro, escamas, placas) |
 | **Atributos** | o valor usado quando algo incomum é testado nela | conceito |
-| **Movimento** | quantas casas anda por PA gasto | 3 + Agilidade |
+| **Movimento** | quantas casas anda por PA gasto | 6 + Agilidade |
 | **Mana** | só chefes: quantas vezes usam as habilidades boas na luta | tabela, pelo Tier |
 
 ### Três tipos de traço, e o que cada um resolve
@@ -174,9 +178,10 @@ Isso pede: um Treinado (obstáculo sério, não vilão), veneno, e algo que pren
 
 *Ela não persegue. Ela espera — e a teia trabalha por ela.*
 
-- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +1
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +1
 - **Ataque:** +3 | **Defesa física:** 11 | **Defesa mental:** 8
 - **Atributos:** Agilidade +1, Vitalidade +2, Sabedoria +2 | **Couraça:** Escamada (+2, quitina)
+- **Movimento:** 7 casas
 
 **Mordida Peçonhenta** — ◈ | +3 vs Defesa física | 1 criatura adjacente
 

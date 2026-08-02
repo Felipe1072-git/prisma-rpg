@@ -10,9 +10,10 @@ As regras de como ler e como montar uma criatura estão em
 
 *Baixo, magro e covarde sozinho — mas eles nunca estão sozinhos.*
 
-- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +1
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈◈ (2) | **Iniciativa:** +1
 - **Ataque:** +1 | **Defesa física:** 8 | **Defesa mental:** 6
 - **Atributos:** Agilidade +1, Vitalidade -1 | **Couraça:** Coriácea (+1)
+- **Movimento:** 7 casas
 
 **Adaga Enferrujada** — ◈ | +1 vs Defesa física | 1 criatura adjacente
 
@@ -30,10 +31,10 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ele não ataca o mais forte do grupo. Ataca o que se afastou.*
 
-- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** +2
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈◈ (2) | **Iniciativa:** +2
 - **Ataque:** +2 | **Defesa física:** 9 | **Defesa mental:** 6
 - **Atributos:** Agilidade +2, Vitalidade +1, Sabedoria +1 | **Couraça:** Coriácea (+1)
-- **Movimento:** 5 casas
+- **Movimento:** 8 casas
 
 **Mordida** — ◈ | +2 vs Defesa física | 1 criatura adjacente
 
@@ -51,9 +52,10 @@ As regras de como ler e como montar uma criatura estão em
 
 *Sabe exatamente onde doer, e cobra pela informação.*
 
-- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +2
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
 - **Ataque:** +2 | **Defesa física:** 11 | **Defesa mental:** 9
 - **Atributos:** Força +2, Agilidade +2, Vitalidade +1, Vontade +1 | **Couraça:** Coriácea (+1)
+- **Movimento:** 8 casas
 
 **Espada Curta** — ◈ | +2 vs Defesa física | 1 criatura adjacente
 
@@ -71,12 +73,13 @@ As regras de como ler e como montar uma criatura estão em
 
 *Cortar não resolve. Ele não tem o que sangrar.*
 
-- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈ (2) | **Iniciativa:** +0
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +0
 - **Ataque:** +2 | **Defesa física:** 10 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Força +2, Agilidade +0, Vitalidade +3 | **Couraça:** Escamada (+2, ossos e escudo velho)
 - **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental** (medo, charme, provocação, ilusão)
 - **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante)
 - **Vulnerabilidade:** [Impacto](../glossario.md#impacto) — martelos e maças causam o **dobro**
+- **Movimento:** 6 casas
 
 **Lâmina Antiga** — ◈ | +2 vs Defesa física | 1 criatura adjacente
 
@@ -94,11 +97,12 @@ As regras de como ler e como montar uma criatura estão em
 
 *Bater com a espada só faz dois problemas onde havia um.*
 
-- **Tier:** Comum | **Vida:** 8 | **PA:** ◈ (1) | **Iniciativa:** -2
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈◈ (2) | **Iniciativa:** -2
 - **Ataque:** +0 | **Defesa física:** 4 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Vitalidade +2, Agilidade -2 | **Couraça:** Nenhuma (+0)
 - **Imunidades:** derrubar, empurrar, [Sangrando](../glossario.md#sangrando), veneno, e **todo efeito mental**
 - **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante)
+- **Movimento:** 4 casas
 
 **Investida Ácida** — ◈ | +0 vs Defesa física | 1 criatura adjacente
 
@@ -112,11 +116,11 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ainda não voa bem. Já queima tudo.*
 
-- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈ (3) | **Mana:** 20 | **Iniciativa:** +2
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
 - **Ataque:** +3 | **Defesa física:** 15 | **Defesa mental:** 12
 - **Atributos:** Força +3, Vitalidade +3, Agilidade +2, Inteligência +2, Sabedoria +1, Vontade +2, Sorte +0, Sanidade +2
 - **Couraça:** Blindada (+3) | **Resistência:** fogo
-- **Movimento:** 5 casas no chão, 8 voando — alçar voo custa ◈
+- **Movimento:** 8 casas no chão, 11 voando — alçar voo custa ◈
 
 **Garras e Presas** — ◈ | 0 Mana | +3 vs Defesa física | 1 criatura adjacente
 
