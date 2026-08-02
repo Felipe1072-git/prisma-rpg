@@ -418,16 +418,6 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* De onde o número veio — a Couraça embaixo da Defesa física, como o
-   equipamento embaixo do AC no D&D Beyond. Menor que o rótulo de propósito:
-   é procedência, não um segundo valor a comparar. */
-.prg-bes__legenda {
-  font-size: 0.58rem;
-  line-height: 1.35;
-  opacity: 0.6;
-  margin-top: 0.05rem;
-}
-
 /* "imune a efeito mental" não é um número: cabe em corpo de texto. */
 .prg-bes__val--texto {
   font-size: 0.68rem;

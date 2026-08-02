@@ -331,11 +331,11 @@ traços e ações **numa linha cada** (nome em negrito, meta do ataque em etique
 sequência) em vez de título mais bullet solto. Lista só sobrevive onde é escolha: as três
 Intensidades da Baforada. O markdown é o mesmo, só a exibição.
 
-A **Couraça não tem tile próprio**: ela já está somada na Defesa física (Base + Agilidade +
-Couraça), e um tile do mesmo tamanho fazia parecer que eram dois números. Virou legenda
-embaixo da Defesa física, como o "Gear" embaixo do AC no D&D Beyond — some do lugar errado
-sem sumir do card, porque três efeitos do jogo ignoram o bônus de Armadura do alvo e aí o
-Mestre precisa saber quanto subtrair.
+A **Couraça não aparece na ficha**: ela já está somada na Defesa física (Base + Agilidade +
+Couraça), e mostrá-la de novo — em tile, e depois em legenda embaixo do número — fazia
+parecer que eram dois valores. Decisão do autor, vendo as duas versões: ficha limpa vale
+mais. Ela continua no markdown e no filtro da barra. O custo assumido é que os três efeitos
+que **ignoram o bônus de Armadura** do alvo obrigam o Mestre a buscar o valor fora do card.
 
 **Iniciativa = d20 + Agilidade + Sorte (2026-08-02).** Era só Sorte. Mudança pedida pelo
 autor; as seis criaturas do Bestiário e a Aranha de exemplo foram recalculadas (Sorte é 0 em

@@ -858,9 +858,13 @@ DESTAQUES_CRIATURA = (
     "Movimento",
 )
 
-# Rótulos que já viraram tile, chip, legenda ou grade e não devem repetir nas
-# linhas de defesa. O que sobrar (Imunidades, Resistência, Vulnerabilidade, e
-# qualquer rótulo novo que uma criatura futura invente) cai lá sozinho.
+# Rótulos que não entram nas linhas de defesa: os que já viraram tile ou grade,
+# mais os dois que a ficha não mostra. O Tier já é o chip do cabeçalho, e a
+# Couraça já está somada na Defesa física — mostrá-la de novo, em tile ou em
+# legenda, faz parecer que são dois números. Ela continua no markdown e no
+# filtro da barra; quem precisar do valor cru consulta Criando uma Criatura.
+# O que sobrar (Imunidades, Resistência, Vulnerabilidade, e qualquer rótulo
+# novo que uma criatura futura invente) cai nas linhas de defesa sozinho.
 IGNORA_CRIATURA = frozenset(DESTAQUES_CRIATURA) | {"Tier", "Atributos", "Couraça"}
 
 ABREVIA_ATRIBUTO = {
@@ -915,23 +919,6 @@ def separa_criatura(
     return campos, notas, blocos
 
 
-def legenda_de_couraca(rotulo: str, campos: dict[str, str]) -> str:
-    """A Couraça como legenda da Defesa física, não como número próprio.
-
-    Ela não é uma segunda defesa: já está somada ali dentro (Base + Agilidade +
-    Couraça). Mas também não é enfeite — três efeitos do jogo ignoram o bônus de
-    Armadura do alvo, e aí o Mestre precisa saber quanto tirar. É o papel do
-    "Gear" embaixo do AC no D&D Beyond: de onde o número veio.
-    """
-    bruto = campos.get("Couraça", "") if rotulo == "Defesa física" else ""
-    if not bruto:
-        return ""
-    # "Coriácea (+1)" -> "Coriácea +1"; o que vier junto do bônus ("+2, ossos e
-    # escudo velho") continua na legenda, que é onde esse detalhe se lê.
-    texto = re.sub(r"^(.+?)\s*\((.+)\)$", r"\1 \2", texto_puro(bruto).strip())
-    return f'<span class="prg-bes__legenda">{escapa(texto)}</span>'
-
-
 def tiles_criatura(campos: dict[str, str]) -> tuple[str, list[str]]:
     """Os números de rodada em destaque; devolve (html, notas de rodapé).
 
@@ -955,8 +942,7 @@ def tiles_criatura(campos: dict[str, str]) -> tuple[str, list[str]]:
         tiles.append(
             '<span class="prg-bes__tile">'
             f'<span class="prg-bes__rot">{escapa(rotulo)}</span>'
-            f'<span class="prg-bes__val{classe}">{escapa(valor)}</span>'
-            f"{legenda_de_couraca(rotulo, campos)}</span>"
+            f'<span class="prg-bes__val{classe}">{escapa(valor)}</span></span>'
         )
     if not tiles:
         return "", notas
