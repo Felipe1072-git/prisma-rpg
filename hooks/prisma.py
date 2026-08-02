@@ -857,6 +857,7 @@ DESTAQUES_CRIATURA = (
     "Iniciativa",
     "Mana",
     "Movimento",
+    "Voo",
 )
 
 # Rótulos que não entram nas linhas de defesa: os que já viraram tile ou grade,
@@ -883,9 +884,26 @@ ABREVIA_ATRIBUTO = {
 # `*(passiva)*` ou da meta do ataque (`— ◈ | +1 vs Defesa física | alvo`).
 RE_BLOCO_CRIATURA = re.compile(r"^\*\*([^*]+?)\*\*\s*(\*\([^)]+\)\*|—\s*\S.*)?$")
 
-# Um tile só usa o número grande quando o valor é mesmo um número: "Defesa
-# mental: imune a efeito mental" precisa de corpo de texto pra caber.
+# Um tile só usa o número grande quando o valor é mesmo um número: um valor que
+# só se diz em palavras precisa de corpo de texto pra caber.
 RE_VALOR_NUMERICO = re.compile(r"^[+\-−–]?[\d◈()\s+/]+$")
+
+
+def valor_de_tile(valor: str) -> str:
+    """Encurta o valor até o que o rótulo do tile ainda não disse.
+
+    O tile é uma faixa de comparação: quanto mais parecidos os valores, mais
+    rápido se varre a linha. Então cai fora tudo o que é redundante com o
+    rótulo — a unidade ("8 casas" sob MOVIMENTO), a contagem repetida
+    ("◈◈ (2)" sob PA, onde os losangos já são a contagem) e a qualificação
+    ("imune a efeito mental" sob DEFESA MENTAL). O texto inteiro continua no
+    markdown e nas linhas de defesa, que é onde ele se lê por extenso.
+    """
+    valor = re.sub(r"\s*\(\d+\)$", "", valor)
+    valor = re.sub(r"^(\d+)\s+casas?$", r"\1", valor)
+    if re.match(r"(?i)^imune\b", valor):
+        return "imune"
+    return valor
 
 
 def separa_criatura(
@@ -939,11 +957,15 @@ def tiles_criatura(campos: dict[str, str]) -> tuple[str, list[str]]:
             continue
         if cauda.strip():
             notas.append(f"**{rotulo}** — {cauda.strip()}")
-        # "7 casas" vira "7": o rótulo do tile já diz MOVIMENTO, e a unidade
-        # repetida rebaixaria o número a texto pequeno. O markdown mantém a
-        # unidade, que é como a linha se lê fora do card.
-        valor = re.sub(r"^(\d+)\s+casas?$", r"\1", valor)
-        classe = "" if RE_VALOR_NUMERICO.match(valor) else " prg-bes__val--texto"
+        valor = valor_de_tile(valor)
+        if set(valor) == {"◈"}:
+            # Cinco losangos num tile de número ficam maiores que qualquer
+            # outro valor da faixa: o PA desenha, não conta.
+            classe = " prg-bes__val--pa"
+        elif RE_VALOR_NUMERICO.match(valor):
+            classe = ""
+        else:
+            classe = " prg-bes__val--texto"
         tiles.append(
             '<span class="prg-bes__tile">'
             f'<span class="prg-bes__rot">{escapa(rotulo)}</span>'
@@ -1065,12 +1087,17 @@ def monta_card_criatura(s: Secao) -> str:
         classe="prg-card--criatura",
         chips=chip(tier, "tier") if tier else "",
         selo=f"{vida} de Vida" if vida else "",
+        # A faixa fechada é a mesma comparação dos tiles, e encurta igual: um
+        # "imune a efeito mental" por extenso aqui desalinha a lista inteira.
         colunas=colunas_html(
             [
                 ("Ataque", texto_puro(campos.get("Ataque", ""))),
                 ("Defesa física", texto_puro(campos.get("Defesa física", ""))),
-                ("Defesa mental", texto_puro(campos.get("Defesa mental", ""))),
-                ("PA", pa),
+                (
+                    "Defesa mental",
+                    valor_de_tile(texto_puro(campos.get("Defesa mental", ""))),
+                ),
+                ("PA", valor_de_tile(pa)),
             ]
         ),
         busca=indice_de_busca(s.nome, flavor, texto_puro("\n".join(resto))),

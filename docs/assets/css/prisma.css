@@ -418,18 +418,18 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* "imune a efeito mental" não é um número: cabe em corpo de texto. */
+/* Valor que só se diz em palavras ("imune") entra em corpo de texto. */
 .prg-bes__val--texto {
-  font-size: 0.68rem;
+  font-size: 0.78rem;
   font-weight: 600;
   line-height: 1.3;
 }
 
-/* E, sendo texto, ganha duas colunas: "8 casas no chão, 11 voando" espremido
-   numa coluna de número vira três linhas e desalinha a faixa inteira.
-   Navegador sem :has() só ignora — o tile fica estreito, como era. */
-.prg-bes__tile:has(.prg-bes__val--texto) {
-  grid-column: span 2;
+/* Cinco losangos ocupam mais que qualquer número da faixa: o PA desenha a
+   quantidade em vez de contá-la, e por isso pode ser menor sem perder leitura. */
+.prg-bes__val--pa {
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
 }
 
 .prg-bes__atrs {

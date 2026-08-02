@@ -182,6 +182,12 @@ Convenções que precisam se manter estáveis (o cross-link depende delas):
   na frase em itálico no topo do card. Regra de resolução não é justificativa: "o Mestre rola
   uma vez pro cone inteiro" fica. Mas **exceção que a regra geral já cobre não é regra, é
   ruído**: o "alçar voo custa ◈" do Dragão saiu porque voar já é movimento.
+- **Tile de criatura é faixa de comparação, não frase**: `valor_de_tile` corta tudo o que o
+  rótulo já disse — a unidade (`8 casas` → `8`), a contagem repetida (`◈◈ (2)` → `◈◈`) e a
+  qualificação (`imune a efeito mental` → `imune`). Valor que não cabe em uma palavra é sinal
+  de que ele quer um campo próprio: foi assim que o voo do Dragão virou `**Voo:** 8 casas`
+  em vez de um tile de texto comprido. O texto por extenso continua no markdown e nas linhas
+  de defesa.
 - **Criatura nova segue a forma do markdown, não um template de HTML**: bullets
   `- **Rótulo:** valor` pra ficha (rótulo de `DESTAQUES_CRIATURA` vira tile; o resto vira
   linha de defesa), `**Nome** — ◈ | +X vs Defesa | alvo` pra ataque, `**Nome** *(passiva)*`
