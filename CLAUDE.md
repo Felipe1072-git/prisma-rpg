@@ -354,8 +354,9 @@ mesa** — é a mesma aritmética de antes, com o número novo.
 
 **Movimento das criaturas (2026-08-02).** Todas as fichas passaram a trazer o campo, em
 **6 + Agilidade**. *Criando uma Criatura* ainda dizia "3 + Agilidade", de antes da mudança da
-regra — corrigido. O Dragão tinha 5 no chão / 8 voando; portei mantendo o +3 de voo que o
-autor havia escolhido (8/11), embora a regra de [Voo] não preveja velocidade de voo separada.
+regra — corrigido. O Dragão tinha 5 no chão / 8 voando, uma exceção de antes; o autor decidiu
+alinhar com a regra de Voo, que não prevê velocidade de voo separada — **8 casas, no chão ou
+voando**, e alçar voo continua custando ◈.
 
 **Iniciativa = d20 + Agilidade + Sorte (2026-08-02).** Era só Sorte. Mudança pedida pelo
 autor; as seis criaturas do Bestiário e a Aranha de exemplo foram recalculadas (Sorte é 0 em
