@@ -231,6 +231,17 @@ Ao mexer nisso:
   python -m mkdocs build --strict && python notas/verifica.py
   ```
 
+- **Os dois juntos ainda não bastam: olhe a página renderizada.** Erro de *formatação* passa
+  por build limpo e por `verifica.py` limpo, porque nenhum dos dois lê o HTML como leitor.
+  O caso real: ao reescrever um `!!! cuidado`, a **primeira linha perdeu o recuo de quatro
+  espaços** — o parágrafo saiu do bloco, as linhas seguintes viraram **bloco de código**, e a
+  página ficou publicada assim por dois commits. **Admonition exige os quatro espaços em
+  *todas* as linhas do corpo**, inclusive a primeira. Depois de mexer em `!!!`, tabela, lista
+  aninhada ou recuo, abra a página e olhe.
+- Ao editar por **script/regex em massa**, imprima o que casou e o que não casou, e confira
+  uma amostra no fim. Substituição em cadeia é o risco silencioso: trocar `2d6→3d6` antes de
+  `3d6→4d6` faz a primeira troca cair na segunda (aconteceu na reescala das criaturas — dois
+  degraus de Intensidade viraram o mesmo dado). **Ordene do maior pro menor.**
 - Em script de verificação no Windows, `sys.stdout.reconfigure(encoding='utf-8')` antes
   de imprimir ◈ ou acento.
 
@@ -404,9 +415,10 @@ Três coisas mudaram de status junto:
 - A tabela **Vida por faixa de nível** virou proporção: multiplique a Vida da ficha, não troque
   pelo número da coluna.
 
-⚠ Ao reescalar em massa com script, **troque os dados do maior pro menor**. Trocar `2d6→3d6`
-antes de `3d6→4d6` faz a primeira troca cair na segunda e os dois degraus de Intensidade viram
-o mesmo dado — aconteceu com o Lobisomem e foi corrigido à mão.
+⚠ Duas armadilhas que essa leva revelou estão registradas em
+[Site e camada de exibição](#site-e-camada-de-exibição): **substituição em cadeia** em edição
+por script (trocar `2d6→3d6` antes de `3d6→4d6` colapsa os dois degraus) e **admonition sem
+recuo na primeira linha**, que vira bloco de código sem o build reclamar.
 
 **Leva 5 — a lista do SRD se esgota, e o Bestiário vai a 52 (2026-08-03).** As 17 que
 faltavam: **Kobold** (prepara armadilha antes da luta), **Sprite** (flecha de sono),
