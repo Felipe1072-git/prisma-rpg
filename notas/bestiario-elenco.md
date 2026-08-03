@@ -78,9 +78,10 @@ justifica se trouxer um **problema novo**, não outro saco de Vida:
 | só um **material** o fere | Lobisomem *(leva 4)* |
 | petrifica um alvo, e escala | Basilisco *(leva 4)* |
 | petrifica a sala, e atira nas estátuas | Medusa *(leva 4)* |
+| o elemento em pessoa: queima, puxa, prende, empurra | os 4 Elementais *(leva 4)* |
 
 **Levas 1 a 4 entregues em 2026-08-02/03** — as vinte e três marcadas abaixo já estão em
-`docs/bestiario/index.md`. O Bestiário passou de 6 para **31 criaturas**, e os quatro Tiers
+`docs/bestiario/index.md`. O Bestiário passou de 6 para **35 criaturas**, e os quatro Tiers
 estão povoados.
 
 A leva 4 exigiu **regra nova antes de criatura**, e isso vale de lição: o Lobisomem trouxe o
@@ -92,9 +93,14 @@ mais do que ela.
 **Nenhuma lacuna trava mais por falta de regra.** O petrificar, que era a última, virou a
 condição [Petrificado](../docs/glossario.md#petrificado) — em graus, como o Exausto — e
 Basilisco e Medusa saíram junto. O que sobra é escolha de conteúdo, não impedimento:
-**frenesi de dor** (Bárbaro), **invisibilidade** (Fogo-fátuo), **maldição longa** (Múmia),
-**elemento encarnado** (os quatro Elementais) e os Lendários de escala (Treant, Roc, Kraken,
-Tarrasque).
+**frenesi de dor** (Bárbaro), **invisibilidade** (Fogo-fátuo), **maldição longa** (Múmia) e os
+Lendários de escala (Treant, Roc, Kraken, Tarrasque).
+
+Os **quatro Elementais** fecharam a leva encarnando a assinatura mecânica que cada elemento já
+tinha nas habilidades: Fogo **queima**, Água **puxa**, Vento **empurra**, Terra **prende**.
+Nenhum efeito novo foi inventado — e a vulnerabilidade de cada um aponta pro próximo, num
+ciclo que o Mestre ensina em uma frase: Fogo cai pra Água, Água pra Raio, Terra pro Vento,
+Vento pra Terra.
 
 ## Sugestões, por banda de potência
 
@@ -144,7 +150,7 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [x] | Súcubo | ameaça social — vence sem combate se ninguém perceber |
 | [x] | Troll | regeneração: só fogo resolve de vez (não existe dano de Ácido no Prisma) |
 | [x] | Gigante da Colina | arremessa pedras — e arremessa personagens |
-| [ ] | Elemental (Fogo/Água/Terra/Ar) | um elemento puro em forma de criatura — encaixa nos 11 |
+| [x] | Elemental (Fogo/Água/Terra/Vento) | um elemento puro em forma de criatura — os quatro escritos |
 | [x] | Medusa | petrifica pelo olhar e ainda atira de longe |
 | [ ] | Wyvern | voador com ferrão venenoso |
 | [ ] | Quimera | três ataques por turno + sopro: administra recurso como chefe |

@@ -456,6 +456,122 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 - Alcança com ataques corpo a corpo qualquer criatura a até **2 casas**.
 
+## Elemental de Fogo
+
+*Ele não carrega fogo. Ele é o fogo — e fogo não para de comer.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Ataque:** +4 | **Defesa física:** 13 | **Defesa mental:** 10
+- **Atributos:** Força +2, Vitalidade +2, Agilidade +3, Inteligência +1, Sabedoria +0, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Nenhuma (+0)
+- **Imunidades:** [Fogo](../habilidades/magicas-elementais.md#fogo), [Queimando](../glossario.md#queimando), [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, [derrubar](../glossario.md#derrubado) e [agarrar](../glossario.md#agarrado)
+- **Vulnerabilidade:** [Água](../habilidades/magicas-elementais.md#agua)
+- **Movimento:** 9 casas
+
+**Toque Incandescente** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano de [Fogo](../habilidades/magicas-elementais.md#fogo) e o alvo fica [Queimando](../glossario.md#queimando).
+
+**Explosão de Brasas** — +4 vs Defesa física | 2 casas de raio
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, e o chão da área queima até o fim do próximo turno dele — quem começa o turno ali fica [Queimando](../glossario.md#queimando)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano + [Queimando](../glossario.md#queimando) causando 2d4 por turno
+
+**Corpo de Chama** *(passiva)*
+
+- Quem o atinge com ataque corpo a corpo fica [Queimando](../glossario.md#queimando).
+
+**Se Alimenta** *(passiva)*
+
+- Sempre que uma criatura [Queimando](../glossario.md#queimando) começa o turno a até 6 casas dele, o Elemental recupera **5 de Vida**.
+
+## Elemental de Água
+
+*A corrente não empurra. Ela chama.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
+- **Ataque:** +4 | **Defesa física:** 12 | **Defesa mental:** 10
+- **Atributos:** Força +2, Vitalidade +3, Agilidade +2, Inteligência +0, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Nenhuma (+0)
+- **Imunidades:** [Água](../habilidades/magicas-elementais.md#agua), [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, [derrubar](../glossario.md#derrubado) e [agarrar](../glossario.md#agarrado)
+- **Vulnerabilidade:** [Raio](../habilidades/magicas-elementais.md#raio)
+- **Movimento:** 8 casas
+
+**Golpe de Corrente** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano e **puxa** o alvo 1 casa.
+
+**Maremoto** — +4 vs Defesa física | linha de 6 casas
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano em cada alvo na linha + **puxa** 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, e cada alvo fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano, **puxa** cada alvo até ficar adjacente ao Elemental, e ele fica [Agarrado](../glossario.md#agarrado)
+
+**Afogar** *(passiva)*
+
+- Criatura [Agarrada](../glossario.md#agarrado) por ele está dentro d'água: sofre **2d6** no início de cada turno do Elemental.
+
+**Corpo Líquido** *(passiva)*
+
+- Passa por qualquer fresta, cano ou grade sem gastar Movimento a mais.
+
+## Elemental de Terra
+
+*Ele não persegue. Ele fecha o caminho.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +0
+- **Ataque:** +4 | **Defesa física:** 14 | **Defesa mental:** 10
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +0, Inteligência +0, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Dracônica (+4)
+- **Imunidades:** [Terra](../habilidades/magicas-elementais.md#terra), [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, [derrubar](../glossario.md#derrubado), [empurrar](../glossario.md#empurrar-e-puxar), [Lento](../glossario.md#lento) e [Imóvel](../glossario.md#imovel)
+- **Vulnerabilidade:** [Vento](../habilidades/magicas-elementais.md#vento)
+- **Movimento:** 6 casas
+
+**Punho de Pedra** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura a até 2 casas
+
+- **2d6** de dano ([Impacto](../glossario.md#impacto)) e o alvo fica [Derrubado](../glossario.md#derrubado).
+
+**Erguer a Terra** — +4 vs Defesa física | 2 casas de raio
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano em cada alvo, e a área vira [Terreno Difícil](../glossario.md#terreno-dificil) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, e cada alvo fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano e cada alvo fica [Imóvel](../glossario.md#imovel), preso na pedra
+
+**Passar pela Pedra** *(passiva)*
+
+- Move-se através de rocha e terra pelo custo normal de Movimento.
+
+**Muralha** *(passiva)*
+
+- Nenhuma criatura atravessa a casa dele nem passa através dela — ele é a parede.
+
+## Elemental de Vento
+
+*Você não perde a luta pra ele. Perde a posição.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
+- **Ataque:** +4 | **Defesa física:** 14 | **Defesa mental:** 10
+- **Atributos:** Força +1, Vitalidade +2, Agilidade +4, Inteligência +0, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Nenhuma (+0)
+- **Imunidades:** [Vento](../habilidades/magicas-elementais.md#vento), [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, [derrubar](../glossario.md#derrubado), [empurrar](../glossario.md#empurrar-e-puxar) e [agarrar](../glossario.md#agarrado)
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto) | **Vulnerabilidade:** [Terra](../habilidades/magicas-elementais.md#terra)
+- **Movimento:** 10 casas | **Voo:** 10 casas
+
+**Lâmina de Ar** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura a até 6 casas
+
+- **2d6** de dano e **empurra** o alvo 1 casa.
+
+**Vendaval** — +4 vs Defesa física | linha de 8 casas
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano em cada alvo na linha + **empurra** 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** **2d6** de dano, **empurra** 4 casas e cada alvo fica [Derrubado](../glossario.md#derrubado)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano, **empurra** 6 casas e cada alvo fica [Derrubado](../glossario.md#derrubado); quem bater em parede ou em outra criatura sofre **+2d6**
+
+**Redemoinho** *(passiva)*
+
+- Criatura que começa o turno adjacente a ele é **empurrada 2 casas** na direção que ele escolher.
+
 ## Basilisco
 
 *Não olhe. É só isso que você precisa fazer.*
