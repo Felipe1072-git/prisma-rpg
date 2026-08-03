@@ -372,6 +372,13 @@ antes das criaturas. Entraram **Stirge, Gnoll, Ogro, Aparição, Fantasma, Hidra
   do **Exorcista** trocou Dissipar por Exorcismo (nível 3) e Aura de Defesa por Solo Consagrado
   (nível 13) — o pacote tinha o tema e nenhuma mecânica dele.
 
+**Petrificado** entrou logo depois, fechando a última lacuna que travava criatura (Basilisco e
+Medusa, ainda não escritos). Acumula em **graus** como o Exausto — 1 Lento, 2 Imóvel, 3 pedra
+—, porque uma condição que tira o personagem do jogo de uma vez só não dá ao grupo chance de
+reagir. Remove 1 grau por **habilidade que cure Vida** (a Intensidade não importa: o que
+quebra a pedra é vida entrando) ou por descanso longo. No grau 3 o corpo resiste a dano
+físico, mas **cair a 0 ali mata de vez** — sem Caído, sem Ressuscitar.
+
 ⚠ **A contagem de habilidades no site estava defasada em 5** antes desta leva: dizia 571 e os
 cards gerados eram 576. Agora são **580** (394 gerais + 186 de arma), conferidos contra o DOM.
 Ao acrescentar habilidade, confira o contador da listagem — ele é a fonte, não o texto.

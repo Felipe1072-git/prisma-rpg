@@ -86,6 +86,23 @@ Outra criatura está no controle do corpo. Quem possui gasta os **◈ do possuí
 
 Quem tira alguém dessa condição de fora é o [Exorcismo](habilidades/suporte.md).
 
+### Petrificado
+
+A carne vira pedra, de baixo pra cima. Acumula em **graus**, como o [Exausto](#exausto) — nunca cai de uma vez, e é isso que dá ao grupo tempo de agir:
+
+| Grau | Efeito |
+|---|---|
+| **1** | fica [Lento](#lento) — a pedra sobe pelas pernas |
+| **2** | fica [Imóvel](#imovel) |
+| **3** | **não pode agir** (nem ação, nem movimento, nem reação), e o corpo é pedra: [Resistência](#resistencia) a [Cortante](#cortante), [Perfurante](#perfurante) e [Impacto](#impacto). Não respira, não sangra, não envelhece |
+
+**Some 1 grau** por acerto do efeito que petrifica. Quem aplica declara — nenhuma habilidade leva do 0 ao 3 num golpe só.
+
+**Remove 1 grau** cada vez que o alvo recebe uma habilidade que **cure Vida** (a Intensidade não importa: o que quebra a pedra é a vida entrando, não a quantidade), ou por [descanso longo](jogar/exploracao.md#descanso).
+
+!!! cuidado "Estátua quebrada não volta"
+    No grau 3 o corpo é pedra — e pedra racha. Se ele sofrer dano que o levaria a 0 de Vida enquanto está petrificado, o personagem **morre de vez**: não fica [Caído](jogar/dano-e-cura.md#chegando-a-0-de-vida), não rola contra a morte, não há [Ressuscitar](habilidades/suporte.md) que junte os cacos. A resistência a dano físico existe justamente pra dar ao grupo a chance de tirar a estátua da linha de fogo antes disso.
+
 ### Derrubado
 
 Está **no chão**. Enquanto Derrubado, seu Movimento é 0, e ataques **corpo a corpo** contra ele rolam com [Vantagem](#vantagem). **Levantar custa ◈ (1)** no próprio turno e encerra a condição. Não se confunde com **Caído** ([a 0 de Vida](jogar/dano-e-cura.md#chegando-a-0-de-vida)) — Derrubado é chão, Caído é morte chegando.
