@@ -65,20 +65,32 @@ justifica se trouxer um **problema novo**, não outro saco de Vida:
 | a sala é a armadilha; prende a arma | Mímico *(leva 2)* |
 | **ataca a Defesa mental**; vira o grupo contra si | Súcubo *(leva 2)* |
 | arremessa pedra — e arremessa personagem | Gigante da Colina *(leva 2)* |
-
 | o chefe conhecido, crescido | Dragão Vermelho Adulto *(leva 3)* |
 | matar não resolve: vira missão | Lich *(leva 3)* |
 | chefe com fraquezas investigáveis | Vampiro *(leva 3)* |
 | enigma de elemento; imune a controle | Golem de Ferro *(leva 3)* |
+| prende no alvo e drena | Stirge *(leva 4)* |
+| acelera a cada corpo no chão | Gnoll *(leva 4)* |
+| bate muito mais forte, e erra muito mais | Ogro *(leva 4)* |
+| quem ela mata levanta do lado dela | Aparição *(leva 4)* |
+| toma o corpo do personagem | Fantasma *(leva 4)* |
+| cortar faz crescer | Hidra *(leva 4)* |
+| só um **material** o fere | Lobisomem *(leva 4)* |
 
-**Levas 1, 2 e 3 entregues em 2026-08-02/03** — as dezesseis marcadas abaixo já estão em
-`docs/bestiario/index.md`. O Bestiário passou de 6 para **22 criaturas**, e os quatro Tiers
+**Levas 1 a 4 entregues em 2026-08-02/03** — as vinte e três marcadas abaixo já estão em
+`docs/bestiario/index.md`. O Bestiário passou de 6 para **29 criaturas**, e os quatro Tiers
 estão povoados.
 
-O que sobrou de lacuna real, pra uma eventual leva 4: **petrificar** (Basilisco, Medusa —
-precisaria de uma condição nova, que não existe no glossário), **criar servo** (Aparição),
-**possuir um personagem** (Fantasma), **frenesi que cresce** (Gnoll, Bárbaro) e **material
-específico pra ferir** (Lobisomem).
+A leva 4 exigiu **regra nova antes de criatura**, e isso vale de lição: o Lobisomem trouxe o
+eixo de **Material** pras armas, e o Fantasma trouxe a condição **Possuído** mais quatro
+habilidades de Suporte (Exorcismo, Ver Espíritos, Solo Consagrado, Vínculo Guardião). Quando a
+criatura pede vocabulário que o jogo não tem, o vocabulário vem primeiro — e precisa servir a
+mais do que ela.
+
+O que sobra de lacuna: **petrificar** (Basilisco, Medusa) continua precisando de uma condição
+que o glossário não tem — é a única que ainda trava. Fora isso: **frenesi de dor** (Bárbaro),
+**invisibilidade** (Fogo-fátuo), **maldição longa** (Múmia) e os quatro Lendários de escala
+(Treant, Roc, Kraken, Tarrasque).
 
 ## Sugestões, por banda de potência
 
@@ -92,7 +104,7 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [x] | Zumbi | não cai: continua de pé quando deveria ter morrido |
 | [x] | Enxame de Ratos | enxame — ocupa uma casa, e espada não resolve |
 | [ ] | Kobold | covarde que só é perigoso em grupo grande *(muito perto do Goblin)* |
-| [ ] | Stirge | gruda no alvo e drena até ser arrancada |
+| [x] | Stirge | gruda no alvo e drena até ser arrancada |
 | [x] | Falcão-de-sangue | voador barato — obriga o grupo a ter resposta pro ar |
 | [ ] | Sprite | minúsculo, escondido, flecha de sono |
 
@@ -102,16 +114,16 @@ fraca, a criatura provavelmente não vale uma ficha.
 |---|---|---|
 | [x] | Orc | o capanga marcial que avança e bate forte |
 | [ ] | Hobgoblin | inimigo com disciplina militar — formação, não bando |
-| [ ] | Gnoll | frenesi: fica mais perigoso a cada abate |
+| [x] | Gnoll | frenesi: fica mais perigoso a cada abate |
 | [x] | Sombra | incorpórea: atravessa parede e drena atributo |
 | [x] | Carniçal | paralisia — tira o turno do personagem |
 | [x] | Bugbear | emboscada: dano brutal no primeiro golpe, medíocre depois |
-| [ ] | Ogro | bruto lento: muito dano, pouca precisão |
+| [x] | Ogro | bruto lento: muito dano, pouca precisão |
 | [x] | Mímico | armadilha viva — o baú era o monstro |
 | [x] | Cubo Gelatinoso | engole; o corredor inteiro vira a ameaça |
 | [ ] | Gárgula | voador de pedra, aguenta pancada |
 | [ ] | Bárbaro Enfurecido | quanto mais ferido, mais forte |
-| [ ] | Lobisomem-rato (Wererat) | resistência que só material específico ignora |
+| [x] | Lobisomem | resistência que só material específico ignora |
 | [ ] | Fogo-fátuo | invisível, atrai o grupo pro lugar errado |
 
 ### Chefes de arco (candidatos a Formidável)
@@ -122,9 +134,9 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [ ] | Basilisco | olhar que petrifica — ameaça sem rolar ataque |
 | [ ] | Mantícora | atirador aéreo: fica no ar e dispara espinhos |
 | [ ] | Múmia | medo + maldição que sobrevive ao combate |
-| [ ] | Aparição (Wight) | mata e transforma o morto em servo dela |
+| [x] | Aparição | mata e transforma o morto em servo dela |
 | [ ] | Lobo do Inverno | sopro de gelo — a contraparte elemental do Dragão |
-| [ ] | Fantasma | possui um personagem: o grupo luta contra o próprio aliado |
+| [x] | Fantasma | possui um personagem: o grupo luta contra o próprio aliado |
 | [x] | Súcubo | ameaça social — vence sem combate se ninguém perceber |
 | [x] | Troll | regeneração: só fogo resolve de vez (não existe dano de Ácido no Prisma) |
 | [x] | Gigante da Colina | arremessa pedras — e arremessa personagens |
@@ -133,7 +145,7 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [ ] | Wyvern | voador com ferrão venenoso |
 | [ ] | Quimera | três ataques por turno + sopro: administra recurso como chefe |
 | [ ] | Oni | chefe inteligente: voa, conjura e negocia |
-| [ ] | Hidra | cortar faz crescer — o Slime em escala de chefe |
+| [x] | Hidra | cortar faz crescer — o Slime em escala de chefe |
 
 ### Fim de campanha (candidatos a Lendário)
 

@@ -76,6 +76,16 @@ Movimento reduzido à **metade**. Afeta só o **Movimento** (a ação de ◈) �
 
 **Não pode agir** — nem ação, nem movimento, nem reação.
 
+### Possuído
+
+Outra criatura está no controle do corpo. Quem possui gasta os **◈ do possuído** e usa as habilidades, a Vida e o Mana dele; o possuidor **sai do mapa** enquanto durar, e não pode ser alvo direto.
+
+- **O jogador continua jogando.** No início de cada turno dele, o personagem possuído pode gastar o turno inteiro (**◈◈◈**) e rolar **d20 + Vontade** contra a [Defesa mental](jogar/combate.md#defesa) do possuidor. Passando, expulsa-o.
+- **[Luz](habilidades/magicas-elementais.md#luz) atravessa:** dano de Luz no corpo possuído fere **o possuidor**, não o corpo.
+- **Se o corpo cair a 0 de Vida**, a possessão acaba e o possuidor reaparece adjacente.
+
+Quem tira alguém dessa condição de fora é o [Exorcismo](habilidades/suporte.md).
+
 ### Derrubado
 
 Está **no chão**. Enquanto Derrubado, seu Movimento é 0, e ataques **corpo a corpo** contra ele rolam com [Vantagem](#vantagem). **Levantar custa ◈ (1)** no próprio turno e encerra a condição. Não se confunde com **Caído** ([a 0 de Vida](jogar/dano-e-cura.md#chegando-a-0-de-vida)) — Derrubado é chão, Caído é morte chegando.

@@ -2,11 +2,11 @@
 
 > Um d20 de mesa sem classes, onde todas as habilidades do jogo estão disponíveis para qualquer personagem — e onde a força de um golpe é escolha do jogador, não resultado do dado.
 
-**Versão 0.2** — jogável de ponta a ponta: regras completas, 571 habilidades e um Livro do Mestre com bestiário, encontros e recompensas. Ainda não foi testado em mesa.
+**Versão 0.2** — jogável de ponta a ponta: regras completas, 580 habilidades e um Livro do Mestre com bestiário, encontros e recompensas. Ainda não foi testado em mesa.
 
 ## O que faz este sistema diferente
 
-**Sem classes.** Não existe "lista de magias do mago" nem "manobras do guerreiro". As 571 habilidades estão abertas a todo mundo desde o nível 1, e a sua build é a soma das dez escolhas que você faz ao longo da campanha.
+**Sem classes.** Não existe "lista de magias do mago" nem "manobras do guerreiro". As 580 habilidades estão abertas a todo mundo desde o nível 1, e a sua build é a soma das dez escolhas que você faz ao longo da campanha.
 
 **Magia e técnica têm a mesma ficha.** Um golpe de espada e uma bola de fogo custam [Mana](jogar/mana.md), gastam [Pontos de Ação](jogar/combate.md#pontos-de-acao) e resolvem igual. Não há dois sistemas pra aprender.
 
@@ -25,7 +25,7 @@
 
 | | |
 |---|---|
-| **571** habilidades | marciais, mágicas por elemento, sociais, infiltração, mobilidade, buff, debuff, suporte |
+| **580** habilidades | marciais, mágicas por elemento, sociais, infiltração, mobilidade, buff, debuff, suporte |
 | **62** armas | cada uma com 3 habilidades próprias (186 no total), tipo de dano e preço |
 | **24** raças | todas com traço físico inconfundível — nenhuma é "humano com poderes" |
 | **100** pacotes | kits de arquétipo prontos, no espírito de Grand Chase: sugestão, nunca obrigação |
@@ -48,7 +48,7 @@
 
 | Listagem | Filtre por |
 |---|---|
-| [**Habilidades**](habilidades/index.md) — 571 | grupo, elemento, arma, atributo, alvo, Mana disponível |
+| [**Habilidades**](habilidades/index.md) — 580 | grupo, elemento, arma, atributo, alvo, Mana disponível |
 | [**Raças**](racas/index.md) — 24 | leva, atributos concedidos, nº de traços |
 | [**Origens**](origens/index.md) — 60 | eixo, tipo de traço, atributo — com sorteio 1d20 |
 | [**Equipamento**](equipamento/index.md) — 68 | estilo, família, tipo de dano, propriedade, prata disponível |

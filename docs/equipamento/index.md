@@ -150,6 +150,19 @@ Algumas armas exigem um mínimo de atributo pra serem equipadas — sem atender 
 
 Armas com Requisito até agora: **Machado** (Força +2), **Montante** (Força +3), **Alfange** (Agilidade +3), **Gakkung** (Agilidade +6), **Violino** (Vontade +4), **Vajras** (Sabedoria +6), **Lâmpada** (Inteligência +5), **Katana Nodachi** e **Katana Muramasa** (Força ou Agilidade +3), **Gládio** (Força +2 e Inteligência +2).
 
+### Material
+
+Algumas armas foram forjadas — ou banhadas — em um material que importa contra criaturas específicas. **Material é propriedade da arma individual, não do tipo:** qualquer Espada pode ser uma Espada de Prata, e a maioria não é. Armas de material especial **não se compram: se acham**, como as lendárias.
+
+Uma arma tem **no máximo um** material. Quando uma criatura tem resistência que só um material atravessa, **a ficha dela diz qual** — não existe tabela de "tipos de criatura" neste sistema, é sempre a criatura que declara o que a fere.
+
+| Material | O que faz |
+|---|---|
+| **Prata** | O dano ignora a resistência a dano físico de licantropos e de criaturas amaldiçoadas. |
+| **Aço Consagrado** | O dano ignora a resistência a dano físico de mortos-vivos, e a Regeneração deles não funciona até o fim do próximo turno. |
+
+A lista cresce quando uma criatura precisar dela — material sem criatura que o exija é regra morta. Criaturas que declaram material hoje: [Lobisomem](../bestiario/index.md#bes-lobisomem) (Prata) e [Lich](../bestiario/index.md#bes-lich) (Aço Consagrado).
+
 ### Efeito Especial
 
 Algumas armas têm uma mecânica única além das 3 habilidades normais — maldição, passiva, ou uma Reação exclusiva. O efeito completo está descrito na seção da própria arma, ao longo deste documento.

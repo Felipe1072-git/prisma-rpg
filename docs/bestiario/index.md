@@ -129,6 +129,23 @@ As regras de como ler e como montar uma criatura estão em
 
 - Ataca com [Vantagem](../glossario.md#vantagem) alvo que esteja com **metade ou menos** da Vida máxima.
 
+## Stirge
+
+*Uma você nem sente. Seis, você sente.*
+
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈◈ (2) | **Iniciativa:** +3
+- **Ataque:** +2 | **Defesa física:** 9 | **Defesa mental:** 6
+- **Atributos:** Agilidade +3, Vitalidade -2 | **Couraça:** Nenhuma (+0)
+- **Movimento:** 9 casas | **Voo:** 9 casas
+
+**Ferrão** — ◈ | +2 vs Defesa física | 1 criatura adjacente
+
+- **1d4** de dano ([Perfurante](../glossario.md#perfurante)) e o Stirge se prende ao alvo.
+
+**Sanguessuga** *(passiva)*
+
+- Preso a um alvo, move-se junto com ele e, no início de cada turno do Stirge, o alvo perde **1d4** de Vida e o Stirge recupera o mesmo. Arrancá-lo custa ◈ e um teste de Força contra a Defesa física dele.
+
 ## Zumbi
 
 *Ele já morreu uma vez. Não tem pressa nenhuma.*
@@ -226,6 +243,44 @@ As regras de como ler e como montar uma criatura estão em
 **Some na Penumbra** *(passiva)*
 
 - Em [luz fraca ou escuridão](../jogar/exploracao.md#luz-e-escuridao), esconde-se sem precisar de cobertura. Em luz forte, seus ataques rolam com [Desvantagem](../glossario.md#desvantagem).
+
+## Gnoll
+
+*Ele não comemora o abate. Ele acelera.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
+- **Ataque:** +3 | **Defesa física:** 11 | **Defesa mental:** 8
+- **Atributos:** Força +3, Agilidade +2, Vitalidade +1 | **Couraça:** Coriácea (+1)
+- **Movimento:** 8 casas
+
+**Lança Dentada** — ◈ | +3 vs Defesa física | 1 criatura a até 2 casas
+
+- **1d8** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Frenesi de Sangue** *(passiva)*
+
+- Quando qualquer criatura chega a 0 de Vida a até 6 casas dele, o Gnoll ganha **◈ imediatamente**, e o próximo ataque dele nesta rodada causa **+1d8**. Uma vez por rodada.
+
+## Ogro
+
+*Ele acerta uma vez em três. É o suficiente.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** -1
+- **Ataque:** +2 | **Defesa física:** 8 | **Defesa mental:** 8
+- **Atributos:** Força +3, Vitalidade +3, Agilidade -1, Inteligência -2 | **Couraça:** Coriácea (+1)
+- **Movimento:** 5 casas
+
+**Clava de Tronco** — ◈ | +2 vs Defesa física | 1 criatura a até 2 casas
+
+- **2d8** de dano ([Impacto](../glossario.md#impacto)).
+
+**Golpe Largo** — ◈◈ | +2 vs Defesa física | todas as criaturas a até 2 casas
+
+- **2d8** de dano em cada uma. O Mestre rola **uma vez** e compara com a Defesa física de cada alvo.
+
+**Desajeitado** *(passiva)*
+
+- Em um **1 natural**, a clava se crava no chão ou na parede: o próximo ataque dele custa ◈ a mais.
 
 ## Bugbear
 
@@ -401,6 +456,121 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 - Alcança com ataques corpo a corpo qualquer criatura a até **2 casas**.
 
+## Aparição
+
+*Cada um que cai passa a servir.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
+- **Ataque:** +4 | **Defesa física:** 14 | **Defesa mental:** 13
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +2, Inteligência +1, Sabedoria +1, Vontade +3, Sorte +0, Sanidade +0
+- **Couraça:** Escamada (+2)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno e doença
+- **Movimento:** 8 casas
+
+**Espada Sepulcral** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Cortante](../glossario.md#cortante)).
+
+**Toque Devorador** — +4 vs Defesa física | 1 criatura adjacente
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano de [Sombras](../habilidades/magicas-elementais.md#sombras), e o alvo não recupera Vida até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, e o alvo fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano e o alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+
+**Ergue os Caídos** *(passiva)*
+
+- Toda criatura Comum ou Treinada que chegar a 0 de Vida a até 6 casas dela levanta como **Zumbi** no início do próximo turno dela, com metade da Vida, sob comando dela. No máximo **4** ao mesmo tempo.
+
+**Comando dos Mortos** *(passiva)*
+
+- Zumbis e Esqueletos a até 12 casas agem na Iniciativa dela e causam **+1d6** de dano.
+
+## Fantasma
+
+*Ele não quer te matar. Quer o teu corpo.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
+- **Ataque:** +4 | **Defesa física:** 14 | **Defesa mental:** 13
+- **Atributos:** Força +0, Vitalidade +2, Agilidade +4, Inteligência +2, Sabedoria +2, Vontade +3, Sorte +0, Sanidade +0
+- **Couraça:** Nenhuma (+0)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, [derrubar](../glossario.md#derrubado), [empurrar](../glossario.md#empurrar-e-puxar) e [agarrar](../glossario.md#agarrado)
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto) | **Vulnerabilidade:** [Luz](../habilidades/magicas-elementais.md#luz)
+- **Movimento:** 10 casas
+
+**Toque Sepulcral** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano de [Sombras](../habilidades/magicas-elementais.md#sombras).
+
+**Possessão** — +4 vs Defesa mental | 1 criatura a até 3 casas
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o alvo fica [Possuído](../glossario.md#possuido) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** [Possuído](../glossario.md#possuido) até o fim da [cena](../glossario.md#cena)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** [Possuído](../glossario.md#possuido) por **1 dia**, ou até o [Exorcismo](../habilidades/suporte.md)
+
+**Incorpóreo** *(passiva)*
+
+- Atravessa criaturas, objetos e paredes, gastando Movimento como [Terreno Difícil](../glossario.md#terreno-dificil). Não pode terminar o turno dentro de um objeto sólido.
+
+**Âncora** *(passiva)*
+
+- Ao chegar a 0 de Vida, desfaz-se e volta a se formar em **1d4 horas** no lugar onde morreu em vida. Só morre de vez quando esse lugar for desfeito: o corpo enterrado, a promessa cumprida, a casa demolida.
+
+## Hidra
+
+*Cortaram três. Voltaram seis.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +1
+- **Ataque:** +4 | **Defesa física:** 13 | **Defesa mental:** 10
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +1, Inteligência -3, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Escamada (+2)
+- **Cabeças:** começa com **5**, máximo 8
+- **Movimento:** 7 casas
+
+**Mordida** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura a até 2 casas
+
+- **2d6** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Muitas Cabeças** *(passiva)*
+
+- Cada ◈ gasto em Mordida usa uma cabeça diferente, contra o alvo que ela quiser. Não pode ser surpreendida, e ataques contra ela não ganham [Vantagem](../glossario.md#vantagem) por flanqueio.
+
+**Cortar Faz Crescer** *(passiva)*
+
+- Quando sofre dano [Cortante](../glossario.md#cortante) e sobrevive, perde **1 cabeça** e ganha **2** no início do próximo turno dela. Dano de [Fogo](../habilidades/magicas-elementais.md#fogo) na mesma rodada impede o crescimento.
+
+**Sem Cabeça, Sem Hidra** *(passiva)*
+
+- A 0 cabeças ela cai, mesmo com Vida sobrando.
+
+## Lobisomem
+
+*A aldeia inteira sabe quem é. Ninguém tem prata.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Ataque:** +4 | **Defesa física:** 14 | **Defesa mental:** 11
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +3, Inteligência +0, Sabedoria +2, Vontade +1, Sorte +0, Sanidade -1
+- **Couraça:** Coriácea (+1)
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto) — exceto de armas de [Prata](../equipamento/regras.md#material)
+- **Movimento:** 9 casas
+
+**Garras** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Cortante](../glossario.md#cortante)).
+
+**Mordida** — +4 vs Defesa física | 1 criatura adjacente
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano e o alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, e o alvo fica [Agarrado](../glossario.md#agarrado)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano, o alvo fica [Sangrando](../glossario.md#sangrando) e [Derrubado](../glossario.md#derrubado), e o Lobisomem o arrasta até metade do Movimento
+
+**Faro de Presa** *(passiva)*
+
+- Sabe onde está toda criatura [Sangrando](../glossario.md#sangrando) a até 12 casas, e não pode ser surpreendido por ocultação visual.
+
+**Forma Humana** *(passiva)*
+
+- Fora de combate passa por gente comum; enquanto não se transformar, testes sociais dele rolam com [Vantagem](../glossario.md#vantagem).
+
 ## Dragão Vermelho Adulto
 
 *O filhote aprendeu a voar. E a esperar.*
@@ -442,7 +612,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 - **Atributos:** Força -1, Vitalidade +1, Agilidade +2, Inteligência +5, Sabedoria +3, Vontade +4, Sorte +2, Sanidade +4
 - **Couraça:** Escamada (+2)
 - **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental**
-- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto)
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto) — exceto de armas de [Aço Consagrado](../equipamento/regras.md#material)
 - **Movimento:** 8 casas
 
 **Toque Gélido** — ◈ | 0 Mana | +6 vs Defesa física | 1 criatura adjacente

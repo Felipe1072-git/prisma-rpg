@@ -107,3 +107,39 @@ Cura e apoio a aliados.
 - **Custo fixo:** ◈◈ (2 PA) + 5 Mana | **Atributo:** Vontade | **Alcance:** 6 casas | **Alvos:** 1 aliado
 - **Efeito:** o aliado escolhido ganha +1 Ponto de Ação extra, utilizável imediatamente (antes do próprio turno dele).
 - *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
+
+**Exorcismo**
+
+*A ordem não é gritada. É dita uma vez, e o que não pertence ali obedece.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo fixo:** ◈◈ (2 PA) + 8 Mana | **Atributo:** Sabedoria | **Alcance:** 3 casas | **Alvos:** 1 criatura
+- **Efeito:** role **d20 + Sabedoria** contra a [Defesa mental](../jogar/combate.md#defesa) de quem controla o alvo. Passando, encerra **qualquer efeito que esteja controlando as ações do alvo** — [Possuído](../glossario.md#possuido), encantamento e afins. Um possuidor expulso reaparece adjacente e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele.
+- *(Sem Intensidade — o efeito é absoluto: ou o controle acaba, ou não)*
+
+**Ver Espíritos**
+
+*Ele para de olhar o que está na sala e começa a olhar o que está junto dela.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo fixo:** ◈ (1 PA) + 3 Mana | **Atributo:** Sabedoria | **Alvos:** o próprio usuário
+- **Efeito:** até o fim da [cena](../glossario.md#cena), enxerga criaturas incorpóreas, escondidas e disfarçadas a até **12 casas**, e sabe quem está [Possuído](../glossario.md#possuido) e por quem.
+- *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
+
+**Solo Consagrado**
+
+*O chão deixa de ser neutro.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 3 casas de raio
+- **Efeito:** por **3 rodadas**, mortos-vivos não entram na área (quem já estava dentro pode sair, não voltar), ninguém dentro pode ficar [Possuído](../glossario.md#possuido), e quem já estiver Possuído rola o teste de expulsar com [Vantagem](../glossario.md#vantagem).
+- *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](regras.md#intensidade))*
+
+**Vínculo Guardião**
+
+*Ele não protege o corpo do aliado. Protege a porta.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo fixo:** ◈ (1 PA) + 4 Mana | **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 aliado
+- **Efeito:** até o fim da [cena](../glossario.md#cena), o aliado não pode ficar [Possuído](../glossario.md#possuido) e rola com [Vantagem](../glossario.md#vantagem) contra qualquer efeito mental. Toda vez que um desses efeitos falhar por causa deste vínculo, o **usuário** sofre 2d6 de dano — a porta é ele.
+- *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*

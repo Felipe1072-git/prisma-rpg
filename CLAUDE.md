@@ -146,7 +146,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 
 | Página | O que acontece | Id do card |
 |---|---|---|
-| `habilidades/index.md` | as 571 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
+| `habilidades/index.md` | as 580 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
 | `racas/index.md` | as 24 seções `##` viram cards (leva, atributos, nº de traços); as duas divisórias de leva viram prosa acima da lista | `rac-{nome}` |
 | `origens/index.md` | as 3 tabelas d20 viram 60 cards (eixo, tipo de traço, atributo) + sorteio | `ori-{eixo}-{nome}` |
 | `equipamento/index.md` | as 62 seções de arma + escudos + armaduras viram 68 cards; a ficha vem da tabela de dado de dano | `equ-{nome}` |
@@ -247,7 +247,7 @@ Ao mexer nisso:
 [felipe1072-git.github.io/prisma-rpg](https://felipe1072-git.github.io/prisma-rpg/), sob CC BY 4.0,
 com deploy automático a cada push (workflow em `.github/workflows/deploy.yml`).
 
-O que existe: 571 habilidades — 385 gerais nos 10 grupos mais 186 de arma (62 armas × 3 graus) —,
+O que existe: 580 habilidades — 394 gerais nos 10 grupos mais 186 de arma (62 armas × 3 graus) —,
 24 raças, 100 pacotes, 11 elementos com assinatura mecânica própria, sistema Tocado, e Livro do
 Mestre em 5 partes (Bestiário, Encontros, Testes, Recompensas, Exploração).
 
@@ -288,7 +288,7 @@ de existir: `origem.md` virou `origens/index.md` e `arsenal.md` virou `equipamen
 (mais `equipamento/regras.md`, montada ao vivo). O Bestiário separou listagem de regra
 (`criando-criaturas.md`). Os ~260 links afetados foram reescritos.
 
-Duas contagens estavam erradas e foram corrigidas contra os cards gerados: são **571**
+Duas contagens estavam erradas e foram corrigidas contra os cards gerados: eram **571**
 habilidades (não 573) e **24** raças (não 25). E uma tabela do Arsenal tinha régua de 5 colunas
 pra 4 cabeçalhos — nunca renderizou como tabela no site publicado; agora renderiza.
 
@@ -352,6 +352,29 @@ Couraça), e mostrá-la de novo — em tile, e depois em legenda embaixo do núm
 parecer que eram dois valores. Decisão do autor, vendo as duas versões: ficha limpa vale
 mais. Ela continua no markdown e no filtro da barra. O custo assumido é que os três efeitos
 que **ignoram o bônus de Armadura** do alvo obrigam o Mestre a buscar o valor fora do card.
+
+**Leva 4 — material, exorcismo e possessão (2026-08-03).** A leva que precisou de regra nova
+antes das criaturas. Entraram **Stirge, Gnoll, Ogro, Aparição, Fantasma, Hidra e Lobisomem**
+(o Bestiário vai a **29**), e com elas três peças de sistema:
+
+- **Material** virou propriedade de arma (`### Material` em *Propriedades de Arma*, que o
+  `equipamento/regras.md` monta sozinho — **nenhuma das 68 fichas foi tocada**). A regra:
+  material é da arma individual, não do tipo; não se compra, se acha; e **quem declara qual
+  material a atravessa é a ficha da criatura**, porque o sistema não tem taxonomia de tipo de
+  criatura. Dois materiais, ambos com uso: **Prata** (Lobisomem) e **Aço Consagrado** (Lich,
+  que até então resistia aos três tipos físicos sem exceção nenhuma).
+- **Possuído** virou condição no glossário. O ponto que a torna jogável: o jogador **continua
+  jogando** — pode gastar o turno inteiro e rolar d20 + Vontade contra a Defesa mental do
+  possuidor; dano de Luz atravessa o corpo e fere o possuidor; e o corpo a 0 de Vida encerra.
+- **Quatro habilidades de Suporte** (Exorcismo, Ver Espíritos, Solo Consagrado, Vínculo
+  Guardião), nenhuma exclusiva do Fantasma: o **Exorcismo encerra qualquer controle de ações**,
+  então é também a primeira resposta ao Encanto III da Súcubo, que não tinha nenhuma. A trilha
+  do **Exorcista** trocou Dissipar por Exorcismo (nível 3) e Aura de Defesa por Solo Consagrado
+  (nível 13) — o pacote tinha o tema e nenhuma mecânica dele.
+
+⚠ **A contagem de habilidades no site estava defasada em 5** antes desta leva: dizia 571 e os
+cards gerados eram 576. Agora são **580** (394 gerais + 186 de arma), conferidos contra o DOM.
+Ao acrescentar habilidade, confira o contador da listagem — ele é a fonte, não o texto.
 
 **Leva 3 — os Lendários, e o Bestiário vai a 22 (2026-08-03).** O Tier que estava vazio
 ganhou quatro: **Dragão Vermelho Adulto** (a escada do Filhote), **Lich** (o Filactério

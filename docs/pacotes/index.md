@@ -908,12 +908,12 @@
 | Nível | Habilidade |
 |---|---|
 | 1 | Cetro - Básica |
-| 3 | Dissipar |
+| 3 | Exorcismo |
 | 5 | Cetro - Avançada |
 | 7 | Chama Solar |
 | 9 | Cetro - Especial |
 | 11 | Bênção Divina |
-| 13 | Aura de Defesa |
+| 13 | Solo Consagrado |
 | 15 | Barreira Negra |
 | 17 | Cubo Protetor |
 | 19 | Redenção *(Supremo)* |
