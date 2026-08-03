@@ -24,6 +24,11 @@ Cada criatura vale pontos conforme o [Tier](../mestre/criando-criaturas.md#como-
 
 Com 8 pontos (Padrão pra 4 PJs) você pode montar: **4 Comuns**, ou **1 Treinado + 2 Comuns**, ou **2 Treinados**. Com 16 (Mortal): **1 Formidável + 3 Comuns**, ou **4 Treinados**, ou **2 Treinados + 4 Comuns**.
 
+!!! mestre "Os pontos medem função, não Vida"
+    Dentro de um mesmo Tier as fichas variam muito: um [Stirge](../bestiario/index.md#bes-stirge) tem **5** de Vida e um [Zumbi](../bestiario/index.md#bes-zumbi) tem **22** — os dois são Comuns e os dois custam **2 pontos**. Um [Lich](../bestiario/index.md#bes-lich) tem 200 e um [Tarrasque](../bestiario/index.md#bes-tarrasque) tem 680, e os dois custam 30.
+
+    Isso é de propósito: o Tier responde *"quanta atenção esse bicho merece na mesa"*, e é isso que o orçamento conta. Mas significa que **os pontos são uma primeira aproximação, não uma balança**. Ao montar com criaturas do topo da faixa do Tier (o Cubo, o Bárbaro, o Tarrasque), conte um degrau de dificuldade a mais.
+
 !!! cuidado "Um Lendário não cabe neste orçamento — e é de propósito"
     Um Lendário custa **30 pontos**. O orçamento **Mortal** de um grupo de 4 é **16**. Não existe encontro equilibrado com um Lendário nessa mesa: ele é quase o dobro do que a tabela chama de "morte é resultado provável".
 
@@ -37,7 +42,9 @@ Com 8 pontos (Padrão pra 4 PJs) você pode montar: **4 Comuns**, ou **1 Treinad
 
 ## Vida por faixa de nível
 
-A Vida no [Bestiário](../bestiario/index.md) é calibrada pra personagens de **nível 1 a 4**. Grupos mais fortes precisam de criaturas mais duras — não porque o goblin engordou, mas porque o dano do grupo cresceu:
+A Vida no [Bestiário](../bestiario/index.md) é calibrada pra personagens de **nível 1 a 4**. Grupos mais fortes precisam de criaturas mais duras — não porque o goblin engordou, mas porque o dano do grupo cresceu.
+
+A tabela abaixo é a **referência do Tier**, não a Vida das fichas: cada criatura tem a Vida que o conceito dela pede (o Stirge tem 5, o Zumbi tem 22, e os dois são Comuns). Pra subir de faixa, **multiplique a Vida da ficha** pela proporção entre as colunas — um Zumbi de 22 vira ~55 no nível 5–10, não 20.
 
 | Tier | Nv 1–4 | Nv 5–10 | Nv 11–15 | Nv 16–20 |
 |---|---|---|---|---|
@@ -57,7 +64,9 @@ Vale saber antes de montar a primeira sala, porque contraria o instinto de quem 
 
 ### Capanga não é parede de Vida, é ladrão de ação
 
-Um Comum morre em um ou dois golpes em qualquer nível. Ele **não** existe pra absorver dano — existe pra ocupar espaço, forçar posicionamento e gastar o turno de alguém. Quatro goblins contra um grupo de nível 1 causam 20 de dano por rodada — cada um ataca duas vezes assim que fecha a distância —, o suficiente pra derrubar metade do grupo em duas rodadas, e ainda assim são limpos em uma ou duas. É um encontro tenso e rápido, e é assim que capanga funciona aqui.
+A maioria dos Comuns morre em um ou dois golpes. Eles **não** existem pra absorver dano — existem pra ocupar espaço, forçar posicionamento e gastar o turno de alguém. Quatro goblins contra um grupo de nível 1 causam cerca de **28 de dano por rodada** — cada um ataca duas vezes assim que fecha a distância —, o suficiente pra derrubar metade do grupo em duas rodadas, e ainda assim são limpos em uma ou duas. É um encontro tenso e rápido, e é assim que capanga funciona aqui.
+
+A exceção prova a regra: [Zumbi](../bestiario/index.md#bes-zumbi), [Slime](../bestiario/index.md#bes-slime) e [Enxame de Ratos](../bestiario/index.md#bes-enxame-de-ratos) têm mais de **20** de Vida sendo Comuns. Eles custam os mesmos 2 pontos e ocupam o mesmo espaço, mas o grupo **não** os limpa numa rodada — e é isso que os torna um problema diferente, não um goblin com outro nome.
 
 ### A janela entre trivial e mortal é estreita
 

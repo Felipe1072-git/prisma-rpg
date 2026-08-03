@@ -122,10 +122,16 @@ Você não precisa calcular nada: escolha o Tier e copie a coluna.
 
 Para grupos acima do nível 4, troque a linha de Vida pela [Vida por faixa de nível](encontros.md#vida-por-faixa-de-nivel). Todo o resto continua igual.
 
-No **Ataque**, use o topo da faixa quando a criatura for precisa ou treinada, e o piso quando for desajeitada ou lenta. Nas criaturas deste livro: [Lobo](../bestiario/index.md#bes-lobo) +2 (caçador), [Goblin](../bestiario/index.md#bes-goblin) +1 (desajeitado), [Bandido](../bestiario/index.md#bes-bandido) +2 (competente, não excepcional).
+No **Ataque**, use o topo da faixa quando a criatura for precisa ou treinada, e o piso quando for desajeitada ou lenta.
 
-!!! mestre "Os valores são ponto de partida, não algema"
-    Desviar é o que dá personalidade — e desviar *pra baixo* também é desviar: o [Slime](../bestiario/index.md#bes-slime) tem Ataque +0 e Defesa física 4, abaixo de qualquer faixa, porque é lento e não desvia de nada. Ele compensa em outro lugar (imunidades e a *Divisão*). Se você tirar de um canto, devolva em outro.
+!!! mestre "Esta tabela monta criatura nova — ela não descreve as do Bestiário"
+    A tabela é **andaime**: serve pra você ter números em trinta segundos quando inventa um bicho na hora. As criaturas do [Bestiário](../bestiario/index.md) **não** obedecem a ela, e é de propósito.
+
+    Um [Stirge](../bestiario/index.md#bes-stirge) tem 5 de Vida e um [Zumbi](../bestiario/index.md#bes-zumbi) tem 22 — os dois são **Comuns**. Um [Golem de Ferro](../bestiario/index.md#bes-golem-de-ferro) tem 250 e o [Tarrasque](../bestiario/index.md#bes-tarrasque) tem 600 — os dois são **Lendários**. O que decide o número é **o que a criatura é**, não a linha da tabela: um zumbi *tem* que ser um saco de carne difícil de derrubar, e uma sanguessuga voadora *tem* que morrer no primeiro acerto.
+
+    **Na ficha, o número é o número.** As fórmulas (Base + Agilidade + Couraça, 6 + Agilidade) montam uma criatura do zero; elas não recalculam as que já existem. Se a ficha diz Defesa física 24, é 24.
+
+O **Tier** continua mandando em três coisas, e essas não variam: quantos **◈** a criatura tem, se ela usa **Mana e Intensidade**, e quanto ela custa em [Pontos de Ameaça](encontros.md#pontos-de-ameaca). Ele responde *"quanta atenção esse bicho merece na mesa"* — não *"quantos pontos de Vida ele tem"*.
 
 ### Os cinco passos
 

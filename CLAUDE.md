@@ -372,6 +372,39 @@ antes das criaturas. Entraram **Stirge, Gnoll, Ogro, Aparição, Fantasma, Hidra
   do **Exorcista** trocou Dissipar por Exorcismo (nível 3) e Aura de Defesa por Solo Consagrado
   (nível 13) — o pacote tinha o tema e nenhuma mecânica dele.
 
+**Reescala pela lore (2026-08-03) — a tabela deixa de reger as fichas.** As 52 criaturas
+tinham Vida 8/25/60/180 e nada mais, porque seguiram a tabela de construção à risca. Decisão
+do autor: **o conceito manda no número**. Vida, Ataque, Defesas, dano, Movimento e atributos
+foram reescritos um a um, ancorados nas proporções do D&D 5e e esticados pra escala do Prisma.
+
+O resultado é a distância que faltava:
+
+| Tier | Vida | Ataque | Defesa física |
+|---|---|---|---|
+| Comum | 4 (Sprite) – 24 (Enxame) | +2 a +6 | 5 a 15 |
+| Treinado | 20 – 60 (Cubo) | +4 a +6 | 5 a 18 |
+| Formidável | 55 – 150 (Hidra) | +6 a +8 | 12 a 18 |
+| Lendário | 200 (Lich) – **680** (Tarrasque) | +11 a **+16** | 19 a **25** |
+
+O que **não** varia, e é o que o Tier continua regendo: **PA**, se usa **Mana/Intensidade**, e
+o custo em **Pontos de Ameaça**. O Tier responde "quanta atenção o bicho merece", não "quanto
+de Vida ele tem".
+
+Três coisas mudaram de status junto:
+
+- A tabela de construção virou **andaime declarado** (`criando-criaturas.md`): monta criatura
+  nova em trinta segundos, **não descreve** as que existem. E **na ficha o número é o número** —
+  as fórmulas (Base + Agilidade + Couraça, 6 + Agilidade) não recalculam ficha pronta.
+- Os **Pontos de Ameaça viraram primeira aproximação**: Stirge (5 de Vida) e Zumbi (22) custam
+  os mesmos 2. A nota em *Montagem de Encontro* manda contar um degrau a mais quando o encontro
+  usa criaturas do topo da faixa.
+- A tabela **Vida por faixa de nível** virou proporção: multiplique a Vida da ficha, não troque
+  pelo número da coluna.
+
+⚠ Ao reescalar em massa com script, **troque os dados do maior pro menor**. Trocar `2d6→3d6`
+antes de `3d6→4d6` faz a primeira troca cair na segunda e os dois degraus de Intensidade viram
+o mesmo dado — aconteceu com o Lobisomem e foi corrigido à mão.
+
 **Leva 5 — a lista do SRD se esgota, e o Bestiário vai a 52 (2026-08-03).** As 17 que
 faltavam: **Kobold** (prepara armadilha antes da luta), **Sprite** (flecha de sono),
 **Hobgoblin** (dá ◈ a um aliado — o capanga que melhora os outros), **Gárgula**, **Bárbaro
