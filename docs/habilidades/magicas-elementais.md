@@ -33,9 +33,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Terra](../glossario.md#terra)
 - **Atributo:** Inteligência | **Alvos:** cone de 3 casas à frente
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + derruba o alvo e ele fica [Lento](../glossario.md#lento)
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + derruba o alvo e ele fica [Imóvel](../glossario.md#imovel)
-- **Crítico (20 natural):** dano máximo (6) + 1d6 extra + **1 grau** de [Petrificado](../glossario.md#petrificado), e sobe 1 Intensidade
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + derruba o alvo, e ele sobe **1 grau** de [Petrificado](../glossario.md#petrificado)
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + derruba o alvo, e ele sobe **2 graus** de [Petrificado](../glossario.md#petrificado)
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra + **1 grau** a mais, e sobe 1 Intensidade
 
 **Fúria da Natureza**
 
