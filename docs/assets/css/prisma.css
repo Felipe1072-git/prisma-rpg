@@ -505,6 +505,131 @@
   .prg-bes__meta { white-space: normal; }
 }
 
+/* --------------------------------------------- montador de encontro
+
+   Somar pontos de cabeça abrindo cinco cards é o que a página evita aqui.
+   O controle vive no canto do card, discreto até ser usado; o painel na
+   barra só aparece quando há algo somado. */
+
+.prg-somar {
+  position: absolute;
+  right: 0.6rem;
+  bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  opacity: 0.35;
+  transition: opacity 120ms ease;
+}
+
+.prg-card:hover .prg-somar,
+.prg-somar:focus-within,
+.prg-somar.is-ativo {
+  opacity: 1;
+}
+
+.prg-somar__b {
+  width: 1.15rem;
+  height: 1.15rem;
+  padding: 0;
+  border: 1px solid var(--prg-borda-forte);
+  border-radius: 3px;
+  background: var(--prg-fundo-card);
+  color: inherit;
+  font: inherit;
+  font-size: 0.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.prg-somar__b:hover {
+  background: var(--prg-realce);
+}
+
+.prg-somar__n {
+  min-width: 1rem;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.prg-somar.is-ativo .prg-somar__n {
+  color: var(--prg-c-suprema);
+}
+
+/* O card fechado é `position: static`; o controle precisa de âncora. */
+.prg-card--criatura {
+  position: relative;
+}
+
+.prg-card--criatura .prg-card__hd {
+  padding-right: 5rem;
+}
+
+.prg-encontro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.9rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--prg-borda);
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.prg-encontro.is-ativo {
+  color: var(--md-default-fg-color);
+}
+
+.prg-encontro__resumo {
+  flex: 1 1 14rem;
+}
+
+.prg-encontro.is-ativo .prg-encontro__resumo b:last-of-type {
+  color: var(--prg-c-suprema);
+}
+
+.prg-encontro__grupo {
+  padding: 0.1rem 0.2rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: var(--prg-fundo-card);
+  color: inherit;
+  font: inherit;
+  font-size: 0.75rem;
+}
+
+.prg-encontro__limpar {
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.prg-encontro__limpar:hover {
+  background: var(--prg-realce);
+}
+
+/* Os 11 tipos de criatura: cor por família, reaproveitando a paleta que o
+   leitor já aprendeu nos grupos de habilidade. */
+.prg-chip--tipo-morto-vivo     { --prg-chip-cor: var(--prg-c-sombras); }
+.prg-chip--tipo-fera           { --prg-chip-cor: var(--prg-c-buff); }
+.prg-chip--tipo-humanoide      { --prg-chip-cor: var(--prg-c-neutro); }
+.prg-chip--tipo-elemental      { --prg-chip-cor: var(--prg-c-agua); }
+.prg-chip--tipo-construto      { --prg-chip-cor: var(--prg-c-infiltracao); }
+.prg-chip--tipo-monstruosidade { --prg-chip-cor: var(--prg-c-marciais); }
+.prg-chip--tipo-demonio        { --prg-chip-cor: var(--prg-c-debuff); }
+.prg-chip--tipo-planta         { --prg-chip-cor: var(--prg-c-veneno); }
+.prg-chip--tipo-fada           { --prg-chip-cor: var(--prg-c-espacotempo); }
+.prg-chip--tipo-gigante        { --prg-chip-cor: var(--prg-c-terra); }
+.prg-chip--tipo-dragao         { --prg-chip-cor: var(--prg-c-suprema); }
+
 /* ------------------------------------------------------ card de pacote */
 
 /* O número do d20 ocupa o lugar do custo: é o campo curto e alinhado que se

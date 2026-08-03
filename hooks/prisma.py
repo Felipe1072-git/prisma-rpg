@@ -1108,14 +1108,80 @@ def ficha_de_criatura(
     return f'<div class="prg-bes" markdown="1">\n\n{corpo}\n\n</div>', campos
 
 
+# O que o Mestre procura numa criatura, na ordem em que ele pergunta: "o que
+# fere isso?", "o que não adianta tentar?", "o que ela faz?". As três facetas
+# saem lidas da própria ficha — nenhuma exige campo novo.
+VOCAB_ELEMENTO = (
+    "Fogo", "Gelo", "Raio", "Sombras", "Luz", "Água", "Vento", "Terra", "Veneno",
+    "Sangue", "Arcano",
+)
+VOCAB_FISICO = ("Cortante", "Perfurante", "Impacto")
+
+
+def _acha(vocab: Iterable[str], texto: str) -> list[str]:
+    sem = sem_acento(texto)
+    return [v for v in vocab if sem_acento(v) in sem]
+
+
+def facetas_de_defesa(campos: dict[str, str]) -> tuple[list[str], list[str]]:
+    """(vulnerável a, imune a) — o que fere e o que não adianta tentar.
+
+    "Vulnerável" aqui é a pergunta do Mestre, não o termo do glossário: o
+    **material** que atravessa a resistência de um Lobisomem responde a mesma
+    pergunta que o Fogo responde num Troll, e o markdown escreve os dois de
+    jeitos diferentes ("Vulnerabilidade: Fogo" × "Resistência: … exceto de
+    armas de Prata"). As duas formas entram na mesma faceta.
+    """
+    vulner = _acha(VOCAB_ELEMENTO + VOCAB_FISICO, campos.get("Vulnerabilidade", ""))
+    if m := re.search(r"exceto de armas de \[?([^\]\n(]+)", campos.get("Resistência", "")):
+        vulner.append(m.group(1).strip())
+
+    bruto = " ".join(
+        (campos.get("Imunidades", ""), campos.get("Imunidade", ""),
+         campos.get("Defesa mental", ""))
+    )
+    imune = _acha(VOCAB_ELEMENTO + VOCAB_FISICO, bruto)
+    sem = sem_acento(bruto)
+    if "efeito mental" in sem:
+        imune.append("efeito mental")
+    if any(p in sem for p in ("derrubar", "empurrar", "agarrar", "imovel", "lento")):
+        imune.append("controle de posição")
+    if "doenca" in sem:
+        imune.append("doença")
+    return vulner, imune
+
+
+# Cada entrada é (rótulo da faceta, o que procurar na ficha inteira).
+CAPACIDADES = (
+    ("voa", ("**Voo:**",)),
+    ("agarra", ("fica [Agarrado]", "Agarrada",)),
+    ("invoca", ("levanta como", "Erguem-se", "acordam como", "surge um segundo")),
+    ("incorpóreo", ("Incorpóre", "Atravessa criaturas, objetos e paredes")),
+    ("petrifica", ("de [Petrificado]",)),
+    ("possui", ("[Possuído]",)),
+    ("regenera", ("Recupera **", "recupera **", "remonta-se", "volta com **")),
+    ("veneno", ("[Envenenado]",)),
+    ("ataca a mente", ("vs Defesa mental",)),
+    ("área", ("cone de", "casas de raio", "linha de")),
+)
+
+
+def capacidades_da_ficha(texto: str) -> list[str]:
+    return [rot for rot, chaves in CAPACIDADES if any(c in texto for c in chaves)]
+
+
 def monta_card_criatura(s: Secao, acao_de_lenda: str = "") -> str:
     flavor, resto = flavor_e_resto(s.corpo)
     corpo_md, campos = ficha_de_criatura(flavor, resto, acao_de_lenda)
 
     tier = texto_puro(campos.get("Tier", ""))
-    couraca = texto_puro(campos.get("Couraça", "")).split("(")[0].strip()
+    tipo = texto_puro(campos.get("Tipo", ""))
     vida = texto_puro(campos.get("Vida", ""))
     pa = texto_puro(campos.get("PA", ""))
+    ameaca = texto_puro(campos.get("Ameaça", ""))
+
+    vulner, imune = facetas_de_defesa(campos)
+    faz = capacidades_da_ficha("\n".join(resto))
 
     # Quantos ◈ a criatura tem por turno — a primeira medida de ameaça, e o
     # número que decide quantas rolagens o Mestre administra por rodada.
@@ -1127,12 +1193,13 @@ def monta_card_criatura(s: Secao, acao_de_lenda: str = "") -> str:
         s.nome,
         corpo_md,
         classe="prg-card--criatura",
-        chips=chip(tier, "tier") if tier else "",
+        chips=(chip(tier, "tier") if tier else "") + (chip(tipo, "tipo") if tipo else ""),
         selo=f"{vida} de Vida" if vida else "",
-        # A faixa fechada é a mesma comparação dos tiles, e encurta igual: um
-        # "imune a efeito mental" por extenso aqui desalinha a lista inteira.
+        # A Ameaça abre a faixa: é o número que o Mestre soma varrendo a lista
+        # de cards fechados pra montar a sala. O resto encurta como nos tiles.
         colunas=colunas_html(
             [
+                ("Ameaça", ameaca),
                 ("Ataque", texto_puro(campos.get("Ataque", ""))),
                 ("Defesa física", texto_puro(campos.get("Defesa física", ""))),
                 (
@@ -1147,14 +1214,21 @@ def monta_card_criatura(s: Secao, acao_de_lenda: str = "") -> str:
             {
                 "tier": slug(tier),
                 "tier-nome": tier,
-                "couraca": slug(couraca),
-                "couraca-nome": couraca,
+                "tipo": slug(tipo),
+                "tipo-nome": tipo,
                 "pa": pa_n,
                 "pa-nome": f"{'◈' * int(pa_n)} ({pa_n})" if pa_n else "",
                 "vida": re.sub(r"\D", "", vida),
                 # O que o Mestre gasta ao pôr a criatura na sala: vira slider
                 # de orçamento, do mesmo jeito que a Mana nas habilidades.
-                "ameaca": texto_puro(campos.get("Ameaça", "")),
+                "ameaca": ameaca,
+                # As três perguntas que se faz de uma criatura, nessa ordem.
+                "vulneravel": " ".join(slug(v) for v in vulner),
+                "vulneravel-nome": "|".join(vulner),
+                "imune": " ".join(slug(v) for v in imune),
+                "imune-nome": "|".join(imune),
+                "faz": " ".join(slug(v) for v in faz),
+                "faz-nome": "|".join(faz),
             }
         ),
     )
@@ -2661,8 +2735,10 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             "Filtrar por nome, ataque, traço, condição…",
             [
                 ("tier", "Todos os tiers", False),
-                ("couraca", "Toda couraça", False),
-                ("pa", "Qualquer PA", False),
+                ("tipo", "Todo tipo de criatura", False),
+                ("vulneravel", "Fraca contra qualquer coisa", True),
+                ("imune", "Imune a qualquer coisa", True),
+                ("faz", "Faz qualquer coisa", True),
             ],
             linha3=slider("ameaca", "Orçamento de encontro"),
         )

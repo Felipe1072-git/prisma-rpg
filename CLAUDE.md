@@ -151,7 +151,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 | `origens/index.md` | as 3 tabelas d20 viram 60 cards (eixo, tipo de traço, atributo) + sorteio | `ori-{eixo}-{nome}` |
 | `equipamento/index.md` | as 62 seções de arma + escudos + armaduras viram 68 cards; a ficha vem da tabela de dado de dano | `equ-{nome}` |
 | `pacotes/index.md` | as 100 seções `###` viram cards (vertente, arma, atributo, Suprema final) + sorteio | `pac-{nome}` |
-| `bestiario/index.md` | as seções `##` viram fichas de criatura no molde do stat block do D&D Beyond: tiles dos números de rodada, grade fixa dos 8 atributos, linhas de defesa, e traços/ações em uma linha cada | `bes-{nome}` |
+| `bestiario/index.md` | as 52 seções `##` viram fichas no molde do stat block do D&D Beyond (tiles, grade dos 8 atributos, traços/ações em uma linha cada), mais os filtros lidos da ficha e o montador de encontro | `bes-{nome}` |
 | `habilidades/*.md` (grupos) | cada habilidade vira um ponteiro de uma linha pro card | — |
 | `habilidades/regras.md`, `equipamento/regras.md`, `jogar/condicoes.md` | montam-se lendo ao vivo seções que vivem noutro arquivo — nenhum texto duplicado em disco | — |
 | qualquer página | `<!-- prisma:verbetes Vantagem Desvantagem -->` vira os verbetes inteiros, lidos do glossário | — |
@@ -187,6 +187,19 @@ Convenções que precisam se manter estáveis (o cross-link depende delas):
   na frase em itálico no topo do card. Regra de resolução não é justificativa: "o Mestre rola
   uma vez pro cone inteiro" fica. Mas **exceção que a regra geral já cobre não é regra, é
   ruído**: o "alçar voo custa ◈" do Dragão saiu porque voar já é movimento.
+- **As facetas do Bestiário são as perguntas do Mestre, não os campos da ficha.** Couraça e PA
+  saíram (a primeira nem aparece no card; a segunda é quase constante dentro do Tier) e
+  entraram **Tipo**, **Vulnerável a**, **Imune a** e **Faz o quê** — as três últimas **lidas da
+  própria ficha**, sem campo novo: `facetas_de_defesa` varre Vulnerabilidade/Imunidades/
+  Resistência contra um vocabulário fixo, e `capacidades_da_ficha` procura marcas de
+  comportamento (`**Voo:**`, `[Agarrado]`, `vs Defesa mental`, `cone de`…). Criatura nova entra
+  nos filtros sozinha. A exceção que a leitura precisou cobrir: material aparece como
+  *"Resistência … exceto de armas de Prata"*, não como Vulnerabilidade — as duas formas caem na
+  mesma faceta, porque respondem a mesma pergunta.
+- **Montador de encontro** (`iniciaEncontro`, no JS): `+`/`−` em cada card de criatura e um
+  painel na barra com total de pontos, seletor de 3 a 6 personagens e o rótulo de dificuldade
+  calculado. O controle é **criado pelo JS**, não pelo hook — botão dentro do `<button>` do
+  cabeçalho é HTML inválido, e sem script a página fica exatamente como era.
 - **Tile de criatura é faixa de comparação, não frase**: `valor_de_tile` corta tudo o que o
   rótulo já disse — a unidade (`8 casas` → `8`), a contagem repetida (`◈◈ (2)` → `◈◈`) e a
   qualificação (`imune a efeito mental` → `imune`). Valor que não cabe em uma palavra é sinal

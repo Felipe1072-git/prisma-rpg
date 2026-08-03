@@ -540,11 +540,122 @@
     window.addEventListener("hashchange", trata);
   }
 
+  // ------------------------------------------------- montador de encontro
+  //
+  // Somar pontos de cabeça abrindo cinco cards é o trabalho que a página pode
+  // fazer sozinha. O botão vive fora do <button> do cabeçalho (botão dentro de
+  // botão é HTML inválido) e é criado aqui, no JS: sem script ele não existe,
+  // e sem ele o card continua exatamente como era.
+
+  var LIMIARES = [
+    [1, "Leve"],
+    [2, "Padrão"],
+    [3, "Difícil"],
+    [4, "Mortal"],
+    [6, "muito além de Mortal"]
+  ];
+
+  function dificuldade(pontos, pjs) {
+    if (!pontos) return "";
+    var porPj = pontos / pjs;
+    if (porPj < 1) return "abaixo de Leve";
+    var nome = "muito além de Mortal";
+    for (var i = 0; i < LIMIARES.length; i++) {
+      if (porPj < LIMIARES[i][0] + 1) { nome = LIMIARES[i][1]; break; }
+    }
+    return nome;
+  }
+
+  function iniciaEncontro() {
+    var barra = document.querySelector(".prg-filtro");
+    if (!barra) return;
+    var cards = Array.prototype.slice.call(
+      document.querySelectorAll(".prg-card--criatura[data-ameaca]")
+    ).filter(function (c) { return c.dataset.ameaca; });
+    if (!cards.length || barra.querySelector(".prg-encontro")) return;
+
+    var escolhidas = {};
+
+    var painel = document.createElement("div");
+    painel.className = "prg-encontro";
+    painel.innerHTML =
+      '<span class="prg-encontro__resumo">Nenhuma criatura escolhida</span>' +
+      '<label class="prg-encontro__pjs">para ' +
+      '<select class="prg-encontro__grupo">' +
+      '<option>3</option><option selected>4</option><option>5</option>' +
+      '<option>6</option></select> personagens</label>' +
+      '<button type="button" class="prg-encontro__limpar">limpar</button>';
+    barra.appendChild(painel);
+
+    var resumo = painel.querySelector(".prg-encontro__resumo");
+    var grupo = painel.querySelector(".prg-encontro__grupo");
+
+    function atualiza() {
+      var total = 0;
+      var bichos = 0;
+      Object.keys(escolhidas).forEach(function (id) {
+        total += escolhidas[id].pontos * escolhidas[id].qtd;
+        bichos += escolhidas[id].qtd;
+      });
+      painel.classList.toggle("is-ativo", bichos > 0);
+      if (!bichos) {
+        resumo.textContent = "Nenhuma criatura escolhida";
+        return;
+      }
+      var nome = dificuldade(total, parseInt(grupo.value, 10));
+      resumo.innerHTML =
+        "<b>" + bichos + "</b> criatura" + (bichos > 1 ? "s" : "") +
+        " · <b>" + total + "</b> pontos · <b>" + nome + "</b>";
+    }
+
+    cards.forEach(function (card) {
+      var pontos = parseInt(card.dataset.ameaca, 10);
+      if (!pontos) return;
+      var id = card.id;
+
+      var caixa = document.createElement("div");
+      caixa.className = "prg-somar";
+      caixa.innerHTML =
+        '<button type="button" class="prg-somar__b" data-d="-1" ' +
+        'aria-label="Tirar uma do encontro">−</button>' +
+        '<span class="prg-somar__n">0</span>' +
+        '<button type="button" class="prg-somar__b" data-d="1" ' +
+        'aria-label="Somar uma ao encontro">+</button>';
+      card.appendChild(caixa);
+      var n = caixa.querySelector(".prg-somar__n");
+
+      caixa.addEventListener("click", function (ev) {
+        var b = ev.target.closest(".prg-somar__b");
+        if (!b) return;
+        var atual = escolhidas[id] ? escolhidas[id].qtd : 0;
+        var novo = Math.max(0, atual + parseInt(b.dataset.d, 10));
+        if (novo) escolhidas[id] = { qtd: novo, pontos: pontos };
+        else delete escolhidas[id];
+        n.textContent = novo;
+        caixa.classList.toggle("is-ativo", novo > 0);
+        atualiza();
+      });
+    });
+
+    grupo.addEventListener("change", atualiza);
+    painel.querySelector(".prg-encontro__limpar").addEventListener("click", function () {
+      escolhidas = {};
+      cards.forEach(function (c) {
+        var caixa = c.querySelector(".prg-somar");
+        if (!caixa) return;
+        caixa.querySelector(".prg-somar__n").textContent = "0";
+        caixa.classList.remove("is-ativo");
+      });
+      atualiza();
+    });
+  }
+
   function inicia() {
     iniciaCards();
     iniciaVerbetes();
     iniciaAncoras();
     iniciaFiltro();
+    iniciaEncontro();
     iniciaPopover();
   }
 
