@@ -348,6 +348,16 @@ parecer que eram dois valores. Decisão do autor, vendo as duas versões: ficha 
 mais. Ela continua no markdown e no filtro da barra. O custo assumido é que os três efeitos
 que **ignoram o bônus de Armadura** do alvo obrigam o Mestre a buscar o valor fora do card.
 
+**Leva 2, e o Bestiário vai a 18 (2026-08-03).** **Falcão-de-sangue** (ameaça aérea barata),
+**Bugbear** (alcance 2 casas, +2d8 contra Desprevenido), **Cubo Gelatinoso** (engole),
+**Mímico** (a sala é a armadilha), **Súcubo** e **Gigante da Colina** (arremessa personagem).
+
+Duas primeiras vezes que valem registro: o **Cubo tem ◈ (1)**, a primeira criatura a usar a
+cláusula que a regra nova de PA abriu — agir uma vez por rodada virou traço de bicho lento —,
+e o **Encanto da Súcubo rola contra a Defesa mental**, que até então era um número que toda
+ficha trazia e nenhuma criatura usava. De quebra ela é inútil contra os cinco imunes a efeito
+mental (Esqueleto, Zumbi, Slime, Carniçal, Cubo), o que dá contra-jogo interno ao Bestiário.
+
 **Bestiário vai a 12 criaturas (2026-08-02).** A leva 1 saiu da lista do SRD em
 `notas/bestiario-elenco.md`, escolhida por lacuna mecânica — cada uma resolve um problema que
 o Bestiário não sabia fazer: **Zumbi** (não cai), **Enxame de Ratos** (arma não resolve,

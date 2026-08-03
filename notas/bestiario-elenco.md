@@ -59,9 +59,21 @@ justifica se trouxer um **problema novo**, não outro saco de Vida:
 | tira o turno do personagem | Carniçal *(leva 1)* |
 | atravessa parede e drena atributo | Sombra *(leva 1)* |
 | regenera; só fogo encerra | Troll *(leva 1)* |
+| ameaça aérea barata; caça o ferido | Falcão-de-sangue *(leva 2)* |
+| alcance 2 casas e primeiro golpe brutal | Bugbear *(leva 2)* |
+| engole; e o primeiro bicho lento (1 PA) | Cubo Gelatinoso *(leva 2)* |
+| a sala é a armadilha; prende a arma | Mímico *(leva 2)* |
+| **ataca a Defesa mental**; vira o grupo contra si | Súcubo *(leva 2)* |
+| arremessa pedra — e arremessa personagem | Gigante da Colina *(leva 2)* |
 
-**Leva 1 entregue em 2026-08-02** — as seis marcadas abaixo já estão em
-`docs/bestiario/index.md`. O Bestiário passou de 6 para 12 criaturas.
+**Levas 1 e 2 entregues em 2026-08-02/03** — as doze marcadas abaixo já estão em
+`docs/bestiario/index.md`. O Bestiário passou de 6 para **18 criaturas**.
+
+O que sobrou de lacuna real, pra uma eventual leva 3: **petrificar** (Basilisco, Medusa —
+precisaria de uma condição nova, que não existe no glossário), **criar servo** (Aparição),
+**possuir um personagem** (Fantasma), **frenesi que cresce** (Gnoll, Bárbaro), **material
+específico pra ferir** (Lobisomem) e a faixa **Lendária inteira**, que ainda não tem nenhuma
+criatura.
 
 ## Sugestões, por banda de potência
 
@@ -76,7 +88,7 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [x] | Enxame de Ratos | enxame — ocupa uma casa, e espada não resolve |
 | [ ] | Kobold | covarde que só é perigoso em grupo grande *(muito perto do Goblin)* |
 | [ ] | Stirge | gruda no alvo e drena até ser arrancada |
-| [ ] | Falcão-de-sangue | voador barato — obriga o grupo a ter resposta pro ar |
+| [x] | Falcão-de-sangue | voador barato — obriga o grupo a ter resposta pro ar |
 | [ ] | Sprite | minúsculo, escondido, flecha de sono |
 
 ### Obstáculos (candidatos a Treinado)
@@ -88,10 +100,10 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [ ] | Gnoll | frenesi: fica mais perigoso a cada abate |
 | [x] | Sombra | incorpórea: atravessa parede e drena atributo |
 | [x] | Carniçal | paralisia — tira o turno do personagem |
-| [ ] | Bugbear | emboscada: dano brutal no primeiro golpe, medíocre depois |
+| [x] | Bugbear | emboscada: dano brutal no primeiro golpe, medíocre depois |
 | [ ] | Ogro | bruto lento: muito dano, pouca precisão |
-| [ ] | Mímico | armadilha viva — o baú era o monstro |
-| [ ] | Cubo Gelatinoso | engole; o corredor inteiro vira a ameaça |
+| [x] | Mímico | armadilha viva — o baú era o monstro |
+| [x] | Cubo Gelatinoso | engole; o corredor inteiro vira a ameaça |
 | [ ] | Gárgula | voador de pedra, aguenta pancada |
 | [ ] | Bárbaro Enfurecido | quanto mais ferido, mais forte |
 | [ ] | Lobisomem-rato (Wererat) | resistência que só material específico ignora |
@@ -108,9 +120,9 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [ ] | Aparição (Wight) | mata e transforma o morto em servo dela |
 | [ ] | Lobo do Inverno | sopro de gelo — a contraparte elemental do Dragão |
 | [ ] | Fantasma | possui um personagem: o grupo luta contra o próprio aliado |
-| [ ] | Súcubo | ameaça social — vence sem combate se ninguém perceber |
+| [x] | Súcubo | ameaça social — vence sem combate se ninguém perceber |
 | [x] | Troll | regeneração: só fogo resolve de vez (não existe dano de Ácido no Prisma) |
-| [ ] | Gigante da Colina | arremessa pedras — e arremessa personagens |
+| [x] | Gigante da Colina | arremessa pedras — e arremessa personagens |
 | [ ] | Elemental (Fogo/Água/Terra/Ar) | um elemento puro em forma de criatura — encaixa nos 11 |
 | [ ] | Medusa | petrifica pelo olhar e ainda atira de longe |
 | [ ] | Wyvern | voador com ferrão venenoso |

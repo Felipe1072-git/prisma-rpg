@@ -112,6 +112,23 @@ As regras de como ler e como montar uma criatura estão em
 
 - Quando sofre dano **[Cortante](../glossario.md#cortante) ou [Perfurante](../glossario.md#perfurante)** e sobrevive, o Slime se divide: surge um segundo Slime adjacente com metade da Vida atual (arredondada pra baixo, mínimo 1), e o original fica com a outra metade. Dano de [Impacto](../glossario.md#impacto), [Arcano](../glossario.md#arcano) e elemental não divide.
 
+## Falcão-de-sangue
+
+*Ele vê o ferido de cima, e desce.*
+
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈◈ (2) | **Iniciativa:** +3
+- **Ataque:** +2 | **Defesa física:** 9 | **Defesa mental:** 6
+- **Atributos:** Agilidade +3, Vitalidade -1 | **Couraça:** Nenhuma (+0)
+- **Movimento:** 9 casas | **Voo:** 9 casas
+
+**Bico e Garras** — ◈ | +2 vs Defesa física | 1 criatura adjacente
+
+- **1d4** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Olho de Rapina** *(passiva)*
+
+- Ataca com [Vantagem](../glossario.md#vantagem) alvo que esteja com **metade ou menos** da Vida máxima.
+
 ## Zumbi
 
 *Ele já morreu uma vez. Não tem pressa nenhuma.*
@@ -210,6 +227,66 @@ As regras de como ler e como montar uma criatura estão em
 
 - Em [luz fraca ou escuridão](../jogar/exploracao.md#luz-e-escuridao), esconde-se sem precisar de cobertura. Em luz forte, seus ataques rolam com [Desvantagem](../glossario.md#desvantagem).
 
+## Bugbear
+
+*Você não vê o primeiro golpe. É o único que importa.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
+- **Ataque:** +3 | **Defesa física:** 11 | **Defesa mental:** 8
+- **Atributos:** Força +3, Agilidade +2, Vitalidade +1 | **Couraça:** Coriácea (+1)
+- **Movimento:** 8 casas
+
+**Maça Brutal** — ◈ | +3 vs Defesa física | 1 criatura a até 2 casas
+
+- **1d8** de dano ([Impacto](../glossario.md#impacto)).
+
+**Braços Longos** *(passiva)*
+
+- Alcança com ataques corpo a corpo qualquer criatura a até **2 casas**.
+
+**Emboscada** *(passiva)*
+
+- Contra alvo [Desprevenido](../glossario.md#desprevenido), o ataque causa **+2d8**.
+
+## Cubo Gelatinoso
+
+*O corredor está limpo demais.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈ (1) | **Iniciativa:** -3
+- **Ataque:** +2 | **Defesa física:** 5 | **Defesa mental:** imune a efeito mental
+- **Atributos:** Vitalidade +3, Agilidade -3 | **Couraça:** Nenhuma (+0)
+- **Imunidades:** [derrubar](../glossario.md#derrubado), [empurrar](../glossario.md#empurrar-e-puxar), [Sangrando](../glossario.md#sangrando), veneno, e **todo efeito mental**
+- **Movimento:** 3 casas
+
+**Envolver** — ◈ | +2 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano, e o alvo fica [Agarrado](../glossario.md#agarrado) e [Envenenado](../glossario.md#envenenado).
+
+**Engolir** *(passiva)*
+
+- Criatura [Agarrada](../glossario.md#agarrado) por ele está dentro dele: sofre **1d8** no início de cada turno do Cubo e não tem linha de visão para fora.
+
+## Mímico
+
+*O baú estava trancado. Por dentro.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +0
+- **Ataque:** +3 | **Defesa física:** 10 | **Defesa mental:** 8
+- **Atributos:** Força +3, Vitalidade +2, Agilidade +0 | **Couraça:** Escamada (+2)
+- **Movimento:** 6 casas
+
+**Pseudópode** — ◈ | +3 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano ([Impacto](../glossario.md#impacto)) e o alvo fica [Agarrado](../glossario.md#agarrado).
+
+**Disfarce Perfeito** *(passiva)*
+
+- Parado, é indistinguível de um objeto. Quem o toca fica [Desprevenido](../glossario.md#desprevenido) contra o primeiro ataque dele.
+
+**Cola Viva** *(passiva)*
+
+- Quem o acerta com arma corpo a corpo tem a arma presa: soltar custa ◈ e um teste de Força contra a Defesa física dele, ou o personagem abandona a arma.
+
 ## Dragão Filhote
 
 *Ainda não voa bem. Já queima tudo.*
@@ -267,3 +344,59 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 **Só o Fogo Encerra** *(passiva)*
 
 - Ao chegar a 0 de Vida, cai imóvel e volta com **10 de Vida** no início do próximo turno dele. Morre de vez se o golpe que o levou a 0 for de [Fogo](../habilidades/magicas-elementais.md#fogo), ou se sofrer qualquer dano de Fogo enquanto está caído.
+
+## Súcubo
+
+*Ela não precisa que você perca a luta. Precisa que você não comece.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Ataque:** +4 | **Defesa física:** 12 | **Defesa mental:** 13
+- **Atributos:** Força +0, Vitalidade +1, Agilidade +2, Inteligência +2, Sabedoria +2, Vontade +3, Sorte +1, Sanidade +0
+- **Couraça:** Nenhuma (+0)
+- **Movimento:** 8 casas | **Voo:** 8 casas
+
+**Toque Enervante** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano de [Sombras](../habilidades/magicas-elementais.md#sombras).
+
+**Encanto** — +4 vs Defesa mental | 1 criatura a até 6 casas
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o alvo não pode atacar a Súcubo até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, e o alvo gasta o próprio Movimento na direção que ela apontar
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** no próximo turno dele, o alvo gasta ◈ atacando um aliado à escolha do Mestre, com o próprio ataque dele
+
+**Beijo Drenante** *(passiva)*
+
+- Contra alvo que não possa atacá-la, o Toque Enervante causa **+2d6** e cura a Súcubo no mesmo valor.
+
+**Forma Mortal** *(passiva)*
+
+- Enquanto não atacar, passa por gente comum: testes sociais dela rolam com [Vantagem](../glossario.md#vantagem).
+
+## Gigante da Colina
+
+*Se não alcança, ele joga alguma coisa. Às vezes é você.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +0
+- **Ataque:** +4 | **Defesa física:** 12 | **Defesa mental:** 10
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +0, Inteligência -2, Sabedoria +0, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Escamada (+2)
+- **Movimento:** 6 casas
+
+**Clava** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura a até 2 casas
+
+- **2d6** de dano ([Impacto](../glossario.md#impacto)).
+
+**Pedregulho** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura a até 10 casas
+
+- **2d6** de dano ([Impacto](../glossario.md#impacto)).
+
+**Arremessar** — +4 vs Defesa física | 1 criatura adjacente
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o alvo fica [Agarrado](../glossario.md#agarrado)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** arremessa um alvo já Agarrado até 4 casas: **2d6** de dano e ele fica [Derrubado](../glossario.md#derrubado)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** arremessa até 6 casas contra outra criatura: **3d6** de dano nas duas, e as duas ficam [Derrubadas](../glossario.md#derrubado)
+
+**Alcance de Gigante** *(passiva)*
+
+- Alcança com ataques corpo a corpo qualquer criatura a até **2 casas**.
