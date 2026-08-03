@@ -22,14 +22,32 @@ Não é um número por Tier: dentro do mesmo Tier um [Sprite](../bestiario/index
 
     Na listagem do [Bestiário](../bestiario/index.md) há um **controle de orçamento**: arraste e ele esconde tudo que não cabe no que você tem pra gastar.
 
-**Orçamento = pontos por personagem × número de personagens.**
+**Orçamento = pontos por personagem × número de personagens × multiplicador de nível.**
 
-| Dificuldade | Pontos por PJ | Grupo de 4 | O que esperar |
+| Dificuldade | Pontos por PJ | Grupo de 4, nível 1–4 | O que esperar |
 |---|---|---|---|
 | **Leve** | 1 | 4 pontos | o grupo passa sem suar; serve pra ritmo, não pra tensão |
 | **Padrão** | 2 | 8 pontos | uma ou duas rodadas, algum dano, ninguém cai |
 | **Difícil** | 3 | 12 pontos | recursos gastos de verdade; alguém pode cair |
 | **Mortal** | 4+ | 16+ pontos | morte é resultado provável, não acidente |
+
+### O nível do grupo multiplica o orçamento
+
+Um personagem de nível 12 não é um de nível 2 com mais Vida: ele tem mais dano, mais Mana, mais respostas. **As fichas do Bestiário não mudam** — o que muda é quantas cabem na sala.
+
+| Faixa de nível | Multiplicador | Mortal, grupo de 4 |
+|---|---|---|
+| **1–4** | ×1 | 16 pontos |
+| **5–10** | ×1,8 | ~29 pontos |
+| **11–15** | ×2,7 | ~43 pontos |
+| **16–20** | ×3,7 | ~59 pontos |
+
+São as mesmas proporções da tabela de [Vida por faixa de nível](#vida-por-faixa-de-nivel) — aplicadas ao orçamento em vez de à criatura, pra o número do card continuar valendo em qualquer mesa.
+
+!!! cuidado "O multiplicador não transforma capanga em ameaça"
+    No nível 16, 59 pontos compram **29 Goblins** — e vinte e nove goblins não são um encontro Mortal, são uma tarde perdida rolando dado contra criaturas que não conseguem acertar ninguém. O limite de [8 criaturas](#mais-de-8-criaturas-travam-a-mesa) continua valendo, e ele é o guarda-corpo aqui.
+
+    **Em nível alto, troque de Tier, não de quantidade.** Os mesmos 59 pontos compram 3 Formidáveis, ou 1 Lendário — e é isso que é um encontro de nível 16. A [Vida por faixa](#vida-por-faixa-de-nivel) existe pro caso em que você quer aquele bicho específico de volta: aí ele sobe de Vida **e de pontos**, na mesma proporção.
 
 Com 8 pontos (Padrão pra 4 PJs) você pode montar: **4 Goblins**, ou **1 Bandido + 1 Goblin**, ou **1 Fogo-fátuo**. Com 16 (Mortal): **8 Goblins**, ou **1 Ogro + 3 Goblins**, ou **2 Bugbears**.
 
@@ -48,9 +66,13 @@ Repare que **um Formidável sozinho já passa de Mortal** pra um grupo de 4: o m
 
 ## Vida por faixa de nível
 
-A Vida no [Bestiário](../bestiario/index.md) é calibrada pra personagens de **nível 1 a 4**. Grupos mais fortes precisam de criaturas mais duras — não porque o goblin engordou, mas porque o dano do grupo cresceu.
+O caminho normal pra nível alto é **trocar de criatura**, e o [multiplicador de orçamento](#o-nivel-do-grupo-multiplica-o-orcamento) já cuida disso: o grupo enfrenta mais Formidáveis em vez de mais goblins.
 
-A tabela abaixo é a **referência do Tier**, não a Vida das fichas: cada criatura tem a Vida que o conceito dela pede (o Stirge tem 5, o Zumbi tem 22, e os dois são Comuns). Pra subir de faixa, **multiplique a Vida da ficha** pela proporção entre as colunas — um Zumbi de 22 vira ~55 no nível 5–10, não 20.
+Esta tabela é pro **outro caso** — quando você quer *aquela* criatura de volta, mais séria. Um goblin com 50 de Vida no nível 20 é estranho se for "o mesmo goblin da estrada", mas faz todo sentido se for a guarda de elite do rei goblin. Aí o nome muda junto com o número.
+
+**Se usar, use um ou outro, nunca os dois:** ao subir a Vida de uma criatura pela tabela, **suba a Ameaça dela na mesma proporção** e monte o encontro com o multiplicador de nível em ×1. Contar as duas coisas é contar o nível duas vezes.
+
+A tabela é a referência do Tier, não a Vida das fichas — cada criatura tem a Vida que o conceito dela pede (o Stirge tem 5, o Zumbi tem 22, e os dois são Comuns). Multiplique **a Vida da ficha** pela proporção entre as colunas: um Zumbi de 22 vira ~40 no nível 5–10.
 
 | Tier | Nv 1–4 | Nv 5–10 | Nv 11–15 | Nv 16–20 |
 |---|---|---|---|---|
@@ -60,9 +82,6 @@ A tabela abaixo é a **referência do Tier**, não a Vida das fichas: cada criat
 | **Lendário** | 180 | 320 | 460 | 600 |
 
 Esses números mantêm a **sensação** constante em toda a campanha: um Comum sempre cai em um ou dois golpes, um Formidável sempre consome mais ou menos uma rodada do grupo inteiro, um Lendário sempre dura de três a cinco rodadas.
-
-!!! mestre "Use isso pra reaproveitar criaturas, não pra inflar as antigas"
-    Um goblin com 50 de Vida no nível 20 é estranho se for "o mesmo goblin da estrada" — mas faz todo sentido se for a guarda de elite do rei goblin. Em nível alto o normal é trocar de criatura; a tabela existe pra quando você quer que aquela criatura volte mais séria, e aí o nome muda junto com o número.
 
 ## Três coisas que a matemática deste sistema revela
 

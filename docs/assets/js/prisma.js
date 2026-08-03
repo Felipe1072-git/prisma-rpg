@@ -555,9 +555,21 @@
     [6, "muito além de Mortal"]
   ];
 
-  function dificuldade(pontos, pjs) {
+  // O mesmo encontro não vale o mesmo no nível 1 e no 12. As proporções são
+  // as que a tabela de Vida por faixa já usava — só que aplicadas ao
+  // orçamento, e não à Vida da criatura, pra a ficha continuar valendo.
+  var FAIXAS = [[4, 1], [10, 1.8], [15, 2.7], [20, 3.7]];
+
+  function multiplicador(nivel) {
+    for (var i = 0; i < FAIXAS.length; i++) {
+      if (nivel <= FAIXAS[i][0]) return FAIXAS[i][1];
+    }
+    return FAIXAS[FAIXAS.length - 1][1];
+  }
+
+  function dificuldade(pontos, pjs, nivel) {
     if (!pontos) return "";
-    var porPj = pontos / pjs;
+    var porPj = pontos / (pjs * multiplicador(nivel));
     if (porPj < 1) return "abaixo de Leve";
     var nome = "muito além de Mortal";
     for (var i = 0; i < LIMIARES.length; i++) {
@@ -578,17 +590,23 @@
 
     var painel = document.createElement("div");
     painel.className = "prg-encontro";
+    var niveis = "";
+    for (var nv = 1; nv <= 20; nv++) {
+      niveis += "<option" + (nv === 1 ? " selected" : "") + ">" + nv + "</option>";
+    }
     painel.innerHTML =
       '<span class="prg-encontro__resumo">Nenhuma criatura escolhida</span>' +
       '<label class="prg-encontro__pjs">para ' +
       '<select class="prg-encontro__grupo">' +
       '<option>3</option><option selected>4</option><option>5</option>' +
-      '<option>6</option></select> personagens</label>' +
+      '<option>6</option></select> personagens de nível ' +
+      '<select class="prg-encontro__nivel">' + niveis + "</select></label>" +
       '<button type="button" class="prg-encontro__limpar">limpar</button>';
     barra.appendChild(painel);
 
     var resumo = painel.querySelector(".prg-encontro__resumo");
     var grupo = painel.querySelector(".prg-encontro__grupo");
+    var nivel = painel.querySelector(".prg-encontro__nivel");
 
     function atualiza() {
       var total = 0;
@@ -602,10 +620,16 @@
         resumo.textContent = "Nenhuma criatura escolhida";
         return;
       }
-      var nome = dificuldade(total, parseInt(grupo.value, 10));
+      var nv = parseInt(nivel.value, 10);
+      var mult = multiplicador(nv);
+      var nome = dificuldade(total, parseInt(grupo.value, 10), nv);
       resumo.innerHTML =
         "<b>" + bichos + "</b> criatura" + (bichos > 1 ? "s" : "") +
-        " · <b>" + total + "</b> pontos · <b>" + nome + "</b>";
+        " · <b>" + total + "</b> pontos · <b>" + nome + "</b>" +
+        (mult > 1
+          ? ' <span class="prg-encontro__mult">(orçamento ×' +
+            String(mult).replace(".", ",") + " pela faixa de nível)</span>"
+          : "");
     }
 
     cards.forEach(function (card) {
@@ -638,6 +662,7 @@
     });
 
     grupo.addEventListener("change", atualiza);
+    nivel.addEventListener("change", atualiza);
     painel.querySelector(".prg-encontro__limpar").addEventListener("click", function () {
       escolhidas = {};
       cards.forEach(function (c) {

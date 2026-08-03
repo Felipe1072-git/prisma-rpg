@@ -197,9 +197,12 @@ Convenções que precisam se manter estáveis (o cross-link depende delas):
   *"Resistência … exceto de armas de Prata"*, não como Vulnerabilidade — as duas formas caem na
   mesma faceta, porque respondem a mesma pergunta.
 - **Montador de encontro** (`iniciaEncontro`, no JS): `+`/`−` em cada card de criatura e um
-  painel na barra com total de pontos, seletor de 3 a 6 personagens e o rótulo de dificuldade
-  calculado. O controle é **criado pelo JS**, não pelo hook — botão dentro do `<button>` do
-  cabeçalho é HTML inválido, e sem script a página fica exatamente como era.
+  painel na barra com total de pontos, **tamanho e nível do grupo**, e o rótulo de dificuldade
+  calculado ao vivo. O controle é **criado pelo JS**, não pelo hook — botão dentro do
+  `<button>` do cabeçalho é HTML inválido, e sem script a página fica exatamente como era.
+  O nível multiplica o **orçamento** (×1 / ×1,8 / ×2,7 / ×3,7 por faixa), não a criatura: a
+  ficha vale em qualquer mesa, e 2 Trolls saem de "muito além de Mortal" no nível 1 pra
+  "Padrão" no 18.
 - **Tile de criatura é faixa de comparação, não frase**: `valor_de_tile` corta tudo o que o
   rótulo já disse — a unidade (`8 casas` → `8`), a contagem repetida (`◈◈ (2)` → `◈◈`) e a
   qualificação (`imune a efeito mental` → `imune`). Valor que não cabe em uma palavra é sinal
@@ -425,6 +428,13 @@ Três coisas mudaram de status junto:
   escrita em *Montagem de Encontro*: **Vida ÷ 10 + dano por rodada ÷ 5**, +2 a +5 quando um
   traço faz mais que dano. Faixas: Comum 2–5, Treinado 5–10, Formidável 15–28, Lendário
   40–100. Um Formidável sozinho já passa do Mortal de um grupo de 4.
+- **O nível do grupo multiplica o orçamento, não a criatura** (decisão de 2026-08-03, inverte
+  o que estava escrito): ×1 no 1–4, ×1,8 no 5–10, ×2,7 no 11–15, ×3,7 no 16–20 — as mesmas
+  proporções da tabela de Vida por faixa, aplicadas do outro lado da conta. As 52 fichas
+  valem em qualquer mesa. A tabela de Vida por faixa sobrou pro caso de querer *aquela*
+  criatura de volta mais séria — e aí **sobe a Ameaça junto**, com o multiplicador em ×1,
+  senão o nível conta duas vezes. O guarda-corpo contra "29 goblins = Mortal no nível 16" é o
+  limite de 8 criaturas, que já existia.
 - A tabela **Vida por faixa de nível** virou proporção: multiplique a Vida da ficha, não troque
   pelo número da coluna.
 
