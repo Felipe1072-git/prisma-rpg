@@ -372,7 +372,23 @@ antes das criaturas. Entraram **Stirge, Gnoll, Ogro, Aparição, Fantasma, Hidra
   do **Exorcista** trocou Dissipar por Exorcismo (nível 3) e Aura de Defesa por Solo Consagrado
   (nível 13) — o pacote tinha o tema e nenhuma mecânica dele.
 
-**Os quatro Elementais (2026-08-03)** fecharam a leva e levaram o Bestiário a **35**. Cada um
+**Leva 5 — a lista do SRD se esgota, e o Bestiário vai a 52 (2026-08-03).** As 17 que
+faltavam: **Kobold** (prepara armadilha antes da luta), **Sprite** (flecha de sono),
+**Hobgoblin** (dá ◈ a um aliado — o capanga que melhora os outros), **Gárgula**, **Bárbaro
+Enfurecido** (mais forte quanto mais ferido), **Fogo-fátuo** (só magia o fere), **Corujurso**,
+**Mantícora**, **Múmia** (a maldição dura até ela ser destruída), **Lobo do Inverno**,
+**Wyvern**, **Quimera**, **Oni**, e os quatro Lendários de escala — **Treant** (acorda
+Elementais de Terra), **Roc** (sobe 8 casas e solta), **Kraken** (4 alvos agarrados de uma
+vez) e **Tarrasque** (engole; sai com 30 de dano por dentro).
+
+**Nenhuma delas pediu vocabulário novo** — foi a primeira leva inteiramente escrita com as
+regras existentes, o que é o sinal de que o vocabulário amadureceu.
+
+⚠ **O Formidável ficou inchado: 21 de 52** (Comum 9, Treinado 14, Lendário 8). É onde cabem
+quase todos os monstros clássicos. Se houver leva 6, que seja de Comuns e Treinados — é o que
+um grupo de nível 1–4 encontra de verdade.
+
+**Os quatro Elementais (2026-08-03)** fecharam a leva 4 e levaram o Bestiário a **35**. Cada um
 encarna a **assinatura mecânica que o elemento já tinha nas habilidades** — Fogo queima, Água
 **puxa**, Vento **empurra**, Terra prende (Lento/Imóvel/Terreno Difícil) —, então nenhum efeito
 novo foi inventado: a ficha é a regra do elemento em forma de bicho. As vulnerabilidades formam

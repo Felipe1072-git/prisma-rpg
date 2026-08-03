@@ -146,6 +146,40 @@ As regras de como ler e como montar uma criatura estão em
 
 - Preso a um alvo, move-se junto com ele e, no início de cada turno do Stirge, o alvo perde **1d4** de Vida e o Stirge recupera o mesmo. Arrancá-lo custa ◈ e um teste de Força contra a Defesa física dele.
 
+## Kobold
+
+*Ele chegou antes. O corredor já é dele.*
+
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈◈ (2) | **Iniciativa:** +2
+- **Ataque:** +1 | **Defesa física:** 9 | **Defesa mental:** 6
+- **Atributos:** Agilidade +2, Inteligência +1, Vitalidade -1 | **Couraça:** Coriácea (+1)
+- **Movimento:** 8 casas
+
+**Lança Curta** — ◈ | +1 vs Defesa física | 1 criatura a até 2 casas
+
+- **1d4** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Armadilha Preparada** *(passiva)*
+
+- Cada Kobold prepara **uma casa** antes da luta começar (o Mestre marca no mapa). A primeira criatura que entrar nela sofre **1d6** e fica [Lento](../glossario.md#lento) até o fim do próximo turno dela.
+
+## Sprite
+
+*Você não vai morrer. Vai acordar sem nada.*
+
+- **Tier:** Comum | **Vida:** 8 | **PA:** ◈◈ (2) | **Iniciativa:** +3
+- **Ataque:** +2 | **Defesa física:** 9 | **Defesa mental:** 6
+- **Atributos:** Agilidade +3, Sabedoria +1, Vitalidade -2 | **Couraça:** Nenhuma (+0)
+- **Movimento:** 9 casas | **Voo:** 9 casas
+
+**Flecha de Sono** — ◈ | +2 vs Defesa física | 1 criatura a até 6 casas
+
+- **1d4** de dano e o alvo fica [Atordoado](../glossario.md#atordoado) **até sofrer dano** ou até o fim da [cena](../glossario.md#cena).
+
+**Miúdo** *(passiva)*
+
+- Em vegetação ou penumbra, não pode ser alvo de ataque enquanto não atacar.
+
 ## Zumbi
 
 *Ele já morreu uma vez. Não tem pressa nenhuma.*
@@ -281,6 +315,89 @@ As regras de como ler e como montar uma criatura estão em
 **Desajeitado** *(passiva)*
 
 - Em um **1 natural**, a clava se crava no chão ou na parede: o próximo ataque dele custa ◈ a mais.
+
+## Hobgoblin
+
+*Ele não grita. Aponta, e a linha se move.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +1
+- **Ataque:** +3 | **Defesa física:** 11 | **Defesa mental:** 10
+- **Atributos:** Força +3, Vitalidade +2, Vontade +2, Agilidade +1 | **Couraça:** Escamada (+2)
+- **Movimento:** 7 casas
+
+**Espada Longa** — ◈ | +3 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano ([Cortante](../glossario.md#cortante)).
+
+**Ordem** — ◈ | 1 aliado a até 8 casas
+
+- O aliado ganha **◈ imediatamente**, utilizável antes do próximo turno dele.
+
+**Formação** *(passiva)*
+
+- Enquanto tiver um aliado adjacente, ganha **+2 de Defesa física**.
+
+## Gárgula
+
+*O telhado tinha quatro estátuas. Agora tem três.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +1
+- **Ataque:** +3 | **Defesa física:** 12 | **Defesa mental:** 8
+- **Atributos:** Força +2, Vitalidade +2, Agilidade +1 | **Couraça:** Blindada (+3)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno e doença
+- **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante)
+- **Movimento:** 7 casas | **Voo:** 7 casas
+
+**Garras de Pedra** — ◈ | +3 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano ([Cortante](../glossario.md#cortante)).
+
+**Mergulho** *(passiva)*
+
+- Se descer **3 casas ou mais** de altura antes de atacar, o ataque causa **+1d8**.
+
+## Bárbaro Enfurecido
+
+*Cada corte é um argumento a favor dele.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +1
+- **Ataque:** +3 | **Defesa física:** 10 | **Defesa mental:** 8
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +1 | **Couraça:** Coriácea (+1)
+- **Movimento:** 7 casas
+
+**Machado Duplo** — ◈ | +3 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano ([Cortante](../glossario.md#cortante)).
+
+**Fúria Crescente** *(passiva)*
+
+- Com **metade ou menos** da Vida, os ataques dele causam **+1d8**. Com **um quarto ou menos**, causam **+2d8** e ele ganha [Resistência](../glossario.md#resistencia) a [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto).
+
+**Não Cai Fácil** *(passiva)*
+
+- Com metade ou menos da Vida, é imune a [Derrubado](../glossario.md#derrubado) e a [empurrar](../glossario.md#empurrar-e-puxar).
+
+## Fogo-fátuo
+
+*A luz estava ali pra ajudar. Foi o que você quis acreditar.*
+
+- **Tier:** Treinado | **Vida:** 25 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
+- **Ataque:** +3 | **Defesa física:** 11 | **Defesa mental:** 10
+- **Atributos:** Agilidade +3, Inteligência +2, Vontade +2, Vitalidade -1 | **Couraça:** Nenhuma (+0)
+- **Imunidades:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante), [Impacto](../glossario.md#impacto), [Sangrando](../glossario.md#sangrando), veneno, [derrubar](../glossario.md#derrubado), [empurrar](../glossario.md#empurrar-e-puxar) e [agarrar](../glossario.md#agarrado) — só dano [Arcano](../glossario.md#arcano) e elemental o fere
+- **Movimento:** 9 casas | **Voo:** 9 casas
+
+**Choque** — ◈ | +3 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano de [Raio](../habilidades/magicas-elementais.md#raio).
+
+**Luz Enganosa** *(passiva)*
+
+- Enquanto não atacar, não pode ser alvo de ataque — parece uma lanterna distante. Volta a sumir no fim do turno em que atacou.
+
+**Isca** *(passiva)*
+
+- No fim do turno dele, contra 1 criatura a até 6 casas que não o atacou nesta rodada: role **+3 vs Defesa mental**. Passando, o alvo gasta **2 casas de Movimento** na direção que ele indicar.
 
 ## Bugbear
 
@@ -455,6 +572,183 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 **Alcance de Gigante** *(passiva)*
 
 - Alcança com ataques corpo a corpo qualquer criatura a até **2 casas**.
+
+## Corujurso
+
+*Não há plano. Há fome, e você está perto.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +1
+- **Ataque:** +4 | **Defesa física:** 12 | **Defesa mental:** 10
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +1, Inteligência -3, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Coriácea (+1)
+- **Movimento:** 7 casas
+
+**Garras** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Cortante](../glossario.md#cortante)) e o alvo fica [Agarrado](../glossario.md#agarrado).
+
+**Dilacerar** — +4 vs Defesa física | 1 criatura [Agarrada](../glossario.md#agarrado) por ele
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** **2d6** de dano e o alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano, [Sangrando](../glossario.md#sangrando) e [Derrubado](../glossario.md#derrubado)
+
+**Não Solta** *(passiva)*
+
+- Enquanto tiver alguém [Agarrado](../glossario.md#agarrado), é imune a [empurrar, puxar](../glossario.md#empurrar-e-puxar) e [Derrubado](../glossario.md#derrubado), e escapar dele rola com [Desvantagem](../glossario.md#desvantagem).
+
+**Faro de Sangue** *(passiva)*
+
+- Ataca com [Vantagem](../glossario.md#vantagem) alvo [Sangrando](../glossario.md#sangrando).
+
+## Mantícora
+
+*Ela não desce. Não precisa.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Ataque:** +4 | **Defesa física:** 14 | **Defesa mental:** 10
+- **Atributos:** Força +2, Vitalidade +2, Agilidade +3, Inteligência +0, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Coriácea (+1)
+- **Movimento:** 9 casas | **Voo:** 9 casas
+
+**Espinhos da Cauda** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura a até 12 casas
+
+- **2d6** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Salva de Espinhos** — +4 vs Defesa física | 3 criaturas a até 12 casas
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano em cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** **2d6** de dano e cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano, cada alvo fica [Sangrando](../glossario.md#sangrando) e [Lento](../glossario.md#lento)
+
+**Voo Alto** *(passiva)*
+
+- A **3 casas de altura ou mais**, só pode ser alvo de ataques à distância e habilidades.
+
+## Múmia
+
+*O que ela guarda não é ouro.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** -1
+- **Ataque:** +4 | **Defesa física:** 11 | **Defesa mental:** 13
+- **Atributos:** Força +3, Vitalidade +3, Agilidade -1, Inteligência +1, Sabedoria +2, Vontade +3, Sorte +0, Sanidade +0
+- **Couraça:** Escamada (+2)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença e **todo efeito mental**
+- **Vulnerabilidade:** [Fogo](../habilidades/magicas-elementais.md#fogo)
+- **Movimento:** 5 casas
+
+**Punho Ressecado** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Impacto](../glossario.md#impacto)).
+
+**Maldição do Túmulo** — +4 vs Defesa mental | 1 criatura a até 6 casas
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o alvo não recupera Vida até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o alvo não recupera Vida até um [descanso longo](../jogar/exploracao.md#descanso)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o alvo não recupera Vida **até a Múmia ser destruída**, e todo dano que ele sofrer causa **+1d6**
+
+**Pavor** *(passiva)*
+
+- Criatura que começa o turno a até 3 casas e pode vê-la ataca com [Desvantagem](../glossario.md#desvantagem) até o fim do turno dela.
+
+## Lobo do Inverno
+
+*O frio chega antes dele.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
+- **Ataque:** +4 | **Defesa física:** 13 | **Defesa mental:** 10
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +2, Inteligência +0, Sabedoria +2, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Coriácea (+1)
+- **Imunidade:** [Gelo](../habilidades/magicas-elementais.md#gelo) | **Vulnerabilidade:** [Fogo](../habilidades/magicas-elementais.md#fogo)
+- **Movimento:** 8 casas
+
+**Mordida** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Sopro Gélido** — +4 vs Defesa física | cone de 3 casas à frente
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, e a área vira [Terreno Difícil](../glossario.md#terreno-dificil) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano e cada alvo fica [Imóvel](../glossario.md#imovel), congelado no lugar
+
+**Matilha do Norte** *(passiva)*
+
+- Ataca com [Vantagem](../glossario.md#vantagem) se outro lobo estiver adjacente ao mesmo alvo.
+
+## Wyvern
+
+*O ferrão chega depois das garras. É o que importa.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Ataque:** +4 | **Defesa física:** 15 | **Defesa mental:** 10
+- **Atributos:** Força +3, Vitalidade +2, Agilidade +3, Inteligência -2, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Escamada (+2)
+- **Movimento:** 9 casas | **Voo:** 9 casas
+
+**Garras** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Cortante](../glossario.md#cortante)).
+
+**Ferrão** — +4 vs Defesa física | 1 criatura adjacente
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** **2d6** de dano e o alvo fica [Envenenado](../glossario.md#envenenado)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** **2d6** de dano e **2 acúmulos** de [Envenenado](../glossario.md#envenenado)
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** **3d6** de dano e **3 acúmulos** de [Envenenado](../glossario.md#envenenado) — o máximo
+
+**Rasante** *(passiva)*
+
+- Se voar **4 casas ou mais** antes de atacar, o ataque causa **+1d6** e ela continua voando depois, sem terminar adjacente ao alvo.
+
+## Quimera
+
+*Três fomes, um corpo, nenhuma negociação.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
+- **Ataque:** +4 | **Defesa física:** 14 | **Defesa mental:** 10
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +2, Inteligência -2, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Escamada (+2)
+- **Movimento:** 8 casas | **Voo:** 8 casas
+
+**Três Cabeças** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- Cada ◈ ataca com uma cabeça diferente: **leão**, **2d6** de dano ([Impacto](../glossario.md#impacto)); **bode**, **2d6** e **empurra** 2 casas; **dragão**, **2d6** de [Fogo](../habilidades/magicas-elementais.md#fogo).
+
+**Baforada** — ◈◈ | 8 Mana | +4 vs Defesa física | cone de 3 casas à frente
+
+- **3d6** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando). O Mestre rola **uma vez** e compara com a Defesa física de cada alvo.
+
+**Sempre Alerta** *(passiva)*
+
+- Não pode ser surpreendida, e ataques contra ela não ganham [Vantagem](../glossario.md#vantagem) por flanqueio.
+
+## Oni
+
+*Ele oferece o acordo primeiro. E cumpre, também.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +1
+- **Ataque:** +4 | **Defesa física:** 13 | **Defesa mental:** 13
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +1, Inteligência +2, Sabedoria +2, Vontade +3, Sorte +0, Sanidade +1
+- **Couraça:** Escamada (+2)
+- **Movimento:** 7 casas | **Voo:** 7 casas
+
+**Clava de Ferro** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura a até 2 casas
+
+- **2d6** de dano ([Impacto](../glossario.md#impacto)).
+
+**Palavra de Sono** — +4 vs Defesa mental | 1 criatura a até 6 casas
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o alvo fica [Atordoado](../glossario.md#atordoado) até sofrer dano
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, e o **primeiro** dano não o acorda
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** [Atordoado](../glossario.md#atordoado) até o fim da [cena](../glossario.md#cena), e nenhum dano o acorda
+
+**Trocar de Rosto** — ◈ | 5 Mana | custo fixo
+
+- Assume a forma de qualquer criatura de tamanho parecido até o fim da [cena](../glossario.md#cena). Enquanto não atacar, testes sociais dele rolam com [Vantagem](../glossario.md#vantagem).
+
+**Barganha** *(passiva)*
+
+- Um acordo feito com ele é cumprido à letra. Quem quebrar o acordo é atacado por ele com [Vantagem](../glossario.md#vantagem) pelo resto da campanha.
 
 ## Elemental de Fogo
 
@@ -876,3 +1170,123 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 **Marcha Implacável** *(passiva)*
 
 - Atravessa [Terreno Difícil](../glossario.md#terreno-dificil) sem custo extra, e deslocamento forçado não o move.
+
+## Treant
+
+*A floresta não reage porque ele mandou. Ele é a floresta.*
+
+- **Tier:** Lendário | **Vida:** 180 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** -1
+- **Ataque:** +6 | **Defesa física:** 16 | **Defesa mental:** 17
+- **Atributos:** Força +5, Vitalidade +5, Agilidade -1, Inteligência +2, Sabedoria +3, Vontade +3, Sorte +0, Sanidade +2
+- **Couraça:** Blindada (+3)
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto) | **Vulnerabilidade:** [Fogo](../habilidades/magicas-elementais.md#fogo)
+- **Movimento:** 5 casas
+
+**Golpe de Galho** — ◈ | 0 Mana | +6 vs Defesa física | 1 criatura a até 3 casas
+
+- **3d8** de dano ([Impacto](../glossario.md#impacto)).
+
+**Raízes** — +6 vs Defesa física | 2 casas de raio
+
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** **2d8** de dano em cada alvo e cada um fica [Agarrado](../glossario.md#agarrado) pelas raízes
+- **Intensidade II — ◈◈ (2 PA) + 12 Mana:** o mesmo, e cada alvo preso sofre **2d8** no início de cada turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** **3d8** de dano, cada alvo fica [Agarrado](../glossario.md#agarrado), e as raízes **puxam** cada um 3 casas até ele
+
+**Despertar a Mata** — ◈◈◈ | 15 Mana | custo fixo
+
+- Duas árvores próximas acordam como **Elementais de Terra** com metade da Vida, e agem na Iniciativa dele.
+
+**Enraizar** *(passiva)*
+
+- Parado, é indistinguível de uma árvore.
+
+## Roc
+
+*Ele não ataca o grupo. Leva um.*
+
+- **Tier:** Lendário | **Vida:** 180 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +3
+- **Ataque:** +6 | **Defesa física:** 18 | **Defesa mental:** 14
+- **Atributos:** Força +5, Vitalidade +4, Agilidade +3, Inteligência -2, Sabedoria +2, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Coriácea (+1)
+- **Movimento:** 12 casas | **Voo:** 12 casas
+
+**Bicada** — ◈ | 0 Mana | +6 vs Defesa física | 1 criatura a até 2 casas
+
+- **3d8** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Agarrar e Subir** — +6 vs Defesa física | 1 criatura a até 2 casas
+
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** **2d8** de dano e o alvo fica [Agarrado](../glossario.md#agarrado) nas garras
+- **Intensidade II — ◈◈ (2 PA) + 12 Mana:** o mesmo, e o Roc **sobe 4 casas** levando o alvo junto
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** **3d8** de dano, sobe **8 casas** e **solta** — o alvo despenca (1d6 de [Impacto](../glossario.md#impacto) a cada 2 casas de altura) e cai [Derrubado](../glossario.md#derrubado)
+
+**Vento das Asas** *(passiva)*
+
+- Criatura que começa o turno adjacente a ele é **empurrada 3 casas** e fica [Derrubada](../glossario.md#derrubado).
+
+**Longe do Chão** *(passiva)*
+
+- A **4 casas de altura ou mais**, só pode ser alvo de ataques à distância e habilidades.
+
+## Kraken
+
+*O navio foi a parte fácil.*
+
+- **Tier:** Lendário | **Vida:** 180 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +2
+- **Ataque:** +6 | **Defesa física:** 19 | **Defesa mental:** 18
+- **Atributos:** Força +5, Vitalidade +5, Agilidade +2, Inteligência +3, Sabedoria +2, Vontade +4, Sorte +0, Sanidade +2
+- **Couraça:** Blindada (+3)
+- **Imunidade:** [Água](../habilidades/magicas-elementais.md#agua) | **Vulnerabilidade:** [Raio](../habilidades/magicas-elementais.md#raio)
+- **Movimento:** 10 casas na água — **3 casas** fora dela
+
+**Tentáculo** — ◈ | 0 Mana | +6 vs Defesa física | 1 criatura a até 4 casas
+
+- **2d8** de dano ([Impacto](../glossario.md#impacto)) e o alvo fica [Agarrado](../glossario.md#agarrado).
+
+**Puxar para o Fundo** — +6 vs Defesa física | 1 criatura [Agarrada](../glossario.md#agarrado) por ele
+
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** **2d8** de dano e **puxa** o alvo 3 casas
+- **Intensidade II — ◈◈ (2 PA) + 12 Mana:** **3d8** de dano e mergulha com ele: o alvo passa a sofrer **2d8** no início de cada turno dele, afogando
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** **3d8** de dano, mergulha, e o tentáculo solta o alvo lá embaixo pra agarrar outro na superfície
+
+**Tinta** — ◈◈ | 10 Mana | custo fixo
+
+- 4 casas de raio viram escuridão total até o fim do próximo turno dele.
+
+**Oito Tentáculos** *(passiva)*
+
+- Mantém até **4 criaturas** [Agarradas](../glossario.md#agarrado) ao mesmo tempo, uma por tentáculo, e cada ◈ usa um tentáculo diferente.
+
+## Tarrasque
+
+*Nada que você tem serve. A pergunta é pra onde correr.*
+
+- **Tier:** Lendário | **Vida:** 180 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +0
+- **Ataque:** +7 | **Defesa física:** 18 | **Defesa mental:** 16
+- **Atributos:** Força +5, Vitalidade +5, Agilidade +0, Inteligência -4, Sabedoria +1, Vontade +2, Sorte +0, Sanidade +0
+- **Couraça:** Dracônica (+4)
+- **Imunidades:** [Fogo](../habilidades/magicas-elementais.md#fogo), [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, [derrubar](../glossario.md#derrubado), [empurrar](../glossario.md#empurrar-e-puxar), [agarrar](../glossario.md#agarrado), [Lento](../glossario.md#lento), [Imóvel](../glossario.md#imovel) e **todo efeito mental**
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto)
+- **Movimento:** 8 casas
+
+**Mordida** — ◈ | 0 Mana | +7 vs Defesa física | 1 criatura a até 3 casas
+
+- **3d8** de dano ([Perfurante](../glossario.md#perfurante)) e o alvo fica [Agarrado](../glossario.md#agarrado) na boca.
+
+**Engolir** — ◈◈ | 0 Mana | 1 criatura [Agarrada](../glossario.md#agarrado) na boca
+
+- O alvo é engolido: sofre **4d8** no início de cada turno do Tarrasque e não alcança nem enxerga nada de fora. Sai se causar **30 de dano por dentro**, ou quando o Tarrasque cair.
+
+**Cauda Devastadora** — +7 vs Defesa física | linha de 6 casas
+
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** **3d8** de dano em cada alvo na linha + **empurra** 3 casas
+- **Intensidade II — ◈◈ (2 PA) + 12 Mana:** **3d8** de dano, **empurra** 5 casas e cada alvo fica [Derrubado](../glossario.md#derrubado)
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** **4d8** de dano, **empurra** 8 casas, [Derrubado](../glossario.md#derrubado), e as estruturas na linha desabam
+
+**Nada o Para** *(passiva)*
+
+- Atravessa paredes e construções: elas viram escombros, e a casa que ele atravessou fica [Terreno Difícil](../glossario.md#terreno-dificil).
+
+**Pânico** *(passiva)*
+
+- Criatura que o vê pela primeira vez ataca com [Desvantagem](../glossario.md#desvantagem) até o fim do próximo turno dela.

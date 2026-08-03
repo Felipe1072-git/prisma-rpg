@@ -80,9 +80,18 @@ justifica se trouxer um **problema novo**, não outro saco de Vida:
 | petrifica a sala, e atira nas estátuas | Medusa *(leva 4)* |
 | o elemento em pessoa: queima, puxa, prende, empurra | os 4 Elementais *(leva 4)* |
 
-**Levas 1 a 4 entregues em 2026-08-02/03** — as vinte e três marcadas abaixo já estão em
-`docs/bestiario/index.md`. O Bestiário passou de 6 para **35 criaturas**, e os quatro Tiers
-estão povoados.
+**Lista esgotada em 2026-08-03.** As **43 marcadas abaixo** estão todas em
+`docs/bestiario/index.md`, e o Bestiário passou de 6 para **52 criaturas** — Comum 9,
+Treinado 14, Formidável 21, Lendário 8.
+
+A **leva 5** fechou o que faltava: Kobold, Sprite, Hobgoblin, Gárgula, Bárbaro Enfurecido,
+Fogo-fátuo, Corujurso, Mantícora, Múmia, Lobo do Inverno, Wyvern, Quimera, Oni, Treant, Roc,
+Kraken e Tarrasque. Nenhuma pediu vocabulário novo — foi a primeira leva inteiramente escrita
+com as regras que já existiam, o que é o sinal de que o vocabulário está maduro.
+
+**O Formidável ficou inchado (21 de 52).** É onde cabem quase todos os monstros clássicos, e a
+próxima leva — se houver — devia ser de Comuns e Treinados, que é o que um grupo de nível 1–4
+encontra de verdade.
 
 A leva 4 exigiu **regra nova antes de criatura**, e isso vale de lição: o Lobisomem trouxe o
 eixo de **Material** pras armas, e o Fantasma trouxe a condição **Possuído** mais quatro
@@ -113,17 +122,17 @@ fraca, a criatura provavelmente não vale uma ficha.
 |---|---|---|
 | [x] | Zumbi | não cai: continua de pé quando deveria ter morrido |
 | [x] | Enxame de Ratos | enxame — ocupa uma casa, e espada não resolve |
-| [ ] | Kobold | covarde que só é perigoso em grupo grande *(muito perto do Goblin)* |
+| [x] | Kobold | covarde que só é perigoso em grupo grande *(muito perto do Goblin)* |
 | [x] | Stirge | gruda no alvo e drena até ser arrancada |
 | [x] | Falcão-de-sangue | voador barato — obriga o grupo a ter resposta pro ar |
-| [ ] | Sprite | minúsculo, escondido, flecha de sono |
+| [x] | Sprite | minúsculo, escondido, flecha de sono |
 
 ### Obstáculos (candidatos a Treinado)
 
 | | Criatura | O que acrescenta |
 |---|---|---|
 | [x] | Orc | o capanga marcial que avança e bate forte |
-| [ ] | Hobgoblin | inimigo com disciplina militar — formação, não bando |
+| [x] | Hobgoblin | inimigo com disciplina militar — formação, não bando |
 | [x] | Gnoll | frenesi: fica mais perigoso a cada abate |
 | [x] | Sombra | incorpórea: atravessa parede e drena atributo |
 | [x] | Carniçal | paralisia — tira o turno do personagem |
@@ -131,30 +140,30 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [x] | Ogro | bruto lento: muito dano, pouca precisão |
 | [x] | Mímico | armadilha viva — o baú era o monstro |
 | [x] | Cubo Gelatinoso | engole; o corredor inteiro vira a ameaça |
-| [ ] | Gárgula | voador de pedra, aguenta pancada |
-| [ ] | Bárbaro Enfurecido | quanto mais ferido, mais forte |
+| [x] | Gárgula | voador de pedra, aguenta pancada |
+| [x] | Bárbaro Enfurecido | quanto mais ferido, mais forte |
 | [x] | Lobisomem | resistência que só material específico ignora |
-| [ ] | Fogo-fátuo | invisível, atrai o grupo pro lugar errado |
+| [x] | Fogo-fátuo | invisível, atrai o grupo pro lugar errado |
 
 ### Chefes de arco (candidatos a Formidável)
 
 | | Criatura | O que acrescenta |
 |---|---|---|
-| [ ] | Corujurso (Owlbear) | fera de força bruta, sem plano nenhum |
+| [x] | Corujurso (Owlbear) | fera de força bruta, sem plano nenhum |
 | [x] | Basilisco | olhar que petrifica — ameaça sem rolar ataque |
-| [ ] | Mantícora | atirador aéreo: fica no ar e dispara espinhos |
-| [ ] | Múmia | medo + maldição que sobrevive ao combate |
+| [x] | Mantícora | atirador aéreo: fica no ar e dispara espinhos |
+| [x] | Múmia | medo + maldição que sobrevive ao combate |
 | [x] | Aparição | mata e transforma o morto em servo dela |
-| [ ] | Lobo do Inverno | sopro de gelo — a contraparte elemental do Dragão |
+| [x] | Lobo do Inverno | sopro de gelo — a contraparte elemental do Dragão |
 | [x] | Fantasma | possui um personagem: o grupo luta contra o próprio aliado |
 | [x] | Súcubo | ameaça social — vence sem combate se ninguém perceber |
 | [x] | Troll | regeneração: só fogo resolve de vez (não existe dano de Ácido no Prisma) |
 | [x] | Gigante da Colina | arremessa pedras — e arremessa personagens |
 | [x] | Elemental (Fogo/Água/Terra/Vento) | um elemento puro em forma de criatura — os quatro escritos |
 | [x] | Medusa | petrifica pelo olhar e ainda atira de longe |
-| [ ] | Wyvern | voador com ferrão venenoso |
-| [ ] | Quimera | três ataques por turno + sopro: administra recurso como chefe |
-| [ ] | Oni | chefe inteligente: voa, conjura e negocia |
+| [x] | Wyvern | voador com ferrão venenoso |
+| [x] | Quimera | três ataques por turno + sopro: administra recurso como chefe |
+| [x] | Oni | chefe inteligente: voa, conjura e negocia |
 | [x] | Hidra | cortar faz crescer — o Slime em escala de chefe |
 
 ### Fim de campanha (candidatos a Lendário)
@@ -165,10 +174,10 @@ fraca, a criatura provavelmente não vale uma ficha.
 | [x] | Vampiro | chefe social, regenera e cria servos |
 | [x] | Lich | o arquimago morto-vivo: vilão de campanha inteira |
 | [x] | Golem de Ferro | construto imune a quase tudo — puzzle, não luta |
-| [ ] | Treant | guardião: a floresta inteira reage |
-| [ ] | Roc | escala pura — a ave que carrega o grupo embora |
-| [ ] | Kraken | chefe de mar aberto |
-| [ ] | Tarrasque | o fim do mundo com pernas |
+| [x] | Treant | guardião: a floresta inteira reage |
+| [x] | Roc | escala pura — a ave que carrega o grupo embora |
+| [x] | Kraken | chefe de mar aberto |
+| [x] | Tarrasque | o fim do mundo com pernas |
 
 ## Como eu escreveria cada uma
 
