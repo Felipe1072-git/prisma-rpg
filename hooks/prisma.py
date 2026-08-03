@@ -1029,7 +1029,42 @@ def linha_de_bloco(nome: str, meta: str, corpo: list[str]) -> str:
     return f'<div class="{classe}" markdown="1">\n\n{corpo_md}\n\n</div>'
 
 
-def ficha_de_criatura(flavor: str, resto: list[str]) -> tuple[str, dict[str, str]]:
+def regra_da_acao_de_lenda(docs_dir: Path) -> str:
+    """A Ação de Lenda, lida da regra — pra injetar em todo card Lendário.
+
+    Ela é regra do Tier, então mora uma vez só em `criando-criaturas.md`. Mas é
+    uma ação a mais por rodada, fora do turno: o Mestre precisa dela **no meio
+    do turno**, e o que o card mostra não é decidido por de onde o número veio
+    (a Vida e o PA também vêm do Tier) e sim por isso. Mesmo arranjo do traço de
+    leva das Raças: uma cópia no markdown, injetada nos cards.
+
+    Só a primeira frase entra — o resto do parágrafo explica por que a regra
+    existe, e explicação não entra em ficha. E cai fora o escopo antes do
+    dois-pontos ("Exclusiva do Tier Lendário:"), porque o chip do card já diz
+    o Tier. Se o texto mudar de forma e a extração falhar, o card fica como
+    estava.
+    """
+    arquivo = docs_dir / "mestre" / "criando-criaturas.md"
+    if not arquivo.is_file():
+        return ""
+    linhas = arquivo.read_text(encoding="utf-8").split("\n")
+    corpo = extrai_intervalo(linhas, r"^### Ação de Lenda\s*$", r"^#{2,4} ")
+    for linha in corpo[1:]:
+        if not linha.strip():
+            continue
+        frase = linha.strip().split(". ")[0].rstrip(".")
+        if ": " in frase:
+            frase = frase.split(": ", 1)[1]
+        # A primeira letra, não o primeiro caractere: cortado o escopo, a frase
+        # costuma começar com o `**` do negrito.
+        frase = re.sub(r"[a-zà-ÿ]", lambda m: m.group(0).upper(), frase, count=1)
+        return frase + "."
+    return ""
+
+
+def ficha_de_criatura(
+    flavor: str, resto: list[str], acao_de_lenda: str = ""
+) -> tuple[str, dict[str, str]]:
     """O corpo do card inteiro, no molde do stat block."""
     campos, notas_prosa, blocos = separa_criatura(resto)
     tiles, notas_tile = tiles_criatura(campos)
@@ -1056,6 +1091,12 @@ def ficha_de_criatura(flavor: str, resto: list[str]) -> tuple[str, dict[str, str
 
     passivas = [b for b in blocos if b[1].startswith("*(")]
     acoes = [b for b in blocos if not b[1].startswith("*(")]
+
+    # Fecha a lista de ações, como as Ações de Lenda fecham o stat block do
+    # D&D Beyond: é a última coisa que o Mestre lê, e a que ele usa no turno
+    # dos personagens.
+    if acao_de_lenda and texto_puro(campos.get("Tier", "")) == "Lendário":
+        acoes = acoes + [("Ação de Lenda", "", ["- " + acao_de_lenda])]
     for titulo, grupo in (("Traços", passivas), ("Ações", acoes)):
         if not grupo:
             continue
@@ -1066,9 +1107,9 @@ def ficha_de_criatura(flavor: str, resto: list[str]) -> tuple[str, dict[str, str
     return f'<div class="prg-bes" markdown="1">\n\n{corpo}\n\n</div>', campos
 
 
-def monta_card_criatura(s: Secao) -> str:
+def monta_card_criatura(s: Secao, acao_de_lenda: str = "") -> str:
     flavor, resto = flavor_e_resto(s.corpo)
-    corpo_md, campos = ficha_de_criatura(flavor, resto)
+    corpo_md, campos = ficha_de_criatura(flavor, resto, acao_de_lenda)
 
     tier = texto_puro(campos.get("Tier", ""))
     couraca = texto_puro(campos.get("Couraça", "")).split("(")[0].strip()
@@ -1115,13 +1156,14 @@ def monta_card_criatura(s: Secao) -> str:
     )
 
 
-def monta_listagem_bestiario(markdown: str) -> tuple[str, int]:
+def monta_listagem_bestiario(markdown: str, docs_dir: Path) -> tuple[str, int]:
     linhas = markdown.split("\n")
     secoes = extrai_secoes(linhas)
     if not secoes:
         return markdown, 0
     corte = next(i for i, l in enumerate(linhas) if l.startswith("## "))
-    cards = [monta_card_criatura(s) for s in secoes]
+    lenda = regra_da_acao_de_lenda(docs_dir)
+    cards = [monta_card_criatura(s, lenda) for s in secoes]
     return "\n".join(linhas[:corte]) + "\n\n" + "\n".join(cards), len(cards)
 
 
@@ -2609,7 +2651,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         return insere_barra(markdown, barra, '<div class="prg-card')
 
     if caminho == "bestiario/index.md":
-        markdown, total = monta_listagem_bestiario(markdown)
+        markdown, total = monta_listagem_bestiario(markdown, docs_dir)
         barra = monta_barra(
             "criaturas",
             "Filtrar por nome, ataque, traço, condição…",

@@ -175,6 +175,11 @@ Convenções que precisam se manter estáveis (o cross-link depende delas):
   tudo na primeira tela. O "como isso funciona" vai pra um bloco `???` fechado (helper
   `colapsavel()`, ou escrito à mão no markdown). Régua: **até ~60 palavras visíveis** antes da
   barra. O JS abre qualquer `<details>` fechado quando a âncora cai dentro dele.
+- **O card mostra o que se usa no turno, venha de onde vier.** Vida, PA e Base saem do Tier
+  e aparecem; a **Ação de Lenda** também é do Tier e por isso *não* aparecia — erro corrigido
+  em 2026-08-03. O critério não é a origem do valor, é se o Mestre precisa dele no meio do
+  turno. Quando a resposta for sim e o texto viver noutro arquivo, injete (é o que
+  `regra_da_acao_de_lenda` faz, lendo de `criando-criaturas.md`), não copie.
 - **Ficha de criatura é só mecânica**: nada de justificar a regra dentro dela ("Goblin é
   ameaça por quantidade", "osso quebra", "esmaga ou queima"). O card é lido no meio de um
   turno, e comentário ali é ruído. O *porquê* de cada escolha continua existindo — em
@@ -355,11 +360,17 @@ Bestiário já tem), **Vampiro** (fraquezas investigáveis: sol, convite, água 
 e **Golem de Ferro** (Fogo o **cura**, Raio o parte, e é imune a todo controle de posição).
 Quatro e não seis porque cada ficha Lendária tem o tamanho de três Comuns.
 
-Duas coisas ficaram **em aberto** e valem decisão: a **Ação de Lenda não aparece nas fichas**
-(é regra do Tier, e repetir em quatro cards seria o ruído que a régua manda cortar — mas é a
-mecânica que o Mestre mais esquece), e **um Lendário custa 30 Pontos de Ameaça** contra os 16
-de um encontro Mortal para 4 PJs: nenhum deles é encontro justo em nível 1–4, e isso não está
-escrito em lugar nenhum de *Montagem de Encontro*.
+A **Ação de Lenda entrou nas fichas** — e a régua ganhou um ajuste no caminho. Eu tinha
+deixado de fora alegando "regra do Tier não se repete no card", mas o card já mostra Vida 180
+e PA 5, que também vêm do Tier: o critério não é *de onde o valor veio*, é **se o Mestre
+precisa dele no meio do turno**. Ela precisa — é uma ação a mais por rodada. A regra continua
+morando uma vez só em `criando-criaturas.md`, e `regra_da_acao_de_lenda` injeta a primeira
+frase dela em todo card Lendário, fechando a lista de Ações como no D&D Beyond. Mesmo arranjo
+do traço de leva das Raças, e o próximo Lendário já nasce com ela.
+
+Fica **em aberto**: um Lendário custa 30 Pontos de Ameaça contra os 16 de um encontro Mortal
+para 4 PJs — nenhum deles é encontro justo em nível 1–4, e isso não está escrito em lugar
+nenhum de *Montagem de Encontro*.
 
 **Leva 2, e o Bestiário vai a 18 (2026-08-03).** **Falcão-de-sangue** (ameaça aérea barata),
 **Bugbear** (alcance 2 casas, +2d8 contra Desprevenido), **Cubo Gelatinoso** (engole),
