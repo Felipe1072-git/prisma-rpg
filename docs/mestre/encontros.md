@@ -36,7 +36,7 @@ Com 8 pontos (Padrão pra 4 PJs) você pode montar: **4 Goblins**, ou **1 Bandid
 Repare que **um Formidável sozinho já passa de Mortal** pra um grupo de 4: o mais barato deles, a Mantícora, custa 15. Chefe de verdade é encontro de fim de arco, não sala de masmorra — e o Lendário tem o aviso próprio logo abaixo.
 
 !!! cuidado "Um Lendário não cabe neste orçamento — e é de propósito"
-Um Lendário custa de **40 a 100 pontos**. O orçamento **Mortal** de um grupo de 4 é **16**. Não existe encontro equilibrado com um Lendário nessa mesa: o mais barato deles, o Lich, é duas vezes e meia o que a tabela chama de "morte é resultado provável". O [Tarrasque](../bestiario/index.md#bes-tarrasque), a **seis vezes**.
+    Um Lendário custa de **40 a 100 pontos**. O orçamento **Mortal** de um grupo de 4 é **16**. Não existe encontro equilibrado com um Lendário nessa mesa: o mais barato deles, o Lich, é duas vezes e meia o que a tabela chama de "morte é resultado provável". O [Tarrasque](../bestiario/index.md#bes-tarrasque), a **seis vezes**.
 
     Isso não é erro de conta. Um Lendário é **clímax de campanha**, não sala de masmorra — o número dele diz exatamente isso. Pela conta, o Lich só entra em Mortal com **10 personagens**, e o Tarrasque com **25**.
 
@@ -100,22 +100,72 @@ Contra chefe, com grupo de 5 ou mais, prefira **subir o Tier** (ou somar capanga
 
 ## Exemplos prontos
 
-Montados com o orçamento acima, para um grupo de 4.
+Todos montados para um **grupo de 4**, com o orçamento acima. Cada um existe pra ensinar uma coisa — se você só quer uma sala cheia, some pontos e pronto; se quer que a mesa aprenda alguma coisa, roube daqui.
 
-**Emboscada na Estrada** — nível 1–2, Padrão (8 pontos)
+*(Use a [Vida da faixa](#vida-por-faixa-de-nivel) em que o grupo realmente está — as fichas valem pro nível 1–4.)*
+
+### Leve — 4 pontos
+
+**Sob o Assoalho** — nível 1
+
+- 1 [Enxame de Ratos](../bestiario/index.md#bes-enxame-de-ratos) (4). O grupo descobre, sem risco de morrer, que **espada não resolve tudo**: o Enxame resiste aos três tipos físicos e divide a casa com quem ataca. Uma tocha ou qualquer magia encerra em uma rodada.
+
+### Padrão — 8 pontos
+
+**A Clareira Errada** — nível 1–2
+
+- 3 [Goblins](../bestiario/index.md#bes-goblin) (6) + 1 [Kobold](../bestiario/index.md#bes-kobold) (2) = **8**. O Kobold chegou antes e preparou uma casa de armadilha; marque no mapa antes de a luta começar. Ensina que **o terreno é do inimigo** quando ele escolhe onde lutar.
+
+**Emboscada na Estrada** — nível 1–2
 
 - 1 [Bandido](../bestiario/index.md#bes-bandido) (6) + 1 [Lobo](../bestiario/index.md#bes-lobo) (3) = **9**. O Lobo corre 10 casas e vai atrás de quem se afastou; o Bandido usa Recuar e Atirar pra manter distância. Ensina posicionamento sem punir demais.
 
-**Cripta Rasa** — nível 3–5, Difícil (12 pontos)
+**Céu Aberto** — nível 2–3
 
-*(Nos exemplos, use a [Vida da faixa](#vida-por-faixa-de-nivel) em que o grupo realmente está — as fichas do Bestiário valem pro nível 1-4; na metade de cima da faixa anunciada, ajuste.)*
+- 2 [Falcões-de-sangue](../bestiario/index.md#bes-falcao-de-sangue) (4) + 2 [Stirges](../bestiario/index.md#bes-stirge) (4) = **8**. Nenhum deles encosta no chão. Um grupo só de espadas passa a rodada inteira sem alcançar nada — e os Falcões atacam com Vantagem quem já está na metade da Vida. Ensina **ter resposta pro ar**.
+
+### Difícil — 12 pontos
+
+**Patrulha Militar** — nível 2–4
+
+- 2 [Hobgoblins](../bestiario/index.md#bes-hobgoblin) (12). Cada um dá ◈ ao outro com *Ordem*, e os dois ganham +2 de Defesa em [Formação](../bestiario/index.md#bes-hobgoblin). São só dois corpos e agem como quatro. Ensina que **capanga coordenado vale mais que capanga forte**.
+
+**Cripta Rasa** — nível 3–5
 
 - 2 [Esqueletos](../bestiario/index.md#bes-esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano) na prática.
 
-**Ninho** — nível 4–6, **muito além de Mortal (24 pontos)**
+**O Corredor** — nível 3–5
 
-- 1 [Dragão Filhote](../bestiario/index.md#bes-dragao-filhote) (18) + 3 [Goblins](../bestiario/index.md#bes-goblin) (6). Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. É chefe escoltado do jeito certo — e é **encontro de fim de arco**, não sala de passagem: um grupo de 4 tem orçamento Mortal de 16, e isso aqui é 24.
+- 1 [Cubo Gelatinoso](../bestiario/index.md#bes-cubo-gelatinoso) (7) + 1 [Zumbi](../bestiario/index.md#bes-zumbi) (5) = **12**. Num corredor de 2 casas de largura, o Cubo é a parede que avança: 1 ◈ por rodada e Movimento 3, mas quem for engolido sofre 2d6 por turno lá dentro. Ensina que **espaço é recurso**.
 
-**O Poço** — nível 2–4, **Padrão no papel (12 pontos), Difícil na prática**
+**O Poço** — nível 2–4, **Difícil no papel, pior na prática**
 
-- 3 [Slimes](../bestiario/index.md#bes-slime) num corredor estreito. É o encontro que mostra o limite dos Pontos de Ameaça: cada golpe **cortante ou perfurante** divide o Slime, então um grupo de espadachins termina lutando contra oito criaturas em vez de três. Quem trouxe martelo passa fácil. Sempre que uma criatura se multiplica, se cura ou revive, os pontos subestimam o encontro — conte o dobro.
+- 3 [Slimes](../bestiario/index.md#bes-slime) (12) num corredor estreito. É o encontro que mostra o limite dos Pontos de Ameaça: cada golpe **cortante ou perfurante** divide o Slime, então um grupo de espadachins termina lutando contra oito criaturas em vez de três. Quem trouxe martelo passa fácil. Sempre que uma criatura se multiplica, se cura ou revive, os pontos subestimam o encontro — conte o dobro.
+
+### Mortal — 16 pontos
+
+**A Cabana** — nível 3–5
+
+- 1 [Ogro](../bestiario/index.md#bes-ogro) (10) + 3 [Goblins](../bestiario/index.md#bes-goblin) (6) = **16**. O Ogro erra muito (Ataque +6 contra Defesa 10 dele mesmo) e acerta 2d8 quando acerta; os Goblins existem pra o grupo não poder simplesmente recuar. Ensina a **aceitar risco**: parar pra desviar do Ogro é dar dois turnos aos Goblins.
+
+**Noite de Lua** — nível 4–6
+
+- 1 [Lobisomem](../bestiario/index.md#bes-lobisomem) (15) sozinho. Sem uma arma de [Prata](../equipamento/regras.md#material), o grupo resiste-se contra ele a noite inteira: ele reduz pela metade cortante, perfurante e impacto. É o encontro que transforma **um item de tesouro na solução da cena** — e que vale a pena telegrafar antes.
+
+**O Santuário Profanado** — nível 4–6, **17 pontos**
+
+- 1 [Aparição](../bestiario/index.md#bes-aparicao) (17). Ela sozinha não impressiona — até o primeiro personagem cair, levantar como [Zumbi](../bestiario/index.md#bes-zumbi) e atacar o grupo no turno seguinte. Ensina que **deixar alguém no chão tem preço**, e que às vezes o certo é recuar carregando o caído.
+
+### Fim de arco — muito além de Mortal
+
+**Ninho** — nível 4–6, **24 pontos**
+
+- 1 [Dragão Filhote](../bestiario/index.md#bes-dragao-filhote) (18) + 3 [Goblins](../bestiario/index.md#bes-goblin) (6). Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. É chefe escoltado do jeito certo — e é encontro de **fim de arco**, não sala de passagem: um grupo de 4 tem orçamento Mortal de 16, e isso aqui é 24.
+
+**O Jardim** — nível 6–8, **38 pontos**
+
+- 1 [Medusa](../bestiario/index.md#bes-medusa) (20) + 2 [Gárgulas](../bestiario/index.md#bes-gargula) (18). O grupo entra num pátio de estátuas — duas delas voam. A Medusa petrifica todo mundo que a estiver vendo e depois atira nas estátuas com Vantagem; **desviar o olhar** custa Desvantagem em tudo. É o encontro em que a decisão certa é lutar mal de propósito.
+
+**A Torre** — nível 8+, **64 pontos**
+
+- 1 [Lich](../bestiario/index.md#bes-lich) (40) + 4 [Esqueletos](../bestiario/index.md#bes-esqueleto) (24). Matar o Lich **não encerra nada**: ele se refaz em 1d10 dias junto do filactério, e *Chamar os Mortos* repõe os capangas durante a luta. Este não é um encontro — é o último terço de uma campanha, e a vitória acontece fora do combate.
