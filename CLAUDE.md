@@ -379,11 +379,12 @@ novo foi inventado: a ficha é a regra do elemento em forma de bicho. As vulnera
 um ciclo que se ensina em uma frase: **Fogo cai pra Água, Água pra Raio, Terra pro Vento, Vento
 pra Terra**. Usam **Vento**, não "Ar" — o nome do elemento no jogo.
 
-⚠ Ficou uma inconsistência **anterior** a eles, que a condição nova revelou: a habilidade
-**Petrificar** (Terra) diz no Crítico "*Petrificado por 1 rodada completa*", escrita quando
-"petrificado" era só uma palavra. Agora é condição com graus, e a frase ficou ambígua — as
-Intensidades dela (derruba → Lento → Imóvel) já são praticamente os graus 1 e 2. Não mexi:
-é edição de habilidade existente e passa pelo autor.
+A habilidade **Petrificar** (Terra) foi acertada junto: o Crítico dizia "*Petrificado por 1
+rodada completa*", escrito quando "petrificado" era só uma palavra, e virou **"+1 grau de
+Petrificado"**. Só o Crítico — as Intensidades (derruba → Lento → Imóvel) continuam como
+estavam **de propósito**: Lento e Imóvel ali são efeitos de uma rodada, e trocá-los por graus
+os tornaria persistentes (grau só sai com cura ou descanso) num **cone de 3 casas**. Seria
+mudança de potência, não de vocabulário — fica pro autor decidir se quer.
 
 **Petrificado** entrou logo depois, fechando a última lacuna que travava criatura — e
 **Basilisco e Medusa** saíram junto (o Bestiário vai a **31**), com o mesmo olhar dividido em

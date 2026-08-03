@@ -35,7 +35,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + derruba o alvo e ele fica [Lento](../glossario.md#lento)
 - **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + derruba o alvo e ele fica [Imóvel](../glossario.md#imovel)
-- **Crítico (20 natural):** dano máximo (6) + 1d6 extra + Petrificado por 1 rodada completa, e sobe 1 Intensidade
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra + **1 grau** de [Petrificado](../glossario.md#petrificado), e sobe 1 Intensidade
 
 **Fúria da Natureza**
 
