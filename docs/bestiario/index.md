@@ -400,3 +400,135 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 **Alcance de Gigante** *(passiva)*
 
 - Alcança com ataques corpo a corpo qualquer criatura a até **2 casas**.
+
+## Dragão Vermelho Adulto
+
+*O filhote aprendeu a voar. E a esperar.*
+
+- **Tier:** Lendário | **Vida:** 180 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +3
+- **Ataque:** +6 | **Defesa física:** 20 | **Defesa mental:** 18
+- **Atributos:** Força +5, Vitalidade +5, Agilidade +2, Inteligência +4, Sabedoria +3, Vontade +4, Sorte +1, Sanidade +3
+- **Couraça:** Dracônica (+4) | **Imunidade:** [Fogo](../habilidades/magicas-elementais.md#fogo)
+- **Movimento:** 8 casas | **Voo:** 8 casas
+
+**Garras e Presas** — ◈ | 0 Mana | +6 vs Defesa física | 1 criatura a até 2 casas
+
+- **3d8** de dano ([Cortante](../glossario.md#cortante)).
+
+**Baforada** — +6 vs Defesa física | cone de 5 casas à frente
+
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** **3d8** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
+- **Intensidade II — ◈◈ (2 PA) + 12 Mana:** **3d8** de dano + [Queimando](../glossario.md#queimando), e o fogo se espalha para toda criatura adjacente a cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** **4d8** de dano + [Queimando](../glossario.md#queimando) causando 2d6 por turno, e cada alvo fica [Derrubado](../glossario.md#derrubado)
+
+**Presença Aterradora** — ◈◈ | 6 Mana | +6 vs Defesa mental | toda criatura a até 6 casas
+
+- O alvo não pode se aproximar do Dragão até o fim do próximo turno dele.
+
+**Bater de Asas** — ◈◈ | 4 Mana | toda criatura adjacente
+
+- **Empurra 3 casas** e o alvo fica [Derrubado](../glossario.md#derrubado); o Dragão sobe 3 casas.
+
+**Escamas em Brasa** *(passiva)*
+
+- Quem atinge o Dragão com ataque corpo a corpo sofre **1d8** de dano de fogo.
+
+## Lich
+
+*Ele já perdeu esta luta antes. Não fez diferença.*
+
+- **Tier:** Lendário | **Vida:** 180 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +4
+- **Ataque:** +6 | **Defesa física:** 18 | **Defesa mental:** imune a efeito mental
+- **Atributos:** Força -1, Vitalidade +1, Agilidade +2, Inteligência +5, Sabedoria +3, Vontade +4, Sorte +2, Sanidade +4
+- **Couraça:** Escamada (+2)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental**
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto)
+- **Movimento:** 8 casas
+
+**Toque Gélido** — ◈ | 0 Mana | +6 vs Defesa física | 1 criatura adjacente
+
+- **2d8** de dano de [Sombras](../habilidades/magicas-elementais.md#sombras), e o alvo não recupera Vida até o fim do próximo turno dele.
+
+**Raio Necrótico** — +6 vs Defesa física | 1 criatura a até 12 casas
+
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** **3d8** de dano de [Sombras](../habilidades/magicas-elementais.md#sombras)
+- **Intensidade II — ◈◈ (2 PA) + 12 Mana:** **3d8** de dano e o alvo fica [Lento](../glossario.md#lento)
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** **4d8** de dano e o alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+
+**Chamar os Mortos** — ◈◈ | 10 Mana | custo fixo
+
+- Erguem-se **2 Esqueletos ou 2 Zumbis** adjacentes ao Lich, que agem na Iniciativa dele.
+
+**Aura de Podridão** *(passiva)*
+
+- Criatura que começa o turno adjacente ao Lich sofre **1d8** de dano de [Sombras](../habilidades/magicas-elementais.md#sombras).
+
+**Filactério** *(passiva)*
+
+- Ao chegar a 0 de Vida, o corpo se desfaz e ele se refaz junto do filactério em **1d10 dias**, com a Vida cheia. Só morre de vez se o filactério for destruído.
+
+## Vampiro
+
+*Ele te convidou para entrar. Isso já foi o ataque.*
+
+- **Tier:** Lendário | **Vida:** 180 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +6
+- **Ataque:** +6 | **Defesa física:** 20 | **Defesa mental:** 18
+- **Atributos:** Força +4, Vitalidade +3, Agilidade +4, Inteligência +3, Sabedoria +3, Vontade +4, Sorte +2, Sanidade +2
+- **Couraça:** Escamada (+2)
+- **Movimento:** 10 casas
+
+**Garras** — ◈ | 0 Mana | +6 vs Defesa física | 1 criatura adjacente
+
+- **2d8** de dano ([Cortante](../glossario.md#cortante)) e o alvo fica [Agarrado](../glossario.md#agarrado).
+
+**Mordida** — +6 vs Defesa física | 1 criatura [Agarrada](../glossario.md#agarrado) ou [Derrubada](../glossario.md#derrubado)
+
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** **3d8** de dano e o Vampiro recupera Vida igual ao dano causado
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, e o alvo perde **1 de Vitalidade** até um [descanso longo](../jogar/exploracao.md#descanso)
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, e a **Vida máxima** do alvo cai pelo valor do dano até um descanso longo
+
+**Forma de Névoa** — ◈ | 5 Mana | custo fixo
+
+- Vira névoa até o início do próximo turno dele: imune a dano físico, atravessa qualquer fresta, e não pode atacar.
+
+**Regeneração** *(passiva)*
+
+- Recupera **15 de Vida** no início do próprio turno. Não recupera nada se tiver sofrido dano de [Luz](../habilidades/magicas-elementais.md#luz) desde o fim do último turno dele, nem sob luz do sol.
+
+**Fraquezas** *(passiva)*
+
+- Sob **luz do sol direta**, seus ataques rolam com [Desvantagem](../glossario.md#desvantagem). Não entra em residência sem ser convidado. Não atravessa água corrente.
+
+**Não Morre Assim** *(passiva)*
+
+- Ao chegar a 0 de Vida, vira névoa e volta ao próprio caixão; refaz-se ali em **1 hora** com 30 de Vida. Uma estaca de madeira cravada enquanto está a 0 o destrói de vez.
+
+## Golem de Ferro
+
+*Ele não te odeia. Ele recebeu uma ordem.*
+
+- **Tier:** Lendário | **Vida:** 180 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** -1
+- **Ataque:** +6 | **Defesa física:** 17 | **Defesa mental:** imune a efeito mental
+- **Atributos:** Força +5, Vitalidade +5, Agilidade -1, Inteligência -3, Sabedoria +0, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Dracônica (+4)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, [derrubar](../glossario.md#derrubado), [empurrar](../glossario.md#empurrar-e-puxar), [agarrar](../glossario.md#agarrado), [Lento](../glossario.md#lento), [Imóvel](../glossario.md#imovel), e **todo efeito mental**
+- **Resistência:** [Cortante](../glossario.md#cortante) e [Perfurante](../glossario.md#perfurante) | **Vulnerabilidade:** [Raio](../habilidades/magicas-elementais.md#raio)
+- **Movimento:** 5 casas
+
+**Punho de Ferro** — ◈ | 0 Mana | +6 vs Defesa física | 1 criatura a até 2 casas
+
+- **3d8** de dano ([Impacto](../glossario.md#impacto)).
+
+**Sopro Venenoso** — +6 vs Defesa física | cone de 4 casas à frente
+
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** **2d8** de dano em cada alvo + cada alvo fica [Envenenado](../glossario.md#envenenado)
+- **Intensidade II — ◈◈ (2 PA) + 12 Mana:** **3d8** de dano + 2 acúmulos de [Envenenado](../glossario.md#envenenado) em cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** **4d8** de dano + 3 acúmulos de [Envenenado](../glossario.md#envenenado), e cada alvo fica [Lento](../glossario.md#lento)
+
+**Absorve Fogo** *(passiva)*
+
+- Dano de [Fogo](../habilidades/magicas-elementais.md#fogo) não o fere: recupera Vida igual ao valor que sofreria.
+
+**Marcha Implacável** *(passiva)*
+
+- Atravessa [Terreno Difícil](../glossario.md#terreno-dificil) sem custo extra, e deslocamento forçado não o move.

@@ -348,6 +348,19 @@ parecer que eram dois valores. Decisão do autor, vendo as duas versões: ficha 
 mais. Ela continua no markdown e no filtro da barra. O custo assumido é que os três efeitos
 que **ignoram o bônus de Armadura** do alvo obrigam o Mestre a buscar o valor fora do card.
 
+**Leva 3 — os Lendários, e o Bestiário vai a 22 (2026-08-03).** O Tier que estava vazio
+ganhou quatro: **Dragão Vermelho Adulto** (a escada do Filhote), **Lich** (o Filactério
+transforma o chefe em missão, e *Chamar os Mortos* invoca os Esqueletos e Zumbis que o
+Bestiário já tem), **Vampiro** (fraquezas investigáveis: sol, convite, água corrente, estaca)
+e **Golem de Ferro** (Fogo o **cura**, Raio o parte, e é imune a todo controle de posição).
+Quatro e não seis porque cada ficha Lendária tem o tamanho de três Comuns.
+
+Duas coisas ficaram **em aberto** e valem decisão: a **Ação de Lenda não aparece nas fichas**
+(é regra do Tier, e repetir em quatro cards seria o ruído que a régua manda cortar — mas é a
+mecânica que o Mestre mais esquece), e **um Lendário custa 30 Pontos de Ameaça** contra os 16
+de um encontro Mortal para 4 PJs: nenhum deles é encontro justo em nível 1–4, e isso não está
+escrito em lugar nenhum de *Montagem de Encontro*.
+
 **Leva 2, e o Bestiário vai a 18 (2026-08-03).** **Falcão-de-sangue** (ameaça aérea barata),
 **Bugbear** (alcance 2 casas, +2d8 contra Desprevenido), **Cubo Gelatinoso** (engole),
 **Mímico** (a sala é a armadilha), **Súcubo** e **Gigante da Colina** (arremessa personagem).

@@ -66,14 +66,19 @@ justifica se trouxer um **problema novo**, não outro saco de Vida:
 | **ataca a Defesa mental**; vira o grupo contra si | Súcubo *(leva 2)* |
 | arremessa pedra — e arremessa personagem | Gigante da Colina *(leva 2)* |
 
-**Levas 1 e 2 entregues em 2026-08-02/03** — as doze marcadas abaixo já estão em
-`docs/bestiario/index.md`. O Bestiário passou de 6 para **18 criaturas**.
+| o chefe conhecido, crescido | Dragão Vermelho Adulto *(leva 3)* |
+| matar não resolve: vira missão | Lich *(leva 3)* |
+| chefe com fraquezas investigáveis | Vampiro *(leva 3)* |
+| enigma de elemento; imune a controle | Golem de Ferro *(leva 3)* |
 
-O que sobrou de lacuna real, pra uma eventual leva 3: **petrificar** (Basilisco, Medusa —
+**Levas 1, 2 e 3 entregues em 2026-08-02/03** — as dezesseis marcadas abaixo já estão em
+`docs/bestiario/index.md`. O Bestiário passou de 6 para **22 criaturas**, e os quatro Tiers
+estão povoados.
+
+O que sobrou de lacuna real, pra uma eventual leva 4: **petrificar** (Basilisco, Medusa —
 precisaria de uma condição nova, que não existe no glossário), **criar servo** (Aparição),
-**possuir um personagem** (Fantasma), **frenesi que cresce** (Gnoll, Bárbaro), **material
-específico pra ferir** (Lobisomem) e a faixa **Lendária inteira**, que ainda não tem nenhuma
-criatura.
+**possuir um personagem** (Fantasma), **frenesi que cresce** (Gnoll, Bárbaro) e **material
+específico pra ferir** (Lobisomem).
 
 ## Sugestões, por banda de potência
 
@@ -134,10 +139,10 @@ fraca, a criatura provavelmente não vale uma ficha.
 
 | | Criatura | O que acrescenta |
 |---|---|---|
-| [ ] | Dragão Jovem / Adulto | a escada natural do Dragão Filhote |
-| [ ] | Vampiro | chefe social, regenera e cria servos |
-| [ ] | Lich | o arquimago morto-vivo: vilão de campanha inteira |
-| [ ] | Golem de Pedra / Ferro | construto imune a quase tudo — puzzle, não luta |
+| [x] | Dragão Vermelho Adulto | a escada natural do Dragão Filhote |
+| [x] | Vampiro | chefe social, regenera e cria servos |
+| [x] | Lich | o arquimago morto-vivo: vilão de campanha inteira |
+| [x] | Golem de Ferro | construto imune a quase tudo — puzzle, não luta |
 | [ ] | Treant | guardião: a floresta inteira reage |
 | [ ] | Roc | escala pura — a ave que carrega o grupo embora |
 | [ ] | Kraken | chefe de mar aberto |
