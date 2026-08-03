@@ -24,6 +24,17 @@ Cada criatura vale pontos conforme o [Tier](../mestre/criando-criaturas.md#como-
 
 Com 8 pontos (Padrão pra 4 PJs) você pode montar: **4 Comuns**, ou **1 Treinado + 2 Comuns**, ou **2 Treinados**. Com 16 (Mortal): **1 Formidável + 3 Comuns**, ou **4 Treinados**, ou **2 Treinados + 4 Comuns**.
 
+!!! cuidado "Um Lendário não cabe neste orçamento — e é de propósito"
+    Um Lendário custa **30 pontos**. O orçamento **Mortal** de um grupo de 4 é **16**. Não existe encontro equilibrado com um Lendário nessa mesa: ele é quase o dobro do que a tabela chama de "morte é resultado provável".
+
+    Isso não é erro de conta. Um Lendário é **clímax de campanha**, não sala de masmorra — o número dele diz exatamente isso. Pela conta, ele só entra em Mortal com **8 personagens**.
+
+    Se for usar com um grupo de 4 ou 5, saiba o que está fazendo:
+
+    - **troque a Vida** pela [faixa de nível](#vida-por-faixa-de-nivel) em que o grupo está — as fichas do Bestiário valem pro nível 1–4;
+    - **dê ao grupo mais do que "matar"**: terreno que ajude, um aliado, um objetivo que encerre a cena antes da Vida acabar, uma rota de fuga que continue sendo derrota mas não seja TPK;
+    - **conte com a rodada extra**: ele tem 5 ◈ e a [Ação de Lenda](criando-criaturas.md#acao-de-lenda), então age 6 vezes por rodada contra as 12 de um grupo de 4. É o único Tier que não se afoga em ações.
+
 ## Vida por faixa de nível
 
 A Vida no [Bestiário](../bestiario/index.md) é calibrada pra personagens de **nível 1 a 4**. Grupos mais fortes precisam de criaturas mais duras — não porque o goblin engordou, mas porque o dano do grupo cresceu:
