@@ -372,8 +372,12 @@ antes das criaturas. Entraram **Stirge, Gnoll, Ogro, Aparição, Fantasma, Hidra
   do **Exorcista** trocou Dissipar por Exorcismo (nível 3) e Aura de Defesa por Solo Consagrado
   (nível 13) — o pacote tinha o tema e nenhuma mecânica dele.
 
-**Petrificado** entrou logo depois, fechando a última lacuna que travava criatura (Basilisco e
-Medusa, ainda não escritos). Acumula em **graus** como o Exausto — 1 Lento, 2 Imóvel, 3 pedra
+**Petrificado** entrou logo depois, fechando a última lacuna que travava criatura — e
+**Basilisco e Medusa** saíram junto (o Bestiário vai a **31**), com o mesmo olhar dividido em
+dois papéis: ele escala num alvo só (Intensidade III sobe 2 graus), ela pega **todo mundo que
+a estiver vendo** por custo fixo e depois atira nas estátuas com Vantagem. Os dois trazem a
+mesma cláusula de contra-jogo — **desviar o olhar** dá imunidade ao Olhar e Desvantagem em
+todos os ataques do personagem enquanto durar. Acumula em **graus** como o Exausto — 1 Lento, 2 Imóvel, 3 pedra
 —, porque uma condição que tira o personagem do jogo de uma vez só não dá ao grupo chance de
 reagir. Remove 1 grau por **habilidade que cure Vida** (a Intensidade não importa: o que
 quebra a pedra é vida entrando) ou por descanso longo. No grau 3 o corpo resiste a dano

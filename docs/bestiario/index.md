@@ -456,6 +456,64 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 - Alcança com ataques corpo a corpo qualquer criatura a até **2 casas**.
 
+## Basilisco
+
+*Não olhe. É só isso que você precisa fazer.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +0
+- **Ataque:** +4 | **Defesa física:** 12 | **Defesa mental:** 11
+- **Atributos:** Força +3, Vitalidade +3, Agilidade +0, Inteligência -3, Sabedoria +1, Vontade +1, Sorte +0, Sanidade +0
+- **Couraça:** Escamada (+2)
+- **Movimento:** 6 casas
+
+**Mordida** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Perfurante](../glossario.md#perfurante)) e o alvo fica [Envenenado](../glossario.md#envenenado).
+
+**Olhar Petrificante** — +4 vs Defesa física | 1 criatura a até 6 casas que possa vê-lo
+
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** o alvo sobe **1 grau** de [Petrificado](../glossario.md#petrificado)
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** sobe 1 grau, e até o fim do próximo turno dele nenhuma cura remove grau nenhum
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** sobe **2 graus** de uma vez
+
+**Olhar Fixo** *(passiva)*
+
+- O Olhar só alcança quem pode vê-lo. Um personagem pode declarar, no início do turno, que luta **desviando o olhar**: fica imune ao Olhar até o próximo turno dele, e todos os ataques dele rolam com [Desvantagem](../glossario.md#desvantagem) enquanto isso.
+
+**Sangue Reversor** *(passiva)*
+
+- O sangue dele, ainda fresco, aplicado a um petrificado, remove **todos os graus** de uma vez. Serve uma vez por Basilisco abatido.
+
+## Medusa
+
+*Ela conversa primeiro. Ela prefere conversar.*
+
+- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
+- **Ataque:** +4 | **Defesa física:** 14 | **Defesa mental:** 13
+- **Atributos:** Força +2, Vitalidade +2, Agilidade +3, Inteligência +2, Sabedoria +2, Vontade +3, Sorte +1, Sanidade +0
+- **Couraça:** Coriácea (+1)
+- **Movimento:** 9 casas
+
+**Arco Longo** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura a até 12 casas
+
+- **2d6** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Cabeleira de Víboras** — ◈ | 0 Mana | +4 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Perfurante](../glossario.md#perfurante)) e o alvo fica [Envenenado](../glossario.md#envenenado).
+
+**Olhar da Medusa** — ◈◈◈ | 10 Mana | +4 vs Defesa física | toda criatura a até 4 casas que possa vê-la
+
+- Cada alvo sobe **1 grau** de [Petrificado](../glossario.md#petrificado). O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alvo.
+
+**Olhar Fixo** *(passiva)*
+
+- O Olhar só alcança quem pode vê-la. Um personagem pode declarar, no início do turno, que luta **desviando o olhar**: fica imune ao Olhar até o próximo turno dele, e todos os ataques dele rolam com [Desvantagem](../glossario.md#desvantagem) enquanto isso.
+
+**Mira Certeira** *(passiva)*
+
+- O Arco Longo ataca com [Vantagem](../glossario.md#vantagem) alvo [Petrificado](../glossario.md#petrificado) em qualquer grau — estátua não desvia.
+
 ## Aparição
 
 *Cada um que cai passa a servir.*
