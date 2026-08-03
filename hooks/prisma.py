@@ -849,6 +849,7 @@ TIERS = ("Comum", "Treinado", "Formidável", "Lendário")
 # numa grade fixa (sempre no mesmo lugar, mesmo valendo +0), o que muda a
 # resolução do dano, e só então traços e ações — cada uma em uma linha só.
 DESTAQUES_CRIATURA = (
+    "Ameaça",
     "Vida",
     "PA",
     "Defesa física",
@@ -1151,6 +1152,9 @@ def monta_card_criatura(s: Secao, acao_de_lenda: str = "") -> str:
                 "pa": pa_n,
                 "pa-nome": f"{'◈' * int(pa_n)} ({pa_n})" if pa_n else "",
                 "vida": re.sub(r"\D", "", vida),
+                # O que o Mestre gasta ao pôr a criatura na sala: vira slider
+                # de orçamento, do mesmo jeito que a Mana nas habilidades.
+                "ameaca": texto_puro(campos.get("Ameaça", "")),
             }
         ),
     )
@@ -2660,6 +2664,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
                 ("couraca", "Toda couraça", False),
                 ("pa", "Qualquer PA", False),
             ],
+            linha3=slider("ameaca", "Orçamento de encontro"),
         )
         return insere_barra(markdown, barra, '<div class="prg-card')
 

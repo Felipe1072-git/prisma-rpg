@@ -4,14 +4,23 @@ Quantas criaturas colocar na sala, e por quê.
 
 ## Pontos de Ameaça
 
-Cada criatura vale pontos conforme o [Tier](../mestre/criando-criaturas.md#como-ler-uma-ficha-de-criatura). Some os pontos do encontro e compare com o orçamento do grupo:
+**Cada criatura traz o próprio custo na ficha**, no campo **Ameaça**. Some os pontos do encontro e compare com o orçamento do grupo.
 
-| Tier | Pontos |
+Não é um número por Tier: dentro do mesmo Tier um [Sprite](../bestiario/index.md#bes-sprite) custa **2** e um [Enxame de Ratos](../bestiario/index.md#bes-enxame-de-ratos) custa **4**; um [Lich](../bestiario/index.md#bes-lich) custa **40** e um [Tarrasque](../bestiario/index.md#bes-tarrasque) custa **100**. A faixa de cada Tier, pra você ter a ordem de grandeza na cabeça:
+
+| Tier | Ameaça |
 |---|---|
-| Comum | 2 |
-| Treinado | 4 |
-| Formidável | 10 |
-| Lendário | 30 |
+| Comum | 2 a 5 |
+| Treinado | 5 a 10 |
+| Formidável | 15 a 28 |
+| Lendário | 40 a 100 |
+
+!!! mestre "De onde sai o número — e como precificar a sua criatura"
+    **Ameaça = Vida ÷ 10 + (dano por rodada) ÷ 5**, arredondado, mínimo 1. O *dano por rodada* é o PA da criatura vezes a média do ataque de rotina dela — um Goblin com 2 ◈ e 1d6 faz 7 por rodada.
+
+    Depois disso, **suba de 2 a 5 pontos** se um traço fizer mais do que dano: petrificar, possuir, engolir, ressurgir, criar servos, ou ser imune ao que o grupo tem. É por isso que o [Fantasma](../bestiario/index.md#bes-fantasma) custa 18 e a [Mantícora](../bestiario/index.md#bes-manticora), com números parecidos, custa 15.
+
+    Na listagem do [Bestiário](../bestiario/index.md) há um **controle de orçamento**: arraste e ele esconde tudo que não cabe no que você tem pra gastar.
 
 **Orçamento = pontos por personagem × número de personagens.**
 
@@ -22,17 +31,14 @@ Cada criatura vale pontos conforme o [Tier](../mestre/criando-criaturas.md#como-
 | **Difícil** | 3 | 12 pontos | recursos gastos de verdade; alguém pode cair |
 | **Mortal** | 4+ | 16+ pontos | morte é resultado provável, não acidente |
 
-Com 8 pontos (Padrão pra 4 PJs) você pode montar: **4 Comuns**, ou **1 Treinado + 2 Comuns**, ou **2 Treinados**. Com 16 (Mortal): **1 Formidável + 3 Comuns**, ou **4 Treinados**, ou **2 Treinados + 4 Comuns**.
+Com 8 pontos (Padrão pra 4 PJs) você pode montar: **4 Goblins**, ou **1 Bandido + 1 Goblin**, ou **1 Fogo-fátuo**. Com 16 (Mortal): **8 Goblins**, ou **1 Ogro + 3 Goblins**, ou **2 Bugbears**.
 
-!!! mestre "Os pontos medem função, não Vida"
-    Dentro de um mesmo Tier as fichas variam muito: um [Stirge](../bestiario/index.md#bes-stirge) tem **5** de Vida e um [Zumbi](../bestiario/index.md#bes-zumbi) tem **22** — os dois são Comuns e os dois custam **2 pontos**. Um [Lich](../bestiario/index.md#bes-lich) tem 200 e um [Tarrasque](../bestiario/index.md#bes-tarrasque) tem 680, e os dois custam 30.
-
-    Isso é de propósito: o Tier responde *"quanta atenção esse bicho merece na mesa"*, e é isso que o orçamento conta. Mas significa que **os pontos são uma primeira aproximação, não uma balança**. Ao montar com criaturas do topo da faixa do Tier (o Cubo, o Bárbaro, o Tarrasque), conte um degrau de dificuldade a mais.
+Repare que **um Formidável sozinho já passa de Mortal** pra um grupo de 4: o mais barato deles, a Mantícora, custa 15. Chefe de verdade é encontro de fim de arco, não sala de masmorra — e o Lendário tem o aviso próprio logo abaixo.
 
 !!! cuidado "Um Lendário não cabe neste orçamento — e é de propósito"
-    Um Lendário custa **30 pontos**. O orçamento **Mortal** de um grupo de 4 é **16**. Não existe encontro equilibrado com um Lendário nessa mesa: ele é quase o dobro do que a tabela chama de "morte é resultado provável".
+Um Lendário custa de **40 a 100 pontos**. O orçamento **Mortal** de um grupo de 4 é **16**. Não existe encontro equilibrado com um Lendário nessa mesa: o mais barato deles, o Lich, é duas vezes e meia o que a tabela chama de "morte é resultado provável". O [Tarrasque](../bestiario/index.md#bes-tarrasque), a **seis vezes**.
 
-    Isso não é erro de conta. Um Lendário é **clímax de campanha**, não sala de masmorra — o número dele diz exatamente isso. Pela conta, ele só entra em Mortal com **8 personagens**.
+    Isso não é erro de conta. Um Lendário é **clímax de campanha**, não sala de masmorra — o número dele diz exatamente isso. Pela conta, o Lich só entra em Mortal com **10 personagens**, e o Tarrasque com **25**.
 
     Se for usar com um grupo de 4 ou 5, saiba o que está fazendo:
 
@@ -66,7 +72,7 @@ Vale saber antes de montar a primeira sala, porque contraria o instinto de quem 
 
 A maioria dos Comuns morre em um ou dois golpes. Eles **não** existem pra absorver dano — existem pra ocupar espaço, forçar posicionamento e gastar o turno de alguém. Quatro goblins contra um grupo de nível 1 causam cerca de **28 de dano por rodada** — cada um ataca duas vezes assim que fecha a distância —, o suficiente pra derrubar metade do grupo em duas rodadas, e ainda assim são limpos em uma ou duas. É um encontro tenso e rápido, e é assim que capanga funciona aqui.
 
-A exceção prova a regra: [Zumbi](../bestiario/index.md#bes-zumbi), [Slime](../bestiario/index.md#bes-slime) e [Enxame de Ratos](../bestiario/index.md#bes-enxame-de-ratos) têm mais de **20** de Vida sendo Comuns. Eles custam os mesmos 2 pontos e ocupam o mesmo espaço, mas o grupo **não** os limpa numa rodada — e é isso que os torna um problema diferente, não um goblin com outro nome.
+A exceção prova a regra: [Zumbi](../bestiario/index.md#bes-zumbi), [Slime](../bestiario/index.md#bes-slime) e [Enxame de Ratos](../bestiario/index.md#bes-enxame-de-ratos) têm mais de **20** de Vida sendo Comuns — e custam o dobro de um Goblin (4 a 5 pontos) justamente por isso. Eles ocupam o mesmo espaço no mapa, mas o grupo **não** os limpa numa rodada: são um problema diferente, não um goblin com outro nome.
 
 ### A janela entre trivial e mortal é estreita
 
@@ -82,7 +88,7 @@ Um Formidável ou Lendário isolado sofre o problema clássico: o grupo tem 12 P
 
 Três correções, do mais simples pro mais elaborado:
 
-- **Escolte o chefe.** Um Formidável + 3 Comuns custa 16 pontos e joga muito melhor que um Formidável de 10 pontos sozinho — os capangas gastam os turnos do grupo enquanto o chefe age.
+- **Escolte o chefe.** Um Formidável + 3 Goblins custa 6 pontos a mais e joga muito melhor que o mesmo Formidável sozinho — os capangas gastam os turnos do grupo enquanto o chefe age.
 - **Use a Ação de Lenda.** Exclusiva do Tier Lendário: uma vez por rodada, fora do próprio turno, o chefe usa uma habilidade pagando o custo normal. Sobe de 5 para efetivamente 6 ações e quebra a sensação de "boneco de pancadaria".
 - **Deixe o chefe usar Intensidade III.** É a diferença entre chefe e capanga: [Intensidade](../habilidades/regras.md#intensidade) III derruba, atordoa e nega o turno de um personagem. Um chefe que gasta o turno inteiro pra tirar um PJ da rodada compra tempo — vale mais que a diferença de dano.
 
@@ -98,18 +104,18 @@ Montados com o orçamento acima, para um grupo de 4.
 
 **Emboscada na Estrada** — nível 1–2, Padrão (8 pontos)
 
-- 1 [Bandido](../bestiario/index.md#bes-bandido) (4) + 2 [Lobos](../bestiario/index.md#bes-lobo) (4). Os Lobos correm 8 casas e vão atrás de quem se afastou; o Bandido usa Recuar e Atirar pra manter distância. Ensina posicionamento sem punir demais.
+- 1 [Bandido](../bestiario/index.md#bes-bandido) (6) + 1 [Lobo](../bestiario/index.md#bes-lobo) (3) = **9**. O Lobo corre 10 casas e vai atrás de quem se afastou; o Bandido usa Recuar e Atirar pra manter distância. Ensina posicionamento sem punir demais.
 
 **Cripta Rasa** — nível 3–5, Difícil (12 pontos)
 
 *(Nos exemplos, use a [Vida da faixa](#vida-por-faixa-de-nivel) em que o grupo realmente está — as fichas do Bestiário valem pro nível 1-4; na metade de cima da faixa anunciada, ajuste.)*
 
-- 3 [Esqueletos](../bestiario/index.md#bes-esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano) na prática.
+- 2 [Esqueletos](../bestiario/index.md#bes-esqueleto) (12). Se o grupo não tiver nenhuma arma de [Impacto](../glossario.md#impacto), a luta vira o dobro do trabalho — e a passiva Remontar garante que um deles volte. É o encontro que ensina a tabela de [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano) na prática.
 
-**Ninho** — nível 4–6, Mortal (16 pontos)
+**Ninho** — nível 4–6, **muito além de Mortal (24 pontos)**
 
-- 1 [Dragão Filhote](../bestiario/index.md#bes-dragao-filhote) (10) + 3 [Goblins](../bestiario/index.md#bes-goblin) (6) que o servem. Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. Chefe escoltado, do jeito certo.
+- 1 [Dragão Filhote](../bestiario/index.md#bes-dragao-filhote) (18) + 3 [Goblins](../bestiario/index.md#bes-goblin) (6). Os Goblins forçam o grupo a se espalhar; o Dragão pune quem se agrupou com a Baforada em cone. É chefe escoltado do jeito certo — e é **encontro de fim de arco**, não sala de passagem: um grupo de 4 tem orçamento Mortal de 16, e isso aqui é 24.
 
-**O Poço** — nível 2–4, **abaixo do Padrão no papel (6 pontos), Difícil na prática**
+**O Poço** — nível 2–4, **Padrão no papel (12 pontos), Difícil na prática**
 
 - 3 [Slimes](../bestiario/index.md#bes-slime) num corredor estreito. É o encontro que mostra o limite dos Pontos de Ameaça: cada golpe **cortante ou perfurante** divide o Slime, então um grupo de espadachins termina lutando contra oito criaturas em vez de três. Quem trouxe martelo passa fácil. Sempre que uma criatura se multiplica, se cura ou revive, os pontos subestimam o encontro — conte o dobro.

@@ -395,9 +395,12 @@ Três coisas mudaram de status junto:
 - A tabela de construção virou **andaime declarado** (`criando-criaturas.md`): monta criatura
   nova em trinta segundos, **não descreve** as que existem. E **na ficha o número é o número** —
   as fórmulas (Base + Agilidade + Couraça, 6 + Agilidade) não recalculam ficha pronta.
-- Os **Pontos de Ameaça viraram primeira aproximação**: Stirge (5 de Vida) e Zumbi (22) custam
-  os mesmos 2. A nota em *Montagem de Encontro* manda contar um degrau a mais quando o encontro
-  usa criaturas do topo da faixa.
+- Os **Pontos de Ameaça deixaram de ser por Tier**: cada ficha traz o próprio campo
+  **`**Ameaça:** N`**, que vira o primeiro tile do card e um **slider de orçamento** na barra
+  (arraste pra 8 e a listagem esconde tudo que não cabe num encontro Padrão). A fórmula está
+  escrita em *Montagem de Encontro*: **Vida ÷ 10 + dano por rodada ÷ 5**, +2 a +5 quando um
+  traço faz mais que dano. Faixas: Comum 2–5, Treinado 5–10, Formidável 15–28, Lendário
+  40–100. Um Formidável sozinho já passa do Mortal de um grupo de 4.
 - A tabela **Vida por faixa de nível** virou proporção: multiplique a Vida da ficha, não troque
   pelo número da coluna.
 

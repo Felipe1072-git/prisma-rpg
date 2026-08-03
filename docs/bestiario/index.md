@@ -10,7 +10,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Baixo, magro e covarde sozinho — mas eles nunca estão sozinhos.*
 
-- **Tier:** Comum | **Vida:** 7 | **PA:** ◈◈ (2) | **Iniciativa:** +3
+- **Tier:** Comum | **Ameaça:** 2 | **Vida:** 7 | **PA:** ◈◈ (2) | **Iniciativa:** +3
 - **Ataque:** +3 | **Defesa física:** 11 | **Defesa mental:** 8
 - **Atributos:** Agilidade +3, Vitalidade -1 | **Couraça:** Coriácea (+1)
 - **Movimento:** 8 casas
@@ -31,7 +31,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ele não ataca o mais forte do grupo. Ataca o que se afastou.*
 
-- **Tier:** Comum | **Vida:** 11 | **PA:** ◈◈ (2) | **Iniciativa:** +4
+- **Tier:** Comum | **Ameaça:** 3 | **Vida:** 11 | **PA:** ◈◈ (2) | **Iniciativa:** +4
 - **Ataque:** +4 | **Defesa física:** 13 | **Defesa mental:** 8
 - **Atributos:** Agilidade +4, Vitalidade +1, Sabedoria +2 | **Couraça:** Coriácea (+1)
 - **Movimento:** 10 casas
@@ -52,7 +52,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Sabe exatamente onde doer, e cobra pela informação.*
 
-- **Tier:** Treinado | **Vida:** 28 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
+- **Tier:** Treinado | **Ameaça:** 6 | **Vida:** 28 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
 - **Ataque:** +4 | **Defesa física:** 12 | **Defesa mental:** 10
 - **Atributos:** Força +2, Agilidade +3, Vitalidade +2, Vontade +1 | **Couraça:** Coriácea (+1)
 - **Movimento:** 8 casas
@@ -73,7 +73,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Cortar não resolve. Ele não tem o que sangrar.*
 
-- **Tier:** Treinado | **Vida:** 20 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
+- **Tier:** Treinado | **Ameaça:** 6 | **Vida:** 20 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
 - **Ataque:** +4 | **Defesa física:** 14 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Força +2, Agilidade +2, Vitalidade +3 | **Couraça:** Escamada (+2, ossos e escudo velho)
 - **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental** (medo, charme, provocação, ilusão)
@@ -97,7 +97,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Bater com a espada só faz dois problemas onde havia um.*
 
-- **Tier:** Comum | **Vida:** 22 | **PA:** ◈◈ (2) | **Iniciativa:** -2
+- **Tier:** Comum | **Ameaça:** 4 | **Vida:** 22 | **PA:** ◈◈ (2) | **Iniciativa:** -2
 - **Ataque:** +2 | **Defesa física:** 5 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Vitalidade +4, Agilidade -2 | **Couraça:** Nenhuma (+0)
 - **Imunidades:** derrubar, empurrar, [Sangrando](../glossario.md#sangrando), veneno, e **todo efeito mental**
@@ -116,7 +116,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ele vê o ferido de cima, e desce.*
 
-- **Tier:** Comum | **Vida:** 7 | **PA:** ◈◈ (2) | **Iniciativa:** +4
+- **Tier:** Comum | **Ameaça:** 2 | **Vida:** 7 | **PA:** ◈◈ (2) | **Iniciativa:** +4
 - **Ataque:** +4 | **Defesa física:** 12 | **Defesa mental:** 8
 - **Atributos:** Agilidade +4, Vitalidade -1 | **Couraça:** Nenhuma (+0)
 - **Movimento:** 10 casas | **Voo:** 10 casas
@@ -133,7 +133,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Uma você nem sente. Seis, você sente.*
 
-- **Tier:** Comum | **Vida:** 5 | **PA:** ◈◈ (2) | **Iniciativa:** +5
+- **Tier:** Comum | **Ameaça:** 2 | **Vida:** 5 | **PA:** ◈◈ (2) | **Iniciativa:** +5
 - **Ataque:** +5 | **Defesa física:** 14 | **Defesa mental:** 8
 - **Atributos:** Agilidade +5, Vitalidade -2 | **Couraça:** Nenhuma (+0)
 - **Movimento:** 10 casas | **Voo:** 10 casas
@@ -150,7 +150,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ele chegou antes. O corredor já é dele.*
 
-- **Tier:** Comum | **Vida:** 5 | **PA:** ◈◈ (2) | **Iniciativa:** +4
+- **Tier:** Comum | **Ameaça:** 2 | **Vida:** 5 | **PA:** ◈◈ (2) | **Iniciativa:** +4
 - **Ataque:** +4 | **Defesa física:** 12 | **Defesa mental:** 7
 - **Atributos:** Agilidade +4, Inteligência +1, Vitalidade -2 | **Couraça:** Coriácea (+1)
 - **Movimento:** 9 casas
@@ -167,7 +167,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Você não vai morrer. Vai acordar sem nada.*
 
-- **Tier:** Comum | **Vida:** 4 | **PA:** ◈◈ (2) | **Iniciativa:** +5
+- **Tier:** Comum | **Ameaça:** 2 | **Vida:** 4 | **PA:** ◈◈ (2) | **Iniciativa:** +5
 - **Ataque:** +6 | **Defesa física:** 15 | **Defesa mental:** 9
 - **Atributos:** Agilidade +6, Sabedoria +2, Vitalidade -3 | **Couraça:** Nenhuma (+0)
 - **Movimento:** 10 casas | **Voo:** 10 casas
@@ -184,7 +184,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ele já morreu uma vez. Não tem pressa nenhuma.*
 
-- **Tier:** Comum | **Vida:** 22 | **PA:** ◈◈ (2) | **Iniciativa:** -2
+- **Tier:** Comum | **Ameaça:** 5 | **Vida:** 22 | **PA:** ◈◈ (2) | **Iniciativa:** -2
 - **Ataque:** +3 | **Defesa física:** 6 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Força +2, Vitalidade +4, Agilidade -2 | **Couraça:** Nenhuma (+0)
 - **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental**
@@ -202,7 +202,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Não é um bicho. É o chão se movendo.*
 
-- **Tier:** Comum | **Vida:** 24 | **PA:** ◈◈ (2) | **Iniciativa:** +3
+- **Tier:** Comum | **Ameaça:** 4 | **Vida:** 24 | **PA:** ◈◈ (2) | **Iniciativa:** +3
 - **Ataque:** +3 | **Defesa física:** 10 | **Defesa mental:** 8
 - **Atributos:** Agilidade +3, Vitalidade +1 | **Couraça:** Nenhuma (+0)
 - **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto)
@@ -220,7 +220,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ele não procura a melhor posição. Procura a mais curta.*
 
-- **Tier:** Treinado | **Vida:** 24 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
+- **Tier:** Treinado | **Ameaça:** 6 | **Vida:** 24 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
 - **Ataque:** +5 | **Defesa física:** 13 | **Defesa mental:** 10
 - **Atributos:** Força +5, Vitalidade +3, Agilidade +2, Vontade +1 | **Couraça:** Coriácea (+1)
 - **Movimento:** 8 casas
@@ -237,7 +237,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *O primeiro que ele pega para de se mexer.*
 
-- **Tier:** Treinado | **Vida:** 26 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
+- **Tier:** Treinado | **Ameaça:** 7 | **Vida:** 26 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
 - **Ataque:** +4 | **Defesa física:** 12 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Agilidade +3, Força +2, Vitalidade +2 | **Couraça:** Nenhuma (+0)
 - **Imunidades:** [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental**
@@ -259,7 +259,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *A parede não é obstáculo. É caminho.*
 
-- **Tier:** Treinado | **Vida:** 20 | **PA:** ◈◈◈ (3) | **Iniciativa:** +4
+- **Tier:** Treinado | **Ameaça:** 5 | **Vida:** 20 | **PA:** ◈◈◈ (3) | **Iniciativa:** +4
 - **Ataque:** +4 | **Defesa física:** 13 | **Defesa mental:** 10
 - **Atributos:** Agilidade +4, Vontade +2 | **Couraça:** Nenhuma (+0)
 - **Imunidades:** [Sangrando](../glossario.md#sangrando), veneno, doença, [agarrar](../glossario.md#agarrado) e [empurrar](../glossario.md#empurrar-e-puxar)
@@ -282,7 +282,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ele não comemora o abate. Ele acelera.*
 
-- **Tier:** Treinado | **Vida:** 26 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
+- **Tier:** Treinado | **Ameaça:** 6 | **Vida:** 26 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
 - **Ataque:** +5 | **Defesa física:** 14 | **Defesa mental:** 9
 - **Atributos:** Força +4, Agilidade +3, Vitalidade +2 | **Couraça:** Coriácea (+1)
 - **Movimento:** 9 casas
@@ -299,7 +299,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ele acerta uma vez em três. É o suficiente.*
 
-- **Tier:** Treinado | **Vida:** 50 | **PA:** ◈◈◈ (3) | **Iniciativa:** +0
+- **Tier:** Treinado | **Ameaça:** 10 | **Vida:** 50 | **PA:** ◈◈◈ (3) | **Iniciativa:** +0
 - **Ataque:** +6 | **Defesa física:** 10 | **Defesa mental:** 8
 - **Atributos:** Força +6, Vitalidade +5, Agilidade -1, Inteligência -2 | **Couraça:** Coriácea (+1)
 - **Movimento:** 7 casas
@@ -320,7 +320,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ele não grita. Aponta, e a linha se move.*
 
-- **Tier:** Treinado | **Vida:** 24 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
+- **Tier:** Treinado | **Ameaça:** 6 | **Vida:** 24 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
 - **Ataque:** +4 | **Defesa física:** 16 | **Defesa mental:** 11
 - **Atributos:** Força +3, Vitalidade +2, Vontade +3, Agilidade +1 | **Couraça:** Escamada (+2)
 - **Movimento:** 7 casas
@@ -341,7 +341,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *O telhado tinha quatro estátuas. Agora tem três.*
 
-- **Tier:** Treinado | **Vida:** 45 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
+- **Tier:** Treinado | **Ameaça:** 9 | **Vida:** 45 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
 - **Ataque:** +4 | **Defesa física:** 15 | **Defesa mental:** 9
 - **Atributos:** Força +3, Vitalidade +4, Agilidade +1 | **Couraça:** Blindada (+3)
 - **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno e doença
@@ -360,7 +360,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Cada corte é um argumento a favor dele.*
 
-- **Tier:** Treinado | **Vida:** 55 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
+- **Tier:** Treinado | **Ameaça:** 9 | **Vida:** 55 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
 - **Ataque:** +5 | **Defesa física:** 12 | **Defesa mental:** 9
 - **Atributos:** Força +5, Vitalidade +5, Agilidade +2 | **Couraça:** Coriácea (+1)
 - **Movimento:** 8 casas
@@ -381,7 +381,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *A luz estava ali pra ajudar. Foi o que você quis acreditar.*
 
-- **Tier:** Treinado | **Vida:** 22 | **PA:** ◈◈◈ (3) | **Iniciativa:** +4
+- **Tier:** Treinado | **Ameaça:** 8 | **Vida:** 22 | **PA:** ◈◈◈ (3) | **Iniciativa:** +4
 - **Ataque:** +4 | **Defesa física:** 18 | **Defesa mental:** 12
 - **Atributos:** Agilidade +6, Inteligência +3, Vontade +3, Vitalidade -2 | **Couraça:** Nenhuma (+0)
 - **Imunidades:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante), [Impacto](../glossario.md#impacto), [Sangrando](../glossario.md#sangrando), veneno, [derrubar](../glossario.md#derrubado), [empurrar](../glossario.md#empurrar-e-puxar) e [agarrar](../glossario.md#agarrado) — só dano [Arcano](../glossario.md#arcano) e elemental o fere
@@ -403,7 +403,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Você não vê o primeiro golpe. É o único que importa.*
 
-- **Tier:** Treinado | **Vida:** 32 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
+- **Tier:** Treinado | **Ameaça:** 9 | **Vida:** 32 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
 - **Ataque:** +5 | **Defesa física:** 15 | **Defesa mental:** 9
 - **Atributos:** Força +4, Agilidade +3, Vitalidade +2 | **Couraça:** Coriácea (+1)
 - **Movimento:** 9 casas
@@ -424,7 +424,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *O corredor está limpo demais.*
 
-- **Tier:** Treinado | **Vida:** 60 | **PA:** ◈ (1) | **Iniciativa:** -3
+- **Tier:** Treinado | **Ameaça:** 7 | **Vida:** 60 | **PA:** ◈ (1) | **Iniciativa:** -3
 - **Ataque:** +4 | **Defesa física:** 5 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Vitalidade +6, Agilidade -3 | **Couraça:** Nenhuma (+0)
 - **Imunidades:** [derrubar](../glossario.md#derrubado), [empurrar](../glossario.md#empurrar-e-puxar), [Sangrando](../glossario.md#sangrando), veneno, e **todo efeito mental**
@@ -442,7 +442,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *O baú estava trancado. Por dentro.*
 
-- **Tier:** Treinado | **Vida:** 45 | **PA:** ◈◈◈ (3) | **Iniciativa:** +1
+- **Tier:** Treinado | **Ameaça:** 9 | **Vida:** 45 | **PA:** ◈◈◈ (3) | **Iniciativa:** +1
 - **Ataque:** +5 | **Defesa física:** 13 | **Defesa mental:** 10
 - **Atributos:** Força +4, Vitalidade +4, Agilidade +0 | **Couraça:** Escamada (+2)
 - **Movimento:** 6 casas
@@ -463,7 +463,7 @@ As regras de como ler e como montar uma criatura estão em
 
 *Ainda não voa bem. Já queima tudo.*
 
-- **Tier:** Formidável | **Vida:** 90 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Tier:** Formidável | **Ameaça:** 18 | **Vida:** 90 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
 - **Ataque:** +6 | **Defesa física:** 17 | **Defesa mental:** 14
 - **Atributos:** Força +5, Vitalidade +5, Agilidade +3, Inteligência +3, Sabedoria +2, Vontade +3, Sorte +0, Sanidade +2
 - **Couraça:** Blindada (+3) | **Resistência:** fogo
@@ -493,7 +493,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Corte o quanto quiser. Ele tem a tarde inteira.*
 
-- **Tier:** Formidável | **Vida:** 84 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
+- **Tier:** Formidável | **Ameaça:** 20 | **Vida:** 84 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
 - **Ataque:** +7 | **Defesa física:** 15 | **Defesa mental:** 11
 - **Atributos:** Força +6, Vitalidade +6, Agilidade +2, Inteligência -2, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Escamada (+2) | **Vulnerabilidade:** [Fogo](../habilidades/magicas-elementais.md#fogo)
@@ -521,7 +521,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ela não precisa que você perca a luta. Precisa que você não comece.*
 
-- **Tier:** Formidável | **Vida:** 70 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
+- **Tier:** Formidável | **Ameaça:** 18 | **Vida:** 70 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
 - **Ataque:** +6 | **Defesa física:** 15 | **Defesa mental:** 17
 - **Atributos:** Força +0, Vitalidade +2, Agilidade +4, Inteligência +4, Sabedoria +4, Vontade +7, Sorte +2, Sanidade +1
 - **Couraça:** Nenhuma (+0)
@@ -549,7 +549,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Se não alcança, ele joga alguma coisa. Às vezes é você.*
 
-- **Tier:** Formidável | **Vida:** 110 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +0
+- **Tier:** Formidável | **Ameaça:** 22 | **Vida:** 110 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +0
 - **Ataque:** +8 | **Defesa física:** 14 | **Defesa mental:** 10
 - **Atributos:** Força +7, Vitalidade +6, Agilidade +0, Inteligência -3, Sabedoria +0, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Escamada (+2)
@@ -577,7 +577,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Não há plano. Há fome, e você está perto.*
 
-- **Tier:** Formidável | **Vida:** 75 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
+- **Tier:** Formidável | **Ameaça:** 16 | **Vida:** 75 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
 - **Ataque:** +7 | **Defesa física:** 13 | **Defesa mental:** 9
 - **Atributos:** Força +6, Vitalidade +5, Agilidade +2, Inteligência -3, Sabedoria +2, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Coriácea (+1)
@@ -605,7 +605,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ela não desce. Não precisa.*
 
-- **Tier:** Formidável | **Vida:** 70 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
+- **Tier:** Formidável | **Ameaça:** 15 | **Vida:** 70 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
 - **Ataque:** +6 | **Defesa física:** 15 | **Defesa mental:** 10
 - **Atributos:** Força +4, Vitalidade +3, Agilidade +4, Inteligência +0, Sabedoria +2, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Coriácea (+1)
@@ -629,7 +629,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *O que ela guarda não é ouro.*
 
-- **Tier:** Formidável | **Vida:** 70 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** -1
+- **Tier:** Formidável | **Ameaça:** 18 | **Vida:** 70 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** -1
 - **Ataque:** +6 | **Defesa física:** 12 | **Defesa mental:** 16
 - **Atributos:** Força +5, Vitalidade +4, Agilidade -1, Inteligência +1, Sabedoria +3, Vontade +5, Sorte +0, Sanidade +0
 - **Couraça:** Escamada (+2)
@@ -655,7 +655,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *O frio chega antes dele.*
 
-- **Tier:** Formidável | **Vida:** 80 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Tier:** Formidável | **Ameaça:** 16 | **Vida:** 80 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
 - **Ataque:** +6 | **Defesa física:** 14 | **Defesa mental:** 11
 - **Atributos:** Força +5, Vitalidade +4, Agilidade +3, Inteligência +0, Sabedoria +3, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Coriácea (+1)
@@ -680,7 +680,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *O ferrão chega depois das garras. É o que importa.*
 
-- **Tier:** Formidável | **Vida:** 95 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
+- **Tier:** Formidável | **Ameaça:** 18 | **Vida:** 95 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
 - **Ataque:** +7 | **Defesa física:** 15 | **Defesa mental:** 10
 - **Atributos:** Força +5, Vitalidade +4, Agilidade +4, Inteligência -2, Sabedoria +2, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Escamada (+2)
@@ -704,7 +704,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Três fomes, um corpo, nenhuma negociação.*
 
-- **Tier:** Formidável | **Vida:** 110 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Tier:** Formidável | **Ameaça:** 19 | **Vida:** 110 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
 - **Ataque:** +7 | **Defesa física:** 15 | **Defesa mental:** 10
 - **Atributos:** Força +5, Vitalidade +5, Agilidade +3, Inteligência -2, Sabedoria +2, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Escamada (+2)
@@ -726,7 +726,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ele oferece o acordo primeiro. E cumpre, também.*
 
-- **Tier:** Formidável | **Vida:** 100 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
+- **Tier:** Formidável | **Ameaça:** 18 | **Vida:** 100 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
 - **Ataque:** +7 | **Defesa física:** 16 | **Defesa mental:** 16
 - **Atributos:** Força +5, Vitalidade +5, Agilidade +2, Inteligência +3, Sabedoria +3, Vontade +5, Sorte +0, Sanidade +2
 - **Couraça:** Escamada (+2)
@@ -754,7 +754,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ele não carrega fogo. Ele é o fogo — e fogo não para de comer.*
 
-- **Tier:** Formidável | **Vida:** 100 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
+- **Tier:** Formidável | **Ameaça:** 18 | **Vida:** 100 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
 - **Ataque:** +6 | **Defesa física:** 14 | **Defesa mental:** 10
 - **Atributos:** Força +3, Vitalidade +5, Agilidade +4, Inteligência +1, Sabedoria +0, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Nenhuma (+0)
@@ -784,7 +784,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *A corrente não empurra. Ela chama.*
 
-- **Tier:** Formidável | **Vida:** 115 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Tier:** Formidável | **Ameaça:** 20 | **Vida:** 115 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
 - **Ataque:** +6 | **Defesa física:** 14 | **Defesa mental:** 10
 - **Atributos:** Força +4, Vitalidade +6, Agilidade +3, Inteligência +0, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Nenhuma (+0)
@@ -814,7 +814,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ele não persegue. Ele fecha o caminho.*
 
-- **Tier:** Formidável | **Vida:** 125 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +0
+- **Tier:** Formidável | **Ameaça:** 21 | **Vida:** 125 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +0
 - **Ataque:** +7 | **Defesa física:** 18 | **Defesa mental:** 10
 - **Atributos:** Força +6, Vitalidade +7, Agilidade +0, Inteligência +0, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Dracônica (+4)
@@ -844,7 +844,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Você não perde a luta pra ele. Perde a posição.*
 
-- **Tier:** Formidável | **Vida:** 90 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +5
+- **Tier:** Formidável | **Ameaça:** 17 | **Vida:** 90 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +5
 - **Ataque:** +6 | **Defesa física:** 16 | **Defesa mental:** 10
 - **Atributos:** Força +2, Vitalidade +4, Agilidade +6, Inteligência +0, Sabedoria +1, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Nenhuma (+0)
@@ -870,7 +870,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Não olhe. É só isso que você precisa fazer.*
 
-- **Tier:** Formidável | **Vida:** 65 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +1
+- **Tier:** Formidável | **Ameaça:** 18 | **Vida:** 65 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +1
 - **Ataque:** +6 | **Defesa física:** 16 | **Defesa mental:** 11
 - **Atributos:** Força +4, Vitalidade +4, Agilidade +1, Inteligência -3, Sabedoria +2, Vontade +1, Sorte +0, Sanidade +0
 - **Couraça:** Escamada (+2)
@@ -898,7 +898,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ela conversa primeiro. Ela prefere conversar.*
 
-- **Tier:** Formidável | **Vida:** 90 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +5
+- **Tier:** Formidável | **Ameaça:** 20 | **Vida:** 90 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +5
 - **Ataque:** +7 | **Defesa física:** 15 | **Defesa mental:** 15
 - **Atributos:** Força +3, Vitalidade +3, Agilidade +5, Inteligência +3, Sabedoria +3, Vontade +5, Sorte +1, Sanidade +0
 - **Couraça:** Coriácea (+1)
@@ -928,7 +928,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Cada um que cai passa a servir.*
 
-- **Tier:** Formidável | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
+- **Tier:** Formidável | **Ameaça:** 17 | **Vida:** 60 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +3
 - **Ataque:** +6 | **Defesa física:** 15 | **Defesa mental:** 14
 - **Atributos:** Força +4, Vitalidade +4, Agilidade +3, Inteligência +2, Sabedoria +2, Vontade +4, Sorte +0, Sanidade +0
 - **Couraça:** Escamada (+2)
@@ -957,7 +957,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ele não quer te matar. Quer o teu corpo.*
 
-- **Tier:** Formidável | **Vida:** 55 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +5
+- **Tier:** Formidável | **Ameaça:** 18 | **Vida:** 55 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +5
 - **Ataque:** +6 | **Defesa física:** 12 | **Defesa mental:** 15
 - **Atributos:** Força +0, Vitalidade +2, Agilidade +5, Inteligência +3, Sabedoria +3, Vontade +5, Sorte +0, Sanidade +0
 - **Couraça:** Nenhuma (+0)
@@ -987,7 +987,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Cortaram três. Voltaram seis.*
 
-- **Tier:** Formidável | **Vida:** 150 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
+- **Tier:** Formidável | **Ameaça:** 28 | **Vida:** 150 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
 - **Ataque:** +8 | **Defesa física:** 15 | **Defesa mental:** 10
 - **Atributos:** Força +5, Vitalidade +7, Agilidade +2, Inteligência -3, Sabedoria +2, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Escamada (+2)
@@ -1014,7 +1014,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *A aldeia inteira sabe quem é. Ninguém tem prata.*
 
-- **Tier:** Formidável | **Vida:** 70 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
+- **Tier:** Formidável | **Ameaça:** 15 | **Vida:** 70 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +4
 - **Ataque:** +7 | **Defesa física:** 15 | **Defesa mental:** 12
 - **Atributos:** Força +5, Vitalidade +5, Agilidade +4, Inteligência +0, Sabedoria +3, Vontade +1, Sorte +0, Sanidade -1
 - **Couraça:** Coriácea (+1)
@@ -1043,7 +1043,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *O filhote aprendeu a voar. E a esperar.*
 
-- **Tier:** Lendário | **Vida:** 320 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +4
+- **Tier:** Lendário | **Ameaça:** 55 | **Vida:** 320 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +4
 - **Ataque:** +12 | **Defesa física:** 22 | **Defesa mental:** 20
 - **Atributos:** Força +7, Vitalidade +7, Agilidade +4, Inteligência +5, Sabedoria +4, Vontade +6, Sorte +2, Sanidade +4
 - **Couraça:** Dracônica (+4) | **Imunidade:** [Fogo](../habilidades/magicas-elementais.md#fogo)
@@ -1075,7 +1075,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ele já perdeu esta luta antes. Não fez diferença.*
 
-- **Tier:** Lendário | **Vida:** 200 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +5
+- **Tier:** Lendário | **Ameaça:** 40 | **Vida:** 200 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +5
 - **Ataque:** +12 | **Defesa física:** 19 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Força -1, Vitalidade +2, Agilidade +3, Inteligência +8, Sabedoria +5, Vontade +6, Sorte +2, Sanidade +6
 - **Couraça:** Escamada (+2)
@@ -1109,7 +1109,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ele te convidou para entrar. Isso já foi o ataque.*
 
-- **Tier:** Lendário | **Vida:** 240 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +7
+- **Tier:** Lendário | **Ameaça:** 45 | **Vida:** 240 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +7
 - **Ataque:** +11 | **Defesa física:** 20 | **Defesa mental:** 19
 - **Atributos:** Força +6, Vitalidade +5, Agilidade +6, Inteligência +4, Sabedoria +4, Vontade +5, Sorte +3, Sanidade +3
 - **Couraça:** Escamada (+2)
@@ -1145,7 +1145,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ele não te odeia. Ele recebeu uma ordem.*
 
-- **Tier:** Lendário | **Vida:** 280 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** -1
+- **Tier:** Lendário | **Ameaça:** 45 | **Vida:** 280 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** -1
 - **Ataque:** +12 | **Defesa física:** 23 | **Defesa mental:** imune a efeito mental
 - **Atributos:** Força +7, Vitalidade +8, Agilidade -1, Inteligência -3, Sabedoria +0, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Dracônica (+4)
@@ -1175,7 +1175,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *A floresta não reage porque ele mandou. Ele é a floresta.*
 
-- **Tier:** Lendário | **Vida:** 300 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** -1
+- **Tier:** Lendário | **Ameaça:** 55 | **Vida:** 300 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** -1
 - **Ataque:** +11 | **Defesa física:** 20 | **Defesa mental:** 18
 - **Atributos:** Força +7, Vitalidade +7, Agilidade -1, Inteligência +3, Sabedoria +5, Vontade +4, Sorte +0, Sanidade +3
 - **Couraça:** Blindada (+3)
@@ -1204,7 +1204,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Ele não ataca o grupo. Leva um.*
 
-- **Tier:** Lendário | **Vida:** 350 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +5
+- **Tier:** Lendário | **Ameaça:** 60 | **Vida:** 350 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +5
 - **Ataque:** +13 | **Defesa física:** 19 | **Defesa mental:** 14
 - **Atributos:** Força +8, Vitalidade +6, Agilidade +5, Inteligência -2, Sabedoria +3, Vontade +0, Sorte +0, Sanidade +0
 - **Couraça:** Coriácea (+1)
@@ -1232,7 +1232,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *O navio foi a parte fácil.*
 
-- **Tier:** Lendário | **Vida:** 500 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +4
+- **Tier:** Lendário | **Ameaça:** 70 | **Vida:** 500 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +4
 - **Ataque:** +14 | **Defesa física:** 22 | **Defesa mental:** 20
 - **Atributos:** Força +9, Vitalidade +8, Agilidade +4, Inteligência +5, Sabedoria +4, Vontade +6, Sorte +0, Sanidade +4
 - **Couraça:** Blindada (+3)
@@ -1261,7 +1261,7 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 
 *Nada que você tem serve. A pergunta é pra onde correr.*
 
-- **Tier:** Lendário | **Vida:** 680 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +2
+- **Tier:** Lendário | **Ameaça:** 100 | **Vida:** 680 | **PA:** ◈◈◈◈◈ (5) | **Mana:** 40 | **Iniciativa:** +2
 - **Ataque:** +16 | **Defesa física:** 25 | **Defesa mental:** 18
 - **Atributos:** Força +10, Vitalidade +10, Agilidade +2, Inteligência -4, Sabedoria +2, Vontade +3, Sorte +0, Sanidade +0
 - **Couraça:** Dracônica (+4)
