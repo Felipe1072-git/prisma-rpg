@@ -429,12 +429,22 @@ Três coisas mudaram de status junto:
   traço faz mais que dano. Faixas: Comum 2–5, Treinado 5–10, Formidável 15–28, Lendário
   40–100. Um Formidável sozinho já passa do Mortal de um grupo de 4.
 - **O nível do grupo multiplica o orçamento, não a criatura** (decisão de 2026-08-03, inverte
-  o que estava escrito): ×1 no 1–4, ×1,8 no 5–10, ×2,7 no 11–15, ×3,7 no 16–20 — as mesmas
-  proporções da tabela de Vida por faixa, aplicadas do outro lado da conta. As 52 fichas
-  valem em qualquer mesa. A tabela de Vida por faixa sobrou pro caso de querer *aquela*
-  criatura de volta mais séria — e aí **sobe a Ameaça junto**, com o multiplicador em ×1,
-  senão o nível conta duas vezes. O guarda-corpo contra "29 goblins = Mortal no nível 16" é o
-  limite de 8 criaturas, que já existia.
+  o que estava escrito) — as mesmas proporções da tabela de Vida por faixa, aplicadas do outro
+  lado da conta, pra as 52 fichas valerem em qualquer mesa. O orçamento fechado, **para um
+  grupo de 4** (divida por 4 e multiplique pelo tamanho real do grupo):
+
+  | Faixa | | Leve | Padrão | Difícil | Mortal |
+  |---|---|---|---|---|---|
+  | **1–4** | ×1 | 4 | 8 | 12 | **16** |
+  | **5–10** | ×1,8 | 7 | 14 | 22 | **29** |
+  | **11–15** | ×2,7 | 11 | 22 | 32 | **43** |
+  | **16–20** | ×3,7 | 15 | 30 | 44 | **59** |
+
+  A tabela de Vida por faixa sobrou pro caso de querer *aquela* criatura de volta mais séria —
+  e aí **sobe a Ameaça junto**, com o multiplicador em ×1, senão o nível conta duas vezes.
+  O guarda-corpo contra "29 goblins = Mortal no nível 16" é o limite de 8 criaturas, que já
+  existia: **em nível alto se troca de Tier, não de quantidade** (16 pontos são 8 Goblins;
+  59 são um Roc).
 - A tabela **Vida por faixa de nível** virou proporção: multiplique a Vida da ficha, não troque
   pelo número da coluna.
 
