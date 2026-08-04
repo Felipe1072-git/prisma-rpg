@@ -54,6 +54,7 @@ hooks:
 
 extra_css:
   - assets/css/prisma.css
+  - assets/css/ficha.css
 
 extra_javascript:
   - assets/js/prisma.js
@@ -89,6 +90,7 @@ nav:
     - criacao/index.md
     - Progressão de Nível: criacao/progressao.md
     - Tocado: criacao/tocado.md
+  - Ficha de Personagem: ficha.md
   - Compêndio:
     - compendio/index.md
     - Habilidades: habilidades/index.md
