@@ -457,7 +457,7 @@
   .prg-ficha__pagina {
     width: auto;
     min-height: 0;
-    height: 281mm;
+    max-height: 281mm;
     margin: 0;
     border: none;
     box-shadow: none;
@@ -466,13 +466,12 @@
     page-break-after: always;
   }
 
-  .prg-ficha__pagina:first-child {
-    break-before: page;
-    page-break-before: always;
-  }
-
   .prg-ficha__pagina:last-child {
     break-after: auto;
     page-break-after: auto;
+  }
+
+  .prg-ficha__rodape {
+    margin-top: 2mm;
   }
 }
