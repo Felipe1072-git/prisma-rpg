@@ -35,14 +35,27 @@ Não é um número por Tier: dentro do mesmo Tier um [Sprite](../bestiario/index
 
 Um personagem de nível 12 não é um de nível 2 com mais Vida: ele tem mais dano, mais Mana, mais respostas. **As fichas do Bestiário não mudam** — o que muda é quantas cabem na sala.
 
-| Faixa de nível | Multiplicador | Mortal, grupo de 4 |
-|---|---|---|
-| **1–4** | ×1 | 16 pontos |
-| **5–10** | ×1,8 | ~29 pontos |
-| **11–15** | ×2,7 | ~43 pontos |
-| **16–20** | ×3,7 | ~59 pontos |
+**Orçamento completo, para um grupo de 4 personagens:**
 
-São as mesmas proporções da tabela de [Vida por faixa de nível](#vida-por-faixa-de-nivel) — aplicadas ao orçamento em vez de à criatura, pra o número do card continuar valendo em qualquer mesa.
+| Faixa de nível | | Leve | Padrão | Difícil | Mortal |
+|---|---|---|---|---|---|
+| **1–4** | ×1 | 4 | 8 | 12 | **16** |
+| **5–10** | ×1,8 | 7 | 14 | 22 | **29** |
+| **11–15** | ×2,7 | 11 | 22 | 32 | **43** |
+| **16–20** | ×3,7 | 15 | 30 | 44 | **59** |
+
+Para outro tamanho de grupo, **divida por 4 e multiplique pelo número de personagens** — o orçamento é por pessoa, e a coluna de 4 é só a mais comum. Um grupo de 6 no nível 8 tem 29 ÷ 4 × 6 = **~44 pontos** de orçamento Mortal.
+
+São as mesmas proporções da tabela de [Vida por faixa de nível](#vida-por-faixa-de-nivel) — aplicadas ao orçamento em vez de à criatura, pra o número do card continuar valendo em qualquer mesa. **O [Bestiário](../bestiario/index.md) faz essa conta pra você:** o montador de encontro na barra soma os pontos e diz a dificuldade pro tamanho e nível que você escolher.
+
+**O que o orçamento Mortal compra em cada faixa** — e repare como a resposta troca de Tier, não de quantidade:
+
+| Faixa | Mortal | Um encontro que gasta isso |
+|---|---|---|
+| **1–4** | 16 | 8 Goblins · 1 Ogro + 3 Goblins · 1 Bugbear + 1 Cubo Gelatinoso |
+| **5–10** | 29 | 1 Troll + 1 Bugbear · 1 Hidra (28) · 3 Ogros (30) |
+| **11–15** | 43 | 1 Hidra + 1 Lobisomem · 1 Lich (40) · 1 Golem de Ferro (45) |
+| **16–20** | 59 | 1 Roc (60) · 1 Vampiro + 1 Lobisomem · 1 Dragão Vermelho Adulto (55) |
 
 !!! cuidado "O multiplicador não transforma capanga em ameaça"
     No nível 16, 59 pontos compram **29 Goblins** — e vinte e nove goblins não são um encontro Mortal, são uma tarde perdida rolando dado contra criaturas que não conseguem acertar ninguém. O limite de [8 criaturas](#mais-de-8-criaturas-travam-a-mesa) continua valendo, e ele é o guarda-corpo aqui.
