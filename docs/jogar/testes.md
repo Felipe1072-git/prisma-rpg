@@ -34,7 +34,7 @@ Um 20 natural não transforma o impossível em possível, e um 1 natural não in
 
 O jogador pode rerolar **qualquer teste seu, ou um efeito usado contra si**.
 
-**Usos por descanso longo = 1 + Sorte** (mínimo 1). A grade reseta completamente a cada [descanso longo](exploracao.md#descanso).
+**Usos por descanso longo = 1 + Sorte** (mínimo 0). A grade reseta completamente a cada [descanso longo](exploracao.md#descanso).
 
 É a válvula de escape do sistema: um 1 natural na hora errada não precisa ser o fim, desde que você ainda tenha carga.
 

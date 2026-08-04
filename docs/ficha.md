@@ -83,6 +83,7 @@ Três páginas: a ficha principal, um apêndice de Habilidades, e uma folha de c
           <span class="prg-recurso__caixa"></span><span class="prg-recurso__separador">/</span><span class="prg-recurso__caixa"></span>
         </div>
         <div class="prg-recurso__legenda">Atual / Total</div>
+        <div class="prg-recurso__formula">10 + soma dos Dados de Vida</div>
       </div>
       <div class="prg-recurso">
         <div class="prg-recurso__nome">Mana</div>
@@ -404,6 +405,13 @@ Três páginas: a ficha principal, um apêndice de Habilidades, e uma folha de c
       <div class="prg-condicao"><span class="prg-condicao__nome">Terreno Difícil</span> — cada casa custa o dobro de Movimento.</div>
       <div class="prg-condicao"><span class="prg-condicao__nome">Tipos de Dano</span> — Cortante, Perfurante, Impacto (da arma); Arcano (focos mágicos); e cada elemento causa o próprio tipo.</div>
       <div class="prg-condicao"><span class="prg-condicao__nome">Resistência / Imunidade / Vulnerabilidade</span> — dano do tipo cai pela metade / é ignorado / dobra. Aplicadas depois de tudo, inclusive Crítico.</div>
+      <div class="prg-condicao">
+        <span class="prg-condicao__nome">Dado de Vida</span> — tamanho do dado rolado a cada nível, pela Vitalidade daquele momento:
+        <table class="prg-tabela-mini">
+          <tr><th>Vitalidade</th><td>0–1</td><td>2–3</td><td>4–5</td><td>6–7</td><td>8+</td></tr>
+          <tr><th>Dado</th><td>d4</td><td>d6</td><td>d8</td><td>d10</td><td>d12</td></tr>
+        </table>
+      </div>
     </div>
   </div>
 

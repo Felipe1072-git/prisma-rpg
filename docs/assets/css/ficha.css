@@ -369,6 +369,25 @@
   color: var(--pf-destaque);
 }
 
+.prg-tabela-mini {
+  border-collapse: collapse;
+  font-size: 6.6pt;
+  margin: 0.6mm 0 0;
+}
+
+.prg-tabela-mini th,
+.prg-tabela-mini td {
+  border: 1px solid var(--pf-linha);
+  padding: 0.3mm 1.4mm;
+  text-align: center;
+}
+
+.prg-tabela-mini th {
+  background: var(--pf-destaque-bg);
+  color: var(--pf-destaque);
+  font-weight: 700;
+}
+
 .prg-notas {
   flex: 1;
   min-height: 104mm;
