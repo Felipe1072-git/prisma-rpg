@@ -371,7 +371,7 @@
 
 .prg-notas {
   flex: 1;
-  min-height: 30mm;
+  min-height: 104mm;
   background-image: repeating-linear-gradient(
     to bottom,
     transparent,

@@ -255,6 +255,7 @@ Três páginas: a ficha principal, um apêndice de Habilidades, e uma folha de c
     </div>
   </div>
 
+  <div class="prg-preenchimento" style="min-height: 2mm;"></div>
   <footer class="prg-ficha__rodape">Prisma RPG — Ficha de Personagem — felipe1072-git.github.io/prisma-rpg</footer>
 
 </section>
@@ -359,6 +360,7 @@ Três páginas: a ficha principal, um apêndice de Habilidades, e uma folha de c
     </div>
   </div>
 
+  <div class="prg-preenchimento" style="min-height: 9mm;"></div>
   <footer class="prg-ficha__rodape">Prisma RPG — Ficha de Personagem — felipe1072-git.github.io/prisma-rpg</footer>
 
 </section>
