@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/img/logo-prisma.png" alt="Prisma RPG" width="260">
+</p>
+
 # Prisma RPG
 
 > Um d20 de mesa sem classes, onde todas as habilidades do jogo estão disponíveis para qualquer personagem — e onde a força de um golpe é escolha do jogador, não resultado do dado.

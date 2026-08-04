@@ -12,6 +12,7 @@ copyright: >
 theme:
   name: material
   language: pt-BR
+  favicon: assets/img/favicon.png
   palette:
     - scheme: slate
       primary: deep purple
