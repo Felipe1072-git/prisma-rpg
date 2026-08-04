@@ -67,8 +67,7 @@ Escolha **uma** habilidade de qualquer [grupo](../habilidades/regras.md#grupos),
 
 ## 5. Equipamento
 
-- **A arma (ou armas) que você carrega** — escolhida livremente e **gratuita**, desde que você atenda o [Requisito de Atributo](../equipamento/regras.md#requisito-de-atributo-minimo) dela.
-- **50 de prata** pra comprar armadura, escudo e equipamento na listagem de [Equipamento](../equipamento/index.md).
+- **150 de prata** pra gastar como quiser em arma, armadura e escudo na listagem de [Equipamento](../equipamento/index.md) — a arma (e o escudo, se houver) ainda precisa atender o [Requisito de Atributo](../equipamento/regras.md#requisito-de-atributo-minimo) dela.
 
 ## Valores que você calcula no fim
 
