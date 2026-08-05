@@ -105,3 +105,11 @@ Furtividade, ladinagem.
 - **Compara o total contra a Dificuldade de ocultação** de qualquer armadilha, mecanismo escondido ou passagem secreta na área, definida pelo Mestre
 - **Acerto:** identifica localização exata e natureza de cada coisa escondida
 - **Crítico (20 natural):** mesmo que o Acerto, e ganha Vantagem no primeiro teste pra desarmar/evitar cada uma delas
+
+**Instinto de Perigo** *(Passiva)*
+
+*O corpo reage ao perigo antes que a mente o reconheça.*
+
+- **Chave:** [Infiltração](../glossario.md#infiltracao)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** o usuário nunca fica [Desprevenido](../glossario.md#desprevenido), e rola Iniciativa com [Vantagem](../glossario.md#vantagem).

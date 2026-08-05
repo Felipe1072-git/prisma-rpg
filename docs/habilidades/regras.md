@@ -90,6 +90,15 @@ Um punhado de habilidades faz algo que **não deveria ser garantido só por paga
 
 Essas habilidades têm **Custo fixo** (não têm Intensidade) e escrevem as faixas explicitamente na ficha. São deliberadamente raras — a graduação existe justamente pra impedir que um efeito dessa magnitude se torne confiável. Hoje só [Ressuscitar](suporte.md) usa esse formato.
 
+### Habilidades Passivas
+
+Nem toda habilidade se ativa. Uma **Passiva** é escolhida no nível como qualquer outra — ocupa a mesma escolha de progressão que uma habilidade ativa —, mas fica **sempre ligada** a partir do momento em que é aprendida, sem custar PA nem Mana.
+
+A Ficha de uma Passiva é mais enxuta: **Nome** *(Passiva)*, descrição breve, **Chave**, um bullet **Custo: nenhum — Passiva, sempre ativa desde que aprendida**, e um bullet **Efeito** com o que ela faz. **Sem Intensidade** — é binária, você tem ou não tem; não escala.
+
+!!! regra "Passiva compete com as ativas pela mesma escolha de nível"
+    Não existe um slot separado pra Passivas — escolher uma é abrir mão de uma habilidade ativa naquele nível. É uma escolha real, não um bônus de graça.
+
 ### Resolução
 
 1. O jogador declara a habilidade e **a Intensidade**, e paga o PA + Mana daquela Intensidade.

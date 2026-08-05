@@ -143,3 +143,32 @@ Cura e apoio a aliados.
 - **Custo fixo:** ◈ (1 PA) + 4 Mana | **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 aliado
 - **Efeito:** até o fim da [cena](../glossario.md#cena), o aliado não pode ficar [Possuído](../glossario.md#possuido) e rola com [Vantagem](../glossario.md#vantagem) contra qualquer efeito mental. Toda vez que um desses efeitos falhar por causa deste vínculo, o **usuário** sofre 2d6 de dano — a porta é ele.
 - *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
+
+**Olhar Que Enxerga o Encanto**
+
+*A magia deixa rastro pra quem sabe olhar — e agora você sabe.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo fixo:** ◈ (1 PA) + 3 Mana | **Atributo:** Sabedoria | **Alvos:** área de 6 casas de raio ao redor do usuário
+- **Efeito:** até o fim da [cena](../glossario.md#cena), enxerga auras de magia ativa — itens encantados, feitiços de ilusão, armadilhas mágicas — mesmo escondidas ou disfarçadas.
+- *(Sem Intensidade — habilidade de detecção, sem teste de ataque)*
+
+**Odre Sem Fundo**
+
+*Um cantil comum, que nunca esvazia de verdade.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo fixo:** ◈ (1 PA) + 2 Mana | **Atributo:** Sabedoria | **Alvos:** usuário e até 5 aliados
+- **Efeito:** cria comida e água limpa suficiente pra alimentar todos os alvos por 1 dia. Só pode ser usada fora de combate, no máximo uma vez por [descanso longo](../jogar/exploracao.md#descanso).
+- *(Sem Intensidade — habilidade utilitária, sem teste de ataque)*
+
+**Palavra Que Sustenta**
+
+*Uma frase dita no calor da batalha fica guardada com quem a ouviu, pronta pra virar força na hora certa.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Vontade | **Alcance:** 6 casas | **Alvos:** 1 aliado
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o aliado ganha um **d6 guardado** — pode somá-lo a qualquer teste ou rolagem de dano dele, a qualquer momento antes do fim da [cena](../glossario.md#cena). Não usado, se perde no fim da cena.
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, com um **d8** guardado
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o mesmo, com um **d10** guardado
+- *(Sem Crítico — não há rolagem de ataque nesta habilidade)*

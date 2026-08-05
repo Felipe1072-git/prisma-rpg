@@ -612,6 +612,14 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Acerto:** 2d8 de dano + derruba cada alvo
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
+**Golpe Desequilibrante** *(Passiva)*
+
+*Cada golpe já nasce sabendo empurrar.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** todo Ataque Básico corpo a corpo do usuário empurra o alvo 1 casa, além do dano normal.
+
 **Investida Dupla** *(Dupla Empunhadura: Lança + Espada)*
 
 *Duas estocadas de lança precedem um golpe baixo e um corte ascendente de espada curta.*

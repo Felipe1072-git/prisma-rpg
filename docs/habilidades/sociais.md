@@ -91,3 +91,11 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra a [Defesa 
 - **Custo fixo:** 0 PA + 5 Mana (dedicada a Reação) | **Atributo:** Vontade
 - **Efeito:** usada quando um teste Social do usuário falha, ou quando uma decisão do Mestre está prestes a se resolver contra ele. Se houve rolagem, refaz o teste com Vantagem, sem gastar uma Rerolagem. Se foi uma decisão puramente narrativa do Mestre (sem rolagem envolvida), o usuário apresenta um argumento novo ali na hora, e o Mestre reconsidera o resultado com base nele.
 - *(Sem Intensidade — efeito automático de segunda chance, sem teste de ataque próprio)*
+
+**Leitura de Sala** *(Passiva)*
+
+*Um olhar rápido pela mesa, e já sabe quem está blefando.*
+
+- **Chave:** [Sociais](../glossario.md#sociais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** o usuário rola com [Vantagem](../glossario.md#vantagem) em qualquer teste de Vontade pra perceber se alguém está mentindo ou escondendo intenção hostil.

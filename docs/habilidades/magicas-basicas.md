@@ -80,3 +80,14 @@ Uso básico da magia.
   5. o alvo recupera 1d6 de Vida
   6. o usuário recupera 1d6 de Mana
 - *(Sem Intensidade — o efeito é determinado pela rolagem no d6, não por Intensidade)*
+
+**Mão Invisível**
+
+*Um puxão sem mãos, um empurrão sem dedos — a distância deixa de ser um problema.*
+
+- **Chave:** [Mágicas Básicas](../glossario.md#magicas-basicas)
+- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 objeto pequeno e solto (do tamanho de uma espada pra baixo); ou 1 criatura, só na Intensidade III
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** desloca o objeto até 3 casas, ou realiza uma ação simples nele (puxar alavanca, girar chave, abrir uma porta destrancada). Automático, sem teste.
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** o mesmo, e pode manter o objeto suspenso no ar até o fim do próximo turno do usuário. Automático, sem teste.
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** arremessa o objeto contra 1 criatura (d20 + Inteligência vs Defesa física): 1d4 de dano de impacto se acertar
+- **Crítico (20 natural, só ao arremessar na Intensidade III):** dano máximo (4) + 1d4 extra
