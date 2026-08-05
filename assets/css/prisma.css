@@ -1,0 +1,1198 @@
+/* =========================================================================
+   Prisma RPG — camada visual sobre o Material for MkDocs.
+   Nada aqui altera conteúdo: só como ele é lido.
+   ========================================================================= */
+
+/* ---------------------------------------------------------------- tokens */
+
+:root {
+  --prg-borda: rgba(120, 90, 170, 0.28);
+  --prg-borda-forte: rgba(120, 90, 170, 0.55);
+  --prg-fundo-card: rgba(124, 77, 200, 0.035);
+  --prg-fundo-hd: rgba(124, 77, 200, 0.06);
+  --prg-fundo-hd-hover: rgba(124, 77, 200, 0.12);
+  --prg-sombra: 0 1px 2px rgba(20, 10, 40, 0.06);
+  --prg-realce: rgba(124, 77, 200, 0.10);
+
+  --prg-c-marciais: #a1341f;
+  --prg-c-pontaria: #14705a;
+  --prg-c-arcano: #5b3fbe;
+  --prg-c-sociais: #9a6708;
+  --prg-c-infiltracao: #3f4a5c;
+  --prg-c-mobilidade: #0f6d86;
+  --prg-c-buff: #2b7a34;
+  --prg-c-debuff: #86286b;
+  --prg-c-suporte: #1a6aa8;
+  --prg-c-grau: #6b5a3e;
+  --prg-c-suprema: #8a1f45;
+  --prg-c-reacao: #0d6b73;
+  --prg-c-dupla: #6b4a8a;
+  --prg-c-neutro: #5d5a66;
+
+  --prg-c-fogo: #c0341a;
+  --prg-c-gelo: #2079a8;
+  --prg-c-terra: #7a5423;
+  --prg-c-raio: #9a7a05;
+  --prg-c-vento: #2d8a6d;
+  --prg-c-agua: #16628e;
+  --prg-c-luz: #9a7c1a;
+  --prg-c-sombras: #4b3570;
+  --prg-c-veneno: #4f7a1c;
+  --prg-c-sangue: #8f1f30;
+  --prg-c-espacotempo: #6b3a8a;
+}
+
+[data-md-color-scheme="slate"] {
+  --prg-borda: rgba(178, 148, 232, 0.22);
+  --prg-borda-forte: rgba(178, 148, 232, 0.5);
+  --prg-fundo-card: rgba(178, 148, 232, 0.04);
+  --prg-fundo-hd: rgba(178, 148, 232, 0.07);
+  --prg-fundo-hd-hover: rgba(178, 148, 232, 0.14);
+  --prg-sombra: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --prg-realce: rgba(178, 148, 232, 0.14);
+
+  --prg-c-marciais: #e8836b;
+  --prg-c-pontaria: #5fd2b4;
+  --prg-c-arcano: #b79bff;
+  --prg-c-sociais: #e8bf5c;
+  --prg-c-infiltracao: #9fb0c9;
+  --prg-c-mobilidade: #63cbe4;
+  --prg-c-buff: #7ed489;
+  --prg-c-debuff: #e58ac9;
+  --prg-c-suporte: #7cbdf0;
+  --prg-c-grau: #d3bd93;
+  --prg-c-suprema: #f0879f;
+  --prg-c-reacao: #5ed3dd;
+  --prg-c-dupla: #c4a0e8;
+  --prg-c-neutro: #b2aebd;
+
+  --prg-c-fogo: #ff8a63;
+  --prg-c-gelo: #74c9f0;
+  --prg-c-terra: #d0a468;
+  --prg-c-raio: #f2d24d;
+  --prg-c-vento: #6fd9b4;
+  --prg-c-agua: #5fb6ea;
+  --prg-c-luz: #f5e07a;
+  --prg-c-sombras: #a68ae0;
+  --prg-c-veneno: #a8d45f;
+  --prg-c-sangue: #f07185;
+  --prg-c-espacotempo: #cf90f0;
+}
+
+/* --------------------------------------------------------------- chips */
+
+.prg-chip {
+  display: inline-block;
+  padding: 0.05em 0.55em;
+  border-radius: 1em;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  line-height: 1.7;
+  color: var(--prg-chip-cor, var(--prg-c-neutro));
+  border: 1px solid color-mix(in srgb, var(--prg-chip-cor, var(--prg-c-neutro)) 45%, transparent);
+  background: color-mix(in srgb, var(--prg-chip-cor, var(--prg-c-neutro)) 12%, transparent);
+}
+
+.prg-chip--marciais    { --prg-chip-cor: var(--prg-c-marciais); }
+.prg-chip--pontaria    { --prg-chip-cor: var(--prg-c-pontaria); }
+.prg-chip--arcano      { --prg-chip-cor: var(--prg-c-arcano); }
+.prg-chip--sociais     { --prg-chip-cor: var(--prg-c-sociais); }
+.prg-chip--infiltracao { --prg-chip-cor: var(--prg-c-infiltracao); }
+.prg-chip--mobilidade  { --prg-chip-cor: var(--prg-c-mobilidade); }
+.prg-chip--buff        { --prg-chip-cor: var(--prg-c-buff); }
+.prg-chip--debuff      { --prg-chip-cor: var(--prg-c-debuff); }
+.prg-chip--suporte     { --prg-chip-cor: var(--prg-c-suporte); }
+.prg-chip--grau        { --prg-chip-cor: var(--prg-c-grau); }
+.prg-chip--suprema     { --prg-chip-cor: var(--prg-c-suprema); }
+.prg-chip--reacao      { --prg-chip-cor: var(--prg-c-reacao); }
+.prg-chip--dupla       { --prg-chip-cor: var(--prg-c-dupla); }
+.prg-chip--neutro      { --prg-chip-cor: var(--prg-c-neutro); }
+
+.prg-chip--fogo        { --prg-chip-cor: var(--prg-c-fogo); }
+.prg-chip--gelo        { --prg-chip-cor: var(--prg-c-gelo); }
+.prg-chip--terra       { --prg-chip-cor: var(--prg-c-terra); }
+.prg-chip--raio        { --prg-chip-cor: var(--prg-c-raio); }
+.prg-chip--vento       { --prg-chip-cor: var(--prg-c-vento); }
+.prg-chip--agua        { --prg-chip-cor: var(--prg-c-agua); }
+.prg-chip--luz         { --prg-chip-cor: var(--prg-c-luz); }
+.prg-chip--sombras     { --prg-chip-cor: var(--prg-c-sombras); }
+.prg-chip--veneno      { --prg-chip-cor: var(--prg-c-veneno); }
+.prg-chip--sangue      { --prg-chip-cor: var(--prg-c-sangue); }
+.prg-chip--espacotempo { --prg-chip-cor: var(--prg-c-espacotempo); }
+
+/* As 5 vertentes de pacote reaproveitam as cores de grupo: a leitura é a
+   mesma (aço = marcial, arcano = mágico, sombras = infiltração) e uma paleta
+   nova só competiria com a que o leitor já aprendeu na lista de habilidades. */
+.prg-chip--vert-campeoes-do-aco        { --prg-chip-cor: var(--prg-c-marciais); }
+.prg-chip--vert-senhores-do-arcano     { --prg-chip-cor: var(--prg-c-arcano); }
+.prg-chip--vert-sombras-e-perdigueiros { --prg-chip-cor: var(--prg-c-infiltracao); }
+.prg-chip--vert-arautos-e-devotos      { --prg-chip-cor: var(--prg-c-sociais); }
+.prg-chip--vert-exploradores-e-hibridos { --prg-chip-cor: var(--prg-c-pontaria); }
+
+/* Os 3 eixos de Origem e as 3 levas de Raça: categorias lado a lado, sem
+   escala entre elas — cores distintas só pra separar a leitura. */
+.prg-chip--eixo-passado            { --prg-chip-cor: var(--prg-c-marciais); }
+.prg-chip--eixo-ambiente-de-origem { --prg-chip-cor: var(--prg-c-mobilidade); }
+.prg-chip--eixo-evento-formador    { --prg-chip-cor: var(--prg-c-sociais); }
+
+.prg-chip--leva-fundadoras          { --prg-chip-cor: var(--prg-c-neutro); }
+.prg-chip--leva-racas-de-animal     { --prg-chip-cor: var(--prg-c-buff); }
+.prg-chip--leva-racas-de-peixe-agua { --prg-chip-cor: var(--prg-c-agua); }
+
+/* Os 4 Tiers de Ameaça do Bestiário sobem em temperatura: quanto mais perigosa
+   a criatura, mais quente o chip. É a única faceta em que a ordem importa mais
+   que a categoria, então a cor carrega a escala. */
+.prg-chip--tier-comum      { --prg-chip-cor: var(--prg-c-neutro); }
+.prg-chip--tier-treinado   { --prg-chip-cor: var(--prg-c-pontaria); }
+.prg-chip--tier-formidavel { --prg-chip-cor: var(--prg-c-debuff); }
+.prg-chip--tier-lendario   { --prg-chip-cor: var(--prg-c-suprema); }
+
+/* -------------------------------------------------- card de habilidade */
+
+.prg-card {
+  border: 1px solid var(--prg-borda);
+  border-radius: 6px;
+  margin: 0.4rem 0;
+  background: var(--prg-fundo-card);
+  box-shadow: var(--prg-sombra);
+  overflow: hidden;
+  /* Folga inicial; quem chega por link direto ainda leva um ajuste fino no
+     JS, porque a barra de filtro sticky muda de altura conforme a largura. */
+  scroll-margin-top: 4rem;
+}
+
+.prg-card:target,
+.prg-card.is-aberto {
+  border-color: var(--prg-borda-forte);
+}
+
+/* O md_in_html envolve o cabeçalho num <p>; ele não deve ocupar espaço. */
+.md-typeset .prg-card > p {
+  margin: 0;
+}
+
+/* Duas faixas: em cima o que se compara entre cards (nome, chave, custo);
+   embaixo o contexto. As colunas fixas mantêm o custo alinhado na vertical,
+   que é o que permite varrer a lista de olho. */
+.prg-card__hd {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto 9.5rem 1.1rem;
+  grid-template-areas:
+    "nome chips custo seta"
+    "cols cols  cols  cols";
+  align-items: center;
+  gap: 0.25rem 0.8rem;
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  border: 0;
+  background: var(--prg-fundo-hd);
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: inherit;
+  transition: background 120ms ease;
+}
+
+.prg-card__hd:hover,
+.prg-card__hd:focus-visible {
+  background: var(--prg-fundo-hd-hover);
+}
+
+.prg-card__nome {
+  grid-area: nome;
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  min-width: 0;
+}
+
+.prg-card__chips {
+  grid-area: chips;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.prg-card__custo {
+  grid-area: custo;
+  justify-self: end;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  color: var(--prg-c-arcano);
+}
+
+.prg-card__cols {
+  grid-area: cols;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem 1.1rem;
+  min-width: 0;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.prg-card__col {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35em;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.prg-card__col-valor {
+  min-width: 0;
+}
+
+/* Alvos costuma ser longo: corta com reticências e revela ao abrir o card. */
+.prg-card__col[data-rot="Alvos"] .prg-card__col-valor {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 26rem;
+}
+
+/* O rótulo da coluna vive no CSS, não no HTML — some no mobile sem custo. */
+.prg-card__col::before {
+  content: attr(data-rot);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  flex: none;
+}
+
+.prg-card__col[data-rot="Custo"] {
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-fg-color);
+  font-weight: 600;
+}
+
+.prg-card__seta {
+  grid-area: seta;
+  justify-self: end;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg) translate(-15%, -15%);
+  opacity: 0.45;
+  transition: transform 160ms ease;
+}
+
+.prg-card.is-aberto .prg-card__seta {
+  transform: rotate(225deg) translate(-15%, -15%);
+}
+
+.prg-card__bd {
+  display: none;
+  padding: 0.1rem 0.95rem 0.6rem;
+  border-top: 1px solid var(--prg-borda);
+}
+
+.prg-card.is-aberto .prg-card__bd {
+  display: block;
+}
+
+/* Flavor: a única frase do card em voz de narrador. */
+.prg-card__bd > p:first-of-type em,
+.prg-card__bd > p:first-of-type > em {
+  color: var(--md-default-fg-color--light);
+}
+
+.prg-card__bd ul {
+  margin: 0.35rem 0 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.prg-card__bd ul li {
+  padding: 0.14rem 0 0.14rem 0.85rem;
+  position: relative;
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+.prg-card__bd ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.72em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--prg-borda-forte);
+}
+
+/* Cada degrau de Intensidade recebe um peso visual crescente. */
+.prg-card__bd li.prg-int-i    { border-left: 2px solid color-mix(in srgb, var(--prg-c-arcano) 35%, transparent); }
+.prg-card__bd li.prg-int-ii   { border-left: 2px solid color-mix(in srgb, var(--prg-c-arcano) 60%, transparent); }
+.prg-card__bd li.prg-int-iii  { border-left: 2px solid var(--prg-c-arcano); }
+.prg-card__bd li.prg-critico  { border-left: 2px solid color-mix(in srgb, var(--prg-c-sociais) 85%, transparent); }
+
+.prg-card__bd li.prg-int-i,
+.prg-card__bd li.prg-int-ii,
+.prg-card__bd li.prg-int-iii,
+.prg-card__bd li.prg-critico {
+  padding-left: 0.7rem;
+  margin-left: 0.05rem;
+  background: linear-gradient(90deg, var(--prg-realce), transparent 55%);
+}
+
+.prg-card__bd li.prg-int-i::before,
+.prg-card__bd li.prg-int-ii::before,
+.prg-card__bd li.prg-int-iii::before,
+.prg-card__bd li.prg-critico::before {
+  display: none;
+}
+
+/* Abaixo de ~640px o custo não cabe ao lado dos chips: vira faixa própria. */
+@media screen and (max-width: 40em) {
+  .prg-card__hd {
+    grid-template-columns: minmax(0, 1fr) 1.1rem;
+    grid-template-areas:
+      "nome  seta"
+      "chips chips"
+      "custo custo"
+      "cols  cols";
+  }
+  .prg-card__custo { justify-self: start; }
+  .prg-card__seta  { align-self: start; margin-top: 0.3rem; }
+  .prg-card__col[data-rot="Alvos"] .prg-card__col-valor { white-space: normal; max-width: 100%; }
+}
+
+/* ---------------------------------------------- ficha de criatura (stat block)
+
+   O card de criatura é o único que o Mestre lê no meio de um turno, com quatro
+   jogadores esperando. Ele segue o stat block do D&D Beyond: primeiro os
+   números da rodada em tiles, depois os oito atributos numa grade fixa (a
+   posição é o que deixa comparar duas criaturas sem reler rótulo), depois o que
+   muda a resolução do dano, e por fim traços e ações — cada uma em uma linha. */
+
+.prg-bes__flavor {
+  margin: 0.15rem 0 0.5rem;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}
+
+.prg-bes__tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4.8rem, 1fr));
+  gap: 0.3rem;
+  margin: 0 0 0.35rem;
+}
+
+.prg-bes__tile,
+.prg-bes__atr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1rem;
+  padding: 0.3rem 0.35rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 5px;
+  background: var(--prg-realce);
+  text-align: center;
+}
+
+.prg-bes__rot {
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  line-height: 1.4;
+}
+
+.prg-bes__val {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Valor que só se diz em palavras ("imune") entra em corpo de texto. */
+.prg-bes__val--texto {
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Cinco losangos ocupam mais que qualquer número da faixa: o PA desenha a
+   quantidade em vez de contá-la, e por isso pode ser menor sem perder leitura. */
+.prg-bes__val--pa {
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+}
+
+.prg-bes__atrs {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 0.25rem;
+  margin: 0 0 0.5rem;
+}
+
+/* Atributo em zero fica na grade — a posição é o que se lê —, mas apagado:
+   o que salta aos olhos tem que ser o que foge da média. */
+.prg-bes__atr--zero {
+  opacity: 0.45;
+  background: transparent;
+}
+
+@media screen and (max-width: 40em) {
+  .prg-bes__atrs { grid-template-columns: repeat(4, 1fr); }
+  .prg-bes__tiles { grid-template-columns: repeat(auto-fit, minmax(4.6rem, 1fr)); }
+}
+
+/* Imunidade, resistência e vulnerabilidade decidem se o golpe do jogador vale
+   alguma coisa: linha curta, rótulo em negrito, logo abaixo dos números. */
+.md-typeset .prg-bes__defesa,
+.md-typeset .prg-bes__nota {
+  margin: 0 0 0.2rem;
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.md-typeset .prg-bes__nota {
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.35rem;
+}
+
+.md-typeset .prg-bes__titulo {
+  margin: 0.7rem 0 0.3rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid var(--prg-borda-forte);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--prg-c-arcano);
+}
+
+.md-typeset .prg-bes__bloco > p {
+  margin: 0 0 0.25rem;
+  font-size: 0.78rem;
+  line-height: 1.55;
+}
+
+/* A meta do ataque (PA, contra o quê, alvo) e o "(passiva)" são etiqueta, não
+   frase: ficam menores e mais frias que o efeito, que é o que se lê em voz alta. */
+.prg-bes__meta,
+.prg-bes__marca {
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
+
+.prg-bes__meta {
+  padding: 0 0.15rem;
+}
+
+.prg-bes__marca {
+  font-style: italic;
+}
+
+/* Quando a meta não cabe numa linha, ela quebra em bloco em vez de empurrar o
+   efeito pra fora da tela. */
+@media screen and (max-width: 40em) {
+  .prg-bes__meta { white-space: normal; }
+}
+
+/* --------------------------------------------- montador de encontro
+
+   Somar pontos de cabeça abrindo cinco cards é o que a página evita aqui.
+   O controle vive no canto do card, discreto até ser usado; o painel na
+   barra só aparece quando há algo somado. */
+
+.prg-somar {
+  position: absolute;
+  right: 0.6rem;
+  bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  opacity: 0.35;
+  transition: opacity 120ms ease;
+}
+
+.prg-card:hover .prg-somar,
+.prg-somar:focus-within,
+.prg-somar.is-ativo {
+  opacity: 1;
+}
+
+.prg-somar__b {
+  width: 1.15rem;
+  height: 1.15rem;
+  padding: 0;
+  border: 1px solid var(--prg-borda-forte);
+  border-radius: 3px;
+  background: var(--prg-fundo-card);
+  color: inherit;
+  font: inherit;
+  font-size: 0.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.prg-somar__b:hover {
+  background: var(--prg-realce);
+}
+
+.prg-somar__n {
+  min-width: 1rem;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.prg-somar.is-ativo .prg-somar__n {
+  color: var(--prg-c-suprema);
+}
+
+/* O card fechado é `position: static`; o controle precisa de âncora. */
+.prg-card--criatura {
+  position: relative;
+}
+
+.prg-card--criatura .prg-card__hd {
+  padding-right: 5rem;
+}
+
+.prg-encontro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.9rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--prg-borda);
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.prg-encontro.is-ativo {
+  color: var(--md-default-fg-color);
+}
+
+.prg-encontro__resumo {
+  flex: 1 1 14rem;
+}
+
+.prg-encontro.is-ativo .prg-encontro__resumo b:last-of-type {
+  color: var(--prg-c-suprema);
+}
+
+.prg-encontro__mult {
+  opacity: 0.7;
+  font-size: 0.7rem;
+}
+
+.prg-encontro__grupo,
+.prg-encontro__nivel {
+  padding: 0.1rem 0.2rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: var(--prg-fundo-card);
+  color: inherit;
+  font: inherit;
+  font-size: 0.75rem;
+}
+
+.prg-encontro__limpar {
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.prg-encontro__limpar:hover {
+  background: var(--prg-realce);
+}
+
+/* Os 11 tipos de criatura: cor por família, reaproveitando a paleta que o
+   leitor já aprendeu nos grupos de habilidade. */
+.prg-chip--tipo-morto-vivo     { --prg-chip-cor: var(--prg-c-sombras); }
+.prg-chip--tipo-fera           { --prg-chip-cor: var(--prg-c-buff); }
+.prg-chip--tipo-humanoide      { --prg-chip-cor: var(--prg-c-neutro); }
+.prg-chip--tipo-elemental      { --prg-chip-cor: var(--prg-c-agua); }
+.prg-chip--tipo-construto      { --prg-chip-cor: var(--prg-c-infiltracao); }
+.prg-chip--tipo-monstruosidade { --prg-chip-cor: var(--prg-c-marciais); }
+.prg-chip--tipo-demonio        { --prg-chip-cor: var(--prg-c-debuff); }
+.prg-chip--tipo-planta         { --prg-chip-cor: var(--prg-c-veneno); }
+.prg-chip--tipo-fada           { --prg-chip-cor: var(--prg-c-espacotempo); }
+.prg-chip--tipo-gigante        { --prg-chip-cor: var(--prg-c-terra); }
+.prg-chip--tipo-dragao         { --prg-chip-cor: var(--prg-c-suprema); }
+
+/* ------------------------------------------------------ card de pacote */
+
+/* O número do d20 ocupa o lugar do custo: é o campo curto e alinhado que se
+   compara de olho ao varrer a lista, do mesmo jeito que a Mana lá. */
+.prg-card__d20 {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--md-default-fg-color--light);
+  opacity: 0.75;
+}
+
+/* A trilha é o conteúdo principal do card: 10 níveis, compacta. */
+.prg-card--pacote .prg-card__bd table:not([class]) {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 0.7rem;
+}
+
+.prg-card--pacote .prg-card__bd table:not([class]) td {
+  padding: 0.28rem 0.7rem;
+}
+
+/* O nível é um número curto: não precisa de mais que a própria largura. */
+.prg-card--pacote .prg-card__bd table:not([class]) td:first-child {
+  width: 3.5rem;
+  text-align: right;
+  color: var(--md-default-fg-color--light);
+}
+
+.prg-card--pacote .prg-card__bd ul li {
+  font-size: 0.76rem;
+}
+
+/* O card recém-sorteado precisa se distinguir do que o leitor já tinha
+   aberto — some no primeiro clique seguinte. */
+.prg-card.is-sorteado {
+  border-color: var(--prg-c-suprema);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--prg-c-suprema) 25%, transparent);
+}
+
+/* Mais espaço para tabelas largas e para os cards, sem inchar o texto. */
+.md-grid {
+  max-width: 68rem;
+}
+
+/* ------------------------------------------------------- barra de filtro */
+
+.prg-filtro {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1.2rem 0 0.8rem;
+  padding: 0.5rem 0.65rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 6px;
+  background: var(--prg-fundo-hd);
+  position: sticky;
+  top: 2.6rem;
+  z-index: 3;
+  backdrop-filter: blur(6px);
+}
+
+.prg-filtro__linha1,
+.prg-filtro__linha2,
+.prg-filtro__linha3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.prg-filtro__linha2,
+.prg-filtro__linha3 {
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--prg-borda);
+}
+
+.prg-filtro__campo {
+  flex: 1 1 14rem;
+  min-width: 0;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: 0.78rem;
+}
+
+.prg-filtro__campo:focus {
+  outline: none;
+  border-color: var(--prg-borda-forte);
+}
+
+.prg-filtro__contagem {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.prg-filtro__tudo {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--md-primary-fg-color);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+[data-md-color-scheme="slate"] .prg-filtro__tudo {
+  color: var(--prg-c-arcano);
+}
+
+.prg-filtro__tudo:hover {
+  background: var(--prg-fundo-hd-hover);
+}
+
+.prg-filtro__select {
+  flex: 1 1 9rem;
+  min-width: 0;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: 0.72rem;
+}
+
+.prg-filtro__select:focus {
+  outline: none;
+  border-color: var(--prg-borda-forte);
+}
+
+.prg-filtro__mana,
+.prg-filtro__desarmado {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
+
+.prg-filtro__slider-valor {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-fg-color);
+  min-width: 1.4em;
+  display: inline-block;
+  text-align: right;
+}
+
+.prg-filtro__slider {
+  width: 8rem;
+  accent-color: var(--prg-c-arcano);
+}
+
+.prg-filtro__desarmado {
+  cursor: pointer;
+}
+
+.prg-filtro__desarmado-campo {
+  accent-color: var(--prg-c-arcano);
+  cursor: pointer;
+}
+
+/* ------------------------------------------------ sorteio (pacote, origem) */
+
+.prg-filtro__sorteio-grupo {
+  flex: 0 1 12rem;
+  min-width: 0;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: 0.72rem;
+}
+
+.prg-filtro__sortear {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--prg-borda-forte);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--prg-c-arcano) 12%, transparent);
+  color: var(--prg-c-arcano);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.prg-filtro__sortear:hover {
+  background: color-mix(in srgb, var(--prg-c-arcano) 22%, transparent);
+}
+
+.prg-filtro__sorteio-saida {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+}
+
+@media screen and (max-width: 40em) {
+  .prg-filtro__select { flex-basis: 45%; }
+}
+
+.prg-card.is-oculto,
+.prg-verbete.is-oculto,
+.prg-grupo.is-oculto {
+  display: none;
+}
+
+/* --------------------------------------------------- glossário: índice A-Z */
+
+/* O glossário é lido agrupado por categoria (é assim que os termos se
+   explicam), mas é *consultado* por ordem alfabética. O índice é a segunda
+   porta: quem já sabe o termo entra por aqui e não percorre a página. */
+
+.prg-az {
+  margin: 1.2rem 0 2rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--md-default-fg-color) 3%, transparent);
+  font-size: 0.75rem;
+  line-height: 1.9;
+}
+
+.prg-az__letra {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+  padding: 0.15rem 0;
+  border-top: 1px solid color-mix(in srgb, var(--prg-borda) 45%, transparent);
+  flex-wrap: wrap;
+}
+
+.prg-az__letra:first-child {
+  border-top: none;
+}
+
+.prg-az__letra > b {
+  flex: 0 0 1.2rem;
+  color: var(--prg-c-arcano);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.prg-az__item {
+  color: var(--md-default-fg-color--light);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.prg-az__item::after {
+  content: " ·";
+  color: var(--prg-borda-forte);
+}
+
+.prg-az__letra > .prg-az__item:last-child::after {
+  content: "";
+}
+
+.prg-az__item:hover {
+  color: var(--prg-c-arcano);
+  text-decoration: underline;
+}
+
+/* Verbete alvo de link direto: o mesmo realce que o card sorteado usa, pra
+   que chegar por `#atordoado` mostre onde você caiu. */
+.prg-verbete:target > h3 {
+  color: var(--prg-c-arcano);
+}
+
+/* Quem cita este termo. Gerado dos links que já existem entre os verbetes —
+   por isso fica visualmente subordinado ao texto da definição. */
+.prg-vejatambem {
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.7rem;
+  border-left: 2px solid var(--prg-borda);
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.prg-vazio {
+  margin: 1.5rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ------------------------------------------------------------- tabelas */
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--prg-borda);
+  border-radius: 6px;
+  box-shadow: none;
+  font-size: 0.72rem;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--prg-fundo-hd);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  padding: 0.5rem 0.7rem;
+  border-bottom: 1px solid var(--prg-borda-forte);
+  white-space: nowrap;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.42rem 0.7rem;
+  border-top: 1px solid color-mix(in srgb, var(--prg-borda) 55%, transparent);
+  vertical-align: top;
+}
+
+/* Zebra discreta: a leitura de linha longa é o problema real destas tabelas. */
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--prg-realce) 45%, transparent);
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background: var(--prg-fundo-hd-hover);
+}
+
+/* Primeira coluna é sempre a chave da linha (arma, nível, grau). */
+.md-typeset table:not([class]) tbody td:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.md-typeset table:not([class]) tbody td:first-child a {
+  font-weight: 700;
+}
+
+/* --------------------------------------------- popover de termo (hover) */
+
+.prg-pop {
+  position: absolute;
+  z-index: 20;
+  max-width: min(24rem, 90vw);
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--prg-borda-forte);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 6px 24px rgba(10, 5, 25, 0.28);
+  font-size: 0.72rem;
+  line-height: 1.55;
+  color: var(--md-default-fg-color);
+  opacity: 0;
+  transform: translateY(3px);
+  transition: opacity 120ms ease, transform 120ms ease;
+  pointer-events: none;
+}
+
+.prg-pop.is-visivel {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.prg-pop__titulo {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--prg-c-arcano);
+}
+
+.prg-pop__rodape {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.6rem;
+  opacity: 0.6;
+}
+
+/* Termo com definição disponível ganha um sublinhado pontilhado discreto. */
+.md-typeset a.prg-termo {
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+
+/* ------------------------------------------------------- caixas de nota */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  border-left-width: 3px;
+  box-shadow: var(--prg-sombra);
+  font-size: 0.76rem;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-size: 0.7rem;
+  letter-spacing: 0.03em;
+}
+
+/* Quatro tipos próprios do Prisma, cada um com um trabalho definido.
+   Uso: !!! regra "Título"  /  !!! exemplo  /  !!! mestre  /  !!! cuidado */
+
+:root {
+  --md-admonition-icon--regra: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2 21 12 12 22 3 12z"/></svg>');
+  --md-admonition-icon--exemplo: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m3 4v2h2V7zm6 0v2h2V7zM8 15v2h2v-2zm6 0v2h2v-2zm-3-4v2h2v-2z"/></svg>');
+  --md-admonition-icon--mestre: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2 4 6v6c0 5 3.4 9.3 8 10 4.6-.7 8-5 8-10V6zm0 4 1.6 3.4 3.4.4-2.6 2.4.8 3.6-3.2-1.9-3.2 1.9.8-3.6L7 9.8l3.4-.4z"/></svg>');
+  --md-admonition-icon--cuidado: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2 1 21h22zm0 6 7 12H5zm-1 4v4h2v-4zm0 5v2h2v-2z"/></svg>');
+}
+
+.md-typeset .admonition.regra,
+.md-typeset details.regra {
+  border-color: var(--prg-c-arcano);
+}
+.md-typeset .regra > .admonition-title,
+.md-typeset .regra > summary {
+  background: color-mix(in srgb, var(--prg-c-arcano) 12%, transparent);
+}
+.md-typeset .regra > .admonition-title::before,
+.md-typeset .regra > summary::before {
+  background-color: var(--prg-c-arcano);
+  -webkit-mask-image: var(--md-admonition-icon--regra);
+          mask-image: var(--md-admonition-icon--regra);
+}
+
+.md-typeset .admonition.exemplo,
+.md-typeset details.exemplo {
+  border-color: var(--prg-c-pontaria);
+}
+.md-typeset .exemplo > .admonition-title,
+.md-typeset .exemplo > summary {
+  background: color-mix(in srgb, var(--prg-c-pontaria) 12%, transparent);
+}
+.md-typeset .exemplo > .admonition-title::before,
+.md-typeset .exemplo > summary::before {
+  background-color: var(--prg-c-pontaria);
+  -webkit-mask-image: var(--md-admonition-icon--exemplo);
+          mask-image: var(--md-admonition-icon--exemplo);
+}
+
+.md-typeset .admonition.mestre,
+.md-typeset details.mestre {
+  border-color: var(--prg-c-sociais);
+}
+.md-typeset .mestre > .admonition-title,
+.md-typeset .mestre > summary {
+  background: color-mix(in srgb, var(--prg-c-sociais) 12%, transparent);
+}
+.md-typeset .mestre > .admonition-title::before,
+.md-typeset .mestre > summary::before {
+  background-color: var(--prg-c-sociais);
+  -webkit-mask-image: var(--md-admonition-icon--mestre);
+          mask-image: var(--md-admonition-icon--mestre);
+}
+
+.md-typeset .admonition.cuidado,
+.md-typeset details.cuidado {
+  border-color: var(--prg-c-marciais);
+}
+.md-typeset .cuidado > .admonition-title,
+.md-typeset .cuidado > summary {
+  background: color-mix(in srgb, var(--prg-c-marciais) 12%, transparent);
+}
+.md-typeset .cuidado > .admonition-title::before,
+.md-typeset .cuidado > summary::before {
+  background-color: var(--prg-c-marciais);
+  -webkit-mask-image: var(--md-admonition-icon--cuidado);
+          mask-image: var(--md-admonition-icon--cuidado);
+}
+
+/* -------------------------------------------------- ornamentos e ícones */
+
+/* Capa de capítulo: brasão + título centralizados, como abertura de livro. */
+.prg-capa {
+  display: block;
+  margin: 0.6rem auto 0.2rem;
+  text-align: center;
+  color: var(--prg-c-arcano);
+}
+
+.prg-capa svg {
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
+.md-typeset .prg-capa + h1 {
+  margin-top: 0.2rem;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.md-typeset .prg-capa + h1 + p {
+  text-align: center;
+  max-width: 34rem;
+  margin-inline: auto;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.86rem;
+}
+
+.prg-ornamento {
+  display: block;
+  width: min(18rem, 60%);
+  margin: 2.4rem auto 1.6rem;
+  color: var(--prg-borda-forte);
+  opacity: 0.9;
+}
+
+.prg-ornamento svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Depois de um ornamento, o H2 não precisa da própria régua. */
+.md-typeset .prg-ornamento + h2 {
+  border-bottom: 0;
+  text-align: center;
+}
+
+.prg-abertura {
+  display: block;
+  width: 100%;
+  margin: 0 0 1.4rem;
+  border-radius: 8px;
+}
+
+/* Ícone de elemento/condição inline, alinhado à linha do texto. */
+.prg-icone {
+  display: inline-block;
+  width: 1.05em;
+  height: 1.05em;
+  vertical-align: -0.15em;
+  margin-right: 0.15em;
+}
+
+/* --------------------------------------------------------- tipografia */
+
+.md-typeset h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--prg-borda);
+  font-weight: 700;
+}
+
+.md-typeset h3 {
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
+
+@media print {
+  .prg-card__bd { display: block !important; }
+  .prg-filtro   { display: none; }
+}

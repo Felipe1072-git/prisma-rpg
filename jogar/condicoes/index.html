@@ -1,0 +1,2470 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Sistema de RPG de mesa homebrew autoral — d20 simplificado, sem classes">
+      
+      
+        <meta name="author" content="Paulo Souza">
+      
+      
+        <link rel="canonical" href="https://felipe1072-git.github.io/prisma-rpg/jogar/condicoes/">
+      
+      
+        <link rel="prev" href="../dano-e-cura/">
+      
+      
+        <link rel="next" href="../estresse/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Condições - Prisma RPG</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Crimson Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/prisma.css?h=36e281dc">
+    
+      <link rel="stylesheet" href="../../assets/css/ficha.css?h=e9a62276">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#condicoes" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Prisma RPG" class="md-header__button md-logo" aria-label="Prisma RPG" data-md-component="logo">
+      
+  <img src="../../assets/img/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Prisma RPG
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Condições
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Modo escuro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo escuro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Felipe1072-git/prisma-rpg" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Felipe1072-git/prisma-rpg
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Jogando o Jogo
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../criacao/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Criação de Personagem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ficha/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Ficha de Personagem
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../compendio/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Compêndio
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../bestiario/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Bestiário
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../mestre/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Livro do Mestre
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../glossario/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Glossário
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Prisma RPG" class="md-nav__button md-logo" aria-label="Prisma RPG" data-md-component="logo">
+      
+  <img src="../../assets/img/favicon.png" alt="logo">
+
+    </a>
+    Prisma RPG
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Felipe1072-git/prisma-rpg" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Felipe1072-git/prisma-rpg
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jogando o Jogo
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Jogando o Jogo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../atributos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Os Oito Atributos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../testes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes de d20
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mana/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mana
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dano-e-cura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dano e Cura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Condições
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Condições
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sangrando" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sangrando
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#queimando" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Queimando
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lento
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imovel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Imóvel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atordoado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atordoado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#possuido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possuído
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#petrificado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Petrificado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#derrubado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Derrubado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desprevenido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Desprevenido
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agarrado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agarrado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#marcado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#envenenado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Envenenado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escudo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exausto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exausto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#efeitos-de-terreno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Efeitos de Terreno
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Efeitos de Terreno">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#terreno-dificil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terreno Difícil
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zona-amaldicoada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zona Amaldiçoada
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../estresse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Estresse
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../exploracao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exploração
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../criacao/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Criação de Personagem
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Criação de Personagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criacao/progressao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Progressão de Nível
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../criacao/tocado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tocado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ficha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ficha de Personagem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../compendio/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compêndio
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Compêndio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../habilidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Habilidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../habilidades/regras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regras de Habilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../racas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raças
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../origens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Origens
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipamento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipamento/regras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regras de Equipamento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pacotes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pacotes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../pacotes/sorteio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sorteio de Pacote
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../bestiario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bestiário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../mestre/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Livro do Mestre
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Livro do Mestre
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Criaturas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Criaturas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/criando-criaturas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Criando uma Criatura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/encontros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Montagem de Encontro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conduzindo a Mesa
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Conduzindo a Mesa
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/testes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Testes e Dificuldades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/exploracao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exploração na Mesa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mestre/recompensas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recompensas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sangrando" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sangrando
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#queimando" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Queimando
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lento
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imovel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Imóvel
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atordoado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atordoado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#possuido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Possuído
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#petrificado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Petrificado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#derrubado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Derrubado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desprevenido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Desprevenido
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agarrado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agarrado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#marcado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Marcado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#envenenado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Envenenado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escudo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Escudo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exausto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exausto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#efeitos-de-terreno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Efeitos de Terreno
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Efeitos de Terreno">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#terreno-dificil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Terreno Difícil
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zona-amaldicoada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zona Amaldiçoada
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Início
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Jogando o Jogo
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="condicoes">Condições<a class="headerlink" href="#condicoes" title="Permanent link">&para;</a></h1>
+<p>Uma condição é um estado que muda o que uma criatura consegue fazer — imposta por uma habilidade, por uma armadilha ou pelo próprio ambiente.</p>
+<p>Duas coisas valem pra qualquer uma:</p>
+<ul>
+<li><strong>A rolagem de acerto decide se a condição entra, não o quanto ela pesa.</strong> O tamanho e o alcance do efeito vêm da <a href="../../habilidades/regras/#intensidade">Intensidade</a> paga antes de rolar.</li>
+<li><strong>Efeitos que dão número não somam entre si</strong> — ver <a href="../../glossario/#acumulo-de-bonus">Acúmulo de bônus</a>.</li>
+</ul>
+<p>Os verbetes abaixo são os mesmos do <a href="../../glossario/">Glossário</a>, que continua sendo a fonte. Estão reunidos aqui pra consulta durante o combate.</p>
+<p>Efeitos que uma habilidade impõe ao alvo. Salvo quando a habilidade disser outra coisa, duram <strong>até o fim do próximo turno do alvo</strong>.</p>
+<h3 id="sangrando">Sangrando<a class="headerlink" href="#sangrando" title="Permanent link">&para;</a></h3>
+<p>Perde <strong>1d4 de Vida</strong> no início do próximo turno dele. Efeito de uma vez só — ferida que fecha.</p>
+<ul>
+<li><strong>Não acumula.</strong> Reaplicado antes de disparar, vale só o <strong>dado maior</strong> (um "Sangrando 2d4" substitui o 1d4 — mesma lógica de Queimando). Depois de disparar, o alvo pode voltar a Sangrar normalmente.</li>
+</ul>
+<h3 id="queimando">Queimando<a class="headerlink" href="#queimando" title="Permanent link">&para;</a></h3>
+<p>Perde <strong>1d4 de Vida imediatamente ao pegar fogo</strong>, e mais <strong>1d4 no início de cada turno dele</strong>. Assinatura do elemento <a href="../../habilidades/magicas-elementais/#fogo">Fogo</a> — diferente de Sangrando justamente por não ter prazo.</p>
+<ul>
+<li><strong>Não acumula.</strong> Pegar fogo de novo não soma um segundo dado: vale o valor maior entre os dois (mesma lógica do <a href="#escudo">Escudo</a>). Uma habilidade que diz "Queimando causando 2d4 por turno" simplesmente substitui o 1d4 enquanto durar.</li>
+<li><strong>Não para sozinho durante o combate.</strong> Termina de três formas: o alvo gasta uma <strong>Ação Básica</strong> pra se apagar, um aliado <strong>adjacente</strong> gasta a dele, ou o alvo entra em contato com água em quantidade (o Mestre decide o que conta). <strong>Sofrer dano de Gelo ou Água também apaga o fogo.</strong></li>
+<li><strong>Espalhamento:</strong> quando uma habilidade diz que o fogo "se espalha" pra uma criatura adjacente, <strong>o usuário escolhe qual</strong> (pode ser um aliado — fogo não distingue). Quem pegou fogo por espalhamento <strong>não espalha de novo</strong>: não há cadeia.</li>
+<li><strong>Apaga no fim do combate.</strong> Encerrada a cena de combate, o fogo se apaga sozinho — ninguém sai queimando pela estrada.</li>
+</ul>
+<h3 id="lento">Lento<a class="headerlink" href="#lento" title="Permanent link">&para;</a></h3>
+<p>Movimento reduzido à <strong>metade</strong>. Afeta só o <strong>Movimento</strong> (a ação de ◈) — deslocamentos concedidos por habilidades (saltos, investidas, teleportes) não são reduzidos.</p>
+<h3 id="imovel">Imóvel<a class="headerlink" href="#imovel" title="Permanent link">&para;</a></h3>
+<p><strong>Movimento 0</strong> — não sai do lugar <strong>por vontade própria</strong>, nem voando. Continua agindo normalmente: Ações Básicas, Habilidades e Reações seguem disponíveis. É o degrau acima de Lento, e não se confunde com <a href="#atordoado">Atordoado</a>, que trava tudo.</p>
+<div class="admonition regra">
+<p class="admonition-title">Força externa ainda move — e teleporte também</p>
+<p>Empurrar, puxar e teleportar não são movimento do alvo — são coisas feitas <em>a</em> ele, e funcionam normalmente contra quem está Imóvel. Um alvo preso no lugar pode ser arrancado dele por um empurrão de Vento ou pela <a href="../../habilidades/magicas-elementais/#espaco-tempo">Dobra Espacial</a>. O mesmo vale pro <strong>teleporte próprio</strong>: quem está Imóvel não anda nem salta, mas ainda pode se teleportar (Passo Sombrio, Fora de Lugar) — ele não se move, ele deixa de estar ali. Deslocamentos <strong>físicos</strong> de habilidade (saltos, investidas) continuam negados.</p>
+</div>
+<h3 id="atordoado">Atordoado<a class="headerlink" href="#atordoado" title="Permanent link">&para;</a></h3>
+<p><strong>Não pode agir</strong> — nem ação, nem movimento, nem reação.</p>
+<h3 id="possuido">Possuído<a class="headerlink" href="#possuido" title="Permanent link">&para;</a></h3>
+<p>Outra criatura está no controle do corpo. Quem possui gasta os <strong>◈ do possuído</strong> e usa as habilidades, a Vida e o Mana dele; o possuidor <strong>sai do mapa</strong> enquanto durar, e não pode ser alvo direto.</p>
+<ul>
+<li><strong>O jogador continua jogando.</strong> No início de cada turno dele, o personagem possuído pode gastar o turno inteiro (<strong>◈◈◈</strong>) e rolar <strong>d20 + Vontade</strong> contra a <a href="../combate/#defesa">Defesa mental</a> do possuidor. Passando, expulsa-o.</li>
+<li><strong><a href="../../habilidades/magicas-elementais/#luz">Luz</a> atravessa:</strong> dano de Luz no corpo possuído fere <strong>o possuidor</strong>, não o corpo.</li>
+<li><strong>Se o corpo cair a 0 de Vida</strong>, a possessão acaba e o possuidor reaparece adjacente.</li>
+</ul>
+<p>Quem tira alguém dessa condição de fora é o <a href="../../habilidades/suporte/">Exorcismo</a>.</p>
+<h3 id="petrificado">Petrificado<a class="headerlink" href="#petrificado" title="Permanent link">&para;</a></h3>
+<p>A carne vira pedra, de baixo pra cima. Acumula em <strong>graus</strong>, como o <a href="#exausto">Exausto</a> — nunca cai de uma vez, e é isso que dá ao grupo tempo de agir:</p>
+<table>
+<thead>
+<tr>
+<th>Grau</th>
+<th>Efeito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td>fica <a href="#lento">Lento</a> — a pedra sobe pelas pernas</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>fica <a href="#imovel">Imóvel</a></td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td><strong>não pode agir</strong> (nem ação, nem movimento, nem reação), e o corpo é pedra: <a href="../../glossario/#resistencia">Resistência</a> a <a href="../../glossario/#cortante">Cortante</a>, <a href="../../glossario/#perfurante">Perfurante</a> e <a href="../../glossario/#impacto">Impacto</a>. Não respira, não sangra, não envelhece</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Some 1 grau</strong> por acerto do efeito que petrifica. Quem aplica declara — nenhuma habilidade leva do 0 ao 3 num golpe só.</p>
+<p><strong>Remove 1 grau</strong> cada vez que o alvo recebe uma habilidade que <strong>cure Vida</strong> (a Intensidade não importa: o que quebra a pedra é a vida entrando, não a quantidade), ou por <a href="../exploracao/#descanso">descanso longo</a>.</p>
+<div class="admonition cuidado">
+<p class="admonition-title">Estátua quebrada não volta</p>
+<p>No grau 3 o corpo é pedra — e pedra racha. Se ele sofrer dano que o levaria a 0 de Vida enquanto está petrificado, o personagem <strong>morre de vez</strong>: não fica <a href="../dano-e-cura/#chegando-a-0-de-vida">Caído</a>, não rola contra a morte, não há <a href="../../habilidades/suporte/">Ressuscitar</a> que junte os cacos. A resistência a dano físico existe justamente pra dar ao grupo a chance de tirar a estátua da linha de fogo antes disso.</p>
+</div>
+<h3 id="derrubado">Derrubado<a class="headerlink" href="#derrubado" title="Permanent link">&para;</a></h3>
+<p>Está <strong>no chão</strong>. Enquanto Derrubado, seu Movimento é 0, e ataques <strong>corpo a corpo</strong> contra ele rolam com <a href="../../glossario/#vantagem">Vantagem</a>. <strong>Levantar custa ◈ (1)</strong> no próprio turno e encerra a condição. Não se confunde com <strong>Caído</strong> (<a href="../dano-e-cura/#chegando-a-0-de-vida">a 0 de Vida</a>) — Derrubado é chão, Caído é morte chegando.</p>
+<h3 id="desprevenido">Desprevenido<a class="headerlink" href="#desprevenido" title="Permanent link">&para;</a></h3>
+<p>Foi pego de surpresa: <strong>não pode agir nem reagir durante a primeira rodada do combate</strong>. É o que acontece com um grupo emboscado sem vigia (ver <a href="../../mestre/exploracao/#detectar-e-desarmar">Exploração</a>). "Surpreendido" é a mesma condição.</p>
+<h3 id="agarrado">Agarrado<a class="headerlink" href="#agarrado" title="Permanent link">&para;</a></h3>
+<p>Está preso por uma criatura ou restrição física: fica <a href="#imovel">Imóvel</a> enquanto durar. <strong>Escapar custa ◈ (1)</strong> e um teste de <strong>Força ou Agilidade</strong> (o que for maior) contra a Defesa física de quem prende — ou contra a DC da restrição, se for um objeto. Quem prende solta automaticamente se ficar Atordoado ou Caído.</p>
+<h3 id="marcado">Marcado<a class="headerlink" href="#marcado" title="Permanent link">&para;</a></h3>
+<p>O <strong>próximo ataque de um aliado</strong> contra ele <strong>nesta rodada</strong> rola com Vantagem.</p>
+<h3 id="envenenado">Envenenado<a class="headerlink" href="#envenenado" title="Permanent link">&para;</a></h3>
+<p>Perde <strong>1d4 de Vida por acúmulo</strong> no início de cada turno dele, até ser curado. Diferente do fogo, o veneno leva tempo pra agir: <strong>não há dano no momento em que é aplicado</strong> — a primeira perda de Vida acontece no início do próximo turno do alvo.</p>
+<ul>
+<li><strong>Acúmulos:</strong> cada nova aplicação soma 1 acúmulo, e cada acúmulo vale 1d4 por turno (1 acúmulo = 1d4, 2 = 2d4, 3 = 3d4). O <strong>máximo é 3 acúmulos</strong> (3d4 por turno).</li>
+<li><strong>Cura limpa tudo.</strong> Qualquer efeito que cure Vida ou remova condições apaga <strong>todos</strong> os acúmulos de uma vez — não é preciso curar três vezes.</li>
+</ul>
+<h3 id="escudo">Escudo<a class="headerlink" href="#escudo" title="Permanent link">&para;</a></h3>
+<p>Pontos temporários que <strong>absorvem dano</strong> antes da Vida. Não acumulam com outro Escudo — vale o maior. Substituir um Escudo por outro maior <strong>não</strong> remove os demais efeitos do buff original (retaliação, anti-derrubar etc.), que valem pela duração declarada dele.</p>
+<div class="admonition regra">
+<p class="admonition-title">Escudo (condição) ≠ Escudo (item)</p>
+<p>O <strong>item</strong> Escudo (<a href="../../equipamento/#equ-escudo">Equipamento → Escudos</a>) dá bônus passivo de <strong>Defesa</strong>. A <strong>condição</strong> Escudo dá pontos que absorvem dano. Quando uma habilidade diz "ignora bônus de Escudo", refere-se ao <strong>item</strong>; quando diz "ganha um Escudo de Xd6", é a condição.</p>
+</div>
+<h3 id="exausto">Exausto<a class="headerlink" href="#exausto" title="Permanent link">&para;</a></h3>
+<p>Desgaste do corpo, acumulado em <strong>graus</strong>. Diferente das outras condições, não vem de habilidade: vem de <a href="../exploracao/#exaustao">privação e viagem</a> — fome, sede, frio, noite sem dormir, marcha forçada.</p>
+<table>
+<thead>
+<tr>
+<th>Grau</th>
+<th>Efeito (acumulativo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td>Desvantagem em todos os testes</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>também fica <a href="#lento">Lento</a></td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>cai inconsciente até receber ajuda ou descansar</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Some 1 grau</strong> a partir do <strong>segundo dia</strong> de privação (o primeiro só incomoda) e por noite sem descanso adequado depois de um dia de esforço — ver <a href="../exploracao/#exaustao">Exaustão</a>, que é a regra completa. <strong>Remove 1 grau</strong> por <a href="../exploracao/#descanso">descanso longo</a> — desde que a causa tenha sido resolvida (comeu, bebeu, se aqueceu). Descansar com fome não remove nada.</p>
+<h3 id="risco">Risco<a class="headerlink" href="#risco" title="Permanent link">&para;</a></h3>
+<p>Algumas habilidades cobram um preço de quem as usa: se <strong>algum dos dados de dano cair em 1</strong>, a habilidade escapa ao controle e o usuário sofre o efeito descrito na ficha dela. Reservado a habilidades de tema perigoso — lâminas amaldiçoadas, magia de sangue, poder emprestado.</p>
+<h2 id="efeitos-de-terreno">Efeitos de Terreno<a class="headerlink" href="#efeitos-de-terreno" title="Permanent link">&para;</a></h2>
+<p>Ao contrário das Condições, que ficam grudadas numa criatura, estes efeitos ficam grudados no <strong>chão</strong> — e valem para quem quer que passe por ali.</p>
+<p>Duas regras valem pra <strong>todo</strong> efeito de terreno criado por habilidade, de qualquer elemento:</p>
+<ul>
+<li><strong>Não somam.</strong> Onde duas zonas de dano se sobrepõem — sejam de Sombras, Fogo, Raio ou qualquer outro tema — vale só a <strong>mais forte</strong>, nunca a soma.</li>
+<li><strong>Cobertura e prazo padrão:</strong> salvo texto contrário na ficha, o terreno criado cobre a <strong>área da habilidade</strong> e dura <strong>até o fim do combate</strong>.</li>
+</ul>
+<h3 id="terreno-dificil">Terreno Difícil<a class="headerlink" href="#terreno-dificil" title="Permanent link">&para;</a></h3>
+<p>Atravessar <strong>custa o dobro de Movimento</strong>: cada casa consome duas. Vale para escombros, lama, gelo, mato fechado, escada, e para o terreno que algumas habilidades criam.</p>
+<p>Não é dano nem condição — é o chão cobrando pedágio. Num sistema onde deslocar-se custa ◈, dobrar esse custo é uma das formas mais baratas de mudar como uma luta se desenrola.</p>
+<h3 id="zona-amaldicoada">Zona Amaldiçoada<a class="headerlink" href="#zona-amaldicoada" title="Permanent link">&para;</a></h3>
+<p>Assinatura de <a href="../../habilidades/magicas-elementais/#sombras">Sombras</a> em área: a região atingida continua ferindo depois do golpe. Qualquer criatura que <strong>entrar</strong> na área, ou que <strong>terminar o turno</strong> dentro dela, sofre o dano indicado pela habilidade (tipicamente 1d4, ou 2d4 na Intensidade III).</p>
+<ul>
+<li><strong>A zona não repete o impacto.</strong> Quem estava na área no momento do golpe já sofreu o dano da habilidade; a zona passa a valer <strong>a partir daí</strong>, atingindo quem entrar depois ou quem escolher ficar.</li>
+<li><strong>Fere todo mundo, sem distinção.</strong> É terreno amaldiçoado, não uma armadilha inteligente: pega inimigos, aliados e o próprio usuário. Plantar uma zona no meio da batalha é uma decisão de posicionamento, não dano grátis.</li>
+<li><strong>É visível.</strong> A mancha no chão é óbvia para qualquer um que olhe — ninguém entra sem saber. Um inimigo com um mínimo de instinto vai desviar, e é justamente assim que a zona controla o campo: negando espaço, mais do que causando dano.</li>
+<li><strong>Zonas sobrepostas não somam.</strong> Onde duas zonas se cruzam, vale só a <strong>mais forte</strong> — nunca 1d4 + 1d4.</li>
+<li><strong>Duração:</strong> a que a habilidade declarar (1, 2 ou 3 rodadas, conforme a Intensidade). Encerrado o prazo, a maldição se dissolve.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../dano-e-cura/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Dano e Cura">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Dano e Cura
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../estresse/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Estresse">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Estresse
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Prisma RPG © Paulo Souza — <a href="https://creativecommons.org/licenses/by/4.0/deed.pt-br" rel="license">CC BY 4.0</a>. Use, copie e adapte livremente, creditando o autor.
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.path", "navigation.top", "navigation.footer", "search.highlight", "search.suggest", "content.tables", "content.tooltips", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../assets/js/prisma.js?h=27ace199"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 20" role="presentation" focusable="false" aria-hidden="true">
+  <defs>
+    <linearGradient id="prg-div-e" x1="0" x2="1">
+      <stop offset="0" stop-color="currentColor" stop-opacity="0"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="prg-div-d" x1="0" x2="1">
+      <stop offset="0" stop-color="currentColor" stop-opacity=".9"/>
+      <stop offset="1" stop-color="currentColor" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M2 10 H96" stroke="url(#prg-div-e)" stroke-width="1"/>
+  <path d="M144 10 H238" stroke="url(#prg-div-d)" stroke-width="1"/>
+
+  <path d="M96 10 q7 -4 12 0 q-7 4 -12 0z" fill="currentColor" opacity=".55"/>
+  <path d="M144 10 q-7 -4 -12 0 q7 4 12 0z" fill="currentColor" opacity=".55"/>
+
+  <path d="M120 2 L128 10 L120 18 L112 10z" fill="none" stroke="currentColor" stroke-width="1.1"/>
+  <path d="M120 6 L124 10 L120 14 L116 10z" fill="currentColor" opacity=".8"/>
+</svg>

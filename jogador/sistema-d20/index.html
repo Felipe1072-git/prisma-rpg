@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Esta página mudou de lugar</title>
+<link rel="canonical" href="/prisma-rpg/jogar/">
+<script>
+var mapa = {"criacao-de-personagem": "criacao/", "distribuicao-na-criacao": "criacao/#1-atributos", "progressao-de-nivel": "criacao/progressao/", "atributos": "jogar/atributos/", "testes": "jogar/testes/", "testes-sociais": "jogar/testes/#testes-sociais", "rerolagens": "jogar/testes/#rerolagens", "iniciativa": "jogar/combate/#iniciativa", "defesa": "jogar/combate/#defesa", "base-de-resiliencia": "jogar/combate/#base-de-resiliencia", "quem-rola-o-dado": "jogar/combate/#quem-rola-o-dado", "valores-derivados": "jogar/dano-e-cura/", "vida": "jogar/dano-e-cura/#vida", "dados-de-vida": "jogar/dano-e-cura/#dados-de-vida", "chegando-a-0-de-vida": "jogar/dano-e-cura/#chegando-a-0-de-vida", "o-ultimo-turno": "jogar/dano-e-cura/#o-ultimo-turno", "tipos-de-dano": "jogar/dano-e-cura/#tipos-de-dano", "resistencia-imunidade-e-vulnerabilidade": "jogar/dano-e-cura/#resistencia-imunidade-e-vulnerabilidade", "estresse": "jogar/estresse/", "colapso": "jogar/estresse/#colapso", "reduzindo-estresse": "jogar/estresse/#reduzindo-estresse"};
+var chave = decodeURIComponent(location.hash.replace('#', ''));
+// Sem mapa de âncoras, a página inteira mudou de endereço sem mudar de
+// conteúdo (o Bestiário) — aí o hash continua valendo e vai junto.
+var alvo = (chave && mapa[chave]) ||
+  "jogar/" + (chave && !Object.keys(mapa).length ? location.hash : '');
+location.replace("/prisma-rpg/" + alvo);
+</script>
+<meta http-equiv="refresh" content="2; url=/prisma-rpg/jogar/">
+</head><body>
+<p>Esta página mudou de lugar. Se o navegador não seguir sozinho,
+<a href="/prisma-rpg/jogar/">clique aqui</a>.</p>
+</body></html>
