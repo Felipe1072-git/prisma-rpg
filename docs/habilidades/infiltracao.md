@@ -9,7 +9,7 @@ Furtividade, ladinagem.
 *Uma bomba lançada nas sombras, que detona um instante depois numa explosão de energia sombria.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Custo fixo:** ◈◈◈ (3 PA) + 8 Mana | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** 8 casas | **Alvos:** todas as criaturas em 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 8 Mana | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** todas as criaturas em 3 casas de raio do ponto
 - **Efeito de atraso:** o teste é feito ao lançar a bomba; em acerto, o efeito só se aplica no início do próximo turno do usuário. A explosão atinge quem estiver na área **no momento da detonação**.
 - **Acerto:** 1d6 de dano + derruba cada alvo
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
@@ -30,7 +30,7 @@ Furtividade, ladinagem.
 *Um mecanismo quase invisível é escondido no chão — o primeiro passo errado dispara tudo de uma vez.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** 1 ponto
+- **Atributo:** Agilidade | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 1 ponto
 - **Efeito de atraso:** o teste é feito ao armar a armadilha; o efeito correspondente à Intensidade paga só se aplica quando uma criatura hostil pisar naquela casa (invisível pra ela, a menos que um teste de percepção do Mestre diga o contrário). Guarde o total do teste feito ao armar; quando uma criatura pisar, compare-o com a Defesa dela. Um Crítico ao armar vale contra a primeira criatura que pisar.
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo + fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
@@ -42,7 +42,7 @@ Furtividade, ladinagem.
 *Um golpe que só existe porque ninguém viu chegar — depois do primeiro corte, a vantagem desaparece.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Atributo:** Agilidade | **Alvos:** 1 criatura | **Alcance:** corpo a corpo ou arma equipada
+- **Atributo:** Agilidade | **Dano:** usa o dado de dano da arma equipada | **Alvos:** 1 criatura | **Alcance:** corpo a corpo ou arma equipada
 - **Condição de uso:** só pode ser usada contra um alvo que ainda não agiu neste combate, ou que tenha outra criatura adjacente a ele além do usuário (flanqueado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano da arma equipada + 1d6 extra
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano da arma equipada + 2d6 extra, e o alvo fica [Sangrando](../glossario.md#sangrando)

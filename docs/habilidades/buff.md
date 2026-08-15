@@ -140,7 +140,7 @@ Incremento de força, imbuir elementos em armas, etc.
 *Pássaros de fogo passam a orbitar a conjuradora, atacando por conta própria sempre que um inimigo se aproxima.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alvos:** o próprio usuário
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** por 3 rodadas, no início de cada um dos próprios turnos seguintes do usuário (a partir do próximo), todas as criaturas hostis em 2 casas de raio dele sofrem 1d6 de dano automático (3 aplicações no total)
 - **Intensidade II — ◈◈ (2 PA) + 12 Mana:** o mesmo, com 2d6 de dano automático por aplicação
 - **Intensidade III — ◈◈◈ (3 PA) + 15 Mana:** o mesmo, com 3d6 de dano automático por aplicação
@@ -181,7 +181,7 @@ Incremento de força, imbuir elementos em armas, etc.
 *O corpo se envolve em luz e sombra ao mesmo tempo, e por um instante, a deusa desperta.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Inteligência | **Alvos:** todas as criaturas hostis em 2 casas de raio ao redor do usuário (dano) + o próprio usuário (buff)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alvos:** todas as criaturas hostis em 2 casas de raio ao redor do usuário (dano) + o próprio usuário (buff)
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** os inimigos na área sofrem 1d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +3 de Defesa e reduz em 2 o dano recebido (mínimo 1).
 - **Intensidade II — ◈◈ (2 PA) + 12 Mana:** os inimigos na área sofrem 2d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +4 de Defesa e reduz em 2 o dano recebido (mínimo 1).
 - **Intensidade III — ◈◈◈ (3 PA) + 15 Mana:** os inimigos na área sofrem 3d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +5 de Defesa e reduz em 2 o dano recebido (mínimo 1).
@@ -301,7 +301,7 @@ Incremento de força, imbuir elementos em armas, etc.
 *Uma bênção divina desce sobre o campo de batalha, ferindo os corruptos e prometendo aos justos uma segunda chance.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Sabedoria | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário (dano) + todos os aliados no campo de batalha (buff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Sabedoria | **Dano:** Arcano | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário (dano) + todos os aliados no campo de batalha (buff)
 - **Efeito:** os inimigos na área sofrem 2d6 de dano automático imediatamente ao usar. Todos os aliados ganham a Bênção da Redenção: a próxima vez que cada um cair a 0 de Vida nesta cena, ele revive imediatamente com 50% da Vida máxima em vez de cair (efeito de uso único por aliado).
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
@@ -380,7 +380,7 @@ Incremento de força, imbuir elementos em armas, etc.
 *Um escudo demoníaco envolve o usuário, retribuindo cada golpe recebido com dano.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alvos:** o próprio usuário
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** por 2 rodadas, o usuário ganha um Escudo de 2d6 pontos e não pode ser derrubado. Enquanto o Escudo durar, qualquer criatura que acertar o usuário corpo a corpo sofre 1d4 de dano automático.
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** por 2 rodadas, o usuário ganha um Escudo de 3d6 pontos e não pode ser derrubado. Enquanto o Escudo durar, qualquer criatura que acertar o usuário corpo a corpo sofre 2d4 de dano automático.
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** por 2 rodadas, o usuário ganha um Escudo de 4d6 pontos e não pode ser derrubado. Enquanto o Escudo durar, qualquer criatura que acertar o usuário corpo a corpo sofre 3d4 de dano automático.
@@ -523,7 +523,7 @@ Incremento de força, imbuir elementos em armas, etc.
 *Um salto termina num golpe de escudo contra o chão, convocando um raio sagrado que blinda o usuário e os aliados próximos.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** criaturas hostis em 2 casas de raio (dano) + usuário e aliados em 3 casas de raio (buff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Dano:** Arcano | **Alvos:** criaturas hostis em 2 casas de raio (dano) + usuário e aliados em 3 casas de raio (buff)
 - **Efeito:** os inimigos na área sofrem 2d6 de dano automático imediatamente ao usar. Por 2 rodadas, o usuário e os aliados afetados reduzem pra 1 ponto qualquer dano recebido (empurrões, quedas e outros efeitos continuam valendo normalmente).
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
 
@@ -532,7 +532,7 @@ Incremento de força, imbuir elementos em armas, etc.
 *O corpo se contorce e estica — pelos, garras e presas emergem, e por um tempo, a fera está no comando.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Força | **Alvos:** o próprio usuário
+- **Atributo:** Força | **Dano:** Garra Cortante, Mordida Perfurante, Investida Impacto | **Alvos:** o próprio usuário
 - **Intensidade I — ◈ (1 PA) + 8 Mana:** por 3 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (1d8 de dano corpo a corpo), **Mordida** (1d10 de dano corpo a corpo), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 1d6 de dano a quem estiver no caminho). Também ganha +2 de Movimento e +2 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
 - **Intensidade II — ◈◈ (2 PA) + 11 Mana:** por 4 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (2d8 de dano corpo a corpo), **Mordida** (2d10 de dano corpo a corpo), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 2d6 de dano a quem estiver no caminho). Também ganha +3 de Movimento e +3 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
 - **Intensidade III — ◈◈◈ (3 PA) + 14 Mana:** por 5 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (3d8 de dano corpo a corpo), **Mordida** (3d10 de dano corpo a corpo, deixando o alvo [Sangrando](../glossario.md#sangrando)), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 3d6 de dano a quem estiver no caminho). Também ganha +4 de Movimento e +4 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.

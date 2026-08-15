@@ -83,7 +83,7 @@ Cura e apoio a aliados.
 *Uma dança envolve um oponente, que sai tonto e machucado — os aliados ao redor saem revigorados pelo espetáculo.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 criatura (dano) + usuário e aliados em 3 casas de raio (cura)
+- **Atributo:** Sabedoria | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 1 criatura (dano) + usuário e aliados em 3 casas de raio (cura)
 - **Intensidade I — ◈ (1 PA) + 5 Mana:** o alvo sofre 1d6 de dano imediatamente ao usar (rola teste de ataque contra a Defesa dele). Usuário e aliados na área recuperam 1d6 + Sabedoria de Vida.
 - **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o alvo sofre 2d6 de dano imediatamente ao usar (rola teste de ataque contra a Defesa dele). Usuário e aliados na área recuperam 2d6 + Sabedoria de Vida.
 - **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o alvo sofre 3d6 de dano imediatamente ao usar (rola teste de ataque contra a Defesa dele). Usuário e aliados na área recuperam 3d6 + Sabedoria de Vida.
@@ -131,7 +131,7 @@ Cura e apoio a aliados.
 *Ele não protege o corpo do aliado. Protege a porta.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Custo fixo:** ◈ (1 PA) + 4 Mana | **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 aliado
+- **Custo fixo:** ◈ (1 PA) + 4 Mana | **Atributo:** Sabedoria | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 1 aliado
 - **Efeito:** até o fim da [cena](../glossario.md#cena), o aliado não pode ficar [Possuído](../glossario.md#possuido) e rola com [Vantagem](../glossario.md#vantagem) contra qualquer efeito mental. Toda vez que um desses efeitos falhar por causa deste vínculo, o **usuário** sofre 2d6 de dano — a porta é ele.
 - *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
 

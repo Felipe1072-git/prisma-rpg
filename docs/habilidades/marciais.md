@@ -51,7 +51,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *A mente se aquieta, e só resta a fúria — cada golpe mais selvagem que o anterior.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** o próprio usuário
+- **Atributo:** Força | **Dano:** usa o dado de dano da arma equipada | **Alvos:** o próprio usuário
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** por 3 rodadas, todo Ataque Básico e Habilidade de Arma Marcial causa +1d4 de dano extra
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** por 3 rodadas, todo Ataque Básico e Habilidade de Arma Marcial causa +2d4 de dano extra
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** por 3 rodadas, todo Ataque Básico e Habilidade de Arma Marcial causa +3d4 de dano extra
@@ -577,7 +577,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *Toda a força contida é liberada de uma vez, devastando tudo ao redor num único golpe.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Alvos:** todas as criaturas **hostis** em 3 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Dano:** usa o dado de dano da arma equipada | **Alvos:** todas as criaturas **hostis** em 3 casas de raio ao redor do usuário
 - **Acerto:** 2d8 de dano + derruba cada alvo
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
@@ -608,7 +608,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *Seis flores de chi desabrocham ao redor do usuário, e mais uma sob cada inimigo à vista — todas explodem ao mesmo tempo, arremessando tudo pro alto.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Dano:** usa o dado de dano da arma equipada | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
 - **Acerto:** 2d8 de dano + derruba cada alvo
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
@@ -703,6 +703,6 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *Sete espadas espectrais são invocadas, cortando o campo de batalha repetidas vezes antes de atacarem juntas num golpe final.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Alvos:** todas as criaturas hostis em 5 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Dano:** usa o dado de dano da arma equipada | **Alvos:** todas as criaturas hostis em 5 casas de raio ao redor do usuário
 - **Acerto:** 2d8 de dano + derruba cada alvo
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
