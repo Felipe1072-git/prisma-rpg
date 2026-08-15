@@ -117,15 +117,6 @@ Cura e apoio a aliados.
 - **Efeito:** role **d20 + Sabedoria** contra a [Defesa mental](../jogar/combate.md#defesa) de quem controla o alvo. Passando, encerra **qualquer efeito que esteja controlando as ações do alvo** — [Possuído](../glossario.md#possuido), encantamento e afins. Um possuidor expulso reaparece adjacente e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele.
 - *(Sem Intensidade — o efeito é absoluto: ou o controle acaba, ou não)*
 
-**Ver Espíritos**
-
-*Ele para de olhar o que está na sala e começa a olhar o que está junto dela.*
-
-- **Chave:** [Suporte](../glossario.md#suporte)
-- **Custo fixo:** ◈ (1 PA) + 3 Mana | **Atributo:** Sabedoria | **Alvos:** o próprio usuário
-- **Efeito:** até o fim da [cena](../glossario.md#cena), enxerga criaturas incorpóreas, escondidas e disfarçadas a até **12 casas**, e sabe quem está [Possuído](../glossario.md#possuido) e por quem.
-- *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
-
 **Solo Consagrado**
 
 *O chão deixa de ser neutro.*
@@ -143,15 +134,6 @@ Cura e apoio a aliados.
 - **Custo fixo:** ◈ (1 PA) + 4 Mana | **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 aliado
 - **Efeito:** até o fim da [cena](../glossario.md#cena), o aliado não pode ficar [Possuído](../glossario.md#possuido) e rola com [Vantagem](../glossario.md#vantagem) contra qualquer efeito mental. Toda vez que um desses efeitos falhar por causa deste vínculo, o **usuário** sofre 2d6 de dano — a porta é ele.
 - *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
-
-**Olhar Que Enxerga o Encanto**
-
-*A magia deixa rastro pra quem sabe olhar — e agora você sabe.*
-
-- **Chave:** [Suporte](../glossario.md#suporte)
-- **Custo fixo:** ◈ (1 PA) + 3 Mana | **Atributo:** Sabedoria | **Alvos:** área de 6 casas de raio ao redor do usuário
-- **Efeito:** até o fim da [cena](../glossario.md#cena), enxerga auras de magia ativa — itens encantados, feitiços de ilusão, armadilhas mágicas — mesmo escondidas ou disfarçadas.
-- *(Sem Intensidade — habilidade de detecção, sem teste de ataque)*
 
 **Odre Sem Fundo**
 

@@ -27,6 +27,10 @@
   --prg-c-suprema: #8a1f45;
   --prg-c-reacao: #0d6b73;
   --prg-c-dupla: #6b4a8a;
+  --prg-c-necromancia: #4a5c2a;
+  --prg-c-projecao-mental: #a83f7a;
+  --prg-c-alquimia-de-mana: #a8621f;
+  --prg-c-percepcao-arcana: #1f8a9c;
   --prg-c-neutro: #5d5a66;
 
   --prg-c-fogo: #c0341a;
@@ -64,6 +68,10 @@
   --prg-c-suprema: #f0879f;
   --prg-c-reacao: #5ed3dd;
   --prg-c-dupla: #c4a0e8;
+  --prg-c-necromancia: #b0c47a;
+  --prg-c-projecao-mental: #f0a3d1;
+  --prg-c-alquimia-de-mana: #f0a868;
+  --prg-c-percepcao-arcana: #6be0f0;
   --prg-c-neutro: #b2aebd;
 
   --prg-c-fogo: #ff8a63;
@@ -109,6 +117,10 @@
 .prg-chip--suprema     { --prg-chip-cor: var(--prg-c-suprema); }
 .prg-chip--reacao      { --prg-chip-cor: var(--prg-c-reacao); }
 .prg-chip--dupla       { --prg-chip-cor: var(--prg-c-dupla); }
+.prg-chip--necromancia      { --prg-chip-cor: var(--prg-c-necromancia); }
+.prg-chip--projecao-mental  { --prg-chip-cor: var(--prg-c-projecao-mental); }
+.prg-chip--alquimia-de-mana { --prg-chip-cor: var(--prg-c-alquimia-de-mana); }
+.prg-chip--percepcao-arcana { --prg-chip-cor: var(--prg-c-percepcao-arcana); }
 .prg-chip--neutro      { --prg-chip-cor: var(--prg-c-neutro); }
 
 .prg-chip--fogo        { --prg-chip-cor: var(--prg-c-fogo); }

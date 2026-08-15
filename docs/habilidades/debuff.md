@@ -141,17 +141,6 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** 1d8 de dano + empurra 2 casas e derruba cada alvo
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo
 
-**Derrotar**
-
-*Uma estocada que rouba a força vital do alvo, transferindo-a para o usuário.*
-
-- **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Inteligência | **Alvos:** 1 criatura, corpo a corpo
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano, e o usuário recupera Vida igual à metade do dano causado
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano, e o usuário recupera Vida igual ao dano causado
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano, e o usuário recupera Vida igual ao dobro do dano causado
-- **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
-
 **Ferrão Caçador**
 
 *A espada localiza o alvo à distância e o ataca de surpresa com um espinho traiçoeiro.*
@@ -172,17 +161,6 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + Lento + alvo fica [Envenenado](../glossario.md#envenenado) (1 acúmulo)
 - **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + Lento + alvo fica [Envenenado](../glossario.md#envenenado) com **2 acúmulos**
-- **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
-
-**Repouso Forçado**
-
-*Uma calma sobrenatural toma conta do inimigo, apagando por completo sua vontade de lutar.*
-
-- **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano + alvo perde a próxima Ação Básica
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + alvo não pode usar Ações Básicas nem Habilidades (só Movimento e Reação) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
 
 **Ponto de Pressão**

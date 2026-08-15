@@ -539,6 +539,22 @@ Desvantagens para inimigos ou em testes. Ver [página do grupo](habilidades/debu
 
 Cura e apoio a aliados. Ver [página do grupo](habilidades/suporte.md).
 
+### Necromancia
+
+Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade. Ver [página do grupo](habilidades/necromancia.md).
+
+### Projeção Mental
+
+Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer mente, sem depender de palavras (não confundir com [Sociais](#sociais), que é persuasão via fala/presença). Ver [página do grupo](habilidades/projecao-mental.md).
+
+### Alquimia de Mana
+
+Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir armas. Ver [página do grupo](habilidades/alquimia-de-mana.md).
+
+### Percepção Arcana
+
+Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate. Ver [página do grupo](habilidades/percepcao-arcana.md).
+
 ## Elementos (dentro de Mágicas por Elemento)
 
 ### Fogo

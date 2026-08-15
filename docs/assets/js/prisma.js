@@ -152,7 +152,9 @@
       marciais: "Marciais", pontaria: "Pontaria", arcano: "Arcano (foco mágico)",
       "magicas-basicas": "Mágicas Básicas", "magicas-elementais": "Mágicas por Elemento",
       sociais: "Sociais", infiltracao: "Infiltração", mobilidade: "Mobilidade",
-      buff: "Buff", debuff: "Debuff", suporte: "Suporte"
+      buff: "Buff", debuff: "Debuff", suporte: "Suporte",
+      necromancia: "Necromancia", "projecao-mental": "Projeção Mental",
+      "alquimia-de-mana": "Alquimia de Mana", "percepcao-arcana": "Percepção Arcana"
     },
     elemento: {
       fogo: "Fogo", gelo: "Gelo", terra: "Terra", raio: "Raio", vento: "Vento",

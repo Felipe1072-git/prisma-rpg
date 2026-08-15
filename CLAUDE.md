@@ -67,8 +67,14 @@ Habilidades são organizadas por grupos temáticos (não por classe):
 | Habilidades de Mobilidade | Voo, deslocamento |
 | Habilidades de Buff | Incremento de força, imbuir elementos em armas, etc. |
 | Habilidades de Debuff | Desvantagens para inimigos ou em testes |
+| Habilidades de Suporte | Cura e apoio a aliados |
+| Habilidades de Necromancia | Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade |
+| Habilidades de Projeção Mental | Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer mente, sem depender de palavras (não confundir com Sociais, que é persuasão via fala/presença) |
+| Habilidades de Alquimia de Mana | Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir armas |
+| Habilidades de Percepção Arcana | Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate |
 
-*(Lista pode crescer — usuário sinalizou que ainda vai pensar em mais grupos.)*
+*(Lista pode crescer. Em aberto: Conjuração de Pacto/Invocação — precisa de regra de mecânica própria,
+discutida antes de virar grupo.)*
 
 ### Pacotes
 

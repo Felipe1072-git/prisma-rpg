@@ -103,6 +103,10 @@ GRUPOS_CHIP = {
     "buff": "buff",
     "debuff": "debuff",
     "suporte": "suporte",
+    "necromancia": "necromancia",
+    "projecao mental": "projecao-mental",
+    "alquimia de mana": "alquimia-de-mana",
+    "percepcao arcana": "percepcao-arcana",
     "basica": "grau",
     "avancada": "grau",
     "especial": "grau",
@@ -1780,12 +1784,13 @@ def monta_regras_de_equipamento(docs_dir: Path) -> list[str]:
 
 # ------------------------------------------------------- listagem única
 
-# As 10 páginas de grupo, exceto Mágicas por Elemento — essa precisa de
+# As 13 páginas de grupo, exceto Mágicas por Elemento — essa precisa de
 # tratamento à parte porque cada uma das 11 seções vira uma faceta de
 # elemento diferente, não um grupo só.
 _GRUPOS_ARQUIVO = (
     "marciais", "pontaria", "magicas-basicas", "sociais",
     "infiltracao", "mobilidade", "buff", "debuff", "suporte",
+    "necromancia", "projecao-mental", "alquimia-de-mana", "percepcao-arcana",
 )
 
 
@@ -1815,7 +1820,7 @@ def cards_magicas_elementais(docs_dir: Path) -> tuple[list[str], int]:
 
 
 def monta_listagem_habilidades(docs_dir: Path) -> tuple[list[str], int]:
-    """Todos os cards do jogo — os 9 grupos simples + Mágicas por Elemento
+    """Todos os cards do jogo — os 13 grupos simples + Mágicas por Elemento
     (facetado por elemento) + as 186 habilidades de arma do Arsenal."""
     todos: list[str] = []
     total = 0
@@ -2308,7 +2313,7 @@ def monta_glossario(markdown: str) -> tuple[str, int]:
 # 1. Só nas páginas de prosa. As páginas que viram listagem têm markdown
 #    *estruturado* (`- **Chave:** ...`), que os extratores leem; injetar link
 #    ali arriscaria quebrar o parsing pra ganhar pouco.
-# 2. Só nas categorias que são regra. Linkar as 62 armas, os 10 grupos e os 11
+# 2. Só nas categorias que são regra. Linkar as 62 armas, os 14 grupos e os 11
 #    elementos encheria o texto de links — "Fogo", "Luz" e "Marciais" aparecem
 #    o tempo todo sem querer dizer o verbete.
 
