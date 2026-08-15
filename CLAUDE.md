@@ -72,9 +72,9 @@ Habilidades são organizadas por grupos temáticos (não por classe):
 | Habilidades de Projeção Mental | Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer mente, sem depender de palavras (não confundir com Sociais, que é persuasão via fala/presença) |
 | Habilidades de Alquimia de Mana | Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir armas |
 | Habilidades de Percepção Arcana | Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate |
+| Habilidades de Conjuração | Trazer aliados de outros lugares/planos pra lutar ao seu lado — familiar simples, aliado de combate (ficha própria, turno próprio), vínculo com um Ser maior (ritual, risco real), e o Companheiro Animal (escala com o nível do personagem, não com Mana) |
 
-*(Lista pode crescer. Em aberto: Conjuração de Pacto/Invocação — precisa de regra de mecânica própria,
-discutida antes de virar grupo.)*
+*(Lista pode crescer.)*
 
 ### Pacotes
 
@@ -266,6 +266,16 @@ Ao mexer nisso:
   degraus de Intensidade viraram o mesmo dado). **Ordene do maior pro menor.**
 - Em script de verificação no Windows, `sys.stdout.reconfigure(encoding='utf-8')` antes
   de imprimir ◈ ou acento.
+- **A ficha de uma habilidade só reconhece bullets contínuos — nada mais.** `extrai_blocos_de_habilidade`
+  para de ler no primeiro `**Cabeçalho em negrito**` solto ou tabela markdown que aparecer no meio
+  do corpo (não é bullet, não é continuação indentada) — e para **sem erro nenhum no build**: o
+  resto da habilidade só some do card, ou vira parágrafo solto entre dois cards. Aconteceu de
+  verdade em três habilidades de uma leva só (`Corrosão`, `Selar o Pacto`, `Laço de Sangue e
+  Pelo`) — a mais grave perdeu a tabela de progressão inteira e a regra de morte junto. Habilidade
+  com duas seções (tipo "contra criatura" / "contra objeto") ou uma tabela de valores: dobre tudo
+  em bullets `- **Rótulo:** valor` numa escada só (é como `Ressuscitar` já resolve seções
+  múltiplas — cada resultado é um bullet, não um subtítulo), nunca um cabeçalho de parágrafo nem
+  uma tabela. Depois de escrever, **abra a página e clique no card** — não basta o build passar.
 
 ## Convenções de Commit
 

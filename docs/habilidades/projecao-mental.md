@@ -14,3 +14,75 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + alvo não pode usar Ações Básicas nem Habilidades (só Movimento e Reação) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
+
+**Medo Puro**
+
+*O terror não precisa de motivo — só precisa de um segundo dentro da mente do alvo.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano + no início do próprio turno, o alvo deve se afastar do usuário usando o Movimento dele, se puder.
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + o mesmo, e enquanto durar (2 rodadas) o alvo rola com Desvantagem contra o usuário.
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + por 2 rodadas, o alvo não pode se aproximar nem atacar o usuário.
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
+
+**Ruído Branco**
+
+*Pensamentos que não são seus se misturam aos que são — e por um instante, não dá pra saber qual comando obedecer.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano + o próximo ataque do alvo até o fim do turno dele rola com Desvantagem.
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + Desvantagem em todos os ataques do alvo até o fim do próprio próximo turno.
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + Desvantagem em todos os ataques do alvo até o fim do próprio próximo turno, e há 50% de chance (o Mestre rola) dele atacar a criatura mais próxima — aliada ou não — em vez do alvo pretendido.
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
+
+**Ler a Superfície**
+
+*Não é preciso invadir — só ouvir o que já está gritando por dentro.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Custo fixo:** ◈ (1 PA) + 4 Mana | **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Efeito:** role d20 + Inteligência contra a Defesa mental do alvo. Passando, o usuário lê o pensamento mais superficial e presente na mente dele agora — a intenção do próximo turno, uma mentira prestes a ser dita, o nome de quem ele mais teme. O Mestre decide o que é relevante ali; não funciona em mentes protegidas ou não-conscientes.
+- *(Sem Intensidade — habilidade de detecção, escala só no que é revelado, a critério do Mestre)*
+
+**Miragem**
+
+*Os olhos veem o que a mente projeta — e a mente, nesse instante, não é mais sua.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** por 1 rodada, cria uma ilusão visual ou sonora simples (uma forma, um som) na área — não interage fisicamente com nada, mas engana quem não investigar de perto.
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** por 2 rodadas, a ilusão pode se mover e imitar uma criatura ou efeito conhecido (um aliado, uma explosão, um grito); quem agir contra ela perde a ação, sem efeito real.
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** por 3 rodadas, a ilusão engana também o toque (parece sólida ao contato) — só um teste ativo de investigação, a critério do Mestre, revela a farsa.
+- *(Sem Crítico — não há rolagem de ataque nesta habilidade; é ilusão, não dano)*
+
+**Grito Silencioso**
+
+*Não sai som nenhum — mas do lado de dentro, ainda assim, dói.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano.
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano, e o alvo perde 2 Mana.
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano, e o alvo perde 4 Mana e rola o próximo teste de Vontade com Desvantagem.
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
+
+**Voz Sem Boca**
+
+*A frase chega direto onde precisa chegar — nenhum ouvido no meio do caminho a intercepta.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Custo fixo:** ◈ (1 PA) + 2 Mana | **Atributo:** Inteligência | **Alcance:** 12 casas | **Alvos:** até 5 aliados conhecidos pelo usuário
+- **Efeito:** por até 10 minutos, o usuário e os alvos compartilham um canal telepático — podem se comunicar (palavras, imagens simples) enquanto estiverem dentro do alcance, mesmo sem se ver ou ouvir.
+- *(Sem Intensidade — habilidade utilitária, sem teste de ataque)*
+
+**Colapso Mental**
+
+*Todo mundo na área ouve, ao mesmo tempo, o próprio medo mais fundo — e não tem como não reagir.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Acerto:** 1d8 de dano + cada alvo não pode usar Habilidades (só Movimento, Ataque Básico e Reação) até o fim do próprio próximo turno.
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos
+- *(Custo fixo — área de 3 casas de raio, rola teste de ataque contra a Defesa mental de cada alvo)*

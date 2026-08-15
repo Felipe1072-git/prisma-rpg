@@ -570,3 +570,30 @@ Criar desvantagens para inimigos ou em testes.
 - **Custo fixo:** ◈◈ (2 PA) + 5 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Efeito:** remove um efeito benéfico ativo criado por habilidade (de qualquer grupo), incluindo Escudos e invocações — à escolha do usuário — na criatura alvo, aliada ou inimiga.
 - *(Sem Intensidade — habilidade de debuff, sem teste de ataque)*
+
+**Selo de Exílio**
+
+*A ordem não é gritada — é dita uma vez, e o que não pertence a este mundo é lembrado disso.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Vontade | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano (testa contra [Defesa mental](../jogar/combate.md#defesa)) + o alvo [perde a próxima Reação](../glossario.md#perde-a-proxima-reacao)
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + o alvo fica [Atordoado](../glossario.md#atordoado) por 2 rodadas — impedido de agir, mas sem sair da cena
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + o alvo é **expulso**: sai da cena de vez, de volta ao plano de origem
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
+- **Alvo válido:** só afeta criaturas cuja ficha declare origem invocada/planar — Elementais, demônios, mortos-vivos erguidos por Necromancia, e qualquer Ser vinculado de [Conjuração](conjuracao.md) (critério por fluff narrativo na ficha)
+
+!!! nota "Simetria"
+    Um Aliado de Combate ou Ser vinculado de um PJ ([Conjuração](conjuracao.md)) também pode ser
+    alvo de **Selo de Exílio** vindo de um inimigo. Isso não conta como a morte da criatura —
+    ela só volta pro próprio plano, e a cena atual é interrompida.
+
+**Fechar a Porta**
+
+*Um gesto largo, e toda porta pra outro lugar se fecha de uma vez.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 12 Mana | **Atributo:** Vontade | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** todas as criaturas hostis de origem invocada/planar em 3 casas de raio do ponto
+- **Acerto** (testa cada alvo contra a [Defesa mental](../jogar/combate.md#defesa)): 1d6 de dano + cada alvo é expulso da cena, de volta ao plano de origem
+- **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos
+- *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](regras.md#habilidades-de-custo-fixo))*

@@ -154,7 +154,8 @@
       sociais: "Sociais", infiltracao: "Infiltração", mobilidade: "Mobilidade",
       buff: "Buff", debuff: "Debuff", suporte: "Suporte",
       necromancia: "Necromancia", "projecao-mental": "Projeção Mental",
-      "alquimia-de-mana": "Alquimia de Mana", "percepcao-arcana": "Percepção Arcana"
+      "alquimia-de-mana": "Alquimia de Mana", "percepcao-arcana": "Percepção Arcana",
+      conjuracao: "Conjuração"
     },
     elemento: {
       fogo: "Fogo", gelo: "Gelo", terra: "Terra", raio: "Raio", vento: "Vento",

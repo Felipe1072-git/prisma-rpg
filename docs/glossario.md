@@ -555,6 +555,10 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 
 Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate. Ver [página do grupo](habilidades/percepcao-arcana.md).
 
+### Conjuração
+
+Trazer aliados de outros lugares/planos pra lutar ao seu lado — familiar simples, aliado de combate, vínculo com um Ser maior, e o Companheiro Animal. Ver [página do grupo](habilidades/conjuracao.md).
+
 ## Elementos (dentro de Mágicas por Elemento)
 
 ### Fogo

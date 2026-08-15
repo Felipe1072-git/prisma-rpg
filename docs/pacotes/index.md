@@ -1190,7 +1190,7 @@
 | Nível | Habilidade |
 |---|---|
 | 1 | Orbe - Básica |
-| 3 | Vínculo Selvagem |
+| 3 | Laço de Sangue e Pelo |
 | 5 | Orbe - Avançada |
 | 7 | Lacaio Reanimado |
 | 9 | Orbe - Especial |
@@ -1372,7 +1372,7 @@
 | Nível | Habilidade |
 |---|---|
 | 1 | Lança - Básica |
-| 3 | Vínculo Selvagem |
+| 3 | Laço de Sangue e Pelo |
 | 5 | Lança - Avançada |
 | 7 | Domador da Natureza |
 | 9 | Lança - Especial |
@@ -1749,7 +1749,7 @@
 | 11 | Flecha Perfurante |
 | 13 | Domador da Natureza |
 | 15 | Matilha Selvagem |
-| 17 | Vínculo Selvagem |
+| 17 | Laço de Sangue e Pelo |
 | 19 | Sentença Final *(Supremo)* |
 
 ### Retalhador

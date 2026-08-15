@@ -4,15 +4,16 @@ Incremento de força, imbuir elementos em armas, etc.
 
 ## Habilidades Gerais
 
-**Escudo Mágico**
+**Escudo Mágico** *(usada como Reação)*
 
-*Uma barreira translúcida se ergue, absorvendo o impacto antes que ele chegue.*
+*Uma barreira translúcida se ergue no instante exato do golpe, absorvendo o impacto antes que ele chegue — não importa a distância.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Inteligência | **Alvos:** 1 criatura (pode ser o próprio usuário)
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** o alvo ganha um [Escudo](../glossario.md#escudo) de 1d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o alvo ganha um [Escudo](../glossario.md#escudo) de 2d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o alvo ganha um [Escudo](../glossario.md#escudo) de 3d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o fim do próximo turno do alvo, ou até ser destruído.
+- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** o próprio usuário, ou 1 aliado
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 4 Mana:** quando o usuário ou um aliado a até 6 casas for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra dar a ele um [Escudo](../glossario.md#escudo) de 1d8 + Inteligência pontos contra aquele ataque, absorvendo o dano antes da Vida ser afetada.
+- **Intensidade II — 0 PA + 7 Mana:** o mesmo, com um Escudo de 2d8 + Inteligência.
+- **Intensidade III — 0 PA + 10 Mana:** o mesmo, com um Escudo de 3d8 + Inteligência.
 
 **Bênção Divina**
 
@@ -537,17 +538,6 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Intensidade III — ◈◈◈ (3 PA) + 14 Mana:** por 5 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (3d8 de dano corpo a corpo), **Mordida** (3d10 de dano corpo a corpo, deixando o alvo [Sangrando](../glossario.md#sangrando)), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 3d6 de dano a quem estiver no caminho). Também ganha +4 de Movimento e +4 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
 - **Os ataques da forma:** Garra, Mordida e Investida custam **◈ (1) cada**, não gastam Mana, e rolam d20 + Força contra a Defesa do alvo.
 - *(A forma específica — lobo, urso, ave etc. — é só flavor; a mecânica é sempre a mesma.)*
-
-**Vínculo Selvagem**
-
-*Um companheiro fiel — lobo, ave de rapina, raposa, ou outra fera pequena à escolha — luta ao lado do usuário, ligado a ele desde então.*
-
-- **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Sabedoria | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** invoca um companheiro animal (a forma é escolhida ao aprender esta Habilidade, e não muda depois), que fica ao lado do usuário **até o próximo descanso longo**. No início de cada turno do usuário, o companheiro ataca a criatura hostil mais próxima, sem gastar Mana ou PA, causando 1d6 de dano. Se o usuário cair a 0 de Vida, o companheiro foge e some da cena, voltando a aparecer no início do próximo descanso longo.
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** invoca um companheiro animal (a forma é escolhida ao aprender esta Habilidade, e não muda depois), que fica ao lado do usuário **até o próximo descanso longo**. No início de cada turno do usuário, o companheiro ataca a criatura hostil mais próxima, sem gastar Mana ou PA, causando 2d6 de dano. Se o usuário cair a 0 de Vida, o companheiro foge e some da cena, voltando a aparecer no início do próximo descanso longo.
-- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** invoca um companheiro animal (a forma é escolhida ao aprender esta Habilidade, e não muda depois), que fica ao lado do usuário **até o próximo descanso longo**. No início de cada turno do usuário, o companheiro ataca a criatura hostil mais próxima, sem gastar Mana ou PA, causando 3d6 de dano. Se o usuário cair a 0 de Vida, o companheiro foge e some da cena, voltando a aparecer no início do próximo descanso longo.
-- **O companheiro:** tem 15 de Vida e Defesa 10, age a até 8 casas do usuário e é um alvo válido; o ataque dele rola d20 + Sabedoria do usuário contra a Defesa do alvo. Só pode haver **1 companheiro ativo** por vez — reconjurar substitui o anterior.
 
 **Totem Ancestral**
 
