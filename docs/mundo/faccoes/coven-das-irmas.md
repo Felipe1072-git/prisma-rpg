@@ -3,6 +3,7 @@ tipo: faccao
 ---
 # Coven das Irmãs
 
+- **Retrato:** ![Coven das Irmãs](../../assets/img/mundo/coven-das-irmas.jpg)
 - **Tipo:** Coven de bruxas imortais
 - **Território:** itinerante — sem base fixa, viajam de aldeia em aldeia
 
