@@ -19,6 +19,7 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 
 - [Aliança dos Três Povos](faccoes/alianca-dos-tres-povos.md) — Humanos, Anões e Elfos
 - [Orcs](faccoes/orcs.md) — o outro lado da guerra
+- [Guarda do Véu](faccoes/guarda-do-veu.md) — ordem independente devota a Val, caça o que a guerra não vê
 
 ## Eventos
 
