@@ -11,6 +11,9 @@ O que este hook faz, durante o `mkdocs build`:
 2. `glossario`  — extrai cada verbete do glossário para `assets/glossario.json`,
                   que o JS usa para mostrar o termo num popover ao passar o mouse,
                   em vez de obrigar o leitor a sair da página.
+3. `mundo`      — página de docs/mundo/ com `tipo:` no cabeçalho vira wiki: o
+                  bloco de bullets logo abaixo do título vira ficha lateral, e
+                  a página entra em assets/mundo.json pro mesmo popover de hover.
 
 Se o parser não reconhecer um bloco, ele é deixado exatamente como está — o pior
 caso é a página continuar igual a hoje.
@@ -2138,6 +2141,85 @@ def transforma_pacotes(markdown: str, docs_dir: Path) -> tuple[str, int, list[st
     return "\n".join(saida), len(pacotes), sem_link
 
 
+# ------------------------------------------------------------------- mundo
+#
+# Wiki de cenário: cada página em docs/mundo/ (fora index.md e mapa.md) que
+# declarar `tipo:` no cabeçalho da página vira um verbete. O bloco de bullets
+# `- **Campo:** valor` logo abaixo do título vira ficha lateral; o resto do
+# texto flui normal. Nenhum campo é obrigatório — só entra na ficha o que a
+# página realmente preencher, do mesmo jeito que a ficha de habilidade/criatura.
+
+TIPOS_MUNDO = {
+    "lugar": "Lugar",
+    "faccao": "Facção",
+    "pessoa": "Pessoa",
+    "evento": "Batalha/Evento",
+}
+
+RE_H1 = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
+
+# Popover de cada página de Mundo, no mesmo contrato do glossário e das
+# habilidades: on_post_build grava em assets/mundo.json e o JS mostra ao
+# passar o mouse num link que aponte pra página.
+_mundo: dict[str, dict[str, str]] = {}
+
+
+def primeiro_paragrafo_de(md: str) -> str:
+    """O primeiro parágrafo de prosa — pula título, ficha, admonition, lista."""
+    for bloco in md.strip().split("\n\n"):
+        bloco = bloco.strip()
+        if bloco and not bloco.startswith(("#", "<", "!!!", "???", "-", "|")):
+            return " ".join(bloco.split())
+    return ""
+
+
+def processa_pagina_mundo(md: str, tipo: str, url: str) -> str:
+    """Extrai a ficha lateral de uma página de Mundo e alimenta o popover.
+
+    A ficha continua sendo markdown de verdade dentro do `<aside markdown="1">`
+    (o tema já lê isso via md_in_html) — um valor tipo `[Poponia](...)` vira
+    link normal, sem precisar de um conversor de markdown à parte.
+    """
+    m = RE_H1.search(md)
+    if not m:
+        return md
+
+    titulo = m.group(1).strip()
+    resto = md[m.end():]
+    linhas = resto.split("\n")
+
+    i = 0
+    while i < len(linhas) and not linhas[i].strip():
+        i += 1
+    inicio_campos = i
+    campos: list[tuple[str, str]] = []
+    while i < len(linhas):
+        campo = RE_CAMPO.match(linhas[i])
+        if not campo:
+            break
+        campos.append((campo.group(1).strip(), campo.group(2).strip()))
+        i += 1
+    fim_campos = i
+
+    resto_sem_campos = "\n".join(linhas[:inicio_campos] + linhas[fim_campos:])
+    resumo = primeiro_paragrafo_de(resto_sem_campos)
+    tipo_valor = next(
+        (v for r, v in campos if sem_acento(r) == "tipo" and v),
+        TIPOS_MUNDO.get(tipo, tipo),
+    )
+    corpo_popover = f"<p><i>{escapa(tipo_valor)}</i></p>"
+    if resumo:
+        corpo_popover += f"<p>{html_do_verbete(resumo)}</p>"
+    _mundo[url] = {"titulo": titulo, "corpo": corpo_popover}
+
+    if not campos:
+        return md
+
+    corpo_ficha = "\n\n".join(f"**{r}:** {v}" for r, v in campos if v)
+    ficha = f'<aside class="prg-ficha-lateral" markdown="1">\n\n{corpo_ficha}\n\n</aside>\n'
+    return md[: m.end()] + "\n\n" + ficha + resto_sem_campos
+
+
 # --------------------------------------------------------------- glossário
 
 RE_VERBETE = re.compile(r"^###\s+(.+?)\s*$")
@@ -2815,6 +2897,9 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         corpo = monta_regras_de_equipamento(Path(config["docs_dir"]))
         return markdown.rstrip() + "\n\n" + "\n".join(corpo)
 
+    if caminho.startswith("mundo/") and page.meta.get("tipo"):
+        return processa_pagina_mundo(markdown, page.meta["tipo"], page.file.url)
+
     if caminho.startswith(PAGINAS_COM_CARD) and not caminho.endswith("index.md"):
         grupo = Path(caminho).stem
         markdown = aplica_arte(markdown, f"brasao-{grupo}")
@@ -2977,4 +3062,7 @@ def on_post_build(config, **kwargs):
     (assets / "habilidades.json").write_text(
         json.dumps(_POPOVER, ensure_ascii=False), encoding="utf-8"
     )
-    print(f"[prisma] popover: {len(_glossario)} verbetes, {len(_POPOVER)} habilidades")
+    (assets / "mundo.json").write_text(
+        json.dumps(_mundo, ensure_ascii=False), encoding="utf-8"
+    )
+    print(f"[prisma] popover: {len(_glossario)} verbetes, {len(_POPOVER)} habilidades, {len(_mundo)} mundo")

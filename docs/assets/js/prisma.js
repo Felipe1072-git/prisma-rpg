@@ -18,7 +18,15 @@
     return s ? s.src.replace(/\/js\/prisma\.js.*$/, "/" + nome + ".json") : null;
   }
 
-  var URL = { glossario: urlDe("glossario"), habilidades: urlDe("habilidades") };
+  var URL = { glossario: urlDe("glossario"), habilidades: urlDe("habilidades"), mundo: urlDe("mundo") };
+
+  // Raiz do site (com o prefixo do GitHub Pages incluso), pra resolver link
+  // de página de Mundo pelo caminho — diferente de glossário/habilidades,
+  // cada página de Mundo é o próprio verbete, não uma âncora numa listagem.
+  var RAIZ_SITE = (function () {
+    var s = document.currentScript;
+    return s ? s.src.replace(/assets\/js\/prisma\.js.*$/, "") : null;
+  })();
   var dicionarios = {};
   var carregando = {};
 
@@ -467,6 +475,31 @@
   // reconhecido pelo prefixo `hab-` do id — o mesmo que o hook gera.
   function fonteDoLink(a) {
     var href = a.getAttribute("href") || "";
+
+    // Mundo: a própria página é o verbete, casada pelo caminho (sem
+    // fragmento) — diferente de glossário/habilidades, que são âncoras
+    // dentro de uma listagem única.
+    if (RAIZ_SITE) {
+      var semFragmento = href.split("#")[0];
+      if (semFragmento) {
+        try {
+          // "URL" aqui embaixo já é o dicionário de JSONs (variável local
+          // deste arquivo) — precisa do construtor nativo via `window.URL`.
+          var alvoAbs = new window.URL(semFragmento, location.href).pathname;
+          var raizAbs = new window.URL(RAIZ_SITE).pathname;
+          if (alvoAbs.indexOf(raizAbs) === 0) {
+            var caminho = alvoAbs.slice(raizAbs.length).replace(/^\/+/, "");
+            if (caminho.indexOf("mundo/") === 0 &&
+                caminho !== "mundo/" &&
+                !/^mundo\/(index\/)?$/.test(caminho) &&
+                caminho.indexOf("mundo/mapa") !== 0) {
+              return { dic: "mundo", chave: caminho };
+            }
+          }
+        } catch (e) { /* href inválido — ignora */ }
+      }
+    }
+
     if (href.indexOf("#") === -1) return null;
     var partes = href.split("#");
     var alvo = partes[0];
@@ -485,11 +518,12 @@
 
   var RODAPE = {
     glossario: "clique para abrir o verbete completo",
-    habilidades: "clique para abrir a ficha completa"
+    habilidades: "clique para abrir a ficha completa",
+    mundo: "clique para abrir a página completa"
   };
 
   function iniciaPopover() {
-    var links = document.querySelectorAll(".md-typeset a[href*='#']");
+    var links = document.querySelectorAll(".md-typeset a[href]");
     if (!links.length) return;
 
     // Só busca o dicionário que esta página de fato usa: uma página de prosa
