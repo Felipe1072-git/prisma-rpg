@@ -2155,6 +2155,7 @@ TIPOS_MUNDO = {
     "pessoa": "Pessoa",
     "evento": "Batalha/Evento",
     "recurso": "Recurso",
+    "divindade": "Divindade",
 }
 
 RE_H1 = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)

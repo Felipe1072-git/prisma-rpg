@@ -28,4 +28,11 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 
 - [Sídrio](recursos/sidrio.md) — o cristal mágico disputado por trás da guerra
 
+## Panteão
+
+- [Jovar](panteao/jovar.md) — deus da conquista e da estratégia
+- [Kai](panteao/kai.md) — deus da tempestade e da mudança
+- [Bran](panteao/bran.md) — deus do sacrifício e guardião do inverno
+- [Val](panteao/val.md) — deus da cruzada e do fervor inabalável
+
 *(Seção nova — cresce conforme a campanha acontece.)*
