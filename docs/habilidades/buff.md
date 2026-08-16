@@ -242,10 +242,10 @@ Incremento de força, imbuir elementos em armas, etc.
 *Uma aura fervorosa desperta a força de todos por perto.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
-- **Intensidade I — ◈ (1 PA) + 5 Mana:** por 3 rodadas, os alvos ganham +1 no dano de ataques.
-- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** por 4 rodadas, os alvos ganham +2 no dano de ataques.
-- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** por 5 rodadas, os alvos ganham +3 no dano de ataques.
+- **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 5 casas de raio
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 3 rodadas, os alvos ganham +1 no ataque e +1 no dano de ataques.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** por 4 rodadas, os alvos ganham +2 no ataque e +2 no dano de ataques.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** por 5 rodadas, os alvos ganham +3 no ataque e +3 no dano de ataques.
 
 **Aura de Auxílio**
 
@@ -545,9 +545,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** usuário e aliados em 3 casas de raio do ponto onde o totem é colocado
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** o totem tem 1d6 + Sabedoria de Vida temporária, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +1 no dano de ataques.
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o totem tem 2d6 + Sabedoria de Vida temporária, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +2 no dano de ataques.
-- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o totem tem 3d6 + Sabedoria de Vida temporária, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +3 no dano de ataques.
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** o totem tem 1d6 + Sabedoria de Vida temporária e Defesa física 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +1 no dano de ataques.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o totem tem 2d6 + Sabedoria de Vida temporária e Defesa física 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +2 no dano de ataques.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o totem tem 3d6 + Sabedoria de Vida temporária e Defesa física 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +3 no dano de ataques.
 
 **Canalização Espiritual**
 
