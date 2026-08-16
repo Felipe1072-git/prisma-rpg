@@ -20,15 +20,15 @@ Nascida do clero de Val, mas sem se subordinar a ele — a Guarda segue os dois 
 
 ## Hierarquia
 
-A Guarda usa as três bênçãos de Val como patentes, não só como poderes soltos:
+Os nomes das patentes vêm das bênçãos que a tradição atribui a Val — cada posto marca o quanto o crente já provou incorporar aquele ideal aos olhos da Ordem, não um poder concedido automaticamente pela patente:
 
 | Patente | Papel |
 |---|---|
 | **Postulante** | recruta, ainda não jurou o Código |
 | **Guardião** | membro pleno, caçador de campo |
-| **Portador do Estandarte** | veterano — carrega o Estandarte da Cruzada em combate, sustentando o ânimo de quem luta ao lado |
-| **Punho do Justo** | comandante de posto — empunha a Carga do Justo contra o que serve à escuridão |
-| **Coração de Leão** | líder da Ordem — encarna a bênção por completo, imune ao medo mágico ou mundano, e estende esse ânimo a quem estiver perto o bastante pra senti-lo |
+| **Portador do Estandarte** | veterano — carrega o estandarte da Ordem em combate, e dizem que só a presença dele já sustenta o ânimo de quem luta ao lado |
+| **Punho do Justo** | comandante de posto — o título evoca a lendária Carga do Justo, reservado a quem já provou golpear a escuridão como se fosse um só golpe |
+| **Coração de Leão** | líder da Ordem — reza-se que encarna o ideal por completo: nada o abala, e dizem que essa presença por si só ampara quem estiver perto o bastante pra senti-la |
 
 ## Símbolo
 
