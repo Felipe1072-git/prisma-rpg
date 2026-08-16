@@ -1242,6 +1242,14 @@
   text-decoration: none;
 }
 
+/* O Leaflet usa z-index alto nos controles (pensado pra mapa em tela cheia) —
+   isola numa camada própria pra eles nunca renderizarem por cima do cabeçalho
+   fixo do site quando a página rola. */
+#prisma-mapa {
+  position: relative;
+  isolation: isolate;
+}
+
 .prisma-mapa-editar-ctrl.ativo a {
   background: var(--md-primary-fg-color);
   color: #fff;

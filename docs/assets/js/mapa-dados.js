@@ -2,7 +2,7 @@
 //
 // Esse arquivo é só dados (nenhuma lógica). Editado pelo modo de edição do
 // mapa (botão "Editar" + "Salvar"), que reescreve ele através do
-// notas/mapa_servidor.py — última gravação em 16/08/2026 11:59:28.
+// notas/mapa_servidor.py — última gravação em 16/08/2026 12:13:16.
 //
 // Se preferir editar à mão: "imagem" é o caminho dentro de docs/assets/,
 // "largura"/"altura" são o tamanho em pixels do arquivo de imagem, e cada
@@ -78,6 +78,13 @@ var NIVEIS = {
         "nome": "Cintra",
         "x": 2906,
         "y": 436
+      },
+      {
+        "nome": "Fronteiras de Tyria Guang",
+        "x": 1328,
+        "y": 948,
+        "descricao": "Zona de Guerra onde Orcs e humanos lutam por território.",
+        "icone": "⚔️"
       }
     ]
   },

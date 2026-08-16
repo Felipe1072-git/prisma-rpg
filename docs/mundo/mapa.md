@@ -1,4 +1,4 @@
-# Mapa de Pania (protótipo)
+# Mapa de Pania
 
 Clique num ponto pra ver a descrição. Em Torirue, clique em "Ver mapa da cidade" pra
 entrar no mapa da capital.
