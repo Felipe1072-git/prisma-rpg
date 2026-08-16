@@ -3,6 +3,7 @@ tipo: divindade
 ---
 # Jovar
 
+- **Retrato:** ![Jovar](../../assets/img/mundo/jovar.jpg)
 - **Domínio:** Conquista, estratégia e ordem militar
 - **Tendência:** Leal ou Neutro
 - **Símbolo Sagrado:** uma espada curta de aço cruzada sobre um escudo

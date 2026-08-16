@@ -3,6 +3,7 @@ tipo: divindade
 ---
 # Val
 
+- **Retrato:** ![Val](../../assets/img/mundo/val.jpg)
 - **Domínio:** Guerra santa, dever e coragem inabalável
 - **Tendência:** Leal e Bom (ou Leal e Neutro, nas vertentes mais fanáticas)
 - **Símbolo Sagrado:** uma cruz de calatrava

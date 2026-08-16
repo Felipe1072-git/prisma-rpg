@@ -2180,7 +2180,9 @@ def processa_pagina_mundo(md: str, tipo: str, url: str) -> str:
 
     A ficha continua sendo markdown de verdade dentro do `<aside markdown="1">`
     (o tema já lê isso via md_in_html) — um valor tipo `[Poponia](...)` vira
-    link normal, sem precisar de um conversor de markdown à parte.
+    link normal, sem precisar de um conversor de markdown à parte. O campo
+    `Retrato` é especial: se presente, some o rótulo em negrito e vira a
+    primeira coisa na ficha (imagem grande no topo, sem legenda).
     """
     m = RE_H1.search(md)
     if not m:
@@ -2217,7 +2219,11 @@ def processa_pagina_mundo(md: str, tipo: str, url: str) -> str:
     if not campos:
         return md
 
-    corpo_ficha = "\n\n".join(f"**{r}:** {v}" for r, v in campos if v)
+    retrato = next((v for r, v in campos if sem_acento(r) == "retrato" and v), None)
+    campos_com_label = "\n\n".join(
+        f"**{r}:** {v}" for r, v in campos if v and sem_acento(r) != "retrato"
+    )
+    corpo_ficha = (f"{retrato}\n\n" if retrato else "") + campos_com_label
     ficha = f'<aside class="prg-ficha-lateral" markdown="1">\n\n{corpo_ficha}\n\n</aside>\n'
     return md[: m.end()] + "\n\n" + ficha + resto_sem_campos
 

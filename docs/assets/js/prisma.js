@@ -5,6 +5,8 @@
    2. Realce dos degraus de Intensidade dentro do card.
    3. Popover de glossário: passar o mouse num termo mostra a definição ali
       mesmo, em vez de exigir uma viagem até a página do glossário.
+   4. Lightbox: clicar numa imagem de conteúdo (retrato de Mundo, foto de
+      lugar) abre ela em tela cheia; X ou Esc fecha.
    ========================================================================= */
 
 (function () {
@@ -724,6 +726,51 @@
     );
   }
 
+  // ------------------------------------------------------------- lightbox
+  //
+  // Imagem de conteúdo (retrato na ficha lateral de Mundo, foto de lugar no
+  // corpo do texto) abre em tela cheia ao clicar. O mapa de Pania (Leaflet)
+  // fica de fora: ele já tem a própria interação de zoom/arraste, e um clique
+  // ali é pra abrir o popover do ponto, não a imagem de fundo inteira.
+
+  function iniciaLightbox() {
+    if (document.querySelector(".prg-lightbox")) return;
+    var imagens = Array.prototype.slice
+      .call(document.querySelectorAll(".md-typeset img"))
+      .filter(function (img) { return !img.closest(".leaflet-container"); });
+    if (!imagens.length) return;
+
+    var overlay = document.createElement("div");
+    overlay.className = "prg-lightbox";
+    overlay.innerHTML =
+      '<button class="prg-lightbox__fechar" type="button" aria-label="Fechar">✕</button>' +
+      '<img alt="">';
+    document.body.appendChild(overlay);
+    var imgGrande = overlay.querySelector("img");
+
+    function abre(img) {
+      imgGrande.src = img.currentSrc || img.src;
+      imgGrande.alt = img.alt || "";
+      overlay.classList.add("prg-lightbox--aberta");
+    }
+    function fecha() {
+      overlay.classList.remove("prg-lightbox--aberta");
+      imgGrande.src = "";
+    }
+
+    imagens.forEach(function (img) {
+      img.classList.add("prg-lightbox-abre");
+      img.addEventListener("click", function () { abre(img); });
+    });
+    overlay.addEventListener("click", function (ev) {
+      if (ev.target === overlay) fecha();
+    });
+    overlay.querySelector(".prg-lightbox__fechar").addEventListener("click", fecha);
+    document.addEventListener("keydown", function (ev) {
+      if (ev.key === "Escape") fecha();
+    });
+  }
+
   function inicia() {
     ajustaOffsetFiltro();
     iniciaCards();
@@ -732,6 +779,7 @@
     iniciaFiltro();
     iniciaEncontro();
     iniciaPopover();
+    iniciaLightbox();
   }
 
   if (window.document$ && typeof window.document$.subscribe === "function") {

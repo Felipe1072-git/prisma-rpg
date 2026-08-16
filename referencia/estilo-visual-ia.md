@@ -101,3 +101,34 @@ Pode incluir pequenos elementos decorativos ao redor do texto (moldura, floreios
 
 Fundo transparente ou branco liso — isso é só o logotipo isolado, para sobrepor em outras peças depois.
 ```
+
+### Retrato de personagem único (NPC/divindade)
+
+Validado com as 4 divindades do Panteão de Pania (Jovar, Kai, Bran, Val) — os quatro
+prompts saíram consistentes entre si e fiéis ao pedido, sem precisar de retentativa.
+Formato vertical ~3:4 (a ficha lateral da wiki de Mundo corta pra esse enquadramento e
+mostra a imagem inteira no lightbox ao clicar). Diferente da capa/lombada, aqui é um
+personagem só, sem cena de grupo — mas a regra de "ação de verdade, não pose de boneco"
+continua valendo: pose de comando/gesto de poder, nunca frontal e parado.
+
+```
+Estou anexando uma arte de referência — use-a pra puxar a TÉCNICA DE PINTURA: pincelada visível, textura de tela, luz e sombra dramáticas, como ilustração de deus numa capa de livro de RPG de mesa impresso. NÃO estilo anime de cel-shading liso, NÃO flat design de jogo mobile.
+
+Gere um retrato de corpo inteiro ou 3/4, em formato vertical (proporção aproximada 3:4, resolução alta), de uma divindade da guerra e da estratégia — um general-imperador de presença imponente e disciplinada, meia-idade, expressão calculista e severa (não fúria selvagem).
+
+Armadura de placas ornamentada em aço polido e dourado, com detalhes de comandante militar (não uma armadura genérica de soldado raso). Empunha UMA ÚNICA espada curta de aço (nunca duas armas, nunca lâminas soltas) e carrega um grande escudo redondo/retangular com brasão vermelho e dourado.
+
+Paleta: aço/prata, dourado, vermelho carmesim de estandarte de legião.
+
+Fundo: campo de batalha ao entardecer, fileiras de soldados marchando em formação ao longe, estandartes tremulando, poeira e luz dourada cortando a cena. Pose de comando — braço erguido dando ordem, ou espada baixa em posição de repouso pós-vitória — não uma pose estática de "boneco de vitrine".
+
+Sem texto, letra ou logo na imagem. Sem bordas, preenchendo o quadro inteiro.
+```
+
+Convenção técnica pra encaixar na wiki: salvar em `docs/assets/img/mundo/<nome>.jpg`
+(redimensionado pra ~1400px de altura, qualidade JPEG ~87 — dá pra cortar um arquivo de
+~3MB gerado pelo Gemini pra ~300KB sem perda visível), e na página de Mundo (`tipo:
+divindade`, `pessoa` etc.) adicionar `**Retrato:** ![Nome](../../caminho/pro/arquivo.jpg)`
+como primeiro campo da ficha — o hook (`hooks/prisma.py`, campo especial `retrato`) tira o
+rótulo em negrito e mostra como imagem grande no topo. Clicar na imagem abre ela inteira
+em tela cheia (lightbox em `prisma.js`/`prisma.css`).

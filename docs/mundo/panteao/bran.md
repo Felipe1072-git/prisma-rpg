@@ -3,6 +3,7 @@ tipo: divindade
 ---
 # Bran
 
+- **Retrato:** ![Bran](../../assets/img/mundo/bran.jpg)
 - **Domínio:** Os bosques antigos, o inverno e o sacrifício
 - **Tendência:** Neutro ou Leal Bom
 - **Símbolo Sagrado:** uma runa de proteção

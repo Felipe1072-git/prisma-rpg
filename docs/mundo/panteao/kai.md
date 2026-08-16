@@ -3,6 +3,7 @@ tipo: divindade
 ---
 # Kai
 
+- **Retrato:** ![Kai](../../assets/img/mundo/kai.jpg)
 - **Domínio:** Tempestade, transformação e as forças elementais
 - **Tendência:** Caótico Neutro ou Neutro
 - **Símbolo Sagrado:** uma garra de dragão segurando uma esfera azul
