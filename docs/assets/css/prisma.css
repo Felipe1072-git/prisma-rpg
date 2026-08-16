@@ -1211,3 +1211,182 @@
   .prg-card__bd { display: block !important; }
   .prg-filtro   { display: none; }
 }
+
+/* ------------------------------------------------------- mapa interativo */
+/* O popup do Leaflet é sempre branco, mesmo no tema escuro — o botão
+   precisa de cor própria em vez de herdar o branco que o tema usa pra
+   texto de botão sobre fundo escuro (senão fica branco no branco). */
+
+.prisma-mapa-expandir {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 0.35em 0.8em;
+  border: none;
+  border-radius: 4px;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-size: 0.85em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.prisma-mapa-expandir:hover {
+  filter: brightness(1.1);
+}
+
+.prisma-mapa-voltar a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.prisma-mapa-editar-ctrl.ativo a {
+  background: var(--md-primary-fg-color);
+  color: #fff;
+}
+
+.prisma-mapa-pin-emoji-wrap { background: none; border: none; }
+.prisma-mapa-pin-emoji {
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.7));
+}
+
+/* Formulário de ponto (dentro do popup do Leaflet — sempre em fundo branco). */
+.prisma-mapa-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  color: #222;
+}
+
+.prisma-mapa-form label {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #555;
+}
+
+.prisma-mapa-form input[type="text"],
+.prisma-mapa-form textarea,
+.prisma-mapa-form select {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0.2em;
+  padding: 0.35em 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.95em;
+  color: #222;
+  background: #fff;
+}
+
+.prisma-mapa-icones-rapidos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em;
+}
+
+.prisma-mapa-icone-opcao {
+  border: 1px solid #ddd;
+  background: #f7f7f7;
+  border-radius: 4px;
+  font-size: 1.1em;
+  padding: 0.15em 0.4em;
+  cursor: pointer;
+}
+
+.prisma-mapa-icone-opcao:hover { background: #eee; }
+
+.prisma-mapa-icone-opcao.selecionado {
+  background: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+}
+
+.prisma-mapa-form-botoes {
+  display: flex;
+  gap: 0.4em;
+  margin-top: 0.3em;
+}
+
+.prisma-mapa-form-botoes button {
+  flex: 1;
+  border: none;
+  border-radius: 4px;
+  padding: 0.4em 0.6em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pmf-salvar { background: var(--md-primary-fg-color); color: #fff; }
+.pmf-excluir { background: #b3261e; color: #fff; }
+.pmf-cancelar { background: #e0e0e0; color: #333; }
+
+/* Modal de exportação — fica por cima de tudo, fora do container do mapa. */
+.prisma-mapa-exportar-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.prisma-mapa-exportar-caixa {
+  background: #fff;
+  color: #222;
+  border-radius: 8px;
+  padding: 1.2em;
+  width: min(640px, 90vw);
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.prisma-mapa-exportar-caixa textarea {
+  flex: 1;
+  min-height: 300px;
+  font-family: var(--md-code-font, monospace);
+  font-size: 0.8em;
+  padding: 0.6em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #222;
+  background: #f7f7f7;
+}
+
+.prisma-mapa-exportar-botoes {
+  display: flex;
+  gap: 0.5em;
+  justify-content: flex-end;
+}
+
+.prisma-mapa-exportar-botoes button {
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pme-copiar { background: var(--md-primary-fg-color); color: #fff; }
+.pme-fechar { background: #e0e0e0; color: #333; }
+
+.prisma-mapa-aviso {
+  position: fixed;
+  bottom: 1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1b1b1b;
+  color: #fff;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  z-index: 9999;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}

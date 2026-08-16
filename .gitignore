@@ -5,3 +5,4 @@ __pycache__/
 .DS_Store
 .claude/settings.local.json
 site/
+docs/assets/js/mapa-dados.js.bak

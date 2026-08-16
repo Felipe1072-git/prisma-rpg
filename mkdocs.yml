@@ -55,9 +55,13 @@ hooks:
 extra_css:
   - assets/css/prisma.css
   - assets/css/ficha.css
+  - assets/vendor/leaflet/leaflet.css
 
 extra_javascript:
   - assets/js/prisma.js
+  - assets/vendor/leaflet/leaflet.js
+  - assets/js/mapa-dados.js
+  - assets/js/mapa.js
 
 markdown_extensions:
   - tables
@@ -76,6 +80,9 @@ markdown_extensions:
 
 nav:
   - Início: index.md
+  - Mundo:
+    - mundo/index.md
+    - Mapa de Pania: mundo/mapa.md
   - Jogando o Jogo:
     - jogar/index.md
     - Os Oito Atributos: jogar/atributos.md
