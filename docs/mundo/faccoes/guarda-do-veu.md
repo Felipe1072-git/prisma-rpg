@@ -3,6 +3,7 @@ tipo: faccao
 ---
 # Guarda do Véu
 
+- **Retrato:** ![Guarda do Véu](../../assets/img/mundo/guarda-do-veu.jpg)
 - **Tipo:** Ordem religiosa militante, independente
 - **Patrono:** [Val](../panteao/val.md)
 - **Território:** sem território próprio — mantém um posto avançado perto da [fronteira entre Tyria e Guang](../eventos/fronteiras-de-tyria-guang.md)

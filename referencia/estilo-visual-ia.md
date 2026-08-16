@@ -125,6 +125,45 @@ Fundo: campo de batalha ao entardecer, fileiras de soldados marchando em formaç
 Sem texto, letra ou logo na imagem. Sem bordas, preenchendo o quadro inteiro.
 ```
 
+### Cena de facção (retrato-cena, não retrato-único)
+
+Validado com a Guarda do Véu (ordem religiosa militante devota a Val, mas "algo à parte"
+da própria fé que a originou). Diferente do retrato-único das divindades, uma facção pede
+**ação de verdade** — a mesma regra de composição da capa/lombada, só que com 2-3
+personagens em vez de 3 heróis completos, e formato horizontal (~16:9) em vez de vertical.
+Serve pro mesmo campo **Retrato** da ficha lateral — a wiki não distingue formato, só
+mostra a imagem no topo.
+
+Ponto que funcionou bem: pedir **paleta distinta** da referência anexada quando a peça
+precisa comunicar uma identidade visual diferente da fonte (aqui, a Guarda precisava
+parecer "à parte" do clero regular de Val) — anexar a arte de referência só pra técnica de
+pintura, e escrever explicitamente qual paleta NOVA usar em vez da paleta da referência.
+
+```
+Estou anexando o retrato de [personagem/divindade relacionado] — use-o SÓ como referência
+de TÉCNICA DE PINTURA (pincelada visível, textura de tela, luz e sombra dramáticas, como
+ilustração de livro de RPG de mesa impresso — NÃO cel-shading de anime, NÃO flat design de
+jogo mobile). A paleta desta cena é DIFERENTE da paleta da referência: [descreva a paleta
+nova e por que ela precisa ser diferente].
+
+Gere uma cena de combate, formato horizontal, [N] membros de [facção] enfrentando
+[antagonista, descrito com o mesmo cuidado dos heróis — não deixe genérico].
+
+PERSONAGENS (ação real de combate, não pose parada):
+1. [Personagem 1] em primeiro plano, no meio de [ação específica] — [armadura/vestes,
+símbolo distintivo da facção]. Empunha UMA ÚNICA arma corpo a corpo (escolha uma só,
+nunca duas armas nem lâminas soltas).
+2. [Personagem 2] [papel/posição na composição, contraste com o personagem 1].
+
+INIMIGO: [descrição específica, não "monstro genérico"].
+
+COMPOSIÇÃO: colagem dinâmica assimétrica, fluxo diagonal, escalas variadas.
+
+FUNDO: [cenário que reforça o conflito/tema da facção].
+
+Sem texto, letra ou logo na imagem. Sem bordas, preenchendo o quadro inteiro.
+```
+
 Convenção técnica pra encaixar na wiki: salvar em `docs/assets/img/mundo/<nome>.jpg`
 (redimensionado pra ~1400px de altura, qualidade JPEG ~87 — dá pra cortar um arquivo de
 ~3MB gerado pelo Gemini pra ~300KB sem perda visível), e na página de Mundo (`tipo:
