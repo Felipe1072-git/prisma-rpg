@@ -477,6 +477,10 @@ Arma de pontaria Híbrida (Agilidade ou Inteligência), dano 1d8. Ver [Equipamen
 
 ## Propriedades de Arma
 
+### Dano Desarmado
+
+Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam sozinhos conforme o nível do personagem: 1d4 (nível 1–4), 1d6 (5–10), 1d8 (11–16), 1d10 (17+, ou 1d12 com traço racial de "1 grau acima"). O tipo de dano é [Impacto](#impacto), salvo quando um traço racial disser outra coisa. Ver [Habilidades Marciais → Dano Desarmado](habilidades/marciais.md#dano-desarmado).
+
 ### Finesse
 
 O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver [Equipamento → Armas Finesse](equipamento/regras.md#finesse).

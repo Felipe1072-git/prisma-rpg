@@ -154,7 +154,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 **Traços Raciais:**
 
 - **Rugido do Rei** — 1x por cena, solta um rugido que causa Desvantagem no próximo teste de ataque de todos os inimigos em 3 casas de raio.
-- **Garras do Rei** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; um Crítico com qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
+- **Garras do Rei** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../glossario.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; um Crítico com qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
 
 ## Tigre
 
@@ -167,7 +167,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 **Traços Raciais:**
 
 - **Emboscada Felina** — vantagem no primeiro teste de ataque de cada combate.
-- **Garras Retráteis** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela.
+- **Garras Retráteis** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../glossario.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela.
 
 ## Lobo
 
@@ -180,7 +180,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 **Traços Raciais:**
 
 - **Instinto de Matilha** — vantagem em testes de ataque quando há pelo menos 1 aliado adjacente ao mesmo alvo.
-- **Mordida Feroz** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela e causam dano [Perfurante](../glossario.md#perfurante) em vez de Impacto (as presas rasgam); a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
+- **Mordida Feroz** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../glossario.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela e causam dano [Perfurante](../glossario.md#perfurante) em vez de Impacto (as presas rasgam); a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
 
 ## Bode
 
@@ -193,7 +193,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 **Traços Raciais:**
 
 - **Passo Inabalável** — sem penalidade de Movimento em terreno rochoso ou íngreme; não pode ser derrubado enquanto estiver em contato com o chão.
-- **Investida de Chifres** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Se avançar pelo menos 2 casas em linha reta antes de um ataque desarmado, esse ataque usa o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela, e empurra o alvo 2 casas.
+- **Investida de Chifres** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Se avançar pelo menos 2 casas em linha reta antes de um ataque desarmado, esse ataque usa o [Dano Desarmado](../glossario.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela, e empurra o alvo 2 casas.
 
 ## Urso
 
@@ -206,7 +206,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 **Traços Raciais:**
 
 - **Pele de Urso** — reduz em 2 todo dano físico recebido; dano de 2 ou menos é reduzido a 0.
-- **Garras Poderosas** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela.
+- **Garras Poderosas** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../glossario.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela.
 
 ## Raposa
 
@@ -251,7 +251,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Racial:**
 
-- **Mordida de Tubarão** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela e causam dano [Perfurante](../glossario.md#perfurante) em vez de Impacto (os dentes serrilhados dilaceram); a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
+- **Mordida de Tubarão** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../glossario.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela e causam dano [Perfurante](../glossario.md#perfurante) em vez de Impacto (os dentes serrilhados dilaceram); a Intensidade III de qualquer Habilidade desarmada deixa o alvo [Sangrando](../glossario.md#sangrando).
 
 ## Tartaruga
 
@@ -321,7 +321,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Agilidade | **Alvos:** 1 criatura, com possibilidade de encadear
-- **Dano:** usa o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado)
+- **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento); a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Lentas também
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + a descarga salta pra até 2 outras criaturas adjacentes (mesmo dano, todas Lentas); o **alvo original** fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
@@ -337,7 +337,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Racial:**
 
-- **Garra Esmagadora** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../habilidades/marciais.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; a Intensidade III de qualquer Habilidade desarmada empurra o alvo 2 casas.
+- **Garra Esmagadora** — concede a Habilidade [Ataque Desarmado](../habilidades/marciais.md#habilidades-gerais) gratuitamente (não consome uma escolha de nível). Ataques desarmados usam o [Dano Desarmado](../glossario.md#dano-desarmado) como se o nível fosse 1 grau acima na tabela; a Intensidade III de qualquer Habilidade desarmada empurra o alvo 2 casas.
 
 ## Sapo
 
