@@ -10,6 +10,10 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 
 - [Poponia](lugares/poponia.md) — o reino Humano
 - [Torirue](lugares/torirue.md) — a capital, símbolo da Aliança dos Três Povos
+- [Tyria](lugares/tyria.md) — reino Humano na linha de frente
+- [Guang](lugares/guang.md) — reino Orc, fronteira com Tyria
+- [Jingyuan Guo](lugares/jingyuan-guo.md) — reino Orc
+- [Yan Guo](lugares/yan-guo.md) — reino Orc, ao norte
 
 ## Facções
 
@@ -19,5 +23,9 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 ## Eventos
 
 - [Fronteiras de Tyria Guang](eventos/fronteiras-de-tyria-guang.md) — zona de guerra ativa
+
+## Recursos
+
+- [Sídrio](recursos/sidrio.md) — o cristal mágico disputado por trás da guerra
 
 *(Seção nova — cresce conforme a campanha acontece.)*

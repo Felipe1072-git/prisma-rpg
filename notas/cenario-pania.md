@@ -31,11 +31,25 @@ mercenários, batedores. É ali que os personagens se cruzam e pegam a primeira 
 (escolta, reconhecimento, defesa de posto de fronteira — o Mestre define na hora e
 improvisa em cima).
 
+## Território Orc e motivo da guerra (fechado — ver docs/mundo/)
+
+Lido direto dos escudos de facção no próprio mapa de Pania (legenda "Reinos de Pania"):
+Orcs controlam **Guang**, **Jingyuan Guo** e **Yan Guo**. Guang faz fronteira direta com
+**Tyria** (reino Humano, também na Aliança) — a "Fronteiras de Tyria Guang" que o usuário
+já tinha marcado no mapa é literalmente essa linha de frente.
+
+Motivo da guerra: **Sídrio**, um cristal mágico bruto que existe em veios por toda Pania e
+pode ser refinado pra diversos usos mágicos (o que exatamente, ainda em aberto — só lore
+por enquanto, sem mecânica). O maior veio conhecido fica bem na fronteira Tyria/Guang. Os
+Orcs querem o Sídrio pelo poder que dá (é da natureza orc expandir por território); a
+Aliança defende o próprio território. Detalhes e todas as páginas cruzadas em
+`docs/mundo/` (Lugares: Tyria, Guang, Jingyuan Guo, Yan Guo; Recursos: Sídrio).
+
 ## Em aberto de propósito (não fechar agora)
 
-- Onde ficam os Orcs no mapa de Pania.
-- O motivo real da guerra.
 - Por que cada personagem se envolveu / se alistou.
+- O que exatamente o Sídrio permite fazer quando refinado, e qualquer mecânica de jogo em
+  torno dele.
 - Ganchos secundários cogitados e não usados ainda, podem voltar depois: tensão
   Guildas x Coroa (Bairro das Guildas com acesso direto a Mercado Central/Especiarias/
   Estaleiros), e o Mar da Serpente a oeste de Poponia como fonte de ameaça naval separada
