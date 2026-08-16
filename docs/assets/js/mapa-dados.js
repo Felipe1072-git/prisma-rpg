@@ -2,7 +2,7 @@
 //
 // Esse arquivo é só dados (nenhuma lógica). Editado pelo modo de edição do
 // mapa (botão "Editar" + "Salvar"), que reescreve ele através do
-// notas/mapa_servidor.py — última gravação em 16/08/2026 12:13:16.
+// notas/mapa_servidor.py — última gravação em 16/08/2026 16:37:33.
 //
 // Se preferir editar à mão: "imagem" é o caminho dentro de docs/assets/,
 // "largura"/"altura" são o tamanho em pixels do arquivo de imagem, e cada
@@ -85,6 +85,11 @@ var NIVEIS = {
         "y": 948,
         "descricao": "Zona de Guerra onde Orcs e humanos lutam por território.",
         "icone": "⚔️"
+      },
+      {
+        "nome": "Torre dos Magos",
+        "x": 592,
+        "y": 1082
       }
     ]
   },
