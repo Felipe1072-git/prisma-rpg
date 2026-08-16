@@ -678,7 +678,20 @@
     });
   }
 
+  // A barra de filtro (.prg-filtro) gruda com `position: sticky` logo abaixo
+  // do header do site — mas a altura do header muda (abas de navegação, modo
+  // mobile, busca aberta), e um `top` fixo em CSS não acompanha isso. Sem essa
+  // sincronia, a barra gruda alta demais e o header cobre a linha de busca.
+  function ajustaOffsetFiltro() {
+    var header = document.querySelector(".md-header");
+    if (!header) return;
+    document.documentElement.style.setProperty(
+      "--prg-header-h", header.getBoundingClientRect().height + "px"
+    );
+  }
+
   function inicia() {
+    ajustaOffsetFiltro();
     iniciaCards();
     iniciaVerbetes();
     iniciaAncoras();
@@ -696,4 +709,5 @@
   }
 
   window.addEventListener("scroll", esconde, { passive: true });
+  window.addEventListener("resize", ajustaOffsetFiltro, { passive: true });
 })();
