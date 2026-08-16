@@ -3,6 +3,7 @@ tipo: lugar
 ---
 # Torirue
 
+- **Mapa:** ![Torirue](../../assets/img/mapas/torirue.jpg)
 - **Tipo:** Capital
 - **Governo:** Monarquia
 - **Pertence a:** [Poponia](poponia.md)

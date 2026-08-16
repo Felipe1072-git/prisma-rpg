@@ -2219,11 +2219,15 @@ def processa_pagina_mundo(md: str, tipo: str, url: str) -> str:
     if not campos:
         return md
 
-    retrato = next((v for r, v in campos if sem_acento(r) == "retrato" and v), None)
+    # "Retrato" (pessoa/facção) e "Mapa" (lugar) levam o mesmo tratamento: a
+    # imagem sai do rótulo em negrito e vira o topo da ficha, sem duplicar a
+    # lógica pra cada nome de campo.
+    CAMPOS_IMAGEM = ("retrato", "mapa")
+    imagem = next((v for r, v in campos if sem_acento(r) in CAMPOS_IMAGEM and v), None)
     campos_com_label = "\n\n".join(
-        f"**{r}:** {v}" for r, v in campos if v and sem_acento(r) != "retrato"
+        f"**{r}:** {v}" for r, v in campos if v and sem_acento(r) not in CAMPOS_IMAGEM
     )
-    corpo_ficha = (f"{retrato}\n\n" if retrato else "") + campos_com_label
+    corpo_ficha = (f"{imagem}\n\n" if imagem else "") + campos_com_label
     ficha = f'<aside class="prg-ficha-lateral" markdown="1">\n\n{corpo_ficha}\n\n</aside>\n'
     return md[: m.end()] + "\n\n" + ficha + resto_sem_campos
 
