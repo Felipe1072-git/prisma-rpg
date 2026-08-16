@@ -150,7 +150,7 @@
   var RESUMO = {
     grupo: {
       marciais: "Marciais", pontaria: "Pontaria", arcano: "Arcano (foco mágico)",
-      "magicas-basicas": "Mágicas Básicas", "magicas-elementais": "Mágicas por Elemento",
+      "magicas-elementais": "Mágicas por Elemento",
       sociais: "Sociais", infiltracao: "Infiltração", mobilidade: "Mobilidade",
       buff: "Buff", debuff: "Debuff", suporte: "Suporte",
       necromancia: "Necromancia", "projecao-mental": "Projeção Mental",
@@ -160,7 +160,7 @@
     elemento: {
       fogo: "Fogo", gelo: "Gelo", terra: "Terra", raio: "Raio", vento: "Vento",
       agua: "Água", luz: "Luz", sombras: "Sombras", veneno: "Veneno",
-      sangue: "Sangue", "espaco-tempo": "Espaço-Tempo"
+      sangue: "Sangue", "espaco-tempo": "Espaço-Tempo", arcano: "Arcano"
     },
     atributos: {
       forca: "Força", agilidade: "Agilidade", inteligencia: "Inteligência",

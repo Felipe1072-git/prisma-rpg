@@ -8,16 +8,20 @@ Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Inten
 |---|---|
 | [Marciais](marciais.md) | Armas corpo a corpo / combate a curta distância |
 | [Pontaria](pontaria.md) | Armas à distância e precisão (inclui feitiços de precisão) |
-| [Mágicas Básicas](magicas-basicas.md) | Uso básico de magia |
-| [Mágicas por Elemento](magicas-elementais.md) | Fogo, Gelo, Terra, Sombras, Luz, etc. |
+| [Mágicas por Elemento](magicas-elementais.md) | Fogo, Gelo, Terra, Sombras, Luz, Arcano, etc. |
 | [Sociais](sociais.md) | Persuasão e afins |
 | [Infiltração](infiltracao.md) | Furtividade, ladinagem |
 | [Mobilidade](mobilidade.md) | Voo, deslocamento |
 | [Buff](buff.md) | Incremento de força, imbuir elementos em armas, etc. |
 | [Debuff](debuff.md) | Desvantagens para inimigos ou em testes |
 | [Suporte](suporte.md) | Cura e apoio a aliados |
+| [Necromancia](necromancia.md) | Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade |
+| [Projeção Mental](projecao-mental.md) | Telepatia, ler mentes, ilusão mental, dano psíquico |
+| [Alquimia de Mana](alquimia-de-mana.md) | Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir armas |
+| [Percepção Arcana](percepcao-arcana.md) | Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate |
+| [Conjuração](conjuracao.md) | Trazer aliados de outros lugares/planos pra lutar ao seu lado |
 
-*(Lista de grupos pode crescer — ainda em definição com o usuário.)*
+*(Lista de grupos pode crescer.)*
 
 ## Ficha de Habilidade
 

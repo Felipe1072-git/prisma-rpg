@@ -85,4 +85,15 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
 - **Acerto:** 1d8 de dano + cada alvo não pode usar Habilidades (só Movimento, Ataque Básico e Reação) até o fim do próprio próximo turno.
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos
+
+**Mão Invisível**
+
+*Um puxão sem mãos, um empurrão sem dedos — a distância deixa de ser um problema.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Atributo:** Inteligência | **Dano:** Impacto | **Alcance:** 6 casas | **Alvos:** 1 objeto pequeno e solto (do tamanho de uma espada pra baixo); ou 1 criatura, só na Intensidade III
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** desloca o objeto até 3 casas, ou realiza uma ação simples nele (puxar alavanca, girar chave, abrir uma porta destrancada). Automático, sem teste.
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** o mesmo, e pode manter o objeto suspenso no ar até o fim do próximo turno do usuário. Automático, sem teste.
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** arremessa o objeto contra 1 criatura (d20 + Inteligência vs Defesa física): 1d4 de dano de impacto se acertar
+- **Crítico (20 natural, só ao arremessar na Intensidade III):** dano máximo (4) + 1d4 extra
 - *(Custo fixo — área de 3 casas de raio, rola teste de ataque contra a Defesa mental de cada alvo)*

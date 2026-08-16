@@ -507,13 +507,9 @@ Armas corpo a corpo / combate a curta distância. Ver [página do grupo](habilid
 
 Armas à distância e precisão (inclui feitiços de precisão). Ver [página do grupo](habilidades/pontaria.md).
 
-### Mágicas Básicas
-
-Uso básico de magia. Ver [página do grupo](habilidades/magicas-basicas.md).
-
 ### Mágicas por Elemento
 
-Fogo, Gelo, Terra, Sombras, Luz, Raio, etc. Ver [página do grupo](habilidades/magicas-elementais.md).
+Fogo, Gelo, Terra, Sombras, Luz, Raio, Arcano, etc. Ver [página do grupo](habilidades/magicas-elementais.md).
 
 ### Sociais
 

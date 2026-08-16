@@ -60,8 +60,7 @@ Habilidades são organizadas por grupos temáticos (não por classe):
 |---|---|
 | Habilidades Marciais | Armas corpo a corpo / combate a curta distância |
 | Habilidades de Pontaria | Armas à distância e precisão (inclui feitiços de precisão) |
-| Habilidades Mágicas Básicas | Uso básico de magia |
-| Habilidades Mágicas por Elemento | Fogo, Gelo, Terra, Sombras, Luz, etc. |
+| Habilidades Mágicas por Elemento | Fogo, Gelo, Terra, Sombras, Luz, Raio, Arcano (magia pura, sem assinatura elemental), etc. |
 | Habilidades Sociais | Persuasão e afins |
 | Habilidades de Infiltração | Furtividade, ladinagem |
 | Habilidades de Mobilidade | Voo, deslocamento |

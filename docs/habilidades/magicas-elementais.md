@@ -1574,6 +1574,15 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** o usuário ganha +1 Ponto de Ação (◈) imediatamente, utilizável ainda neste turno
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque. Diferente de [Ordem de Ataque](suporte.md#habilidades-gerais), que dá +1 PA a um aliado — esta é só pro próprio usuário.)*
 
+**Retrocesso**
+
+*O tempo hesita por um instante — e o que foi, deixa de ter sido.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
+- **Custo fixo:** ◈◈ (2 PA) + 8 Mana | **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Efeito:** o alvo recupera a Vida perdida na última vez que sofreu dano, desde que isso tenha acontecido nas últimas 2 rodadas.
+- *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
+
 **Eco do Passado**
 
 *Por uma fração de segundo, o momento se repete — o mesmo golpe acontece de novo, como se o tempo tivesse soluçado.*
@@ -1686,3 +1695,82 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 10 casas | **Alvos:** até 3 pontos diferentes, 1 casa de raio cada
 - **Efeito:** cada criatura hostil em qualquer uma das áreas é puxada 1 casa em direção ao centro dela e sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
+
+## Arcano
+
+Mana moldada sem forma elemental nenhuma — força pura, sem fogo, sem gelo, sem nada além da
+vontade de quem lança. É o elemento sem assinatura própria: onde os outros dez sempre vêm com
+um efeito colateral característico (queima, prende, empurra...), o Arcano é só o golpe, cru.
+
+**Arrasador**
+
+*Um golpe de força pura arremessa o alvo para longe com violência.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Arcano](../glossario.md#arcano)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 3 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 5 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 7 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
+
+**Força Perfeita**
+
+*Um golpe puro de energia condensada atinge o alvo com precisão absoluta.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Arcano](../glossario.md#arcano)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 4 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 6 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
+
+**Impacto Arcano**
+
+*Toda a energia da lâmina é canalizada num único disparo à frente, crescendo em intensidade.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Arcano](../glossario.md#arcano)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + empurra 4 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + empurra 6 casas e derruba o alvo
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
+
+**Disparo Voraz**
+
+*Um projétil compacto de energia crua dispara às pressas contra o alvo.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Arcano](../glossario.md#arcano)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 4 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 7 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
+
+**Feitiço Instável**
+
+*A magia escapa do controle no instante em que é lançada — quanto mais poder você bombeia nela, mais violento é o que vai acontecer, nem quem lança sabe o quê.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Arcano](../glossario.md#arcano)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** role 1d6 pra determinar o que acontece:
+- **1:** o alvo sofre 3d6 de dano
+- **2:** o usuário sofre 2d6 de dano, mas o alvo também sofre 2d6 — a explosão não escolhe lado
+- **3:** o alvo é puxado 4 casas em direção ao usuário e sofre 1d6 de dano de impacto na colisão
+- **4:** o usuário é empurrado 4 casas pra trás, e toda criatura hostil em 2 casas dele sofre 1d6 de dano
+- **5:** o usuário rouba 2d6 de Vida do alvo
+- **6:** o usuário recupera 2d6 de Mana
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** a mesma tabela, mais forte:
+- **1:** o alvo sofre 4d6 de dano
+- **2:** o usuário sofre 3d6 de dano, e o alvo também sofre 3d6
+- **3:** o alvo é puxado 6 casas em direção ao usuário e sofre 2d6 de dano de impacto na colisão
+- **4:** o usuário é empurrado 6 casas pra trás, e toda criatura hostil em 2 casas dele sofre 2d6 de dano
+- **5:** o usuário rouba 3d6 de Vida do alvo
+- **6:** o usuário recupera 3d6 de Mana
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** a mesma tabela, no limite:
+- **1:** o alvo sofre 6d6 de dano
+- **2:** o usuário sofre 4d6 de dano, e o alvo também sofre 4d6
+- **3:** o alvo é puxado 8 casas em direção ao usuário, sofre 3d6 de dano de impacto na colisão, e fica [Derrubado](../glossario.md#derrubado)
+- **4:** o usuário é empurrado 8 casas pra trás, e toda criatura hostil em 3 casas dele sofre 3d6 de dano
+- **5:** o usuário rouba 4d6 de Vida do alvo
+- **6:** o usuário recupera 4d6 de Mana
+- *(Sem Crítico — o resultado vem da rolagem no d6, não de um teste de ataque)*

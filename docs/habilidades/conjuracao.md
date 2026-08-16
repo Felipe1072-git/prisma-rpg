@@ -30,6 +30,17 @@ Companheiro Animal (escala com o nível do personagem, não com Mana).
 - **Consequência de morte:** se reduzida a 0 de Vida (ou apagada por um efeito que anule fogo), a chama se dissolve e reaparece no início do próximo [descanso curto](../jogar/exploracao.md#descanso) do usuário.
 - *(Sem Intensidade — Custo fixo, habilidade utilitária)*
 
+**Espada Vingadora**
+
+*Espadas espectrais brotam do chão continuamente, perfurando qualquer um que passe por perto.*
+
+- **Chave:** [Conjuração](../glossario.md#conjuracao)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas, toda criatura hostil que estiver ou entrar na área sofre 1d6 de dano no início de cada rodada.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, por 3 rodadas, com 1d8 de dano por rodada.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 4 rodadas, com 1d10 de dano por rodada, e a área vira [Terreno Difícil](../glossario.md#terreno-dificil) enquanto durar (as lâminas atrapalham o passo).
+- **Crítico (20 natural):** dano máximo do dado + rolagem extra na 1ª aplicação, e sobe 1 Intensidade
+
 O Aliado de Combate vem em três graus — Menor, Médio e Maior. Em qualquer um deles, **o jogador
 escolhe no momento de invocar** se ele mesmo roda a ficha do Aliado (junto do próprio turno) ou
 se passa o controle pro Mestre, que passa a agir com ele como um NPC aliado. Se uma habilidade
