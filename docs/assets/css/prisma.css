@@ -1200,6 +1200,11 @@
   padding-bottom: 0.25rem;
   border-bottom: 1px solid var(--prg-borda);
   font-weight: 700;
+  /* Sem isso, um título curto o bastante pra caber ao lado de uma ficha
+     lateral flutuante (ex: "O Código") mantém a linha do border-bottom na
+     largura cheia da coluna, e ela atravessa por baixo da ficha. flow-root
+     faz a caixa do título encolher e desviar do float, como o texto já faz. */
+  display: flow-root;
 }
 
 .md-typeset h3 {
@@ -1257,8 +1262,7 @@
 .prg-ficha-lateral p:first-child:has(img:only-child) img {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
+  height: auto;
   border-radius: 8px 8px 0 0;
 }
 
