@@ -401,7 +401,7 @@ Arma marcial pesada, dano 1d10 (lâminas gêmeas que se combinam num pique de al
 
 ### Glaive
 
-Arma marcial de haste, dano 1d10. Ver [Equipamento → Glaive](equipamento/index.md#equ-glaive).
+Arma marcial de haste Híbrida, dano 1d10. Ver [Equipamento → Glaive](equipamento/index.md#equ-glaive).
 
 ### Égide
 
@@ -413,11 +413,11 @@ Arma marcial pesada, dano 1d10 (renomeada de "Tirfing" — lâmina amaldiçoada,
 
 ### Violino
 
-Arma marcial, dano 1d6 (instrumento usado como arma contundente). Ver [Equipamento → Violino](equipamento/index.md#equ-violino).
+Arma marcial de Vontade, dano 1d6 (instrumento sonoro, exige Vontade +4). Ver [Equipamento → Violino](equipamento/index.md#equ-violino).
 
 ### Báculo
 
-Arma marcial, dano 1d8 (bastão com lâmina circular e cristal, símbolo dos bardos). Ver [Equipamento → Báculo](equipamento/index.md#equ-baculo).
+Arma marcial Ressonante, dano 1d8 (bastão com lâmina circular e cristal, símbolo dos bardos). Ver [Equipamento → Báculo](equipamento/index.md#equ-baculo).
 
 ### Bolsa de Truques
 
@@ -433,7 +433,7 @@ Arma marcial de haste média, dano 1d8 (arma real é a Chamma). Ver [Equipamento
 
 ### Vajras
 
-Arma marcial mística, dano 1d8. Ver [Equipamento → Vajras](equipamento/index.md#equ-vajras).
+Arma marcial de Sabedoria, dano 1d8 (cetro divino, exige Sabedoria +6). Ver [Equipamento → Vajras](equipamento/index.md#equ-vajras).
 
 ### Rapiers
 
@@ -445,11 +445,11 @@ Arma marcial pesada, dano 1d10 (lâmina lendária, duas metades — Sol e Lua). 
 
 ### Revólver Maverick
 
-Revólver pesado, dano 1d8 — quase uma espingarda de uma mão só, usado sempre sozinho por causa do coice e do poder de fogo (a outra mão fica livre). Ver [Equipamento → Revólver Maverick](equipamento/index.md#equ-revolver-maverick).
+Revólver pesado Híbrido, dano 1d8 — quase uma espingarda de uma mão só, usado sempre sozinho por causa do coice e do poder de fogo (a outra mão fica livre). Ver [Equipamento → Revólver Maverick](equipamento/index.md#equ-revolver-maverick).
 
 ### Marreta Mágica
 
-Arma marcial pesada, dano 1d12. Ver [Equipamento → Marreta Mágica](equipamento/index.md#equ-marreta-magica).
+Arma marcial pesada Híbrida, dano 1d12. Ver [Equipamento → Marreta Mágica](equipamento/index.md#equ-marreta-magica).
 
 ### Módulo Alado
 
@@ -488,6 +488,10 @@ O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver
 ### Híbrida
 
 O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Equipamento → Armas Híbridas](equipamento/regras.md#hibrida).
+
+### Ressonante
+
+O usuário escolhe, no teste de ataque, entre Físico (Força, dano Impacto) e Arcano (Vontade, dano Arcano) — o tipo de dano muda junto com o atributo. Ver [Equipamento → Armas Ressonantes](equipamento/regras.md#ressonante).
 
 ### Dupla Empunhadura
 

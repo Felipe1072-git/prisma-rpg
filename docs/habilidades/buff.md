@@ -80,7 +80,7 @@ Incremento de força, imbuir elementos em armas, etc.
 *Uma melodia contagiante ergue o ânimo de todos ao redor, e os golpes ficam mais certeiros.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Atributo:** Vontade | **Alvos:** usuário e aliados em 3 casas de raio
 - **Intensidade I — ◈ (1 PA) + 5 Mana:** por 3 rodadas, os alvos ganham +1 no dano de ataques
 - **Intensidade II — ◈◈ (2 PA) + 8 Mana:** por 4 rodadas, os alvos ganham +2 no dano de ataques
 - **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** por 5 rodadas, os alvos ganham +3 no dano de ataques
@@ -606,7 +606,7 @@ Incremento de força, imbuir elementos em armas, etc.
 *Um silêncio sagrado se instala — por um instante, nenhuma violência consegue tocar ninguém ali.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** todas as criaturas em 2 casas de raio do ponto
+- **Atributo:** Vontade | **Alcance:** 6 casas | **Alvos:** todas as criaturas em 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** por 1 rodada, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.
 - **Intensidade II — ◈◈ (2 PA) + 12 Mana:** por 2 rodadas, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.
 - **Intensidade III — ◈◈◈ (3 PA) + 15 Mana:** por 3 rodadas, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.

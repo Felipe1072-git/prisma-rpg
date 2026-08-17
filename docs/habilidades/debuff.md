@@ -190,7 +190,7 @@ Criar desvantagens para inimigos ou em testes.
 *Um brado desafiador ecoa pelo campo — ninguém mais existe além dela.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈ (2 PA) + 5 Mana | **Atributo:** Força | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis
+- **Custo fixo:** ◈◈ (2 PA) + 5 Mana | **Atributo:** Vontade | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis
 - **Acerto:** até o fim do próximo turno de cada alvo, ele só pode atacar o usuário desta habilidade (se for capaz de fazê-lo)
 - *(Custo fixo — rola teste de ataque contra a **Defesa mental (Vontade)** de cada alvo)*
 
@@ -520,7 +520,7 @@ Criar desvantagens para inimigos ou em testes.
 *Um grito estridente ecoa pelo campo, embaralhando os sentidos de quem ouve.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Inteligência | **Dano:** Arcano | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Vontade | **Dano:** Arcano | **Alvos:** 2 casas de raio ao redor do usuário
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d6 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d6 de dano + o próximo ataque de cada alvo até o fim do turno dele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado)
 - **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d6 de dano + Desvantagem + cada alvo perde a próxima Reação

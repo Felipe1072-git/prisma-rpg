@@ -107,7 +107,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 *Um coro de vozes que já não têm dono ecoa no campo — e cada inimigo ouve o próprio fim se aproximando.*
 
 - **Chave:** [Necromancia](../glossario.md#necromancia)
-- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Vontade | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo + cada um perde 1 no dano de ataques até o fim do próprio próximo turno.
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano em cada alvo + perde 2 no dano de ataques, e rola o próximo teste de Vontade com Desvantagem.
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano em cada alvo + perde 3 no dano de ataques, e cada alvo perde a próxima Reação.

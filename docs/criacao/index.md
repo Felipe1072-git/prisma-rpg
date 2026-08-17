@@ -68,6 +68,7 @@ Escolha **uma** habilidade de qualquer [grupo](../habilidades/regras.md#grupos),
 ## 5. Equipamento
 
 - **150 de prata** pra gastar como quiser em arma, armadura e escudo na listagem de [Equipamento](../equipamento/index.md) — a arma (e o escudo, se houver) ainda precisa atender o [Requisito de Atributo](../equipamento/regras.md#requisito-de-atributo-minimo) dela.
+- **Proficiência de arma** — escolha 1 arma, mesmo que não seja uma que você comprou, e já nasce sabendo a Habilidade **Básica** dela, de graça. Não conta como uma das suas 10 escolhas de habilidade de carreira.
 
 ## Valores que você calcula no fim
 

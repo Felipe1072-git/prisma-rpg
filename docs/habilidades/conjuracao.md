@@ -52,7 +52,7 @@ grau — duas fichas simultâneas é sobrecarga de mesa mesmo em graus baixos.
 *Um pequeno construto de brasa e cinza toma forma, pronto pra golpear no lugar do usuário.*
 
 - **Chave:** [Conjuração](../glossario.md#conjuracao)
-- **Atributo:** Sabedoria | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
+- **Atributo:** Vontade | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** invoca o Servo de Cinzas por 2 rodadas.
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, por 3 rodadas.
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o mesmo, por 4 rodadas.
@@ -65,7 +65,7 @@ grau — duas fichas simultâneas é sobrecarga de mesa mesmo em graus baixos.
 *Uma arma senciente se materializa no ar, flutuando e golpeando por conta própria.*
 
 - **Chave:** [Conjuração](../glossario.md#conjuracao)
-- **Atributo:** Sabedoria | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
+- **Atributo:** Vontade | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
 - **Intensidade I — ◈ (1 PA) + 5 Mana:** invoca a Lâmina Espectral por 3 rodadas.
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, por 4 rodadas.
 - **Intensidade III — ◈◈◈ (3 PA) + 13 Mana:** o mesmo, por 5 rodadas.
@@ -78,7 +78,7 @@ grau — duas fichas simultâneas é sobrecarga de mesa mesmo em graus baixos.
 *Um espírito guerreiro responde ao chamado — só nas horas mais difíceis.*
 
 - **Chave:** [Conjuração](../glossario.md#conjuracao)
-- **Custo fixo:** ◈◈◈ (3 PA) + 18 Mana, **1x por [descanso longo](../jogar/exploracao.md#descanso)** | **Atributo:** Sabedoria | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
+- **Custo fixo:** ◈◈◈ (3 PA) + 18 Mana, **1x por [descanso longo](../jogar/exploracao.md#descanso)** | **Atributo:** Vontade | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
 - **Efeito:** invoca o Guardião do Pacto, que dura até o fim da cena.
 - **O Aliado:** Vida 22, PA ◈◈◈ (3), Ataque +3, Dano 1d8, Defesa física 11, Movimento 7 casas. Rola a própria Iniciativa e age no próprio turno; ataca a criatura hostil mais próxima do usuário (ou onde o jogador mandar, se estiver controlando ele mesmo).
 - **Ao fim da cena:** o Guardião se desfaz sem penalidade além do próprio limite de 1x por descanso longo.

@@ -33,7 +33,7 @@ Dado de dano por arma, definido pelo arquétipo/peso (não por progressão de pe
 
 **Tipo** é o tipo de dano que a arma causa (ver [Tipos de Dano](../jogar/dano-e-cura.md#tipos-de-dano)) — é o que decide se ela é boa ou inútil contra uma criatura específica: um esqueleto ri de espada e teme martelo.
 
-**Grupo** é o estilo de combate predominante (Marciais, Pontaria ou Arcano — ver [Grupos de Habilidade](../glossario.md#grupos-de-habilidade)). **Chaves** lista as propriedades mecânicas da arma — toda arma tem exatamente uma de [Leve](#leve)/Duas Mãos, mais [Finesse](#finesse)/[Híbrida](#hibrida) e [Efeito Especial](#efeito-especial) quando aplicável. **Requisito** mostra o mínimo de atributo pra equipar a arma, quando houver (ver [Requisito de Atributo Mínimo](#requisito-de-atributo-minimo) abaixo pra detalhes de cada uma).
+**Grupo** é o estilo de combate predominante (Marciais, Pontaria ou Arcano — ver [Grupos de Habilidade](../glossario.md#grupos-de-habilidade)). **Chaves** lista as propriedades mecânicas da arma — toda arma tem exatamente uma de [Leve](#leve)/Duas Mãos, mais [Finesse](#finesse)/[Híbrida](#hibrida)/[Ressonante](#ressonante) e [Efeito Especial](#efeito-especial) quando aplicável. **Requisito** mostra o mínimo de atributo pra equipar a arma, quando houver (ver [Requisito de Atributo Mínimo](#requisito-de-atributo-minimo) abaixo pra detalhes de cada uma).
 
 Dentro de cada família, as armas são ordenadas por poder (dado crescente; empate resolvido por ordem alfabética). **Preço** está em **prata** (ver [Dinheiro](../mestre/recompensas.md#dinheiro)); armas lendárias e amaldiçoadas não têm preço porque não se compram — se acham.
 
@@ -61,11 +61,11 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 | [Lâmina Dupla](#lamina-dupla) | Hastes | 1d6 | Cortante | 30 p | Leve | — | arma ancestral com lâmina em cada extremidade |
 | [Bastão](#bastao) | Hastes | 1d8 | Impacto | 60 p | Duas Mãos | — | haste média |
 | [Tridente](#tridente) | Hastes | 1d8 | Perfurante | 60 p | Leve | — | haste de três pontas, combina com Escudo |
-| [Glaive](#glaive) | Hastes | 1d10 | Cortante | 120 p | Duas Mãos | — | arma de haste, alcance |
+| [Glaive](#glaive) | Hastes | 1d10 | Cortante | 120 p | Duas Mãos, Híbrida | — | arma de haste, alcance |
 | [Lança](#lanca) | Hastes | 1d10 | Perfurante | 120 p | Duas Mãos | — | alcance, mais pesada |
 | [Pique](#pique) | Hastes | 1d10 | Perfurante | 120 p | Duas Mãos | — | lâminas gêmeas que se combinam num pique de alcance |
 | [Machado](#machado) | Impacto Pesado | 1d12 | Cortante | 240 p | Duas Mãos | Força +2 | pesado de duas mãos |
-| [Marreta Mágica](#marreta-magica) | Impacto Pesado | 1d12 | Impacto | 240 p | Duas Mãos | — | a mais pesada do arquétipo |
+| [Marreta Mágica](#marreta-magica) | Impacto Pesado | 1d12 | Impacto | 240 p | Duas Mãos, Híbrida | — | a mais pesada do arquétipo |
 | [Martelo](#martelo) | Impacto Pesado | 1d12 | Impacto | 240 p | Duas Mãos | — | arma de esmagamento, pesada |
 | [Chicote](#chicote) | Armas Flexíveis | 1d6 | Impacto | 30 p | Finesse, Leve | — | alcance incomum pra uma arma corpo a corpo, puxa e prende |
 | [Mangual](#mangual) | Armas Flexíveis | 1d10 | Impacto | 120 p | Duas Mãos | — | golpe pesado e imprevisível, difícil de bloquear |
@@ -76,7 +76,7 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 | [Espada Senciente](#espada-senciente) | Lâminas Longas/Lendárias | 1d12 | Cortante | — | Duas Mãos, Efeito Especial | — | absorve energias e dificulta a mobilidade de quem a empunha |
 | [Montante](#montante) | Lâminas Longas/Lendárias | 1d12 | Cortante | — | Duas Mãos | Força +3 | espada grande de duas mãos |
 | [Violino](#violino) | Focos Atípicos | 1d6 | Impacto | 30 p | Leve | Vontade +4 | instrumento usado como arma contundente |
-| [Báculo](#baculo) | Focos Atípicos | 1d8 | Impacto | 60 p | Leve | — | bastão com lâmina circular e cristal, símbolo dos bardos |
+| [Báculo](#baculo) | Focos Atípicos | 1d8 | Impacto ou Arcano | 60 p | Leve, Ressonante | — | bastão com lâmina circular e cristal, símbolo dos bardos |
 | [Vajras](#vajras) | Focos Atípicos | 1d8 | Impacto | 60 p | Leve | Sabedoria +6 | arma mística, foco médio |
 | [Égide](#egide) | Única | 1d6 | Cortante | 30 p | Duas Mãos | — | pacote fechado espada+escudo — identidade defensiva vem do Buff Supremo do grupo |
 
@@ -93,7 +93,7 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 | [Pistolas](#pistolas) | Armas de Fogo Leves | 1d6 | Perfurante | 30 p | Leve | — | dupla de pistolas leves, usadas sempre em par |
 | [Flintlock](#flintlock) | Armas de Fogo Leves | 1d8 | Perfurante | 60 p | Leve | — | pistola de precisão |
 | [Pistola Arcana](#pistola-arcana) | Armas de Fogo Leves | 1d8 | Perfurante | 60 p | Híbrida, Leve | — | pólvora e magia crua no mesmo disparo |
-| [Revólver Maverick](#revolver-maverick) | Armas de Fogo Leves | 1d8 | Perfurante | 60 p | Leve | — | revólver pesado, usado sempre sozinho |
+| [Revólver Maverick](#revolver-maverick) | Armas de Fogo Leves | 1d8 | Perfurante | 60 p | Leve, Híbrida | — | revólver pesado, usado sempre sozinho |
 | [Espingarda](#espingarda) | Armas de Fogo Pesadas | 1d10 | Perfurante | 120 p | Duas Mãos | — | "A Ruptura" — tiro único e devastador, arma dos Justiceiros |
 | [Metralhadora](#metralhadora) | Armas de Fogo Pesadas | 1d12 | Perfurante | 240 p | Duas Mãos | — | giratória, a mais pesada |
 
@@ -138,7 +138,13 @@ Armas Finesse até agora: **Adagas**, **Punhal**, **Florete**, **Alfange**, **Ga
 
 Algumas armas que misturam combate físico e magia são marcadas como **Híbridas**: o usuário escolhe, no momento do teste de ataque, usar **Inteligência ou o atributo físico normal da arma** (Força pra armas Marciais, Agilidade pra armas de Pontaria) — o que for maior. Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
 
-Armas Híbridas até agora: **Gládio** (Força ou Inteligência), **Espada-Chave** (Força ou Inteligência), **Pistola Arcana** (Agilidade ou Inteligência).
+Armas Híbridas até agora: **Gládio** (Força ou Inteligência), **Espada-Chave** (Força ou Inteligência), **Pistola Arcana** (Agilidade ou Inteligência), **Marreta Mágica** (Força ou Inteligência), **Glaive** (Força ou Inteligência), **Revólver Maverick** (Agilidade ou Inteligência).
+
+### Ressonante
+
+Armas que canalizam som e magia ao mesmo tempo são marcadas como **Ressonantes**: o usuário escolhe, no momento do teste de ataque, entre **Físico** (Força, dano Impacto) e **Arcano** (Vontade, dano Arcano). Diferente de Finesse e Híbrida, aqui o **tipo de dano muda junto com o atributo** — Chave, alvos, alcance e efeito de controle continuam os mesmos nos dois modos. Isso vale pro teste de acerto de qualquer habilidade daquela arma, inclusive as 3 habilidades de arma.
+
+Armas Ressonantes até agora: **Báculo** (Força/Impacto ou Vontade/Arcano).
 
 ### Requisito de Atributo Mínimo
 
@@ -233,7 +239,7 @@ Dano: **1d4**
 *Um corte horizontal rápido, cravado no ponto certo pra desequilibrar o inimigo.*
 
 - **Chave:** [Adagas](../glossario.md#adagas) - [Básica](../glossario.md#basica) - [Finesse](../glossario.md#finesse)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d4 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d4 de dano + empurra 2 casas e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d4 de dano + empurra 3 casas, derruba o alvo, e ele perde a próxima Reação
@@ -244,7 +250,7 @@ Dano: **1d4**
 *Um golpe imprevisível — às vezes de raspão, às vezes fatal.*
 
 - **Chave:** [Adagas](../glossario.md#adagas) - [Avançada](../glossario.md#avancada) - [Finesse](../glossario.md#finesse)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d4 de dano
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 4d4 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 6d4 de dano + [Sangrando](../glossario.md#sangrando), e todo ataque contra o alvo rola com Vantagem até o fim do próximo turno dele
@@ -342,14 +348,16 @@ Dano: **1d8**
 
 *O Báculo é constituído por um bastão com uma lâmina circular e um cristal no centro da lâmina. Essa arma mágica é o símbolo máximo dos bardos — o instrumento é capaz de direcionar o som e amplificá-lo por meio de vibrações do cristal sagrado raríssimo preso à ponta do bastão.*
 
+Arma Ressonante (ver [Ressonante](#ressonante) acima) — escolha, no teste de ataque, entre Físico (Força, dano Impacto) e Arcano (Vontade, dano Arcano).
+
 Dano: **1d8**
 
 **Reverberação** — *Básica*
 
 *Três golpes certeiros terminam erguendo o inimigo no ar.*
 
-- **Chave:** [Báculo](../glossario.md#baculo) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Chave:** [Báculo](../glossario.md#baculo) - [Básica](../glossario.md#basica) - [Ressonante](../glossario.md#ressonante)
+- **Atributo:** Força ou Vontade | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -357,24 +365,24 @@ Dano: **1d8**
 
 **Tiro da Sereia** — *Avançada*
 
-*Um orbe sonoro é disparado contra o alvo à distância.*
+*Um orbe sonoro é disparado contra o alvo, cantando um chamado que atrai em vez de afastar.*
 
-- **Chave:** [Báculo](../glossario.md#baculo) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba o alvo, e ele perde a próxima Reação
+- **Chave:** [Báculo](../glossario.md#baculo) - [Avançada](../glossario.md#avancada) - [Ressonante](../glossario.md#ressonante)
+- **Atributo:** Força ou Vontade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano + puxa 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + puxa 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + puxa 3 casas, derruba o alvo, e ele fica [Marcado](../glossario.md#marcado)
 - **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Mergulho Sonoro** — *Especial*
 
-*Um salto termina num mergulho certeiro, orbe e corpo atingindo juntos.*
+*Um salto termina num mergulho certeiro, orbe e corpo atingindo juntos numa onda que atordoa.*
 
-- **Chave:** [Báculo](../glossario.md#baculo) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Chave:** [Báculo](../glossario.md#baculo) - [Especial](../glossario.md#especial) - [Ressonante](../glossario.md#ressonante)
+- **Atributo:** Força ou Vontade | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o ponto
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Balista
@@ -399,7 +407,7 @@ Dano: **1d12**
 *O arco gira como uma lâmina, num redemoinho que acerta tudo ao redor.*
 
 - **Chave:** [Balista](../glossario.md#balista) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Agilidade | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -427,7 +435,7 @@ Dano: **1d8**
 *Dois golpes ascendentes erguem o inimigo no ar.*
 
 - **Chave:** [Bastão](../glossario.md#bastao) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** 2 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -438,7 +446,7 @@ Dano: **1d8**
 *Três giros pra frente terminam num golpe final pesado.*
 
 - **Chave:** [Bastão](../glossario.md#bastao) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** 2 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + empurra 2 casas e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + empurra 3 casas, derruba o alvo, e ele perde a próxima Reação
@@ -477,7 +485,7 @@ Dano: **1d6**
 *Um chute simples mas certeiro lança o inimigo pro alto.*
 
 - **Chave:** [Bestas](../glossario.md#bestas) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
+- **Atributo:** Agilidade | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
@@ -505,7 +513,7 @@ Dano: **1d10**
 *Um buquê é sacado da bolsa e golpeia três vezes em sequência.*
 
 - **Chave:** [Bolsa de Truques](../glossario.md#bolsa-de-truques) - [Básica](../glossario.md#basica)
-- **Atributo:** Inteligência | **Alvos:** 1 criatura
+- **Atributo:** Inteligência | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -737,7 +745,7 @@ Dano: **1d6**
 *Três cortes rápidos terminam num golpe descendente poderoso.*
 
 - **Chave:** [Égide](../glossario.md#egide) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -748,7 +756,7 @@ Dano: **1d6**
 *Dois golpes ascendentes furiosos erguem o inimigo no ar.*
 
 - **Chave:** [Égide](../glossario.md#egide) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 2 casas e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + empurra 4 casas e derruba o alvo
@@ -776,7 +784,7 @@ Dano: **1d8**
 *Um golpe preciso e brutal, direto ao ponto fraco do inimigo.*
 
 - **Chave:** [Espada](../glossario.md#espada) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + Sangrando + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + Sangrando + derruba o alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
@@ -787,7 +795,7 @@ Dano: **1d8**
 *Um giro completo da lâmina, cortando tudo que estiver ao alcance.*
 
 - **Chave:** [Espada](../glossario.md#espada) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + Sangrando + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
@@ -820,7 +828,7 @@ Dano: **1d12**
 *Um golpe lento, mas de peso avassalador.*
 
 - **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -831,7 +839,7 @@ Dano: **1d12**
 *A lâmina gigante gira num arco largo, varrendo tudo ao redor.*
 
 - **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + Sangrando + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
@@ -842,7 +850,7 @@ Dano: **1d12**
 *Um golpe único capaz de rachar o chão com seu impacto.*
 
 - **Chave:** [Espada Senciente](../glossario.md#espada-senciente) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + empurra 2 casas e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
@@ -872,7 +880,7 @@ Dano: **1d8**
 *Dois cortes seguidos de um golpe ascendente que lança o inimigo pro alto.*
 
 - **Chave:** [Espada-Chave](../glossario.md#espada-chave) - [Avançada](../glossario.md#avancada) - [Híbrida](../glossario.md#hibrida)
-- **Atributo:** Força ou Inteligência | **Alvos:** 1 criatura
+- **Atributo:** Força ou Inteligência | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1018,7 +1026,7 @@ Dano: **1d10**
 *Um corte largo e certeiro, guiado pelo peso da lâmina curva.*
 
 - **Chave:** [Foice](../glossario.md#foice) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1029,7 +1037,7 @@ Dano: **1d10**
 *Um giro amplo da foice, ceifando tudo ao alcance como trigo maduro.*
 
 - **Chave:** [Foice](../glossario.md#foice) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + Sangrando + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
@@ -1040,7 +1048,7 @@ Dano: **1d10**
 *Um golpe final, pesado e implacável, como o fim de um ciclo.*
 
 - **Chave:** [Foice](../glossario.md#foice) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano + alvo fica [Marcado](../glossario.md#marcado)
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + Marcado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + Marcado + derruba o alvo, e ele perde a próxima Reação
@@ -1057,7 +1065,7 @@ Dano: **1d10**
 *Um corte rápido é seguido por um salto e um golpe diagonal certeiro.*
 
 - **Chave:** [Gadanha](../glossario.md#gadanha) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1079,7 +1087,7 @@ Dano: **1d10**
 *Um giro completo com a foice ceifa tudo ao alcance, num arco largo e implacável.*
 
 - **Chave:** [Gadanha](../glossario.md#gadanha) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
@@ -1109,7 +1117,7 @@ Dano: **1d6**
 *Um salto termina num chute certeiro desde o alto.*
 
 - **Chave:** [Gakkung](../glossario.md#gakkung) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Agilidade | **Alvos:** 1 criatura, corpo a corpo
+- **Atributo:** Agilidade | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 2 casas e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + empurra 4 casas e derruba o alvo
@@ -1148,7 +1156,7 @@ Dano: **1d6**
 *Uma rajada de cortes rápidos termina com o lutador atacando repetidamente pelas costas do inimigo.*
 
 - **Chave:** [Garras](../glossario.md#garras) - [Avançada](../glossario.md#avancada) - [Finesse](../glossario.md#finesse)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + alvo perde a próxima Reação + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1159,7 +1167,7 @@ Dano: **1d6**
 *As garras se tornam um borrão, cortando tudo ao redor num único movimento contínuo.*
 
 - **Chave:** [Garras](../glossario.md#garras) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força ou Agilidade | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
@@ -1202,7 +1210,7 @@ Dano: **1d6**
 *Uma rajada de golpes furiosos que termina com um corte devastador — o lutador pode se mover livremente durante o ataque.*
 
 - **Chave:** [Gládio](../glossario.md#gladio) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#hibrida)
-- **Atributo:** Força ou Inteligência | **Alvos:** até 3 criaturas à escolha, ao alcance corpo a corpo
+- **Atributo:** Força ou Inteligência | **Alcance:** corpo a corpo | **Alvos:** até 3 criaturas à escolha
 - **Efeito adicional:** o usuário pode se mover livremente até seu Movimento em casas durante o ataque, sem gastar PA extra
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + Sangrando + derruba cada alvo
@@ -1213,14 +1221,16 @@ Dano: **1d6**
 
 *O Glaive é constituído por uma lança de lâmina larga, com runas arcanas em sua empunhadura.*
 
+Arma Híbrida (ver [Híbrida](#hibrida) acima) — usa Força ou Inteligência, o que for maior.
+
 Dano: **1d10**
 
 **Espada Infinita** — *Básica*
 
 *Duas varreduras baixas erguem o inimigo, seguidas de dois golpes ascendentes e um último golpe mais forte.*
 
-- **Chave:** [Glaive](../glossario.md#glaive) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Chave:** [Glaive](../glossario.md#glaive) - [Básica](../glossario.md#basica) - [Híbrida](../glossario.md#hibrida)
+- **Atributo:** Força ou Inteligência | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1230,8 +1240,8 @@ Dano: **1d10**
 
 *O usuário dispara pra frente, atravessando qualquer coisa no caminho.*
 
-- **Chave:** [Glaive](../glossario.md#glaive) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Chave:** [Glaive](../glossario.md#glaive) - [Avançada](../glossario.md#avancada) - [Híbrida](../glossario.md#hibrida)
+- **Atributo:** Força ou Inteligência | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o fim da linha
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -1241,8 +1251,8 @@ Dano: **1d10**
 
 *Um salto termina numa queda diagonal, a lâmina cravando fundo no ponto de impacto.*
 
-- **Chave:** [Glaive](../glossario.md#glaive) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Chave:** [Glaive](../glossario.md#glaive) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#hibrida)
+- **Atributo:** Força ou Inteligência | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o ponto
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -1265,7 +1275,7 @@ Dano: **1d10**
 *Dois cortes rápidos terminam com um salto e um golpe duplo no ar.*
 
 - **Chave:** [Katana Muramasa](../glossario.md#katana-muramasa) - [Básica](../glossario.md#basica) - [Finesse](../glossario.md#finesse)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1308,7 +1318,7 @@ Dano: **1d10**
 *Um corte único, rápido e certeiro.*
 
 - **Chave:** [Katana Nodachi](../glossario.md#katana-nodachi) - [Básica](../glossario.md#basica) - [Finesse](../glossario.md#finesse)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1319,7 +1329,7 @@ Dano: **1d10**
 *Uma rajada de cortes rápidos termina com um golpe final decisivo.*
 
 - **Chave:** [Katana Nodachi](../glossario.md#katana-nodachi) - [Avançada](../glossario.md#avancada) - [Finesse](../glossario.md#finesse)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Força ou Agilidade | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
@@ -1330,7 +1340,7 @@ Dano: **1d10**
 *Uma energia espectral triplica o alcance da lâmina — dois cortes ascendentes terminam num golpe descendente devastador.*
 
 - **Chave:** [Katana Nodachi](../glossario.md#katana-nodachi) - [Especial](../glossario.md#especial) - [Finesse](../glossario.md#finesse)
-- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força ou Agilidade | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -1349,7 +1359,7 @@ Dano: **1d8**
 *Um giro completo da lâmina antes de descer com um golpe brutal.*
 
 - **Chave:** [Lâmina](../glossario.md#lamina) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1388,7 +1398,7 @@ Dano: **1d10**
 *A lâmina é arremessada pro alto, apanhada de volta num corte, seguido de vários golpes rápidos e uma estocada final.*
 
 - **Chave:** [Lâmina do Crepúsculo](../glossario.md#lamina-do-crepusculo) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando) e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando), derruba o alvo, e ele perde a próxima Reação
@@ -1428,7 +1438,7 @@ Dano: **1d6**
 *Dois cortes seguidos de um giro veloz lançam o inimigo pro alto.*
 
 - **Chave:** [Lâmina Dupla](../glossario.md#lamina-dupla) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1439,7 +1449,7 @@ Dano: **1d6**
 *Uma aura de força se ergue da lâmina, arremessando o inimigo através do campo de batalha.*
 
 - **Chave:** [Lâmina Dupla](../glossario.md#lamina-dupla) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 4 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + empurra 6 casas e derruba o alvo
@@ -1506,7 +1516,7 @@ Dano: **1d10**
 *A lança gira no ar antes de bater com força total no chão.*
 
 - **Chave:** [Lança](../glossario.md#lanca) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** 2 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1517,7 +1527,7 @@ Dano: **1d10**
 *Duas estocadas rápidas terminam com um golpe ascendente que ergue o inimigo do chão.*
 
 - **Chave:** [Lança](../glossario.md#lanca) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** 2 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
@@ -1528,7 +1538,7 @@ Dano: **1d10**
 *Um giro horizontal completo acerta tudo à frente e atrás.*
 
 - **Chave:** [Lança](../glossario.md#lanca) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -1627,7 +1637,7 @@ Dano: **1d10**
 *A bola de ferro gira antes de desabar com um peso imprevisível.*
 
 - **Chave:** [Mangual](../glossario.md#mangual) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1638,7 +1648,7 @@ Dano: **1d10**
 *O mangual gira em círculos cada vez mais largos, esmagando tudo que estiver por perto.*
 
 - **Chave:** [Mangual](../glossario.md#mangual) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -1649,7 +1659,7 @@ Dano: **1d10**
 *O peso e a imprevisibilidade das correntes tornam esse golpe quase impossível de bloquear.*
 
 - **Chave:** [Mangual](../glossario.md#mangual) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Efeito:** este ataque ignora bônus de Defesa vindo de Escudos e da habilidade Bloqueio
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + empurra 2 casas e derruba o alvo
@@ -1669,7 +1679,7 @@ Dano: **1d6**
 *Um soco certeiro que trava a respiração do alvo por um instante.*
 
 - **Chave:** [Manopla](../glossario.md#manopla) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + alvo perde a próxima Reação
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + alvo perde a próxima Reação e a próxima Ação Básica
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + alvo perde a próxima Reação e Ação Básica, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
@@ -1680,7 +1690,7 @@ Dano: **1d6**
 *Uma explosão de socos em todas as direções, rápidos demais pra bloquear.*
 
 - **Chave:** [Manopla](../glossario.md#manopla) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + Sangrando + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
@@ -1691,7 +1701,7 @@ Dano: **1d6**
 *Um único soco carregado de força total, capaz de atravessar qualquer defesa.*
 
 - **Chave:** [Manopla](../glossario.md#manopla) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Efeito:** ignora o bônus de Armadura na Defesa do alvo
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba o alvo + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
@@ -1776,14 +1786,16 @@ Dano: **1d6**
 
 *A Marreta Mágica é constituída por um cabo longo com duas extremidades cilíndricas na ponta pra atacar. Apresenta uma fenda ou gema central que brilha, indicando o uso de energia ou mana.*
 
+Arma Híbrida (ver [Híbrida](#hibrida) acima) — usa Força ou Inteligência, o que for maior.
+
 Dano: **1d12**
 
 **Sem Piedade** — *Básica*
 
 *Um golpe de taco arremessa o inimigo pro alto — uma bomba grudada nele explode antes da queda.*
 
-- **Chave:** [Marreta Mágica](../glossario.md#marreta-magica) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Chave:** [Marreta Mágica](../glossario.md#marreta-magica) - [Básica](../glossario.md#basica) - [Híbrida](../glossario.md#hibrida)
+- **Atributo:** Força ou Inteligência | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + empurra 2 casas e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + empurra 4 casas e derruba o alvo
@@ -1793,8 +1805,8 @@ Dano: **1d12**
 
 *Propulsores escondidos na marreta disparam, somando força total a um golpe devastador.*
 
-- **Chave:** [Marreta Mágica](../glossario.md#marreta-magica) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Chave:** [Marreta Mágica](../glossario.md#marreta-magica) - [Avançada](../glossario.md#avancada) - [Híbrida](../glossario.md#hibrida)
+- **Atributo:** Força ou Inteligência | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano + empurra 3 casas
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -1804,8 +1816,8 @@ Dano: **1d12**
 
 *Um golpe no chão libera uma onda de choque que se espalha em todas as direções.*
 
-- **Chave:** [Marreta Mágica](../glossario.md#marreta-magica) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Chave:** [Marreta Mágica](../glossario.md#marreta-magica) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#hibrida)
+- **Atributo:** Força ou Inteligência | **Alvos:** 2 casas de raio ao redor do usuário
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -1822,7 +1834,7 @@ Dano: **1d12**
 *Um giro poderoso aproveita o peso do martelo, acertando quem estiver à frente e atrás.*
 
 - **Chave:** [Martelo](../glossario.md#martelo) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -1833,7 +1845,7 @@ Dano: **1d12**
 *Golpes pesados e sucessivos esmagam tudo que estiver à frente.*
 
 - **Chave:** [Martelo](../glossario.md#martelo) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** cone de 3 casas à frente
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** cone de 3 casas à frente
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2052,7 +2064,7 @@ Dano: **1d10**
 *Uma rajada de estocadas rápidas termina com um golpe final carregado de força total.*
 
 - **Chave:** [Pique](../glossario.md#pique) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** 2 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + [Sangrando](../glossario.md#sangrando) e empurra 2 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando), empurra 3 casas e derruba o alvo, e o Sangrando causa 2d4 em vez de 1d4
@@ -2245,7 +2257,7 @@ Dano: **1d6**
 *Quatro cortes rápidos terminam com um golpe duplo certeiro.*
 
 - **Chave:** [Rapiers](../glossario.md#rapiers) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -2256,7 +2268,7 @@ Dano: **1d6**
 *Cortes furiosos e descontrolados terminam quando as rapieiras são embainhadas, gerando uma explosão.*
 
 - **Chave:** [Rapiers](../glossario.md#rapiers) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 2 casas de raio ao redor do usuário
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2277,14 +2289,16 @@ Dano: **1d6**
 
 *O Revólver Maverick é uma arma mágica. Diferente de uma arma de fogo convencional, tem uma silhueta mais grossa e angular, parecida com uma pistola de alta tecnologia ou um pequeno canhão de mão. A parte central e os vãos do cano emitem um brilho, indicando que a arma é alimentada por energia pura — pesado demais pra empunhar dois, então é sempre usado sozinho, com a outra mão livre.*
 
+Arma Híbrida (ver [Híbrida](#hibrida) acima) — usa Agilidade ou Inteligência, o que for maior.
+
 Dano: **1d8**
 
 **Onda de Choque** — *Básica*
 
 *Um tiro no chão libera duas explosões de energia que sobem em sequência.*
 
-- **Chave:** [Revólver Maverick](../glossario.md#revolver-maverick) - [Básica](../glossario.md#basica)
-- **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Chave:** [Revólver Maverick](../glossario.md#revolver-maverick) - [Básica](../glossario.md#basica) - [Híbrida](../glossario.md#hibrida)
+- **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -2294,8 +2308,8 @@ Dano: **1d8**
 
 *Uma caixa de mísseis é convocada — os projéteis sobem, arqueiam no ar e explodem ao cair.*
 
-- **Chave:** [Revólver Maverick](../glossario.md#revolver-maverick) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Agilidade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Chave:** [Revólver Maverick](../glossario.md#revolver-maverick) - [Avançada](../glossario.md#avancada) - [Híbrida](../glossario.md#hibrida)
+- **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2305,8 +2319,8 @@ Dano: **1d8**
 
 *Um canhão improvisado é montado às pressas — um feixe multicolorido varre tudo à frente.*
 
-- **Chave:** [Revólver Maverick](../glossario.md#revolver-maverick) - [Especial](../glossario.md#especial)
-- **Atributo:** Agilidade | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Chave:** [Revólver Maverick](../glossario.md#revolver-maverick) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#hibrida)
+- **Atributo:** Agilidade ou Inteligência | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2323,7 +2337,7 @@ Dano: **1d6**
 *Duas lâminas cortam em sequência antes de golpear com força pra baixo.*
 
 - **Chave:** [Sabres](../glossario.md#sabres) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -2334,7 +2348,7 @@ Dano: **1d6**
 *Um giro veloz e implacável termina lançando ondas de energia ao chão.*
 
 - **Chave:** [Sabres](../glossario.md#sabres) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 2 casas de raio ao redor do usuário
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
@@ -2345,7 +2359,7 @@ Dano: **1d6**
 *As duas lâminas se tornam um redemoinho contínuo, cortando tudo ao alcance.*
 
 - **Chave:** [Sabres](../glossario.md#sabres) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2362,7 +2376,7 @@ Dano: **1d10**
 *Golpes alternados das duas metades da lâmina terminam numa varredura certeira.*
 
 - **Chave:** [Soluna](../glossario.md#soluna) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d10 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -2373,7 +2387,7 @@ Dano: **1d10**
 *Um giro vertical da lâmina arremessa o inimigo pro alto.*
 
 - **Chave:** [Soluna](../glossario.md#soluna) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d10 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d10 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -2384,7 +2398,7 @@ Dano: **1d10**
 *Um giro veloz precede cortes desferidos de todos os ângulos possíveis, terminando num golpe final que sacode o chão.*
 
 - **Chave:** [Soluna](../glossario.md#soluna) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d10 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2403,7 +2417,7 @@ Dano: **1d12**
 *Uma sequência de quatro socos termina com um giro poderoso.*
 
 - **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d12 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d12 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d12 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -2414,7 +2428,7 @@ Dano: **1d12**
 *Um soco ascendente lança o inimigo pelos ares.*
 
 - **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d12 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d12 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d12 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e empurra 2 casas
@@ -2425,7 +2439,7 @@ Dano: **1d12**
 *Um golpe no chão libera uma onda de choque puramente cinética ao redor.*
 
 - **Chave:** [Soqueira Pesada](../glossario.md#soqueira-pesada) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 2 casas de raio ao redor do usuário
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d12 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d12 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2442,7 +2456,7 @@ Dano: **1d6**
 *Três golpes de tonfa terminam com um chute certeiro.*
 
 - **Chave:** [Tonfas](../glossario.md#tonfas) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -2453,7 +2467,7 @@ Dano: **1d6**
 *Um avanço deslizante termina em dois socos e numa explosão de força à frente.*
 
 - **Chave:** [Tonfas](../glossario.md#tonfas) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** cone de 2 casas à frente
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** cone de 2 casas à frente
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2464,7 +2478,7 @@ Dano: **1d6**
 *Uma sequência de golpes de tonfa cria uma série de explosões, terminando num deslizar que produz uma explosão ainda maior.*
 
 - **Chave:** [Tonfas](../glossario.md#tonfas) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2503,7 +2517,7 @@ Dano: **1d8**
 *Um giro amplo prende e humilha todos ao redor — ninguém sai ileso do palco.*
 
 - **Chave:** [Tridente](../glossario.md#tridente) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + empurra 2 casas cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + cada alvo fica [Marcado](../glossario.md#marcado)
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + cada alvo fica [Marcado](../glossario.md#marcado), e derruba cada alvo
@@ -2522,7 +2536,7 @@ Dano: **1d8**
 *Um chute giratório poderoso termina com um pisão que produz um pequeno estrondo.*
 
 - **Chave:** [Vajras](../glossario.md#vajras) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Sabedoria | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -2533,7 +2547,7 @@ Dano: **1d8**
 *Um avanço em linha reta marca tudo no caminho — pequenas explosões atingem cada marcado.*
 
 - **Chave:** [Vajras](../glossario.md#vajras) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Sabedoria | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d8 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d8 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
@@ -2544,7 +2558,7 @@ Dano: **1d8**
 *Uma energia vibrante suga os inimigos próximos antes de um golpe final no chão explodir tudo ao redor.*
 
 - **Chave:** [Vajras](../glossario.md#vajras) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Sabedoria | **Alvos:** 2 casas de raio ao redor do usuário
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano em cada alvo + puxa 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d8 de dano + puxa 2 casas e derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d8 de dano + puxa 4 casas e derruba cada alvo
@@ -2561,7 +2575,7 @@ Dano: **1d6**
 *Um golpe de palma aberta desvia o impulso do inimigo, arremessando-o pelo próprio peso.*
 
 - **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + empurra 2 casas e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + empurra 4 casas e derruba o alvo
@@ -2572,7 +2586,7 @@ Dano: **1d6**
 *Uma sequência de palmas abertas em fluxo contínuo, atingindo todos ao redor.*
 
 - **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e derruba cada alvo
@@ -2583,7 +2597,7 @@ Dano: **1d6**
 *Um toque preciso interrompe o fluxo de energia interna do alvo, drenando sua força.*
 
 - **Chave:** [Vembrassa](../glossario.md#vembrassa) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Força | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + alvo perde 2 no dano de ataques até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + perde 2 no dano de ataques + alvo perde 2 Mana + derruba o alvo
@@ -2602,7 +2616,7 @@ Dano: **1d6**
 *Uma sequência de notas certeiras acerta o alvo em rápida sucessão.*
 
 - **Chave:** [Violino](../glossario.md#violino) - [Básica](../glossario.md#basica)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Vontade | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d6 de dano + empurra 1 casa
 - **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d6 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d6 de dano + derruba o alvo, e ele perde a próxima Reação
@@ -2613,7 +2627,7 @@ Dano: **1d6**
 *Uma aura sonora se ergue do violino, arremessando o inimigo pra longe.*
 
 - **Chave:** [Violino](../glossario.md#violino) - [Avançada](../glossario.md#avancada)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Vontade | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 4 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 3d6 de dano + empurra 6 casas e derruba o alvo
@@ -2624,7 +2638,7 @@ Dano: **1d6**
 *Uma orquestra inteira de instrumentos surge no ar e desaba sobre um ponto escolhido.*
 
 - **Chave:** [Violino](../glossario.md#violino) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Vontade | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d6 de dano em cada alvo + empurra 1 casa cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 3d6 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** 3d6 de dano + derruba cada alvo, e cada alvo perde a próxima Reação

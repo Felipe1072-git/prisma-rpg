@@ -140,6 +140,16 @@ Toda habilidade de Mágicas por Elemento até a Rin usou Inteligência, sem exce
 
 **Critério pra decidir:** se o personagem-fonte é claramente um conjurador arcano (bruxa, feiticeira, invocador) → Inteligência, como sempre. Se é claramente um conjurador divino (paladino, clérigo, algo com tema de deusa/bênção/oração) → Sabedoria. Na dúvida, pergunte ao usuário — foi o que gerou essa própria distinção.
 
+## Atributo de Vontade: comando, voz, coerção — nunca resiliência própria
+
+Vontade é o atributo de habilidades cuja fonte é a **voz, o som ou a coerção do usuário projetada sobre outra mente** — grito, canto, ordem falada, encantamento que convoca ou vincula. **Não é** sobre a resiliência de quem usa a habilidade: um efeito em que o próprio usuário resiste a ser derrubado, interrompido ou atordoado continua sendo Força/físico, mesmo que a descrição use palavras como "inabalável" ou "impenetrável". Isso ficou definido em 2026-08-16 quando o usuário rejeitou Postura Inabalável, Repouso Silencioso e Reforço Momentâneo (Buff) como candidatos a Vontade — a mecânica delas é o corpo do próprio usuário aguentando algo, não a vontade dele saindo e atingindo outra pessoa.
+
+**Critério pra decidir:** o efeito precisa **sair** do usuário e **atingir** outra mente — grito, canto, ordem, encantamento que compele ou convoca. Exemplos já aprovados: **Provocação** e **Grito Dissonante** (grito/presença que subjuga), **Exorcismo**, **Selo de Exílio** e **Fechar a Porta** (ordem falada de comando/expulsão — repare como as três compartilham quase a mesma frase de sabor, "a ordem não é gritada, é dita uma vez"), **Servo de Cinzas**, **Chamar Lâmina Espectral** e **Convocar Guardião do Pacto** (um espírito que "responde ao chamado", ecoando **Selar o Pacto**), **Lamento dos Mortos** (coro que instala pavor), **Hora da Dança** (melodia) e **Zona de Paz** (decreto/coerção sobre uma área).
+
+**Projeção Mental fica de fora por definição própria** — o grupo inteiro é telepatia/leitura de mente que "funciona em qualquer mente, sem depender de palavras" (ver `docs/habilidades/projecao-mental.md`), então mesmo quando o efeito mexe com a mente do alvo, o poder ali é intelecto silencioso (Inteligência), não voz. Não converta habilidades desse grupo pra Vontade só porque afetam a mente de alguém.
+
+**Em armas:** se o Requisito de uma arma exige Vontade (ex: Violino, Vontade +4) ou Sabedoria (ex: Vajras, Sabedoria +6), as 3 habilidades dela devem usar esse mesmo atributo pra atacar — não faz sentido exigir um mínimo pra equipar uma arma cujo golpe não usa esse atributo pra rolar. Esse bug concreto apareceu em Vajras e Violino (ambas tinham Requisito num atributo e as 3 habilidades em Força) e foi corrigido em 2026-08-16; confira isso ao criar ou revisar qualquer arma com Requisito.
+
 ## Custos: PA vem da Intensidade, Mana escala com ela
 
 **O PA não é mais escolha de design** — ele é a Intensidade (I=◈, II=◈◈, III=◈◈◈). O que você define é a **escala de Mana**. Ver [docs/jogador/mana.md](../../docs/jogador/mana.md).

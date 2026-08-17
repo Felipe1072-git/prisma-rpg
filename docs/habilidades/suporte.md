@@ -113,8 +113,8 @@ Cura e apoio a aliados.
 *A ordem não é gritada. É dita uma vez, e o que não pertence ali obedece.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Custo fixo:** ◈◈ (2 PA) + 8 Mana | **Atributo:** Sabedoria | **Alcance:** 3 casas | **Alvos:** 1 criatura
-- **Efeito:** role **d20 + Sabedoria** contra a [Defesa mental](../jogar/combate.md#defesa) de quem controla o alvo. Passando, encerra **qualquer efeito que esteja controlando as ações do alvo** — [Possuído](../glossario.md#possuido), encantamento e afins. Um possuidor expulso reaparece adjacente e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele.
+- **Custo fixo:** ◈◈ (2 PA) + 8 Mana | **Atributo:** Vontade | **Alcance:** 3 casas | **Alvos:** 1 criatura
+- **Efeito:** role **d20 + Vontade** contra a [Defesa mental](../jogar/combate.md#defesa) de quem controla o alvo. Passando, encerra **qualquer efeito que esteja controlando as ações do alvo** — [Possuído](../glossario.md#possuido), encantamento e afins. Um possuidor expulso reaparece adjacente e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele.
 - *(Sem Intensidade — o efeito é absoluto: ou o controle acaba, ou não)*
 
 **Solo Consagrado**
