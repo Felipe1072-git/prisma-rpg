@@ -27,6 +27,7 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 - [Ester](pessoas/ester.md) — a mais velha do Coven, decide quem vira sacrifício
 - [Esme](pessoas/esme.md) — a que convida, sedutora
 - [Elsa](pessoas/elsa.md) — cuida das que ficam
+- [Ondrus](pessoas/ondrus.md) — NPC sábio itinerante, mestre do Arcano, não serve a nenhum lado da guerra
 
 ## Itens
 
