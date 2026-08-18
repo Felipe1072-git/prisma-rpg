@@ -284,7 +284,7 @@
 | Nível | Habilidade |
 |---|---|
 | 1 | Fúria Selvagem |
-| 3 | Modo Fúria |
+| 3 | Ataque Frenético |
 | 5 | Machado - Avançada |
 | 7 | Fúria Sanguinária |
 | 9 | Machado - Especial |
@@ -1292,7 +1292,7 @@
 | Nível | Habilidade |
 |---|---|
 | 1 | Ataque Desarmado |
-| 3 | Modo Fúria |
+| 3 | Postura do Tigre |
 | 5 | Manopla - Avançada |
 | 7 | Chute Meteoro |
 | 9 | Manopla - Especial |

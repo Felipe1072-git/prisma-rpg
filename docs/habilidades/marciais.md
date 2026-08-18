@@ -620,6 +620,74 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Efeito:** todo Ataque Básico corpo a corpo do usuário empurra o alvo 1 casa, além do dano normal.
 
+**Postura Selvagem** *(Passiva)*
+
+*Não precisa de aço pra aguentar o golpe — o próprio corpo já é armadura o bastante.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Requisito:** não pode estar usando nenhuma Armadura (Escudo continua permitido)
+- **Efeito:** enquanto a condição acima for verdadeira, a Defesa física do usuário passa a ser 8 + Agilidade + Vitalidade, em vez de 8 + Agilidade + Armadura.
+
+**Postura do Vazio** *(Passiva)*
+
+*A defesa perfeita não usa as mãos — usa a mente, vendo o golpe antes dele chegar.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Requisito:** não pode estar usando Armadura nem Escudo
+- **Efeito:** enquanto a condição acima for verdadeira, a Defesa física do usuário passa a ser 8 + Agilidade + Sabedoria, em vez de 8 + Agilidade + Armadura.
+
+**Ataque Temerário** *(Passiva)*
+
+*Abre mão de qualquer cautela — cada golpe atinge com tudo, e cada golpe pode acertar de volta.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** no início do seu turno, antes do primeiro teste de ataque, você pode declarar que está atacando de forma temerária. Se fizer isso, todo ataque seu que use Força rola com [Vantagem](../glossario.md#vantagem) até o início do seu próximo turno — mas qualquer ataque contra você também rola com Vantagem nesse mesmo período.
+
+**Passo Selvagem** *(Passiva)*
+
+*Nada pesa quando não tem nada pra pesar.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Requisito:** não pode estar usando uma armadura que reduza o Movimento
+- **Efeito:** enquanto a condição acima for verdadeira, o usuário ganha +2 casas de Movimento.
+
+**Recusa da Morte** *(Passiva)*
+
+*O corpo já devia ter caído — só não recebeu a notícia.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Requisito:** só funciona enquanto Fúria Sanguinária, Fúria do Lobo, Fúria Selvagem ou Fúria Imortal estiver ativa
+- **Efeito:** se você cair a 0 de Vida nesse período (sem isso te matar de vez), role d20 + Vitalidade contra uma DC que começa em 10. Passando, sua Vida vira um número igual ao dobro do seu nível, em vez de ficar [Caído](../jogar/dano-e-cura.md#chegando-a-0-de-vida). Cada vez que usar esse efeito de novo na mesma [cena](../glossario.md#cena), a DC sobe 5; ela volta a 10 no início do próximo descanso longo.
+
+**Golpe Irresistível** *(Passiva)*
+
+*Nada resiste, nada absorve — o golpe sempre encontra o osso.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** ao aprender esta habilidade, escolha Força ou Agilidade — esse atributo aumenta permanentemente em +1. Além disso, os ataques do usuário sempre ignoram Resistência a dano físico do alvo, e todo Crítico (20 natural) causa dano extra adicional igual ao valor atual do atributo escolhido.
+
+**Corpo Primordial** *(Passiva)*
+
+*O corpo para de fingir que é só carne — vira força bruta com forma humana.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** Força e Vitalidade aumentam permanentemente em +2 cada.
+
+**Força Absoluta** *(Passiva)*
+
+*O músculo não erra — só o dado, às vezes, e nem isso conta mais.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** em qualquer teste de Força que não seja um ataque, trate qualquer resultado do d20 menor que 15 como se fosse 15.
+
 **Investida Dupla** *(Dupla Empunhadura: Lança + Espada)*
 
 *Duas estocadas de lança precedem um golpe baixo e um corte ascendente de espada curta.*

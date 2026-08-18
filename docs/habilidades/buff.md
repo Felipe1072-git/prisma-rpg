@@ -46,25 +46,17 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** por 3 rodadas, o usuário não pode ser derrubado por nenhuma habilidade.
 - **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** por 4 rodadas, o usuário não pode ser derrubado por nenhuma habilidade.
 
-**Modo Fúria**
-
-*A adrenalina toma conta do corpo — cada movimento fica mais rápido, mais forte, mais selvagem.*
-
-- **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Força | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas, o usuário ganha +1d4 de dano em ataques desarmados e +2 de Movimento, mas só pode usar ataques físicos e Habilidades Marciais enquanto durar.
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** por 2 rodadas, o usuário ganha +2d4 de dano em ataques desarmados e +3 de Movimento, mas só pode usar ataques físicos e Habilidades Marciais enquanto durar.
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** por 2 rodadas, o usuário ganha +3d4 de dano em ataques desarmados e +4 de Movimento, mas só pode usar ataques físicos e Habilidades Marciais enquanto durar.
-
 **Fúria Imortal**
 
-*Seis séculos de batalhas convergem num único instante — o corpo se torna quase indestrutível.*
+*Seis séculos de batalhas convergem num único instante — nada nesse corpo ainda sabe cair.*
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Força | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas, o usuário causa +1d4 de dano extra em ataques corpo a corpo e reduz em 2 o dano recebido (mínimo 1).
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** por 2 rodadas, o usuário causa +2d4 de dano extra em ataques corpo a corpo e reduz em 2 o dano recebido (mínimo 1).
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** por 2 rodadas, o usuário causa +3d4 de dano extra em ataques corpo a corpo e reduz em 2 o dano recebido (mínimo 1).
+- **Enquanto durar:** o usuário tem Resistência a dano físico (Impacto, Cortante e Perfurante), e rola testes de Força com Vantagem.
+- **Duração:** continua ativa enquanto o usuário atacar ou for atacado em cada uma das próprias rodadas seguintes — termina imediatamente se ele passar um turno inteiro sem fazer nenhum dos dois.
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** o usuário causa +1d4 de dano extra em ataques corpo a corpo.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o usuário causa +2d4 de dano extra em ataques corpo a corpo.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o usuário causa +3d4 de dano extra em ataques corpo a corpo, e não pode ser derrubado enquanto durar.
 
 **Poder Dinâmico** *(Supremo)*
 
@@ -273,9 +265,10 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Força | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** por 2 rodadas, o usuário ganha +1d6 no dano de ataques e passa a acertar Crítico com 19 ou 20 natural (em vez de só 20), mas só pode realizar Ataques Básicos e Reações dedicadas.
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** por 2 rodadas, o usuário ganha +2d6 no dano de ataques e passa a acertar Crítico com 19 ou 20 natural (em vez de só 20), mas só pode realizar Ataques Básicos e Reações dedicadas.
-- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** por 2 rodadas, o usuário ganha +3d6 no dano de ataques e passa a acertar Crítico com 19 ou 20 natural (em vez de só 20), mas só pode realizar Ataques Básicos e Reações dedicadas.
+- **Duração:** continua ativa enquanto o usuário atacar ou for atacado em cada uma das próprias rodadas seguintes — termina imediatamente se ele passar um turno inteiro sem fazer nenhum dos dois.
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** o usuário ganha +1d6 no dano de ataques e passa a acertar Crítico com 19 ou 20 natural (em vez de só 20), mas só pode realizar Ataques Básicos e Reações dedicadas.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o usuário ganha +2d6 no dano de ataques e passa a acertar Crítico com 19 ou 20 natural (em vez de só 20), mas só pode realizar Ataques Básicos e Reações dedicadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o usuário ganha +3d6 no dano de ataques e passa a acertar Crítico com 19 ou 20 natural (em vez de só 20), mas só pode realizar Ataques Básicos e Reações dedicadas.
 
 **Postura Veloz**
 
@@ -341,9 +334,10 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Força | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** por 2 rodadas, o usuário ganha +1d4 no dano de ataques. Esse bônus aumenta pra +1d8 enquanto o usuário estiver com menos da metade da Vida máxima.
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** por 2 rodadas, o usuário ganha +2d4 no dano de ataques. Esse bônus aumenta pra +2d8 enquanto o usuário estiver com menos da metade da Vida máxima.
-- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** por 2 rodadas, o usuário ganha +3d4 no dano de ataques. Esse bônus aumenta pra +3d8 enquanto o usuário estiver com menos da metade da Vida máxima.
+- **Duração:** continua ativa enquanto o usuário atacar ou for atacado em cada uma das próprias rodadas seguintes — termina imediatamente se ele passar um turno inteiro sem fazer nenhum dos dois.
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** o usuário ganha +1d4 no dano de ataques. Esse bônus aumenta pra +1d8 enquanto o usuário estiver com menos da metade da Vida máxima.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o usuário ganha +2d4 no dano de ataques. Esse bônus aumenta pra +2d8 enquanto o usuário estiver com menos da metade da Vida máxima.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o usuário ganha +3d4 no dano de ataques. Esse bônus aumenta pra +3d8 enquanto o usuário estiver com menos da metade da Vida máxima.
 
 **Barreira Negra**
 
@@ -421,9 +415,10 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Força | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 5 Mana:** por 3 rodadas, o usuário ganha +1d4 no dano de ataques e +2 no Movimento, mas perde 2 de Defesa.
-- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** por 3 rodadas, o usuário ganha +2d4 no dano de ataques e +2 no Movimento, mas perde 2 de Defesa.
-- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** por 3 rodadas, o usuário ganha +3d4 no dano de ataques e +2 no Movimento, mas perde 2 de Defesa.
+- **Duração:** continua ativa enquanto o usuário atacar ou for atacado em cada uma das próprias rodadas seguintes — termina imediatamente se ele passar um turno inteiro sem fazer nenhum dos dois.
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** o usuário ganha +1d4 no dano de ataques e +2 no Movimento, mas perde 2 de Defesa.
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o usuário ganha +2d4 no dano de ataques e +2 no Movimento, mas perde 2 de Defesa.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o usuário ganha +3d4 no dano de ataques e +2 no Movimento, mas perde 2 de Defesa.
 
 **Avatar Nephilim** *(Maior)*
 
