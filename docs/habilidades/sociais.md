@@ -108,13 +108,14 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra a [Defesa 
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Efeito:** em qualquer teste de Vontade que não seja um ataque, trate qualquer resultado do d20 menor que 15 como se fosse 15.
 
-**Segredo Guardado**
+**Segredo Guardado** *(Supremo)*
 
 *Você sabe algo que ele nunca contou a ninguém — ou finge saber bem o bastante pra ele acreditar.*
 
 - **Chave:** [Sociais](../glossario.md#sociais)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Vontade | **Defesa:** mental (Vontade) | **Alcance:** conversa direta (precisa falar com o alvo por alguns minutos antes de ativar) | **Alvos:** 1 criatura humanoide
 - **Acerto:** pelas próximas 8 horas, ou até o usuário ou um aliado dele atacar ou ferir o alvo (o que vier primeiro), o alvo acredita que o usuário guarda um segredo capaz de arruiná-lo, e faz o possível pra agradá-lo — concede favores razoáveis, evita se opor a ele, e não luta contra o usuário nem os aliados dele a menos que já estivesse inclinado a isso antes. Nunca arrisca a própria vida por causa disso.
+- *(Sem Intensidade — efeito absoluto e fora de combate, Supremo)*
 
 **Duelo Declarado**
 
@@ -125,4 +126,3 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra a [Defesa 
 - **Intensidade I — ◈ (1 PA) + 4 Mana:** se o alvo for hostil, até o fim do próprio próximo turno dele, ele não pode atacar nem usar Habilidades contra ninguém além do usuário. Se for neutro ou amistoso, passa a agir de forma amigável com o usuário até o fim da cena, contanto que não seja atacado ou prejudicado por ele ou por aliados dele.
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo; se hostil, dura 2 turnos completos dele, e ele também não pode fazer Ataques de Oportunidade contra ninguém além do usuário nesse período.
 - **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo; se hostil, dura até o fim da cena.
-- *(Sem Intensidade — efeito absoluto e fora de combate, Supremo)*

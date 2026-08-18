@@ -628,7 +628,7 @@ Criar desvantagens para inimigos ou em testes.
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
 - **Intensidade I — 0 PA + 4 Mana:** quando uma criatura a até 6 casas rolar um teste de ataque, dano ou resistência e o resultado ainda não tiver sido resolvido, o usuário pode usar esta habilidade como Reação pra rolar 1d6 e subtrair do resultado dela — podendo virar um acerto em erro, ou reduzir o dano ou efeito causado.
 - **Intensidade II — 0 PA + 7 Mana:** o mesmo, subtraindo 1d8.
-- **Intensidade III — 0 PA + 9 Mana:** o mesmo, subtraindo 1d10.
+- **Intensidade III — 0 PA + 10 Mana:** o mesmo, subtraindo 1d10.
 
 **Ordem**
 
@@ -779,7 +779,7 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas, nenhuma criatura dentro da área consegue ativar habilidades cuja Chave dependa de Vontade (Provocação, Grito Dissonante, Exorcismo e afins) — tentar usar uma delas simplesmente falha, sem gastar PA nem Mana.
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas, nenhuma criatura dentro da área consegue ativar habilidades cujo Atributo seja Vontade (Provocação, Grito Dissonante, Exorcismo e afins) — tentar usar uma delas simplesmente falha, sem gastar PA nem Mana.
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, por 3 rodadas.
 - **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 4 rodadas, e o efeito também bloqueia qualquer som — ninguém dentro da área consegue ouvir nada vindo de fora, nem gritar por ajuda.
 - *(Sem Crítico — não há rolagem de ataque nesta habilidade)*

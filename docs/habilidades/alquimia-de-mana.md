@@ -119,4 +119,3 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 4 casas | **Alvos:** 1 objeto solto de até tamanho Médio dentro do alcance
 - **Efeito:** o objeto ganha vida temporária como um guardião animado (Vida 15, Defesa física 12), e ataca a criatura hostil mais próxima no início de cada turno do usuário, sem gastar Mana ou PA, causando 1d8 de dano de Impacto. Dura até o fim da cena ou até ser destruído — depois disso, o objeto volta a ser um objeto comum.
 - *(Sem Intensidade — Custo fixo: efeito absoluto sem nada pra graduar)*
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 4 rodadas, com +5/−5 de Movimento.

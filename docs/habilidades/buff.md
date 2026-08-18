@@ -648,7 +648,7 @@ Incremento de força, imbuir elementos em armas, etc.
 - *(Usada no momento de rolar Iniciativa — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
 - **Intensidade I — 0 PA + 4 Mana:** role 1d6 e some o resultado à Iniciativa de cada alvo.
 - **Intensidade II — 0 PA + 7 Mana:** o mesmo, com 1d8.
-- **Intensidade III — 0 PA + 9 Mana:** o mesmo, com 1d10.
+- **Intensidade III — 0 PA + 10 Mana:** o mesmo, com 1d10.
 
 **Majestade Inegável**
 
