@@ -4,17 +4,6 @@ Criar desvantagens para inimigos ou em testes.
 
 ## Habilidades Gerais
 
-**Antigravidade**
-
-*A gravidade se dobra à vontade da conjuradora, e o inimigo é arrancado do chão... só pra ser jogado de volta com violência.*
-
-- **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + derruba o alvo, e ele perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
-
 **Golpe Sangrento**
 
 *Um corte preciso que corrompe a própria capacidade do corpo de se curar.*
@@ -255,17 +244,6 @@ Criar desvantagens para inimigos ou em testes.
 - **Custo fixo:** ◈◈ (2 PA) + 6 Mana | **Atributo:** Força | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Acerto:** por 2 rodadas, qualquer ataque feito por uma criatura hostil que estiver dentro da área rola com Desvantagem
 - *(Custo fixo — rola teste de ataque contra a Defesa de cada alvo)*
-
-**Fenda Dimensional**
-
-*Um portal dimensional se abre no chão — um segundo comando é só o suficiente pra sugar o alvo pra dentro dele.*
-
-- **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura — o portal abre numa casa livre à escolha do usuário, dentro do alcance
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano + alvo é puxado até a casa do portal
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d6 de dano + puxado até o portal + fica [Derrubado](../glossario.md#derrubado)
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d6 de dano + puxado até o portal + fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico (20 natural):** dano máximo (6) + 1d6 extra, e sobe 1 Intensidade
 
 **Enterrar**
 

@@ -1,6 +1,6 @@
 # Habilidades Mágicas por Elemento
 
-Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue, Espaço-Tempo.
+Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue.
 
 **Regra importante:** efeitos elementais/mágicos (fogo, energia sombria, gelo etc.) nunca ficam travados numa arma específica, mesmo quando a arma é física — sempre vivem aqui como habilidades gerais. Uma espada não "ensina" bola de fogo: as habilidades de uma arma são sempre mundanas (técnica, força, peso, momento), e qualquer efeito que precise de Inteligência ou Sabedoria pra fazer sentido pertence a este grupo. Isso existe pra que o sistema não volte a ter classes pela porta dos fundos — se a arma travasse o elemento, "mago de cajado de fogo" viraria uma classe de fato.
 
@@ -20,7 +20,6 @@ Cada elemento **joga de um jeito diferente**. Duas habilidades podem causar o me
 | **Sombras** | Nega o terreno e drena | [Zona Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada → 2 rodadas → 3 rodadas a 2d4 *(em alvo único: dreno de Vida crescente)* |
 | **Veneno** | Acumula | [Envenenado](../glossario.md#envenenado) → 2 acúmulos → 3 acúmulos |
 | **Sangue** | Troca Vida por poder | dreno pela metade → dreno total → dreno dobrado, sempre sob [Risco](../glossario.md#risco) |
-| **Espaço-Tempo** | Reposiciona | teleporta 2 casas → 4 casas → 4 casas e Atordoado |
 
 Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o degrau da Intensidade III.
 
@@ -1574,159 +1573,6 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + Sangrando + empurra 1 casa cada alvo, e o usuário recupera Vida igual ao dobro do dano causado
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
 - **[Risco](../glossario.md#risco):** se algum dos dados de dano cair em 1, o sangue se volta contra quem o invocou — o usuário perde 1d4 de Vida
-
-## Espaço-Tempo
-
-**Dobra Espacial**
-
-*O espaço ao redor do alvo se dobra por um instante, e ele simplesmente deixa de estar onde estava.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** teleporta o alvo 4 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
-- **Crítico (20 natural):** sobe 1 Intensidade
-
-**Bolha Temporal**
-
-*O tempo dentro de uma bolha invisível se arrasta, pesado como mel — só quem a criou se move em velocidade normal.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Custo fixo:** ◈◈ (2 PA) + 7 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Efeito:** por 2 rodadas, qualquer criatura hostil que comece o turno dentro da área fica [Lenta](../glossario.md#lento) nesse turno
-- *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
-
-**Aceleração Temporal**
-
-*O tempo ao redor do usuário acelera bruscamente — um piscar de olhos que os outros nem percebem, mas que pra ele dura o suficiente pra agir de novo.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Custo fixo:** 0 PA + 9 Mana | **Atributo:** Inteligência | **Alvos:** o próprio usuário
-- **Efeito:** o usuário ganha +1 Ponto de Ação (◈) imediatamente, utilizável ainda neste turno
-- *(Sem Intensidade — habilidade de buff, sem teste de ataque. Diferente de [Ordem de Ataque](suporte.md#habilidades-gerais), que dá +1 PA a um aliado — esta é só pro próprio usuário.)*
-
-**Retrocesso**
-
-*O tempo hesita por um instante — e o que foi, deixa de ter sido.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Custo fixo:** ◈◈ (2 PA) + 8 Mana | **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 criatura
-- **Efeito:** o alvo recupera a Vida perdida na última vez que sofreu dano, desde que isso tenha acontecido nas últimas 2 rodadas.
-- *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
-
-**Eco do Passado**
-
-*Por uma fração de segundo, o momento se repete — o mesmo golpe acontece de novo, como se o tempo tivesse soluçado.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano imediato + teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano imediato, e mais 1d8 de dano automático no início do próximo turno do usuário (2 aplicações no total) + teleporta o alvo 4 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano imediato, e mais 1d8 de dano automático no início de cada um dos 2 próximos turnos do usuário (3 aplicações no total) + teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra imediato, e sobe 1 Intensidade
-
-**Ruptura Dimensional** *(Supremo)*
-
-*Uma fenda se abre na realidade por um instante — o que quer que exista dentro dela deixa de existir aqui.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
-- **Acerto:** 2d8 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
-- **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, desloca, e Atordoado
-
-**Crescente Sombrio**
-
-*Uma lâmina de gravidade pura avança em linha reta, cortando o espaço à sua frente.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + teleporta cada alvo 2 casas em qualquer direção (escolhida pelo usuário)
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + teleporta cada alvo 4 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
-
-**Peso das Trevas**
-
-*Um campo gravitacional invisível se forma sobre a área, tornando cada passo insuportavelmente pesado.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + teleporta cada alvo 2 casas em qualquer direção (escolhida pelo usuário)
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + teleporta cada alvo 4 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
-
-**Horizonte de Eventos** *(Supremo)*
-
-*Um ponto de gravidade impossível se forma no campo, atraindo tudo em volta antes de explodir num colapso violento.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 8 casas (centro) | **Alvos:** todas as criaturas hostis em 3 casas de raio do ponto
-- **Efeito:** cada alvo é puxado 2 casas em direção ao centro e sofre 2d6 de dano automático, tudo isso imediatamente ao usar
-- *(Sem Intensidade — efeito automático, sem teste de ataque)*
-
-**Fissura Dimensional**
-
-*Uma fenda no espaço se abre sob o alvo, puxando-o com violência para dentro dela.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1d8 de dano + teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano + teleporta o alvo 4 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano + teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
-
-**Fonte da Explosão** *(Supremo)*
-
-*Duas esferas sombrias atraem tudo ao redor antes de explodir com violência total.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
-- **Efeito:** todos os alvos são puxados 2 casas em direção ao centro e sofrem 2d8 de dano automático, tudo isso imediatamente ao usar
-- *(Sem Intensidade — efeito automático, sem teste de ataque)*
-
-**Buraco Negro**
-
-*Um projétil sombrio persegue o alvo e o teleporta pra cima do usuário no impacto.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d8 de dano + o alvo é teleportado pra uma casa adjacente ao usuário
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 1d8 de dano + o alvo é teleportado pra uma casa adjacente ao usuário e fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 1d8 de dano + o alvo é teleportado pra uma casa adjacente ao usuário e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra + teleportado, e sobe 1 Intensidade
-
-**Vazio**
-
-*Um pequeno buraco negro se abre, sugando tudo ao redor antes de explodir.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + teleporta cada alvo 2 casas em qualquer direção (escolhida pelo usuário)
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1d8 de dano + teleporta cada alvo 4 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 1d8 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra em todos, e sobe 1 Intensidade
-
-**Colapso do Vazio** *(Maior)*
-
-*A energia se condensa rapidamente num único ponto antes de explodir com violência redobrada.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2d8 de dano + teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2d8 de dano + teleporta o alvo 4 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2d8 de dano + teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
-- **Crítico (20 natural):** dano máximo (16) + 2d8 extra, e sobe 1 Intensidade
-
-**Tiro do Vazio** *(Supremo)*
-
-*Três flechas abrem vazios instáveis onde tocam, sugando tudo pra dentro continuamente.*
-
-- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Dano:** Espaço-Tempo | **Alcance:** 10 casas | **Alvos:** até 3 pontos diferentes, 1 casa de raio cada
-- **Efeito:** cada criatura hostil em qualquer uma das áreas é puxada 1 casa em direção ao centro dela e sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
-- *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
 ## Arcano
 

@@ -70,7 +70,7 @@ Movimento reduzido à **metade**. Afeta só o **Movimento** (a ação de ◈) �
 **Movimento 0** — não sai do lugar **por vontade própria**, nem voando. Continua agindo normalmente: Ações Básicas, Habilidades e Reações seguem disponíveis. É o degrau acima de Lento, e não se confunde com [Atordoado](#atordoado), que trava tudo.
 
 !!! regra "Força externa ainda move — e teleporte também"
-    Empurrar, puxar e teleportar não são movimento do alvo — são coisas feitas *a* ele, e funcionam normalmente contra quem está Imóvel. Um alvo preso no lugar pode ser arrancado dele por um empurrão de Vento ou pela [Dobra Espacial](habilidades/magicas-elementais.md#espaco-tempo). O mesmo vale pro **teleporte próprio**: quem está Imóvel não anda nem salta, mas ainda pode se teleportar (Passo Sombrio, Fora de Lugar) — ele não se move, ele deixa de estar ali. Deslocamentos **físicos** de habilidade (saltos, investidas) continuam negados.
+    Empurrar, puxar e teleportar não são movimento do alvo — são coisas feitas *a* ele, e funcionam normalmente contra quem está Imóvel. Um alvo preso no lugar pode ser arrancado dele por um empurrão de Vento ou pela [Dobra Espacial](habilidades/espaco-tempo.md). O mesmo vale pro **teleporte próprio**: quem está Imóvel não anda nem salta, mas ainda pode se teleportar (Passo Sombrio, Fora de Lugar) — ele não se move, ele deixa de estar ali. Deslocamentos **físicos** de habilidade (saltos, investidas) continuam negados.
 
 ### Atordoado
 
@@ -571,6 +571,10 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate. 
 
 Trazer aliados de outros lugares/planos pra lutar ao seu lado — familiar simples, aliado de combate, vínculo com um Ser maior, e o Companheiro Animal. Ver [página do grupo](habilidades/conjuracao.md).
 
+### Espaço-Tempo
+
+Reposicionar à força, distorcer gravidade e manipular o fluxo do tempo — teleporte, puxar, empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu. Ver [página do grupo](habilidades/espaco-tempo.md).
+
 ## Elementos (dentro de Mágicas por Elemento)
 
 ### Fogo
@@ -612,9 +616,5 @@ Ver [Mágicas por Elemento → Veneno](habilidades/magicas-elementais.md#veneno)
 ### Sangue
 
 Ver [Mágicas por Elemento → Sangue](habilidades/magicas-elementais.md#sangue).
-
-### Espaço-Tempo
-
-Ver [Mágicas por Elemento → Espaço-Tempo](habilidades/magicas-elementais.md#espaco-tempo).
 
 *(Outros elementos ainda sem habilidades — a criar)*

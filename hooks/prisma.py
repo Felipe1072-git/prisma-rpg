@@ -1788,20 +1788,20 @@ def monta_regras_de_equipamento(docs_dir: Path) -> list[str]:
 
 # ------------------------------------------------------- listagem única
 
-# As 13 páginas de grupo, exceto Mágicas por Elemento — essa precisa de
-# tratamento à parte porque cada uma das 12 seções (11 elementos + Arcano)
+# As 14 páginas de grupo, exceto Mágicas por Elemento — essa precisa de
+# tratamento à parte porque cada uma das 11 seções (10 elementos + Arcano)
 # vira uma faceta de elemento diferente, não um grupo só.
 _GRUPOS_ARQUIVO = (
     "marciais", "pontaria", "sociais",
     "infiltracao", "mobilidade", "buff", "debuff", "suporte",
     "necromancia", "projecao-mental", "alquimia-de-mana", "percepcao-arcana",
-    "conjuracao",
+    "conjuracao", "espaco-tempo",
 )
 
 
 def cards_magicas_elementais(docs_dir: Path) -> tuple[list[str], int]:
     """Cada `## Elemento` do arquivo vira sua própria faceta — o arquivo tem
-    um grupo só (Mágicas por Elemento), mas 11 assinaturas diferentes."""
+    um grupo só (Mágicas por Elemento), mas 10 assinaturas diferentes."""
     caminho = docs_dir / "habilidades" / "magicas-elementais.md"
     linhas = caminho.read_text(encoding="utf-8").split("\n")
     cabecalhos = [
@@ -1825,7 +1825,7 @@ def cards_magicas_elementais(docs_dir: Path) -> tuple[list[str], int]:
 
 
 def monta_listagem_habilidades(docs_dir: Path) -> tuple[list[str], int]:
-    """Todos os cards do jogo — os 13 grupos simples + Mágicas por Elemento
+    """Todos os cards do jogo — os 14 grupos simples + Mágicas por Elemento
     (facetado por elemento) + as 186 habilidades de arma do Arsenal."""
     todos: list[str] = []
     total = 0

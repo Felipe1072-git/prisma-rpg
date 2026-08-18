@@ -72,6 +72,7 @@ Habilidades são organizadas por grupos temáticos (não por classe):
 | Habilidades de Alquimia de Mana | Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir armas |
 | Habilidades de Percepção Arcana | Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate |
 | Habilidades de Conjuração | Trazer aliados de outros lugares/planos pra lutar ao seu lado — familiar simples, aliado de combate (ficha própria, turno próprio), vínculo com um Ser maior (ritual, risco real), e o Companheiro Animal (escala com o nível do personagem, não com Mana) |
+| Habilidades de Espaço-Tempo | Reposicionar à força, distorcer gravidade e manipular o fluxo do tempo — teleporte, puxar, empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu |
 
 *(Lista pode crescer.)*
 
@@ -289,8 +290,8 @@ Ao mexer nisso:
 [felipe1072-git.github.io/prisma-rpg](https://felipe1072-git.github.io/prisma-rpg/), sob CC BY 4.0,
 com deploy automático a cada push (workflow em `.github/workflows/deploy.yml`).
 
-O que existe: 580 habilidades — 394 gerais nos 10 grupos mais 186 de arma (62 armas × 3 graus) —,
-24 raças, 100 pacotes, 11 elementos com assinatura mecânica própria, sistema Tocado, e Livro do
+O que existe: 580 habilidades — 394 gerais nos 11 grupos mais 186 de arma (62 armas × 3 graus) —,
+24 raças, 100 pacotes, 10 elementos com assinatura mecânica própria, sistema Tocado, e Livro do
 Mestre em 5 partes (Bestiário, Encontros, Testes, Recompensas, Exploração).
 
 **Auditoria de consistência (2026-07-27).** O sistema foi lido de uma vez como corpo único pela
@@ -582,6 +583,17 @@ ganhou mais um — não foi testado em mesa, como nada aqui.
 A página de redirecionamento passou a **preservar o hash** quando o endereço muda mas o
 conteúdo não (o caso do Bestiário): sem mapa de âncoras, `#bes-goblin` viaja junto. Com
 mapa, o comportamento é o de antes.
+
+**Espaço-Tempo vira grupo próprio (2026-08-18).** Não era um elemento como os outros —
+reposicionar não é uma assinatura de dano elemental, é um verbo diferente. Saiu de dentro de
+Mágicas por Elemento (que cai pra **10 elementos**) e virou o 11º grupo de habilidades, com
+página própria (`docs/habilidades/espaco-tempo.md`). Três habilidades que já eram
+tematicamente de espaço/tempo mas moravam em Buff e Debuff por acidente de histórico
+migraram junto: **Reverter o Instante** (Buff — rebobina um teste de d20), **Antigravidade**
+e **Fenda Dimensional** (Debuff — gravidade e portal, ecoando Peso das Trevas e Fissura
+Dimensional que já eram do grupo). Decisão do autor: **não existe dano do tipo Espaço-Tempo**
+— as 11 habilidades do grupo que causavam "Dano: Espaço-Tempo" passaram a causar **Dano:
+Arcano**, e as duas migradas de Debuff, que já eram Arcano, ficaram como estavam.
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)

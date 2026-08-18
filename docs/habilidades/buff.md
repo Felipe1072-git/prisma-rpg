@@ -660,17 +660,6 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, por 3 rodadas.
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, por 4 rodadas.
 
-**Reverter o Instante** *(usada como Reação)*
-
-*O tempo tropeça no próprio passo, e o resultado que já era... simplesmente deixa de ser.*
-
-- **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura (aliada ou hostil)
-- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 6 Mana:** depois que uma criatura a até 8 casas fizer qualquer teste de d20 e o resultado for revelado, o usuário pode usar esta habilidade como Reação pra forçar aquele teste a ser refeito — o novo resultado vale, mesmo que seja pior.
-- **Intensidade II — 0 PA + 9 Mana:** o mesmo; se o alvo for aliado, o novo teste rola com [Vantagem](../glossario.md#vantagem).
-- **Intensidade III — 0 PA + 12 Mana:** o mesmo; se o alvo for hostil, o novo teste rola com [Desvantagem](../glossario.md#desvantagem) (o efeito da Intensidade II continua valendo quando o alvo for aliado).
-
 **Fagulha que Não Erra** *(Passiva)*
 
 *Mesmo o golpe que erra ainda carrega o suficiente pra doer.*

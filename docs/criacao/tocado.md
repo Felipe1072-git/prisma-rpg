@@ -75,7 +75,7 @@ Um personagem **Tocado** entrou em contato com uma força maior que ele — desc
 
 **Traço passivo — Fora de Lugar:** 1x por [descanso longo](../jogar/exploracao.md#descanso), como **Reação** e sem custo de Mana, teleporta-se até o valor do próprio Movimento para um ponto visível. Funciona mesmo estando [Imóvel](../glossario.md#imovel) ou agarrado — ele não se move, ele deixa de estar ali.
 
-**Habilidade concedida:** uma habilidade de [Espaço-Tempo](../habilidades/magicas-elementais.md#espaco-tempo) à escolha, de graça.
+**Habilidade concedida:** uma habilidade de [Espaço-Tempo](../habilidades/espaco-tempo.md) à escolha, de graça.
 
 ---
 

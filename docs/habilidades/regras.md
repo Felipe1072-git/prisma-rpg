@@ -20,6 +20,7 @@ Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Inten
 | [Alquimia de Mana](alquimia-de-mana.md) | Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir armas |
 | [Percepção Arcana](percepcao-arcana.md) | Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate |
 | [Conjuração](conjuracao.md) | Trazer aliados de outros lugares/planos pra lutar ao seu lado |
+| [Espaço-Tempo](espaco-tempo.md) | Reposicionar à força, distorcer gravidade e manipular o fluxo do tempo |
 
 *(Lista de grupos pode crescer.)*
 
