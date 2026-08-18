@@ -14,7 +14,7 @@
 
 ### Acrobata de Combate
 
-*Esquivas acrobáticas viram dano.*
+*Nunca para de se mover, e cada desvio vira abertura pro próximo golpe — esquivas acrobáticas viram dano.*
 
 - **Arma inicial:** [Leque](../equipamento/index.md#equ-leque)
 - **Atributo em foco:** Força ou Agilidade
@@ -34,7 +34,7 @@
 
 ### Aeromante
 
-*Rajadas, alta mobilidade e repulsão de inimigos.*
+*Um mago que nunca fica parado — dobra o vento ao seu favor com rajadas, alta mobilidade e repulsão de inimigos.*
 
 - **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Força ou Agilidade
@@ -54,7 +54,7 @@
 
 ### Algoz
 
-*Finalizações violentas contra alvos debilitados.*
+*Quem entra na luta já sabendo quem vai cair primeiro — especialista em finalizações violentas contra alvos debilitados.*
 
 - **Arma inicial:** [Montante](../equipamento/index.md#equ-montante)
 - **Atributo em foco:** Força
@@ -74,7 +74,7 @@
 
 ### Alquimista de Combate
 
-*Arremesso de ácidos, poções de cura rápida e gases nocivos.*
+*Carrega o laboratório no cinto e trata o campo de batalha como bancada de testes — arremesso de ácidos, poções de cura rápida e gases nocivos.*
 
 - **Arma inicial:** [Pote](../equipamento/index.md#equ-pote)
 - **Atributo em foco:** Inteligência
@@ -94,7 +94,7 @@
 
 ### Andarilho do Véu
 
-*Transita ao plano espiritual pra atravessar paredes e golpes.*
+*Vive com um pé no mundo dos vivos e outro no dos espíritos — transita ao plano espiritual pra atravessar paredes e golpes.*
 
 - **Arma inicial:** [Katana Nodachi](../equipamento/index.md#equ-katana-nodachi)
 - **Atributo em foco:** Força ou Agilidade
@@ -114,7 +114,7 @@
 
 ### Arauto
 
-*Buffs de área baseados no posicionamento do símbolo.*
+*Onde o estandarte se planta, a batalha muda de lado — buffs de área baseados no posicionamento do símbolo.*
 
 - **Arma inicial:** [Báculo](../equipamento/index.md#equ-baculo)
 - **Atributo em foco:** Sabedoria
@@ -134,7 +134,7 @@
 
 ### Arcanista
 
-*Energia pura, mísseis teleguiados e barreiras de força.*
+*Estudou magia até ela deixar de ter forma — só força bruta, pura e obediente: energia pura, mísseis teleguiados e barreiras de força.*
 
 - **Arma inicial:** [Cetro](../equipamento/index.md#equ-cetro)
 - **Atributo em foco:** Inteligência
@@ -154,7 +154,7 @@
 
 ### Artífice
 
-*Constrói torres de tiro temporárias e pequenas engenhocas.*
+*Leva a oficina pra guerra — constrói torres de tiro temporárias e pequenas engenhocas.*
 
 - **Arma inicial:** [Flintlock](../equipamento/index.md#equ-flintlock)
 - **Atributo em foco:** Inteligência
@@ -176,7 +176,7 @@
 
 ### Assassino das Sombras
 
-*Lâminas ocultas ou garras; desloca-se entre sombras e usa venenos letais.*
+*Ninguém vê o golpe chegar, e poucos sobrevivem pra contar — desloca-se entre sombras e usa venenos letais.*
 
 - **Arma inicial:** [Garras](../equipamento/index.md#equ-garras)
 - **Atributo em foco:** Agilidade
@@ -196,7 +196,7 @@
 
 ### Astrólogo
 
-*Magias de gravidade, órbitas e fases da lua.*
+*Lê o destino nas estrelas e dobra as leis físicas a favor da batalha — magias de gravidade, órbitas e fases da lua.*
 
 - **Arma inicial:** [Orbe](../equipamento/index.md#equ-orbe)
 - **Atributo em foco:** Inteligência
@@ -216,7 +216,7 @@
 
 ### Atirador Arcano
 
-*Canaliza feitiços diretamente pelos disparos.*
+*Nunca solta uma flecha comum — a magia sai pela corda antes da flecha: canaliza feitiços diretamente pelos disparos.*
 
 - **Arma inicial:** [Arco](../equipamento/index.md#equ-arco)
 - **Atributo em foco:** Agilidade
@@ -236,7 +236,7 @@
 
 ### Atirador de Elite
 
-*Mira focada, tiros perfurantes e camuflagem.*
+*Escolhe o alvo, escolhe o momento, e só então aperta o gatilho — mira focada, tiros perfurantes e camuflagem.*
 
 - **Arma inicial:** [Arco](../equipamento/index.md#equ-arco)
 - **Atributo em foco:** Agilidade
@@ -256,7 +256,7 @@
 
 ### Bárbaro Flagelo
 
-*Desarma inimigos e causa sangramento à distância.*
+*Prefere arrancar a arma da mão do inimigo a cruzar lâminas com ele — desarma inimigos e causa sangramento à distância.*
 
 - **Arma inicial:** [Mangual](../equipamento/index.md#equ-mangual)
 - **Atributo em foco:** Força
@@ -276,7 +276,7 @@
 
 ### Berserker
 
-*Machados pesados, fúria crescente e dano que aumenta quanto mais vida já perdeu.*
+*Quanto mais sangra, mais perigoso fica — machados pesados, fúria crescente e dano que aumenta quanto mais vida já perdeu.*
 
 - **Arma inicial:** [Machado](../equipamento/index.md#equ-machado)
 - **Atributo em foco:** Força
@@ -296,7 +296,7 @@
 
 ### Bruxo do Pacto
 
-*Rajadas de energia sombria e maldições direcionadas.*
+*Fez um acordo com algo que não deveria existir, e carrega o preço disso — rajadas de energia sombria e maldições direcionadas.*
 
 - **Arma inicial:** [Manual](../equipamento/index.md#equ-manual)
 - **Atributo em foco:** Inteligência
@@ -316,7 +316,7 @@
 
 ### Caçador de Bruxas
 
-*Caça, rastreia e pune usuários de magia.*
+*Viu de perto o estrago que magia descontrolada causa, e decidiu que ninguém mais vai sofrer por isso — caça, rastreia e pune usuários de magia.*
 
 - **Arma inicial:** [Bestas](../equipamento/index.md#equ-bestas)
 - **Atributo em foco:** Agilidade
@@ -336,7 +336,7 @@
 
 ### Caçador de Monstros
 
-*Explora fraquezas de tipos de criatura específicos.*
+*Estuda a presa antes de caçá-la, e sabe exatamente onde ela é fraca — explora fraquezas de tipos de criatura específicos.*
 
 - **Arma inicial:** [Sabres](../equipamento/index.md#equ-sabres)
 - **Atributo em foco:** Força
@@ -356,7 +356,7 @@
 
 ### Caçador de Recompensas
 
-*Boleadeiras, redes e espadas curtas; marca um alvo e persegue até derrubá-lo — o arsenal completo do caçador de recompensas clássico.*
+*Recebe um nome, recebe um preço, e não para até entregar os dois — marca um alvo e persegue até derrubá-lo.*
 
 - **Arma inicial:** [Pistolas](../equipamento/index.md#equ-pistolas)
 - **Atributo em foco:** Agilidade
@@ -376,7 +376,7 @@
 
 ### Canalizador
 
-*Permite que espíritos incorporem no corpo, mudando o estilo de luta.*
+*Abre o próprio corpo pra que espíritos guerreiros o habitem, um de cada vez — permite que espíritos incorporem no corpo, mudando o estilo de luta.*
 
 - **Arma inicial:** nenhuma — luta com Dano Desarmado e relíquias
 - **Atributo em foco:** Sabedoria
@@ -396,7 +396,7 @@
 
 ### Capitão do Ar
 
-*Alturas, saltos ousados e bônus em navios/dirigíveis.*
+*Nasceu pra andar onde o chão acaba — alturas, saltos ousados e bônus em navios/dirigíveis.*
 
 - **Arma inicial:** [Flintlock](../equipamento/index.md#equ-flintlock)
 - **Atributo em foco:** Agilidade
@@ -416,7 +416,7 @@
 
 ### Cavaleiro Caído
 
-*Auras de desespero, enfraquecimento e dreno de vida.*
+*Já foi um cavaleiro de luz — o que restou é a sombra do juramento que quebrou: auras de desespero, enfraquecimento e dreno de vida.*
 
 - **Arma inicial:** [Espada Senciente](../equipamento/index.md#equ-espada-senciente)
 - **Atributo em foco:** Força
@@ -438,7 +438,7 @@
 
 ### Cavaleiro Errante
 
-*Investidas montadas e bônus de moral em combate aberto.*
+*Sem terra, sem senhor, só a estrada e a lança — investidas montadas e bônus de moral em combate aberto.*
 
 - **Arma inicial:** [Espada](../equipamento/index.md#equ-espada)
 - **Atributo em foco:** Força
@@ -458,7 +458,7 @@
 
 ### Ceifador
 
-*Arcos de ataque amplos que atingem múltiplos alvos.*
+*Colhe em arco largo, como se a plantação fosse gente — arcos de ataque amplos que atingem múltiplos alvos.*
 
 - **Arma inicial:** [Foice](../equipamento/index.md#equ-foice)
 - **Atributo em foco:** Força
@@ -478,7 +478,7 @@
 
 ### Centurião
 
-*Táticas de formação defensiva e bônus de bando.*
+*Nunca lutou sozinho, e não pretende começar agora — táticas de formação defensiva e bônus de bando.*
 
 - **Arma inicial:** [Tridente](../equipamento/index.md#equ-tridente) + [Escudo](../equipamento/index.md#equ-escudo)
 - **Atributo em foco:** Força
@@ -498,7 +498,7 @@
 
 ### Chakramista
 
-*Discos afiados que ricocheteiam entre inimigos antes de voltar à mão.*
+*Cada disco lançado é uma promessa de retorno — discos afiados que ricocheteiam entre inimigos antes de voltar à mão.*
 
 - **Arma inicial:** [Chakram](../equipamento/index.md#equ-chakram)
 - **Atributo em foco:** Agilidade
@@ -518,7 +518,7 @@
 
 ### Clérigo da Guerra
 
-*Magias de suporte que fortalecem o dano do grupo.*
+*Reza com o martelo na mão, e a fé dele acerta tão forte quanto o golpe — magias de suporte que fortalecem o dano do grupo.*
 
 - **Arma inicial:** [Martelo](../equipamento/index.md#equ-martelo)
 - **Atributo em foco:** Força
@@ -538,7 +538,7 @@
 
 ### Comandante Tático
 
-*Ordens que concedem ações extras ou posicionamento a aliados.*
+*Não é o que bate mais forte — é quem decide quem bate, e quando: ordens que concedem ações extras ou posicionamento a aliados.*
 
 - **Arma inicial:** [Espada](../equipamento/index.md#equ-espada)
 - **Atributo em foco:** Vontade
@@ -558,7 +558,7 @@
 
 ### Conjurador do Caos
 
-*Efeitos aleatórios de uma tabela de selvageria mágica.*
+*Abriu mão de controlar a própria magia em troca de mais poder do que devia — efeitos aleatórios de uma tabela de selvageria mágica.*
 
 - **Arma inicial:** [Cubo Mágico](../equipamento/index.md#equ-cubo-magico)
 - **Atributo em foco:** Inteligência
@@ -578,7 +578,7 @@
 
 ### Contrabandista
 
-*Poções contrabandeadas e fuga rápida.*
+*Vive na linha entre o mercado legal e o beco escuro, e sempre tem uma saída guardada — poções contrabandeadas e fuga rápida.*
 
 - **Arma inicial:** [Punhal](../equipamento/index.md#equ-punhal)
 - **Atributo em foco:** Força ou Agilidade
@@ -598,7 +598,7 @@
 
 ### Criomante
 
-*Controle de grupo, barreiras de gelo e lentidão.*
+*Traz o inverno pra qualquer campo de batalha — controle de grupo, barreiras de gelo e lentidão.*
 
 - **Arma inicial:** [Cajado](../equipamento/index.md#equ-cajado)
 - **Atributo em foco:** Inteligência
@@ -618,7 +618,7 @@
 
 ### Cronomante
 
-*Acelera aliados, desacelera inimigos ou desfaz dano recente.*
+*Brinca com o segundo que já passou e o que ainda não chegou — acelera aliados, desacelera inimigos ou desfaz dano recente.*
 
 - **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Inteligência
@@ -638,7 +638,7 @@
 
 ### Cultista do Vazio
 
-*Invoca tentáculos e consome a sanidade do inimigo.*
+*Ouviu algo grande demais pra caber numa mente humana, e nunca mais foi o mesmo — invoca tentáculos e consome a sanidade do inimigo.*
 
 - **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Inteligência
@@ -658,7 +658,7 @@
 
 ### Dançarino da Morte
 
-*Movimentos teatrais que causam dano e encantam.*
+*Transforma cada golpe fatal numa apresentação — movimentos teatrais que causam dano e encantam.*
 
 - **Arma inicial:** [Gadanha](../equipamento/index.md#equ-gadanha)
 - **Atributo em foco:** Força
@@ -678,7 +678,7 @@
 
 ### Dançarino das Lâminas
 
-*Ataques cortantes em sequência contínua.*
+*Nunca deixa a lâmina parar de se mover, nem por um instante — ataques cortantes em sequência contínua.*
 
 - **Arma inicial:** [Chakram](../equipamento/index.md#equ-chakram)
 - **Atributo em foco:** Agilidade
@@ -698,7 +698,7 @@
 
 ### Defensor da Torre
 
-*Bônus massivos ao fincar os pés e não se mover.*
+*Escolhe um lugar e decide que ninguém passa por ele — bônus massivos ao fincar os pés e não se mover.*
 
 - **Arma inicial:** [Balista](../equipamento/index.md#equ-balista)
 - **Atributo em foco:** Agilidade
@@ -718,7 +718,7 @@
 
 ### Demolidor
 
-*Destrói armaduras, escudos, portões e estruturas físicas.*
+*Não existe porta, muralha ou blindagem que resista ao que ele carrega — destrói armaduras, escudos, portões e estruturas físicas.*
 
 - **Arma inicial:** [Marreta Mágica](../equipamento/index.md#equ-marreta-magica)
 - **Atributo em foco:** Força
@@ -738,7 +738,7 @@
 
 ### Destruidor
 
-*Martelos colossais, armadura pesada e avanço imparável.*
+*Anda devagar, mas nada no caminho continua de pé depois — martelos colossais, armadura pesada e avanço imparável.*
 
 - **Arma inicial:** [Martelo](../equipamento/index.md#equ-martelo)
 - **Atributo em foco:** Força
@@ -758,7 +758,7 @@
 
 ### Druida Metamorfo
 
-*Garras e presas; transforma-se em feras, trocando o kit de combate.*
+*A forma humana é só uma das que ele usa — transforma-se em feras, trocando o kit de combate.*
 
 - **Arma inicial:** nenhuma — luta com Forma Selvagem e Dano Desarmado
 - **Atributo em foco:** Força ou Sabedoria
@@ -778,7 +778,7 @@
 
 ### Duelista
 
-*Esquivas milimétricas, estocadas rápidas e contra-ataques.*
+*Vive pro duelo de um contra um, onde cada milímetro de distância decide tudo — esquivas milimétricas, estocadas rápidas e contra-ataques.*
 
 - **Arma inicial:** [Florete](../equipamento/index.md#equ-florete)
 - **Atributo em foco:** Força ou Agilidade
@@ -798,7 +798,7 @@
 
 ### Encantador
 
-*Hipnose, pacificação e buffs de atributo.*
+*Convence antes de você perceber que estava tentando — hipnose, pacificação e buffs de atributo.*
 
 - **Arma inicial:** [Violino](../equipamento/index.md#equ-violino) *(requer Vontade +4 — só é equipável no nível 1 com um bônus racial de Vontade; senão, comece com [Báculo](../equipamento/index.md#equ-baculo) e troque depois)*
 - **Atributo em foco:** Vontade
@@ -818,7 +818,7 @@
 
 ### Espadachim
 
-*Esgrima clássica, posturas de combate e golpes precisos.*
+*A espada mais comum do mundo, nas mãos de quem levou anos pra dominá-la — esgrima clássica, posturas de combate e golpes precisos.*
 
 - **Arma inicial:** [Espada](../equipamento/index.md#equ-espada)
 - **Atributo em foco:** Força
@@ -838,7 +838,7 @@
 
 ### Espião de Elite
 
-*Disfarces rápidos e golpes em pontos vitais.*
+*Já foi cem pessoas diferentes, e nenhuma delas vai te dizer quem ele é de verdade — disfarces rápidos e golpes em pontos vitais.*
 
 - **Arma inicial:** [Punhal](../equipamento/index.md#equ-punhal)
 - **Atributo em foco:** Força ou Agilidade
@@ -860,7 +860,7 @@
 
 ### Executor Silencioso
 
-*Neutraliza ameaças sem fazer nenhum barulho.*
+*O alvo nunca soube que a ameaça existia até ela já ter acabado — neutraliza ameaças sem fazer nenhum barulho.*
 
 - **Arma inicial:** [Punhal](../equipamento/index.md#equ-punhal)
 - **Atributo em foco:** Força ou Agilidade
@@ -880,7 +880,7 @@
 
 ### Exilado das Sombras
 
-*Um estilo de luta marcial sombrio e rápido.*
+*Expulso de algum lugar por carregar a escuridão de perto demais — um estilo de luta marcial sombrio e rápido.*
 
 - **Arma inicial:** [Manopla](../equipamento/index.md#equ-manopla)
 - **Atributo em foco:** Força
@@ -900,7 +900,7 @@
 
 ### Exorcista
 
-*Bane, repele e causa dano massivo a mortos-vivos e demônios.*
+*Aprendeu os ritos que obrigam o que não devia estar aqui a voltar pro próprio lugar — bane, repele e causa dano massivo a mortos-vivos e demônios.*
 
 - **Arma inicial:** [Cetro](../equipamento/index.md#equ-cetro)
 - **Atributo em foco:** Sabedoria
@@ -920,7 +920,7 @@
 
 ### Flagelante
 
-*Causa dano a si mesmo pra gerar efeitos devastadores no grupo.*
+*Acredita que a dor é oferenda, e o próprio sangue é o preço do poder — causa dano a si mesmo pra gerar efeitos devastadores no grupo.*
 
 - **Arma inicial:** [Chicote](../equipamento/index.md#equ-chicote)
 - **Atributo em foco:** Força
@@ -940,7 +940,7 @@
 
 ### Forjador de Almas
 
-*Conserta armaduras e aprimora armas dos aliados em combate.*
+*A forja dele nunca esfria, nem no meio da batalha — conserta armaduras e aprimora armas dos aliados em combate.*
 
 - **Arma inicial:** [Martelo](../equipamento/index.md#equ-martelo)
 - **Atributo em foco:** Inteligência
@@ -960,7 +960,7 @@
 
 ### Gatuno
 
-*Bônus por atacar pelas costas, roubo em combate e agilidade vertical.*
+*Cresceu subindo telhados e descendo bolsos alheios, e trouxe os dois hábitos pro combate — bônus por atacar pelas costas, roubo em combate e agilidade vertical.*
 
 - **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Força ou Agilidade
@@ -980,7 +980,7 @@
 
 ### Geomante
 
-*Manipulação de terreno, terremotos e armaduras de rocha.*
+*A terra sob os pés dele nunca é só terra — manipulação de terreno, terremotos e armaduras de rocha.*
 
 - **Arma inicial:** [Manopla](../equipamento/index.md#equ-manopla)
 - **Atributo em foco:** Força
@@ -1000,7 +1000,7 @@
 
 ### Gladiador
 
-*Controle de arena, provocações e bônus por "entreter" aliados.*
+*Aprendeu a lutar pra sobreviver, e ficou pra lutar pela plateia — controle de arena, provocações e bônus por "entreter" aliados.*
 
 - **Arma inicial:** [Tridente](../equipamento/index.md#equ-tridente)
 - **Atributo em foco:** Força
@@ -1020,7 +1020,7 @@
 
 ### Guarda-costas
 
-*Intercepta ataques direcionados a aliados frágeis.*
+*O golpe que era pra matar seu protegido acerta ele primeiro — intercepta ataques direcionados a aliados frágeis.*
 
 - **Arma inicial:** [Glaive](../equipamento/index.md#equ-glaive)
 - **Atributo em foco:** Força
@@ -1040,7 +1040,7 @@
 
 ### Guardião do Bosque
 
-*Raízes que prendem e armadura de casca de árvore.*
+*A floresta o aceitou como parte dela, e agora ele luta como se fosse raiz e casca — raízes que prendem e armadura de casca de árvore.*
 
 - **Arma inicial:** [Chicote](../equipamento/index.md#equ-chicote)
 - **Atributo em foco:** Sabedoria
@@ -1060,7 +1060,7 @@
 
 ### Guardião do Templo
 
-*Postura estática que impede a passagem por uma área.*
+*Jurou proteger uma porta, e nada além da própria morte tira ele do lugar — postura estática que impede a passagem por uma área.*
 
 - **Arma inicial:** [Glaive](../equipamento/index.md#equ-glaive)
 - **Atributo em foco:** Força
@@ -1080,7 +1080,7 @@
 
 ### Guerreiro Rúnico
 
-*Ativa símbolos na arma pra efeitos físicos secundários.*
+*Cada corte da lâmina carrega um símbolo gravado, esperando a hora de despertar — ativa símbolos na arma pra efeitos físicos secundários.*
 
 - **Arma inicial:** [Lâmina](../equipamento/index.md#equ-lamina)
 - **Atributo em foco:** Força
@@ -1100,7 +1100,7 @@
 
 ### Herborista de Combate
 
-*Extratos de plantas pra curar ou paralisar.*
+*Conhece toda planta que cura e toda que mata, e carrega as duas listas — extratos de plantas pra curar ou paralisar.*
 
 - **Arma inicial:** [Zarabatana](../equipamento/index.md#equ-zarabatana)
 - **Atributo em foco:** Agilidade
@@ -1120,7 +1120,7 @@
 
 ### Ilusionista
 
-*Duplicatas, camuflagem e confusão de alvos.*
+*Ninguém sabe qual dele é o de verdade até já ser tarde demais — duplicatas, camuflagem e confusão de alvos.*
 
 - **Arma inicial:** [Leque](../equipamento/index.md#equ-leque)
 - **Atributo em foco:** Inteligência
@@ -1140,7 +1140,7 @@
 
 ### Infiltrador Urbano
 
-*Bônus massivos em becos, telhados e espaços apertados.*
+*Conhece a cidade por cima, por baixo e por dentro dos becos que ninguém mais usa — bônus massivos em becos, telhados e espaços apertados.*
 
 - **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Força ou Agilidade
@@ -1162,7 +1162,7 @@
 
 ### Inquisidor
 
-*Pune infiéis, causa medo e purifica alvos.*
+*Serve a fé com o chicote numa mão e o julgamento na outra — pune infiéis, causa medo e purifica alvos.*
 
 - **Arma inicial:** [Chicote](../equipamento/index.md#equ-chicote)
 - **Atributo em foco:** Força ou Agilidade
@@ -1182,7 +1182,7 @@
 
 ### Invocador
 
-*Invoca entidades planares, espíritos ou feras pra lutar em seu lugar.*
+*Nunca luta sozinho — sempre traz alguém, ou algo, de outro lugar pra lutar ao seu lado: invoca entidades planares, espíritos ou feras pra lutar em seu lugar.*
 
 - **Arma inicial:** [Orbe](../equipamento/index.md#equ-orbe)
 - **Atributo em foco:** Inteligência
@@ -1202,7 +1202,7 @@
 
 ### Justiceiro Sagrado
 
-*Aplica "julgamentos" com dano extra por ação do alvo.*
+*Cada golpe do inimigo escreve a própria sentença — aplica "julgamentos" com dano extra por ação do alvo.*
 
 - **Arma inicial:** [Montante](../equipamento/index.md#equ-montante)
 - **Atributo em foco:** Força
@@ -1222,7 +1222,7 @@
 
 ### Ladrão de Almas
 
-*Drena estamina, mana ou foco do alvo a cada crítico.*
+*Cada acerto perfeito arranca um pedaço de quem é atingido — drena estamina, mana ou foco do alvo a cada crítico.*
 
 - **Arma inicial:** [Adagas](../equipamento/index.md#equ-adagas)
 - **Atributo em foco:** Força ou Agilidade
@@ -1242,7 +1242,7 @@
 
 ### Lâmina Noturna
 
-*Silencia conjuradores e golpeia na escuridão.*
+*A noite é aliada, e o silêncio é arma tão afiada quanto a lâmina — silencia conjuradores e golpeia na escuridão.*
 
 - **Arma inicial:** [Alfange](../equipamento/index.md#equ-alfange)
 - **Atributo em foco:** Força ou Agilidade
@@ -1262,7 +1262,7 @@
 
 ### Lanceiro
 
-*Mantém inimigos à distância e perfura armaduras.*
+*Ninguém chega perto de quem segura a lança certa — mantém inimigos à distância e perfura armaduras.*
 
 - **Arma inicial:** [Lança](../equipamento/index.md#equ-lanca)
 - **Atributo em foco:** Força
@@ -1284,7 +1284,7 @@
 
 ### Lutador de Rua
 
-*Agarrões, socos ingleses e uso do cenário.*
+*Aprendeu a lutar onde não tem regra nem árbitro — agarrões, socos ingleses e uso do cenário.*
 
 - **Arma inicial:** [Manopla](../equipamento/index.md#equ-manopla)
 - **Atributo em foco:** Força
@@ -1304,7 +1304,7 @@
 
 ### Mago de Sangue
 
-*Consome a própria vida ou o sangue do inimigo pra potencializar feitiços.*
+*Descobriu que o sangue é o combustível mais forte que existe, e não se importa de queimar o próprio — consome a própria vida ou o sangue do inimigo pra potencializar feitiços.*
 
 - **Arma inicial:** [Manual](../equipamento/index.md#equ-manual)
 - **Atributo em foco:** Inteligência
@@ -1324,7 +1324,7 @@
 
 ### Mentalista
 
-*Telecinese, rajadas psíquicas e controle mental leve.*
+*Nunca precisou tocar em nada pra mover, quebrar ou dobrar — telecinese, rajadas psíquicas e controle mental leve.*
 
 - **Arma inicial:** [Olho Mágico](../equipamento/index.md#equ-olho-magico)
 - **Atributo em foco:** Inteligência
@@ -1344,7 +1344,7 @@
 
 ### Mercenário
 
-*Eficiência, pragmatismo e vantagem tática.*
+*Luta por quem paga, do jeito mais rápido e eficiente possível — eficiência, pragmatismo e vantagem tática.*
 
 - **Arma inicial:** [Bestas](../equipamento/index.md#equ-bestas)
 - **Atributo em foco:** Agilidade
@@ -1364,7 +1364,7 @@
 
 ### Mestre das Feras
 
-*Luta em dupla com um companheiro animal persistente.*
+*Nunca entra numa luta sozinho — o companheiro que cresceu ao seu lado sempre luta a seu lado: luta em dupla com um companheiro animal persistente.*
 
 - **Arma inicial:** [Lança](../equipamento/index.md#equ-lanca)
 - **Atributo em foco:** Força ou Sabedoria
@@ -1384,7 +1384,7 @@
 
 ### Mestre das Runas
 
-*Desenha glifos que criam zonas de efeito permanentes.*
+*Onde a mão dele desenha um símbolo, a regra do lugar muda — desenha glifos que criam zonas de efeito permanentes.*
 
 - **Arma inicial:** [Martelo](../equipamento/index.md#equ-martelo)
 - **Atributo em foco:** Inteligência
@@ -1404,7 +1404,7 @@
 
 ### Mestre de Armas
 
-*Arsenal variado; bônus ao alternar dinamicamente entre armas no meio do turno.*
+*Nunca jurou lealdade a uma arma só — domina o arsenal inteiro e troca de uma pra outra no meio do golpe: bônus ao alternar dinamicamente entre armas no meio do turno.*
 
 - **Arma inicial:** [Espada](../equipamento/index.md#equ-espada)
 - **Atributo em foco:** Força ou Agilidade
@@ -1424,7 +1424,7 @@
 
 ### Mestre do Fluxo
 
-*Redireciona o ataque inimigo contra ele mesmo.*
+*Nunca resiste a força — devolve ela: redireciona o ataque inimigo contra ele mesmo.*
 
 - **Arma inicial:** [Bastão](../equipamento/index.md#equ-bastao)
 - **Atributo em foco:** Força
@@ -1444,7 +1444,7 @@
 
 ### Missionário
 
-*Diplomacia em combate, pacificação e cura em massa.*
+*Entra na guerra tentando terminar ela sem mais uma morte — diplomacia em combate, pacificação e cura em massa.*
 
 - **Arma inicial:** nenhuma — foco na palavra
 - **Atributo em foco:** Sabedoria ou Vontade
@@ -1464,7 +1464,7 @@
 
 ### Monge Asceta
 
-*Punhos puros e faixas; canaliza energia interna pra curar a si mesmo e golpear rápido.*
+*Abriu mão de tudo — posses, arma, conforto — e sobrou só o corpo treinado e a disciplina: canaliza energia interna pra curar a si mesmo e golpear rápido.*
 
 - **Arma inicial:** [Manopla](../equipamento/index.md#equ-manopla)
 - **Atributo em foco:** Força
@@ -1484,7 +1484,7 @@
 
 ### Nascido do Dragão
 
-*Manoplas ou espadas pesadas; sopros elementais, rugidos de medo e escamas rígidas.*
+*Carrega sangue de dragão nas veias, e ele se lembra disso na hora da luta — sopros elementais, rugidos de medo e escamas rígidas.*
 
 - **Arma inicial:** [Montante](../equipamento/index.md#equ-montante)
 - **Atributo em foco:** Força
@@ -1506,7 +1506,7 @@
 
 ### Necromante
 
-*Foices ou grimórios de osso; reanima lacaios temporários e maldições de definhamento.*
+*Não vê a morte como fim — vê como mão de obra: reanima lacaios temporários e maldições de definhamento.*
 
 - **Arma inicial:** [Foice](../equipamento/index.md#equ-foice)
 - **Atributo em foco:** Inteligência
@@ -1526,7 +1526,7 @@
 
 ### Nômade do Deserto
 
-*Controle de redemoinhos de areia e resistência a clima/fadiga.*
+*O deserto que mataria qualquer outro é casa pra ele — controle de redemoinhos de areia e resistência a clima/fadiga.*
 
 - **Arma inicial:** [Alfange](../equipamento/index.md#equ-alfange)
 - **Atributo em foco:** Força ou Agilidade
@@ -1548,7 +1548,7 @@
 
 ### Oniromante
 
-*Indução ao sono, pesadelos e dano mental.*
+*Entra nos sonhos alheios e decide o que mora lá dentro — indução ao sono, pesadelos e dano mental.*
 
 - **Arma inicial:** [Cetro](../equipamento/index.md#equ-cetro)
 - **Atributo em foco:** Inteligência
@@ -1568,7 +1568,7 @@
 
 ### Pacificador Divino
 
-*Cria barreiras onde nenhum ataque pode ser desferido.*
+*Acredita tanto na paz que a impõe à força, se for preciso — cria barreiras onde nenhum ataque pode ser desferido.*
 
 - **Arma inicial:** nenhuma — símbolos de paz
 - **Atributo em foco:** Sabedoria
@@ -1588,7 +1588,7 @@
 
 ### Paladino do Juramento
 
-*Mecânicas focadas em cumprir um juramento feito no início da sessão.*
+*Fez uma promessa, e o próprio poder dele depende de mantê-la — mecânicas focadas em cumprir um juramento feito no início da sessão.*
 
 - **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado)
 - **Atributo em foco:** Força
@@ -1610,7 +1610,7 @@
 
 ### Pastor de Almas
 
-*Guia espíritos aliados caídos pra bônus temporários.*
+*Não deixa os mortos partirem sozinhos — guia espíritos aliados caídos pra bônus temporários.*
 
 - **Arma inicial:** [Báculo](../equipamento/index.md#equ-baculo)
 - **Atributo em foco:** Sabedoria
@@ -1630,7 +1630,7 @@
 
 ### Patrulheiro das Estepes
 
-*Combate montado, arqueria em movimento e guerrilha.*
+*Nasceu a cavalo, e a estepe inteira é o campo de batalha dele — combate montado, arqueria em movimento e guerrilha.*
 
 - **Arma inicial:** [Arco](../equipamento/index.md#equ-arco)
 - **Atributo em foco:** Agilidade
@@ -1650,7 +1650,7 @@
 
 ### Pirata
 
-*Combate sujo e mobilidade em água/cordas.*
+*Não luta bonito — luta pra ganhar, com o que tiver na mão e o convés balançando: combate sujo e mobilidade em água/cordas.*
 
 - **Arma inicial:** [Pistolas](../equipamento/index.md#equ-pistolas)
 - **Atributo em foco:** Agilidade
@@ -1672,7 +1672,7 @@
 
 ### Piromante
 
-*Cajados ou catalisadores de brasa; explosões de fogo em área e queimaduras contínuas.*
+*Pra ele, fogo não é destruição — é conversa fácil: explosões de fogo em área e queimaduras contínuas.*
 
 - **Arma inicial:** [Cajado](../equipamento/index.md#equ-cajado)
 - **Atributo em foco:** Inteligência
@@ -1692,7 +1692,7 @@
 
 ### Portador da Luz
 
-*Ilumina, cega inimigos e regenera aliados.*
+*Carrega uma luz que os outros só conseguem encarar de olhos fechados — ilumina, cega inimigos e regenera aliados.*
 
 - **Arma inicial:** [Lâmpada](../equipamento/index.md#equ-lampada) *(requer Inteligência +5 — só é equipável no nível 1 com um bônus racial de Inteligência; senão, comece com [Cetro](../equipamento/index.md#equ-cetro) e troque depois)*
 - **Atributo em foco:** Inteligência
@@ -1712,7 +1712,7 @@
 
 ### Profeta
 
-*Concede vantagem prévia ou prevê o movimento do inimigo.*
+*Já viu o próximo golpe antes de ele acontecer — concede vantagem prévia ou prevê o movimento do inimigo.*
 
 - **Arma inicial:** [Cajado](../equipamento/index.md#equ-cajado)
 - **Atributo em foco:** Sabedoria
@@ -1734,7 +1734,7 @@
 
 ### Rastreador Selvagem
 
-*Atira em movimento e encontra caminhos seguros em ambiente hostil.*
+*Não existe terreno hostil o bastante pra perder o rastro que ele segue — atira em movimento e encontra caminhos seguros em ambiente hostil.*
 
 - **Arma inicial:** [Arco](../equipamento/index.md#equ-arco)
 - **Atributo em foco:** Agilidade
@@ -1754,7 +1754,7 @@
 
 ### Retalhador
 
-*Agilidade extrema com golpes cortantes em área.*
+*Duas lâminas amaldiçoadas na mão, e nenhuma delas fica parada — agilidade extrema com golpes cortantes em área.*
 
 - **Arma inicial:** [Katana Nodachi](../equipamento/index.md#equ-katana-nodachi) + [Katana Muramasa](../equipamento/index.md#equ-katana-muramasa)
 - **Atributo em foco:** Força ou Agilidade
@@ -1776,7 +1776,7 @@
 
 ### Sábio Imortal
 
-*Barreiras de anulação mágica e dissipação de feitiços.*
+*Viveu tempo demais pra deixar qualquer magia nova impressioná-lo — barreiras de anulação mágica e dissipação de feitiços.*
 
 - **Arma inicial:** [Cajado](../equipamento/index.md#equ-cajado)
 - **Atributo em foco:** Inteligência
@@ -1796,7 +1796,7 @@
 
 ### Sabotador
 
-*Prepara o terreno com armadilhas antes da luta.*
+*A luta começa antes de o inimigo perceber que ela começou — prepara o terreno com armadilhas antes da luta.*
 
 - **Arma inicial:** [Punhal](../equipamento/index.md#equ-punhal)
 - **Atributo em foco:** Força ou Agilidade
@@ -1816,7 +1816,7 @@
 
 ### Sacerdote das Sombras
 
-*Cura sugando força vital do inimigo (ou do próprio grupo).*
+*Serve um deus que cura tirando, não dando — cura sugando força vital do inimigo (ou do próprio grupo).*
 
 - **Arma inicial:** [Manual](../equipamento/index.md#equ-manual)
 - **Atributo em foco:** Inteligência
@@ -1836,7 +1836,7 @@
 
 ### Samurai
 
-*Saque rápido devastador (Iaijutsu) e foco mental absoluto.*
+*Um só corte decide o duelo, e ele treinou a vida inteira pra esse instante — saque rápido devastador (Iaijutsu) e foco mental absoluto.*
 
 - **Arma inicial:** [Katana Nodachi](../equipamento/index.md#equ-katana-nodachi)
 - **Atributo em foco:** Força ou Agilidade
@@ -1856,7 +1856,7 @@
 
 ### Skald
 
-*Canções de guerra que aumentam dano físico e velocidade.*
+*Canta a batalha enquanto ela acontece, e a própria canção vira arma — canções de guerra que aumentam dano físico e velocidade.*
 
 - **Arma inicial:** [Violino](../equipamento/index.md#equ-violino) *(requer Vontade +4 — só é equipável no nível 1 com um bônus racial de Vontade; senão, comece com [Báculo](../equipamento/index.md#equ-baculo) e troque depois)*
 - **Atributo em foco:** Vontade
@@ -1876,7 +1876,7 @@
 
 ### Sombra Perseguidora
 
-*Fica intangível por instantes pra flanquear.*
+*Meio presente, meio ausente — o suficiente pra atravessar onde ninguém mais passa: fica intangível por instantes pra flanquear.*
 
 - **Arma inicial:** nenhuma — luta com Dano Desarmado
 - **Atributo em foco:** Força
@@ -1896,7 +1896,7 @@
 
 ### Taumaturgo
 
-*Quebra as regras de probabilidade (altera dados/sorte).*
+*Não acredita em acaso — acredita em quem tem coragem de mexer nele: quebra as regras de probabilidade (altera dados/sorte).*
 
 - **Arma inicial:** [Cetro](../equipamento/index.md#equ-cetro)
 - **Atributo em foco:** Inteligência
@@ -1918,7 +1918,7 @@
 
 ### Tecnomago
 
-*Projéteis que misturam pólvora com magia elemental.*
+*Pra ele, engenharia e magia sempre foram a mesma disciplina — projéteis que misturam pólvora com magia elemental.*
 
 - **Arma inicial:** [Pistola Arcana](../equipamento/index.md#equ-pistola-arcana)
 - **Atributo em foco:** Agilidade ou Inteligência
@@ -1938,7 +1938,7 @@
 
 ### Templário
 
-*Espada longa e escudo heráldico; auras de proteção e golpes de retribuição luminosa.*
+*Jurou proteger os fracos, e a luz que carrega pune quem tenta feri-los — auras de proteção e golpes de retribuição luminosa.*
 
 - **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo](../equipamento/index.md#equ-escudo)
 - **Atributo em foco:** Força
@@ -1958,7 +1958,7 @@
 
 ### Vanguarda
 
-*Absorve impactos e cria uma parede intransponível.*
+*Planta os pés na frente do grupo e decide que nada passa por ele — absorve impactos e cria uma parede intransponível.*
 
 - **Arma inicial:** [Espada](../equipamento/index.md#equ-espada) + [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado)
 - **Atributo em foco:** Força
@@ -1978,7 +1978,7 @@
 
 ### Vingador Errante
 
-*Resiste a dano fatal por pura força de vontade.*
+*Devia ter morrido, e a única coisa que ainda o mantém de pé é a vingança — resiste a dano fatal por pura força de vontade.*
 
 - **Arma inicial:** [Bestas](../equipamento/index.md#equ-bestas)
 - **Atributo em foco:** Agilidade
@@ -2000,7 +2000,7 @@
 
 ### Xamã Totêmico
 
-*Espalha totens no chão que emitem buffs elementais em área.*
+*Carrega os espíritos da terra com ele, e os planta no chão sempre que a batalha pede — espalha totens no chão que emitem buffs elementais em área.*
 
 - **Arma inicial:** [Bastão](../equipamento/index.md#equ-bastao)
 - **Atributo em foco:** Sabedoria
@@ -2020,7 +2020,7 @@
 
 ### Zelote Fanático
 
-*Ignora a dor, ganha bônus sagrados quanto menor a vida atual.*
+*Quanto mais perto da morte, mais convencido fica de que um deus o protege — ignora a dor, ganha bônus sagrados quanto menor a vida atual.*
 
 - **Arma inicial:** [Machado](../equipamento/index.md#equ-machado)
 - **Atributo em foco:** Força
