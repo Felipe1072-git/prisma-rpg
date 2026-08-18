@@ -21,7 +21,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Leque - Básica |
+| 1 | Cambalhota |
 | 3 | Postura Veloz |
 | 5 | Leque - Avançada |
 | 7 | Giro Audaz |
@@ -41,7 +41,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Adagas - Básica |
+| 1 | Rajada de Ventos |
 | 3 | Lâminas de Ar |
 | 5 | Adagas - Avançada |
 | 7 | Ventos Cruzados |
@@ -61,7 +61,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Montante - Básica |
+| 1 | Sede de Sangue |
 | 3 | Aumentar |
 | 5 | Montante - Avançada |
 | 7 | Derrotar |
@@ -81,7 +81,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Pote - Básica |
+| 1 | Frasco de Emergência |
 | 3 | Bênção Alquímica |
 | 5 | Pote - Avançada |
 | 7 | Força Tóxica |
@@ -101,7 +101,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Katana Nodachi - Básica |
+| 1 | Passo Sombrio |
 | 3 | Passagem Etérea |
 | 5 | Katana Nodachi - Avançada |
 | 7 | Fase |
@@ -121,7 +121,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Báculo - Básica |
+| 1 | Discurso Inspirador |
 | 3 | Totem Ancestral |
 | 5 | Báculo - Avançada |
 | 7 | Aura de Ataque |
@@ -141,7 +141,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Cetro - Básica |
+| 1 | Impacto Arcano |
 | 3 | Escudo Mágico |
 | 5 | Cetro - Avançada |
 | 7 | Escudo da Alma |
@@ -161,7 +161,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Flintlock - Básica |
+| 1 | Bolso de Reagentes |
 | 3 | Totem Ancestral |
 | 5 | Flintlock - Avançada |
 | 7 | Reparo de Campo |
@@ -183,7 +183,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Garras - Básica |
+| 1 | Golpe Sangrento |
 | 3 | Passo Sombrio |
 | 5 | Garras - Avançada |
 | 7 | Desaparecimento |
@@ -203,7 +203,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Orbe - Básica |
+| 1 | Fenda Dimensional |
 | 3 | Antigravidade |
 | 5 | Orbe - Avançada |
 | 7 | Onda de Choque |
@@ -223,7 +223,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Arco - Básica |
+| 1 | Salto Certeiro |
 | 3 | Investida Certeira |
 | 5 | Arco - Avançada |
 | 7 | Encanto do Relâmpago |
@@ -243,7 +243,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Arco - Básica |
+| 1 | Salto Certeiro |
 | 3 | Tiro Concentrado |
 | 5 | Arco - Avançada |
 | 7 | Flecha Perfurante |
@@ -263,7 +263,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Mangual - Básica |
+| 1 | Fúria Imortal |
 | 3 | Chicote - Básica |
 | 5 | Mangual - Avançada |
 | 7 | Chicote - Avançada |
@@ -283,7 +283,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Machado - Básica |
+| 1 | Fúria Selvagem |
 | 3 | Modo Fúria |
 | 5 | Machado - Avançada |
 | 7 | Fúria Sanguinária |
@@ -303,7 +303,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Manual - Básica |
+| 1 | Onda Sombria |
 | 3 | Encanto das Trevas |
 | 5 | Manual - Avançada |
 | 7 | Chamado da Ruína |
@@ -323,7 +323,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Bestas - Básica |
+| 1 | Olhar Que Enxerga o Encanto |
 | 3 | Quebra de Mente |
 | 5 | Bestas - Avançada |
 | 7 | Dissipar |
@@ -343,7 +343,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Sabres - Básica |
+| 1 | Instinto de Combate |
 | 3 | Ferrão Caçador |
 | 5 | Sabres - Avançada |
 | 7 | Marca Fatal |
@@ -363,7 +363,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Pistolas - Básica |
+| 1 | Golpe Furtivo |
 | 3 | Investida Certeira |
 | 5 | Punhal - Básica |
 | 7 | Pistolas - Avançada |
@@ -403,7 +403,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Flintlock - Básica |
+| 1 | Cambalhota |
 | 3 | Postura Veloz |
 | 5 | Flintlock - Avançada |
 | 7 | Investida Certeira |
@@ -423,7 +423,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Espada Senciente - Básica |
+| 1 | Giro Espectral |
 | 3 | Aumento Sombrio |
 | 5 | Espada Senciente - Avançada |
 | 7 | Esferas Sombrias |
@@ -445,7 +445,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Espada - Básica |
+| 1 | Discurso Inspirador |
 | 3 | Montaria de Guerra |
 | 5 | Espada - Avançada |
 | 7 | Disciplina Marcial |
@@ -465,7 +465,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Foice - Básica |
+| 1 | Extinção da Alma |
 | 3 | Sede de Sangue |
 | 5 | Foice - Avançada |
 | 7 | Foice Mortal |
@@ -485,7 +485,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Tridente - Básica |
+| 1 | Ataque com Escudo |
 | 3 | Bloqueio *(Requisito: Escudo)* |
 | 5 | Tridente - Avançada |
 | 7 | Aura de Defesa |
@@ -505,7 +505,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Chakram - Básica |
+| 1 | Salto Certeiro |
 | 3 | Postura Veloz |
 | 5 | Chakram - Avançada |
 | 7 | Giro Audaz |
@@ -525,7 +525,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Martelo - Básica |
+| 1 | Aura de Auxílio |
 | 3 | Aura de Ataque |
 | 5 | Martelo - Avançada |
 | 7 | Bênção Divina |
@@ -545,7 +545,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Espada - Básica |
+| 1 | Discurso Inspirador |
 | 3 | Ordem de Ataque |
 | 5 | Espada - Avançada |
 | 7 | Aura de Ataque |
@@ -565,7 +565,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Cubo Mágico - Básica |
+| 1 | Eco do Passado |
 | 3 | Feitiço Instável |
 | 5 | Cubo Mágico - Avançada |
 | 7 | Retrocesso |
@@ -585,7 +585,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Punhal - Básica |
+| 1 | Mão Leve |
 | 3 | Desaparecimento |
 | 5 | Punhal - Avançada |
 | 7 | Bênção Alquímica |
@@ -605,7 +605,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Cajado - Básica |
+| 1 | Fôlego Glacial |
 | 3 | Congelar |
 | 5 | Cajado - Avançada |
 | 7 | Força Gélida |
@@ -625,7 +625,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Adagas - Básica |
+| 1 | Aceleração Temporal |
 | 3 | Retrocesso |
 | 5 | Adagas - Avançada |
 | 7 | Postura Veloz |
@@ -645,7 +645,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Adagas - Básica |
+| 1 | Pilar Sombrio |
 | 3 | Chamado da Ruína |
 | 5 | Adagas - Avançada |
 | 7 | Esferas Sombrias |
@@ -665,7 +665,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Gadanha - Básica |
+| 1 | Rodamoinho |
 | 3 | Hora da Dança |
 | 5 | Gadanha - Avançada |
 | 7 | Dança da Perdição |
@@ -685,7 +685,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Chakram - Básica |
+| 1 | Investida Certeira |
 | 3 | Postura Veloz |
 | 5 | Chakram - Avançada |
 | 7 | Hora da Dança |
@@ -705,7 +705,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Balista - Básica |
+| 1 | Muralha de Ferro |
 | 3 | Postura Inabalável |
 | 5 | Balista - Avançada |
 | 7 | Reforço Momentâneo |
@@ -725,7 +725,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Marreta Mágica - Básica |
+| 1 | Pressão Brutal |
 | 3 | Superaquecimento |
 | 5 | Marreta Mágica - Avançada |
 | 7 | Corpo Fortalecido |
@@ -745,7 +745,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Martelo - Básica |
+| 1 | Reforço Momentâneo |
 | 3 | Postura Inabalável |
 | 5 | Martelo - Avançada |
 | 7 | Corpo Fortalecido |
@@ -785,7 +785,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Florete - Básica |
+| 1 | Defesa Mágica |
 | 3 | Postura Veloz |
 | 5 | Florete - Avançada |
 | 7 | Fluxo |
@@ -805,7 +805,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Violino - Básica |
+| 1 | Palavras Afiadas |
 | 3 | Hora da Dança |
 | 5 | Violino - Avançada |
 | 7 | Aura de Ataque |
@@ -825,7 +825,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Espada - Básica |
+| 1 | Corte Duplo |
 | 3 | Aumentar |
 | 5 | Espada - Avançada |
 | 7 | Disciplina Marcial |
@@ -845,7 +845,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Punhal - Básica |
+| 1 | Máscara Social |
 | 3 | Choque das Sombras |
 | 5 | Punhal - Avançada |
 | 7 | Ponto de Pressão |
@@ -867,7 +867,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Punhal - Básica |
+| 1 | Golpe Furtivo |
 | 3 | Desaparecimento |
 | 5 | Punhal - Avançada |
 | 7 | Ponto de Pressão |
@@ -887,7 +887,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Manopla - Básica |
+| 1 | Onda Sombria |
 | 3 | Encanto das Trevas |
 | 5 | Manopla - Avançada |
 | 7 | Chamado da Ruína |
@@ -907,7 +907,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Cetro - Básica |
+| 1 | Ver Espíritos |
 | 3 | Exorcismo |
 | 5 | Cetro - Avançada |
 | 7 | Chama Solar |
@@ -927,7 +927,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Chicote - Básica |
+| 1 | Preço de Sangue |
 | 3 | Aumento Sombrio |
 | 5 | Chicote - Avançada |
 | 7 | Flor Carmesim *(Maior)* |
@@ -947,7 +947,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Martelo - Básica |
+| 1 | Enrijecer |
 | 3 | Reparo de Campo |
 | 5 | Martelo - Avançada |
 | 7 | Escudo Mágico |
@@ -967,7 +967,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Adagas - Básica |
+| 1 | Mão Leve |
 | 3 | Choque das Sombras |
 | 5 | Adagas - Avançada |
 | 7 | Passo Sombrio |
@@ -987,7 +987,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Manopla - Básica |
+| 1 | Couraça de Pedra |
 | 3 | Fúria da Natureza |
 | 5 | Manopla - Avançada |
 | 7 | Postura Inabalável |
@@ -1007,7 +1007,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Tridente - Básica |
+| 1 | Discurso Inspirador |
 | 3 | Provocação |
 | 5 | Tridente - Avançada |
 | 7 | Postura Inabalável |
@@ -1027,7 +1027,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Glaive - Básica |
+| 1 | Defesa Mágica |
 | 3 | Proteção do Guarda-costas |
 | 5 | Glaive - Avançada |
 | 7 | Postura Inabalável |
@@ -1047,7 +1047,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Chicote - Básica |
+| 1 | Terra Que Cede |
 | 3 | Fúria da Natureza |
 | 5 | Chicote - Avançada |
 | 7 | Domador da Natureza |
@@ -1067,7 +1067,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Glaive - Básica |
+| 1 | Muralha de Ferro |
 | 3 | Postura Inabalável |
 | 5 | Glaive - Avançada |
 | 7 | Aura de Defesa |
@@ -1087,7 +1087,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Lâmina - Básica |
+| 1 | Reagente de Combate |
 | 3 | Encanto do Relâmpago |
 | 5 | Lâmina - Avançada |
 | 7 | Encanto das Trevas |
@@ -1107,7 +1107,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Zarabatana - Básica |
+| 1 | Frasco de Emergência |
 | 3 | Bênção Alquímica |
 | 5 | Zarabatana - Avançada |
 | 7 | Rapsódia |
@@ -1127,7 +1127,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Leque - Básica |
+| 1 | Miragem |
 | 3 | Desaparecimento |
 | 5 | Leque - Avançada |
 | 7 | Dança Élfica |
@@ -1147,7 +1147,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Adagas - Básica |
+| 1 | Escapista |
 | 3 | Passo Sombrio |
 | 5 | Adagas - Avançada |
 | 7 | Postura Veloz |
@@ -1169,7 +1169,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Chicote - Básica |
+| 1 | Medo Puro |
 | 3 | Chama Amaldiçoada |
 | 5 | Chicote - Avançada |
 | 7 | Bênção Divina |
@@ -1189,7 +1189,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Orbe - Básica |
+| 1 | Olhos Emprestados |
 | 3 | Laço de Sangue e Pelo |
 | 5 | Orbe - Avançada |
 | 7 | Lacaio Reanimado |
@@ -1209,7 +1209,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Montante - Básica |
+| 1 | Provocação |
 | 3 | Justiça |
 | 5 | Montante - Avançada |
 | 7 | Bênção Divina |
@@ -1229,7 +1229,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Adagas - Básica |
+| 1 | Quebra de Mente |
 | 3 | Esferas Sombrias |
 | 5 | Adagas - Avançada |
 | 7 | Chamado da Ruína |
@@ -1249,7 +1249,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Alfange - Básica |
+| 1 | Quebra de Mente |
 | 3 | Passo Sombrio |
 | 5 | Alfange - Avançada |
 | 7 | Chamado da Ruína |
@@ -1269,7 +1269,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Lança - Básica |
+| 1 | Estocada |
 | 3 | Carga com Lança |
 | 5 | Lança - Avançada |
 | 7 | Empalar |
@@ -1291,7 +1291,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Manopla - Básica |
+| 1 | Ataque Desarmado |
 | 3 | Modo Fúria |
 | 5 | Manopla - Avançada |
 | 7 | Chute Meteoro |
@@ -1311,7 +1311,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Manual - Básica |
+| 1 | Lâmina de Sangue |
 | 3 | Aumento Sombrio |
 | 5 | Manual - Avançada |
 | 7 | Chama Amaldiçoada |
@@ -1331,7 +1331,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Olho Mágico - Básica |
+| 1 | Ler a Superfície |
 | 3 | Quebra de Mente |
 | 5 | Olho Mágico - Avançada |
 | 7 | Choque Fantasmagórico |
@@ -1351,7 +1351,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Bestas - Básica |
+| 1 | Golpe Furtivo |
 | 3 | Quebra de Arma |
 | 5 | Bestas - Avançada |
 | 7 | Investida Certeira |
@@ -1371,7 +1371,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Lança - Básica |
+| 1 | Instinto de Combate |
 | 3 | Laço de Sangue e Pelo |
 | 5 | Lança - Avançada |
 | 7 | Domador da Natureza |
@@ -1391,7 +1391,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Martelo - Básica |
+| 1 | Reagente de Combate |
 | 3 | Totem Ancestral |
 | 5 | Martelo - Avançada |
 | 7 | Armadilha Oculta |
@@ -1411,7 +1411,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Espada - Básica |
+| 1 | Corte Duplo |
 | 3 | Fluidez de Combate |
 | 5 | Machado - Básica |
 | 7 | Punhal - Básica |
@@ -1431,7 +1431,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Bastão - Básica |
+| 1 | Cambalhota |
 | 3 | Fluxo |
 | 5 | Bastão - Avançada |
 | 7 | Postura Veloz |
@@ -1471,7 +1471,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Manopla - Básica |
+| 1 | Ataque Desarmado |
 | 3 | Repouso Silencioso |
 | 5 | Manopla - Avançada |
 | 7 | Corpo Fortalecido |
@@ -1491,7 +1491,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Montante - Básica |
+| 1 | Chama Investida |
 | 3 | Fôlego Ardente |
 | 5 | Montante - Avançada |
 | 7 | Postura do Dragão |
@@ -1513,7 +1513,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Foice - Básica |
+| 1 | Praga Definhante |
 | 3 | Lacaio Reanimado |
 | 5 | Foice - Avançada |
 | 7 | Chamado da Ruína |
@@ -1533,7 +1533,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Alfange - Básica |
+| 1 | Corpo Fortalecido |
 | 3 | Postura Veloz |
 | 5 | Alfange - Avançada |
 | 7 | Golpe Veloz |
@@ -1555,7 +1555,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Cetro - Básica |
+| 1 | Medo Puro |
 | 3 | Repouso Forçado |
 | 5 | Cetro - Avançada |
 | 7 | Choque Fantasmagórico |
@@ -1595,7 +1595,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Espada - Básica |
+| 1 | Ataque com Escudo |
 | 3 | Bloqueio *(Requisito: Escudo)* |
 | 5 | Espada - Avançada |
 | 7 | Postura Inabalável |
@@ -1617,7 +1617,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Báculo - Básica |
+| 1 | Ver Espíritos |
 | 3 | O Amor Está no Ar |
 | 5 | Báculo - Avançada |
 | 7 | Glória |
@@ -1637,7 +1637,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Arco - Básica |
+| 1 | Instinto de Combate |
 | 3 | Montaria de Guerra |
 | 5 | Arco - Avançada |
 | 7 | Investida Certeira |
@@ -1657,7 +1657,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Pistolas - Básica |
+| 1 | Golpe Furtivo |
 | 3 | Sabres - Básica |
 | 5 | Pistolas - Avançada |
 | 7 | Golpe Veloz |
@@ -1679,7 +1679,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Cajado - Básica |
+| 1 | Força Flamejante |
 | 3 | Lança de Fogo |
 | 5 | Cajado - Avançada |
 | 7 | Explosão de Fogo |
@@ -1699,7 +1699,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Lâmpada - Básica |
+| 1 | Restrição de Luz |
 | 3 | Bênção Divina |
 | 5 | Lâmpada - Avançada |
 | 7 | Aura de Auxílio |
@@ -1719,7 +1719,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Cajado - Básica |
+| 1 | Fenda no Instante |
 | 3 | Inspiração Arcana |
 | 5 | Cajado - Avançada |
 | 7 | Aura de Auxílio |
@@ -1741,7 +1741,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Arco - Básica |
+| 1 | Instinto Ladino |
 | 3 | Investida Certeira |
 | 5 | Arco - Avançada |
 | 7 | Salto Certeiro |
@@ -1761,7 +1761,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Katana Nodachi - Básica |
+| 1 | Golpe Veloz |
 | 3 | Katana Muramasa - Básica |
 | 5 | Dança das Lâminas Gêmeas *(Dupla Empunhadura)* |
 | 7 | Katana Nodachi - Avançada |
@@ -1783,7 +1783,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Cajado - Básica |
+| 1 | Inspiração Arcana |
 | 3 | Dissipar |
 | 5 | Cajado - Avançada |
 | 7 | Barreira Negra |
@@ -1803,7 +1803,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Punhal - Básica |
+| 1 | Instinto Ladino |
 | 3 | Armadilha Oculta |
 | 5 | Punhal - Avançada |
 | 7 | Choque das Sombras |
@@ -1823,7 +1823,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Manual - Básica |
+| 1 | Onda Sombria |
 | 3 | Esferas Sombrias |
 | 5 | Manual - Avançada |
 | 7 | Aumento Sombrio |
@@ -1843,7 +1843,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Katana Nodachi - Básica |
+| 1 | Corte Duplo |
 | 3 | Postura do Tigre |
 | 5 | Katana Nodachi - Avançada |
 | 7 | Golpe da Alma |
@@ -1863,7 +1863,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Violino - Básica |
+| 1 | Discurso Inspirador |
 | 3 | Hora da Dança |
 | 5 | Violino - Avançada |
 | 7 | Aura de Ataque |
@@ -1903,7 +1903,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Cetro - Básica |
+| 1 | Feitiço Instável |
 | 3 | Convergência |
 | 5 | Cetro - Avançada |
 | 7 | Antigravidade |
@@ -1925,7 +1925,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Pistola Arcana - Básica |
+| 1 | Reagente de Combate |
 | 3 | Encanto do Relâmpago |
 | 5 | Pistola Arcana - Avançada |
 | 7 | Módulo de Comando |
@@ -1945,7 +1945,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Espada - Básica |
+| 1 | Ataque com Escudo |
 | 3 | Bloqueio *(Requisito: Escudo)* |
 | 5 | Espada - Avançada |
 | 7 | Bênção Divina |
@@ -1965,7 +1965,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Espada - Básica |
+| 1 | Ataque com Escudo |
 | 3 | Bloqueio *(Requisito: Escudo)* |
 | 5 | Espada - Avançada |
 | 7 | Postura Inabalável |
@@ -1985,7 +1985,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Bestas - Básica |
+| 1 | Fúria Selvagem |
 | 3 | Postura Inabalável |
 | 5 | Bestas - Avançada |
 | 7 | Fúria Imortal |
@@ -2007,7 +2007,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Bastão - Básica |
+| 1 | Canalização Espiritual |
 | 3 | Totem Ancestral |
 | 5 | Bastão - Avançada |
 | 7 | Fúria da Natureza |
@@ -2027,7 +2027,7 @@
 
 | Nível | Habilidade |
 |---|---|
-| 1 | Machado - Básica |
+| 1 | Fúria Selvagem |
 | 3 | Fúria Sanguinária |
 | 5 | Machado - Avançada |
 | 7 | Aumento Sombrio |
