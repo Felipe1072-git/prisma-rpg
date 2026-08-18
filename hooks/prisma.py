@@ -250,6 +250,25 @@ def computa_desarmado(campos: dict[str, str], corpo: list[str]) -> bool:
     return "dano desarmado" in texto
 
 
+# Os 10 elementos + Arcano — o mesmo vocabulário da faceta "elemento" que o
+# filtro já conhece (RESUMO.elemento no prisma.js).
+_ELEMENTOS_VALIDOS = {
+    "fogo", "gelo", "terra", "raio", "agua", "vento",
+    "luz", "sombras", "veneno", "sangue", "arcano",
+}
+
+
+def elemento_do_campo_dano(campos: dict[str, str]) -> str:
+    """Fora de Mágicas por Elemento, ninguém atribui elemento por seção — mas
+    a própria habilidade já declara `**Dano:** Fogo` (ou Arcano, de longe o
+    caso mais comum em Buff/Debuff/Suporte/etc.). Quando o valor bate exato
+    com um dos 11 nomes conhecidos, vira a mesma faceta que Mágicas por
+    Elemento usa; texto composto ("usa o dado da arma", "Impacto") não bate
+    e fica de fora — só filtra o que dá pra reconhecer com certeza."""
+    candidato = slug(texto_puro(campos.get("Dano", "")))
+    return candidato if candidato in _ELEMENTOS_VALIDOS else ""
+
+
 def custo_resumido(campos: dict[str, str]) -> str:
     """Uma string curta de custo para o cabeçalho: '◈–◈◈◈ · 1–6 Mana'."""
     if bruto := campos.get("Custo fixo"):
@@ -285,6 +304,12 @@ def custo_resumido(campos: dict[str, str]) -> str:
 
 
 _GRAUS_ARMA = ("basica", "avancada", "especial")
+
+# A escala geral de poder que aparece no qualificador de habilidades fora do
+# sistema de arma — Menor/Médio/Moderado/Maior/Supremo. Vocabulário solto (sem
+# tabela fixa em regras.md), mas consistente o bastante pra virar faceta.
+_ESCALA_GERAL = ("menor", "medio", "moderado", "maior", "supremo")
+_ESCALA_VALIDOS = _GRAUS_ARMA + _ESCALA_GERAL
 
 # Ficha resumida de cada habilidade, pro popover. Mesmo contrato do glossário:
 # o `on_post_build` grava em assets/habilidades.json e o JS mostra ao passar o
@@ -459,9 +484,10 @@ def monta_card(
     valores_busca.append(texto_puro(detalhe))
 
     # Facetas estruturadas pro filtro combinado — além da busca livre acima.
-    grau = sem_acento(qualificador)
-    grau = grau if grau in _GRAUS_ARMA else ""
+    escala = sem_acento(qualificador)
+    escala = escala if escala in _ESCALA_VALIDOS else ""
     mana_min = mana_minima(campos)
+    elemento = elemento or elemento_do_campo_dano(campos)
 
     # A ficha resumida pro popover: o que o leitor precisa pra decidir se vale
     # abrir o card. Custo e alvo vêm do cabeçalho; o resto é a primeira linha
@@ -484,7 +510,7 @@ def monta_card(
                 "grupo": grupo,
                 "arma": arma,
                 "arma-nome": arma_nome,
-                "grau": grau,
+                "escala": escala,
                 "elemento": elemento,
                 "atributos": " ".join(computa_atributos(campos.get("Atributo", ""))),
                 "mana-min": str(mana_min) if mana_min is not None else "",
@@ -2853,6 +2879,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             [
                 ("grupo", "Todos os tipos", False),
                 ("elemento", "Todos os elementos", False),
+                ("escala", "Toda escala", False),
                 ("arma", "Todas as armas", False),
                 ("atributos", "Todos os atributos", True),
                 ("alvo", "Todos os alvos", False),

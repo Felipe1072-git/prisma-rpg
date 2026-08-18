@@ -172,6 +172,11 @@
       agua: "Água", luz: "Luz", sombras: "Sombras", veneno: "Veneno",
       sangue: "Sangue", arcano: "Arcano"
     },
+    escala: {
+      basica: "Básica", avancada: "Avançada", especial: "Especial",
+      menor: "Menor", medio: "Médio", moderado: "Moderado",
+      maior: "Maior", supremo: "Supremo"
+    },
     atributos: {
       forca: "Força", agilidade: "Agilidade", inteligencia: "Inteligência",
       sabedoria: "Sabedoria", vontade: "Vontade"
@@ -220,7 +225,8 @@
   var ORDEM = {
     tier: ["comum", "treinado", "formidavel", "lendario"],
     couraca: ["nenhuma", "coriacea", "escamada", "blindada", "draconica"],
-    eixo: ["passado", "ambiente", "evento"]
+    eixo: ["passado", "ambiente", "evento"],
+    escala: ["basica", "avancada", "especial", "menor", "medio", "moderado", "maior", "supremo"]
   };
 
   function ordenaFaceta(faceta, mapa) {
