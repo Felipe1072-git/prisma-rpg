@@ -28,6 +28,10 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 - [Esme](pessoas/esme.md) — a que convida, sedutora
 - [Elsa](pessoas/elsa.md) — cuida das que ficam
 
+## Itens
+
+- [O Grito de Sondu](itens/o-grito-de-sondu.md) — espada lendária forjada em Yan Guo, sela a alma de quem mata
+
 ## Eventos
 
 - [Fronteiras de Tyria Guang](eventos/fronteiras-de-tyria-guang.md) — zona de guerra ativa
