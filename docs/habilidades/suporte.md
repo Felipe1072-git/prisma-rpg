@@ -19,7 +19,7 @@ Cura e apoio a aliados.
 *Uma canção suave preenche o ar, e as feridas dos companheiros começam a fechar aos poucos.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Atributo:** Vontade | **Alvos:** usuário e aliados em 3 casas de raio
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** por 3 rodadas, no início de cada rodada, cada alvo recupera 1d4 + Sabedoria de Vida. Se isso trouxer um aliado caído de volta a 1 ou mais pontos de Vida, ele revive automaticamente.
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** por 3 rodadas, no início de cada rodada, cada alvo recupera 2d4 + Sabedoria de Vida. Se isso trouxer um aliado caído de volta a 1 ou mais pontos de Vida, ele revive automaticamente.
 - **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** por 3 rodadas, no início de cada rodada, cada alvo recupera 3d4 + Sabedoria de Vida. Se isso trouxer um aliado caído de volta a 1 ou mais pontos de Vida, ele revive automaticamente.
@@ -62,7 +62,7 @@ Cura e apoio a aliados.
 *Uma melodia suave acelera o fluxo de energia mágica de quem a escuta.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Atributo:** Vontade | **Alvos:** usuário e aliados em 3 casas de raio
 - **Intensidade I — ◈ (1 PA) + 4 Mana:** cada alvo recupera 1d6 de Mana imediatamente.
 - **Intensidade II — ◈◈ (2 PA) + 7 Mana:** cada alvo recupera 2d6 de Mana imediatamente.
 - **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** cada alvo recupera 3d6 de Mana imediatamente.
@@ -154,3 +154,147 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, com um **d8** guardado
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o mesmo, com um **d10** guardado
 - *(Sem Crítico — não há rolagem de ataque nesta habilidade)*
+
+**Fagulha Divina**
+
+*Um pingo de luz sai da mão do usuário — cura quem precisa, ou fere quem ataca.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Sabedoria | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Ao ativar, escolha um:** se o alvo for aliado, ele recupera Vida; se for hostil, sofre dano (rola teste de ataque contra a [Defesa mental](../jogar/combate.md#defesa) dele)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** cura 1d8 + Sabedoria de Vida, ou 1d8 de dano
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** cura 2d8 + Sabedoria de Vida, ou 2d8 de dano
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** cura 3d8 + Sabedoria de Vida, ou 3d8 de dano
+- **Crítico (20 natural, só no lado de dano):** dano máximo (24) + 1d8 extra, e sobe 1 Intensidade
+
+**Golpe Consagrado** *(Passiva)*
+
+*Cada golpe carrega um resquício do sagrado.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** uma vez em cada um dos próprios turnos, quando o usuário acertar uma criatura com um ataque de arma, causa +1d6 de dano Arcano extra.
+
+**Preservar Vida**
+
+*Um total de energia curativa se divide entre os feridos, cada um recebendo o que precisa.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** qualquer número de aliados feridos a até 6 casas, à escolha do usuário
+- **Limite por alvo:** nenhum aliado pode receber, nesta ativação, mais Vida do que metade da própria Vida máxima
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** um total de 4d6 + Sabedoria de Vida é dividido entre os alvos escolhidos, como o usuário preferir
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, com um total de 6d6 + Sabedoria
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, com um total de 8d6 + Sabedoria
+
+**Guardião do Limiar** *(usada como Reação)*
+
+*Uma presença silenciosa se interpõe entre o golpe e a vida que ainda resta.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 aliado com menos da metade da própria Vida máxima
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 5 Mana:** quando esse aliado for atingido por um ataque, o usuário pode usar esta habilidade como Reação pra reduzir o dano daquele ataque à metade (arredondado pra baixo); se o ataque fosse um Crítico, ele passa a valer como acerto normal.
+- **Intensidade II — 0 PA + 8 Mana:** o mesmo, reduzindo o dano a um terço.
+- **Intensidade III — 0 PA + 11 Mana:** o mesmo, reduzindo o dano a um quarto.
+
+**Toque que Purifica**
+
+*A mesma mão que fecha a ferida também desfaz o que a envenenou.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Sabedoria | **Alvos:** 1 aliado
+- **O que remove:** [Sangrando](../glossario.md#sangrando), [Queimando](../glossario.md#queimando), [Lento](../glossario.md#lento), [Imóvel](../glossario.md#imovel), [Atordoado](../glossario.md#atordoado), [Amedrontado](../glossario.md#amedrontado), [Cego](../glossario.md#cego), [Derrubado](../glossario.md#derrubado), [Agarrado](../glossario.md#agarrado), [Envenenado](../glossario.md#envenenado) ou [Marcado](../glossario.md#marcado) — não vale contra [Possuído](../glossario.md#possuido) (usa [Exorcismo](suporte.md)) nem [Petrificado](../glossario.md#petrificado) (a própria cura já remove 1 grau, à parte)
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** o alvo recupera 2d6 + Sabedoria de Vida, e remove 1 condição da lista acima, à escolha do usuário
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o alvo recupera 3d6 + Sabedoria de Vida, e remove 1 condição da lista acima
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o alvo recupera 4d6 + Sabedoria de Vida, e remove até 2 condições da lista acima
+
+**Grito de Comando** *(usada como Reação do aliado)*
+
+*A ordem sai antes mesmo do efeito terminar — e o golpe já está a caminho.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Requisito:** só pode ser ativada na mesma rodada em que o usuário conceder a esse aliado um efeito benéfico de outra habilidade (cura, Escudo, bônus etc.)
+- **Atributo:** Vontade | **Alvos:** 1 aliado
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** o aliado pode usar a própria Reação imediatamente pra fazer um Ataque Básico.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, e esse ataque causa +1d4 de dano extra.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, e esse ataque causa +2d4 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
+
+**Grito do Falcão** *(usada como Reação)*
+
+*Um grito agudo corta o ar — e o golpe do aliado já sabe onde vai acertar.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Vontade | **Alcance:** 8 casas | **Alvos:** 1 aliado
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 4 Mana:** quando um aliado a até 8 casas estiver prestes a rolar um teste de ataque, o usuário pode usar esta habilidade como Reação pra fazer esse teste rolar com [Vantagem](../glossario.md#vantagem).
+- **Intensidade II — 0 PA + 7 Mana:** o mesmo, e se o ataque acertar, ele também causa +1d4 de dano extra.
+- **Intensidade III — 0 PA + 10 Mana:** o mesmo, com +2d4 de dano extra.
+
+**Chama que Resta** *(usada como Reação)*
+
+*Onde a vida se apaga, uma última chama espera — pra curar quem precisa, ou cobrar de quem chegar perto demais.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Sabedoria | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** o ponto onde uma criatura morreu
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 4 Mana:** quando uma criatura a até 6 casas morrer, o usuário pode usar esta habilidade como Reação pra deixar uma chama espectral no local dela. A chama dura até o fim da [cena](../glossario.md#cena); a primeira criatura que entrar na casa é afetada automaticamente — se for aliada, cura 2d6 de Vida; se for hostil, sofre 2d6 de dano — e a chama se apaga depois de usada.
+- **Intensidade II — 0 PA + 7 Mana:** o mesmo, com 3d6.
+- **Intensidade III — 0 PA + 10 Mana:** o mesmo, com 4d6.
+
+**Panaceia** *(Supremo)*
+
+*Não sobra nada pra curar depois disso — a doença, o veneno, a maldição, tudo cede de uma vez.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Sabedoria | **Alvos:** 1 criatura aliada
+- **Efeito:** o alvo recupera Vida cheia (até o máximo), e todas as condições negativas nele são removidas de uma vez — inclusive todos os graus de [Petrificado](../glossario.md#petrificado). Não remove [Possuído](../glossario.md#possuido) (ainda precisa de [Exorcismo](suporte.md)), e não revive um aliado morto (isso é sempre com [Ressuscitar](suporte.md)).
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Vingança Radiante** *(usada como Reação)*
+
+*Antes que o corpo toque o chão, a luz já chegou primeiro.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Sabedoria | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** o aliado que caiu, e criaturas hostis em 2 casas de raio dele
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 6 Mana:** quando um aliado a até 8 casas cair a 0 de Vida, o usuário pode usar esta habilidade como Reação pra curá-lo imediatamente em metade da própria Vida máxima (arredondado pra cima), evitando que ele fique [Caído](../jogar/dano-e-cura.md#chegando-a-0-de-vida). Cada criatura hostil em 2 casas de raio dele sofre 2d6 de dano automático.
+- **Intensidade II — 0 PA + 9 Mana:** o mesmo, com 3d6 de dano nos inimigos próximos.
+- **Intensidade III — 0 PA + 12 Mana:** o mesmo, com 4d6 de dano, e cada inimigo atingido rola o próximo ataque que fizer com [Desvantagem](../glossario.md#desvantagem).
+
+**Refúgio de Bolso**
+
+*Uma fenda se abre no ar — do outro lado, nada pode alcançar quem entrar.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo fixo:** ◈ (1 PA) + 8 Mana | **Atributo:** Sabedoria | **Alvos:** o próprio usuário, e até 5 aliados dispostos a até 3 casas
+- **Efeito:** o usuário abre uma passagem pra um espaço extradimensional seguro — ele e os aliados escolhidos entram, e o local fica intocável de fora (ninguém consegue segui-los nem atacar quem está dentro). Passar pelo menos 10 minutos lá dentro conta como um [descanso curto](../jogar/exploracao.md#descanso) completo pra todos que ficaram. Só pode ser usada fora de combate, no máximo uma vez por descanso longo.
+- *(Sem Intensidade — habilidade utilitária, sem teste de ataque)*
+
+**Voto de Aliança** *(usada como Reação)*
+
+*A coragem de um vira escudo pro outro — o medo que não encontrou onde ficar precisa ir pra algum lugar.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Sabedoria | **Alcance:** 8 casas | **Alvos:** 1 criatura hostil
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 5 Mana:** quando o usuário ou um aliado a até 8 casas passar num teste de resistência contra um efeito que causaria [Amedrontado](../glossario.md#amedrontado) ou [Possuído](../glossario.md#possuido) nele, o usuário pode usar esta habilidade como Reação pra redirecionar esse mesmo efeito pra uma criatura hostil a até 8 casas — ela faz o teste no lugar de quem resistiu.
+- **Intensidade II — 0 PA + 8 Mana:** o mesmo, e a criatura hostil rola esse teste com [Desvantagem](../glossario.md#desvantagem).
+- **Intensidade III — 0 PA + 11 Mana:** o mesmo, e o usuário pode escolher qualquer criatura hostil visível, mesmo fora do alcance de 8 casas.
+
+**Resiliência da Trilha** *(Passiva)*
+
+*Uma noite mal dormida ainda é melhor que nenhuma — o corpo aprende a se contentar com o que der.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** sempre que o usuário terminar um [descanso curto](../jogar/exploracao.md#descanso), ele remove 1 grau de [Exausto](../glossario.md#exausto) próprio — desde que a causa daquele grau já tenha sido resolvida (comeu, bebeu, se aqueceu), a mesma condição que já vale pra descanso longo.
+
+**Fortalecer o Limite**
+
+*Não é só a ferida que fecha — o próprio limite do corpo se expande por um instante.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** até 3 aliados a até 6 casas
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** por 3 rodadas, a Vida **máxima** de cada alvo aumenta em 1d8 + Sabedoria, e cada um recupera Vida nessa mesma quantidade imediatamente. Quando o efeito termina, o excedente acima do máximo normal desaparece (sem matar ninguém, mesmo que isso reduza a Vida atual).
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, com 2d8 + Sabedoria, por 4 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o mesmo, com 3d8 + Sabedoria, por 5 rodadas.
