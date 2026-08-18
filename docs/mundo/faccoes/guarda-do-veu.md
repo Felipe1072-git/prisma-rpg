@@ -11,7 +11,7 @@ tipo: faccao
 
 A Guarda do Véu não é um exército. Enquanto a Aliança e os Orcs lutam por território e pelo [Sídrio](../recursos/sidrio.md), a Guarda existe pra combater algo que nenhum dos dois lados tem estrutura pra enfrentar: o que rasga **o Véu** — a fronteira entre o mundo e a corrupção. Mortos-vivos, aberrações, cultos profanos, e cada vez mais o que a mineração descontrolada de Sídrio desperta. O mal não escolhe lado de guerra, e a Guarda vasculha os dois territórios sem pedir licença a nenhum.
 
-Nascida do clero de Val, mas sem se subordinar a ele — a Guarda segue os dois dogmas do deus (a Marcha sem Recuo e o Código de Honra do Cruzado) e acrescenta um terceiro, próprio:
+Nascida do clero de Val, mas sem se subordinar a ele — a Guarda segue os dois dogmas do deus (a Marcha sem Recuo e o Código de Honra do Cruzado) e acrescenta um terceiro,  próprio:
 
 ## O Código
 
