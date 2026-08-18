@@ -862,8 +862,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *O tempo hesita, e por um instante, ele age antes de todo mundo — duas vezes.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Requisito:** só pode ser usada na primeira rodada de um combate
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Custo fixo:** 0 PA + 16 Mana | **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - **Efeito:** o usuário ganha um turno extra completo (◈◈◈ novos), imediatamente após o próprio turno normal, antes que o próximo participante na Iniciativa aja.
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
@@ -901,15 +900,6 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade I — 0 PA + 4 Mana:** quando uma criatura adjacente ao usuário sofrer dano de uma fonte que não seja o próprio usuário, ele pode usar esta habilidade como Reação pra fazer um Ataque Básico contra ela imediatamente.
 - **Intensidade II — 0 PA + 7 Mana:** o mesmo, e esse ataque causa +1d4 de dano extra.
 - **Intensidade III — 0 PA + 10 Mana:** o mesmo, e esse ataque causa +2d4 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
-
-**Ação Extra** *(Supremo)*
-
-*O corpo se recusa a parar — mais um fôlego, mais uma chance de agir.*
-
-- **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força ou Agilidade | **Alvos:** o próprio usuário
-- **Efeito:** o usuário ganha um novo bloco de 3 Pontos de Ação (◈◈◈), utilizável ainda neste turno.
-- *(Sem Intensidade — efeito absoluto, Supremo)*
 
 **Golpe que Ensina** *(Passiva)*
 

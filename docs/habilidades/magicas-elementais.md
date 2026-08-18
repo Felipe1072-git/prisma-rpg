@@ -804,7 +804,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Dano:** Sombras | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
-- **Efeito:** 1d8 de dano automático imediatamente e no início de cada uma das 2 rodadas seguintes (3 aplicações no total). Ao final da 3ª aplicação, uma onda de choque empurra 2 casas e derruba todas as criaturas hostis ainda na área.
+- **Efeito:** 1d8 de dano automático imediatamente e no início de cada uma das 2 rodadas seguintes (3 aplicações no total), e o usuário recupera Vida igual à metade do dano causado em cada aplicação. Ao final da 3ª aplicação, uma onda de choque empurra 2 casas e derruba todas as criaturas hostis ainda na área.
 
 **Esfera Voraz**
 
@@ -1241,9 +1241,8 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *O martelo se torna gigantesco, envolto em poder sagrado — o impacto no chão sacode tudo ao redor.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Sabedoria | **Dano:** Luz | **Alvos:** 4 casas de raio ao redor do usuário
-- **Acerto:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
-- **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Sabedoria | **Dano:** Luz | **Alvos:** criaturas hostis em 4 casas de raio ao redor do usuário (dano) + o usuário e aliados na mesma área (cura)
+- **Efeito:** cada inimigo na área sofre 2d8 de dano automático imediatamente ao usar, e cada aliado (inclusive o usuário) recupera 2d8 de Vida.
 
 **Estouro de Luz**
 

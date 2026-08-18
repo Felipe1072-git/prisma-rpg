@@ -64,7 +64,7 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** o próprio usuário
-- **Efeito:** por 3 rodadas, todas as habilidades do usuário causam +1d6 de dano extra.
+- **Efeito:** por 3 rodadas, toda condição negativa ([Sangrando](../glossario.md#sangrando), [Queimando](../glossario.md#queimando), [Lento](../glossario.md#lento), [Imóvel](../glossario.md#imovel), [Atordoado](../glossario.md#atordoado), [Envenenado](../glossario.md#envenenado), [Marcado](../glossario.md#marcado)) aplicada por uma habilidade do usuário dura 1 rodada a mais do que o normal.
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
 
 **Hora da Dança**
