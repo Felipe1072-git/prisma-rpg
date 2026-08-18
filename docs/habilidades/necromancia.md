@@ -123,3 +123,70 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1d8 de dano, com +1d8 extra se o alvo já estiver com menos da metade da Vida máxima; o usuário recupera 1d4 de Mana se isso acontecer.
 - **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1d8 de dano, com +2d8 extra se o alvo já estiver com menos da metade da Vida máxima; o usuário recupera 2d4 de Mana se isso acontecer.
 - **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
+
+**Guarda de Esporos** *(usada como Reação)*
+
+*Um véu invisível de esporos cerca o usuário — ninguém chega perto sem pagar por isso.*
+
+- **Chave:** [Necromancia](../glossario.md#necromancia)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alvos:** 1 criatura adjacente
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 3 Mana:** quando uma criatura entrar numa casa adjacente ao usuário, ou terminar o próprio turno lá, ele pode usar esta habilidade como Reação pra causar 1d4 de dano automático nela.
+- **Intensidade II — 0 PA + 6 Mana:** o mesmo, causando 1d6.
+- **Intensidade III — 0 PA + 9 Mana:** o mesmo, causando 1d8.
+
+**Corpo Resiliente** *(Passiva)*
+
+*O corpo já não reage como devia — cortes que deveriam doer mais simplesmente não doem.*
+
+- **Chave:** [Necromancia](../glossario.md#necromancia)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** o usuário é imune a [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado) e [Amedrontado](../glossario.md#amedrontado), e todo Crítico (20 natural) contra ele conta como um acerto normal.
+
+**Servo Instantâneo**
+
+*Não importa quem foi — agora serve a quem ergueu o corpo.*
+
+- **Chave:** [Necromancia](../glossario.md#necromancia)
+- **Custo fixo:** ◈◈◈ (3 PA) + 10 Mana | **Atributo:** Inteligência | **Alcance:** 3 casas | **Alvos:** 1 corpo morto a até 3 casas (de qualquer criatura, aliada ou não)
+- **Efeito:** o corpo se levanta como um servo temporário — mesma regra de [Levante Breve](necromancia.md): não conta como cura ou ressurreição, e não interfere com [Ressuscitar](suporte.md) nem consome a chance única dele. O servo tem 10 + Inteligência de Vida, Defesa física 10, e ataca a criatura hostil mais próxima no início de cada turno do usuário, sem gastar Mana ou PA, causando 1d6 de dano corpo a corpo (Impacto). Dura até o fim da cena ou até ser destruído — depois disso, o corpo desmorona em pó e não pode ser levantado de novo.
+- *(Sem Intensidade — Custo fixo: efeito absoluto sem nada pra graduar)*
+
+**Arrastar pro Abismo** *(Supremo)*
+
+*Um golpe, e o alvo simplesmente não está mais aqui — por enquanto.*
+
+- **Chave:** [Necromancia](../glossario.md#necromancia)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Dano:** Arcano | **Alvos:** 1 criatura, corpo a corpo
+- **Acerto:** 4d10 de dano, e o alvo desaparece por completo até o fim do próprio próximo turno — não pode ser alvo de nada nesse período, some do mapa. Quando reaparecer (na mesma casa, ou na mais próxima livre), fica [Atordoado](../glossario.md#atordoado) até o fim do próprio turno.
+- **Crítico (20 natural):** dano máximo (40) + 4d10 extra
+
+**Dominar os Mortos**
+
+*A vontade que restava naquele corpo cede — agora obedece a outra.*
+
+- **Chave:** [Necromancia](../glossario.md#necromancia)
+- **Custo fixo:** ◈◈◈ (3 PA) + 14 Mana | **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** 1 criatura morta-viva
+- **Alvo válido:** só afeta criaturas cuja ficha declare origem morta-viva (Esqueleto, Zumbi, Carniçal e afins) — criaturas de Tier Lendário são imunes
+- **Acerto:** o alvo passa a obedecer ordens do usuário pelas próximas 24 horas, ou até o usuário usar esta habilidade de novo. Só é possível dominar 1 criatura por vez — dominar outra libera a anterior.
+- *(Sem Intensidade — efeito absoluto)*
+
+**Toque Suspenso** *(Supremo)*
+
+*O golpe não dói agora — ele só espera.*
+
+- **Chave:** [Necromancia](../glossario.md#necromancia)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** 1 criatura, corpo a corpo
+- **Acerto:** planta um efeito adormecido no alvo — sem dano nesse momento. Só 1 alvo pode carregar o efeito por vez; plantar de novo substitui o anterior.
+- **Detonar:** a qualquer momento depois — mesmo dias mais tarde, contanto que o usuário e o alvo estejam no mesmo plano — o usuário pode gastar uma Ação Básica pra detonar o efeito à distância. O alvo faz um teste de resistência (d20 + Vitalidade) contra a Defesa mental do usuário: falhando, sofre 8d10 de dano automático; passando, sofre metade. Detonar consome o efeito.
+- **Crítico (20 natural, ao plantar):** quando detonado, o efeito ignora um sucesso no teste de resistência — sempre causa o dano cheio
+
+**Corpo de Reserva** *(Supremo)*
+
+*Um corpo vazio espera, escondido, guardando lugar pra uma consciência que ainda não sabe que vai precisar dele.*
+
+- **Chave:** [Necromancia](../glossario.md#necromancia)
+- **Requisito:** só pode ser preparada fora de combate, num local seguro; leva 1 hora inteira pra completar
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** o usuário prepara um corpo reserva vazio, escondido no local onde a habilidade foi usada. Só pode haver 1 corpo reserva por vez — preparar outro destrói o anterior. Enquanto ele existir, se o usuário morrer de vez em qualquer lugar, sua consciência desperta nesse corpo depois de 1d4 dias, com a Vida cheia, mas sem nenhum item ou equipamento que estivesse carregando na hora da morte. O corpo original, se ainda existir, fica inerte e sem vida.
+- *(Sem Intensidade — efeito absoluto, Supremo)*

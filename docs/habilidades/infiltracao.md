@@ -113,3 +113,22 @@ Furtividade, ladinagem.
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Efeito:** o usuário nunca fica [Desprevenido](../glossario.md#desprevenido), e rola Iniciativa com [Vantagem](../glossario.md#vantagem).
+
+**Passo Sem Rastro** *(Passiva)*
+
+*O golpe já saiu, e o corpo já não está mais lá pra pagar por ele.*
+
+- **Chave:** [Infiltração](../glossario.md#infiltracao)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** sempre que o usuário acertar uma criatura com um ataque corpo a corpo, ela não pode fazer Ataque de Oportunidade contra ele até o fim do turno atual.
+
+**Fingir a Morte**
+
+*O corpo cai, a respiração some — e ninguém ali sabe dizer se é encenação.*
+
+- **Chave:** [Infiltração](../glossario.md#infiltracao)
+- **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Encerra imediatamente se** o usuário atacar ou usar qualquer Habilidade que não seja esta
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 3 rodadas, o usuário finge estar morto de forma convincente — fica [Derrubado](../glossario.md#derrubado), testes de Sabedoria pra perceber que ele está vivo rolam com [Desvantagem](../glossario.md#desvantagem), e ele reduz em 3 o dano recebido (mínimo 1) enquanto durar. Pode encerrar o efeito antes do prazo como ação livre.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, por 4 rodadas, reduzindo em 5 o dano recebido.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 5 rodadas, e o usuário também não sofre efeitos de [Sangrando](../glossario.md#sangrando) ou [Envenenado](../glossario.md#envenenado) enquanto durar.

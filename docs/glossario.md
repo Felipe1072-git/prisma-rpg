@@ -1,6 +1,6 @@
 # Glossário de Termos
 
-Os **122 termos** que o jogo usa: condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
+Os **132 termos** que o jogo usa: condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
 
 Há duas formas de chegar num termo: o **índice alfabético** abaixo, se você já sabe o nome, ou a **busca e o filtro por categoria**, se você está procurando o que existe.
 
@@ -75,6 +75,14 @@ Movimento reduzido à **metade**. Afeta só o **Movimento** (a ação de ◈) �
 ### Atordoado
 
 **Não pode agir** — nem ação, nem movimento, nem reação.
+
+### Amedrontado
+
+O pavor trava a pontaria e o julgamento: enquanto durar, o alvo rola com [Desvantagem](#desvantagem) em qualquer teste de ataque. Salvo quando a habilidade disser outra coisa, dura até o fim do próprio próximo turno do alvo.
+
+### Cego
+
+Não enxerga: rola com [Desvantagem](#desvantagem) em qualquer teste de ataque, e ataques contra o alvo rolam com [Vantagem](#vantagem). Salvo quando a habilidade disser outra coisa, dura até o fim do próprio próximo turno do alvo.
 
 ### Possuído
 

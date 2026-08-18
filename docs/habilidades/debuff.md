@@ -597,3 +597,189 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto** (testa cada alvo contra a [Defesa mental](../jogar/combate.md#defesa)): 1d6 de dano + cada alvo é expulso da cena, de volta ao plano de origem
 - **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos
 - *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](regras.md#habilidades-de-custo-fixo))*
+
+**Presença Aterrorizante**
+
+*Uma única palavra, dita com peso suficiente, e a coragem de todos ao redor desmorona.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Vontade | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis à escolha, dentro do alcance
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** cada alvo fica [Amedrontado](../glossario.md#amedrontado) até o fim do próprio próximo turno.
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** cada alvo fica Amedrontado por 2 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** cada alvo fica Amedrontado por 3 rodadas.
+
+**Palavra Amaldiçoada**
+
+*Uma frase dita em voz baixa gruda no alvo — e na hora que ele mais precisar de sorte, ela vai faltar.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Vontade | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** 1 criatura hostil
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o alvo carrega a maldição até usar — na próxima vez que fizer qualquer teste ou rolagem de dano antes do fim da [cena](../glossario.md#cena), subtrai 1d6 do resultado (mínimo 0). Não usada, a maldição se perde no fim da cena.
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, subtraindo 1d8.
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o mesmo, subtraindo 1d10.
+- **Crítico (20 natural):** sobe 1 Intensidade
+
+**Corte de Palavras** *(usada como Reação)*
+
+*Uma frase cortante no meio do movimento, e a certeza vacila bem na hora que mais dói.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Vontade | **Alcance:** 6 casas | **Alvos:** 1 criatura visível
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 4 Mana:** quando uma criatura a até 6 casas rolar um teste de ataque, dano ou resistência e o resultado ainda não tiver sido resolvido, o usuário pode usar esta habilidade como Reação pra rolar 1d6 e subtrair do resultado dela — podendo virar um acerto em erro, ou reduzir o dano ou efeito causado.
+- **Intensidade II — 0 PA + 7 Mana:** o mesmo, subtraindo 1d8.
+- **Intensidade III — 0 PA + 9 Mana:** o mesmo, subtraindo 1d10.
+
+**Ordem**
+
+*Uma única palavra, dita com peso absoluto — e o corpo obedece antes que a mente possa discordar.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Vontade | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Acerto:** o alvo é forçado a obedecer um comando simples de uma palavra, escolhido pelo usuário ao ativar — Aproxime-se, Afaste-se, Fuja, Ajoelhe-se, Largue (o que estiver segurando), ou Pare (não se mover nem agir) — até o fim do próprio turno dele. O comando nunca pode forçá-lo a se ferir diretamente (pular de um precipício, atacar a si mesmo); nesse caso, ele obedece o quanto for seguro e ignora o resto.
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Encanto Desviante** *(usada como Reação)*
+
+*Um sussurro entra na mente do atacante bem na hora do golpe — e de repente, o alvo certo já não parece tão certo.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Inteligência | **Defesa (do atacante):** mental (Vontade) | **Alvos:** o atacante
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 5 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra forçar o atacante a um teste de Vontade contra a Defesa mental do usuário. Falhando, o ataque é redirecionado automaticamente pra criatura hostil mais próxima do atacante (que não seja o usuário), usando a mesma rolagem.
+- **Intensidade II — 0 PA + 8 Mana:** o mesmo, e se não houver outra criatura hostil próxima o suficiente, o ataque simplesmente erra.
+- **Intensidade III — 0 PA + 11 Mana:** o mesmo, e o usuário escolhe pra qual criatura hostil o ataque é redirecionado, em vez de ser sempre a mais próxima.
+
+**Repúdio aos Mortos**
+
+*A presença sagrada é insuportável pra quem já devia ter descansado.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo fixo:** ◈◈ (2 PA) + 8 Mana | **Atributo:** Sabedoria | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** todas as criaturas mortas-vivas em 3 casas de raio do ponto
+- **Alvo válido:** só afeta criaturas cuja ficha declare origem morta-viva (Esqueleto, Zumbi, Carniçal e afins)
+- **Acerto:** cada alvo fica [Amedrontado](../glossario.md#amedrontado) por 2 rodadas, e é forçado a usar o próprio Movimento pra se afastar do usuário no início de cada um dos próprios turnos nesse período, se puder
+- *(Sem Intensidade — área de 3 casas de raio, Custo fixo)*
+
+**Marca da Sepultura**
+
+*Uma sombra fria se prende ao alvo — e some no instante em que alguém a explora.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Sabedoria | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** o alvo fica com [Desvantagem](../glossario.md#desvantagem) em todos os testes e ataques até o início do próprio próximo turno. Se um aliado do usuário causar dano nele antes disso, a maldição termina e esse ataque causa +1d6 de dano extra.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, com +2d6 de dano extra se terminar cedo.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** a Desvantagem dura até o **fim** do próprio próximo turno do alvo (janela maior), e o dano extra se terminar cedo sobe pra +3d6.
+
+**Vindita Pessoal**
+
+*Um nome é dito em silêncio — e a partir de agora, só existe um alvo que importa.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Vontade | **Alcance:** 8 casas | **Alvos:** 1 criatura hostil
+- **Requisito:** só pode marcar 1 alvo por vez — marcar outro substitui a marca anterior
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** até o fim da [cena](../glossario.md#cena), ou até o usuário marcar outro alvo, os ataques do usuário contra esse alvo causam +1d6 de dano extra.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, e os ataques do usuário contra esse alvo acertam Crítico com 19 ou 20 natural (em vez de só 20).
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, e se o alvo cair a 0 de Vida enquanto marcado, o usuário recupera Vida igual ao dobro do próprio nível.
+
+**Quebrar o Feitiço** *(usada como Reação)*
+
+*O gesto ainda começa — mas termina em nada.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Vontade | **Defesa:** mental (Vontade) | **Alcance:** 8 casas | **Alvos:** 1 criatura hostil
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 5 Mana:** quando vir uma criatura hostil a até 8 casas ativar uma Habilidade ou se teleportar, o usuário pode usar esta habilidade como Reação pra forçar um teste de Vontade contra a Defesa mental dele. Falhando, a ativação é desperdiçada — ela ainda paga o custo normalmente, mas nenhum efeito acontece.
+- **Intensidade II — 0 PA + 8 Mana:** o mesmo, e se ela passar no teste, a Habilidade ativada sofre -1 de Intensidade (mínimo I) no efeito.
+- **Intensidade III — 0 PA + 11 Mana:** o mesmo, e mesmo passando no teste, ela perde a própria próxima Reação.
+
+**Choque Gélido** *(usada como Reação)*
+
+*O frio entra pelo golpe e trava o braço antes dele terminar o movimento.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Vontade | **Defesa (do atacante):** mental (Vontade) | **Alvos:** o atacante
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 8 Mana:** quando for atingido por um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra forçar o atacante a um teste de Vontade contra a Defesa mental do usuário. Falhando, ele fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno.
+- **Intensidade II — 0 PA + 11 Mana:** o mesmo, e mesmo passando no teste, ele fica [Lento](../glossario.md#lento) até o fim do próprio próximo turno.
+- **Intensidade III — 0 PA + 14 Mana:** o mesmo, e o teste dele rola com Desvantagem.
+
+**Retribuição Vigilante** *(usada como Reação)*
+
+*Resistir ao encanto não é o fim disso — a energia rejeitada volta pra quem a mandou.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Sabedoria | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** a criatura que causou o efeito
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 5 Mana:** quando o usuário ou um aliado a até 8 casas passar num teste de resistência mental contra um efeito de uma criatura hostil, o usuário pode usar esta habilidade como Reação pra causar 2d8 de dano automático em quem causou aquele efeito.
+- **Intensidade II — 0 PA + 8 Mana:** o mesmo, com 3d8.
+- **Intensidade III — 0 PA + 11 Mana:** o mesmo, com 4d8.
+
+**Exílio** *(Supremo)*
+
+*O alvo simplesmente não está mais aqui — não precisou nem ser tocado.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Acerto:** o alvo desaparece por completo até o fim do próprio próximo turno — não pode ser alvo de nada nesse período, some do mapa. Se a ficha dele declarar origem invocada/planar e ele não estiver no próprio plano, o banimento é **permanente** em vez de temporário — ele não volta mais nesta cena. Quando reaparece (alvo não-planar), volta na mesma casa, ou na mais próxima livre.
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Golpe Cegante**
+
+*Um clarão explode bem na hora do impacto — e o mundo simplesmente some da vista do alvo.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Força ou Agilidade | **Dano:** Arcano | **Alvos:** 1 criatura, corpo a corpo
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** 1d8 de dano + o alvo testa Vontade contra a Defesa mental do usuário; falhando, fica [Cego](../glossario.md#cego) até o fim do próprio próximo turno.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** 2d8 de dano + o mesmo.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** 3d8 de dano + o mesmo, durando 2 rodadas.
+- **Crítico (20 natural):** dano máximo + 1d8 extra, e sobe 1 Intensidade
+
+**Prisão Inescapável** *(Supremo)*
+
+*Paredes que ninguém vê, mas que nada atravessa — nem um passo, nem um teleporte.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Acerto:** o alvo fica preso numa cela de força invisível ao redor dele, por 3 rodadas. Enquanto durar, ele não pode se mover, agir, nem reagir, e nenhuma forma de teleporte (própria ou de terceiros) funciona pra entrar ou sair da cela. A cela tem Vida 30 e pode ser destruída de fora por dano físico ou mágico, libertando o alvo antes do prazo.
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Guardião Fixo**
+
+*Uma sentinela espectral se finca no chão, e não se importa com quem tenta passar por ela.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Sabedoria | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** um ponto a até 6 casas (onde o guardião aparece)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** o guardião tem 1d6 + Sabedoria de Vida temporária e Defesa física 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, cada criatura hostil que entrar em 1 casa de raio dele, ou terminar o turno lá, sofre 1d6 de dano automático.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, com 2d6 de dano.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, com 3d6 de dano.
+
+**Corromper o Limite**
+
+*A ferida não é só na carne — o próprio limite do corpo encolhe por um instante.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** por 3 rodadas, a Vida **máxima** do alvo diminui em 2d6 (se isso deixar a Vida atual dele acima do novo máximo, o excesso também é perdido), e ele sofre esse mesmo dano imediatamente.
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, com 3d6, por 4 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o mesmo, com 4d6, por 5 rodadas.
+- **Crítico (20 natural):** dano máximo do dado + rolagem extra, e sobe 1 Intensidade
+
+**Metamorfose Forçada** *(Supremo)*
+
+*Por um instante, o inimigo esquece completamente como se luta — porque o corpo dele não sabe mais fazer isso.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Acerto:** o alvo se transforma numa criatura pequena e inofensiva (um sapo, um rato, algo do tipo) por 3 rodadas. Enquanto transformado, não pode usar Habilidades, Ataques Básicos, nem Reações, e sua Defesa física cai pra 8. Qualquer dano sofrido nessa forma encerra a transformação imediatamente — ele volta ao normal, e o dano é então aplicado à Vida da forma verdadeira. Criaturas de Tier Formidável ou Lendário rolam o teste de resistência com [Vantagem](../glossario.md#vantagem).
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Silêncio**
+
+*Nenhuma palavra sai dali — e pra quem luta com a própria voz, isso é o mesmo que ficar de mãos vazias.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas, nenhuma criatura dentro da área consegue ativar habilidades cuja Chave dependa de Vontade (Provocação, Grito Dissonante, Exorcismo e afins) — tentar usar uma delas simplesmente falha, sem gastar PA nem Mana.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, por 3 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 4 rodadas, e o efeito também bloqueia qualquer som — ninguém dentro da área consegue ouvir nada vindo de fora, nem gritar por ajuda.
+- *(Sem Crítico — não há rolagem de ataque nesta habilidade)*

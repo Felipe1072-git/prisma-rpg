@@ -708,6 +708,17 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 2d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, Queimando, e derruba cada alvo
 
+**Muralha Flamejante**
+
+*Uma linha de fogo se ergue do chão — quem tentar atravessar sai queimando.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
+- **Atributo:** Inteligência | **Dano:** Fogo | **Alcance:** 8 casas | **Alvos:** uma linha de até 6 casas dentro do alcance (reta, ou com até 2 dobras, à escolha do usuário)
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** por 3 rodadas, a linha escolhida se torna uma parede de fogo. Qualquer criatura que entrar numa dessas casas, ou terminar o turno nela, sofre 2d6 de dano e fica [Queimando](../glossario.md#queimando).
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, por 4 rodadas, com 3d6 de dano.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o mesmo, por 5 rodadas, com 4d6 de dano, e a parede também bloqueia a linha de visada de ataques à distância que tentem atravessá-la.
+- *(Sem Crítico — não há rolagem de ataque nesta habilidade)*
+
 ## Sombras
 
 **Onda Sombria**
@@ -1132,6 +1143,16 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **O lacaio:** tem Defesa 8 e é um alvo válido; o ataque dele rola d20 + Inteligência do usuário contra a Defesa do alvo. Máximo de **1 lacaio ativo** por vez.
 - *(Sem Intensidade — a invocação em si não exige teste)*
 
+**Zona de Trevas**
+
+*A luz simplesmente para de chegar ali — e o que vive na escuridão agradece.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
+- **Atributo:** Inteligência | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas, a área fica coberta de trevas absolutas — ninguém enxerga através dela (nem o usuário), e qualquer ataque à distância que precise atravessá-la rola com [Desvantagem](../glossario.md#desvantagem). Criaturas sem Visão no Escuro que estejam dentro da área ficam [Cegas](../glossario.md#cego) enquanto permanecerem lá, e sofrem 1d4 de dano automático no início de cada um dos próprios turnos nesse estado.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, por 3 rodadas, causando 2d4 de dano.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 4 rodadas, causando 2d4 de dano, e mesmo criaturas com Visão no Escuro comum (não mágica) ficam Cegas dentro da área.
+
 ## Luz
 
 **Raio Laser**
@@ -1224,6 +1245,17 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Sabedoria | **Dano:** Luz | **Alvos:** 4 casas de raio ao redor do usuário
 - **Acerto:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+
+**Estouro de Luz**
+
+*Um clarão explode na área — e brilho demais também cega.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Luz](../glossario.md#luz)
+- **Atributo:** Inteligência | **Dano:** Luz | **Defesa:** mental (Vontade), só na Intensidade II | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** 1d8 de dano em cada alvo + cada um perde a próxima Reação.
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** 1d8 de dano + perde a próxima Reação, e cada alvo testa Vontade contra a Defesa mental do usuário; falhando, fica [Cego](../glossario.md#cego) até o fim do próprio próximo turno.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** 2d8 de dano + perde a próxima Reação, e cada alvo fica Cego automaticamente (sem teste) até o fim do próprio próximo turno.
+- **Crítico (20 natural):** dano máximo do dado + rolagem extra em todos, e sobe 1 Intensidade
 
 ## Água
 
@@ -1774,3 +1806,14 @@ um efeito colateral característico (queima, prende, empurra...), o Arcano é s�
 - **5:** o usuário rouba 4d6 de Vida do alvo
 - **6:** o usuário recupera 4d6 de Mana
 - *(Sem Crítico — o resultado vem da rolagem no d6, não de um teste de ataque)*
+
+**Implosão Espacial**
+
+*O espaço se fecha atrás do usuário — e tudo que estava perto dele é puxado pro vazio que sobrou.*
+
+- **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Espaço-Tempo](../glossario.md#espaco-tempo)
+- **Atributo:** Inteligência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** o próprio usuário (teleporte), e criaturas hostis em 2 casas de raio do ponto de onde ele saiu
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** o usuário se teleporta até 6 casas pra um espaço desocupado que possa ver. Cada criatura hostil que estava em 2 casas de raio do ponto de onde ele saiu é puxada 2 casas em direção a esse ponto, e sofre 1d6 de dano.
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, puxando 3 casas e causando 2d6 de dano.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o mesmo, puxando 4 casas e causando 3d6 de dano, e cada alvo atingido fica [Lento](../glossario.md#lento) até o fim do próprio próximo turno.
+- **Crítico (20 natural):** dano máximo do dado + rolagem extra em todos, e sobe 1 Intensidade

@@ -99,3 +99,24 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade II — ◈◈ (2 PA) + 5 Mana:** contra criatura, 1d8 de dano + o mesmo, por 2 rodadas, com -3 de Defesa e -2 no dano de ataques. Contra objeto/estrutura, dissolve uma seção do tamanho de uma porta — o suficiente pra uma pessoa passar, ou furar um casco abaixo da linha d'água.
 - **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** contra criatura, 2d6 de dano + o mesmo, por 3 rodadas, com -4 de Defesa e -3 no dano de ataques; se o item empunhado pelo alvo já for frágil ou de baixa qualidade, o Mestre pode declará-lo destruído de vez. Contra objeto/estrutura, dissolve uma seção grande — o suficiente pra abrir uma brecha numa muralha, derrubar uma coluna estrutural, afundar um barco pequeno (o Mestre define o limite exato caso a caso).
 - **Crítico (20 natural, só contra criatura):** dano máximo do dado + rolagem extra, e sobe 1 Intensidade
+
+**Peso Alterado**
+
+*A matéria esquece por um instante o quanto deveria pesar.*
+
+- **Chave:** [Alquimia de Mana](../glossario.md#alquimia-de-mana)
+- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 criatura (pode ser o próprio usuário)
+- **Ao ativar, escolha um:** mais leve, ou mais pesado
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas — **Leve:** o alvo ganha +3 de Movimento, mas rola com [Desvantagem](../glossario.md#desvantagem) em testes de Força. **Pesado:** o alvo perde 3 de Movimento, mas rola com [Vantagem](../glossario.md#vantagem) em testes de Força.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, por 3 rodadas, com +4/−4 de Movimento.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 4 rodadas, com +5/−5 de Movimento.
+
+**Exército de Refugo**
+
+*Um monte de sucata perde o direito de continuar parado.*
+
+- **Chave:** [Alquimia de Mana](../glossario.md#alquimia-de-mana)
+- **Custo fixo:** ◈◈ (2 PA) + 9 Mana | **Atributo:** Inteligência | **Alcance:** 4 casas | **Alvos:** 1 objeto solto de até tamanho Médio dentro do alcance
+- **Efeito:** o objeto ganha vida temporária como um guardião animado (Vida 15, Defesa física 12), e ataca a criatura hostil mais próxima no início de cada turno do usuário, sem gastar Mana ou PA, causando 1d8 de dano de Impacto. Dura até o fim da cena ou até ser destruído — depois disso, o objeto volta a ser um objeto comum.
+- *(Sem Intensidade — Custo fixo: efeito absoluto sem nada pra graduar)*
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 4 rodadas, com +5/−5 de Movimento.

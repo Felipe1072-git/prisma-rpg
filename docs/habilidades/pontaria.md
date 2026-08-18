@@ -100,3 +100,24 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 - **Intensidade II — ◈◈ (2 PA) + 6 Mana:** mesmo dano + derruba todos na explosão
 - **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** mesmo dano + derruba todos na explosão, e o alvo principal perde a próxima Reação
 - **Crítico (20 natural):** dano máximo (12) + 2d6 extra no alvo principal, e sobe 1 Intensidade
+
+**Flecha com Intenção**
+
+*O disparo carrega mais que ponta e penas — carrega uma intenção específica.*
+
+- **Chave:** [Pontaria](../glossario.md#pontaria)
+- **Atributo:** Agilidade | **Dano:** usa o dado de dano da arma equipada | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Ao acertar, escolha um:** Flecha Ardilosa (o alvo fica [Marcado](../glossario.md#marcado), e o próximo ataque de um aliado contra ele, a até 6 casas, rola com [Vantagem](../glossario.md#vantagem)); ou Flecha Explosiva (todas as criaturas em 1 casa de raio do alvo sofrem metade do dano do disparo)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1x dado de dano + o efeito escolhido
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 2x dado de dano + o mesmo efeito
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2x dado de dano + o mesmo efeito, e o alvo também fica [Sangrando](../glossario.md#sangrando)
+- **Crítico (20 natural):** dano máximo + 1x dado extra, e sobe 1 Intensidade
+
+**Cerco de Flechas**
+
+*Um campo minado de aço e magia, invisível até o momento errado de pisar nele.*
+
+- **Chave:** [Pontaria](../glossario.md#pontaria)
+- **Custo fixo:** ◈◈ (2 PA) + 8 Mana | **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** até 4 casas dentro do alcance
+- **Efeito:** planta flechas mágicas invisíveis em até 4 casas diferentes a até 6 casas do usuário. Ficam adormecidas até o fim da [cena](../glossario.md#cena), ou até 1 dia se plantadas fora de combate. Sempre que uma criatura hostil entrar numa dessas casas, uma flecha dispara automaticamente nela, causando 1d6 de dano e deixando-a [Marcada](../glossario.md#marcado). Cada flecha dispara só uma vez; a habilidade acaba quando todas forem gastas ou o prazo expirar.
+- *(Sem Intensidade — Custo fixo: 4 cargas automáticas, sem teste de ataque)*

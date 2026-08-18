@@ -605,3 +605,323 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** por 1 rodada, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.
 - **Intensidade II — ◈◈ (2 PA) + 12 Mana:** por 2 rodadas, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.
 - **Intensidade III — ◈◈◈ (3 PA) + 15 Mana:** por 3 rodadas, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.
+
+**Escudo de Espírito** *(usada como Reação)*
+
+*Guardiões que só o usuário enxerga se interpõem entre o golpe e o aliado, mesmo longe dali.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 aliado (não pode ser o próprio usuário)
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 4 Mana:** quando um aliado a até 6 casas sofrer dano de um ataque, o usuário pode usar esta habilidade como Reação pra reduzir aquele dano em 2d6.
+- **Intensidade II — 0 PA + 7 Mana:** o mesmo, reduzindo em 3d6.
+- **Intensidade III — 0 PA + 10 Mana:** o mesmo, reduzindo em 4d6.
+
+**Imbuir Elemento**
+
+*A arma para de ser só aço — por um instante, carrega o elemento escolhido em cada golpe, e volta pra mão mesmo se for arremessada.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Inteligência | **Alvos:** a arma equipada pelo usuário
+- **Elemento:** ao ativar, escolha um entre Fogo, Gelo, Raio, Terra, Água, Vento, Luz, Sombras ou Veneno — a condição aplicada usa a [Assinatura de Elemento](magicas-elementais.md#assinatura-de-elemento) daquele elemento (na versão de alvo único, quando houver diferença)
+- **Enquanto durar:** a arma pode ser arremessada até 6 casas como parte de um ataque, e reaparece na mão do usuário no início do turno seguinte dele
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas, ataques com a arma causam +1d6 de dano do tipo do elemento escolhido, e aplicam o 1º degrau da Assinatura daquele elemento (ex: Fogo → [Queimando](../glossario.md#queimando); Gelo → [Lento](../glossario.md#lento))
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** por 3 rodadas, +2d6 de dano do elemento, aplicando o 2º degrau da Assinatura
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** por 4 rodadas, +3d6 de dano do elemento, aplicando o 3º degrau da Assinatura
+
+**Brado de Guerra**
+
+*Um grito ecoa pelo campo, e por um instante ninguém erra o golpe que precisa acertar.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Vontade | **Alvos:** usuário e aliados em 5 casas de raio
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** até o início do próprio próximo turno do usuário, cada alvo rola com [Vantagem](../glossario.md#vantagem) no próximo teste de ataque que fizer (só essa rolagem — depois volta ao normal).
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, e cada alvo também rola com Vantagem no próximo teste de resistência que fizer no período.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** por 2 rodadas completas, cada alvo rola com Vantagem em todo teste de ataque e de resistência que fizer nesse período.
+
+**Passo em Uníssono**
+
+*Um ritmo combinado antes da primeira badalada — ninguém titubeia na entrada.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Vontade | **Alcance:** 6 casas | **Alvos:** usuário e aliados em 6 casas de raio
+- *(Usada no momento de rolar Iniciativa — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 4 Mana:** role 1d6 e some o resultado à Iniciativa de cada alvo.
+- **Intensidade II — 0 PA + 7 Mana:** o mesmo, com 1d8.
+- **Intensidade III — 0 PA + 9 Mana:** o mesmo, com 1d10.
+
+**Majestade Inegável**
+
+*Por um instante, atacar quem está à sua frente exige mais coragem do que qualquer inimigo tem.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Vontade | **Alvos:** o próprio usuário
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** por 2 rodadas, sempre que uma criatura acertar o usuário pela primeira vez no próprio turno dela, ela precisa passar num teste de Vontade contra a Defesa mental do usuário; falhando, o ataque simplesmente erra.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, por 3 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, por 4 rodadas.
+
+**Reverter o Instante** *(usada como Reação)*
+
+*O tempo tropeça no próprio passo, e o resultado que já era... simplesmente deixa de ser.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura (aliada ou hostil)
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 6 Mana:** depois que uma criatura a até 8 casas fizer qualquer teste de d20 e o resultado for revelado, o usuário pode usar esta habilidade como Reação pra forçar aquele teste a ser refeito — o novo resultado vale, mesmo que seja pior.
+- **Intensidade II — 0 PA + 9 Mana:** o mesmo; se o alvo for aliado, o novo teste rola com [Vantagem](../glossario.md#vantagem).
+- **Intensidade III — 0 PA + 12 Mana:** o mesmo; se o alvo for hostil, o novo teste rola com [Desvantagem](../glossario.md#desvantagem) (o efeito da Intensidade II continua valendo quando o alvo for aliado).
+
+**Fagulha que Não Erra** *(Passiva)*
+
+*Mesmo o golpe que erra ainda carrega o suficiente pra doer.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** quando um ataque do usuário que cause dano Arcano errar o teste contra a Defesa do alvo, ele ainda causa metade do dano (arredondado pra baixo), como se tivesse acertado pela metade.
+
+**Explosão Seletiva** *(Passiva)*
+
+*A energia sabe reconhecer quem não deveria ferir.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** sempre que uma habilidade de área do usuário afetar aliados junto com inimigos, ele pode escolher até 3 aliados pra excluir do efeito — eles simplesmente não sofrem dano nem condição alguma dela, mesmo estando dentro da área.
+
+**Golpe Amplificado** *(usada como Reação)*
+
+*O golpe já acertou — mas ainda dá tempo de fazer doer mais.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 aliado
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 4 Mana:** quando um aliado a até 8 casas acertar um ataque de arma, o usuário pode usar esta habilidade como Reação pra somar +1d6 de dano extra ao golpe.
+- **Intensidade II — 0 PA + 7 Mana:** o mesmo, +2d6.
+- **Intensidade III — 0 PA + 10 Mana:** o mesmo, +3d6.
+
+**Duplicata Ilusória** *(usada como Reação)*
+
+*Um segundo antes do impacto, a imagem se separa do corpo — o golpe atravessa só ilusão.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo fixo:** 0 PA + 10 Mana (dedicada a Reação) | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** quando for atingido por um ataque, o usuário pode usar esta habilidade como Reação pra fazer aquele ataque errar por completo — um duplicado ilusório absorve o golpe e se desfaz.
+- *(Sem Intensidade — efeito absoluto: o ataque simplesmente erra)*
+
+**Bênção do Abismo** *(Passiva)*
+
+*Cada inimigo que cai devolve um pouco de força a quem o derrubou.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** sempre que o usuário, ou um aliado a até 3 casas dele, reduzir uma criatura hostil a 0 de Vida, o usuário ganha um [Escudo](../glossario.md#escudo) de 1d6 pontos.
+
+**Escudo Refletido** *(Passiva)*
+
+*A dor que chega até aqui sempre volta pra quem mandou.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** o usuário não pode ser alvo de habilidades de leitura de mente involuntária (como Ler a Superfície). Além disso, sempre que uma criatura causar dano ao usuário com um ataque, ela sofre de volta a metade daquele dano (arredondado pra baixo).
+
+**Forma do Pavor**
+
+*O corpo se contorce numa sombra viva — e o medo que ela espalha é a única coisa nele que ainda parece humana.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Força | **Alvos:** o próprio usuário
+- **Duração:** continua ativa enquanto o usuário atacar ou for atacado em cada uma das próprias rodadas seguintes — termina imediatamente se ele passar um turno inteiro sem fazer nenhum dos dois.
+- **Enquanto durar:** o usuário é imune a [Amedrontado](../glossario.md#amedrontado) (se já estiver Amedrontado ao ativar, a condição termina imediatamente).
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** o usuário ganha um [Escudo](../glossario.md#escudo) de 2d6 pontos, e os ataques dele que causarem dano deixam o alvo [Amedrontado](../glossario.md#amedrontado) até o fim do próprio próximo turno dele — não empilha.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, com um Escudo de 3d6 pontos.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, com um Escudo de 4d6 pontos, e a duração do Amedrontado aplicado sobe pra 2 rodadas.
+
+**Clarão Ofuscante** *(usada como Reação)*
+
+*Um clarão explode no último instante — e o golpe vacila antes de chegar.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 criatura hostil
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 4 Mana:** quando uma criatura hostil a até 6 casas fizer um teste de ataque, o usuário pode usar esta habilidade como Reação pra impor [Desvantagem](../glossario.md#desvantagem) naquele teste, antes de ser resolvido.
+- **Intensidade II — 0 PA + 7 Mana:** o mesmo, e o alvo [perde a próxima Reação](../glossario.md#perde-a-proxima-reacao).
+- **Intensidade III — 0 PA + 10 Mana:** o mesmo, e o alvo fica [Marcado](../glossario.md#marcado).
+
+**Presciência Divina** *(Supremo)*
+
+*Por um instante, cada decisão já foi vista antes de acontecer.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Sabedoria | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário rola com [Vantagem](../glossario.md#vantagem) em todo teste de ataque, teste de resistência e teste Social que fizer.
+- *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
+
+**Efeito Duplo**
+
+*A mesma palavra, dita uma vez só, cai sobre dois alvos ao mesmo tempo.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** até o fim do próprio turno, a próxima habilidade de alvo único que o usuário ativar também afeta um segundo alvo à escolha, dentro do alcance normal dela — mesmo teste, mesmo efeito, resolvido separadamente pra cada um.
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, e dura até o início do próprio próximo turno (não precisa ser usada ainda nesta rodada).
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o mesmo, e a habilidade duplicada pode afetar até 2 alvos extras (3 no total).
+
+**Restaurar o Equilíbrio** *(usada como Reação)*
+
+*Sorte não é golpe de mestre, e azar não é sentença — os dois voltam a ser só um número.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 criatura (aliada ou hostil)
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 4 Mana:** quando uma criatura a até 6 casas estiver prestes a rolar um teste de d20 com [Vantagem](../glossario.md#vantagem) ou [Desvantagem](../glossario.md#desvantagem), o usuário pode usar esta habilidade como Reação pra cancelar esse efeito — ela rola só 1d20 normal.
+- **Intensidade II — 0 PA + 7 Mana:** o mesmo; se o alvo for aliado com Desvantagem, em vez de cancelar o usuário pode transformá-la em Vantagem.
+- **Intensidade III — 0 PA + 10 Mana:** o mesmo; se o alvo for hostil com Vantagem, em vez de cancelar o usuário pode transformá-la em Desvantagem.
+
+**Fora de Alcance**
+
+*Não importa de onde venha o golpe — ele nunca encontra a abertura que precisava.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** por 2 rodadas, nenhum ataque contra o usuário pode rolar com [Vantagem](../glossario.md#vantagem) (mesmo que a fonte diga o contrário).
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, por 3 rodadas, e o usuário trata qualquer resultado do d20 menor que 10 como se fosse 10 em testes de resistência.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, por 4 rodadas.
+
+**Metamorfose Adaptável**
+
+*O corpo lembra de formas que nunca teve — só precisa de um motivo pra usá-las.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Ao ativar, escolha um:** Nadador (ganha Nadar igual ao Movimento, e pode respirar debaixo d'água), Alado (ganha [Voo](../jogar/combate.md#voo) com velocidade igual ao Movimento), Vidente (enxerga criaturas e objetos invisíveis), ou Fluido (pode se espremer por qualquer brecha do tamanho de um punho, e ignora [Terreno Difícil](../glossario.md#terreno-dificil))
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** por 3 rodadas, o usuário ganha o benefício escolhido.
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, por 4 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o mesmo, por 5 rodadas, e o usuário pode trocar de benefício uma vez, gastando uma Reação.
+
+**Forma Incorpórea** *(Supremo)*
+
+*Pele, osso e aço deixam de ser argumento — o que passa através de você não te alcança mais.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** por 3 rodadas, o usuário tem [Resistência](../glossario.md#resistencia) a todo tipo de dano, exceto Arcano, e pode se mover através de criaturas e objetos como se fossem [Terreno Difícil](../glossario.md#terreno-dificil) (se terminar o turno dentro de um deles, é empurrado pro espaço livre mais próximo).
+- *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
+
+**Céu Compartilhado** *(Supremo)*
+
+*O chão deixa de valer pra todo mundo ao mesmo tempo.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** usuário e até 5 aliados a até 6 casas
+- **Efeito:** por 3 rodadas, cada alvo ganha [Voo](../jogar/combate.md#voo) com velocidade igual ao próprio Movimento.
+- *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
+
+**Aura da Bravura**
+
+*Perto do usuário, o medo não encontra onde se firmar.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Sabedoria | **Alvos:** usuário e aliados em 3 casas de raio
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** por 3 rodadas, cada alvo é imune a [Amedrontado](../glossario.md#amedrontado) (se algum já estiver Amedrontado, a condição termina nele imediatamente).
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, por 4 rodadas, e cada alvo também é imune a [Possuído](../glossario.md#possuido).
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, por 5 rodadas.
+
+**Represália Sagrada** *(usada como Reação)*
+
+*Ferir quem está sob essa proteção significa carregar a própria dor de volta.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** o atacante
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 6 Mana:** quando uma criatura hostil a até 6 casas causar dano a um aliado do usuário (que não seja o próprio usuário), ele pode usar esta habilidade como Reação pra forçar o atacante a um teste de Vontade contra a Defesa mental do usuário. Falhando, ele sofre de volta a metade daquele dano.
+- **Intensidade II — 0 PA + 9 Mana:** o mesmo, sofrendo de volta o dano total.
+- **Intensidade III — 0 PA + 12 Mana:** o mesmo, e o atacante também fica com [Desvantagem](../glossario.md#desvantagem) no próximo ataque que fizer.
+
+**Desejo Concedido** *(usada como Reação)*
+
+*Uma súplica silenciosa é ouvida antes mesmo de ser terminada — e o resultado simplesmente muda.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo fixo:** 0 PA + 16 Mana (dedicada a Reação) | **Atributo:** Sabedoria | **Alcance:** 8 casas | **Alvos:** 1 aliado
+- **Efeito:** quando um aliado a até 8 casas falhar num teste de d20, o usuário pode usar esta habilidade como Reação pra transformar esse resultado num sucesso automático garantido.
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Zona Intocável**
+
+*Antes do golpe vir, algo precisa decidir que o usuário é um alvo válido — e nem sempre decide.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Sabedoria | **Alvos:** o próprio usuário
+- **Encerra imediatamente se** o usuário atacar ou causar dano a alguém
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** por 3 rodadas, qualquer criatura hostil precisa passar num teste de Vontade contra a Defesa mental do usuário antes de poder escolhê-lo como alvo de um ataque. Falhando, ela precisa escolher outro alvo (ou desiste do ataque, se não houver nenhum).
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, por 4 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, por 5 rodadas.
+
+**Reviravolta Bêbada** *(usada como Reação)*
+
+*O corpo cambaleia fora de propósito — e o golpe que era pro usuário acerta outro alguém.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** 1 criatura diferente do atacante, a até 6 casas do usuário
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 5 Mana:** quando uma criatura hostil errar um ataque contra o usuário, ele pode usar esta habilidade como Reação pra redirecionar esse ataque — ele acerta automaticamente uma criatura diferente à escolha do usuário, a até 6 casas, usando o mesmo dano que causaria no usuário.
+- **Intensidade II — 0 PA + 8 Mana:** o mesmo, e o dano do ataque redirecionado é 1d6 maior.
+- **Intensidade III — 0 PA + 11 Mana:** o mesmo, e o dano do ataque redirecionado é 2d6 maior.
+
+**Gatilho Selado** *(Supremo)*
+
+*A palavra certa já foi escolhida — só espera a hora certa de ser dita sozinha.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** o usuário prepara uma habilidade de Custo fixo ou Intensidade I que já conheça (Grau de Poder Menor ou Moderado, até 8 Mana na versão escolhida), junto com uma condição de disparo específica (ex: "se eu cair abaixo da metade da Vida", "se eu ficar Agarrado", "se um inimigo chegar a 3 casas de mim"). A partir daí, sempre que a condição acontecer — mesmo fora do turno do usuário, mesmo se ele estiver Atordoado ou Inconsciente — a habilidade preparada dispara automaticamente, sem gastar PA nem Mana adicional (o custo dela já foi pago ao preparar). Só pode haver 1 Gatilho Selado ativo por vez; preparar outro cancela o anterior sem reembolso. O gatilho dura até ser usado, ou até o fim do próximo descanso longo.
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Metamorfose de Escala**
+
+*O corpo esquece por um instante o tamanho que sempre teve.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 criatura (pode ser o próprio usuário)
+- **Ao ativar, escolha um:** Maior, ou Menor
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 2 rodadas — **Maior:** o alvo cresce um tamanho, ganha +2 de alcance corpo a corpo e +1d4 no dano de ataques corpo a corpo, mas rola com [Desvantagem](../glossario.md#desvantagem) em testes de Agilidade. **Menor:** o alvo encolhe um tamanho; testes de Sabedoria pra notá-lo rolam com Desvantagem, e ataques corpo a corpo contra ele também rolam com Desvantagem, mas ele causa -1d4 no dano de ataques corpo a corpo (mínimo 0).
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, por 3 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 4 rodadas.
+
+**Liberdade de Movimento**
+
+*Nada prende, nada trava — o corpo responde como se o chão fosse sempre o mais fácil possível.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Sabedoria | **Alvos:** o próprio usuário, ou 1 aliado
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** por 2 rodadas, o alvo é imune a [Agarrado](../glossario.md#agarrado) e [Imóvel](../glossario.md#imovel) (se já estiver em uma dessas condições, ela termina nele imediatamente), e ignora [Terreno Difícil](../glossario.md#terreno-dificil).
+- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, por 3 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o mesmo, por 4 rodadas.
+
+**Mente Selada** *(Supremo)*
+
+*Não sobra porta nenhuma pra ninguém entrar — nem pra olhar, nem pra tomar o controle.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Sabedoria | **Alvos:** o próprio usuário, ou 1 aliado
+- **Efeito:** por 24 horas, o alvo é imune a qualquer efeito de controle mental — [Possuído](../glossario.md#possuido), Domínio Absoluto, Fascínio e qualquer habilidade parecida —, e não pode ser alvo de leitura de mente involuntária. Se ele já estiver sob um desses efeitos, eles terminam nele imediatamente.
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Reflexo Múltiplo**
+
+*Várias imagens do usuário se separam do corpo real — e o golpe raramente acerta a certa.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** cria 2 réplicas ilusórias do usuário. Enquanto durarem — até o fim da [cena](../glossario.md#cena), ou até as cargas acabarem —, os próximos 2 ataques que atingiriam o usuário erram automaticamente em vez disso; cada réplica se desfaz depois de absorver um deles.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, com 3 réplicas.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, com 4 réplicas.
+
+**Vínculo Protetor**
+
+*Uma linha invisível liga os dois — o que fere um, agora fere os dois pela metade.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Sabedoria | **Alcance:** 6 casas | **Alvos:** 1 aliado a até 6 casas
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** por 3 rodadas, o usuário e o alvo formam um vínculo — sempre que um dos dois sofrer dano, o dano é dividido igualmente entre os dois (arredondado pra cima em quem sofreu o golpe original). O vínculo só funciona enquanto os dois estiverem a até 10 casas de distância um do outro.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, por 4 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 12 Mana:** o mesmo, por 5 rodadas, e enquanto durar, os dois ganham +1 de Defesa.

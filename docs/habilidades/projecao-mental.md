@@ -97,3 +97,35 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** arremessa o objeto contra 1 criatura (d20 + Inteligência vs Defesa física): 1d4 de dano de impacto se acertar
 - **Crítico (20 natural, só ao arremessar na Intensidade III):** dano máximo (4) + 1d4 extra
 - *(Custo fixo — área de 3 casas de raio, rola teste de ataque contra a Defesa mental de cada alvo)*
+
+**Mão Titânica** *(Supremo)*
+
+*A mesma mão que move objetos, agora grande o bastante pra mover o campo de batalha inteiro.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Requisito:** ter aprendido Mão Invisível
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 casa livre de tamanho Grande dentro do alcance
+- **Efeito:** conjura uma mão espectral gigante na casa escolhida (Vida 20, Defesa física 14). Dura 3 rodadas, ou até ser destruída. No instante em que é conjurada, e como ação livre no início de cada um dos próprios turnos seguintes do usuário enquanto durar, ele escolhe um comando pra ela executar:
+  - **Golpear** — teste de ataque (d20 + Inteligência) contra a Defesa física de 1 criatura adjacente à mão; acertando, 3d10 de dano de Impacto.
+  - **Agarrar** — 1 criatura Grande ou menor adjacente à mão testa Força ou Agilidade (o maior) contra a Defesa física do usuário; falhando, fica [Agarrada](../glossario.md#agarrado) pela mão.
+  - **Empurrar** — 1 criatura adjacente à mão testa Força contra a Defesa física do usuário; falhando, é empurrada até 4 casas.
+  - **Interpor** — a mão bloqueia a linha de visada de ataques à distância contra o usuário vindos de uma direção à escolha, enquanto ficar lá.
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Domínio Absoluto** *(Supremo)*
+
+*A mente cede por completo — não sobra nem um canto pra resistir.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Acerto:** o alvo passa a obedecer ordens do usuário pelas próximas 24 horas, ou até o usuário usar esta habilidade de novo. Só é possível dominar 1 criatura por vez — dominar outra libera a anterior. Criaturas de Tier Lendário rolam esse teste com [Vantagem](../glossario.md#vantagem).
+- *(Sem Intensidade — efeito absoluto, Supremo)*
+
+**Jarra da Alma** *(Supremo)*
+
+*A consciência sai do próprio corpo e entra no do alvo — e de repente, é o usuário quem decide os próximos passos dele.*
+
+- **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Defesa:** mental (Vontade) | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Acerto:** o usuário se torna o possuidor do alvo, usando a condição [Possuído](../glossario.md#possuido) normalmente — sai do mapa enquanto durar, e passa a gastar os ◈ do alvo, usando as habilidades, a Vida e o Mana dele. O corpo original do usuário fica desacordado e indefeso onde estava, sem poder ser alvo de nada enquanto a possessão durar. Se o alvo o expulsar (ou seu jogador, se for um PJ), ou se o corpo do alvo cair a 0 de Vida, o usuário volta imediatamente pro próprio corpo, adjacente à posição do alvo.
+- *(Sem Intensidade — efeito absoluto, Supremo)*
