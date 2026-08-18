@@ -152,7 +152,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 
 | Página | O que acontece | Id do card |
 |---|---|---|
-| `habilidades/index.md` | as 580 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
+| `habilidades/index.md` | as 579 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
 | `racas/index.md` | as 24 seções `##` viram cards (leva, atributos, nº de traços); as duas divisórias de leva viram prosa acima da lista | `rac-{nome}` |
 | `origens/index.md` | as 3 tabelas d20 viram 60 cards (eixo, tipo de traço, atributo) + sorteio | `ori-{eixo}-{nome}` |
 | `equipamento/index.md` | as 62 seções de arma + escudos + armaduras viram 68 cards; a ficha vem da tabela de dado de dano | `equ-{nome}` |
@@ -290,7 +290,7 @@ Ao mexer nisso:
 [felipe1072-git.github.io/prisma-rpg](https://felipe1072-git.github.io/prisma-rpg/), sob CC BY 4.0,
 com deploy automático a cada push (workflow em `.github/workflows/deploy.yml`).
 
-O que existe: 580 habilidades — 394 gerais nos 11 grupos mais 186 de arma (62 armas × 3 graus) —,
+O que existe: 579 habilidades — 393 gerais nos 11 grupos mais 186 de arma (62 armas × 3 graus) —,
 24 raças, 100 pacotes, 10 elementos com assinatura mecânica própria, sistema Tocado, e Livro do
 Mestre em 5 partes (Bestiário, Encontros, Testes, Recompensas, Exploração).
 
@@ -594,6 +594,49 @@ e **Fenda Dimensional** (Debuff — gravidade e portal, ecoando Peso das Trevas 
 Dimensional que já eram do grupo). Decisão do autor: **não existe dano do tipo Espaço-Tempo**
 — as 11 habilidades do grupo que causavam "Dano: Espaço-Tempo" passaram a causar **Dano:
 Arcano**, e as duas migradas de Debuff, que já eram Arcano, ficaram como estavam.
+
+**Filtro de habilidades: Dano vira faceta universal, e entra a faceta Escala (2026-08-18).**
+O tipo de dano só virava faceta filtrável dentro de Mágicas por Elemento, atribuído pela
+seção `## Elemento` — fora dali (Buff, Debuff, Suporte, Espaço-Tempo etc.), o campo
+`**Dano:** Arcano` que a própria habilidade já declara nunca chegava ao filtro. Agora
+`elemento_do_campo_dano` lê esse campo em qualquer card sem elemento explícito e usa o
+valor quando bate com um dos 11 tipos conhecidos — sem mudar nada dentro de Mágicas por
+Elemento, que continua atribuindo pela seção. Entrou também o dropdown **"Toda escala"**,
+juntando o grau de arma (Básica/Avançada/Especial) com a potência geral da habilidade
+(Menor/Médio/Moderado/Maior/Supremo) numa faceta só, em ordem de progressão — o atributo
+`data-grau` existia desde sempre mas nunca tinha select nenhum ligado a ele.
+
+**Auditoria dos 68 Supremos, e três pares de gêmeos corrigidos (2026-08-18).** Todo Supremo
+do jogo custa exatamente ◈◈◈ + 16 Mana, sem exceção — o que torna qualquer comparação de
+payoff justa ponta a ponta. A auditoria (script que lê `extrai_blocos_de_habilidade` direto
+do hook, não leitura manual) achou:
+
+- **Erradicação, Queda Celestial e Nascimento das Lâminas** (Marciais) eram clones —
+  "2d8 em área + só derruba", nada mais, enquanto todo outro Supremo de área do jogo soma
+  status extra ou já acerta o campo de batalha inteiro. Cada uma ganhou identidade própria
+  puxando do próprio flavor text: Erradicação vira 2x dado + Atordoado
+  (a mais contundente); Queda Celestial passa a acertar **todos os inimigos à vista** (a
+  descrição já dizia isso, a mecânica não); Nascimento das Lâminas vira dano automático em
+  3 aplicações com o golpe final dobrado, combinando com "cortando repetidas vezes antes de
+  um golpe final". De quebra, as três (que diziam `Dano: usa o dado de dano da arma
+  equipada` e travavam o resultado em `2d8` fixo) passaram a escalar de verdade com a arma
+  (`2x dado de dano`), como Divisão Espacial já fazia.
+- **Reflexos Extras e Ação Extra** (Marciais) pagavam ◈◈◈ pra ganhar ◈◈◈ de volta — conta
+  zerada no próprio turno. Ação Extra saiu do jogo (Reflexos Extras, que dá um turno
+  completo, já cobria o mesmo papel e mais); Reflexos Extras passou a custar 0 PA + 16 Mana,
+  e perdeu o requisito de "só na primeira rodada" — não fazia mais sentido com o PA de graça.
+- **Golpe Sagrado** (Luz) era cópia mecânica exata de Luz Infinita — mesmo Acerto, mesmo
+  Crítico, só a forma da área mudava. Virou a única Suprema **dano + cura** do jogo (inimigos
+  na área sofrem 2d8, aliados recuperam 2d8), no molde que Redenção e Couraça Angelical já
+  usam. **Poder Dinâmico** (Buff) era a versão estritamente pior de Liberação de Poder (mesmo
+  bônus de dano, números menores) — trocou de eixo, agora estende a duração das condições
+  negativas que as habilidades do usuário aplicarem, em vez de somar dano. **Império
+  Sombrio** (Sombras) copiava a base de Dia do Julgamento (1d8 automático × 3) — ganhou
+  dreno de vida, puxando pro verbo que Sombras já usa em alvo único (drenar) e nunca tinha
+  em área.
+
+O total do jogo cai de 580 pra **579 habilidades** (393 gerais + 186 de arma) com a saída da
+Ação Extra — primeira habilidade removida do jogo, não só renomeada ou movida.
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
