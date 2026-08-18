@@ -577,9 +577,10 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *Toda a força contida é liberada de uma vez, devastando tudo ao redor num único golpe.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Dano:** usa o dado de dano da arma equipada | **Alvos:** todas as criaturas **hostis** em 3 casas de raio ao redor do usuário
-- **Acerto:** 2d8 de dano + derruba cada alvo
-- **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Alvos:** todas as criaturas **hostis** em 3 casas de raio ao redor do usuário
+- **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
+- **Acerto:** 2x dado de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno
+- **Crítico (20 natural):** dado máximo (2x) + 1x dado extra em todos, e o Atordoado dura mais 1 rodada
 
 **Esmagador**
 
@@ -608,9 +609,10 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *Seis flores de chi desabrocham ao redor do usuário, e mais uma sob cada inimigo à vista — todas explodem ao mesmo tempo, arremessando tudo pro alto.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Dano:** usa o dado de dano da arma equipada | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
-- **Acerto:** 2d8 de dano + derruba cada alvo
-- **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Alcance:** 10 casas | **Alvos:** todas as criaturas hostis à vista, dentro do alcance
+- **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
+- **Acerto:** 2x dado de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno
+- **Crítico (20 natural):** dado máximo (2x) + 1x dado extra em todos, e o Atordoado dura mais 1 rodada
 
 **Retaliação** *(usada como Reação)*
 
@@ -821,9 +823,9 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *Sete espadas espectrais são invocadas, cortando o campo de batalha repetidas vezes antes de atacarem juntas num golpe final.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Dano:** usa o dado de dano da arma equipada | **Alvos:** todas as criaturas hostis em 5 casas de raio ao redor do usuário
-- **Acerto:** 2d8 de dano + derruba cada alvo
-- **Crítico (20 natural):** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Alvos:** todas as criaturas hostis em 5 casas de raio ao redor do usuário
+- **Dano:** usa o dado de dano da arma equipada
+- **Efeito:** 1x dado de dano automático em cada alvo, imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total). Na 3ª aplicação — o golpe final —, o dano dobra (2x dado) e cada alvo ainda na área fica [Derrubado](../glossario.md#derrubado).
 
 **Golpe Oportuno** *(Passiva)*
 
