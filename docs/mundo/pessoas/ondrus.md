@@ -3,6 +3,7 @@ tipo: pessoa
 ---
 # Ondrus
 
+- **Retrato:** ![Ondrus](../../assets/img/mundo/ondrus.jpg)
 - **Espécie:** incerta — ninguém que o conheceu jovem ainda está vivo pra confirmar
 - **Papel:** sábio itinerante, mestre do [Arcano](../../habilidades/magicas-elementais.md#arcano) — aparece nos dois lados da guerra, não serve a nenhum
 - **Facção:** nenhuma
