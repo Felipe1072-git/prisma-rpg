@@ -111,6 +111,37 @@ mostra a imagem inteira no lightbox ao clicar). Diferente da capa/lombada, aqui 
 personagem só, sem cena de grupo — mas a regra de "ação de verdade, não pose de boneco"
 continua valendo: pose de comando/gesto de poder, nunca frontal e parado.
 
+Também validado num **NPC mortal sem facção** (Ondrus — sábio itinerante, espécie e idade
+propositalmente incertas na lore). Duas adaptações que funcionaram bem e valem pra qualquer
+NPC no mesmo espírito:
+
+- **Ambiguidade que é lore, não indecisão:** quando a própria descrição do personagem deixa
+  espécie/idade em aberto de propósito, o prompt pede pra arte *preservar* isso — "humanoide,
+  mas não deixe claro se é X ou Y", rosto atemporal — em vez de a IA resolver a ambiguidade
+  escolhendo uma raça/idade concreta sozinha.
+- **Neutralidade de facção via paleta:** personagem sem facção não usa a paleta de nenhum
+  lado em conflito — vestes em tons neutros (cinza, marrom terroso, branco sujo), e o único
+  ponto de cor viva é o efeito mágico em si, descrito como "sem cor fixa" (branco/prateado/
+  levemente prismático) quando a lore diz que a magia dele não tem assinatura elemental.
+
+```
+Estou anexando uma arte de referência — use-a pra puxar a TÉCNICA DE PINTURA: pincelada visível, textura de tela, luz e sombra dramáticas, como ilustração de personagem numa capa de livro de RPG de mesa impresso. NÃO estilo anime de cel-shading liso, NÃO flat design de jogo mobile.
+
+Gere um retrato de corpo inteiro ou 3/4, em formato vertical (proporção aproximada 3:4, resolução alta), de Ondrus — um sábio itinerante, mestre de magia Arcana, de espécie e idade indeterminadas. Ele não serve a nenhuma facção e não é um combatente: é uma figura enigmática que aparece pouco antes de algo importante acontecer e some logo depois.
+
+APARÊNCIA: humanoide, mas deliberadamente ambíguo — não deixe claro se é humano, élfico ou algo mais estranho; a idade também deve parecer indefinida (nem jovem, nem visivelmente idoso — um rosto sereno e atemporal, quase impossível de datar). Vestes de viajante simples e desgastadas pelo tempo, em camadas — manto/capuz que cobre parte do rosto em sombra, sugerindo alguém que passou por muitas estradas. Carrega um único cajado de viajante entalhado (não duas armas, nunca objetos duplicados flutuando).
+
+MAGIA: ele conjura Arcano puro — mana sem elemento, sem assinatura de cor fixa. Mostre isso como uma energia branca/prateada/levemente prismática (reflexos sutis de várias cores, nunca uma cor dominante única) se formando em um símbolo ou círculo arcano saindo de uma das mãos — um gesto calmo e controlado, não um ataque.
+
+PALETA: tons neutros e discretos nas vestes — cinza, marrom terroso, branco sujo — para não remeter à cor de nenhuma facção específica. A energia arcana branco-prateada-prismática é o único ponto de cor viva da cena.
+
+POSE: um momento de poder tranquilo e deliberado — conjurando o feitiço, ou meio virado como se estivesse prestes a desaparecer de novo — nunca uma pose estática de "boneco de vitrine", nunca uma pose de combate.
+
+FUNDO: um cruzamento de estradas ao entardecer ou amanhecer, névoa baixa, luz difusa e ambígua (nem claramente de um exército nem de outro) — um lugar de passagem, não um campo de batalha.
+
+Sem texto, letra ou logo na imagem. Sem bordas, preenchendo o quadro inteiro.
+```
+
 ```
 Estou anexando uma arte de referência — use-a pra puxar a TÉCNICA DE PINTURA: pincelada visível, textura de tela, luz e sombra dramáticas, como ilustração de deus numa capa de livro de RPG de mesa impresso. NÃO estilo anime de cel-shading liso, NÃO flat design de jogo mobile.
 
