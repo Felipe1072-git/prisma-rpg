@@ -3,6 +3,7 @@ tipo: pessoa
 ---
 # Rujerd
 
+- **Retrato:** ![Rujerd](../../assets/img/mundo/rujerd.jpg)
 - **Papel:** Chefe de [Kaelen Hold](../lugares/kaelen-hold.md), a Fortaleza de Ferro
 - **Facção:** [Testa de Ferro](../lugares/testa-de-ferro.md) — clãs Branari
 - **Status:** Vivo, velho e enfraquecendo
