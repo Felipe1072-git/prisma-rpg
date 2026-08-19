@@ -2179,6 +2179,7 @@ TIPOS_MUNDO = {
     "lugar": "Lugar",
     "faccao": "Facção",
     "pessoa": "Pessoa",
+    "personagem": "Personagem",
     "evento": "Batalha/Evento",
     "recurso": "Recurso",
     "divindade": "Divindade",

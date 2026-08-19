@@ -29,6 +29,10 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 - [Devoradores de Ossos](faccoes/devoradores-de-ossos.md) — culto que perverteu o dogma do sacrifício de Bran
 - [Gigantes da Geada](faccoes/gigantes-da-geada.md) — invasores do norte, cavalgam Wargs da Neve
 
+## Personagens
+
+- [PF](personagens/pf.md) — jogado por Café, isekai reencarnado em Pania, acompanhado da MCP
+
 ## Pessoas
 
 - [Ester](pessoas/ester.md) — a mais velha do Coven, decide quem vira sacrifício
