@@ -1,6 +1,6 @@
 # Raças
 
-As **24 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhuma é "humano com poderes". Filtre por leva, atributos concedidos ou número de traços.
+As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhuma é "humano com poderes". Filtre por leva, atributos concedidos ou número de traços.
 
 ??? regra "Como funcionam as Raças"
 
@@ -11,7 +11,7 @@ As **24 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
     Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [Progressão de Nível](../criacao/progressao.md)) — são um extra fixo da raça, disponível desde a criação do personagem.
 
-    Nenhuma raça jogável é visualmente indistinguível de um humano: toda raça não-humana tem pelo menos um **traço físico inconfundível**, óbvio à primeira vista, que só magia específica consegue esconder.
+    Nenhuma raça jogável é visualmente indistinguível de um humano: toda raça não-humana tem pelo menos um **traço físico inconfundível**, óbvio à primeira vista, que só magia específica consegue esconder. Exceção: [Humano](#rac-humano) e [Isekai](#rac-isekai) — o segundo passa por humano de propósito, é gente comum de outro mundo, não uma linhagem própria.
 
 ## Humano
 
@@ -351,3 +351,19 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 - **Salto Potente** — o Movimento pode ser usado em saltos verticais e horizontais, ignorando a restrição normal de terreno.
 - **Língua Presa** — custa 3 Mana | ◈ (1 PA); rola d20 + Força contra a Defesa física do alvo — acertando, puxa uma criatura a até 3 casas de distância pra 1 casa adjacente ao usuário.
+
+## Raças Exóticas
+
+Uma quarta leva de raças, sem parentesco entre si — cada uma nasce de uma circunstância própria e irrepetível, não de uma linhagem ou hábitat compartilhado como as levas anteriores.
+
+## Isekai
+
+*Chegou de outro mundo sem pedir passagem, e trouxe consigo a única coisa que sempre acompanha quem cai de paraquedas numa história que não é sua: uma sorte grande demais pra ser coincidência.*
+
+**Traço Físico:** nenhum — passa por humano em qualquer lugar; a única coisa que carrega de diferente é a história.
+
+**Atributos:** +2 em Sorte, +1 em qualquer outro atributo à escolha.
+
+**Traço Racial:**
+
+- **Armadura de Roteiro** — 1x por descanso longo, ao rolar 1 natural em qualquer teste de d20, pode transformá-lo em 20 natural: aplica normalmente o resultado de [Crítico](../jogar/testes.md#1-natural-e-20-natural) (dano máximo, rolagem extra, sobe 1 Intensidade de graça, se for teste de Habilidade) e **não** marca o ponto de Estresse da falha.

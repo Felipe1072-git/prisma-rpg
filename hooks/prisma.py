@@ -1285,7 +1285,7 @@ def monta_listagem_bestiario(markdown: str, docs_dir: Path) -> tuple[str, int]:
 # linha só. As duas divisórias agrupam as levas.
 RE_CAMPO_PARAGRAFO = re.compile(r"^\*\*([^:*]+):\*\*\s*(.*)$")
 
-DIVISORIAS_RACA = frozenset({"Raças de Animal", "Raças de Peixe/Água"})
+DIVISORIAS_RACA = frozenset({"Raças de Animal", "Raças de Peixe/Água", "Raças Exóticas"})
 
 # Quantos pontos de atributo a raça concede, no total. Duas formas aparecem:
 #   "escolha 2 dentre X, Y, Z, e distribua +2/+1 entre eles"  -> 3

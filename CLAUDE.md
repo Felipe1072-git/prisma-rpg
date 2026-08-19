@@ -109,7 +109,7 @@ Sistema RPG/
 │   │                            progressao, tocado
 │   ├── habilidades/          ← index.md = listagem única; regras.md = as regras;
 │   │                            um arquivo por grupo (a fonte de cada habilidade)
-│   ├── racas/                ← index.md = listagem única (24 raças)
+│   ├── racas/                ← index.md = listagem única (25 raças)
 │   ├── origens/              ← index.md = listagem única; as 3 tabelas d20 são a fonte
 │   ├── equipamento/          ← index.md = listagem (armas/escudos/armaduras) e a fonte
 │   │                            de tudo; regras.md monta-se lendo as seções de regra
@@ -152,7 +152,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 
 | Página | O que acontece | Id do card |
 |---|---|---|
-| `habilidades/index.md` | as 579 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
+| `habilidades/index.md` | as 754 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
 | `racas/index.md` | as 24 seções `##` viram cards (leva, atributos, nº de traços); as duas divisórias de leva viram prosa acima da lista | `rac-{nome}` |
 | `origens/index.md` | as 3 tabelas d20 viram 60 cards (eixo, tipo de traço, atributo) + sorteio | `ori-{eixo}-{nome}` |
 | `equipamento/index.md` | as 62 seções de arma + escudos + armaduras viram 68 cards; a ficha vem da tabela de dado de dano | `equ-{nome}` |
@@ -291,7 +291,7 @@ Ao mexer nisso:
 com deploy automático a cada push (workflow em `.github/workflows/deploy.yml`).
 
 O que existe: 579 habilidades — 393 gerais nos 11 grupos mais 186 de arma (62 armas × 3 graus) —,
-24 raças, 100 pacotes, 10 elementos com assinatura mecânica própria, sistema Tocado, e Livro do
+25 raças, 101 pacotes, 10 elementos com assinatura mecânica própria, sistema Tocado, e Livro do
 Mestre em 5 partes (Bestiário, Encontros, Testes, Recompensas, Exploração).
 
 **Auditoria de consistência (2026-07-27).** O sistema foi lido de uma vez como corpo único pela
@@ -637,6 +637,51 @@ do hook, não leitura manual) achou:
 
 O total do jogo cai de 580 pra **579 habilidades** (393 gerais + 186 de arma) com a saída da
 Ação Extra — primeira habilidade removida do jogo, não só renomeada ou movida.
+
+**Isekai — 4ª leva de raças, "Raças Exóticas" (2026-08-19).** O Bestiário e o Arsenal já tinham
+levas próprias; as Raças ganharam a quarta, pensada pro personagem do jogador Café. Diferente das
+levas anteriores (Animal, Peixe/Água), essa não parte de um tronco compartilhado — é uma leva de
+origens singulares, e o Isekai é só a primeira a entrar nela. A raça é **a segunda exceção** à
+regra de traço físico inconfundível (a primeira é o próprio Humano): passa por humano de
+propósito, porque é gente comum de outro mundo, não uma linhagem visualmente distinta. O traço
+racial, **Armadura de Roteiro**, transforma um 1 natural em 20 natural 1x por descanso longo
+(aplica o [Crítico](docs/jogar/testes.md:24) normalmente e não marca Estresse da falha) — decisão
+do autor, que pediu explicitamente a virada mais extrema possível em vez de uma rerolagem comum.
+
+**Pacote MCP — arco JARVIS→Visão fechado (2026-08-19).** O pacote que ficara em aberto na entrada
+do Isekai ganhou as 10 Habilidades da trilha, revisadas uma a uma com o autor e o jogador Café.
+Não trava no Isekai — qualquer personagem pode pegá-lo. Três fases: **Percepção Arcana** (níveis
+1-5, só informa — revela Defesas exatas, vira banco de dados permanente de conhecimento, avisa o
+grupo antes de uma emboscada), **Suporte** (7-13, passa a ajudar de verdade — bônus de ataque que
+escala, Escudo, remove Estresse em cena pela primeira vez no jogo, marca alvos em área), e
+**Conjuração** (15-19, a IA ganha corpo) — que reaproveita o sistema de **Aliado de Combate em
+três graus** que Servo de Cinzas/Lâmina Espectral/Guardião do Pacto já tinham, em vez de inventar
+mecânica nova pro clímax: Corpo Provisório (Menor) → Iteração Avançada (Médio) → Encarnação
+(Maior). Fica registrado o pacote em si — `docs/pacotes/index.md` — como o **101º**, de propósito
+fora das 5 tabelas de sorteio (é específico demais pra sair de uma rolagem aleatória).
+
+Duas decisões do autor viraram regra geral, não só desse pacote:
+
+- **Nunca dupla restrição numa habilidade** — Mana já é o freio; se precisa ser mais rara, sobe o
+  Mana, não empilha "1x por descanso longo" em cima. Corrigido também no Servo de Cinzas e na
+  Chamar Lâmina Espectral existentes (Intensidade III de todo Aliado de Combate Menor/Médio agora
+  dura até 0 de Vida, sem limite de cena, em vez de um número fixo de rodadas).
+- **Comando Extra** — todo Aliado de Combate (exceto o Guardião do Pacto, que é Custo fixo) agora
+  pode agir uma vez a mais na rodada se o usuário pagar ◈ (1 PA) + a Mana da própria Intensidade I
+  dele, mesmo com o PA do Aliado já esgotado. Vira regra compartilhada no parágrafo de abertura do
+  grupo, não repetida em cada habilidade.
+
+⚠ **A contagem de habilidades estava defasada de novo** — o texto dizia 579, o contador ao vivo da
+listagem (a fonte, não o texto) já marcava 754 antes mesmo dessas 10 entrarem, e ninguém tinha
+atualizado o número. Corrigido pro valor real, mas a causa da defasagem (o quê exatamente foi
+adicionado entre 579 e 744 sem registro) não foi investigada — só o sintoma.
+
+⚠ **Uma tabela markdown aninhada dentro de um bullet quebrou o parser da habilidade** — a própria
+skill já avisava disso ("para no primeiro... tabela markdown que aparecer no meio do corpo"), e
+mesmo assim escrevi a escala de nível dos três Aliados como tabela na primeira tentativa. O card
+truncava silenciosamente sem erro de build. Corrigido pro molde de bullets-escada que o
+Companheiro Animal já usava (`**Progressão — nível X–Y:** Vida N, Ataque +N...`) — **abrir a
+página e clicar no card continua sendo o único jeito confiável de pegar isso.**
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)

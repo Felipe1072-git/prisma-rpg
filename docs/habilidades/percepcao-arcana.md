@@ -88,3 +88,36 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Intensidade I — 0 PA + 3 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra forçar o atacante a rolar o teste com [Desvantagem](../glossario.md#desvantagem), antes do resultado ser conhecido.
 - **Intensidade II — 0 PA + 6 Mana:** o mesmo, e se o ataque ainda assim acertar, reduz o dano recebido em 1d6 (mínimo 1).
 - **Intensidade III — 0 PA + 9 Mana:** o mesmo, reduzindo em 2d6; se o ataque errar mesmo assim, o usuário identifica exatamente de onde ele veio, mesmo se estivesse escondido.
+
+**Primeira Leitura**
+
+*A esfera pisca uma vez, processa o que consegue, e sussurra o primeiro dado que encontrou.*
+
+- **Chave:** [Percepção Arcana](../glossario.md#percepcao-arcana)
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** 1 a 3 criaturas, conforme a Intensidade
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** revela os valores exatos das duas Defesas (física e mental) de 1 criatura, e uma vulnerabilidade ou resistência dela (o Mestre escolhe qual).
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, em até 2 criaturas ao mesmo tempo.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, em até 3 criaturas ao mesmo tempo.
+- **Memória:** uma vez revelada qualquer informação sobre um *tipo* de criatura, a IA já sabe — não precisa pagar a habilidade de novo pra esse tipo, a não ser que o Mestre julgue que aquele indivíduo está alterado o bastante pra invalidar o que ela sabia.
+- *(Sem teste de ataque nesta habilidade — a Intensidade escolhe só quantos alvos a IA processa de uma vez)*
+
+**Banco de Dados**
+
+*Ela nunca esteve nesse lugar, mas já leu sobre lugares parecidos — e agora está catalogando este também.*
+
+- **Chave:** [Percepção Arcana](../glossario.md#percepcao-arcana)
+- **Custo fixo:** ◈ (1 PA) + 4 Mana | **Atributo:** Inteligência | **Alvos:** o próprio usuário
+- **Efeito:** até o fim da [cena](../glossario.md#cena), o usuário rola com [Vantagem](../glossario.md#vantagem) em testes de Inteligência ou Sabedoria relacionados a conhecimento (história, criaturas, magia, geografia).
+- **Memória:** todo teste de conhecimento bem-sucedido enquanto essa habilidade está ativa vira conhecimento permanente da IA — uma pergunta igual ou muito parecida no futuro (a mesma criatura, o mesmo evento histórico, o mesmo tipo de magia) não precisa de teste, ela já tem a resposta guardada. O banco de dados cresce ao longo de toda a campanha e nunca esquece.
+- *(Sem Intensidade — habilidade utilitária, sem teste de ataque)*
+
+**Alerta Prévio** *(usada como Reação)*
+
+*Antes de qualquer ataque, um sussurro no ouvido avisa: alguma coisa está errada aqui.*
+
+- **Chave:** [Percepção Arcana](../glossario.md#percepcao-arcana)
+- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** o usuário, ou até aliados em 6 casas de raio
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Intensidade I — 0 PA + 3 Mana:** no momento em que o Mestre for determinar se o grupo está [Desprevenido](../glossario.md#desprevenido), o usuário pode usar esta habilidade como Reação — o próprio usuário não fica Desprevenido nessa rodada, mesmo que o resto do grupo fique.
+- **Intensidade II — 0 PA + 6 Mana:** o mesmo, e mais 1 aliado à escolha do usuário (dentro do alcance) também não fica Desprevenido.
+- **Intensidade III — 0 PA + 9 Mana:** o mesmo, protegendo **todo o grupo** dentro do alcance — ninguém no raio fica Desprevenido.
