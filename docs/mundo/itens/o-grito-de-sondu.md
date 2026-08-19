@@ -4,7 +4,7 @@ tipo: item
 # O Grito de Sondu
 
 - **Tipo:** Item Lendário — arma (espada longa, 1d8 Cortante, ver [Regras de Equipamento](../../equipamento/regras.md))
-- **Origem:** [Yan Guo](../lugares/yan-guo.md), forjada em Sondu por ordem do primeiro Imperador do reino
+- **Origem:** [Yan Guo](../lugares/yan-guo.md),  forjada em Sondu por ordem do primeiro Imperador do reino
 - **Onde está agora:** desaparecida desde antes da guerra atual — ressurgiu há pouco perto da [fronteira entre Tyria e Guang](../eventos/fronteiras-de-tyria-guang.md), na posse de quem quer que a tenha desenterrado
 
 *(Item Lendário: um por campanha, e a história inteira gira em torno dele — ver [Recompensas](../../mestre/recompensas.md#itens). Números abaixo são ponto de partida; ajuste livre do Mestre.)*
