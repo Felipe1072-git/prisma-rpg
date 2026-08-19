@@ -14,6 +14,11 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 - [Guang](lugares/guang.md) — reino Orc, fronteira com Tyria
 - [Jingyuan Guo](lugares/jingyuan-guo.md) — reino Orc
 - [Yan Guo](lugares/yan-guo.md) — reino Orc, ao norte
+- [Testa de Ferro](lugares/testa-de-ferro.md) — terra distante ao norte, lar dos clãs Branari e do culto a Bran
+- [Kaelen Hold](lugares/kaelen-hold.md) — a Fortaleza de Ferro, maior cidade da Testa de Ferro
+- [A Garganta do Cervo](lugares/garganta-do-cervo.md) — o maior templo aberto de Bran
+- [A Trilha dos Caçadores Fantasmas](lugares/trilha-dos-cacadores-fantasmas.md) — onde a Caça Selvagem de Bran se manifesta
+- [O Túmulo dos Guardiões](lugares/tumulo-dos-guardioes.md) — tumba subterrânea sob o gelo
 
 ## Facções
 
@@ -21,6 +26,8 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 - [Orcs](faccoes/orcs.md) — o outro lado da guerra
 - [Guarda do Véu](faccoes/guarda-do-veu.md) — ordem independente devota a Val, caça o que a guerra não vê
 - [Coven das Irmãs](faccoes/coven-das-irmas.md) — três bruxas imortais, itinerantes, recrutam (ou sacrificam) moças de aldeia em aldeia
+- [Devoradores de Ossos](faccoes/devoradores-de-ossos.md) — culto que perverteu o dogma do sacrifício de Bran
+- [Gigantes da Geada](faccoes/gigantes-da-geada.md) — invasores do norte, cavalgam Wargs da Neve
 
 ## Pessoas
 
@@ -28,6 +35,7 @@ escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas
 - [Esme](pessoas/esme.md) — a que convida, sedutora
 - [Elsa](pessoas/elsa.md) — cuida das que ficam
 - [Ondrus](pessoas/ondrus.md) — NPC sábio itinerante, mestre do Arcano, não serve a nenhum lado da guerra
+- [Rujerd](pessoas/rujerd.md) — chefe de Kaelen Hold, velho e enfraquecendo, filhos disputam o trono
 
 ## Itens
 

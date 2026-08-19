@@ -1290,3 +1290,107 @@ O Mestre rola **uma vez** e compara o resultado com a Defesa física de cada alv
 **Pânico** *(passiva)*
 
 - Criatura que o vê pela primeira vez ataca com [Desvantagem](../glossario.md#desvantagem) até o fim do próximo turno dela.
+
+## Cultista Devorador de Ossos
+
+*Ele se corta antes de cortar você — e o sangue dele conta mais que o seu.*
+
+- **Tier:** Treinado | **Tipo:** Humanoide | **Ameaça:** 7 | **Vida:** 26 | **PA:** ◈◈◈ (3) | **Iniciativa:** +2
+- **Ataque:** +4 | **Defesa física:** 11 | **Defesa mental:** 12
+- **Atributos:** Agilidade +2, Vontade +4, Força +1 | **Couraça:** Coriácea (+1, amuletos de osso sobre couro)
+- **Movimento:** 7 casas
+
+**Adaga Ritual** — ◈ | +4 vs Defesa física | 1 criatura adjacente
+
+- **1d8** de dano ([Cortante](../glossario.md#cortante)) e o alvo fica [Sangrando](../glossario.md#sangrando).
+
+**Corte de Oferenda** — ◈◈ | +4 vs Defesa física | 1 criatura adjacente
+
+- O cultista abre a própria pele: perde **1d6** da própria Vida (não pode cair a 0 por este efeito), e o golpe causa **2d8** de dano ([Cortante](../glossario.md#cortante)) em vez do normal.
+
+**Grito ao Vazio** — ◈◈◈ | +4 vs Defesa mental | 1 criatura a até 6 casas
+
+- O alvo fica [Amedrontado](../glossario.md#amedrontado).
+
+**Fervor do Sacrifício** *(passiva)*
+
+- Com metade ou menos da própria Vida, os ataques dele rolam com [Vantagem](../glossario.md#vantagem).
+
+## Gigante da Geada
+
+*O irmão de gelo do Gigante da Colina. Não joga pedra — prende você nela.*
+
+- **Tier:** Formidável | **Tipo:** Gigante | **Ameaça:** 22 | **Vida:** 115 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +0
+- **Ataque:** +8 | **Defesa física:** 13 | **Defesa mental:** 10
+- **Atributos:** Força +7, Vitalidade +6, Agilidade +0, Inteligência -3, Sabedoria +0, Vontade +0, Sorte +0, Sanidade +0
+- **Couraça:** Blindada (+3, crosta de gelo)
+- **Imunidade:** [Gelo](../habilidades/magicas-elementais.md#gelo) | **Vulnerabilidade:** [Fogo](../habilidades/magicas-elementais.md#fogo)
+- **Movimento:** 8 casas
+
+**Machado de Gelo** — ◈ | 0 Mana | +8 vs Defesa física | 1 criatura a até 2 casas
+
+- **3d8** de dano ([Cortante](../glossario.md#cortante)).
+
+**Bloco de Gelo** — ◈ | 0 Mana | +8 vs Defesa física | 1 criatura a até 10 casas
+
+- **3d8** de dano ([Impacto](../glossario.md#impacto)) e o alvo fica [Lento](../glossario.md#lento).
+
+**Congelar no Lugar** — +8 vs Defesa física | 1 criatura adjacente
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o gelo sobe pelas pernas do alvo, que fica [Agarrado](../glossario.md#agarrado)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o alvo [Agarrado](../glossario.md#agarrado) fica [Imóvel](../glossario.md#imovel) em vez disso, e sofre **2d8** de dano
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o gelo se espalha: 1 criatura adjacente ao alvo sofre o mesmo efeito
+
+**Couraça de Gelo** *(passiva)*
+
+- Enquanto tiver mais da metade da própria Vida, tem [Resistência](../glossario.md#resistencia) a [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto).
+
+## Warg da Neve
+
+*Maior que um lobo, feito pra carregar um gigante — e pra derrubar quem ficou pra trás.*
+
+- **Tier:** Treinado | **Tipo:** Fera | **Ameaça:** 8 | **Vida:** 32 | **PA:** ◈◈◈ (3) | **Iniciativa:** +3
+- **Ataque:** +5 | **Defesa física:** 12 | **Defesa mental:** 8
+- **Atributos:** Agilidade +3, Força +3, Vitalidade +3 | **Couraça:** Coriácea (+1, pelagem grossa)
+- **Movimento:** 10 casas
+
+**Mordida** — ◈ | +5 vs Defesa física | 1 criatura adjacente
+
+- **2d6** de dano ([Perfurante](../glossario.md#perfurante)).
+
+**Investida** — ◈◈ | +5 vs Defesa física | 1 criatura a até o Movimento
+
+- Avança e morde: **2d6** de dano, e o alvo fica [Derrubado](../glossario.md#derrubado) se estiver sozinho (nenhum aliado adjacente).
+
+**Matilha do Norte** *(passiva)*
+
+- Ataca com [Vantagem](../glossario.md#vantagem) se outro Warg da Neve estiver adjacente ao mesmo alvo.
+
+**Faro de Sangue** *(passiva)*
+
+- Ataca com [Vantagem](../glossario.md#vantagem) contra qualquer criatura [Sangrando](../glossario.md#sangrando).
+
+## Fome Entrincheirada
+
+*Ele quebrou o juramento de Bran uma vez. Agora nunca para de pagar por isso.*
+
+- **Tier:** Formidável | **Tipo:** Morto-vivo | **Ameaça:** 18 | **Vida:** 65 | **PA:** ◈◈◈◈ (4) | **Mana:** 20 | **Iniciativa:** +2
+- **Ataque:** +7 | **Defesa física:** 13 | **Defesa mental:** imune a efeito mental
+- **Atributos:** Força +6, Vitalidade +5, Agilidade +2, Vontade +3 | **Couraça:** Coriácea (+1, carne enrijecida pelo gelo)
+- **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental**
+- **Vulnerabilidade:** [Fogo](../habilidades/magicas-elementais.md#fogo)
+- **Movimento:** 8 casas
+
+**Garras Famintas** — ◈ | 0 Mana | +7 vs Defesa física | 1 criatura adjacente
+
+- **2d8** de dano ([Cortante](../glossario.md#cortante)), e a Fome Entrincheirada recupera metade do dano causado como Vida.
+
+**Fome Voraz** — +7 vs Defesa mental | 1 criatura adjacente
+
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o alvo fica [Amedrontado](../glossario.md#amedrontado)
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, e a Fome Entrincheirada morde de novo: mais **2d8** de dano ([Cortante](../glossario.md#cortante))
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o mesmo, e o alvo perde **1 de Vontade**, até um [descanso longo](../jogar/exploracao.md#descanso) — a lembrança do horror gruda
+
+**Fúria da Fome** *(passiva)*
+
+- Com metade ou menos da própria Vida, os ataques dela causam **+1d8**.

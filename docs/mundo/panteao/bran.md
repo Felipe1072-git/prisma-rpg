@@ -7,6 +7,8 @@ tipo: divindade
 - **Domínio:** Os bosques antigos, o inverno e o sacrifício
 - **Tendência:** Neutro ou Leal Bom
 - **Símbolo Sagrado:** uma runa de proteção
+- **Terra natal do culto:** [Testa de Ferro](../lugares/testa-de-ferro.md), lar dos clãs
+  Branari
 
 Bran é o senhor dos bosques e florestas antigas, guardião do inverno rigoroso e do
 sangue derramado para proteger o clã. Ensina que sobreviver exige sacrifício, e que a
