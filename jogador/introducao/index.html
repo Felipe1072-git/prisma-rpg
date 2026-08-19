@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Esta página mudou de lugar</title>
+<link rel="canonical" href="/prisma-rpg/jogar/">
+<script>
+var mapa = {};
+var chave = decodeURIComponent(location.hash.replace('#', ''));
+// Sem mapa de âncoras, a página inteira mudou de endereço sem mudar de
+// conteúdo (o Bestiário) — aí o hash continua valendo e vai junto.
+var alvo = (chave && mapa[chave]) ||
+  "jogar/" + (chave && !Object.keys(mapa).length ? location.hash : '');
+location.replace("/prisma-rpg/" + alvo);
+</script>
+<meta http-equiv="refresh" content="2; url=/prisma-rpg/jogar/">
+</head><body>
+<p>Esta página mudou de lugar. Se o navegador não seguir sozinho,
+<a href="/prisma-rpg/jogar/">clique aqui</a>.</p>
+</body></html>
