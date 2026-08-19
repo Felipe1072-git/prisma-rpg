@@ -47,18 +47,41 @@ se passa o controle pro Mestre, que passa a agir com ele como um NPC aliado. Se 
 invocar mais de um Aliado ao mesmo tempo, o controle vai sempre pro Mestre, independente do
 grau — duas fichas simultâneas é sobrecarga de mesa mesmo em graus baixos.
 
+**Comando Extra:** enquanto o Aliado estiver ativo, o usuário pode gastar ◈ (1 PA) + a mesma
+Mana da Intensidade I daquele Aliado, no próprio turno, pra fazê-lo agir mais uma vez nessa
+rodada — mesmo que ele já tenha usado todo o próprio PA. Não tem limite de uso além do PA e
+Mana disponíveis do usuário. Não vale pra Convocar Guardião do Pacto (Custo fixo, sem
+Intensidade pra ancorar o custo).
+
 **Servo de Cinzas** *(Menor)*
 
 *Um pequeno construto de brasa e cinza toma forma, pronto pra golpear no lugar do usuário.*
 
 - **Chave:** [Conjuração](../glossario.md#conjuracao)
 - **Atributo:** Vontade | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** invoca o Servo de Cinzas por 2 rodadas.
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, por 3 rodadas.
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o mesmo, por 4 rodadas.
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** invoca o Servo de Cinzas por 3 rodadas.
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, até o final da cena, ou até ser reduzido a 0 de Vida — o que vier primeiro.
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o mesmo, mas sem limite de cena — dura até ser reduzido a 0 de Vida, mesmo além do fim da cena atual.
 - **O Aliado:** Vida 6, PA ◈ (1), Ataque +1, Dano 1d4, Defesa física 7, Movimento 6 casas. Rola a própria Iniciativa e age no próprio turno; ataca a criatura hostil mais próxima do usuário (ou onde o jogador mandar, se estiver controlando ele mesmo).
 - **Ao fim da duração:** o Servo se desfaz sem penalidade — pode ser reconjurado normalmente, pagando PA + Mana de novo.
 - **Consequência de morte:** se reduzido a 0 de Vida antes do fim da duração, o Servo foge/se dissolve, e esta habilidade fica indisponível até o próximo [descanso longo](../jogar/exploracao.md#descanso) do usuário.
+
+**Corpo Provisório** *(Menor)*
+
+*Pela primeira vez, ela deixa de ser só uma voz — um corpo pequeno, feito de luz condensada, toma forma ao lado dele.*
+
+- **Chave:** [Conjuração](../glossario.md#conjuracao)
+- **Atributo:** Inteligência | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** invoca o corpo provisório da IA por 3 rodadas.
+- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o mesmo, até o final da cena, ou até ser reduzido a 0 de Vida — o que vier primeiro.
+- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o mesmo, mas sem limite de cena — dura até ser reduzido a 0 de Vida, mesmo além do fim da cena atual.
+- **O Aliado:** PA ◈ (1), Movimento 8 casas (flutuando). Rola a própria Iniciativa e age no próprio turno; ataca a criatura hostil mais próxima do usuário (ou onde o jogador mandar, se estiver controlando ele mesmo). Vida, Ataque, Dano e Defesa física escalam com o nível do usuário:
+- **Progressão — nível 1–4:** Vida 6, Ataque +1, Dano 1d4, Defesa física 7
+- **Progressão — nível 5–10:** Vida 14, Ataque +2, Dano 1d6, Defesa física 9
+- **Progressão — nível 11–15:** Vida 24, Ataque +3, Dano 2d4, Defesa física 11
+- **Progressão — nível 16–20:** Vida 36, Ataque +4, Dano 2d6, Defesa física 13
+- **Ao fim da duração:** o corpo se desfaz sem penalidade — pode ser reconjurado normalmente, pagando PA + Mana de novo.
+- **Consequência de morte:** se reduzido a 0 de Vida antes do fim da duração, o corpo se dissolve, e esta habilidade fica indisponível até o próximo [descanso longo](../jogar/exploracao.md#descanso) do usuário.
 
 **Chamar Lâmina Espectral** *(Médio)*
 
@@ -67,11 +90,42 @@ grau — duas fichas simultâneas é sobrecarga de mesa mesmo em graus baixos.
 - **Chave:** [Conjuração](../glossario.md#conjuracao)
 - **Atributo:** Vontade | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
 - **Intensidade I — ◈ (1 PA) + 5 Mana:** invoca a Lâmina Espectral por 3 rodadas.
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, por 4 rodadas.
-- **Intensidade III — ◈◈◈ (3 PA) + 13 Mana:** o mesmo, por 5 rodadas.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, até o final da cena, ou até ser reduzida a 0 de Vida — o que vier primeiro.
+- **Intensidade III — ◈◈◈ (3 PA) + 13 Mana:** o mesmo, mas sem limite de cena — dura até ser reduzida a 0 de Vida, mesmo além do fim da cena atual.
 - **O Aliado:** Vida 10, PA ◈◈ (2), Ataque +2, Dano 1d6, Defesa física 9, Movimento 7 casas. Rola a própria Iniciativa e age no próprio turno; ataca a criatura hostil mais próxima do usuário (ou onde o jogador mandar, se estiver controlando ele mesmo).
 - **Ao fim da duração:** a Lâmina se desfaz sem penalidade — pode ser reconjurada normalmente, pagando PA + Mana de novo.
 - **Consequência de morte:** se reduzida a 0 de Vida antes do fim da duração, a Lâmina foge/se dissolve, e esta habilidade fica indisponível até o próximo [descanso longo](../jogar/exploracao.md#descanso) do usuário.
+
+**Iteração Avançada** *(Médio)*
+
+*A versão anterior era um rascunho. Essa já pensa mais rápido do que fala.*
+
+- **Chave:** [Conjuração](../glossario.md#conjuracao)
+- **Atributo:** Inteligência | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
+- **Intensidade I — ◈ (1 PA) + 5 Mana:** invoca a Iteração Avançada por 3 rodadas.
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o mesmo, até o final da cena, ou até ser reduzida a 0 de Vida — o que vier primeiro.
+- **Intensidade III — ◈◈◈ (3 PA) + 13 Mana:** o mesmo, mas sem limite de cena — dura até ser reduzida a 0 de Vida, mesmo além do fim da cena atual.
+- **O Aliado:** PA ◈◈ (2), Movimento 9 casas (flutuando). Rola a própria Iniciativa e age no próprio turno; ataca a criatura hostil mais próxima do usuário (ou onde o jogador mandar, se estiver controlando ele mesmo). Vida, Ataque, Dano e Defesa física escalam com o nível do usuário:
+- **Progressão — nível 1–4:** Vida 10, Ataque +2, Dano 1d6, Defesa física 9
+- **Progressão — nível 5–10:** Vida 22, Ataque +3, Dano 2d6, Defesa física 11
+- **Progressão — nível 11–15:** Vida 38, Ataque +5, Dano 3d6, Defesa física 14
+- **Progressão — nível 16–20:** Vida 58, Ataque +6, Dano 4d6, Defesa física 17
+- **Ao fim da duração, ou se reduzida a 0 de Vida:** a Iteração se desfaz — sem nenhuma restrição pra reconjurar, contanto que o jogador tenha PA e Mana disponíveis pra pagar de novo.
+
+**Encarnação** *(Maior)*
+
+*Não é mais luz condensada, nem um rascunho de corpo — é ela, inteira, finalmente presente.*
+
+- **Chave:** [Conjuração](../glossario.md#conjuracao)
+- **Custo fixo:** ◈◈◈ (3 PA) + 18 Mana | **Atributo:** Inteligência | **Alcance:** 2 casas (onde o Aliado aparece) | **Alvos:** o próprio usuário (invoca 1 Aliado)
+- **Efeito:** invoca a Encarnação, que dura até o fim da cena.
+- **O Aliado:** PA ◈◈◈ (3), Movimento 9 casas (flutuando). Rola a própria Iniciativa e age no próprio turno; ataca a criatura hostil mais próxima do usuário (ou onde o jogador mandar, se estiver controlando ele mesmo). Vida, Ataque, Dano e Defesa física escalam com o nível do usuário:
+- **Progressão — nível 1–4:** Vida 22, Ataque +3, Dano 1d8, Defesa física 11
+- **Progressão — nível 5–10:** Vida 40, Ataque +5, Dano 2d8, Defesa física 14
+- **Progressão — nível 11–15:** Vida 65, Ataque +7, Dano 3d8, Defesa física 18
+- **Progressão — nível 16–20:** Vida 95, Ataque +9, Dano 4d8, Defesa física 22
+- **Ao fim da cena:** se desfaz sem penalidade — pode ser reconjurada normalmente, pagando PA + Mana de novo.
+- *(Sem Intensidade — Custo fixo, Supremo. Não recebe Comando Extra, pelo mesmo motivo da Guardião do Pacto.)*
 
 **Convocar Guardião do Pacto** *(Maior)*
 

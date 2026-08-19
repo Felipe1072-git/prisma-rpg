@@ -298,3 +298,44 @@ Cura e apoio a aliados.
 - **Intensidade I — ◈ (1 PA) + 5 Mana:** por 3 rodadas, a Vida **máxima** de cada alvo aumenta em 1d8 + Sabedoria, e cada um recupera Vida nessa mesma quantidade imediatamente. Quando o efeito termina, o excedente acima do máximo normal desaparece (sem matar ninguém, mesmo que isso reduza a Vida atual).
 - **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, com 2d8 + Sabedoria, por 4 rodadas.
 - **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o mesmo, com 3d8 + Sabedoria, por 5 rodadas.
+
+**Cálculo de Impacto**
+
+*A IA calcula o ângulo, a distância, o instante certo — e sussurra a correção final um piscar antes do golpe.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 aliado (ou o próprio usuário)
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** o alvo ganha +2 no próximo teste de ataque que fizer até o fim do turno dele.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, +4, e se acertar, causa +1d6 de dano extra.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, +6, e se acertar, causa +2d6 de dano extra.
+- *(Sem Crítico próprio — o bônus se soma ao teste normal do aliado, incluindo se ele mesmo tirar 20 natural)*
+
+**Campo de Interceptação**
+
+*Um campo quase invisível se acende ao redor do aliado — pronto pra absorver o que vier antes que doa.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 aliado (ou o próprio usuário)
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** o alvo ganha um [Escudo](../glossario.md#escudo) de 1d8 + Inteligência pontos, que absorve dano antes da Vida ser afetada. Dura até o final da [cena](../glossario.md#cena), ou até ser destruído.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, com 2d8 + Inteligência.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, com 3d8 + Inteligência.
+
+**Protocolo de Calma**
+
+*"Respire. Os números ainda fazem sentido." A voz não muda de tom, e por algum motivo isso ajuda.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 aliado (ou o próprio usuário)
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** o alvo remove 1 ponto de [Estresse](../jogar/estresse.md).
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, removendo 2 pontos.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, removendo 3 pontos, e o próximo teste de Estresse que o alvo fizer nesta cena rola com [Vantagem](../glossario.md#vantagem).
+
+**Alvo Prioritário**
+
+*"Aquele ali. Ataquem aquele primeiro." A recomendação nunca está errada.*
+
+- **Chave:** [Suporte](../glossario.md#suporte)
+- **Atributo:** Inteligência | **Alcance:** 8 casas | **Alvos:** criaturas hostis em 4 casas de raio ao redor de um ponto dentro do alcance
+- **Intensidade I — ◈ (1 PA) + 4 Mana:** até 2 criaturas hostis na área ficam [Marcadas](../glossario.md#marcado); o primeiro aliado que acertar cada uma causa +1d4 de dano extra nesse ataque.
+- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** até 4 criaturas hostis na área ficam Marcadas; o primeiro aliado que acertar cada uma causa +1d6 de dano extra.
+- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** **todas** as criaturas hostis na área ficam Marcadas; o primeiro aliado que acertar cada uma causa +1d8 de dano extra.

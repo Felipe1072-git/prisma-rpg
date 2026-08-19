@@ -1,6 +1,6 @@
 # Pacotes
 
-**100 kits de arquétipo prontos** — arma inicial + uma trilha de habilidades até o nível 20. **Não são classes:** são um ponto de partida, e você pode sair da trilha a qualquer momento. Filtre por vertente, arma, atributo ou Suprema final — ou deixe o d20 escolher.
+**101 kits de arquétipo prontos** — arma inicial + uma trilha de habilidades até o nível 20. **Não são classes:** são um ponto de partida, e você pode sair da trilha a qualquer momento. Filtre por vertente, arma, atributo ou Suprema final — ou deixe o d20 escolher entre os 100 sorteáveis (o [MCP](#pac-mcp) é especial demais pra entrar na roleta, e só aparece pra quem escolher de propósito).
 
 ??? regra "Como ler um pacote"
 
@@ -2037,3 +2037,23 @@
 | 15 | Pressão Brutal |
 | 17 | Fúria Imortal |
 | 19 | Erradicação *(Supremo)* |
+
+### MCP
+
+*"Meu Companheiro Pensante" — é assim que ela mesma escolheu se apresentar, a primeira vez que teve palavras pra isso. Chegou como uma esfera flutuante que mal sabia o próprio nome, e não para de aprender.*
+
+- **Arma inicial:** nenhuma — o combate passa pela IA, não por uma arma que o usuário empunha.
+- **Atributo em foco:** Inteligência
+
+| Nível | Habilidade |
+|---|---|
+| 1 | Primeira Leitura |
+| 3 | Banco de Dados |
+| 5 | Alerta Prévio |
+| 7 | Cálculo de Impacto |
+| 9 | Campo de Interceptação |
+| 11 | Protocolo de Calma |
+| 13 | Alvo Prioritário |
+| 15 | Corpo Provisório *(Menor)* |
+| 17 | Iteração Avançada *(Médio)* |
+| 19 | Encarnação *(Maior)* |

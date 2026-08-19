@@ -2299,10 +2299,10 @@ Dano: **1d8**
 
 - **Chave:** [Revólver Maverick](../glossario.md#revolver-maverick) - [Básica](../glossario.md#basica) - [Híbrida](../glossario.md#hibrida)
 - **Atributo:** Agilidade ou Inteligência | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 1 Mana:** a primeira explosão causa 1d8 de dano; a segunda, subindo em seguida, empurra o alvo 1 casa.
+- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** a primeira explosão causa 1d8 de dano; a segunda causa mais 1d4 de dano e derruba o alvo.
+- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** a primeira explosão causa 2d8 de dano; a segunda causa mais 1d6 de dano, derruba o alvo, e ele perde a próxima Reação.
+- **Crítico (20 natural):** dano máximo de ambas as explosões + uma rolagem extra igual, e sobe 1 Intensidade.
 
 **Investida de Alta Potência** — *Avançada*
 
