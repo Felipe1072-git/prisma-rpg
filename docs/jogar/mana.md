@@ -1,7 +1,5 @@
 # Mana
 
-<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/mana.jpg" alt="">
-
 | Resumo rápido | |
 |---|---|
 | Mana Máximo | **20 + Nível + (Magia × 2)** + Mana de equipamento |
@@ -9,6 +7,8 @@
 | Custo por Intensidade (habilidade geral) | **3 / 9 / 18** Mana (I / II / III) |
 | Custo por Intensidade (habilidade de arma) | varia pelo grau — ver [Escala de Mana](#escala-de-mana-por-intensidade) |
 | Requisito suave de Atributo | abaixo do recomendado pra Escala, rola com Desvantagem |
+
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/mana.jpg" alt="">
 
 Recurso universal que alimenta todas as habilidades do personagem — marciais, mágicas, sociais, etc. Não existe um recurso separado para "magia": tudo usa Mana.
 

@@ -1,7 +1,5 @@
 # Estresse
 
-<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/estresse.jpg" alt="">
-
 | Resumo rápido | |
 |---|---|
 | Estresse Máximo | **20 + Nível + (Sanidade × 2)** + Estresse de equipamento |
@@ -9,6 +7,8 @@
 | Ganho narrativo | **4d6**, testando d100 + Sanidade vs Dificuldade do Mestre |
 | Recuperação | igual Vida e Mana — metade no curto, tudo no longo |
 | Barra cheia | **Colapso** (1d6) na hora, depois **Cicatriz** (1d6) permanente |
+
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/estresse.jpg" alt="">
 
 <div style="float:right; width:190px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif; color:#211c14;">
   <div style="position:relative; clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px); border:1.4px solid #6a3fa0; background:#f1ebdc;">

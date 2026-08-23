@@ -1,13 +1,13 @@
 # Testes de d100
 
-<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/testes.jpg" alt="">
-
 | Resumo rápido | |
 |---|---|
 | Teste básico | **d100 + Atributo vs Dificuldade** — igualou ou superou, sucesso |
 | Vantagem / Desvantagem | 2d100, fica com o melhor / o pior |
 | Limiar de Crítico | **Sorte ÷ 3** (arredondado) |
 | Rerolagens por descanso longo | **1 + (Sorte ÷ 10)** |
+
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/testes.jpg" alt="">
 
 Há uma única fórmula no jogo inteiro, e ela resolve tudo — abrir uma fechadura, convencer um guarda, acertar um dragão:
 

@@ -1,7 +1,5 @@
 # Dano e Cura
 
-<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/dano-e-cura.jpg" alt="">
-
 | Resumo rápido | |
 |---|---|
 | Vida Máxima | **20 + Nível + (Defesa × 2)** + Vida de equipamento |
@@ -9,6 +7,8 @@
 | Tipos de dano físico | Cortante, Perfurante, Impacto (da arma), Arcano (foco mágico) |
 | Resistência / Imunidade / Vulnerabilidade | dano cai pela metade / é ignorado / dobra |
 | Chegando a 0 de Vida | fica **Caído** — d100 vs Dificuldade 50 no início do turno seguinte |
+
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/dano-e-cura.jpg" alt="">
 
 Quanto você aguenta, o que te machuca mais, como você se recupera — e o que acontece quando a Vida chega a zero.
 
