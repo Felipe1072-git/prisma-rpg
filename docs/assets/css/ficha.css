@@ -15,6 +15,20 @@
   --pf-destaque: #6a3fa0;
   --pf-destaque-bg: rgba(106, 63, 160, 0.08);
 
+  /* Cor por atributo — carrega pros recursos/estatísticas derivadas dele.
+     Identidade (Traços/Origem) e Equipado usam --pf-verde: são "outra coisa",
+     não atributo, então não competem pela mesma paleta viva. */
+  --pf-ataque: #b8502e;
+  --pf-defesa: #a3781a;
+  --pf-agilidade: #4c7a3d;
+  --pf-magia: #3f5fa0;
+  --pf-social: #a04570;
+  --pf-exploracao: #2d7a6e;
+  --pf-sorte: #b39422;
+  --pf-sanidade: #6a3fa0;
+  --pf-verde: #159c56;
+  --pf-neutro: #5b5343;
+
   color: var(--pf-tinta);
   font-family: "Crimson Pro", Georgia, serif;
   margin-top: 1.5rem;
@@ -91,7 +105,12 @@
   margin: 0 0 1mm;
 }
 
-.prg-secao--flex1 { flex: 1; }
+.prg-secao--flex1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
 
 .prg-secao__nota {
   font-size: 6.6pt;
@@ -146,96 +165,6 @@
 .prg-campo--grande { flex: 2; }
 .prg-campo--pequeno { flex: 0.5; }
 
-/* ------------------------------------------------------------ atributos */
-
-.prg-atributos {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 1.8mm;
-}
-
-.prg-atributo {
-  border: 1.2pt solid var(--pf-linha-forte);
-  border-radius: 3px;
-  background: var(--pf-bg);
-  text-align: center;
-  padding: 1mm 0 0.8mm;
-}
-
-.prg-atributo__valor {
-  min-height: 7mm;
-  font-size: 12pt;
-  font-weight: 700;
-  color: var(--pf-destaque);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 1px solid var(--pf-linha);
-  margin: 0 2mm 0.6mm;
-}
-
-.prg-atributo__nome {
-  font-size: 6.6pt;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-}
-
-/* -------------------------------------------------------------- recurso */
-
-.prg-recursos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.8mm;
-}
-
-.prg-recurso {
-  border: 1.2pt solid var(--pf-linha-forte);
-  border-radius: 3px;
-  background: var(--pf-bg);
-  padding: 1mm 1.5mm 0.8mm;
-  text-align: center;
-}
-
-.prg-recurso__nome {
-  font-size: 6.8pt;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-bottom: 0.6mm;
-}
-
-.prg-recurso__valores {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1mm;
-}
-
-.prg-recurso__caixa {
-  flex: 1;
-  min-height: 6mm;
-  border: 1px solid var(--pf-linha);
-  border-radius: 2px;
-  background: color-mix(in srgb, var(--pf-bg) 60%, white);
-}
-
-.prg-recurso__separador {
-  font-weight: 700;
-  color: var(--pf-tinta-leve);
-}
-
-.prg-recurso__legenda {
-  font-size: 6.2pt;
-  color: var(--pf-tinta-leve);
-  margin-top: 0.6mm;
-}
-
-.prg-recurso__formula {
-  font-size: 6pt;
-  color: var(--pf-tinta-leve);
-  font-style: italic;
-}
-
 /* PA — pontinhos de gasto */
 .prg-pa {
   display: flex;
@@ -249,28 +178,6 @@
   height: 5mm;
   border: 1.2pt solid var(--pf-destaque);
   border-radius: 50%;
-}
-
-/* -------------------------------------------------------------- traços */
-
-.prg-lista {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.prg-lista li {
-  padding: 0.5mm 0;
-  min-height: 3mm;
-}
-
-.prg-lista__rotulo {
-  font-weight: 700;
-  font-size: 6.8pt;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--pf-tinta-leve);
-  margin-right: 1.5mm;
 }
 
 /* ----------------------------------------------------- card de habilidade */
@@ -466,20 +373,26 @@
 
   @page {
     size: A4;
-    margin: 8mm;
+    margin: 0;
   }
 
   html:has(.prg-ficha), body:has(.prg-ficha) {
     background: #fff !important;
   }
 
+  /* A página impressa é o mesmo HTML/CSS da tela, do tamanho exato da
+     folha — sem largura/altura recalculadas pro papel. O @page acima
+     não tira margem nenhuma (a "margem" já é o padding interno de cada
+     página), então não sobra diferença nenhuma pra reconciliar aqui. */
   .prg-ficha__pagina {
-    width: auto;
-    min-height: 0;
-    max-height: 281mm;
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+    max-height: 297mm;
     margin: 0;
     border: none;
     box-shadow: none;
+    overflow: hidden;
     break-inside: avoid;
     break-after: page;
     page-break-after: always;
@@ -488,9 +401,5 @@
   .prg-ficha__pagina:last-child {
     break-after: auto;
     page-break-after: auto;
-  }
-
-  .prg-ficha__rodape {
-    margin-top: 2mm;
   }
 }

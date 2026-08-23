@@ -8,14 +8,14 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 
 | Nível | Dado Desarmado |
 |---|---|
-| 1–4 | 1d4 |
-| 5–10 | 1d6 |
-| 11–16 | 1d8 |
-| 17+ | 1d10 |
+| 0–25 | 2d6 |
+| 26–50 | 2d12 |
+| 51–75 | 2d20 |
+| 76–100 | 3d20 |
 
-*Traços raciais de "1 grau acima": no nível 17+, o dado sobe pra **1d12**.*
+*Traço racial de "1 grau acima" empurra a faixa de nível uma posição pra cima na tabela (ex: nível 51–75 passa a usar a faixa 76–100). No nível 76–100, que já é o teto, não há faixa acima — o bônus nesse caso fica a critério do Mestre.*
 
-**O corpo conta como arma [Finesse](../equipamento/regras.md#finesse):** toda habilidade desarmada usa **Força ou Agilidade, o que for maior**. Arte marcial é técnica tanto quanto força — travar o punho em Força puna justamente o lutador ágil, que é o arquétipo que mais depende dele.
+Toda habilidade desarmada usa **Ataque**, como qualquer outro golpe do jogo.
 
 O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo quando um traço racial disser outra coisa (garras naturais cortam).
 
@@ -26,12 +26,12 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *Punhos, cotovelos, joelhos — o corpo inteiro vira arma quando não há nada mais em mãos.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + dano desarmado extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano desarmado máximo + dano desarmado extra, e sobe 1 Intensidade
 
 **Ataque com Escudo**
 
@@ -39,22 +39,22 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Requisito:** usuário precisa ter algum Escudo (item) equipado — [Broquel](../equipamento/index.md#equ-broquel), [Escudo](../equipamento/index.md#equ-escudo), [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado) ou [Escudo Torre](../equipamento/index.md#equ-escudo-torre)
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + empurra 2 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + empurra 3 casas, derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + empurra 2 casas e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + empurra 3 casas, derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Caminho da Espada**
 
 *A mente se aquieta, e só resta a fúria — cada golpe mais selvagem que o anterior.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Dano:** usa o dado de dano da arma equipada | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** por 3 rodadas, todo Ataque Básico e Habilidade de Arma Marcial causa +1d4 de dano extra
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** por 3 rodadas, todo Ataque Básico e Habilidade de Arma Marcial causa +2d4 de dano extra
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** por 3 rodadas, todo Ataque Básico e Habilidade de Arma Marcial causa +3d4 de dano extra
+- **Atributo:** Ataque | **Alvos:** o próprio usuário
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** por 3 rodadas, todo Ataque Básico e Habilidade de Arma Marcial causa +1d4 de dano extra
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** por 3 rodadas, todo Ataque Básico e Habilidade de Arma Marcial causa +2d4 de dano extra
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** por 3 rodadas, todo Ataque Básico e Habilidade de Arma Marcial causa +3d4 de dano extra
 - **Restrição:** enquanto o efeito durar, o personagem não pode usar nenhuma outra Habilidade — em qualquer Intensidade.
 
 **Corte Duplo**
@@ -62,568 +62,550 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *Dois cortes rápidos em sucessão, testando a guarda do inimigo antes do golpe decisivo.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Golpe 1** e **Golpe 2** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** cada golpe que acertar causa 1d8 de dano
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** cada golpe que acertar causa 1d10 de dano; se os dois acertarem, o alvo é derrubado
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** cada golpe que acertar causa 2d10 de dano; se os dois acertarem, o alvo é derrubado e perde a próxima Reação
+- **Crítico:** cada golpe crítica separadamente — dano máximo dos dados da Intensidade usada + rolagem extra igual naquele golpe
 
 **Tornados Gêmeos**
 
 *Uma sequência de cortes em espiral, rápidos como o vento, guiados pela vontade de quem os desfere.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** até 3 criaturas à escolha, ao alcance da arma equipada
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** até 3 criaturas à escolha, ao alcance da arma equipada
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Toma Toma Toma**
 
 *Uma rajada de socos rápidos, o corpo avançando junto com os golpes.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa, e o usuário se desloca até 2 casas em direção ao alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até 2 casas em direção ao alvo + dano desarmado + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o usuário se desloca até 2 casas em direção ao alvo + dano desarmado + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até 2 casas em direção ao alvo + dano desarmado + derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Chute Meteoro**
 
 *Três chutes no ar seguidos por um golpe final certeiro.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Combo** (os três chutes) e **Chute Final** — cada um é um teste de ataque separado
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o Combo acerta por dano desarmado + empurra 1 casa; o Chute Final acerta por dano desarmado
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o Combo acerta por dano desarmado + empurra 1 casa; o Chute Final acerta por dano desarmado e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o Combo acerta por dano desarmado + empurra 1 casa; o Chute Final acerta por dano desarmado, derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** cada golpe crítica separadamente — dano desarmado máximo + rolagem extra naquele golpe
 
 **Ataque Frenético**
 
 *Uma investida agitada que termina com um tropeço brutal, derrubando o alvo de cara no chão.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + derruba o alvo, e o usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo + alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até o alvo + dano desarmado + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o usuário se desloca até o alvo + dano desarmado + derruba o alvo + alvo perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até o alvo + dano desarmado + derruba o alvo + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Turbilhão de Chutes**
 
 *Uma sequência de chutes giratórios que varre tudo ao redor, terminando com um chute descendente.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Atributo:** Ataque | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
+- **Chute descendente:** entre os alvos atingidos, escolha 1 — ele recebe o efeito extra da Intensidade, além do que todos os outros levam
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo; o alvo do chute descendente também é derrubado
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + empurra 1 casa e derruba cada alvo; o alvo do chute descendente também perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação; o alvo do chute descendente fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno
+- **Crítico:** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
 
 **Dragão Celeste**
 
 *Um golpe no chão seguido de um uppercut que ergue o alvo pelos ares.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado, e o alvo sobe aos ares — no início do próprio próximo turno dele, cai e fica [Derrubado](../glossario.md#derrubado)
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado, e o alvo sobe aos ares — no início do próprio próximo turno dele, cai, fica Derrubado, e perde a próxima Reação
+- **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Espírito Indomável**
 
 *Uma rajada de socos poderosos, terminando numa explosão que arrasta tudo ao redor.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Atributo:** Ataque | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo + puxa 1 casa cada alvo (em direção ao usuário)
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + puxa 1 casa e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + puxa 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
 
 **Fim dos Dias**
 
 *Uma investida com soco e explosão, terminando com um golpe surpresa pelas costas.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 2 criaturas diferentes
+- **Atributo:** Ataque | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 2 criaturas diferentes
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o primeiro alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
+- **Golpe surpresa:** o segundo alvo escolhido leva o golpe pelas costas — esse ataque rola com [Vantagem](../glossario.md#vantagem)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até o primeiro alvo + dano desarmado em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o usuário se desloca até o primeiro alvo + dano desarmado + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até o primeiro alvo + dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
 
 **Chute do Vento Cortante**
 
 *Um movimento contínuo, veloz como vento cortante, golpeando tudo em seu caminho.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força ou Agilidade | **Alvos:** até 4 criaturas à escolha, ao alcance do Movimento
+- **Atributo:** Ataque | **Alvos:** até 4 criaturas à escolha, ao alcance do Movimento
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
 - **Efeito adicional:** se esta habilidade derrubar pelo menos 1 alvo, o usuário recupera **1 Mana**
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + empurra 1 casa e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
 
 **Espada do Infinito**
 
 *Espadas fantasmas emergem do chão, e ao centro, uma lâmina maior dispara em linha reta, perfurando tudo em seu caminho.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Lâmina maior:** entre os alvos atingidos, escolha 1 — ele recebe o efeito extra da Intensidade, além do que todos os outros levam
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo; o alvo da lâmina maior também é derrubado
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba cada alvo; o alvo da lâmina maior também perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação; o alvo da lâmina maior fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Extinção da Alma**
 
 *Um pilar de energia se ergue do chão, arrastando todos os inimigos próximos pelos ares.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Custo fixo:** ◈◈◈ (3 PA) + 6 Mana | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** 8 casas | **Alvos:** todas as criaturas em 3 casas de raio de um ponto
-- **Dano:** usa o dado de dano da arma equipada
-- **Acerto:** 1x dado de dano + Sangrando + derruba cada alvo
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, Sangrando, e derruba cada alvo
+- **Custo fixo:** ◈◈◈ (3 PA) + 18 Mana | **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** todas as criaturas em 3 casas de raio de um ponto
+- **Acerto:** 2d10 de dano + puxa 2 casas em direção ao centro do pilar + Sangrando, e cada alvo sobe aos ares — no início do próprio próximo turno dele, cai e fica [Derrubado](../glossario.md#derrubado)
+- **Crítico:** dano máximo (20) + 2d10 extra em todos, puxa 2 casas, Sangrando, e sobe aos ares
 
 **Foice Mortal**
 
 *Um combo contínuo de cortes, avançando em linha reta e ceifando tudo à frente.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** cone de 3 casas à frente
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + Sangrando + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** cone de 3 casas à frente
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + Sangrando + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + Sangrando + derruba cada alvo, e o [Sangrando](../glossario.md#sangrando) causa 8d4 em vez de 4d4
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Estocada**
 
 *Uma investida direta, perfurando o alvo com força total.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + alvo fica [Marcado](../glossario.md#marcado)
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + Marcado + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + Marcado + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + alvo fica [Marcado](../glossario.md#marcado)
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + Marcado + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + Marcado + derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Carga com Lança**
 
 *Um avanço rápido e brutal, arremessando o corpo inteiro contra o alvo.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + empurra 1 casa, e o usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até o alvo + 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o usuário se desloca até o alvo + 1d10 de dano + empurra 1 casa e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até o alvo + 2d10 de dano + empurra 1 casa e derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Empalar**
 
 *O alvo é erguido do chão e atingido por mais dois cortes cruzados antes de cair.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba o alvo + alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba o alvo + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + derruba o alvo + alvo perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + derruba o alvo + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Destruição**
 
 *O poder demoníaco mais puro se concentra nas garras, explodindo num dano avassalador.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 2x dado de dano + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2x dado de dano + derruba o alvo, e empurra 2 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2x dado de dano + derruba o alvo + empurra 2 casas, e o alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico (20 natural):** dado máximo (2x) + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + derruba o alvo, e empurra 2 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + derruba o alvo + empurra 2 casas, e o alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte Triplo**
 
 *Um movimento giratório que corta o ar três vezes seguidas.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Golpe 1**, **Golpe 2** e **Golpe 3** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** cada golpe que acertar causa 1d6 de dano
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** cada golpe que acertar causa 1d8 de dano; se pelo menos 2 acertarem, empurra 1 casa
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** cada golpe que acertar causa 1d10 de dano; se os três acertarem, o alvo é derrubado e perde a próxima Reação
+- **Crítico:** cada golpe crítica separadamente — dano máximo dos dados da Intensidade usada + rolagem extra igual naquele golpe
 
 **Rodamoinho**
 
 *Dois cortes poderosos, girando o corpo inteiro pra frente.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** todas as criaturas adjacentes
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Grande X**
 
 *Energia se acumula na lâmina durante um salto, disparada num golpe diagonal devastador.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 2x dado de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2x dado de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2x dado de dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo (2x) + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Giga Corte**
 
 *Um ataque destruidor que atinge com toda a força à frente.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** cone de 3 casas à frente
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** cone de 3 casas à frente
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d10 de dano em cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d12 de dano em cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d12 de dano em cada alvo
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Erupção de Ferroadas**
 
 *Um salto seguido de um impacto que libera todo o poder da lâmina no chão.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor do ponto
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 1 casa cada alvo, e o usuário se desloca até o ponto
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor do ponto
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até o ponto + 1d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o usuário se desloca até o ponto + 1d10 de dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até o ponto + 2d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Esmagador de Ossos**
 
 *A lâmina gira abrindo caminho à força, esmagando tudo que estiver perto.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** linha de 5 casas à frente
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** linha de 5 casas à frente
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Dança da Perdição**
 
 *Um tornado de lâminas se forma ao redor do usuário, empurrando tudo pra longe.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 2 casas de raio ao redor do usuário
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 2 casas cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + empurra 2 casas e derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + empurra 4 casas e derruba cada alvo
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 2 casas de raio ao redor do usuário
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 2 casas cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 2 casas cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 4 casas cada alvo
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Pressão Brutal**
 
 *Um empurrão bruto, arremessando o alvo com a força pura da lâmina.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + empurra 3 casas
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + empurra 5 casas e derruba o alvo
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + empurra 2 casas
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 3 casas
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 5 casas e derruba o alvo
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Grilhões da Alma**
 
 *A lâmina se finca no chão com força, explodindo e arremessando tudo ao redor pelos ares.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 1x dado de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 1x dado de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 1x dado de dano + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d10 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d12 de dano + empurra 1 casa e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d12 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Chute Navalha**
 
 *Um mergulho aéreo termina num chute certeiro, seguido por um giro que acerta de surpresa.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Hanuman**
 
 *Uma sequência furiosa de chutes giratórios termina com um salto que arremessa o atacante pra trás do alvo.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
-- **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado), rolado 2 vezes
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 2x dano desarmado + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2x dano desarmado + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2x dano desarmado + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo (2x) + rolagem extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 2 casas, e o usuário termina atrás do alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo, e o usuário termina atrás dele
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação; o usuário termina atrás dele
+- **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Andorinhas de Bambu**
 
 *O lutador se torna um borrão entre ilusões de bambu, atingindo tudo que estiver por perto antes de finalizar com um chute descendente.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força ou Agilidade | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Ataque | **Alvos:** 2 casas de raio ao redor do usuário
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
 
 **Mão Infinita**
 
 *Uma rajada de golpes de palma, rápidos demais pra acompanhar, termina com um chute lateral.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + alvo perde a próxima Reação + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** **2x** dano desarmado + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Rajada** (os golpes de palma) e **Chute Final** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** a Rajada acerta por dano desarmado; o Chute Final acerta por dano desarmado e derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** a Rajada acerta por dano desarmado; o Chute Final acerta por dano desarmado, derruba o alvo, e ele perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** a Rajada acerta por dano desarmado; o Chute Final acerta por dano desarmado, derruba o alvo, ele perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico:** cada golpe crítica separadamente — dano desarmado máximo + rolagem extra naquele golpe
 
 **Queda de Fogo**
 
 *Um golpe arremessa o inimigo longe — mas o lutador já teleportou acima dele, esmagando o chão com um impacto que atinge até quem estiver no ar.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força ou Agilidade | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + empurra 2 casas, e o usuário se desloca até o alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 2 casas, e o usuário se desloca até o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Postura do Dragão**
 
 *O corpo se move como um dragão em fúria, teleportando pra trás do inimigo antes que ele perceba.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + alvo fica [Marcado](../glossario.md#marcado), e o usuário se desloca pra trás do alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + Marcado + empurra 1 casa
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + Marcado + empurra 3 casas e derruba o alvo
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + alvo fica [Marcado](../glossario.md#marcado), e o usuário se desloca pra trás do alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + Marcado + empurra 1 casa
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + Marcado + empurra 3 casas e derruba o alvo
+- **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Postura do Tigre**
 
 *Depois de um golpe certeiro, o corpo assume a postura do tigre branco — pronta pra atacar de novo, mais forte.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + usuário ganha Escudo de 1d4 pontos
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + derruba o alvo + usuário ganha Escudo de 1d4 pontos
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + derruba o alvo + usuário ganha Escudo de 1d4 pontos, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + usuário ganha Escudo de 1d4 pontos
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo + usuário ganha Escudo de 1d6 pontos
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo + usuário ganha Escudo de 2d6 pontos, e ele perde a próxima Reação
+- **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Justiça**
 
 *Uma sequência de golpes com o martelo termina com um golpe direto no chão, lançando o inimigo pro alto.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa, e o alvo sobe aos ares — no início do próprio próximo turno dele, cai e fica [Derrubado](../glossario.md#derrubado)
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa, e o alvo sobe aos ares — no início do próprio próximo turno dele, cai, fica Derrubado, e perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Martelo Explosivo**
 
 *Um avanço brutal arrasta tudo no caminho antes de terminar com um golpe gigantesco.*
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
-- **Atributo:** Força | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + puxa cada alvo até a posição final do usuário
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + puxa + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + puxa + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + puxa cada alvo até a posição final do usuário
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + puxa cada alvo até a posição final do usuário e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + puxa cada alvo até a posição final do usuário e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Golpe Veloz**
 
 *Um corte rápido com a lâmina, finalizado por um tiro certeiro da pistola.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + empurra 2 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + empurra 3 casas, derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Corte** e **Tiro** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o Corte acerta por 1d6 de dano + empurra 1 casa; o Tiro acerta por 1d6 de dano
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o Corte acerta por 1d8 de dano + empurra 1 casa; o Tiro acerta por 1d8 de dano e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o Corte acerta por 1d10 de dano + empurra 1 casa; o Tiro acerta por 1d10 de dano, derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** cada golpe crítica separadamente — dano máximo dos dados da Intensidade usada + rolagem extra igual naquele golpe
 
 **Onda Lunática**
 
 *Um golpe poderoso libera uma onda de força que viaja à distância.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 2 casas cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 2 casas cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 2 casas e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 2 casas e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Golpe do Desespero**
 
 *Um golpe de ombro desequilibra o inimigo, seguido por um tiro certeiro à queima-roupa.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Golpe de Ombro** e **Tiro** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o Golpe de Ombro acerta por 1d6 de dano + empurra 1 casa; o Tiro acerta por 1d6 de dano
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o Golpe de Ombro acerta por 1d8 de dano + empurra 1 casa e derruba o alvo; o Tiro acerta por 1d8 de dano
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o Golpe de Ombro acerta por 1d10 de dano + empurra 1 casa e derruba o alvo; o Tiro acerta por 1d10 de dano, e o alvo perde a próxima Reação
+- **Crítico:** cada golpe crítica separadamente — dano máximo dos dados da Intensidade usada + rolagem extra igual naquele golpe
 
 **Golpe da Alma**
 
 *Um corte baixo mirando os pés é seguido por um golpe ascendente certeiro.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba o alvo + alvo perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba o alvo + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Corte Baixo** e **Golpe Ascendente** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o Corte Baixo acerta por 1d6 de dano; o Golpe Ascendente acerta por 1d6 de dano e derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o Corte Baixo acerta por 1d8 de dano; o Golpe Ascendente acerta por 1d8 de dano, derruba o alvo, e ele perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o Corte Baixo acerta por 1d10 de dano; o Golpe Ascendente acerta por 1d10 de dano, derruba o alvo, ele perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico:** cada golpe crítica separadamente — dano máximo dos dados da Intensidade usada + rolagem extra igual naquele golpe
 
 **Escamas Cortantes**
 
 *Estocadas rápidas avançam e recuam repetidamente, terminando com um golpe diagonal ascendente.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 2x dado de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 2x dado de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 2x dado de dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo (2x) + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Estocadas** (a sequência de avanços) e **Golpe Final** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** as Estocadas acertam por 1d6 de dano + empurra 1 casa; o Golpe Final acerta por 1d8 de dano
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** as Estocadas acertam por 1d8 de dano + empurra 1 casa; o Golpe Final acerta por 1d10 de dano e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** as Estocadas acertam por 2d6 de dano + empurra 1 casa; o Golpe Final acerta por 2d10 de dano, derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** cada golpe crítica separadamente — dano máximo dos dados da Intensidade usada + rolagem extra igual naquele golpe
 
 **Lampejo de Luz**
 
 *Um corte horizontal longo e preciso, seguido por um segundo golpe no mesmo arco.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba cada alvo, e cada alvo perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Lua Crescente**
 
 *Um corte em arco, no formato de uma lua minguante, varre tudo ao redor.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** todas as criaturas adjacentes
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + cada alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
-- **Crítico (20 natural):** dado máximo + 1x dado extra em todos, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** todas as criaturas adjacentes
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa cada alvo, e cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa cada alvo, cada alvo fica Sangrando, e o Sangrando causa 8d4 em vez de 4d4
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Sede de Sangue**
 
 *A lâmina suga a força vital do alvo, transferindo-a de volta ao usuário.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + usuário recupera Vida igual à metade do dano causado
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + usuário recupera Vida igual ao dano causado
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + usuário recupera Vida igual ao dano causado, e derruba o alvo
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + usuário recupera Vida igual à metade do dano causado
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + usuário recupera Vida igual ao dano causado
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + usuário recupera Vida igual ao dano causado, e derruba o alvo
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Erradicação** *(Supremo)*
 
 *Toda a força contida é liberada de uma vez, devastando tudo ao redor num único golpe.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Alvos:** todas as criaturas **hostis** em 3 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Alvos:** todas as criaturas **hostis** em 3 casas de raio ao redor do usuário
 - **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
 - **Acerto:** 2x dado de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno
-- **Crítico (20 natural):** dado máximo (2x) + 1x dado extra em todos, e o Atordoado dura mais 1 rodada
+- **Crítico:** dado máximo (2x) + 1x dado extra em todos, e o Atordoado dura mais 1 rodada
 
 **Esmagador**
 
 *Um dispositivo pesado se materializa no ar e desaba sobre o alvo com força total.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Dano:** usa o dado de dano da arma equipada
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dado de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dado de dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dado de dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dado máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Divisão Espacial** *(Supremo)*
 
 *Uma sequência de cortes impossivelmente rápidos varre o campo de batalha inteiro.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
 - **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
 - **Acerto:** 2x dado de dano + derruba cada alvo
-- **Crítico (20 natural):** dado máximo (2x) + 1x dado extra em todos, e derruba cada alvo
+- **Crítico:** dado máximo (2x) + 1x dado extra em todos, e derruba cada alvo
 
 **Queda Celestial** *(Supremo)*
 
 *Seis flores de chi desabrocham ao redor do usuário, e mais uma sob cada inimigo à vista — todas explodem ao mesmo tempo, arremessando tudo pro alto.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Alcance:** 10 casas | **Alvos:** todas as criaturas hostis à vista, dentro do alcance
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Alcance:** 10 casas | **Alvos:** todas as criaturas hostis à vista, dentro do alcance
 - **Dano:** usa o dado de dano da arma equipada, rolado 2 vezes
 - **Acerto:** 2x dado de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno
-- **Crítico (20 natural):** dado máximo (2x) + 1x dado extra em todos, e o Atordoado dura mais 1 rodada
+- **Crítico:** dado máximo (2x) + 1x dado extra em todos, e o Atordoado dura mais 1 rodada
 
 **Retaliação** *(usada como Reação)*
 
 *Cada golpe recebido de perto vira desculpa pra revidar.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** o atacante (precisa estar adjacente)
+- **Atributo:** Ataque | **Alvos:** o atacante (precisa estar adjacente)
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 3 Mana:** quando uma criatura adjacente causar dano ao usuário com um ataque corpo a corpo, ele pode usar esta habilidade como Reação pra fazer um Ataque Básico contra ela imediatamente.
-- **Intensidade II — 0 PA + 6 Mana:** o mesmo, e esse Ataque Básico causa +1d4 de dano extra.
-- **Intensidade III — 0 PA + 9 Mana:** o mesmo, e esse Ataque Básico causa +2d4 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
+- **Intensidade I — 0 PA + 9 Mana:** quando uma criatura adjacente causar dano ao usuário com um ataque corpo a corpo, ele pode usar esta habilidade como Reação pra fazer um Ataque Básico contra ela imediatamente.
+- **Intensidade II — 0 PA + 18 Mana:** o mesmo, e esse Ataque Básico causa +1d4 de dano extra.
+- **Intensidade III — 0 PA + 27 Mana:** o mesmo, e esse Ataque Básico causa +2d4 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
 
 **Golpe Bruto**
 
@@ -631,11 +613,11 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Requisito:** usuário precisa ter aprendido Ataque Temerário, e só pode usar esta habilidade num golpe em que declarou atacar de forma temerária (abrindo mão da própria Vantagem daquele ataque)
-- **Atributo:** Força | **Dano:** usa o dado de dano da arma equipada, ou o [Dano Desarmado](../glossario.md#dano-desarmado) | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** +1d10 de dano extra, e o alvo é empurrado 3 casas — o usuário pode então se deslocar até metade do Movimento em direção a ele, sem provocar Ataque de Oportunidade.
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** +1d10 de dano extra, e o Movimento do alvo é reduzido em 3 casas até o início do próprio próximo turno dele (não acumula com outro Golpe Bruto — vale o mais recente).
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** +2d10 de dano extra, e o usuário escolhe um: **(a)** o alvo tem [Desvantagem](../glossario.md#desvantagem) no próximo teste de resistência que fizer, e não pode usar Reações até o início do próprio próximo turno; ou **(b)** o próximo ataque de qualquer outra criatura contra o alvo rola com [Vantagem](../glossario.md#vantagem), até o início do próximo turno do usuário.
-- **Crítico (20 natural):** dano extra máximo + rolagem extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Dano:** usa o dado de dano da arma equipada, ou o [Dano Desarmado](../glossario.md#dano-desarmado) | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** +1d10 de dano extra, e o alvo é empurrado 3 casas — o usuário pode então se deslocar até metade do Movimento em direção a ele, sem provocar Ataque de Oportunidade.
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** +1d10 de dano extra, e o Movimento do alvo é reduzido em 3 casas até o início do próprio próximo turno dele (não acumula com outro Golpe Bruto — vale o mais recente).
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** +2d10 de dano extra, e o usuário escolhe um: **(a)** o alvo tem [Desvantagem](../glossario.md#desvantagem) no próximo teste de resistência que fizer, e não pode usar Reações até o início do próprio próximo turno; ou **(b)** o próximo ataque de qualquer outra criatura contra o alvo rola com [Vantagem](../glossario.md#vantagem), até o início do próximo turno do usuário.
+- **Crítico:** dano extra máximo + rolagem extra, e sobe 1 Intensidade
 
 **Arremesso Brutal**
 
@@ -643,10 +625,10 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Requisito:** o alvo precisa ser do tamanho do usuário ou menor, e estar adjacente a ele no momento de ativar
-- **Atributo:** Força | **Defesa:** física (Agilidade), só quando o alvo for hostil — aliado sempre aceita | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** contra alvo hostil, teste de Força do usuário vs Defesa física dele. Acertando (ou sendo aliado), desloca o alvo até 4 casas pra uma casa desocupada que o usuário possa ver. Se não houver chão firme no destino, ele cai — dano de queda normal (1d6 de Impacto a cada 2 casas de altura) — e aterrissa [Derrubado](../glossario.md#derrubado).
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, deslocando até 6 casas.
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, deslocando até 8 casas; se o alvo pousar numa casa ocupada por outra criatura, ambas sofrem 1d8 de dano de Impacto e a criatura atingida também fica [Derrubada](../glossario.md#derrubado).
+- **Atributo:** Ataque | **vs:** Evasão, só quando o alvo for hostil — aliado sempre aceita | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** contra alvo hostil, teste de Ataque do usuário vs Evasão dele. Acertando (ou sendo aliado), desloca o alvo até 4 casas pra uma casa desocupada que o usuário possa ver. Se não houver chão firme no destino, ele cai — dano de queda normal (1d6 de Impacto a cada 2 casas de altura) — e aterrissa [Derrubado](../glossario.md#derrubado).
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, deslocando até 6 casas.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, deslocando até 8 casas; se o alvo pousar numa casa ocupada por outra criatura, ambas sofrem 1d8 de dano de Impacto e a criatura atingida também fica [Derrubada](../glossario.md#derrubado).
 
 **Golpe Desequilibrante** *(Passiva)*
 
@@ -663,7 +645,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Requisito:** não pode estar usando nenhuma Armadura (Escudo continua permitido)
-- **Efeito:** enquanto a condição acima for verdadeira, a Defesa física do usuário passa a ser 8 + Agilidade + Vitalidade, em vez de 8 + Agilidade + Armadura.
+- **Efeito:** enquanto a condição acima for verdadeira, a Evasão do usuário passa a ser Agilidade + Defesa, em vez de Agilidade + Escudo.
 
 **Postura do Vazio** *(Passiva)*
 
@@ -672,7 +654,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Requisito:** não pode estar usando Armadura nem Escudo
-- **Efeito:** enquanto a condição acima for verdadeira, a Defesa física do usuário passa a ser 8 + Agilidade + Sabedoria, em vez de 8 + Agilidade + Armadura.
+- **Efeito:** enquanto a condição acima for verdadeira, a Evasão do usuário passa a ser Agilidade + Exploração, em vez de Agilidade + Escudo.
 
 **Ataque Temerário** *(Passiva)*
 
@@ -680,7 +662,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
-- **Efeito:** no início do seu turno, antes do primeiro teste de ataque, você pode declarar que está atacando de forma temerária. Se fizer isso, todo ataque seu que use Força rola com [Vantagem](../glossario.md#vantagem) até o início do seu próximo turno — mas qualquer ataque contra você também rola com Vantagem nesse mesmo período.
+- **Efeito:** no início do seu turno, antes do primeiro teste de ataque, você pode declarar que está atacando de forma temerária. Se fizer isso, todo ataque seu que use Ataque rola com [Vantagem](../glossario.md#vantagem) até o início do seu próximo turno — mas qualquer ataque contra você também rola com Vantagem nesse mesmo período.
 
 **Passo Selvagem** *(Passiva)*
 
@@ -698,7 +680,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Requisito:** só funciona enquanto Fúria Sanguinária, Fúria do Lobo, Fúria Selvagem ou Fúria Imortal estiver ativa
-- **Efeito:** se você cair a 0 de Vida nesse período (sem isso te matar de vez), role d20 + Vitalidade contra uma DC que começa em 10. Passando, sua Vida vira um número igual ao dobro do seu nível, em vez de ficar [Caído](../jogar/dano-e-cura.md#chegando-a-0-de-vida). Cada vez que usar esse efeito de novo na mesma [cena](../glossario.md#cena), a DC sobe 5; ela volta a 10 no início do próximo descanso longo.
+- **Efeito:** se você cair a 0 de Vida nesse período (sem isso te matar de vez), role d100 + Defesa contra uma Dificuldade que começa em 50. Passando, sua Vida vira um número igual ao dobro do seu nível, em vez de ficar [Caído](../jogar/dano-e-cura.md#chegando-a-0-de-vida). Cada vez que usar esse efeito de novo na mesma [cena](../glossario.md#cena), a Dificuldade sobe 25; ela volta a 50 no início do próximo descanso longo.
 
 **Golpe Irresistível** *(Passiva)*
 
@@ -706,7 +688,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
-- **Efeito:** ao aprender esta habilidade, escolha Força ou Agilidade — esse atributo aumenta permanentemente em +1. Além disso, os ataques do usuário sempre ignoram Resistência a dano físico do alvo, e todo Crítico (20 natural) causa dano extra adicional igual ao valor atual do atributo escolhido.
+- **Efeito:** ao aprender esta habilidade, escolha Ataque — esse atributo aumenta permanentemente em +5. Além disso, os ataques do usuário sempre ignoram Resistência a dano físico do alvo, e todo Crítico causa dano extra adicional igual ao valor atual do atributo escolhido.
 
 **Corpo Primordial** *(Passiva)*
 
@@ -714,7 +696,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
-- **Efeito:** Força e Vitalidade aumentam permanentemente em +2 cada.
+- **Efeito:** Ataque e Defesa aumentam permanentemente em +10 cada.
 
 **Força Absoluta** *(Passiva)*
 
@@ -722,7 +704,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
-- **Efeito:** em qualquer teste de Força que não seja um ataque, trate qualquer resultado do d20 menor que 15 como se fosse 15.
+- **Efeito:** em qualquer teste de Ataque que não seja um ataque, trate qualquer resultado do d100 menor que 75 como se fosse 75.
 
 **Instinto Selvagem** *(Passiva)*
 
@@ -738,7 +720,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
-- **Efeito:** o usuário pode usar Inteligência em vez de Força ou Agilidade pra testes de ataque e dano com qualquer arma corpo a corpo ou à distância.
+- **Efeito:** o usuário pode usar Magia em vez de Ataque pra testes de ataque e dano com qualquer arma corpo a corpo ou à distância.
 
 **Investida Dupla** *(Dupla Empunhadura: Lança + Espada)*
 
@@ -746,12 +728,12 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
 - **Requisito:** usuário precisa ter Lança e Espada equipadas simultaneamente
-- **Atributo:** Força | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** soma dos dados das duas armas (1d10 + 1d8)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dano + derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dano + derruba o alvo, e ele perde a próxima Reação
-- **Crítico (20 natural):** dano máximo + 1x dano extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1x dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1x dano + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 1x dano + derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano máximo + 1x dano extra, e sobe 1 Intensidade
 
 **Combo Punitivo** *(Dupla Empunhadura: Lança + Espada)*
 
@@ -759,12 +741,12 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
 - **Requisito:** usuário precisa ter Lança e Espada equipadas simultaneamente
-- **Atributo:** Força | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Ataque | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
 - **Dano:** soma dos dados das duas armas (1d10 + 1d8) em cada alvo
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dano + derruba cada alvo
-- **Crítico (20 natural):** dano máximo + 1x dano extra em todos, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1x dano em cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1x dano + empurra 1 casa cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 1x dano + derruba cada alvo
+- **Crítico:** dano máximo + 1x dano extra em todos, e sobe 1 Intensidade
 
 **Mergulho Furioso** *(Dupla Empunhadura: Lança + Espada)*
 
@@ -772,12 +754,12 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
 - **Requisito:** usuário precisa ter Lança e Espada equipadas simultaneamente
-- **Atributo:** Força | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Atributo:** Ataque | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
 - **Dano:** soma dos dados das duas armas (1d10 + 1d8) em cada alvo
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dano em cada alvo, usuário se desloca até o ponto
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dano + derruba cada alvo
-- **Crítico (20 natural):** dano máximo + 1x dano extra em todos, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1x dano em cada alvo, usuário se desloca até o ponto
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1x dano + empurra 1 casa cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 1x dano + derruba cada alvo
+- **Crítico:** dano máximo + 1x dano extra em todos, e sobe 1 Intensidade
 
 **Dança das Lâminas Gêmeas** *(Dupla Empunhadura: Katana Nodachi + Katana Muramasa)*
 
@@ -785,12 +767,12 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
 - **Requisito:** usuário precisa ter Katana Nodachi e Katana Muramasa equipadas simultaneamente
-- **Atributo:** Força ou Agilidade | **Alvos:** 1 criatura
+- **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** soma dos dados das duas armas (1d10 + 1d10)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dano + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 2d4 em vez de 1d4
-- **Crítico (20 natural):** dano máximo + 1x dano extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1x dano + empurra 1 casa
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1x dano + alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 1x dano + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 8d4 em vez de 4d4
+- **Crítico:** dano máximo + 1x dano extra, e sobe 1 Intensidade
 
 **Corte Cruzado** *(Dupla Empunhadura: Katana Nodachi + Katana Muramasa)*
 
@@ -798,12 +780,12 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
 - **Requisito:** usuário precisa ter Katana Nodachi e Katana Muramasa equipadas simultaneamente
-- **Atributo:** Força ou Agilidade | **Alvos:** até 2 criaturas diferentes adjacentes
+- **Atributo:** Ataque | **Alvos:** até 2 criaturas diferentes adjacentes
 - **Dano:** soma dos dados das duas armas (1d10 + 1d10) em cada alvo
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dano + cada alvo fica Sangrando
-- **Crítico (20 natural):** dano máximo + 1x dano extra em ambos, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1x dano em cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1x dano + empurra 1 casa cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 1x dano + cada alvo fica Sangrando
+- **Crítico:** dano máximo + 1x dano extra em ambos, e sobe 1 Intensidade
 
 **Fúria das Lâminas Gêmeas** *(Dupla Empunhadura: Katana Nodachi + Katana Muramasa)*
 
@@ -811,19 +793,19 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Dupla Empunhadura](../glossario.md#dupla-empunhadura)
 - **Requisito:** usuário precisa ter Katana Nodachi e Katana Muramasa equipadas simultaneamente
-- **Atributo:** Força ou Agilidade | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Ataque | **Alvos:** todas as criaturas adjacentes
 - **Dano:** soma dos dados das duas armas (1d10 + 1d10) em cada alvo
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1x dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1x dano + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1x dano + Sangrando + derruba cada alvo
-- **Crítico (20 natural):** dano máximo + 1x dano extra em todos, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1x dano em cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1x dano + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 1x dano + Sangrando + derruba cada alvo
+- **Crítico:** dano máximo + 1x dano extra em todos, e sobe 1 Intensidade
 
 **Nascimento das Lâminas** *(Supremo)*
 
 *Sete espadas espectrais são invocadas, cortando o campo de batalha repetidas vezes antes de atacarem juntas num golpe final.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Força | **Alvos:** todas as criaturas hostis em 5 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Alvos:** todas as criaturas hostis em 5 casas de raio ao redor do usuário
 - **Dano:** usa o dado de dano da arma equipada
 - **Efeito:** 1x dado de dano automático em cada alvo, imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total). Na 3ª aplicação — o golpe final —, o dano dobra (2x dado) e cada alvo ainda na área fica [Derrubado](../glossario.md#derrubado).
 
@@ -841,7 +823,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Requisito:** o usuário não pode ter se movido neste turno
-- **Custo fixo:** ◈ (1 PA) + 4 Mana | **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Custo fixo:** ◈ (1 PA) + 12 Mana | **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - **Efeito:** o próximo teste de ataque que o usuário fizer nesta rodada rola com [Vantagem](../glossario.md#vantagem) garantida. Depois de usar esta habilidade, o Movimento do usuário vira 0 até o fim do turno atual.
 - *(Sem Intensidade — efeito absoluto: Vantagem garantida)*
 
@@ -851,18 +833,18 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Requisito:** só pode ser usada contra um alvo que esteja [Desprevenido](../glossario.md#desprevenido)
-- **Atributo:** Força ou Agilidade | **Dano:** usa o dado de dano da arma equipada, ou o [Dano Desarmado](../glossario.md#dano-desarmado) | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 2x dado de dano
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 3x dado de dano
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 4x dado de dano, e o alvo fica [Sangrando](../glossario.md#sangrando)
-- **Crítico (20 natural):** dano máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 2d8 de dano
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 3d8 de dano
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano, e o alvo fica [Sangrando](../glossario.md#sangrando)
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Reflexos Extras** *(Supremo)*
 
 *O tempo hesita, e por um instante, ele age antes de todo mundo — duas vezes.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Custo fixo:** 0 PA + 16 Mana | **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Custo fixo:** 0 PA + 48 Mana | **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - **Efeito:** o usuário ganha um turno extra completo (◈◈◈ novos), imediatamente após o próprio turno normal, antes que o próximo participante na Iniciativa aja.
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
@@ -895,11 +877,11 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *Toda abertura serve — não importa quem a abriu.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** a criatura que sofreu dano
+- **Atributo:** Ataque | **Alvos:** a criatura que sofreu dano
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 4 Mana:** quando uma criatura adjacente ao usuário sofrer dano de uma fonte que não seja o próprio usuário, ele pode usar esta habilidade como Reação pra fazer um Ataque Básico contra ela imediatamente.
-- **Intensidade II — 0 PA + 7 Mana:** o mesmo, e esse ataque causa +1d4 de dano extra.
-- **Intensidade III — 0 PA + 10 Mana:** o mesmo, e esse ataque causa +2d4 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
+- **Intensidade I — 0 PA + 12 Mana:** quando uma criatura adjacente ao usuário sofrer dano de uma fonte que não seja o próprio usuário, ele pode usar esta habilidade como Reação pra fazer um Ataque Básico contra ela imediatamente.
+- **Intensidade II — 0 PA + 21 Mana:** o mesmo, e esse ataque causa +1d4 de dano extra.
+- **Intensidade III — 0 PA + 30 Mana:** o mesmo, e esse ataque causa +2d4 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
 
 **Golpe que Ensina** *(Passiva)*
 
@@ -914,22 +896,22 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 *O golpe não busca ferir — busca esvaziar a mão do inimigo.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Dano:** usa o dado de dano da arma equipada, ou o [Dano Desarmado](../glossario.md#dano-desarmado) | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1x dado de dano + o alvo testa Força ou Agilidade (o maior) contra a Defesa física do usuário; falhando, larga um item que estiver segurando (o usuário escolhe qual, se houver mais de um), que cai na casa dele.
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** 1x dado de dano + o mesmo, e o item cai numa casa adjacente ao alvo, à escolha do usuário.
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** 2x dado de dano + o mesmo, e o item vai parar na mão do próprio usuário, se puder alcançar.
-- **Crítico (20 natural):** dano máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Alvos:** 1 criatura
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano + o alvo testa Ataque (o maior) contra a Evasão do usuário; falhando, larga um item que estiver segurando (o usuário escolhe qual, se houver mais de um), que cai na casa dele.
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + o mesmo, e o item cai numa casa adjacente ao alvo, à escolha do usuário.
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + o mesmo, e o item vai parar na mão do próprio usuário, se puder alcançar.
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Contragolpe** *(usada como Reação)*
 
 *O erro do inimigo já é a abertura de que o usuário precisava.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
-- **Atributo:** Força ou Agilidade | **Alvos:** o atacante
+- **Atributo:** Ataque | **Alvos:** o atacante
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 4 Mana:** quando um ataque corpo a corpo contra o usuário errar, ele pode usar esta habilidade como Reação pra fazer um Ataque Básico contra o atacante imediatamente.
-- **Intensidade II — 0 PA + 7 Mana:** o mesmo, e esse ataque causa +1d4 de dano extra.
-- **Intensidade III — 0 PA + 10 Mana:** o mesmo, e esse ataque causa +2d4 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
+- **Intensidade I — 0 PA + 12 Mana:** quando um ataque corpo a corpo contra o usuário errar, ele pode usar esta habilidade como Reação pra fazer um Ataque Básico contra o atacante imediatamente.
+- **Intensidade II — 0 PA + 21 Mana:** o mesmo, e esse ataque causa +1d4 de dano extra.
+- **Intensidade III — 0 PA + 30 Mana:** o mesmo, e esse ataque causa +2d4 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
 
 **Última Investida** *(Passiva)*
 

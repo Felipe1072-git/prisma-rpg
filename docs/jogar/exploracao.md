@@ -10,17 +10,15 @@ Duas escalas, e é delas que dependem as dezenas de habilidades que dizem "1x po
 
 | | Dura | Recupera |
 |---|---|---|
-| **Descanso curto** | cerca de **1 hora** — respirar, enfaixar, comer algo | metade do [Mana](mana.md) máximo, e permite gastar até **metade do nível** em [Dados de Vida](dano-e-cura.md#dados-de-vida) |
-| **Descanso longo** | uma **noite de sono** (~8 horas) em lugar minimamente seguro | todo o Mana; permite gastar **todos** os Dados de Vida restantes e devolve **metade do nível** ao pool; remove 1d6 de [Estresse](estresse.md) e 1 grau de [Exausto](../glossario.md#exausto) (este só se a causa foi resolvida — ver [Exaustão](#exaustao)); reseta habilidades "1x por descanso longo" e as [rerolagens](testes.md#rerolagens) |
+| **Descanso curto** | cerca de **1 hora** — respirar, enfaixar, comer algo | metade do [Mana](mana.md) máximo, metade da [Vida](dano-e-cura.md#vida) máxima e metade do [Estresse](estresse.md) máximo |
+| **Descanso longo** | uma **noite de sono** (~8 horas) em lugar minimamente seguro | todo o Mana, toda a Vida e todo o Estresse; remove 1 grau de [Exausto](../glossario.md#exausto) (este só se a causa foi resolvida — ver [Exaustão](#exaustao)); reseta habilidades "1x por descanso longo" e as [rerolagens](testes.md#rerolagens) |
 
 !!! regra "Descanso longo precisa de segurança mínima"
     Dormir de armadura no chão de uma masmorra com criaturas rondando não conta — o grupo consegue no máximo um descanso curto. Isso não é punição: é a regra que faz "voltar pra cidade" ser uma decisão de verdade.
 
-### A Vida volta, mas custa recurso
+### O que ainda dá peso à decisão
 
-Diferente do Mana, a Vida **não se recupera sozinha** ao descansar: ela vem dos [Dados de Vida](dano-e-cura.md#dados-de-vida), que o personagem gasta e que só voltam pela metade a cada noite.
-
-Na prática, isso cria a decisão que faz a exploração ter peso: *"curo agora e chego fraco no fim da masmorra, ou aguento machucado e guardo o poço?"*. E é o que dá valor real a quem investiu em [Cura](../habilidades/suporte.md) — a cura por Habilidade não consome Dado de Vida de ninguém, então um curandeiro no grupo literalmente economiza o recurso de longo prazo dos companheiros.
+Vida, Mana e Estresse recuperam pela mesma fração ao descansar — não sobra um recurso de "dados de vida" separado pra controlar. O peso da exploração continua vindo de outro lugar: um descanso longo exige segurança de verdade (ver acima), e [Exausto](../glossario.md#exausto) só sai com a causa resolvida. "Curar agora ou aguentar machucado até achar um lugar seguro pra dormir" ainda é a pergunta — só que a resposta depende de onde vocês estão, não de quantos dados sobraram. [Cura por Habilidade](dano-e-cura.md#cura-por-habilidade) continua valiosa por resolver isso **sem esperar** o descanso.
 
 ## Viagem
 
@@ -45,12 +43,12 @@ Cada personagem pode assumir **uma** função por dia de viagem. Isso dá papel 
 
 | Função | Teste | Se passar |
 |---|---|---|
-| **Guiar** | Sabedoria vs DC do terreno | o grupo não se perde nem gasta trecho extra |
-| **Vigiar** | Sabedoria (DC 12) | passando, o grupo **não** fica [Desprevenido](../glossario.md#desprevenido) numa emboscada; sem ninguém vigiando (ou falhando), o grupo começa o combate Desprevenido |
-| **Forragear** | Sabedoria vs DC 12 | comida e água pra todos naquele dia |
-| **Rastrear** | Sabedoria vs DC do rastro | descobre o que passou por ali, quando e quantos |
+| **Guiar** | Exploração vs Dificuldade do terreno | o grupo não se perde nem gasta trecho extra |
+| **Vigiar** | Exploração (Dificuldade 60) | passando, o grupo **não** fica [Desprevenido](../glossario.md#desprevenido) numa emboscada; sem ninguém vigiando (ou falhando), o grupo começa o combate Desprevenido |
+| **Forragear** | Exploração vs Dificuldade 60 | comida e água pra todos naquele dia |
+| **Rastrear** | Exploração vs Dificuldade do rastro | descobre o que passou por ali, quando e quantos |
 
-As DCs vêm da [tabela de Dificuldades](../mestre/testes.md#a-tabela) — estrada conhecida é DC 5, floresta densa DC 15, pântano sem trilha DC 20.
+As Dificuldades vêm da [tabela de Dificuldades](../mestre/testes.md#a-tabela) — estrada conhecida é 25, floresta densa 75, pântano sem trilha 100.
 
 ## Exaustão
 
@@ -88,7 +86,7 @@ Duas origens do jogo já concedem resistência a isso ([Deserto](../origens/inde
 A regra que vários traços de [Raça](../racas/index.md) e [Origem](../origens/index.md) modificam (Marinheiro, Costa, Pântano, Ilha, Sereia, Golfinho, Respiração Aquática):
 
 - **Nadar:** água funda é [Terreno Difícil](../glossario.md#terreno-dificil) — cada casa custa o dobro de [Movimento](combate.md#movimento). Traços de "sem penalidade em água" ignoram esse pedágio; bônus como "+4 de Movimento na água" somam por cima.
-- **Fôlego:** debaixo d'água, um personagem aguenta **1 + Vitalidade** rodadas (mínimo 1) antes de começar a se afogar. Afogando, sofre **1 grau de [Exausto](../glossario.md#exausto) por rodada** até respirar — quem chega ao grau 3 desmaia e passa a rolar como [Caído](dano-e-cura.md#chegando-a-0-de-vida). Quem respira na água ignora tudo isso.
+- **Fôlego:** debaixo d'água, um personagem aguenta **1 + (Defesa ÷ 10)** rodadas (arredondado, mínimo 1) antes de começar a se afogar. Afogando, sofre **1 grau de [Exausto](../glossario.md#exausto) por rodada** até respirar — quem chega ao grau 3 desmaia e passa a rolar como [Caído](dano-e-cura.md#chegando-a-0-de-vida). Quem respira na água ignora tudo isso.
 - **Combate na água:** sem um traço aquático, ataques corpo a corpo rolam com Desvantagem e armas de Pontaria não funcionam submersas.
 
 ## Luz e escuridão

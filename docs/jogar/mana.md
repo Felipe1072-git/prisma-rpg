@@ -6,11 +6,16 @@ Enquanto os [Pontos de Ação](combate.md#pontos-de-acao) são o orçamento **do
 
 ## Mana Máximo
 
-**Mana Máximo = 10 (base) + (Nível × 3) + (Vontade × 2) + Mana de equipamento**
+**Mana Máximo = 20 (base) + Nível + (Magia × 2) + Mana de equipamento**
 
-Exemplo: nível 1, Vontade 0 → 13 Mana. Nível 5, Vontade 3 → 31 Mana.
+Mesma forma da [Vida Máxima](dano-e-cura.md#vida) (só trocando Defesa por Magia) — de propósito: Mana não devia parecer um recurso secundário perto da Vida, os dois crescem no mesmo tamanho. Exemplo: nível 0, Magia 5 (baseline de criação) → 20+0+10 = 30 Mana. Nível 100, Magia 98 (foco em Magia) → 20+100+196 = 316 Mana — mais até que a Vida de um personagem assim (frágil de corpo, carrega poder de sobra).
 
-O termo de equipamento é 0 pra quase tudo — hoje só as [Roupas Místicas](../equipamento/index.md#equ-roupas-misticas) somam algo (+5).
+O termo de equipamento é 0 pra quase tudo — hoje só as [Roupas Místicas](../equipamento/index.md#equ-roupas-misticas) somam algo (+15).
+
+Mana continua sendo um recurso universal — até quem não investe em Magia acumula uma boa reserva só pelo lado do Nível, porque golpes marciais também custam Mana.
+
+!!! nota "Os custos de habilidade já foram reequilibrados"
+    A fórmula do *pool* cresce com o Nível sozinha, mesmo sem investir em Magia — então os custos fixos em Mana (tabela abaixo) precisaram subir junto, ou ficariam triviais lá pela metade da carreira. Todos os custos de Mana do jogo (armas e habilidades gerais) foram multiplicados por **×3** em cima do valor original do sistema d20.
 
 ## Recuperação
 
@@ -27,11 +32,11 @@ Mana e Pontos de Ação sobem **juntos** com a [Intensidade](../habilidades/regr
 
 | Grau da arma | Intensidade I (◈) | Intensidade II (◈◈) | Intensidade III (◈◈◈) |
 |---|---|---|---|
-| Básica | 1 Mana | 3 Mana | 6 Mana |
-| Avançada | 2 Mana | 5 Mana | 9 Mana |
-| Especial | 3 Mana | 7 Mana | 12 Mana |
+| Básica | 3 Mana | 9 Mana | 18 Mana |
+| Avançada | 6 Mana | 15 Mana | 27 Mana |
+| Especial | 9 Mana | 21 Mana | 36 Mana |
 
-**Habilidades gerais de grupo** usam a escala regular **1 / 3 / 6 Mana**. As que foram precificadas acima disso (por serem mais fortes que a média do grupo) mantêm o próprio custo e escalam em passos de **+3 Mana por Intensidade** — ex: 2/5/8, 3/6/9, 4/7/10.
+**Habilidades gerais de grupo** usam a escala regular **3 / 9 / 18 Mana**. As que foram precificadas acima disso (por serem mais fortes que a média do grupo) mantêm o próprio custo e escalam em passos de **+9 Mana por Intensidade** — ex: 6/15/24, 9/18/27, 12/21/30.
 
 Habilidades de **Custo fixo** (áreas de raio 3+, Supremas, e efeitos absolutos sem degrau) cobram o valor da Intensidade III, já que entregam o efeito completo. **Buffs, cura e mobilidade têm Intensidade normalmente** — o que escala é o tamanho do efeito (ver [Buffs, Suporte e Mobilidade também têm Intensidade](../habilidades/regras.md#buffs-suporte-e-mobilidade-tambem-tem-intensidade)); só ficam com Custo fixo os que não têm nada pra graduar. Habilidades **dedicadas a Reação** custam 0 PA e só Mana (ver [Reações](combate.md#reacoes)).
 
@@ -41,10 +46,26 @@ Classificação geral de quão forte uma habilidade é, usada pra precificar qua
 
 | Grau de Poder | Custo em Mana | Uso esperado |
 |---|---|---|
-| Menor | 1–3 | Várias vezes por combate (ex: Intensidade I de técnicas de arma) |
-| Moderado | 4–8 | 2–4 vezes por descanso |
-| Maior | 9–15 | 1–2 vezes por descanso |
-| Supremo | 16+ | 1 vez por descanso, possivelmente com restrição extra (ex: voo sustentado, invocar demônio, controle mental total) |
+| Menor | 3–9 | Várias vezes por combate (ex: Intensidade I de técnicas de arma) |
+| Moderado | 12–24 | 2–4 vezes por descanso |
+| Maior | 27–45 | 1–2 vezes por descanso |
+| Supremo | 48+ | 1 vez por descanso, possivelmente com restrição extra (ex: voo sustentado, invocar demônio, controle mental total) |
 
 !!! exemplo "Filtrando pelo que você consegue pagar"
     A [Listagem de Habilidades](../habilidades/index.md) tem um controle de **Mana disponível**: arraste até o seu total atual e ela esconde tudo o que você não teria como ativar.
+
+## Requisito suave de Atributo
+
+Escala de arma e Grau de Poder também servem de guia pra quanto de Atributo o personagem devia ter pra usar aquela habilidade **sem desvantagem** — não é um bloqueio (qualquer habilidade continua acessível desde o nível 0), é um incentivo a investir:
+
+| Escala | Atributo recomendado |
+|---|---|
+| Básica (arma) | 15 |
+| Avançada (arma) | 35 |
+| Especial (arma) | 55 |
+| Menor (geral) | 20 |
+| Moderado (geral) | 40 |
+| Maior (geral) | 65 |
+| Supremo (geral) | 85 |
+
+**Abaixo do recomendado, a rolagem é feita com [Desvantagem](testes.md#vantagem-e-desvantagem)** (2d100, fica com o pior); no recomendado ou acima, rola normal. Um Supremo continua utilizável desde cedo — só que arriscado, até o Atributo acompanhar.

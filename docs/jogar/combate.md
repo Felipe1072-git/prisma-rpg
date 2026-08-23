@@ -3,11 +3,11 @@
 Combate é o modo de jogo em que o tempo é contado. A cena vira uma sequência de **rodadas**; dentro de cada rodada, cada participante joga um **turno**; e dentro do turno você tem **3 Pontos de Ação (◈)** pra gastar como quiser.
 
 !!! regra "Em uma frase"
-    Role Iniciativa, e no seu turno gaste 3 ◈ entre mover, atacar e usar habilidades — pagando em ◈ a [Intensidade](../habilidades/regras.md#intensidade) de cada habilidade, e rolando d20 + Atributo contra a Defesa do alvo.
+    Role Iniciativa, e no seu turno gaste 3 ◈ entre mover, atacar e usar habilidades — pagando em ◈ a [Intensidade](../habilidades/regras.md#intensidade) de cada habilidade, e rolando d100 + Atributo contra a **Evasão** do alvo.
 
 ## Iniciativa
 
-No início do combate, cada participante rola **d20 + [Agilidade](atributos.md) + [Sorte](atributos.md)**. A ordem decrescente do resultado define a sequência de turnos.
+No início do combate, cada participante rola **d100 + [Agilidade](atributos.md) + [Sorte](atributos.md)**. A ordem decrescente do resultado define a sequência de turnos.
 
 Quem reage rápido age antes — a Agilidade é o reflexo, e a Sorte é estar olhando pro lado certo na hora.
 
@@ -33,7 +33,7 @@ Cada personagem tem **3 Pontos de Ação (◈◈◈)** por turno. Quase tudo cus
 | Habilidade | a [Intensidade](#custo-em-pa-de-habilidades) escolhida — ◈, ◈◈ ou ◈◈◈ |
 | Reação | o custo normal da habilidade usada (0 se for dedicada) — consome do mesmo pool |
 
-**Ataque Básico** funciona com qualquer arma equipada, mesmo uma cujas Habilidades o personagem nunca aprendeu — causa o dado de dano da arma, sem nenhum efeito extra. É o que permite "ter uma arma na mão" desde o nível 1 sem precisar gastar uma Habilidade nela (ver [Criação de Personagem](../criacao/index.md)).
+**Ataque Básico** funciona com qualquer arma equipada, mesmo uma cujas Habilidades o personagem nunca aprendeu — causa o dado de dano da arma, sem nenhum efeito extra. É o que permite "ter uma arma na mão" desde o nível 0 sem precisar gastar uma Habilidade nela (ver [Criação de Personagem](../criacao/index.md)).
 
 **Ação Básica** é tudo o que não tem ficha própria e leva um instante: abrir uma porta, sacar um item, gritar uma ordem, [estabilizar um aliado](dano-e-cura.md#chegando-a-0-de-vida).
 
@@ -56,15 +56,18 @@ Vale igualmente para buffs, cura e mobilidade: não há teste de ataque neles, m
 
 ### Reações
 
-**Qualquer Habilidade pode ser usada como Reação**, fora do seu turno, desde que o personagem ainda tenha PA sobrando no pool (do turno anterior) pra pagar o custo normal dela. O sistema é deliberadamente livre nesse ponto — se o jogador guardou PA, pode reagir com o que quiser, não só com uma lista fixa de "habilidades de reação".
+!!! regra "Limite: 1 Reação por rodada"
+    Não importa quanto PA sobrou nem quantos gatilhos apareceram — o personagem reage **no máximo uma vez** até o início do próprio próximo turno. O limite vale igual pra qualquer Reação, inclusive as dedicadas, e não muda mesmo com PA de sobra guardado.
 
-**Habilidades dedicadas a Reação** (o texto diz explicitamente "usada como Reação", ex: Defesa Mágica, Cambalhota) são a exceção: custam **0 PA — só Mana**. Ficam sempre disponíveis como rede de segurança, mesmo se o personagem já gastou todo o PA no próprio turno. Nelas, a Intensidade escolhe só quanto Mana gastar.
+**Qualquer Habilidade pode ser usada como Reação**, fora do seu turno, desde que o personagem ainda tenha PA sobrando no pool (do turno anterior) pra pagar o custo normal dela. O sistema é deliberadamente livre nesse ponto — se o jogador guardou PA, pode reagir com o que quiser, não só com uma lista fixa de "habilidades de reação". Isso é só **o que** você pode usar como Reação, não quantas vezes — o limite acima continua valendo.
+
+**Habilidades dedicadas a Reação** (o texto diz explicitamente "usada como Reação", ex: Defesa Mágica, Cambalhota) são a exceção de custo: custam **0 PA — só Mana**. Ficam disponíveis mesmo se o personagem já gastou todo o PA no próprio turno — mas ainda contam pro limite de 1 por rodada. Nelas, a Intensidade escolhe só quanto Mana gastar.
 
 Um efeito que faça o alvo [perder a próxima Reação](../glossario.md#perde-a-proxima-reacao) nega até as dedicadas.
 
 ## Movimento
 
-Movimento base = **6 casas + Agilidade** (valor com sinal). Mínimo de movimento: **1 casa**.
+**Movimento base = 6 casas + (Agilidade ÷ 10)**, arredondado (valor com sinal). Mínimo de movimento: **1 casa**.
 
 "Casas" é uma unidade abstrata — o mapa pode usar quadrados ou hexágonos.
 
@@ -77,7 +80,7 @@ O jogo **não tem regra de orientação** (facing): quando uma habilidade fala e
 Quem pode voar (traço racial ou habilidade) se move em três dimensões pelo **mesmo custo de Movimento** — cada casa de altura conta como uma casa andada.
 
 - **Alcance:** corpo a corpo só alcança quem voa a 1 casa de altura; acima disso, só ataques à distância (e o voador enxerga por cima de obstáculos baixos).
-- **Queda:** quem fica [Atordoado](../glossario.md#atordoado) ou é derrubado no ar **despenca**: sofre 1d6 de dano de Impacto a cada 2 casas de altura e aterrissa [Derrubado](../glossario.md#derrubado).
+- **Queda:** quem fica [Atordoado](../glossario.md#atordoado) ou é derrubado no ar **despenca**: sofre dano de Impacto (ver [Dano Improvisado](estresse.md#tabelas-de-referencia-rapida)) a cada 2 casas de altura e aterrissa [Derrubado](../glossario.md#derrubado).
 - [Imóvel](../glossario.md#imovel) no ar: para de se deslocar, mas plana no lugar — não cai.
 
 ## Quem rola o dado
@@ -85,46 +88,30 @@ Quem pode voar (traço racial ou habilidade) se move em três dimensões pelo **
 !!! regra "Quem age, rola"
     Isso vale nos dois sentidos e é a única regra de resolução do jogo:
 
-- O personagem ataca uma criatura → **o jogador** rola d20 + Atributo contra a Defesa da criatura.
-- Uma criatura ataca o personagem → **o Mestre** rola d20 + o Ataque da criatura contra a Defesa do personagem.
+- O personagem ataca uma criatura → **o jogador** rola d100 + Atributo contra a Evasão da criatura.
+- Uma criatura ataca o personagem → **o Mestre** rola d100 + o Ataque da criatura contra a Evasão do personagem.
 
-Não existe rolagem de defesa: quem está sendo atacado não rola nada, seu número de Defesa é o alvo a ser superado. Ver [Bestiário](../mestre/criando-criaturas.md#como-resolver-o-ataque-de-uma-criatura) para o lado do Mestre.
-
-## Base de Resiliência
-
-Toda criatura (personagem ou monstro) tem uma **Base de Resiliência**, definida pelo nível de ameaça que ela representa — não pelo tamanho físico nem pela espécie. Um Lich não é fisicamente colossal, mas é Lendário o bastante pra ter a mesma Base de um dragão.
-
-| Tier de Ameaça | Base | Exemplos |
-|---|---|---|
-| Comum | 6 | civis, animais pequenos, sem treino algum |
-| Treinado | 8 | soldados, aventureiros, guardas experientes |
-| Formidável | 10 | a maioria dos monstros, feras perigosas |
-| Lendário | 14 | dragões, lichs, arqui-demônios, entidades cósmicas |
+Não existe rolagem de defesa: quem está sendo atacado não rola nada, seu número de Evasão é o alvo a ser superado. Ver [Bestiário](../mestre/criando-criaturas.md#como-resolver-o-ataque-de-uma-criatura) para o lado do Mestre.
 
 ## Defesa
 
-**Defesa = Base de Resiliência + o atributo relevante ao tipo de efeito** (+ bônus natural relevante, se houver). O padrão — ataques físicos, o caso mais comum — usa **Agilidade**. Habilidades que impõem outra coisa (um estado mental, uma doença, pânico) declaram explicitamente qual atributo testar; a fórmula é sempre a mesma, só troca o atributo.
+Um golpe físico não é resistido pelo mesmo número que resiste a um veneno ou a um controle mental — cada tipo de efeito testa uma coisa diferente, sempre o valor **cru** do atributo (sem nenhum bônus fixo de Tier somado por baixo):
 
-**Um personagem jogador é Treinado** (Base 8) — a mesma linha de soldados e aventureiros experientes. Na prática:
-
-- **Defesa física** = 8 + Agilidade + Armadura
-- **Defesa mental** = 8 + Vontade
-- e assim por diante, trocando o atributo conforme o efeito
-
-Vale a pena anotar essas duas na ficha antes da sessão: são os números que o Mestre vai consultar a cada ataque de criatura.
-
-| Tipo de efeito | Atributo de Defesa | Bônus natural |
+| Tipo de efeito | Número-alvo | De onde vem |
 |---|---|---|
-| Físico (dano, empurrar, derrubar) — padrão | Agilidade | Armadura/Couraça Natural |
-| Mental/comportamental (charme, medo, provocação, controle) | Vontade | — |
-| Veneno, doença, exaustão | Vitalidade | — |
-| Horror, insanidade, colapso mental | Sanidade | — |
-| Ilusão, engano | Sabedoria | — |
-| Furtividade, detecção (perceber um roubo, um disfarce) | Sabedoria | — |
+| Físico (dano, empurrar, derrubar) — padrão, decide se o golpe **acerta** | **Evasão** | Agilidade + Escudo/Couraça Natural |
+| Controle mental de origem **mágica**, maldição, petrificação | **Fortitude Mágica** | o próprio valor de Magia |
+| Manipulação **social** — persuadir, enganar, intimidar (e resistir a tudo isso) | **Social** | o próprio valor de Social |
+| Veneno, doença, exaustão — efeito que o corpo resiste por dentro, não desvia | **Fortitude Física** | o próprio valor de Defesa |
+| Horror, insanidade, colapso mental | **Sanidade** | o próprio valor de Sanidade |
+| Furtividade, detecção — perceber um roubo, notar algo escondido | **Exploração** | o próprio valor de Exploração |
 
 Essa lista não é fechada — cresce conforme habilidades novas pedirem.
 
-A Defesa decide **se** o golpe acerta, nunca o quanto ele faz — isso já foi decidido pela [Intensidade](../habilidades/regras.md#intensidade) paga. Por isso a Defesa do alvo pesa na escolha de quanto investir: contra um alvo Lendário (Base 14 + atributo), gastar 3 PA e o Mana de uma Intensidade III num único ataque é uma aposta alta — se errar, perde tudo e o turno inteiro. Contra alvos Comuns, a mesma Intensidade III praticamente não erra.
+A **Evasão** decide **se** o golpe acerta, nunca o quanto ele faz — isso já foi decidido pela [Intensidade](../habilidades/regras.md#intensidade) paga. Por isso a Evasão do alvo pesa na escolha de quanto investir: contra um alvo com Evasão alta, gastar 3 PA e o Mana de uma Intensidade III num único ataque é uma aposta alta — se errar, perde tudo e o turno inteiro. Contra alvos fracos, a mesma Intensidade III praticamente não erra.
+
+!!! nota "Por que não existe mais uma Base de Resiliência somada aqui"
+    No sistema antigo, um valor fixo por Tier (Base de Resiliência) somava em cima do atributo — porque o atributo sozinho era pequeno demais pra sustentar a conta sozinho. Agora que o jogador investe pontos de verdade e o atributo chega a 100, o atributo **já carrega o peso todo**: manter uma base fixa por cima diluiria a escolha de investimento. O Tier de uma criatura ainda importa — só que agora ele orienta que **valores** o Mestre escreve na ficha dela (ver [Bestiário](../mestre/criando-criaturas.md)), não soma como bônus formal.
 
 ## Fim do combate
 

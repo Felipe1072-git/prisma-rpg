@@ -9,10 +9,10 @@ Furtividade, ladinagem.
 *Uma bomba lançada nas sombras, que detona um instante depois numa explosão de energia sombria.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Custo fixo:** ◈◈◈ (3 PA) + 8 Mana | **Atributo:** Força (ou Agilidade, se a arma equipada for Finesse) | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** todas as criaturas em 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Ataque | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** todas as criaturas em 3 casas de raio do ponto
 - **Efeito de atraso:** o teste é feito ao lançar a bomba; em acerto, o efeito só se aplica no início do próximo turno do usuário. A explosão atinge quem estiver na área **no momento da detonação**.
-- **Acerto:** 1d6 de dano + derruba cada alvo
-- **Crítico (20 natural):** dano máximo (6) + 1d6 extra em todos, e derruba cada alvo
+- **Acerto:** 2d8 de dano + derruba cada alvo
+- **Crítico:** dano máximo (18) + 2d8 extra em todos, e derruba cada alvo
 
 **Desaparecimento**
 
@@ -21,33 +21,33 @@ Furtividade, ladinagem.
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
 - **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - **Efeito:** enquanto durar (ou até atacar, o que vier primeiro), o usuário fica invisível — qualquer ataque contra ele rola com Desvantagem, e ele não pode ser alvo de ataques que exijam vê-lo. O primeiro ataque do usuário enquanto invisível causa +1d6 de dano extra. "Ataques que exijam vê-lo" = ataques de alvo único; efeitos de área o atingem normalmente.
-- **Intensidade I — ◈ (1 PA) + 5 Mana:** dura 2 rodadas
-- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** dura 3 rodadas
-- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** dura 4 rodadas
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** dura 2 rodadas
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** dura 3 rodadas
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** dura 4 rodadas
 
 **Armadilha Oculta**
 
 *Um mecanismo quase invisível é escondido no chão — o primeiro passo errado dispara tudo de uma vez.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Atributo:** Agilidade | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 1 ponto
-- **Efeito de atraso:** o teste é feito ao armar a armadilha; o efeito correspondente à Intensidade paga só se aplica quando uma criatura hostil pisar naquela casa (invisível pra ela, a menos que um teste de percepção do Mestre diga o contrário). Guarde o total do teste feito ao armar; quando uma criatura pisar, compare-o com a Defesa dela. Um Crítico ao armar vale contra a primeira criatura que pisar.
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** 1d8 de dano + derruba o alvo
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** 1d8 de dano + derruba o alvo + fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** 1d8 de dano + derruba o alvo + fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e perde a próxima Reação
-- **Crítico (20 natural):** dano máximo (8) + 1d8 extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 1 ponto
+- **Efeito de atraso:** o teste é feito ao armar a armadilha; o efeito correspondente à Intensidade paga só se aplica quando uma criatura hostil pisar naquela casa (invisível pra ela, a menos que um teste de Exploração do Mestre diga o contrário). Guarde o total do teste feito ao armar; quando uma criatura pisar, compare-o com a Evasão dela. Um Crítico ao armar vale contra a primeira criatura que pisar.
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + derruba o alvo + fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + derruba o alvo + fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Golpe Furtivo**
 
 *Um golpe que só existe porque ninguém viu chegar — depois do primeiro corte, a vantagem desaparece.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Atributo:** Agilidade | **Dano:** usa o dado de dano da arma equipada | **Alvos:** 1 criatura | **Alcance:** corpo a corpo ou arma equipada
+- **Atributo:** Ataque | **Dano:** usa o dado de dano da arma equipada | **Alvos:** 1 criatura | **Alcance:** corpo a corpo ou arma equipada
 - **Condição de uso:** só pode ser usada contra um alvo que ainda não agiu neste combate, ou que tenha outra criatura adjacente a ele além do usuário (flanqueado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano da arma equipada + 1d6 extra
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano da arma equipada + 2d6 extra, e o alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano da arma equipada + 3d6 extra, [Sangrando](../glossario.md#sangrando), e o alvo perde a próxima Reação
-- **Crítico (20 natural):** dano máximo da arma + 1 rolagem extra do dado da arma + o bônus extra da Intensidade usada, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano da arma equipada + 1d6 extra
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano da arma equipada + 2d6 extra, e o alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano da arma equipada + 3d6 extra, [Sangrando](../glossario.md#sangrando), e o alvo perde a próxima Reação
+- **Crítico:** dano máximo da arma + 1 rolagem extra do dado da arma + o bônus extra da Intensidade usada, e sobe 1 Intensidade
 
 **Fumaça Cega**
 
@@ -56,9 +56,9 @@ Furtividade, ladinagem.
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
 - **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** todas as criaturas em 2 casas de raio do ponto
 - **Efeito:** enquanto durar, a área fica coberta de fumaça — qualquer ataque à distância que mire ou atravesse a área rola com Desvantagem, e criaturas dentro dela não podem ser alvo de ataques que exijam vê-las claramente. "Ataques que exijam vê-la" = ataques de alvo único; efeitos de área a atingem normalmente. O usuário pode se mover até 3 casas para fora da área como parte do uso desta habilidade, sem gastar Movimento adicional.
-- **Intensidade I — ◈ (1 PA) + 5 Mana:** dura 1 rodada
-- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** dura 2 rodadas
-- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** dura 3 rodadas
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** dura 1 rodada
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** dura 2 rodadas
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** dura 3 rodadas
 
 **Escapista**
 
@@ -67,10 +67,10 @@ Furtividade, ladinagem.
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
 - **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - **Uso:** a qualquer momento no seu turno, ou como Reação pagando o custo normal em PA — não é uma Reação dedicada. Compara o total contra a Dificuldade da restrição (amarrado, algemado, agarrado), definida pelo Mestre caso a caso.
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** liberta-se da restrição
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** liberta-se, e pode se mover até 2 casas imediatamente como parte do mesmo uso
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** liberta-se, move-se até 2 casas, e ganha Vantagem no próximo teste de ataque contra quem o prendeu
-- **Crítico (20 natural):** sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** liberta-se da restrição
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** liberta-se, e pode se mover até 2 casas imediatamente como parte do mesmo uso
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** liberta-se, move-se até 2 casas, e ganha Vantagem no próximo teste de ataque contra quem o prendeu
+- **Crítico:** sobe 1 Intensidade
 
 **Mão Leve**
 
@@ -78,11 +78,11 @@ Furtividade, ladinagem.
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
 - **Atributo:** Agilidade | **Alvos:** 1 criatura | **Alcance:** adjacente
-- **Checa Defesa (Sabedoria) do alvo** — quão atento ele está.
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** rouba um item pequeno e visível (bolsa de moedas, item solto no cinto); o alvo não percebe na hora, mas pode notar a qualquer momento depois, a critério do Mestre
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** mesmo que a Intensidade I, podendo escolher entre 2 itens pequenos visíveis em vez de 1 só
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** rouba um item de tamanho médio (arma secundária, pergaminho, chave); o alvo só percebe se procurar ativamente pelo item
-- **Crítico (20 natural):** sobe 1 Intensidade
+- **Checa Exploração do alvo** — quão atento ele está.
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** rouba um item pequeno e visível (bolsa de moedas, item solto no cinto); o alvo não percebe na hora, mas pode notar a qualquer momento depois, a critério do Mestre
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** mesmo que a Intensidade I, podendo escolher entre 2 itens pequenos visíveis em vez de 1 só
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** rouba um item de tamanho médio (arma secundária, pergaminho, chave); o alvo só percebe se procurar ativamente pelo item
+- **Crítico:** sobe 1 Intensidade
 
 **Arrombamento**
 
@@ -91,20 +91,20 @@ Furtividade, ladinagem.
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
 - **Atributo:** Agilidade | **Alvos:** 1 mecanismo (fechadura, cadeado, armadilha mecânica simples)
 - **Compara o total contra a Dificuldade definida pelo Mestre** pra aquele mecanismo específico (um cadeado simples pode ser 8, um cofre de banco 18+)
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** abre o mecanismo — consome só o ◈ da própria habilidade, sem custo adicional; fora de combate, o trabalho leva cerca de um minuto
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** abre o mecanismo em instantes, sem o minuto de trabalho
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** abre sem deixar vestígios de arrombamento, em metade do tempo
-- **Crítico (20 natural):** abre instantaneamente, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** abre o mecanismo — consome só o ◈ da própria habilidade, sem custo adicional; fora de combate, o trabalho leva cerca de um minuto
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** abre o mecanismo em instantes, sem o minuto de trabalho
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** abre sem deixar vestígios de arrombamento, em metade do tempo
+- **Crítico:** abre instantaneamente, e sobe 1 Intensidade
 
 **Instinto Ladino**
 
 *Antes mesmo de ver o fio esticado ou a tábua solta, o corpo já sabe que ali tem algo errado.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Custo fixo:** ◈ (1 PA) + 8 Mana | **Atributo:** Sabedoria | **Alvos:** área de 4 casas de raio ao redor do usuário
+- **Custo fixo:** ◈ (1 PA) + 24 Mana | **Atributo:** Exploração | **Alvos:** área de 4 casas de raio ao redor do usuário
 - **Compara o total contra a Dificuldade de ocultação** de qualquer armadilha, mecanismo escondido ou passagem secreta na área, definida pelo Mestre
 - **Acerto:** identifica localização exata e natureza de cada coisa escondida
-- **Crítico (20 natural):** mesmo que o Acerto, e ganha Vantagem no primeiro teste pra desarmar/evitar cada uma delas
+- **Crítico:** mesmo que o Acerto, e ganha Vantagem no primeiro teste pra desarmar/evitar cada uma delas
 
 **Instinto de Perigo** *(Passiva)*
 
@@ -129,6 +129,6 @@ Furtividade, ladinagem.
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
 - **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - **Encerra imediatamente se** o usuário atacar ou usar qualquer Habilidade que não seja esta
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** por 3 rodadas, o usuário finge estar morto de forma convincente — fica [Derrubado](../glossario.md#derrubado), testes de Sabedoria pra perceber que ele está vivo rolam com [Desvantagem](../glossario.md#desvantagem), e ele reduz em 3 o dano recebido (mínimo 1) enquanto durar. Pode encerrar o efeito antes do prazo como ação livre.
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, por 4 rodadas, reduzindo em 5 o dano recebido.
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, por 5 rodadas, e o usuário também não sofre efeitos de [Sangrando](../glossario.md#sangrando) ou [Envenenado](../glossario.md#envenenado) enquanto durar.
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** por 3 rodadas, o usuário finge estar morto de forma convincente — fica [Derrubado](../glossario.md#derrubado), testes de Exploração pra perceber que ele está vivo rolam com [Desvantagem](../glossario.md#desvantagem), e ele reduz em 3 o dano recebido (mínimo 1) enquanto durar. Pode encerrar o efeito antes do prazo como ação livre.
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, por 4 rodadas, reduzindo em 5 o dano recebido.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, por 5 rodadas, e o usuário também não sofre efeitos de [Sangrando](../glossario.md#sangrando) ou [Envenenado](../glossario.md#envenenado) enquanto durar.

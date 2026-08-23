@@ -40,7 +40,7 @@ Pode ser escolhido livremente, ou sorteado rolando 1d20 (não é obrigatório ro
 | 14 | Ferreiro | Identifica a qualidade ou origem de uma arma/armadura à vista |
 | 15 | Cartógrafo | Nunca se perde ao seguir um mapa; vantagem em navegação |
 | 16 | Contrabandista | Vantagem pra esconder itens de buscas ou revistas |
-| 17 | Aprendiz de Mago | Recupera 1 Mana extra em cada descanso curto |
+| 17 | Aprendiz de Mago | Recupera 3 Mana extra em cada descanso curto |
 | 18 | Domador de Animais | Animais selvagens hostis começam neutros com o personagem |
 | 19 | Gladiador de Arena | Vantagem no primeiro teste de ataque de cada combate |
 | 20 | Espião | Vantagem pra manter um disfarce ou identidade falsa |
@@ -61,12 +61,12 @@ Pode ser escolhido livremente, ou sorteado rolando 1d20 (não é obrigatório ro
 | 8 | Pântano | Ignora o [Terreno Difícil](../glossario.md#terreno-dificil) de lama e água rasa |
 | 9 | Ilha | Vantagem em testes de natação e pequenas embarcações |
 | 10 | Tundra | Ignora os efeitos de [frio extremo](../jogar/exploracao.md#clima-extremo) |
-| 11 | Planície | Vantagem em testes de percepção a longa distância |
+| 11 | Planície | Vantagem em testes de Exploração a longa distância |
 | 12 | Vila Pequena | Vantagem em testes sociais quando todos se conhecem |
 | 13 | Ruínas Antigas | Vantagem pra identificar armadilhas ou mecanismos antigos |
 | 14 | Corte Real | Vantagem em testes de etiqueta e protocolo formal |
 | 15 | Rota de Caravana | Vantagem em negociação com estranhos |
-| 16 | Fronteira Selvagem | Vantagem em testes de percepção contra ameaças |
+| 16 | Fronteira Selvagem | Vantagem em testes de Exploração contra ameaças |
 | 17 | Floresta Amaldiçoada | Efeitos de Medo (pânico, fuga, terror) contra ele rolam com Desvantagem |
 | 18 | Terras Vulcânicas | Resistência a dano de Fogo |
 | 19 | Minas de Cristal | Vantagem pra identificar pedras ou metais preciosos |
@@ -80,7 +80,7 @@ Pode ser escolhido livremente, ou sorteado rolando 1d20 (não é obrigatório ro
 |---|---|---|
 | 1 | Sobreviveu a uma Tragédia | Vantagem em testes de Estresse |
 | 2 | Treinado por um Mestre | Vantagem no primeiro teste de ataque de Habilidade de cada cena |
-| 3 | Fez um Pacto | +1 num atributo à escolha, mas -1 permanente em Vontade |
+| 3 | Fez um Pacto | +5 num atributo à escolha, mas -5 permanente em Social |
 | 4 | Perdeu Alguém | Vantagem em testes de Estresse ao proteger um aliado específico (escolhido na criação) |
 | 5 | Testemunhou algo Sobrenatural | Efeitos de Medo e ilusões contra ele rolam com Desvantagem |
 | 6 | Traído por um Aliado | Vantagem pra perceber mentiras ou intenções ocultas |
@@ -90,7 +90,7 @@ Pode ser escolhido livremente, ou sorteado rolando 1d20 (não é obrigatório ro
 | 10 | Foi Refém | Vantagem pra escapar de amarras ou prisões |
 | 11 | Encontrou algo Estranho | Vantagem pra identificar magia |
 | 12 | Foi Abandonado | Vantagem em testes de Estresse ligados a solidão ou rejeição |
-| 13 | Descobriu um Segredo Perigoso | Vantagem em percepção pra notar quando está sendo vigiado |
+| 13 | Descobriu um Segredo Perigoso | Vantagem em testes de Exploração pra notar quando está sendo vigiado |
 | 14 | Fez um Juramento Inquebrável | Efeitos de controle mental contra ele rolam com Desvantagem |
 | 15 | Sobreviveu Sozinho na Natureza | Vantagem em testes de sobrevivência |
 | 16 | Foi Escravizado | Vantagem em testes de Estresse contra intimidação ou coerção |

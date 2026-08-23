@@ -2,15 +2,28 @@
 
 A [Vida](dano-e-cura.md#vida) mede o que o corpo aguenta. O Estresse mede o que a **cabeça** aguenta — e é a única barra do jogo que o descanso curto não repõe.
 
-**Estresse máximo = 10 + Sanidade.**
+**Estresse Máximo = 20 (base) + Nível + (Sanidade × 2) + Estresse de equipamento**
+
+Exemplo: nível 0, Sanidade 5 (baseline de criação) → 20 + 0 + 10 = 30. Nível 100, Sanidade 58 (investimento moderado) → 20 + 100 + 116 = 236. Mesma forma de [Vida](dano-e-cura.md#vida) e [Mana](mana.md#mana-maximo), só trocando o atributo — de propósito: os três recursos crescem do mesmo jeito, então decorar a fórmula de um é decorar a dos três. O termo de equipamento é 0 pra tudo hoje — fica pronto pro dia que algum item conceder Estresse Máximo extra.
 
 ## Como se ganha Estresse
 
-O personagem recebe Estresse ao sofrer um crítico, ao tirar uma falha crítica (1 natural) em qualquer teste, ou quando o Mestre pede um teste de Estresse.
+Duas famílias de gatilho — uma automática e de graça, outra narrativa e pontual:
 
-**Quantidades:** sofrer um crítico ou tirar 1 natural marca **1 ponto**, automaticamente. Num teste de Estresse pedido pelo Mestre, o jogador rola **d20 + Sanidade vs DC do Mestre**; falhando, marca **1 ponto** (**2**, se a fonte for especialmente perturbadora — o Mestre decide antes da rolagem).
+**Automáticos, sem rolagem extra (1d6 cada):**
 
-Estresse não reseta com descanso curto — representa desgaste acumulado.
+- **Tirar exatamente 1 no d100**, em qualquer teste — mesmo quando o resultado é sucesso ou crítico (todo personagem tem um limiar de [Crítico](testes.md#criticos) de pelo menos 1, então tirar 1 nunca é "ruim" no resultado, mas ainda representa o preço mental de escapar por pouco).
+- **Sofrer um crítico.**
+
+**Narrativos — uma checklist fixa, não julgamento aberto do Mestre.** Quando um destes acontece, o jogador rola **d100 + Sanidade contra a Dificuldade que o Mestre escolher** (ver [Tabela de Dificuldades](../mestre/testes.md#a-tabela)); falhando, marca **4d6** de Estresse, em qualquer nível:
+
+1. Presenciar horror
+2. O próprio personagem cair a 0 de Vida
+3. Ver um aliado cair a 0 de Vida
+4. Falhar em algo que importava de verdade
+5. Matar ou ferir gravemente alguém que não devia
+
+Estresse recupera na mesma escala de [Vida](dano-e-cura.md#vida) e [Mana](mana.md#mana-maximo): **metade do máximo num descanso curto, tudo num descanso longo** (ver [Descanso](exploracao.md#descanso)).
 
 ## Colapso
 
@@ -38,8 +51,29 @@ Depois do surto, a barra reseta a 0 e o personagem ganha uma **Cicatriz**: uma c
 | 5 | **Paranoia** — Desvantagem em [Iniciativa](combate.md#iniciativa) (sempre hesitante, desconfiado demais) |
 | 6 | **Exaustão Crônica** — descanso curto não recupera [Mana](mana.md) |
 
-## Reduzindo Estresse
+## Tabelas de referência rápida
 
-- **[Descanso longo](exploracao.md#descanso)** — remove **1d6** de Estresse
-- **Vício** — durante um descanso, o personagem pode se entregar a um vício pessoal escolhido na criação (bebida, jogo, violência, isolamento etc.) pra remover **1d6 de Estresse** adicional. Ao fazer isso, role 1d6: em um resultado de **1**, o vício gera uma complicação narrativa (dívida, inimigo, constrangimento público — Mestre decide conforme a cena)
-- **Apoio social** — passar tempo com um aliado/vínculo remove **1** ponto de Estresse
+Duas tabelas pro Mestre improvisar dano/Estresse na mesa sem calcular nada — um dado só, a quantidade que escala com a severidade (mesmo espírito do "Improvising Damage" do D&D 5e).
+
+**Dano Improvisado** (d10):
+
+| Dados | Exemplos |
+|---|---|
+| 1d10 | tropeço feio, mordida pequena, corte raso |
+| 2d10 | golpe direto, queda de pouca altura, queimadura de tocha |
+| 4d10 | ferimento sério, atropelamento, fogo direto no corpo |
+| 8d10 | esmagamento, explosão próxima, queda de penhasco |
+| 14d10 | desabamento, jogado numa fornalha, atingido por algo colossal |
+| 20d10 | cair em lava, pisoteado por um titã, o fim de tudo |
+
+Pra escolher a linha certa por nível, cruza com a [tabela de calibração de dano](../mestre/testes.md#calibracao-de-dano) — Vida ÷ 10 é o "golpe normal" (2d10 a 8d10 cobrem a faixa 0-100 de nível); 14d10 e 20d10 ficam pra ameaças fora da curva, tipo Lendários.
+
+**Estresse Improvisado** (d6 — pra eventos narrativos fora da checklist fixa acima; o Mestre escolhe a linha pela gravidade da cena, não pelo nível):
+
+| Dados | Exemplos |
+|---|---|
+| 1d6 | um susto rápido, uma ameaça velada |
+| 2d6 | testemunhar violência, ser humilhado publicamente |
+| 3d6 | ver um cadáver mutilado, trair a própria palavra |
+| 4d6 | perder alguém querido, ser torturado |
+| 5d6 | genocídio presenciado, o próprio corpo profanado |

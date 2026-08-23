@@ -32,30 +32,30 @@ O que muda entre os três modos de jogo é só **quanto tempo cada passagem do c
 
 ## Um turno de verdade
 
-Sua personagem tem uma Espada (1d8) e conhece **Corte Duplo**:
+Sua personagem tem uma Espada (1d8) e conhece **Corte Duplo** — dois cortes rápidos, cada um seu próprio teste de ataque:
 
 ```
-Intensidade I   — ◈   + 1 Mana:  1d8 de dano + empurra 1 casa
-Intensidade II  — ◈◈  + 3 Mana:  1d8 de dano + derruba o alvo
-Intensidade III — ◈◈◈ + 6 Mana:  1d8 de dano + derruba, e o alvo perde a próxima Reação
+Intensidade I   — ◈   + 3 Mana:  cada golpe que acertar causa 1d8 de dano
+Intensidade II  — ◈◈  + 9 Mana:  cada golpe que acertar causa 1d10 de dano; se os dois acertarem, derruba o alvo
+Intensidade III — ◈◈◈ + 18 Mana: cada golpe que acertar causa 2d10 de dano; se os dois acertarem, derruba e o alvo perde a próxima Reação
 ```
 
-Há um goblin na frente dela ([Defesa física](combate.md#defesa) **8**). Ela tem 3 ◈ e 13 de Mana. Três caminhos:
+Há um goblin na frente dela ([Evasão](combate.md#defesa) **24**). Ela tem 3 ◈ e 20 de Mana. Três caminhos:
 
-- **Corte Duplo em Intensidade III** — gasta o turno inteiro e 6 Mana. Rola d20 + Força; se alcançar 8, derruba o goblin e ele ainda perde a próxima reação. Um alvo só, mas fora de combate.
-- **Corte Duplo em Intensidade I, três vezes** — 3 Mana no total, três rolagens separadas. Mais dano somado, e pode espalhar entre inimigos diferentes — mas cada golpe apenas empurra.
-- **Mover 1 casa (◈) e Corte Duplo em Intensidade II (◈◈)** — reposiciona e derruba. O meio-termo.
+- **Corte Duplo em Intensidade III** — gasta o turno inteiro e 18 Mana. Dois testes de d100 + Ataque contra a Evasão do goblin; cada golpe que acertar causa 2d10, e se os dois acertarem ele cai derrubado e ainda perde a próxima Reação. Risco maior (dois testes podem errar), recompensa maior.
+- **Corte Duplo em Intensidade I, três vezes** — 9 Mana no total, seis rolagens separadas. Mais dano somado, e pode espalhar entre inimigos diferentes — mas sem a garantia de derrubar.
+- **Mover 1 casa (◈) e Corte Duplo em Intensidade II (◈◈)** — reposiciona e ainda tenta derrubar, por 9 Mana. O meio-termo.
 
 Nenhuma das três é a certa. É isso que o sistema pede de você a cada turno.
 
-**Se sair 20 natural**, é Crítico: dano máximo, uma rolagem extra, e você **sobe uma Intensidade de graça** — o efeito da linha acima, sem pagar a diferença.
+**Se o d100 puro cair dentro do limiar de Crítico**, aquele golpe é Crítico: dano máximo, uma rolagem extra, e você **sobe uma Intensidade de graça** — o efeito da linha acima, sem pagar a diferença.
 
 ## As páginas desta seção
 
 | Página | Responde |
 |---|---|
 | [Os Oito Atributos](atributos.md) | o que cada atributo faz, e qual deles a sua habilidade usa |
-| [Testes de d20](testes.md) | como resolver qualquer ação, DC, Vantagem, rerolagem |
+| [Testes de d100](testes.md) | como resolver qualquer ação, Dificuldade, Vantagem, rerolagem |
 | [Combate](combate.md) | turno, Iniciativa, Pontos de Ação, movimento, Defesa |
 | [Mana](mana.md) | o recurso que alimenta todas as habilidades |
 | [Dano e Cura](dano-e-cura.md) | tipos de dano, Vida, Dados de Vida, chegar a 0 e o Último Turno |

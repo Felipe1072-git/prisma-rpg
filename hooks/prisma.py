@@ -171,16 +171,19 @@ def resume_atributo(bruto: str) -> str:
     return principal.replace(" ou ", "/")
 
 
-_ATRIBUTOS_BASE = ("forca", "agilidade", "inteligencia", "sabedoria", "vontade")
+_ATRIBUTOS_BASE = ("ataque", "agilidade", "magia", "exploracao", "social")
 
 # Habilidade só rola com um destes cinco, mas Raça e Origem mexem nos oito.
+# (d100, 2026-08-20: substitui os 8 atributos antigos — Força→Ataque,
+# Vitalidade→Defesa, Inteligência→Magia, Sabedoria→Exploração, Vontade→Social,
+# mais o 8º atributo novo, Exploração, que não tinha equivalente direto.)
 ATRIBUTOS_TODOS = (
-    ("forca", "Força"),
-    ("vitalidade", "Vitalidade"),
+    ("ataque", "Ataque"),
+    ("defesa", "Defesa"),
     ("agilidade", "Agilidade"),
-    ("inteligencia", "Inteligência"),
-    ("sabedoria", "Sabedoria"),
-    ("vontade", "Vontade"),
+    ("magia", "Magia"),
+    ("exploracao", "Exploração"),
+    ("social", "Social"),
     ("sorte", "Sorte"),
     ("sanidade", "Sanidade"),
 )
@@ -885,38 +888,50 @@ TIERS = ("Comum", "Treinado", "Formidável", "Lendário")
 DESTAQUES_CRIATURA = (
     "Ameaça",
     "Vida",
-    "PA",
-    "Defesa física",
-    "Defesa mental",
-    "Ataque",
-    "Iniciativa",
     "Mana",
+    "PA",
+    "Evasão",
+    "Iniciativa",
     "Movimento",
     "Voo",
 )
+# Vida e Mana ficam lado a lado de propósito (d100, 2026-08-20) — os dois
+# recursos "grandes" da ficha, pra comparar num olhar só. Ver cor em
+# TILE_COR_ESPECIAL, mais abaixo.
+TILE_COR_ESPECIAL = {"Vida": "vida", "Mana": "mana"}
+# "Defesa mental" saiu dos tiles (d100, 2026-08-20): não é mais um número
+# único computado — é o valor cru de Magia/Social/Sanidade/Exploração,
+# dependendo do efeito, e esses já aparecem na grade de atributos. Repetir
+# um deles como tile faria parecer que só ele importa.
+# "Ataque" também saiu do tile de cabeçalho (mesma data): é só mais um dos
+# 8 atributos agora, e já aparece na grade — deixá-lo nos dois lugares
+# mostrava o mesmo número duas vezes.
 
 # Rótulos que não entram nas linhas de defesa: os que já viraram tile ou grade,
 # mais os dois que a ficha não mostra. O Tier já é o chip do cabeçalho, e a
-# Couraça já está somada na Defesa física — mostrá-la de novo, em tile ou em
+# Couraça já está somada na Evasão — mostrá-la de novo, em tile ou em
 # legenda, faz parecer que são dois números. Ela continua no markdown e no
 # filtro da barra; quem precisar do valor cru consulta Criando uma Criatura.
 # O que sobrar (Imunidades, Resistência, Vulnerabilidade, e qualquer rótulo
 # novo que uma criatura futura invente) cai nas linhas de defesa sozinho.
-IGNORA_CRIATURA = frozenset(DESTAQUES_CRIATURA) | {"Tier", "Atributos", "Couraça"}
+IGNORA_CRIATURA = frozenset(DESTAQUES_CRIATURA) | {"Tier", "Atributos", "Couraça", "Ataque"}
+# "Ataque" some do tile de topo mas continua fora das linhas de defesa: o
+# valor dele já vira parte da grade (ver ficha_de_criatura), então deixá-lo
+# cair aqui embaixo também repetiria o número pela terceira vez.
 
 ABREVIA_ATRIBUTO = {
-    "forca": "FOR",
-    "vitalidade": "VIT",
+    "ataque": "ATA",
+    "defesa": "DEF",
     "agilidade": "AGI",
-    "inteligencia": "INT",
-    "sabedoria": "SAB",
-    "vontade": "VON",
+    "magia": "MAG",
+    "exploracao": "EXP",
+    "social": "SOC",
     "sorte": "SOR",
     "sanidade": "SAN",
 }
 
 # Um ataque ou traço: a linha é só o nome em negrito, seguido do qualificador
-# `*(passiva)*` ou da meta do ataque (`— ◈ | +1 vs Defesa física | alvo`).
+# `*(passiva)*` ou da meta do ataque (`— ◈ | +1 vs Evasão | alvo`).
 RE_BLOCO_CRIATURA = re.compile(r"^\*\*([^*]+?)\*\*\s*(\*\([^)]+\)\*|—\s*\S.*)?$")
 
 # Um tile só usa o número grande quando o valor é mesmo um número: um valor que
@@ -1001,8 +1016,10 @@ def tiles_criatura(campos: dict[str, str]) -> tuple[str, list[str]]:
             classe = ""
         else:
             classe = " prg-bes__val--texto"
+        cor = TILE_COR_ESPECIAL.get(rotulo, "")
+        classe_tile = f" prg-bes__tile--{cor}" if cor else ""
         tiles.append(
-            '<span class="prg-bes__tile">'
+            f'<span class="prg-bes__tile{classe_tile}">'
             f'<span class="prg-bes__rot">{escapa(rotulo)}</span>'
             f'<span class="prg-bes__val{classe}">{escapa(valor)}</span></span>'
         )
@@ -1110,7 +1127,12 @@ def ficha_de_criatura(
     if tiles:
         partes.append(tiles)
     if "Atributos" in campos:
-        partes.append(grade_de_atributos(campos["Atributos"]))
+        # Ataque já é um dos 8 atributos (d100, 2026-08-20) — a grade lê o
+        # campo Ataque junto, sem precisar que a ficha repita o número duas
+        # vezes (uma no tile de cabeçalho, outra dentro de "Atributos").
+        ataque_bruto = campos.get("Ataque", "")
+        bruto_grade = campos["Atributos"] + (f" Ataque {ataque_bruto}" if ataque_bruto else "")
+        partes.append(grade_de_atributos(bruto_grade))
 
     # Imunidade e resistência decidem se o golpe do jogador vale alguma coisa:
     # ficam logo abaixo dos números, antes de qualquer ação.
@@ -1171,9 +1193,10 @@ def facetas_de_defesa(campos: dict[str, str]) -> tuple[list[str], list[str]]:
         vulner.append(m.group(1).strip())
 
     bruto = " ".join(
-        (campos.get("Imunidades", ""), campos.get("Imunidade", ""),
-         campos.get("Defesa mental", ""))
+        (campos.get("Imunidades", ""), campos.get("Imunidade", ""))
     )
+    # "Defesa mental" saiu (d100, 2026-08-20) — imunidade a efeito mental
+    # agora vem só do campo Imunidades, que já cobria isso em toda ficha.
     imune = _acha(VOCAB_ELEMENTO + VOCAB_FISICO, bruto)
     sem = sem_acento(bruto)
     if "efeito mental" in sem:
@@ -1195,7 +1218,7 @@ CAPACIDADES = (
     ("possui", ("[Possuído]",)),
     ("regenera", ("Recupera **", "recupera **", "remonta-se", "volta com **")),
     ("veneno", ("[Envenenado]",)),
-    ("ataca a mente", ("vs Defesa mental",)),
+    ("ataca a mente", ("vs Fortitude Mágica", "vs Social", "vs Sanidade")),
     ("área", ("cone de", "casas de raio", "linha de")),
 )
 
@@ -1235,11 +1258,7 @@ def monta_card_criatura(s: Secao, acao_de_lenda: str = "") -> str:
             [
                 ("Ameaça", ameaca),
                 ("Ataque", texto_puro(campos.get("Ataque", ""))),
-                ("Defesa física", texto_puro(campos.get("Defesa física", ""))),
-                (
-                    "Defesa mental",
-                    valor_de_tile(texto_puro(campos.get("Defesa mental", ""))),
-                ),
+                ("Evasão", texto_puro(campos.get("Evasão", ""))),
                 ("PA", valor_de_tile(pa)),
             ]
         ),

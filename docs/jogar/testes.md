@@ -1,11 +1,11 @@
-# Testes de d20
+# Testes de d100
 
 Há uma única fórmula no jogo inteiro, e ela resolve tudo — abrir uma fechadura, convencer um guarda, acertar um dragão:
 
-!!! regra "d20 + Atributo vs Dificuldade"
-    Role 1d20, some o [Atributo](atributos.md) apropriado, e compare com a **Dificuldade (DC)** definida pelo Mestre. **Igualar ou superar é sucesso.**
+!!! regra "d100 + Atributo vs Dificuldade"
+    Role 1d100 (um par de d10, lido como percentil — 00 conta como 100), some o [Atributo](atributos.md) apropriado, e compare com a **Dificuldade** definida pelo Mestre. **Igualar ou superar é sucesso.**
 
-Rolagens de **Habilidade** usam exatamente a mesma lógica, trocando a DC pela [Defesa](combate.md#defesa) do alvo — igualou ou superou, acertou.
+Rolagens de **Habilidade** usam exatamente a mesma lógica, trocando a Dificuldade fixa pelo número-alvo do defensor — **Evasão** pra ataque físico, **Fortitude Mágica** ou **Fortitude Física** pra efeito que pula a Evasão, **Social** ou **Exploração** pra resistir a influência ou percepção (ver [Combate](combate.md#defesa)). Igualou ou superou, acertou.
 
 E é só isso que a rolagem responde. O quanto a habilidade faz **não depende do dado**: depende da [Intensidade](../habilidades/regras.md#intensidade) que o jogador pagou antes de rolar.
 
@@ -13,7 +13,7 @@ E é só isso que a rolagem responde. O quanto a habilidade faz **não depende d
 
 Só quando a ação puder **dar errado** e o fracasso for **interessante**. Se o personagem tem tempo, ferramenta e nenhuma pressão, a ação simplesmente acontece — ver [Quando não pedir teste](../mestre/testes.md#quando-nao-pedir-teste).
 
-A escala de DCs que o Mestre usa está na [tabela de Dificuldades](../mestre/testes.md#a-tabela). Como referência rápida: **DC 10** é o que uma pessoa treinada faz na maior parte das vezes, **DC 15** exige competência real, **DC 20** é façanha.
+A escala de Dificuldades que o Mestre usa está na [tabela de Dificuldades](../mestre/testes.md#a-tabela). Como referência rápida: **Dificuldade 50** é o que uma pessoa treinada faz na maior parte das vezes, **Dificuldade 75** exige competência real, **Dificuldade 100** é façanha.
 
 ## Vantagem e Desvantagem
 
@@ -21,28 +21,36 @@ A escala de DCs que o Mestre usa está na [tabela de Dificuldades](../mestre/tes
 
 Quando o Mestre concede uma e quando concede a outra está em [Vantagem, Desvantagem e rerrolagem](../mestre/testes.md#vantagem-desvantagem-e-rerrolagem).
 
-## 1 natural e 20 natural
+Na prática: role **2d100** e fique com o maior (Vantagem) ou o menor (Desvantagem). O Crítico só checa o dado que você **manteve**.
 
-| Resultado | O que acontece |
-|---|---|
-| **20 natural** | Crítico: dano máximo, uma rolagem de dano extra, e a habilidade **sobe 1 Intensidade de graça** |
-| **1 natural** | Falha, e o personagem marca **1 ponto de [Estresse](estresse.md)** |
+## Críticos
 
-Um 20 natural não transforma o impossível em possível, e um 1 natural não inventa desastre — ver [1 natural e 20 natural](../mestre/testes.md#1-natural-e-20-natural) pro lado do Mestre.
+<!-- prisma:verbetes Crítico -->
+
+Não existe mais "20 natural" — o crítico escala com **Sorte**, através do **limiar de Crítico**:
+
+!!! regra "Limiar de Crítico = Sorte ÷ 3, arredondado"
+    Se o resultado do d100 (o número puro, antes de somar Atributo) for **igual ou menor que o seu limiar**, o teste é **sucesso automático e crítico** — não importa a Dificuldade. Um crítico causa dano máximo, uma rolagem de dano extra, e **sobe 1 Intensidade de graça**.
+
+Como todo atributo nasce em 5 na criação, o limiar nunca é zero: **todo personagem mantém pelo menos 1% de chance de crítico garantido**, mesmo sem nunca investir em Sorte. Quem foca Sorte a sério chega a limiares de 20, 30, ou mais — cada vez mais perto de "sempre acerto, e sempre bem".
+
+**Tirar exatamente 1** no d100, em qualquer teste, marca **1 ponto de [Estresse](estresse.md)** — mesmo quando o resultado é sucesso/crítico (o susto de escapar por pouco cobra um preço, mesmo quando a sorte salva você).
+
+Não existe falha crítica ("fumble") neste sistema: uma falha é só uma falha.
 
 ## Rerolagens
 
-O jogador pode rerolar **qualquer teste seu, ou um efeito usado contra si**.
+O jogador pode rerolar **qualquer teste seu que tenha falhado, ou um efeito usado contra si** — não dá pra rerolar um sucesso só pra tentar upar em crítico.
 
-**Usos por descanso longo = 1 + Sorte** (mínimo 0). A grade reseta completamente a cada [descanso longo](exploracao.md#descanso).
+**Usos por descanso longo = 1 + (Sorte ÷ 10)**, arredondado (mínimo 1). A grade reseta completamente a cada [descanso longo](exploracao.md#descanso).
 
-É a válvula de escape do sistema: um 1 natural na hora errada não precisa ser o fim, desde que você ainda tenha carga.
+É a válvula de escape do sistema: um teste ruim na hora errada não precisa ser o fim, desde que você ainda tenha carga.
 
 ## Testes Sociais
 
-Persuadir, Intimidar, Amedrontar — resolvidos como teste normal, com o atributo que a abordagem pedir (em geral **Vontade**).
+Persuadir, Intimidar, Amedrontar — resolvidos como teste normal, usando **Social**.
 
-A diferença é que um teste social tem **alvo, não DC fixa**: a dificuldade sai da Defesa mental de quem está sendo convencido, e do quanto o pedido custa a ele. Ver [Testes Sociais têm alvo, não DC](../mestre/testes.md#testes-sociais-tem-alvo-nao-dc).
+A diferença é que um teste social tem **alvo, não Dificuldade fixa**: a dificuldade sai do **Social** de quem está sendo convencido (ou da **Fortitude Mágica**, se o efeito for de origem mágica — ver [Combate](combate.md#defesa)), e do quanto o pedido custa a ele. Ver [Testes Sociais têm alvo, não Dificuldade fixa](../mestre/testes.md#testes-sociais-tem-alvo-nao-dificuldade-fixa).
 
 Nenhum teste social força um PJ a nada — contra jogadores, o resultado informa a cena, não a decisão.
 
