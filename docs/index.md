@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/img/logo-prisma.png" alt="Prisma RPG" width="260">
-</p>
+<img class="prg-capa-hero" src="assets/img/capa.jpg" alt="Prisma RPG">
 
 # Prisma RPG
 

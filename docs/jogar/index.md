@@ -1,5 +1,7 @@
 # Jogando o Jogo
 
+<img class="prg-arte" src="../assets/img/regras/abertura.jpg" alt="">
+
 O Prisma RPG é um d100 de mesa sem classes. Você não escolhe ser guerreiro ou mago — escolhe **habilidades**, uma por vez, e o personagem que sai disso é o que você fez dele. Um espadachim que aprendeu a conjurar fogo é tão válido quanto um mago puro, e nenhuma regra vai dizer que ele está "misturando errado".
 
 Esta seção é o que qualquer pessoa na mesa precisa saber pra jogar — jogador ou Mestre. A [Criação de Personagem](../criacao/index.md) vem depois; primeiro vale entender o que o personagem vai *fazer*.

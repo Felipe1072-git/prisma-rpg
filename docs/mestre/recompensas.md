@@ -1,5 +1,7 @@
 # Recompensas
 
+<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/recompensas.jpg" alt="">
+
 O que o grupo leva de uma sessão: nível, dinheiro, item e as coisas que não têm ficha.
 
 ## Progressão: um nível por sessão

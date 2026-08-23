@@ -1,5 +1,7 @@
 # Testes de d100
 
+<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/testes.jpg" alt="">
+
 | Resumo rápido | |
 |---|---|
 | Teste básico | **d100 + Atributo vs Dificuldade** — igualou ou superou, sucesso |

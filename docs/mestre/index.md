@@ -1,5 +1,7 @@
 # O que muda pro Mestre
 
+<img class="prg-arte" src="../assets/img/regras/mestre.jpg" alt="">
+
 Se você já mestrou qualquer d20, 90% do que sabe vale aqui. Esta página é sobre os outros 10% — as quatro coisas que o Prisma faz diferente, e que mudam decisões suas na mesa.
 
 ## A rolagem não decide a força do golpe

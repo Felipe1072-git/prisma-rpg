@@ -1,5 +1,7 @@
 # Estresse
 
+<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/estresse.jpg" alt="">
+
 | Resumo rápido | |
 |---|---|
 | Estresse Máximo | **20 + Nível + (Sanidade × 2)** + Estresse de equipamento |

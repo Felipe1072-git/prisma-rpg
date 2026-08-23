@@ -1,5 +1,7 @@
 # Montagem de Encontro
 
+<img class="prg-arte" src="../assets/img/regras/encontros.jpg" alt="">
+
 Quantas criaturas colocar na sala, e por quê.
 
 ## Pontos de Ameaça

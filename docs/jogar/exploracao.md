@@ -1,5 +1,7 @@
 # Exploração
 
+<img class="prg-arte" src="../assets/img/regras/exploracao.jpg" alt="">
+
 | Resumo rápido | |
 |---|---|
 | Descanso curto (~1h) | metade de Vida, Mana e Estresse |

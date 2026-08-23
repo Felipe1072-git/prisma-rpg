@@ -1294,6 +1294,50 @@
   }
 }
 
+/* --------------------------------------------------------------- arte de regra */
+/* Ilustração de página de regra: .prg-arte é o banner de abertura (largura
+   cheia, 16:9); .prg-arte--retrato é a inserção flutuante ao lado da prosa
+   (mesmo comportamento do .prg-ficha-lateral). Sem legenda de propósito — a
+   imagem é clima, não conteúdo. */
+
+.md-typeset .prg-arte {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin: 0.3em auto 1.3em;
+  border-radius: 8px;
+  border: 1px solid var(--prg-borda-forte);
+  box-shadow: var(--prg-sombra);
+}
+
+.md-typeset .prg-arte--retrato {
+  float: right;
+  clear: right;
+  width: min(240px, 42%);
+  max-width: none;
+  margin: 0.3em 0 1em 1.5em;
+}
+
+@media (max-width: 76em) {
+  .md-typeset .prg-arte--retrato {
+    float: none;
+    width: auto;
+    max-width: 320px;
+    margin: 0.3em auto 1.3em;
+  }
+}
+
+/* Capa da home — o primeiro contato de quem chega no site. */
+.md-typeset .prg-capa-hero {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 1.5em;
+  border-radius: 8px;
+  border: 1px solid var(--prg-borda-forte);
+  box-shadow: var(--prg-sombra);
+}
+
 /* --------------------------------------------------------------- lightbox */
 
 .prg-lightbox-abre {

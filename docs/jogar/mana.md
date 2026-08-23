@@ -1,5 +1,7 @@
 # Mana
 
+<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/mana.jpg" alt="">
+
 | Resumo rápido | |
 |---|---|
 | Mana Máximo | **20 + Nível + (Magia × 2)** + Mana de equipamento |

@@ -1,5 +1,7 @@
 # Dano e Cura
 
+<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/dano-e-cura.jpg" alt="">
+
 | Resumo rápido | |
 |---|---|
 | Vida Máxima | **20 + Nível + (Defesa × 2)** + Vida de equipamento |

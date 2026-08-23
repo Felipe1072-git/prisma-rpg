@@ -1,5 +1,7 @@
 # Criação de Personagem
 
+<img class="prg-arte" src="../assets/img/regras/criacao.jpg" alt="">
+
 Cinco passos, nesta ordem. Ao fim deles você tem uma ficha jogável de nível 0.
 
 | Passo | O que você decide | Onde escolher |
