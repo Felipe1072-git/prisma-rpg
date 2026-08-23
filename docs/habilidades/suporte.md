@@ -326,7 +326,7 @@ Cura e apoio a aliados.
 
 - **Chave:** [Suporte](../glossario.md#suporte)
 - **Atributo:** Magia | **Alcance:** 6 casas | **Alvos:** 1 aliado (ou o próprio usuário)
-- **Intensidade I — ◈ (1 PA) + 12 Mana:** o alvo remove 1 ponto de [Estresse](../jogar/estresse.md).
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** o alvo remove 1 ponto de [Estresse](../glossario.md#estresse).
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, removendo 2 pontos.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, removendo 3 pontos, e o próximo teste de Estresse que o alvo fizer nesta cena rola com [Vantagem](../glossario.md#vantagem).
 

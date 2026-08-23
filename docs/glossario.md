@@ -1,6 +1,6 @@
 # Glossário de Termos
 
-Os **132 termos** que o jogo usa: condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
+Os **142 termos** que o jogo usa: estatísticas do personagem, condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
 
 Há duas formas de chegar num termo: o **índice alfabético** abaixo, se você já sabe o nome, ou a **busca e o filtro por categoria**, se você está procurando o que existe.
 
@@ -41,6 +41,52 @@ O Tier de ameaça de uma criatura — Comum, Treinado, Formidável, Lendário. N
 ### Acúmulo de bônus
 
 **Bônus numéricos planos de buffs diferentes não somam — vale o maior.** Um personagem sob Aura de Ataque (+3) e Bênção Divina (+2) usa +3, não +5 (uma habilidade que declara empilhar **consigo mesma**, como a Bênção Divina, é exceção explícita e só empilha com ela própria). Bônus de fontes de natureza diferente (buff + item + traço racial) somam normalmente. **Resistências ao mesmo tipo de dano também não acumulam** — duas Resistências a Fogo valem uma.
+
+## Estatísticas do Personagem
+
+### Vida
+
+A barra que mede quanto dano o corpo aguenta antes de cair a 0. **Vida Máxima = 20 + Nível + (Defesa × 2)** + Vida de equipamento. Recupera metade num descanso curto, tudo num descanso longo. Ver [Dano e Cura](jogar/dano-e-cura.md#vida).
+
+### Mana
+
+O recurso que ativa toda Habilidade — não existe sistema de magia separado, a [Intensidade](#intensidade) escolhida é paga em Mana. **Mana Máximo = 20 + Nível + (Magia × 2)** + Mana de equipamento. Recupera metade num descanso curto, tudo num descanso longo. Ver [Mana](jogar/mana.md#mana-maximo).
+
+### Estresse
+
+A barra que mede quanto a cabeça aguenta, não o corpo. **Estresse Máximo = 20 + Nível + (Sanidade × 2)** + Estresse de equipamento. Encher a barra causa um Colapso imediato e, depois, uma Cicatriz permanente. Ver [Estresse](jogar/estresse.md).
+
+### Intensidade
+
+O quanto uma Habilidade entrega, escolhido na hora de ativar — o d100 só responde se acertou ou não, quem decide **quão forte** é a Intensidade. Vai de I (◈, efeito base) a III (◈◈◈, efeito completo), e o custo em Mana sobe junto. Ver [Regras de Habilidade](habilidades/regras.md#intensidade).
+
+### Pontos de Ação
+
+◈ — o que se gasta no turno pra mover, atacar ou usar uma Habilidade. Todo personagem tem **3 por turno**, sem exceção de raça, arma ou nível. Ver [Combate](jogar/combate.md).
+
+### Defesa
+
+Um dos oito atributos — resistência física, o quanto o corpo aguenta e encaixa impacto. Soma na [Vida](#vida) Máxima, e o próprio valor cru **é** a Fortitude Física. Ver [Os Oito Atributos](jogar/atributos.md).
+
+### Evasão
+
+O número-alvo que um ataque físico precisa superar pra acertar. **Evasão = Agilidade + Escudo/Couraça Natural**. Decide só **se** o golpe acerta — o quanto ele faz já foi escolhido pela [Intensidade](#intensidade) paga. Ver [Combate → Defesa](jogar/combate.md#defesa).
+
+### Fortitude Física
+
+O número-alvo contra veneno, doença, exaustão e qualquer efeito que o corpo resiste por dentro, não desvia — **o próprio valor de [Defesa](#defesa), cru**. Ver [Combate → Defesa](jogar/combate.md#defesa).
+
+### Fortitude Mágica
+
+O número-alvo contra controle mental de origem mágica, maldição e petrificação — **o próprio valor de Magia, cru**. Ver [Combate → Defesa](jogar/combate.md#defesa).
+
+### Movimento
+
+Quantas casas um personagem anda ao gastar ◈ pra se mover. **Movimento = 6 + (Agilidade ÷ 10)** casas, arredondado, mínimo 1. Ver [Combate → Movimento](jogar/combate.md#movimento).
+
+### Iniciativa
+
+Define a ordem dos turnos no início de um combate. Role **d100 + Agilidade + Sorte**; ordem decrescente do resultado decide quem age primeiro. Ver [Combate → Iniciativa](jogar/combate.md#iniciativa).
 
 ## Condições
 

@@ -21,6 +21,14 @@ Os pontos de atributo da **Raça** (passo 2) entram por cima desses valores.
 
 ## 2. Raça
 
+<div style="float:right; width:160px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif;">
+  <div style="position:relative; border:1px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; display:flex; flex-direction:column;">
+    <div style="position:absolute; top:6px; right:6px; width:18px; height:18px; background:#159c56; border:1.2px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:11px; height:11px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><path d="M4 12h16"/><path d="M12 4c3 3 3 13 0 16M12 4c-3 3-3 13 0 16"/></svg></div>
+    <div style="background:#159c56; color:#faf7ef; font-size:8px; letter-spacing:0.06em; text-transform:uppercase; padding:4px 8px; box-sizing:border-box;">Traço Racial</div>
+    <div style="padding:5px 8px 8px;"><div style="font-size:6.5px; color:#5b5343; text-transform:uppercase;">Efeito</div><div style="font-size:9px; min-height:16px;">&nbsp;</div></div>
+  </div>
+</div>
+
 Cada [Raça](../racas/index.md) concede:
 
 - **Atributos** — um pool de 2 ou 3 atributos temáticos, com pontos a distribuir entre eles.
@@ -31,6 +39,14 @@ Traços raciais **não** competem com as suas 26 escolhas de habilidade — são
 Nenhuma raça jogável é visualmente indistinguível de um humano: toda raça não-humana tem pelo menos um **traço físico inconfundível**, óbvio à primeira vista.
 
 ## 3. Origem
+
+<div style="float:right; width:160px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif;">
+  <div style="position:relative; border:1px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; display:flex; flex-direction:column;">
+    <div style="position:absolute; top:6px; right:6px; width:18px; height:18px; background:#159c56; border:1.2px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:11px; height:11px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V10l3-2V6h2v1l3-2 3 2V6h2v2l3 2v11"/><path d="M9 21v-5h6v5"/></svg></div>
+    <div style="background:#159c56; color:#faf7ef; font-size:8px; letter-spacing:0.06em; text-transform:uppercase; padding:4px 8px; box-sizing:border-box;">Passado</div>
+    <div style="padding:5px 8px 8px;"><div style="font-size:6.5px; color:#5b5343; text-transform:uppercase;">Efeito</div><div style="font-size:9px; min-height:16px;">&nbsp;</div></div>
+  </div>
+</div>
 
 A [Origem](../origens/index.md) é o que você viveu antes de virar aventureiro — **três escolhas independentes**, cada uma com 1 traço leve:
 

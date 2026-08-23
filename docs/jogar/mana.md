@@ -10,13 +10,21 @@
 
 Recurso universal que alimenta todas as habilidades do personagem — marciais, mágicas, sociais, etc. Não existe um recurso separado para "magia": tudo usa Mana.
 
-Enquanto os [Pontos de Ação](combate.md#pontos-de-acao) são o orçamento **do turno**, o Mana é o orçamento **do dia**. É ele que decide se você aguenta mais um combate antes de precisar parar.
+Enquanto os [Pontos de Ação](../glossario.md#pontos-de-acao) são o orçamento **do turno**, o Mana é o orçamento **do dia**. É ele que decide se você aguenta mais um combate antes de precisar parar.
 
 ## Mana Máximo
 
+<div style="float:right; width:190px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif; color:#211c14;">
+  <div style="position:relative; clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px); border:1.4px solid #3f5fa0; background:#f1ebdc;">
+    <div style="position:absolute; top:5px; right:5px; width:17px; height:17px; background:#3f5fa0; border:1.2px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:10px; height:10px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c4 5 7 9 7 12a7 7 0 0 1-14 0c0-3 3-7 7-12z"/></svg></div>
+    <div style="font-size:10.5px; font-weight:700; color:#3f5fa0; letter-spacing:0.08em; text-transform:uppercase; text-align:center; padding:4px 0 3px; border-bottom:1px solid #cabf9f;">Mana</div>
+    <div style="display:flex;"><div style="flex:1; text-align:center; padding:5px 0 6px; border-right:1px solid #cabf9f;"><div style="font-size:6.5px; letter-spacing:0.06em; color:#5b5343; text-transform:uppercase;">Atual</div><div style="font-size:16px; font-weight:700; min-height:19px; color:#211c14;">&nbsp;</div></div><div style="flex:1; text-align:center; padding:5px 0 6px;"><div style="font-size:6.5px; letter-spacing:0.06em; color:#5b5343; text-transform:uppercase;">Máx</div><div style="font-size:16px; font-weight:700; color:#3f5fa0;">&nbsp;</div></div></div>
+  </div>
+</div>
+
 **Mana Máximo = 20 (base) + Nível + (Magia × 2) + Mana de equipamento**
 
-Mesma forma da [Vida Máxima](dano-e-cura.md#vida) (só trocando Defesa por Magia) — de propósito: Mana não devia parecer um recurso secundário perto da Vida, os dois crescem no mesmo tamanho. Exemplo: nível 0, Magia 5 (baseline de criação) → 20+0+10 = 30 Mana. Nível 100, Magia 98 (foco em Magia) → 20+100+196 = 316 Mana — mais até que a Vida de um personagem assim (frágil de corpo, carrega poder de sobra).
+Mesma forma da [Vida Máxima](../glossario.md#vida) (só trocando Defesa por Magia) — de propósito: Mana não devia parecer um recurso secundário perto da Vida, os dois crescem no mesmo tamanho. Exemplo: nível 0, Magia 5 (baseline de criação) → 20+0+10 = 30 Mana. Nível 100, Magia 98 (foco em Magia) → 20+100+196 = 316 Mana — mais até que a Vida de um personagem assim (frágil de corpo, carrega poder de sobra).
 
 O termo de equipamento é 0 pra quase tudo — hoje só as [Roupas Místicas](../equipamento/index.md#equ-roupas-misticas) somam algo (+15).
 
@@ -34,7 +42,7 @@ Ver [Descanso](exploracao.md#descanso) para o que mais cada um recupera, e por q
 
 ## Escala de Mana por Intensidade
 
-Mana e Pontos de Ação sobem **juntos** com a [Intensidade](../habilidades/regras.md#intensidade): empurrar uma habilidade mais longe consome mais do turno *e* mais Mana. A Intensidade I de qualquer habilidade é sempre barata; a III pesa de verdade no orçamento.
+Mana e Pontos de Ação sobem **juntos** com a [Intensidade](../glossario.md#intensidade): empurrar uma habilidade mais longe consome mais do turno *e* mais Mana. A Intensidade I de qualquer habilidade é sempre barata; a III pesa de verdade no orçamento.
 
 **Habilidades de arma** seguem uma escala fixa pelo grau, então o investimento na arma continua visível — uma Especial custa mais que uma Básica na mesma Intensidade:
 

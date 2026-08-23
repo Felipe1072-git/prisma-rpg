@@ -35,7 +35,7 @@ Duas regras que economizam mais tempo de mesa que qualquer tabela:
 
 Não existe mais "20 natural" nem falha crítica ("fumble") neste sistema — o crítico escala com Sorte, através do **limiar de Crítico** (ver [Críticos](../jogar/testes.md#criticos)): rolar igual ou abaixo do limiar é sucesso automático e crítico, não importa a Dificuldade.
 
-**Tirar exatamente 1** no d100 sempre marca **1 ponto de [Estresse](../jogar/estresse.md)**, mesmo quando o resultado é sucesso ou crítico — o preço mental de escapar por pouco.
+**Tirar exatamente 1** no d100 sempre marca **1 ponto de [Estresse](../glossario.md#estresse)**, mesmo quando o resultado é sucesso ou crítico — o preço mental de escapar por pouco.
 
 O princípio de sempre: **se a tarefa fosse impossível, o teste não deveria ter sido permitido.** Autorizar a rolagem já é admitir que há chance. O Mestre decide se rola; o dado decide o resto.
 
@@ -96,7 +96,7 @@ Esconder-se em grupo não segue nenhum dos três limpo: **o grupo é tão furtiv
 
 ## Testes Sociais têm alvo, não Dificuldade fixa
 
-[Persuadir, Intimidar e Amedrontar](../jogar/testes.md#testes-sociais) contra uma criatura **não** usam a tabela de Dificuldades: usam o **Social** dela, cru — o valor que está na ficha, sem nenhum bônus de Tier somado por baixo. É o mesmo princípio de qualquer efeito que pula a Evasão neste jogo: quem resiste é o Social do alvo, não uma dificuldade abstrata (ver [Defesa](../jogar/combate.md#defesa)).
+[Persuadir, Intimidar e Amedrontar](../jogar/testes.md#testes-sociais) contra uma criatura **não** usam a tabela de Dificuldades: usam o **Social** dela, cru — o valor que está na ficha, sem nenhum bônus de Tier somado por baixo. É o mesmo princípio de qualquer efeito que pula a Evasão neste jogo: quem resiste é o Social do alvo, não uma dificuldade abstrata (ver [Defesa](../glossario.md#defesa)).
 
 | Alvo | Social típico | Um personagem com Social 25 convence |
 |---|---|---|

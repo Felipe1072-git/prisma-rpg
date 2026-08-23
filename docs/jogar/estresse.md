@@ -8,11 +8,19 @@
 | Recuperação | igual Vida e Mana — metade no curto, tudo no longo |
 | Barra cheia | **Colapso** (1d6) na hora, depois **Cicatriz** (1d6) permanente |
 
-A [Vida](dano-e-cura.md#vida) mede o que o corpo aguenta. O Estresse mede o que a **cabeça** aguenta.
+<div style="float:right; width:190px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif; color:#211c14;">
+  <div style="position:relative; clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px); border:1.4px solid #6a3fa0; background:#f1ebdc;">
+    <div style="position:absolute; top:5px; right:5px; width:17px; height:17px; background:#6a3fa0; border:1.2px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:10px; height:10px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="14" r="7"/><path d="M7 9c1-2 3-3 5-3s4 1 5 3"/><path d="M13 10l-2 4h3l-2 4"/></svg></div>
+    <div style="font-size:10.5px; font-weight:700; color:#6a3fa0; letter-spacing:0.08em; text-transform:uppercase; text-align:center; padding:4px 0 3px; border-bottom:1px solid #cabf9f;">Estresse</div>
+    <div style="display:flex;"><div style="flex:1; text-align:center; padding:5px 0 6px; border-right:1px solid #cabf9f;"><div style="font-size:6.5px; letter-spacing:0.06em; color:#5b5343; text-transform:uppercase;">Atual</div><div style="font-size:16px; font-weight:700; min-height:19px; color:#211c14;">&nbsp;</div></div><div style="flex:1; text-align:center; padding:5px 0 6px;"><div style="font-size:6.5px; letter-spacing:0.06em; color:#5b5343; text-transform:uppercase;">Máx</div><div style="font-size:16px; font-weight:700; color:#6a3fa0;">&nbsp;</div></div></div>
+  </div>
+</div>
+
+A [Vida](../glossario.md#vida) mede o que o corpo aguenta. O Estresse mede o que a **cabeça** aguenta.
 
 **Estresse Máximo = 20 (base) + Nível + (Sanidade × 2) + Estresse de equipamento**
 
-Exemplo: nível 0, Sanidade 5 (baseline de criação) → 20 + 0 + 10 = 30. Nível 100, Sanidade 58 (investimento moderado) → 20 + 100 + 116 = 236. Mesma forma de [Vida](dano-e-cura.md#vida) e [Mana](mana.md#mana-maximo), só trocando o atributo — de propósito: os três recursos crescem do mesmo jeito, então decorar a fórmula de um é decorar a dos três. O termo de equipamento é 0 pra tudo hoje — fica pronto pro dia que algum item conceder Estresse Máximo extra.
+Exemplo: nível 0, Sanidade 5 (baseline de criação) → 20 + 0 + 10 = 30. Nível 100, Sanidade 58 (investimento moderado) → 20 + 100 + 116 = 236. Mesma forma de [Vida](../glossario.md#vida) e [Mana](../glossario.md#mana), só trocando o atributo — de propósito: os três recursos crescem do mesmo jeito, então decorar a fórmula de um é decorar a dos três. O termo de equipamento é 0 pra tudo hoje — fica pronto pro dia que algum item conceder Estresse Máximo extra.
 
 ## Como se ganha Estresse
 
@@ -31,7 +39,7 @@ Duas famílias de gatilho — uma automática e de graça, outra narrativa e pon
 4. Falhar em algo que importava de verdade
 5. Matar ou ferir gravemente alguém que não devia
 
-Estresse recupera na mesma escala de [Vida](dano-e-cura.md#vida) e [Mana](mana.md#mana-maximo): **metade do máximo num descanso curto, tudo num descanso longo** (ver [Descanso](exploracao.md#descanso)).
+Estresse recupera na mesma escala de [Vida](../glossario.md#vida) e [Mana](../glossario.md#mana): **metade do máximo num descanso curto, tudo num descanso longo** (ver [Descanso](exploracao.md#descanso)).
 
 ## Colapso
 
@@ -56,8 +64,8 @@ Depois do surto, a barra reseta a 0 e o personagem ganha uma **Cicatriz**: uma c
 | 2 | **Gatilho de Fúria** — um evento específico (ver aliado cair, ser insultado etc.) força um teste de Estresse extra imediato |
 | 3 | **Tique Nervoso** — Desvantagem no primeiro teste social de cada cena |
 | 4 | **Isolamento** — recupera só metade do Estresse por Apoio Social (arredondado pra baixo) |
-| 5 | **Paranoia** — Desvantagem em [Iniciativa](combate.md#iniciativa) (sempre hesitante, desconfiado demais) |
-| 6 | **Exaustão Crônica** — descanso curto não recupera [Mana](mana.md) |
+| 5 | **Paranoia** — Desvantagem em [Iniciativa](../glossario.md#iniciativa) (sempre hesitante, desconfiado demais) |
+| 6 | **Exaustão Crônica** — descanso curto não recupera [Mana](../glossario.md#mana) |
 
 ## Tabelas de referência rápida
 

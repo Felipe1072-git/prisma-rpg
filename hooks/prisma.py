@@ -14,6 +14,13 @@ O que este hook faz, durante o `mkdocs build`:
 3. `mundo`      — página de docs/mundo/ com `tipo:` no cabeçalho vira wiki: o
                   bloco de bullets logo abaixo do título vira ficha lateral, e
                   a página entra em assets/mundo.json pro mesmo popover de hover.
+4. `paginas`    — rede genérica pro popover: toda página (menos Mundo e o
+                  próprio glossário, que já têm dicionário dedicado) entra em
+                  assets/paginas.json com o primeiro parágrafo da página e de
+                  cada seção (`##`/`###`) dela. Qualquer link interno que não
+                  seja termo de glossário, card de habilidade nem página de
+                  Mundo cai aqui — é o que faz "todo link do site tem uma
+                  espiada" sem precisar escrever um resumo à mão pra cada um.
 
 Se o parser não reconhecer um bloco, ele é deixado exatamente como está — o pior
 caso é a página continuar igual a hoje.
@@ -2278,6 +2285,58 @@ def processa_pagina_mundo(md: str, tipo: str, url: str) -> str:
     return md[: m.end()] + "\n\n" + ficha + resto_sem_campos
 
 
+# ---------------------------------------------------------- páginas (genérico)
+
+# Popover genérico de página/seção, no mesmo contrato do glossário, das
+# habilidades e de Mundo: on_post_build grava em assets/paginas.json e o JS
+# mostra ao passar o mouse. Diferente dos outros três, ninguém escreve verbete
+# à mão pra alimentar este — o primeiro parágrafo da página (ou da seção) já
+# é o resumo, então toda página nova entra sozinha.
+_paginas: dict[str, dict[str, str]] = {}
+
+RE_HEADING = re.compile(r"^(#{1,6})[ \t]+(.+?)[ \t]*$", re.MULTILINE)
+
+
+def trunca(texto: str, limite: int = 220) -> str:
+    """Corta no limite de palavra mais próximo — nunca no meio de uma."""
+    if len(texto) <= limite:
+        return texto
+    corte = texto[:limite].rsplit(" ", 1)[0]
+    return corte + "…"
+
+
+def coleta_paginas(markdown: str, url: str) -> None:
+    """Primeiro parágrafo da página inteira, e de cada seção `##`/`###` dela.
+
+    A âncora de cada seção usa `slug()` — a mesma normalização que o `toc` do
+    MkDocs aplica pra gerar o id de verdade no HTML, então a chave bate com o
+    href que qualquer link já escreve, sem precisar de mapa manual.
+    """
+    headings = list(RE_HEADING.finditer(markdown))
+    if not headings:
+        return
+
+    def corpo_apos(inicio: int, fim: int) -> str:
+        resumo = primeiro_paragrafo_de(markdown[inicio:fim])
+        return html_do_verbete(trunca(resumo)) if resumo else ""
+
+    if headings[0].group(1) == "#":
+        m0 = headings[0]
+        fim = headings[1].start() if len(headings) > 1 else len(markdown)
+        corpo = corpo_apos(m0.end(), fim)
+        if corpo:
+            _paginas[url] = {"titulo": m0.group(2).strip(), "corpo": corpo}
+
+    for i, m in enumerate(headings):
+        if len(m.group(1)) not in (2, 3):
+            continue
+        fim = headings[i + 1].start() if i + 1 < len(headings) else len(markdown)
+        corpo = corpo_apos(m.end(), fim)
+        if corpo:
+            titulo = m.group(2).strip()
+            _paginas[f"{url}#{slug(titulo)}"] = {"titulo": titulo, "corpo": corpo}
+
+
 # --------------------------------------------------------------- glossário
 
 RE_VERBETE = re.compile(r"^###\s+(.+?)\s*$")
@@ -2462,6 +2521,7 @@ def monta_glossario(markdown: str) -> tuple[str, int]:
 CATEGORIAS_AUTOLINK = frozenset(
     {
         "Termos de Resolução",
+        "Estatísticas do Personagem",
         "Condições",
         "Efeitos de Terreno",
         "Dano",
@@ -2504,8 +2564,14 @@ GUARDAS_AUTOLINK = {
 PAGINAS_AUTOLINK = ("jogar/", "criacao/", "mestre/")
 
 # Trechos onde um link não pode entrar, na ordem em que precisam ser achados:
-# bloco de código, código inline, link ou imagem que já existe, tag HTML,
-# título, e a linha de título de um admonition.
+# bloco de código, código inline, link ou imagem que já existe, elemento HTML
+# de uma linha só com o próprio texto dentro (rótulo de card visual, tipo
+# `<div ...>Defesa</div>`), tag HTML solta, título, e a linha de título de um
+# admonition.
+# O par elemento+texto+fechamento vem antes da tag solta na alternação: sem
+# isso, "Defesa" dentro do rótulo de um card (ver docs/jogar/atributos.md)
+# virava alvo do auto-link e o markdown quebrado aparecia como texto na
+# página — a tag sozinha não protege o que está *dentro* dela.
 # Nada de re.DOTALL aqui: com ele, `.*$` do título percorreria o arquivo
 # inteiro até o último fim de linha e protegeria a página toda. Os padrões de
 # linha usam [^\n] de propósito, e o bloco de código traz o seu próprio
@@ -2514,6 +2580,7 @@ RE_PROTEGIDO = re.compile(
     r"```[\s\S]*?```"
     r"|`[^`\n]+`"
     r"|!?\[[^\]]*\]\([^)]*\)"
+    r"|<([a-zA-Z][a-zA-Z0-9]*)\b[^>\n]*>[^<\n]*</\1\s*>"
     r"|<[^>\n]+>"
     r"|^#{1,6} [^\n]*"
     r"|^[ \t]*!!![^\n]*"
@@ -2829,6 +2896,13 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         markdown, n = autolinka(markdown, caminho, docs_dir)
         _AUTOLINK_TOTAL[caminho] = n
 
+    # Roda em markdown ainda de prosa, antes de qualquer página virar listagem
+    # de cards abaixo — senão o "primeiro parágrafo" de uma seção de listagem
+    # seria puro HTML de card, que primeiro_paragrafo_de já ignora mesmo, só
+    # que aí a seção fica sem popover à toa.
+    if caminho != "glossario.md" and not caminho.startswith("mundo/"):
+        coleta_paginas(markdown, page.file.url)
+
     if caminho == "glossario.md":
         coleta_glossario(markdown)
         markdown, total = monta_glossario(markdown)
@@ -3124,4 +3198,10 @@ def on_post_build(config, **kwargs):
     (assets / "mundo.json").write_text(
         json.dumps(_mundo, ensure_ascii=False), encoding="utf-8"
     )
-    print(f"[prisma] popover: {len(_glossario)} verbetes, {len(_POPOVER)} habilidades, {len(_mundo)} mundo")
+    (assets / "paginas.json").write_text(
+        json.dumps(_paginas, ensure_ascii=False), encoding="utf-8"
+    )
+    print(
+        f"[prisma] popover: {len(_glossario)} verbetes, {len(_POPOVER)} habilidades, "
+        f"{len(_mundo)} mundo, {len(_paginas)} páginas/seções"
+    )

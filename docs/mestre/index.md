@@ -4,7 +4,7 @@ Se você já mestrou qualquer d20, 90% do que sabe vale aqui. Esta página é so
 
 ## A rolagem não decide a força do golpe
 
-O d100 só responde **se acertou**. O quanto o ataque faz foi decidido pelo jogador quando ele escolheu a [Intensidade](../habilidades/regras.md#intensidade), antes de rolar.
+O d100 só responde **se acertou**. O quanto o ataque faz foi decidido pelo jogador quando ele escolheu a [Intensidade](../glossario.md#intensidade), antes de rolar.
 
 Na prática você nunca consulta tabela de resultado: pergunta *"qual Intensidade?"*, o jogador responde, ele rola, e você compara o total com a Defesa. Acertou, aplica o que a Intensidade paga entrega.
 

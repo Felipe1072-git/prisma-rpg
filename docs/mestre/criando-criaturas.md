@@ -10,7 +10,7 @@ Criatura não é personagem: ela não sobe de nível, não distribui pontos e n�
 |---|---|---|---|---|
 | **Comum** | 14 | ◈◈ (2) | só os atributos relevantes | custo fixo |
 | **Treinado** | 44 | ◈◈◈ (3) | só os atributos relevantes | custo fixo |
-| **Formidável** | 105 | ◈◈◈◈ (4) | os 8 atributos | com [Intensidade](../habilidades/regras.md#intensidade) + Mana |
+| **Formidável** | 105 | ◈◈◈◈ (4) | os 8 atributos | com [Intensidade](../glossario.md#intensidade) + Mana |
 | **Lendário** | 315 | ◈◈◈◈◈ (5) + Ação de Lenda | os 8 atributos | com Intensidade + Mana |
 
 ### Como resolver o ataque de uma criatura
@@ -19,7 +19,7 @@ Criatura não é personagem: ela não sobe de nível, não distribui pontos e n�
 
 **d100 + o Ataque da criatura vs a Evasão do personagem.**
 
-Cada ficha traz o **Ataque** já como o valor do atributo, pra você não precisar somar nada na hora. A Evasão do personagem vem da ficha dele: **Evasão = Agilidade + Escudo** (ver [Defesa](../jogar/combate.md#defesa)).
+Cada ficha traz o **Ataque** já como o valor do atributo, pra você não precisar somar nada na hora. A Evasão do personagem vem da ficha dele: **Evasão = Agilidade + Escudo** (ver [Defesa](../glossario.md#defesa)).
 
 - O **limiar de Crítico** da criatura (Sorte ÷ 3) funciona igual ao de um personagem: rolar igual ou abaixo dele é sucesso automático e crítico — **dano máximo dos dados + uma rolagem extra**. Criatura **não** sobe de Intensidade no crítico — esse bônus é dos personagens.
 - Ataque que impõe efeito mental, veneno ou medo é comparado ao número-alvo certo — **Fortitude Mágica** (controle mágico), **Social** (manipulação não-mágica), **Fortitude Física** (veneno, doença), **Sanidade** (horror) ou **Exploração** (percepção) — nunca à Evasão. A ficha da criatura diz qual.
@@ -93,7 +93,7 @@ O bônus que faltava ser definido na [tabela de Defesa](../jogar/combate.md#defe
 
 **Comum e Treinado** têm ataques de **custo fixo**, sem Mana: o Mestre lê a linha e rola. É o que permite rodar oito capangas sem administrar oito reservas de recurso.
 
-**Formidável e Lendário** são chefes: têm **Mana** e usam [Intensidade](../habilidades/regras.md#intensidade) como um jogador — o Mestre decide se gasta 1 PA num golpe rápido ou queima o turno inteiro numa Intensidade III. É onde a decisão tática vale a pena, porque é uma criatura só.
+**Formidável e Lendário** são chefes: têm **Mana** e usam [Intensidade](../glossario.md#intensidade) como um jogador — o Mestre decide se gasta 1 PA num golpe rápido ou queima o turno inteiro numa Intensidade III. É onde a decisão tática vale a pena, porque é uma criatura só.
 
 ### Ação de Lenda
 

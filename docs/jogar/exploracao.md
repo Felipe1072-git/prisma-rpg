@@ -17,7 +17,7 @@ Duas escalas, e é delas que dependem as dezenas de habilidades que dizem "1x po
 
 | | Dura | Recupera |
 |---|---|---|
-| **Descanso curto** | cerca de **1 hora** — respirar, enfaixar, comer algo | metade do [Mana](mana.md) máximo, metade da [Vida](dano-e-cura.md#vida) máxima e metade do [Estresse](estresse.md) máximo |
+| **Descanso curto** | cerca de **1 hora** — respirar, enfaixar, comer algo | metade do [Mana](../glossario.md#mana) máximo, metade da [Vida](../glossario.md#vida) máxima e metade do [Estresse](../glossario.md#estresse) máximo |
 | **Descanso longo** | uma **noite de sono** (~8 horas) em lugar minimamente seguro | todo o Mana, toda a Vida e todo o Estresse; remove 1 grau de [Exausto](../glossario.md#exausto) (este só se a causa foi resolvida — ver [Exaustão](#exaustao)); reseta habilidades "1x por descanso longo" e as [rerolagens](testes.md#rerolagens) |
 
 !!! regra "Descanso longo precisa de segurança mínima"
@@ -92,7 +92,7 @@ Duas origens do jogo já concedem resistência a isso ([Deserto](../origens/inde
 
 A regra que vários traços de [Raça](../racas/index.md) e [Origem](../origens/index.md) modificam (Marinheiro, Costa, Pântano, Ilha, Sereia, Golfinho, Respiração Aquática):
 
-- **Nadar:** água funda é [Terreno Difícil](../glossario.md#terreno-dificil) — cada casa custa o dobro de [Movimento](combate.md#movimento). Traços de "sem penalidade em água" ignoram esse pedágio; bônus como "+4 de Movimento na água" somam por cima.
+- **Nadar:** água funda é [Terreno Difícil](../glossario.md#terreno-dificil) — cada casa custa o dobro de [Movimento](../glossario.md#movimento). Traços de "sem penalidade em água" ignoram esse pedágio; bônus como "+4 de Movimento na água" somam por cima.
 - **Fôlego:** debaixo d'água, um personagem aguenta **1 + (Defesa ÷ 10)** rodadas (arredondado, mínimo 1) antes de começar a se afogar. Afogando, sofre **1 grau de [Exausto](../glossario.md#exausto) por rodada** até respirar — quem chega ao grau 3 desmaia e passa a rolar como [Caído](dano-e-cura.md#chegando-a-0-de-vida). Quem respira na água ignora tudo isso.
 - **Combate na água:** sem um traço aquático, ataques corpo a corpo rolam com Desvantagem e armas de Pontaria não funcionam submersas.
 

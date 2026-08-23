@@ -122,7 +122,7 @@ Três correções, do mais simples pro mais elaborado:
 
 - **Escolte o chefe.** Um Formidável + 3 Goblins custa 6 pontos a mais e joga muito melhor que o mesmo Formidável sozinho — os capangas gastam os turnos do grupo enquanto o chefe age.
 - **Use a Ação de Lenda.** Exclusiva do Tier Lendário: uma vez por rodada, fora do próprio turno, o chefe usa uma habilidade pagando o custo normal. Sobe de 5 para efetivamente 6 ações e quebra a sensação de "boneco de pancadaria".
-- **Deixe o chefe usar Intensidade III.** É a diferença entre chefe e capanga: [Intensidade](../habilidades/regras.md#intensidade) III derruba, atordoa e nega o turno de um personagem. Um chefe que gasta o turno inteiro pra tirar um PJ da rodada compra tempo — vale mais que a diferença de dano.
+- **Deixe o chefe usar Intensidade III.** É a diferença entre chefe e capanga: [Intensidade](../glossario.md#intensidade) III derruba, atordoa e nega o turno de um personagem. Um chefe que gasta o turno inteiro pra tirar um PJ da rodada compra tempo — vale mais que a diferença de dano.
 
 ## Ajustando pelo tamanho do grupo
 

@@ -33,9 +33,9 @@ Use os filtros da [Listagem de Habilidades](../habilidades/index.md) pra ver só
 
 Vida, Mana e Estresse crescem automaticamente todo nível, sem gastar nenhuma das escolhas acima — são fórmula, não escolha:
 
-- **[Vida Máxima](../jogar/dano-e-cura.md#vida)** — 20 + Nível + (Defesa × 2) + Vida de equipamento, recalculado a cada nível.
-- **[Mana Máximo](../jogar/mana.md#mana-maximo)** — 20 + Nível + (Magia × 2) + Mana de equipamento, recalculado a cada nível.
-- **[Estresse Máximo](../jogar/estresse.md)** — 20 + Nível + (Sanidade × 2) + equipamento, recalculado a cada nível.
+- **[Vida Máxima](../glossario.md#vida)** — 20 + Nível + (Defesa × 2) + Vida de equipamento, recalculado a cada nível.
+- **[Mana Máximo](../glossario.md#mana)** — 20 + Nível + (Magia × 2) + Mana de equipamento, recalculado a cada nível.
+- **[Estresse Máximo](../glossario.md#estresse)** — 20 + Nível + (Sanidade × 2) + equipamento, recalculado a cada nível.
 
 ## Subir de atributo
 
@@ -44,10 +44,10 @@ O ponto de atributo do nível par pode ir pra qualquer um dos oito, sem teto por
 | Se você subir | Muda na hora |
 |---|---|
 | Ataque | o dano dos seus ataques físicos |
-| Defesa | [Vida Máxima](../jogar/dano-e-cura.md#vida) e Fortitude Física |
-| Magia | [Mana Máximo](../jogar/mana.md#mana-maximo), Fortitude Mágica e dano mágico |
-| Agilidade | [Evasão](../jogar/combate.md#defesa), [Movimento](../jogar/combate.md#movimento) e [Iniciativa](../jogar/combate.md#iniciativa) |
-| Sorte | [Iniciativa](../jogar/combate.md#iniciativa), o limiar de [Crítico](../jogar/testes.md#criticos) e o número de [rerolagens](../jogar/testes.md#rerolagens) por descanso longo |
-| Sanidade | [Estresse Máximo](../jogar/estresse.md) |
+| Defesa | [Vida Máxima](../glossario.md#vida) e Fortitude Física |
+| Magia | [Mana Máximo](../glossario.md#mana), Fortitude Mágica e dano mágico |
+| Agilidade | [Evasão](../glossario.md#evasao), [Movimento](../glossario.md#movimento) e [Iniciativa](../glossario.md#iniciativa) |
+| Sorte | [Iniciativa](../glossario.md#iniciativa), o limiar de [Crítico](../jogar/testes.md#criticos) e o número de [rerolagens](../jogar/testes.md#rerolagens) por descanso longo |
+| Sanidade | [Estresse Máximo](../glossario.md#estresse) |
 | Social | testes de persuadir, intimidar, enganar (e resistir a tudo isso) |
 | Exploração | testes de perceber, rastrear, se orientar, sobreviver |

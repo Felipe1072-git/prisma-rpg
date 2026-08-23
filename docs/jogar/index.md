@@ -8,9 +8,9 @@ Esta seção é o que qualquer pessoa na mesa precisa saber pra jogar — jogado
 
 **Não existem classes.** Todas as habilidades do jogo estão disponíveis pra qualquer personagem, desde o nível 1. O que limita a sua build é o número de escolhas que você tem (uma habilidade a cada nível ímpar, dez ao longo da campanha), não uma lista fechada por arquétipo.
 
-**Magia e técnica são a mesma coisa.** Não há "sistema de magia" separado. Um golpe de espada e uma bola de fogo têm a mesma ficha, o mesmo custo em [Mana](mana.md) e a mesma forma de resolver. A diferença entre o guerreiro e o mago é qual atributo eles usam, não qual conjunto de regras.
+**Magia e técnica são a mesma coisa.** Não há "sistema de magia" separado. Um golpe de espada e uma bola de fogo têm a mesma ficha, o mesmo custo em [Mana](../glossario.md#mana) e a mesma forma de resolver. A diferença entre o guerreiro e o mago é qual atributo eles usam, não qual conjunto de regras.
 
-**A rolagem não decide o quanto o golpe faz.** Isso é o que mais estranha quem vem de outro sistema. Aqui o d100 responde só *"acertou ou não"* — e o quanto o ataque entrega você decidiu **antes de rolar**, ao escolher a [Intensidade](../habilidades/regras.md#intensidade).
+**A rolagem não decide o quanto o golpe faz.** Isso é o que mais estranha quem vem de outro sistema. Aqui o d100 responde só *"acertou ou não"* — e o quanto o ataque entrega você decidiu **antes de rolar**, ao escolher a [Intensidade](../glossario.md#intensidade).
 
 ## O ritmo de jogo
 
@@ -28,7 +28,7 @@ O que muda entre os três modos de jogo é só **quanto tempo cada passagem do c
 |---|---|---|
 | **Conversa** (social) | o tempo que a cena pedir | quem quiser falar, na ordem natural |
 | **Exploração** | minutos, horas ou um [trecho de viagem](exploracao.md#viagem) | o grupo age junto, em geral |
-| **[Combate](combate.md)** | um **turno** — 3 ◈ pra gastar | um por vez, na ordem da [Iniciativa](combate.md#iniciativa) |
+| **[Combate](combate.md)** | um **turno** — 3 ◈ pra gastar | um por vez, na ordem da [Iniciativa](../glossario.md#iniciativa) |
 
 ## Um turno de verdade
 
@@ -40,7 +40,7 @@ Intensidade II  — ◈◈  + 9 Mana:  cada golpe que acertar causa 1d10 de dano
 Intensidade III — ◈◈◈ + 18 Mana: cada golpe que acertar causa 2d10 de dano; se os dois acertarem, derruba e o alvo perde a próxima Reação
 ```
 
-Há um goblin na frente dela ([Evasão](combate.md#defesa) **24**). Ela tem 3 ◈ e 20 de Mana. Três caminhos:
+Há um goblin na frente dela ([Evasão](../glossario.md#evasao) **24**). Ela tem 3 ◈ e 20 de Mana. Três caminhos:
 
 - **Corte Duplo em Intensidade III** — gasta o turno inteiro e 18 Mana. Dois testes de d100 + Ataque contra a Evasão do goblin; cada golpe que acertar causa 2d10, e se os dois acertarem ele cai derrubado e ainda perde a próxima Reação. Risco maior (dois testes podem errar), recompensa maior.
 - **Corte Duplo em Intensidade I, três vezes** — 9 Mana no total, seis rolagens separadas. Mais dano somado, e pode espalhar entre inimigos diferentes — mas sem a garantia de derrubar.
@@ -57,10 +57,10 @@ Nenhuma das três é a certa. É isso que o sistema pede de você a cada turno.
 | [Os Oito Atributos](atributos.md) | o que cada atributo faz, e qual deles a sua habilidade usa |
 | [Testes de d100](testes.md) | como resolver qualquer ação, Dificuldade, Vantagem, rerolagem |
 | [Combate](combate.md) | turno, Iniciativa, Pontos de Ação, movimento, Defesa |
-| [Mana](mana.md) | o recurso que alimenta todas as habilidades |
+| [Mana](../glossario.md#mana) | o recurso que alimenta todas as habilidades |
 | [Dano e Cura](dano-e-cura.md) | tipos de dano, Vida, Dados de Vida, chegar a 0 e o Último Turno |
 | [Condições](condicoes.md) | Atordoado, Sangrando, Derrubado e as outras, num lugar só |
-| [Estresse](estresse.md) | o desgaste mental, o Colapso e as Cicatrizes |
+| [Estresse](../glossario.md#estresse) | o desgaste mental, o Colapso e as Cicatrizes |
 | [Exploração](exploracao.md) | descanso, viagem, exaustão, clima, água e escuridão |
 
 E fora desta seção: [Criação de Personagem](../criacao/index.md) pra montar a ficha, [Habilidades](../habilidades/index.md) pra ver o que dá pra aprender, e o [Glossário](../glossario.md) pra consultar um termo solto.

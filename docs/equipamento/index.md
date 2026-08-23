@@ -9,6 +9,23 @@ se resolve) estão em [Regras de Equipamento](regras.md).
 
 ## Graus de Habilidade de Arma
 
+<div style="float:right; width:170px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif; color:#211c14; font-size:7.8px;">
+  <div style="position:relative; border:1.2px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; display:flex; flex-direction:column;">
+    <div style="position:absolute; top:6px; right:6px; width:20px; height:20px; background:#159c56; border:1.3px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 512 512" style="width:13px; height:13px; transform:rotate(-45deg); color:#faf7ef;" fill="currentColor"><path d="M43.53 15.75c-15.73 0-28.31 12.583-28.31 28.313 0 14.086 10.092 25.644 23.5 27.906L42.687 68 68.81 41.906l2.626-2.625C69.188 25.86 57.63 15.75 43.53 15.75zm33.72 44.125-17 17c15.885 39.37 43.45 66.684 78.75 87.406a512.629 512.629 0 0 1 25.438-24.936c-22.488-35.103-51.535-62.294-87.188-79.47zM322.594 79.03l-51.25 4.314c-79.356 48.134-143.878 108.1-186.72 186.53l-4.31 51.47 44.155-18.656-2.94-34.094-.25-3.063 1.626-2.624c35.94-58.47 79.93-109.41 141.5-141.25l2.406-1.25 2.688.25 34.125 2.906 18.97-44.53zm-62.438 66.376c-10.008 5.886-19.5 12.338-28.562 19.313 46.688 47.93 87.208 108.588 114.72 166.5l11.248 23.717-23.718-11.28c-57.995-27.554-117.918-67.57-165.688-113.907a497.06 497.06 0 0 0-20.625 29.28c101.918 94.91 227.05 177.304 347.845 234.69-57.063-120.125-140.038-246.18-235.22-348.314zm-43.03 31.22c-13.37 11.703-25.72 24.58-37.282 38.436 39.36 38.452 88.085 72.83 136.687 98.844-26.054-48.633-60.754-97.847-99.405-137.28z"/></svg></div>
+    <div style="padding:4px 6px; background:#159c56; color:#faf7ef;">Arma</div>
+    <div style="padding:3px 5px 2px; min-height:10px; border-bottom:1px solid #cabf9f;">&nbsp;</div>
+    <div style="display:flex; border-bottom:1px solid #cabf9f; font-size:6.6px;"><div style="flex:1; padding:2px 5px; border-right:1px solid #cabf9f; color:#5b5343;">Dano</div><div style="flex:1; padding:2px 5px; color:#5b5343;">Atrib.</div></div>
+    <div style="padding:3px 5px; flex:1; display:flex; flex-direction:column;">
+      <div style="font-size:5.8px; letter-spacing:0.05em; color:#5b5343; text-transform:uppercase; margin-bottom:2px;">Técnicas</div>
+      <div style="display:flex; flex-direction:column; gap:2px; flex:1;">
+        <div style="display:flex; gap:3px; align-items:baseline;"><span style="font-size:5.8px; color:#159c56; width:28px; flex-shrink:0;">Básica</span><span style="flex:1; border-bottom:1px dotted #cabf9f;">&nbsp;</span></div>
+        <div style="display:flex; gap:3px; align-items:baseline;"><span style="font-size:5.8px; color:#159c56; width:28px; flex-shrink:0;">Avanç.</span><span style="flex:1; border-bottom:1px dotted #cabf9f;">&nbsp;</span></div>
+        <div style="display:flex; gap:3px; align-items:baseline;"><span style="font-size:5.8px; color:#159c56; width:28px; flex-shrink:0;">Espec.</span><span style="flex:1; border-bottom:1px dotted #cabf9f;">&nbsp;</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 Cada arma concede acesso a 3 habilidades, em ordem de aprendizado:
 
 1. **Habilidade Básica**
@@ -200,7 +217,7 @@ Ter um Escudo equipado também habilita a habilidade geral [Bloqueio](../habilid
 
 ### Armaduras
 
-**Armadura não soma mais na Evasão** — quem cuida do lado "evadir" agora é o [Escudo](#escudos). A Armadura entra no outro lado da defesa: o termo `+ Vida de equipamento` da fórmula de [Vida Máxima](../jogar/dano-e-cura.md#vida), sempre ativo, sem custo de Mana ou PA. Ela ajuda a **aguentar mais pancada**, não a desviar dela — o que também evita um problema que a Couraça Natural das criaturas já resolvia de outro jeito: uma Armadura que somasse no atributo Defesa vazaria proteção pra Fortitude Física (veneno, doença, exaustão), e ela nunca devia proteger contra isso, só contra dano.
+**Armadura não soma mais na Evasão** — quem cuida do lado "evadir" agora é o [Escudo](#escudos). A Armadura entra no outro lado da defesa: o termo `+ Vida de equipamento` da fórmula de [Vida Máxima](../glossario.md#vida), sempre ativo, sem custo de Mana ou PA. Ela ajuda a **aguentar mais pancada**, não a desviar dela — o que também evita um problema que a Couraça Natural das criaturas já resolvia de outro jeito: uma Armadura que somasse no atributo Defesa vazaria proteção pra Fortitude Física (veneno, doença, exaustão), e ela nunca devia proteger contra isso, só contra dano.
 
 | Armadura | Vida | Requisito | Preço | Traços |
 |---|---|---|---|---|
@@ -1247,7 +1264,7 @@ Dano: **1d10**
 
 **Requisito:** Ataque +15 — sem esse mínimo, a arma não pode ser equipada.
 
-**Maldição:** a lâmina exige sangue. Se o usuário terminar uma cena de combate sem ter causado dano com ela pelo menos uma vez, ganha 1 ponto de Estresse (ver [Estresse](../jogar/estresse.md)).
+**Maldição:** a lâmina exige sangue. Se o usuário terminar uma cena de combate sem ter causado dano com ela pelo menos uma vez, ganha 1 ponto de Estresse (ver [Estresse](../glossario.md#estresse)).
 
 Dano: **1d10**
 

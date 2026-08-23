@@ -12,11 +12,19 @@ Quanto você aguenta, o que te machuca mais, como você se recupera — e o que 
 
 ## Vida
 
+<div style="float:right; width:190px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif; color:#211c14;">
+  <div style="position:relative; clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px); border:1.4px solid #a3781a; background:#f1ebdc;">
+    <div style="position:absolute; top:5px; right:5px; width:17px; height:17px; background:#a3781a; border:1.2px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:10px; height:10px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-8-5.5-8-11a5 5 0 0 1 8-3.9A5 5 0 0 1 20 10c0 5.5-8 11-8 11z"/></svg></div>
+    <div style="font-size:10.5px; font-weight:700; color:#a3781a; letter-spacing:0.08em; text-transform:uppercase; text-align:center; padding:4px 0 3px; border-bottom:1px solid #cabf9f;">Vida</div>
+    <div style="display:flex;"><div style="flex:1; text-align:center; padding:5px 0 6px; border-right:1px solid #cabf9f;"><div style="font-size:6.5px; letter-spacing:0.06em; color:#5b5343; text-transform:uppercase;">Atual</div><div style="font-size:16px; font-weight:700; min-height:19px; color:#211c14;">&nbsp;</div></div><div style="flex:1; text-align:center; padding:5px 0 6px;"><div style="font-size:6.5px; letter-spacing:0.06em; color:#5b5343; text-transform:uppercase;">Máx</div><div style="font-size:16px; font-weight:700; color:#a3781a;">&nbsp;</div></div></div>
+  </div>
+</div>
+
 **Vida Máxima = 20 (base) + Nível + (Defesa × 2) + Vida de equipamento**
 
 Exemplo: nível 0, Defesa 5 (baseline de criação) → 20 + 0 + 10 = 30. Nível 100, Defesa 85 (foco pesado) → 20 + 100 + 170 = 290.
 
-O termo de equipamento é 0 pra quase tudo — hoje só as [Armaduras](../equipamento/regras.md#armaduras) somam algo, de +10 (leve) a +75 (Placa de Torneio). É a mesma forma do [Mana Máximo](mana.md#mana-maximo) (só trocando Magia por Defesa e Mana de equipamento por Vida de equipamento) — de propósito: armadura ajuda a **aguentar mais pancada**, não a desviar dela, então soma aqui e não na Evasão (quem cuida da Evasão agora é o [Escudo](../equipamento/regras.md#escudos)).
+O termo de equipamento é 0 pra quase tudo — hoje só as [Armaduras](../equipamento/regras.md#armaduras) somam algo, de +10 (leve) a +75 (Placa de Torneio). É a mesma forma do [Mana Máximo](../glossario.md#mana) (só trocando Magia por Defesa e Mana de equipamento por Vida de equipamento) — de propósito: armadura ajuda a **aguentar mais pancada**, não a desviar dela, então soma aqui e não na Evasão (quem cuida da Evasão agora é o [Escudo](../equipamento/regras.md#escudos)).
 
 Vida é recalculada a cada vez que Defesa muda (subir de nível, um buff, um debuff) — não é cumulativa como no sistema antigo, é sempre "o número de agora".
 
@@ -25,13 +33,13 @@ Vida é recalculada a cada vez que Defesa muda (subir de nível, um buff, um deb
 - **Descanso curto** (~1h): recupera **metade** da Vida máxima
 - **Descanso longo** (noite): recupera **toda** a Vida
 
-Mesma lógica do [Mana](mana.md#recuperacao) — sem dados de vida pra gastar ou controlar, só a fração recuperada por tipo de descanso.
+Mesma lógica do [Mana](../glossario.md#mana) — sem dados de vida pra gastar ou controlar, só a fração recuperada por tipo de descanso.
 
 ## Cura por Habilidade
 
 Cura por Habilidade (ver [Suporte](../habilidades/suporte.md)) funciona a qualquer momento, não só em descanso — é justamente por isso que ter um curandeiro no grupo importa: ele estica o dia sem precisar parar.
 
-Como toda habilidade, cura tem [Intensidade](../habilidades/regras.md#intensidade): não há teste de acerto, mas o tamanho do efeito escala com o quanto você paga.
+Como toda habilidade, cura tem [Intensidade](../glossario.md#intensidade): não há teste de acerto, mas o tamanho do efeito escala com o quanto você paga.
 
 ## Tipos de Dano
 

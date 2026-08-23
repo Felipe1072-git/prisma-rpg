@@ -32,6 +32,6 @@ Três formas de criar pressão sem cronômetro:
 
 ## O que a exploração está protegendo
 
-O [Mana](../jogar/mana.md) e a [Vida](../jogar/dano-e-cura.md#vida) só têm peso se houver custo em recuperá-los. Uma campanha em que o grupo descansa longo sempre que quer é uma campanha em que a Intensidade III é grátis — todo turno vira o turno mais caro possível, e a decisão central do sistema desaparece.
+O [Mana](../glossario.md#mana) e a [Vida](../glossario.md#vida) só têm peso se houver custo em recuperá-los. Uma campanha em que o grupo descansa longo sempre que quer é uma campanha em que a Intensidade III é grátis — todo turno vira o turno mais caro possível, e a decisão central do sistema desaparece.
 
 Não é preciso ser cruel com isso. Basta que **voltar pra base custe alguma coisa**: tempo, terreno perdido, um inimigo que se preparou.

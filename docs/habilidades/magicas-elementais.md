@@ -6,7 +6,7 @@ Fogo, Gelo, Terra, Sombras, Luz, Raio, Água, Vento, Veneno, Sangue.
 
 ## Assinatura de Elemento
 
-Cada elemento **joga de um jeito diferente**. Duas habilidades podem causar o mesmo dano e ainda assim resolver problemas distintos, porque cada elemento tem uma assinatura própria que aparece já na [Intensidade](regras.md#intensidade) I e cresce nas seguintes. Escolher um elemento é escolher um verbo:
+Cada elemento **joga de um jeito diferente**. Duas habilidades podem causar o mesmo dano e ainda assim resolver problemas distintos, porque cada elemento tem uma assinatura própria que aparece já na [Intensidade](../glossario.md#intensidade) I e cresce nas seguintes. Escolher um elemento é escolher um verbo:
 
 | Elemento | Assinatura | Como escala (I → II → III) |
 |---|---|---|
@@ -1428,7 +1428,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Veneno
 
-*Habilidades de Veneno, por padrão, checam [Fortitude Física](../jogar/combate.md#defesa) do alvo em vez de Evasão — veneno ataca a resistência do corpo, não os reflexos.*
+*Habilidades de Veneno, por padrão, checam [Fortitude Física](../glossario.md#fortitude-fisica) do alvo em vez de Evasão — veneno ataca a resistência do corpo, não os reflexos.*
 
 **Picada Tóxica**
 

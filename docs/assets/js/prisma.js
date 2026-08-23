@@ -20,7 +20,12 @@
     return s ? s.src.replace(/\/js\/prisma\.js.*$/, "/" + nome + ".json") : null;
   }
 
-  var URL = { glossario: urlDe("glossario"), habilidades: urlDe("habilidades"), mundo: urlDe("mundo") };
+  var URL = {
+    glossario: urlDe("glossario"),
+    habilidades: urlDe("habilidades"),
+    mundo: urlDe("mundo"),
+    paginas: urlDe("paginas")
+  };
 
   // Raiz do site (com o prefixo do GitHub Pages incluso), pra resolver link
   // de página de Mundo pelo caminho — diferente de glossário/habilidades,
@@ -476,56 +481,72 @@
     posiciona(el);
   }
 
+  // Caminho relativo ao site (sem barra inicial, com barra final quando é
+  // página) pra qualquer href interno — usado por Mundo e pela rede genérica
+  // de página/seção. Href só com fragmento ("#foo") resolve pro caminho da
+  // própria página, porque "" relativo a location.href é a própria URL atual.
+  function caminhoInterno(href) {
+    if (!RAIZ_SITE) return null;
+    try {
+      // "URL" aqui embaixo já é o dicionário de JSONs (variável local deste
+      // arquivo) — precisa do construtor nativo via `window.URL`.
+      var alvoAbs = new window.URL(href.split("#")[0], location.href).pathname;
+      var raizAbs = new window.URL(RAIZ_SITE).pathname;
+      if (alvoAbs.indexOf(raizAbs) !== 0) return null;
+      return alvoAbs.slice(raizAbs.length).replace(/^\/+/, "");
+    } catch (e) {
+      return null;
+    }
+  }
+
+  var caminhoAtual = caminhoInterno(location.href);
+
   // Qual dicionário responde por este link, e com que chave.
   //
-  // Glossário: qualquer link pra `glossario#termo` (ou pra uma âncora da
-  // própria página do glossário). Habilidades: link pra um card da listagem,
-  // reconhecido pelo prefixo `hab-` do id — o mesmo que o hook gera.
+  // Ordem importa, do mais específico pro mais genérico: Mundo (a página é o
+  // verbete), Glossário (`glossario#termo`), Habilidades (`#hab-...`) e por
+  // fim Páginas — a rede que pega qualquer outro link interno de conteúdo,
+  // pela própria página/seção de destino.
   function fonteDoLink(a) {
     var href = a.getAttribute("href") || "";
+    if (!href || href.indexOf("http") === 0 || href.indexOf("mailto:") === 0) {
+      return null;
+    }
 
-    // Mundo: a própria página é o verbete, casada pelo caminho (sem
-    // fragmento) — diferente de glossário/habilidades, que são âncoras
-    // dentro de uma listagem única.
-    if (RAIZ_SITE) {
-      var semFragmento = href.split("#")[0];
-      if (semFragmento) {
-        try {
-          // "URL" aqui embaixo já é o dicionário de JSONs (variável local
-          // deste arquivo) — precisa do construtor nativo via `window.URL`.
-          var alvoAbs = new window.URL(semFragmento, location.href).pathname;
-          var raizAbs = new window.URL(RAIZ_SITE).pathname;
-          if (alvoAbs.indexOf(raizAbs) === 0) {
-            var caminho = alvoAbs.slice(raizAbs.length).replace(/^\/+/, "");
-            if (caminho.indexOf("mundo/") === 0 &&
-                caminho !== "mundo/" &&
-                !/^mundo\/(index\/)?$/.test(caminho) &&
-                caminho.indexOf("mundo/mapa") !== 0) {
-              return { dic: "mundo", chave: caminho };
-            }
-          }
-        } catch (e) { /* href inválido — ignora */ }
+    var caminho = caminhoInterno(href);
+
+    if (caminho !== null &&
+        caminho.indexOf("mundo/") === 0 &&
+        caminho !== "mundo/" &&
+        !/^mundo\/(index\/)?$/.test(caminho) &&
+        caminho.indexOf("mundo/mapa") !== 0) {
+      return { dic: "mundo", chave: caminho };
+    }
+
+    var alvo = href.split("#")[0];
+    var ancora = href.indexOf("#") !== -1
+      ? decodeURIComponent(href.split("#").slice(1).join("#"))
+      : "";
+
+    if (ancora) {
+      if (/glossario/i.test(alvo) ||
+          (alvo === "" && /\/glossario\/?$/.test(location.pathname))) {
+        return { dic: "glossario", chave: ancora };
+      }
+      if (ancora.indexOf("hab-") === 0) {
+        return { dic: "habilidades", chave: ancora };
       }
     }
 
-    if (href.indexOf("#") === -1) return null;
-    var partes = href.split("#");
-    var alvo = partes[0];
-    var chave = decodeURIComponent(partes.slice(1).join("#"));
-    if (!chave) return null;
-
-    if (/glossario/i.test(alvo) ||
-        (alvo === "" && /\/glossario\/?$/.test(location.pathname))) {
-      return { dic: "glossario", chave: chave };
-    }
-    if (chave.indexOf("hab-") === 0) {
-      return { dic: "habilidades", chave: chave };
-    }
-    return null;
+    if (caminho === null || caminho === caminhoAtual) return null;
+    return ancora
+      ? { dic: "paginas", chave: caminho + "#" + ancora, alt: caminho }
+      : { dic: "paginas", chave: caminho };
   }
 
   var RODAPE = {
     glossario: "clique para abrir o verbete completo",
+    paginas: "clique para abrir a página completa",
     habilidades: "clique para abrir a ficha completa",
     mundo: "clique para abrir a página completa"
   };
@@ -546,13 +567,17 @@
       pegaDicionario(nome).then(function (dados) {
         Array.prototype.forEach.call(links, function (a) {
           var f = fonteDoLink(a);
-          if (!f || f.dic !== nome || !dados[f.chave]) return;
+          if (!f || f.dic !== nome) return;
+          // Chave exata primeiro (a seção certa); sem ela, cai pro resumo da
+          // página inteira — existe pra sobreviver a uma âncora só, tipo
+          // heading renomeado, sem perder o popover inteiro por causa disso.
+          var verbete = dados[f.chave] || (f.alt && dados[f.alt]);
+          if (!verbete) return;
           // Link pro card que está nesta mesma página não precisa de espiada:
           // clicar já abre a ficha logo ali.
           if (document.getElementById(f.chave)) return;
           a.classList.add("prg-termo");
 
-          var verbete = dados[f.chave];
           var rodape = RODAPE[nome];
           a.addEventListener("mouseenter", function () {
             clearTimeout(timer);

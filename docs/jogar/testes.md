@@ -14,7 +14,7 @@ Há uma única fórmula no jogo inteiro, e ela resolve tudo — abrir uma fechad
 
 Rolagens de **Habilidade** usam exatamente a mesma lógica, trocando a Dificuldade fixa pelo número-alvo do defensor — **Evasão** pra ataque físico, **Fortitude Mágica** ou **Fortitude Física** pra efeito que pula a Evasão, **Social** ou **Exploração** pra resistir a influência ou percepção (ver [Combate](combate.md#defesa)). Igualou ou superou, acertou.
 
-E é só isso que a rolagem responde. O quanto a habilidade faz **não depende do dado**: depende da [Intensidade](../habilidades/regras.md#intensidade) que o jogador pagou antes de rolar.
+E é só isso que a rolagem responde. O quanto a habilidade faz **não depende do dado**: depende da [Intensidade](../glossario.md#intensidade) que o jogador pagou antes de rolar.
 
 ## Quando rolar
 
@@ -32,6 +32,14 @@ Na prática: role **2d100** e fique com o maior (Vantagem) ou o menor (Desvantag
 
 ## Críticos
 
+<div style="float:right; width:150px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif;">
+  <div style="position:relative; border:1.2px solid #b39422; border-radius:3px; text-align:center; padding:6px 0; background:#f1ebdc;">
+    <div style="position:absolute; top:6px; right:6px; width:15px; height:15px; background:#b39422; border:1.1px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:9px; height:9px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 2 14 10 22 12 14 14 12 22 10 14 2 12 10 10z"/></svg></div>
+    <div style="font-size:8px; color:#b39422; font-weight:700; letter-spacing:0.04em; text-transform:uppercase;">Lim. Crítico</div>
+    <div style="font-size:7px; color:#5b5343; margin-top:3px;">Sorte÷3</div>
+  </div>
+</div>
+
 <!-- prisma:verbetes Crítico -->
 
 Não existe mais "20 natural" — o crítico escala com **Sorte**, através do **limiar de Crítico**:
@@ -41,11 +49,19 @@ Não existe mais "20 natural" — o crítico escala com **Sorte**, através do *
 
 Como todo atributo nasce em 5 na criação, o limiar nunca é zero: **todo personagem mantém pelo menos 1% de chance de crítico garantido**, mesmo sem nunca investir em Sorte. Quem foca Sorte a sério chega a limiares de 20, 30, ou mais — cada vez mais perto de "sempre acerto, e sempre bem".
 
-**Tirar exatamente 1** no d100, em qualquer teste, marca **1 ponto de [Estresse](estresse.md)** — mesmo quando o resultado é sucesso/crítico (o susto de escapar por pouco cobra um preço, mesmo quando a sorte salva você).
+**Tirar exatamente 1** no d100, em qualquer teste, marca **1 ponto de [Estresse](../glossario.md#estresse)** — mesmo quando o resultado é sucesso/crítico (o susto de escapar por pouco cobra um preço, mesmo quando a sorte salva você).
 
 Não existe falha crítica ("fumble") neste sistema: uma falha é só uma falha.
 
 ## Rerolagens
+
+<div style="float:right; width:150px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif;">
+  <div style="position:relative; border:1.2px solid #b39422; border-radius:3px; text-align:center; padding:6px 0; background:#f1ebdc;">
+    <div style="position:absolute; top:6px; right:6px; width:15px; height:15px; background:#b39422; border:1.1px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:9px; height:9px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0 1 14-5M20 4v5h-5"/><path d="M20 12a8 8 0 0 1-14 5M4 20v-5h5"/></svg></div>
+    <div style="font-size:8px; color:#b39422; font-weight:700; letter-spacing:0.04em; text-transform:uppercase;">Rerolagens</div>
+    <div style="font-size:7px; color:#5b5343; margin-top:3px;">1+Sorte÷10/desc.</div>
+  </div>
+</div>
 
 O jogador pode rerolar **qualquer teste seu que tenha falhado, ou um efeito usado contra si** — não dá pra rerolar um sucesso só pra tentar upar em crítico.
 

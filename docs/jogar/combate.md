@@ -11,9 +11,17 @@
 Combate é o modo de jogo em que o tempo é contado. A cena vira uma sequência de **rodadas**; dentro de cada rodada, cada participante joga um **turno**; e dentro do turno você tem **3 Pontos de Ação (◈)** pra gastar como quiser.
 
 !!! regra "Em uma frase"
-    Role Iniciativa, e no seu turno gaste 3 ◈ entre mover, atacar e usar habilidades — pagando em ◈ a [Intensidade](../habilidades/regras.md#intensidade) de cada habilidade, e rolando d100 + Atributo contra a **Evasão** do alvo.
+    Role Iniciativa, e no seu turno gaste 3 ◈ entre mover, atacar e usar habilidades — pagando em ◈ a [Intensidade](../glossario.md#intensidade) de cada habilidade, e rolando d100 + Atributo contra a **Evasão** do alvo.
 
 ## Iniciativa
+
+<div style="float:right; width:150px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif;">
+  <div style="position:relative; border:1.2px solid #83765a; border-radius:3px; text-align:center; padding:6px 0; background:linear-gradient(90deg,#4c7a3d22,#b3942222), #f1ebdc;">
+    <div style="position:absolute; top:6px; right:6px; width:15px; height:15px; background:#5b5343; border:1.1px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:9px; height:9px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg></div>
+    <div style="font-size:8px; color:#5b5343; font-weight:700; letter-spacing:0.04em; text-transform:uppercase;">Iniciativa</div>
+    <div style="font-size:7px; margin-top:3px;"><span style="color:#4c7a3d;">Agi</span>+<span style="color:#b39422;">Sorte</span></div>
+  </div>
+</div>
 
 No início do combate, cada participante rola **d100 + [Agilidade](atributos.md) + [Sorte](atributos.md)**. A ordem decrescente do resultado define a sequência de turnos.
 
@@ -55,7 +63,7 @@ O custo em PA de uma Habilidade **é a Intensidade escolhida** — não um valor
 | ◈◈ (2) | II | Acrescenta o efeito secundário (empurrar, Sangrando, Marcado) |
 | ◈◈◈ (3) | III | O efeito completo (derrubar, Atordoado) |
 
-Como o pool é de 3 PA por turno, isso vira uma decisão a cada turno: **uma habilidade em Intensidade III consome o turno inteiro** (sem movimento, sem reação guardada), enquanto três usos em Intensidade I fazem muito mais coisa por muito menos efeito cada. Ver [Intensidade](../habilidades/regras.md#intensidade).
+Como o pool é de 3 PA por turno, isso vira uma decisão a cada turno: **uma habilidade em Intensidade III consome o turno inteiro** (sem movimento, sem reação guardada), enquanto três usos em Intensidade I fazem muito mais coisa por muito menos efeito cada. Ver [Intensidade](../glossario.md#intensidade).
 
 Vale igualmente para buffs, cura e mobilidade: não há teste de ataque neles, mas há Intensidade — o que cresce é o tamanho do efeito, não a chance de acertar (ver [Buffs, Suporte e Mobilidade](../habilidades/regras.md#buffs-suporte-e-mobilidade-tambem-tem-intensidade)).
 
@@ -74,6 +82,14 @@ Vale igualmente para buffs, cura e mobilidade: não há teste de ataque neles, m
 Um efeito que faça o alvo [perder a próxima Reação](../glossario.md#perde-a-proxima-reacao) nega até as dedicadas.
 
 ## Movimento
+
+<div style="float:right; width:150px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif;">
+  <div style="position:relative; border:1.2px solid #4c7a3d; border-radius:3px; text-align:center; padding:6px 0; background:#f1ebdc;">
+    <div style="position:absolute; top:6px; right:6px; width:15px; height:15px; background:#4c7a3d; border:1.1px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:9px; height:9px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h13M13 6l6 6-6 6"/></svg></div>
+    <div style="font-size:8px; color:#4c7a3d; font-weight:700; letter-spacing:0.04em; text-transform:uppercase;">Movimento</div>
+    <div style="font-size:7px; color:#5b5343; margin-top:3px;">6+Agi÷10</div>
+  </div>
+</div>
 
 **Movimento base = 6 casas + (Agilidade ÷ 10)**, arredondado (valor com sinal). Mínimo de movimento: **1 casa**.
 
@@ -103,6 +119,14 @@ Não existe rolagem de defesa: quem está sendo atacado não rola nada, seu núm
 
 ## Defesa
 
+<div style="float:right; width:150px; margin:0 0 12px 16px; font-family:'Crimson Pro', Georgia, serif;">
+  <div style="position:relative; border:1.2px solid #4c7a3d; border-radius:3px; text-align:center; padding:6px 0; background:#f1ebdc;">
+    <div style="position:absolute; top:6px; right:6px; width:15px; height:15px; background:#4c7a3d; border:1.1px solid #f1ebdc; transform:rotate(45deg); z-index:2; display:flex; align-items:center; justify-content:center; box-shadow:0 1px 2px rgba(0,0,0,.25);"><svg viewBox="0 0 24 24" style="width:9px; height:9px; transform:rotate(-45deg); color:#faf7ef;" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l6 6-6 6"/><path d="M11 6l6 6-6 6"/></svg></div>
+    <div style="font-size:8px; color:#4c7a3d; font-weight:700; letter-spacing:0.04em; text-transform:uppercase;">Evasão</div>
+    <div style="font-size:7px; color:#5b5343; margin-top:3px;">Agi+Escudo/Couraça</div>
+  </div>
+</div>
+
 Um golpe físico não é resistido pelo mesmo número que resiste a um veneno ou a um controle mental — cada tipo de efeito testa uma coisa diferente, sempre o valor **cru** do atributo (sem nenhum bônus fixo de Tier somado por baixo):
 
 | Tipo de efeito | Número-alvo | De onde vem |
@@ -116,7 +140,7 @@ Um golpe físico não é resistido pelo mesmo número que resiste a um veneno ou
 
 Essa lista não é fechada — cresce conforme habilidades novas pedirem.
 
-A **Evasão** decide **se** o golpe acerta, nunca o quanto ele faz — isso já foi decidido pela [Intensidade](../habilidades/regras.md#intensidade) paga. Por isso a Evasão do alvo pesa na escolha de quanto investir: contra um alvo com Evasão alta, gastar 3 PA e o Mana de uma Intensidade III num único ataque é uma aposta alta — se errar, perde tudo e o turno inteiro. Contra alvos fracos, a mesma Intensidade III praticamente não erra.
+A **Evasão** decide **se** o golpe acerta, nunca o quanto ele faz — isso já foi decidido pela [Intensidade](../glossario.md#intensidade) paga. Por isso a Evasão do alvo pesa na escolha de quanto investir: contra um alvo com Evasão alta, gastar 3 PA e o Mana de uma Intensidade III num único ataque é uma aposta alta — se errar, perde tudo e o turno inteiro. Contra alvos fracos, a mesma Intensidade III praticamente não erra.
 
 !!! nota "Por que não existe mais uma Base de Resiliência somada aqui"
     No sistema antigo, um valor fixo por Tier (Base de Resiliência) somava em cima do atributo — porque o atributo sozinho era pequeno demais pra sustentar a conta sozinho. Agora que o jogador investe pontos de verdade e o atributo chega a 100, o atributo **já carrega o peso todo**: manter uma base fixa por cima diluiria a escolha de investimento. O Tier de uma criatura ainda importa — só que agora ele orienta que **valores** o Mestre escreve na ficha dela (ver [Bestiário](../mestre/criando-criaturas.md)), não soma como bônus formal.
