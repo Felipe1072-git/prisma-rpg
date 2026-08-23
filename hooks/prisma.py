@@ -326,6 +326,12 @@ _ESCALA_VALIDOS = _GRAUS_ARMA + _ESCALA_GERAL
 # mouse num link que aponte pro card.
 _POPOVER: dict[str, dict[str, str]] = {}
 
+# Mesmo contrato, pro card de Equipamento: on_post_build grava em
+# assets/equipamento.json. Sem isso, um link tipo "Broquel" só teria a rede
+# genérica de página (assets/paginas.json), que não sabe nada sobre dado de
+# dano ou bônus de Defesa — só o resumo em prosa que abre a listagem inteira.
+_EQUIPAMENTO: dict[str, dict[str, str]] = {}
+
 
 def resumo_para_popover(
     rotulos: list[str], custo: str, campos: dict[str, str], corpo: list[str]
@@ -1697,6 +1703,20 @@ def monta_card_arma(
     chaves = chaves_da_arma(campos.get("Chaves", ""))
     preco = valor_em_prata(campos.get("Preço", ""))
 
+    _EQUIPAMENTO["equ-" + slug(nome)] = {
+        "titulo": nome,
+        "corpo": "<br>".join(
+            escapa(p)
+            for p in (
+                " · ".join(x for x in (tipo, dado) if x),
+                " · ".join(x for x in (familia, grupo.capitalize() if grupo else "") if x),
+                f"Preço: {texto_puro(campos.get('Preço', ''))}",
+                f"Requisito: {requisito}" if requisito else "",
+            )
+            if p
+        ),
+    }
+
     return monta_card_base(
         "equ-" + slug(nome),
         nome,
@@ -1746,6 +1766,19 @@ def monta_card_protecao(categoria: str, celulas: list[str], nota: str) -> str:
     """
     nome, bonus, preco_md = celulas[0], celulas[1], celulas[2]
     resto = celulas[3] if len(celulas) > 3 else ""
+
+    _EQUIPAMENTO["equ-" + slug(nome)] = {
+        "titulo": nome,
+        "corpo": "<br>".join(
+            escapa(p)
+            for p in (
+                f"{categoria} · Bônus de Defesa {texto_puro(bonus)}",
+                f"Preço: {texto_puro(preco_md)}",
+                f"{nota}: {texto_puro(resto)}" if resto else "",
+            )
+            if p
+        ),
+    }
 
     return monta_card_base(
         "equ-" + slug(nome),
@@ -3201,7 +3234,10 @@ def on_post_build(config, **kwargs):
     (assets / "paginas.json").write_text(
         json.dumps(_paginas, ensure_ascii=False), encoding="utf-8"
     )
+    (assets / "equipamento.json").write_text(
+        json.dumps(_EQUIPAMENTO, ensure_ascii=False), encoding="utf-8"
+    )
     print(
         f"[prisma] popover: {len(_glossario)} verbetes, {len(_POPOVER)} habilidades, "
-        f"{len(_mundo)} mundo, {len(_paginas)} páginas/seções"
+        f"{len(_mundo)} mundo, {len(_paginas)} páginas/seções, {len(_EQUIPAMENTO)} equipamento"
     )

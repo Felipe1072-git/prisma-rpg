@@ -621,42 +621,42 @@ Reposicionar à força, distorcer gravidade e manipular o fluxo do tempo — tel
 
 ### Fogo
 
-Ver [Mágicas por Elemento → Fogo](habilidades/magicas-elementais.md#fogo).
+**Consome com o tempo.** [Queimando](#queimando), que se espalha pros adjacentes e escala até 8d4 por turno. Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 ### Terra
 
-Ver [Mágicas por Elemento → Terra](habilidades/magicas-elementais.md#terra).
+**Põe no chão e prende.** Derruba o alvo, e escala até [Lento](#lento) e [Imóvel](#imovel). Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 ### Gelo
 
-Ver [Mágicas por Elemento → Gelo](habilidades/magicas-elementais.md#gelo).
+**Trava o movimento.** [Lento](#lento), depois sem Reações, até [Imóvel](#imovel). Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 ### Raio
 
-Ver [Mágicas por Elemento → Raio](habilidades/magicas-elementais.md#raio).
+**Rouba a ação.** Tira a Reação do alvo, depois a Ação Básica também, até [Atordoar](#atordoado). Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 ### Sombras
 
-Ver [Mágicas por Elemento → Sombras](habilidades/magicas-elementais.md#sombras).
+**Nega o terreno e drena.** Deixa uma [Zona Amaldiçoada](#zona-amaldicoada) que persiste por rodadas, ou dreno de Vida crescente contra alvo único. Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 ### Luz
 
-Ver [Mágicas por Elemento → Luz](habilidades/magicas-elementais.md#luz).
+**Prende e cala.** Tira a Reação e aplica [Marcado](#marcado), até deixar o alvo [Imóvel](#imovel). Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 ### Água
 
-Ver [Mágicas por Elemento → Água](habilidades/magicas-elementais.md#agua).
+**Arrasta.** Puxa o alvo pra perto, cada vez mais longe e mais [Lento](#lento). Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 ### Vento
 
-Ver [Mágicas por Elemento → Vento](habilidades/magicas-elementais.md#vento).
+**Arremessa longe.** Empurra o alvo cada vez mais forte, até derrubar. Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 ### Veneno
 
-Ver [Mágicas por Elemento → Veneno](habilidades/magicas-elementais.md#veneno).
+**Acumula.** [Envenenado](#envenenado) que empilha a cada nova aplicação, em vez de resetar. Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 ### Sangue
 
-Ver [Mágicas por Elemento → Sangue](habilidades/magicas-elementais.md#sangue).
+**Troca Vida por poder.** Custa Vida em vez de Mana, e o dreno cresce com a Intensidade, sempre sob [Risco](#risco). Ver [Assinatura de Elemento](habilidades/magicas-elementais.md#assinatura-de-elemento).
 
 *(Outros elementos ainda sem habilidades — a criar)*

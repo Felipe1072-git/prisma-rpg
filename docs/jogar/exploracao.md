@@ -13,7 +13,7 @@ São regras que o **jogador** aplica — é aqui que se decide quanto do poço d
 
 ## Descanso
 
-Duas escalas, e é delas que dependem as dezenas de habilidades que dizem "1x por descanso longo".
+**Descanso curto recupera metade de Vida, Mana e Estresse; descanso longo recupera tudo.** É do descanso longo que dependem as dezenas de habilidades que dizem "1x por descanso longo".
 
 | | Dura | Recupera |
 |---|---|---|

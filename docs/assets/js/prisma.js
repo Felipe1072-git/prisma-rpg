@@ -24,7 +24,8 @@
     glossario: urlDe("glossario"),
     habilidades: urlDe("habilidades"),
     mundo: urlDe("mundo"),
-    paginas: urlDe("paginas")
+    paginas: urlDe("paginas"),
+    equipamento: urlDe("equipamento")
   };
 
   // Raiz do site (com o prefixo do GitHub Pages incluso), pra resolver link
@@ -536,6 +537,9 @@
       if (ancora.indexOf("hab-") === 0) {
         return { dic: "habilidades", chave: ancora };
       }
+      if (ancora.indexOf("equ-") === 0) {
+        return { dic: "equipamento", chave: ancora };
+      }
     }
 
     if (caminho === null || caminho === caminhoAtual) return null;
@@ -548,6 +552,7 @@
     glossario: "clique para abrir o verbete completo",
     paginas: "clique para abrir a página completa",
     habilidades: "clique para abrir a ficha completa",
+    equipamento: "clique para abrir a ficha completa",
     mundo: "clique para abrir a página completa"
   };
 

@@ -34,7 +34,7 @@ Cada [Raça](../racas/index.md) concede:
 - **Atributos** — um pool de 2 ou 3 atributos temáticos, com pontos a distribuir entre eles.
 - **1 a 3 Traços Raciais** — capacidades fixas, disponíveis desde o nível 0.
 
-Traços raciais **não** competem com as suas 26 escolhas de habilidade — são um extra da raça.
+Traços raciais **não** competem com as suas 27 escolhas de habilidade — são um extra da raça.
 
 Nenhuma raça jogável é visualmente indistinguível de um humano: toda raça não-humana tem pelo menos um **traço físico inconfundível**, óbvio à primeira vista.
 
@@ -70,7 +70,7 @@ Escolha **uma** habilidade de qualquer [grupo](../habilidades/regras.md#grupos),
 ## 5. Equipamento
 
 - **150 de prata** pra gastar como quiser em arma, armadura e escudo na listagem de [Equipamento](../equipamento/index.md) — a arma (e o escudo, se houver) ainda precisa atender o [Requisito de Atributo](../equipamento/regras.md#requisito-de-atributo-minimo) dela.
-- **Proficiência de arma** — escolha 1 arma, mesmo que não seja uma que você comprou, e já nasce sabendo a Habilidade **Básica** dela, de graça. Não conta como uma das suas 26 escolhas de habilidade de carreira.
+- **Proficiência de arma** — escolha 1 arma, mesmo que não seja uma que você comprou, e já nasce sabendo a Habilidade **Básica** dela, de graça. Não conta como uma das suas 27 escolhas de habilidade de carreira.
 
 ## Valores que você calcula no fim
 
