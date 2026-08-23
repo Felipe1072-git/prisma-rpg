@@ -202,3 +202,39 @@ divindade`, `pessoa` etc.) adicionar `**Retrato:** ![Nome](../../caminho/pro/arq
 como primeiro campo da ficha — o hook (`hooks/prisma.py`, campo especial `retrato`) tira o
 rótulo em negrito e mostra como imagem grande no topo. Clicar na imagem abre ela inteira
 em tela cheia (lightbox em `prisma.js`/`prisma.css`).
+
+### Ilustração de página de regra (Jogando o Jogo, Criação, Livro do Mestre)
+
+Validado com as 18 páginas de regra do site (2026-08-23) — banner de abertura em 16:9 nas
+páginas mais "de capítulo" (Combate, Exploração, os três índices), inserção menor em
+formato retrato (~4:5) flutuando ao lado da prosa nas páginas mais "de conceito único"
+(Mana, Estresse, Atributos). Sem elenco fixo — cada cena tem personagens genéricos
+próprios, sem vínculo com o trio da capa/lombada; a técnica de pintura é o que amarra
+tudo, não o elenco.
+
+Duas armadilhas de composição que apareceram nessa leva e valem registrar:
+
+- **"Tela de seleção de personagem"** também acontece fora de retrato de NPC único: uma
+  cena pensada como "vários personagens genéricos representando uma lista" (ex: as raças
+  na Criação de Personagem) puxa fácil pra fileira simétrica de frente pra câmera. A
+  correção foi a mesma da regra geral — profundidade e ângulo variados, uma figura em
+  destaque, nunca todas iguais e de frente.
+- **Progressão em 3 estágios não deve virar 3 painéis lado a lado** (ex: Progressão de
+  Nível, Intensidade de Habilidade) — isso lembra infográfico técnico, não pintura. Melhor
+  resolver como uma cena só, contínua: camadas translúcidas do mesmo personagem se
+  fundindo numa pintura (Progressão), ou um efeito único crescendo em escala dentro do
+  próprio quadro (Intensidade), em vez de repetir a figura em compartimentos separados.
+
+Convenção técnica: salvar em `docs/assets/img/regras/<nome>.jpg` (banner ~1440px de
+largura, retrato ~700px), e no topo da página (logo abaixo do `#` título) adicionar
+`<img class="prg-arte" src="../assets/img/regras/<nome>.jpg" alt="">` pro banner, ou
+`<img class="prg-arte prg-arte--retrato" ...>` pra inserção flutuante — classes definidas
+em `docs/assets/css/prisma.css`. Sem legenda de propósito, igual ao retrato de Mundo.
+
+### Capa como hero da home
+
+A mesma arte de capa do fichário (peça aprovada acima) também vira a primeira coisa que
+quem abre o site vê: `docs/assets/img/capa.jpg` (900px de largura, ~85% qualidade),
+inserida logo no topo de `docs/index.md` como `<img class="prg-capa-hero" ...>`,
+substituindo o logo pequeno que existia ali. Não precisou gerar peça nova — a mesma arte
+de impressão serve pros dois usos.
