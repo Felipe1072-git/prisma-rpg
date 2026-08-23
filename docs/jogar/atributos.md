@@ -1,6 +1,6 @@
 # Os Oito Atributos
 
-<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/atributos.jpg" alt="">
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/atributos.jpg" alt="">
 
 Todo personagem e toda criatura do jogo é descrito pelos mesmos oito números, de **0 a
 100**. Eles entram em tudo: no d100 que você rola, na Evasão que o inimigo precisa superar,

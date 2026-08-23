@@ -1,6 +1,6 @@
 # Dano e Cura
 
-<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/dano-e-cura.jpg" alt="">
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/dano-e-cura.jpg" alt="">
 
 | Resumo rápido | |
 |---|---|

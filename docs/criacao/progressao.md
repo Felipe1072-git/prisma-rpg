@@ -1,6 +1,6 @@
 # Progressão de Nível
 
-<img class="prg-arte" src="../assets/img/regras/progressao.jpg" alt="">
+<img class="prg-arte" src="../../assets/img/regras/progressao.jpg" alt="">
 
 **Você sobe de nível a cada sessão jogada.** Não há experiência pra somar: jogou, subiu — ver [Progressão: um nível por sessão](../mestre/recompensas.md#progressao-um-nivel-por-sessao) pro lado do Mestre.
 

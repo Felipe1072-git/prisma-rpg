@@ -1,6 +1,6 @@
 # Mana
 
-<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/mana.jpg" alt="">
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/mana.jpg" alt="">
 
 | Resumo rápido | |
 |---|---|

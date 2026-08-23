@@ -1,6 +1,6 @@
 # Exploração
 
-<img class="prg-arte" src="../assets/img/regras/exploracao.jpg" alt="">
+<img class="prg-arte" src="../../assets/img/regras/exploracao.jpg" alt="">
 
 | Resumo rápido | |
 |---|---|

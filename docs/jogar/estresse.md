@@ -1,6 +1,6 @@
 # Estresse
 
-<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/estresse.jpg" alt="">
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/estresse.jpg" alt="">
 
 | Resumo rápido | |
 |---|---|

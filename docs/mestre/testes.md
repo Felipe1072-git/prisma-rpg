@@ -1,6 +1,6 @@
 # Testes e Dificuldades
 
-<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/testes-dificuldades.jpg" alt="">
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/testes-dificuldades.jpg" alt="">
 
 Quanto pedir num teste fora de combate, e quando não pedir nada.
 

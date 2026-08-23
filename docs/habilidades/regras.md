@@ -1,6 +1,6 @@
 # Regras de Habilidade
 
-<img class="prg-arte" src="../assets/img/regras/habilidades-regras.jpg" alt="">
+<img class="prg-arte" src="../../assets/img/regras/habilidades-regras.jpg" alt="">
 
 Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Intensidade, custo, Dano Desarmado e a assinatura mecânica de cada elemento. Pra navegar e filtrar as habilidades em si, veja a [Listagem de Habilidades](index.md).
 

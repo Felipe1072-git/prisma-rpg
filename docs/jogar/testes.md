@@ -1,6 +1,6 @@
 # Testes de d100
 
-<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/testes.jpg" alt="">
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/testes.jpg" alt="">
 
 | Resumo rápido | |
 |---|---|

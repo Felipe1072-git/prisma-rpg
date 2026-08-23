@@ -1,6 +1,6 @@
 # Combate
 
-<img class="prg-arte" src="../assets/img/regras/combate.jpg" alt="">
+<img class="prg-arte" src="../../assets/img/regras/combate.jpg" alt="">
 
 | Resumo rápido | |
 |---|---|

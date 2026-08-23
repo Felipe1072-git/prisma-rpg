@@ -1,6 +1,6 @@
 # Criando uma Criatura
 
-<img class="prg-arte prg-arte--retrato" src="../assets/img/regras/criando-criaturas.jpg" alt="">
+<img class="prg-arte prg-arte--retrato" src="../../assets/img/regras/criando-criaturas.jpg" alt="">
 
 Como ler uma ficha, e como montar as suas.
 

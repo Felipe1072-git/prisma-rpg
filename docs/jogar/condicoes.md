@@ -1,6 +1,6 @@
 # Condições
 
-<img class="prg-arte" src="../assets/img/regras/condicoes.jpg" alt="">
+<img class="prg-arte" src="../../assets/img/regras/condicoes.jpg" alt="">
 
 Uma condição é um estado que muda o que uma criatura consegue fazer — imposta por uma habilidade, por uma armadilha ou pelo próprio ambiente.
 
