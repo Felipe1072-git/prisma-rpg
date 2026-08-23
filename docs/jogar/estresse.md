@@ -1,6 +1,14 @@
 # Estresse
 
-A [Vida](dano-e-cura.md#vida) mede o que o corpo aguenta. O Estresse mede o que a **cabeça** aguenta — e é a única barra do jogo que o descanso curto não repõe.
+| Resumo rápido | |
+|---|---|
+| Estresse Máximo | **20 + Nível + (Sanidade × 2)** + Estresse de equipamento |
+| Ganho automático | **1d6** ao tirar exatamente 1 no d100, ou ao sofrer um Crítico |
+| Ganho narrativo | **4d6**, testando d100 + Sanidade vs Dificuldade do Mestre |
+| Recuperação | igual Vida e Mana — metade no curto, tudo no longo |
+| Barra cheia | **Colapso** (1d6) na hora, depois **Cicatriz** (1d6) permanente |
+
+A [Vida](dano-e-cura.md#vida) mede o que o corpo aguenta. O Estresse mede o que a **cabeça** aguenta.
 
 **Estresse Máximo = 20 (base) + Nível + (Sanidade × 2) + Estresse de equipamento**
 

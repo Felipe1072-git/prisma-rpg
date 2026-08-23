@@ -1,5 +1,13 @@
 # Mana
 
+| Resumo rápido | |
+|---|---|
+| Mana Máximo | **20 + Nível + (Magia × 2)** + Mana de equipamento |
+| Recuperação | metade no descanso curto, tudo no longo |
+| Custo por Intensidade (habilidade geral) | **3 / 9 / 18** Mana (I / II / III) |
+| Custo por Intensidade (habilidade de arma) | varia pelo grau — ver [Escala de Mana](#escala-de-mana-por-intensidade) |
+| Requisito suave de Atributo | abaixo do recomendado pra Escala, rola com Desvantagem |
+
 Recurso universal que alimenta todas as habilidades do personagem — marciais, mágicas, sociais, etc. Não existe um recurso separado para "magia": tudo usa Mana.
 
 Enquanto os [Pontos de Ação](combate.md#pontos-de-acao) são o orçamento **do turno**, o Mana é o orçamento **do dia**. É ele que decide se você aguenta mais um combate antes de precisar parar.

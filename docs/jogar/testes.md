@@ -1,5 +1,12 @@
 # Testes de d100
 
+| Resumo rápido | |
+|---|---|
+| Teste básico | **d100 + Atributo vs Dificuldade** — igualou ou superou, sucesso |
+| Vantagem / Desvantagem | 2d100, fica com o melhor / o pior |
+| Limiar de Crítico | **Sorte ÷ 3** (arredondado) |
+| Rerolagens por descanso longo | **1 + (Sorte ÷ 10)** |
+
 Há uma única fórmula no jogo inteiro, e ela resolve tudo — abrir uma fechadura, convencer um guarda, acertar um dragão:
 
 !!! regra "d100 + Atributo vs Dificuldade"

@@ -1,6 +1,6 @@
 # Jogando o Jogo
 
-O Prisma RPG é um d20 de mesa sem classes. Você não escolhe ser guerreiro ou mago — escolhe **habilidades**, uma por vez, e o personagem que sai disso é o que você fez dele. Um espadachim que aprendeu a conjurar fogo é tão válido quanto um mago puro, e nenhuma regra vai dizer que ele está "misturando errado".
+O Prisma RPG é um d100 de mesa sem classes. Você não escolhe ser guerreiro ou mago — escolhe **habilidades**, uma por vez, e o personagem que sai disso é o que você fez dele. Um espadachim que aprendeu a conjurar fogo é tão válido quanto um mago puro, e nenhuma regra vai dizer que ele está "misturando errado".
 
 Esta seção é o que qualquer pessoa na mesa precisa saber pra jogar — jogador ou Mestre. A [Criação de Personagem](../criacao/index.md) vem depois; primeiro vale entender o que o personagem vai *fazer*.
 
@@ -10,7 +10,7 @@ Esta seção é o que qualquer pessoa na mesa precisa saber pra jogar — jogado
 
 **Magia e técnica são a mesma coisa.** Não há "sistema de magia" separado. Um golpe de espada e uma bola de fogo têm a mesma ficha, o mesmo custo em [Mana](mana.md) e a mesma forma de resolver. A diferença entre o guerreiro e o mago é qual atributo eles usam, não qual conjunto de regras.
 
-**A rolagem não decide o quanto o golpe faz.** Isso é o que mais estranha quem vem de outro d20. Aqui o d20 responde só *"acertou ou não"* — e o quanto o ataque entrega você decidiu **antes de rolar**, ao escolher a [Intensidade](../habilidades/regras.md#intensidade).
+**A rolagem não decide o quanto o golpe faz.** Isso é o que mais estranha quem vem de outro sistema. Aqui o d100 responde só *"acertou ou não"* — e o quanto o ataque entrega você decidiu **antes de rolar**, ao escolher a [Intensidade](../habilidades/regras.md#intensidade).
 
 ## O ritmo de jogo
 
@@ -48,7 +48,7 @@ Há um goblin na frente dela ([Evasão](combate.md#defesa) **24**). Ela tem 3 �
 
 Nenhuma das três é a certa. É isso que o sistema pede de você a cada turno.
 
-**Se o d100 puro cair dentro do limiar de Crítico**, aquele golpe é Crítico: dano máximo, uma rolagem extra, e você **sobe uma Intensidade de graça** — o efeito da linha acima, sem pagar a diferença.
+**Se o número puro do d100 cair dentro do limiar de Crítico**, aquele golpe é Crítico: dano máximo, uma rolagem extra, e você **sobe uma Intensidade de graça** — o efeito da linha acima, sem pagar a diferença.
 
 ## As páginas desta seção
 

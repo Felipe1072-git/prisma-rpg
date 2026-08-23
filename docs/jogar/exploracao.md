@@ -1,5 +1,12 @@
 # Exploração
 
+| Resumo rápido | |
+|---|---|
+| Descanso curto (~1h) | metade de Vida, Mana e Estresse |
+| Descanso longo (~8h, seguro) | tudo, + 1 grau de Exausto (causa resolvida) + reseta rerolagens |
+| Trecho de viagem | meio dia de marcha; Terreno Difícil conta em dobro |
+| Exaustão | ganha 1 grau por privação, ritmo Forçado ou clima extremo sem proteção |
+
 Tudo o que acontece entre um combate e o outro: viajar, descansar, aguentar o mundo.
 
 São regras que o **jogador** aplica — é aqui que se decide quanto do poço de recursos sobra pro próximo combate. O lado do Mestre (armadilhas, ritmo de masmorra, pressão de tempo) está em [Exploração na Mesa](../mestre/exploracao.md).

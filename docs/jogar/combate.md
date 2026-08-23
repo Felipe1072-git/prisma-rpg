@@ -1,5 +1,13 @@
 # Combate
 
+| Resumo rápido | |
+|---|---|
+| Iniciativa | **d100 + Agilidade + Sorte** |
+| Pontos de Ação por turno | **3 (◈◈◈)** |
+| Movimento | **6 + (Agilidade ÷ 10)** casas, mínimo 1 |
+| Ataque | d100 + Atributo vs Evasão (ou outro número-alvo, ver [Defesa](#defesa)) |
+| Reação | máximo **1 por rodada**, não importa quanto ◈ sobrou |
+
 Combate é o modo de jogo em que o tempo é contado. A cena vira uma sequência de **rodadas**; dentro de cada rodada, cada participante joga um **turno**; e dentro do turno você tem **3 Pontos de Ação (◈)** pra gastar como quiser.
 
 !!! regra "Em uma frase"
