@@ -1,5 +1,5 @@
 site_name: Prisma RPG
-site_description: Sistema de RPG de mesa homebrew autoral — d20 simplificado, sem classes
+site_description: Sistema de RPG de mesa homebrew autoral — d100 simplificado, sem classes
 site_author: Paulo Souza
 site_url: https://felipe1072-git.github.io/prisma-rpg/
 repo_url: https://github.com/Felipe1072-git/prisma-rpg
@@ -86,7 +86,7 @@ nav:
   - Jogando o Jogo:
     - jogar/index.md
     - Os Oito Atributos: jogar/atributos.md
-    - Testes de d20: jogar/testes.md
+    - Testes de d100: jogar/testes.md
     - Combate: jogar/combate.md
     - Mana: jogar/mana.md
     - Dano e Cura: jogar/dano-e-cura.md
@@ -96,7 +96,6 @@ nav:
   - Criação de Personagem:
     - criacao/index.md
     - Progressão de Nível: criacao/progressao.md
-    - Tocado: criacao/tocado.md
   - Ficha de Personagem: ficha.md
   - Compêndio:
     - compendio/index.md
@@ -106,8 +105,6 @@ nav:
     - Origens: origens/index.md
     - Equipamento: equipamento/index.md
     - Regras de Equipamento: equipamento/regras.md
-    - Pacotes: pacotes/index.md
-    - Sorteio de Pacote: pacotes/sorteio.md
   - Bestiário: bestiario/index.md
   - Livro do Mestre:
     - mestre/index.md

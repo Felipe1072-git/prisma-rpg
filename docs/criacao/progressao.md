@@ -2,65 +2,52 @@
 
 **Você sobe de nível a cada sessão jogada.** Não há experiência pra somar: jogou, subiu — ver [Progressão: um nível por sessão](../mestre/recompensas.md#progressao-um-nivel-por-sessao) pro lado do Mestre.
 
-O jogo tem **20 níveis**, e o ganho alterna:
+O jogo tem **100 níveis**. Dois ganhos correm em paralelo, em ritmos diferentes de propósito:
 
-- **Nível ímpar** — uma **nova Habilidade**, de qualquer [grupo](../habilidades/regras.md#grupos)
-- **Nível par** — **+1 ponto de Atributo**, a distribuir livremente entre os 8 atributos
+- **Atributo** — a cada **nível par**, +5 pontos pra distribuir entre os 8 atributos. Constante do nível 2 ao 100 (ver [Atributos](../jogar/atributos.md#a-faixa-de-valores)).
+- **Habilidade** — rápido no início, raro depois. A criação já concede a 1ª (ver [Passo 4](index.md#4-primeira-habilidade)); a partir do nível 1, **mais uma a cada nível ímpar até o 39** (19 delas — fecha 20 no total por volta da metade da carreira); depois, só **a cada 10 níveis** (50, 60, 70, 80, 90, 100 — mais 6). **26 Habilidades ao todo.**
 
-| Nível | Ganho |
-|---|---|
-| 1 | 1ª Habilidade |
-| 2 | +1 ponto de Atributo |
-| 3 | 2ª Habilidade |
-| 4 | +1 ponto de Atributo |
-| 5 | 3ª Habilidade |
-| 6 | +1 ponto de Atributo |
-| 7 | 4ª Habilidade |
-| 8 | +1 ponto de Atributo |
-| 9 | 5ª Habilidade |
-| 10 | +1 ponto de Atributo |
-| 11 | 6ª Habilidade |
-| 12 | +1 ponto de Atributo |
-| 13 | 7ª Habilidade |
-| 14 | +1 ponto de Atributo |
-| 15 | 8ª Habilidade |
-| 16 | +1 ponto de Atributo |
-| 17 | 9ª Habilidade |
-| 18 | +1 ponto de Atributo |
-| 19 | 10ª Habilidade |
-| 20 | +1 ponto de Atributo (final) |
+| Fase | Níveis | Habilidade | Atributo |
+|---|---|---|---|
+| Criação | 0 | 1ª (Passo 4) | base 5 + 15 livres |
+| Rápida | 1–39 (ímpares) | +1 a cada nível ímpar (19 no total) | — |
+| — | 2–40 (pares) | — | +5 a cada nível par |
+| Lenta | 50, 60, 70, 80, 90, 100 | +1 em cada marco (6 no total) | — |
+| — | 42–100 (pares) | — | +5 a cada nível par |
 
-**Ao fim do nível 20:** 10 Habilidades aprendidas (de qualquer grupo, em qualquer combinação) e +10 pontos de Atributo distribuídos, além do valor inicial de criação.
-
-## O que cresce sozinho
-
-Vida e Mana crescem automaticamente todo nível, independente dessa tabela:
-
-- **[Vida](../jogar/dano-e-cura.md#vida)** — role o seu dado de Vida a cada nível e some ao total. O tamanho do dado é o que a sua Vitalidade indicar **naquele momento**, e o resultado fica congelado no total.
-- **[Dados de Vida](../jogar/dano-e-cura.md#dados-de-vida)** — você ganha um por nível, e é com eles que se cura fora de combate.
-- **[Mana Máximo](../jogar/mana.md#mana-maximo)** — 10 + (Nível × 3) + (Vontade × 2), recalculado a cada nível.
+**Por que esse ritmo:** a mesma lógica que já vale pros atributos — a maioria das campanhas reais não passa de umas 10 sessões, então a progressão rápida (uma Habilidade quase todo nível, nos primeiros 40) é onde a maior parte das mesas realmente vive. Depois do meio de carreira, o personagem já tem um kit amplo — o que os níveis restantes entregam é principalmente **poder** (Atributo, e por consequência Vida/Mana/Estresse/Evasão), não mais botões novos na ficha. 26 habilidades, não 50: escolha continua pesando, em vez de acumular até virar ruído.
 
 ## Escolhendo a habilidade do nível
 
-Todas as habilidades do jogo estão abertas a qualquer personagem, em qualquer nível — não há pré-requisito de nível, atributo, raça ou classe. As duas únicas travas do sistema:
+Todas as habilidades do jogo estão abertas a qualquer personagem, em qualquer nível — não há pré-requisito de nível, atributo, raça ou classe (ver [Requisito suave de Atributo](../jogar/mana.md#requisito-suave-de-atributo) pra quando vale a pena esperar). As duas únicas travas do sistema:
 
 - **Ordem dentro de uma arma:** Básica → Avançada → Especial, e sempre da **mesma** arma.
-- **Uma escolha por nível ímpar**, e são só dez na carreira inteira. É essa escassez que faz a build.
+- **26 escolhas na carreira inteira.** É essa escassez que faz a build.
 
 Use os filtros da [Listagem de Habilidades](../habilidades/index.md) pra ver só o que faz sentido pro seu personagem — por grupo, elemento, arma, atributo, alvo ou Mana disponível.
 
 !!! exemplo "Especializar ou espalhar"
-    Investir as três escolhas de uma arma (Básica, Avançada, Especial) gasta 30% da carreira num único conjunto — e entrega uma Intensidade III de 12 Mana que resolve encontros sozinha. Espalhar as dez entre grupos diferentes dá um personagem que tem resposta pra tudo e teto pra nada. Nenhuma das duas é errada; o sistema só cobra que você escolha.
+    Investir três escolhas numa única arma (Básica, Avançada, Especial) fecha o kit dela cedo, com uma Intensidade III que resolve encontros sozinha — e sobra a maior parte das 26 pra reforçar em outra direção. Espalhar as escolhas entre grupos diferentes dá um personagem que tem resposta pra tudo e teto pra nada. Nenhuma das duas é errada; o sistema só cobra que você escolha.
+
+## O que cresce sozinho
+
+Vida, Mana e Estresse crescem automaticamente todo nível, sem gastar nenhuma das escolhas acima — são fórmula, não escolha:
+
+- **[Vida Máxima](../jogar/dano-e-cura.md#vida)** — 20 + Nível + (Defesa × 2) + Vida de equipamento, recalculado a cada nível.
+- **[Mana Máximo](../jogar/mana.md#mana-maximo)** — 20 + Nível + (Magia × 2) + Mana de equipamento, recalculado a cada nível.
+- **[Estresse Máximo](../jogar/estresse.md)** — 20 + Nível + (Sanidade × 2) + equipamento, recalculado a cada nível.
 
 ## Subir de atributo
 
-O ponto do nível par pode ir pra qualquer um dos oito, sem teto por nível. Vale lembrar o que muda de imediato:
+O ponto de atributo do nível par pode ir pra qualquer um dos oito, sem teto por nível (até o teto geral de 100). Vale lembrar o que muda de imediato:
 
 | Se você subir | Muda na hora |
 |---|---|
-| Vitalidade | o **tamanho** dos dados de Vida dos próximos níveis (os já rolados não mudam) |
-| Agilidade | [Defesa física](../jogar/combate.md#defesa), [Movimento](../jogar/combate.md#movimento) e [Iniciativa](../jogar/combate.md#iniciativa) |
-| Vontade | [Mana Máximo](../jogar/mana.md#mana-maximo) (+2 por ponto) e Defesa mental |
-| Sorte | [Iniciativa](../jogar/combate.md#iniciativa) e o número de [rerolagens](../jogar/testes.md#rerolagens) por descanso longo |
+| Ataque | o dano dos seus ataques físicos |
+| Defesa | [Vida Máxima](../jogar/dano-e-cura.md#vida) e Fortitude Física |
+| Magia | [Mana Máximo](../jogar/mana.md#mana-maximo), Fortitude Mágica e dano mágico |
+| Agilidade | [Evasão](../jogar/combate.md#defesa), [Movimento](../jogar/combate.md#movimento) e [Iniciativa](../jogar/combate.md#iniciativa) |
+| Sorte | [Iniciativa](../jogar/combate.md#iniciativa), o limiar de [Crítico](../jogar/testes.md#criticos) e o número de [rerolagens](../jogar/testes.md#rerolagens) por descanso longo |
 | Sanidade | [Estresse Máximo](../jogar/estresse.md) |
-| Força, Inteligência, Sabedoria | a rolagem das habilidades que usam esse atributo |
+| Social | testes de persuadir, intimidar, enganar (e resistir a tudo isso) |
+| Exploração | testes de perceber, rastrear, se orientar, sobreviver |

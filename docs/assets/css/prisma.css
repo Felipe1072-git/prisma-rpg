@@ -13,6 +13,10 @@
   --prg-fundo-hd-hover: rgba(124, 77, 200, 0.12);
   --prg-sombra: 0 1px 2px rgba(20, 10, 40, 0.06);
   --prg-realce: rgba(124, 77, 200, 0.10);
+  --prg-fundo-vida: rgba(196, 58, 58, 0.10);
+  --prg-borda-vida: rgba(196, 58, 58, 0.30);
+  --prg-fundo-mana: rgba(42, 104, 196, 0.10);
+  --prg-borda-mana: rgba(42, 104, 196, 0.30);
 
   --prg-c-marciais: #a1341f;
   --prg-c-pontaria: #14705a;
@@ -55,6 +59,10 @@
   --prg-fundo-hd-hover: rgba(178, 148, 232, 0.14);
   --prg-sombra: 0 1px 2px rgba(0, 0, 0, 0.3);
   --prg-realce: rgba(178, 148, 232, 0.14);
+  --prg-fundo-vida: rgba(232, 120, 110, 0.14);
+  --prg-borda-vida: rgba(232, 120, 110, 0.38);
+  --prg-fundo-mana: rgba(110, 170, 232, 0.14);
+  --prg-borda-mana: rgba(110, 170, 232, 0.38);
 
   --prg-c-marciais: #e8836b;
   --prg-c-pontaria: #5fd2b4;
@@ -415,6 +423,18 @@
   border-radius: 5px;
   background: var(--prg-realce);
   text-align: center;
+}
+
+/* Vida e Mana ganham uma cor suave própria — vermelho e azul, a dupla que
+   qualquer jogador de RPG já lê sem precisar do rótulo. */
+.prg-bes__tile--vida {
+  background: var(--prg-fundo-vida);
+  border-color: var(--prg-borda-vida);
+}
+
+.prg-bes__tile--mana {
+  background: var(--prg-fundo-mana);
+  border-color: var(--prg-borda-mana);
 }
 
 .prg-bes__rot {

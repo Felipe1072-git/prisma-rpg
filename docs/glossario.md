@@ -8,11 +8,11 @@ Há duas formas de chegar num termo: o **índice alfabético** abaixo, se você 
 
 ### Vantagem
 
-Role **2d20 e use o melhor**. Fontes múltiplas de Vantagem não acumulam — rola-se 2d20 uma vez só.
+Role **2d100 e use o melhor**. Fontes múltiplas de Vantagem não acumulam — rola-se 2d100 uma vez só.
 
 ### Desvantagem
 
-Role **2d20 e use o pior**. Também não acumula. Se uma mesma rolagem tiver Vantagem e Desvantagem ao mesmo tempo (de qualquer quantidade de fontes), **elas se cancelam** e rola-se 1d20 normal.
+Role **2d100 e use o pior**. Também não acumula. Se uma mesma rolagem tiver Vantagem e Desvantagem ao mesmo tempo (de qualquer quantidade de fontes), **elas se cancelam** e rola-se 1d100 normal.
 
 ### Turno
 
@@ -36,7 +36,7 @@ A próxima Reação que o alvo tentaria usar é negada — **inclusive Reações
 
 ### Base de Resiliência
 
-Define a Defesa de qualquer criatura — personagem ou monstro: **Defesa = Base de Resiliência + o atributo relevante** (Agilidade pra física, Vontade pra mental, e assim por diante). Um personagem jogador é sempre **Treinado (Base 8)**. Ver [Combate → Base de Resiliência](jogar/combate.md#base-de-resiliencia) pra a tabela completa dos tiers (Comum, Treinado, Formidável, Lendário), usada principalmente pra criar criaturas.
+O Tier de ameaça de uma criatura — Comum, Treinado, Formidável, Lendário. Não soma mais como bônus fixo em nenhuma fórmula: serve só de referência de faixa esperada pros atributos que o Mestre escreve na ficha dela (um personagem jogador é sempre **Treinado**). Ver [Combate → Defesa](jogar/combate.md#defesa) e [Bestiário](mestre/criando-criaturas.md).
 
 ### Acúmulo de bônus
 
@@ -48,15 +48,15 @@ Efeitos que uma habilidade impõe ao alvo. Salvo quando a habilidade disser outr
 
 ### Sangrando
 
-Perde **1d4 de Vida** no início do próximo turno dele. Efeito de uma vez só — ferida que fecha.
+Perde **4d4 de Vida** no início do próximo turno dele. **Role uma vez só e marque o mesmo resultado também em Estresse** — o mesmo sangue que sai do corpo é o que sobra na cabeça. Efeito de uma vez só — ferida que fecha.
 
-- **Não acumula.** Reaplicado antes de disparar, vale só o **dado maior** (um "Sangrando 2d4" substitui o 1d4 — mesma lógica de Queimando). Depois de disparar, o alvo pode voltar a Sangrar normalmente.
+- **Não acumula.** Reaplicado antes de disparar, vale só o **dado maior** (um "Sangrando 6d4" substitui o 4d4 — mesma lógica de Queimando). Depois de disparar, o alvo pode voltar a Sangrar normalmente.
 
 ### Queimando
 
-Perde **1d4 de Vida imediatamente ao pegar fogo**, e mais **1d4 no início de cada turno dele**. Assinatura do elemento [Fogo](habilidades/magicas-elementais.md#fogo) — diferente de Sangrando justamente por não ter prazo.
+Perde **4d4 de Vida imediatamente ao pegar fogo**, e mais **4d4 no início de cada turno dele**. **Cada uma dessas rolagens vale o mesmo em Estresse** — pegar fogo (e continuar em chamas) é tão traumático quanto doloroso. Assinatura do elemento [Fogo](habilidades/magicas-elementais.md#fogo) — diferente de Sangrando justamente por não ter prazo.
 
-- **Não acumula.** Pegar fogo de novo não soma um segundo dado: vale o valor maior entre os dois (mesma lógica do [Escudo](#escudo)). Uma habilidade que diz "Queimando causando 2d4 por turno" simplesmente substitui o 1d4 enquanto durar.
+- **Não acumula.** Pegar fogo de novo não soma um segundo dado: vale o valor maior entre os dois (mesma lógica do [Escudo](#escudo)). Uma habilidade que diz "Queimando causando 8d4 por turno" simplesmente substitui o 4d4 enquanto durar — o Estresse escala junto.
 - **Não para sozinho durante o combate.** Termina de três formas: o alvo gasta uma **Ação Básica** pra se apagar, um aliado **adjacente** gasta a dele, ou o alvo entra em contato com água em quantidade (o Mestre decide o que conta). **Sofrer dano de Gelo ou Água também apaga o fogo.**
 - **Espalhamento:** quando uma habilidade diz que o fogo "se espalha" pra uma criatura adjacente, **o usuário escolhe qual** (pode ser um aliado — fogo não distingue). Quem pegou fogo por espalhamento **não espalha de novo**: não há cadeia.
 - **Apaga no fim do combate.** Encerrada a cena de combate, o fogo se apaga sozinho — ninguém sai queimando pela estrada.
@@ -74,21 +74,21 @@ Movimento reduzido à **metade**. Afeta só o **Movimento** (a ação de ◈) �
 
 ### Atordoado
 
-**Não pode agir** — nem ação, nem movimento, nem reação.
+**Não pode agir** — nem ação, nem movimento, nem reação. Marca **3d6 de Estresse** ao ficar Atordoado — perder o controle do próprio corpo é perturbador.
 
 ### Amedrontado
 
-O pavor trava a pontaria e o julgamento: enquanto durar, o alvo rola com [Desvantagem](#desvantagem) em qualquer teste de ataque. Salvo quando a habilidade disser outra coisa, dura até o fim do próprio próximo turno do alvo.
+O pavor trava a pontaria e o julgamento: enquanto durar, o alvo rola com [Desvantagem](#desvantagem) em qualquer teste de ataque, e marca **3d6 de Estresse** ao ficar Amedrontado. Salvo quando a habilidade disser outra coisa, dura até o fim do próprio próximo turno do alvo.
 
 ### Cego
 
-Não enxerga: rola com [Desvantagem](#desvantagem) em qualquer teste de ataque, e ataques contra o alvo rolam com [Vantagem](#vantagem). Salvo quando a habilidade disser outra coisa, dura até o fim do próprio próximo turno do alvo.
+Não enxerga: rola com [Desvantagem](#desvantagem) em qualquer teste de ataque, ataques contra o alvo rolam com [Vantagem](#vantagem), e marca **2d6 de Estresse** ao ficar Cego. Salvo quando a habilidade disser outra coisa, dura até o fim do próprio próximo turno do alvo.
 
 ### Possuído
 
-Outra criatura está no controle do corpo. Quem possui gasta os **◈ do possuído** e usa as habilidades, a Vida e o Mana dele; o possuidor **sai do mapa** enquanto durar, e não pode ser alvo direto.
+Outra criatura está no controle do corpo. Quem possui gasta os **◈ do possuído** e usa as habilidades, a Vida e o Mana dele; o possuidor **sai do mapa** enquanto durar, e não pode ser alvo direto. O possuído marca **5d6 de Estresse** ao ser possuído — perder o próprio corpo pra outra mente é uma das piores coisas que podem acontecer com alguém.
 
-- **O jogador continua jogando.** No início de cada turno dele, o personagem possuído pode gastar o turno inteiro (**◈◈◈**) e rolar **d20 + Vontade** contra a [Defesa mental](jogar/combate.md#defesa) do possuidor. Passando, expulsa-o.
+- **O jogador continua jogando.** No início de cada turno dele, o personagem possuído pode gastar o turno inteiro (**◈◈◈**) e rolar **d100 + Magia** contra a [Fortitude Mágica](jogar/combate.md#defesa) do possuidor. Passando, expulsa-o.
 - **[Luz](habilidades/magicas-elementais.md#luz) atravessa:** dano de Luz no corpo possuído fere **o possuidor**, não o corpo.
 - **Se o corpo cair a 0 de Vida**, a possessão acaba e o possuidor reaparece adjacente.
 
@@ -104,9 +104,9 @@ A carne vira pedra, de baixo pra cima. Acumula em **graus**, como o [Exausto](#e
 | **2** | fica [Imóvel](#imovel) |
 | **3** | **não pode agir** (nem ação, nem movimento, nem reação), e o corpo é pedra: [Resistência](#resistencia) a [Cortante](#cortante), [Perfurante](#perfurante) e [Impacto](#impacto). Não respira, não sangra, não envelhece |
 
-**Some 1 grau** por acerto do efeito que petrifica. Quem aplica declara — nenhuma habilidade leva do 0 ao 3 num golpe só.
+**Some 1 grau** por acerto do efeito que petrifica. Quem aplica declara — nenhuma habilidade leva do 0 ao 3 num golpe só. Ao atingir o **grau 1** pela primeira vez (sentir a própria carne endurecer), o alvo marca **5d6 de Estresse**.
 
-**Remove 1 grau** cada vez que o alvo recebe uma habilidade que **cure Vida** (a Intensidade não importa: o que quebra a pedra é a vida entrando, não a quantidade), ou por [descanso longo](jogar/exploracao.md#descanso).
+**Nos graus 1 e 2**, remove 1 grau cada vez que o alvo recebe uma habilidade que **cure Vida** (a Intensidade não importa), ou por [descanso longo](jogar/exploracao.md#descanso). **No grau 3**, a pedra já tomou conta do corpo — cura comum não basta: só [Panaceia](habilidades/suporte.md) ou descanso longo removem o grau.
 
 !!! cuidado "Estátua quebrada não volta"
     No grau 3 o corpo é pedra — e pedra racha. Se ele sofrer dano que o levaria a 0 de Vida enquanto está petrificado, o personagem **morre de vez**: não fica [Caído](jogar/dano-e-cura.md#chegando-a-0-de-vida), não rola contra a morte, não há [Ressuscitar](habilidades/suporte.md) que junte os cacos. A resistência a dano físico existe justamente pra dar ao grupo a chance de tirar a estátua da linha de fogo antes disso.
@@ -121,7 +121,7 @@ Foi pego de surpresa: **não pode agir nem reagir durante a primeira rodada do c
 
 ### Agarrado
 
-Está preso por uma criatura ou restrição física: fica [Imóvel](#imovel) enquanto durar. **Escapar custa ◈ (1)** e um teste de **Força ou Agilidade** (o que for maior) contra a Defesa física de quem prende — ou contra a DC da restrição, se for um objeto. Quem prende solta automaticamente se ficar Atordoado ou Caído.
+Está preso por uma criatura ou restrição física: fica [Imóvel](#imovel) enquanto durar, e marca **2d6 de Estresse** ao ser agarrado. **Escapar custa ◈ (1)** e um teste de **Ataque ou Agilidade** (o que for maior) contra a Evasão de quem prende — ou contra a Dificuldade da restrição, se for um objeto. Quem prende solta automaticamente se ficar Atordoado ou Caído.
 
 ### Marcado
 
@@ -129,9 +129,9 @@ O **próximo ataque de um aliado** contra ele **nesta rodada** rola com Vantagem
 
 ### Envenenado
 
-Perde **1d4 de Vida por acúmulo** no início de cada turno dele, até ser curado. Diferente do fogo, o veneno leva tempo pra agir: **não há dano no momento em que é aplicado** — a primeira perda de Vida acontece no início do próximo turno do alvo.
+Perde **4d4 de Vida por acúmulo** no início de cada turno dele, até ser curado. **Cada rolagem de dano vale o mesmo em Estresse.** Diferente do fogo, o veneno leva tempo pra agir: **não há dano no momento em que é aplicado** — a primeira perda de Vida acontece no início do próximo turno do alvo.
 
-- **Acúmulos:** cada nova aplicação soma 1 acúmulo, e cada acúmulo vale 1d4 por turno (1 acúmulo = 1d4, 2 = 2d4, 3 = 3d4). O **máximo é 3 acúmulos** (3d4 por turno).
+- **Acúmulos:** cada nova aplicação soma 1 acúmulo, e cada acúmulo vale 4d4 por turno (1 acúmulo = 4d4, 2 = 8d4, 3 = 12d4). O **máximo é 3 acúmulos** (12d4 por turno).
 - **Cura limpa tudo.** Qualquer efeito que cure Vida ou remova condições apaga **todos** os acúmulos de uma vez — não é preciso curar três vezes.
 
 ### Escudo
@@ -151,7 +151,7 @@ Desgaste do corpo, acumulado em **graus**. Diferente das outras condições, nã
 | **2** | também fica [Lento](#lento) |
 | **3** | cai inconsciente até receber ajuda ou descansar |
 
-**Some 1 grau** a partir do **segundo dia** de privação (o primeiro só incomoda) e por noite sem descanso adequado depois de um dia de esforço — ver [Exaustão](jogar/exploracao.md#exaustao), que é a regra completa. **Remove 1 grau** por [descanso longo](jogar/exploracao.md#descanso) — desde que a causa tenha sido resolvida (comeu, bebeu, se aqueceu). Descansar com fome não remove nada.
+**Some 1 grau** a partir do **segundo dia** de privação (o primeiro só incomoda) e por noite sem descanso adequado depois de um dia de esforço — ver [Exaustão](jogar/exploracao.md#exaustao), que é a regra completa. Ao atingir o **grau 3** (desmaiar), marca **3d6 de Estresse**. **Remove 1 grau** por [descanso longo](jogar/exploracao.md#descanso) — desde que a causa tenha sido resolvida (comeu, bebeu, se aqueceu). Descansar com fome não remove nada.
 
 ### Risco
 
@@ -174,7 +174,7 @@ Não é dano nem condição — é o chão cobrando pedágio. Num sistema onde d
 
 ### Zona Amaldiçoada
 
-Assinatura de [Sombras](habilidades/magicas-elementais.md#sombras) em área: a região atingida continua ferindo depois do golpe. Qualquer criatura que **entrar** na área, ou que **terminar o turno** dentro dela, sofre o dano indicado pela habilidade (tipicamente 1d4, ou 2d4 na Intensidade III).
+Assinatura de [Sombras](habilidades/magicas-elementais.md#sombras) em área: a região atingida continua ferindo depois do golpe. Qualquer criatura que **entrar** na área, ou que **terminar o turno** dentro dela, sofre o dano indicado pela habilidade (tipicamente 4d4, ou 8d4 na Intensidade III).
 
 - **A zona não repete o impacto.** Quem estava na área no momento do golpe já sofreu o dano da habilidade; a zona passa a valer **a partir daí**, atingindo quem entrar depois ou quem escolher ficar.
 - **Fere todo mundo, sem distinção.** É terreno amaldiçoado, não uma armadilha inteligente: pega inimigos, aliados e o próprio usuário. Plantar uma zona no meio da batalha é uma decisão de posicionamento, não dano grátis.
@@ -285,19 +285,19 @@ Arma mágica genérica, dano 1d10, sem elemento fixo. Ver [Equipamento → Cajad
 
 ### Adagas
 
-Arma marcial Finesse, dano 1d4. Ver [Equipamento → Adagas](equipamento/index.md#equ-adagas).
+Arma marcial, dano 1d4. Ver [Equipamento → Adagas](equipamento/index.md#equ-adagas).
 
 ### Alfange
 
-Arma marcial Finesse, dano 1d8. Ver [Equipamento → Alfange](equipamento/index.md#equ-alfange).
+Arma marcial, dano 1d8. Ver [Equipamento → Alfange](equipamento/index.md#equ-alfange).
 
 ### Garras
 
-Arma marcial Finesse, dano 1d6. Ver [Equipamento → Garras](equipamento/index.md#equ-garras).
+Arma marcial, dano 1d6. Ver [Equipamento → Garras](equipamento/index.md#equ-garras).
 
 ### Katana Nodachi
 
-Arma marcial Finesse (duas mãos), dano 1d10 (lâmina longa clássica). Ver [Equipamento → Katana Nodachi](equipamento/index.md#equ-katana-nodachi).
+Arma marcial (duas mãos), dano 1d10 (lâmina longa clássica). Ver [Equipamento → Katana Nodachi](equipamento/index.md#equ-katana-nodachi).
 
 ### Machado
 
@@ -337,7 +337,7 @@ Arma mágica genérica, dano 1d8, sem elemento fixo. Ver [Equipamento → Orbe](
 
 ### Manopla Mística
 
-Arma mágica (Foco Mágico), dano 1d8, ataca com Inteligência (invoca criaturas através de uma gema com pentagramas e hexagramas). Ver [Equipamento → Manopla Mística](equipamento/index.md#equ-manopla-mistica).
+Arma mágica (Foco Mágico), dano 1d8, ataca com Magia (invoca criaturas através de uma gema com pentagramas e hexagramas). Ver [Equipamento → Manopla Mística](equipamento/index.md#equ-manopla-mistica).
 
 ### Pistolas
 
@@ -345,7 +345,7 @@ Dupla de pistolas leves, dano 1d6 — usadas sempre em par, uma em cada mão. Ve
 
 ### Punhal
 
-Adaga Finesse, dano 1d6. Ver [Equipamento → Punhal](equipamento/index.md#equ-punhal).
+Adaga, dano 1d6. Ver [Equipamento → Punhal](equipamento/index.md#equ-punhal).
 
 ### Espingarda
 
@@ -369,7 +369,7 @@ Arma marcial pesada, dano 1d12. Ver [Equipamento → Martelo](equipamento/index.
 
 ### Florete
 
-Arma marcial Finesse, dano 1d6. Ver [Equipamento → Florete](equipamento/index.md#equ-florete).
+Arma marcial, dano 1d6. Ver [Equipamento → Florete](equipamento/index.md#equ-florete).
 
 ### Flintlock
 
@@ -377,7 +377,7 @@ Pistola de precisão, dano 1d8. Ver [Equipamento → Flintlock](equipamento/inde
 
 ### Katana Muramasa
 
-Arma marcial Finesse (duas mãos), dano 1d10 (lâmina amaldiçoada, exige sangue). Ver [Equipamento → Katana Muramasa](equipamento/index.md#equ-katana-muramasa).
+Arma marcial (duas mãos), dano 1d10 (lâmina amaldiçoada, exige sangue). Ver [Equipamento → Katana Muramasa](equipamento/index.md#equ-katana-muramasa).
 
 ### Cubo Mágico
 
@@ -421,7 +421,7 @@ Arma marcial pesada, dano 1d10 (renomeada de "Tirfing" — lâmina amaldiçoada,
 
 ### Violino
 
-Arma marcial de Vontade, dano 1d6 (instrumento sonoro, exige Vontade +4). Ver [Equipamento → Violino](equipamento/index.md#equ-violino).
+Arma marcial de Social, dano 1d6 (instrumento sonoro, exige Social 20). Ver [Equipamento → Violino](equipamento/index.md#equ-violino).
 
 ### Báculo
 
@@ -441,7 +441,7 @@ Arma marcial de haste média, dano 1d8 (arma real é a Chamma). Ver [Equipamento
 
 ### Vajras
 
-Arma marcial de Sabedoria, dano 1d8 (cetro divino, exige Sabedoria +6). Ver [Equipamento → Vajras](equipamento/index.md#equ-vajras).
+Arma marcial de Magia, dano 1d8 (cetro divino, exige Magia 30). Ver [Equipamento → Vajras](equipamento/index.md#equ-vajras).
 
 ### Rapiers
 
@@ -461,7 +461,7 @@ Arma marcial pesada Híbrida, dano 1d12. Ver [Equipamento → Marreta Mágica](e
 
 ### Módulo Alado
 
-Arma mágica (Foco Mágico), dano 1d10, ataca com Inteligência (enxame tecnológico de lâminas voadoras; não é empunhado — conta como Duas Mãos pra fins de regra). Ver [Equipamento → Módulo Alado](equipamento/index.md#equ-modulo-alado).
+Arma mágica (Foco Mágico), dano 1d10, ataca com Magia (enxame tecnológico de lâminas voadoras; não é empunhado — conta como Duas Mãos pra fins de regra). Ver [Equipamento → Módulo Alado](equipamento/index.md#equ-modulo-alado).
 
 ### Tridente
 
@@ -469,7 +469,7 @@ Arma marcial Leve, dano 1d8 (combina com Escudo). Ver [Equipamento → Tridente]
 
 ### Chicote
 
-Arma marcial Finesse, dano 1d6 (alcance incomum, puxa e prende). Ver [Equipamento → Chicote](equipamento/index.md#equ-chicote).
+Arma marcial, dano 1d6 (alcance incomum, puxa e prende). Ver [Equipamento → Chicote](equipamento/index.md#equ-chicote).
 
 ### Mangual
 
@@ -481,25 +481,21 @@ Arma de pontaria, dano 1d4 (foco em veneno e status, não em dano bruto). Ver [E
 
 ### Pistola Arcana
 
-Arma de pontaria Híbrida (Agilidade ou Inteligência), dano 1d8. Ver [Equipamento → Pistola Arcana](equipamento/index.md#equ-pistola-arcana).
+Arma de pontaria Híbrida (Ataque ou Magia), dano 1d8. Ver [Equipamento → Pistola Arcana](equipamento/index.md#equ-pistola-arcana).
 
 ## Propriedades de Arma
 
 ### Dano Desarmado
 
-Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam sozinhos conforme o nível do personagem: 1d4 (nível 1–4), 1d6 (5–10), 1d8 (11–16), 1d10 (17+, ou 1d12 com traço racial de "1 grau acima"). O tipo de dano é [Impacto](#impacto), salvo quando um traço racial disser outra coisa. Ver [Habilidades Marciais → Dano Desarmado](habilidades/marciais.md#dano-desarmado).
-
-### Finesse
-
-O usuário escolhe Força ou Agilidade (o que for maior) no teste de ataque. Ver [Equipamento → Armas Finesse](equipamento/regras.md#finesse).
+Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam sozinhos conforme o nível do personagem: 2d6 (nível 0–25), 2d12 (26–50), 2d20 (51–75), 3d20 (76–100). Traço racial de "1 grau acima" empurra pra faixa seguinte da tabela. O tipo de dano é [Impacto](#impacto), salvo quando um traço racial disser outra coisa. Ver [Habilidades Marciais → Dano Desarmado](habilidades/marciais.md#dano-desarmado).
 
 ### Híbrida
 
-O usuário escolhe Força ou Inteligência (o que for maior) no teste de ataque. Ver [Equipamento → Armas Híbridas](equipamento/regras.md#hibrida).
+O usuário escolhe Ataque ou Magia (o que for maior) no teste de ataque. Ver [Equipamento → Armas Híbridas](equipamento/regras.md#hibrida).
 
 ### Ressonante
 
-O usuário escolhe, no teste de ataque, entre Físico (Força, dano Impacto) e Arcano (Vontade, dano Arcano) — o tipo de dano muda junto com o atributo. Ver [Equipamento → Armas Ressonantes](equipamento/regras.md#ressonante).
+O usuário escolhe, no teste de ataque, entre Físico (Ataque, dano Impacto) e Arcano (Magia, dano Arcano) — o tipo de dano muda junto com o atributo. Ver [Equipamento → Armas Ressonantes](equipamento/regras.md#ressonante).
 
 ### Dupla Empunhadura
 

@@ -15,7 +15,7 @@ Esta página é o outro lado: o que **você** faz com elas.
 
 ## Detectar e desarmar
 
-Armadilhas e passagens escondidas usam a [tabela de DC](testes.md#a-tabela) contra **Sabedoria** pra notar, e o atributo que a armadilha pedir pra desarmar (normalmente Agilidade). Duas habilidades do jogo já cobrem isso melhor que qualquer teste: [Instinto Ladino](../habilidades/infiltracao.md) e [Arrombamento](../habilidades/infiltracao.md).
+Armadilhas e passagens escondidas usam a [tabela de Dificuldades](testes.md#a-tabela) contra **Exploração** pra notar, e o atributo que a armadilha pedir pra desarmar (normalmente Agilidade). Duas habilidades do jogo já cobrem isso melhor que qualquer teste: [Instinto Ladino](../habilidades/infiltracao.md) e [Arrombamento](../habilidades/infiltracao.md).
 
 !!! mestre "Não peça teste pra achar o que está à vista"
     A porta com marcas de garra no chão, o corredor com o piso afundado — descreva e deixe o grupo decidir. Teste é pra o que foi **escondido de propósito**, e vale a regra geral: [se não pode dar errado, não role](testes.md#quando-nao-pedir-teste).
@@ -32,6 +32,6 @@ Três formas de criar pressão sem cronômetro:
 
 ## O que a exploração está protegendo
 
-O [Mana](../jogar/mana.md) e os [Dados de Vida](../jogar/dano-e-cura.md#dados-de-vida) só têm peso se houver custo em recuperá-los. Uma campanha em que o grupo descansa longo sempre que quer é uma campanha em que a Intensidade III é grátis — todo turno vira o turno mais caro possível, e a decisão central do sistema desaparece.
+O [Mana](../jogar/mana.md) e a [Vida](../jogar/dano-e-cura.md#vida) só têm peso se houver custo em recuperá-los. Uma campanha em que o grupo descansa longo sempre que quer é uma campanha em que a Intensidade III é grátis — todo turno vira o turno mais caro possível, e a decisão central do sistema desaparece.
 
 Não é preciso ser cruel com isso. Basta que **voltar pra base custe alguma coisa**: tempo, terreno perdido, um inimigo que se preparou.

@@ -31,10 +31,10 @@ Cada habilidade é registrada com:
 - **Nome**
 - **Descrição breve** — 1 frase evocativa, deixando claro o que a habilidade faz
 - **Chave** — para habilidades de arma: "Arma - Grau" (ex: "Espada - Básica"). Para habilidades gerais de grupo: "Grupo - Subtipo" (ex: "Marcial - Especial")
-- **Atributo** — atributo usado no teste (ex: FOR)
+- **Atributo** — atributo usado no teste (ex: ATA)
 - **Efeitos / Alvos**
 - **Intensidade I / II / III** — as três versões da habilidade, cada uma com seu custo em Pontos de Ação e Mana
-- **Crítico** — 20 natural
+- **Crítico** — dentro do [limiar de Crítico](../jogar/testes.md#criticos) (Sorte ÷ 3)
 
 ### Intensidade
 
@@ -56,16 +56,16 @@ O custo em Mana sobe junto com a Intensidade (ver [Escala de Mana por Intensidad
 Algumas habilidades não têm Intensidade: trazem **Custo fixo** e um único resultado de **Acerto** na ficha. São os casos em que a força da habilidade já está em outro lugar:
 
 - **Área de 3 casas de raio ou mais** — a área já é o poder; escalar o efeito por cima seria demais
-- **Habilidades Supremas** — o custo em Mana (16+) já as coloca fora da escala
+- **Habilidades Supremas** — o custo em Mana (48+) já as coloca fora da escala
 - **Efeitos sem nada pra graduar** — quando o efeito é absoluto, não há degrau acima dele. Uma Reação que **anula por completo** um ataque é o caso típico: não existe "anular mais"
 
 O preço de uma habilidade de Custo fixo segue duas regras:
 
-- **Mana:** o valor da Intensidade III da escala em que ela viveria (6-12 pra habilidades comuns; 16+ pra Supremas).
-- **PA:** **◈◈◈**, como uma Intensidade III — com duas exceções: **Avançadas de arma** de área cobram **◈◈** (padrão consolidado do Equipamento: ◈◈ + 9 Mana), e **Reações dedicadas** cobram 0. Habilidades utilitárias fora de combate podem declarar PA menor na própria ficha.
+- **Mana:** o valor da Intensidade III da escala em que ela viveria (18-36 pra habilidades comuns; 48+ pra Supremas).
+- **PA:** **◈◈◈**, como uma Intensidade III — com duas exceções: **Avançadas de arma** de área cobram **◈◈** (padrão consolidado do Equipamento: ◈◈ + 27 Mana), e **Reações dedicadas** cobram 0. Habilidades utilitárias fora de combate podem declarar PA menor na própria ficha.
 
 !!! regra "Custo fixo não dispensa a rolagem"
-    Habilidade de Custo fixo com alvo hostil **rola teste de ataque normalmente** contra a Defesa do alvo. Só ficam sem rolagem os casos que a [Resolução](#resolucao) isenta: buffs, cura, e Supremas declaradas como inevitáveis.
+    Habilidade de Custo fixo com alvo hostil **rola teste de ataque normalmente** contra o número-alvo do defensor. Só ficam sem rolagem os casos que a [Resolução](#resolucao) isenta: buffs, cura, e Supremas declaradas como inevitáveis.
 
 ### Buffs, Suporte e Mobilidade também têm Intensidade
 
@@ -84,16 +84,16 @@ Como o buff mantém na Intensidade I exatamente o efeito e o custo em Mana que s
 
 ### Habilidades com Tiers de Resultado
 
-Um punhado de habilidades faz algo que **não deveria ser garantido só por pagar o custo** — trazer um aliado morto de volta é o caso central. Nessas, o d20 volta a graduar o resultado: a rolagem decide entre falha catastrófica, falha recuperável e sucesso.
+Um punhado de habilidades faz algo que **não deveria ser garantido só por pagar o custo** — trazer um aliado morto de volta é o caso central. Nessas, o d100 volta a graduar o resultado: a rolagem decide entre falha catastrófica, falha recuperável e sucesso.
 
-| Total (d20 + Atributo) | Resultado |
+| Total (d100 + Atributo) | Resultado |
 |---|---|
-| ≤ 10 | Falha total — a pior consequência possível |
-| 11–16 | Falha, mas recuperável |
-| ≥ 17 | Sucesso |
-| 20 natural | Sucesso ampliado |
+| ≤ 50 | Falha total — a pior consequência possível |
+| 51–80 | Falha, mas recuperável |
+| 81–99 | Sucesso |
+| 100 (ou dentro do limiar de Crítico) | Sucesso ampliado |
 
-Essas habilidades têm **Custo fixo** (não têm Intensidade) e escrevem as faixas explicitamente na ficha. São deliberadamente raras — a graduação existe justamente pra impedir que um efeito dessa magnitude se torne confiável. Hoje só [Ressuscitar](suporte.md) usa esse formato.
+Essas habilidades têm **Custo fixo** (não têm Intensidade) e escrevem as faixas explicitamente na ficha. São deliberadamente raras — a graduação existe justamente pra impedir que um efeito dessa magnitude se torne confiável. Hoje [Ressuscitar](suporte.md) e [Selar o Pacto](conjuracao.md) usam esse formato.
 
 ### Habilidades Passivas
 
@@ -107,18 +107,20 @@ A Ficha de uma Passiva é mais enxuta: **Nome** *(Passiva)*, descrição breve, 
 ### Resolução
 
 1. O jogador declara a habilidade e **a Intensidade**, e paga o PA + Mana daquela Intensidade.
-2. Rola **d20 + Atributo da habilidade**.
-3. O total precisa **igualar ou superar a Defesa do alvo** (ver [Defesa](../jogar/combate.md#defesa)). Por padrão isso é a Defesa física (Agilidade) — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual atributo testar em vez disso, mas a lógica de comparação é sempre a mesma.
+2. Rola **d100 + Atributo da habilidade**.
+3. O total precisa **igualar ou superar o número-alvo do defensor** (ver [Defesa](../jogar/combate.md#defesa)). Por padrão isso é a **Evasão** — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual número testar em vez disso, mas a lógica de comparação é sempre a mesma.
 4. **Acertou** → aplica o efeito da Intensidade paga. **Não acertou** → nenhum efeito; o PA e o Mana foram gastos de todo jeito.
-5. **1 natural** sempre falha, independente do total.
-6. **20 natural** é **Crítico**: sempre acerta, soma o dano máximo do dado + mais uma rolagem normal do mesmo dado, e **sobe 1 Intensidade de graça** — aplica o efeito da Intensidade acima da que foi paga, sem pagar a diferença. Usado já em Intensidade III (ou numa habilidade de Custo fixo), o Crítico entrega o bônus de dano — mais o efeito extra de Crítico que a própria ficha declarar, se houver.
+5. **Crítico**: se o d100 puro (o número antes de somar o Atributo) for igual ou menor que o [limiar de Crítico](../jogar/testes.md#criticos) (Sorte ÷ 3, arredondado), o teste é sucesso automático e **Crítico** — soma o dano máximo do dado + mais uma rolagem normal do mesmo dado, e **sobe 1 Intensidade de graça** — aplica o efeito da Intensidade acima da que foi paga, sem pagar a diferença. Usado já em Intensidade III (ou numa habilidade de Custo fixo), o Crítico entrega o bônus de dano — mais o efeito extra de Crítico que a própria ficha declarar, se houver.
 
-!!! regra "Vários alvos, uma rolagem"
-    Habilidade que atinge mais de uma criatura rola **um único d20**, comparado à Defesa de **cada** alvo individualmente — pode acertar uns e errar outros. Um 20 natural é Crítico contra todos os que acertou; um 1 natural erra todos.
+!!! regra "Cada golpe, seu próprio teste"
+    Quando uma habilidade atinge mais de uma criatura, ou golpeia o mesmo alvo mais de uma vez, cada golpe é o seu **próprio teste de ataque** — pode acertar uns e errar outros, e cada golpe crítica sozinho, pela regra normal de Sorte. Habilidades com alvos ou golpes demais pra isso fazer sentido na mesa (área grande, combo com muitos hits) já usam [Custo fixo](#habilidades-de-custo-fixo): uma rolagem só, porque a abrangência em si já é o efeito.
+
+!!! dica "Variante pra agilizar"
+    Se a mesa preferir menos rolagens, o Mestre pode declarar (ou os jogadores sugerirem) resolver com uma rolagem só pro grupo de golpes/alvos daquela habilidade, comparada ao número-alvo de cada um. É opção de ritmo, não o padrão do livro.
 
 !!! regra "Deslocamento do usuário vale em toda Intensidade"
     Quando uma habilidade desloca o usuário (salto, investida, recuo), essa cláusula vale em **todas** as Intensidades, mesmo que o texto das linhas II/III não a repita — o deslocamento é a identidade da técnica, não um efeito comprado.
 
-O d20 responde só "acertou ou não" — **quão forte** o golpe é já foi decidido no momento em que o jogador escolheu a Intensidade.
+O d100 responde só "acertou ou não" — **quão forte** o golpe é já foi decidido no momento em que o jogador escolheu a Intensidade.
 
-Habilidades sem teste de ataque (buffs, cura, efeitos automáticos como uma Habilidade Suprema inevitável) **não checam Defesa** — o efeito simplesmente acontece. Mas isso não as isenta de Intensidade: elas ainda escolhem quanto investir, e o que cresce é o tamanho do efeito (ver acima).
+Habilidades sem teste de ataque (buffs, cura, efeitos automáticos como uma Habilidade Suprema inevitável) **não checam número-alvo** — o efeito simplesmente acontece. Mas isso não as isenta de Intensidade: elas ainda escolhem quanto investir, e o que cresce é o tamanho do efeito (ver acima).

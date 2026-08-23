@@ -6,7 +6,7 @@ O que o grupo leva de uma sessão: nível, dinheiro, item e as coisas que não t
 
 **Ao fim de cada sessão jogada, todo personagem sobe um nível.** Não há experiência pra somar, nem contabilidade de encontros — o grupo jogou, o grupo evoluiu.
 
-O que se ganha em cada nível está na [tabela de progressão](../criacao/progressao.md): **nível ímpar dá uma Habilidade nova, nível par dá +1 ponto de Atributo**, e Vida e Mana crescem em todos.
+O que se ganha em cada nível está na [tabela de progressão](../criacao/progressao.md): **nível par dá +5 pontos de Atributo**, e **nível ímpar dá uma Habilidade nova até o 39 — depois, só a cada 10 níveis**; Vida e Mana crescem em todos.
 
 !!! mestre "O que isso significa de ritmo"
     Uma campanha do nível 1 ao 20 dura **20 sessões** — jogando semanalmente, uns cinco meses. É ritmo de campanha curta e densa: o grupo ganha uma habilidade nova a cada duas sessões e sente progresso toda vez que senta à mesa. Se você quiser uma crônica mais longa, o ajuste é direto: **1 nível a cada 2 sessões** dobra a campanha para 40, e a cada 3 leva a 60. A regra é a mesma, só muda o divisor.
@@ -65,8 +65,6 @@ A raridade decide **que tipo** de coisa o item faz — não só o quanto.
 | **Comum** | bônus numérico pequeno: +1 de dano, +1 de Defesa, +3 de Mana máximo | comprável (150–250 p), ou tesouro de Formidável |
 | **Raro** | concede **uma Habilidade** de graça, sem gastar escolha de nível | não se compra; tesouro de Lendário ou recompensa de arco |
 | **Lendário** | concede uma Habilidade **Suprema**, ou faz algo que nenhuma regra faz | um por campanha, e a história inteira gira em volta dele |
-
-Acima de tudo isso existe uma recompensa que não é item: tornar o personagem [**Tocado**](../criacao/tocado.md). Ela não se compra, não se acha num tesouro e não se perde — é consequência de algo que aconteceu em jogo, e muda o personagem para sempre. Guarde para o fecho de um arco.
 
 ### Por que Raro concede habilidade
 

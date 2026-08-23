@@ -178,8 +178,8 @@
       maior: "Maior", supremo: "Supremo"
     },
     atributos: {
-      forca: "Força", agilidade: "Agilidade", inteligencia: "Inteligência",
-      sabedoria: "Sabedoria", vontade: "Vontade"
+      ataque: "Ataque", defesa: "Defesa", agilidade: "Agilidade", magia: "Magia",
+      social: "Social", exploracao: "Exploração", sorte: "Sorte", sanidade: "Sanidade"
     },
     alvo: {
       unico: "Um alvo", area: "Área", "si-mesmo": "Você mesmo",

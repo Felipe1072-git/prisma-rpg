@@ -1,34 +1,56 @@
 # Os Oito Atributos
 
-Todo personagem e toda criatura do jogo é descrito pelos mesmos oito números. Eles entram em tudo: no d20 que você rola, na Defesa que o inimigo precisa superar, no tamanho do seu dado de Vida e no tanto de Mana que você carrega.
+Todo personagem e toda criatura do jogo é descrito pelos mesmos oito números, de **0 a
+100**. Eles entram em tudo: no d100 que você rola, na Evasão que o inimigo precisa superar,
+na Vida que você aguenta e no tanto de Mana que você carrega.
 
 | Atributo | Representa | Onde mais aparece |
 |---|---|---|
-| **Força** | Poder físico bruto — ataques marciais pesados, testes de força bruta | requisito de armas pesadas |
-| **Vitalidade** | Resistência física | define o [dado de Vida](dano-e-cura.md#vida) e quantas falhas você aguenta [Caído](dano-e-cura.md#chegando-a-0-de-vida) |
-| **Agilidade** | Reflexos e velocidade — ataques à distância e furtivos | [Defesa física](combate.md#defesa), [Movimento](combate.md#movimento) e [Iniciativa](combate.md#iniciativa) |
-| **Inteligência** | Raciocínio e poder arcano — ataques de magias arcanas | — |
-| **Sabedoria** | Percepção e intuição — [Suporte](../habilidades/suporte.md)/cura, percepção | testes de [viagem](exploracao.md#quem-faz-o-que-na-estrada) |
-| **Vontade** | Força de vontade e presença (o "Carisma" deste sistema) — testes sociais, resistir a controle mental | [Mana Máximo](mana.md#mana-maximo) e [Defesa mental](combate.md#defesa) |
-| **Sorte** | Acaso e fortuna | [Iniciativa](combate.md#iniciativa) e usos de [Rerolagem](testes.md#rerolagens) |
-| **Sanidade** | Estabilidade mental | [Estresse Máximo](estresse.md) e resistir a horror e pânico |
+| **Ataque** | Poder físico bruto e técnica com armas — corpo a corpo ou à distância | [Dano Físico](dano-e-cura.md) |
+| **Defesa** | Resistência física — encaixar, aguentar pancada | [Vida](dano-e-cura.md#vida) e Fortitude Física |
+| **Magia** | Poder mágico — controlar e canalizar Mana | [Mana Máximo](mana.md#mana-maximo), Fortitude Mágica e Dano Mágico |
+| **Agilidade** | Reflexos e velocidade — desviar de golpes, reagir rápido | [Evasão](combate.md#defesa), [Movimento](combate.md#movimento) e [Iniciativa](combate.md#iniciativa) |
+| **Sorte** | Acaso e fortuna — estar no lugar certo na hora certa | [Taxa de Crítico](testes.md#criticos), [Iniciativa](combate.md#iniciativa) e usos de [Rerolagem](testes.md#rerolagens) |
+| **Sanidade** | Estabilidade mental — resistir a horror e colapso psicológico | [Estresse Máximo](estresse.md) |
+| **Social** | Presença e habilidade de influenciar os outros (o "Carisma" deste sistema) — persuadir, enganar, intimidar, e resistir a tudo isso | testes sociais, nos dois sentidos |
+| **Exploração** | Atenção ao ambiente e competência de aventureiro — notar o escondido, rastrear, se orientar, sobreviver | testes de viagem, percepção |
 
-Atributos podem assumir valores **negativos** — por penalidades, dano ou debuffs. Um -2 em Agilidade rebaixa a Defesa e o Movimento do mesmo jeito que um +2 os aumentaria.
+Atributos podem assumir valores **negativos** — por penalidades, dano ou debuffs. Um -10 em
+Agilidade rebaixa a Evasão e o Movimento do mesmo jeito que um +10 os aumentaria.
 
 ## A faixa de valores
 
-**Na criação, cada atributo começa entre -2 e +3** (ver [Distribuição na Criação](../criacao/index.md#1-atributos)).
+**Na criação, todo atributo começa em 5**, e o jogador distribui **15 pontos livres** entre
+os oito como quiser (ver [Distribuição na Criação](../criacao/index.md#1-atributos)).
 
-A partir daí, cada nível par dá **+1 ponto** a distribuir livremente (ver [Progressão](../criacao/progressao.md)), e traços de [Raça](../racas/index.md) e [Origem](../origens/index.md) podem somar por cima. Um atributo focado durante toda a carreira chega a aproximadamente **+13** no nível 20.
+A partir do **nível 2**, a cada nível par o personagem ganha **5 pontos** pra distribuir
+livremente (ver [Progressão](../criacao/progressao.md)) — 250 pontos ao longo dos 100
+níveis. Um atributo focado a carreira inteira chega ao teto de **100** bem antes do fim de
+jogo; um atributo dividido com outro ("misto") chega perto do teto só no fim; um atributo
+disperso entre vários nunca chega lá.
 
-Isso quer dizer que o d20 continua importando o jogo inteiro: mesmo com +13, o dado responde por 20 pontos de variação. Nenhum atributo cresce o bastante pra tornar a rolagem decorativa.
+Contra a maioria das Dificuldades, um atributo bem investido deixa a rolagem quase
+automática — é a recompensa de ter focado ali. Mas as duas Dificuldades mais altas da
+[Tabela de Dificuldades](../mestre/testes.md#a-tabela) (125 e 150) continuam exigindo
+desafio real mesmo pro personagem mais especializado do jogo: nem um 100 natural sozinho
+alcança, sem atributo investido.
 
 ## Qual atributo a minha habilidade usa
 
-Cada habilidade declara o atributo dela na própria ficha, no campo **Atributo** — é o que você soma ao d20 quando ataca com ela. A [Listagem de Habilidades](../habilidades/index.md) filtra por esse campo: dá pra ver de uma vez tudo o que um personagem de Inteligência alta consegue usar bem.
+Cada habilidade declara o atributo dela na própria ficha, no campo **Atributo** — é o que
+você soma ao d100 quando ativa ela. A [Listagem de Habilidades](../habilidades/index.md)
+filtra por esse campo: dá pra ver de uma vez tudo o que um personagem de Magia alta
+consegue usar bem.
 
-Como não há classes, **nada impede um personagem de aprender uma habilidade cujo atributo ele não tem**. Ele só vai acertar menos. Essa é toda a "restrição de classe" que o sistema tem.
+Como não há classes, **nada impede um personagem de aprender uma habilidade cujo atributo
+ele não tem**. Ele só vai acertar menos — e, se o atributo estiver muito abaixo do
+recomendado pra Escala daquela habilidade, rola com [Desvantagem](testes.md#vantagem-e-desvantagem)
+(ver [Requisito suave de Atributo](mana.md#requisito-suave-de-atributo)). Essa é toda a
+"restrição de classe" que o sistema tem.
 
 ## Do lado do Mestre
 
-Criaturas usam os mesmos oito atributos, mas a ficha delas é mais enxuta — só o que entra em rolagem. Ver [Bestiário](../mestre/criando-criaturas.md#como-ler-uma-ficha-de-criatura).
+Criaturas usam os mesmos oito atributos, mas a ficha delas é mais enxuta — só o que entra
+em rolagem — e os valores são **escritos à mão**, não calculados por uma fórmula de
+progressão: o Tier dela (Comum/Treinado/Formidável/Lendário) é só uma referência de faixa
+esperada, não uma obrigação. Ver [Bestiário](../mestre/criando-criaturas.md#como-ler-uma-ficha-de-criatura).

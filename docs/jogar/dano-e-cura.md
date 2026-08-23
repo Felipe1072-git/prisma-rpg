@@ -4,41 +4,24 @@ Quanto você aguenta, o que te machuca mais, como você se recupera — e o que 
 
 ## Vida
 
-**Vida = 10 (base, nível 1) + soma dos dados de vida rolados a cada nível.**
+**Vida Máxima = 20 (base) + Nível + (Defesa × 2) + Vida de equipamento**
 
-O tamanho do dado rolado em cada nível depende da Vitalidade do personagem *naquele momento*:
+Exemplo: nível 0, Defesa 5 (baseline de criação) → 20 + 0 + 10 = 30. Nível 100, Defesa 85 (foco pesado) → 20 + 100 + 170 = 290.
 
-| Vitalidade | Dado de Vida |
-|---|---|
-| 0–1 | d4 |
-| 2–3 | d6 |
-| 4–5 | d8 |
-| 6–7 | d10 |
-| 8+ | d12 |
+O termo de equipamento é 0 pra quase tudo — hoje só as [Armaduras](../equipamento/regras.md#armaduras) somam algo, de +10 (leve) a +75 (Placa de Torneio). É a mesma forma do [Mana Máximo](mana.md#mana-maximo) (só trocando Magia por Defesa e Mana de equipamento por Vida de equipamento) — de propósito: armadura ajuda a **aguentar mais pancada**, não a desviar dela, então soma aqui e não na Evasão (quem cuida da Evasão agora é o [Escudo](../equipamento/regras.md#escudos)).
 
-Vida é cumulativa: o dado de cada nível fica "congelado" no total quando rolado — não há recálculo retroativo se a Vitalidade mudar depois.
+Vida é recalculada a cada vez que Defesa muda (subir de nível, um buff, um debuff) — não é cumulativa como no sistema antigo, é sempre "o número de agora".
 
-## Dados de Vida
+## Recuperação
 
-Além de definirem a Vida máxima, os dados de Vida são o **recurso de recuperação** do personagem — é com eles que se cura fora de combate.
+- **Descanso curto** (~1h): recupera **metade** da Vida máxima
+- **Descanso longo** (noite): recupera **toda** a Vida
 
-**O personagem tem um Dado de Vida por nível**, no tamanho atual da tabela acima. Um personagem de nível 6 com Vitalidade +4 tem **6d8** disponíveis.
-
-Ao [descansar](exploracao.md#descanso), o jogador escolhe quantos gastar e rola cada um, recuperando **o resultado rolado** em Vida. Não se soma Vitalidade — pela mesma razão que a Vida máxima também não soma: ela já está embutida no *tamanho* do dado, e somar de novo faria a cura passar da Vida total nos níveis altos.
-
-| | Quantos pode gastar | Quantos voltam ao pool |
-|---|---|---|
-| **Descanso curto** (~1h) | até **metade do nível** (mínimo 1) | nenhum |
-| **Descanso longo** (noite) | **todos** os que ainda tiver | **metade do nível** (mínimo 1), ao fim do descanso |
-
-Os dados gastos **não voltam sozinhos**: só o descanso longo devolve, e devolve metade. Isso significa que uma sequência de dias difíceis vai esvaziando o poço — e a decisão de quantos dados queimar agora, sabendo que a noite só devolve parte, é o principal recurso de longo prazo do personagem.
-
-!!! exemplo "Na prática"
-    Gastar o limite do descanso curto devolve cerca de **45% da Vida máxima**, e esvaziar o poço num descanso longo devolve perto de **90%**. Um dia de aventura consome mais ou menos o que a noite repõe, então o poço se sustenta em ritmo normal — e só afunda quando o grupo encara vários dias duros seguidos sem voltar pra base.
+Mesma lógica do [Mana](mana.md#recuperacao) — sem dados de vida pra gastar ou controlar, só a fração recuperada por tipo de descanso.
 
 ## Cura por Habilidade
 
-Cura por Habilidade (ver [Suporte](../habilidades/suporte.md)) **não** gasta Dados de Vida — é justamente por isso que ter um curandeiro no grupo importa: ele cura sem consumir o poço de ninguém.
+Cura por Habilidade (ver [Suporte](../habilidades/suporte.md)) funciona a qualquer momento, não só em descanso — é justamente por isso que ter um curandeiro no grupo importa: ele estica o dia sem precisar parar.
 
 Como toda habilidade, cura tem [Intensidade](../habilidades/regras.md#intensidade): não há teste de acerto, mas o tamanho do efeito escala com o quanto você paga.
 
@@ -57,6 +40,12 @@ Habilidades de **[Mágicas por Elemento](../habilidades/magicas-elementais.md)**
 
 **Dano Desarmado** é sempre Impacto, salvo quando um traço racial disser outra coisa (garras naturais cortam).
 
+## Dado de Dano
+
+O dano de uma habilidade de arma é o **dado da própria arma**, que escala com a Intensidade: a Intensidade I usa o dado da [Tabela de Dados de Dano](../equipamento/regras.md#tabela-de-dados-de-dano) sem alteração (de 1d4 a 1d12, dependendo do peso da arma); a Intensidade II sobe um degrau (d4→d6, d6→d8, d8→d10, d10→d12, d12→d20); a Intensidade III dobra o dado já escalado da II. Habilidades gerais têm o próprio dado, escrito na ficha.
+
+Pra estimar dano de qualquer combinação de dados, ou improvisar um número na mesa, ver a [Tabela de referência de dano médio](../mestre/testes.md#calibracao-de-dano) e a [Tabela de Dano Improvisado](estresse.md#tabelas-de-referencia-rapida).
+
 ## Resistência, Imunidade e Vulnerabilidade
 
 Aplicadas a um tipo de dano — físico ou elemental — sempre **depois** de qualquer outro cálculo, incluindo Crítico:
@@ -73,25 +62,16 @@ Vulnerabilidade é a ferramenta que transforma conhecimento em vantagem: descobr
 
 ## Chegando a 0 de Vida
 
-Zero não é morte. O personagem fica **Caído**: inconsciente, sem agir, sem rolar nada — e morrendo devagar.
+Zero não é morte. O personagem fica **Caído**: inconsciente, sem agir, sem rolar nada — e com **uma única chance** de não morrer.
 
-**No início de cada turno dele, role d20 contra DC 10.** Falhando, ele piora. O tanto que ele aguenta piorar antes de morrer é a **Vitalidade** dele (mínimo 1):
+**No início do próximo turno dele, role d100 contra Dificuldade 50.** A Dificuldade não soma nenhum Atributo — o dado mede só a sorte do momento, igual pra todos. **Sucesso: fica Estável. Falha: morre.**
 
-| Vitalidade | Falhas até morrer | Quanto tempo aguenta, em média |
-|---|---|---|
-| 0 ou menos | 1 | ~2 turnos |
-| +2 | 2 | ~4 turnos |
-| +4 | 4 | ~9 turnos |
-| +8 | 8 | ~18 turnos |
+Diferente do sistema antigo, não existe mais uma sequência de falhas até morrer — com a Vida na escala atual, um personagem aguenta muitos golpes antes de cair; quando cai, o risco precisa ser real na hora.
 
-A Vitalidade **não** entra na rolagem — ela já está representada em quantas falhas o corpo suporta. O dado mede só a sorte do momento, e é igual pra todos.
+**Como sair de Caído antes da rolagem:**
 
-**Como sair de Caído:**
-
-- **Estabilizar** — um aliado adjacente gasta uma **Ação Básica** (◈). O personagem para de rolar e fica **Estável**: segue inconsciente, mas fora de risco. Acorda ao fim da cena com 1 de Vida. (As origens *Curandeiro de Vila* e *Salvou uma Vida* fazem isso como Reação e sem custo — ver [Origem](../origens/index.md).)
+- **Estabilizar** — um aliado adjacente gasta uma **Ação Básica (◈)** e faz um **teste de Exploração contra Dificuldade 50**. Sucesso: o personagem fica **Estável** direto, sem precisar rolar contra a morte — acorda ao fim da cena com 1 de Vida. Falha: a tentativa não funcionou, mas não piora nada; pode tentar de novo se ainda houver tempo. (As origens *Curandeiro de Vila* e *Salvou uma Vida* fazem isso como Reação e sem custo — ver [Origem](../origens/index.md).)
 - **Cura** — qualquer efeito que devolva Vida traz o personagem de volta com aquela Vida, e ele age normalmente no próximo turno.
-
-Sofrer dano enquanto Caído conta como **uma falha imediata**, além da rolagem do turno.
 
 Isso vale só pros personagens jogadores: uma **criatura a 0 de Vida morre** (ver [Bestiário](../mestre/criando-criaturas.md#criatura-a-0-de-vida-morre)).
 
@@ -102,12 +82,12 @@ Um personagem Caído pode escolher **não resistir**. Em vez de rolar contra a m
 Declarado no início de um turno dele enquanto estiver Caído, o Último Turno funciona assim:
 
 - Ele **se levanta e joga um turno completo**: 3 PA, Mana, habilidades, tudo. Ainda rola pra acertar normalmente.
-- **Todo sucesso é tratado como Crítico** — dano máximo, rolagem extra e [sobe 1 Intensidade de graça](../habilidades/regras.md#resolucao), mesmo sem tirar 20.
-- **Toda falha é tratada como falha crítica** — não há acerto raspado; o que dá errado, dá errado por completo.
+- **Todo sucesso é tratado como Crítico** — dano máximo, rolagem extra e [sobe 1 Intensidade de graça](../habilidades/regras.md#resolucao), mesmo sem cair dentro do limiar de Sorte.
+- **Falha aqui não tem meio-termo** — não há acerto raspado; o que dá errado, dá errado por completo.
 - **Nenhuma cura funciona nele** durante o Último Turno. Não há como voltar atrás depois de declarar.
 - **Ao fim do turno, o personagem morre.** Sem rolagem, sem resistência, sem chance. Foi o preço.
 
-É a única escolha do sistema em que o jogador **troca a chance de sobreviver por certeza de impacto**. Um personagem que ia morrer de qualquer jeito em duas rodadas, sem agir, pode em vez disso derrubar o chefe com um golpe garantido como crítico — e sair de cena tendo decidido como.
+É a única escolha do sistema em que o jogador **troca a chance de sobreviver por certeza de impacto**. Um personagem que ia morrer de qualquer jeito, sem agir, pode em vez disso derrubar o chefe com um golpe garantido como crítico — e sair de cena tendo decidido como.
 
 !!! mestre "Cabe ao Mestre dar espaço pra isso"
     Se um jogador declara o Último Turno, a mesa para e escuta: é o momento daquele personagem, e ele não vai ter outro.

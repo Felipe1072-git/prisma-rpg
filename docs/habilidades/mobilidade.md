@@ -11,36 +11,36 @@ Voo, deslocamento.
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
 - **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 2 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 2 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
-- **Intensidade II — 0 PA + 5 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 3 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
-- **Intensidade III — 0 PA + 8 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 4 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
+- **Intensidade I — 0 PA + 6 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 2 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
+- **Intensidade II — 0 PA + 15 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 3 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
+- **Intensidade III — 0 PA + 24 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 4 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
 
 **Passo Sombrio**
 
 *Um passo pra trás dissolve o corpo numa sombra, deixando um eco no lugar de origem.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Atributo:** Inteligência | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até 3 casas para trás, ignorando Terreno Difícil nesse movimento. Até o início do próximo turno do usuário, o primeiro ataque corpo a corpo contra ele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado).
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o usuário se desloca até 4 casas para trás, ignorando Terreno Difícil nesse movimento. Até o início do próximo turno do usuário, o primeiro ataque corpo a corpo contra ele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado).
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o usuário se desloca até 5 casas para trás, ignorando Terreno Difícil nesse movimento. Até o início do próximo turno do usuário, o primeiro ataque corpo a corpo contra ele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado).
+- **Atributo:** Magia | **Alvos:** o próprio usuário
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** o usuário se desloca até 3 casas para trás, ignorando Terreno Difícil nesse movimento. Até o início do próximo turno do usuário, o primeiro ataque corpo a corpo contra ele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado).
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** o usuário se desloca até 4 casas para trás, ignorando Terreno Difícil nesse movimento. Até o início do próximo turno do usuário, o primeiro ataque corpo a corpo contra ele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado).
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o usuário se desloca até 5 casas para trás, ignorando Terreno Difícil nesse movimento. Até o início do próximo turno do usuário, o primeiro ataque corpo a corpo contra ele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado).
 
 **Impulso**
 
 *Uma explosão nos pés impulsiona um deslocamento rápido, atravessando qualquer coisa no caminho.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Atributo:** Força | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até 4 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
-- **Intensidade II — ◈◈ (2 PA) + 6 Mana:** o usuário se desloca até 5 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
-- **Intensidade III — ◈◈◈ (3 PA) + 9 Mana:** o usuário se desloca até 6 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
+- **Atributo:** Ataque | **Alvos:** o próprio usuário
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** o usuário se desloca até 4 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** o usuário se desloca até 5 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o usuário se desloca até 6 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
 
 **Postura da Sombra** *(usada como Reação)*
 
 *Um tronco surge no lugar do corpo — o verdadeiro golpe já está vindo por trás do inimigo.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Custo fixo:** 0 PA + 7 Mana (dedicada a Reação) | **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Custo fixo:** 0 PA + 21 Mana (dedicada a Reação) | **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - **Efeito:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra evitar completamente o dano daquele ataque, e se teleportar pra uma casa adjacente ao atacante.
 - *(Sem Intensidade — habilidade de mobilidade, sem teste de ataque)*
 
@@ -50,22 +50,22 @@ Voo, deslocamento.
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
 - **Requisito:** usuário precisa ter a [Soqueira Pesada](../equipamento/index.md#equ-soqueira-pesada) equipada
-- **Atributo:** Força | **Alvos:** o próprio usuário
+- **Atributo:** Ataque | **Alvos:** o próprio usuário
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 3 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 3 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
-- **Intensidade II — 0 PA + 6 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 4 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
-- **Intensidade III — 0 PA + 9 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 5 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
+- **Intensidade I — 0 PA + 9 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 3 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
+- **Intensidade II — 0 PA + 18 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 4 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
+- **Intensidade III — 0 PA + 27 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 5 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
 
 **Montaria de Guerra**
 
 *Um corcel treinado pra batalha responde a cada comando — juntos, cavaleiro e montaria avançam como um só.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Atributo:** Força ou Agilidade | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +4 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +1d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +5 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +2d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +6 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +3d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
-- **O corcel:** dura até o fim da cena. O corcel tem 15 de Vida e Defesa 10 e é um alvo válido; se ele cair, o usuário é derrubado no chão ([Derrubado](../glossario.md#derrubado)).
+- **Atributo:** Ataque | **Alvos:** o próprio usuário
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +4 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +1d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +5 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +2d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +6 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +3d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
+- **O corcel:** dura até o fim da cena. O corcel tem 15 de Vida e Evasão 10 e é um alvo válido; se ele cair, o usuário é derrubado no chão ([Derrubado](../glossario.md#derrubado)).
 
 **Voo Repentino**
 
@@ -73,9 +73,9 @@ Voo, deslocamento.
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
 - **Atributo:** Agilidade | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 5 Mana:** por 2 rodadas, o usuário ganha [Voo](../jogar/combate.md#voo) com velocidade igual ao próprio Movimento.
-- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, por 4 rodadas.
-- **Intensidade III — ◈◈◈ (3 PA) + 16 Mana:** o mesmo, mas dura até o fim da [cena](../glossario.md#cena) — ou até o usuário encerrar antes, como ação livre.
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 2 rodadas, o usuário ganha [Voo](../jogar/combate.md#voo) com velocidade igual ao próprio Movimento.
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** o mesmo, por 4 rodadas.
+- **Intensidade III — ◈◈◈ (3 PA) + 48 Mana:** o mesmo, mas dura até o fim da [cena](../glossario.md#cena) — ou até o usuário encerrar antes, como ação livre.
 
 **Abertura Ensaiada** *(usada como Reação)*
 
@@ -84,9 +84,9 @@ Voo, deslocamento.
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
 - **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** o próprio usuário, e 1 aliado a até 6 casas
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 4 Mana:** quando uma criatura hostil terminar o próprio turno adjacente ao usuário, ele pode usar esta habilidade como Reação pra se deslocar até metade do Movimento, sem provocar Ataque de Oportunidade. O aliado escolhido pode então usar a própria Reação pra fazer o mesmo.
-- **Intensidade II — 0 PA + 7 Mana:** o mesmo, deslocando até o Movimento cheio.
-- **Intensidade III — 0 PA + 10 Mana:** o mesmo, e tanto o usuário quanto o aliado ganham +2 de Defesa até o início do próprio próximo turno.
+- **Intensidade I — 0 PA + 12 Mana:** quando uma criatura hostil terminar o próprio turno adjacente ao usuário, ele pode usar esta habilidade como Reação pra se deslocar até metade do Movimento, sem provocar Ataque de Oportunidade. O aliado escolhido pode então usar a própria Reação pra fazer o mesmo.
+- **Intensidade II — 0 PA + 21 Mana:** o mesmo, deslocando até o Movimento cheio.
+- **Intensidade III — 0 PA + 30 Mana:** o mesmo, e tanto o usuário quanto o aliado ganham +2 de Evasão até o início do próprio próximo turno.
 
 **Passo Lunar**
 
@@ -94,19 +94,19 @@ Voo, deslocamento.
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
 - **Atributo:** Agilidade | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** o usuário se teleporta até 3 casas pra um espaço desocupado que possa ver, e o próximo teste de ataque que fizer antes do fim do próprio turno rola com [Vantagem](../glossario.md#vantagem).
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, teleportando até 5 casas.
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, teleportando até 7 casas, e esse ataque causa +1d6 de dano extra se acertar.
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** o usuário se teleporta até 3 casas pra um espaço desocupado que possa ver, e o próximo teste de ataque que fizer antes do fim do próprio turno rola com [Vantagem](../glossario.md#vantagem).
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, teleportando até 5 casas.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, teleportando até 7 casas, e esse ataque causa +1d6 de dano extra se acertar.
 
 **Passagem Trocada**
 
 *Um piscar de olhos, e os dois corpos já não estão onde estavam.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Atributo:** Inteligência | **Alvos:** o próprio usuário, e opcionalmente 1 aliado disposto
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** o usuário se teleporta até 4 casas pra um espaço desocupado que possa ver. Como alternativa, pode trocar de lugar com um aliado disposto a até 4 casas.
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, até 6 casas.
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, até 8 casas, e nenhuma das opções provoca Ataque de Oportunidade.
+- **Atributo:** Magia | **Alvos:** o próprio usuário, e opcionalmente 1 aliado disposto
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** o usuário se teleporta até 4 casas pra um espaço desocupado que possa ver. Como alternativa, pode trocar de lugar com um aliado disposto a até 4 casas.
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, até 6 casas.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, até 8 casas, e nenhuma das opções provoca Ataque de Oportunidade.
 
 **Salto ao Sangue** *(usada como Reação)*
 
@@ -115,36 +115,36 @@ Voo, deslocamento.
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
 - **Atributo:** Agilidade | **Alcance:** 8 casas | **Alvos:** 1 criatura hostil
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 5 Mana:** quando uma criatura hostil a até 8 casas ficar com menos da metade da própria Vida máxima, o usuário pode usar esta habilidade como Reação pra se teleportar pra uma casa adjacente a ela, e fazer um Ataque Básico contra ela imediatamente.
-- **Intensidade II — 0 PA + 8 Mana:** o mesmo, e esse ataque causa +1d6 de dano extra.
-- **Intensidade III — 0 PA + 11 Mana:** o mesmo, e esse ataque causa +2d6 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
+- **Intensidade I — 0 PA + 15 Mana:** quando uma criatura hostil a até 8 casas ficar com menos da metade da própria Vida máxima, o usuário pode usar esta habilidade como Reação pra se teleportar pra uma casa adjacente a ela, e fazer um Ataque Básico contra ela imediatamente.
+- **Intensidade II — 0 PA + 24 Mana:** o mesmo, e esse ataque causa +1d6 de dano extra.
+- **Intensidade III — 0 PA + 33 Mana:** o mesmo, e esse ataque causa +2d6 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
 
 **Arremesso Guiado**
 
 *A lâmina voa primeiro — o corpo só decide seguir o mesmo caminho.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Atributo:** Agilidade | **Dano:** usa o dado de dano da arma leve arremessada, ou 1d6 | **Alcance:** 8 casas | **Alvos:** 1 criatura, ou 1 ponto vazio dentro do alcance
-- **Intensidade I — ◈ (1 PA) + 4 Mana:** o usuário arremessa uma arma leve até 8 casas. Se mirar numa criatura, rola teste de ataque contra a Defesa física dela: acertando, causa 1x dado de dano. De qualquer forma — acertando, errando, ou mirando um ponto vazio — o usuário se teleporta imediatamente pro local onde a arma caiu (ou pra casa livre mais próxima).
-- **Intensidade II — ◈◈ (2 PA) + 7 Mana:** o mesmo, até 10 casas.
-- **Intensidade III — ◈◈◈ (3 PA) + 10 Mana:** o mesmo, até 12 casas, e se acertar a criatura, ela fica [Marcada](../glossario.md#marcado).
-- **Crítico (20 natural, só ao mirar numa criatura):** dano máximo + 1x dado extra, e sobe 1 Intensidade
+- **Atributo:** Ataque | **Dano:** usa o dado de dano da arma leve arremessada, ou 1d6 | **Alcance:** 8 casas | **Alvos:** 1 criatura, ou 1 ponto vazio dentro do alcance
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** o usuário arremessa uma arma leve até 8 casas. Se mirar numa criatura, rola teste de ataque contra a Evasão dela: acertando, causa o dado de dano. De qualquer forma — acertando, errando, ou mirando um ponto vazio — o usuário se teleporta imediatamente pro local onde a arma caiu (ou pra casa livre mais próxima).
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, até 10 casas.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, até 12 casas, e se acertar a criatura, ela fica [Marcada](../glossario.md#marcado).
+- **Crítico (só ao mirar numa criatura):** dano máximo do dado + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Eco de Combate**
 
 *Uma imagem espectral toma posição antes do corpo decidir se vai mesmo até lá.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Atributo:** Inteligência | **Alcance:** 6 casas | **Alvos:** 1 ponto vazio dentro do alcance
-- **Intensidade I — ◈ (1 PA) + 5 Mana:** o usuário conjura um eco espectral de si mesmo num ponto vazio a até 6 casas. Até o fim do próprio próximo turno, o próximo ataque do usuário pode se originar da posição do eco em vez da própria (resolvendo alcance e adjacência a partir de lá). Depois disso, o eco se desfaz.
-- **Intensidade II — ◈◈ (2 PA) + 8 Mana:** o mesmo, e o usuário pode trocar de lugar com o eco (ação livre) a qualquer momento antes dele se desfazer.
-- **Intensidade III — ◈◈◈ (3 PA) + 11 Mana:** o mesmo, e o eco dura até o fim da [cena](../glossario.md#cena), ou até o usuário conjurar outro.
+- **Atributo:** Magia | **Alcance:** 6 casas | **Alvos:** 1 ponto vazio dentro do alcance
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** o usuário conjura um eco espectral de si mesmo num ponto vazio a até 6 casas. Até o fim do próprio próximo turno, o próximo ataque do usuário pode se originar da posição do eco em vez da própria (resolvendo alcance e adjacência a partir de lá). Depois disso, o eco se desfaz.
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** o mesmo, e o usuário pode trocar de lugar com o eco (ação livre) a qualquer momento antes dele se desfazer.
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** o mesmo, e o eco dura até o fim da [cena](../glossario.md#cena), ou até o usuário conjurar outro.
 
 **Portal Distante**
 
 *Uma fenda se abre no ar, e do outro lado está um lugar que já não é aqui.*
 
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16 Mana | **Atributo:** Inteligência | **Alvos:** o próprio usuário, e até 5 aliados dispostos a até 3 casas
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Alvos:** o próprio usuário, e até 5 aliados dispostos a até 3 casas
 - **Efeito:** o usuário abre um portal que teleporta ele e os aliados escolhidos pra qualquer lugar que já tenha visitado antes (ou que descreva com precisão suficiente, a critério do Mestre), não importa a distância. Só pode ser usada fora de combate, no máximo uma vez por descanso longo.
 - *(Sem Intensidade — efeito absoluto, Supremo)*

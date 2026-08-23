@@ -6,7 +6,7 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
     Cada raça concede:
 
-    - **Atributos** — um pool de 2 ou 3 atributos temáticos; o jogador escolhe entre eles e distribui os pontos indicados (nunca todos os atributos do pool ao mesmo tempo, quando o pool tem 3).
+    - **Atributos** — um total de pontos, livre pra distribuir como quiser entre os atributos temáticos da raça (pode concentrar tudo em um só, ou espalhar entre todos do pool).
     - **Traço(s) Racial(is)** — 1 a 3 traços únicos, dependendo da raça. Sem fórmula fixa entre número de traços e pontos de atributo — cada raça foi calibrada pela fantasia que representa, não por uma conta.
 
     Traços raciais não competem com o sistema de 10 Habilidades por nível (ver [Progressão de Nível](../criacao/progressao.md)) — são um extra fixo da raça, disponível desde a criação do personagem.
@@ -19,11 +19,11 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Físico:** nenhum — é o humano mesmo, sem marca.
 
-**Atributos:** +3 pontos (2+1), distribuídos entre quaisquer 2 dos 8 atributos à escolha.
+**Atributos:** +15 pontos, distribuídos entre quaisquer 8 atributos à escolha.
 
 **Traço Racial:**
 
-- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a DC, ou não superou a Defesa do alvo — inclusive um 1 natural) em um sucesso. Em teste de Habilidade, conta como acerto normal: aplica o efeito da Intensidade que foi paga. **Não** funciona em habilidades com [Tiers de Resultado](../habilidades/regras.md#habilidades-com-tiers-de-resultado) nem durante o [Último Turno](../jogar/dano-e-cura.md#o-ultimo-turno).
+- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a Dificuldade, ou não superou a Defesa do alvo) em um sucesso. Em teste de Habilidade, conta como acerto normal: aplica o efeito da Intensidade que foi paga. **Não** funciona em habilidades com [Tiers de Resultado](../habilidades/regras.md#habilidades-com-tiers-de-resultado) nem durante o [Último Turno](../jogar/dano-e-cura.md#o-ultimo-turno).
 
 ## Elfo
 
@@ -31,13 +31,13 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Físico:** orelhas longas e pontudas, com um leve brilho nos olhos.
 
-**Atributos:** +1 em 1 atributo à escolha dentre Agilidade, Sabedoria, Inteligência.
+**Atributos:** +5 pontos, distribuídos entre Agilidade, Exploração e Magia.
 
 **Traços Raciais:**
 
 - **Visão no Escuro** — enxerga normalmente mesmo no escuro total.
-- **Sentidos Aguçados** — vantagem em testes de percepção.
-- **Afinidade Arcana** — vantagem em testes de ataque de Habilidades que usem Inteligência ou Sabedoria (magia arcana ou divina).
+- **Sentidos Aguçados** — vantagem em testes de Exploração.
+- **Afinidade Arcana** — vantagem em testes de ataque de Habilidades que usem Magia.
 
 ## Anão
 
@@ -45,7 +45,7 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Físico:** estatura baixa e compacta, com proporções corporais bem diferentes de um humano.
 
-**Atributos:** escolha 2 dentre Força, Vitalidade, Vontade, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Ataque, Defesa e Social.
 
 **Traços Raciais:**
 
@@ -58,7 +58,7 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Físico:** chifres, cauda, pele em tom fora do espectro humano (cinza, roxo, vermelho), olhos com esclera escura.
 
-**Atributos:** escolha 2 dentre Vontade, Inteligência, Sanidade, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Social, Magia e Sanidade.
 
 **Traço Racial:**
 
@@ -70,12 +70,12 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Físico:** asas (de penas ou de luz) e uma auréola/brilho ao redor da cabeça, inescondível exceto por magia específica.
 
-**Atributos:** escolha 2 dentre Sabedoria, Vontade, Vitalidade, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Magia, Social e Defesa.
 
 **Traços Raciais:**
 
 - **Voo** — o Movimento pode ser usado voando em vez de andando, com ganho de altitude inclusive em combate.
-- **Luz Curativa** — 1x por descanso longo, cura 2d6 + Sabedoria de Vida em si mesmo ou um aliado a até 3 casas, e remove uma doença desse alvo.
+- **Luz Curativa** — 1x por descanso longo, cura 2d6 + Magia de Vida em si mesmo ou um aliado a até 3 casas, e remove uma doença desse alvo.
 
 ## Sangue-de-Dragão
 
@@ -83,7 +83,7 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Físico:** escamas visíveis na pele, chifres ou crista, pupilas em fenda.
 
-**Atributos:** escolha 2 dentre Força, Vitalidade, Inteligência, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Ataque, Defesa e Magia.
 
 **Traços Raciais:**
 
@@ -95,12 +95,12 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 *Uma rajada do elemento ancestral irrompe da garganta, varrendo tudo à frente num cone abrasador.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento)
-- **Atributo:** Força | **Alcance:** cone de 5 casas | **Alvos:** todas as criaturas na área
+- **Atributo:** Ataque | **Alcance:** cone de 5 casas | **Alvos:** todas as criaturas na área
 - **Efeito:** o dano é do elemento escolhido em Resistência Elemental, acima
-- **Intensidade I — ◈ (1 PA) + 2 Mana:** 2d6 de dano em cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 5 Mana:** 2d6 de dano + empurra 1 casa cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 8 Mana:** 2d6 de dano + derruba cada alvo
-- **Crítico (20 natural):** dano máximo (12) + 2d6 extra em todos, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano em cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d6 de dano + empurra 1 casa cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d6 de dano + derruba cada alvo
+- **Crítico:** dano máximo (12) + 2d6 extra em todos, e sobe 1 Intensidade
 
 ## Autômato
 
@@ -108,12 +108,12 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Físico:** corpo parcial ou totalmente mecânico/artificial.
 
-**Atributos:** escolha 2 dentre Inteligência, Vitalidade, Agilidade, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Magia, Defesa e Agilidade.
 
 **Traços Raciais:**
 
 - **Corpo Artificial** — imune a venenos e doenças; não precisa respirar.
-- **Blindagem Natural** — o corpo mecânico conta como +1 de Couraça Natural na fórmula de [Defesa](../jogar/combate.md#defesa).
+- **Blindagem Natural** — o corpo mecânico conta como +10 de Couraça Natural na fórmula de [Defesa](../jogar/combate.md#defesa) (equivalente a Couraça Escamada).
 
 ## Feérico
 
@@ -121,7 +121,7 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Físico:** estatura pequena (metade de um humano) e asas de inseto/borboleta sempre visíveis.
 
-**Atributos:** escolha 2 dentre Sorte, Agilidade, Vontade, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Sorte, Agilidade e Social.
 
 **Traço Racial:**
 
@@ -133,7 +133,7 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Físico:** pele verde ou acinzentada, presas salientes, estrutura óssea robusta.
 
-**Atributos:** escolha 2 dentre Força, Vitalidade, Vontade, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Ataque, Defesa e Social.
 
 **Traço Racial:**
 
@@ -149,7 +149,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 
 **Traço Físico:** juba, orelhas felinas, garras retráteis, cauda.
 
-**Atributos:** escolha 2 dentre Força, Vontade, Sabedoria, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Ataque, Social e Exploração.
 
 **Traços Raciais:**
 
@@ -162,7 +162,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 
 **Traço Físico:** pelagem listrada, orelhas felinas, garras, cauda.
 
-**Atributos:** escolha 2 dentre Força, Agilidade, Sabedoria, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Ataque, Agilidade e Exploração.
 
 **Traços Raciais:**
 
@@ -175,7 +175,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 
 **Traço Físico:** pelagem, orelhas de lobo, focinho alongado com presas, cauda.
 
-**Atributos:** escolha 2 dentre Força, Agilidade, Vontade, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Ataque, Agilidade e Social.
 
 **Traços Raciais:**
 
@@ -188,7 +188,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 
 **Traço Físico:** chifres, cascos, pupilas retangulares, rabo curto.
 
-**Atributos:** escolha 2 dentre Força, Vitalidade, Vontade, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Ataque, Defesa e Social.
 
 **Traços Raciais:**
 
@@ -201,7 +201,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 
 **Traço Físico:** pelagem espessa, orelhas de urso, garras, porte robusto.
 
-**Atributos:** escolha 2 dentre Força, Vitalidade, Sanidade, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Ataque, Defesa e Sanidade.
 
 **Traços Raciais:**
 
@@ -214,7 +214,7 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 
 **Traço Físico:** orelhas de raposa, cauda peluda, feições afiadas.
 
-**Atributos:** escolha 2 dentre Agilidade, Inteligência, Sorte, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Agilidade, Magia e Sorte.
 
 **Traço Racial:**
 
@@ -226,12 +226,12 @@ Uma segunda leva de raças, cada uma com identidade de um animal específico —
 
 **Traço Físico:** penas, asas, feições de bico, pés com garras.
 
-**Atributos:** escolha 2 dentre Agilidade, Inteligência, Sabedoria, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Agilidade, Magia e Exploração.
 
 **Traços Raciais:**
 
 - **Voo** — o Movimento pode ser usado voando em vez de andando, com ganho de altitude inclusive em combate.
-- **Visão de Corvo** — vantagem em testes de percepção a longa distância.
+- **Visão de Corvo** — vantagem em testes de Exploração a longa distância.
 
 ## Raças de Peixe/Água
 
@@ -239,7 +239,7 @@ Uma terceira leva de raças, com identidade aquática — cada uma com seu próp
 
 Todas as raças desta leva têm, além dos traços listados individualmente, o traço de exceção abaixo — não conta contra os pontos de atributo da raça:
 
-- **Respiração Aquática** — nada e respira debaixo d'água livremente, sem nenhuma penalidade (ver [Água](../jogar/exploracao.md#agua)). Em compensação, um descanso longo só concede seus benefícios se for feito na água ou parcialmente submerso — fora d'água, um descanso longo conta como **descanso curto** pra todos os efeitos (Mana, Dados de Vida, Estresse, Exaustão, usos "1x por descanso longo"). Descanso curto funciona normalmente em qualquer lugar.
+- **Respiração Aquática** — nada e respira debaixo d'água livremente, sem nenhuma penalidade (ver [Água](../jogar/exploracao.md#agua)). Em compensação, um descanso longo só concede seus benefícios se for feito na água ou parcialmente submerso — fora d'água, um descanso longo conta como **descanso curto** pra todos os efeitos (Mana, Vida, Estresse, Exaustão, usos "1x por descanso longo"). Descanso curto funciona normalmente em qualquer lugar.
 
 ## Tubarão
 
@@ -247,7 +247,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Físico:** pele áspera como lixa, fileiras de dentes serrilhados, nadadeira dorsal.
 
-**Atributos:** escolha 2 dentre Força, Agilidade, Sanidade, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Ataque, Agilidade e Sanidade.
 
 **Traço Racial:**
 
@@ -259,11 +259,11 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Físico:** casco nas costas, pele coriácea, bico córneo no lugar da boca.
 
-**Atributos:** escolha 2 dentre Vitalidade, Sabedoria, Vontade, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Defesa, Exploração e Social.
 
 **Traços Raciais:**
 
-- **Casco Protetor** — conta como +2 de Couraça Natural na fórmula de [Defesa](../jogar/combate.md#defesa).
+- **Casco Protetor** — conta como +10 de Couraça Natural na fórmula de [Defesa](../jogar/combate.md#defesa) (equivalente a Couraça Escamada).
 - **Recolher no Casco** *(usada como Reação)* — 1x por cena, quando for alvo de um ataque, pode se recolher no casco pra anular completamente aquele ataque — dano **e** efeitos.
 
 ## Polvo
@@ -272,7 +272,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Físico:** pele que muda de cor, tentáculos no lugar dos braços, sem ossos visíveis nos membros.
 
-**Atributos:** escolha 2 dentre Inteligência, Agilidade, Vontade, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Magia, Agilidade e Social.
 
 **Traços Raciais:**
 
@@ -285,7 +285,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Físico:** cauda de peixe no lugar das pernas, escamas iridescentes, guelras no pescoço.
 
-**Atributos:** escolha 2 dentre Agilidade, Vontade, Sabedoria, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Agilidade, Social e Exploração.
 
 **Traço Racial:**
 
@@ -297,11 +297,11 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Físico:** pele lisa e acinzentada, focinho alongado, "sorriso" permanente característico.
 
-**Atributos:** escolha 2 dentre Agilidade, Inteligência, Sabedoria, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Agilidade, Magia e Exploração.
 
 **Traço Racial:**
 
-- **Ecolocalização** — vantagem em testes de percepção mesmo sem visão (escuro, água turva, contra invisibilidade). Na água, ganha +4 de Movimento.
+- **Ecolocalização** — vantagem em testes de Exploração mesmo sem visão (escuro, água turva, contra invisibilidade). Na água, ganha +4 de Movimento.
 
 ## Enguia
 
@@ -309,7 +309,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Físico:** pele viscosa, corpo serpenteante, pequenas fendas branquiais no pescoço.
 
-**Atributos:** escolha 2 dentre Agilidade, Vontade, Inteligência, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Agilidade, Social e Magia.
 
 **Traço Racial:**
 
@@ -320,12 +320,12 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 *Uma descarga elétrica salta do corpo da enguia, buscando o próximo alvo condutor antes mesmo de terminar o primeiro golpe.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Atributo:** Agilidade | **Alvos:** 1 criatura, com possibilidade de encadear
+- **Atributo:** Ataque | **Alvos:** 1 criatura, com possibilidade de encadear
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 1 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Intensidade II — ◈◈ (2 PA) + 3 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento); a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Lentas também
-- **Intensidade III — ◈◈◈ (3 PA) + 6 Mana:** dano desarmado + a descarga salta pra até 2 outras criaturas adjacentes (mesmo dano, todas Lentas); o **alvo original** fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico (20 natural):** dano desarmado máximo + dano desarmado extra, e sobe 1 Intensidade
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + alvo fica [Lento](../glossario.md#lento); a descarga salta pra até 2 outras criaturas adjacentes ao alvo original, causando a mesma quantidade de dano a cada uma e deixando todas Lentas também
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + a descarga salta pra até 2 outras criaturas adjacentes (mesmo dano, todas Lentas); o **alvo original** fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Crítico:** dano desarmado máximo + dano desarmado extra, e sobe 1 Intensidade
 
 ## Caranguejo
 
@@ -333,7 +333,7 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Físico:** exoesqueleto, uma garra grande no lugar de uma mão, olhos em pedúnculos.
 
-**Atributos:** escolha 2 dentre Força, Vitalidade, Vontade, e distribua +2/+1 entre eles.
+**Atributos:** +15 pontos, distribuídos entre Ataque, Defesa e Social.
 
 **Traço Racial:**
 
@@ -345,12 +345,12 @@ Todas as raças desta leva têm, além dos traços listados individualmente, o t
 
 **Traço Físico:** pele anfíbia, mãos e pés palmados, boca larga, olhos saltados.
 
-**Atributos:** escolha 2 dentre Agilidade, Vitalidade, Sabedoria, e distribua +1/+1 entre eles.
+**Atributos:** +10 pontos, distribuídos entre Agilidade, Defesa e Exploração.
 
 **Traços Raciais:**
 
 - **Salto Potente** — o Movimento pode ser usado em saltos verticais e horizontais, ignorando a restrição normal de terreno.
-- **Língua Presa** — custa 3 Mana | ◈ (1 PA); rola d20 + Força contra a Defesa física do alvo — acertando, puxa uma criatura a até 3 casas de distância pra 1 casa adjacente ao usuário.
+- **Língua Presa** — custa 3 Mana | ◈ (1 PA); rola d100 + Ataque contra a Defesa física do alvo — acertando, puxa uma criatura a até 3 casas de distância pra 1 casa adjacente ao usuário.
 
 ## Raças Exóticas
 
@@ -362,8 +362,8 @@ Uma quarta leva de raças, sem parentesco entre si — cada uma nasce de uma cir
 
 **Traço Físico:** nenhum — passa por humano em qualquer lugar; a única coisa que carrega de diferente é a história.
 
-**Atributos:** +2 em Sorte, +1 em qualquer outro atributo à escolha.
+**Atributos:** +10 em Sorte, +5 em qualquer outro atributo à escolha.
 
 **Traço Racial:**
 
-- **Armadura de Roteiro** — 1x por descanso longo, ao rolar 1 natural em qualquer teste de d20, pode transformá-lo em 20 natural: aplica normalmente o resultado de [Crítico](../jogar/testes.md#1-natural-e-20-natural) (dano máximo, rolagem extra, sobe 1 Intensidade de graça, se for teste de Habilidade) e **não** marca o ponto de Estresse da falha.
+- **Armadura de Roteiro** — 1x por descanso longo, ao tirar **exatamente 1** no d100 em qualquer teste, pode transformar o resultado em [Crítico](../jogar/testes.md#criticos): aplica normalmente o resultado (sucesso automático, dano máximo, rolagem extra, sobe 1 Intensidade de graça, se for teste de Habilidade) e **não** marca o ponto de Estresse que tirar 1 normalmente causaria.
