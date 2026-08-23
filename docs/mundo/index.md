@@ -1,5 +1,7 @@
 # Mundo
 
+<img class="prg-capa-hero" src="../assets/img/capa.jpg" alt="">
+
 O cenário da campanha, registrado conforme o grupo for jogando — não é uma bíblia
 escrita antes da mesa, é o mapa e a lore crescendo junto com o que acontece nas sessões.
 
