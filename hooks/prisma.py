@@ -99,7 +99,14 @@ def campos_da_linha(linha: str) -> dict[str, str]:
     return {rot.strip(): val.strip() for rot, val in pares}
 
 # Rótulos que viram coluna no cabeçalho colapsado, na ordem em que aparecem.
-COLUNAS = ("Chave", "Atributo", "Custo", "Alvos")
+# Rótulos que viram coluna no cabeçalho colapsado, na ordem em que aparecem.
+# Chave e Custo são pulados: viram chip e selo. Alvos fica por último porque é
+# de longe o mais comprido (24 caracteres em média) e é o que trunca.
+# Alcance e Cooldown entraram em 2026-08-25 por serem os campos que mais
+# variam entre habilidades cabendo em poucos caracteres — o valor mais comum
+# de cada um aparece em só 27% e 33% dos cards, então quase sempre dizem algo
+# novo. Duração e Resolução ficaram de fora pelo motivo oposto.
+COLUNAS = ("Chave", "Atributo", "Custo", "Alcance", "Cooldown", "Alvos")
 
 # Ordem de grandeza dos grupos, para colorir o chip.
 GRUPOS_CHIP = {
@@ -887,6 +894,19 @@ def chip(rotulo: str, familia: str = "") -> str:
     return f'<span class="prg-chip {classe}">{escapa(rotulo)}</span>'
 
 
+def valor_de_coluna(valor: str) -> str:
+    """Encurta um valor pro cabeçalho, que é linha de varredura, não ficha.
+
+    Mesmo princípio do `valor_de_tile` no Bestiário: o que vem depois do
+    travessão é explicação, e explicação não cabe onde se lê de relance. O
+    Golpe Final declara "Alcance do recuo: até o valor de Movimento do
+    personagem, em casas — o usuário se desloca pra trás, saindo da área
+    afetada", e sem este corte a frase inteira ia parar no cabeçalho,
+    empurrando o card pra 145px de altura. A ficha, ao abrir, segue completa.
+    """
+    return valor.split(" — ")[0].strip().rstrip(",")
+
+
 def colunas_html(pares: Iterable[tuple[str, str]]) -> str:
     """As colunas do cabeçalho colapsado: rótulo (via CSS) + valor.
 
@@ -989,31 +1009,7 @@ def monta_card(
     if custo:
         valores_busca.append(custo)
 
-    pares_coluna: list[tuple[str, str]] = []
-    for rotulo in COLUNAS:
-        if rotulo in ("Chave", "Custo"):
-            continue
-        bruto = campos.get(rotulo, "")
-        valor = (
-            resume_atributo(bruto)
-            if rotulo == "Atributo"
-            else texto_puro(bruto).split("|")[0].strip()
-        )
-        if not valor:
-            continue
-        valores_busca.append(valor)
-        pares_coluna.append((rotulo, valor))
-
-    valores_busca.extend(rotulos)
-
-    detalhe = "\n".join(corpo).strip()
-
-    # A ficha inteira entra no índice: procurar por "sangrando" ou "atordoado"
-    # e ver quais habilidades aplicam aquilo é o filtro que mais importa.
-    valores_busca.append(flavor)
-    valores_busca.append(texto_puro(detalhe))
-
-    # Facetas estruturadas pro filtro combinado — além da busca livre acima.
+    # Facetas estruturadas pro filtro combinado — além da busca livre abaixo.
     escala = sem_acento(qualificador)
     escala = escala if escala in _ESCALA_VALIDOS else ""
     # Quatorze habilidades gerais declaram a escala na própria Chave
@@ -1027,6 +1023,36 @@ def monta_card(
     mana_min = mana_minima(campos)
     elemento = elemento or elemento_do_campo_dano(campos)
 
+    # A ficha técnica é calculada antes do cabeçalho porque ele lê dela: o
+    # Alcance de 82% das habilidades e o Cooldown de quase todas são
+    # **derivados**, não escritos no markdown — ler `campos` aqui deixaria as
+    # duas colunas vazias justamente nos cards que mais precisam delas.
+    ficha = ficha_tecnica_valores(campos, grupo, escala, corpo, qualificador, arma)
+
+    pares_coluna: list[tuple[str, str]] = []
+    for rotulo in COLUNAS:
+        if rotulo in ("Chave", "Custo"):
+            continue
+        valor = ficha.get(rotulo, "")
+        if rotulo == "Atributo":
+            valor = resume_atributo(campos.get(rotulo, ""))
+        valor = valor_de_coluna(texto_puro(valor).split("|")[0])
+        # "—" é resposta honesta dentro do card aberto, mas no cabeçalho seria
+        # uma coluna de nada ocupando espaço na varredura da lista.
+        if not valor or valor == "—":
+            continue
+        valores_busca.append(valor)
+        pares_coluna.append((rotulo, valor))
+
+    valores_busca.extend(rotulos)
+
+    detalhe = "\n".join(corpo).strip()
+
+    # A ficha inteira entra no índice: procurar por "sangrando" ou "atordoado"
+    # e ver quais habilidades aplicam aquilo é o filtro que mais importa.
+    valores_busca.append(flavor)
+    valores_busca.append(texto_puro(detalhe))
+
     # A ficha resumida pro popover: o que o leitor precisa pra decidir se vale
     # abrir o card. Custo e alvo vêm do cabeçalho; o resto é a primeira linha
     # de efeito, que já diz o que a habilidade faz.
@@ -1035,7 +1061,6 @@ def monta_card(
         "corpo": resumo_para_popover(rotulos, custo, campos, corpo),
     }
 
-    ficha = ficha_tecnica_valores(campos, grupo, escala, corpo, qualificador, arma)
     ficha_tecnica = ficha_tecnica_html(campos, grupo, escala, corpo, qualificador, arma)
 
     # A ficha técnica alimenta o filtro: os mesmos valores que o card mostra,
