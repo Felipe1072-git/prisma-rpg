@@ -4,7 +4,7 @@ Criar desvantagens para inimigos ou em testes.
 
 ## Habilidades Gerais
 
-**Golpe Sangrento**
+**Golpe Sangrento** *(Moderado)*
 
 *Um corte preciso que corrompe a própria capacidade do corpo de se curar.*
 
@@ -24,7 +24,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** 1d6 de dano + cada alvo não pode usar Ações Básicas nem Habilidades (só Movimento e Reação) até o fim do próximo turno dele
 - **Crítico:** dano máximo (6) + 1d6 extra em todos
 
-**Garra Demoníaca**
+**Garra Demoníaca** *(Moderado)*
 
 *Uma garra espectral emerge do chão, arremessando o alvo pelos ares.*
 
@@ -35,7 +35,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + derruba o alvo + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Estrela da Morte**
+**Estrela da Morte** *(Moderado)*
 
 *O alvo é lançado aos ares, e um instante depois, uma estrela sombria desaba sobre ele.*
 
@@ -46,7 +46,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + derruba o alvo + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 8d4 em vez de 4d4
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Choque Fantasmagórico**
+**Choque Fantasmagórico** *(Moderado)*
 
 *Uma lança gigantesca se materializa sobre o alvo, erguendo-o à força do chão.*
 
@@ -57,7 +57,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + derruba o alvo + alvo perde a próxima Ação Básica, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Giro Audaz**
+**Giro Audaz** *(Moderado)*
 
 *A foice é arremessada num arco ascendente, erguendo o alvo do chão com violência.*
 
@@ -68,7 +68,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 4 casas e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Lança Perfurante**
+**Lança Perfurante** *(Moderado)*
 
 *Uma lança gigante é invocada e arremessada com força total contra o alvo, prendendo-o no lugar.*
 
@@ -79,7 +79,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + alvo fica [Imóvel](../glossario.md#imovel) (não sai do lugar por vontade própria)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual + alvo fica [Imóvel](../glossario.md#imovel), e sobe 1 Intensidade
 
-**Esquife de Ossos**
+**Esquife de Ossos** *(Moderado)*
 
 *Uma boca faminta e gigantesca se abre sob os alvos, devorando tudo que estiver por perto.*
 
@@ -88,7 +88,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** 1d8 de dano + Sangrando + derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
 
-**Mordida**
+**Mordida** *(Moderado)*
 
 *A segunda forma da espada morde o alvo, arremessando-o para longe com violência.*
 
@@ -99,7 +99,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 5 casas e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Abismo**
+**Abismo** *(Maior)*
 
 *A lâmina se estilhaça em fragmentos, atacando o alvo de múltiplos ângulos.*
 
@@ -110,7 +110,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + derruba o alvo + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Impacto Grandioso**
+**Impacto Grandioso** *(Moderado)*
 
 *Espinhos emergem do chão, afastando os inimigos com violência.*
 
@@ -121,7 +121,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 3 casas cada alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Onda de Choque**
+**Onda de Choque** *(Maior)*
 
 *Uma explosão de energia pura se espalha, arremessando tudo ao redor.*
 
@@ -130,7 +130,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** 1d8 de dano + empurra 2 casas e derruba cada alvo
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo
 
-**Ferrão Caçador**
+**Ferrão Caçador** *(Moderado)*
 
 *A espada localiza o alvo à distância e o ataca de surpresa com um espinho traiçoeiro.*
 
@@ -141,18 +141,18 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + Marcado + usuário recupera 2 Mana, e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Força Tóxica**
+**Força Tóxica** *(Moderado)*
 
 *Um veneno mágico é injetado no alvo, corroendo sua força e vigor.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **vs:** Fortitude Física (é veneno) | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + Lento + alvo fica [Envenenado](../glossario.md#envenenado) (1 acúmulo)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + Lento + alvo fica [Envenenado](../glossario.md#envenenado) com **2 acúmulos**
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Ponto de Pressão**
+**Ponto de Pressão** *(Maior)*
 
 *Um toque preciso nos pontos vitais do corpo desliga, um a um, os sistemas do inimigo.*
 
@@ -163,7 +163,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + perde 3 de Evasão + perde 2 no dano de ataques + não pode usar Habilidades (só Movimento e Reação) até o fim do próximo turno dele, e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Redemoinho**
+**Redemoinho** *(Maior)*
 
 *O martelo gira acima da cabeça, criando um vórtice que arrasta os inimigos pra perto.*
 
@@ -174,7 +174,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + puxa 3 casas cada alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Provocação**
+**Provocação** *(Moderado)*
 
 *Um brado desafiador ecoa pelo campo — ninguém mais existe além dela.*
 
@@ -183,7 +183,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** até o fim do próximo turno de cada alvo, ele só pode atacar o usuário desta habilidade (se for capaz de fazê-lo)
 - *(Custo fixo — rola teste de ataque contra a **Fortitude Mágica** de cada alvo)*
 
-**Quebra de Arma**
+**Quebra de Arma** *(Moderado)*
 
 *Um golpe certeiro na guarda do inimigo enfraquece a força por trás de cada ataque seguinte.*
 
@@ -194,7 +194,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + alvo perde 4 no dano de ataques e rola o próximo ataque com Desvantagem
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual + alvo perde 3 no dano de ataques até o fim do próximo turno dele, e sobe 1 Intensidade
 
-**Quebra de Mente**
+**Quebra de Mente** *(Moderado)*
 
 *Um golpe certeiro atordoa os sentidos do inimigo, drenando sua energia mágica.*
 
@@ -205,7 +205,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + alvo perde 6 Mana, e não pode usar Habilidades até o fim do próximo turno dele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual + alvo perde 4 Mana, e sobe 1 Intensidade
 
-**Quebra de Perna**
+**Quebra de Perna** *(Moderado)*
 
 *Um golpe preciso nas pernas do inimigo compromete seus próximos movimentos.*
 
@@ -225,7 +225,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** 2d6 de dano + derruba cada alvo
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
-**Aroma Sangrento**
+**Aroma Sangrento** *(Moderado)*
 
 *O cheiro do sangue guia a lâmina até o alvo certo, marcando-o pra sempre.*
 
@@ -236,7 +236,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + Marcado + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 8d4 em vez de 4d4
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Névoa Sangrenta**
+**Névoa Sangrenta** *(Moderado)*
 
 *Uma névoa espessa e vermelha toma conta da área, confundindo os sentidos de quem estiver dentro.*
 
@@ -245,7 +245,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** por 2 rodadas, qualquer ataque feito por uma criatura hostil que estiver dentro da área rola com Desvantagem
 - *(Custo fixo — rola teste de ataque contra a Evasão de cada alvo)*
 
-**Enterrar**
+**Enterrar** *(Moderado)*
 
 *Uma mina sombria se esconde no chão, prendendo com escuridão quem pisar nela.*
 
@@ -263,7 +263,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** por 2 rodadas, cada criatura hostil que terminar o turno na área sofre 1d6 de dano automático, perde 2 de Evasão, e perde 1 Mana
 - *(Custo fixo — rola teste de ataque contra a Evasão de cada alvo)*
 
-**Dominação: Enfraquecer**
+**Dominação: Enfraquecer** *(Moderado)*
 
 *A mesma energia, voltada contra o inimigo, corrói sua força.*
 
@@ -272,7 +272,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** por 2 rodadas, cada criatura hostil na área perde 1 no dano de ataques.
 - *(Custo fixo — rola teste de ataque contra a Evasão de cada alvo)*
 
-**Convergência**
+**Convergência** *(Maior)*
 
 *Energia demoníaca se acumula e explode, arrastando os inimigos próximos para o centro.*
 
@@ -290,7 +290,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** cada criatura hostil na área sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Custo fixo — rola teste de ataque contra a Evasão de cada alvo)*
 
-**Etiqueta do Mordomo**
+**Etiqueta do Mordomo** *(Moderado)*
 
 *Jeeves surge por um instante, desfere um soco devastador, e desaparece numa nuvem de fumaça.*
 
@@ -301,7 +301,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 7 casas e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Fúria do Mordomo**
+**Fúria do Mordomo** *(Moderado)*
 
 *Jeeves aparece com fúria total, golpeando tudo ao redor antes que qualquer um consiga reagir.*
 
@@ -312,7 +312,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo não pode usar Habilidades (só Movimento e Reação) até o fim do próximo turno dele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Matilha Selvagem**
+**Matilha Selvagem** *(Moderado)*
 
 *Bastion Mary surge rosnando, atacando de formas imprevisíveis.*
 
@@ -323,7 +323,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Maldição Tríplice**
+**Maldição Tríplice** *(Maior)*
 
 *Uma praga em três camadas se instala no alvo — cada uma mais corrosiva que a anterior.*
 
@@ -334,7 +334,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + perde 2 de Evasão + perde 1 no dano de ataques + fica [Sangrando](../glossario.md#sangrando)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Marca Fatal**
+**Marca Fatal** *(Moderado)*
 
 *Uma marca invisível se grava no alvo — se não for removida a tempo, o preço será alto.*
 
@@ -343,7 +343,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** o alvo fica Marcado pela morte; se continuar em combate até o início do próximo turno dele, sofre 3d6 de dano automático nesse momento (a marca não causa dano nenhum antes disso)
 - *(Custo fixo — rola teste de ataque contra a Evasão do alvo)*
 
-**Latido Drenante**
+**Latido Drenante** *(Moderado)*
 
 *Um latido sobrenatural ecoa, e a energia mágica do alvo é sugada para longe.*
 
@@ -354,7 +354,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo perde 4 Mana
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Armadilha do Relógio**
+**Armadilha do Relógio** *(Maior)*
 
 *Sebastian é arremessado ao chão feito uma bomba-relógio, e o que sobra dele continua perigoso.*
 
@@ -366,7 +366,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + derruba cada alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Cerco de Espinhos**
+**Cerco de Espinhos** *(Maior)*
 
 *Vinhas espectrais brotam do chão, empurrando e prendendo quem tentar atravessar.*
 
@@ -377,7 +377,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + empurra 2 casas + a área vira Terreno Difícil por 2 rodadas (custa o dobro de Movimento pra atravessar)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Zona Cinzenta**
+**Zona Cinzenta** *(Moderado)*
 
 *Jeeves aparece por um instante, suspendendo o alvo no ar antes de sumir — e a queda dói.*
 
@@ -404,12 +404,12 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** 2d8 de dano no alvo puxado + 1d8 de dano nas demais criaturas na explosão + derruba todos na explosão
 - **Crítico:** dano máximo (16) + 2d8 extra no alvo, dano máximo (8) + 1d8 extra nos demais, e derruba todos
 
-**Nuvem Mortal**
+**Nuvem Mortal** *(Maior)*
 
 *Uma nuvem verde e tóxica paira sobre a área, ficando mais perigosa perto do centro.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **vs:** Fortitude Física (é veneno) | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + Lento + cada alvo fica [Envenenado](../glossario.md#envenenado) (1 acúmulo)
@@ -433,7 +433,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** 2d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
-**Domador da Natureza**
+**Domador da Natureza** *(Maior)*
 
 *Uma semente arremessada brota instantaneamente numa flor que libera esporos atordoantes.*
 
@@ -462,7 +462,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Efeito:** por 2 rodadas, o usuário não pode ser alvo de ataques. Nesse período, qualquer criatura hostil que termine o turno em 2 casas dele sofre 1d6 de dano automático. Ao fim da duração, todas as criaturas hostis ainda em 2 casas de raio sofrem 2d6 de dano automático e são derrubadas.
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
-**Confete Explosivo**
+**Confete Explosivo** *(Moderado)*
 
 *Uma esfera reluzente viaja um curto trecho antes de explodir, deixando o alvo desorientado.*
 
@@ -482,7 +482,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** 2d6 de dano + puxa 3 casas e derruba cada alvo
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, puxa 3 casas, e derruba cada alvo
 
-**Vírus Encantador**
+**Vírus Encantador** *(Moderado)*
 
 *Três orbes grudam no alvo, corroendo sua vitalidade aos poucos.*
 
@@ -493,7 +493,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + alvo perde 1d4 de Vida no início de cada uma das 3 rodadas seguintes, e se ele cair a 0 de Vida nesse período o vírus passa para a criatura adjacente mais próxima
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Grito Dissonante**
+**Grito Dissonante** *(Moderado)*
 
 *Um grito estridente ecoa pelo campo, embaralhando os sentidos de quem ouve.*
 
@@ -504,7 +504,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + Desvantagem + cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Super Estrela**
+**Super Estrela** *(Moderado)*
 
 *Duas séries de quatro explosões sonoras cercam o palco invocado, atordoando quem for pego dentro.*
 
@@ -540,7 +540,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Efeito:** cada alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
-**Dissipar**
+**Dissipar** *(Moderado)*
 
 *Um gesto simples desfaz o que a magia teceu — não importa a origem.*
 
@@ -549,7 +549,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Efeito:** remove um efeito benéfico ativo criado por habilidade (de qualquer grupo), incluindo Escudos e invocações — à escolha do usuário — na criatura alvo, aliada ou inimiga.
 - *(Sem Intensidade — habilidade de debuff, sem teste de ataque)*
 
-**Selo de Exílio**
+**Selo de Exílio** *(Moderado)*
 
 *A ordem não é gritada — é dita uma vez, e o que não pertence a este mundo é lembrado disso.*
 
@@ -566,7 +566,7 @@ Criar desvantagens para inimigos ou em testes.
     alvo de **Selo de Exílio** vindo de um inimigo. Isso não conta como a morte da criatura —
     ela só volta pro próprio plano, e a cena atual é interrompida.
 
-**Fechar a Porta**
+**Fechar a Porta** *(Maior)*
 
 *Um gesto largo, e toda porta pra outro lugar se fecha de uma vez.*
 
@@ -576,7 +576,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Crítico:** dano máximo (6) + 1d6 extra em todos
 - *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](regras.md#habilidades-de-custo-fixo))*
 
-**Presença Aterrorizante**
+**Presença Aterrorizante** *(Maior)*
 
 *Uma única palavra, dita com peso suficiente, e a coragem de todos ao redor desmorona.*
 
@@ -586,7 +586,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** cada alvo fica Amedrontado por 2 rodadas.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** cada alvo fica Amedrontado por 3 rodadas.
 
-**Palavra Amaldiçoada**
+**Palavra Amaldiçoada** *(Maior)*
 
 *Uma frase dita em voz baixa gruda no alvo — e na hora que ele mais precisar de sorte, ela vai faltar.*
 
@@ -608,7 +608,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade II — 0 PA + 21 Mana:** o mesmo, subtraindo 1d8.
 - **Intensidade III — 0 PA + 30 Mana:** o mesmo, subtraindo 1d10.
 
-**Ordem**
+**Ordem** *(Supremo)*
 
 *Uma única palavra, dita com peso absoluto — e o corpo obedece antes que a mente possa discordar.*
 
@@ -628,7 +628,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade II — 0 PA + 24 Mana:** o mesmo, e se não houver outra criatura hostil próxima o suficiente, o ataque simplesmente erra.
 - **Intensidade III — 0 PA + 33 Mana:** o mesmo, e o usuário escolhe pra qual criatura hostil o ataque é redirecionado, em vez de ser sempre a mais próxima.
 
-**Repúdio aos Mortos**
+**Repúdio aos Mortos** *(Moderado)*
 
 *A presença sagrada é insuportável pra quem já devia ter descansado.*
 
@@ -638,7 +638,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** cada alvo fica [Amedrontado](../glossario.md#amedrontado) por 2 rodadas, e é forçado a usar o próprio Movimento pra se afastar do usuário no início de cada um dos próprios turnos nesse período, se puder
 - *(Sem Intensidade — área de 3 casas de raio, Custo fixo)*
 
-**Marca da Sepultura**
+**Marca da Sepultura** *(Maior)*
 
 *Uma sombra fria se prende ao alvo — e some no instante em que alguém a explora.*
 
@@ -648,7 +648,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, com +2d6 de dano extra se terminar cedo.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** a Desvantagem dura até o **fim** do próprio próximo turno do alvo (janela maior), e o dano extra se terminar cedo sobe pra +3d6.
 
-**Vindita Pessoal**
+**Vindita Pessoal** *(Maior)*
 
 *Um nome é dito em silêncio — e a partir de agora, só existe um alvo que importa.*
 
@@ -701,7 +701,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** o alvo desaparece por completo até o fim do próprio próximo turno — não pode ser alvo de nada nesse período, some do mapa. Se a ficha dele declarar origem invocada/planar e ele não estiver no próprio plano, o banimento é **permanente** em vez de temporário — ele não volta mais nesta cena. Quando reaparece (alvo não-planar), volta na mesma casa, ou na mais próxima livre.
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
-**Golpe Cegante**
+**Golpe Cegante** *(Maior)*
 
 *Um clarão explode bem na hora do impacto — e o mundo simplesmente some da vista do alvo.*
 
@@ -721,7 +721,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** o alvo fica preso numa cela de força invisível ao redor dele, por 3 rodadas. Enquanto durar, ele não pode se mover, agir, nem reagir, e nenhuma forma de teleporte (própria ou de terceiros) funciona pra entrar ou sair da cela. A cela tem Vida 30 e pode ser destruída de fora por dano físico ou mágico, libertando o alvo antes do prazo.
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
-**Guardião Fixo**
+**Guardião Fixo** *(Maior)*
 
 *Uma sentinela espectral se finca no chão, e não se importa com quem tenta passar por ela.*
 
@@ -731,7 +731,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade II — ◈◈ (2 PA) + 27 Mana:** o mesmo, com 2d6 de dano.
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** o mesmo, com 3d6 de dano.
 
-**Corromper o Limite**
+**Corromper o Limite** *(Maior)*
 
 *A ferida não é só na carne — o próprio limite do corpo encolhe por um instante.*
 
@@ -751,7 +751,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** o alvo se transforma numa criatura pequena e inofensiva (um sapo, um rato, algo do tipo) por 3 rodadas. Enquanto transformado, não pode usar Habilidades, Ataques Básicos, nem Reações, e sua Evasão cai pra 8. Qualquer dano sofrido nessa forma encerra a transformação imediatamente — ele volta ao normal, e o dano é então aplicado à Vida da forma verdadeira. Criaturas de Tier Formidável ou Lendário rolam o teste de resistência com [Vantagem](../glossario.md#vantagem).
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
-**Silêncio**
+**Silêncio** *(Maior)*
 
 *Nenhuma palavra sai dali — e pra quem luta com a própria voz, isso é o mesmo que ficar de mãos vazias.*
 

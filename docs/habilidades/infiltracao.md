@@ -4,7 +4,7 @@ Furtividade, ladinagem.
 
 ## Habilidades Gerais
 
-**Choque das Sombras**
+**Choque das Sombras** *(Moderado)*
 
 *Uma bomba lançada nas sombras, que detona um instante depois numa explosão de energia sombria.*
 
@@ -14,7 +14,7 @@ Furtividade, ladinagem.
 - **Acerto:** 2d8 de dano + derruba cada alvo
 - **Crítico:** dano máximo (18) + 2d8 extra em todos, e derruba cada alvo
 
-**Desaparecimento**
+**Desaparecimento** *(Maior)*
 
 *O corpo se dissolve nas sombras — o primeiro golpe desferido a partir daí é devastador.*
 
@@ -25,7 +25,7 @@ Furtividade, ladinagem.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** dura 3 rodadas
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** dura 4 rodadas
 
-**Armadilha Oculta**
+**Armadilha Oculta** *(Moderado)*
 
 *Um mecanismo quase invisível é escondido no chão — o primeiro passo errado dispara tudo de uma vez.*
 
@@ -37,7 +37,7 @@ Furtividade, ladinagem.
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + derruba o alvo + fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Golpe Furtivo**
+**Golpe Furtivo** *(Moderado)*
 
 *Um golpe que só existe porque ninguém viu chegar — depois do primeiro corte, a vantagem desaparece.*
 
@@ -49,7 +49,7 @@ Furtividade, ladinagem.
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano da arma equipada + 3d6 extra, [Sangrando](../glossario.md#sangrando), e o alvo perde a próxima Reação
 - **Crítico:** dano máximo da arma + 1 rolagem extra do dado da arma + o bônus extra da Intensidade usada, e sobe 1 Intensidade
 
-**Fumaça Cega**
+**Fumaça Cega** *(Maior)*
 
 *Uma bomba de fumaça estoura no chão — por alguns segundos, ninguém enxerga nada além de sombras em movimento.*
 
@@ -60,7 +60,7 @@ Furtividade, ladinagem.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** dura 2 rodadas
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** dura 3 rodadas
 
-**Escapista**
+**Escapista** *(Maior)*
 
 *Cordas apertam, correntes prendem — mas nenhuma delas foi feita pensando em alguém como você.*
 
@@ -72,7 +72,7 @@ Furtividade, ladinagem.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** liberta-se, move-se até 2 casas, e ganha Vantagem no próximo teste de ataque contra quem o prendeu
 - **Crítico:** sobe 1 Intensidade
 
-**Mão Leve**
+**Mão Leve** *(Moderado)*
 
 *Um esbarrão discreto, uma mão que some no bolso errado — e ninguém percebe nada até muito depois.*
 
@@ -84,7 +84,7 @@ Furtividade, ladinagem.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** rouba um item de tamanho médio (arma secundária, pergaminho, chave); o alvo só percebe se procurar ativamente pelo item
 - **Crítico:** sobe 1 Intensidade
 
-**Arrombamento**
+**Arrombamento** *(Moderado)*
 
 *Um clique certo na hora certa, e a fechadura mais cara do mundo se abre como se nunca tivesse travado nada.*
 
@@ -96,7 +96,7 @@ Furtividade, ladinagem.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** abre sem deixar vestígios de arrombamento, em metade do tempo
 - **Crítico:** abre instantaneamente, e sobe 1 Intensidade
 
-**Instinto Ladino**
+**Instinto Ladino** *(Moderado)*
 
 *Antes mesmo de ver o fio esticado ou a tábua solta, o corpo já sabe que ali tem algo errado.*
 
@@ -122,7 +122,7 @@ Furtividade, ladinagem.
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Efeito:** sempre que o usuário acertar uma criatura com um ataque corpo a corpo, ela não pode fazer Ataque de Oportunidade contra ele até o fim do turno atual.
 
-**Fingir a Morte**
+**Fingir a Morte** *(Maior)*
 
 *O corpo cai, a respiração some — e ninguém ali sabe dizer se é encenação.*
 

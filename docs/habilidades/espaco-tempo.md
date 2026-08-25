@@ -5,7 +5,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 
 ## Habilidades Gerais
 
-**Dobra Espacial**
+**Dobra Espacial** *(Moderado)*
 
 *O espaço ao redor do alvo se dobra por um instante, e ele simplesmente deixa de estar onde estava.*
 
@@ -16,7 +16,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico:** sobe 1 Intensidade
 
-**Bolha Temporal**
+**Bolha Temporal** *(Moderado)*
 
 *O tempo dentro de uma bolha invisível se arrasta, pesado como mel — só quem a criou se move em velocidade normal.*
 
@@ -25,7 +25,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Efeito:** por 2 rodadas, qualquer criatura hostil que comece o turno dentro da área fica [Lenta](../glossario.md#lento) nesse turno
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Aceleração Temporal**
+**Aceleração Temporal** *(Maior)*
 
 *O tempo ao redor do usuário acelera bruscamente — um piscar de olhos que os outros nem percebem, mas que pra ele dura o suficiente pra agir de novo.*
 
@@ -34,7 +34,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Efeito:** o usuário ganha +1 Ponto de Ação (◈) imediatamente, utilizável ainda neste turno
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque. Diferente de [Ordem de Ataque](suporte.md#habilidades-gerais), que dá +1 PA a um aliado — esta é só pro próprio usuário.)*
 
-**Retrocesso**
+**Retrocesso** *(Moderado)*
 
 *O tempo hesita por um instante — e o que foi, deixa de ter sido.*
 
@@ -43,7 +43,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Efeito:** o alvo recupera a Vida perdida na última vez que sofreu dano, desde que isso tenha acontecido nas últimas 2 rodadas.
 - *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
 
-**Eco do Passado**
+**Eco do Passado** *(Maior)*
 
 *Por uma fração de segundo, o momento se repete — o mesmo golpe acontece de novo, como se o tempo tivesse soluçado.*
 
@@ -63,7 +63,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Acerto:** 4d8 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico:** dano máximo (32) + 4d8 extra em todos, desloca, e Atordoado
 
-**Crescente Sombrio**
+**Crescente Sombrio** *(Maior)*
 
 *Uma lâmina de gravidade pura avança em linha reta, cortando o espaço à sua frente.*
 
@@ -74,7 +74,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + teleporta cada alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Peso das Trevas**
+**Peso das Trevas** *(Maior)*
 
 *Um campo gravitacional invisível se forma sobre a área, tornando cada passo insuportavelmente pesado.*
 
@@ -94,7 +94,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Efeito:** cada alvo é puxado 2 casas em direção ao centro e sofre 2d6 de dano automático, tudo isso imediatamente ao usar
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
-**Fissura Dimensional**
+**Fissura Dimensional** *(Moderado)*
 
 *Uma fenda no espaço se abre sob o alvo, puxando-o com violência para dentro dela.*
 
@@ -114,7 +114,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Efeito:** todos os alvos são puxados 2 casas em direção ao centro e sofrem 2d8 de dano automático, tudo isso imediatamente ao usar
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
-**Buraco Negro**
+**Buraco Negro** *(Maior)*
 
 *Um projétil sombrio persegue o alvo e o teleporta pra cima do usuário no impacto.*
 
@@ -125,7 +125,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** 2d10 de dano + o alvo é teleportado pra uma casa adjacente ao usuário e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual + teleportado, e sobe 1 Intensidade
 
-**Vazio**
+**Vazio** *(Maior)*
 
 *Um pequeno buraco negro se abre, sugando tudo ao redor antes de explodir.*
 
@@ -156,7 +156,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Efeito:** cada criatura hostil em qualquer uma das áreas é puxada 1 casa em direção ao centro dela e sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
-**Antigravidade**
+**Antigravidade** *(Moderado)*
 
 *A gravidade se dobra à vontade da conjuradora, e o inimigo é arrancado do chão... só pra ser jogado de volta com violência.*
 
@@ -167,7 +167,7 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Fenda Dimensional**
+**Fenda Dimensional** *(Maior)*
 
 *Um portal dimensional se abre no chão — um segundo comando é só o suficiente pra sugar o alvo pra dentro dele.*
 

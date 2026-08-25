@@ -15,7 +15,7 @@ Voo, deslocamento.
 - **Intensidade II — 0 PA + 15 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 3 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
 - **Intensidade III — 0 PA + 24 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 4 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
 
-**Passo Sombrio**
+**Passo Sombrio** *(Maior)*
 
 *Um passo pra trás dissolve o corpo numa sombra, deixando um eco no lugar de origem.*
 
@@ -25,7 +25,7 @@ Voo, deslocamento.
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** o usuário se desloca até 4 casas para trás, ignorando Terreno Difícil nesse movimento. Até o início do próximo turno do usuário, o primeiro ataque corpo a corpo contra ele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado).
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o usuário se desloca até 5 casas para trás, ignorando Terreno Difícil nesse movimento. Até o início do próximo turno do usuário, o primeiro ataque corpo a corpo contra ele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado).
 
-**Impulso**
+**Impulso** *(Maior)*
 
 *Uma explosão nos pés impulsiona um deslocamento rápido, atravessando qualquer coisa no caminho.*
 
@@ -56,7 +56,7 @@ Voo, deslocamento.
 - **Intensidade II — 0 PA + 18 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 4 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
 - **Intensidade III — 0 PA + 27 Mana:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação pra se deslocar até 5 casas antes da resolução do ataque. Se sair do alcance ou área do ataque, ele erra automaticamente.
 
-**Montaria de Guerra**
+**Montaria de Guerra** *(Maior)*
 
 *Um corcel treinado pra batalha responde a cada comando — juntos, cavaleiro e montaria avançam como um só.*
 
@@ -67,7 +67,7 @@ Voo, deslocamento.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o usuário monta seu corcel. Enquanto montado, ganha +6 de Movimento. Se tiver se deslocado pelo menos 3 casas no mesmo turno antes de atacar, o próximo Ataque Básico ou Habilidade de arma corpo a corpo causa +3d6 de dano extra (investida montada). Desmontar é uma ação livre. O corcel foge se o usuário cair a 0 de Vida, podendo ser invocado de novo depois.
 - **O corcel:** dura até o fim da cena. O corcel tem 15 de Vida e Evasão 10 e é um alvo válido; se ele cair, o usuário é derrubado no chão ([Derrubado](../glossario.md#derrubado)).
 
-**Voo Repentino**
+**Voo Repentino** *(Supremo)*
 
 *Por um instante, o chão deixa de ser obrigatório.*
 
@@ -88,7 +88,7 @@ Voo, deslocamento.
 - **Intensidade II — 0 PA + 21 Mana:** o mesmo, deslocando até o Movimento cheio.
 - **Intensidade III — 0 PA + 30 Mana:** o mesmo, e tanto o usuário quanto o aliado ganham +2 de Evasão até o início do próprio próximo turno.
 
-**Passo Lunar**
+**Passo Lunar** *(Maior)*
 
 *Um passo curto sob a luz da lua, e o próximo golpe já sabe onde cair.*
 
@@ -98,7 +98,7 @@ Voo, deslocamento.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, teleportando até 5 casas.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, teleportando até 7 casas, e esse ataque causa +1d6 de dano extra se acertar.
 
-**Passagem Trocada**
+**Passagem Trocada** *(Maior)*
 
 *Um piscar de olhos, e os dois corpos já não estão onde estavam.*
 
@@ -119,7 +119,7 @@ Voo, deslocamento.
 - **Intensidade II — 0 PA + 24 Mana:** o mesmo, e esse ataque causa +1d6 de dano extra.
 - **Intensidade III — 0 PA + 33 Mana:** o mesmo, e esse ataque causa +2d6 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
 
-**Arremesso Guiado**
+**Arremesso Guiado** *(Maior)*
 
 *A lâmina voa primeiro — o corpo só decide seguir o mesmo caminho.*
 
@@ -130,7 +130,7 @@ Voo, deslocamento.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, até 12 casas, e se acertar a criatura, ela fica [Marcada](../glossario.md#marcado).
 - **Crítico (só ao mirar numa criatura):** dano máximo do dado + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Eco de Combate**
+**Eco de Combate** *(Maior)*
 
 *Uma imagem espectral toma posição antes do corpo decidir se vai mesmo até lá.*
 
@@ -140,7 +140,7 @@ Voo, deslocamento.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** o mesmo, e o usuário pode trocar de lugar com o eco (ação livre) a qualquer momento antes dele se desfazer.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** o mesmo, e o eco dura até o fim da [cena](../glossario.md#cena), ou até o usuário conjurar outro.
 
-**Portal Distante**
+**Portal Distante** *(Supremo)*
 
 *Uma fenda se abre no ar, e do outro lado está um lugar que já não é aqui.*
 

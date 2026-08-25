@@ -6,7 +6,7 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra o [Social]
 
 ## Habilidades Gerais
 
-**Palavras Afiadas**
+**Palavras Afiadas** *(Maior)*
 
 *Um insulto certeiro, daqueles que doem mais que um golpe físico — a confiança do alvo racha antes mesmo do ataque seguinte.*
 
@@ -17,7 +17,7 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra o [Social]
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** mesmo que a Intensidade II, e o alvo perde a próxima Reação
 - **Crítico:** sobe 1 Intensidade
 
-**Manipular**
+**Manipular** *(Maior)*
 
 *Poucas palavras na hora certa bastam pra virar um inimigo contra o outro — a raiva dele só precisa de um empurrão na direção certa.*
 
@@ -28,7 +28,7 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra o [Social]
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o usuário escolhe qual criatura o alvo é forçado a atacar (em vez de ser sempre a mais próxima), por 1 turno completo dele
 - **Crítico:** sobe 1 Intensidade
 
-**Fascínio**
+**Fascínio** *(Maior)*
 
 *Um olhar, um sorriso, uma palavra macia — e por um instante o alvo esquece completamente por que deveria estar brigando.*
 
@@ -39,7 +39,7 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra o [Social]
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** até o fim do próximo turno dele, o alvo não pode atacar o usuário nem quem o usuário escolher proteger; qualquer ataque contra outro alvo tem Desvantagem
 - **Crítico:** sobe 1 Intensidade
 
-**Discurso Inspirador**
+**Discurso Inspirador** *(Moderado)*
 
 *Poucas frases, ditas no momento certo, e a fadiga vira fôlego — ninguém quer ser o primeiro a recuar depois de ouvir aquilo.*
 
@@ -50,7 +50,7 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra o [Social]
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** os alvos recuperam 1d6 de Vida cada, ganham Vantagem no próximo ataque, e removem 1 ponto de Estresse cada
 - *(Sem teste de ataque — afeta aliados.)*
 
-**Leitura Fria**
+**Leitura Fria** *(Maior)*
 
 *Um olhar rápido pela postura, pelas roupas, pelo jeito de falar — e de repente você sabe mais sobre um estranho do que ele gostaria.*
 
@@ -61,7 +61,7 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra o [Social]
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** mesmo que a Intensidade II, e aprende também 1 informação mais profunda (uma motivação, um medo, um segredo relevante — a critério do Mestre)
 - *(Sem teste de ataque — o resultado vem do custo pago, não da rolagem.)*
 
-**Barganha**
+**Barganha** *(Moderado)*
 
 *Um preço nunca é fixo de verdade — só é preciso saber empurrar na direção certa.*
 
@@ -72,7 +72,7 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra o [Social]
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** melhor negócio possível (40%+) ou uma concessão significativa, a critério do Mestre
 - *(Sem teste de ataque — o resultado vem do custo pago, não da rolagem.)*
 
-**Máscara Social**
+**Máscara Social** *(Moderado)*
 
 *A postura certa, o sotaque certo, a mentira certa dita sem hesitar — por alguns minutos, você é exatamente quem precisa ser.*
 
@@ -117,7 +117,7 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra o [Social]
 - **Acerto:** pelas próximas 8 horas, ou até o usuário ou um aliado dele atacar ou ferir o alvo (o que vier primeiro), o alvo acredita que o usuário guarda um segredo capaz de arruiná-lo, e faz o possível pra agradá-lo — concede favores razoáveis, evita se opor a ele, e não luta contra o usuário nem os aliados dele a menos que já estivesse inclinado a isso antes. Nunca arrisca a própria vida por causa disso.
 - *(Sem Intensidade — efeito absoluto e fora de combate, Supremo)*
 
-**Duelo Declarado**
+**Duelo Declarado** *(Maior)*
 
 *Um desafio dito olho no olho — a partir de agora, só existem os dois.*
 

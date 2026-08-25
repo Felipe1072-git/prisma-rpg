@@ -25,7 +25,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Terra
 
-**Petrificar**
+**Petrificar** *(Moderado)*
 
 *Um sopro de pedra ancestral escorre pelo chão, endurecendo tudo que toca.*
 
@@ -36,7 +36,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + derruba o alvo, e ele sobe **2 graus** de [Petrificado](../glossario.md#petrificado)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual + **1 grau** a mais, e sobe 1 Intensidade
 
-**Fúria da Natureza**
+**Fúria da Natureza** *(Moderado)*
 
 *Espinhos brotam do chão num ponto escolhido, perfurando tudo que estiver por perto.*
 
@@ -47,7 +47,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + derruba cada alvo e ele fica [Imóvel](../glossario.md#imovel)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Couraça de Pedra**
+**Couraça de Pedra** *(Maior)*
 
 *A pele endurece como rocha — os golpes ainda doem, mas não tanto quanto deveriam.*
 
@@ -59,7 +59,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** Escudo de 3d10 + Magia pontos
 - *(Sem teste de ataque — habilidade de buff)*
 
-**Muralha de Pedra**
+**Muralha de Pedra** *(Moderado)*
 
 *Um bloco de pedra ergue-se do chão instantaneamente, bloqueando passagem e visão.*
 
@@ -68,7 +68,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** ergue uma parede de pedra de até 3 casas de comprimento e 1 casa de altura, bloqueando movimento e linha de visão através dela. Dura 3 rodadas, ou até o usuário desfazê-la como ação livre.
 - *(Sem Intensidade — efeito automático de controle de campo, sem teste de ataque)*
 
-**Emboscada de Pedra**
+**Emboscada de Pedra** *(Maior)*
 
 *Uma coluna de pedra dispara do chão bem debaixo do alvo, sem aviso algum.*
 
@@ -80,7 +80,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + derruba o alvo e ele fica [Imóvel](../glossario.md#imovel)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Tremor**
+**Tremor** *(Maior)*
 
 *O chão inteiro treme por um instante — ninguém que estiver de pé continua nessa condição por muito tempo.*
 
@@ -100,7 +100,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Gelo
 
-**Congelar**
+**Congelar** *(Moderado)*
 
 *Duas esferas geladas avançam lentamente e explodem em gelo ao contato, prendendo tudo ao redor.*
 
@@ -111,7 +111,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual + [Atordoado](../glossario.md#atordoado) por 1 rodada completa, e sobe 1 Intensidade
 
-**Força Gélida**
+**Força Gélida** *(Moderado)*
 
 *Um sopro congelante envolve a lâmina, e o golpe seguinte deixa o alvo mais lento a cada instante.*
 
@@ -122,7 +122,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + alvo fica [Imóvel](../glossario.md#imovel)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Fôlego Glacial**
+**Fôlego Glacial** *(Moderado)*
 
 *Um sopro congelante se espalha pela área, cristalizando tudo em seu caminho.*
 
@@ -142,7 +142,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d6 de dano + cada alvo fica [Imóvel](../glossario.md#imovel)
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, empurra 1 casa, e o [Imóvel](../glossario.md#imovel) dura 1 rodada a mais
 
-**Nevasca**
+**Nevasca** *(Maior)*
 
 *Uma nevasca cai sobre uma área ampla, congelando tudo em seu caminho.*
 
@@ -160,7 +160,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** todos os alvos na área são puxados 2 casas em direção ao centro e sofrem 1d10 de dano imediatamente ao usar; os que ainda estiverem na área ficam [Atordoado](../glossario.md#atordoado)s (não podem agir) até o fim do próprio próximo turno
 - *(Custo fixo — rola um único teste de ataque, comparado à Defesa de cada alvo)*
 
-**Extinção**
+**Extinção** *(Maior)*
 
 *Uma esfera cristalina avança lentamente, arrastando os inimigos consigo antes de explodir em estilhaços de gelo.*
 
@@ -182,7 +182,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Raio
 
-**Relâmpago**
+**Relâmpago** *(Moderado)*
 
 *Um raio crepitante corta o ar em linha reta, perfurando tudo em seu caminho.*
 
@@ -193,7 +193,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Campo Eletrônico**
+**Campo Eletrônico** *(Moderado)*
 
 *Uma granada mágica é lançada a curta distância, emitindo um raio poderoso antes de explodir violentamente.*
 
@@ -212,7 +212,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Raio | **Alvos:** todas as criaturas hostis no campo de batalha
 - **Efeito:** 1d6 de dano automático (sem teste) imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
 
-**Astrape Sombria**
+**Astrape Sombria** *(Moderado)*
 
 *Um raio sombrio e potente desaba sobre até cinco inimigos, eletrocutando-os continuamente.*
 
@@ -232,7 +232,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 6d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Investida Brilhante**
+**Investida Brilhante** *(Maior)*
 
 *Um avanço repentino descarrega toda a energia da lâmina, confundindo os sentidos do alvo.*
 
@@ -244,7 +244,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Detonação de Choque**
+**Detonação de Choque** *(Maior)*
 
 *Energia se acumula à frente antes de explodir com força total.*
 
@@ -262,7 +262,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** por 2 rodadas, qualquer criatura hostil que termine o turno na área sofre 1d6 de dano automático
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Pulso Eletrônico**
+**Pulso Eletrônico** *(Moderado)*
 
 *Três descarregadores elétricos surgem ao redor do alvo, atraindo-o pro centro enquanto ferem continuamente.*
 
@@ -280,7 +280,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** cada criatura hostil na área sofre 1d6 de dano automático e é puxada 1 casa em direção ao centro imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total, puxando mais 1 casa a cada aplicação)
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Explosão em Cadeia**
+**Explosão em Cadeia** *(Maior)*
 
 *Uma sequência de descargas elétricas avança à frente, a última arremessando o alvo pro alto.*
 
@@ -309,7 +309,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** a área não sofre dano nesse momento; no início do próximo turno do usuário, ela é atingida por uma explosão massiva, causando 3d8 de dano automático a cada criatura hostil que estiver lá nesse momento
 - *(Sem Intensidade — efeito automático de tempo retardado, sem teste de ataque)*
 
-**Força de Choque**
+**Força de Choque** *(Maior)*
 
 *Uma cortina de raios envolve o corpo, atingindo tudo ao redor e acima.*
 
@@ -320,7 +320,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Lágrimas da Deusa**
+**Lágrimas da Deusa** *(Moderado)*
 
 *Nuvens sombrias se formam no céu — raios e chuva desabam sobre tudo ao redor.*
 
@@ -331,7 +331,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Descarga Carregada**
+**Descarga Carregada** *(Maior)*
 
 *Um círculo elétrico envolve o corpo, eletrocutando quem chegar perto.*
 
@@ -344,7 +344,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Fogo
 
-**Chuva de Meteoros**
+**Chuva de Meteoros** *(Maior)*
 
 *O céu racha, e blocos de fogo desabam sobre a terra como punição divina.*
 
@@ -353,7 +353,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
-**Alma em Chamas**
+**Alma em Chamas** *(Moderado)*
 
 *Três meteoros surgem sobre o inimigo, guiados pela vontade do conjurador.*
 
@@ -372,7 +372,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Fogo | **Alcance:** 8 casas (onde o totem surge)
 - **Efeito:** o totem causa 1d6 de dano automático a 1 alvo hostil aleatório em 3 casas de raio dele imediatamente ao ser invocado, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
 
-**Espada Flamejante**
+**Espada Flamejante** *(Moderado)*
 
 *Um giro flamejante da lâmina em chamas espalha uma onda cortante por todos ao redor.*
 
@@ -383,7 +383,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Força Flamejante**
+**Força Flamejante** *(Moderado)*
 
 *Chamas envolvem a lâmina, e o golpe seguinte deixa uma queimadura que arde por muito tempo.*
 
@@ -394,7 +394,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Fôlego Ardente**
+**Fôlego Ardente** *(Moderado)*
 
 *Um sopro de fogo se espalha pela área, incendiando o chão por onde passa.*
 
@@ -405,7 +405,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Rastro em Chamas**
+**Rastro em Chamas** *(Moderado)*
 
 *Uma esfera lenta rola pelo chão, deixando um rastro de fogo por onde passa.*
 
@@ -414,7 +414,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** por 2 rodadas, a linha pega fogo e vira Terreno Difícil (custa o dobro de Movimento pra atravessar); qualquer criatura hostil que termine o turno nela sofre 1d6 de dano automático
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Força Desesperada**
+**Força Desesperada** *(Moderado)*
 
 *Uma investida desesperada é envolta por uma onda de fogo repentina.*
 
@@ -426,7 +426,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Chama Amaldiçoada**
+**Chama Amaldiçoada** *(Moderado)*
 
 *Explosões de fogo amaldiçoado irrompem repetidamente sobre o alvo.*
 
@@ -435,7 +435,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** o alvo sofre 1d6 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Custo fixo — rola teste de ataque contra a Defesa do alvo)*
 
-**Chama Espelhada**
+**Chama Espelhada** *(Moderado)*
 
 *As chamas amaldiçoadas se espalham em duas direções opostas ao mesmo tempo.*
 
@@ -446,7 +446,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Chama Solar**
+**Chama Solar** *(Moderado)*
 
 *Labaredas explodem para os dois lados, cobrindo a retaguarda e a frente ao mesmo tempo.*
 
@@ -457,7 +457,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Chama Investida**
+**Chama Investida** *(Moderado)*
 
 *Um avanço rápido termina com uma labareda intensa disparada à frente.*
 
@@ -469,7 +469,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Explosão em Massa**
+**Explosão em Massa** *(Maior)*
 
 *Múltiplas explosões irrompem ao redor, uma após a outra.*
 
@@ -480,7 +480,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Golpe Supremo**
+**Golpe Supremo** *(Maior)*
 
 *Uma explosão devastadora irrompe à frente, alcançando tudo em seu caminho.*
 
@@ -491,7 +491,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** 2d12 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Punho Flamejante**
+**Punho Flamejante** *(Moderado)*
 
 *Os punhos se envolvem em chamas antes de um avanço que termina numa explosão.*
 
@@ -514,7 +514,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 4d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Investida Explosiva**
+**Investida Explosiva** *(Maior)*
 
 *O punho crava no chão, impulsionando um avanço que termina num impacto explosivo.*
 
@@ -534,7 +534,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** por 2 rodadas, a linha pega fogo e vira Terreno Difícil (custa o dobro de Movimento pra atravessar); qualquer criatura hostil que termine o turno nela sofre 1d6 de dano automático
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Impacto Meteórico**
+**Impacto Meteórico** *(Moderado)*
 
 *O punho desaba no chão, e o impacto atinge tudo próximo com força de meteoro.*
 
@@ -554,7 +554,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
-**Punho Escaldante**
+**Punho Escaldante** *(Moderado)*
 
 *Um soco simples, mas envolto em calor abrasador.*
 
@@ -583,7 +583,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 3d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo (18) + 3d6 extra em todos, Queimando, e derruba cada alvo
 
-**Lança de Fogo**
+**Lança de Fogo** *(Moderado)*
 
 *Uma lança em chamas é arremessada, atravessando todo o campo de batalha numa linha reta.*
 
@@ -605,7 +605,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 4d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Círculo do Destino**
+**Círculo do Destino** *(Moderado)*
 
 *As duas lâminas se conectam numa roda flamejante, lançada girando contra o inimigo.*
 
@@ -625,7 +625,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** cada alvo sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
-**Explosão de Fogo**
+**Explosão de Fogo** *(Moderado)*
 
 *Um pilar de fogo irrompe do chão, empurrando tudo ao redor com violência.*
 
@@ -655,7 +655,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** cada criatura na área sofre 2d8 de dano automático imediatamente ao usar. Por 2 rodadas, a área permanece em chamas: qualquer criatura hostil que termine o turno lá sofre mais 1d6 de dano automático.
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
-**Chama do Torvelinho**
+**Chama do Torvelinho** *(Moderado)*
 
 *Um giro rápido crava a lâmina no chão, provocando explosões de fogo que arremessam o inimigo pra longe.*
 
@@ -675,7 +675,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, Queimando, e derruba cada alvo
 
-**Rastro Flamejante**
+**Rastro Flamejante** *(Moderado)*
 
 *Um golpe certeiro deixa um rastro de chamas roxas queimando no ar.*
 
@@ -687,7 +687,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Lança Ilusória**
+**Lança Ilusória** *(Moderado)*
 
 *Golpes flamejantes precedem uma lança ilusória arremessada à frente, atravessando tudo no caminho.*
 
@@ -707,7 +707,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, Queimando, e derruba cada alvo
 
-**Muralha Flamejante**
+**Muralha Flamejante** *(Maior)*
 
 *Uma linha de fogo se ergue do chão — quem tentar atravessar sai queimando.*
 
@@ -720,7 +720,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Sombras
 
-**Onda Sombria**
+**Onda Sombria** *(Moderado)*
 
 *Uma onda de energia sombria rasga o chão, arremessando tudo em seu caminho pelos ares.*
 
@@ -731,7 +731,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Choque Maligno**
+**Choque Maligno** *(Moderado)*
 
 *Um feitiço comprimido é liberado num único instante, explodindo com violência.*
 
@@ -742,7 +742,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Fenda Profunda**
+**Fenda Profunda** *(Maior)*
 
 *Magia se acumula perigosamente antes de explodir num estrondo devastador.*
 
@@ -753,7 +753,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** 2d12 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Zona Mortal**
+**Zona Mortal** *(Moderado)*
 
 *O chão se torna um território amaldiçoado, ferindo qualquer um que ouse atravessá-lo.*
 
@@ -762,7 +762,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** por 2 rodadas, a área vira Terreno Difícil, e qualquer criatura hostil que termine o turno nela sofre 1d6 de dano automático
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Lâmina Emboscada**
+**Lâmina Emboscada** *(Moderado)*
 
 *Uma lâmina espectral é fincada no chão a distância, ferindo continuamente quem chegar perto.*
 
@@ -771,7 +771,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** por 2 rodadas, qualquer criatura hostil que termine o turno na área sofre 1d6 de dano automático
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Brilho Caótico**
+**Brilho Caótico** *(Moderado)*
 
 *Uma esfera com espinhos ocultos paira no ar, ferindo tudo ao seu redor continuamente.*
 
@@ -780,7 +780,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** cada criatura hostil na área sofre 1d6 de dano automático imediatamente ao ser invocada, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Esfera das Trevas**
+**Esfera das Trevas** *(Moderado)*
 
 *Uma pressão obscura e invisível esmaga os inimigos próximos, drenando sua força aos poucos.*
 
@@ -789,7 +789,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** cada criatura hostil na área sofre 1d4 de dano automático e -1 no dano de ataques imediatamente ao ser lançada, e mais uma vez no início da rodada seguinte (2 aplicações no total); o -1 no dano dura enquanto a criatura permanecer na área
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Corte Caótico**
+**Corte Caótico** *(Maior)*
 
 *O poder demoníaco mais puro rasga a realidade numa explosão mágica avassaladora.*
 
@@ -806,7 +806,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Sombras | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
 - **Efeito:** 1d8 de dano automático imediatamente e no início de cada uma das 2 rodadas seguintes (3 aplicações no total), e o usuário recupera Vida igual à metade do dano causado em cada aplicação. Ao final da 3ª aplicação, uma onda de choque empurra 2 casas e derruba todas as criaturas hostis ainda na área.
 
-**Esfera Voraz**
+**Esfera Voraz** *(Moderado)*
 
 *Esferas sombrias brotam do nada e explodem ao encostar no alvo.*
 
@@ -817,7 +817,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + alvo perde a próxima Reação + empurra 3 casas e derruba o alvo, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Véu Sombrio**
+**Véu Sombrio** *(Moderado)*
 
 *A conjuradora desaparece por um instante e ressurge no ar, arremessando esferas que deixam queimaduras sombrias.*
 
@@ -826,7 +826,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** cada alvo na área sofre 1d6 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Pisada Colossal**
+**Pisada Colossal** *(Maior)*
 
 *Um pé descomunal se materializa no ar e desaba sobre a área, esmagando tudo por baixo.*
 
@@ -835,7 +835,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo (8) + 1d8 extra em todos, e Atordoado em todos
 
-**Vórtice das Trevas**
+**Vórtice das Trevas** *(Maior)*
 
 *Um vazio se abre no chão, sugando e lançando ao alto quem estiver por perto.*
 
@@ -846,7 +846,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + puxa 1 casa e derruba cada alvo, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Giro Espectral**
+**Giro Espectral** *(Moderado)*
 
 *A conjuradora gira rapidamente, envolta por uma lâmina de energia sombria que corta tudo ao redor.*
 
@@ -884,7 +884,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico:** dano máximo (16) + 2d8 extra + Atordoado por 1 rodada completa
 
-**Força Interminável**
+**Força Interminável** *(Moderado)*
 
 *Uma explosão de energia sombria irrompe do corpo, atingindo tudo ao redor.*
 
@@ -895,7 +895,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Redemoinho Sombrio**
+**Redemoinho Sombrio** *(Moderado)*
 
 *Um redemoinho sombrio se ergue ao redor do corpo, ferindo tudo que estiver perto.*
 
@@ -926,7 +926,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 4d8 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Rajada Sombria**
+**Rajada Sombria** *(Moderado)*
 
 *Uma explosão sombria mira automaticamente o inimigo mais próximo.*
 
@@ -937,7 +937,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Distorção**
+**Distorção** *(Moderado)*
 
 *Uma esfera é posicionada com cuidado antes de explodir com violência total.*
 
@@ -946,7 +946,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** a esfera não causa dano nesse momento; no início do próximo turno do usuário, ela explode, causando 2d6 de dano automático a cada criatura hostil que estiver na área nesse momento
 - *(Sem Intensidade — efeito automático de tempo retardado, sem teste de ataque)*
 
-**Voragem**
+**Voragem** *(Moderado)*
 
 *Um vórtice sombrio se abre à frente, atingindo repetidamente quem estiver dentro.*
 
@@ -957,7 +957,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Carícia da Morte**
+**Carícia da Morte** *(Moderado)*
 
 *O cubo gira furiosamente ao redor do usuário, formando um tornado sombrio.*
 
@@ -968,7 +968,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Sobrecarga**
+**Sobrecarga** *(Maior)*
 
 *Uma esfera carregada é lançada à distância máxima, explodindo com força total no impacto.*
 
@@ -979,7 +979,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Frenesi Sombrio**
+**Frenesi Sombrio** *(Maior)*
 
 *Um pequeno vórtice suga os inimigos próximos, atordoando-os antes de explodir, arremessando-os pro alto.*
 
@@ -999,7 +999,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d6 de dano + puxa 2 casas e cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, puxa 2 casas, e Atordoado em todos
 
-**Selo Sombrio**
+**Selo Sombrio** *(Moderado)*
 
 *Uma marca sombria se espalha pelo chão, prendendo quem pisar nela.*
 
@@ -1008,7 +1008,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** por 2 rodadas, qualquer criatura hostil que termine o turno na área fica [Imóvel](../glossario.md#imovel) até o fim do turno seguinte dela
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Lanças Sombrias**
+**Lanças Sombrias** *(Maior)*
 
 *Um arranjo de lanças sombrias desaba do céu ao redor do usuário.*
 
@@ -1026,7 +1026,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** 1d8 de dano automático imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total). Ao final da 3ª aplicação, uma explosão final causa mais 2d8 de dano automático a todos que ainda estiverem na área.
 - *(Sem Intensidade — efeito automático, sem teste de ataque)*
 
-**Flecha Amaldiçoada**
+**Flecha Amaldiçoada** *(Moderado)*
 
 *Três olhos malignos disparam em sequência, cada um cravando uma maldição diferente.*
 
@@ -1037,7 +1037,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + Sangrando + o próximo ataque do alvo rola com Desvantagem, e o [Sangrando](../glossario.md#sangrando) causa 8d4 em vez de 4d4, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Libertação Limitada**
+**Libertação Limitada** *(Moderado)*
 
 *Uma fração do selo se rompe, e uma lâmina de energia corta tudo à frente.*
 
@@ -1048,7 +1048,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Corte Cruel**
+**Corte Cruel** *(Moderado)*
 
 *Uma esfera de energia condensada avança lentamente antes de se romper num corte violento.*
 
@@ -1088,7 +1088,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 3d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo (18) + 3d6 extra em todos, e derruba cada alvo
 
-**Pilar Sombrio**
+**Pilar Sombrio** *(Moderado)*
 
 *Uma lâmina crava o chão, erguendo um pilar de trevas que fere quem tocar.*
 
@@ -1099,7 +1099,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Filo da Alma**
+**Filo da Alma** *(Maior)*
 
 *Um salto termina num mergulho certeiro, cravando a lâmina no chão e liberando uma explosão de trevas.*
 
@@ -1110,7 +1110,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o usuário se desloca até o ponto + 2d8 de dano, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Chamado da Ruína**
+**Chamado da Ruína** *(Moderado)*
 
 *Um círculo rúnico com um olho ao centro invoca garras sombrias que rasgam o alvo.*
 
@@ -1121,7 +1121,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando), e o [Sangrando](../glossario.md#sangrando) causa 8d4 em vez de 4d4, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Esferas Sombrias**
+**Esferas Sombrias** *(Maior)*
 
 *Orbes de trevas absorvem a vitalidade de quem tocam, devolvendo parte dela ao usuário.*
 
@@ -1132,7 +1132,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Lacaio Reanimado**
+**Lacaio Reanimado** *(Moderado)*
 
 *Um cadáver próximo se ergue, movido por vontade alheia — obedece por pouco tempo, mas obedece sem hesitar.*
 
@@ -1142,7 +1142,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **O lacaio:** tem Defesa 8 e é um alvo válido; o ataque dele rola d100 + Magia do usuário contra a Defesa do alvo. Máximo de **1 lacaio ativo** por vez.
 - *(Sem Intensidade — a invocação em si não exige teste)*
 
-**Zona de Trevas**
+**Zona de Trevas** *(Maior)*
 
 *A luz simplesmente para de chegar ali — e o que vive na escuridão agradece.*
 
@@ -1154,7 +1154,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Luz
 
-**Raio Laser**
+**Raio Laser** *(Maior)*
 
 *Um construto surge do nada e dispara um laser caótico em linha reta, atingindo tudo em seu longo alcance.*
 
@@ -1165,7 +1165,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** 4d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Restrição de Luz**
+**Restrição de Luz** *(Maior)*
 
 *Uma esfera de luz atravessa o alvo e prende sua energia, passando adiante quando encontra outro inimigo.*
 
@@ -1185,7 +1185,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d6 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
 - **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
-**Fragmento do Espírito**
+**Fragmento do Espírito** *(Moderado)*
 
 *Correntes de luz prendem os alvos, sufocando sua capacidade de reagir.*
 
@@ -1205,7 +1205,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
-**Lágrimas Gêmeas**
+**Lágrimas Gêmeas** *(Maior)*
 
 *Dois feixes de luz convergem de ângulos opostos, cruzando-se sobre o alvo.*
 
@@ -1216,7 +1216,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d12 de dano + alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Oráculo**
+**Oráculo** *(Moderado)*
 
 *Um orbe sagrado se rompe em três fragmentos que avançam continuamente, corroendo quem tocarem.*
 
@@ -1225,7 +1225,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Acerto:** cada alvo sofre 1d6 de dano imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Custo fixo — rola um único teste de ataque, comparado à Defesa de cada alvo)*
 
-**Nêmesis**
+**Nêmesis** *(Moderado)*
 
 *Cruzes de luz descem do céu, cada uma mirando um alvo diferente com precisão implacável.*
 
@@ -1244,7 +1244,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Luz | **Alvos:** criaturas hostis em 4 casas de raio ao redor do usuário (dano) + o usuário e aliados na mesma área (cura)
 - **Efeito:** cada inimigo na área sofre 2d8 de dano automático imediatamente ao usar, e cada aliado (inclusive o usuário) recupera 2d8 de Vida.
 
-**Estouro de Luz**
+**Estouro de Luz** *(Maior)*
 
 *Um clarão explode na área — e brilho demais também cega.*
 
@@ -1257,7 +1257,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Água
 
-**Tempestade Caótica**
+**Tempestade Caótica** *(Moderado)*
 
 *Um véu de água gira ao redor do lutador, marcando quem tocar nele — a marca detona pouco depois.*
 
@@ -1266,7 +1266,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** cada criatura hostil na área recebe uma marca de água instável (sem dano nesse momento); no início do próximo turno do usuário, cada marca detona, causando 1d8 de dano à criatura marcada e a qualquer criatura hostil adjacente a ela
 - *(Sem Intensidade — efeito automático de tempo retardado, sem teste de ataque)*
 
-**Estrela Cadente Desperta**
+**Estrela Cadente Desperta** *(Maior)*
 
 *Um teleporte repentino ergue o alvo pelos ares, seguido por um chute descendente que provoca uma explosão de água no impacto.*
 
@@ -1278,7 +1278,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + puxa o alvo 3 casas, ele fica [Lento](../glossario.md#lento) e é derrubado
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Bomba Shuju**
+**Bomba Shuju** *(Moderado)*
 
 *Uma pequena correnteza de água é chutada com força, condensando-se numa esfera compacta.*
 
@@ -1289,7 +1289,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + puxa o alvo 3 casas, ele fica [Lento](../glossario.md#lento) e é derrubado
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Poça d'Água**
+**Poça d'Água** *(Moderado)*
 
 *Uma poça se forma no chão, enfraquecendo a defesa de quem pisar nela.*
 
@@ -1298,7 +1298,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** por 2 rodadas, a área vira Terreno Difícil (custa o dobro de Movimento pra atravessar); qualquer criatura hostil que termine o turno nela perde 2 de Defesa até o fim do turno seguinte dela
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Correntes de Água**
+**Correntes de Água** *(Moderado)*
 
 *Tentáculos líquidos brotam do chão, prendendo os pés de quem passa por perto.*
 
@@ -1309,7 +1309,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + puxa o alvo 3 casas, ele fica [Lento](../glossario.md#lento) e é derrubado
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Véu de Vapor**
+**Véu de Vapor** *(Maior)*
 
 *Um véu de vapor quente envolve o usuário, turvando a mira de quem tenta acertá-lo.*
 
@@ -1321,7 +1321,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** 4 rodadas
 - *(Sem teste de ataque — habilidade de buff)*
 
-**Abraço das Profundezas**
+**Abraço das Profundezas** *(Maior)*
 
 *A água se ergue e engole o alvo por completo, arrastando-o para baixo.*
 
@@ -1343,7 +1343,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Vento
 
-**Rajada de Ventos**
+**Rajada de Ventos** *(Moderado)*
 
 *Duas lufadas de vento cortante disparam do leque em sequência.*
 
@@ -1354,7 +1354,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 6 casas e derruba
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Ventos Cruzados**
+**Ventos Cruzados** *(Maior)*
 
 *Dois tornados se abrem em direções opostas, arrastando quem estiver por perto.*
 
@@ -1365,7 +1365,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + empurra 6 casas e derruba
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Vendaval Reverso**
+**Vendaval Reverso** *(Moderado)*
 
 *Um giro brusco lança um redemoinho de vento pra trás do usuário.*
 
@@ -1376,7 +1376,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 6 casas e derruba
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Lâminas de Ar**
+**Lâminas de Ar** *(Moderado)*
 
 *Cortes invisíveis de vento comprimido rasgam o ar, atingindo tudo à frente.*
 
@@ -1387,7 +1387,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + empurra 6 casas e derruba
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Passos do Vento**
+**Passos do Vento** *(Maior)*
 
 *Uma brisa constante envolve as pernas do usuário, tornando cada passo mais leve que o normal.*
 
@@ -1408,7 +1408,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** quando for alvo de um ataque, o usuário pode usar esta habilidade como Reação para se mover até 2 casas antes do ataque resolver — se isso tirar o usuário do alcance ou área do ataque, ele erra automaticamente
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
 
-**Olhos do Vento**
+**Olhos do Vento** *(Menor)*
 
 *Uma corrente de ar sobe alto no céu e volta trazendo consigo uma visão nítida de tudo ao redor.*
 
@@ -1428,20 +1428,20 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Veneno
 
-*Habilidades de Veneno, por padrão, checam [Fortitude Física](../glossario.md#fortitude-fisica) do alvo em vez de Evasão — veneno ataca a resistência do corpo, não os reflexos.*
+*Habilidades de Veneno que miram uma criatura usam [Teste de Resistência](regras.md#teste-de-resistencia) em vez de ataque — veneno age na resistência do corpo, não nos reflexos, então não há golpe pra acertar: é o **alvo** quem rola d100 + [Defesa](../glossario.md#defesa) contra a [Fortitude Mágica](../glossario.md#fortitude-magica) do usuário. Passou, o veneno não pega. As de zona (Névoa Corrosiva) continuam automáticas: quem fica na área sofre, sem rolagem de lado nenhum.*
 
-**Picada Tóxica**
+**Picada Tóxica** *(Moderado)*
 
 *Uma agulha invisível de veneno perfura a pele — a dor real só vem depois.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Atributo:** Magia | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** alvo fica [Envenenado](../glossario.md#envenenado)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** [Envenenado](../glossario.md#envenenado) com 2 acúmulos (8d4 por turno)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** [Envenenado](../glossario.md#envenenado) com 3 acúmulos (12d4 por turno)
 - **Crítico:** 1d6 de dano imediato, e sobe 1 Intensidade
 
-**Névoa Corrosiva**
+**Névoa Corrosiva** *(Moderado)*
 
 *Uma nuvem verde se espalha rasteira pelo chão, corroendo tudo que respira dentro dela.*
 
@@ -1450,23 +1450,23 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Efeito:** por 2 rodadas, qualquer criatura que termine o turno dentro da área sofre 1d6 de dano automático
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
-**Toque Debilitante**
+**Toque Debilitante** *(Moderado)*
 
 *Um veneno lento entra na corrente sanguínea, e a força do alvo esvai junto com ele.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Atributo:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** alvo fica [Envenenado](../glossario.md#envenenado)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** [Envenenado](../glossario.md#envenenado) com 2 acúmulos (8d4 por turno)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** [Envenenado](../glossario.md#envenenado) com 3 acúmulos (12d4 por turno)
 - **Crítico:** sobe 1 Intensidade
 
-**Chuva Ácida**
+**Chuva Ácida** *(Maior)*
 
 *Gotas corrosivas caem do nada, dissolvendo tudo que tocam.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Atributo:** Magia | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Envenenado](../glossario.md#envenenado)
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + [Envenenado](../glossario.md#envenenado) com 2 acúmulos (8d4 por turno)
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + [Envenenado](../glossario.md#envenenado) com 3 acúmulos (12d4 por turno)
@@ -1477,7 +1477,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma doença impossível se espalha pelo ar, apodrecendo tudo que ainda respira num raio enorme.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Veneno | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Veneno | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
 - **Acerto:** 2d8 de dano + [Envenenado](../glossario.md#envenenado) com 3 acúmulos (12d4 por turno)
 - **Crítico:** dano máximo (16) + 2d8 extra em todos, Envenenado, e -5 em Ataque, Defesa e Agilidade até o fim do combate
 
@@ -1586,7 +1586,7 @@ Mana moldada sem forma elemental nenhuma — força pura, sem fogo, sem gelo, se
 vontade de quem lança. É o elemento sem assinatura própria: onde os outros dez sempre vêm com
 um efeito colateral característico (queima, prende, empurra...), o Arcano é só o golpe, cru.
 
-**Arrasador**
+**Arrasador** *(Moderado)*
 
 *Um golpe de força pura arremessa o alvo para longe com violência.*
 
@@ -1597,7 +1597,7 @@ um efeito colateral característico (queima, prende, empurra...), o Arcano é s�
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 7 casas e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Força Perfeita**
+**Força Perfeita** *(Moderado)*
 
 *Um golpe puro de energia condensada atinge o alvo com precisão absoluta.*
 
@@ -1608,7 +1608,7 @@ um efeito colateral característico (queima, prende, empurra...), o Arcano é s�
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 6 casas e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Impacto Arcano**
+**Impacto Arcano** *(Moderado)*
 
 *Toda a energia da lâmina é canalizada num único disparo à frente, crescendo em intensidade.*
 
@@ -1619,7 +1619,7 @@ um efeito colateral característico (queima, prende, empurra...), o Arcano é s�
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 6 casas e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Disparo Voraz**
+**Disparo Voraz** *(Moderado)*
 
 *Um projétil compacto de energia crua dispara às pressas contra o alvo.*
 
@@ -1630,7 +1630,7 @@ um efeito colateral característico (queima, prende, empurra...), o Arcano é s�
 - **Intensidade III — ◈◈◈ (3 PA) + 21 Mana:** 2d10 de dano + empurra 1 casa e derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Feitiço Instável**
+**Feitiço Instável** *(Maior)*
 
 *A magia escapa do controle no instante em que é lançada — quanto mais poder você bombeia nela, mais violento é o que vai acontecer, nem quem lança sabe o quê.*
 
@@ -1659,7 +1659,7 @@ um efeito colateral característico (queima, prende, empurra...), o Arcano é s�
 - **6:** o usuário recupera 4d6 de Mana
 - *(Sem Crítico — o resultado vem da rolagem no d6, não de um teste de ataque)*
 
-**Implosão Espacial**
+**Implosão Espacial** *(Maior)*
 
 *O espaço se fecha atrás do usuário — e tudo que estava perto dele é puxado pro vazio que sobrou.*
 

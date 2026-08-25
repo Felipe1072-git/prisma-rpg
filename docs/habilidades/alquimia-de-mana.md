@@ -4,7 +4,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 
 ## Habilidades Gerais
 
-**Corpo Fortalecido**
+**Corpo Fortalecido** *(Maior)*
 
 *Uma aura visível envolve o corpo, endurecendo a pele como se fosse aço.*
 
@@ -14,7 +14,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 3 rodadas, o usuário reduz em 3 o dano recebido (mínimo 1) e não pode ser derrubado.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 4 rodadas, o usuário reduz em 3 o dano recebido (mínimo 1) e não pode ser derrubado.
 
-**Fúria da Arma**
+**Fúria da Arma** *(Maior)*
 
 *O leque é envolto por uma aura corrosiva — cada golpe passa a deixar marcas duradouras.*
 
@@ -24,7 +24,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 2 rodadas, os ataques do usuário que causarem dano também aplicam Sangrando (perde 8d4 de Vida no início do próximo turno do alvo) — não empilha num mesmo alvo.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 2 rodadas, os ataques do usuário que causarem dano também aplicam Sangrando (perde 12d4 de Vida no início do próximo turno do alvo) — não empilha num mesmo alvo.
 
-**Terra Que Cede**
+**Terra Que Cede** *(Maior)*
 
 *A pedra lembra que já foi lama — e por quanto tempo ela esquece de novo é você quem decide.*
 
@@ -35,7 +35,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o mesmo, **permanente** — só volta ao normal se outro efeito (ou o próprio usuário, reaplicando esta habilidade) desfizer.
 - *(Sem Crítico — não há rolagem de ataque nesta habilidade)*
 
-**Enrijecer**
+**Enrijecer** *(Maior)*
 
 *O metal amassado se realinha sozinho — não fica bonito, mas aguenta o próximo golpe. Na pele de quem carrega o dom, o mesmo princípio vira couraça viva: pedra, aço, casca de árvore, o que for preciso.*
 
@@ -46,7 +46,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o mesmo, com 3d8 pontos e Imunidade a um tipo de dano físico à escolha.
 - *(Sem Crítico — não há rolagem de ataque nesta habilidade)*
 
-**Reagente de Combate**
+**Reagente de Combate** *(Maior)*
 
 *Um frasco se quebra contra a lâmina — por um instante, a arma não é só metal.*
 
@@ -58,7 +58,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 4 rodadas, o mesmo que a Intensidade II.
 - *(Sem Crítico — o efeito já é a condição em si, não um dano bônus)*
 
-**Frasco de Emergência**
+**Frasco de Emergência** *(Maior)*
 
 *Não é fé. É química — e cura o que reza nenhuma alcança.*
 
@@ -69,7 +69,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** remove Envenenado e qualquer outra condição prejudicial de origem não-mágica (toxina, doença, veneno de item) do alvo, e ele recupera 3d4 de Vida.
 - *(Sem Crítico — habilidade de cura, sem teste de ataque)*
 
-**Bolso de Reagentes**
+**Bolso de Reagentes** *(Moderado)*
 
 *Um punhado de pó vira exatamente a ferramenta que a situação pede — mesmo no meio da briga.*
 
@@ -89,7 +89,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade II — 0 PA + 18 Mana:** o mesmo, reduzindo em 2d6, e o atacante sofre 1d6 de volta.
 - **Intensidade III — 0 PA + 27 Mana:** o mesmo, reduzindo em 3d6, e o atacante sofre 2d6 de volta.
 
-**Corrosão**
+**Corrosão** *(Moderado)*
 
 *Nada resiste por muito tempo — pedra, ferro ou carne, tudo cede à mesma química.*
 
@@ -100,7 +100,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** contra criatura, 2d8 de dano + o mesmo, por 3 rodadas, com -4 de Evasão e -3 no dano de ataques; se o item empunhado pelo alvo já for frágil ou de baixa qualidade, o Mestre pode declará-lo destruído de vez. Contra objeto/estrutura, dissolve uma seção grande — o suficiente pra abrir uma brecha numa muralha, derrubar uma coluna estrutural, afundar um barco pequeno (o Mestre define o limite exato caso a caso).
 - **Crítico (só contra criatura):** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Peso Alterado**
+**Peso Alterado** *(Maior)*
 
 *A matéria esquece por um instante o quanto deveria pesar.*
 
@@ -111,7 +111,7 @@ Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, por 3 rodadas, com +4/−4 de Movimento.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, por 4 rodadas, com +5/−5 de Movimento.
 
-**Exército de Refugo**
+**Exército de Refugo** *(Maior)*
 
 *Um monte de sucata perde o direito de continuar parado.*
 

@@ -6,7 +6,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 
 ## Habilidades Gerais
 
-**Dança Élfica**
+**Dança Élfica** *(Moderado)*
 
 *Duas cópias etéreas surgem ao lado da arqueira, disparando em perfeita sincronia.*
 
@@ -15,7 +15,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 - **Efeito:** invoca 2 clones que desaparecem no fim da rodada. Cada clone rola seu próprio teste (d100 + Ataque) contra um alvo à escolha e, em acerto, aplica o efeito da Intensidade I da [Rajada de Flechas](../equipamento/index.md#equ-arco) (1d8 de dano + alvo fica [Marcado](../glossario.md#marcado)).
 - *(Sem Intensidade própria — cada clone entrega o efeito base da Rajada de Flechas)*
 
-**Investida Certeira**
+**Investida Certeira** *(Moderado)*
 
 *Um tiro à distância abre caminho para um avanço repentino, seguido por um chute e uma rajada final.*
 
@@ -26,7 +26,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até o alvo + 2d8 de dano + empurra 1 casa e derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Salto Certeiro**
+**Salto Certeiro** *(Moderado)*
 
 *Um salto acrobático dispara tiros às cegas contra tudo que estiver embaixo.*
 
@@ -37,7 +37,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + empurra 1 casa cada alvo, e cada alvo fica [Marcado](../glossario.md#marcado)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Tiro Concentrado**
+**Tiro Concentrado** *(Moderado)*
 
 *Toda a força é canalizada num único disparo devastador.*
 
@@ -48,7 +48,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 7 casas e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Rodamoinho de Balas**
+**Rodamoinho de Balas** *(Maior)*
 
 *Uma rajada de tiros dispara em todas as direções enquanto o atirador gira sem parar.*
 
@@ -79,7 +79,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 - **Acerto:** 6d10 de dano + Sangrando + empurra 5 casas e derruba o alvo
 - **Crítico:** dano máximo (60) + 6d10 extra, Sangrando, empurra 5 casas, e derruba o alvo
 
-**Flecha Perfurante**
+**Flecha Perfurante** *(Moderado)*
 
 *Uma flecha perfurante avança lentamente pelo alvo, causando múltiplos golpes conforme atravessa.*
 
@@ -101,7 +101,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 ao alvo principal, e 2d8 na área + empurra 1 casa e derruba todos na explosão, e o alvo principal perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual no alvo principal, e sobe 1 Intensidade
 
-**Flecha com Intenção**
+**Flecha com Intenção** *(Maior)*
 
 *O disparo carrega mais que ponta e penas — carrega uma intenção específica.*
 
@@ -113,7 +113,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + o mesmo efeito, e o alvo também fica [Sangrando](../glossario.md#sangrando)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Cerco de Flechas**
+**Cerco de Flechas** *(Moderado)*
 
 *Um campo minado de aço e magia, invisível até o momento errado de pisar nele.*
 

@@ -4,7 +4,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 
 ## Habilidades Gerais
 
-**Ver Espíritos**
+**Ver Espíritos** *(Menor)*
 
 *Ele para de olhar o que está na sala e começa a olhar o que está junto dela.*
 
@@ -13,7 +13,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Efeito:** até o fim da [cena](../glossario.md#cena), enxerga criaturas incorpóreas, escondidas e disfarçadas a até **12 casas**, e sabe quem está [Possuído](../glossario.md#possuido) e por quem.
 - *(Sem Intensidade — habilidade de detecção, sem teste de ataque)*
 
-**Olhar Que Enxerga o Encanto**
+**Olhar Que Enxerga o Encanto** *(Menor)*
 
 *A magia deixa rastro pra quem sabe olhar — e agora você sabe.*
 
@@ -22,7 +22,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Efeito:** até o fim da [cena](../glossario.md#cena), enxerga auras de magia ativa — itens encantados, feitiços de ilusão, armadilhas mágicas — mesmo escondidas ou disfarçadas.
 - *(Sem Intensidade — habilidade de detecção, sem teste de ataque)*
 
-**Segunda Visão**
+**Segunda Visão** *(Menor)*
 
 *A verdade tem um brilho diferente — e a mentira, um tremor que ninguém mais nota.*
 
@@ -31,7 +31,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Efeito:** até o fim da [cena](../glossario.md#cena), o usuário enxerga armadilhas escondidas (mágicas ou mecânicas) a até 6 casas, e sabe quando alguém que ele consegue ver está mentindo deliberadamente — não sabe a verdade, só que a fala não é sincera.
 - *(Sem Intensidade — habilidade de detecção, sem teste de ataque)*
 
-**Vislumbre**
+**Vislumbre** *(Moderado)*
 
 *A pedra não esconde nada de quem sabe olhar pelo resíduo que a vida deixa nela.*
 
@@ -40,7 +40,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Efeito:** por um instante, o usuário enxerga através de até 2 obstáculos sólidos (paredes, portas, o chão de cima) na direção apontada — o suficiente pra saber o que tem do outro lado antes de abrir a porta. Não dura além do próprio turno do usuário.
 - *(Sem Intensidade — habilidade de detecção, sem teste de ataque)*
 
-**Instinto de Combate**
+**Instinto de Combate** *(Menor)*
 
 *Antes do primeiro golpe, o corpo já sabe o que vai acontecer.*
 
@@ -49,7 +49,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Efeito:** só pode ser usada antes da rolagem de Iniciativa (quando o usuário sabe que o combate está prestes a começar). O usuário rola Iniciativa com [Vantagem](../glossario.md#vantagem).
 - *(Sem Intensidade — habilidade utilitária, sem teste de ataque)*
 
-**Fenda no Instante**
+**Fenda no Instante** *(Maior)*
 
 *Um piscar de olhos mostra o golpe antes dele acontecer — tempo o bastante pra garantir que ele não erre.*
 
@@ -60,7 +60,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, e esse ataque conta como um **Crítico** automático — dano máximo do dado da arma + uma rolagem extra.
 - *(Sem teste de ataque nesta habilidade — ela só garante o próximo ataque do alvo, não ataca por si mesma)*
 
-**Rastro Arcano**
+**Rastro Arcano** *(Moderado)*
 
 *Toda magia deixa marca — e a marca não sabe se esconder de quem procura por ela.*
 
@@ -69,7 +69,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Efeito:** o usuário sente a direção geral (não a distância exata) de onde essa criatura está agora, desde que ela tenha usado Mana em algum momento das últimas 24 horas. Não funciona em criaturas sem Mana. Só pode ser usada uma vez por [descanso curto](../jogar/exploracao.md#descanso) sobre o mesmo alvo.
 - *(Sem Intensidade — habilidade de detecção, sem teste de ataque)*
 
-**Olho que Não Pisca**
+**Olho que Não Pisca** *(Menor)*
 
 *Disfarce, ilusão, invisibilidade — pra esse olhar, é tudo a mesma coisa: transparente.*
 
@@ -89,7 +89,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Intensidade II — 0 PA + 18 Mana:** o mesmo, e se o ataque ainda assim acertar, reduz o dano recebido em 1d6 (mínimo 1).
 - **Intensidade III — 0 PA + 27 Mana:** o mesmo, reduzindo em 2d6; se o ataque errar mesmo assim, o usuário identifica exatamente de onde ele veio, mesmo se estivesse escondido.
 
-**Primeira Leitura**
+**Primeira Leitura** *(Maior)*
 
 *A esfera pisca uma vez, processa o que consegue, e sussurra o primeiro dado que encontrou.*
 
@@ -101,7 +101,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Memória:** uma vez revelada qualquer informação sobre um *tipo* de criatura, a IA já sabe — não precisa pagar a habilidade de novo pra esse tipo, a não ser que o Mestre julgue que aquele indivíduo está alterado o bastante pra invalidar o que ela sabia.
 - *(Sem teste de ataque nesta habilidade — a Intensidade escolhe só quantos alvos a IA processa de uma vez)*
 
-**Banco de Dados**
+**Banco de Dados** *(Moderado)*
 
 *Ela nunca esteve nesse lugar, mas já leu sobre lugares parecidos — e agora está catalogando este também.*
 

@@ -6,7 +6,7 @@ Companheiro Animal (escala com o nível do personagem, não com Mana).
 
 ## Habilidades Gerais
 
-**Olhos Emprestados**
+**Olhos Emprestados** *(Menor)*
 
 *Um corvo pousa no ombro, e o mundo que ele vê passa a ser visível também pelos olhos de quem o convocou.*
 
@@ -18,7 +18,7 @@ Companheiro Animal (escala com o nível do personagem, não com Mana).
 - **Consequência de morte:** se reduzido a 0 de Vida, o corvo se dissolve e reaparece no início do próximo [descanso curto](../jogar/exploracao.md#descanso) do usuário.
 - *(Sem Intensidade — Custo fixo, habilidade utilitária)*
 
-**Chama de Bolso**
+**Chama de Bolso** *(Menor)*
 
 *Uma pequena chama-fada paira ao lado do ombro, iluminando o caminho e não se apagando nem no vento mais forte.*
 
@@ -30,7 +30,7 @@ Companheiro Animal (escala com o nível do personagem, não com Mana).
 - **Consequência de morte:** se reduzida a 0 de Vida (ou apagada por um efeito que anule fogo), a chama se dissolve e reaparece no início do próximo [descanso curto](../jogar/exploracao.md#descanso) do usuário.
 - *(Sem Intensidade — Custo fixo, habilidade utilitária)*
 
-**Espada Vingadora**
+**Espada Vingadora** *(Maior)*
 
 *Espadas espectrais brotam do chão continuamente, perfurando qualquer um que passe por perto.*
 
@@ -188,7 +188,7 @@ Intensidade pra ancorar o custo).
 - **Efeito:** o Companheiro ganha uma forma de disfarce — pequena e discreta, mas que não muda a força real dele: mesma Vida, Evasão e Movimento da tabela de progressão por nível. Nessa forma, ele simplesmente escolhe não atacar (fica quieto, some na paisagem) e ganha [Vantagem](../glossario.md#vantagem) em qualquer teste pra passar despercebido, além de caber em espaços que a forma verdadeira não caberia. Alternar entre a forma verdadeira e o disfarce é uma ação livre, sem custo de Mana ou PA — inclusive fora do próprio turno do usuário, como reação a uma ameaça surgindo.
 - *(Sem Intensidade — habilidade utilitária: a força do Companheiro nunca muda, só a aparência e o comportamento dele)*
 
-**Fúria Desperta**
+**Fúria Desperta** *(Maior)*
 
 *Sem freio, sem cautela — só a fera, inteira.*
 

@@ -4,7 +4,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 
 ## Habilidades Gerais
 
-**Repouso Forçado**
+**Repouso Forçado** *(Maior)*
 
 *Uma calma sobrenatural toma conta do inimigo, apagando por completo sua vontade de lutar.*
 
@@ -15,7 +15,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Medo Puro**
+**Medo Puro** *(Maior)*
 
 *O terror não precisa de motivo — só precisa de um segundo dentro da mente do alvo.*
 
@@ -26,7 +26,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + por 2 rodadas, o alvo não pode se aproximar nem atacar o usuário.
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Ruído Branco**
+**Ruído Branco** *(Maior)*
 
 *Pensamentos que não são seus se misturam aos que são — e por um instante, não dá pra saber qual comando obedecer.*
 
@@ -37,7 +37,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + Desvantagem em todos os ataques do alvo até o fim do próprio próximo turno, e há 50% de chance (o Mestre rola) dele atacar a criatura mais próxima — aliada ou não — em vez do alvo pretendido.
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Ler a Superfície**
+**Ler a Superfície** *(Moderado)*
 
 *Não é preciso invadir — só ouvir o que já está gritando por dentro.*
 
@@ -46,7 +46,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Efeito:** role d100 + Magia contra a Fortitude Mágica do alvo. Passando, o usuário lê o pensamento mais superficial e presente na mente dele agora — a intenção do próximo turno, uma mentira prestes a ser dita, o nome de quem ele mais teme. O Mestre decide o que é relevante ali; não funciona em mentes protegidas ou não-conscientes.
 - *(Sem Intensidade — habilidade de detecção, escala só no que é revelado, a critério do Mestre)*
 
-**Miragem**
+**Miragem** *(Maior)*
 
 *Os olhos veem o que a mente projeta — e a mente, nesse instante, não é mais sua.*
 
@@ -57,7 +57,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** por 3 rodadas, a ilusão engana também o toque (parece sólida ao contato) — só um teste ativo de investigação, a critério do Mestre, revela a farsa.
 - *(Sem Crítico — não há rolagem de ataque nesta habilidade; é ilusão, não dano)*
 
-**Grito Silencioso**
+**Grito Silencioso** *(Moderado)*
 
 *Não sai som nenhum — mas do lado de dentro, ainda assim, dói.*
 
@@ -68,7 +68,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano, e o alvo perde 4 Mana e rola o próximo teste de Social com Desvantagem.
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Voz Sem Boca**
+**Voz Sem Boca** *(Menor)*
 
 *A frase chega direto onde precisa chegar — nenhum ouvido no meio do caminho a intercepta.*
 
@@ -77,7 +77,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Efeito:** por até 10 minutos, o usuário e os alvos compartilham um canal telepático — podem se comunicar (palavras, imagens simples) enquanto estiverem dentro do alcance, mesmo sem se ver ou ouvir.
 - *(Sem Intensidade — habilidade utilitária, sem teste de ataque)*
 
-**Colapso Mental**
+**Colapso Mental** *(Maior)*
 
 *Todo mundo na área ouve, ao mesmo tempo, o próprio medo mais fundo — e não tem como não reagir.*
 
@@ -86,7 +86,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 - **Acerto:** 2d10 de dano + cada alvo não pode usar Habilidades (só Movimento, Ataque Básico e Reação) até o fim do próprio próximo turno.
 - **Crítico:** dano máximo (20) + 2d10 extra em todos
 
-**Mão Invisível**
+**Mão Invisível** *(Moderado)*
 
 *Um puxão sem mãos, um empurrão sem dedos — a distância deixa de ser um problema.*
 

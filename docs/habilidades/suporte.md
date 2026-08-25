@@ -4,7 +4,7 @@ Cura e apoio a aliados.
 
 ## Habilidades Gerais
 
-**Cura**
+**Cura** *(Maior)*
 
 *Uma luz morna escorre pelas feridas, fechando o que a batalha abriu.*
 
@@ -14,7 +14,7 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** cada alvo recupera 3d6 + Magia de Vida
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** cada alvo recupera 4d6 + Magia de Vida
 
-**O Amor Está no Ar**
+**O Amor Está no Ar** *(Maior)*
 
 *Uma canção suave preenche o ar, e as feridas dos companheiros começam a fechar aos poucos.*
 
@@ -24,7 +24,7 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 27 Mana:** por 3 rodadas, no início de cada rodada, cada alvo recupera 2d4 + Magia de Vida. Se isso trouxer um aliado caído de volta a 1 ou mais pontos de Vida, ele revive automaticamente.
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** por 3 rodadas, no início de cada rodada, cada alvo recupera 3d4 + Magia de Vida. Se isso trouxer um aliado caído de volta a 1 ou mais pontos de Vida, ele revive automaticamente.
 
-**Ressuscitar**
+**Ressuscitar** *(Supremo)*
 
 *Um sussurro da natureza convence o espírito a voltar, ainda que por pouco tempo.*
 
@@ -37,7 +37,7 @@ Cura e apoio a aliados.
 - **Crítico (100, ou dentro do limiar de Crítico):** sucesso — o aliado revive com 50% da Vida máxima
 - *(Sem Intensidade — o d100 aqui decide o **resultado** da ressurreição, não a potência dela. Ver [Habilidades com Tiers de Resultado](regras.md#habilidades-com-tiers-de-resultado))*
 
-**Glória**
+**Glória** *(Maior)*
 
 *Poder divino invocado em súplica restaura as feridas de todos por perto.*
 
@@ -47,7 +47,7 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 27 Mana:** o mesmo, com 3d4 + Magia imediato e 2d4 nas rodadas seguintes
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** o mesmo, com 4d4 + Magia imediato e 3d4 nas rodadas seguintes
 
-**Bênção Alquímica**
+**Bênção Alquímica** *(Maior)*
 
 *Um frasco de energia curativa se rompe sobre o aliado, fechando feridas na hora.*
 
@@ -57,7 +57,7 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** o alvo recupera 3d6 + Magia de Vida, e ganha um Escudo de 2d4 pontos.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** o alvo recupera 4d6 + Magia de Vida, e ganha um Escudo de 3d4 pontos.
 
-**Rapsódia**
+**Rapsódia** *(Maior)*
 
 *Uma melodia suave acelera o fluxo de energia mágica de quem a escuta.*
 
@@ -68,7 +68,7 @@ Cura e apoio a aliados.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** cada alvo recupera 3d6 de Mana imediatamente.
 - *(Só pode ser usada em combate.)*
 
-**Palco Central**
+**Palco Central** *(Maior)*
 
 *Um palco se ergue sob os pés da usuária — pilares de luz emergem e restauram a vitalidade de quem estiver por perto.*
 
@@ -78,7 +78,7 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 27 Mana:** cada alvo recupera 2d8 + Magia de Vida imediatamente ao usar, e mais 2d4 de Vida no início de cada um dos 2 turnos seguintes do usuário.
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** cada alvo recupera 3d8 + Magia de Vida imediatamente ao usar, e mais 3d4 de Vida no início de cada um dos 2 turnos seguintes do usuário.
 
-**Dança Encantadora**
+**Dança Encantadora** *(Maior)*
 
 *Uma dança envolve um oponente, que sai tonto e machucado — os aliados ao redor saem revigorados pelo espetáculo.*
 
@@ -88,7 +88,7 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** o alvo sofre 2d6 de dano imediatamente ao usar (rola teste de ataque contra a Evasão dele). Usuário e aliados na área recuperam 2d6 + Magia de Vida.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** o alvo sofre 3d6 de dano imediatamente ao usar (rola teste de ataque contra a Evasão dele). Usuário e aliados na área recuperam 3d6 + Magia de Vida.
 
-**Divisor de Mana**
+**Divisor de Mana** *(Maior)*
 
 *Um pequeno construto de metal irradia um campo que acelera a recuperação de mana de quem estiver por perto.*
 
@@ -99,7 +99,7 @@ Cura e apoio a aliados.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** cada alvo recupera 3d8 de Mana imediatamente.
 - *(Só pode ser usada em combate.)*
 
-**Ordem de Ataque**
+**Ordem de Ataque** *(Moderado)*
 
 *Um comando claro corta a confusão da batalha — o aliado certo age no momento certo.*
 
@@ -108,7 +108,7 @@ Cura e apoio a aliados.
 - **Efeito:** o aliado escolhido ganha +1 Ponto de Ação extra, utilizável imediatamente (antes do próprio turno dele).
 - *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
 
-**Exorcismo**
+**Exorcismo** *(Moderado)*
 
 *A ordem não é gritada. É dita uma vez, e o que não pertence ali obedece.*
 
@@ -117,7 +117,7 @@ Cura e apoio a aliados.
 - **Efeito:** role **d100 + Magia** contra a Fortitude Mágica de quem controla o alvo. Passando, encerra **qualquer efeito que esteja controlando as ações do alvo** — [Possuído](../glossario.md#possuido), encantamento e afins. Um possuidor expulso reaparece adjacente e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele.
 - *(Sem Intensidade — o efeito é absoluto: ou o controle acaba, ou não)*
 
-**Solo Consagrado**
+**Solo Consagrado** *(Maior)*
 
 *O chão deixa de ser neutro.*
 
@@ -126,7 +126,7 @@ Cura e apoio a aliados.
 - **Efeito:** por **3 rodadas**, mortos-vivos não entram na área (quem já estava dentro pode sair, não voltar), ninguém dentro pode ficar [Possuído](../glossario.md#possuido), e quem já estiver Possuído rola o teste de expulsar com [Vantagem](../glossario.md#vantagem).
 - *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](regras.md#intensidade))*
 
-**Vínculo Guardião**
+**Vínculo Guardião** *(Moderado)*
 
 *Ele não protege o corpo do aliado. Protege a porta.*
 
@@ -135,7 +135,7 @@ Cura e apoio a aliados.
 - **Efeito:** até o fim da [cena](../glossario.md#cena), o aliado não pode ficar [Possuído](../glossario.md#possuido) e rola com [Vantagem](../glossario.md#vantagem) contra qualquer efeito mental. Toda vez que um desses efeitos falhar por causa deste vínculo, o **usuário** sofre 2d6 de dano — a porta é ele.
 - *(Sem Intensidade — habilidade de suporte, sem teste de ataque)*
 
-**Odre Sem Fundo**
+**Odre Sem Fundo** *(Menor)*
 
 *Um cantil comum, que nunca esvazia de verdade.*
 
@@ -144,7 +144,7 @@ Cura e apoio a aliados.
 - **Efeito:** cria comida e água limpa suficiente pra alimentar todos os alvos por 1 dia. Só pode ser usada fora de combate, no máximo uma vez por [descanso longo](../jogar/exploracao.md#descanso).
 - *(Sem Intensidade — habilidade utilitária, sem teste de ataque)*
 
-**Palavra Que Sustenta**
+**Palavra Que Sustenta** *(Maior)*
 
 *Uma frase dita no calor da batalha fica guardada com quem a ouviu, pronta pra virar força na hora certa.*
 
@@ -155,7 +155,7 @@ Cura e apoio a aliados.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o mesmo, com um **d10** guardado
 - *(Sem Crítico — não há rolagem de ataque nesta habilidade)*
 
-**Fagulha Divina**
+**Fagulha Divina** *(Maior)*
 
 *Um pingo de luz sai da mão do usuário — cura quem precisa, ou fere quem ataca.*
 
@@ -175,7 +175,7 @@ Cura e apoio a aliados.
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Efeito:** uma vez em cada um dos próprios turnos, quando o usuário acertar uma criatura com um ataque de arma, causa +1d6 de dano Arcano extra.
 
-**Preservar Vida**
+**Preservar Vida** *(Maior)*
 
 *Um total de energia curativa se divide entre os feridos, cada um recebendo o que precisa.*
 
@@ -197,7 +197,7 @@ Cura e apoio a aliados.
 - **Intensidade II — 0 PA + 24 Mana:** o mesmo, reduzindo o dano a um terço.
 - **Intensidade III — 0 PA + 33 Mana:** o mesmo, reduzindo o dano a um quarto.
 
-**Toque que Purifica**
+**Toque que Purifica** *(Maior)*
 
 *A mesma mão que fecha a ferida também desfaz o que a envenenou.*
 
@@ -261,7 +261,7 @@ Cura e apoio a aliados.
 - **Intensidade II — 0 PA + 27 Mana:** o mesmo, com 3d6 de dano nos inimigos próximos.
 - **Intensidade III — 0 PA + 36 Mana:** o mesmo, com 4d6 de dano, e cada inimigo atingido rola o próximo ataque que fizer com [Desvantagem](../glossario.md#desvantagem).
 
-**Refúgio de Bolso**
+**Refúgio de Bolso** *(Moderado)*
 
 *Uma fenda se abre no ar — do outro lado, nada pode alcançar quem entrar.*
 
@@ -289,7 +289,7 @@ Cura e apoio a aliados.
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Efeito:** sempre que o usuário terminar um [descanso curto](../jogar/exploracao.md#descanso), ele remove 1 grau de [Exausto](../glossario.md#exausto) próprio — desde que a causa daquele grau já tenha sido resolvida (comeu, bebeu, se aqueceu), a mesma condição que já vale pra descanso longo.
 
-**Fortalecer o Limite**
+**Fortalecer o Limite** *(Maior)*
 
 *Não é só a ferida que fecha — o próprio limite do corpo se expande por um instante.*
 
@@ -299,7 +299,7 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** o mesmo, com 2d8 + Magia, por 4 rodadas.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** o mesmo, com 3d8 + Magia, por 5 rodadas.
 
-**Cálculo de Impacto**
+**Cálculo de Impacto** *(Maior)*
 
 *A IA calcula o ângulo, a distância, o instante certo — e sussurra a correção final um piscar antes do golpe.*
 
@@ -310,7 +310,7 @@ Cura e apoio a aliados.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, +6, e se acertar, causa +2d6 de dano extra.
 - *(Sem Crítico próprio — o bônus se soma ao teste normal do aliado, incluindo se ele mesmo cair dentro do próprio limiar de Crítico)*
 
-**Campo de Interceptação**
+**Campo de Interceptação** *(Maior)*
 
 *Um campo quase invisível se acende ao redor do aliado — pronto pra absorver o que vier antes que doa.*
 
@@ -320,7 +320,7 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, com 2d8 + Magia.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, com 3d8 + Magia.
 
-**Protocolo de Calma**
+**Protocolo de Calma** *(Maior)*
 
 *"Respire. Os números ainda fazem sentido." A voz não muda de tom, e por algum motivo isso ajuda.*
 
@@ -330,7 +330,7 @@ Cura e apoio a aliados.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, removendo 2 pontos.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, removendo 3 pontos, e o próximo teste de Estresse que o alvo fizer nesta cena rola com [Vantagem](../glossario.md#vantagem).
 
-**Alvo Prioritário**
+**Alvo Prioritário** *(Maior)*
 
 *"Aquele ali. Ataquem aquele primeiro." A recomendação nunca está errada.*
 

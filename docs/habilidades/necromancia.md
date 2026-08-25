@@ -4,7 +4,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 
 ## Habilidades Gerais
 
-**Derrotar**
+**Derrotar** *(Moderado)*
 
 *Uma estocada que rouba a força vital do alvo, transferindo-a para o usuário.*
 
@@ -38,7 +38,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Intensidade II — ◈◈ (2 PA):** o mesmo, com 2d4 de dano na aura e +2d6 no dano do usuário — que passa a perder 2d6 de Vida por turno
 - **Intensidade III — ◈◈◈ (3 PA):** o mesmo, com 3d4 de dano na aura e +3d6 no dano do usuário — que passa a perder 3d6 de Vida por turno
 
-**Encanto das Trevas**
+**Encanto das Trevas** *(Maior)*
 
 *A lâmina se envolve numa névoa sombria — o próximo golpe amaldiçoa o alvo, drenando sua vida aos poucos.*
 
@@ -48,7 +48,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 3 rodadas, os ataques do usuário que causarem dano também deixam o alvo [Sangrando](../glossario.md#sangrando) — não empilha num mesmo alvo.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 4 rodadas, os ataques do usuário que causarem dano também deixam o alvo [Sangrando](../glossario.md#sangrando) — não empilha num mesmo alvo.
 
-**Praga Definhante**
+**Praga Definhante** *(Moderado)*
 
 *Uma podridão lenta se instala sob a pele do alvo — hoje é uma pontada, amanhã é a Vida indo embora.*
 
@@ -59,7 +59,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d6 de dano + alvo perde 1d4 de Vida no início do 1º turno seguinte, 2d4 no 2º, e 3d4 no 3º.
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Sopro do Túmulo**
+**Sopro do Túmulo** *(Maior)*
 
 *O ar fica frio e pesado — a vida ao redor é puxada pra dentro do usuário.*
 
@@ -70,7 +70,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano em cada alvo, e o usuário recupera Vida igual ao dano total causado.
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Levante Breve**
+**Levante Breve** *(Maior)*
 
 *O corpo se levanta, mas o que o move não é mais quem ele foi.*
 
@@ -79,7 +79,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Efeito:** o corpo se levanta como um servo temporário — **não é o aliado revivido**, e nada disso conta como cura ou ressurreição (não interfere com [Ressuscitar](suporte.md), nem consome a chance única dele). O servo tem metade da Vida máxima que o aliado tinha, a mesma Evasão dele, e ataca a criatura hostil mais próxima no início de cada turno do usuário, sem gastar Mana ou PA, causando 1d8 de dano corpo a corpo (Impacto — o servo golpeia com o próprio corpo). Dura até o fim da cena ou até ser destruído — depois disso, o corpo desmorona em pó e não pode ser levantado de novo.
 - *(Sem Intensidade — Custo fixo: efeito absoluto sem nada pra graduar)*
 
-**Corrosão da Alma**
+**Corrosão da Alma** *(Moderado)*
 
 *A alma é roída por dentro — o que protegia o corpo já não protege mais.*
 
@@ -102,7 +102,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Intensidade III — ◈◈◈ (3 PA) + 3d4 de Vida:** 4d6 de dano, e o usuário recupera Vida igual à metade do dano causado.
 - **Crítico:** dano máximo dos dados da Intensidade usada + rolagem extra, e sobe 1 Intensidade
 
-**Lamento dos Mortos**
+**Lamento dos Mortos** *(Maior)*
 
 *Um coro de vozes que já não têm dono ecoa no campo — e cada inimigo ouve o próprio fim se aproximando.*
 
@@ -113,7 +113,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano em cada alvo + perde 3 no dano de ataques, e cada alvo perde a próxima Reação.
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Colheita**
+**Colheita** *(Moderado)*
 
 *Quanto mais perto da morte, mais fácil é para a foice terminar o trabalho.*
 
@@ -143,7 +143,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Efeito:** o usuário é imune a [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado) e [Amedrontado](../glossario.md#amedrontado), e nenhum ataque contra ele conta como Crítico, mesmo quando o d100 cair dentro do limiar de Crítico de quem o ataca.
 
-**Servo Instantâneo**
+**Servo Instantâneo** *(Maior)*
 
 *Não importa quem foi — agora serve a quem ergueu o corpo.*
 
@@ -161,7 +161,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Acerto:** 6d10 de dano, e o alvo desaparece por completo até o fim do próprio próximo turno — não pode ser alvo de nada nesse período, some do mapa. Quando reaparecer (na mesma casa, ou na mais próxima livre), fica [Atordoado](../glossario.md#atordoado) até o fim do próprio turno.
 - **Crítico:** dano máximo (60) + 6d10 extra
 
-**Dominar os Mortos**
+**Dominar os Mortos** *(Maior)*
 
 *A vontade que restava naquele corpo cede — agora obedece a outra.*
 
@@ -176,7 +176,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 *O golpe não dói agora — ele só espera.*
 
 - **Chave:** [Necromancia](../glossario.md#necromancia)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Alvos:** 1 criatura, corpo a corpo
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Alvos:** 1 criatura, corpo a corpo
 - **Acerto:** planta um efeito adormecido no alvo — sem dano nesse momento. Só 1 alvo pode carregar o efeito por vez; plantar de novo substitui o anterior.
 - **Detonar:** a qualquer momento depois — mesmo dias mais tarde, contanto que o usuário e o alvo estejam no mesmo plano — o usuário pode gastar uma Ação Básica pra detonar o efeito à distância. O alvo faz um teste de resistência (d100 + Defesa) contra a Fortitude Mágica do usuário: falhando, sofre 8d10 de dano automático; passando, sofre metade. Detonar consome o efeito.
 - **Crítico (ao plantar):** quando detonado, o efeito ignora um sucesso no teste de resistência — sempre causa o dano cheio
