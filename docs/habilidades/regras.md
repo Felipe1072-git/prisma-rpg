@@ -240,7 +240,17 @@ O que ativar a habilidade exige fisicamente — **Verbal**, **Somático**, **Mat
 | Projeção Mental | Somático — **sem Verbal**: funciona em qualquer mente, sem depender de palavras |
 | Sociais | Verbal |
 | Infiltração, Mobilidade, Percepção Arcana | Somático |
-| Buff, Debuff, Suporte | Varia habilidade a habilidade — o grupo mistura de propósito efeito físico e mágico, então cada uma declara o próprio Componentes |
+| Buff, Debuff, Suporte | Não têm padrão de grupo — decide o **Atributo** (ver abaixo) |
+
+**Buff, Debuff e Suporte** misturam de propósito conjuração e técnica corporal: "imbuir um elemento na arma" mora ao lado de "postura inabalável". Então quem responde não é o grupo, é o **Atributo**, que já declara a natureza da habilidade:
+
+| Atributo da habilidade | Componentes |
+|---|---|
+| **Magia** | Verbal + Somático — é conjuração |
+| **Ataque, Agilidade** | Somático — o poder vem do corpo, não de uma fórmula falada |
+| Qualquer um, mas a ficha **exige um item** (Requisito de escudo equipado, dano que usa a arma) | acrescenta **Material** |
+
+**Passiva não tem componente nenhum**, em grupo algum: ela não se ativa — está sempre ligada desde que aprendida —, então não há fala, gesto nem item a interromper. Aparece como **—**.
 
 **Verbal** é negado por [Silenciado](../glossario.md#silenciado). **Somático** só é negado por [Atordoado](../glossario.md#atordoado) — não existe condição própria pra "mãos presas" hoje. **Material** é informativo: a arma ou o foco precisa estar equipado, sem sistema de furto ou destruição de componente.
 

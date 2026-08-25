@@ -580,6 +580,29 @@ def duracao_derivada(campos: dict[str, str]) -> str:
 MARCAS_AUTOMATICA = ("sem teste de ataque", "sem rolagem", "sem teste de acerto")
 
 
+def componentes_por_natureza(campos: dict[str, str]) -> str:
+    """Componentes de Buff, Debuff e Suporte — os três grupos sem padrão.
+
+    Eles misturam de propósito conjuração e técnica corporal ("imbuir elemento
+    na arma" mora ao lado de "postura inabalável"), então o Grupo não decide.
+    Quem decide é o **Atributo**, que já declara a natureza da habilidade:
+    Magia é conjuração (fala + gesto), Ataque/Agilidade é o corpo (só gesto).
+
+    O Material entra só quando a ficha *exige* o item — Requisito de escudo
+    equipado, ou dano que usa a arma. Procurar a palavra "golpe" no texto não
+    serve: em "desviando o golpe que viria" o golpe é do inimigo, não do
+    usuário.
+    """
+    atributo = sem_acento(campos.get("Atributo", ""))
+    if "magia" in atributo:
+        return "V, S"
+    requisito = sem_acento(campos.get("Requisito", ""))
+    dano = sem_acento(campos.get("Dano", ""))
+    if "equipad" in requisito or "arma equipada" in dano or "desarmado" in dano:
+        return "S, M"
+    return "S"
+
+
 def resolucao_automatica(campos: dict[str, str], corpo: list[str]) -> str:
     # A marca costuma estar no corpo, não num bullet de campo: é a linha solta
     # "*(Sem Intensidade — efeito de zona automático, sem teste de ataque)*".
@@ -599,7 +622,8 @@ def campo_binario(campos: dict[str, str], rotulo: str) -> str:
 
 
 def ficha_tecnica_valores(
-    campos: dict[str, str], grupo: str, escala: str, corpo: list[str]
+    campos: dict[str, str], grupo: str, escala: str, corpo: list[str],
+    qualificador: str = "",
 ) -> dict[str, str]:
     """Um valor por campo da ficha técnica — nunca vazio.
 
@@ -647,8 +671,14 @@ def ficha_tecnica_valores(
             texto_puro(campos.get("Duração", campos.get("Duracao", "")))
             or duracao_derivada(campos)
         ),
-        "Componentes": texto_puro(campos.get("Componentes", ""))
-        or GRUPO_COMPONENTES.get(grupo, "—"),
+        # Passiva não se ativa — está sempre ligada —, então não exige fala,
+        # gesto nem item em grupo nenhum. Por isso vem antes do padrão do Grupo.
+        "Componentes": (
+            texto_puro(campos.get("Componentes", ""))
+            or ("—" if sem_acento(qualificador) == "passiva" else "")
+            or GRUPO_COMPONENTES.get(grupo, "")
+            or componentes_por_natureza(campos)
+        ),
         "Concentração": campo_binario(campos, "Concentração"),
         "Cooldown": texto_puro(campos.get("Cooldown", ""))
         or ESCALA_COOLDOWN.get(escala, "—"),
@@ -657,7 +687,8 @@ def ficha_tecnica_valores(
 
 
 def ficha_tecnica_html(
-    campos: dict[str, str], grupo: str, escala: str, corpo: list[str]
+    campos: dict[str, str], grupo: str, escala: str, corpo: list[str],
+    qualificador: str = "",
 ) -> str:
     """A ficha técnica do card.
 
@@ -667,7 +698,7 @@ def ficha_tecnica_html(
     sobre fundo escuro — e, pior, `body:has(.prg-ficha)` no `@media print`
     daquele arquivo mandava a listagem inteira imprimir sem header nem nav.
     """
-    valores = ficha_tecnica_valores(campos, grupo, escala, corpo)
+    valores = ficha_tecnica_valores(campos, grupo, escala, corpo, qualificador)
     # markdown="span" em vez de escapa(): Atributo, Alvos e Dano trazem links
     # (`usa o [Dano Desarmado](…)`) que o leitor quer clicar, e escapar mataria
     # os dois. Quem não tem markdown atravessa igual.
@@ -830,7 +861,7 @@ def monta_card(
         "corpo": resumo_para_popover(rotulos, custo, campos, corpo),
     }
 
-    ficha_tecnica = ficha_tecnica_html(campos, grupo, escala, corpo)
+    ficha_tecnica = ficha_tecnica_html(campos, grupo, escala, corpo, qualificador)
     # O corpo perde os pares que a ficha técnica assumiu: sem isto o card diz
     # Atributo, Alcance e Alvos duas vezes, uma no bloco e outra no bullet.
     detalhe = "\n".join(limpa_campos_absorvidos(corpo)).strip()
