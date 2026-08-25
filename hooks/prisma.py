@@ -434,8 +434,10 @@ def resumo_para_popover(
 # "—" quando a habilidade ainda não o declara; o retrofit das 754 habilidades
 # existentes é fase própria (ver CLAUDE.md), então "—" aqui é esperado até lá.
 FICHA_TECNICA_ROTULOS = (
-    # como rola          o que atinge              o que faz
-    "Atributo", "Resolução", "Vs", "Alvos", "Alcance", "Área", "Dano", "Duração",
+    # quando se usa e como rola
+    "Ação", "Atributo", "Resolução", "Vs",
+    # o que atinge, e o que faz
+    "Alvos", "Alcance", "Área", "Dano", "Duração",
     # o que restringe
     "Componentes", "Concentração", "Cooldown", "Ritual",
 )
@@ -603,11 +605,29 @@ def componentes_por_natureza(campos: dict[str, str]) -> str:
     return "S"
 
 
+# Quem só mira o próprio usuário e aliados não tem contra quem rolar — a regra
+# já dizia isso ("buffs, cura e efeitos automáticos não checam número-alvo"),
+# mas o campo saía como Ataque vs Evasão, inventando uma rolagem inexistente.
+# As marcas hostis derrubam a leitura: `1 criatura (o atacante)` é alvo hostil
+# mesmo aparecendo numa Reação de defesa.
+_MARCAS_HOSTIS = ("hostil", "inimig", "atacante", "morta-viva", "cadaver")
+_MARCAS_AMIGAS = ("proprio usuario", "aliado", "o usuario e", "usuario e aliados")
+
+
+def alvo_so_amigo(alvos: str) -> bool:
+    txt = sem_acento(alvos)
+    if not txt or any(h in txt for h in _MARCAS_HOSTIS):
+        return False
+    return any(a in txt for a in _MARCAS_AMIGAS)
+
+
 def resolucao_automatica(campos: dict[str, str], corpo: list[str]) -> str:
     # A marca costuma estar no corpo, não num bullet de campo: é a linha solta
     # "*(Sem Intensidade — efeito de zona automático, sem teste de ataque)*".
     texto = sem_acento(" ".join(campos.values()) + " " + " ".join(corpo))
-    return "Automática" if any(m in texto for m in MARCAS_AUTOMATICA) else ""
+    if any(m in texto for m in MARCAS_AUTOMATICA):
+        return "Automática"
+    return "Automática" if alvo_so_amigo(campos.get("Alvos", "")) else ""
 
 
 def campo_binario(campos: dict[str, str], rotulo: str) -> str:
@@ -651,7 +671,18 @@ def ficha_tecnica_valores(
     # coisas opostas conforme a Resolução.
     if resolucao.startswith("Teste de Resist") and "do usuário" not in vs:
         vs = f"{vs} do usuário"
+
+    # Quando a habilidade entra em jogo. Reação e Passiva vinham só como chip
+    # no cabeçalho, mas mudam *como se usa* — a Reação sai fora do turno e
+    # custa 0 PA, a Passiva nunca é ativada —, então são ficha, não etiqueta.
+    qualif = sem_acento(qualificador)
+    acao = "Reação" if qualif == "reacao" else "Passiva" if qualif == "passiva" else "Ação"
+    if acao == "Passiva":
+        # Passiva não resolve nada: está sempre ligada, não há rolagem nem
+        # número-alvo. Dizer "Ataque vs Evasão" aqui seria inventar um teste.
+        resolucao, vs = "—", "—"
     return {
+        "Ação": acao,
         # Atributo, Alvos e Dano vêm crus (não por texto_puro) porque carregam
         # links que valem: `**Dano:** usa o [Dano Desarmado](…)` perderia o
         # link, e é justamente o que o leitor quer clicar. O valor é renderizado
@@ -667,9 +698,12 @@ def ficha_tecnica_valores(
             or area_derivada(alvos)
             or "—"
         ),
+        # Passiva é o oposto de instantânea: vale desde que foi aprendida e não
+        # expira. O fallback "Instantânea" (que serve pra quem não tem duração
+        # no texto) diria exatamente o contrário do que ela é.
         "Duração": (
             texto_puro(campos.get("Duração", campos.get("Duracao", "")))
-            or duracao_derivada(campos)
+            or ("Permanente" if acao == "Passiva" else duracao_derivada(campos))
         ),
         # Passiva não se ativa — está sempre ligada —, então não exige fala,
         # gesto nem item em grupo nenhum. Por isso vem antes do padrão do Grupo.

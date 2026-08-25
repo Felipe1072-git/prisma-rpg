@@ -34,11 +34,12 @@ Toda habilidade — sem exceção — tem estes campos, cada um em seu próprio 
 
 - **Nome**
 - *Descrição breve*, em itálico, logo abaixo do nome: 1 frase evocativa que deixa claro o que a habilidade faz. Evite números específicos que o jogador possa confundir com regra (ex: não diga "cinco flechas" se mecanicamente é só 1 rolagem de dano — isso já aconteceu e gerou confusão).
+- **Ação** — **Ação** (no próprio turno, o normal), **Reação** (fora do turno, 0 PA) ou **Passiva** (nunca ativada). Vem do qualificador no nome: `**Nome** *(Reação)*`
 - **Chave** — ver seção própria abaixo
 - **Atributo**
 - **Alvos**, **Alcance** e **Área**, sempre explícitos — nunca vago tipo "uma área", sempre um número de casas; "corpo a corpo" ou "—" quando não se aplica (Alcance e Área nunca escalam com Intensidade)
 - **Vs** — contra qual número-alvo a Resolução compara (Evasão por padrão pra ataque físico; Fortitude Mágica/Física, Social ou Exploração pra efeito que a pula — declare mesmo quando for o padrão)
-- **Resolução** — **Ataque** (o usuário rola, é a maioria) ou **Teste de Resistência** (o alvo rola — use pra efeito que o corpo resiste por dentro: veneno, maldição plantada, algo que dispara depois) — ver [Resolução](../../docs/habilidades/regras.md#resolucao) e [Teste de Resistência](../../docs/habilidades/regras.md#teste-de-resistencia)
+- **Resolução** — **Ataque** (o usuário rola, é a maioria), **Automática** (ninguém rola — buff, cura, escudo, zona de dano; o Vs fica "—") ou **Teste de Resistência** (o alvo rola — use pra efeito que o corpo resiste por dentro: veneno, maldição plantada, algo que dispara depois) — ver [Resolução](../../docs/habilidades/regras.md#resolucao) e [Teste de Resistência](../../docs/habilidades/regras.md#teste-de-resistencia)
 - **Duração** — Instantânea, X rodadas, até 0 de Vida, até descanso, etc.
 - **Componentes** — Verbal/Somático/Material. Tem padrão por Grupo (Marciais/Pontaria = Somático+Material; magias em geral = Verbal+Somático; Projeção Mental = só Somático, por definição própria do grupo; Sociais = só Verbal; Infiltração/Mobilidade/Percepção Arcana = só Somático) — só declare diferente do padrão se a habilidade tiver um motivo pra isso. Em **Buff/Debuff/Suporte** quem decide é o Atributo: Magia = Verbal+Somático, Ataque/Agilidade = só Somático, mais Material se a ficha exigir um item. **Passiva não tem componente** — não se ativa. Ver [Componentes](../../docs/habilidades/regras.md#componentes)
 - **Concentração** — Sim, só se for Buff/Debuff/invocação de Conjuração com **duração contínua**; toda outra habilidade é Não. Ver [Concentração](../../docs/habilidades/regras.md#concentracao)

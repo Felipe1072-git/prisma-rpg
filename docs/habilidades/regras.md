@@ -114,10 +114,11 @@ Cada habilidade é registrada com:
 - **Nome**
 - **Descrição breve** — 1 frase evocativa, deixando claro o que a habilidade faz
 - **Chave** — para habilidades de arma: "Arma - Grau" (ex: "Espada - Básica"). Para habilidades gerais de grupo: "Grupo - Subtipo" (ex: "Marcial - Especial")
+- **Ação** — quando a habilidade entra em jogo: **Ação** (no próprio turno, o caso normal), **Reação** (fora do turno, quando o gatilho acontece — custa 0 PA) ou **Passiva** (nunca é ativada, vale desde que aprendida)
 - **Atributo** — atributo usado no teste (ex: ATA)
 - **Tipo de Dano / Vs** — o tipo de dano causado (ou **—**, se não causa dano), e contra qual número-alvo a Resolução compara (Evasão por padrão; declarado sempre, mesmo quando é o padrão)
 - **Efeitos / Alvos / Alcance / Área / Duração** — Alcance e Área são sempre explícitos, mesmo quando é "corpo a corpo" ou "—"; Duração é **Instantânea** por padrão nas que causam dano direto
-- **Resolução** — **Ataque** (o usuário rola) ou **Teste de Resistência** (o alvo rola) — ver [Resolução](#resolucao) e [Teste de Resistência](#teste-de-resistencia)
+- **Resolução** — **Ataque** (o usuário rola), **Teste de Resistência** (o alvo rola) ou **Automática** (ninguém rola: buff, cura, escudo e zona de dano não comparam com número-alvo nenhum, e nesses o campo Vs fica em **—**) — ver [Resolução](#resolucao) e [Teste de Resistência](#teste-de-resistencia)
 - **Componentes** — Verbal / Somático / Material, o que a ativação exige fisicamente — ver [Componentes](#componentes)
 - **Concentração** — Sim/Não — ver [Concentração](#concentracao)
 - **Cooldown** — ver [Cooldown](#cooldown)
