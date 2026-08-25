@@ -439,8 +439,15 @@ FICHA_TECNICA_ROTULOS = (
     # o que atinge, e o que faz
     "Alvos", "Alcance", "Área", "Dano", "Duração",
     # o que restringe
-    "Componentes", "Concentração", "Cooldown", "Ritual",
+    "Componentes", "Cooldown",
 )
+# Concentração e Ritual saíram (2026-08-25). Eram campos que diziam "Não" nas
+# 754 habilidades: regras importadas do D&D que o Prisma já resolve de outro
+# jeito. Concentração existe lá porque um buff dura 10 rodadas ou uma hora;
+# aqui dura 2–4, e o próprio prazo é o freio — somado ao Acúmulo de bônus, que
+# já impede empilhar buff numérico. E Ritual ("sem Mana, 10 minutos, fora de
+# combate") tornaria gratuita toda utilitária, porque fora de combate sempre se
+# tem 10 minutos: o custo em Mana de uma Suprema de 48 viraria decoração.
 
 # Os rótulos que a ficha técnica passa a mostrar não podem continuar no corpo
 # do card: o bullet `- **Atributo:** … | **Alcance:** … | **Alvos:** …` dizia
@@ -695,17 +702,6 @@ def resolucao_automatica(campos: dict[str, str], corpo: list[str]) -> str:
     return "Automática" if alvo_so_amigo(campos.get("Alvos", "")) else ""
 
 
-def campo_binario(campos: dict[str, str], rotulo: str) -> str:
-    """Sim/Não pra campos opt-in (Concentração, Ritual) — ausência é Não: são
-    a exceção, não a regra, então esse fallback não afirma nada arriscado."""
-    valor = sem_acento(campos.get(rotulo, ""))
-    if valor.startswith("sim"):
-        return "Sim"
-    if not valor or valor.startswith("nao"):
-        return "Não"
-    return texto_puro(campos[rotulo])
-
-
 def ficha_tecnica_valores(
     campos: dict[str, str], grupo: str, escala: str, corpo: list[str],
     qualificador: str = "", arma: str = "",
@@ -782,10 +778,8 @@ def ficha_tecnica_valores(
             or GRUPO_COMPONENTES.get(grupo, "")
             or componentes_por_natureza(campos)
         ),
-        "Concentração": campo_binario(campos, "Concentração"),
         "Cooldown": texto_puro(campos.get("Cooldown", ""))
         or ESCALA_COOLDOWN.get(escala, "—"),
-        "Ritual": campo_binario(campos, "Ritual"),
     }
 
 

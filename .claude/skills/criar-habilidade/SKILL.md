@@ -8,7 +8,7 @@ description: Cria ou ajusta habilidades de jogo do Prisma RPG (o RPG de mesa hom
 Esta skill existe porque o padrão de habilidades do Prisma RPG foi fixado com bastante detalhe numa sessão de design, e é fácil perder essa consistência em sessões futuras (esquecer um campo, comprimir as Intensidades numa linha só, inventar uma habilidade sem consultar o usuário). Ela é uma referência de consulta rápida — leia as fontes vivas linkadas abaixo quando precisar do valor exato de algo, não confie de cor em números que possam ter mudado.
 
 **Fontes vivas** (sempre a verdade mais atual — releia se um número aqui parecer estranho):
-- [docs/habilidades/regras.md](../../docs/habilidades/regras.md) — Ficha de Habilidade, Intensidade, Custo fixo, Resolução, Componentes, Concentração, Cooldown, Ritual, lista de grupos
+- [docs/habilidades/regras.md](../../docs/habilidades/regras.md) — Ficha de Habilidade, Intensidade, Custo fixo, Resolução, Componentes, Cooldown, lista de grupos
 - [docs/jogador/arsenal.md](../../docs/jogador/arsenal.md) — armas existentes e suas 3 habilidades
 - [docs/jogador/mana.md](../../docs/jogador/mana.md) — Escala de Mana por Intensidade
 - [docs/habilidades/magicas-elementais.md](../../docs/habilidades/magicas-elementais.md) — Assinatura de Elemento (o que cada elemento faz de único)
@@ -42,9 +42,7 @@ Toda habilidade — sem exceção — tem estes campos, cada um em seu próprio 
 - **Resolução** — **Ataque** (o usuário rola, é a maioria), **Automática** (ninguém rola — buff, cura, escudo, zona de dano; o Vs fica "—") ou **Teste de Resistência** (o alvo rola — use pra efeito que o corpo resiste por dentro: veneno, maldição plantada, algo que dispara depois) — ver [Resolução](../../docs/habilidades/regras.md#resolucao) e [Teste de Resistência](../../docs/habilidades/regras.md#teste-de-resistencia)
 - **Duração** — Instantânea, X rodadas, até 0 de Vida, até descanso, etc.
 - **Componentes** — Verbal/Somático/Material. Tem padrão por Grupo (Marciais/Pontaria = Somático+Material; magias em geral = Verbal+Somático; Projeção Mental = só Somático, por definição própria do grupo; Sociais = só Verbal; Infiltração/Mobilidade/Percepção Arcana = só Somático) — só declare diferente do padrão se a habilidade tiver um motivo pra isso. Em **Buff/Debuff/Suporte** quem decide é o Atributo: Magia = Verbal+Somático, Ataque/Agilidade = só Somático, mais Material se a ficha exigir um item. **Passiva não tem componente** — não se ativa. Ver [Componentes](../../docs/habilidades/regras.md#componentes)
-- **Concentração** — Sim, só se for Buff/Debuff/invocação de Conjuração com **duração contínua**; toda outra habilidade é Não. Ver [Concentração](../../docs/habilidades/regras.md#concentracao)
 - **Cooldown** — segue a Escala da habilidade (Básica/Menor sem cooldown; Avançada/Moderado 1–2 rodadas; Especial/Maior 3–4 rodadas; Supremo 1x por cena, ou 1x por descanso se for excepcionalmente forte). Só declare valor explícito quando fugir do padrão baixo da faixa. Ver [Cooldown](../../docs/habilidades/regras.md#cooldown)
-- **Ritual** — Sim só quando a habilidade for algo que se faz com calma fora de combate (utilidade, invocar, transmutar) — nunca em dano de combate. A maioria é Não. Ver [Ritual](../../docs/habilidades/regras.md#ritual)
 - **Intensidade I / II / III**, um bullet cada, com o PA, o Mana e o valor numérico completo já resolvido (nunca "dano da arma" genérico, nunca duas Intensidades comprimidas na mesma linha com `|`)
 - **Crítico**
 
@@ -237,7 +235,7 @@ Os feitiços temáticos (fogo, cura, controle mental, o que for) **não** vivem 
 - [ ] Se é de elemento: carrega a assinatura daquele elemento
 - [ ] Só condições canônicas, sempre linkadas ao Glossário — nenhum nome inventado
 - [ ] Alcance/raio em casas, se não for corpo a corpo (e nunca escala com Intensidade)
-- [ ] Vs, Resolução, Duração, Componentes, Concentração, Cooldown e Ritual estão todos declarados — nenhum ficou implícito
+- [ ] Vs, Resolução, Duração, Componentes e Cooldown estão todos declarados — nenhum ficou implícito
 - [ ] Cada Intensidade é seu próprio bullet, com valor numérico completo (ou é Custo fixo, com o motivo claro: área raio 3+, Suprema, ou efeito absoluto sem degrau acima)
 - [ ] Se é buff/cura/mobilidade: escala pelo eixo que faz sentido (magnitude, duração ou ambos), e a Intensidade I preserva o efeito e o Mana que a habilidade já tinha
 - [ ] Se é Reação dedicada: 0 PA em todas as Intensidades, escalando só o Mana

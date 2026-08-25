@@ -1,6 +1,6 @@
 # Glossário de Termos
 
-Os **148 termos** que o jogo usa: estatísticas do personagem, condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
+Os **146 termos** que o jogo usa: estatísticas do personagem, condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
 
 Há duas formas de chegar num termo: o **índice alfabético** abaixo, se você já sabe o nome, ou a **busca e o filtro por categoria**, se você está procurando o que existe.
 
@@ -50,19 +50,9 @@ Toda habilidade declara como se resolve: **Ataque** (o usuário rola d100 + Atri
 
 O que ativar uma habilidade exige fisicamente: **Verbal** (fala — negado por [Silenciado](#silenciado)), **Somático** (gesto — negado só por [Atordoado](#atordoado)) e **Material** (a arma ou foco precisa estar equipado). Ver [Regras de Habilidade → Componentes](habilidades/regras.md#componentes).
 
-### Concentração
-
-Só **1 efeito de Concentração** pode ficar ativo por vez — ativar outro encerra o anterior. Quebra ao tomar dano: role d100 + Defesa contra o dano recebido; falhando, o efeito encerra ali. Vale só pra Buffs, Debuffs e invocações de Conjuração com duração contínua. Ver [Regras de Habilidade → Concentração](habilidades/regras.md#concentracao).
-
 ### Cooldown
 
 Depois de usada, a habilidade fica indisponível por um tempo — **independente de quanto Mana sobrou**: sem cooldown, 1–2 [rodadas](#rodada), 3–4 rodadas, 1x por [cena](#cena) ou 1x por descanso, conforme o grau ou potência dela. Ver [Regras de Habilidade → Cooldown](habilidades/regras.md#cooldown).
-
-### Ritual
-
-Tag opcional de algumas habilidades: ativa **sem custo de Mana**, mas exige preparo (cerca de 10 minutos) e só funciona **fora de combate, sem interrupção** — ser atacado ou interrompido cancela o ritual (perde o tempo, mas não gasta Mana). Ver [Regras de Habilidade → Ritual](habilidades/regras.md#ritual).
-
-## Estatísticas do Personagem
 
 ### Vida
 

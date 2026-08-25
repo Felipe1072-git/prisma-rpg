@@ -78,9 +78,7 @@ Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Inten
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Material</label>
     </div>
     <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px; border-bottom:1.2px solid #83765a;">
-      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Concentração</label>
-      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ritual</label>
-      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; margin-left:4px;">Cooldown<span style="display:inline-block; border-bottom:1px solid #cabf9f; min-width:52px; min-height:9px; margin-left:3px;">&nbsp;</span></span>
+      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">Cooldown<span style="display:inline-block; border-bottom:1px solid #cabf9f; min-width:52px; min-height:9px; margin-left:3px;">&nbsp;</span></span>
     </div>
     <div style="padding:5px 8px 5px; display:flex; flex-direction:column; gap:3px;">
       <div style="display:flex; align-items:baseline; gap:5px;">
@@ -120,9 +118,7 @@ Cada habilidade é registrada com:
 - **Efeitos / Alvos / Alcance / Área / Duração** — Alcance e Área são sempre explícitos, mesmo quando é "corpo a corpo" ou "—"; Duração é **Instantânea** por padrão nas que causam dano direto
 - **Resolução** — **Ataque** (o usuário rola), **Teste de Resistência** (o alvo rola) ou **Automática** (ninguém rola: buff, cura, escudo e zona de dano não comparam com número-alvo nenhum, e nesses o campo Vs fica em **—**) — ver [Resolução](#resolucao) e [Teste de Resistência](#teste-de-resistencia)
 - **Componentes** — Verbal / Somático / Material, o que a ativação exige fisicamente — ver [Componentes](#componentes)
-- **Concentração** — Sim/Não — ver [Concentração](#concentracao)
 - **Cooldown** — ver [Cooldown](#cooldown)
-- **Ritual** — Sim/Não — ver [Ritual](#ritual)
 - **Intensidade I / II / III** — as três versões da habilidade, cada uma com seu custo em Pontos de Ação e Mana
 - **Crítico** — dentro do [limiar de Crítico](../jogar/testes.md#criticos) (Sorte ÷ 3)
 
@@ -255,13 +251,6 @@ O que ativar a habilidade exige fisicamente — **Verbal**, **Somático**, **Mat
 
 **Verbal** é negado por [Silenciado](../glossario.md#silenciado). **Somático** só é negado por [Atordoado](../glossario.md#atordoado) — não existe condição própria pra "mãos presas" hoje. **Material** é informativo: a arma ou o foco precisa estar equipado, sem sistema de furto ou destruição de componente.
 
-### Concentração
-
-Algumas habilidades exigem manter a concentração enquanto duram — só Buffs, Debuffs e invocações de [Conjuração](conjuracao.md) com duração contínua declaram **Concentração: Sim**.
-
-- **Só 1 efeito de Concentração ativo por vez** — ativar outro (da mesma habilidade ou de outra que também exija Concentração) encerra o anterior.
-- **Quebra ao tomar dano**: role d100 + Defesa contra o dano recebido. Igualou ou superou, manteve; senão, o efeito encerra ali.
-
 ### Cooldown
 
 Depois de usada, uma habilidade com Cooldown fica indisponível por um tempo — **independente de quanto Mana sobrou**. Escala pelo mesmo grau/potência que já precifica a habilidade (ver [Grau de Poder](../jogar/mana.md#grau-de-poder)):
@@ -277,12 +266,19 @@ Dentro das faixas com intervalo (1–2, 3–4), o valor exato é decisão de que
 
 Cooldown é **por habilidade específica** — usar um Golpe Especial não trava os outros Especiais — e roda **em cima** do custo de Mana, não no lugar dele: é um freio de ritmo, não de raridade (ver [Cooldown](../glossario.md#cooldown)). Habilidades dedicadas a Reação ficam de fora — já são limitadas ao próprio gatilho.
 
-### Ritual
+!!! nota "Por que não existe Concentração nem Ritual"
+    As duas regras chegaram a ser escritas e saíram em 2026-08-25, depois de
+    medir onde se aplicariam: em lugar nenhum, sem quebrar algo que já
+    funciona.
 
-Tag opcional, em qualquer grau — não só Supremos: a habilidade declara **Ritual: Sim** e ganha um modo de uso alternativo, sem custo de Mana, mas mais lento e restrito:
+    **Concentração** existe no d20 tradicional porque lá um buff dura dez
+    rodadas ou uma hora — sem uma trava, o grupo empilharia cinco. Aqui os
+    buffs duram **2 a 4 rodadas**, e o próprio prazo já é o freio; o
+    [Acúmulo de bônus](../glossario.md#acumulo-de-bonus) fecha o resto,
+    impedindo que dois buffs numéricos somem. Uma terceira trava seria a dupla
+    restrição que o sistema evita — e nas invocações desfaria de propósito a
+    escada que a Intensidade III delas construiu.
 
-- Leva cerca de **10 minutos** de preparo, em vez do custo normal de PA.
-- Só funciona **fora de combate**.
-- Exige **não ser interrompido** — sofrer dano ou ser forçado a agir durante o preparo cancela o ritual (perde o tempo, mas não gasta Mana).
-
-Faz sentido em habilidades de utilidade (detectar, identificar, curar fora de combate) e em Supremos que são "coisa que se faz com calma" — invocar, transmutar, abrir uma passagem. Não faz sentido em dano de combate: não há alvo parado esperando fora de combate.
+    **Ritual** ("sem Mana, dez minutos, fora de combate") tornaria gratuita
+    toda habilidade utilitária, porque **fora de combate quase sempre se tem
+    dez minutos**: o custo em Mana de uma Suprema de 48 viraria decoração.
