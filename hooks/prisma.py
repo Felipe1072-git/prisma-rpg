@@ -818,6 +818,75 @@ def ficha_tecnica_html(
     return f'<div class="prg-tecnica" markdown="span">{campos_html}</div>'
 
 
+# ------------------------------------------------- facetas da ficha técnica
+#
+# Os campos da ficha viram filtro, mas nem todos servem crus: Alcance tem 28
+# valores distintos, e um menu com 28 linhas não se lê. O que vira faceta é a
+# **pergunta** que o jogador faz — "dá pra usar de longe?", "isso pega área?"
+# —, não o valor exato, que continua no card.
+
+RE_CASAS_NUM = re.compile(r"^(\d+)\s*casas?")
+
+
+def faixa_de_alcance(valor: str) -> tuple[str, str]:
+    """(chave, rótulo) da faixa de alcance, ou ("", "") pra quem não tem."""
+    txt = sem_acento(valor)
+    if not txt or txt == "—":
+        return "", ""
+    if txt == "pessoal":
+        return "pessoal", "Pessoal"
+    if "corpo a corpo" in txt or "adjacente" in txt:
+        return "corpo-a-corpo", "Corpo a corpo"
+    if "arma equipada" in txt:
+        return "arma", "O da arma equipada"
+    if m := RE_CASAS_NUM.search(txt.replace("linha de ", "")):
+        n = int(m.group(1))
+        if n <= 4:
+            return "curto", "Curto (até 4 casas)"
+        if n <= 7:
+            return "medio", "Médio (5–7 casas)"
+        return "longo", "Longo (8+ casas)"
+    # Sem limite, conversa direta, o círculo do ritual, vínculo, campo de
+    # batalha, "até o valor de Movimento" — alcance que não se mede em casas.
+    return "especial", "Sem medida em casas"
+
+
+FORMAS_DE_AREA = (
+    ("raio", "raio", "Raio"),
+    ("cone", "cone", "Cone"),
+    ("linha", "linha", "Linha"),
+    ("criaturas adjacentes", "adjacentes", "Adjacentes"),
+    ("campo de batalha", "campo", "Campo de batalha"),
+)
+
+
+def forma_de_area(valor: str) -> tuple[str, str]:
+    txt = sem_acento(valor)
+    for marca, chave, rotulo in FORMAS_DE_AREA:
+        if txt.startswith(marca) or txt == marca:
+            return chave, rotulo
+    return "", ""
+
+
+def facetas_de_componentes(valor: str) -> tuple[str, str]:
+    """Multivalor V/S/M — mais "Sem Verbal", que é a pergunta de quem está
+    [Silenciado]: "o que eu ainda consigo usar?". Sem esse valor derivado o
+    filtro só responderia o inverso do que se precisa saber."""
+    txt = valor.strip()
+    if not txt or txt == "—":
+        return "", ""
+    pares = []
+    if "V" in txt:
+        pares.append(("verbal", "Verbal"))
+    else:
+        pares.append(("sem-verbal", "Sem Verbal (dá pra usar Silenciado)"))
+    if "S" in txt:
+        pares.append(("somatico", "Somático"))
+    if "M" in txt:
+        pares.append(("material", "Material"))
+    return " ".join(p[0] for p in pares), "|".join(p[1] for p in pares)
+
+
 def chip(rotulo: str, familia: str = "") -> str:
     """Um chip colorido no cabeçalho do card."""
     classe = f"prg-chip--{familia}-{slug(rotulo)}" if familia else f"prg-chip--{classe_chip(rotulo)}"
@@ -972,7 +1041,16 @@ def monta_card(
         "corpo": resumo_para_popover(rotulos, custo, campos, corpo),
     }
 
+    ficha = ficha_tecnica_valores(campos, grupo, escala, corpo, qualificador, arma)
     ficha_tecnica = ficha_tecnica_html(campos, grupo, escala, corpo, qualificador, arma)
+
+    # A ficha técnica alimenta o filtro: os mesmos valores que o card mostra,
+    # reduzidos à pergunta que o jogador faz na mesa.
+    alc_chave, alc_nome = faixa_de_alcance(ficha["Alcance"])
+    area_chave, area_nome = forma_de_area(ficha["Área"])
+    comp_chaves, comp_nomes = facetas_de_componentes(ficha["Componentes"])
+    cooldown = "" if ficha["Cooldown"] == "—" else slug(ficha["Cooldown"])
+    resolucao = "" if ficha["Resolução"] == "—" else slug(ficha["Resolução"])
     # O corpo perde os pares que a ficha técnica assumiu: sem isto o card diz
     # Atributo, Alcance e Alvos duas vezes, uma no bloco e outra no bullet.
     detalhe = "\n".join(limpa_campos_absorvidos(corpo)).strip()
@@ -996,6 +1074,18 @@ def monta_card(
                 "mana-min": str(mana_min) if mana_min is not None else "",
                 "alvo": computa_alvo_categoria(campos, corpo),
                 "desarmado": "1" if computa_desarmado(campos, corpo) else "",
+                "acao": slug(ficha["Ação"]),
+                "acao-nome": ficha["Ação"],
+                "resolucao": resolucao,
+                "resolucao-nome": ficha["Resolução"] if resolucao else "",
+                "alcance": alc_chave,
+                "alcance-nome": alc_nome,
+                "area": area_chave,
+                "area-nome": area_nome,
+                "cooldown": cooldown,
+                "cooldown-nome": ficha["Cooldown"] if cooldown else "",
+                "componentes": comp_chaves,
+                "componentes-nome": comp_nomes,
             }
         ),
     )
@@ -3474,6 +3564,13 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
                 ("arma", "Todas as armas", False),
                 ("atributos", "Todos os atributos", True),
                 ("alvo", "Todos os alvos", False),
+                # Da ficha técnica: as perguntas que se faz no meio do turno.
+                ("acao", "Ação e Reação", False),
+                ("resolucao", "Toda resolução", False),
+                ("alcance", "Todo alcance", False),
+                ("area", "Toda área", False),
+                ("cooldown", "Todo cooldown", False),
+                ("componentes", "Todos os componentes", True),
             ],
             linha3=slider("mana-min", "Mana disponível")
             + '<label class="prg-filtro__desarmado">\n'
