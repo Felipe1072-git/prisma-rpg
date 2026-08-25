@@ -40,39 +40,39 @@ Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Inten
     <div style="display:flex; gap:9px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
       <div style="flex:1;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       <div style="flex:1;">Atributo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
-      <div style="flex:1;">Tipo de Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      <div style="flex:1;">Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       <div style="flex:1;">Vs<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
     </div>
     <div style="display:flex; gap:9px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
-      <div style="flex:1;">Alvo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      <div style="flex:1;">Alvos<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       <div style="flex:1;">Alcance<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       <div style="flex:1;">Área<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       <div style="flex:1;">Duração<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
     </div>
     <div style="display:flex; align-items:center; gap:7px; padding:2px 8px 1px;">
-      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Tipo</span>
-      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
-      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
-      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
-    </div>
-    <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px;">
-      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Ação</span>
-      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
-      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Área</label>
-      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Efeito</label>
+      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Ação</span>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ação</label>
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;">
         <span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>
         <svg viewBox="0 0 10 10" style="width:7px; height:7px;" aria-hidden="true"><path d="M5 1 L9 9 L1 9 Z" fill="#159c56"/></svg>
-        Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span>
+        Reação <span style="color:#83765a; font-size:5.7px;">(0 PA, fora do turno)</span>
       </label>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
     </div>
     <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px;">
-      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Resolução</span>
+      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Resolução</span>
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Teste de Resistência</label>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Automática</label>
     </div>
     <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px;">
-      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Comp.</span>
+      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Custo</span>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
+      <span style="color:#83765a; font-size:5.7px;">(Passiva não tem custo)</span>
+    </div>
+    <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px;">
+      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Comp.</span>
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Verbal</label>
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Somático</label>
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Material</label>
@@ -114,7 +114,7 @@ Cada habilidade é registrada com:
 - **Chave** — para habilidades de arma: "Arma - Grau" (ex: "Espada - Básica"). Para habilidades gerais de grupo: "Grupo - Subtipo" (ex: "Marcial - Especial")
 - **Ação** — quando a habilidade entra em jogo: **Ação** (no próprio turno, o caso normal), **Reação** (fora do turno, quando o gatilho acontece — custa 0 PA) ou **Passiva** (nunca é ativada, vale desde que aprendida)
 - **Atributo** — atributo usado no teste (ex: ATA)
-- **Tipo de Dano / Vs** — o tipo de dano causado (ou **—**, se não causa dano), e contra qual número-alvo a Resolução compara (Evasão por padrão; declarado sempre, mesmo quando é o padrão)
+- **Dano / Vs** — o tipo de dano causado (ou **—**, se não causa dano), e contra qual número-alvo a Resolução compara (Evasão por padrão; declarado sempre, mesmo quando é o padrão — e **—** quando a Resolução é Automática, que não compara com nada)
 - **Efeitos / Alvos / Alcance / Área / Duração** — Alcance e Área são sempre explícitos, mesmo quando é "corpo a corpo" ou "—"; Duração é **Instantânea** por padrão nas que causam dano direto
 - **Resolução** — **Ataque** (o usuário rola), **Teste de Resistência** (o alvo rola) ou **Automática** (ninguém rola: buff, cura, escudo e zona de dano não comparam com número-alvo nenhum, e nesses o campo Vs fica em **—**) — ver [Resolução](#resolucao) e [Teste de Resistência](#teste-de-resistencia)
 - **Componentes** — Verbal / Somático / Material, o que a ativação exige fisicamente — ver [Componentes](#componentes)
