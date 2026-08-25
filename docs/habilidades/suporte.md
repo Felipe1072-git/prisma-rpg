@@ -52,7 +52,7 @@ Cura e apoio a aliados.
 *Um frasco de energia curativa se rompe sobre o aliado, fechando feridas na hora.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Atributo:** Magia | **Alvos:** 1 aliado
+- **Atributo:** Magia | **Alcance:** 6 casas | **Alvos:** 1 aliado
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** o alvo recupera 2d6 + Magia de Vida, e ganha um Escudo de 1d4 pontos.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** o alvo recupera 3d6 + Magia de Vida, e ganha um Escudo de 2d4 pontos.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** o alvo recupera 4d6 + Magia de Vida, e ganha um Escudo de 3d4 pontos.
@@ -140,7 +140,7 @@ Cura e apoio a aliados.
 *Um cantil comum, que nunca esvazia de verdade.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Custo fixo:** ◈ (1 PA) + 6 Mana | **Atributo:** Magia | **Alvos:** usuário e até 5 aliados
+- **Custo fixo:** ◈ (1 PA) + 6 Mana | **Atributo:** Magia | **Alcance:** adjacente | **Alvos:** usuário e até 5 aliados
 - **Efeito:** cria comida e água limpa suficiente pra alimentar todos os alvos por 1 dia. Só pode ser usada fora de combate, no máximo uma vez por [descanso longo](../jogar/exploracao.md#descanso).
 - *(Sem Intensidade — habilidade utilitária, sem teste de ataque)*
 
@@ -202,7 +202,7 @@ Cura e apoio a aliados.
 *A mesma mão que fecha a ferida também desfaz o que a envenenou.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Atributo:** Magia | **Alvos:** 1 aliado
+- **Atributo:** Magia | **Alcance:** adjacente | **Alvos:** 1 aliado
 - **O que remove:** [Sangrando](../glossario.md#sangrando), [Queimando](../glossario.md#queimando), [Lento](../glossario.md#lento), [Imóvel](../glossario.md#imovel), [Atordoado](../glossario.md#atordoado), [Amedrontado](../glossario.md#amedrontado), [Cego](../glossario.md#cego), [Derrubado](../glossario.md#derrubado), [Agarrado](../glossario.md#agarrado), [Envenenado](../glossario.md#envenenado) ou [Marcado](../glossario.md#marcado) — não vale contra [Possuído](../glossario.md#possuido) (usa [Exorcismo](suporte.md)) nem [Petrificado](../glossario.md#petrificado) (a própria cura já remove 1 grau, à parte)
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** o alvo recupera 2d6 + Magia de Vida, e remove 1 condição da lista acima, à escolha do usuário
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** o alvo recupera 3d6 + Magia de Vida, e remove 1 condição da lista acima
@@ -214,7 +214,7 @@ Cura e apoio a aliados.
 
 - **Chave:** [Suporte](../glossario.md#suporte)
 - **Requisito:** só pode ser ativada na mesma rodada em que o usuário conceder a esse aliado um efeito benéfico de outra habilidade (cura, Escudo, bônus etc.)
-- **Atributo:** Magia | **Alvos:** 1 aliado
+- **Atributo:** Magia | **Alcance:** 8 casas | **Alvos:** 1 aliado
 - **Intensidade I — ◈ (1 PA) + 12 Mana:** o aliado pode usar a própria Reação imediatamente pra fazer um Ataque Básico.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, e esse ataque causa +1d4 de dano extra.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, e esse ataque causa +2d4 de dano extra e rola com [Vantagem](../glossario.md#vantagem).
@@ -246,7 +246,7 @@ Cura e apoio a aliados.
 *Não sobra nada pra curar depois disso — a doença, o veneno, a maldição, tudo cede de uma vez.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Alvos:** 1 criatura aliada
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura aliada
 - **Efeito:** o alvo recupera Vida cheia (até o máximo), e todas as condições negativas nele são removidas de uma vez — inclusive todos os graus de [Petrificado](../glossario.md#petrificado). Não remove [Possuído](../glossario.md#possuido) (ainda precisa de [Exorcismo](suporte.md)), e não revive um aliado morto (isso é sempre com [Ressuscitar](suporte.md)).
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
