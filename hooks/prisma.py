@@ -521,15 +521,27 @@ def area_derivada(alvos: str) -> str:
     return ""
 
 
-def alcance_derivado(alvos: str) -> str:
-    """A distância até o alvo, lida do campo Alvos.
+def alcance_derivado(
+    alvos: str, campos: dict[str, str] | None = None, corpo: list[str] | None = None,
+    grupo: str = "", arma: str = "",
+) -> str:
+    """A distância até o alvo.
 
-    "Pessoal" cobre o que nasce no próprio usuário — inclusive a área centrada
-    nele ("3 casas de raio ao redor do usuário"), onde o alcance é zero e o
-    raio é que importa.
+    Sai do campo Alvos quando ele responde; quando não responde, a habilidade
+    costuma responder de outro jeito. O caso maior é a técnica de arma: nela o
+    alcance **é o da arma** — a mesma técnica com Espada é corpo a corpo e com
+    Arco são 8 casas —, e "o da arma equipada" é a resposta certa, não uma
+    lacuna. Cravar "corpo a corpo" ali estaria errado em 13 delas, que
+    arremessam ou disparam.
+
+    "Pessoal" cobre o que nasce no próprio usuário — a área centrada nele, o
+    cone e a linha à frente —, onde o alcance é zero e o que importa é a área.
     """
     txt = sem_acento(alvos)
     if m := RE_ATE_CASAS.search(txt):
+        return _casas(m.group(1))
+    # "até 3 criaturas aliadas **em** 3 casas de raio" também declara distância.
+    if m := re.search(r"\bem (\d+) casas? de raio", txt):
         return _casas(m.group(1))
     if "corpo a corpo" in txt:
         return "corpo a corpo"
@@ -540,6 +552,36 @@ def alcance_derivado(alvos: str) -> str:
         for marca in ("ao redor do usuario", "proprio usuario", "usuario e aliados")
     ):
         return "pessoal"
+    # Cone e linha "à frente" partem de quem conjura: o alcance é zero, e o
+    # comprimento já está no campo Área.
+    if "cone de" in txt or "linha" in txt:
+        return "pessoal"
+    if "campo de batalha" in txt:
+        return "campo de batalha"
+    if "atacante" in txt or "criatura que sofreu dano" in txt:
+        return "quem atacou"
+    # A arma que o próprio usuário empunha está no corpo dele.
+    if "arma equipada pelo usuario" in txt:
+        return "pessoal"
+    # Arrombar uma fechadura exige a mão nela.
+    if "mecanismo" in txt:
+        return "adjacente"
+
+    campos = campos or {}
+    corpo_txt = sem_acento(" ".join(corpo or []))
+    dano = sem_acento(campos.get("Dano", ""))
+    # Técnica de arma: a própria ficha às vezes já diz "ao alcance da arma".
+    if (
+        arma
+        or grupo in ("marciais", "pontaria")
+        or "arma equipada" in dano
+        or "desarmado" in dano
+        or "alcance da arma" in txt
+    ):
+        return "o da arma equipada"
+    # Investida mágica: o usuário vai até o alvo antes de bater.
+    if "se desloca ate" in corpo_txt or "investida" in corpo_txt:
+        return "corpo a corpo"
     return ""
 
 
@@ -643,7 +685,7 @@ def campo_binario(campos: dict[str, str], rotulo: str) -> str:
 
 def ficha_tecnica_valores(
     campos: dict[str, str], grupo: str, escala: str, corpo: list[str],
-    qualificador: str = "",
+    qualificador: str = "", arma: str = "",
 ) -> dict[str, str]:
     """Um valor por campo da ficha técnica — nunca vazio.
 
@@ -692,7 +734,11 @@ def ficha_tecnica_valores(
         "Vs": vs,
         "Alvos": alvos.strip() or "—",
         "Dano": campos.get("Dano", "").strip() or "—",
-        "Alcance": texto_puro(campos.get("Alcance", "")) or alcance_derivado(alvos) or "—",
+        "Alcance": (
+            texto_puro(campos.get("Alcance", ""))
+            or alcance_derivado(alvos, campos, corpo, grupo, arma)
+            or "—"
+        ),
         "Área": (
             texto_puro(campos.get("Área", campos.get("Area", "")))
             or area_derivada(alvos)
@@ -722,7 +768,7 @@ def ficha_tecnica_valores(
 
 def ficha_tecnica_html(
     campos: dict[str, str], grupo: str, escala: str, corpo: list[str],
-    qualificador: str = "",
+    qualificador: str = "", arma: str = "",
 ) -> str:
     """A ficha técnica do card.
 
@@ -732,7 +778,7 @@ def ficha_tecnica_html(
     sobre fundo escuro — e, pior, `body:has(.prg-ficha)` no `@media print`
     daquele arquivo mandava a listagem inteira imprimir sem header nem nav.
     """
-    valores = ficha_tecnica_valores(campos, grupo, escala, corpo, qualificador)
+    valores = ficha_tecnica_valores(campos, grupo, escala, corpo, qualificador, arma)
     # markdown="span" em vez de escapa(): Atributo, Alvos e Dano trazem links
     # (`usa o [Dano Desarmado](…)`) que o leitor quer clicar, e escapar mataria
     # os dois. Quem não tem markdown atravessa igual.
@@ -884,6 +930,14 @@ def monta_card(
     # Facetas estruturadas pro filtro combinado — além da busca livre acima.
     escala = sem_acento(qualificador)
     escala = escala if escala in _ESCALA_VALIDOS else ""
+    # Quatorze habilidades gerais declaram a escala na própria Chave
+    # ("Marciais - Especial") em vez do qualificador. Ler dali evita que elas
+    # fiquem sem escala — e evita o inverso, dois chips de escala brigando no
+    # mesmo card, que foi o que aconteceu ao escrever o grau por cima delas.
+    if not escala:
+        escala = next(
+            (r for r in (sem_acento(x) for x in rotulos) if r in _ESCALA_VALIDOS), ""
+        )
     mana_min = mana_minima(campos)
     elemento = elemento or elemento_do_campo_dano(campos)
 
@@ -895,7 +949,7 @@ def monta_card(
         "corpo": resumo_para_popover(rotulos, custo, campos, corpo),
     }
 
-    ficha_tecnica = ficha_tecnica_html(campos, grupo, escala, corpo, qualificador)
+    ficha_tecnica = ficha_tecnica_html(campos, grupo, escala, corpo, qualificador, arma)
     # O corpo perde os pares que a ficha técnica assumiu: sem isto o card diz
     # Atributo, Alcance e Alvos duas vezes, uma no bloco e outra no bullet.
     detalhe = "\n".join(limpa_campos_absorvidos(corpo)).strip()

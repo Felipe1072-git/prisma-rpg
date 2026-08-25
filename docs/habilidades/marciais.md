@@ -46,7 +46,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + empurra 3 casas, derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
-**Caminho da Espada** *(Maior)*
+**Caminho da Espada**
 
 *A mente se aquieta, e só resta a fúria — cada golpe mais selvagem que o anterior.*
 
@@ -69,7 +69,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** cada golpe que acertar causa 2d10 de dano; se os dois acertarem, o alvo é derrubado e perde a próxima Reação
 - **Crítico:** cada golpe crítica separadamente — dano máximo dos dados da Intensidade usada + rolagem extra igual naquele golpe
 
-**Tornados Gêmeos** *(Moderado)*
+**Tornados Gêmeos**
 
 *Uma sequência de cortes em espiral, rápidos como o vento, guiados pela vontade de quem os desfere.*
 
@@ -117,7 +117,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até o alvo + dano desarmado + derruba o alvo + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
-**Turbilhão de Chutes** *(Moderado)*
+**Turbilhão de Chutes**
 
 *Uma sequência de chutes giratórios que varre tudo ao redor, terminando com um chute descendente.*
 
@@ -167,7 +167,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até o primeiro alvo + dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
 
-**Chute do Vento Cortante** *(Moderado)*
+**Chute do Vento Cortante**
 
 *Um movimento contínuo, veloz como vento cortante, golpeando tudo em seu caminho.*
 
@@ -180,7 +180,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
 
-**Espada do Infinito** *(Moderado)*
+**Espada do Infinito**
 
 *Espadas fantasmas emergem do chão, e ao centro, uma lâmina maior dispara em linha reta, perfurando tudo em seu caminho.*
 
@@ -192,7 +192,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação; o alvo da lâmina maior fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Extinção da Alma** *(Moderado)*
+**Extinção da Alma**
 
 *Um pilar de energia se ergue do chão, arrastando todos os inimigos próximos pelos ares.*
 
@@ -245,7 +245,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + derruba o alvo + alvo perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Destruição** *(Moderado)*
+**Destruição**
 
 *O poder demoníaco mais puro se concentra nas garras, explodindo num dano avassalador.*
 
@@ -279,7 +279,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Grande X** *(Moderado)*
+**Grande X**
 
 *Energia se acumula na lâmina durante um salto, disparada num golpe diagonal devastador.*
 
@@ -301,7 +301,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d12 de dano em cada alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Erupção de Ferroadas** *(Moderado)*
+**Erupção de Ferroadas**
 
 *Um salto seguido de um impacto que libera todo o poder da lâmina no chão.*
 
@@ -323,7 +323,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
-**Dança da Perdição** *(Moderado)*
+**Dança da Perdição**
 
 *Um tornado de lâminas se forma ao redor do usuário, empurrando tudo pra longe.*
 
@@ -380,7 +380,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação; o usuário termina atrás dele
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
-**Andorinhas de Bambu** *(Moderado)*
+**Andorinhas de Bambu**
 
 *O lutador se torna um borrão entre ilusões de bambu, atingindo tudo que estiver por perto antes de finalizar com um chute descendente.*
 
@@ -405,7 +405,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** a Rajada acerta por dano desarmado; o Chute Final acerta por dano desarmado, derruba o alvo, ele perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** cada golpe crítica separadamente — dano desarmado máximo + rolagem extra naquele golpe
 
-**Queda de Fogo** *(Moderado)*
+**Queda de Fogo**
 
 *Um golpe arremessa o inimigo longe — mas o lutador já teleportou acima dele, esmagando o chão com um impacto que atinge até quem estiver no ar.*
 
@@ -452,7 +452,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa, e o alvo sobe aos ares — no início do próprio próximo turno dele, cai, fica Derrubado, e perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Martelo Explosivo** *(Moderado)*
+**Martelo Explosivo**
 
 *Um avanço brutal arrasta tudo no caminho antes de terminar com um golpe gigantesco.*
 

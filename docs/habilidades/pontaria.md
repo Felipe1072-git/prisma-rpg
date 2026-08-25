@@ -6,7 +6,7 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 
 ## Habilidades Gerais
 
-**Dança Élfica** *(Moderado)*
+**Dança Élfica**
 
 *Duas cópias etéreas surgem ao lado da arqueira, disparando em perfeita sincronia.*
 
