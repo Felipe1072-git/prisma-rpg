@@ -202,7 +202,9 @@
    que é o que permite varrer a lista de olho. */
 .prg-card__hd {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto 9.5rem 1.1rem;
+  /* O selo de custo é só "N–N Mana" desde que o PA saiu dele (ver
+     custo_resumido, no hook): 7rem bastam, e a folga volta pro nome. */
+  grid-template-columns: minmax(0, 1fr) auto 7rem 1.1rem;
   grid-template-areas:
     "nome chips custo seta"
     "cols cols  cols  cols";
@@ -372,6 +374,61 @@
 .prg-card__bd li.prg-int-iii::before,
 .prg-card__bd li.prg-critico::before {
   display: none;
+}
+
+/* Ficha técnica: Resolução, Vs, Alcance, Área, Duração, Componentes,
+   Concentração, Cooldown, Ritual — todo campo aparece sempre, mesmo "—"
+   (ver habilidades/regras.md#ficha-de-habilidade). É deliberadamente discreta
+   e compacta: informação de referência, não o que se lê primeiro no card.
+
+   O nome é `prg-tecnica`, NÃO `prg-ficha`: aquela pertence à ficha de
+   personagem imprimível (assets/css/ficha.css), que é carregada em todas as
+   páginas e pinta tinta de papel (#211c14) sobre o tema escuro — além de
+   `body:has(.prg-ficha)` no @media print dela reconfigurar a página inteira. */
+/* Aberto, o cabeçalho e a ficha técnica diriam Atributo e Alvos duas vezes.
+   As colunas do cabeçalho existem pra varrer a lista com os cards fechados —
+   quando o card abre, a ficha técnica completa assume o papel delas. */
+.prg-card.is-aberto .prg-card__cols {
+  display: none;
+}
+
+.prg-tecnica {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 1rem;
+  margin: 0.3rem 0 0.55rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: var(--prg-realce);
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.prg-tecnica__campo {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35em;
+}
+
+.prg-tecnica__campo::before {
+  content: attr(data-rot);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+
+.prg-tecnica__valor {
+  color: var(--md-default-fg-color);
+}
+
+/* "—" ainda não foi escrito pra essa habilidade — visualmente mais apagado
+   que um valor de verdade, sem sumir da ficha. */
+.prg-tecnica__valor--vazio {
+  color: var(--md-default-fg-color--light);
+  opacity: 0.7;
 }
 
 /* Abaixo de ~640px o custo não cabe ao lado dos chips: vira faixa própria. */

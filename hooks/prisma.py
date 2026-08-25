@@ -121,6 +121,9 @@ GRUPOS_CHIP = {
     "basica": "grau",
     "avancada": "grau",
     "especial": "grau",
+    "menor": "grau",
+    "medio": "grau",
+    "moderado": "grau",
     "maior": "grau",
     # cobre "Supremo" e "Suprema"
     "suprem": "suprema",
@@ -280,37 +283,62 @@ def elemento_do_campo_dano(campos: dict[str, str]) -> str:
 
 
 def custo_resumido(campos: dict[str, str]) -> str:
-    """Uma string curta de custo para o cabeçalho: '◈–◈◈◈ · 1–6 Mana'."""
+    """Uma string curta de custo para o cabeçalho: '3–18 Mana'.
+
+    **Só o Mana** (decisão do autor, 2026-08-24). O PA saía aqui como
+    '◈–◈◈◈ · 3–18 Mana', mas quase toda habilidade do jogo é ◈–◈◈◈ ou ◈◈◈:
+    o símbolo ocupava a coluna mais visível do cabeçalho sem distinguir um
+    card do outro numa lista de 754. Ele continua onde é decisão de verdade —
+    dentro de cada Intensidade, no corpo do card.
+
+    Vale pros três lugares que usam esta string (cabeçalho, ponteiro das
+    páginas de grupo e popover), porque os três são listas de varredura.
+    """
     if bruto := campos.get("Custo fixo"):
         txt = texto_puro(bruto).split("|")[0].strip()
-        pa = "".join(re.findall(r"◈", txt))
-        mana = m.group(1) if (m := re.search(r"(\d+)\s*Mana", txt)) else ""
-        if pa and mana:
-            return f"{pa} · {mana} Mana"
-        return txt
+        if m := re.search(r"(\d+)\s*Mana", txt):
+            return f"{m.group(1)} Mana"
+        # Custo em Vida (magia de sangue) não tem Mana pra resumir: mostra o
+        # que sobra depois de tirar o PA, pra não ser o único selo da lista
+        # com ◈ — "◈◈ (2 PA) + 4d4 de Vida" vira "4d4 de Vida".
+        return re.sub(r"^[◈\s]*\(\d+\s*PA\)\s*\+\s*", "", txt)
 
-    manas: list[int] = []
-    pas: list[int] = []
-    for rotulo, valor in campos.items():
-        if not rotulo.startswith("Intensidade"):
-            continue
-        cabeca = rotulo + " " + valor
-        if m := re.search(r"(\d+)\s*PA", cabeca):
-            pas.append(int(m.group(1)))
-        if m := re.search(r"(\d+)\s*Mana", cabeca):
-            manas.append(int(m.group(1)))
+    manas = [
+        int(m.group(1))
+        for rotulo, valor in campos.items()
+        if rotulo.startswith("Intensidade")
+        if (m := re.search(r"(\d+)\s*Mana", rotulo + " " + valor))
+    ]
+    if not manas:
+        return custo_em_vida(campos)
+    lo, hi = min(manas), max(manas)
+    return f"{lo} Mana" if lo == hi else f"{lo}–{hi} Mana"
 
-    if not pas and not manas:
+
+def custo_em_vida(campos: dict[str, str]) -> str:
+    """O selo de quem paga em Vida em vez de Mana (Sangue, Necromancia).
+
+    Sem isto essas doze habilidades ficariam com o selo vazio — indistinguíveis
+    de uma Passiva na lista, quando são justamente as que cobram mais caro.
+    """
+    # Custo único, num campo próprio: "custa sempre **4d4 de Vida**".
+    if bruto := campos.get("Custo em Vida"):
+        if m := re.search(r"(\d+d\d+)\s*de Vida", texto_puro(bruto)):
+            return f"{m.group(1)} de Vida"
+
+    # Ou um valor por Intensidade: "◈ (1 PA) + 1d4 de Vida". O dict preserva
+    # a ordem do markdown, então o primeiro e o último são I e III.
+    vidas = [
+        m.group(1)
+        for rotulo, valor in campos.items()
+        if rotulo.startswith("Intensidade")
+        if (m := re.search(r"(\d+d\d+)\s*de Vida", rotulo + " " + valor))
+    ]
+    if not vidas:
         return ""
-
-    partes = []
-    if pas:
-        lo, hi = min(pas), max(pas)
-        partes.append("◈" * lo if lo == hi else f"{'◈' * lo}–{'◈' * hi}")
-    if manas:
-        lo, hi = min(manas), max(manas)
-        partes.append(f"{lo} Mana" if lo == hi else f"{lo}–{hi} Mana")
-    return " · ".join(partes)
+    if vidas[0] == vidas[-1]:
+        return f"{vidas[0]} de Vida"
+    return f"{vidas[0]}–{vidas[-1]} de Vida"
 
 
 _GRAUS_ARMA = ("basica", "avancada", "especial")
@@ -320,6 +348,40 @@ _GRAUS_ARMA = ("basica", "avancada", "especial")
 # tabela fixa em regras.md), mas consistente o bastante pra virar faceta.
 _ESCALA_GERAL = ("menor", "medio", "moderado", "maior", "supremo")
 _ESCALA_VALIDOS = _GRAUS_ARMA + _ESCALA_GERAL
+
+# Componentes (V/S/M) por Grupo — ver habilidades/regras.md#componentes. Buff,
+# Debuff e Suporte ficam fora de propósito: misturam efeito físico e mágico,
+# então não têm padrão único, e cada habilidade declara o próprio.
+GRUPO_COMPONENTES = {
+    "marciais": "S, M",
+    "pontaria": "S, M",
+    "magicas-elementais": "V, S",
+    "necromancia": "V, S",
+    "alquimia-de-mana": "V, S",
+    "conjuracao": "V, S",
+    "espaco-tempo": "V, S",
+    # Projeção Mental é a exceção com peso narrativo: funciona em qualquer
+    # mente, sem depender de palavras — nunca tem Verbal.
+    "projecao-mental": "S",
+    "sociais": "V",
+    "infiltracao": "S",
+    "mobilidade": "S",
+    "percepcao-arcana": "S",
+}
+
+# Cooldown por Escala — ver habilidades/regras.md#cooldown. A faixa de baixo é
+# o padrão; a própria habilidade sobrescreve com **Cooldown:** quando merece o
+# valor alto da faixa ou a exceção "1x por descanso".
+ESCALA_COOLDOWN = {
+    "basica": "Sem cooldown",
+    "menor": "Sem cooldown",
+    "avancada": "1 rodada",
+    "medio": "1 rodada",
+    "moderado": "1 rodada",
+    "especial": "3 rodadas",
+    "maior": "3 rodadas",
+    "supremo": "1x por cena",
+}
 
 # Ficha resumida de cada habilidade, pro popover. Mesmo contrato do glossário:
 # o `on_post_build` grava em assets/habilidades.json e o JS mostra ao passar o
@@ -365,6 +427,261 @@ def resumo_para_popover(
             break
 
     return "<br>".join(linhas)
+
+
+# Rótulos da ficha técnica, na ordem em que aparecem — ver
+# habilidades/regras.md#ficha-de-habilidade. Todo campo aparece sempre, com
+# "—" quando a habilidade ainda não o declara; o retrofit das 754 habilidades
+# existentes é fase própria (ver CLAUDE.md), então "—" aqui é esperado até lá.
+FICHA_TECNICA_ROTULOS = (
+    # como rola          o que atinge              o que faz
+    "Atributo", "Resolução", "Vs", "Alvos", "Alcance", "Área", "Dano", "Duração",
+    # o que restringe
+    "Componentes", "Concentração", "Cooldown", "Ritual",
+)
+
+# Os rótulos que a ficha técnica passa a mostrar não podem continuar no corpo
+# do card: o bullet `- **Atributo:** … | **Alcance:** … | **Alvos:** …` dizia
+# exatamente o que o bloco acima já diz, linha por linha. O que sobra da linha
+# (Custo fixo, Requisito) fica — só os pares absorvidos saem.
+ABSORVIDOS_PELA_FICHA = frozenset(
+    FICHA_TECNICA_ROTULOS
+) | {"Resolucao", "vs", "Area", "Duracao", "Concentracao", "Alvo"}
+
+
+def limpa_campos_absorvidos(corpo: list[str]) -> list[str]:
+    """Reescreve o corpo sem os pares que subiram pra ficha técnica.
+
+    Linha que fica sem nenhum par é removida inteira; linha que mistura par
+    absorvido com par próprio (`**Custo fixo:** … | **Atributo:** …`) é
+    remontada só com o que sobrou.
+    """
+    saida: list[str] = []
+    for linha in corpo:
+        if not RE_CAMPO.match(linha):
+            saida.append(linha)
+            continue
+        pares = RE_PAR.findall(linha)
+        if not pares:
+            saida.append(linha)
+            continue
+        restantes = [(r, v) for r, v in pares if r.strip() not in ABSORVIDOS_PELA_FICHA]
+        if len(restantes) == len(pares):
+            saida.append(linha)
+        elif restantes:
+            saida.append(
+                "- " + " | ".join(f"**{r.strip()}:** {v.strip()}" for r, v in restantes)
+            )
+        # sem restantes: a linha inteira virou ficha técnica, não sobra nada
+    return saida
+
+
+# Alcance e Área quase nunca existem como campo próprio — mas o dado já está
+# dentro de "Alvos", que toda ficha escreve ("1 criatura a até 8 casas",
+# "2 casas de raio do ponto"). Derivar dali é o mesmo movimento de
+# `elemento_do_campo_dano`: ler o que o markdown já diz, em vez de pedir que
+# 754 fichas repitam a informação noutro lugar. Campo declarado sempre vence.
+# Os padrões abaixo saíram de um levantamento dos 149 textos distintos de
+# Alvos, não de suposição — o que não casa fica "—", que é honesto.
+RE_RAIO = re.compile(r"(\d+)\s*casas?\s+de\s+raio")
+RE_CONE = re.compile(r"cone\s+de\s+(\d+)\s*casas?")
+RE_LINHA_N = re.compile(r"\blinha\s+de\s+(\d+)\s*casas?|(\d+)\s*casas?\s+em\s+linha")
+RE_ATE_CASAS = re.compile(r"\ba\s+ate\s+(\d+)\s*casas?")
+
+
+def _casas(n: str) -> str:
+    return "1 casa" if n == "1" else f"{n} casas"
+
+
+def area_derivada(alvos: str) -> str:
+    """Forma e tamanho da área, lidos do campo Alvos.
+
+    Plural fica de fora de propósito: "duas linhas de 5 casas" não casa com
+    `linha de (\\d+)`, então cai em "—" em vez de virar "linha de 5 casas" e
+    esconder que são duas.
+    """
+    txt = sem_acento(alvos)
+    if m := RE_RAIO.search(txt):
+        return f"raio de {_casas(m.group(1))}"
+    if m := RE_CONE.search(txt):
+        return f"cone de {_casas(m.group(1))}"
+    if m := RE_LINHA_N.search(txt):
+        return f"linha de {_casas(m.group(1) or m.group(2))}"
+    if "na linha" in txt:
+        return "linha"
+    # Precisa do plural coletivo: "o atacante (precisa estar adjacente)" é
+    # alvo único com uma condição, não uma área — procurar só por "adjacent"
+    # transformava a condição entre parênteses em área (bug pego na auditoria).
+    if re.search(r"(criaturas|inimigos|alvos|aliados)\s+adjacentes", txt):
+        return "criaturas adjacentes"
+    if "campo de batalha" in txt:
+        return "campo de batalha"
+    return ""
+
+
+def alcance_derivado(alvos: str) -> str:
+    """A distância até o alvo, lida do campo Alvos.
+
+    "Pessoal" cobre o que nasce no próprio usuário — inclusive a área centrada
+    nele ("3 casas de raio ao redor do usuário"), onde o alcance é zero e o
+    raio é que importa.
+    """
+    txt = sem_acento(alvos)
+    if m := RE_ATE_CASAS.search(txt):
+        return _casas(m.group(1))
+    if "corpo a corpo" in txt:
+        return "corpo a corpo"
+    if "adjacent" in txt:
+        return "adjacente"
+    if any(
+        marca in txt
+        for marca in ("ao redor do usuario", "proprio usuario", "usuario e aliados")
+    ):
+        return "pessoal"
+    return ""
+
+
+# A duração está escrita dentro das Intensidades ("por 3 rodadas"), não num
+# campo próprio — e em 52 habilidades ela é justamente o eixo que escala
+# (Bênção Divina: 3 → 4 → 5). Um número só mentiria; a faixa diz a verdade,
+# no mesmo formato que o selo de Mana já usa ("3–18 Mana").
+RE_DURACAO = re.compile(r"\bpor (\d+) rodadas?|\bdurante (\d+) rodadas?")
+
+
+def duracao_derivada(campos: dict[str, str]) -> str:
+    """A duração lida das Intensidades: número quando é fixa, faixa quando
+    escala, e "Instantânea" quando não há duração nenhuma no texto.
+
+    Instantânea não quer dizer "sem consequência": a condição que a habilidade
+    aplica tem prazo próprio, definido no glossário. O que acaba na hora é a
+    habilidade.
+    """
+    duracoes = [
+        int(next(g for g in m.groups() if g))
+        for rotulo, valor in campos.items()
+        if rotulo.startswith("Intensidade")
+        or rotulo in ("Acerto", "Efeito", "Custo fixo")
+        if (m := RE_DURACAO.search(rotulo + " " + valor))
+    ]
+    if not duracoes:
+        return "Instantânea"
+    lo, hi = min(duracoes), max(duracoes)
+    if lo == hi:
+        return "1 rodada" if lo == 1 else f"{lo} rodadas"
+    return f"{lo}–{hi} rodadas"
+
+
+# Existe uma terceira forma de resolver, que a regra já reconhecia mas o campo
+# não: nem Ataque nem Teste de Resistência — **nada é rolado**. Buff, cura e
+# zona de dano automático caem aqui, e várias fichas já dizem isso em voz alta
+# ("sem teste de ataque"). Só a marca explícita conta: "dano automático"
+# sozinho não serve, porque aparece em habilidade que rola normalmente e só
+# aplica o dano depois de acertar.
+MARCAS_AUTOMATICA = ("sem teste de ataque", "sem rolagem", "sem teste de acerto")
+
+
+def resolucao_automatica(campos: dict[str, str], corpo: list[str]) -> str:
+    # A marca costuma estar no corpo, não num bullet de campo: é a linha solta
+    # "*(Sem Intensidade — efeito de zona automático, sem teste de ataque)*".
+    texto = sem_acento(" ".join(campos.values()) + " " + " ".join(corpo))
+    return "Automática" if any(m in texto for m in MARCAS_AUTOMATICA) else ""
+
+
+def campo_binario(campos: dict[str, str], rotulo: str) -> str:
+    """Sim/Não pra campos opt-in (Concentração, Ritual) — ausência é Não: são
+    a exceção, não a regra, então esse fallback não afirma nada arriscado."""
+    valor = sem_acento(campos.get(rotulo, ""))
+    if valor.startswith("sim"):
+        return "Sim"
+    if not valor or valor.startswith("nao"):
+        return "Não"
+    return texto_puro(campos[rotulo])
+
+
+def ficha_tecnica_valores(
+    campos: dict[str, str], grupo: str, escala: str, corpo: list[str]
+) -> dict[str, str]:
+    """Um valor por campo da ficha técnica — nunca vazio.
+
+    Nenhum campo cai em "—" por falta de fonte: Resolução, Vs, Componentes e
+    Cooldown têm padrão vindo da própria regra (Ataque, Evasão, Grupo, Escala);
+    Alcance e Área saem do campo Alvos; Duração sai das Intensidades. O "—"
+    sobra só onde o texto realmente não responde — Alcance de "1 criatura", por
+    exemplo, que depende da arma equipada.
+    """
+    vs_bruto = campos.get("Vs", campos.get("vs", ""))
+    alvos = campos.get("Alvos", "")
+    resolucao = (
+        texto_puro(campos.get("Resolução", campos.get("Resolucao", "")))
+        or resolucao_automatica(campos, corpo)
+        or "Ataque"
+    )
+    vs = texto_puro(vs_bruto).split("|")[0].strip() or "Evasão"
+    # Efeito automático não compara com número nenhum — dizer "Evasão" ali
+    # inventaria uma rolagem que a habilidade declara não existir.
+    if resolucao == "Automática":
+        vs = "—"
+    # Num Teste de Resistência o número-alvo troca de lado: não é a defesa do
+    # alvo que o usuário precisa superar, é a Fortitude do usuário que o alvo
+    # precisa superar. Sem dizer de quem é, o mesmo rótulo significaria duas
+    # coisas opostas conforme a Resolução.
+    if resolucao.startswith("Teste de Resist") and "do usuário" not in vs:
+        vs = f"{vs} do usuário"
+    return {
+        # Atributo, Alvos e Dano vêm crus (não por texto_puro) porque carregam
+        # links que valem: `**Dano:** usa o [Dano Desarmado](…)` perderia o
+        # link, e é justamente o que o leitor quer clicar. O valor é renderizado
+        # como markdown no HTML da ficha.
+        "Atributo": campos.get("Atributo", "").strip() or "—",
+        "Resolução": resolucao,
+        "Vs": vs,
+        "Alvos": alvos.strip() or "—",
+        "Dano": campos.get("Dano", "").strip() or "—",
+        "Alcance": texto_puro(campos.get("Alcance", "")) or alcance_derivado(alvos) or "—",
+        "Área": (
+            texto_puro(campos.get("Área", campos.get("Area", "")))
+            or area_derivada(alvos)
+            or "—"
+        ),
+        "Duração": (
+            texto_puro(campos.get("Duração", campos.get("Duracao", "")))
+            or duracao_derivada(campos)
+        ),
+        "Componentes": texto_puro(campos.get("Componentes", ""))
+        or GRUPO_COMPONENTES.get(grupo, "—"),
+        "Concentração": campo_binario(campos, "Concentração"),
+        "Cooldown": texto_puro(campos.get("Cooldown", ""))
+        or ESCALA_COOLDOWN.get(escala, "—"),
+        "Ritual": campo_binario(campos, "Ritual"),
+    }
+
+
+def ficha_tecnica_html(
+    campos: dict[str, str], grupo: str, escala: str, corpo: list[str]
+) -> str:
+    """A ficha técnica do card.
+
+    A classe é `prg-tecnica`, e **não** `prg-ficha`: essa última já pertence à
+    ficha de personagem imprimível (`assets/css/ficha.css`, carregado em todas
+    as páginas). Usá-la aqui fazia o card herdar a tinta de papel (#211c14)
+    sobre fundo escuro — e, pior, `body:has(.prg-ficha)` no `@media print`
+    daquele arquivo mandava a listagem inteira imprimir sem header nem nav.
+    """
+    valores = ficha_tecnica_valores(campos, grupo, escala, corpo)
+    # markdown="span" em vez de escapa(): Atributo, Alvos e Dano trazem links
+    # (`usa o [Dano Desarmado](…)`) que o leitor quer clicar, e escapar mataria
+    # os dois. Quem não tem markdown atravessa igual.
+    campos_html = "".join(
+        f'<span class="prg-tecnica__campo" data-rot="{rotulo}">'
+        f'<span class="prg-tecnica__valor'
+        f'{" prg-tecnica__valor--vazio" if valores[rotulo] == "—" else ""}"'
+        f' markdown="span">{valores[rotulo]}</span></span>'
+        for rotulo in FICHA_TECNICA_ROTULOS
+    )
+    # markdown="span", nunca "block": com "block" o Markdown envolve tudo num
+    # <p>, o flex passa a ter um filho só e o `gap` deixa de separar os campos
+    # — eles saem grudados ("MagiaRESOLUÇÃOAtaque").
+    return f'<div class="prg-tecnica" markdown="span">{campos_html}</div>'
 
 
 def chip(rotulo: str, familia: str = "") -> str:
@@ -513,10 +830,15 @@ def monta_card(
         "corpo": resumo_para_popover(rotulos, custo, campos, corpo),
     }
 
+    ficha_tecnica = ficha_tecnica_html(campos, grupo, escala, corpo)
+    # O corpo perde os pares que a ficha técnica assumiu: sem isto o card diz
+    # Atributo, Alcance e Alvos duas vezes, uma no bloco e outra no bullet.
+    detalhe = "\n".join(limpa_campos_absorvidos(corpo)).strip()
+
     return monta_card_base(
         ident,
         nome,
-        f"{'*' + flavor + '*' if flavor else ''}\n\n{detalhe}",
+        f"{'*' + flavor + '*' if flavor else ''}\n\n{ficha_tecnica}\n\n{detalhe}",
         chips=chips,
         selo=custo,
         colunas=colunas_html(pares_coluna),
