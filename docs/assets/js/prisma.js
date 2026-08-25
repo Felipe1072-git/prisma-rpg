@@ -384,7 +384,65 @@
     }
 
     iniciaSorteio(barra, cards, selects, campo, atualiza);
+    iniciaRecolherFiltros(barra, selects, sliders, checkDesarmado);
     atualiza();
+  }
+
+  /* ------------------------------------------- recolher a barra de filtro */
+
+  // A barra gruda no topo (position: sticky), então tudo o que está nela
+  // ocupa a tela enquanto se rola a lista inteira. Com doze menus isso passou
+  // a atrapalhar a leitura no celular — que é o ponto: numa listagem, a lista
+  // é o conteúdo. A busca e a contagem ficam sempre à mão; os menus recolhem.
+  //
+  // O botão é criado aqui, não no hook: sem JS a página continua exatamente
+  // como era, com todos os filtros visíveis.
+  function iniciaRecolherFiltros(barra, selects, sliders, checkDesarmado) {
+    var avancado = barra.querySelector(".prg-filtro__avancado");
+    if (!avancado) return;
+    var linha1 = barra.querySelector(".prg-filtro__linha1");
+    if (!linha1) return;
+
+    var botao = document.createElement("button");
+    botao.type = "button";
+    botao.className = "prg-filtro__recolher";
+    linha1.appendChild(botao);
+
+    // Quantos filtros estão mexidos — pra quem recolhe não esquecer que
+    // deixou um ligado e achar que a lista está incompleta por bug.
+    function ativos() {
+      var n = 0;
+      selects.forEach(function (f) { if (f.el.value) n++; });
+      sliders.forEach(function (s) { if (s.el.value !== s.el.max) n++; });
+      if (checkDesarmado && checkDesarmado.checked) n++;
+      return n;
+    }
+
+    function pinta() {
+      var aberto = !barra.classList.contains("is-recolhido");
+      var n = ativos();
+      botao.setAttribute("aria-expanded", aberto ? "true" : "false");
+      botao.textContent = aberto
+        ? "Ocultar filtros"
+        : n ? "Filtros · " + n : "Filtros";
+      botao.classList.toggle("is-ativo", !aberto && n > 0);
+    }
+
+    botao.addEventListener("click", function () {
+      barra.classList.toggle("is-recolhido");
+      pinta();
+    });
+
+    // Estado inicial pela largura: no desktop sobra espaço e ver os filtros
+    // ajuda a descobri-los; no celular eles empurram a lista pra fora da tela.
+    if (window.matchMedia("(max-width: 60em)").matches) {
+      barra.classList.add("is-recolhido");
+    }
+    // Repinta quando qualquer filtro muda, pra contagem do botão acompanhar.
+    selects.forEach(function (f) { f.el.addEventListener("change", pinta); });
+    sliders.forEach(function (s) { s.el.addEventListener("input", pinta); });
+    if (checkDesarmado) checkDesarmado.addEventListener("change", pinta);
+    pinta();
   }
 
   /* ------------------------------------------------------------- sorteio */

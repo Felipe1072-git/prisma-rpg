@@ -805,6 +805,46 @@
   border-top: 1px solid var(--prg-borda);
 }
 
+/* Bloco recolhível dos menus. A barra é sticky: o que fica nela ocupa a tela
+   durante a rolagem inteira, então os doze menus precisam poder sair de vista
+   sem levar junto a busca e a contagem. */
+.prg-filtro__avancado {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.prg-filtro.is-recolhido .prg-filtro__avancado {
+  display: none;
+}
+
+.prg-filtro__recolher {
+  flex: none;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--prg-borda);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--md-default-fg-color--light);
+  font: inherit;
+  font-size: 0.72rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.prg-filtro__recolher:hover,
+.prg-filtro__recolher:focus-visible {
+  border-color: var(--prg-borda-forte);
+  color: var(--md-default-fg-color);
+}
+
+/* Filtro ligado com a barra recolhida: sem esse aviso, a lista parece
+   incompleta e o leitor não vê por quê. */
+.prg-filtro__recolher.is-ativo {
+  border-color: var(--prg-c-arcano);
+  color: var(--prg-c-arcano);
+  font-weight: 600;
+}
+
 .prg-filtro__campo {
   flex: 1 1 14rem;
   min-width: 0;

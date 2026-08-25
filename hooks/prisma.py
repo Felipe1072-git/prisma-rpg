@@ -3362,8 +3362,15 @@ def monta_barra(
             else ""
         )
         + "</div>\n"
-        f'<div class="prg-filtro__linha2">\n{menus}</div>\n'
+        # Os menus e os controles de orçamento vivem num bloco próprio pra
+        # poderem ser recolhidos de uma vez. A barra é `position: sticky`, e
+        # com doze menus ela cobria metade da tela do celular o tempo todo,
+        # não só na primeira dobra. O botão que recolhe é criado pelo JS —
+        # sem script, o bloco fica visível como sempre foi.
+        + '<div class="prg-filtro__avancado">\n'
+        + f'<div class="prg-filtro__linha2">\n{menus}</div>\n'
         + (f'<div class="prg-filtro__linha3">\n{linha3}</div>\n' if linha3 else "")
+        + "</div>\n"
         + "</div>\n\n"
     )
 
