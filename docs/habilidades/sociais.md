@@ -88,7 +88,7 @@ Habilidades Sociais que afetam um **alvo involuntário** rolam contra o [Social]
 *Quando tudo parece perdido, ainda sobra uma frase — e às vezes é só disso que se precisa pra virar o jogo.*
 
 - **Chave:** [Sociais](../glossario.md#sociais)
-- **Custo fixo:** 0 PA + 15 Mana (dedicada a Reação) | **Atributo:** Social
+- **Custo fixo:** 0 PA + 15 Mana (dedicada a Reação) | **Atributo:** Social | **Alcance:** conversa direta
 - **Efeito:** usada quando um teste Social do usuário falha, ou quando uma decisão do Mestre está prestes a se resolver contra ele. Se houve rolagem, refaz o teste com Vantagem, sem gastar uma Rerolagem. Se foi uma decisão puramente narrativa do Mestre (sem rolagem envolvida), o usuário apresenta um argumento novo ali na hora, e o Mestre reconsidera o resultado com base nele.
 - *(Sem Intensidade — efeito automático de segunda chance, sem teste de ataque próprio)*
 

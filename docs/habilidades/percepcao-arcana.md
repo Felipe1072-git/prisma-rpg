@@ -65,7 +65,7 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 *Toda magia deixa marca — e a marca não sabe se esconder de quem procura por ela.*
 
 - **Chave:** [Percepção Arcana](../glossario.md#percepcao-arcana)
-- **Custo fixo:** ◈ (1 PA) + 12 Mana | **Atributo:** Magia | **Alvos:** 1 criatura que o usuário já tenha visto usar uma habilidade nas últimas 24 horas
+- **Custo fixo:** ◈ (1 PA) + 12 Mana | **Atributo:** Magia | **Alcance:** sem limite | **Alvos:** 1 criatura que o usuário já tenha visto usar uma habilidade nas últimas 24 horas
 - **Efeito:** o usuário sente a direção geral (não a distância exata) de onde essa criatura está agora, desde que ela tenha usado Mana em algum momento das últimas 24 horas. Não funciona em criaturas sem Mana. Só pode ser usada uma vez por [descanso curto](../jogar/exploracao.md#descanso) sobre o mesmo alvo.
 - *(Sem Intensidade — habilidade de detecção, sem teste de ataque)*
 

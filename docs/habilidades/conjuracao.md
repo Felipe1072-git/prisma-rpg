@@ -144,7 +144,7 @@ Intensidade pra ancorar o custo).
 *Um círculo se fecha, um nome verdadeiro é dito, e algo do outro lado responde — a partir daí, ele atende ao chamado sempre que for convocado.*
 
 - **Chave:** [Conjuração](../glossario.md#conjuracao)
-- **Atributo:** Magia | **Alvos:** 1 entidade (definida em cena, com o Mestre)
+- **Atributo:** Magia | **Alcance:** o círculo do ritual | **Alvos:** 1 entidade (definida em cena, com o Mestre)
 - **Parte 1 — o ritual:** uma vez por vínculo, fora de combate. Custo fixo ◈◈◈ (3 PA) + 60 Mana. Requisito: exige tempo, lugar e um custo narrativo definido pelo Mestre (um nome verdadeiro, um sacrifício, um lugar de poder) — a raridade fica a critério dele. Teste: d100 + Magia.
 - **≤ 50 — Falha catastrófica:** o Ser se solta hostil e ataca o conjurador (o Mestre monta a ficha, tipicamente Formidável, via [Criando uma Criatura](../mestre/criando-criaturas.md)), ou o próprio vínculo se volta contra ele — o Mestre decide o que serve melhor à cena. O conjurador ganha uma [Cicatriz](../jogar/estresse.md#cicatrizes) automaticamente e só pode tentar de novo com um ritual novo, do zero, com o mesmo risco.
 - **51–80 — Falha recuperável:** o ritual não prende nada. O tempo e os componentes investidos se perdem, mas nada de ruim acontece — pode tentar de novo mais tarde.
@@ -184,7 +184,7 @@ Intensidade pra ancorar o custo).
 
 - **Chave:** [Conjuração](../glossario.md#conjuracao)
 - **Requisito:** ter aprendido **Laço de Sangue e Pelo**
-- **Atributo:** o mesmo do Companheiro Animal | **Alvos:** o próprio Companheiro
+- **Atributo:** o mesmo do Companheiro Animal | **Alcance:** vínculo — qualquer distância | **Alvos:** o próprio Companheiro
 - **Efeito:** o Companheiro ganha uma forma de disfarce — pequena e discreta, mas que não muda a força real dele: mesma Vida, Evasão e Movimento da tabela de progressão por nível. Nessa forma, ele simplesmente escolhe não atacar (fica quieto, some na paisagem) e ganha [Vantagem](../glossario.md#vantagem) em qualquer teste pra passar despercebido, além de caber em espaços que a forma verdadeira não caberia. Alternar entre a forma verdadeira e o disfarce é uma ação livre, sem custo de Mana ou PA — inclusive fora do próprio turno do usuário, como reação a uma ameaça surgindo.
 - *(Sem Intensidade — habilidade utilitária: a força do Companheiro nunca muda, só a aparência e o comportamento dele)*
 
@@ -194,7 +194,7 @@ Intensidade pra ancorar o custo).
 
 - **Chave:** [Conjuração](../glossario.md#conjuracao)
 - **Requisito:** ter aprendido **Forma Verdadeira**; só pode ser ativada enquanto o Companheiro estiver na forma verdadeira (não durante o disfarce)
-- **Atributo:** o mesmo do Companheiro Animal | **Alvos:** o próprio Companheiro
+- **Atributo:** o mesmo do Companheiro Animal | **Alcance:** vínculo — qualquer distância | **Alvos:** o próprio Companheiro
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** por 2 rodadas, o Companheiro ganha +1d4 no dano do ataque automático, mas perde 2 de Evasão enquanto durar.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** o mesmo, com +2d4 no dano, por 3 rodadas.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** o mesmo, com +3d4 no dano, por 4 rodadas.

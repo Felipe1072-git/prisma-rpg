@@ -521,6 +521,29 @@ def area_derivada(alvos: str) -> str:
     return ""
 
 
+def alcance_declarado(campos: dict[str, str]) -> str:
+    """O Alcance escrito na ficha — inclusive sob os rótulos variantes.
+
+    Vinte e duas habilidades não dizem "Alcance:" e sim **"Alcance do salto:"**,
+    **"do avanço:"** ou **"do recuo:"**, porque nelas quem se desloca é o
+    usuário. É a mesma informação — quão longe a habilidade chega —, e ignorar
+    o rótulo variante deixava a Queda Meteórica sem alcance mesmo tendo um
+    escrito na própria ficha. A qualificação vai entre parênteses pra não se
+    perder: "até o valor de Movimento (salto)".
+    """
+    for rotulo, valor in campos.items():
+        if not rotulo.startswith("Alcance"):
+            continue
+        texto = texto_puro(valor).strip()
+        if not texto:
+            continue
+        cauda = rotulo[len("Alcance"):].strip()
+        if cauda.startswith("do "):
+            return f"{texto} ({cauda[3:]})"
+        return texto
+    return ""
+
+
 def alcance_derivado(
     alvos: str, campos: dict[str, str] | None = None, corpo: list[str] | None = None,
     grupo: str = "", arma: str = "",
@@ -735,7 +758,7 @@ def ficha_tecnica_valores(
         "Alvos": alvos.strip() or "—",
         "Dano": campos.get("Dano", "").strip() or "—",
         "Alcance": (
-            texto_puro(campos.get("Alcance", ""))
+            alcance_declarado(campos)
             or alcance_derivado(alvos, campos, corpo, grupo, arma)
             or "—"
         ),
