@@ -18,6 +18,17 @@ Rolagens de **Habilidade** usam exatamente a mesma lógica, trocando a Dificulda
 
 E é só isso que a rolagem responde. O quanto a habilidade faz **não depende do dado**: depende da [Intensidade](../glossario.md#intensidade) que o jogador pagou antes de rolar.
 
+## Teste de Resistência
+
+Toda habilidade declara sua [Resolução](../glossario.md#resolucao): a maioria é **Ataque** — a fórmula acima, o usuário rola contra o alvo. Uma minoria é **Teste de Resistência**, e aí a rolagem se inverte:
+
+!!! regra "Teste de Resistência: o alvo rola, não o usuário"
+    O **alvo** rola d100 + o próprio Atributo (normalmente Defesa ou Magia, conforme a natureza do efeito) contra a **Fortitude** do usuário (Mágica ou Física — ver [Combate](combate.md#defesa)). Igualou ou superou, **resistiu**: o efeito não acontece, ou acontece pela metade, conforme a habilidade declarar.
+
+A diferença não é cosmética — é sobre **de quem é a incerteza**. Num Ataque, o usuário é quem pode errar o golpe. Num Teste de Resistência, o usuário já acertou (ou nem precisou de golpe nenhum, como um veneno plantado antes) e é o **alvo** que corre risco de não aguentar.
+
+Use Teste de Resistência pra efeitos que o corpo resiste **por dentro**, não que se desviam — veneno de ação lenta, maldição plantada, um efeito que só dispara depois. Use Ataque pra tudo que é impacto direto, golpe, ou magia mirada num instante. A habilidade declara qual é a sua na ficha (ver [Regras de Habilidade](../habilidades/regras.md#ficha-de-habilidade)).
+
 ## Quando rolar
 
 Só quando a ação puder **dar errado** e o fracasso for **interessante**. Se o personagem tem tempo, ferramenta e nenhuma pressão, a ação simplesmente acontece — ver [Quando não pedir teste](../mestre/testes.md#quando-nao-pedir-teste).

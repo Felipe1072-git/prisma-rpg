@@ -41,8 +41,13 @@ Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Inten
       <div style="flex:1;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       <div style="flex:1;">Atributo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       <div style="flex:1;">Tipo de Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      <div style="flex:1;">Vs<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+    </div>
+    <div style="display:flex; gap:9px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
       <div style="flex:1;">Alvo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       <div style="flex:1;">Alcance<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      <div style="flex:1;">Área<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      <div style="flex:1;">Duração<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
     </div>
     <div style="display:flex; align-items:center; gap:7px; padding:2px 8px 1px;">
       <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Tipo</span>
@@ -50,7 +55,7 @@ Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Inten
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
     </div>
-    <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px; border-bottom:1.2px solid #83765a;">
+    <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px;">
       <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Ação</span>
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
       <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Área</label>
@@ -60,6 +65,22 @@ Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Inten
         <svg viewBox="0 0 10 10" style="width:7px; height:7px;" aria-hidden="true"><path d="M5 1 L9 9 L1 9 Z" fill="#159c56"/></svg>
         Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span>
       </label>
+    </div>
+    <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px;">
+      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Resolução</span>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Teste de Resistência</label>
+    </div>
+    <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px;">
+      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Comp.</span>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Verbal</label>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Somático</label>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Material</label>
+    </div>
+    <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px; border-bottom:1.2px solid #83765a;">
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Concentração</label>
+      <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ritual</label>
+      <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; margin-left:4px;">Cooldown<span style="display:inline-block; border-bottom:1px solid #cabf9f; min-width:52px; min-height:9px; margin-left:3px;">&nbsp;</span></span>
     </div>
     <div style="padding:5px 8px 5px; display:flex; flex-direction:column; gap:3px;">
       <div style="display:flex; align-items:baseline; gap:5px;">
@@ -94,9 +115,17 @@ Cada habilidade é registrada com:
 - **Descrição breve** — 1 frase evocativa, deixando claro o que a habilidade faz
 - **Chave** — para habilidades de arma: "Arma - Grau" (ex: "Espada - Básica"). Para habilidades gerais de grupo: "Grupo - Subtipo" (ex: "Marcial - Especial")
 - **Atributo** — atributo usado no teste (ex: ATA)
-- **Efeitos / Alvos**
+- **Tipo de Dano / Vs** — o tipo de dano causado (ou **—**, se não causa dano), e contra qual número-alvo a Resolução compara (Evasão por padrão; declarado sempre, mesmo quando é o padrão)
+- **Efeitos / Alvos / Alcance / Área / Duração** — Alcance e Área são sempre explícitos, mesmo quando é "corpo a corpo" ou "—"; Duração é **Instantânea** por padrão nas que causam dano direto
+- **Resolução** — **Ataque** (o usuário rola) ou **Teste de Resistência** (o alvo rola) — ver [Resolução](#resolucao) e [Teste de Resistência](#teste-de-resistencia)
+- **Componentes** — Verbal / Somático / Material, o que a ativação exige fisicamente — ver [Componentes](#componentes)
+- **Concentração** — Sim/Não — ver [Concentração](#concentracao)
+- **Cooldown** — ver [Cooldown](#cooldown)
+- **Ritual** — Sim/Não — ver [Ritual](#ritual)
 - **Intensidade I / II / III** — as três versões da habilidade, cada uma com seu custo em Pontos de Ação e Mana
 - **Crítico** — dentro do [limiar de Crítico](../jogar/testes.md#criticos) (Sorte ÷ 3)
+
+Todo campo aparece sempre, em toda habilidade — quando não se aplica, o campo permanece com **—** em vez de sumir. O jogo é explícito de propósito: nada fica subentendido pra quem lê a ficha no meio de um turno.
 
 ### Intensidade
 
@@ -168,9 +197,11 @@ A Ficha de uma Passiva é mais enxuta: **Nome** *(Passiva)*, descrição breve, 
 
 ### Resolução
 
+Esta seção descreve o fluxo de **Ataque** — a maioria das habilidades, onde o usuário é quem rola. Uma minoria usa **Teste de Resistência**, onde é o alvo quem rola (ver [abaixo](#teste-de-resistencia)); toda habilidade declara qual dos dois é a sua, no campo Resolução da ficha.
+
 1. O jogador declara a habilidade e **a Intensidade**, e paga o PA + Mana daquela Intensidade.
 2. Rola **d100 + Atributo da habilidade**.
-3. O total precisa **igualar ou superar o número-alvo do defensor** (ver [Defesa](../glossario.md#defesa)). Por padrão isso é a **Evasão** — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual número testar em vez disso, mas a lógica de comparação é sempre a mesma.
+3. O total precisa **igualar ou superar o número-alvo do defensor** (ver [Defesa](../glossario.md#defesa)). Por padrão isso é a **Evasão** — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual número testar em vez disso, no campo **Vs** da ficha, mas a lógica de comparação é sempre a mesma.
 4. **Acertou** → aplica o efeito da Intensidade paga. **Não acertou** → nenhum efeito; o PA e o Mana foram gastos de todo jeito.
 5. **Crítico**: se o d100 puro (o número antes de somar o Atributo) for igual ou menor que o [limiar de Crítico](../jogar/testes.md#criticos) (Sorte ÷ 3, arredondado), o teste é sucesso automático e **Crítico** — soma o dano máximo do dado + mais uma rolagem normal do mesmo dado, e **sobe 1 Intensidade de graça** — aplica o efeito da Intensidade acima da que foi paga, sem pagar a diferença. Usado já em Intensidade III (ou numa habilidade de Custo fixo), o Crítico entrega o bônus de dano — mais o efeito extra de Crítico que a própria ficha declarar, se houver.
 
@@ -186,3 +217,61 @@ A Ficha de uma Passiva é mais enxuta: **Nome** *(Passiva)*, descrição breve, 
 O d100 responde só "acertou ou não" — **quão forte** o golpe é já foi decidido no momento em que o jogador escolheu a Intensidade.
 
 Habilidades sem teste de ataque (buffs, cura, efeitos automáticos como uma Habilidade Suprema inevitável) **não checam número-alvo** — o efeito simplesmente acontece. Mas isso não as isenta de Intensidade: elas ainda escolhem quanto investir, e o que cresce é o tamanho do efeito (ver acima).
+
+### Teste de Resistência
+
+Uma minoria das habilidades inverte o fluxo de Ataque: em vez do usuário rolar contra o alvo, é o **alvo** que rola contra o usuário.
+
+!!! regra "Teste de Resistência: o alvo rola, não o usuário"
+    O **alvo** rola d100 + o próprio Atributo contra a **Fortitude** do usuário (Mágica ou Física, conforme a natureza do efeito). Igualou ou superou, **resistiu** — o efeito não acontece, ou acontece pela metade, conforme a habilidade declarar.
+
+A diferença não é cosmética — é sobre **de quem é a incerteza**. Num Ataque, o usuário é quem pode errar o golpe. Num Teste de Resistência, o usuário já acertou (ou nem precisou de golpe, como um veneno plantado antes) e é o **alvo** que corre risco de não aguentar.
+
+Use Teste de Resistência pra efeito que o corpo resiste **por dentro** — veneno de ação lenta, maldição plantada, algo que só dispara depois. Use Ataque pra golpe ou magia mirada num instante. Ver [Testes de d100 → Teste de Resistência](../jogar/testes.md#teste-de-resistencia) pra fórmula completa.
+
+### Componentes
+
+O que ativar a habilidade exige fisicamente — **Verbal**, **Somático**, **Material** — declarado no campo Componentes da ficha:
+
+| Grupo | Componentes padrão |
+|---|---|
+| Marciais, Pontaria | Somático + Material (a própria arma equipada) |
+| Mágicas por Elemento, Necromancia, Alquimia de Mana, Conjuração, Espaço-Tempo | Verbal + Somático |
+| Projeção Mental | Somático — **sem Verbal**: funciona em qualquer mente, sem depender de palavras |
+| Sociais | Verbal |
+| Infiltração, Mobilidade, Percepção Arcana | Somático |
+| Buff, Debuff, Suporte | Varia habilidade a habilidade — o grupo mistura de propósito efeito físico e mágico, então cada uma declara o próprio Componentes |
+
+**Verbal** é negado por [Silenciado](../glossario.md#silenciado). **Somático** só é negado por [Atordoado](../glossario.md#atordoado) — não existe condição própria pra "mãos presas" hoje. **Material** é informativo: a arma ou o foco precisa estar equipado, sem sistema de furto ou destruição de componente.
+
+### Concentração
+
+Algumas habilidades exigem manter a concentração enquanto duram — só Buffs, Debuffs e invocações de [Conjuração](conjuracao.md) com duração contínua declaram **Concentração: Sim**.
+
+- **Só 1 efeito de Concentração ativo por vez** — ativar outro (da mesma habilidade ou de outra que também exija Concentração) encerra o anterior.
+- **Quebra ao tomar dano**: role d100 + Defesa contra o dano recebido. Igualou ou superou, manteve; senão, o efeito encerra ali.
+
+### Cooldown
+
+Depois de usada, uma habilidade com Cooldown fica indisponível por um tempo — **independente de quanto Mana sobrou**. Escala pelo mesmo grau/potência que já precifica a habilidade (ver [Grau de Poder](../jogar/mana.md#grau-de-poder)):
+
+| Grau / Potência | Cooldown padrão |
+|---|---|
+| Básica (arma) / Menor (geral) | Sem cooldown |
+| Avançada (arma) / Moderado (geral) | 1–2 rodadas |
+| Especial (arma) / Maior (geral) | 3–4 rodadas |
+| Supremo (custo fixo) | 1x por cena (≈10 rodadas de combate) |
+
+Dentro das faixas com intervalo (1–2, 3–4), o valor exato é decisão de quem escreve a habilidade — mais alto quando ela é notavelmente forte pro próprio grau. Um Supremo especialmente forte pode declarar **1x por descanso** em vez de 1x por cena, como exceção.
+
+Cooldown é **por habilidade específica** — usar um Golpe Especial não trava os outros Especiais — e roda **em cima** do custo de Mana, não no lugar dele: é um freio de ritmo, não de raridade (ver [Cooldown](../glossario.md#cooldown)). Habilidades dedicadas a Reação ficam de fora — já são limitadas ao próprio gatilho.
+
+### Ritual
+
+Tag opcional, em qualquer grau — não só Supremos: a habilidade declara **Ritual: Sim** e ganha um modo de uso alternativo, sem custo de Mana, mas mais lento e restrito:
+
+- Leva cerca de **10 minutos** de preparo, em vez do custo normal de PA.
+- Só funciona **fora de combate**.
+- Exige **não ser interrompido** — sofrer dano ou ser forçado a agir durante o preparo cancela o ritual (perde o tempo, mas não gasta Mana).
+
+Faz sentido em habilidades de utilidade (detectar, identificar, curar fora de combate) e em Supremos que são "coisa que se faz com calma" — invocar, transmutar, abrir uma passagem. Não faz sentido em dano de combate: não há alvo parado esperando fora de combate.

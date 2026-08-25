@@ -1,6 +1,6 @@
 # Glossário de Termos
 
-Os **142 termos** que o jogo usa: estatísticas do personagem, condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
+Os **148 termos** que o jogo usa: estatísticas do personagem, condições, tipos de dano, termos de resolução, armas, grupos e elementos. Cada um linka pra sua página de origem, e cada menção a um termo no resto do site abre o verbete num popover ao passar o mouse.
 
 Há duas formas de chegar num termo: o **índice alfabético** abaixo, se você já sabe o nome, ou a **busca e o filtro por categoria**, se você está procurando o que existe.
 
@@ -41,6 +41,26 @@ O Tier de ameaça de uma criatura — Comum, Treinado, Formidável, Lendário. N
 ### Acúmulo de bônus
 
 **Bônus numéricos planos de buffs diferentes não somam — vale o maior.** Um personagem sob Aura de Ataque (+3) e Bênção Divina (+2) usa +3, não +5 (uma habilidade que declara empilhar **consigo mesma**, como a Bênção Divina, é exceção explícita e só empilha com ela própria). Bônus de fontes de natureza diferente (buff + item + traço racial) somam normalmente. **Resistências ao mesmo tipo de dano também não acumulam** — duas Resistências a Fogo valem uma.
+
+### Resolução
+
+Toda habilidade declara como se resolve: **Ataque** (o usuário rola d100 + Atributo contra o número-alvo do alvo — o padrão, ver [Testes de d100](jogar/testes.md)) ou **Teste de Resistência** (o **alvo** rola d100 + o próprio Atributo contra a Fortitude do usuário — usado quando o efeito é algo que o corpo resiste por dentro, não um golpe que se desvia: veneno de ação lenta, maldição plantada, efeito atrasado). Ver [Testes de d100 → Teste de Resistência](jogar/testes.md#teste-de-resistencia).
+
+### Componentes
+
+O que ativar uma habilidade exige fisicamente: **Verbal** (fala — negado por [Silenciado](#silenciado)), **Somático** (gesto — negado só por [Atordoado](#atordoado)) e **Material** (a arma ou foco precisa estar equipado). Ver [Regras de Habilidade → Componentes](habilidades/regras.md#componentes).
+
+### Concentração
+
+Só **1 efeito de Concentração** pode ficar ativo por vez — ativar outro encerra o anterior. Quebra ao tomar dano: role d100 + Defesa contra o dano recebido; falhando, o efeito encerra ali. Vale só pra Buffs, Debuffs e invocações de Conjuração com duração contínua. Ver [Regras de Habilidade → Concentração](habilidades/regras.md#concentracao).
+
+### Cooldown
+
+Depois de usada, a habilidade fica indisponível por um tempo — **independente de quanto Mana sobrou**: sem cooldown, 1–2 [rodadas](#rodada), 3–4 rodadas, 1x por [cena](#cena) ou 1x por descanso, conforme o grau ou potência dela. Ver [Regras de Habilidade → Cooldown](habilidades/regras.md#cooldown).
+
+### Ritual
+
+Tag opcional de algumas habilidades: ativa **sem custo de Mana**, mas exige preparo (cerca de 10 minutos) e só funciona **fora de combate, sem interrupção** — ser atacado ou interrompido cancela o ritual (perde o tempo, mas não gasta Mana). Ver [Regras de Habilidade → Ritual](habilidades/regras.md#ritual).
 
 ## Estatísticas do Personagem
 
@@ -168,6 +188,10 @@ Foi pego de surpresa: **não pode agir nem reagir durante a primeira rodada do c
 ### Agarrado
 
 Está preso por uma criatura ou restrição física: fica [Imóvel](#imovel) enquanto durar, e marca **2d6 de Estresse** ao ser agarrado. **Escapar custa ◈ (1)** e um teste de **Ataque ou Agilidade** (o que for maior) contra a Evasão de quem prende — ou contra a Dificuldade da restrição, se for um objeto. Quem prende solta automaticamente se ficar Atordoado ou Caído.
+
+### Silenciado
+
+Impede a ativação de qualquer habilidade que tenha [Componente](#componentes) Verbal — inclusive Habilidades Sociais baseadas em fala. Habilidades sem esse componente continuam disponíveis normalmente.
 
 ### Marcado
 
