@@ -954,6 +954,36 @@ dias.** Ontem foi `git checkout -- docs/habilidades/` (levou as edições de `re
 `FORA_DO_AUTOLINK` referenciado sem existir, o que quebra o build com `NameError`. **Commite antes de
 testar hipótese com checkout**, ou faça o teste numa cópia.
 
+**Os tipos de dano físico ganham assinatura (2026-08-27).** A causa estrutural do clichê marcial,
+medida: **os quatro tipos eram estatisticamente idênticos**. Cortante derrubava em 87% das habilidades,
+Impacto em 90%, Perfurante em 84%, Arcano em 94% — e empurravam em 52–84%. O que devia ser
+característico aparecia pouco: Sangrando em 22% das cortantes, Atordoado em 12% das de impacto.
+**O clichê não era de 23 habilidades, era de 183**: escolher espada, martelo ou lança não mudava nada.
+
+Entrou a tabela **Assinatura de Tipo de Dano** (em `equipamento/index.md`, montada na página de regra),
+espelhando a Assinatura de Elemento — três degraus, um por Intensidade:
+
+| Tipo | Assinatura | I → II → III |
+|---|---|---|
+| **Cortante** | a ferida não fecha | Sangrando → 8d4 → 12d4 |
+| **Impacto** | derruba a postura | derruba → derruba e Lento → levantar custa ◈ a mais |
+| **Perfurante** | atravessa a defesa | ignora Couraça → e Escudo → e Resistência física |
+| **Arcano** | o golpe realimenta | devolve 1 → 2 → 3 Mana |
+
+O autor escolheu **substituir o empurrão genérico nas fichas**, não herdar por regra: dá ~150 fichas,
+feitas **um tipo por vez**. O **Cortante saiu primeiro — 57 habilidades**, todas as 19 armas cortantes.
+
+⚠ **O Arcano devolve pouco de propósito**: 3 no teto contra um custo mínimo de 3 (Básica I) e 9 (II).
+A arma **estica o pool, nunca se paga** — a auditoria de 2026-07-27 já teve que corrigir uma habilidade
+que devolvia o próprio custo.
+
+⚠ **Edição em massa: o dry-run pegou dois defeitos que o build não pegaria.** Primeiro a **ordem da
+frase** ("2d8 de dano *e derruba o alvo* + o alvo fica Sangrando" — eu removia o empurrão e reinseria
+depois do dano, em vez de trocar no lugar); depois o **conector comido** ("1d6 de dano o alvo fica
+Sangrando", sem o `+`, porque o regex do empurrão engolia o `+` anterior). E a varredura final achou
+uma **palavra órfã** que sobrou de "empurra 1 casa cada alvo *atingido*". Nenhum dos três quebra build
+ou `verifica.py`: só se veem lendo.
+
 Em aberto:
 
 **Revisado pelo autor em 2026-08-27** — este bloco está fechado:

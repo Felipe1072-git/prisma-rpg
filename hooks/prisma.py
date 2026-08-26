@@ -2441,7 +2441,9 @@ def monta_regras_de_equipamento(docs_dir: Path) -> list[str]:
     partes = [
         *extrai_intervalo(linhas, r"^## Graus de Habilidade de Arma\s*$", r"^## Tabela"),
         "",
-        *extrai_intervalo(linhas, r"^## Tabela de Dados de Dano\s*$", r"^## Propriedades"),
+        *extrai_intervalo(linhas, r"^## Tabela de Dados de Dano\s*$", r"^## Assinatura"),
+        "",
+        *extrai_intervalo(linhas, r"^## Assinatura de Tipo de Dano\s*$", r"^## Propriedades"),
         "",
         *extrai_intervalo(linhas, r"^## Propriedades de Arma\s*$", r"^## [A-ZÀ-Ú]"),
         "",
