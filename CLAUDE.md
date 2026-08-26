@@ -971,7 +971,17 @@ espelhando a Assinatura de Elemento — três degraus, um por Intensidade:
 | **Arcano** | o golpe realimenta | devolve 1 → 2 → 3 Mana |
 
 O autor escolheu **substituir o empurrão genérico nas fichas**, não herdar por regra: dá ~150 fichas,
-feitas **um tipo por vez**. O **Cortante saiu primeiro — 57 habilidades**, todas as 19 armas cortantes.
+feitas **um tipo por vez**. Saíram **Cortante** (57 habilidades, 19 armas) e **Perfurante** (57
+habilidades, 19 armas) — nenhuma das duas famílias empurra mais. **Falta o Impacto** (33).
+
+⚠ **O Arcano não muda ficha nenhuma.** A devolução de Mana é um efeito no *usuário*, não no alvo, então
+não tem o que substituir: as 19 habilidades de foco mágico que empurram **continuam empurrando**, e a
+devolução vem da tabela. Se isso incomodar, é decisão nova — o empurrão delas teria que virar outra
+coisa.
+
+⚠ **"Couraça" não tem verbete no glossário**, mesmo entrando na fórmula da Evasão e agora no texto de
+57 habilidades perfurantes. As checagens do `verifica.py` não pegam: ela nunca aparece como "fica
+Couraça".
 
 ⚠ **O Arcano devolve pouco de propósito**: 3 no teto contra um custo mínimo de 3 (Básica I) e 9 (II).
 A arma **estica o pool, nunca se paga** — a auditoria de 2026-07-27 já teve que corrigir uma habilidade
