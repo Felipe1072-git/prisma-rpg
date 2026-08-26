@@ -55,41 +55,40 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano imediato + teleporta o alvo 2 casas em qualquer direção (escolhida pelo usuário)
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano imediato, e mais 1d8 de dano automático no início do próximo turno do usuário (2 aplicações no total) + teleporta o alvo 4 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano imediato, e mais 1d8 de dano automático no início de cada um dos 2 próximos turnos do usuário (3 aplicações no total) + teleporta o alvo 4 casas e ele fica [Atordoado](../glossario.md#atordoado)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual imediato, e sobe 1 Intensidade
 
 **Ruptura Dimensional** *(Supremo)*
 
 *Uma fenda se abre na realidade por um instante — o que quer que exista dentro dela deixa de existir aqui.*
 
 - **Chave:** [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Magia** — metade do dano, sem condições
 - **Acerto** (cada alvo testa por si): 4d8 de dano + cada alvo é arremessado para fora da área — até a borda, e mais 2 casas além — e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele. Quem não tiver espaço livre pra onde ser arremessado é derrubado onde está
 - **Resistiu:** o alvo fica onde está e não sofre as condições — mas ainda leva metade do dano
-- **Crítico:** dano máximo (32) + 4d8 extra em todos, e derruba cada alvo
 
 **Crescente Sombrio** *(Maior)*
 
 *Uma lâmina de gravidade pura avança em linha reta, cortando o espaço à sua frente.*
 
 - **Chave:** [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
 - **Corte no espaço:** a lâmina não percorre o caminho — corta ele. Atravessa barreiras e paredes criadas por habilidade sem perder força, e não precisa de linha de visada livre até os alvos
+- **Resistiu:** cada alvo resiste com **Magia** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + [Lento](../glossario.md#lento), e toda barreira ou parede criada por habilidade na linha é destruída
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Peso das Trevas** *(Maior)*
 
 *Um campo gravitacional invisível se forma sobre a área, tornando cada passo insuportavelmente pesado.*
 
 - **Chave:** [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Campo gravitacional:** o dano abaixo acontece só na ativação. Enquanto o campo durar, quem terminar o turno dentro dele sofre 4d4 de dano e é esmagado contra o chão
+- **Resistiu:** cada alvo resiste com **Magia** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo + o campo dura 1 rodada; quem terminar o turno dentro fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + o campo dura 2 rodadas; quem terminar o turno dentro fica [Lento](../glossario.md#lento) e é derrubado
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + o campo dura 3 rodadas; quem terminar o turno dentro fica [Imóvel](../glossario.md#imovel) até o fim do próximo turno dele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Horizonte de Eventos** *(Supremo)*
 
@@ -111,7 +110,6 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano + o alvo é engolido e reaparece na mesma casa no início do próximo turno dele, sem Reação até lá
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + engolido do mesmo jeito, e reaparece numa casa livre à escolha do usuário, a até 4 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + engolido, reaparece onde o usuário escolher a até 4 casas, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Fonte da Explosão** *(Supremo)*
 
@@ -132,20 +130,19 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Intensidade I — ◈ (1 PA) + 12 Mana:** 1d8 de dano + o alvo é teleportado pra uma casa adjacente ao usuário
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 1d10 de dano + o alvo é teleportado pra uma casa adjacente ao usuário e fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** 2d10 de dano + o alvo é teleportado pra uma casa adjacente ao usuário e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual + teleportado, e sobe 1 Intensidade
 
 **Vazio** *(Maior)*
 
 *Um pequeno buraco negro se abre, sugando tudo ao redor antes de explodir.*
 
 - **Chave:** [Espaço-Tempo](../glossario.md#espaco-tempo)
-- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Sugar e explodir:** primeiro cada alvo é puxado em direção ao centro; a explosão vem depois, e cobra mais caro de quem ficou colado nele
 - **Resistiu:** o alvo fica onde está e não sofre as condições — mas ainda leva metade do dano
+- **Resistiu:** cada alvo resiste com **Magia** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** puxa cada alvo 2 casas em direção ao centro + 1d8 de dano em cada um — quem terminar adjacente ao centro sofre 2d8 no lugar disso
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** puxa 3 casas + 1d10 de dano — 2d10 em quem ficar adjacente ao centro
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** puxa 4 casas + 2d10 de dano — 4d10 em quem ficar adjacente ao centro, e esses ficam [Atordoados](../glossario.md#atordoado)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Colapso do Vazio** *(Maior)*
 
@@ -189,7 +186,6 @@ empurrar, ganhar uma ação extra, refazer um resultado que já aconteceu.
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano + alvo é puxado até a casa do portal
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + puxado até o portal + fica [Derrubado](../glossario.md#derrubado)
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + puxado até o portal + fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Reverter o Instante** *(usada como Reação)*
 

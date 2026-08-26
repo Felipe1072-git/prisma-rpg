@@ -20,14 +20,40 @@ E é só isso que a rolagem responde. O quanto a habilidade faz **não depende d
 
 ## Teste de Resistência
 
-Toda habilidade declara sua [Resolução](../glossario.md#resolucao): a maioria é **Ataque** — a fórmula acima, o usuário rola contra o alvo. Uma minoria é **Teste de Resistência**, e aí a rolagem se inverte:
+Toda habilidade declara sua [Resolução](../glossario.md#resolucao). **Ataque** é a fórmula acima — o usuário rola contra o alvo, e é ele quem pode errar. **Teste de Resistência** inverte a rolagem: o usuário não erra, e é o alvo que corre risco de não aguentar.
 
 !!! regra "Teste de Resistência: o alvo rola, não o usuário"
-    O **alvo** rola d100 + o próprio Atributo (normalmente Defesa ou Magia, conforme a natureza do efeito) contra a **Fortitude** do usuário (Mágica ou Física — ver [Combate](combate.md#defesa)). Igualou ou superou, **resistiu**: o efeito não acontece, ou acontece pela metade, conforme a habilidade declarar.
+    O **alvo** rola d100 + o atributo que a habilidade declarar, contra o **Atributo de lançamento do usuário, cru** — a Magia de quem conjura, o Ataque de quem golpeia. Igualou ou superou, **resistiu**.
 
-A diferença não é cosmética — é sobre **de quem é a incerteza**. Num Ataque, o usuário é quem pode errar o golpe. Num Teste de Resistência, o usuário já acertou (ou nem precisou de golpe nenhum, como um veneno plantado antes) e é o **alvo** que corre risco de não aguentar.
+São três resultados possíveis, e o do meio é o comum:
 
-Use Teste de Resistência pra efeitos que o corpo resiste **por dentro**, não que se desviam — veneno de ação lenta, maldição plantada, um efeito que só dispara depois. Use Ataque pra tudo que é impacto direto, golpe, ou magia mirada num instante. A habilidade declara qual é a sua na ficha (ver [Regras de Habilidade](../habilidades/regras.md#ficha-de-habilidade)).
+| O alvo… | Sofre |
+|---|---|
+| **falhou** | o efeito inteiro — dano cheio e todas as condições |
+| **resistiu** | metade do dano, e nenhuma das condições |
+| **resistiu com [Crítico](#criticos)** | nada; escapou por completo |
+
+O Crítico não some num Teste de Resistência — ele **troca de lado junto com o dado**. Quem rola é quem critica, pela mesma regra de sempre: d100 puro igual ou abaixo do próprio limiar. É por isso que habilidade resistida não traz bullet de Crítico na ficha — o momento de sorte pertence a quem está resistindo.
+
+**Com que atributo se resiste** não depende do elemento, e sim do que o efeito exige do alvo. A habilidade declara o seu no campo **Vs**, então ninguém precisa julgar isso no meio do turno:
+
+| A pergunta que o efeito faz | Resiste com |
+|---|---|
+| Dá pra sair da frente? | **Agilidade** |
+| O corpo tem que aguentar? | **Defesa** |
+| A mente tem que aguentar? | **Sanidade** |
+| A vontade está sendo dobrada por voz ou presença? | **Social** |
+| A realidade em volta está sendo alterada? | **Magia** |
+
+Repare que resistir a uma explosão usa **Agilidade crua**, não [Evasão](../glossario.md#evasao) — a Couraça da armadura não ajuda ninguém a se jogar pro lado.
+
+**Quando cada resolução se usa.** Ataque é pra golpe ou magia mirada em **um alvo**, que um passo pro lado evita. Teste de Resistência cobre três casos:
+
+- **Área** — a explosão não mira ninguém: ela acontece, e quem está lá se protege como pode.
+- **O que o corpo resiste por dentro** — veneno de ação lenta, maldição plantada, algo que só dispara depois.
+- **O que não se esquiva**, porque não vem por uma trajetória — dobra do espaço, gravidade, sucção dimensional.
+
+A diferença não é cosmética: é sobre **de quem é a incerteza**, e sobre quem tem o que fazer quando a habilidade cai na mesa. Uma área do Mestre contra o grupo inteiro vira quatro jogadores rolando a própria resistência, em vez do Mestre rolando quatro vezes sozinho.
 
 ## Quando rolar
 

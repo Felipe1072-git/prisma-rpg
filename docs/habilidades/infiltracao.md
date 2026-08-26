@@ -9,10 +9,10 @@ Furtividade, ladinagem.
 *Uma bomba lançada nas sombras, que detona um instante depois numa explosão de energia sombria.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Ataque | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** todas as criaturas em 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** todas as criaturas em 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Efeito de atraso:** o teste é feito ao lançar a bomba; em acerto, o efeito só se aplica no início do próximo turno do usuário. A explosão atinge quem estiver na área **no momento da detonação**.
 - **Acerto:** 2d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (18) + 2d8 extra em todos, e derruba cada alvo
 
 **Desaparecimento** *(Maior)*
 
@@ -54,7 +54,8 @@ Furtividade, ladinagem.
 *Uma bomba de fumaça estoura no chão — por alguns segundos, ninguém enxerga nada além de sombras em movimento.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** todas as criaturas em 2 casas de raio do ponto
+- **Atributo:** Agilidade | **Resolução:** Teste de Resistência | **Vs:** Agilidade | **Alcance:** 6 casas | **Alvos:** todas as criaturas em 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — o efeito não acontece
 - **Efeito:** enquanto durar, a área fica coberta de fumaça — qualquer ataque à distância que mire ou atravesse a área rola com Desvantagem, e criaturas dentro dela não podem ser alvo de ataques que exijam vê-las claramente. "Ataques que exijam vê-la" = ataques de alvo único; efeitos de área a atingem normalmente. O usuário pode se mover até 3 casas para fora da área como parte do uso desta habilidade, sem gastar Movimento adicional.
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** dura 1 rodada
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** dura 2 rodadas
@@ -101,10 +102,10 @@ Furtividade, ladinagem.
 *Antes mesmo de ver o fio esticado ou a tábua solta, o corpo já sabe que ali tem algo errado.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Custo fixo:** ◈ (1 PA) + 24 Mana | **Atributo:** Exploração | **Alvos:** área de 4 casas de raio ao redor do usuário
+- **Custo fixo:** ◈ (1 PA) + 24 Mana | **Atributo:** Exploração | **Resolução:** Teste de Resistência | **Vs:** Exploração | **Alvos:** área de 4 casas de raio ao redor do usuário
 - **Compara o total contra a Dificuldade de ocultação** de qualquer armadilha, mecanismo escondido ou passagem secreta na área, definida pelo Mestre
+- **Resistiu:** cada alvo resiste com **Agilidade** — o efeito não acontece
 - **Acerto:** identifica localização exata e natureza de cada coisa escondida
-- **Crítico:** mesmo que o Acerto, e ganha Vantagem no primeiro teste pra desarmar/evitar cada uma delas
 
 **Instinto de Perigo** *(Passiva)*
 

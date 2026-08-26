@@ -308,7 +308,7 @@ As regras de como ler e como montar uma criatura estão em
 
 - **4d8** de dano ([Impacto](../glossario.md#impacto)).
 
-**Golpe Largo** — ◈◈ | +38 vs Evasão | todas as criaturas a até 2 casas
+**Golpe Largo** — ◈◈ | resistir com Agilidade vs 38 | todas as criaturas a até 2 casas
 
 - **4d8** de dano em cada uma. O Mestre rola **uma vez** e compara com a Evasão de cada alvo.
 
@@ -473,7 +473,7 @@ As regras de como ler e como montar uma criatura estão em
 
 - **4d10** de dano ([Cortante](../glossario.md#cortante)).
 
-**Baforada** — +53 vs Evasão | cone de 3 casas à frente
+**Baforada** — resistir com Agilidade vs 53 | cone de 3 casas à frente
 
 O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentro do cone. [A área não muda com a Intensidade](../habilidades/regras.md#intensidade).
 
@@ -481,7 +481,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** **4d10** de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 22 Mana:** **5d10** de dano + [Queimando](../glossario.md#queimando) causando 4d4 por turno, e o fogo se espalha para todas as criaturas adjacentes
 
-**Voo Rasante** — ◈◈ | 5 Mana | +53 vs Evasão | linha de 6 casas
+**Voo Rasante** — ◈◈ | 5 Mana | resistir com Agilidade vs 53 | linha de 6 casas
 
 - **4d10** de dano em cada criatura na linha, e o Dragão termina o movimento fora do alcance corpo a corpo de todas. Só pode ser usada se já estiver voando.
 
@@ -666,7 +666,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - **5d6** de dano ([Perfurante](../glossario.md#perfurante)).
 
-**Sopro Gélido** — +53 vs Evasão | cone de 3 casas à frente
+**Sopro Gélido** — resistir com Defesa vs 53 | cone de 3 casas à frente
 
 - **Intensidade I — ◈ (1 PA) + 8 Mana:** **5d6** de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** o mesmo, e a área vira [Terreno Difícil](../glossario.md#terreno-dificil) até o fim do próximo turno dele
@@ -714,7 +714,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - Cada ◈ ataca com uma cabeça diferente: **leão**, **5d6** de dano ([Impacto](../glossario.md#impacto)); **bode**, **4d6** e **empurra** 2 casas; **dragão**, **4d6** de [Fogo](../habilidades/magicas-elementais.md#fogo).
 
-**Baforada** — ◈◈ | 20 Mana | +56 vs Evasão | cone de 3 casas à frente
+**Baforada** — ◈◈ | 20 Mana | resistir com Agilidade vs 56 | cone de 3 casas à frente
 
 - **7d6** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando). O Mestre rola **uma vez** e compara com a Evasão de cada alvo.
 
@@ -766,7 +766,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - **5d6** de dano de [Fogo](../habilidades/magicas-elementais.md#fogo) e o alvo fica [Queimando](../glossario.md#queimando).
 
-**Explosão de Brasas** — +53 vs Evasão | 2 casas de raio
+**Explosão de Brasas** — resistir com Agilidade vs 53 | 2 casas de raio
 
 - **Intensidade I — ◈ (1 PA) + 8 Mana:** **5d6** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** o mesmo, e o chão da área queima até o fim do próximo turno dele — quem começa o turno ali fica [Queimando](../glossario.md#queimando)
@@ -796,7 +796,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - **5d6** de dano e **puxa** o alvo 1 casa.
 
-**Maremoto** — +53 vs Evasão | linha de 6 casas
+**Maremoto** — resistir com Defesa vs 53 | linha de 6 casas
 
 - **Intensidade I — ◈ (1 PA) + 8 Mana:** **5d6** de dano em cada alvo na linha + **puxa** 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** o mesmo, e cada alvo fica [Lento](../glossario.md#lento)
@@ -826,7 +826,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - **5d6** de dano ([Impacto](../glossario.md#impacto)) e o alvo fica [Derrubado](../glossario.md#derrubado).
 
-**Erguer a Terra** — +56 vs Evasão | 2 casas de raio
+**Erguer a Terra** — resistir com Defesa vs 56 | 2 casas de raio
 
 - **Intensidade I — ◈ (1 PA) + 8 Mana:** **5d6** de dano em cada alvo, e a área vira [Terreno Difícil](../glossario.md#terreno-dificil) até o fim do próximo turno dele
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** o mesmo, e cada alvo fica [Lento](../glossario.md#lento)
@@ -856,7 +856,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - **5d6** de dano e **empurra** o alvo 1 casa.
 
-**Vendaval** — +53 vs Evasão | linha de 8 casas
+**Vendaval** — resistir com Agilidade vs 53 | linha de 8 casas
 
 - **Intensidade I — ◈ (1 PA) + 8 Mana:** **5d6** de dano em cada alvo na linha + **empurra** 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** **5d6** de dano, **empurra** 4 casas e cada alvo fica [Derrubado](../glossario.md#derrubado)
@@ -912,7 +912,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - **5d6** de dano ([Perfurante](../glossario.md#perfurante)) e o alvo fica [Envenenado](../glossario.md#envenenado).
 
-**Olhar da Medusa** — ◈◈◈ | 25 Mana | +56 vs Evasão | toda criatura a até 4 casas que possa vê-la
+**Olhar da Medusa** — ◈◈◈ | 25 Mana | resistir com Agilidade vs 56 | toda criatura a até 4 casas que possa vê-la
 
 - Cada alvo sobe **1 grau** de [Petrificado](../glossario.md#petrificado). O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo.
 
@@ -1053,13 +1053,13 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - **7d10** de dano ([Cortante](../glossario.md#cortante)).
 
-**Baforada** — +91 vs Evasão | cone de 5 casas à frente
+**Baforada** — resistir com Agilidade vs 91 | cone de 5 casas à frente
 
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** **7d10** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 30 Mana:** **7d10** de dano + [Queimando](../glossario.md#queimando), e o fogo se espalha para toda criatura adjacente a cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 45 Mana:** **9d10** de dano + [Queimando](../glossario.md#queimando) causando 4d6 por turno, e cada alvo fica [Derrubado](../glossario.md#derrubado)
 
-**Presença Aterradora** — ◈◈ | 15 Mana | +91 vs Sanidade | toda criatura a até 6 casas
+**Presença Aterradora** — ◈◈ | 15 Mana | resistir com Agilidade vs 91 | toda criatura a até 6 casas
 
 - O alvo não pode se aproximar do Dragão até o fim do próximo turno dele.
 
@@ -1157,7 +1157,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - **7d8** de dano ([Impacto](../glossario.md#impacto)).
 
-**Sopro Venenoso** — +91 vs Evasão | cone de 4 casas à frente
+**Sopro Venenoso** — resistir com Defesa vs 91 | cone de 4 casas à frente
 
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** **5d8** de dano em cada alvo + cada alvo fica [Envenenado](../glossario.md#envenenado)
 - **Intensidade II — ◈◈ (2 PA) + 30 Mana:** **7d8** de dano + 2 acúmulos de [Envenenado](../glossario.md#envenenado) em cada alvo
@@ -1186,7 +1186,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - **7d8** de dano ([Impacto](../glossario.md#impacto)).
 
-**Raízes** — +88 vs Evasão | 2 casas de raio
+**Raízes** — resistir com Agilidade vs 88 | 2 casas de raio
 
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** **5d8** de dano em cada alvo e cada um fica [Agarrado](../glossario.md#agarrado) pelas raízes
 - **Intensidade II — ◈◈ (2 PA) + 30 Mana:** o mesmo, e cada alvo preso sofre **5d8** no início de cada turno dele
@@ -1277,7 +1277,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 
 - O alvo é engolido: sofre **11d8** no início de cada turno do Tarrasque e não alcança nem enxerga nada de fora. Sai se causar **100 de dano por dentro**, ou quando o Tarrasque cair.
 
-**Cauda Devastadora** — +103 vs Evasão | linha de 6 casas
+**Cauda Devastadora** — resistir com Agilidade vs 103 | linha de 6 casas
 
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** **9d12** de dano em cada alvo na linha + **empurra** 3 casas
 - **Intensidade II — ◈◈ (2 PA) + 30 Mana:** **9d12** de dano, **empurra** 5 casas e cada alvo fica [Derrubado](../glossario.md#derrubado)

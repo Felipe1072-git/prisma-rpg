@@ -741,6 +741,58 @@ Duas renomeações: *Libertação Limitada* → **Fauce do Abismo**, e *Etiqueta
 Emprestado**, que também mudou de grupo (Debuff 74 → 73, Conjuração 13 → 14) — o conceito é invocar
 algo que golpeia, e Conjuração não tinha nenhuma invocação instantânea.
 
+**Área vira Teste de Resistência (2026-08-26).** Decisão do autor, logo depois da Camada A: efeito
+que acerta todos numa área **não é mirado em ninguém** — quem está lá se protege como pode. A
+convenção é a mesma do D&D 5e, e o levantamento mostrou que o custo que eu esperava (mais rolagens
+na mesa) **não existe**: `habilidades/regras.md` já mandava rolar um teste por alvo. O que muda é a
+mão que rola — e, quando é o Mestre quem solta a área, **cada jogador rola a sua** em vez de o Mestre
+rolar quatro vezes sozinho.
+
+Três decisões de sistema saíram daí:
+
+- **O número-alvo é o Atributo de lançamento, cru** — Magia pra magia, Ataque pra golpe marcial. A
+  regra antiga mandava rolar contra a "Fortitude do usuário", o que quebrava nas **33 áreas marciais**:
+  a Defesa do guerreiro passaria a medir quão difícil é resistir ao golpe dele. De quebra isso limpa um
+  duplo sentido antigo — "Fortitude" era usada como número do **defensor** no glossário (`+53 vs
+  Fortitude Mágica`, no Bestiário) e como número do **usuário** na regra de resistência, a ponto de o
+  hook ter código só pra colar "do usuário" no rótulo e as duas leituras não se confundirem.
+- **O Crítico troca de lado junto com o dado.** Num Teste de Resistência quem rola é o alvo, então é
+  ele quem critica: rolando dentro do próprio limiar, **escapa por completo** em vez de sofrer metade.
+  Por isso habilidade resistida **não traz bullet de Crítico** — 130 bullets saíram. A alternativa
+  ("falha crítica do alvo") foi descartada pelo autor: colidiria com o limiar de Crítico, que é de quem
+  rola, criando duas regras de crítico disputando o mesmo d100.
+- **Resistir dá metade do dano e nenhuma condição**, no mesmo molde já usado no reposicionamento.
+
+**Com que atributo se resiste** não vem do elemento, vem do que o efeito exige — e a ficha declara,
+então ninguém julga isso no meio do turno: Agilidade (sair da frente), Defesa (o corpo aguenta),
+Sanidade (a mente aguenta), Social (a vontade dobrada por voz ou presença), Magia (a realidade
+alterada em volta). **A Sanidade sai do limbo**: alimentava só o Estresse Máximo e não decidia teste
+nenhum; agora é a defesa contra Projeção Mental e medo.
+
+O escopo final foi bem maior que as 136 áreas previstas — **177 fichas**: 135 áreas viraram
+resistência, 6 que estavam na lista **não deviam ter teste nenhum** (zonas automáticas que o filtro
+não reconhecia), 21 habilidades de alvo único foram uniformizadas pro vocabulário novo, 12 perderam
+o Crítico que a regra nova contradizia (4 delas do reposicionamento, gravado horas antes), e 15
+ataques de criatura do Bestiário passaram de `+53 vs Evasão` pra `resistir com Agilidade vs 53`.
+
+⚠ **Dois blocos precisaram de julgamento por efeito, não por elemento.** Em **Gelo**, o que a
+habilidade faz é fechar o gelo no corpo (Lento → Imóvel), então 6 das 7 resistem com Defesa — a
+exceção é a *Investida Encadeada*, que agarra e puxa em vez de congelar. Em **Sombras**, a Zona
+Amaldiçoada **já é automática por regra** (o glossário diz que quem entra ou termina o turno nela
+sofre, sem teste), então o teste nunca foi sobre a zona: é sobre o golpe inicial, e 20 das 21 resistem
+com Agilidade — a exceção é a *Fauce do Abismo*, que drena.
+
+⚠ **Três classificações são julgamento meu e o autor ainda não revisou**: *Metamorfose Forçada* e
+*Toque Suspenso* ficaram em **Defesa** (o corpo resiste a ser remodelado, o efeito adormecido age por
+dentro), e *Dominar os Mortos* ficou em **Magia** e não Sanidade, porque mortos-vivos são imunes a
+efeito mental — Sanidade ali não teria contra o que rolar.
+
+⚠ A edição em massa achou duas armadilhas antes de gravar, nas duas amostras que conferi: o campo
+existia como **`**vs:**` minúsculo** em ~10 fichas de Debuff (o hook aceita os dois, meu regex não), e
+várias habilidades **já declaravam o teste dentro do texto** ("um teste de Magia contra a Fortitude
+Mágica"), o que contradizia o bullet novo. A segunda virou regra do script: **quando o corpo já diz o
+atributo, ele manda na heurística**.
+
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
 2. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — problema conhecido, adiado de

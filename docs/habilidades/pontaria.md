@@ -31,11 +31,11 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 *Um salto acrobático dispara tiros às cegas contra tudo que estiver embaixo.*
 
 - **Chave:** [Pontaria](../glossario.md#pontaria)
-- **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + empurra 1 casa cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + empurra 1 casa cada alvo, e cada alvo fica [Marcado](../glossario.md#marcado)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Tiro Concentrado** *(Moderado)*
 
@@ -53,11 +53,11 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 *Uma rajada de tiros dispara em todas as direções enquanto o atirador gira sem parar.*
 
 - **Chave:** [Pontaria](../glossario.md#pontaria)
-- **Atributo:** Ataque | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alvos:** todas as criaturas em 2 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + empurra 1 casa cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + empurra 1 casa cada alvo, e cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Rajada Sangrenta** *(Maior)*
 
@@ -95,11 +95,11 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 *Uma flecha gigante arrasta o alvo por uma longa distância antes de explodir com violência.*
 
 - **Chave:** [Pontaria](../glossario.md#pontaria)
-- **Atributo:** Ataque | **Alcance:** 10 casas | **Alvos:** 1 criatura (arrastada) + 2 casas de raio ao redor dela (explosão)
+- **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alcance:** 10 casas | **Alvos:** 1 criatura (arrastada) + 2 casas de raio ao redor dela (explosão)
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 2d6 de dano ao alvo principal, e 1d6 a cada criatura na área da explosão + empurra 1 casa todos na explosão
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 2d8 ao alvo principal, e 1d8 na área + empurra 1 casa e derruba todos na explosão
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 ao alvo principal, e 2d8 na área + empurra 1 casa e derruba todos na explosão, e o alvo principal perde a próxima Reação
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual no alvo principal, e sobe 1 Intensidade
 
 **Flecha com Intenção** *(Maior)*
 

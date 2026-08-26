@@ -84,11 +84,11 @@ O número-alvo que um ataque físico precisa superar pra acertar. **Evasão = Ag
 
 ### Fortitude Física
 
-O número-alvo contra veneno, doença, exaustão e qualquer efeito que o corpo resiste por dentro, não desvia — **o próprio valor de [Defesa](#defesa), cru**. Ver [Combate → Defesa](jogar/combate.md#defesa).
+O número-alvo contra veneno, doença, exaustão, petrificação e qualquer efeito que o corpo resiste por dentro, não desvia — **o próprio valor de [Defesa](#defesa), cru**. Ver [Combate → Defesa](jogar/combate.md#defesa).
 
 ### Fortitude Mágica
 
-O número-alvo contra controle mental de origem mágica, maldição e petrificação — **o próprio valor de Magia, cru**. Ver [Combate → Defesa](jogar/combate.md#defesa).
+O número-alvo contra controle mental de origem mágica e maldição — **o próprio valor de Magia, cru**. Ver [Combate → Defesa](jogar/combate.md#defesa).
 
 ### Movimento
 

@@ -122,9 +122,10 @@ Cura e apoio a aliados.
 *O chão deixa de ser neutro.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Custo fixo:** ◈◈◈ (3 PA) + 36 Mana | **Atributo:** Magia | **Alcance:** 6 casas | **Alvos:** 3 casas de raio
+- **Custo fixo:** ◈◈◈ (3 PA) + 36 Mana | **Atributo:** Magia | **Resolução:** Automática | **Alcance:** 6 casas | **Alvos:** 3 casas de raio
 - **Efeito:** por **3 rodadas**, mortos-vivos não entram na área (quem já estava dentro pode sair, não voltar), ninguém dentro pode ficar [Possuído](../glossario.md#possuido), e quem já estiver Possuído rola o teste de expulsar com [Vantagem](../glossario.md#vantagem).
 - *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](regras.md#intensidade))*
+- *(Sem teste — efeito automático de área; ninguém rola)*
 
 **Vínculo Guardião** *(Moderado)*
 
@@ -335,7 +336,8 @@ Cura e apoio a aliados.
 *"Aquele ali. Ataquem aquele primeiro." A recomendação nunca está errada.*
 
 - **Chave:** [Suporte](../glossario.md#suporte)
-- **Atributo:** Magia | **Alcance:** 8 casas | **Alvos:** criaturas hostis em 4 casas de raio ao redor de um ponto dentro do alcance
+- **Atributo:** Magia | **Resolução:** Automática | **Alcance:** 8 casas | **Alvos:** criaturas hostis em 4 casas de raio ao redor de um ponto dentro do alcance
 - **Intensidade I — ◈ (1 PA) + 12 Mana:** até 2 criaturas hostis na área ficam [Marcadas](../glossario.md#marcado); o primeiro aliado que acertar cada uma causa +1d4 de dano extra nesse ataque.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** até 4 criaturas hostis na área ficam Marcadas; o primeiro aliado que acertar cada uma causa +1d6 de dano extra.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** **todas** as criaturas hostis na área ficam Marcadas; o primeiro aliado que acertar cada uma causa +1d8 de dano extra.
+- *(Sem teste — efeito automático de área; ninguém rola)*

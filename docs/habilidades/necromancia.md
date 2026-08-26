@@ -64,11 +64,11 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 *O ar fica frio e pesado — a vida ao redor é puxada pra dentro do usuário.*
 
 - **Chave:** [Necromancia](../glossario.md#necromancia)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano em cada alvo, e o usuário recupera Vida igual à metade do dano total causado.
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano em cada alvo, e o usuário recupera Vida igual ao dano total causado.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano em cada alvo, e o usuário recupera Vida igual ao dano total causado.
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Levante Breve** *(Maior)*
 
@@ -107,11 +107,11 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 *Um coro de vozes que já não têm dono ecoa no campo — e cada inimigo ouve o próprio fim se aproximando.*
 
 - **Chave:** [Necromancia](../glossario.md#necromancia)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano em cada alvo + cada um perde 1 no dano de ataques até o fim do próprio próximo turno.
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano em cada alvo + perde 2 no dano de ataques, e rola o próximo teste de Social com Desvantagem.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano em cada alvo + perde 3 no dano de ataques, e cada alvo perde a próxima Reação.
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Colheita** *(Moderado)*
 
@@ -166,8 +166,9 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 *A vontade que restava naquele corpo cede — agora obedece a outra.*
 
 - **Chave:** [Necromancia](../glossario.md#necromancia)
-- **Custo fixo:** ◈◈◈ (3 PA) + 42 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 6 casas | **Alvos:** 1 criatura morta-viva
+- **Custo fixo:** ◈◈◈ (3 PA) + 42 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 6 casas | **Alvos:** 1 criatura morta-viva
 - **Alvo válido:** só afeta criaturas cuja ficha declare origem morta-viva (Esqueleto, Zumbi, Carniçal e afins) — criaturas de Tier Lendário são imunes
+- **Resistiu:** o alvo resiste com **Magia** — o efeito não acontece
 - **Acerto:** o alvo passa a obedecer ordens do usuário pelas próximas 24 horas, ou até o usuário usar esta habilidade de novo. Só é possível dominar 1 criatura por vez — dominar outra libera a anterior.
 - *(Sem Intensidade — efeito absoluto)*
 
@@ -176,7 +177,8 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 *O golpe não dói agora — ele só espera.*
 
 - **Chave:** [Necromancia](../glossario.md#necromancia)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Alvos:** 1 criatura, corpo a corpo
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Resolução:** Teste de Resistência | **Alvos:** 1 criatura, corpo a corpo
+- **Resistiu:** o alvo resiste com **Defesa** — metade do dano, sem condições
 - **Acerto:** planta um efeito adormecido no alvo — sem dano nesse momento. Só 1 alvo pode carregar o efeito por vez; plantar de novo substitui o anterior.
 - **Detonar:** a qualquer momento depois — mesmo dias mais tarde, contanto que o usuário e o alvo estejam no mesmo plano — o usuário pode gastar uma Ação Básica pra detonar o efeito à distância. O alvo faz um teste de resistência (d100 + Defesa) contra a Fortitude Mágica do usuário: falhando, sofre 8d10 de dano automático; passando, sofre metade. Detonar consome o efeito.
 - **Crítico (ao plantar):** quando detonado, o efeito ignora um sucesso no teste de resistência — sempre causa o dano cheio

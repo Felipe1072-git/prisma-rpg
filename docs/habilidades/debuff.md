@@ -20,9 +20,9 @@ Criar desvantagens para inimigos ou em testes.
 *Uma melodia irresistível toma conta do campo, e os inimigos não conseguem deixar de dançar — vulneráveis a cada segundo que passa.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Arcano | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 1d6 de dano + cada alvo não pode usar Ações Básicas nem Habilidades (só Movimento e Reação) até o fim do próximo turno dele
-- **Crítico:** dano máximo (6) + 1d6 extra em todos
 
 **Garra Demoníaca** *(Moderado)*
 
@@ -84,9 +84,9 @@ Criar desvantagens para inimigos ou em testes.
 *Uma boca faminta e gigantesca se abre sob os alvos, devorando tudo que estiver por perto.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 1d8 de dano + Sangrando + derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, Sangrando, e derruba cada alvo
 
 **Mordida** *(Moderado)*
 
@@ -115,20 +115,20 @@ Criar desvantagens para inimigos ou em testes.
 *Espinhos emergem do chão, afastando os inimigos com violência.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + empurra 2 casas cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 3 casas cada alvo
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Onda de Choque** *(Maior)*
 
 *Uma explosão de energia pura se espalha, arremessando tudo ao redor.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Arcano | **Alvos:** 3 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alvos:** 3 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 1d8 de dano + empurra 2 casas e derruba cada alvo
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, empurra 2 casas, e derruba cada alvo
 
 **Ferrão Caçador** *(Moderado)*
 
@@ -146,11 +146,11 @@ Criar desvantagens para inimigos ou em testes.
 *Um veneno mágico é injetado no alvo, corroendo sua força e vigor.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Resolução:** Teste de Resistência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + Lento + alvo fica [Envenenado](../glossario.md#envenenado) (1 acúmulo)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + Lento + alvo fica [Envenenado](../glossario.md#envenenado) com **2 acúmulos**
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Ponto de Pressão** *(Maior)*
 
@@ -168,18 +168,19 @@ Criar desvantagens para inimigos ou em testes.
 *O martelo gira acima da cabeça, criando um vórtice que arrasta os inimigos pra perto.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Ataque | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + puxa 2 casas cada alvo (em direção ao centro)
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + puxa 3 casas cada alvo
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Provocação** *(Moderado)*
 
 *Um brado desafiador ecoa pelo campo — ninguém mais existe além dela.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈ (2 PA) + 15 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis
+- **Custo fixo:** ◈◈ (2 PA) + 15 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis
+- **Resistiu:** o alvo resiste com **Social** — o efeito não acontece
 - **Acerto:** até o fim do próximo turno de cada alvo, ele só pode atacar o usuário desta habilidade (se for capaz de fazê-lo)
 - *(Custo fixo — rola teste de ataque contra a **Fortitude Mágica** de cada alvo)*
 
@@ -241,7 +242,8 @@ Criar desvantagens para inimigos ou em testes.
 *Uma névoa espessa e vermelha toma conta da área, confundindo os sentidos de quem estiver dentro.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈ (2 PA) + 18 Mana | **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Custo fixo:** ◈◈ (2 PA) + 18 Mana | **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — o efeito não acontece
 - **Acerto:** por 2 rodadas, qualquer ataque feito por uma criatura hostil que estiver dentro da área rola com Desvantagem
 - *(Custo fixo — rola teste de ataque contra a Evasão de cada alvo)*
 
@@ -259,7 +261,8 @@ Criar desvantagens para inimigos ou em testes.
 *Um campo de trevas absolutas consome a área, corroendo a defesa e a energia de quem estiver dentro.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** por 2 rodadas, cada criatura hostil que terminar o turno na área sofre 1d6 de dano automático, perde 2 de Evasão, e perde 1 Mana
 - *(Custo fixo — rola teste de ataque contra a Evasão de cada alvo)*
 
@@ -268,7 +271,8 @@ Criar desvantagens para inimigos ou em testes.
 *A mesma energia, voltada contra o inimigo, corrói sua força.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈ (2 PA) + 15 Mana | **Atributo:** Magia | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Custo fixo:** ◈◈ (2 PA) + 15 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — o efeito não acontece
 - **Acerto:** por 2 rodadas, cada criatura hostil na área perde 1 no dano de ataques.
 - *(Custo fixo — rola teste de ataque contra a Evasão de cada alvo)*
 
@@ -277,16 +281,17 @@ Criar desvantagens para inimigos ou em testes.
 *Energia demoníaca se acumula e explode, arrastando os inimigos próximos para o centro.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 1d6 de dano + puxa 3 casas cada alvo
-- **Crítico:** dano máximo (6) + 1d6 extra em todos, e puxa 3 casas
 
 **Chuva de Sangue** *(Moderado)*
 
 *Uma chuva de lâminas espectrais desaba sobre a área, encharcando o chão de vermelho.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Ataque | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** cada criatura hostil na área sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Custo fixo — rola teste de ataque contra a Evasão de cada alvo)*
 
@@ -295,11 +300,11 @@ Criar desvantagens para inimigos ou em testes.
 *Jeeves aparece com fúria total, golpeando tudo ao redor antes que qualquer um consiga reagir.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + empurra 1 casa cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo não pode usar Habilidades (só Movimento e Reação) até o fim do próximo turno dele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Matilha Selvagem** *(Moderado)*
 
@@ -337,34 +342,34 @@ Criar desvantagens para inimigos ou em testes.
 *Um latido sobrenatural ecoa, e a energia mágica do alvo é sugada para longe.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + cada alvo perde 2 Mana
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo perde 4 Mana
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Armadilha do Relógio** *(Maior)*
 
 *Sebastian é arremessado ao chão feito uma bomba-relógio, e o que sobra dele continua perigoso.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Efeito adicional:** depois do impacto, os destroços continuam na área até o fim do próximo turno do usuário, virando Terreno Difícil (custa o dobro de Movimento pra atravessar)
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + empurra 1 casa cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + derruba cada alvo
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Cerco de Espinhos** *(Maior)*
 
 *Vinhas espectrais brotam do chão, empurrando e prendendo quem tentar atravessar.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + empurra 2 casas cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + empurra 2 casas + a área vira Terreno Difícil por 2 rodadas (custa o dobro de Movimento pra atravessar)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Zona Cinzenta** *(Moderado)*
 
@@ -380,29 +385,29 @@ Criar desvantagens para inimigos ou em testes.
 *O impacto se retorce numa tempestade violenta, prendendo os inimigos em seu centro.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano + cada alvo não pode usar Movimento até o fim do próximo turno dele
-- **Crítico:** dano máximo (16) + 2d8 extra em todos
 
 **Catástrofe** *(Supremo)*
 
 *Um selo mágico se forma a distância — uma rajada de flechas empurra o alvo pra dentro dele, onde tudo explode.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Dano:** Arcano | **Alcance:** 10 casas | **Alvos:** 1 criatura (puxada até o selo) + 2 casas de raio ao redor do selo (explosão)
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Dano:** Arcano | **Alcance:** 10 casas | **Alvos:** 1 criatura (puxada até o selo) + 2 casas de raio ao redor do selo (explosão)
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano no alvo puxado + 1d8 de dano nas demais criaturas na explosão + derruba todos na explosão
-- **Crítico:** dano máximo (16) + 2d8 extra no alvo, dano máximo (8) + 1d8 extra nos demais, e derruba todos
 
 **Nuvem Mortal** *(Maior)*
 
 *Uma nuvem verde e tóxica paira sobre a área, ficando mais perigosa perto do centro.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + Lento + cada alvo fica [Envenenado](../glossario.md#envenenado) (1 acúmulo)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Campo da Morte** *(Supremo)*
 
@@ -418,9 +423,9 @@ Criar desvantagens para inimigos ou em testes.
 *Um corte diagonal cruza todo o campo de batalha num único golpe fulminante.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Dano:** Arcano | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Dano:** Arcano | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano + derruba cada alvo
-- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 **Domador da Natureza** *(Maior)*
 
@@ -438,9 +443,9 @@ Criar desvantagens para inimigos ou em testes.
 *Um glifo colossal se abre no ar, sugando tudo em seu entorno pra dentro do vazio.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas (centro) | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas (centro) | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano + puxa 3 casas e derruba cada alvo
-- **Crítico:** dano máximo (16) + 2d8 extra em todos, puxa 3 casas, e derruba cada alvo
 
 **Manto de Lâminas** *(Supremo)*
 
@@ -467,9 +472,9 @@ Criar desvantagens para inimigos ou em testes.
 *Cinco esferas de notas musicais avançam em direções opostas, arrastando os inimigos consigo antes de explodir num estrondo final.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Arcano | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + puxa 3 casas e derruba cada alvo
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, puxa 3 casas, e derruba cada alvo
 
 **Vírus Encantador** *(Moderado)*
 
@@ -487,20 +492,20 @@ Criar desvantagens para inimigos ou em testes.
 *Um grito estridente ecoa pelo campo, embaralhando os sentidos de quem ouve.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Dano:** Arcano | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alvos:** 2 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + o próximo ataque de cada alvo até o fim do turno dele rola com Desvantagem (o atacante rola 2x e fica com o pior resultado)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + Desvantagem + cada alvo perde a próxima Reação
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Super Estrela** *(Moderado)*
 
 *Duas séries de quatro explosões sonoras cercam o palco invocado, atordoando quem for pego dentro.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 1d8 de dano + cada alvo perde a próxima Ação Básica e Reação
-- **Crítico:** dano máximo (8) + 1d8 extra em todos
 
 **Fluxo Elegante** *(Supremo)*
 
@@ -560,9 +565,9 @@ Criar desvantagens para inimigos ou em testes.
 *Um gesto largo, e toda porta pra outro lugar se fecha de uma vez.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 36 Mana | **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** todas as criaturas hostis de origem invocada/planar em 3 casas de raio do ponto
-- **Acerto** (testa cada alvo contra a Fortitude Mágica): 1d6 de dano + cada alvo é expulso da cena, de volta ao plano de origem
-- **Crítico:** dano máximo (6) + 1d6 extra em todos
+- **Custo fixo:** ◈◈◈ (3 PA) + 36 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** todas as criaturas hostis de origem invocada/planar em 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Magia** — metade do dano, sem condições
+- **Acerto:** 1d6 de dano + cada alvo é expulso da cena, de volta ao plano de origem
 - *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](regras.md#habilidades-de-custo-fixo))*
 
 **Presença Aterrorizante** *(Maior)*
@@ -570,7 +575,8 @@ Criar desvantagens para inimigos ou em testes.
 *Uma única palavra, dita com peso suficiente, e a coragem de todos ao redor desmorona.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis à escolha, dentro do alcance
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 6 casas | **Alvos:** até 3 criaturas hostis à escolha, dentro do alcance
+- **Resistiu:** o alvo resiste com **Sanidade** — o efeito não acontece
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** cada alvo fica [Amedrontado](../glossario.md#amedrontado) até o fim do próprio próximo turno.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** cada alvo fica Amedrontado por 2 rodadas.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** cada alvo fica Amedrontado por 3 rodadas.
@@ -580,11 +586,11 @@ Criar desvantagens para inimigos ou em testes.
 *Uma frase dita em voz baixa gruda no alvo — e na hora que ele mais precisar de sorte, ela vai faltar.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 6 casas | **Alvos:** 1 criatura hostil
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 6 casas | **Alvos:** 1 criatura hostil
+- **Resistiu:** o alvo resiste com **Magia** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** o alvo carrega a maldição até usar — na próxima vez que fizer qualquer teste ou rolagem de dano antes do fim da [cena](../glossario.md#cena), subtrai 1d6 do resultado (mínimo 0). Não usada, a maldição se perde no fim da cena.
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** o mesmo, subtraindo 1d8.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o mesmo, subtraindo 1d10.
-- **Crítico:** sobe 1 Intensidade
 
 **Corte de Palavras** *(usada como Reação)*
 
@@ -602,7 +608,8 @@ Criar desvantagens para inimigos ou em testes.
 *Uma única palavra, dita com peso absoluto — e o corpo obedece antes que a mente possa discordar.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Social** — o efeito não acontece
 - **Acerto:** o alvo é forçado a obedecer um comando simples de uma palavra, escolhido pelo usuário ao ativar — Aproxime-se, Afaste-se, Fuja, Ajoelhe-se, Largue (o que estiver segurando), ou Pare (não se mover nem agir) — até o fim do próprio turno dele. O comando nunca pode forçá-lo a se ferir diretamente (pular de um precipício, atacar a si mesmo); nesse caso, ele obedece o quanto for seguro e ignora o resto.
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
@@ -622,8 +629,9 @@ Criar desvantagens para inimigos ou em testes.
 *A presença sagrada é insuportável pra quem já devia ter descansado.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈ (2 PA) + 24 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 6 casas | **Alvos:** todas as criaturas mortas-vivas em 3 casas de raio do ponto
+- **Custo fixo:** ◈◈ (2 PA) + 24 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 6 casas | **Alvos:** todas as criaturas mortas-vivas em 3 casas de raio do ponto
 - **Alvo válido:** só afeta criaturas cuja ficha declare origem morta-viva (Esqueleto, Zumbi, Carniçal e afins)
+- **Resistiu:** cada alvo resiste com **Sanidade** — o efeito não acontece
 - **Acerto:** cada alvo fica [Amedrontado](../glossario.md#amedrontado) por 2 rodadas, e é forçado a usar o próprio Movimento pra se afastar do usuário no início de cada um dos próprios turnos nesse período, se puder
 - *(Sem Intensidade — área de 3 casas de raio, Custo fixo)*
 
@@ -632,7 +640,8 @@ Criar desvantagens para inimigos ou em testes.
 *Uma sombra fria se prende ao alvo — e some no instante em que alguém a explora.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Magia** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 12 Mana:** o alvo fica com [Desvantagem](../glossario.md#desvantagem) em todos os testes e ataques até o início do próprio próximo turno. Se um aliado do usuário causar dano nele antes disso, a maldição termina e esse ataque causa +1d6 de dano extra.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, com +2d6 de dano extra se terminar cedo.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** a Desvantagem dura até o **fim** do próprio próximo turno do alvo (janela maior), e o dano extra se terminar cedo sobe pra +3d6.
@@ -653,8 +662,9 @@ Criar desvantagens para inimigos ou em testes.
 *O gesto ainda começa — mas termina em nada.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 8 casas | **Alvos:** 1 criatura hostil
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura hostil
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Resistiu:** o alvo resiste com **Magia** — o efeito não acontece
 - **Intensidade I — 0 PA + 15 Mana:** quando vir uma criatura hostil a até 8 casas ativar uma Habilidade ou se teleportar, o usuário pode usar esta habilidade como Reação pra forçar um teste de Magia contra a Fortitude Mágica dele. Falhando, a ativação é desperdiçada — ela ainda paga o custo normalmente, mas nenhum efeito acontece.
 - **Intensidade II — 0 PA + 24 Mana:** o mesmo, e se ela passar no teste, a Habilidade ativada sofre -1 de Intensidade (mínimo I) no efeito.
 - **Intensidade III — 0 PA + 33 Mana:** o mesmo, e mesmo passando no teste, ela perde a própria próxima Reação.
@@ -686,7 +696,8 @@ Criar desvantagens para inimigos ou em testes.
 *O alvo simplesmente não está mais aqui — não precisou nem ser tocado.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Magia** — o efeito não acontece
 - **Acerto:** o alvo desaparece por completo até o fim do próprio próximo turno — não pode ser alvo de nada nesse período, some do mapa. Se a ficha dele declarar origem invocada/planar e ele não estiver no próprio plano, o banimento é **permanente** em vez de temporário — ele não volta mais nesta cena. Quando reaparece (alvo não-planar), volta na mesma casa, ou na mais próxima livre.
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
@@ -706,7 +717,8 @@ Criar desvantagens para inimigos ou em testes.
 *Paredes que ninguém vê, mas que nada atravessa — nem um passo, nem um teleporte.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Magia** — o efeito não acontece
 - **Acerto:** o alvo fica preso numa cela de força invisível ao redor dele, por 3 rodadas. Enquanto durar, ele não pode se mover, agir, nem reagir, e nenhuma forma de teleporte (própria ou de terceiros) funciona pra entrar ou sair da cela. A cela tem Vida 30 e pode ser destruída de fora por dano físico ou mágico, libertando o alvo antes do prazo.
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
@@ -736,7 +748,8 @@ Criar desvantagens para inimigos ou em testes.
 *Por um instante, o inimigo esquece completamente como se luta — porque o corpo dele não sabe mais fazer isso.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Defesa** — o efeito não acontece
 - **Acerto:** o alvo se transforma numa criatura pequena e inofensiva (um sapo, um rato, algo do tipo) por 3 rodadas. Enquanto transformado, não pode usar Habilidades, Ataques Básicos, nem Reações, e sua Evasão cai pra 8. Qualquer dano sofrido nessa forma encerra a transformação imediatamente — ele volta ao normal, e o dano é então aplicado à Vida da forma verdadeira. Criaturas de Tier Formidável ou Lendário rolam o teste de resistência com [Vantagem](../glossario.md#vantagem).
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 

@@ -9,40 +9,41 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 *Uma calma sobrenatural toma conta do inimigo, apagando por completo sua vontade de lutar.*
 
 - **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
-- **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Sanidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano + alvo perde a próxima Ação Básica
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + alvo não pode usar Ações Básicas nem Habilidades (só Movimento e Reação) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Medo Puro** *(Maior)*
 
 *O terror não precisa de motivo — só precisa de um segundo dentro da mente do alvo.*
 
 - **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
-- **Atributo:** Magia | **vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Sanidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano + no início do próprio turno, o alvo deve se afastar do usuário usando o Movimento dele, se puder.
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + o mesmo, e enquanto durar (2 rodadas) o alvo rola com Desvantagem contra o usuário.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + por 2 rodadas, o alvo não pode se aproximar nem atacar o usuário.
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Ruído Branco** *(Maior)*
 
 *Pensamentos que não são seus se misturam aos que são — e por um instante, não dá pra saber qual comando obedecer.*
 
 - **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
-- **Atributo:** Magia | **vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Sanidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano + o próximo ataque do alvo até o fim do turno dele rola com Desvantagem.
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + Desvantagem em todos os ataques do alvo até o fim do próprio próximo turno.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + Desvantagem em todos os ataques do alvo até o fim do próprio próximo turno, e há 50% de chance (o Mestre rola) dele atacar a criatura mais próxima — aliada ou não — em vez do alvo pretendido.
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Ler a Superfície** *(Moderado)*
 
 *Não é preciso invadir — só ouvir o que já está gritando por dentro.*
 
 - **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
-- **Custo fixo:** ◈ (1 PA) + 12 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Custo fixo:** ◈ (1 PA) + 12 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Sanidade** — o efeito não acontece
 - **Efeito:** role d100 + Magia contra a Fortitude Mágica do alvo. Passando, o usuário lê o pensamento mais superficial e presente na mente dele agora — a intenção do próximo turno, uma mentira prestes a ser dita, o nome de quem ele mais teme. O Mestre decide o que é relevante ali; não funciona em mentes protegidas ou não-conscientes.
 - *(Sem Intensidade — habilidade de detecção, escala só no que é revelado, a critério do Mestre)*
 
@@ -62,11 +63,11 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 *Não sai som nenhum — mas do lado de dentro, ainda assim, dói.*
 
 - **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
-- **Atributo:** Magia | **vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Sanidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano.
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano, e o alvo perde 2 Mana.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano, e o alvo perde 4 Mana e rola o próximo teste de Social com Desvantagem.
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Voz Sem Boca** *(Menor)*
 
@@ -82,9 +83,9 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 *Todo mundo na área ouve, ao mesmo tempo, o próprio medo mais fundo — e não tem como não reagir.*
 
 - **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
-- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Sanidade** — metade do dano, sem condições
 - **Acerto:** 2d10 de dano + cada alvo não pode usar Habilidades (só Movimento, Ataque Básico e Reação) até o fim do próprio próximo turno.
-- **Crítico:** dano máximo (20) + 2d10 extra em todos
 
 **Mão Invisível** *(Moderado)*
 
@@ -116,7 +117,8 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 *A mente cede por completo — não sobra nem um canto pra resistir.*
 
 - **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Sanidade** — o efeito não acontece
 - **Acerto:** o alvo passa a obedecer ordens do usuário pelas próximas 24 horas, ou até o usuário usar esta habilidade de novo. Só é possível dominar 1 criatura por vez — dominar outra libera a anterior. Criaturas de Tier Lendário rolam esse teste com [Vantagem](../glossario.md#vantagem).
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
@@ -125,6 +127,7 @@ Telepatia, ler mentes, ilusão mental, dano psíquico — funciona em qualquer m
 *A consciência sai do próprio corpo e entra no do alvo — e de repente, é o usuário quem decide os próximos passos dele.*
 
 - **Chave:** [Projeção Mental](../glossario.md#projecao-mental)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **vs:** Fortitude Mágica | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Sanidade** — o efeito não acontece
 - **Acerto:** o usuário se torna o possuidor do alvo, usando a condição [Possuído](../glossario.md#possuido) normalmente — sai do mapa enquanto durar, e passa a gastar os ◈ do alvo, usando as habilidades, a Vida e o Mana dele. O corpo original do usuário fica desacordado e indefeso onde estava, sem poder ser alvo de nada enquanto a possessão durar. Se o alvo o expulsar (ou seu jogador, se for um PJ), ou se o corpo do alvo cair a 0 de Vida, o usuário volta imediatamente pro próprio corpo, adjacente à posição do alvo.
 - *(Sem Intensidade — efeito absoluto, Supremo)*

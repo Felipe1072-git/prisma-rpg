@@ -601,10 +601,11 @@ Incremento de força, imbuir elementos em armas, etc.
 *Um silêncio sagrado se instala — por um instante, nenhuma violência consegue tocar ninguém ali.*
 
 - **Chave:** [Buff](../glossario.md#buff)
-- **Atributo:** Magia | **Alcance:** 6 casas | **Alvos:** todas as criaturas em 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Automática | **Alcance:** 6 casas | **Alvos:** todas as criaturas em 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 27 Mana:** por 1 rodada, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.
 - **Intensidade II — ◈◈ (2 PA) + 36 Mana:** por 2 rodadas, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.
 - **Intensidade III — ◈◈◈ (3 PA) + 45 Mana:** por 3 rodadas, nenhuma criatura dentro da área — aliada ou inimiga — pode causar dano com ataques ou Habilidades.
+- *(Sem teste — efeito automático de área; ninguém rola)*
 
 **Escudo de Espírito** *(usada como Reação)*
 

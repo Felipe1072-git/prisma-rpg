@@ -134,9 +134,9 @@ Um golpe físico não é resistido pelo mesmo número que resiste a um veneno ou
 | Tipo de efeito | Número-alvo | De onde vem |
 |---|---|---|
 | Físico (dano, empurrar, derrubar) — padrão, decide se o golpe **acerta** | **Evasão** | Agilidade + Escudo/Couraça Natural |
-| Controle mental de origem **mágica**, maldição, petrificação | **Fortitude Mágica** | o próprio valor de Magia |
+| Controle mental de origem **mágica**, maldição | **Fortitude Mágica** | o próprio valor de Magia |
 | Manipulação **social** — persuadir, enganar, intimidar (e resistir a tudo isso) | **Social** | o próprio valor de Social |
-| Veneno, doença, exaustão — efeito que o corpo resiste por dentro, não desvia | **Fortitude Física** | o próprio valor de Defesa |
+| Veneno, doença, exaustão, petrificação — efeito que o corpo resiste por dentro, não desvia | **Fortitude Física** | o próprio valor de Defesa |
 | Horror, insanidade, colapso mental | **Sanidade** | o próprio valor de Sanidade |
 | Furtividade, detecção — perceber um roubo, notar algo escondido | **Exploração** | o próprio valor de Exploração |
 

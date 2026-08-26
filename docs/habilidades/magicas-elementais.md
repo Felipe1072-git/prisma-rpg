@@ -30,22 +30,22 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um sopro de pedra ancestral escorre pelo chão, endurecendo tudo que toca.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Terra](../glossario.md#terra)
-- **Atributo:** Magia | **Dano:** Terra | **Alvos:** cone de 3 casas à frente
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Terra | **Alvos:** cone de 3 casas à frente
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + derruba o alvo, e ele sobe **1 grau** de [Petrificado](../glossario.md#petrificado)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + derruba o alvo, e ele sobe **2 graus** de [Petrificado](../glossario.md#petrificado)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual + **1 grau** a mais, e sobe 1 Intensidade
 
 **Fúria da Natureza** *(Moderado)*
 
 *Espinhos brotam do chão num ponto escolhido, perfurando tudo que estiver por perto.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Terra](../glossario.md#terra)
-- **Atributo:** Magia | **Dano:** Terra | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Terra | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + derruba cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + derruba cada alvo e ele fica [Lento](../glossario.md#lento)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + derruba cada alvo e ele fica [Imóvel](../glossario.md#imovel)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Couraça de Pedra** *(Maior)*
 
@@ -85,18 +85,18 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *O chão inteiro treme por um instante — ninguém que estiver de pé continua nessa condição por muito tempo.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Terra](../glossario.md#terra)
-- **Custo fixo:** ◈◈ (2 PA) + 30 Mana | **Atributo:** Magia | **Dano:** Terra | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈ (2 PA) + 30 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Terra | **Alvos:** todas as criaturas em 3 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Acerto:** 1d8 de dano + derruba cada alvo e ele fica [Imóvel](../glossario.md#imovel)
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, derruba cada alvo, e a área vira [Terreno Difícil](../glossario.md#terreno-dificil) até o fim do combate
 
 **Fúria em Espiral** *(Supremo)*
 
 *Nove espinhos gigantescos irrompem do chão, cruzando o campo de batalha inteiro e arremessando tudo pelos ares.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Terra](../glossario.md#terra)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Terra | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Terra | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + derruba cada alvo e ele fica [Imóvel](../glossario.md#imovel)
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 ## Gelo
 
@@ -105,11 +105,11 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Duas esferas geladas avançam lentamente e explodem em gelo ao contato, prendendo tudo ao redor.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Gelo](../glossario.md#gelo)
-- **Atributo:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 2 casas de raio
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 2 casas de raio
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + cada alvo fica [Lento](../glossario.md#lento) e não pode usar Reações
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual + [Atordoado](../glossario.md#atordoado) por 1 rodada completa, e sobe 1 Intensidade
 
 **Força Gélida** *(Moderado)*
 
@@ -127,36 +127,37 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um sopro congelante se espalha pela área, cristalizando tudo em seu caminho.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Gelo](../glossario.md#gelo)
-- **Atributo:** Magia | **Dano:** Gelo | **Alvos:** cone de 3 casas à frente
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Gelo | **Alvos:** cone de 3 casas à frente
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + cada alvo fica [Lento](../glossario.md#lento) e não pode usar Reações
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Chuva Gélida** *(Maior)*
 
 *Pétalas voam ao redor do corpo enquanto uma chuva pesada de gelo desaba sobre a área à frente.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Gelo](../glossario.md#gelo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + cada alvo fica [Imóvel](../glossario.md#imovel)
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, empurra 1 casa, e o [Imóvel](../glossario.md#imovel) dura 1 rodada a mais
 
 **Nevasca** *(Maior)*
 
 *Uma nevasca cai sobre uma área ampla, congelando tudo em seu caminho.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Gelo](../glossario.md#gelo)
-- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Acerto:** 1d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel)
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e [Atordoado](../glossario.md#atordoado) em todos
 
 **Investida Encadeada** *(Maior)*
 
 *Vento puxa os inimigos pra perto, fogo os consome em sequência, e gelo os congela no lugar.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Gelo](../glossario.md#gelo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** todos os alvos na área são puxados 2 casas em direção ao centro e sofrem 1d10 de dano imediatamente ao usar; os que ainda estiverem na área ficam [Atordoado](../glossario.md#atordoado)s (não podem agir) até o fim do próprio próximo turno
 - *(Custo fixo — rola um único teste de ataque, comparado à Defesa de cada alvo)*
 
@@ -165,20 +166,20 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma esfera cristalina avança lentamente, arrastando os inimigos consigo antes de explodir em estilhaços de gelo.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Gelo](../glossario.md#gelo)
-- **Atributo:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Gelo | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento)
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + cada alvo fica [Lento](../glossario.md#lento) e não pode usar Reações
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + cada alvo fica [Imóvel](../glossario.md#imovel)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Tempestade Congelante** *(Supremo)*
 
 *Fragmentos de gelo despencam do céu numa área imensa, congelando tudo que tocam.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Gelo](../glossario.md#gelo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Gelo | **Alvos:** todas as criaturas hostis em 6 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Gelo | **Alvos:** todas as criaturas hostis em 6 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel)
-- **Crítico:** dano máximo (16) + 2d8 extra em todos, e [Atordoado](../glossario.md#atordoado) em todos
 
 ## Raio
 
@@ -198,18 +199,19 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma granada mágica é lançada a curta distância, emitindo um raio poderoso antes de explodir violentamente.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Atributo:** Magia | **Dano:** Raio | **Alcance:** 4 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Raio | **Alcance:** 4 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + cada alvo perde a próxima Reação
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + cada alvo perde a próxima Reação e Ação Básica
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Raios e Relâmpagos** *(Supremo)*
 
 *O céu se enche de fúria elétrica, e por um instante, ninguém está seguro em lugar nenhum do campo.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Raio | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Raio | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Efeito:** 1d6 de dano automático (sem teste) imediatamente ao usar, e mais uma vez no início de cada uma das 2 rodadas seguintes (3 aplicações no total)
 
 **Astrape Sombria** *(Moderado)*
@@ -249,9 +251,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Energia se acumula à frente antes de explodir com força total.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Raio | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈ (2 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Raio | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 **Campo Estático** *(Moderado)*
 
@@ -267,7 +269,8 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Três descarregadores elétricos surgem ao redor do alvo, atraindo-o pro centro enquanto ferem continuamente.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Custo fixo:** ◈◈ (2 PA) + 18 Mana | **Atributo:** Magia | **Dano:** Raio | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Custo fixo:** ◈◈ (2 PA) + 18 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Raio | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** cada criatura hostil na área é puxada 1 casa em direção ao centro e sofre 1d6 de dano imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Custo fixo — rola um único teste de ataque, comparado à Defesa de cada alvo)*
 
@@ -285,18 +288,19 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma sequência de descargas elétricas avança à frente, a última arremessando o alvo pro alto.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Atributo:** Magia | **Dano:** Raio | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Raio | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano em cada alvo + cada alvo perde a próxima Reação
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + cada alvo perde a próxima Reação e Ação Básica
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Ataque Orbital** *(Maior)*
 
 *Um ponto é marcado no céu — quatro descargas caem sobre ele em intervalos regulares.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Raio | **Alcance:** 10 casas | **Alvos:** 2 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Raio | **Alcance:** 10 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** a área sofre 1d6 de dano imediatamente ao marcar o ponto, e mais uma vez no início de cada uma das 3 rodadas seguintes (4 aplicações no total) — o ponto marcado não pode ser movido depois de escolhido
 - *(Custo fixo — rola um único teste de ataque, comparado à Defesa de cada alvo)*
 
@@ -314,22 +318,22 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma cortina de raios envolve o corpo, atingindo tudo ao redor e acima.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Atributo:** Magia | **Dano:** Raio | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Raio | **Alvos:** 2 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo + cada alvo perde a próxima Reação
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + cada alvo perde a próxima Reação e Ação Básica
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Lágrimas da Deusa** *(Moderado)*
 
 *Nuvens sombrias se formam no céu — raios e chuva desabam sobre tudo ao redor.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
-- **Atributo:** Magia | **Dano:** Raio | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Raio | **Alvos:** 2 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + cada alvo perde a próxima Reação
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + cada alvo perde a próxima Reação e Ação Básica
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Descarga Carregada** *(Maior)*
 
@@ -352,9 +356,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *O céu racha, e blocos de fogo desabam sobre a terra como punição divina.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 30 Mana | **Atributo:** Magia | **Dano:** Fogo | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 4 casas de raio
+- **Custo fixo:** ◈◈◈ (3 PA) + 30 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** todas as criaturas em 4 casas de raio
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 **Alma em Chamas** *(Moderado)*
 
@@ -381,11 +385,11 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um giro flamejante da lâmina em chamas espalha uma onda cortante por todos ao redor.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alvos:** todas as criaturas em 1 casa de raio ao redor do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alvos:** todas as criaturas em 1 casa de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Força Flamejante** *(Moderado)*
 
@@ -404,11 +408,11 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um sopro de fogo se espalha pela área, incendiando o chão por onde passa.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alvos:** cone de 3 casas à frente
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alvos:** cone de 3 casas à frente
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Rastro em Chamas** *(Moderado)*
 
@@ -481,34 +485,34 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Múltiplas explosões irrompem ao redor, uma após a outra.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alvos:** 2 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Golpe Supremo** *(Maior)*
 
 *Uma explosão devastadora irrompe à frente, alcançando tudo em seu caminho.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alvos:** cone de 5 casas à frente
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alvos:** cone de 5 casas à frente
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 12 Mana:** 1d10 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 1d12 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** 2d12 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Punho Flamejante** *(Moderado)*
 
 *Os punhos se envolvem em chamas antes de um avanço que termina numa explosão.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura, e todas as criaturas em 1 casa de raio ao redor dela
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura, e todas as criaturas em 1 casa de raio ao redor dela
 - **Investida:** o usuário se desloca até o alvo antes de atacar, em qualquer Intensidade
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano no alvo e em cada criatura a 1 casa dele + o alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + o alvo e cada criatura atingida ficam [Queimando](../glossario.md#queimando)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + todos os atingidos ficam [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a eles
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Soco Ígneo** *(Moderado)*
 
@@ -526,11 +530,11 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *O punho crava no chão, impulsionando um avanço que termina num impacto explosivo.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Trilha de Fogo** *(Moderado)*
 
@@ -546,20 +550,20 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *O punho desaba no chão, e o impacto atinge tudo próximo com força de meteoro.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alvos:** 2 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando) e é empurrado 1 casa para longe do usuário
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), o fogo se espalha para 1 criatura adjacente a ele, e empurra 2 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, o fogo se espalha para todas as criaturas adjacentes a ele, e empurra 3 casas e derruba
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Queda Meteórica** *(Moderado)*
 
 *Um salto termina num impacto avassalador, seguido por um tremor que abala tudo ao redor.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Magia | **Dano:** Fogo | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 3 casas de raio ao redor do ponto de queda
+- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 3 casas de raio ao redor do ponto de queda
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 **Punho Escaldante** *(Moderado)*
 
@@ -577,40 +581,40 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma explosão de calor extremo consome uma área inteira.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Magia | **Dano:** Fogo | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 24 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, Queimando, e empurra 2 casas
 
 **Erupção Vulcânica** *(Supremo)*
 
 *Lava fervente jorra do chão, engolindo tudo numa área ampla.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Fogo | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 3d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo (18) + 3d6 extra em todos, Queimando, e derruba cada alvo
 
 **Lança de Fogo** *(Moderado)*
 
 *Uma lança em chamas é arremessada, atravessando todo o campo de batalha numa linha reta.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Lança Espiritual** *(Moderado)*
 
 *Uma lança de energia perfura tudo em linha reta, incendiando cada alvo que atravessa.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 4d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Círculo do Destino** *(Moderado)*
 
@@ -637,22 +641,22 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um pilar de fogo irrompe do chão, empurrando tudo ao redor com violência.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Cooldown:** 2 rodadas
 - **Pilar:** os alvos são lançados ao alto e caem na própria casa — o pilar não os desloca de lugar
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando) e é derrubado
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando), o fogo se espalha para 1 criatura adjacente a ele, e cada alvo é derrubado e sofre 2d4 da queda
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, o fogo se espalha para todas as criaturas adjacentes a ele, e cada alvo é derrubado e sofre 4d4 da queda
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Impacto Profundo** *(Supremo)*
 
 *Meteoros flamejantes desabam por toda parte, cobrindo um campo de batalha inteiro em fogo.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Fogo | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alvos:** todas as criaturas hostis no campo de batalha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo (12) + 2d6 extra em todos
 - *(Custo fixo — rola um único teste de ataque, comparado à Defesa de cada alvo)*
 
 **O Fim** *(Supremo)*
@@ -669,20 +673,20 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um giro rápido crava a lâmina no chão, provocando explosões de fogo que arremessam o inimigo pra longe.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alvos:** 2 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Onda Explosiva** *(Supremo)*
 
 *Um dragão etéreo surge no céu e dispara três bolas de fogo que atravessam tudo em seu caminho, incendiando o chão onde caem.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Fogo | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** linha de 10 casas | **Alvos:** todas as criaturas na linha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, Queimando, e derruba cada alvo
 
 **Rastro Flamejante** *(Moderado)*
 
@@ -701,20 +705,20 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Golpes flamejantes precedem uma lança ilusória arremessada à frente, atravessando tudo no caminho.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Atributo:** Magia | **Dano:** Fogo | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Ataque Ilusório** *(Supremo)*
 
 *Cinco lanças flamejantes e ilusórias se espalham em ângulos diferentes, atravessando tudo em seu caminho.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Fogo | **Alvos:** todas as criaturas hostis em 6 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alvos:** todas as criaturas hostis em 6 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, Queimando, e derruba cada alvo
 
 **Muralha Flamejante** *(Maior)*
 
@@ -734,11 +738,11 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma onda de energia sombria rasga o chão, arremessando tudo em seu caminho pelos ares.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Choque Maligno** *(Moderado)*
 
@@ -756,11 +760,11 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Magia se acumula perigosamente antes de explodir num estrondo devastador.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** 1d10 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** 1d12 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** 2d12 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Zona Mortal** *(Moderado)*
 
@@ -803,17 +807,18 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *O poder demoníaco mais puro rasga a realidade numa explosão mágica avassaladora.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo fixo:** ◈◈◈ (3 PA) + 30 Mana | **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 30 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 **Império Sombrio** *(Supremo)*
 
 *Os poderes do submundo são invocados, causando dano contínuo aos inimigos próximos antes de se libertarem numa onda de choque que varre o chão.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Sombras | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Automática | **Dano:** Sombras | **Alvos:** todas as criaturas hostis em 3 casas de raio ao redor do usuário
 - **Efeito:** 1d8 de dano automático imediatamente e no início de cada uma das 2 rodadas seguintes (3 aplicações no total), e o usuário recupera Vida igual à metade do dano causado em cada aplicação. Ao final da 3ª aplicação, uma onda de choque empurra 2 casas e derruba todas as criaturas hostis ainda na área.
+- *(Sem teste — efeito automático de área; ninguém rola)*
 
 **Esfera Voraz** *(Moderado)*
 
@@ -840,40 +845,40 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um pé descomunal se materializa no ar e desaba sobre a área, esmagando tudo por baixo.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo fixo:** ◈◈ (2 PA) + 33 Mana | **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈ (2 PA) + 33 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 1d8 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e Atordoado em todos
 
 **Vórtice das Trevas** *(Maior)*
 
 *Um vazio se abre no chão, sugando e lançando ao alto quem estiver por perto.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + puxa 1 casa cada alvo (em direção ao centro), e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + puxa 1 casa e derruba cada alvo, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Giro Espectral** *(Moderado)*
 
 *A conjuradora gira rapidamente, envolta por uma lâmina de energia sombria que corta tudo ao redor.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alvos:** todas as criaturas adjacentes
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Julgamento das Trevas** *(Supremo)*
 
 *Um feixe de escuridão absoluta desaba do céu, varrendo tudo abaixo dele.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo (16) + 2d8 extra em todos, e derruba cada alvo
 
 **Floração Eterna** *(Maior)*
 
@@ -898,22 +903,22 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma explosão de energia sombria irrompe do corpo, atingindo tudo ao redor.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alvos:** todas as criaturas adjacentes
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alvos:** todas as criaturas adjacentes
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Redemoinho Sombrio** *(Moderado)*
 
 *Um redemoinho sombrio se ergue ao redor do corpo, ferindo tudo que estiver perto.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alvos:** 2 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Lamento Uivante** *(Moderado)*
 
@@ -961,22 +966,22 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um vórtice sombrio se abre à frente, atingindo repetidamente quem estiver dentro.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alvos:** cone de 3 casas à frente
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alvos:** cone de 3 casas à frente
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Carícia da Morte** *(Moderado)*
 
 *O cubo gira furiosamente ao redor do usuário, formando um tornado sombrio.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alvos:** 2 casas de raio ao redor do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alvos:** 2 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Sobrecarga** *(Maior)*
 
@@ -994,9 +999,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um vórtice imenso suga tudo ao redor, atordoando antes de detonar num estrondo devastador.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + puxa 2 casas e cada alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, puxa 2 casas, e Atordoado em todos
 
 **Selo Sombrio** *(Moderado)*
 
@@ -1012,9 +1017,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um arranjo de lanças sombrias desaba do céu ao redor do usuário.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo fixo:** ◈◈ (2 PA) + 30 Mana | **Atributo:** Magia | **Dano:** Sombras | **Alvos:** 3 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈ (2 PA) + 30 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alvos:** 3 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo (8) + 1d8 extra em todos, e derruba cada alvo
 
 **Dia do Julgamento** *(Supremo)*
 
@@ -1041,12 +1046,12 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *A escuridão se abre como uma boca diante do conjurador, e o que ela morde alimenta quem a abriu.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alvos:** cone de 3 casas à frente
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alvos:** cone de 3 casas à frente
 - **Devorar:** é a única habilidade de área de Sombras que drena, em vez de plantar [Zona Amaldiçoada](../glossario.md#zona-amaldicoada) — e o dreno conta o dano de um alvo por vez, nunca o total da área
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + o usuário recupera Vida igual à metade do dano causado a um alvo, à escolha dele
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + o usuário recupera Vida igual ao dano causado a um alvo, à escolha dele
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + o usuário recupera Vida igual ao dano causado a até dois alvos, à escolha dele
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Corte Cruel** *(Moderado)*
 
@@ -1064,51 +1069,51 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *A escuridão para de caber no conjurador e transborda à frente — onde ela passa, o chão continua ferindo quem pisar.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alvos:** cone de 5 casas à frente
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alvos:** cone de 5 casas à frente
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 2d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 2d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Ilusão Cruel** *(Maior)*
 
 *O olho maligno se multiplica, espalhando-se por uma área ampla.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 1d10 de dano + Sangrando + empurra 1 casa cada alvo, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo (10) + 1d10 extra em todos, Sangrando, e empurra 1 casa
 
 **Apocalipse** *(Supremo)*
 
 *Uma besta feita de escuridão pura irrompe no campo e devasta tudo ao redor, deixando o solo maldito atrás de si.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** 10 casas | **Alvos:** 4 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 3d6 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo (18) + 3d6 extra em todos, e derruba cada alvo
 
 **Pilar Sombrio** *(Moderado)*
 
 *Uma lâmina crava o chão, erguendo um pilar de trevas que fere quem tocar.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Filo da Alma** *(Maior)*
 
 *Um salto termina num mergulho certeiro, cravando a lâmina no chão e liberando uma explosão de trevas.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sombras | **Alcance do salto:** até o valor de Movimento, em casas | **Alvos:** 2 casas de raio ao redor de um ponto de queda
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** o usuário se desloca até o ponto + 1d6 de dano em cada alvo, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 1 rodada (1d4 a quem entrar ou ficar)
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** o usuário se desloca até o ponto + 1d8 de dano, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 2 rodadas (4d4)
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o usuário se desloca até o ponto + 2d8 de dano, e a área fica [Amaldiçoada](../glossario.md#zona-amaldicoada) por 3 rodadas (8d4)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Chamado da Ruína** *(Moderado)*
 
@@ -1147,10 +1152,11 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *A luz simplesmente para de chegar ali — e o que vive na escuridão agradece.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
-- **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Automática | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Intensidade I — ◈ (1 PA) + 12 Mana:** por 2 rodadas, a área fica coberta de trevas absolutas — ninguém enxerga através dela (nem o usuário), e qualquer ataque à distância que precise atravessá-la rola com [Desvantagem](../glossario.md#desvantagem). Criaturas sem Visão no Escuro que estejam dentro da área ficam [Cegas](../glossario.md#cego) enquanto permanecerem lá, e sofrem 4d4 de dano automático no início de cada um dos próprios turnos nesse estado.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, por 3 rodadas, causando 8d4 de dano.
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, por 4 rodadas, causando 8d4 de dano, e mesmo criaturas com Visão no Escuro comum (não mágica) ficam Cegas dentro da área.
+- *(Sem teste — efeito automático de área; ninguém rola)*
 
 ## Luz
 
@@ -1159,42 +1165,42 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um construto surge do nada e dispara um laser caótico em linha reta, atingindo tudo em seu longo alcance.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Atributo:** Magia | **Dano:** Luz | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Luz | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 12 Mana:** 2d6 de dano em cada alvo + cada alvo perde a próxima Reação
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 2d8 de dano + cada alvo perde a próxima Reação e fica [Marcado](../glossario.md#marcado)
 - **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** 4d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Restrição de Luz** *(Maior)*
 
 *Uma esfera de luz atravessa o alvo e prende sua energia, passando adiante quando encontra outro inimigo.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Atributo:** Magia | **Dano:** Luz | **Alcance:** linha de 8 casas | **Alvos:** até 2 criaturas na linha (a esfera atinge a 1ª e passa pra 2ª)
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Luz | **Alcance:** linha de 8 casas | **Alvos:** até 2 criaturas na linha (a esfera atinge a 1ª e passa pra 2ª)
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d6 de dano em cada alvo atingido + cada alvo perde a próxima Reação
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d8 de dano + cada alvo perde a próxima Reação e fica [Marcado](../glossario.md#marcado)
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d8 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em ambos, e sobe 1 Intensidade
 
 **Luz do Paraíso** *(Maior)*
 
 *Dezenas de pequenos orbes de luz descem em diagonal, cobrindo uma área ampla.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Dano:** Luz | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 27 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Luz | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 3 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d6 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
-- **Crítico:** dano máximo (12) + 2d6 extra em todos, e derruba cada alvo
 
 **Fragmento do Espírito** *(Moderado)*
 
 *Correntes de luz prendem os alvos, sufocando sua capacidade de reagir.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Atributo:** Magia | **Dano:** Luz | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Luz | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + cada alvo perde a próxima Reação
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + cada alvo perde a próxima Reação e fica [Marcado](../glossario.md#marcado)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e perde a próxima Reação
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Luz Infinita** *(Supremo)*
 
@@ -1221,7 +1227,8 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um orbe sagrado se rompe em três fragmentos que avançam continuamente, corroendo quem tocarem.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Custo fixo:** ◈◈ (2 PA) + 18 Mana | **Atributo:** Magia | **Dano:** Luz | **Alcance:** linha de 8 casas | **Alvos:** até 3 criaturas na linha
+- **Custo fixo:** ◈◈ (2 PA) + 18 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Luz | **Alcance:** linha de 8 casas | **Alvos:** até 3 criaturas na linha
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** cada alvo sofre 1d6 de dano imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Custo fixo — rola um único teste de ataque, comparado à Defesa de cada alvo)*
 
@@ -1249,11 +1256,11 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um clarão explode na área — e brilho demais também cega.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Luz](../glossario.md#luz)
-- **Atributo:** Magia | **Dano:** Luz | **vs:** Fortitude Mágica, só na Intensidade II | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Luz | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 15 Mana:** 1d8 de dano em cada alvo + cada um perde a próxima Reação.
 - **Intensidade II — ◈◈ (2 PA) + 24 Mana:** 1d8 de dano + perde a próxima Reação, e cada alvo testa Magia contra a Fortitude Mágica do usuário; falhando, fica [Cego](../glossario.md#cego) até o fim do próprio próximo turno.
 - **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** 2d8 de dano + perde a próxima Reação, e cada alvo fica Cego automaticamente (sem teste) até o fim do próprio próximo turno.
-- **Crítico:** dano máximo do dado + rolagem extra em todos, e sobe 1 Intensidade
 
 ## Água
 
@@ -1338,9 +1345,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Energia é golpeada contra o chão, e cinco pilares de água irrompem violentamente numa área ampla.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Água](../glossario.md#agua)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Água | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Água | **Alcance:** 8 casas | **Alvos:** 4 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano + puxa cada alvo 3 casas, ele fica [Lento](../glossario.md#lento) e é derrubado
-- **Crítico:** dano máximo (16) + 2d8 extra em todos, puxa cada alvo 3 casas em direção ao usuário, e derruba cada alvo
 
 ## Vento
 
@@ -1360,33 +1367,33 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Dois tornados se abrem em direções opostas, arrastando quem estiver por perto.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Vento](../glossario.md#vento)
-- **Atributo:** Magia | **Dano:** Vento | **Alcance:** 8 casas | **Alvos:** linha de 6 casas
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Vento | **Alcance:** 8 casas | **Alvos:** linha de 6 casas
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo na linha + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + empurra 4 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + empurra 6 casas e derruba
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Vendaval Reverso** *(Moderado)*
 
 *Um giro brusco lança um redemoinho de vento pra trás do usuário.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Vento](../glossario.md#vento)
-- **Atributo:** Magia | **Dano:** Vento | **Alvos:** linha de 5 casas atrás do usuário
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Vento | **Alvos:** linha de 5 casas atrás do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + empurra 4 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 6 casas e derruba
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Lâminas de Ar** *(Moderado)*
 
 *Cortes invisíveis de vento comprimido rasgam o ar, atingindo tudo à frente.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Vento](../glossario.md#vento)
-- **Atributo:** Magia | **Dano:** Vento | **Alvos:** cone de 3 casas à frente
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Vento | **Alvos:** cone de 3 casas à frente
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano em cada alvo + empurra 2 casas
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + empurra 4 casas
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + empurra 6 casas e derruba
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Passos do Vento** *(Maior)*
 
@@ -1423,9 +1430,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um ciclone violento se ergue ao redor do usuário, sugando e arremessando tudo que estiver por perto.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Vento](../glossario.md#vento)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Dano:** Vento | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Vento | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano + empurra 6 casas e derruba
-- **Crítico:** dano máximo (16) + 2d8 extra em todos, empurra 2 casas extras, e derruba cada alvo
 
 ## Veneno
 
@@ -1436,11 +1443,11 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma agulha invisível de veneno perfura a pele — a dor real só vem depois.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Resolução:** Teste de Resistência | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** alvo fica [Envenenado](../glossario.md#envenenado)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** [Envenenado](../glossario.md#envenenado) com 2 acúmulos (8d4 por turno)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** [Envenenado](../glossario.md#envenenado) com 3 acúmulos (12d4 por turno)
-- **Crítico:** 1d6 de dano imediato, e sobe 1 Intensidade
 
 **Névoa Corrosiva** *(Moderado)*
 
@@ -1456,31 +1463,31 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um veneno lento entra na corrente sanguínea, e a força do alvo esvai junto com ele.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Resolução:** Teste de Resistência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Defesa** — o efeito não acontece
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** alvo fica [Envenenado](../glossario.md#envenenado)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** [Envenenado](../glossario.md#envenenado) com 2 acúmulos (8d4 por turno)
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** [Envenenado](../glossario.md#envenenado) com 3 acúmulos (12d4 por turno)
-- **Crítico:** sobe 1 Intensidade
 
 **Chuva Ácida** *(Maior)*
 
 *Gotas corrosivas caem do nada, dissolvendo tudo que tocam.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Envenenado](../glossario.md#envenenado)
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 1d10 de dano + [Envenenado](../glossario.md#envenenado) com 2 acúmulos (8d4 por turno)
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 2d10 de dano + [Envenenado](../glossario.md#envenenado) com 3 acúmulos (12d4 por turno)
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Praga Definitiva** *(Supremo)*
 
 *Uma doença impossível se espalha pelo ar, apodrecendo tudo que ainda respira num raio enorme.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Fortitude Mágica | **Dano:** Veneno | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Veneno | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Defesa** — metade do dano, sem condições
 - **Acerto:** 2d8 de dano + [Envenenado](../glossario.md#envenenado) com 3 acúmulos (12d4 por turno)
-- **Crítico:** dano máximo (16) + 2d8 extra em todos, Envenenado, e -5 em Ataque, Defesa e Agilidade até o fim do combate
 
 ## Sangue
 
@@ -1515,12 +1522,12 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Estilhaços de sangue endurecido se espalham pelo ar como estacas.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sangue](../glossario.md#sangue)
-- **Atributo:** Magia | **Dano:** Sangue | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sangue | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Custo em Vida:** esta habilidade não gasta Mana — custa sempre **4d4 de Vida**, em qualquer Intensidade
 - **Intensidade I — ◈ (1 PA) + 4d4 de Vida:** 2d8 de dano em cada alvo + o usuário recupera Vida igual à metade do dano causado
 - **Intensidade II — ◈◈ (2 PA) + 4d4 de Vida:** 3d8 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando), e o usuário recupera Vida igual ao dano causado
 - **Intensidade III — ◈◈◈ (3 PA) + 4d4 de Vida:** 4d8 de dano + Sangrando + empurra 1 casa cada alvo, e o usuário recupera Vida igual ao dobro do dano causado
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 - **[Risco](../glossario.md#risco):** se algum dos dados de dano cair em 1, o sangue se volta contra quem o invocou — o usuário perde 4d4 de Vida
 
 **Vínculo Sanguíneo**
@@ -1537,9 +1544,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Todo o sangue derramado no campo de batalha responde ao chamado, voando em espirais até o usuário.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sangue](../glossario.md#sangue)
-- **Custo fixo:** ◈◈◈ (3 PA) + 16d4 de Vida | **Atributo:** Magia | **Dano:** Sangue | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Custo fixo:** ◈◈◈ (3 PA) + 16d4 de Vida | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sangue | **Alvos:** todas as criaturas hostis em 4 casas de raio ao redor do usuário
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Acerto:** 6d8 de dano em cada alvo + o usuário recupera Vida igual ao dobro do dano causado
-- **Crítico:** dano máximo (48) + 6d8 extra em todos, Sangrando, e recupera Vida igual ao **dobro** do dano total causado
 - **[Risco](../glossario.md#risco):** se algum dos dados de dano cair em 1, o sangue se volta contra quem o invocou — o usuário perde 4d4 de Vida
 
 **Espinhos de Sangue**
@@ -1547,7 +1554,8 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Três espinhos de sangue brotam do chão ao redor de um ponto, perfurando quem estiver perto.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sangue](../glossario.md#sangue)
-- **Atributo:** Magia | **Dano:** Sangue | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sangue | **Alcance:** 8 casas | **Alvos:** 1 casa de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Custo em Vida:** esta habilidade não gasta Mana — custa sempre **4d4 de Vida**, em qualquer Intensidade
 - **Espinhos:** as casas ficam eriçadas enquanto durar. Qualquer criatura que entrar numa delas, ou terminar o turno ali, sofre o dano — no máximo uma vez por rodada. Não há dano no momento em que brotam
 - **Intensidade I — ◈ (1 PA) + 4d4 de Vida:** por 2 rodadas, 2d8 de dano a quem entrar ou ficar + o usuário recupera Vida igual à metade do dano causado
@@ -1574,13 +1582,13 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Flechas vermelhas sobem ao céu, abrindo vórtices que despejam mais flechas sobre a área.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sangue](../glossario.md#sangue)
-- **Atributo:** Magia | **Dano:** Sangue | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Sangue | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Custo em Vida:** esta habilidade não gasta Mana — custa sempre **4d4 de Vida**, em qualquer Intensidade
 - **Duas ondas:** o dano acontece imediatamente ao lançar, e mais uma vez no início do próximo turno do usuário (2 aplicações no total). A segunda onda só atinge quem estiver na área naquele momento
 - **Intensidade I — ◈ (1 PA) + 4d4 de Vida:** 1d8 de dano em cada alvo por onda + o usuário recupera Vida igual à metade do dano causado em cada onda
 - **Intensidade II — ◈◈ (2 PA) + 4d4 de Vida:** 2d8 por onda + cada alvo atingido pela segunda onda fica [Sangrando](../glossario.md#sangrando), e o usuário recupera Vida igual ao dano causado em cada onda
 - **Intensidade III — ◈◈◈ (3 PA) + 4d4 de Vida:** 3d8 por onda + cada alvo fica [Sangrando](../glossario.md#sangrando) nas duas ondas, e o usuário recupera Vida igual ao dobro do dano causado em cada onda
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 - **[Risco](../glossario.md#risco):** se algum dos dados de dano cair em 1, o sangue se volta contra quem o invocou — o usuário perde 4d4 de Vida
 
 ## Arcano
@@ -1617,12 +1625,12 @@ um efeito colateral característico (queima, prende, empurra...), o Arcano é s�
 *Toda a energia da lâmina é canalizada num único disparo à frente, crescendo em intensidade.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Arcano](../glossario.md#arcano)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
 - **Disparo crescente:** o feixe ganha força a cada corpo que atravessa — o 1º alvo da linha sofre o dado indicado, o 2º sofre o dobro, e o 3º em diante o triplo
+- **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d6 de dano, e todos os alvos atingidos são empurrados 2 casas
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Disparo Voraz** *(Moderado)*
 

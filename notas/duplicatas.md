@@ -574,3 +574,15 @@ O que sobrou pra depois, por ordem de tamanho:
   total, mas é o mesmo molde.
 - **Lâmina de Sangue** causa **10d8 nas três Intensidades** — só o dreno escala. Anomalia notada
   de passagem, não investigada.
+
+
+## Área vira Teste de Resistência (2026-08-26)
+
+Leva separada, decidida logo após a Camada A. Registro completo no CLAUDE.md. Em resumo: 177 fichas,
+4 arquivos de regra (`jogar/testes.md`, `habilidades/regras.md`, `glossario.md`, `jogar/combate.md`),
+e a classificação de cada habilidade em `notas/area-resistencia.txt`.
+
+Fica em aberto: as 3 classificações marcadas como julgamento meu (Metamorfose Forçada, Toque
+Suspenso, Dominar os Mortos), e a pergunta de balanceamento que a mudança abre — **área nunca mais
+zera** (resistir dá metade), o que a torna mais confiável do que era. Nenhum dado foi reduzido pra
+compensar; se em mesa isso pesar, o ajuste é nos dados, não na regra.
