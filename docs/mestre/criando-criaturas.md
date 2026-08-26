@@ -34,6 +34,23 @@ Mordida — ◈ | +10 vs Evasão | 1 criatura adjacente
 
 Isso é, na ordem: o **custo em PA** (◈), o **bônus que o Mestre soma no d100** e contra qual **número-alvo** comparar, e quem pode ser **alvo**. No caso: gasta 1 PA, role d100+10 contra a Evasão do alvo, atingindo uma criatura adjacente.
 
+### O tipo de dano vale nos dois lados
+
+Desde 2026-08-27 os três tipos de dano físico têm **assinatura mecânica própria**, como os elementos sempre tiveram (ver [Assinatura de Tipo de Dano](../jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano)). Isso vale para as garras e mordidas da criatura do mesmo jeito que vale para a espada do personagem:
+
+| Tipo | O ataque da criatura também… |
+|---|---|
+| **Cortante** | deixa o alvo [Sangrando](../glossario.md#sangrando) |
+| **Impacto** | derruba, e deixa [Lento](../glossario.md#lento) |
+| **Perfurante** | causa **+1d6** contra alvo preso — [Lento](../glossario.md#lento), [Imóvel](../glossario.md#imovel), [Atordoado](../glossario.md#atordoado), [Agarrado](../glossario.md#agarrado) ou derrubado |
+
+**A ficha não escreve isso.** A assinatura vem do tipo que o ataque já declara — o mesmo motivo pelo qual a ficha não repete a Couraça nem a regra da Ação de Lenda. Se um ataque deve fazer **mais** que a assinatura, aí sim a ficha diz.
+
+!!! cuidado "Resistência apaga a assinatura, não só metade do dano"
+    Ao dar **Resistência** a um tipo físico, saiba que ela ficou mais forte: além de cortar o dano pela metade, a criatura **não sofre a assinatura daquele tipo**. Resistente a Cortante não fica Sangrando, a Impacto não é derrubado nem fica Lento, a Perfurante não leva o dano extra.
+
+    É o que faz um esqueleto não sangrar e um slime não cair de costas — mas pesa: uma criatura resistente aos **três** tipos (Enxame de Ratos, Sombra, Carniçal) deixa qualquer arma física quase inútil, e é isso que empurra o grupo pra magia. Use de propósito, não por decoração.
+
 ### Um turno jogado
 
 O [Dragão Filhote](../bestiario/index.md#bes-dragao-filhote) (Ataque **+53**, 4 PA, 158 Mana) está à frente de dois personagens: a **Guerreira** (Evasão **50**) e o **Mago** (Evasão **80** — ágil e difícil de acertar).

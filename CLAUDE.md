@@ -1131,6 +1131,21 @@ extra. O gatilho foi a pergunta dele: um **esqueleto** resistente a Cortante san
 absurdo. Afeta **12 das 56 criaturas** — e nas três que resistem aos três tipos físicos (Enxame,
 Sombra, Carniçal) a arma física perde quase toda a utilidade, que é justamente o papel delas.
 
+**A assinatura vale nos dois lados da mesa (2026-08-27).** Os ataques de criatura já declaravam tipo
+de dano — **52 deles**, 20 Cortante, 18 Perfurante, 14 Impacto — e o tipo só servia pra resistência e
+vulnerabilidade. Decisão do autor: a assinatura vale igual pras garras e mordidas. Uma mordida
+perfurante cobra do alvo preso, uma garra corta e faz Sangrar.
+
+**Nenhuma das 52 fichas foi tocada** — a assinatura é **herdada da regra**, pelo mesmo motivo que a
+ficha não repete a Couraça nem a Ação de Lenda: o card é lido no meio de um turno, e o que a regra
+geral já diz vira ruído ali. `mestre/criando-criaturas.md` ganhou a seção que documenta isso, e a nota
+de que **Resistência ficou mais cara de dar**: ela agora apaga a assinatura, então uma criatura
+resistente aos três tipos físicos deixa qualquer arma física quase inútil — de propósito, mas quem
+monta bicho precisa saber.
+
+⚠ **Isso aumenta o dano das criaturas e não foi testado em mesa.** É a mesma aritmética de sempre com
+um efeito novo por cima; o Bestiário foi reescalado pela lore em 2026-08-03 e não reviu esse degrau.
+
 Em aberto:
 
 **Revisado pelo autor em 2026-08-27** — este bloco está fechado:
