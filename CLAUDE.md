@@ -1008,6 +1008,28 @@ Sangrando", sem o `+`, porque o regex do empurrão engolia o `+` anterior). E a 
 uma **palavra órfã** que sobrou de "empurra 1 casa cada alvo *atingido*". Nenhum dos três quebra build
 ou `verifica.py`: só se veem lendo.
 
+**Camada B remedida e fechada (2026-08-27).** O levantamento de 2026-08-26 dizia 35 redundâncias de
+forma. Antes de tocar nelas, a remedição deu **16** — mais da metade caiu sozinha, dissolvida pelas
+reformulações da Camada A e pelas assinaturas de tipo de dano.
+
+E a leitura das 16 mudou o veredito: **a maioria não é defeito**. Forma de área é diferença real —
+um cone, uma linha e um raio ao redor de si resolvem problemas de posicionamento diferentes, como
+bola de fogo e relâmpago em qualquer d20. Ficaram **8 clusters legítimos**.
+
+Só **3 pares** não se sustentavam, e nos três o flavor já dizia o que a regra não fazia:
+
+- **Campo Eletrônico** — "uma granada lançada, emitindo um raio **antes de** explodir": duas fases no
+  texto, uma na regra. Virou a granada retardada (fere ao pousar, explode no turno seguinte em quem
+  ficar perto). A *Força de Choque* ficou com a aura instantânea.
+- **Força Desesperada** — o nome era o verbo e a regra ignorava. Agora **cresce com o aperto**: +1d6
+  abaixo de metade da Vida, +2d6 abaixo de um quarto. A *Chama Investida* ficou como a investida limpa.
+- **Paixão Interna** — "uma esfera que **persegue** o alvo": se o ataque errar, ela ataca de novo no
+  turno seguinte sem custo. A *Sobrecarga* ficou com o tiro de 12 casas.
+
+⚠ **A medição da Camada B cobre só as habilidades gerais.** As 186 de arma não entram: nelas a forma
+é praticamente a única variação que existe, por desenho — cada arma tem Básica, Avançada e Especial
+no mesmo molde.
+
 Em aberto:
 
 **Revisado pelo autor em 2026-08-27** — este bloco está fechado:
@@ -1037,9 +1059,10 @@ novas do `verifica.py` pega isso**, porque é número, não vocabulário — é 
    decorativos no glossário, enquanto os 10 elementos têm tabela própria. É essa lacuna que empurra
    toda habilidade marcial nova pro mesmo "empurra + derruba"; a leva de hoje tratou 8 sintomas, não
    a causa
-5. **Camadas B e C das duplicatas** — 35 redundâncias de forma e ~141 colisões de assinatura em
-   `notas/duplicatas.md`. **Vale remedir**: as levas de hoje mexeram em mais de 200 fichas depois do
-   último levantamento
+5. **Camada C das duplicatas** — ~141 colisões de assinatura em `notas/duplicatas.md`. O bloco 1
+   (o clichê marcial) e o bloco 2 (o par que abriu a revisão) foram fechados; o resto **vale remedir**
+   antes de qualquer coisa, porque as levas de 2026-08-26/27 mexeram em mais de 300 fichas. A
+   **Camada A e a Camada B estão fechadas**
 6. **Coerência entre páginas: metade resolvida.** O `verifica.py` ganhou duas checagens em
    2026-08-27 (vocabulário aposentado e condição sem verbete), mas as duas são **listas de termos
    vigiados**, não análise de sentido: pegam uma regra que voltou a usar palavra velha, e não uma que

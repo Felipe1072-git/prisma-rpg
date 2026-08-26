@@ -196,14 +196,15 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 **Campo Eletrônico** *(Moderado)*
 
-*Uma granada mágica é lançada a curta distância, emitindo um raio poderoso antes de explodir violentamente.*
+*Uma granada mágica é lançada a curta distância, emitindo um raio poderoso antes de explodir.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Raio](../glossario.md#raio)
 - **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Raio | **Alcance:** 4 casas | **Alvos:** 2 casas de raio do ponto
+- **Duas fases:** o raio fere ao pousar; a **explosão vem depois**, no início do próximo turno do usuário, e só alcança quem ainda estiver na área
 - **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + cada alvo perde a próxima Reação
-- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + cada alvo perde a próxima Reação e Ação Básica
-- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + cada alvo fica [Atordoado](../glossario.md#atordoado)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo ao pousar; na explosão, mais 1d8 em cada alvo que continuar na área
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 ao pousar; na explosão, mais 1d10, e cada alvo atingido por ela perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 ao pousar; na explosão, mais 2d10, e cada alvo atingido por ela fica [Atordoado](../glossario.md#atordoado)
 
 **Raios e Relâmpagos** *(Supremo)*
 
@@ -425,11 +426,12 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 **Força Desesperada** *(Moderado)*
 
-*Uma investida desesperada é envolta por uma onda de fogo repentina.*
+*Uma investida desesperada é envolta por uma onda de fogo repentina — quanto pior a situação, mais alto o fogo sobe.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Magia | **Dano:** Fogo | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
 - **Investida:** o usuário se desloca até o alvo antes de atacar, em qualquer Intensidade
+- **Desespero:** o fogo cresce com o aperto — **+1d6** de dano se o usuário estiver abaixo de metade da Vida, e **+2d6** em vez disso se estiver abaixo de um quarto
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano + alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a ele
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + alvo fica [Queimando](../glossario.md#queimando) causando 8d4 por turno, e o fogo se espalha para todas as criaturas adjacentes a ele
@@ -935,9 +937,10 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Sombras](../glossario.md#sombras)
 - **Atributo:** Magia | **Dano:** Sombras | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Perseguição:** a esfera não desiste. Se o ataque **errar**, ela persegue o alvo e ataca de novo no início do próximo turno do usuário, **sem custo de PA ou Mana** — e some depois dessa segunda tentativa, tendo acertado ou não
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano + o usuário recupera Vida igual à metade do dano causado
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d8 de dano + o usuário recupera Vida igual ao dano causado
-- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 4d8 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado, e o alvo perde 2 Mana
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 4d8 de dano + derruba o alvo, e ele perde a próxima Reação, e o usuário recupera Vida igual ao dano causado
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Rajada Sombria** *(Moderado)*
