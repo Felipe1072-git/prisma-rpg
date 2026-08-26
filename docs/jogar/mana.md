@@ -58,32 +58,32 @@ Mana e Pontos de Ação sobem **juntos** com a [Intensidade](../glossario.md#int
 
 Habilidades de **Custo fixo** (áreas de raio 3+, Supremas, e efeitos absolutos sem degrau) cobram o valor da Intensidade III, já que entregam o efeito completo. **Buffs, cura e mobilidade têm Intensidade normalmente** — o que escala é o tamanho do efeito (ver [Buffs, Suporte e Mobilidade também têm Intensidade](regras-de-habilidade.md#buffs-suporte-e-mobilidade-tambem-tem-intensidade)); só ficam com Custo fixo os que não têm nada pra graduar. Habilidades **dedicadas a Reação** custam 0 PA e só Mana (ver [Reações](combate.md#reacoes)).
 
-## Grau de Poder
+## Faixas de Mana
 
-Classificação geral de quão forte uma habilidade é, usada pra precificar qualquer habilidade nova. Mede o **teto** da habilidade — o custo da Intensidade III dela:
+Quanto uma habilidade custa, medido pelo **teto** dela — a Intensidade III, ou o Custo fixo. É o que se usa pra precificar qualquer habilidade nova:
 
-| Grau de Poder | Custo em Mana | Uso esperado |
-|---|---|---|
-| Menor | 3–9 | Várias vezes por combate (ex: Intensidade I de técnicas de arma) |
-| Moderado | 12–24 | 2–4 vezes por descanso |
-| Maior | 27–45 | 1–2 vezes por descanso |
-| Supremo | 48+ | 1 vez por descanso, possivelmente com restrição extra (ex: voo sustentado, invocar demônio, controle mental total) |
+| Teto em Mana | Uso esperado |
+|---|---|
+| 3–9 | Várias vezes por combate (ex: Intensidade I de técnicas de arma) |
+| 12–24 | 2–4 vezes por descanso |
+| 27–45 | 1–2 vezes por descanso |
+| 48+ | 1 vez por descanso, possivelmente com restrição extra (ex: voo sustentado, invocar demônio, controle mental total) |
+
+!!! nota "Custo não é tamanho"
+    Esta tabela responde *quanto custa*, e só isso. *Quanto a habilidade entrega* é a [Escala de Poder](regras-de-habilidade.md#escala-de-poder), que se mede por outros quatro eixos — e as duas não andam juntas: há habilidade barata que faz muito e cara que faz pouco. Até 2026-08-26 as faixas de custo tinham os nomes Menor/Moderado/Maior/Supremo e faziam o papel das duas coisas; como o custo quase não varia (69 das 71 Supremas custavam os mesmos 48 Mana), o rótulo não distinguia o que a habilidade fazia.
 
 !!! exemplo "Filtrando pelo que você consegue pagar"
-    A [Listagem de Habilidades](../habilidades/index.md) tem um controle de **Mana disponível**: arraste até o seu total atual e ela esconde tudo o que você não teria como ativar.
+    A [Listagem de Habilidades](../habilidades/index.md) tem um controle de **Mana disponível**: arraste até o seu total atual e ela esconde tudo o que você não teria como ativar. Pra filtrar por *tamanho* em vez de bolso, use o menu de **escala**.
 
 ## Requisito suave de Atributo
 
-Escala de arma e Grau de Poder também servem de guia pra quanto de Atributo o personagem devia ter pra usar aquela habilidade **sem desvantagem** — não é um bloqueio (qualquer habilidade continua acessível desde o nível 0), é um incentivo a investir:
+O que a habilidade custa também serve de guia pra quanto de Atributo o personagem devia ter pra usá-la **sem desvantagem** — não é um bloqueio (qualquer habilidade continua acessível desde o nível 0), é um incentivo a investir:
 
-| Escala | Atributo recomendado |
-|---|---|
-| Básica (arma) | 15 |
-| Avançada (arma) | 35 |
-| Especial (arma) | 55 |
-| Menor (geral) | 20 |
-| Moderado (geral) | 40 |
-| Maior (geral) | 65 |
-| Supremo (geral) | 85 |
+| Grau da arma | Teto de Mana (geral) | Atributo recomendado |
+|---|---|---|
+| Básica | 3–9 | 15 (arma) · 20 (geral) |
+| Avançada | 12–24 | 35 (arma) · 40 (geral) |
+| Especial | 27–45 | 55 (arma) · 65 (geral) |
+| — | 48+ | 85 |
 
-**Abaixo do recomendado, a rolagem é feita com [Desvantagem](testes.md#vantagem-e-desvantagem)** (2d100, fica com o pior); no recomendado ou acima, rola normal. Um Supremo continua utilizável desde cedo — só que arriscado, até o Atributo acompanhar.
+**Abaixo do recomendado, a rolagem é feita com [Desvantagem](testes.md#vantagem-e-desvantagem)** (2d100, fica com o pior); no recomendado ou acima, rola normal. Uma habilidade de 48+ continua utilizável desde cedo — só que arriscada, até o Atributo acompanhar.

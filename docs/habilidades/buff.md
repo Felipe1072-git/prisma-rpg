@@ -863,7 +863,7 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Alvos:** o próprio usuário
-- **Efeito:** o usuário prepara uma habilidade de Custo fixo ou Intensidade I que já conheça (Grau de Poder Menor ou Moderado, até 8 Mana na versão escolhida), junto com uma condição de disparo específica (ex: "se eu cair abaixo da metade da Vida", "se eu ficar Agarrado", "se um inimigo chegar a 3 casas de mim"). A partir daí, sempre que a condição acontecer — mesmo fora do turno do usuário, mesmo se ele estiver Atordoado ou Inconsciente — a habilidade preparada dispara automaticamente, sem gastar PA nem Mana adicional (o custo dela já foi pago ao preparar). Só pode haver 1 Gatilho Selado ativo por vez; preparar outro cancela o anterior sem reembolso. O gatilho dura até ser usado, ou até o fim do próximo descanso longo.
+- **Efeito:** o usuário prepara uma habilidade de Custo fixo ou Intensidade I que já conheça (até 8 Mana na versão escolhida), junto com uma condição de disparo específica (ex: "se eu cair abaixo da metade da Vida", "se eu ficar Agarrado", "se um inimigo chegar a 3 casas de mim"). A partir daí, sempre que a condição acontecer — mesmo fora do turno do usuário, mesmo se ele estiver Atordoado ou Inconsciente — a habilidade preparada dispara automaticamente, sem gastar PA nem Mana adicional (o custo dela já foi pago ao preparar). Só pode haver 1 Gatilho Selado ativo por vez; preparar outro cancela o anterior sem reembolso. O gatilho dura até ser usado, ou até o fim do próximo descanso longo.
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 
 **Metamorfose de Escala** *(Maior)*

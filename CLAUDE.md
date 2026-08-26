@@ -1188,6 +1188,84 @@ uma regra que se aplica sem pensar.
 (golpe + Sangrando). Se os combates ficarem curtos demais, o lugar de mexer é o **dado base dos
 ataques cortantes** — ou a frequência com que a assinatura dispara —, nunca a fórmula do Sangrando.
 
+**A escala deixa de ser o preço e passa a medir a entrega (2026-08-26).** O autor viu que a escala
+"Médio" tinha 2 habilidades e desconfiou de que muitas estavam sem escala. As duas coisas eram
+verdade, e a causa era mais funda: **a escala era o custo em Mana com outro nome**, e o Mana quase não
+varia — **69 dos 71 Supremos custavam exatamente 48**. Medido contra as fichas:
+
+| escala | n | dano médio |
+|---|---|---|
+| Moderado | 185 | 11,4 |
+| Maior | 192 | 11,1 |
+| Supremo | 71 | 12,3 |
+
+De Moderado pra Maior o dano **caía**; de Maior pra Supremo o controle caía. A única coisa que subia
+era o Mana, porque a escala *era* o Mana. O grau de arma, no mesmo teste, funcionava (13,0 → 24,7 →
+35,5) — ele mede outra coisa.
+
+⚠ **"Médio" nunca pegou porque é sinônimo de "Moderado".** Ninguém escolhe consistentemente entre dois
+nomes que querem dizer a mesma coisa. Não era faixa vazia, era vocabulário duplicado.
+
+Entrou a **Escala de Poder** (`jogar/regras-de-habilidade.md#escala-de-poder`): quatro eixos de 0 a 2
+— **dano, alcance, controle, permanência** —, e a escala é a **soma dos dois maiores**.
+
+⚠ **Somar os quatro não funciona, e a razão é estrutural**: as correlações medidas entre os eixos dão
+todas ~0 ou negativas. O sistema já troca um eixo pelo outro ao equilibrar (área grande vem com dano
+baixo), então **não existe uma dimensão latente de "poder"** — somar achata tudo no meio. Os dois
+maiores perguntam "quão longe ela vai naquilo em que é forte".
+
+| | Antes | Depois |
+|---|---|---|
+| Menor | 12 | 18 |
+| Médio | 2 | — |
+| Moderada | 185 | 51 |
+| Notável | — | 180 |
+| Maior | 192 | 180 |
+| Suprema | 71 | 65 |
+| **sem escala** | **91** | **0** |
+
+A validação que dá confiança: **a régua redescobriu o grau de arma sozinha** (Básica 1,45 → Avançada
+2,53 → Especial 3,29) sem saber que ele existe.
+
+Decisões do autor nesta virada:
+
+- **Derivada no hook, com exceção à mão** — mesmo arranjo do Cooldown e do limiar de Crítico. Nenhuma
+  das 753 fichas foi editada; habilidade nova nasce classificada. A exceção se escreve com um bullet
+  **`Escala:`**, que vence a conta.
+- **O vocabulário antigo é ignorado, não respeitado** (`_ESCALA_APOSENTADA`). Sem isso as 462 fichas
+  que já traziam "(Moderado)" venceriam a régua como se fossem exceção deliberada, e a redistribuição
+  não aconteceria.
+- **Cooldown continua vindo do custo**, não da Escala nova. Amarrá-lo à Escala mudaria mecânica em
+  centenas de fichas de uma vez, sem mesa pra verificar. Das 83 que mudaram, **63 eram lacunas** (o
+  card mostrava "—") e 20 tinham escala escrita que não batia com o próprio custo.
+- **`Grau de Poder` virou `Faixas de Mana`** em `jogar/mana.md`, e perdeu os nomes Menor/Moderado/
+  Maior/Supremo — eles agora pertencem à Escala de Poder, e manter os dois conceitos com os mesmos
+  nomes era o que confundia desde o começo.
+
+⚠ **Três bugs de medição só apareceram lendo o resultado, e nenhum quebrava build:**
+
+- **Os links markdown escondiam metade do texto.** "antes do fim da `[cena](../glossario.md#cena)`"
+  não casa com "fim da cena" — duração e condição passavam despercebidas em boa parte das fichas.
+  Toda medição de texto de ficha precisa **tirar o link antes**.
+- **A linha de ficha sequestrava o dano das Supremas.** `**Custo fixo:** … **Dano:** Raio` contém a
+  palavra "Dano" e nenhum dado, então filtrar linha por "dano" media quase toda Suprema como se ela
+  não causasse dano nenhum. A correção é ler o maior dado do corpo inteiro, sem escolher linha.
+- **Condição se escreve como verbo, não como particípio.** "derruba" aparece em **281** fichas e
+  "derrubado" em 37 — casar pelo nome da condição perdia 244. Vale pra qualquer varredura futura:
+  use o radical.
+
+⚠ **Derrubar ficou de fora do degrau alto de controle**, apesar de custar PA pra levantar: com 281
+fichas, ele é o verbo padrão do jogo (é o "clichê marcial" de 2026-08-27), e o alvo derrubado ainda
+age no turno dele. Tratá-lo como Atordoado empurrava metade do jogo pro topo.
+
+⚠ **A régua erra onde a força está na prosa.** Ela lê dado, área, condição e duração; um efeito
+narrativo forte sem número nenhum (*Forma Incorpórea*, *Céu Compartilhado*) aparece como pequeno.
+São essas que pedem o **`Escala:`** à mão — e ninguém as revisou uma a uma ainda.
+
+⚠ **Notável e Maior ficaram com 180 cada, 72% do total.** É curva de sino, não erro, mas o meio é
+gordo. Calibrei o eixo de dano contra a distribuição real das gerais (≤7 / 8–16 / 17+) e nenhum corte
+testado espalhou melhor — o gargalo é que quase toda habilidade do Prisma faz pelo menos duas coisas.
+
 Em aberto:
 
 **Revisado pelo autor em 2026-08-27** — este bloco está fechado:

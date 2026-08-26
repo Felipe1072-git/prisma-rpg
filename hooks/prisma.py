@@ -350,11 +350,23 @@ def custo_em_vida(campos: dict[str, str]) -> str:
 
 _GRAUS_ARMA = ("basica", "avancada", "especial")
 
-# A escala geral de poder que aparece no qualificador de habilidades fora do
-# sistema de arma — Menor/Médio/Moderado/Maior/Supremo. Vocabulário solto (sem
-# tabela fixa em regras.md), mas consistente o bastante pra virar faceta.
-_ESCALA_GERAL = ("menor", "medio", "moderado", "maior", "supremo")
+# A Escala de Poder — ver jogar/regras-de-habilidade.md#escala-de-poder.
+# **Derivada**, não escrita na ficha: sai dos quatro eixos medidos em
+# `escala_de_poder`. O vocabulário antigo (Moderado/Supremo/Médio) media o
+# custo em Mana, não a entrega — e como 69 dos 71 Supremos custavam os mesmos
+# 48 Mana, ele não distinguia nada: Moderado, Maior e Supremo entregavam o
+# mesmo dano médio (11,4 / 11,1 / 12,3).
+_ESCALA_GERAL = ("menor", "moderada", "notavel", "maior", "suprema")
 _ESCALA_VALIDOS = _GRAUS_ARMA + _ESCALA_GERAL
+
+# Os nomes na ordem em que a soma dos dois maiores eixos os produz (0 a 4).
+ESCALA_POR_PESO = ("Menor", "Moderada", "Notável", "Maior", "Suprema")
+
+# Vocabulário aposentado em 2026-08-26. Uma ficha que ainda o traga no
+# qualificador é ignorada — senão as 462 que já declaravam a escala velha
+# venceriam a régua nova como se fossem exceção deliberada, e a redistribuição
+# não aconteceria. Exceção de verdade se escreve com `**Escala:**`.
+_ESCALA_APOSENTADA = ("medio", "moderado", "supremo")
 
 # Componentes (V/S/M) por Grupo — ver habilidades/regras.md#componentes. Buff,
 # Debuff e Suporte ficam fora de propósito: misturam efeito físico e mágico,
@@ -376,19 +388,232 @@ GRUPO_COMPONENTES = {
     "percepcao-arcana": "S",
 }
 
-# Cooldown por Escala — ver habilidades/regras.md#cooldown. A faixa de baixo é
-# o padrão; a própria habilidade sobrescreve com **Cooldown:** quando merece o
-# valor alto da faixa ou a exceção "1x por descanso".
+# Cooldown por grau de arma — ver jogar/regras-de-habilidade.md#cooldown. A
+# faixa de baixo é o padrão; a própria habilidade sobrescreve com **Cooldown:**
+# quando merece o valor alto da faixa ou a exceção "1x por descanso".
 ESCALA_COOLDOWN = {
     "basica": "Sem cooldown",
-    "menor": "Sem cooldown",
     "avancada": "1 rodada",
-    "medio": "1 rodada",
-    "moderado": "1 rodada",
     "especial": "3 rodadas",
-    "maior": "3 rodadas",
-    "supremo": "1x por cena",
 }
+
+# Cooldown das habilidades gerais — vem do **custo em Mana**, não da Escala de
+# Poder. As duas coisas se separaram em 2026-08-26: a Escala passou a medir o
+# que a habilidade entrega, e o cooldown continua sendo função do que ela
+# custa. Amarrar o cooldown à Escala nova mudaria a mecânica de centenas de
+# fichas de uma vez, sem nenhuma mesa pra verificar. As faixas são as do Grau
+# (jogar/mana.md#faixas-de-mana), então o cooldown das fichas que já
+# declaravam a escala certa não muda: das 83 que mudaram na virada, 63 eram
+# lacunas (o card mostrava "—") e 20 eram fichas cuja escala escrita não batia
+# com o próprio custo — catorze delas gerais rotuladas "Especial", que é grau
+# de arma e cobrava 3 rodadas por um teto de 18 Mana.
+COOLDOWN_POR_MANA = ((9, "Sem cooldown"), (24, "1 rodada"), (45, "3 rodadas"))
+COOLDOWN_SUPREMO = "1x por cena"
+
+# Fallback pra quem não gasta Mana: as habilidades de Sangue pagam com Vida, e
+# sem Mana o cooldown vem da Escala de Poder.
+COOLDOWN_POR_ESCALA = {
+    "menor": "Sem cooldown",
+    "moderada": "1 rodada",
+    "notavel": "1 rodada",
+    "maior": "3 rodadas",
+    "suprema": "1x por cena",
+}
+
+# --- Escala de Poder: os quatro eixos -------------------------------------
+#
+# Ver jogar/regras-de-habilidade.md#escala-de-poder. Cada eixo vale 0, 1 ou 2,
+# e a Escala é a soma dos **dois maiores** — não dos quatro. Somar todos
+# achatava tudo no meio, porque os eixos são trocados entre si por desenho: uma
+# habilidade de área grande dá menos dano por alvo, e as correlações medidas
+# entre os quatro ficam todas perto de zero ou negativas. A soma dos dois
+# maiores pergunta "quão longe ela vai naquilo em que é forte", que é o que se
+# sente na mesa, e não penaliza a especialista.
+
+_RE_LINK_MD = re.compile(r"\[([^\]]+)\]\([^)]*\)")
+
+
+def _texto_de_eixo(corpo: list[str]) -> str:
+    """O corpo da ficha em texto corrido e minúsculo, sem markdown.
+
+    Os links **precisam** cair antes da medição: "antes do fim da
+    [cena](../glossario.md#cena)" não casa com "fim da cena" enquanto o alvo do
+    link estiver no meio, e era isso que fazia a duração e as condições
+    passarem despercebidas em boa parte das fichas.
+    """
+    txt = _RE_LINK_MD.sub(r"\1", "\n".join(corpo))
+    return re.sub(r"[*_`]", "", txt).lower()
+
+
+def eixo_dano(texto: str) -> int:
+    """0 = até 7 de dano médio · 1 = 8 a 16 · 2 = 17 ou mais.
+
+    Os cortes são os das **habilidades gerais**, que são as únicas que usam a
+    Escala de Poder — as de arma se classificam pelo grau. Calibrado contra a
+    distribuição real delas (p20 ≈ 5,5 · mediana ≈ 10,5 · p80 ≈ 20): com o
+    corte alto em 26 que as de arma pediriam, só 12 das 494 chegavam ao degrau
+    2, e o eixo praticamente não separava nada.
+
+    Lê o maior dado da ficha inteira, sem escolher linha: a Intensidade III
+    sempre traz o maior. Filtrar por linha fazia a linha de ficha das
+    habilidades de Custo fixo (`**Custo fixo:** … **Dano:** Raio`) sequestrar a
+    leitura — ela contém a palavra "Dano" e nenhum dado —, e com ela quase toda
+    Suprema era medida como se não causasse dano nenhum.
+    """
+    melhor = 0.0
+    for linha in texto.split("\n"):
+        for m in re.finditer(r"(\d+)d(\d+)", linha):
+            # 4d4 de Vida é o preço da habilidade, não o que ela entrega.
+            if re.search(r"de vida|de estresse|de mana", linha[m.end():m.end() + 22]):
+                continue
+            melhor = max(melhor, int(m.group(1)) * (int(m.group(2)) + 1) / 2)
+    return 0 if melhor <= 7 else 1 if melhor <= 16 else 2
+
+
+def eixo_alcance(alvos: str, texto: str) -> int:
+    """0 = um alvo ou o usuário · 1 = poucos, cone, linha, raio 1–2 · 2 = raio 3+."""
+    a = _texto_de_eixo([alvos])
+    if re.search(
+        r"campo de batalha|à vista|todos os inimigos|todos os aliados|o grupo",
+        a + " " + texto,
+    ):
+        return 2
+    if m := re.search(r"(\d+)\s*casas? de raio", a):
+        return 2 if int(m.group(1)) >= 3 else 1
+    if "usuário e aliados" in a:
+        return 2
+    if re.search(
+        r"todas as criaturas|cone de|em linha|na linha|linhas de|adjacentes"
+        r"|até \d+ criaturas|\d+ alvos|\d+ criaturas",
+        a,
+    ):
+        return 1
+    return 0
+
+
+# Tirar do jogo é o degrau alto do eixo: o alvo perde o turno, a posição ou a
+# própria ação. Derrubar entra porque levantar custa PA.
+#
+# São **radicais**, não os nomes das condições: a ficha escreve o verbo com
+# muito mais frequência que o particípio — "derruba" aparece em 281 fichas e
+# "derrubado" em 37 —, então casar só pelo nome da condição perdia a maioria
+# das habilidades que aplicam a mais comum de todas.
+_TIRA_DO_JOGO = (
+    "atordoa", "imóvel", "imobiliza", "petrifica", "possu", "amedronta",
+    "cego", "cega o", "silencia", "agarra",
+)
+# Derrubar fica **fora** do degrau alto, apesar de custar PA pra levantar: ele
+# aparece em 281 das 753 fichas — é o verbo padrão do jogo, não um efeito raro
+# (o "clichê marcial" de 2026-08-27 é justamente isso). E o alvo derrubado
+# ainda age no turno dele, enquanto o Atordoado perde o turno inteiro. Tratar
+# os dois como iguais empurrava metade do jogo pro topo da Escala.
+# Efeitos que reescrevem a cena em vez de modificá-la.
+_EFEITO_ABSOLUTO = (
+    "ressuscit", "volta à vida", "desperta nesse corpo", "invoca",
+    "aliado de combate", "banir", "reverte", "refaz", "rebobina",
+    "turno extra", "ação extra", "controla", "domina", "teleporta", "dissipa",
+)
+_CONDICAO_COMUM = (
+    "sangrando", "sangra", "queimando", "queima", "lento", "envenena",
+    "derruba",
+    "marcado", "escudo", "risco", "desprevenido", "exausto", "maldição",
+    "amaldiçoad",
+)
+
+
+def eixo_controle(texto: str) -> int:
+    """0 = só dano · 1 = condição comum, cura, bônus pequeno · 2 = tira do jogo.
+
+    Bônus de +10 ou mais conta como degrau alto: a reescala de 2026-08-26 pôs
+    os buffs pessoais em +5/+10/+15, e medir só "tem um +N" não distinguia um
+    +2 de um +15 — o que rebaixava justamente os buffs Supremos.
+    """
+    if any(t in texto for t in _EFEITO_ABSOLUTO) or any(t in texto for t in _TIRA_DO_JOGO):
+        return 2
+    if any(int(m.group(1)) >= 10 for m in re.finditer(r"\+(\d+)\b", texto)):
+        return 2
+    # Vantagem vale ~25%, e é o efeito forte do sistema (ver o verbete).
+    if "vantagem" in texto and "desvantagem" not in texto:
+        return 2
+    if any(t in texto for t in _CONDICAO_COMUM):
+        return 1
+    if re.search(r"recupera|cura\b|\+\d+|desvantagem|subtrai", texto):
+        return 1
+    return 0
+
+
+def eixo_duracao(texto: str) -> int:
+    """0 = instantâneo · 1 = dura rodadas · 2 = dura a cena, ou é permanente."""
+    if re.search(
+        r"fim da cena|durante a cena|pela cena|permanente|até ser dissipad"
+        r"|até .{0,30}descanso|entre sessões|enquanto ele existir",
+        texto,
+    ):
+        return 2
+    if re.search(r"por \d+ rodadas?|fim do próximo turno|fim do turno|próxima vez", texto):
+        return 1
+    return 0
+
+
+def escala_de_poder(campos: dict[str, str], corpo: list[str]) -> str:
+    """A Escala de Poder de uma habilidade geral, já com nome ("Notável").
+
+    Uma ficha que declare `**Escala:**` vence a régua — é como a exceção se
+    escreve, no mesmo arranjo do Cooldown. A régua acerta a maioria, mas erra
+    de forma previsível onde a força da habilidade está na prosa e não em dado,
+    área ou condição (*Forma Incorpórea*, *Céu Compartilhado*).
+    """
+    if declarada := texto_puro(campos.get("Escala", "")).strip():
+        return declarada
+    texto = _texto_de_eixo(corpo)
+    eixos = sorted(
+        (
+            eixo_dano(texto),
+            eixo_alcance(campos.get("Alvos", ""), texto),
+            eixo_controle(texto),
+            eixo_duracao(texto),
+        ),
+        reverse=True,
+    )
+    return ESCALA_POR_PESO[eixos[0] + eixos[1]]
+
+
+def cooldown_derivado(escala_arma: str, campos: dict[str, str], escala: str = "") -> str:
+    """O padrão de Cooldown: pelo grau, nas de arma; pelo Mana, nas gerais.
+
+    As habilidades que pagam com **Vida** (as de Sangue, o Preço de Sangue) não
+    têm Mana pra consultar — nelas o cooldown vem da Escala de Poder, que é a
+    única medida de tamanho que sobra.
+    """
+    if escala_arma in ESCALA_COOLDOWN:
+        return ESCALA_COOLDOWN[escala_arma]
+    teto = mana_maxima(campos)
+    if teto is None:
+        return COOLDOWN_POR_ESCALA.get(escala, "—")
+    for limite, valor in COOLDOWN_POR_MANA:
+        if teto <= limite:
+            return valor
+    return COOLDOWN_SUPREMO
+
+
+def mana_maxima(campos: dict[str, str]) -> int | None:
+    """O teto: a Mana da Intensidade mais cara (ou do Custo fixo).
+
+    Espelha `mana_minima`, que lê o piso. O teto é o que precifica a
+    habilidade — ver jogar/mana.md#faixas-de-mana.
+    """
+    if bruto := campos.get("Custo fixo"):
+        txt = texto_puro(bruto).split("|")[0].strip()
+        if m := re.search(r"(\d+)\s*Mana", txt):
+            return int(m.group(1))
+    manas = [
+        int(m.group(1))
+        for rotulo, valor in campos.items()
+        if rotulo.startswith("Intensidade")
+        if (m := re.search(r"(\d+)\s*Mana", rotulo + " " + valor))
+    ]
+    return max(manas) if manas else None
+
 
 # Ficha resumida de cada habilidade, pro popover. Mesmo contrato do glossário:
 # o `on_post_build` grava em assets/habilidades.json e o JS mostra ao passar o
@@ -786,7 +1011,7 @@ def ficha_tecnica_valores(
             or componentes_por_natureza(campos)
         ),
         "Cooldown": texto_puro(campos.get("Cooldown", ""))
-        or ESCALA_COOLDOWN.get(escala, "—"),
+        or cooldown_derivado(escala, campos, escala),
     }
 
 
@@ -997,8 +1222,41 @@ def monta_card(
     chave = campos.get("Chave", "")
     if chave:
         rotulos = [texto_puro(p) for p in re.split(r"\s+-\s+|\s+·\s+", chave)]
+
+    # Grau de arma e Escala de Poder são coisas diferentes e convivem: o grau é
+    # a ordem de aprendizado dentro da arma, a Escala é o tamanho do efeito.
+    # Quem decide qual das duas se aplica é `arma`, não a palavra — catorze
+    # habilidades **gerais** trazem "Especial" na Chave sem serem de arma, e
+    # ler a palavra solta as classificava como se fossem.
+    escala = sem_acento(qualificador) if arma else ""
+    if arma and escala not in _GRAUS_ARMA:
+        escala = next(
+            (r for r in (sem_acento(x) for x in rotulos) if r in _GRAUS_ARMA), ""
+        )
+    # Passiva e Reação ficam fora da Escala de Poder de propósito: a primeira
+    # não se ativa e a segunda sai fora do turno, então "quanto ela entrega
+    # quando você gasta o turno nela" não é uma pergunta que caiba nelas.
+    if not escala and sem_acento(qualificador) not in ("passiva", "reacao"):
+        escala = sem_acento(escala_de_poder(campos, corpo))
+
+    escala_nome = (
+        ESCALA_POR_PESO[_ESCALA_GERAL.index(escala)]
+        if escala in _ESCALA_GERAL
+        else escala.capitalize().replace("Basica", "Básica").replace("Avancada", "Avançada")
+        if escala
+        else ""
+    )
+
+    # O rótulo do qualificador vira chip — menos quando é vocabulário
+    # aposentado, que passou a ser calculado e não mais escrito.
     if qualificador and qualificador not in rotulos:
-        rotulos.append(qualificador)
+        if sem_acento(qualificador) not in _ESCALA_APOSENTADA:
+            rotulos.append(qualificador)
+    # A Escala derivada entra como chip próprio, do mesmo jeito que o grau de
+    # arma já entrava — é o que o leitor compara ao varrer a lista.
+    if escala in _ESCALA_GERAL:
+        rotulos = [r for r in rotulos if sem_acento(r) not in _ESCALA_VALIDOS]
+        rotulos.append(ESCALA_POR_PESO[_ESCALA_GERAL.index(escala)])
 
     chips = "".join(chip(r) for r in rotulos if r)
 
@@ -1009,17 +1267,6 @@ def monta_card(
     if custo:
         valores_busca.append(custo)
 
-    # Facetas estruturadas pro filtro combinado — além da busca livre abaixo.
-    escala = sem_acento(qualificador)
-    escala = escala if escala in _ESCALA_VALIDOS else ""
-    # Quatorze habilidades gerais declaram a escala na própria Chave
-    # ("Marciais - Especial") em vez do qualificador. Ler dali evita que elas
-    # fiquem sem escala — e evita o inverso, dois chips de escala brigando no
-    # mesmo card, que foi o que aconteceu ao escrever o grau por cima delas.
-    if not escala:
-        escala = next(
-            (r for r in (sem_acento(x) for x in rotulos) if r in _ESCALA_VALIDOS), ""
-        )
     mana_min = mana_minima(campos)
     elemento = elemento or elemento_do_campo_dano(campos)
 
@@ -1088,6 +1335,10 @@ def monta_card(
                 "arma": arma,
                 "arma-nome": arma_nome,
                 "escala": escala,
+                # O rótulo bonito: sem ele o menu mostraria o slug cru
+                # ("notavel", "suprema") ao lado de "Básica" e "Menor", que
+                # por coincidência já se escrevem sem acento.
+                "escala-nome": escala_nome,
                 "elemento": elemento,
                 "atributos": " ".join(computa_atributos(campos.get("Atributo", ""))),
                 "mana-min": str(mana_min) if mana_min is not None else "",

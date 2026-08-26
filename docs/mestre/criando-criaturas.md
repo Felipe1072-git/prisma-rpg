@@ -143,7 +143,7 @@ No **Ataque**, use o topo da faixa quando a criatura for precisa ou treinada, e 
 
 **Custo em Mana das ações** (só Formidável/Lendário, que têm Mana): use a mesma escala das
 habilidades gerais de personagem, direto — Menor 3-9, Moderado 12-24, Maior 27-45, Supremo
-48+ (ver [Grau de Poder](../jogar/mana.md#grau-de-poder)). Criatura e personagem usam os
+48+ (ver [Faixas de Mana](../jogar/mana.md#faixas-de-mana)). Criatura e personagem usam os
 mesmos números — nenhuma conversão à parte. Na prática, **Formidável** fica em Moderado
 (12-24, tipicamente 15-22), e **Lendário** em Maior (27-45, tipicamente 30-45); nenhuma
 criatura do Bestiário usa Supremo — esse teto é reservado pro pico de poder tardio de

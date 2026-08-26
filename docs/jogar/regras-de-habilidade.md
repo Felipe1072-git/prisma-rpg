@@ -257,18 +257,55 @@ O que ativar a habilidade exige fisicamente — **Verbal**, **Somático**, **Mat
 
 ### Cooldown
 
-Depois de usada, uma habilidade com Cooldown fica indisponível por um tempo — **independente de quanto Mana sobrou**. Escala pelo mesmo grau/potência que já precifica a habilidade (ver [Grau de Poder](mana.md#grau-de-poder)):
+Depois de usada, uma habilidade com Cooldown fica indisponível por um tempo — **independente de quanto Mana sobrou**. Ele acompanha o que a habilidade **custa**, não o que ela entrega: nas de arma, o grau; nas gerais, o teto de Mana (ver [Faixas de Mana](mana.md#faixas-de-mana)).
 
-| Grau / Potência | Cooldown padrão |
-|---|---|
-| Básica (arma) / Menor (geral) | Sem cooldown |
-| Avançada (arma) / Moderado (geral) | 1–2 rodadas |
-| Especial (arma) / Maior (geral) | 3–4 rodadas |
-| Supremo (custo fixo) | 1x por cena (≈10 rodadas de combate) |
+| Grau da arma | Teto de Mana (geral) | Cooldown padrão |
+|---|---|---|
+| Básica | 3–9 | Sem cooldown |
+| Avançada | 12–24 | 1–2 rodadas |
+| Especial | 27–45 | 3–4 rodadas |
+| — | 48+ | 1x por cena (≈10 rodadas de combate) |
 
-Dentro das faixas com intervalo (1–2, 3–4), o valor exato é decisão de quem escreve a habilidade — mais alto quando ela é notavelmente forte pro próprio grau. Um Supremo especialmente forte pode declarar **1x por descanso** em vez de 1x por cena, como exceção.
+Dentro das faixas com intervalo (1–2, 3–4), o valor exato é decisão de quem escreve a habilidade — mais alto quando ela é notavelmente forte pro próprio custo. Uma habilidade de 48+ especialmente forte pode declarar **1x por descanso** em vez de 1x por cena, como exceção.
+
+As poucas habilidades que pagam com **Vida** em vez de Mana (as de Sangue, o [Preço de Sangue](../habilidades/necromancia.md)) não têm teto de Mana pra consultar — nelas o Cooldown vem da [Escala de Poder](#escala-de-poder).
 
 Cooldown é **por habilidade específica** — usar um Golpe Especial não trava os outros Especiais — e roda **em cima** do custo de Mana, não no lugar dele: é um freio de ritmo, não de raridade (ver [Cooldown](../glossario.md#cooldown)). Habilidades dedicadas a Reação ficam de fora — já são limitadas ao próprio gatilho.
+
+### Escala de Poder
+
+Toda habilidade geral traz uma **Escala de Poder** — Menor, Moderada, Notável, Maior ou Suprema. Ela responde uma pergunta só: *quão grande é isso?* Serve pra comparar duas habilidades na [Listagem](../habilidades/index.md) sem abrir as duas, e pra filtrar por tamanho quando você está montando uma trilha.
+
+Ela **não é o preço**. O custo em Mana continua respondendo *quanto custa*, e as duas coisas não andam juntas: existe habilidade barata que faz muito e cara que faz pouco. Quem quer filtrar por bolso usa o controle de **Mana disponível**; quem quer filtrar por tamanho usa a Escala.
+
+A Escala é **calculada**, não escrita à mão. Quatro perguntas sobre a habilidade, cada uma valendo 0, 1 ou 2:
+
+| Eixo | 0 | 1 | 2 |
+|---|---|---|---|
+| **Dano** | até 7 de média | 8 a 16 | 17 ou mais |
+| **Alcance** | 1 alvo, ou só o usuário | poucos alvos, cone, linha, raio de 1–2 casas | raio de 3+ casas, todos à vista, o grupo inteiro |
+| **Controle** | só dano | condição comum, cura, bônus pequeno | tira o alvo do jogo, invoca um Aliado, concede [Vantagem](../glossario.md#vantagem), bônus de +10 ou mais |
+| **Permanência** | instantâneo | dura rodadas | dura a [cena](../glossario.md#cena), ou é permanente |
+
+**Some os dois maiores** — não os quatro:
+
+| Soma | Escala |
+|---|---|
+| 0 | Menor |
+| 1 | Moderada |
+| 2 | Notável |
+| 3 | Maior |
+| 4 | Suprema |
+
+!!! nota "Por que os dois maiores, e não a soma dos quatro"
+    Porque os quatro eixos são **trocados entre si** por desenho: uma habilidade de área grande causa menos dano por alvo, uma que dura a cena inteira entrega menos por rodada. Somar os quatro premiava quem é mediana em tudo e punia a especialista — e como o sistema já equilibra os eixos uns contra os outros, a soma achatava quase todo o jogo num degrau só. Pegar os dois maiores pergunta *quão longe ela vai naquilo em que é forte*, que é o que se sente na mesa.
+
+**Passivas e Reações ficam de fora.** A Passiva nunca é ativada e a Reação sai fora do turno, então "quanto ela entrega quando você gasta o turno nela" não é uma pergunta que caiba nelas.
+
+**Habilidades de arma não usam a Escala** — elas têm o próprio grau (Básica, Avançada, Especial), que é ordem de aprendizado dentro da arma, não tamanho de efeito. Os dois convivem no mesmo filtro, cada um na própria escada.
+
+!!! cuidado "Quando a conta erra"
+    A régua lê dado, área, condição e duração — coisas escritas em números. Ela erra quando a força da habilidade está **na prosa**: um efeito narrativo forte sem nenhum número aparece como pequeno. Nesses casos a ficha declara a Escala à mão, com um bullet **Escala:**, e o valor escrito vence a conta. É a mesma exceção que o [Cooldown](#cooldown) já aceita.
 
 !!! nota "Por que não existe Concentração nem Ritual"
     As duas regras chegaram a ser escritas e saíram em 2026-08-25, depois de

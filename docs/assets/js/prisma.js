@@ -232,7 +232,11 @@
     tier: ["comum", "treinado", "formidavel", "lendario"],
     couraca: ["nenhuma", "coriacea", "escamada", "blindada", "draconica"],
     eixo: ["passado", "ambiente", "evento"],
-    escala: ["basica", "avancada", "especial", "menor", "medio", "moderado", "maior", "supremo"],
+    // Grau de arma primeiro (progressao de aprendizado), depois a Escala de
+    // Poder (tamanho do efeito) — as duas convivem no mesmo dropdown, cada uma
+    // na propria escada.
+    escala: ["basica", "avancada", "especial",
+             "menor", "moderada", "notavel", "maior", "suprema"],
     // Alcance cresce do corpo pra fora; cooldown, do mais barato pro mais
     // raro. Em ordem alfabética "Longo" viria antes de "Pessoal", que é
     // exatamente o oposto do que a faceta quer dizer.
