@@ -82,6 +82,14 @@ Um dos oito atributos — resistência física, o quanto o corpo aguenta e encai
 
 O número-alvo que um ataque físico precisa superar pra acertar. **Evasão = Agilidade + Escudo/Couraça Natural**. Decide só **se** o golpe acerta — o quanto ele faz já foi escolhido pela [Intensidade](#intensidade) paga. Ver [Combate → Defesa](jogar/combate.md#defesa).
 
+### Couraça
+
+A proteção que o corpo já tem: escamas, carapaça, placas ósseas, couro curtido. Soma **só na [Evasão](#evasao)** — decide se o golpe acerta, e nada mais. Nunca entra em [Fortitude Física](#fortitude-fisica) ou Mágica, Social, Sanidade ou Exploração: uma carapaça não protege contra veneno, medo nem ilusão.
+
+- **Nas criaturas** é a *Couraça Natural*, em cinco degraus — Nenhuma +0, Coriácea +5, Escamada +10, Blindada +15, Dracônica +20. A ficha **não mostra o número**: ele já está somado na Evasão, e exibi-lo de novo faria parecer que são dois valores. Ver [Criando uma Criatura](mestre/criando-criaturas.md#couraca-natural).
+- **Nos personagens** quem ocupa esse lugar da fórmula é o [Escudo](#escudo-item). A **Armadura não soma na Evasão** — ela entra na [Vida](#vida) máxima, porque ajuda a aguentar pancada, não a desviar dela.
+- Armas **[Perfurantes](#perfurante)** atravessam a Couraça: é a assinatura do tipo (ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano)).
+
 ### Fortitude Física
 
 O número-alvo contra veneno, doença, exaustão, petrificação e qualquer efeito que o corpo resiste por dentro, não desvia — **o próprio valor de [Defesa](#defesa), cru**. Ver [Combate → Defesa](jogar/combate.md#defesa).

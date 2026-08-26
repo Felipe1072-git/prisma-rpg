@@ -984,9 +984,18 @@ não tem o que substituir: as 19 habilidades de foco mágico que empurram **cont
 devolução vem da tabela. Se isso incomodar, é decisão nova — o empurrão delas teria que virar outra
 coisa.
 
-⚠ **"Couraça" não tem verbete no glossário**, mesmo entrando na fórmula da Evasão e agora no texto de
-57 habilidades perfurantes. As checagens do `verifica.py` não pegam: ela nunca aparece como "fica
-Couraça".
+**Couraça vira verbete (2026-08-27).** Ela entrava na fórmula da Evasão, decidia a defesa de toda
+criatura e passou a aparecer no texto de 57 habilidades perfurantes — sem nunca ter sido definida. As
+checagens do `verifica.py` não pegariam: ela jamais aparece como "fica Couraça".
+
+O verbete guarda três coisas que só existiam espalhadas: que ela soma **só na Evasão** (nunca em
+Fortitude, Social, Sanidade ou Exploração — carapaça não protege de veneno nem de medo); **por que a
+ficha de criatura não mostra o número** (já está somado na Evasão, e exibi-lo de novo faria parecer
+dois valores — decisão de 2026-08-02 que só vivia no CLAUDE.md); e que nos personagens quem ocupa esse
+lugar é o **Escudo**, enquanto a **Armadura vai pra Vida**, não pra Evasão.
+
+As **49 menções** nas habilidades perfurantes viraram link no mesmo lote — foram escritas sem link
+porque o verbete ainda não existia.
 
 ⚠ **O Arcano devolve pouco de propósito**: 3 no teto contra um custo mínimo de 3 (Básica I) e 9 (II).
 A arma **estica o pool, nunca se paga** — a auditoria de 2026-07-27 já teve que corrigir uma habilidade
