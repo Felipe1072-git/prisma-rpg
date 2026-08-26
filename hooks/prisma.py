@@ -1477,6 +1477,7 @@ DESTAQUES_CRIATURA = (
     "Mana",
     "PA",
     "Evasão",
+    "Crítico",
     "Iniciativa",
     "Movimento",
     "Voo",
@@ -1522,7 +1523,7 @@ RE_BLOCO_CRIATURA = re.compile(r"^\*\*([^*]+?)\*\*\s*(\*\([^)]+\)\*|—\s*\S.*)?
 
 # Um tile só usa o número grande quando o valor é mesmo um número: um valor que
 # só se diz em palavras precisa de corpo de texto pra caber.
-RE_VALOR_NUMERICO = re.compile(r"^[+\-−–]?[\d◈()\s+/]+$")
+RE_VALOR_NUMERICO = re.compile(r"^[+\-−–≤]?[\d◈()\s+/]+$")
 
 
 def valor_de_tile(valor: str) -> str:
@@ -1700,11 +1701,26 @@ def regra_da_acao_de_lenda(docs_dir: Path) -> str:
     return ""
 
 
+def limiar_de_critico(campos: dict[str, str]) -> str:
+    """`Sorte ÷ 3` — o d100 puro precisa cair igual ou abaixo disso pra criticar.
+
+    **Derivado, nunca escrito na ficha.** A Sorte já está na linha de Atributos
+    de toda criatura, então o tile sai sozinho no build e não dessincroniza
+    quando a Sorte de uma delas mudar. Vale nos dois sentidos: no ataque da
+    criatura e na resistência dela contra uma área (ver
+    [Teste de Resistência](jogar/testes.md#teste-de-resistencia)).
+    """
+    achado = re.search(r"Sorte\s*\+?(\d+)", texto_puro(campos.get("Atributos", "")))
+    return f"≤{int(achado.group(1)) // 3}" if achado else ""
+
+
 def ficha_de_criatura(
     flavor: str, resto: list[str], acao_de_lenda: str = ""
 ) -> tuple[str, dict[str, str]]:
     """O corpo do card inteiro, no molde do stat block."""
     campos, notas_prosa, blocos = separa_criatura(resto)
+    if limiar := limiar_de_critico(campos):
+        campos.setdefault("Crítico", limiar)
     tiles, notas_tile = tiles_criatura(campos)
 
     partes: list[str] = []

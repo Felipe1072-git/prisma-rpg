@@ -884,6 +884,16 @@ Divina* e *Disciplina Marcial* têm dano numa escada (+2/+4/+6 e +4/+8/+12) e De
 (+5/+10/+15) — o regex de reescala precisa mirar `de Defesa` / `no ataque` sem tocar em `no dano`,
 `de Movimento` ou `Escudo de`.
 
+**Limiar de Crítico no stat block (2026-08-27).** Pedido do autor, pra não calcular `Sorte ÷ 3` de
+cabeça no meio do turno. **Derivado no hook, não escrito na ficha** (`limiar_de_critico`): a Sorte já
+está na linha de Atributos das 56 fichas, então o tile sai no build e não dessincroniza quando a Sorte
+de uma criatura mudar. Entra entre Evasão e Iniciativa. O `≤` precisou entrar em `RE_VALOR_NUMERICO`,
+senão "≤20" cairia na fonte de texto em vez da de número.
+
+O número agora visível mostra que a Sorte foi escalada por Tier e o limiar acompanha: **Comum ≤1,
+Treinado ≤3, Formidável ≤6–13, Lendário ≤18–21**. Vale nos dois sentidos desde a mudança de área —
+é o mesmo limiar que decide se a criatura **escapa por completo** de um efeito resistido.
+
 Em aberto:
 
 **Decisões minhas que o autor ainda não revisou** (tomadas por falta de regra, não por preferência):
@@ -922,12 +932,7 @@ Em aberto:
 11. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — adiado de propósito. As reescalas de
     bônus de 2026-08-26 **não** atacaram isso: mexeram no bônus plano, não no dado das habilidades
 
-12. **Limiar de Crítico na ficha de criatura** — pedido do autor: o Mestre hoje calcula `Sorte ÷ 3`
-    de cabeça no meio do turno. **Derive no hook, não escreva na ficha**: a Sorte já está na linha de
-    Atributos de todas as 52, então o número sai sozinho no build e nunca dessincroniza quando a
-    Sorte de uma criatura mudar. Vira mais um tile do stat block, ao lado de Ataque e Evasão
-
-13. **Mover Regras de Habilidade e Regras de Equipamento do Compêndio pro Livro do Jogador** —
+12. **Mover Regras de Habilidade e Regras de Equipamento do Compêndio pro Livro do Jogador** —
     pedido do autor. O Compêndio fica só com as listagens (Habilidades, Raças, Origens, Equipamento)
     e a regra vai pra *Jogando o Jogo*, que é onde o jogador a procura. O que a mudança envolve, além
     do `nav`:
