@@ -286,13 +286,58 @@ Ao mexer nisso:
 
 ## Status
 
-**Versão 0.2 (2026-07-26) — sistema jogável de ponta a ponta.** Publicado em
+**Sistema jogável de ponta a ponta**, publicado em
 [felipe1072-git.github.io/prisma-rpg](https://felipe1072-git.github.io/prisma-rpg/), sob CC BY 4.0,
 com deploy automático a cada push (workflow em `.github/workflows/deploy.yml`).
 
-O que existe: 579 habilidades — 393 gerais nos 11 grupos mais 186 de arma (62 armas × 3 graus) —,
-25 raças, 101 pacotes, 10 elementos com assinatura mecânica própria, sistema Tocado, e Livro do
-Mestre em 5 partes (Bestiário, Encontros, Testes, Recompensas, Exploração).
+**Os números de hoje** — todos conferidos contra os cards gerados, que são a fonte, nunca o texto:
+
+| | |
+|---|---|
+| **753 habilidades** | 567 gerais em 15 grupos + 186 de arma (62 armas × 3 graus) |
+| **101 pacotes** · **60 origens** · **25 raças** | trilhas, passado e linhagem |
+| **76 itens** no Equipamento | 62 armas + escudos + armaduras |
+| **56 fichas** no Bestiário | 4 Tiers, de Goblin a Tarrasque |
+| **150 verbetes** no glossário | com popover e filtro por categoria |
+
+**Duas coisas mudaram o sistema por baixo, e valem mais que qualquer contagem:**
+
+- **O dado virou d100.** Testes são `d100 + Atributo`, o crítico é um **limiar de Sorte** (`Sorte ÷ 3`)
+  em vez de "20 natural", e os oito atributos são **Ataque, Defesa, Magia, Agilidade, Sorte, Sanidade,
+  Social, Exploração** — Força, Vitalidade, Destreza, Inteligência, Sabedoria, Vontade e Carisma
+  saíram do jogo.
+- **Escolher a arma e o elemento passou a mudar como se joga.** Os 10 elementos sempre tiveram
+  assinatura própria; desde 2026-08-27 os **tipos de dano físico** também têm — Cortante sangra,
+  Impacto derruba a postura, Perfurante atravessa a defesa, Arcano realimenta o Mana.
+
+Livro do Mestre em 5 partes (Bestiário, Encontros, Testes, Recompensas, Exploração); Livro do Jogador
+com as regras de habilidade e de equipamento junto das regras de jogo, e o Compêndio só com as
+listagens.
+
+**Revisão de duplicatas — 2026-08-26 e 27.** O autor pediu pra enxugar habilidades repetidas. Virou a
+maior revisão desde a auditoria de julho, e mexeu em **mais de 400 fichas**. As entradas abaixo contam
+cada leva; o resumo é este:
+
+| Frente | Resultado |
+|---|---|
+| **Camada A** — clones literais | **fechada**: 12 grupos, 1 exclusão e 15 reformulações |
+| **Camada B** — redundância de forma | **fechada**: caiu de 35 pra 16 sozinha; 3 pares tratados, 8 clusters mantidos porque forma **é** diferença |
+| **Camada C** — colisão de assinatura | **aposentada como métrica**: os 141 medem assinatura funcionando, não dívida |
+| **Área vira Teste de Resistência** | 177 fichas + 4 arquivos de regra |
+| **Assinatura de tipo de dano** | 150 fichas; nenhuma arma física empurra mais |
+| **Escala do d20 → d100** | 26 fichas: bônus planos de dano, Defesa, Evasão e ataque |
+| **Ferramenta** | o `verifica.py` passou a ler coerência entre páginas |
+
+⚠ **O padrão que apareceu em quase toda leva: o flavor já dizia o que a regra não fazia.** *Explosão de
+Fogo* prometia empurrar e não empurrava; *Rajada Sombria* dizia "mira automaticamente" e exigia teste;
+*Correntes de Água* prendia os pés e só puxava; *Força Desesperada* tinha o verbo no nome e o ignorava.
+Antes de inventar mecânica nova pra diferenciar duas habilidades, **leia o flavor das duas** — quase
+sempre a resposta está lá.
+
+⚠ **Quatro termos órfãos foram encontrados de passagem**, e nenhum por busca deliberada: `Silenciado`
+estava definido e nunca era aplicado; `Caído`, `Estável` e `Último Turno` eram aplicados sem verbete;
+e a **Couraça** decidia a defesa de 56 criaturas sem existir no glossário. As checagens novas pegam os
+do segundo tipo — os outros dois só apareceram porque alguém leu.
 
 **Auditoria de consistência (2026-07-27).** O sistema foi lido de uma vez como corpo único pela
 primeira vez: ~185 achados, corrigidos em seguida. Dez termos que o jogo usava sem nunca definir
