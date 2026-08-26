@@ -863,9 +863,26 @@ do teto comum, justificado por custar a própria Vida sob Risco, e com escada re
 salto de +8 pra +14. Vale lembrar que [bônus planos de buffs diferentes não somam](notas/auditoria.md),
 então subir todos não empilha: só torna cada um relevante sozinho.
 
-⚠ **Fica em aberto o mesmo problema nos bônus de teste**: a *Aura de Ataque* dá "+1/+2/+3 no ataque",
-e num teste de d100 isso é ainda mais irrelevante que no dano. A varredura dos bônus de *teste*
-(ataque, Defesa, Evasão, Movimento) não foi feita e é provavelmente maior que a do dano.
+**Os bônus de teste vieram junto (2026-08-26).** O autor pediu a varredura no mesmo fôlego, e ela
+desfez metade do próprio escopo: **Movimento não precisava mudar**. A fórmula é `6 + (Agilidade ÷ 10)`
+casas — não é rolagem de d100, é distância no mapa, e num Movimento típico de 6 a 16 casas um
+`+2/+3/+4` já vale 20 a 60%. As 7 habilidades de Movimento ficaram intactas.
+
+O que precisava eram **Defesa, Evasão e ataque**, que entram na comparação com `d100 + Atributo`, onde
+cada **+1 vale literalmente 1% de chance**. O jogo tinha `+1/+2/+3` no ataque (1% a 3%!) e escadas de
+Defesa entre `+2/+3/+4` e `+4/+5/+6`. Régua de comparação: **[Vantagem](docs/glossario.md) vale ~25%** —
+o melhor buff defensivo do jogo entregava menos de um terço disso, por 27 a 30 de Mana.
+
+**17 habilidades** foram pra `+5/+10/+15`, ainda abaixo da Vantagem, que segue sendo o efeito forte do
+sistema. *Aparar* foi pra `+6/+12/+18` por já ser o teto do jogo (`+3/+5/+7`) e manter a dianteira
+proporcional. Cinco tinham **valor único embutido num pacote**, não escada — *Maestria Desperta* dá
+dano + Defesa + ignora Armadura no mesmo efeito —, e foram convertidas uma a uma (+2→+10, +2→+8,
++3→+10, +1→+5, +2→+10) em vez de multiplicadas cegamente.
+
+⚠ **Bônus plano e bônus de teste são escalas diferentes, e a mesma ficha pode ter as duas.** *Bênção
+Divina* e *Disciplina Marcial* têm dano numa escada (+2/+4/+6 e +4/+8/+12) e Defesa noutra
+(+5/+10/+15) — o regex de reescala precisa mirar `de Defesa` / `no ataque` sem tocar em `no dano`,
+`de Movimento` ou `Escudo de`.
 
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)

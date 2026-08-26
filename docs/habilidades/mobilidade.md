@@ -86,7 +86,7 @@ Voo, deslocamento.
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
 - **Intensidade I — 0 PA + 12 Mana:** quando uma criatura hostil terminar o próprio turno adjacente ao usuário, ele pode usar esta habilidade como Reação pra se deslocar até metade do Movimento, sem provocar Ataque de Oportunidade. O aliado escolhido pode então usar a própria Reação pra fazer o mesmo.
 - **Intensidade II — 0 PA + 21 Mana:** o mesmo, deslocando até o Movimento cheio.
-- **Intensidade III — 0 PA + 30 Mana:** o mesmo, e tanto o usuário quanto o aliado ganham +2 de Evasão até o início do próprio próximo turno.
+- **Intensidade III — 0 PA + 30 Mana:** o mesmo, e tanto o usuário quanto o aliado ganham +10 de Evasão até o início do próprio próximo turno.
 
 **Passo Lunar** *(Maior)*
 

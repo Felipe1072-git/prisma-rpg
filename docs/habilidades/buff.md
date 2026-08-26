@@ -21,9 +21,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alvos:** o usuário e aliados em 3 casas de raio
-- **Intensidade I — ◈ (1 PA) + 18 Mana:** por 3 rodadas, os alvos ganham +2 no dano de ataques, +1 de Defesa, e um Escudo de 1d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
-- **Intensidade II — ◈◈ (2 PA) + 27 Mana:** por 4 rodadas, os alvos ganham +4 no dano de ataques, +2 de Defesa, e um Escudo de 2d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
-- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** por 5 rodadas, os alvos ganham +6 no dano de ataques, +3 de Defesa, e um Escudo de 3d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
+- **Intensidade I — ◈ (1 PA) + 18 Mana:** por 3 rodadas, os alvos ganham +2 no dano de ataques, +5 de Defesa, e um Escudo de 1d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
+- **Intensidade II — ◈◈ (2 PA) + 27 Mana:** por 4 rodadas, os alvos ganham +4 no dano de ataques, +10 de Defesa, e um Escudo de 2d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
+- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** por 5 rodadas, os alvos ganham +6 no dano de ataques, +15 de Defesa, e um Escudo de 3d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
 
 **Defesa Mágica** *(usada como Reação)*
 
@@ -32,9 +32,9 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Ataque | **Alvos:** o próprio usuário
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 9 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +4 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
-- **Intensidade II — 0 PA + 18 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +5 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
-- **Intensidade III — 0 PA + 27 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +6 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade I — 0 PA + 9 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +5 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade II — 0 PA + 18 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +10 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade III — 0 PA + 27 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +15 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
 
 **Postura Inabalável** *(Maior)*
 
@@ -104,9 +104,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Ataque | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 12 Mana:** por 2 rodadas, o usuário ganha +1d4 de dano em ataques corpo a corpo e +1 de Defesa.
-- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** por 2 rodadas, o usuário ganha +2d4 de dano em ataques corpo a corpo e +2 de Defesa.
-- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** por 2 rodadas, o usuário ganha +3d4 de dano em ataques corpo a corpo e +3 de Defesa.
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** por 2 rodadas, o usuário ganha +1d4 de dano em ataques corpo a corpo e +5 de Defesa.
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** por 2 rodadas, o usuário ganha +2d4 de dano em ataques corpo a corpo e +10 de Defesa.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** por 2 rodadas, o usuário ganha +3d4 de dano em ataques corpo a corpo e +15 de Defesa.
 
 **Maestria Desperta** *(Supremo)*
 
@@ -114,7 +114,7 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Ataque | **Alvos:** o próprio usuário
-- **Efeito:** por 3 rodadas, o usuário ganha +1d6 de dano extra em ataques corpo a corpo, +2 de Defesa, e ataques corpo a corpo do usuário ignoram Armadura.
+- **Efeito:** por 3 rodadas, o usuário ganha +1d6 de dano extra em ataques corpo a corpo, +10 de Defesa, e ataques corpo a corpo do usuário ignoram Armadura.
 - *(Sem Intensidade — habilidade de buff, sem teste de ataque)*
 
 **Inspiração Arcana** *(Maior)*
@@ -174,9 +174,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Dano:** Arcano | **Alvos:** todas as criaturas hostis em 2 casas de raio ao redor do usuário (dano) + o próprio usuário (buff)
-- **Intensidade I — ◈ (1 PA) + 27 Mana:** os inimigos na área sofrem 1d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +3 de Defesa e reduz em 2 o dano recebido (mínimo 1).
-- **Intensidade II — ◈◈ (2 PA) + 36 Mana:** os inimigos na área sofrem 2d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +4 de Defesa e reduz em 2 o dano recebido (mínimo 1).
-- **Intensidade III — ◈◈◈ (3 PA) + 45 Mana:** os inimigos na área sofrem 3d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +5 de Defesa e reduz em 2 o dano recebido (mínimo 1).
+- **Intensidade I — ◈ (1 PA) + 27 Mana:** os inimigos na área sofrem 1d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +5 de Defesa e reduz em 2 o dano recebido (mínimo 1).
+- **Intensidade II — ◈◈ (2 PA) + 36 Mana:** os inimigos na área sofrem 2d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +10 de Defesa e reduz em 2 o dano recebido (mínimo 1).
+- **Intensidade III — ◈◈◈ (3 PA) + 45 Mana:** os inimigos na área sofrem 3d8 de dano automático imediatamente ao usar. Por 3 rodadas, o usuário ganha +15 de Defesa e reduz em 2 o dano recebido (mínimo 1).
 
 **Repouso Silencioso** *(Maior)*
 
@@ -215,9 +215,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Ataque | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 2 rodadas, o usuário ganha +4 no dano de ataques, +2 de Defesa, e +2 de Movimento.
-- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 2 rodadas, o usuário ganha +8 no dano de ataques, +3 de Defesa, e +3 de Movimento.
-- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 2 rodadas, o usuário ganha +12 no dano de ataques, +4 de Defesa, e +4 de Movimento.
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 2 rodadas, o usuário ganha +4 no dano de ataques, +5 de Defesa, e +2 de Movimento.
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 2 rodadas, o usuário ganha +8 no dano de ataques, +10 de Defesa, e +3 de Movimento.
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 2 rodadas, o usuário ganha +12 no dano de ataques, +15 de Defesa, e +4 de Movimento.
 
 **Aura de Defesa** *(Maior)*
 
@@ -225,9 +225,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alvos:** usuário e aliados em 3 casas de raio
-- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 3 rodadas, os alvos ganham +2 de Defesa.
-- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 4 rodadas, os alvos ganham +3 de Defesa.
-- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 5 rodadas, os alvos ganham +4 de Defesa.
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 3 rodadas, os alvos ganham +5 de Defesa.
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 4 rodadas, os alvos ganham +10 de Defesa.
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 5 rodadas, os alvos ganham +15 de Defesa.
 
 **Aura de Ataque** *(Maior)*
 
@@ -235,9 +235,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alvos:** usuário e aliados em 5 casas de raio
-- **Intensidade I — ◈ (1 PA) + 12 Mana:** por 3 rodadas, os alvos ganham +1 no ataque e +2 no dano de ataques.
-- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** por 4 rodadas, os alvos ganham +2 no ataque e +4 no dano de ataques.
-- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** por 5 rodadas, os alvos ganham +3 no ataque e +6 no dano de ataques.
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** por 3 rodadas, os alvos ganham +5 no ataque e +2 no dano de ataques.
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** por 4 rodadas, os alvos ganham +10 no ataque e +4 no dano de ataques.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** por 5 rodadas, os alvos ganham +15 no ataque e +6 no dano de ataques.
 
 **Aura de Auxílio** *(Maior)*
 
@@ -354,9 +354,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 3 rodadas, o usuário ganha +2 de Defesa e recupera 2 Mana no início de cada um dos próprios turnos seguintes (a partir do próximo).
-- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 3 rodadas, o usuário ganha +3 de Defesa e recupera 4 Mana no início de cada um dos próprios turnos seguintes (a partir do próximo).
-- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 3 rodadas, o usuário ganha +4 de Defesa e recupera 6 Mana no início de cada um dos próprios turnos seguintes (a partir do próximo).
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 3 rodadas, o usuário ganha +5 de Defesa e recupera 2 Mana no início de cada um dos próprios turnos seguintes (a partir do próximo).
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 3 rodadas, o usuário ganha +10 de Defesa e recupera 4 Mana no início de cada um dos próprios turnos seguintes (a partir do próximo).
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 3 rodadas, o usuário ganha +15 de Defesa e recupera 6 Mana no início de cada um dos próprios turnos seguintes (a partir do próximo).
 - *(Só pode ser usada em combate.)*
 
 **Dominação** *(Maior)*
@@ -405,9 +405,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 24 Mana:** por 2 rodadas, o usuário ganha +4 de Defesa.
-- **Intensidade II — ◈◈ (2 PA) + 33 Mana:** por 2 rodadas, o usuário ganha +5 de Defesa.
-- **Intensidade III — ◈◈◈ (3 PA) + 42 Mana:** por 2 rodadas, o usuário ganha +6 de Defesa.
+- **Intensidade I — ◈ (1 PA) + 24 Mana:** por 2 rodadas, o usuário ganha +5 de Defesa.
+- **Intensidade II — ◈◈ (2 PA) + 33 Mana:** por 2 rodadas, o usuário ganha +10 de Defesa.
+- **Intensidade III — ◈◈◈ (3 PA) + 42 Mana:** por 2 rodadas, o usuário ganha +15 de Defesa.
 
 **Fúria do Lobo** *(Maior)*
 
@@ -426,9 +426,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Ataque | **Alvos:** todas as criaturas hostis em 2 casas de raio ao redor do usuário (empurrão) + o próprio usuário (buff)
-- **Intensidade I — ◈ (1 PA) + 27 Mana:** os inimigos na área são empurrados 2 casas imediatamente ao usar. Por 3 rodadas, o usuário ganha +4 de Defesa e não pode ser derrubado.
-- **Intensidade II — ◈◈ (2 PA) + 36 Mana:** os inimigos na área são empurrados 2 casas imediatamente ao usar. Por 3 rodadas, o usuário ganha +5 de Defesa e não pode ser derrubado.
-- **Intensidade III — ◈◈◈ (3 PA) + 45 Mana:** os inimigos na área são empurrados 2 casas imediatamente ao usar. Por 3 rodadas, o usuário ganha +6 de Defesa e não pode ser derrubado.
+- **Intensidade I — ◈ (1 PA) + 27 Mana:** os inimigos na área são empurrados 2 casas imediatamente ao usar. Por 3 rodadas, o usuário ganha +5 de Defesa e não pode ser derrubado.
+- **Intensidade II — ◈◈ (2 PA) + 36 Mana:** os inimigos na área são empurrados 2 casas imediatamente ao usar. Por 3 rodadas, o usuário ganha +10 de Defesa e não pode ser derrubado.
+- **Intensidade III — ◈◈◈ (3 PA) + 45 Mana:** os inimigos na área são empurrados 2 casas imediatamente ao usar. Por 3 rodadas, o usuário ganha +15 de Defesa e não pode ser derrubado.
 
 **Punhos do Céu e da Terra** *(Supremo)*
 
@@ -475,9 +475,9 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Requisito:** usuário precisa ter um [Broquel](../equipamento/index.md#equ-broquel) equipado
 - **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 9 Mana:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra ganhar +3 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
-- **Intensidade II — 0 PA + 18 Mana:** o mesmo, com +5 de Defesa.
-- **Intensidade III — 0 PA + 27 Mana:** o mesmo, com +7 de Defesa. Se o ataque errar, o usuário pode imediatamente fazer um Ataque Básico contra o atacante, sem gastar PA.
+- **Intensidade I — 0 PA + 9 Mana:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra ganhar +6 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade II — 0 PA + 18 Mana:** o mesmo, com +12 de Defesa.
+- **Intensidade III — 0 PA + 27 Mana:** o mesmo, com +18 de Defesa. Se o ataque errar, o usuário pode imediatamente fazer um Ataque Básico contra o atacante, sem gastar PA.
 
 **Cúpula Protetora** *(Maior)*
 
@@ -497,7 +497,7 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Chave:** [Buff](../glossario.md#buff)
 - **Requisito:** usuário precisa ter algum Escudo (item) equipado — [Broquel](../equipamento/index.md#equ-broquel), [Escudo](../equipamento/index.md#equ-escudo), [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado) ou [Escudo Torre](../equipamento/index.md#equ-escudo-torre)
 - **Custo fixo:** ◈◈◈ (3 PA) + 21 Mana | **Atributo:** Ataque | **Alcance:** 4 casas | **Alvos:** 3 casas em linha (formam a parede)
-- **Efeito:** por 3 rodadas, as casas da parede viram [Terreno Difícil](../glossario.md#terreno-dificil) (custa o dobro de Movimento pra atravessar) e bloqueiam linha de visada de ataques à distância. Aliados adjacentes à parede, do lado do usuário, ganham +2 de Defesa enquanto ela durar.
+- **Efeito:** por 3 rodadas, as casas da parede viram [Terreno Difícil](../glossario.md#terreno-dificil) (custa o dobro de Movimento pra atravessar) e bloqueiam linha de visada de ataques à distância. Aliados adjacentes à parede, do lado do usuário, ganham +8 de Defesa enquanto ela durar.
 - *(Sem Intensidade — efeito de zona automático, sem teste de ataque)*
 
 **Escudo Elemental** *(usada como Reação)*
@@ -528,9 +528,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Ataque | **Dano:** Garra Cortante, Mordida Perfurante, Investida Impacto | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 24 Mana:** por 3 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (1d8 de dano corpo a corpo), **Mordida** (1d10 de dano corpo a corpo), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 1d6 de dano a quem estiver no caminho). Também ganha +2 de Movimento e +2 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
-- **Intensidade II — ◈◈ (2 PA) + 33 Mana:** por 4 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (2d8 de dano corpo a corpo), **Mordida** (2d10 de dano corpo a corpo), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 2d6 de dano a quem estiver no caminho). Também ganha +3 de Movimento e +3 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
-- **Intensidade III — ◈◈◈ (3 PA) + 42 Mana:** por 5 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (3d8 de dano corpo a corpo), **Mordida** (3d10 de dano corpo a corpo, deixando o alvo [Sangrando](../glossario.md#sangrando)), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 3d6 de dano a quem estiver no caminho). Também ganha +4 de Movimento e +4 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
+- **Intensidade I — ◈ (1 PA) + 24 Mana:** por 3 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (1d8 de dano corpo a corpo), **Mordida** (1d10 de dano corpo a corpo), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 1d6 de dano a quem estiver no caminho). Também ganha +2 de Movimento e +5 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
+- **Intensidade II — ◈◈ (2 PA) + 33 Mana:** por 4 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (2d8 de dano corpo a corpo), **Mordida** (2d10 de dano corpo a corpo), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 2d6 de dano a quem estiver no caminho). Também ganha +3 de Movimento e +10 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
+- **Intensidade III — ◈◈◈ (3 PA) + 42 Mana:** por 5 rodadas, o usuário assume uma forma bestial — não pode usar armas, magias, ou qualquer Habilidade fora desta lista. Ganha acesso a 3 ataques: **Garra** (3d8 de dano corpo a corpo), **Mordida** (3d10 de dano corpo a corpo, deixando o alvo [Sangrando](../glossario.md#sangrando)), e **Investida** (desloca-se até o valor de Movimento em linha reta, causando 3d6 de dano a quem estiver no caminho). Também ganha +4 de Movimento e +15 de Defesa enquanto durar. Pode encerrar a forma antes do prazo como ação livre.
 - **Os ataques da forma:** Garra, Mordida e Investida custam **◈ (1) cada**, não gastam Mana, e rolam d100 + Ataque contra a Evasão do alvo.
 - *(A forma específica — lobo, urso, ave etc. — é só flavor; a mecânica é sempre a mesma.)*
 
@@ -554,7 +554,7 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Intensidade II — ◈◈ (2 PA) + 33 Mana:** por 4 rodadas, o usuário escolhe 1 dos 3 espíritos abaixo pra canalizar, podendo trocar de espírito gastando uma Reação (no máximo uma vez por rodada):
 - **Intensidade III — ◈◈◈ (3 PA) + 42 Mana:** por 5 rodadas, o usuário escolhe 1 dos 3 espíritos abaixo pra canalizar, podendo trocar de espírito gastando uma Reação (no máximo uma vez por rodada):
   - **Espírito do Guerreiro** — +1d6 no dano de ataques corpo a corpo
-  - **Espírito do Vigia** — +3 de Defesa e vantagem em testes de Exploração
+  - **Espírito do Vigia** — +10 de Defesa e vantagem em testes de Exploração
   - **Espírito do Curandeiro** — recupera 1d6 de Vida no início de cada um dos próprios turnos
 
 **Passagem Etérea** *(Maior)*
@@ -914,4 +914,4 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Atributo:** Magia | **Alcance:** 6 casas | **Alvos:** 1 aliado a até 6 casas
 - **Intensidade I — ◈ (1 PA) + 18 Mana:** por 3 rodadas, o usuário e o alvo formam um vínculo — sempre que um dos dois sofrer dano, o dano é dividido igualmente entre os dois (arredondado pra cima em quem sofreu o golpe original). O vínculo só funciona enquanto os dois estiverem a até 10 casas de distância um do outro.
 - **Intensidade II — ◈◈ (2 PA) + 27 Mana:** o mesmo, por 4 rodadas.
-- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** o mesmo, por 5 rodadas, e enquanto durar, os dois ganham +1 de Defesa.
+- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** o mesmo, por 5 rodadas, e enquanto durar, os dois ganham +5 de Defesa.
