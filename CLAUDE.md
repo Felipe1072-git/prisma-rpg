@@ -927,6 +927,25 @@ Em aberto:
     Atributos de todas as 52, então o número sai sozinho no build e nunca dessincroniza quando a
     Sorte de uma criatura mudar. Vira mais um tile do stat block, ao lado de Ataque e Evasão
 
+13. **Mover Regras de Habilidade e Regras de Equipamento do Compêndio pro Livro do Jogador** —
+    pedido do autor. O Compêndio fica só com as listagens (Habilidades, Raças, Origens, Equipamento)
+    e a regra vai pra *Jogando o Jogo*, que é onde o jogador a procura. O que a mudança envolve, além
+    do `nav`:
+
+    - **44 links** apontam pra `habilidades/regras.md` hoje, de 8+ páginas — inclusive `glossario.md`,
+      `index.md` e o Bestiário
+    - **O hook trata as duas por caminho fixo**: `if caminho == "habilidades/regras.md"`
+      (`prisma.py:3531`) e `if caminho == "equipamento/regras.md"` (`prisma.py:3649`) — as duas páginas
+      são **montadas ao vivo** lendo seções que vivem noutro arquivo, então mover sem ajustar essas
+      condições deixa as páginas vazias
+    - `RE_ANCORA_PURA` reescreve âncoras pra `regras.md#…` (`prisma.py:2266`), e depende do nome do
+      arquivo
+    - Os endereços antigos precisam entrar no mapa `REDIRECIONA` (`prisma.py:3684`), como já foi feito
+      quando `jogador/` deixou de existir
+    - ⚠ **`PAGINAS_AUTOLINK` inclui `jogar/`** (`prisma.py:3170`): ao mudarem de pasta, as duas passam
+      a receber **auto-link do glossário automaticamente**. São páginas que já linkam muito à mão —
+      audite os links gerados um a um, como manda a regra de auto-link, ou tire-as da lista
+
 **Trabalho novo, quando houver vontade:**
 
 12. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
