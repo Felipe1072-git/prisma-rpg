@@ -885,13 +885,45 @@ Divina* e *Disciplina Marcial* têm dano numa escada (+2/+4/+6 e +4/+8/+12) e De
 `de Movimento` ou `Escudo de`.
 
 Em aberto:
-1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
-2. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — problema conhecido, adiado de
-   propósito porque a correção mexeria nas 573 habilidades. Só reabrir se ele trouxer
-3. Os sete itens da seção 4.3 de `notas/auditoria.md` — exigem escolha de conteúdo, não correção
-4. **Camadas B e C das duplicatas** — 35 redundâncias de forma e **141** colisões de assinatura,
-   listadas em `notas/duplicatas.md`. O bloco 1 da C (o clichê marcial) foi fechado; segue aberto o
-   par *Pacto de Sangue* / *Aumento Sombrio*, que abriu a revisão e nunca foi tocado
-5. **Os três tipos de dano físico não têm assinatura mecânica** — Cortante, Impacto e Perfurante são
-   decorativos, e é essa lacuna que empurra toda habilidade marcial nova pro mesmo "empurra + derruba"
-6. Conteúdo novo é sempre bem-vindo, mas nenhuma lacuna estrutural de regra permanece
+
+**Decisões minhas que o autor ainda não revisou** (tomadas por falta de regra, não por preferência):
+
+1. **3 atributos de resistência** — *Metamorfose Forçada* e *Toque Suspenso* em Defesa (o corpo
+   resiste a ser remodelado; o efeito adormecido age por dentro), *Dominar os Mortos* em Magia e não
+   Sanidade (mortos-vivos são imunes a efeito mental, então Sanidade não teria contra o que rolar)
+2. **O Aumento Sombrio reescrito** — flavor novo, os dados do dreno (1d6/2d6/3d6) e a **remoção do
+   "Empilhar"** (empilhar 3× um +9 daria +27) são invenção minha sobre a direção aprovada
+3. As **~15 decisões da auditoria de 2026-07-27**, marcadas com ⚠ em `notas/auditoria.md`, que nunca
+   foram revisadas uma a uma — a mais pesada é *bônus planos de buffs diferentes não somam, vale o maior*
+
+**Defeitos conhecidos, medidos e não corrigidos:**
+
+4. **Os três tipos de dano físico não têm assinatura mecânica** — Cortante, Impacto e Perfurante são
+   decorativos no glossário, enquanto os 10 elementos têm tabela própria. É essa lacuna que empurra
+   toda habilidade marcial nova pro mesmo "empurra + derruba"; a leva de hoje tratou 8 sintomas, não
+   a causa
+5. **Camadas B e C das duplicatas** — 35 redundâncias de forma e ~141 colisões de assinatura em
+   `notas/duplicatas.md`. **Vale remedir**: as levas de hoje mexeram em mais de 200 fichas depois do
+   último levantamento
+6. **Nenhuma verificação cobre coerência entre páginas.** `--strict` pega link e página inexistente;
+   `notas/verifica.py` pega âncora, id duplicado e dado de arma. Uma regra que contradiz outra passa
+   batido — aconteceu **duas vezes em 2026-08-26** (o "Ignora cobertura" inventado, e a `regras.md`
+   revertida por um `git checkout` de pasta). Nas duas, quem pegou foi o autor lendo. É automatizável:
+   acusar termo de ficha que não existe no glossário, e conferir vocabulário entre páginas que
+   descrevem a mesma regra
+7. **Área nunca mais zera** — com a mudança de 2026-08-26, resistir dá metade do dano em vez de nada.
+   As áreas ficaram mais confiáveis e **nenhum dado foi reduzido pra compensar**. Só a mesa responde
+8. **Lâmina de Sangue** causa 10d8 nas três Intensidades — só o dreno escala. Anomalia notada de
+   passagem, nunca investigada
+9. **Familiares de Conjuração** — *Olhos Emprestados* e *Chama de Bolso* têm ficha idêntica (Menor,
+   ◈ + 6 Mana, vínculo permanente que não cresce); só o efeito utilitário difere
+10. **Condições órfãs** — `Silenciado` estava definido no glossário e era aplicado por *nenhuma*
+    habilidade até 2026-08-26. Vale varrer o glossário atrás de outras
+11. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — adiado de propósito. As reescalas de
+    bônus de 2026-08-26 **não** atacaram isso: mexeram no bônus plano, não no dado das habilidades
+
+**Trabalho novo, quando houver vontade:**
+
+12. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
+13. Os sete itens da seção 4.3 de `notas/auditoria.md` — exigem escolha de conteúdo, não correção
+14. Conteúdo novo é sempre bem-vindo; nenhuma lacuna estrutural de regra permanece
