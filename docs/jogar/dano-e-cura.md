@@ -90,6 +90,7 @@ Diferente do sistema antigo, não existe mais uma sequência de falhas até morr
 
 - **Estabilizar** — um aliado adjacente gasta uma **Ação Básica (◈)** e faz um **teste de Exploração contra Dificuldade 50**. Sucesso: o personagem fica **Estável** direto, sem precisar rolar contra a morte — acorda ao fim da cena com 1 de Vida. Falha: a tentativa não funcionou, mas não piora nada; pode tentar de novo se ainda houver tempo. (As origens *Curandeiro de Vila* e *Salvou uma Vida* fazem isso como Reação e sem custo — ver [Origem](../origens/index.md).)
 - **Cura** — qualquer efeito que devolva Vida traz o personagem de volta com aquela Vida, e ele age normalmente no próximo turno.
+- **Último Turno** — em vez de rolar contra a morte, o personagem se levanta e gasta tudo o que resta: um turno completo em que **todo acerto vira Crítico**. Ao fim dele, morre. É escolha do jogador, declarada no início do turno — ver [O Último Turno](#o-ultimo-turno), logo abaixo.
 
 Isso vale só pros personagens jogadores: uma **criatura a 0 de Vida morre** (ver [Bestiário](../mestre/criando-criaturas.md#criatura-a-0-de-vida-morre)).
 

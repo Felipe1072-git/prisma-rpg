@@ -894,6 +894,40 @@ O número agora visível mostra que a Sorte foi escalada por Tier e o limiar aco
 Treinado ≤3, Formidável ≤6–13, Lendário ≤18–21**. Vale nos dois sentidos desde a mudança de área —
 é o mesmo limiar que decide se a criatura **escapa por completo** de um efeito resistido.
 
+**O `verifica.py` passa a ler coerência entre páginas (2026-08-27).** Era o buraco que deixou dois
+erros passarem em 2026-08-26: `--strict` pega página inexistente, e as checagens antigas pegam âncora,
+id duplicado e dado de arma — nenhuma delas nota **uma regra contradizendo outra**. Duas checagens
+novas:
+
+- **Vocabulário aposentado** — 10 termos que saíram do sistema (`Fortitude do usuário`, `20 natural`,
+  `Tiers de Sucesso`, e os 6 atributos do d20 em contexto de teste). Um deles reaparecendo é sinal de
+  página que ficou pra trás. Frases que *dizem que o termo não existe mais* são legítimas e ficam de
+  fora (`NEGA_APOSENTADO`).
+- **Condição usada sem existir no glossário** — "Não invente nome de condição" já era regra, e o
+  projeto já pagou por ela (`Paralisado`, 9 usos). O radical corta gênero e número (senão "Marcadas"
+  vira falso positivo) e vale qualquer palavra do verbete, pra "fica Amaldiçoada" achar "Zona
+  Amaldiçoada". De 15 falsos positivos pra 0 depois da calibragem.
+
+⚠ **Uma checagem que nunca falhou pode estar quebrada.** As duas foram provadas injetando os erros de
+propósito numa página e conferindo que o `exit=1` vinha com as três linhas certas, antes de reverter.
+
+**As duas acharam três coisas na estreia**, todas reais:
+
+- O **verbete Resolução do glossário** ainda descrevia o Teste de Resistência com o vocabulário antigo
+  *e* o critério antigo, sem o caso de área — uma **terceira** página contando outra história da mesma
+  regra, que ninguém tinha olhado.
+- **`Caído` e `Estável` não eram verbetes.** Dois estados com regra própria, citados de 5 páginas,
+  sem popover e fora do filtro por categoria. Viraram verbetes.
+- E, puxado pelo autor: **a seção *Chegando a 0 de Vida* não mencionava o Último Turno**. Todo o resto
+  do livro já tratava os dois juntos — a ficha de personagem, `combate.md`, `mestre/index.md`, até a
+  regra do Companheiro Animal —, mas a página que **é** a regra listava só Estabilizar e Cura como
+  saídas. Agora lista a terceira, e o **Último Turno virou verbete** (a regra mais dramática do
+  sistema não tinha popover).
+
+A abertura da categoria **Condições** também mudou: dizia "efeitos que uma habilidade impõe ao alvo",
+o que já era falso antes (`Desprevenido` vem de emboscada, `Exausto` de exploração) e ficaria pior com
+Caído e Estável dentro.
+
 Em aberto:
 
 **Decisões minhas que o autor ainda não revisou** (tomadas por falta de regra, não por preferência):
@@ -915,12 +949,12 @@ Em aberto:
 5. **Camadas B e C das duplicatas** — 35 redundâncias de forma e ~141 colisões de assinatura em
    `notas/duplicatas.md`. **Vale remedir**: as levas de hoje mexeram em mais de 200 fichas depois do
    último levantamento
-6. **Nenhuma verificação cobre coerência entre páginas.** `--strict` pega link e página inexistente;
-   `notas/verifica.py` pega âncora, id duplicado e dado de arma. Uma regra que contradiz outra passa
-   batido — aconteceu **duas vezes em 2026-08-26** (o "Ignora cobertura" inventado, e a `regras.md`
-   revertida por um `git checkout` de pasta). Nas duas, quem pegou foi o autor lendo. É automatizável:
-   acusar termo de ficha que não existe no glossário, e conferir vocabulário entre páginas que
-   descrevem a mesma regra
+6. **Coerência entre páginas: metade resolvida.** O `verifica.py` ganhou duas checagens em
+   2026-08-27 (vocabulário aposentado e condição sem verbete), mas as duas são **listas de termos
+   vigiados**, não análise de sentido: pegam uma regra que voltou a usar palavra velha, e não uma que
+   passou a dizer outra coisa com palavras novas. O caso que continua invisível é o de números — se
+   `regras.md` disser que um Supremo custa 48 de Mana e `mana.md` disser 45, nada acusa
+
 7. **Área nunca mais zera** — com a mudança de 2026-08-26, resistir dá metade do dano em vez de nada.
    As áreas ficaram mais confiáveis e **nenhum dado foi reduzido pra compensar**. Só a mesa responde
 8. **Lâmina de Sangue** causa 10d8 nas três Intensidades — só o dreno escala. Anomalia notada de

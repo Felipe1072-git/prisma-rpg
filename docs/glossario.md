@@ -44,7 +44,7 @@ O Tier de ameaça de uma criatura — Comum, Treinado, Formidável, Lendário. N
 
 ### Resolução
 
-Toda habilidade declara como se resolve: **Ataque** (o usuário rola d100 + Atributo contra o número-alvo do alvo — o padrão, ver [Testes de d100](jogar/testes.md)) ou **Teste de Resistência** (o **alvo** rola d100 + o próprio Atributo contra a Fortitude do usuário — usado quando o efeito é algo que o corpo resiste por dentro, não um golpe que se desvia: veneno de ação lenta, maldição plantada, efeito atrasado). Ver [Testes de d100 → Teste de Resistência](jogar/testes.md#teste-de-resistencia).
+Toda habilidade declara como se resolve: **Ataque** (o usuário rola d100 + Atributo contra o número-alvo do alvo — o padrão, ver [Testes de d100](jogar/testes.md)) ou **Teste de Resistência** (o **alvo** rola d100 + o atributo que a ficha declarar, contra o **Atributo de lançamento do usuário, cru** — usado quando o efeito acontece em **área**, quando o corpo resiste a ele **por dentro** (veneno, maldição plantada), ou quando não há como se esquivar dele: dobra do espaço, gravidade, sucção). Ver [Testes de d100 → Teste de Resistência](jogar/testes.md#teste-de-resistencia).
 
 ### Componentes
 
@@ -98,9 +98,13 @@ Quantas casas um personagem anda ao gastar ◈ pra se mover. **Movimento = 6 + (
 
 Define a ordem dos turnos no início de um combate. Role **d100 + Agilidade + Sorte**; ordem decrescente do resultado decide quem age primeiro. Ver [Combate → Iniciativa](jogar/combate.md#iniciativa).
 
+### Último Turno
+
+A escolha que um personagem [Caído](#caido) tem no lugar de rolar contra a morte: levantar e gastar tudo. Um turno completo (3 PA, Mana, habilidades), em que **todo acerto é tratado como Crítico** — dano máximo, rolagem extra e sobe 1 Intensidade, mesmo fora do limiar de Sorte. Nenhuma cura funciona durante ele, e **ao fim o personagem morre**, sem rolagem. É a única troca do sistema em que se abre mão da chance de sobreviver por certeza de impacto. Regra completa em [O Último Turno](jogar/dano-e-cura.md#o-ultimo-turno).
+
 ## Condições
 
-Efeitos que uma habilidade impõe ao alvo. Salvo quando a habilidade disser outra coisa, duram **até o fim do próximo turno do alvo**.
+Estados que mudam o que uma criatura pode fazer — impostos por uma habilidade, pelo dano ou pela situação. Salvo quando a habilidade disser outra coisa, duram **até o fim do próximo turno do alvo**.
 
 ### Sangrando
 
@@ -216,6 +220,20 @@ Desgaste do corpo, acumulado em **graus**. Diferente das outras condições, nã
 ### Risco
 
 Algumas habilidades cobram um preço de quem as usa: se **algum dos dados de dano cair em 1**, a habilidade escapa ao controle e o usuário sofre o efeito descrito na ficha dela. Reservado a habilidades de tema perigoso — lâminas amaldiçoadas, magia de sangue, poder emprestado.
+
+### Caído
+
+A 0 de Vida o personagem cai: **inconsciente, sem agir e sem rolar nada**, com uma única chance de não morrer. No início do próximo turno dele, role **d100 contra Dificuldade 50** — sem somar Atributo nenhum, porque o dado mede só a sorte do momento. **Sucesso:** fica [Estável](#estavel). **Falha:** morre.
+
+- **Sair antes da rolagem:** um aliado adjacente gasta ◈ e passa num teste de Exploração contra Dificuldade 50 (fica Estável direto), ou qualquer cura o traz de volta com aquela Vida.
+- **Ou o [Último Turno](#ultimo-turno):** desistir de sobreviver pra jogar um turno completo com todo acerto virando Crítico.
+- **Vale só para personagens jogadores** — uma criatura a 0 de Vida morre.
+
+Regra completa em [Chegando a 0 de Vida](jogar/dano-e-cura.md#chegando-a-0-de-vida).
+
+### Estável
+
+Sobreviveu ao [Caído](#caido) — por ter passado na rolagem contra a morte, ou porque um aliado o estabilizou a tempo. Continua inconsciente, mas **fora de risco**: não rola mais contra a morte, e **acorda ao fim da cena com 1 de Vida**. Qualquer cura o traz de volta antes disso.
 
 ## Efeitos de Terreno
 

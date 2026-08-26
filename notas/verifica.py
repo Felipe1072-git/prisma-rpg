@@ -8,6 +8,10 @@ Além delas, confere o único número que o projeto repete de propósito em dois
 lugares: o dado de dano de cada arma, que aparece na tabela do Equipamento e de
 novo no verbete do glossário.
 
+E confere duas formas de **incoerência entre páginas**, que nem o --strict nem as
+checagens acima pegam: vocabulário que o sistema aposentou reaparecendo numa
+página que ficou pra trás, e condição citada numa ficha sem existir no glossário.
+
 Rode depois do build:
 
     python -m mkdocs build --strict && python notas/verifica.py
@@ -120,6 +124,84 @@ for v in verbetes:
             f"[dado divergente] '{v.termo}': glossário diz {m.group(1)}, "
             f"tabela diz {na_tabela}"
         )
+
+# ------------------------------- vocabulário que o sistema aposentou
+
+# O livro tem mais de uma página descrevendo a mesma regra, e uma delas fica pra
+# trás quando a regra muda. Aconteceu duas vezes em 2026-08-26: `regras.md` voltou
+# a dizer "contra a Fortitude do usuário" depois de um `git checkout` de pasta, e
+# o verbete Resolução do glossário nunca tinha sido atualizado — as três páginas
+# contavam histórias diferentes do mesmo Teste de Resistência. O build passou nas
+# duas vezes, porque nada aqui lê **coerência entre páginas**.
+#
+# A checagem é uma lista de termos que saíram do sistema. Um deles reaparecendo é
+# sinal de página que ficou pra trás.
+APOSENTADO = (
+    ("Fortitude do usuário", "o número-alvo agora é o Atributo de lançamento, cru"),
+    ("20 natural", "o crítico é o limiar de Sorte, não um valor fixo do dado"),
+    ("Tier de Sucesso", "os Tiers saíram em 2026-07-26; hoje é Intensidade I/II/III"),
+    ("Tiers de Sucesso", "os Tiers saíram em 2026-07-26; hoje é Intensidade I/II/III"),
+    ("teste de Força", "Força virou Ataque na migração pro d100"),
+    ("teste de Vontade", "Vontade virou Social na migração pro d100"),
+    ("teste de Destreza", "Destreza virou Agilidade na migração pro d100"),
+    ("teste de Constituição", "Constituição virou Defesa na migração pro d100"),
+    ("teste de Sabedoria", "Sabedoria virou Exploração na migração pro d100"),
+    ("teste de Inteligência", "Inteligência virou Magia na migração pro d100"),
+)
+# Dizer que o termo não existe mais é o único jeito de aposentar vocabulário sem
+# deixar perdido quem vem do sistema antigo — essas frases são legítimas.
+NEGA_APOSENTADO = ("não existe mais", "deixou de existir", "saiu do jogo", "não existe ")
+
+for md in sorted(DOCS.rglob("*.md")):
+    for n, linha in enumerate(md.read_text(encoding="utf-8").split("\n"), 1):
+        baixa = linha.lower()
+        if any(g in baixa for g in NEGA_APOSENTADO):
+            continue
+        for termo, porque in APOSENTADO:
+            if termo.lower() in baixa:
+                problemas += 1
+                print(f"[termo aposentado] {md.as_posix()}:{n} — '{termo}': {porque}")
+
+# ------------------------------- condição usada sem existir no glossário
+
+# "Não invente nome de condição" é regra do projeto, e o projeto já pagou por ela:
+# "Paralisado" (9 usos), "prostrado" e "preso no lugar" nasceram soltos e tiveram
+# que ser normalizados depois. Esta checagem é o alarme — e na estreia achou
+# **Caído** e **Estável**, dois estados com regra própria que eram usados de 5
+# páginas sem nunca terem virado verbete (viraram em 2026-08-27).
+#
+# O radical corta gênero e número: "Marcadas" e "Marcado" viram o mesmo "marcad",
+# senão toda flexão viraria falso positivo. E vale qualquer palavra do termo, pra
+# "fica Amaldiçoada" achar o verbete "Zona Amaldiçoada".
+RE_FICA = re.compile(
+    r"\bfica(?:m|r|rá|rem)?\s+(?:\[)?\*{0,2}([A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõçú]+)"
+)
+
+
+def radical(palavra: str) -> str:
+    return re.sub(r"(os|as|es|o|a)$", "", palavra.lower())
+
+
+vocabulario = {
+    radical(p)
+    for verbete in verbetes
+    for p in re.findall(r"[A-Za-zÁÉÍÓÚÂÊÔÃÕÇáéíóúâêôãõç]+", verbete.termo)
+}
+# Palavras comuns que o texto usa como adjetivo, não como condição.
+NAO_E_CONDICAO = {"indisponível", "disponível", "livre", "pronto", "visível"}
+
+fora_do_glossario: dict[str, str] = {}
+for md in sorted(DOCS.rglob("*.md")):
+    for n, linha in enumerate(md.read_text(encoding="utf-8").split("\n"), 1):
+        for termo in RE_FICA.findall(linha):
+            r = radical(termo)
+            if r in vocabulario or r in NAO_E_CONDICAO:
+                continue
+            fora_do_glossario.setdefault(termo, f"{md.as_posix()}:{n}")
+for termo, onde in sorted(fora_do_glossario.items()):
+    problemas += 1
+    print(f"[condição sem verbete] {onde} — '{termo}' não está no glossário")
+
 
 print(
     f"\n{len(paginas)} páginas e {armas} armas verificadas, {problemas} problema(s)."
