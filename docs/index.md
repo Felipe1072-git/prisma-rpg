@@ -14,7 +14,7 @@
 
 **Magia e técnica têm a mesma ficha.** Um golpe de espada e uma bola de fogo custam [Mana](jogar/mana.md), gastam [Pontos de Ação](jogar/combate.md#pontos-de-acao) e resolvem igual. Não há dois sistemas pra aprender.
 
-**A força do golpe é decisão, não sorte.** Toda habilidade existe em três [Intensidades](habilidades/regras.md#intensidade), e você escolhe qual pagar **antes de rolar** — 1, 2 ou 3 ◈, com o Mana subindo junto. O d100 só responde se acertou. Como são 3 ◈ por turno, a pergunta é sempre a mesma: um golpe grande, ou três pequenos?
+**A força do golpe é decisão, não sorte.** Toda habilidade existe em três [Intensidades](jogar/regras-de-habilidade.md#intensidade), e você escolhe qual pagar **antes de rolar** — 1, 2 ou 3 ◈, com o Mana subindo junto. O d100 só responde se acertou. Como são 3 ◈ por turno, a pergunta é sempre a mesma: um golpe grande, ou três pequenos?
 
 ## Por onde começar
 
@@ -56,7 +56,7 @@
 | [**Origens**](origens/index.md) — 60 | eixo, tipo de traço, atributo — com sorteio 1d20 |
 | [**Equipamento**](equipamento/index.md) — 68 | estilo, família, tipo de dano, propriedade, prata disponível |
 
-As regras de cada um: [Habilidade](habilidades/regras.md) · [Equipamento](equipamento/regras.md)
+As regras de cada um: [Habilidade](jogar/regras-de-habilidade.md) · [Equipamento](jogar/regras-de-equipamento.md)
 
 **[Livro do Mestre](mestre/index.md)**
 

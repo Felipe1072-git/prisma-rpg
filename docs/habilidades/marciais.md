@@ -63,7 +63,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
-- **Golpe 1** e **Golpe 2** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Golpe 1** e **Golpe 2** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](../jogar/regras-de-habilidade.md#resolucao))
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** cada golpe que acertar causa 1d8 de dano
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** cada golpe que acertar causa 1d10 de dano; se os dois acertarem, o alvo é derrubado
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** cada golpe que acertar causa 2d10 de dano; se os dois acertarem, o alvo é derrubado e perde a próxima Reação
@@ -262,7 +262,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
-- **Golpe 1**, **Golpe 2** e **Golpe 3** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Golpe 1**, **Golpe 2** e **Golpe 3** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](../jogar/regras-de-habilidade.md#resolucao))
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** cada golpe que acertar causa 1d6 de dano
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** cada golpe que acertar causa 1d8 de dano; se pelo menos 2 acertarem, empurra 1 casa
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** cada golpe que acertar causa 1d10 de dano; se os três acertarem, o alvo é derrubado e perde a próxima Reação
@@ -399,7 +399,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Rajada** (os golpes de palma) e **Chute Final** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Rajada** (os golpes de palma) e **Chute Final** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](../jogar/regras-de-habilidade.md#resolucao))
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** a Rajada acerta por dano desarmado; o Chute Final acerta por dano desarmado e derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** a Rajada acerta por dano desarmado; o Chute Final acerta por dano desarmado, derruba o alvo, e ele perde a próxima Reação
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** a Rajada acerta por dano desarmado; o Chute Final acerta por dano desarmado, derruba o alvo, ele perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
@@ -469,7 +469,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
-- **Corte** e **Tiro** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Corte** e **Tiro** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](../jogar/regras-de-habilidade.md#resolucao))
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** o Corte acerta por 1d6 de dano + empurra 1 casa; o Tiro acerta por 1d6 de dano
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o Corte acerta por 1d8 de dano + empurra 1 casa; o Tiro acerta por 1d8 de dano e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o Corte acerta por 1d10 de dano + empurra 1 casa; o Tiro acerta por 1d10 de dano, derruba o alvo, e ele perde a próxima Reação
@@ -492,7 +492,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
-- **Golpe de Ombro** e **Tiro** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Golpe de Ombro** e **Tiro** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](../jogar/regras-de-habilidade.md#resolucao))
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** o Golpe de Ombro acerta por 1d6 de dano + empurra 1 casa; o Tiro acerta por 1d6 de dano
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o Golpe de Ombro acerta por 1d8 de dano + empurra 1 casa e derruba o alvo; o Tiro acerta por 1d8 de dano
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o Golpe de Ombro acerta por 1d10 de dano + empurra 1 casa e derruba o alvo; o Tiro acerta por 1d10 de dano, e o alvo perde a próxima Reação
@@ -504,7 +504,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
-- **Corte Baixo** e **Golpe Ascendente** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Corte Baixo** e **Golpe Ascendente** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](../jogar/regras-de-habilidade.md#resolucao))
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** o Corte Baixo acerta por 1d6 de dano; o Golpe Ascendente acerta por 1d6 de dano e derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o Corte Baixo acerta por 1d8 de dano; o Golpe Ascendente acerta por 1d8 de dano, derruba o alvo, e ele perde a próxima Reação
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o Corte Baixo acerta por 1d10 de dano; o Golpe Ascendente acerta por 1d10 de dano, derruba o alvo, ele perde a próxima Reação, e fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
@@ -516,7 +516,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
-- **Estocadas** (a sequência de avanços) e **Golpe Final** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](regras.md#resolucao))
+- **Estocadas** (a sequência de avanços) e **Golpe Final** — cada um é um teste de ataque separado (ver [Cada golpe, seu próprio teste](../jogar/regras-de-habilidade.md#resolucao))
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** as Estocadas acertam por 1d6 de dano + empurra 1 casa; o Golpe Final acerta por 1d8 de dano
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** as Estocadas acertam por 1d8 de dano + empurra 1 casa; o Golpe Final acerta por 1d10 de dano e derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** as Estocadas acertam por 2d6 de dano + empurra 1 casa; o Golpe Final acerta por 2d10 de dano, derruba o alvo, e ele perde a próxima Reação

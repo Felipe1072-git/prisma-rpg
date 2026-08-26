@@ -26,7 +26,7 @@ Quanto você aguenta, o que te machuca mais, como você se recupera — e o que 
 
 Exemplo: nível 0, Defesa 5 (baseline de criação) → 20 + 0 + 10 = 30. Nível 100, Defesa 85 (foco pesado) → 20 + 100 + 170 = 290.
 
-O termo de equipamento é 0 pra quase tudo — hoje só as [Armaduras](../equipamento/regras.md#armaduras) somam algo, de +10 (leve) a +75 (Placa de Torneio). É a mesma forma do [Mana Máximo](../glossario.md#mana) (só trocando Magia por Defesa e Mana de equipamento por Vida de equipamento) — de propósito: armadura ajuda a **aguentar mais pancada**, não a desviar dela, então soma aqui e não na Evasão (quem cuida da Evasão agora é o [Escudo](../equipamento/regras.md#escudos)).
+O termo de equipamento é 0 pra quase tudo — hoje só as [Armaduras](regras-de-equipamento.md#armaduras) somam algo, de +10 (leve) a +75 (Placa de Torneio). É a mesma forma do [Mana Máximo](../glossario.md#mana) (só trocando Magia por Defesa e Mana de equipamento por Vida de equipamento) — de propósito: armadura ajuda a **aguentar mais pancada**, não a desviar dela, então soma aqui e não na Evasão (quem cuida da Evasão agora é o [Escudo](regras-de-equipamento.md#escudos)).
 
 Vida é recalculada a cada vez que Defesa muda (subir de nível, um buff, um debuff) — não é cumulativa como no sistema antigo, é sempre "o número de agora".
 
@@ -45,7 +45,7 @@ Como toda habilidade, cura tem [Intensidade](../glossario.md#intensidade): não 
 
 ## Tipos de Dano
 
-Todo dano tem um tipo, e é por isso que a arma escolhida importa contra certas criaturas. Os três primeiros são físicos, e vêm da arma empunhada (ver a coluna **Tipo** na [Tabela de Dados de Dano](../equipamento/regras.md#tabela-de-dados-de-dano)):
+Todo dano tem um tipo, e é por isso que a arma escolhida importa contra certas criaturas. Os três primeiros são físicos, e vêm da arma empunhada (ver a coluna **Tipo** na [Tabela de Dados de Dano](regras-de-equipamento.md#tabela-de-dados-de-dano)):
 
 | Tipo | De onde vem | Contra o que costuma ser bom |
 |---|---|---|
@@ -60,7 +60,7 @@ Habilidades de **[Mágicas por Elemento](../habilidades/magicas-elementais.md)**
 
 ## Dado de Dano
 
-O dano de uma habilidade de arma é o **dado da própria arma**, que escala com a Intensidade: a Intensidade I usa o dado da [Tabela de Dados de Dano](../equipamento/regras.md#tabela-de-dados-de-dano) sem alteração (de 1d4 a 1d12, dependendo do peso da arma); a Intensidade II sobe um degrau (d4→d6, d6→d8, d8→d10, d10→d12, d12→d20); a Intensidade III dobra o dado já escalado da II. Habilidades gerais têm o próprio dado, escrito na ficha.
+O dano de uma habilidade de arma é o **dado da própria arma**, que escala com a Intensidade: a Intensidade I usa o dado da [Tabela de Dados de Dano](regras-de-equipamento.md#tabela-de-dados-de-dano) sem alteração (de 1d4 a 1d12, dependendo do peso da arma); a Intensidade II sobe um degrau (d4→d6, d6→d8, d8→d10, d10→d12, d12→d20); a Intensidade III dobra o dado já escalado da II. Habilidades gerais têm o próprio dado, escrito na ficha.
 
 Pra estimar dano de qualquer combinação de dados, ou improvisar um número na mesa, ver a [Tabela de referência de dano médio](../mestre/testes.md#calibracao-de-dano) e a [Tabela de Dano Improvisado](estresse.md#tabelas-de-referencia-rapida).
 
@@ -101,7 +101,7 @@ Um personagem Caído pode escolher **não resistir**. Em vez de rolar contra a m
 Declarado no início de um turno dele enquanto estiver Caído, o Último Turno funciona assim:
 
 - Ele **se levanta e joga um turno completo**: 3 PA, Mana, habilidades, tudo. Ainda rola pra acertar normalmente.
-- **Todo sucesso é tratado como Crítico** — dano máximo, rolagem extra e [sobe 1 Intensidade de graça](../habilidades/regras.md#resolucao), mesmo sem cair dentro do limiar de Sorte.
+- **Todo sucesso é tratado como Crítico** — dano máximo, rolagem extra e [sobe 1 Intensidade de graça](regras-de-habilidade.md#resolucao), mesmo sem cair dentro do limiar de Sorte.
 - **Falha aqui não tem meio-termo** — não há acerto raspado; o que dá errado, dá errado por completo.
 - **Nenhuma cura funciona nele** durante o Último Turno. Não há como voltar atrás depois de declarar.
 - **Ao fim do turno, o personagem morre.** Sem rolagem, sem resistência, sem chance. Foi o preço.

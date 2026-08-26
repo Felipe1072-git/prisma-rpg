@@ -2279,7 +2279,7 @@ def monta_card_arma(
     corpo_md, _ = transforma_para_ponteiros(secao_md, destino, arma=slug(nome))
     # "Arma Finesse (ver [Finesse](#finesse) abaixo)" — o "abaixo" era a seção
     # de propriedades logo adiante na mesma página, que agora é `regras.md`.
-    corpo_md = RE_ANCORA_PURA.sub(r"](regras.md#\1)", corpo_md)
+    corpo_md = RE_ANCORA_PURA.sub(r"](../jogar/regras-de-equipamento.md#\1)", corpo_md)
     corpo = corpo_md.split("\n")
     corpo = corpo[1:] if corpo and corpo[0].startswith("## ") else corpo
 
@@ -2455,7 +2455,9 @@ def monta_regras_de_equipamento(docs_dir: Path) -> list[str]:
 
     def religa(m: re.Match) -> str:
         chave = m.group(1)
-        return f"](index.md#equ-{chave})" if chave in armas else m.group(0)
+        return (
+            f"](../equipamento/index.md#equ-{chave})" if chave in armas else m.group(0)
+        )
 
     return [RE_ANCORA_PURA.sub(religa, l) for l in partes]
 
@@ -3184,6 +3186,14 @@ GUARDAS_AUTOLINK = {
 }
 
 PAGINAS_AUTOLINK = ("jogar/", "criacao/", "mestre/")
+# As duas páginas de regra mudaram do Compêndio pro Livro do Jogador em
+# 2026-08-27 e caíram dentro de `jogar/` — mas são páginas que já linkam o
+# glossário à mão em quase todo termo. Deixá-las no auto-link poria um segundo
+# link competindo com o que já existe, sem ganho nenhum.
+FORA_DO_AUTOLINK = (
+    "jogar/regras-de-habilidade.md",
+    "jogar/regras-de-equipamento.md",
+)
 
 # Trechos onde um link não pode entrar, na ordem em que precisam ser achados:
 # bloco de código, código inline, link ou imagem que já existe, elemento HTML
@@ -3521,7 +3531,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
 
     # O auto-link trabalha no markdown de prosa, e as listagens são montadas
     # depois, a partir do próprio markdown.
-    if caminho.startswith(PAGINAS_AUTOLINK):
+    if caminho.startswith(PAGINAS_AUTOLINK) and caminho not in FORA_DO_AUTOLINK:
         markdown, n = autolinka(markdown, caminho, docs_dir)
         _AUTOLINK_TOTAL[caminho] = n
 
@@ -3544,7 +3554,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         )
         return insere_barra(markdown, barra, '<nav class="prg-az"')
 
-    if caminho == "habilidades/regras.md":
+    if caminho == "jogar/regras-de-habilidade.md":
         return acrescenta_regras_dos_grupos(markdown, Path(config["docs_dir"]))
 
     if caminho == "jogar/condicoes.md":
@@ -3662,7 +3672,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         )
         return insere_barra(markdown, barra, '<div class="prg-card')
 
-    if caminho == "equipamento/regras.md":
+    if caminho == "jogar/regras-de-equipamento.md":
         corpo = monta_regras_de_equipamento(Path(config["docs_dir"]))
         return markdown.rstrip() + "\n\n" + "\n".join(corpo)
 
@@ -3706,6 +3716,10 @@ REDIRECIONA = {
     # O Bestiário saiu do Livro do Mestre e virou aba própria (2026-08-02). As
     # âncoras `#bes-…` são as mesmas, então o hash é preservado sem mapa.
     "mestre/bestiario": "bestiario/",
+    # As duas páginas de regra saíram do Compêndio pro Livro do Jogador
+    # (2026-08-27). As âncoras não mudaram, então o hash viaja junto sem mapa.
+    "habilidades/regras": "jogar/regras-de-habilidade/",
+    "equipamento/regras": "jogar/regras-de-equipamento/",
 }
 
 # âncora antiga em jogador/sistema-d20 -> url nova completa

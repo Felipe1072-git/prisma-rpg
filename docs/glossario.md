@@ -48,11 +48,11 @@ Toda habilidade declara como se resolve: **Ataque** (o usuário rola d100 + Atri
 
 ### Componentes
 
-O que ativar uma habilidade exige fisicamente: **Verbal** (fala — negado por [Silenciado](#silenciado)), **Somático** (gesto — negado só por [Atordoado](#atordoado)) e **Material** (a arma ou foco precisa estar equipado). Ver [Regras de Habilidade → Componentes](habilidades/regras.md#componentes).
+O que ativar uma habilidade exige fisicamente: **Verbal** (fala — negado por [Silenciado](#silenciado)), **Somático** (gesto — negado só por [Atordoado](#atordoado)) e **Material** (a arma ou foco precisa estar equipado). Ver [Regras de Habilidade → Componentes](jogar/regras-de-habilidade.md#componentes).
 
 ### Cooldown
 
-Depois de usada, a habilidade fica indisponível por um tempo — **independente de quanto Mana sobrou**: sem cooldown, 1–2 [rodadas](#rodada), 3–4 rodadas, 1x por [cena](#cena) ou 1x por descanso, conforme o grau ou potência dela. Ver [Regras de Habilidade → Cooldown](habilidades/regras.md#cooldown).
+Depois de usada, a habilidade fica indisponível por um tempo — **independente de quanto Mana sobrou**: sem cooldown, 1–2 [rodadas](#rodada), 3–4 rodadas, 1x por [cena](#cena) ou 1x por descanso, conforme o grau ou potência dela. Ver [Regras de Habilidade → Cooldown](jogar/regras-de-habilidade.md#cooldown).
 
 ### Vida
 
@@ -68,7 +68,7 @@ A barra que mede quanto a cabeça aguenta, não o corpo. **Estresse Máximo = 20
 
 ### Intensidade
 
-O quanto uma Habilidade entrega, escolhido na hora de ativar — o d100 só responde se acertou ou não, quem decide **quão forte** é a Intensidade. Vai de I (◈, efeito base) a III (◈◈◈, efeito completo), e o custo em Mana sobe junto. Ver [Regras de Habilidade](habilidades/regras.md#intensidade).
+O quanto uma Habilidade entrega, escolhido na hora de ativar — o d100 só responde se acertou ou não, quem decide **quão forte** é a Intensidade. Vai de I (◈, efeito base) a III (◈◈◈, efeito completo), e o custo em Mana sobe junto. Ver [Regras de Habilidade](jogar/regras-de-habilidade.md#intensidade).
 
 ### Pontos de Ação
 
@@ -294,7 +294,7 @@ O dano daquele tipo é **dobrado** — espelho da Resistência. É o que recompe
 
 ## Graus de Habilidade de Arma
 
-Toda arma concede 3 habilidades, aprendidas nessa ordem obrigatória (ver [Equipamento](equipamento/index.md)). O grau **não** define o custo — cada uma tem suas próprias [Intensidades](habilidades/regras.md#intensidade) I/II/III. O que o grau define é o quanto a técnica entrega e o quanto de Mana ela cobra:
+Toda arma concede 3 habilidades, aprendidas nessa ordem obrigatória (ver [Equipamento](equipamento/index.md)). O grau **não** define o custo — cada uma tem suas próprias [Intensidades](jogar/regras-de-habilidade.md#intensidade) I/II/III. O que o grau define é o quanto a técnica entrega e o quanto de Mana ela cobra:
 
 ### Básica
 
@@ -569,19 +569,19 @@ Golpes desarmados (socos, chutes) não usam o dado de nenhuma arma — escalam s
 
 ### Híbrida
 
-O usuário escolhe Ataque ou Magia (o que for maior) no teste de ataque. Ver [Equipamento → Armas Híbridas](equipamento/regras.md#hibrida).
+O usuário escolhe Ataque ou Magia (o que for maior) no teste de ataque. Ver [Equipamento → Armas Híbridas](jogar/regras-de-equipamento.md#hibrida).
 
 ### Ressonante
 
-O usuário escolhe, no teste de ataque, entre Físico (Ataque, dano Impacto) e Arcano (Magia, dano Arcano) — o tipo de dano muda junto com o atributo. Ver [Equipamento → Armas Ressonantes](equipamento/regras.md#ressonante).
+O usuário escolhe, no teste de ataque, entre Físico (Ataque, dano Impacto) e Arcano (Magia, dano Arcano) — o tipo de dano muda junto com o atributo. Ver [Equipamento → Armas Ressonantes](jogar/regras-de-equipamento.md#ressonante).
 
 ### Dupla Empunhadura
 
-Habilidade geral que exige duas armas específicas equipadas ao mesmo tempo; o dano soma os dados das duas. Ver [Equipamento → Dupla Empunhadura](equipamento/regras.md#dupla-empunhadura).
+Habilidade geral que exige duas armas específicas equipadas ao mesmo tempo; o dano soma os dados das duas. Ver [Equipamento → Dupla Empunhadura](jogar/regras-de-equipamento.md#dupla-empunhadura).
 
 ### Leve
 
-Arma que ocupa só uma mão — a mão secundária fica livre pra outra arma Leve, um escudo, ou magia/interação. Ver [Equipamento → Leve](equipamento/regras.md#leve).
+Arma que ocupa só uma mão — a mão secundária fica livre pra outra arma Leve, um escudo, ou magia/interação. Ver [Equipamento → Leve](jogar/regras-de-equipamento.md#leve).
 
 ### Escudo (item) {: #escudo-item }
 

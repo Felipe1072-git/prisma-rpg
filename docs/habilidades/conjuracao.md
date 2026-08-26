@@ -150,7 +150,7 @@ Intensidade pra ancorar o custo).
 - **O Aliado:** Vida 45, PA ◈◈◈ (3), Ataque +16, Dano 2d6, Evasão 22, Movimento 7 casas. Rola a própria Iniciativa e age no próprio turno; ataca a criatura hostil mais próxima do usuário (ou onde o jogador mandar, se estiver controlando ele mesmo).
 - **Ao fim da cena:** o Guardião se desfaz sem penalidade além do próprio limite de 1x por descanso longo.
 - **Consequência de morte:** se reduzido a 0 de Vida antes do fim da cena, o Guardião foge/se dissolve, e esta habilidade fica indisponível até o próximo descanso longo — o mesmo limite que ela já tinha.
-- *(Sem Intensidade — [Custo fixo](regras.md#habilidades-de-custo-fixo), Supremo)*
+- *(Sem Intensidade — [Custo fixo](../jogar/regras-de-habilidade.md#habilidades-de-custo-fixo), Supremo)*
 
 **Selar o Pacto**
 
@@ -165,7 +165,7 @@ Intensidade pra ancorar o custo).
 - **100 — Sucesso ampliado:** o vínculo se forma nas melhores condições possíveis — menos restrições, o Ser mais disposto a cooperar (o Mestre decide o que isso significa na prática).
 - **Parte 2 — convocar o Ser vinculado:** depois que o ritual tiver sucesso, quantas vezes o vínculo permitir. Custo fixo ◈◈◈ (3 PA) + 60 Mana, **1x por [descanso longo](../jogar/exploracao.md#descanso)**. Efeito: o Ser vinculado se manifesta na cena, com a ficha montada no momento do ritual (Formidável ou Lendário). Ele age no próprio turno, controlado pelo Mestre como NPC aliado — diferente do Aliado de Combate, aqui não há escolha do jogador: o Ser tem vontade própria, é vinculado, não domesticado. Dura até o fim da cena.
 - **Consequência de morte do Ser vinculado:** se reduzido a 0 de Vida numa convocação, ele morre de vez: não volta no próximo descanso longo, não pode ser trazido de volta por Ressuscitar nem qualquer outra habilidade, e essa entidade específica não pode ser vinculada de novo — é uma pessoa, não uma categoria. O conjurador ganha uma [Cicatriz](../jogar/estresse.md#cicatrizes) automaticamente, e perde esta habilidade até selar um vínculo novo, repetindo o ritual do zero (Parte 1), com o mesmo risco de falha catastrófica de antes.
-- *(Sem Intensidade — [Custo fixo](regras.md#habilidades-de-custo-fixo), Supremo nas duas partes)*
+- *(Sem Intensidade — [Custo fixo](../jogar/regras-de-habilidade.md#habilidades-de-custo-fixo), Supremo nas duas partes)*
 
 !!! nota "Simetria com Banir"
     Um Ser vinculado (ou um Aliado de Combate) também pode ser alvo de [Banir](debuff.md) vindo

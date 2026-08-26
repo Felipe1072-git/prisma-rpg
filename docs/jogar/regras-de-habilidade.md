@@ -2,27 +2,27 @@
 
 <img class="prg-arte" src="../../assets/img/regras/habilidades-regras.jpg" alt="">
 
-Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Intensidade, custo, Dano Desarmado e a assinatura mecânica de cada elemento. Pra navegar e filtrar as habilidades em si, veja a [Listagem de Habilidades](index.md).
+Como toda habilidade é escrita e resolvida por baixo do capô — grupos, Intensidade, custo, Dano Desarmado e a assinatura mecânica de cada elemento. Pra navegar e filtrar as habilidades em si, veja a [Listagem de Habilidades](../habilidades/index.md).
 
 ## Grupos
 
 | Grupo | Escopo |
 |---|---|
-| [Marciais](marciais.md) | Armas corpo a corpo / combate a curta distância |
-| [Pontaria](pontaria.md) | Armas à distância e precisão (inclui feitiços de precisão) |
-| [Mágicas por Elemento](magicas-elementais.md) | Fogo, Gelo, Terra, Sombras, Luz, Arcano, etc. |
-| [Sociais](sociais.md) | Persuasão e afins |
-| [Infiltração](infiltracao.md) | Furtividade, ladinagem |
-| [Mobilidade](mobilidade.md) | Voo, deslocamento |
-| [Buff](buff.md) | Incremento de força, imbuir elementos em armas, etc. |
-| [Debuff](debuff.md) | Desvantagens para inimigos ou em testes |
-| [Suporte](suporte.md) | Cura e apoio a aliados |
-| [Necromancia](necromancia.md) | Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade |
-| [Projeção Mental](projecao-mental.md) | Telepatia, ler mentes, ilusão mental, dano psíquico |
-| [Alquimia de Mana](alquimia-de-mana.md) | Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir armas |
-| [Percepção Arcana](percepcao-arcana.md) | Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate |
-| [Conjuração](conjuracao.md) | Trazer aliados de outros lugares/planos pra lutar ao seu lado |
-| [Espaço-Tempo](espaco-tempo.md) | Reposicionar à força, distorcer gravidade e manipular o fluxo do tempo |
+| [Marciais](../habilidades/marciais.md) | Armas corpo a corpo / combate a curta distância |
+| [Pontaria](../habilidades/pontaria.md) | Armas à distância e precisão (inclui feitiços de precisão) |
+| [Mágicas por Elemento](../habilidades/magicas-elementais.md) | Fogo, Gelo, Terra, Sombras, Luz, Arcano, etc. |
+| [Sociais](../habilidades/sociais.md) | Persuasão e afins |
+| [Infiltração](../habilidades/infiltracao.md) | Furtividade, ladinagem |
+| [Mobilidade](../habilidades/mobilidade.md) | Voo, deslocamento |
+| [Buff](../habilidades/buff.md) | Incremento de força, imbuir elementos em armas, etc. |
+| [Debuff](../habilidades/debuff.md) | Desvantagens para inimigos ou em testes |
+| [Suporte](../habilidades/suporte.md) | Cura e apoio a aliados |
+| [Necromancia](../habilidades/necromancia.md) | Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade |
+| [Projeção Mental](../habilidades/projecao-mental.md) | Telepatia, ler mentes, ilusão mental, dano psíquico |
+| [Alquimia de Mana](../habilidades/alquimia-de-mana.md) | Mana altera a matéria: endurecer o corpo, transmutar, consertar objetos, imbuir armas |
+| [Percepção Arcana](../habilidades/percepcao-arcana.md) | Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate |
+| [Conjuração](../habilidades/conjuracao.md) | Trazer aliados de outros lugares/planos pra lutar ao seu lado |
+| [Espaço-Tempo](../habilidades/espaco-tempo.md) | Reposicionar à força, distorcer gravidade e manipular o fluxo do tempo |
 
 *(Lista de grupos pode crescer.)*
 
@@ -120,7 +120,7 @@ Cada habilidade é registrada com:
 - **Componentes** — Verbal / Somático / Material, o que a ativação exige fisicamente — ver [Componentes](#componentes)
 - **Cooldown** — ver [Cooldown](#cooldown)
 - **Intensidade I / II / III** — as três versões da habilidade, cada uma com seu custo em Pontos de Ação e Mana
-- **Crítico** — dentro do [limiar de Crítico](../jogar/testes.md#criticos) (Sorte ÷ 3)
+- **Crítico** — dentro do [limiar de Crítico](testes.md#criticos) (Sorte ÷ 3)
 
 Todo campo aparece sempre, em toda habilidade — quando não se aplica, o campo permanece com **—** em vez de sumir. O jogo é explícito de propósito: nada fica subentendido pra quem lê a ficha no meio de um turno.
 
@@ -134,7 +134,7 @@ Toda habilidade de ataque existe em **três Intensidades**. Elas não são compr
 | II | ◈◈ (2) | Acrescenta o efeito secundário (empurrar, Sangrando, Marcado) |
 | III | ◈◈◈ (3) | O efeito completo (derrubar, Atordoado) — consome o turno inteiro |
 
-O custo em Mana sobe junto com a Intensidade (ver [Escala de Mana por Intensidade](../jogar/mana.md#escala-de-mana-por-intensidade)).
+O custo em Mana sobe junto com a Intensidade (ver [Escala de Mana por Intensidade](mana.md#escala-de-mana-por-intensidade)).
 
 !!! regra "Alcance e área nunca escalam com Intensidade"
     Uma habilidade que cobre 2 casas de raio cobre 2 casas de raio em qualquer Intensidade — o que a Intensidade compra é o efeito, não o tamanho.
@@ -181,7 +181,7 @@ Um punhado de habilidades faz algo que **não deveria ser garantido só por paga
 | 81–99 | Sucesso |
 | 100 (ou dentro do limiar de Crítico) | Sucesso ampliado |
 
-Essas habilidades têm **Custo fixo** (não têm Intensidade) e escrevem as faixas explicitamente na ficha. São deliberadamente raras — a graduação existe justamente pra impedir que um efeito dessa magnitude se torne confiável. Hoje [Ressuscitar](suporte.md) e [Selar o Pacto](conjuracao.md) usam esse formato.
+Essas habilidades têm **Custo fixo** (não têm Intensidade) e escrevem as faixas explicitamente na ficha. São deliberadamente raras — a graduação existe justamente pra impedir que um efeito dessa magnitude se torne confiável. Hoje [Ressuscitar](../habilidades/suporte.md) e [Selar o Pacto](../habilidades/conjuracao.md) usam esse formato.
 
 ### Habilidades Passivas
 
@@ -200,7 +200,7 @@ Esta seção descreve o fluxo de **Ataque** — a maioria das habilidades, onde 
 2. Rola **d100 + Atributo da habilidade**.
 3. O total precisa **igualar ou superar o número-alvo do defensor** (ver [Defesa](../glossario.md#defesa)). Por padrão isso é a **Evasão** — habilidades que impõem outra coisa (efeito mental, veneno etc.) declaram qual número testar em vez disso, no campo **Vs** da ficha, mas a lógica de comparação é sempre a mesma.
 4. **Acertou** → aplica o efeito da Intensidade paga. **Não acertou** → nenhum efeito; o PA e o Mana foram gastos de todo jeito.
-5. **Crítico**: se o d100 puro (o número antes de somar o Atributo) for igual ou menor que o [limiar de Crítico](../jogar/testes.md#criticos) (Sorte ÷ 3, arredondado), o teste é sucesso automático e **Crítico** — soma o dano máximo do dado + mais uma rolagem normal do mesmo dado, e **sobe 1 Intensidade de graça** — aplica o efeito da Intensidade acima da que foi paga, sem pagar a diferença. Usado já em Intensidade III (ou numa habilidade de Custo fixo), o Crítico entrega o bônus de dano — mais o efeito extra de Crítico que a própria ficha declarar, se houver.
+5. **Crítico**: se o d100 puro (o número antes de somar o Atributo) for igual ou menor que o [limiar de Crítico](testes.md#criticos) (Sorte ÷ 3, arredondado), o teste é sucesso automático e **Crítico** — soma o dano máximo do dado + mais uma rolagem normal do mesmo dado, e **sobe 1 Intensidade de graça** — aplica o efeito da Intensidade acima da que foi paga, sem pagar a diferença. Usado já em Intensidade III (ou numa habilidade de Custo fixo), o Crítico entrega o bônus de dano — mais o efeito extra de Crítico que a própria ficha declarar, se houver.
 
 !!! regra "Cada alvo, sua própria rolagem"
     Quando uma habilidade atinge mais de uma criatura, ou golpeia o mesmo alvo mais de uma vez, **cada uma se resolve por si**. Numa habilidade de **Ataque**, são vários testes do usuário — pode acertar uns e errar outros, e cada golpe crítica sozinho, pela regra normal de Sorte. Numa habilidade de **área**, que usa [Teste de Resistência](#teste-de-resistencia), é cada alvo que rola a própria resistência: uns falham e levam tudo, outros escapam com metade. O número de dados na mesa é o mesmo; o que muda é de quem é a mão.
@@ -224,7 +224,7 @@ Uma parte das habilidades inverte o fluxo de Ataque: em vez de o usuário rolar 
 
 Por isso habilidade resistida **não traz bullet de Crítico**: quem rola é quem critica, e aqui quem rola é o alvo.
 
-O atributo da resistência sai do que o efeito exige — Agilidade pra sair da frente, Defesa pro corpo aguentar, Sanidade pra mente aguentar, Social pra vontade dobrada por voz ou presença, Magia pra realidade alterada em volta. A tabela completa está em [Testes de d100 → Teste de Resistência](../jogar/testes.md#teste-de-resistencia).
+O atributo da resistência sai do que o efeito exige — Agilidade pra sair da frente, Defesa pro corpo aguentar, Sanidade pra mente aguentar, Social pra vontade dobrada por voz ou presença, Magia pra realidade alterada em volta. A tabela completa está em [Testes de d100 → Teste de Resistência](testes.md#teste-de-resistencia).
 
 A resolução se aplica em três casos: efeito em **área**, que acontece em vez de mirar; efeito que o corpo resiste **por dentro** (veneno de ação lenta, maldição plantada, algo que só dispara depois); e efeito de que **não se esquiva** porque não vem por uma trajetória (dobra do espaço, gravidade, sucção dimensional). Use **Ataque** pra golpe ou magia mirada num alvo só, que um passo pro lado evita.
 
@@ -257,7 +257,7 @@ O que ativar a habilidade exige fisicamente — **Verbal**, **Somático**, **Mat
 
 ### Cooldown
 
-Depois de usada, uma habilidade com Cooldown fica indisponível por um tempo — **independente de quanto Mana sobrou**. Escala pelo mesmo grau/potência que já precifica a habilidade (ver [Grau de Poder](../jogar/mana.md#grau-de-poder)):
+Depois de usada, uma habilidade com Cooldown fica indisponível por um tempo — **independente de quanto Mana sobrou**. Escala pelo mesmo grau/potência que já precifica a habilidade (ver [Grau de Poder](mana.md#grau-de-poder)):
 
 | Grau / Potência | Cooldown padrão |
 |---|---|

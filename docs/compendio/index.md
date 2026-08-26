@@ -11,10 +11,10 @@ Tudo o que se escolhe ao montar e evoluir um personagem, em listagens filtrávei
 
 ## As regras por trás delas
 
-As listagens respondem *o que existe*. Como cada coisa funciona fica em páginas próprias:
+As listagens respondem *o que existe*. Como cada coisa funciona fica em [Jogando o Jogo](../jogar/index.md), com o resto das regras:
 
-- [**Regras de Habilidade**](../habilidades/regras.md) — Intensidade, custo, grupos, Dano Desarmado, a assinatura de cada elemento
-- [**Regras de Equipamento**](../equipamento/regras.md) — a tabela de dados de dano, as propriedades de arma, requisito de atributo, e como o ataque se resolve
+- [**Regras de Habilidade**](../jogar/regras-de-habilidade.md) — Intensidade, custo, grupos, Dano Desarmado, a assinatura de cada elemento
+- [**Regras de Equipamento**](../jogar/regras-de-equipamento.md) — a tabela de dados de dano, as propriedades de arma, requisito de atributo, e como o ataque se resolve
 
 ## Três coisas que valem saber antes de escolher
 

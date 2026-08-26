@@ -35,7 +35,7 @@ Cura e apoio a aliados.
 - **51–80:** falha, mas o espírito ainda está por perto — outra tentativa (de qualquer fonte) ainda pode salvá-lo antes do fim da cena
 - **81–99:** sucesso — o aliado revive com 20% da Vida máxima
 - **Crítico (100, ou dentro do limiar de Crítico):** sucesso — o aliado revive com 50% da Vida máxima
-- *(Sem Intensidade — o d100 aqui decide o **resultado** da ressurreição, não a potência dela. Ver [Habilidades com Tiers de Resultado](regras.md#habilidades-com-tiers-de-resultado))*
+- *(Sem Intensidade — o d100 aqui decide o **resultado** da ressurreição, não a potência dela. Ver [Habilidades com Tiers de Resultado](../jogar/regras-de-habilidade.md#habilidades-com-tiers-de-resultado))*
 
 **Glória** *(Maior)*
 
@@ -124,7 +124,7 @@ Cura e apoio a aliados.
 - **Chave:** [Suporte](../glossario.md#suporte)
 - **Custo fixo:** ◈◈◈ (3 PA) + 36 Mana | **Atributo:** Magia | **Resolução:** Automática | **Alcance:** 6 casas | **Alvos:** 3 casas de raio
 - **Efeito:** por **3 rodadas**, mortos-vivos não entram na área (quem já estava dentro pode sair, não voltar), ninguém dentro pode ficar [Possuído](../glossario.md#possuido), e quem já estiver Possuído rola o teste de expulsar com [Vantagem](../glossario.md#vantagem).
-- *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](regras.md#intensidade))*
+- *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](../jogar/regras-de-habilidade.md#intensidade))*
 - *(Sem teste — efeito automático de área; ninguém rola)*
 
 **Vínculo Guardião** *(Moderado)*

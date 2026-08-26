@@ -8,7 +8,7 @@
 
     Cada um traz o detalhamento completo: **kit inicial** (arma + 1ª Habilidade sugerida pro nível 1) e **trilha sugerida** até o nível 20 (as 10 escolhas de Habilidade da carreira, nos níveis ímpares — ver [Progressão de Nível](../criacao/progressao.md)). A trilha é só sugestão: nada impede pegar uma Habilidade fora dela em qualquer nível, ou abandonar o pacote por completo.
 
-    Onde a trilha usa mais de um grau da mesma arma, a ordem sempre respeita o [Aprendizado progressivo](../equipamento/regras.md#graus-de-habilidade-de-arma) (Básica antes de Avançada, Avançada antes de Especial).
+    Onde a trilha usa mais de um grau da mesma arma, a ordem sempre respeita o [Aprendizado progressivo](../jogar/regras-de-equipamento.md#graus-de-habilidade-de-arma) (Básica antes de Avançada, Avançada antes de Especial).
 
     As cinco tabelas de sorteio em papel ficam em [Sorteio de Pacote](sorteio.md).
 
@@ -1772,7 +1772,7 @@
 | 17 | Katana Muramasa - Especial |
 | 19 | Fúria das Lâminas Gêmeas *(Dupla Empunhadura)* |
 
-*Primeiro pacote a usar a Dupla Empunhadura entre duas armas Não-Leve — ver [Dupla Empunhadura](../equipamento/regras.md#dupla-empunhadura).*
+*Primeiro pacote a usar a Dupla Empunhadura entre duas armas Não-Leve — ver [Dupla Empunhadura](../jogar/regras-de-equipamento.md#dupla-empunhadura).*
 
 ### Sábio Imortal
 

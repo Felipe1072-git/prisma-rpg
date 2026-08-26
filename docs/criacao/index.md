@@ -62,16 +62,16 @@ Na [listagem de Origens](../origens/index.md) as três estão juntas: filtre pel
 
 ## 4. Primeira Habilidade
 
-Escolha **uma** habilidade de qualquer [grupo](../habilidades/regras.md#grupos), inclusive a Habilidade **Básica** de uma arma. Não há restrição por atributo, raça ou origem: a lista inteira está aberta.
+Escolha **uma** habilidade de qualquer [grupo](../jogar/regras-de-habilidade.md#grupos), inclusive a Habilidade **Básica** de uma arma. Não há restrição por atributo, raça ou origem: a lista inteira está aberta.
 
 !!! regra "Ter a arma e saber a técnica dela são coisas diferentes"
-    Qualquer arma equipada já pode ser usada com **Ataque Básico** (◈, sem Mana, dano do dado da arma), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade dela. Aprender a Habilidade **Básica** de uma arma é o que desbloqueia a técnica nomeada e as três [Intensidades](../habilidades/regras.md#intensidade) dela.
+    Qualquer arma equipada já pode ser usada com **Ataque Básico** (◈, sem Mana, dano do dado da arma), mesmo que o personagem nunca tenha aprendido nenhuma Habilidade dela. Aprender a Habilidade **Básica** de uma arma é o que desbloqueia a técnica nomeada e as três [Intensidades](../jogar/regras-de-habilidade.md#intensidade) dela.
 
     Numa arma, a ordem é obrigatória: **Básica → Avançada → Especial**. Você não pode aprender a Avançada de uma arma sem ter a Básica dela.
 
 ## 5. Equipamento
 
-- **150 de prata** pra gastar como quiser em arma, armadura e escudo na listagem de [Equipamento](../equipamento/index.md) — a arma (e o escudo, se houver) ainda precisa atender o [Requisito de Atributo](../equipamento/regras.md#requisito-de-atributo-minimo) dela.
+- **150 de prata** pra gastar como quiser em arma, armadura e escudo na listagem de [Equipamento](../equipamento/index.md) — a arma (e o escudo, se houver) ainda precisa atender o [Requisito de Atributo](../jogar/regras-de-equipamento.md#requisito-de-atributo-minimo) dela.
 - **Proficiência de arma** — escolha 1 arma, mesmo que não seja uma que você comprou, e já nasce sabendo a Habilidade **Básica** dela, de graça. Não conta como uma das suas 27 escolhas de habilidade de carreira.
 
 ## Valores que você calcula no fim

@@ -475,7 +475,7 @@ As regras de como ler e como montar uma criatura estão em
 
 **Baforada** — resistir com Agilidade vs 53 | cone de 3 casas à frente
 
-O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentro do cone. [A área não muda com a Intensidade](../habilidades/regras.md#intensidade).
+O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentro do cone. [A área não muda com a Intensidade](../jogar/regras-de-habilidade.md#intensidade).
 
 - **Intensidade I — ◈ (1 PA) + 8 Mana:** **4d10** de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** **4d10** de dano + cada alvo fica [Queimando](../glossario.md#queimando), e o fogo se espalha para 1 criatura adjacente a cada alvo
@@ -1018,7 +1018,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 - **Ataque:** +56 | **Evasão:** 52
 - **Atributos:** Defesa +50, Agilidade +47, Magia +35, Exploração +44, Social +38, Sorte +35, Sanidade +32
 - **Couraça:** Coriácea (+5)
-- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto) — exceto de armas de [Prata](../equipamento/regras.md#material)
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto) — exceto de armas de [Prata](../jogar/regras-de-equipamento.md#material)
 - **Movimento:** 11 casas
 
 **Garras** — ◈ | 0 Mana | +56 vs Evasão | 1 criatura adjacente
@@ -1080,7 +1080,7 @@ O Mestre rola **uma vez** e compara o resultado com a Evasão de cada alvo dentr
 - **Atributos:** Defesa +61, Agilidade +64, Magia +79, Exploração +70, Social +73, Sorte +61, Sanidade +73
 - **Couraça:** Escamada (+10)
 - **Imunidades:** [Sangrando](../glossario.md#sangrando), [Envenenado](../glossario.md#envenenado), veneno, doença, e **todo efeito mental**
-- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto) — exceto de armas de [Aço Consagrado](../equipamento/regras.md#material)
+- **Resistência:** [Cortante](../glossario.md#cortante), [Perfurante](../glossario.md#perfurante) e [Impacto](../glossario.md#impacto) — exceto de armas de [Aço Consagrado](../jogar/regras-de-equipamento.md#material)
 - **Movimento:** 12 casas
 
 **Toque Gélido** — ◈ | 0 Mana | +91 vs Evasão | 1 criatura adjacente

@@ -928,6 +928,32 @@ A abertura da categoria **Condições** também mudou: dizia "efeitos que uma ha
 o que já era falso antes (`Desprevenido` vem de emboscada, `Exausto` de exploração) e ficaria pior com
 Caído e Estável dentro.
 
+**As páginas de regra saem do Compêndio (2026-08-27).** Pedido do autor: o Compêndio fica só com as
+listagens (*o que existe*) e a regra vai pra *Jogando o Jogo*, que é onde o jogador a procura.
+`habilidades/regras.md` → **`jogar/regras-de-habilidade.md`** e `equipamento/regras.md` →
+**`jogar/regras-de-equipamento.md`**; os endereços antigos redirecionam (`REDIRECIONA` vai a 9).
+
+Foram **cinco acoplamentos**, e o quinto só apareceu quando o build quebrou:
+
+1. **49 links** em todo o `docs/` — o caminho relativo de cada um depende de onde ele está, então a
+   reescrita usa `os.path.relpath`, não substituição de texto
+2. **18 links dentro das próprias páginas** — os vizinhos do Compêndio passaram a precisar de `../`,
+   e os `../jogar/` viraram vizinhos
+3. As **duas condições de caminho fixo** no hook (as páginas são montadas ao vivo)
+4. O **`RE_ANCORA_PURA` do card de arma**, que mandava o leitor pra `regras.md#` da mesma pasta
+5. ⚠ **`religa`, dentro de `monta_regras_de_equipamento`** — gerava `](index.md#equ-…)`, correto
+   quando a página vivia em `equipamento/`. **Quebrou 62 âncoras de uma vez.** A regra que faltava:
+   nessas funções o caminho é relativo à página **de destino**, não à de origem
+
+O auto-link ficou de fora das duas (`FORA_DO_AUTOLINK`): elas já linkam o glossário à mão em quase
+todo termo. Provado medindo — sem a exclusão, o auto-link injetaria **10 termos numa 18ª página**.
+
+⚠ **`git checkout` num arquivo com mudanças não commitadas apaga trabalho — pela segunda vez em dois
+dias.** Ontem foi `git checkout -- docs/habilidades/` (levou as edições de `regras.md`); hoje foi
+`git checkout -- hooks/prisma.py` durante um teste, e voltou as seis mudanças do hook. Pior: deixou
+`FORA_DO_AUTOLINK` referenciado sem existir, o que quebra o build com `NameError`. **Commite antes de
+testar hipótese com checkout**, ou faça o teste numa cópia.
+
 Em aberto:
 
 **Revisado pelo autor em 2026-08-27** — este bloco está fechado:
@@ -976,25 +1002,6 @@ novas do `verifica.py` pega isso**, porque é número, não vocabulário — é 
     habilidade até 2026-08-26. Vale varrer o glossário atrás de outras
 11. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — adiado de propósito. As reescalas de
     bônus de 2026-08-26 **não** atacaram isso: mexeram no bônus plano, não no dado das habilidades
-
-12. **Mover Regras de Habilidade e Regras de Equipamento do Compêndio pro Livro do Jogador** —
-    pedido do autor. O Compêndio fica só com as listagens (Habilidades, Raças, Origens, Equipamento)
-    e a regra vai pra *Jogando o Jogo*, que é onde o jogador a procura. O que a mudança envolve, além
-    do `nav`:
-
-    - **44 links** apontam pra `habilidades/regras.md` hoje, de 8+ páginas — inclusive `glossario.md`,
-      `index.md` e o Bestiário
-    - **O hook trata as duas por caminho fixo**: `if caminho == "habilidades/regras.md"`
-      (`prisma.py:3531`) e `if caminho == "equipamento/regras.md"` (`prisma.py:3649`) — as duas páginas
-      são **montadas ao vivo** lendo seções que vivem noutro arquivo, então mover sem ajustar essas
-      condições deixa as páginas vazias
-    - `RE_ANCORA_PURA` reescreve âncoras pra `regras.md#…` (`prisma.py:2266`), e depende do nome do
-      arquivo
-    - Os endereços antigos precisam entrar no mapa `REDIRECIONA` (`prisma.py:3684`), como já foi feito
-      quando `jogador/` deixou de existir
-    - ⚠ **`PAGINAS_AUTOLINK` inclui `jogar/`** (`prisma.py:3170`): ao mudarem de pasta, as duas passam
-      a receber **auto-link do glossário automaticamente**. São páginas que já linkam muito à mão —
-      audite os links gerados um a um, como manda a regra de auto-link, ou tire-as da lista
 
 **Trabalho novo, quando houver vontade:**
 

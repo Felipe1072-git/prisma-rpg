@@ -23,7 +23,7 @@ As **25 raças jogáveis**, no estilo *Daggerheart* e animes em geral — nenhum
 
 **Traço Racial:**
 
-- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a Dificuldade, ou não superou a Defesa do alvo) em um sucesso. Em teste de Habilidade, conta como acerto normal: aplica o efeito da Intensidade que foi paga. **Não** funciona em habilidades com [Tiers de Resultado](../habilidades/regras.md#habilidades-com-tiers-de-resultado) nem durante o [Último Turno](../jogar/dano-e-cura.md#o-ultimo-turno).
+- **Determinação Humana** — 1x por descanso longo, transforma um teste que falharia (não bateu a Dificuldade, ou não superou a Defesa do alvo) em um sucesso. Em teste de Habilidade, conta como acerto normal: aplica o efeito da Intensidade que foi paga. **Não** funciona em habilidades com [Tiers de Resultado](../jogar/regras-de-habilidade.md#habilidades-com-tiers-de-resultado) nem durante o [Último Turno](../jogar/dano-e-cura.md#o-ultimo-turno).
 
 ## Elfo
 

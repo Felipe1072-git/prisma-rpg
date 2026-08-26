@@ -5,7 +5,7 @@ combate, família, tipo de dano, propriedade — ou arraste a prata disponível 
 veja o que cabe no bolso.
 
 As regras (o que cada propriedade faz, o requisito de atributo, como o ataque
-se resolve) estão em [Regras de Equipamento](regras.md).
+se resolve) estão em [Regras de Equipamento](../jogar/regras-de-equipamento.md).
 
 ## Graus de Habilidade de Arma
 
@@ -32,7 +32,7 @@ Cada arma concede acesso a 3 habilidades, em ordem de aprendizado:
 2. **Habilidade Avançada**
 3. **Habilidade Especial**
 
-O grau **não** define o custo — cada uma das três é uma habilidade completa, com suas próprias [Intensidades](../habilidades/regras.md#intensidade) I/II/III (◈, ◈◈, ◈◈◈). O que o grau define é **o quanto a técnica entrega** por Intensidade: a Básica atinge um alvo, a Especial costuma atingir uma área ou impor condições severas. O custo em Mana também sobe com o grau, então o investimento na arma fica visível na ficha:
+O grau **não** define o custo — cada uma das três é uma habilidade completa, com suas próprias [Intensidades](../jogar/regras-de-habilidade.md#intensidade) I/II/III (◈, ◈◈, ◈◈◈). O que o grau define é **o quanto a técnica entrega** por Intensidade: a Básica atinge um alvo, a Especial costuma atingir uma área ou impor condições severas. O custo em Mana também sobe com o grau, então o investimento na arma fica visível na ficha:
 
 | Grau | Intensidade I (◈) | Intensidade II (◈◈) | Intensidade III (◈◈◈) |
 |---|---|---|---|
@@ -2679,7 +2679,7 @@ Dano: **1d4**
 
 ## Resolução de Ataque
 
-Toda habilidade de arma segue a resolução padrão de [Habilidade](../habilidades/regras.md#ficha-de-habilidade) — resumindo:
+Toda habilidade de arma segue a resolução padrão de [Habilidade](../jogar/regras-de-habilidade.md#ficha-de-habilidade) — resumindo:
 
 1. Escolha a **Intensidade** (I, II ou III) e pague o PA + Mana dela.
 2. Role **d100 + Atributo da arma** (cada habilidade de arma já declara qual — Marciais e Pontaria sempre Ataque, Arcano sempre Magia, com exceções pra Híbrida/Ressonante, ver [Propriedades de Arma](#propriedades-de-arma) acima).

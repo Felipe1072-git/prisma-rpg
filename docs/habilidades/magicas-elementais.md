@@ -1436,7 +1436,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 ## Veneno
 
-*Habilidades de Veneno que miram uma criatura usam [Teste de Resistência](regras.md#teste-de-resistencia) em vez de ataque — veneno age na resistência do corpo, não nos reflexos, então não há golpe pra acertar: é o **alvo** quem rola d100 + [Defesa](../glossario.md#defesa) contra a [Fortitude Mágica](../glossario.md#fortitude-magica) do usuário. Passou, o veneno não pega. As de zona (Névoa Corrosiva) continuam automáticas: quem fica na área sofre, sem rolagem de lado nenhum.*
+*Habilidades de Veneno que miram uma criatura usam [Teste de Resistência](../jogar/regras-de-habilidade.md#teste-de-resistencia) em vez de ataque — veneno age na resistência do corpo, não nos reflexos, então não há golpe pra acertar: é o **alvo** quem rola d100 + [Defesa](../glossario.md#defesa) contra a [Fortitude Mágica](../glossario.md#fortitude-magica) do usuário. Passou, o veneno não pega. As de zona (Névoa Corrosiva) continuam automáticas: quem fica na área sofre, sem rolagem de lado nenhum.*
 
 **Picada Tóxica** *(Moderado)*
 

@@ -56,7 +56,7 @@ Mana e Pontos de Ação sobem **juntos** com a [Intensidade](../glossario.md#int
 
 **Habilidades gerais de grupo** usam a escala regular **3 / 9 / 18 Mana**. As que foram precificadas acima disso (por serem mais fortes que a média do grupo) mantêm o próprio custo e escalam em passos de **+9 Mana por Intensidade** — ex: 6/15/24, 9/18/27, 12/21/30.
 
-Habilidades de **Custo fixo** (áreas de raio 3+, Supremas, e efeitos absolutos sem degrau) cobram o valor da Intensidade III, já que entregam o efeito completo. **Buffs, cura e mobilidade têm Intensidade normalmente** — o que escala é o tamanho do efeito (ver [Buffs, Suporte e Mobilidade também têm Intensidade](../habilidades/regras.md#buffs-suporte-e-mobilidade-tambem-tem-intensidade)); só ficam com Custo fixo os que não têm nada pra graduar. Habilidades **dedicadas a Reação** custam 0 PA e só Mana (ver [Reações](combate.md#reacoes)).
+Habilidades de **Custo fixo** (áreas de raio 3+, Supremas, e efeitos absolutos sem degrau) cobram o valor da Intensidade III, já que entregam o efeito completo. **Buffs, cura e mobilidade têm Intensidade normalmente** — o que escala é o tamanho do efeito (ver [Buffs, Suporte e Mobilidade também têm Intensidade](regras-de-habilidade.md#buffs-suporte-e-mobilidade-tambem-tem-intensidade)); só ficam com Custo fixo os que não têm nada pra graduar. Habilidades **dedicadas a Reação** custam 0 PA e só Mana (ver [Reações](combate.md#reacoes)).
 
 ## Grau de Poder
 

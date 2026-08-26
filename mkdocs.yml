@@ -93,6 +93,8 @@ nav:
     - Condições: jogar/condicoes.md
     - Estresse: jogar/estresse.md
     - Exploração: jogar/exploracao.md
+    - Regras de Habilidade: jogar/regras-de-habilidade.md
+    - Regras de Equipamento: jogar/regras-de-equipamento.md
   - Criação de Personagem:
     - criacao/index.md
     - Progressão de Nível: criacao/progressao.md
@@ -100,11 +102,9 @@ nav:
   - Compêndio:
     - compendio/index.md
     - Habilidades: habilidades/index.md
-    - Regras de Habilidade: habilidades/regras.md
     - Raças: racas/index.md
     - Origens: origens/index.md
     - Equipamento: equipamento/index.md
-    - Regras de Equipamento: equipamento/regras.md
   - Bestiário: bestiario/index.md
   - Livro do Mestre:
     - mestre/index.md

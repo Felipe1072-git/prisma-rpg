@@ -184,7 +184,7 @@ Todos montados para um **grupo de 4**, com o orçamento acima. Cada um existe pr
 
 **Noite de Lua** — nível 20–30
 
-- 1 [Lobisomem](../bestiario/index.md#bes-lobisomem) (15) sozinho. Sem uma arma de [Prata](../equipamento/regras.md#material), o grupo resiste-se contra ele a noite inteira: ele reduz pela metade cortante, perfurante e impacto. É o encontro que transforma **um item de tesouro na solução da cena** — e que vale a pena telegrafar antes.
+- 1 [Lobisomem](../bestiario/index.md#bes-lobisomem) (15) sozinho. Sem uma arma de [Prata](../jogar/regras-de-equipamento.md#material), o grupo resiste-se contra ele a noite inteira: ele reduz pela metade cortante, perfurante e impacto. É o encontro que transforma **um item de tesouro na solução da cena** — e que vale a pena telegrafar antes.
 
 **O Santuário Profanado** — nível 20–30, **17 pontos**
 

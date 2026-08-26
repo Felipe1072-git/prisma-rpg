@@ -568,7 +568,7 @@ Criar desvantagens para inimigos ou em testes.
 - **Custo fixo:** ◈◈◈ (3 PA) + 36 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** todas as criaturas hostis de origem invocada/planar em 3 casas de raio do ponto
 - **Resistiu:** cada alvo resiste com **Magia** — metade do dano, sem condições
 - **Acerto:** 1d6 de dano + cada alvo é expulso da cena, de volta ao plano de origem
-- *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](regras.md#habilidades-de-custo-fixo))*
+- *(Sem Intensidade — área de 3 casas de raio, [Custo fixo](../jogar/regras-de-habilidade.md#habilidades-de-custo-fixo))*
 
 **Presença Aterrorizante** *(Maior)*
 
