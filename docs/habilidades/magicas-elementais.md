@@ -644,7 +644,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Fogo](../glossario.md#fogo)
 - **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Fogo | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Cooldown:** 2 rodadas
+- **Cooldown:** 1 rodada
 - **Pilar:** os alvos são lançados ao alto e caem na própria casa — o pilar não os desloca de lugar
 - **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Queimando](../glossario.md#queimando) e é derrubado

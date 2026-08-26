@@ -262,11 +262,13 @@ Depois de usada, uma habilidade com Cooldown fica indisponível por um tempo —
 | Grau da arma | Teto de Mana (geral) | Cooldown padrão |
 |---|---|---|
 | Básica | 3–9 | Sem cooldown |
-| Avançada | 12–24 | 1–2 rodadas |
-| Especial | 27–45 | 3–4 rodadas |
+| Avançada | 12–24 | 1 rodada |
+| Especial | 27–45 | 2 rodadas |
 | — | 48+ | 1x por cena (≈10 rodadas de combate) |
 
-Dentro das faixas com intervalo (1–2, 3–4), o valor exato é decisão de quem escreve a habilidade — mais alto quando ela é notavelmente forte pro próprio custo. Uma habilidade de 48+ especialmente forte pode declarar **1x por descanso** em vez de 1x por cena, como exceção.
+**Existem só esses quatro degraus.** Nada no jogo fica indisponível por 3 rodadas ou mais sem sair de vez até a próxima cena: entre "2 rodadas" e "1x por cena" não há meio-termo, porque um combate típico não dura o bastante pra diferença entre 3 e 4 rodadas significar alguma coisa — nas duas o efeito prático é *usei uma vez, não uso de novo*.
+
+Uma habilidade de 48+ especialmente forte pode declarar **1x por descanso** em vez de 1x por cena, como exceção. E qualquer ficha pode declarar o próprio **Cooldown:** quando merece um degrau diferente do padrão do custo — desde que seja um dos quatro.
 
 As poucas habilidades que pagam com **Vida** em vez de Mana (as de Sangue, o [Preço de Sangue](../habilidades/necromancia.md)) não têm teto de Mana pra consultar — nelas o Cooldown vem da [Escala de Poder](#escala-de-poder).
 

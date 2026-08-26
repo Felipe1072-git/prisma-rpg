@@ -1266,6 +1266,29 @@ São essas que pedem o **`Escala:`** à mão — e ninguém as revisou uma a uma
 gordo. Calibrei o eixo de dano contra a distribuição real das gerais (≤7 / 8–16 / 17+) e nenhum corte
 testado espalhou melhor — o gargalo é que quase toda habilidade do Prisma faz pelo menos duas coisas.
 
+**O cooldown fica em quatro degraus (2026-08-26).** Decisão do autor, vendo que "2 rodadas" tinha
+**uma única habilidade** (a *Explosão de Fogo*, a primeira do jogo a declarar cooldown à mão) enquanto
+"3 rodadas" tinha quase 300. Nada mais fica indisponível por 3 rodadas ou mais sem sair de vez até a
+próxima cena:
+
+| Existe | Não existe mais |
+|---|---|
+| Sem cooldown · 1 rodada · 2 rodadas · 1x por cena | 3 rodadas · 4 rodadas |
+
+As de 3 rodadas viraram **2**, e a *Explosão de Fogo* virou **1**. O raciocínio que ficou escrito na
+regra: num combate típico a diferença entre 3 e 4 rodadas não significa nada — nas duas o efeito
+prático é *usei uma vez, não uso de novo*, que é o que "1x por cena" já diz.
+
+⚠ **A guarda de Reação tinha sumido, e a varredura de cooldown foi que revelou.** Antes da Escala de
+Poder, uma Reação ficava sem cooldown por acidente: o qualificador dela ("Reação") não estava na
+tabela, e a busca devolvia "—". Quando o cooldown passou a vir do **Mana**, as 45 Reações passaram a
+cair na faixa como qualquer outra — contrariando `regras-de-habilidade.md#cooldown`, que diz que elas
+ficam de fora por já serem limitadas pelo próprio gatilho. Agora `cooldown_derivado` recebe a Ação e
+devolve "—" pra Reação e Passiva **de propósito**, não por acidente de tabela.
+
+⚠ O sintoma era um número, não uma mensagem: os cards sem cooldown caíram de 41 pra 28. **Build e
+`verifica.py` passaram limpos nas duas versões** — nenhum dos dois compara contagem entre builds.
+
 Em aberto:
 
 **Revisado pelo autor em 2026-08-27** — este bloco está fechado:

@@ -52,7 +52,7 @@ O que ativar uma habilidade exige fisicamente: **Verbal** (fala — negado por [
 
 ### Cooldown
 
-Depois de usada, a habilidade fica indisponível por um tempo — **independente de quanto Mana sobrou**: sem cooldown, 1–2 [rodadas](#rodada), 3–4 rodadas, 1x por [cena](#cena) ou 1x por descanso, conforme o grau ou potência dela. Ver [Regras de Habilidade → Cooldown](jogar/regras-de-habilidade.md#cooldown).
+Depois de usada, a habilidade fica indisponível por um tempo — **independente de quanto Mana sobrou**: sem cooldown, 1 [rodada](#rodada), 2 rodadas ou 1x por [cena](#cena), conforme o que ela custa. Ver [Regras de Habilidade → Cooldown](jogar/regras-de-habilidade.md#cooldown).
 
 ### Vida
 

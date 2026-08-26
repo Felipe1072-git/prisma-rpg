@@ -241,8 +241,8 @@
     // raro. Em ordem alfabética "Longo" viria antes de "Pessoal", que é
     // exatamente o oposto do que a faceta quer dizer.
     alcance: ["pessoal", "corpo-a-corpo", "arma", "curto", "medio", "longo", "especial"],
-    cooldown: ["sem-cooldown", "1-rodada", "2-rodadas", "3-rodadas", "4-rodadas",
-               "1x-por-cena", "1x-por-descanso"],
+    cooldown: ["sem-cooldown", "1-rodada", "2-rodadas", "1x-por-cena",
+               "1x-por-descanso"],
     acao: ["acao", "reacao", "passiva"],
     resolucao: ["ataque", "teste-de-resistencia", "automatica"],
     componentes: ["verbal", "somatico", "material", "sem-verbal"]

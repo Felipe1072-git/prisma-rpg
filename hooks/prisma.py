@@ -394,7 +394,7 @@ GRUPO_COMPONENTES = {
 ESCALA_COOLDOWN = {
     "basica": "Sem cooldown",
     "avancada": "1 rodada",
-    "especial": "3 rodadas",
+    "especial": "2 rodadas",
 }
 
 # Cooldown das habilidades gerais — vem do **custo em Mana**, não da Escala de
@@ -407,7 +407,7 @@ ESCALA_COOLDOWN = {
 # lacunas (o card mostrava "—") e 20 eram fichas cuja escala escrita não batia
 # com o próprio custo — catorze delas gerais rotuladas "Especial", que é grau
 # de arma e cobrava 3 rodadas por um teto de 18 Mana.
-COOLDOWN_POR_MANA = ((9, "Sem cooldown"), (24, "1 rodada"), (45, "3 rodadas"))
+COOLDOWN_POR_MANA = ((9, "Sem cooldown"), (24, "1 rodada"), (45, "2 rodadas"))
 COOLDOWN_SUPREMO = "1x por cena"
 
 # Fallback pra quem não gasta Mana: as habilidades de Sangue pagam com Vida, e
@@ -416,7 +416,7 @@ COOLDOWN_POR_ESCALA = {
     "menor": "Sem cooldown",
     "moderada": "1 rodada",
     "notavel": "1 rodada",
-    "maior": "3 rodadas",
+    "maior": "2 rodadas",
     "suprema": "1x por cena",
 }
 
@@ -578,13 +578,20 @@ def escala_de_poder(campos: dict[str, str], corpo: list[str]) -> str:
     return ESCALA_POR_PESO[eixos[0] + eixos[1]]
 
 
-def cooldown_derivado(escala_arma: str, campos: dict[str, str], escala: str = "") -> str:
+def cooldown_derivado(escala_arma: str, campos: dict[str, str], escala: str = "",
+                      acao: str = "") -> str:
     """O padrão de Cooldown: pelo grau, nas de arma; pelo Mana, nas gerais.
+
+    Reação e Passiva ficam de fora — a Reação já é limitada pelo próprio
+    gatilho (é o que `regras-de-habilidade.md#cooldown` diz), e a Passiva nunca
+    é ativada. Sem esta guarda elas caíam na faixa de Mana como qualquer outra.
 
     As habilidades que pagam com **Vida** (as de Sangue, o Preço de Sangue) não
     têm Mana pra consultar — nelas o cooldown vem da Escala de Poder, que é a
     única medida de tamanho que sobra.
     """
+    if acao in ("Reação", "Passiva"):
+        return "—"
     if escala_arma in ESCALA_COOLDOWN:
         return ESCALA_COOLDOWN[escala_arma]
     teto = mana_maxima(campos)
@@ -1011,7 +1018,7 @@ def ficha_tecnica_valores(
             or componentes_por_natureza(campos)
         ),
         "Cooldown": texto_puro(campos.get("Cooldown", ""))
-        or cooldown_derivado(escala, campos, escala),
+        or cooldown_derivado(escala, campos, escala, acao),
     }
 
 
