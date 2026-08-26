@@ -1213,10 +1213,6 @@ novas do `verifica.py` pega isso**, porque é número, não vocabulário — é 
 
 **Defeitos conhecidos, medidos e não corrigidos:**
 
-4. **Os três tipos de dano físico não têm assinatura mecânica** — Cortante, Impacto e Perfurante são
-   decorativos no glossário, enquanto os 10 elementos têm tabela própria. É essa lacuna que empurra
-   toda habilidade marcial nova pro mesmo "empurra + derruba"; a leva de hoje tratou 8 sintomas, não
-   a causa
 5. **As três camadas de duplicatas estão fechadas.** A A (clones literais) e a B (redundância de
    forma) foram zeradas do que era defeito; a C foi **aposentada como métrica** — ver acima. O que
    sobra em `notas/duplicatas.md` é registro histórico, não fila de trabalho
@@ -1232,8 +1228,10 @@ novas do `verifica.py` pega isso**, porque é número, não vocabulário — é 
    passagem, nunca investigada
 9. **Familiares de Conjuração** — *Olhos Emprestados* e *Chama de Bolso* têm ficha idêntica (Menor,
    ◈ + 6 Mana, vínculo permanente que não cresce); só o efeito utilitário difere
-10. **Condições órfãs** — `Silenciado` estava definido no glossário e era aplicado por *nenhuma*
-    habilidade até 2026-08-26. Vale varrer o glossário atrás de outras
+10. **Condições órfãs — varredura não feita.** Quatro apareceram por acaso em 2026-08-27
+    (`Silenciado` definido e nunca aplicado; `Caído`, `Estável` e `Último Turno` aplicados sem
+    verbete; `Couraça` decidindo a defesa de 56 criaturas sem existir no glossário) e foram
+    resolvidas. **Ninguém varreu o resto** — a checagem nova do `verifica.py` pega só o segundo tipo
 11. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — adiado de propósito. As reescalas de
     bônus de 2026-08-26 **não** atacaram isso: mexeram no bônus plano, não no dado das habilidades
 
