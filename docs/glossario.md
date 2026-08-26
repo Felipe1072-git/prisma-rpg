@@ -88,7 +88,6 @@ A proteção que o corpo já tem: escamas, carapaça, placas ósseas, couro curt
 
 - **Nas criaturas** é a *Couraça Natural*, em cinco degraus — Nenhuma +0, Coriácea +5, Escamada +10, Blindada +15, Dracônica +20. A ficha **não mostra o número**: ele já está somado na Evasão, e exibi-lo de novo faria parecer que são dois valores. Ver [Criando uma Criatura](mestre/criando-criaturas.md#couraca-natural).
 - **Nos personagens** quem ocupa esse lugar da fórmula é o [Escudo](#escudo-item). A **Armadura não soma na Evasão** — ela entra na [Vida](#vida) máxima, porque ajuda a aguentar pancada, não a desviar dela.
-- Armas **[Perfurantes](#perfurante)** atravessam a Couraça: é a assinatura do tipo (ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano)).
 
 ### Fortitude Física
 
@@ -290,7 +289,7 @@ Focos mágicos — canalização sem forma física definida.
 
 ### Resistência
 
-O dano daquele tipo cai pela **metade** (arredondado pra baixo).
+O dano daquele tipo cai pela **metade** (arredondado pra baixo) — e, se for um tipo **físico**, a [assinatura dele não acontece](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano): resistente a Cortante não fica Sangrando, a Impacto não é derrubado nem fica Lento, a Perfurante não leva o dano extra. A arma errada perde o efeito, não só metade do número.
 
 ### Imunidade
 

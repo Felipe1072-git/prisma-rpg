@@ -141,12 +141,23 @@ não é só o rótulo do que a lâmina faz: ele decide o **que sobra depois do g
 |---|---|---|---|---|
 | **Cortante** | a ferida não fecha | [Sangrando](../glossario.md#sangrando) | Sangrando a **8d4** | Sangrando a **12d4** |
 | **Impacto** | derruba a postura | derruba | derruba e [Lento](../glossario.md#lento) | derruba, Lento, e **levantar custa ◈ a mais** |
-| **Perfurante** | atravessa a defesa | ignora a **Couraça** do alvo | ignora Couraça e [Escudo](../glossario.md#escudo) | ignora Couraça, Escudo e **Resistência a dano físico** |
+| **Perfurante** | acha a brecha | **+1d6** contra alvo preso | **+2d6** contra alvo preso | **+3d6** contra alvo preso |
 | **Arcano** | o golpe realimenta | devolve **1 Mana** | devolve **2 Mana** | devolve **3 Mana** |
+
+**Alvo preso** é qualquer criatura que não consiga se desviar: [Lento](../glossario.md#lento),
+[Imóvel](../glossario.md#imovel), [Atordoado](../glossario.md#atordoado),
+[Agarrado](../glossario.md#agarrado) ou [Derrubado](../glossario.md#derrubado). É por isso que o
+**Impacto e o Perfurante conversam**: o martelo derruba, e a lança cobra por isso.
 
 A assinatura **vem junto com o dano**, sem custo à parte: uma Habilidade Básica de espada não precisa
 dizer "e o alvo fica Sangrando" — ela sangra porque é cortante. A ficha só escreve o que **foge** da
 assinatura.
+
+!!! nota "Resistência apaga a assinatura, não só o dano"
+    Uma criatura **Resistente** a um tipo físico não sofre a assinatura dele: resistente a Cortante
+    não fica [Sangrando](../glossario.md#sangrando), a Impacto não é derrubado nem fica
+    [Lento](../glossario.md#lento), a Perfurante não leva o dano extra. Um esqueleto não sangra, e
+    um slime não cai de costas — a arma errada perde o efeito, não só metade do número.
 
 !!! nota "Por que o Arcano devolve tão pouco"
     Uma arma mágica nunca se paga: a devolução máxima (3) fica abaixo do custo mínimo de uma
@@ -275,9 +286,9 @@ Dano: **1d4**
 
 - **Chave:** [Adagas](../glossario.md#adagas) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d4 de dano, ignorando a [Couraça](../glossario.md#couraca)
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d6 de dano, ignorando a [Couraça](../glossario.md#couraca) e o [Escudo](../glossario.md#escudo-item), e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d6 de dano, ignorando a [Couraça](../glossario.md#couraca), o [Escudo](../glossario.md#escudo-item) e a [Resistência](../glossario.md#resistencia) a dano físico, derruba o alvo, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d4 de dano, +1d6 contra alvo preso
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d6 de dano, +2d6 contra alvo preso, e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d6 de dano, +3d6 contra alvo preso, derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Fúria Fatal** — *Avançada*
@@ -430,7 +441,7 @@ Dano: **1d12**
 
 - **Chave:** [Balista](../glossario.md#balista) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** linha de 12 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d12 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d12 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d20 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d20 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -441,7 +452,7 @@ Dano: **1d12**
 
 - **Chave:** [Balista](../glossario.md#balista) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d12 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d12 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d20 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d20 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -452,7 +463,7 @@ Dano: **1d12**
 
 - **Chave:** [Balista](../glossario.md#balista) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alvos:** duas linhas de 3 casas, uma de cada lado do usuário
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d12 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d12 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d20 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d20 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -508,7 +519,7 @@ Dano: **1d6**
 
 - **Chave:** [Bestas](../glossario.md#bestas) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** 6 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d8 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -519,9 +530,9 @@ Dano: **1d6**
 
 - **Chave:** [Bestas](../glossario.md#bestas) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e, ignorando a [Couraça](../glossario.md#couraca), o [Escudo](../glossario.md#escudo-item) e a [Resistência](../glossario.md#resistencia) a dano físico
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e, +3d6 contra alvo preso
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Investida Retumbante** — *Especial*
@@ -530,7 +541,7 @@ Dano: **1d6**
 
 - **Chave:** [Bestas](../glossario.md#bestas) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d6 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca), e o usuário se desloca até o fim da linha
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d6 de dano em cada alvo, +1d6 contra alvo preso, e o usuário se desloca até o fim da linha
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d8 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -940,7 +951,7 @@ Dano: **1d10**
 
 - **Chave:** [Espingarda](../glossario.md#espingarda) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** 10 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d10 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d10 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d12 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d12 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -963,7 +974,7 @@ Dano: **1d10**
 - **Chave:** [Espingarda](../glossario.md#espingarda) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alcance:** 12 casas | **Alvos:** 1 criatura
 - **Efeito:** em qualquer Intensidade, este ataque ignora o bônus de Armadura do alvo (a Defesa é calculada sem ele)
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d10 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d10 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d12 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d12 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -991,7 +1002,7 @@ Dano: **1d8**
 
 - **Chave:** [Flintlock](../glossario.md#flintlock) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Ataque | **Alcance:** 5 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d8 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d8 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -1017,7 +1028,7 @@ Dano: **1d6**
 
 - **Chave:** [Florete](../glossario.md#florete) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, ignorando a [Couraça](../glossario.md#couraca), e o usuário se desloca até o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, +1d6 contra alvo preso, e o usuário se desloca até o alvo
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -1028,7 +1039,7 @@ Dano: **1d6**
 
 - **Chave:** [Florete](../glossario.md#florete) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Ataque | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d8 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -1039,9 +1050,9 @@ Dano: **1d6**
 
 - **Chave:** [Florete](../glossario.md#florete) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alvos:** todas as criaturas adjacentes
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d6 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
-- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d8 de dano, ignorando a [Couraça](../glossario.md#couraca) e o [Escudo](../glossario.md#escudo-item)
-- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d8 de dano, ignorando a [Couraça](../glossario.md#couraca), o [Escudo](../glossario.md#escudo-item) e a [Resistência](../glossario.md#resistencia) a dano físico, e derruba cada alvo
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d6 de dano em cada alvo, +1d6 contra alvo preso
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d8 de dano, +2d6 contra alvo preso
+- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d8 de dano, +3d6 contra alvo preso, e derruba cada alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
 
 ## Foice
@@ -1136,7 +1147,7 @@ Dano: **1d6**
 
 - **Chave:** [Gakkung](../glossario.md#gakkung) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, ignorando a [Couraça](../glossario.md#couraca), e o usuário se desloca até o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, +1d6 contra alvo preso, e o usuário se desloca até o alvo
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -1147,9 +1158,9 @@ Dano: **1d6**
 
 - **Chave:** [Gakkung](../glossario.md#gakkung) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano, ignorando a [Couraça](../glossario.md#couraca)
-- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d8 de dano, ignorando a [Couraça](../glossario.md#couraca) e o [Escudo](../glossario.md#escudo-item), e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano, ignorando a [Couraça](../glossario.md#couraca), o [Escudo](../glossario.md#escudo-item) e a [Resistência](../glossario.md#resistencia) a dano físico, e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano, +1d6 contra alvo preso
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d8 de dano, +2d6 contra alvo preso, e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano, +3d6 contra alvo preso, e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Rajada Explosiva** — *Especial*
@@ -1216,7 +1227,7 @@ Dano: **1d6**
 
 - **Chave:** [Gládio](../glossario.md#gladio) - [Básica](../glossario.md#basica) - [Híbrida](../glossario.md#hibrida)
 - **Atributo:** Ataque ou Magia | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, ignorando a [Couraça](../glossario.md#couraca), e o usuário se desloca até o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, +1d6 contra alvo preso, e o usuário se desloca até o alvo
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -1540,7 +1551,7 @@ Dano: **1d10**
 
 - **Chave:** [Lança](../glossario.md#lanca) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** 2 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d10 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d10 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d12 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d12 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -1551,9 +1562,9 @@ Dano: **1d10**
 
 - **Chave:** [Lança](../glossario.md#lanca) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Ataque | **Alcance:** 2 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d10 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d10 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d12 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d12 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e, ignorando a [Couraça](../glossario.md#couraca), o [Escudo](../glossario.md#escudo-item) e a [Resistência](../glossario.md#resistencia) a dano físico
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d12 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e, +3d6 contra alvo preso
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte Compacto** — *Especial*
@@ -1562,7 +1573,7 @@ Dano: **1d10**
 
 - **Chave:** [Lança](../glossario.md#lanca) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d10 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d10 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d12 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -1897,7 +1908,7 @@ Dano: **1d12**
 
 - **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d12 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d12 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d20 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d20 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -1919,7 +1930,7 @@ Dano: **1d12**
 
 - **Chave:** [Metralhadora](../glossario.md#metralhadora) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d12 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d12 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d20 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d20 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -2089,8 +2100,8 @@ Dano: **1d10**
 - **Chave:** [Pique](../glossario.md#pique) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** 2 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d10 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d12 de dano + [Sangrando](../glossario.md#sangrando) e, ignorando a [Couraça](../glossario.md#couraca) e o [Escudo](../glossario.md#escudo-item)
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d12 de dano + [Sangrando](../glossario.md#sangrando), ignorando a [Couraça](../glossario.md#couraca), o [Escudo](../glossario.md#escudo-item) e a [Resistência](../glossario.md#resistencia) a dano físico, e derruba o alvo, e o Sangrando causa 8d4 em vez de 4d4
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d12 de dano + [Sangrando](../glossario.md#sangrando) e, +2d6 contra alvo preso
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d12 de dano + [Sangrando](../glossario.md#sangrando), +3d6 contra alvo preso, e derruba o alvo, e o Sangrando causa 8d4 em vez de 4d4
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Golpe Relâmpago** — *Avançada*
@@ -2099,7 +2110,7 @@ Dano: **1d10**
 
 - **Chave:** [Pique](../glossario.md#pique) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Ataque | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d10 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca), e o usuário se desloca até o fim da linha
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d10 de dano em cada alvo, +1d6 contra alvo preso, e o usuário se desloca até o fim da linha
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d12 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d12 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -2127,7 +2138,7 @@ Dano: **1d8**
 
 - **Chave:** [Pistola Arcana](../glossario.md#pistola-arcana) - [Básica](../glossario.md#basica) - [Híbrida](../glossario.md#hibrida)
 - **Atributo:** Ataque ou Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -2149,7 +2160,7 @@ Dano: **1d8**
 
 - **Chave:** [Pistola Arcana](../glossario.md#pistola-arcana) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#hibrida)
 - **Atributo:** Ataque ou Magia | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d8 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d8 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -2166,7 +2177,7 @@ Dano: **1d6**
 
 - **Chave:** [Pistolas](../glossario.md#pistolas) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -2177,7 +2188,7 @@ Dano: **1d6**
 
 - **Chave:** [Pistolas](../glossario.md#pistolas) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** até 2 criaturas diferentes ao alcance
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d8 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -2241,8 +2252,8 @@ Dano: **1d6**
 - **Chave:** [Punhal](../glossario.md#punhal) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano + alvo fica [Sangrando](../glossario.md#sangrando)
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d8 de dano + Sangrando, ignorando a [Couraça](../glossario.md#couraca) e o [Escudo](../glossario.md#escudo-item)
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + Sangrando, ignorando a [Couraça](../glossario.md#couraca), o [Escudo](../glossario.md#escudo-item) e a [Resistência](../glossario.md#resistencia) a dano físico, e derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d8 de dano + Sangrando, +2d6 contra alvo preso
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + Sangrando, +3d6 contra alvo preso, e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Corte Ceifador** — *Avançada*
@@ -2262,7 +2273,7 @@ Dano: **1d6**
 
 - **Chave:** [Punhal](../glossario.md#punhal) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d6 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d6 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d8 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado (perde **4d4 de Vida no início de cada turno dele até o fim da cena** — e nenhum efeito remove ou cura a ferida)
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d8 de dano + derruba o alvo + alvo fica com um Ferimento Amaldiçoado que sangra **8d4 por turno** em vez de 4d4 (mesmas regras: até o fim da cena, sem remoção nem cura)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -2279,7 +2290,7 @@ Dano: **1d6**
 
 - **Chave:** [Rapiers](../glossario.md#rapiers) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d6 de dano, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d8 de dano + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d8 de dano + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
@@ -2290,7 +2301,7 @@ Dano: **1d6**
 
 - **Chave:** [Rapiers](../glossario.md#rapiers) - [Avançada](../glossario.md#avancada)
 - **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** 2 casas de raio ao redor do usuário
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d6 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d8 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -2301,7 +2312,7 @@ Dano: **1d6**
 
 - **Chave:** [Rapiers](../glossario.md#rapiers) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alcance:** linha de 6 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d6 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d6 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d8 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d8 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -2331,7 +2342,7 @@ Dano: **1d8**
 
 - **Chave:** [Revólver Maverick](../glossario.md#revolver-maverick) - [Avançada](../glossario.md#avancada) - [Híbrida](../glossario.md#hibrida)
 - **Atributo:** Ataque ou Magia | **Alcance:** 8 casas (ponto de impacto) | **Alvos:** 2 casas de raio do ponto
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d8 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 2d8 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -2342,7 +2353,7 @@ Dano: **1d8**
 
 - **Chave:** [Revólver Maverick](../glossario.md#revolver-maverick) - [Especial](../glossario.md#especial) - [Híbrida](../glossario.md#hibrida)
 - **Atributo:** Ataque ou Magia | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d8 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d8 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d10 de dano + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d10 de dano + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -2517,9 +2528,9 @@ Dano: **1d8**
 
 - **Chave:** [Tridente](../glossario.md#tridente) - [Básica](../glossario.md#basica)
 - **Atributo:** Ataque | **Alcance:** 2 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano, ignorando a [Couraça](../glossario.md#couraca)
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano, ignorando a [Couraça](../glossario.md#couraca) e o [Escudo](../glossario.md#escudo-item), e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano, ignorando a [Couraça](../glossario.md#couraca), o [Escudo](../glossario.md#escudo-item) e a [Resistência](../glossario.md#resistencia) a dano físico, e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano, +1d6 contra alvo preso
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano, +2d6 contra alvo preso, e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano, +3d6 contra alvo preso, e derruba o alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Puxão das Profundezas** — *Avançada*
@@ -2539,7 +2550,7 @@ Dano: **1d8**
 
 - **Chave:** [Tridente](../glossario.md#tridente) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** todas as criaturas adjacentes
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d8 de dano em cada alvo, ignorando a [Couraça](../glossario.md#couraca)
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d8 de dano em cada alvo, +1d6 contra alvo preso
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d10 de dano + cada alvo fica [Marcado](../glossario.md#marcado)
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d10 de dano + cada alvo fica [Marcado](../glossario.md#marcado), e derruba cada alvo
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos os alvos, e sobe 1 Intensidade
@@ -2701,7 +2712,7 @@ Dano: **1d4**
 - **Atributo:** Ataque | **Alcance:** 6 casas | **Alvos:** 1 criatura
 - **Intensidade I — ◈ (1 PA) + 9 Mana:** 3d4 de dano + alvo fica Lento até o fim do próximo turno dele
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** 3d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
-- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e, ignorando a [Couraça](../glossario.md#couraca), o [Escudo](../glossario.md#escudo-item) e a [Resistência](../glossario.md#resistencia) a dano físico
+- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** 6d6 de dano + alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e, +3d6 contra alvo preso
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 ## Resolução de Ataque

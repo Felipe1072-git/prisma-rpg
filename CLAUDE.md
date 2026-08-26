@@ -1012,7 +1012,7 @@ espelhando a Assinatura de Elemento — três degraus, um por Intensidade:
 |---|---|---|
 | **Cortante** | a ferida não fecha | Sangrando → 8d4 → 12d4 |
 | **Impacto** | derruba a postura | derruba → derruba e Lento → levantar custa ◈ a mais |
-| **Perfurante** | atravessa a defesa | ignora Couraça → e Escudo → e Resistência física |
+| **Perfurante** | acha a brecha | +1d6 → +2d6 → +3d6 contra **alvo preso** |
 | **Arcano** | o golpe realimenta | devolve 1 → 2 → 3 Mana |
 
 O autor escolheu **substituir o empurrão genérico nas fichas**, não herdar por regra: dá ~150 fichas,
@@ -1102,6 +1102,34 @@ acerta quem **resistiu** ao primeiro — mecânica que só passou a existir com 
 
 ⚠ A checagem de âncora do `verifica.py` pegou um link meu: escrevi `#empurrar`, e o verbete é
 **Empurrar e Puxar** (`#empurrar-e-puxar`).
+
+**A assinatura Perfurante refeita no mesmo dia (2026-08-27).** A primeira versão — *ignora a
+Couraça* — foi rejeitada pelo autor **depois de publicada**, e com razão: **a ficha de criatura não
+mostra a Couraça** (decisão de 2026-08-02), então a assinatura pedia um número que o card esconde.
+
+⚠ **O projeto já registrava esse custo**, na entrada do stat block: *"os três efeitos que ignoram o
+bônus de Armadura obrigam o Mestre a buscar o valor fora do card"*. Eram três exceções toleradas — eu
+li isso no começo da sessão e mesmo assim transformei o problema na assinatura de um tipo inteiro,
+multiplicando por 19. **O critério que faltava: uma assinatura tem que ser aplicável sem consultar
+nada.** Sangrando e derrubar passam; "ignora um número escondido" não.
+
+E o autor derrubou a alternativa óbvia com um argumento melhor que o meu: *ignorar Resistência física*
+**contradiz o Bestiário**, porque as resistências são por tipo — o Golem de Ferro resiste a Perfurante
+especificamente, e nada diria quem vence. **Assinatura que precisa de árbitro não é assinatura.**
+
+A versão final: **+1d6 / +2d6 / +3d6 contra alvo preso** — `Lento`, `Imóvel`, `Atordoado`, `Agarrado`
+ou derrubado. Zero consulta (o estado está visível na mesa), vale igual nas 23 de alvo único e nas 14
+de área, e **faz o Impacto conversar com o Perfurante**: o martelo derruba, a lança cobra por isso.
+
+⚠ Duas alternativas caíram por **cobrir só metade das habilidades**: "critica mais fácil" não existe
+nas 14 de área (lá quem rola é o alvo, desde a mudança de resolução), e "atravessa quem está atrás"
+não acrescenta nada a uma habilidade que já pega a linha inteira.
+
+**Resistência passou a apagar a assinatura, não só metade do dano** (decisão do autor). Resistente a
+Cortante não fica Sangrando, a Impacto não é derrubado nem fica Lento, a Perfurante não leva o dano
+extra. O gatilho foi a pergunta dele: um **esqueleto** resistente a Cortante sangrava, o que é
+absurdo. Afeta **12 das 56 criaturas** — e nas três que resistem aos três tipos físicos (Enxame,
+Sombra, Carniçal) a arma física perde quase toda a utilidade, que é justamente o papel delas.
 
 Em aberto:
 
