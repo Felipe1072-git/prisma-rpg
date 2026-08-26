@@ -1177,10 +1177,16 @@ papéis diferentes (Cortante = dano, Impacto = controle, Perfurante = combo):
 Treinado que bate 11,7 isso é **+85% de dano**; num Lendário que bate 30,5, é +33%. A mesma regra pesa
 o dobro nos Tiers baixos, e isso vale igual pras armas dos personagens.
 
+⚠ **Não escale o Sangrando.** A ideia foi levantada e **o autor recusou, com razão**: `4d4` fixo é
+trivial de lembrar, e — o que importa mais — **é o mesmo número em dois lugares**, porque o Sangrando
+marca o mesmo valor em Estresse. Quem rolou os `4d4` já sabe os dois efeitos sem uma segunda conta.
+Escalar com a fonte tornaria o dano variável e obrigaria o Estresse a acompanhar (mais uma conta por
+turno) ou a divergir (dois números onde hoje há um). A distorção entre Tiers é o **preço aceito** por
+uma regra que se aplica sem pensar.
+
 **A pergunta que só a mesa responde:** um Treinado cortante passou de 11,7 por acerto pra quase 22
-(golpe + Sangrando). Se os combates ficarem curtos demais, o primeiro lugar a olhar é este — e o
-ajuste provável é **fazer o Sangrando escalar com o dano do golpe que o causou** (proposta rejeitada
-hoje em favor dos papéis diferentes, mas que resolveria a distorção entre Tiers de uma vez).
+(golpe + Sangrando). Se os combates ficarem curtos demais, o lugar de mexer é o **dado base dos
+ataques cortantes** — ou a frequência com que a assinatura dispara —, nunca a fórmula do Sangrando.
 
 Em aberto:
 
