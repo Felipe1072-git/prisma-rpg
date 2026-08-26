@@ -971,8 +971,13 @@ espelhando a Assinatura de Elemento — três degraus, um por Intensidade:
 | **Arcano** | o golpe realimenta | devolve 1 → 2 → 3 Mana |
 
 O autor escolheu **substituir o empurrão genérico nas fichas**, não herdar por regra: dá ~150 fichas,
-feitas **um tipo por vez**. Saíram **Cortante** (57 habilidades, 19 armas) e **Perfurante** (57
-habilidades, 19 armas) — nenhuma das duas famílias empurra mais. **Falta o Impacto** (33).
+feitas **um tipo por vez**. Os três saíram: **Cortante** (57), **Perfurante** (57) e **Impacto** (36).
+**Nenhuma arma física do jogo empurra mais** — o verbo agora vem do tipo de dano.
+
+O Impacto foi o mais delicado dos três, porque **90% das fichas dele já derrubavam**: substituir o
+empurrão por "derruba" duplicaria a cláusula. A lógica precisou somar **só o degrau que faltava**
+(o `Lento` na II, o custo de levantar na III) e **grudá-lo no derrubar que já estava na frase** —
+senão saíam duas orações soltas ligadas por "e" repetido.
 
 ⚠ **O Arcano não muda ficha nenhuma.** A devolução de Mana é um efeito no *usuário*, não no alvo, então
 não tem o que substituir: as 19 habilidades de foco mágico que empurram **continuam empurrando**, e a
