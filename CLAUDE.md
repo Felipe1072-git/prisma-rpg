@@ -922,6 +922,11 @@ Em aberto:
 11. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — adiado de propósito. As reescalas de
     bônus de 2026-08-26 **não** atacaram isso: mexeram no bônus plano, não no dado das habilidades
 
+12. **Limiar de Crítico na ficha de criatura** — pedido do autor: o Mestre hoje calcula `Sorte ÷ 3`
+    de cabeça no meio do turno. **Derive no hook, não escreva na ficha**: a Sorte já está na linha de
+    Atributos de todas as 52, então o número sai sozinho no build e nunca dessincroniza quando a
+    Sorte de uma criatura mudar. Vira mais um tile do stat block, ao lado de Ataque e Evasão
+
 **Trabalho novo, quando houver vontade:**
 
 12. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
