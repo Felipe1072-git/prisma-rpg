@@ -35,6 +35,20 @@ Voo, deslocamento.
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** o usuário se desloca até 5 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o usuário se desloca até 6 casas em qualquer direção, ignorando Terreno Difícil e passando livremente por criaturas e obstáculos nesse movimento.
 
+**Passo de Parede**
+
+*O chão deixa de ser o único lugar onde dá pra pisar.*
+
+- **Chave:** [Mobilidade](../glossario.md#mobilidade)
+- **Atributo:** Agilidade | **Alvos:** o próprio usuário
+- **Vs:** — | **Resolução:** Automática
+- **Enquanto durar:** o usuário trata paredes, tetos e qualquer superfície sólida como chão — anda sobre elas com o Movimento normal, sem teste e sem cair
+- **Precisa de superfície contínua:** um vão aberto continua sendo um vão, e atravessá-lo pede [Voo](../jogar/combate.md#voo) ou um salto
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** por 3 rodadas
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** por 5 rodadas, e enquanto estiver numa parede ou teto o usuário ganha +5 de [Evasão](../glossario.md#evasao)
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** até o fim da [cena](../glossario.md#cena), com o mesmo +5 de Evasão, e os ataques que ele fizer de uma parede ou teto rolam com [Vantagem](../glossario.md#vantagem)
+- *(Sem Crítico — não há rolagem de ataque nesta habilidade)*
+
 **Postura da Sombra** *(usada como Reação)*
 
 *Um tronco surge no lugar do corpo — o verdadeiro golpe já está vindo por trás do inimigo.*

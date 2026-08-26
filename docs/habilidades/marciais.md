@@ -35,15 +35,16 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 **Ataque com Escudo** *(Moderado)*
 
-*O escudo vira arma — um golpe seco que usa o peso do metal pra empurrar e desequilibrar.*
+*O escudo vira arma — um golpe seco que usa o peso do metal pra jogar o inimigo longe.*
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Requisito:** usuário precisa ter algum Escudo (item) equipado — [Broquel](../equipamento/index.md#equ-broquel), [Escudo](../equipamento/index.md#equ-escudo), [Escudo Pesado](../equipamento/index.md#equ-escudo-pesado) ou [Escudo Torre](../equipamento/index.md#equ-escudo-torre)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + empurra 2 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + empurra 3 casas, derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
+- **Colisão:** o empurrão tem força pra machucar no impacto — **exceção declarada** à regra de [empurrar](../glossario.md#empurrar-e-puxar), que normalmente não causa dano de colisão
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 2 casas; quem bater num obstáculo antes de completar o deslocamento sofre mais 2d4
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + empurra 2 casas e derruba o alvo, e a colisão passa a causar 4d4
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + empurra 3 casas, derruba o alvo, e ele fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele, e a colisão passa a causar 6d4
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Caminho da Espada**
@@ -221,6 +222,20 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + alvo fica [Marcado](../glossario.md#marcado)
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + Marcado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + Marcado + derruba o alvo, e ele perde a próxima Reação
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
+
+**Golpe do Acaso**
+
+*A lâmina sai sem plano nenhum — e alguma coisa além da perícia decide onde ela vai parar.*
+
+- **Chave:** [Marciais](../glossario.md#marciais)
+- **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
+- **Vs:** [Evasão](../glossario.md#evasao) | **Resolução:** Ataque
+- **Dano:** usa o dado de dano da arma equipada
+- **O dado decide:** ao acertar, role 1d6. Esta habilidade não usa o limiar de [Crítico](../jogar/testes.md#criticos) do personagem — aqui quem decide o Crítico é o d6, e só ele
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** dado de dano da arma + 1d6 de dano; num 6, o golpe é Crítico
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** dado de dano da arma + 2d6 de dano; num 5 ou 6, o golpe é Crítico
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** dado de dano da arma + 3d6 de dano; num 4, 5 ou 6, o golpe é Crítico
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Carga com Lança** *(Moderado)*

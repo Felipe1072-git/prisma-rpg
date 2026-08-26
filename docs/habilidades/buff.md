@@ -379,6 +379,23 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Intensidade II — ◈◈ (2 PA) + 27 Mana:** por 2 rodadas, o usuário ganha um Escudo de 3d6 pontos e não pode ser derrubado. Enquanto o Escudo durar, qualquer criatura que acertar o usuário corpo a corpo sofre 2d4 de dano automático.
 - **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** por 2 rodadas, o usuário ganha um Escudo de 4d6 pontos e não pode ser derrubado. Enquanto o Escudo durar, qualquer criatura que acertar o usuário corpo a corpo sofre 3d4 de dano automático.
 
+**Muralha de Reversão** *(usada como Reação)*
+
+*O golpe encontra a muralha, e a muralha não cede — o que ela segura volta inteiro pra quem bateu.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Ataque | **Alvos:** o próprio usuário
+- **Duração:** até a Muralha se esgotar, ou até o fim da [cena](../glossario.md#cena)
+- *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
+- **Enquanto durar:** todo dano de ataque corpo a corpo contra o usuário é absorvido pela Muralha até onde ela alcançar, e o atacante sofre automaticamente dano igual ao que foi absorvido. A Muralha perde esses pontos; o dano que sobrar passa, e o usuário o sofre normalmente. Ataques à distância a atravessam sem serem absorvidos nem refletidos.
+- **A Muralha não é um [Escudo](../glossario.md#escudo):** os dois convivem e nenhum substitui o outro — a Muralha absorve primeiro, e só o que passar por ela chega ao Escudo
+- **O dano refletido não tem tipo:** é a força do próprio atacante voltando, não um golpe do usuário — não carrega [assinatura de tipo de dano](../jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano), e nenhuma [Resistência](../glossario.md#resistencia) por tipo o reduz
+- **Reaplicar** restaura a Muralha ao valor cheio; não empilha
+- **Intensidade I — 0 PA + 12 Mana:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra erguer a Muralha antes daquele golpe ser resolvido — ela já absorve e reflete o ataque que a disparou. A Muralha tem Defesa ÷ 4 pontos, arredondado pra baixo.
+- **Intensidade II — 0 PA + 21 Mana:** o mesmo, com Defesa ÷ 3 pontos.
+- **Intensidade III — 0 PA + 30 Mana:** o mesmo, com Defesa ÷ 2 pontos.
+- *(Sem Crítico — não há rolagem de ataque nesta habilidade)*
+
 **Módulo de Comando** *(Maior)*
 
 *Parte do sistema de defesa é redirecionado pra ofensiva — menos blindagem, mais poder de fogo.*
@@ -408,6 +425,19 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Intensidade I — ◈ (1 PA) + 24 Mana:** por 2 rodadas, o usuário ganha +5 de Defesa.
 - **Intensidade II — ◈◈ (2 PA) + 33 Mana:** por 2 rodadas, o usuário ganha +10 de Defesa.
 - **Intensidade III — ◈◈◈ (3 PA) + 42 Mana:** por 2 rodadas, o usuário ganha +15 de Defesa.
+
+**Guarda Crescente**
+
+*Cada golpe que acerta ensina alguma coisa — e o corpo aprende a não ser tocado.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Atributo:** Ataque | **Alvos:** o próprio usuário
+- **Vs:** — | **Resolução:** Automática
+- **Acúmulo:** toda vez que o usuário acertar um ataque, ele ganha +5 de [Evasão](../glossario.md#evasao) — errar não tira o que já foi acumulado, e tudo some quando a habilidade acaba
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 3 rodadas, até 2 acúmulos (no máximo +10 de Evasão)
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 4 rodadas, até 3 acúmulos (no máximo +15 de Evasão)
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 5 rodadas, até 4 acúmulos (no máximo +20 de Evasão)
+- *(Sem Crítico — não há rolagem de ataque nesta habilidade)*
 
 **Fúria do Lobo** *(Maior)*
 
@@ -712,6 +742,16 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Chave:** [Buff](../glossario.md#buff)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
 - **Efeito:** o usuário não pode ser alvo de habilidades de leitura de mente involuntária (como Ler a Superfície). Além disso, sempre que uma criatura causar dano ao usuário com um ataque, ela sofre de volta a metade daquele dano (arredondado pra baixo).
+
+**Maré de Sorte** *(Passiva)*
+
+*O acaso não é neutro perto dela — inclina, e sempre pro mesmo lado.*
+
+- **Chave:** [Buff](../glossario.md#buff)
+- **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
+- **Efeito:** a Sorte do usuário conta **dobrada**. Como qualquer aumento de atributo, isso vale pra tudo que a Sorte alimenta: o [limiar de Crítico](../jogar/testes.md#criticos), a [Iniciativa](../glossario.md#iniciativa) e as [Rerolagens](../jogar/testes.md#rerolagens) por descanso.
+- **O que isso significa na mesa:** com Sorte 50, o limiar de Crítico sobe de 16 pra 33 — e ele decide duas coisas, não uma: os golpes que criticam, e os efeitos de área dos quais o usuário [escapa por completo](../jogar/regras-de-habilidade.md#teste-de-resistencia).
+- **Coincidência favorável:** uma vez por [descanso longo](../jogar/exploracao.md#descanso), fora de combate, o usuário pode declarar uma pequena coincidência a favor dele — a porta que ficou destrancada, o guarda que se distraiu, o item comum que estava bem ali. O Mestre tem a palavra final, e veta o que resolveria a cena de uma vez.
 
 **Forma do Pavor** *(Maior)*
 

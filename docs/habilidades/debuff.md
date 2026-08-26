@@ -99,6 +99,19 @@ Criar desvantagens para inimigos ou em testes.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando) causando 8d4, e o alvo rola o próximo ataque com [Desvantagem](../glossario.md#desvantagem)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
+**Golpe Debilitante**
+
+*Um golpe certeiro no braço armado — o inimigo continua lutando, mas nunca mais com a mesma força.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Ataque | **Alcance:** corpo a corpo | **Alvos:** 1 criatura
+- **Vs:** [Evasão](../glossario.md#evasao) | **Resolução:** Ataque
+- **Braço ferido:** a penalidade vale em **todo teste de Ataque** do alvo — o golpe tira a força do braço, não a pontaria de uma técnica só
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano + o alvo sofre -5 em testes de Ataque até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + o alvo sofre -10 em testes de Ataque por 2 rodadas
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano + o alvo sofre -15 em testes de Ataque por 3 rodadas
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
+
 **Abismo** *(Maior)*
 
 *A lâmina se estilhaça em fragmentos, atacando o alvo de múltiplos ângulos.*
@@ -183,6 +196,20 @@ Criar desvantagens para inimigos ou em testes.
 - **Resistiu:** o alvo resiste com **Social** — o efeito não acontece
 - **Acerto:** até o fim do próximo turno de cada alvo, ele só pode atacar o usuário desta habilidade (se for capaz de fazê-lo)
 - *(Custo fixo — rola teste de ataque contra a **Fortitude Mágica** de cada alvo)*
+
+**Pisar na Sombra**
+
+*Um pé desce sobre a sombra do inimigo — e o inimigo descobre que a sombra também é ele.*
+
+- **Chave:** [Debuff](../glossario.md#debuff)
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** [Fortitude Mágica](../glossario.md#fortitude-magica) | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Resistiu:** o alvo resiste com **Magia** — o efeito não acontece
+- **Precisa de sombra:** só funciona se o alvo projetar sombra — não pega criatura incorpórea, nem funciona em escuridão total
+- **O pé não pode sair:** enquanto durar, o usuário não pode se mover; se ele gastar Movimento, for empurrado, puxado ou teleportado, o efeito acaba na hora
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** o alvo fica [Imóvel](../glossario.md#imovel) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** o mesmo, e enquanto estiver Imóvel ele só pode atacar o usuário
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** o mesmo, por 2 rodadas, e os ataques dele rolam com [Desvantagem](../glossario.md#desvantagem)
+- *(Sem Crítico — num Teste de Resistência quem rola é o alvo)*
 
 **Quebra de Arma** *(Moderado)*
 

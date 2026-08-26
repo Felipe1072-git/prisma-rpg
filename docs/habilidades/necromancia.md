@@ -102,6 +102,20 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Intensidade III — ◈◈◈ (3 PA) + 3d4 de Vida:** 4d6 de dano, e o usuário recupera Vida igual à metade do dano causado.
 - **Crítico:** dano máximo dos dados da Intensidade usada + rolagem extra, e sobe 1 Intensidade
 
+**Banquete Profano**
+
+*Não sobra nada no chão — e o que era do morto passa a ser dele.*
+
+- **Chave:** [Necromancia](../glossario.md#necromancia)
+- **Atributo:** Magia | **Alcance:** corpo a corpo | **Alvos:** 1 cadáver adjacente, de qualquer criatura
+- **Vs:** — | **Resolução:** Automática | **Duração:** instantânea
+- **Custo em Estresse:** esta habilidade não gasta Mana — o custo de cada Intensidade é pago em [Estresse](../glossario.md#estresse)
+- **O corpo se vai:** o cadáver consumido não pode mais ser erguido nem trazido de volta — nem por Levante Breve, nem por [Ressuscitar](suporte.md)
+- **Intensidade I — ◈ (1 PA) + 1d6 de Estresse:** o usuário recupera 2d8 + Magia de Vida
+- **Intensidade II — ◈◈ (2 PA) + 2d6 de Estresse:** o usuário recupera 3d8 + Magia de Vida
+- **Intensidade III — ◈◈◈ (3 PA) + 3d6 de Estresse:** o usuário recupera 4d8 + Magia de Vida, e também 2d8 de Mana
+- *(Sem Crítico — não há rolagem de ataque nesta habilidade)*
+
 **Lamento dos Mortos** *(Maior)*
 
 *Um coro de vozes que já não têm dono ecoa no campo — e cada inimigo ouve o próprio fim se aproximando.*

@@ -40,6 +40,19 @@ Enxergar o invisível, rastrear pelo resíduo de mana, premonição em combate.
 - **Efeito:** por um instante, o usuário enxerga através de até 2 obstáculos sólidos (paredes, portas, o chão de cima) na direção apontada — o suficiente pra saber o que tem do outro lado antes de abrir a porta. Não dura além do próprio turno do usuário.
 - *(Sem Intensidade — habilidade de detecção, sem teste de ataque)*
 
+**Varredura**
+
+*Um pulso silencioso sai do corpo e volta trazendo o desenho de tudo que respira em volta.*
+
+- **Chave:** [Percepção Arcana](../glossario.md#percepcao-arcana)
+- **Atributo:** Magia | **Alvos:** área de 8 casas de raio ao redor do usuário
+- **Vs:** — | **Resolução:** Automática | **Duração:** instantânea
+- **O pulso não depende de ver:** parede, porta, escuridão e invisibilidade não escondem nada dele
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** o usuário sabe quantas criaturas hostis há na área e a direção de cada uma
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, e sabe a posição exata de cada uma
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, e sabe o que cada uma é (o tipo de criatura), e quais delas já notaram a presença do grupo
+- *(Sem Crítico — habilidade de detecção, sem teste de ataque)*
+
 **Instinto de Combate** *(Menor)*
 
 *Antes do primeiro golpe, o corpo já sabe o que vai acontecer.*
