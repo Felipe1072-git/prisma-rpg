@@ -202,11 +202,11 @@ Esta seção descreve o fluxo de **Ataque** — a maioria das habilidades, onde 
 4. **Acertou** → aplica o efeito da Intensidade paga. **Não acertou** → nenhum efeito; o PA e o Mana foram gastos de todo jeito.
 5. **Crítico**: se o d100 puro (o número antes de somar o Atributo) for igual ou menor que o [limiar de Crítico](../jogar/testes.md#criticos) (Sorte ÷ 3, arredondado), o teste é sucesso automático e **Crítico** — soma o dano máximo do dado + mais uma rolagem normal do mesmo dado, e **sobe 1 Intensidade de graça** — aplica o efeito da Intensidade acima da que foi paga, sem pagar a diferença. Usado já em Intensidade III (ou numa habilidade de Custo fixo), o Crítico entrega o bônus de dano — mais o efeito extra de Crítico que a própria ficha declarar, se houver.
 
-!!! regra "Cada golpe, seu próprio teste"
-    Quando uma habilidade atinge mais de uma criatura, ou golpeia o mesmo alvo mais de uma vez, cada golpe é o seu **próprio teste de ataque** — pode acertar uns e errar outros, e cada golpe crítica sozinho, pela regra normal de Sorte. Habilidades com alvos ou golpes demais pra isso fazer sentido na mesa (área grande, combo com muitos hits) já usam [Custo fixo](#habilidades-de-custo-fixo): uma rolagem só, porque a abrangência em si já é o efeito.
+!!! regra "Cada alvo, sua própria rolagem"
+    Quando uma habilidade atinge mais de uma criatura, ou golpeia o mesmo alvo mais de uma vez, **cada uma se resolve por si**. Numa habilidade de **Ataque**, são vários testes do usuário — pode acertar uns e errar outros, e cada golpe crítica sozinho, pela regra normal de Sorte. Numa habilidade de **área**, que usa [Teste de Resistência](#teste-de-resistencia), é cada alvo que rola a própria resistência: uns falham e levam tudo, outros escapam com metade. O número de dados na mesa é o mesmo; o que muda é de quem é a mão.
 
 !!! dica "Variante pra agilizar"
-    Se a mesa preferir menos rolagens, o Mestre pode declarar (ou os jogadores sugerirem) resolver com uma rolagem só pro grupo de golpes/alvos daquela habilidade, comparada ao número-alvo de cada um. É opção de ritmo, não o padrão do livro.
+    Se a mesa preferir menos rolagens, o Mestre pode declarar (ou os jogadores sugerirem) resolver com uma rolagem só pro grupo de golpes/alvos daquela habilidade, comparada ao número-alvo de cada um — e o mesmo vale do outro lado, com uma rolagem de resistência valendo pro grupo inteiro de alvos. É opção de ritmo, não o padrão do livro.
 
 !!! regra "Deslocamento do usuário vale em toda Intensidade"
     Quando uma habilidade desloca o usuário (salto, investida, recuo), essa cláusula vale em **todas** as Intensidades, mesmo que o texto das linhas II/III não a repita — o deslocamento é a identidade da técnica, não um efeito comprado.
@@ -217,14 +217,18 @@ Habilidades sem teste de ataque (buffs, cura, efeitos automáticos como uma Habi
 
 ### Teste de Resistência
 
-Uma minoria das habilidades inverte o fluxo de Ataque: em vez do usuário rolar contra o alvo, é o **alvo** que rola contra o usuário.
+Uma parte das habilidades inverte o fluxo de Ataque: em vez de o usuário rolar contra o alvo, é o **alvo** que rola contra o usuário.
 
 !!! regra "Teste de Resistência: o alvo rola, não o usuário"
-    O **alvo** rola d100 + o próprio Atributo contra a **Fortitude** do usuário (Mágica ou Física, conforme a natureza do efeito). Igualou ou superou, **resistiu** — o efeito não acontece, ou acontece pela metade, conforme a habilidade declarar.
+    O **alvo** rola d100 + o atributo que a ficha declarar no campo **Vs**, contra o **Atributo de lançamento do usuário, cru** (a Magia de quem conjura, o Ataque de quem golpeia). Igualou ou superou, **resistiu** — sofre metade do dano e nenhuma das condições. Se o d100 puro dele cair dentro do próprio limiar de Crítico, **escapa por completo**.
 
-A diferença não é cosmética — é sobre **de quem é a incerteza**. Num Ataque, o usuário é quem pode errar o golpe. Num Teste de Resistência, o usuário já acertou (ou nem precisou de golpe, como um veneno plantado antes) e é o **alvo** que corre risco de não aguentar.
+Por isso habilidade resistida **não traz bullet de Crítico**: quem rola é quem critica, e aqui quem rola é o alvo.
 
-Use Teste de Resistência em dois casos: efeito que o corpo resiste **por dentro** — veneno de ação lenta, maldição plantada, algo que só dispara depois —, e efeito de que **não se esquiva**, porque não vem por uma trajetória: dobra do espaço, gravidade, sucção dimensional. Use Ataque pra golpe ou magia mirada num instante, que um passo pro lado evita. Ver [Testes de d100 → Teste de Resistência](../jogar/testes.md#teste-de-resistencia) pra fórmula completa.
+O atributo da resistência sai do que o efeito exige — Agilidade pra sair da frente, Defesa pro corpo aguentar, Sanidade pra mente aguentar, Social pra vontade dobrada por voz ou presença, Magia pra realidade alterada em volta. A tabela completa está em [Testes de d100 → Teste de Resistência](../jogar/testes.md#teste-de-resistencia).
+
+A resolução se aplica em três casos: efeito em **área**, que acontece em vez de mirar; efeito que o corpo resiste **por dentro** (veneno de ação lenta, maldição plantada, algo que só dispara depois); e efeito de que **não se esquiva** porque não vem por uma trajetória (dobra do espaço, gravidade, sucção dimensional). Use **Ataque** pra golpe ou magia mirada num alvo só, que um passo pro lado evita.
+
+A diferença não é cosmética — é sobre **de quem é a incerteza**. Num Ataque, o usuário é quem pode errar o golpe. Num Teste de Resistência, o usuário já acertou (ou nem precisou de golpe, como uma explosão que simplesmente acontece) e é o **alvo** que corre risco de não aguentar.
 
 ### Componentes
 

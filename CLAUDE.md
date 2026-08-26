@@ -787,6 +787,14 @@ com Agilidade — a exceção é a *Fauce do Abismo*, que drena.
 dentro), e *Dominar os Mortos* ficou em **Magia** e não Sanidade, porque mortos-vivos são imunes a
 efeito mental — Sanidade ali não teria contra o que rolar.
 
+⚠ **`git checkout -- <pasta>` pra reverter uma edição em massa leva junto o que já estava certo
+naquela pasta.** Ao desfazer a primeira tentativa das 141 fichas rodei `git checkout -- docs/habilidades/`,
+e isso apagou as três edições que eu já tinha feito em `habilidades/regras.md` — a regra publicada ficou
+contando a história antiga ("contra a Fortitude do usuário", dois casos de uso, sem o Crítico) enquanto
+as fichas contavam a nova. **Build e `verifica.py` passaram limpos**, porque nenhum dos dois lê coerência
+entre páginas; quem pegou foi o autor, perguntando se a regra do Crítico tinha entrado. Reverta por
+arquivo, ou reaplique as regras depois de qualquer checkout de pasta.
+
 ⚠ A edição em massa achou duas armadilhas antes de gravar, nas duas amostras que conferi: o campo
 existia como **`**vs:**` minúsculo** em ~10 fichas de Debuff (o hook aceita os dois, meu regex não), e
 várias habilidades **já declaravam o teste dentro do texto** ("um teste de Magia contra a Fortitude
