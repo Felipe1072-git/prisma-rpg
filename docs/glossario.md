@@ -40,7 +40,7 @@ O Tier de ameaça de uma criatura — Comum, Treinado, Formidável, Lendário. N
 
 ### Acúmulo de bônus
 
-**Bônus numéricos planos de buffs diferentes não somam — vale o maior.** Um personagem sob Aura de Ataque (+3) e Bênção Divina (+2) usa +3, não +5 (uma habilidade que declara empilhar **consigo mesma**, como a Bênção Divina, é exceção explícita e só empilha com ela própria). Bônus de fontes de natureza diferente (buff + item + traço racial) somam normalmente. **Resistências ao mesmo tipo de dano também não acumulam** — duas Resistências a Fogo valem uma.
+**Bônus numéricos planos de buffs diferentes não somam — vale o maior.** Um personagem sob Disciplina Marcial (+4 de dano) e Bênção Divina (+2 de dano) usa +4, não +6 (uma habilidade que declara empilhar **consigo mesma**, como a Bênção Divina, é exceção explícita e só empilha com ela própria). Bônus de fontes de natureza diferente (buff + item + traço racial) somam normalmente. **Resistências ao mesmo tipo de dano também não acumulam** — duas Resistências a Fogo valem uma.
 
 ### Resolução
 

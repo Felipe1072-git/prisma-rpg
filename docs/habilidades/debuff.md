@@ -749,7 +749,7 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Resistiu:** o alvo resiste com **Defesa** — o efeito não acontece
+- **Resistiu:** o alvo resiste com **Magia** — o efeito não acontece
 - **Acerto:** o alvo se transforma numa criatura pequena e inofensiva (um sapo, um rato, algo do tipo) por 3 rodadas. Enquanto transformado, não pode usar Habilidades, Ataques Básicos, nem Reações, e sua Evasão cai pra 8. Qualquer dano sofrido nessa forma encerra a transformação imediatamente — ele volta ao normal, e o dano é então aplicado à Vida da forma verdadeira. Criaturas de Tier Formidável ou Lendário rolam o teste de resistência com [Vantagem](../glossario.md#vantagem).
 - *(Sem Intensidade — efeito absoluto, Supremo)*
 

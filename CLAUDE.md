@@ -930,15 +930,26 @@ Caído e Estável dentro.
 
 Em aberto:
 
-**Decisões minhas que o autor ainda não revisou** (tomadas por falta de regra, não por preferência):
+**Revisado pelo autor em 2026-08-27** — este bloco está fechado:
 
-1. **3 atributos de resistência** — *Metamorfose Forçada* e *Toque Suspenso* em Defesa (o corpo
-   resiste a ser remodelado; o efeito adormecido age por dentro), *Dominar os Mortos* em Magia e não
-   Sanidade (mortos-vivos são imunes a efeito mental, então Sanidade não teria contra o que rolar)
-2. **O Aumento Sombrio reescrito** — flavor novo, os dados do dreno (1d6/2d6/3d6) e a **remoção do
-   "Empilhar"** (empilhar 3× um +9 daria +27) são invenção minha sobre a direção aprovada
-3. As **~15 decisões da auditoria de 2026-07-27**, marcadas com ⚠ em `notas/auditoria.md`, que nunca
-   foram revisadas uma a uma — a mais pesada é *bônus planos de buffs diferentes não somam, vale o maior*
+1. **Atributos de resistência** — *Metamorfose Forçada* passou pra **Magia** (virar um sapo é a
+   realidade sendo reescrita, não o corpo aguentando); *Toque Suspenso* fica em **Defesa** e
+   *Dominar os Mortos* em **Magia**, como eu tinha proposto
+2. **Aumento Sombrio** aprovado como está — dreno de 1d6/2d6/3d6, +3/+6/+9 de dano, sem empilhar
+3. **Acúmulo de bônus mantido**: bônus planos de buffs diferentes **não somam, vale o maior**. Era a
+   decisão de julho marcada como "a que mais merece seu olhar", e o autor a confirmou sabendo que
+   **ela pesa muito mais hoje**: em julho os buffs davam +1/+2/+3 e somá-los rendia +5; depois da
+   reescala pro d100 somariam **+18** na Intensidade III. A regra deixou de ser procedimental e virou
+   a trava do teto de dano de um grupo com dois suportes
+4. As outras ~14 decisões da auditoria de 2026-07-27 (Voo, Empurrar/Puxar, Cena, Perde a próxima
+   Reação, Agarrado, água e afogamento…) foram dadas por revisadas sem passar uma a uma: são
+   procedimentais, estão publicadas há mais de um ano e **sobreviveram à migração pro d100** —
+   conferido que as versões vivas já dizem "1d100", "Ataque ou Agilidade" e não citam mais Vitalidade
+
+⚠ **A regra de acúmulo tinha um exemplo morto.** O verbete citava "Aura de Ataque (+3) e Bênção Divina
+(+2)" — números que a reescala de 2026-08-26 apagou, e que viraram um empate (+2 e +2) que não
+ilustrava nada. Trocado por Disciplina Marcial (+4) e Bênção Divina (+2). **Nenhuma das duas checagens
+novas do `verifica.py` pega isso**, porque é número, não vocabulário — é o buraco declarado no item 6.
 
 **Defeitos conhecidos, medidos e não corrigidos:**
 
