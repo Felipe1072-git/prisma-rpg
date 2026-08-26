@@ -290,17 +290,6 @@ Criar desvantagens para inimigos ou em testes.
 - **Acerto:** cada criatura hostil na área sofre 1d8 de dano automático imediatamente ao usar, e mais uma vez no início da rodada seguinte (2 aplicações no total)
 - *(Custo fixo — rola teste de ataque contra a Evasão de cada alvo)*
 
-**Etiqueta do Mordomo** *(Moderado)*
-
-*Jeeves surge por um instante, desfere um soco devastador, e desaparece numa nuvem de fumaça.*
-
-- **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano + empurra 3 casas
-- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + empurra 5 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 7 casas e derruba o alvo
-- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
-
 **Fúria do Mordomo** *(Moderado)*
 
 *Jeeves aparece com fúria total, golpeando tudo ao redor antes que qualquer um consiga reagir.*

@@ -152,7 +152,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 
 | Página | O que acontece | Id do card |
 |---|---|---|
-| `habilidades/index.md` | as 754 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
+| `habilidades/index.md` | as 753 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
 | `racas/index.md` | as 24 seções `##` viram cards (leva, atributos, nº de traços); as duas divisórias de leva viram prosa acima da lista | `rac-{nome}` |
 | `origens/index.md` | as 3 tabelas d20 viram 60 cards (eixo, tipo de traço, atributo) + sorteio | `ori-{eixo}-{nome}` |
 | `equipamento/index.md` | as 62 seções de arma + escudos + armaduras viram 68 cards; a ficha vem da tabela de dado de dano | `equ-{nome}` |
@@ -683,9 +683,70 @@ truncava silenciosamente sem erro de build. Corrigido pro molde de bullets-escad
 Companheiro Animal já usava (`**Progressão — nível X–Y:** Vida N, Ataque +N...`) — **abrir a
 página e clicar no card continua sendo o único jeito confiável de pegar isso.**
 
+**Camada A das duplicatas — os 12 grupos de clones literais (2026-08-26).** O autor pediu pra
+enxugar habilidades repetidas. O levantamento saiu por script, lendo com o próprio
+`extrai_blocos_de_habilidade`, e separou o problema em três camadas: **A** — escada, números e ficha
+idênticos, muda só nome e flavor (12 grupos, 14 habilidades sobrando); **B** — mesma escada com
+alvo/área diferente (35); **C** — mesmos verbos de regra, redação diferente (155). A camada C é a que
+pega pares como *Pacto de Sangue* / *Aumento Sombrio*, que nenhuma comparação de texto acha. Relatório
+completo e o que sobrou em `notas/duplicatas.md`.
+
+A Camada A foi fechada caso a caso: **1 exclusão e 15 reformulações**, mais 14 habilidades tocadas
+fora dela — porque ler cada grupo inteiro antes de escrever revelou que o problema era maior que os
+pares. O jogo vai de **754 pra 753** habilidades.
+
+O padrão que resolveu quase todos os casos: **o flavor já dizia o que a regra deveria fazer, e não
+fazia**. *Explosão de Fogo* prometia empurrar e não empurrava (agora arremessa e causa dano de queda);
+*Rajada Sombria* dizia "mira automaticamente" e ainda exigia teste (agora acerta sem rolar, com dado
+menor); *Correntes de Água* prendia os pés e só puxava (agora ancora o alvo a 2 casas); *Espinhos de
+Sangue* brotavam do chão e explodiam na hora (agora esperam quem passar).
+
+Quatro grupos estavam quase inteiros construídos sobre uma habilidade só, e isso só apareceu ao ler
+cada um por completo: **Fogo** tinha 19 de 36 no molde "área + Queimando"; **Água**, 5 de 8 na escada
+`puxa 1 → puxa 2 + Lento → puxa 3 + Lento + derruba`; **Espaço-Tempo**, 7 de 18 em `teleporta 2 →
+teleporta 4 → teleporta 4 + Atordoado`; e **Arcano**, 4 de 6 em "empurra + derruba".
+
+Três decisões do autor viraram regra além da própria ficha:
+
+- **Reposicionamento forçado passa a Teste de Resistência** (vs Fortitude Mágica do usuário) — não se
+  *esquiva* de uma dobra do espaço. Sete habilidades de Espaço-Tempo mudaram de resolução, e resistir
+  significa **ficar onde está, sem as condições, levando metade do dano**. O parágrafo de
+  `habilidades/regras.md` que orienta quando usar cada resolução foi ajustado no mesmo lote, ganhando
+  o segundo caso — senão o livro contradiria os cards.
+- **Aura de Intensidade III pode ser permanente**: as duas auras novas (*Chama Espelhada* e *Descarga
+  Carregada*) duram 4 rodadas com cooldown herdado menor, então mantê-las ligadas é possível pagando
+  Mana de novo. O freio é o Mana, não o cooldown.
+- **Cooldown continua não se escrevendo** — vem da escala (`ESCALA_COOLDOWN`). Nenhuma das 753
+  declarava um; *Explosão de Fogo* é a primeira, com 2 rodadas por acumular área + Queimando + derruba
+  + dano de queda.
+
+⚠ **Lore importada e termo inexistente são o mesmo defeito.** Três habilidades de Sombras (*Libertação
+Limitada*, *Extermínio*, *Apocalipse*) descreviam um **"selo"** que o Prisma nunca definiu — veio do
+Dio, do Grand Chase. O autor leu e não entendeu; o flavor das três foi reescrito sem tocar na mecânica
+de duas delas. Na mesma leva eu escrevi *"Ignora cobertura"* numa reformulação, e **cobertura também
+não existe** no jogo — o termo correto é *linha de visada*. Antes de gravar uma ficha, confira no
+glossário cada termo não-óbvio que ela usa.
+
+⚠ **A auditoria de 2026-07-27 já tinha achado parte disso.** O item ELE-31 lista *"Força de Choque =
+Descarga Carregada; Voragem = Libertação Limitada; Vórtice das Trevas = Frenesi Sombrio; 3 investidas
+de Fogo idênticas"* — e nada tinha sido corrigido em treze meses. Achado que não vira tarefa não vira
+correção.
+
+Duas condições saíram do limbo: **`Silenciado`** estava definido no glossário e era aplicado por
+*nenhuma* habilidade — o *Abraço das Profundezas*, agora afogamento, é a primeira a usá-lo. E o
+`Desprevenido` foi descartado numa proposta por só valer na primeira rodada de combate. Vale varrer o
+glossário atrás de outros termos órfãos.
+
+Duas renomeações: *Libertação Limitada* → **Fauce do Abismo**, e *Etiqueta do Mordomo* → **Golpe
+Emprestado**, que também mudou de grupo (Debuff 74 → 73, Conjuração 13 → 14) — o conceito é invocar
+algo que golpeia, e Conjuração não tinha nenhuma invocação instantânea.
+
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
 2. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — problema conhecido, adiado de
    propósito porque a correção mexeria nas 573 habilidades. Só reabrir se ele trouxer
 3. Os sete itens da seção 4.3 de `notas/auditoria.md` — exigem escolha de conteúdo, não correção
-4. Conteúdo novo é sempre bem-vindo, mas nenhuma lacuna estrutural de regra permanece
+4. **Camadas B e C das duplicatas** — 35 redundâncias de forma e 155 colisões de assinatura,
+   listadas em `notas/duplicatas.md`. Inclui os 26 "dano + empurra + derruba" espalhados por 5 grupos
+   e o par *Pacto de Sangue* / *Aumento Sombrio*
+5. Conteúdo novo é sempre bem-vindo, mas nenhuma lacuna estrutural de regra permanece

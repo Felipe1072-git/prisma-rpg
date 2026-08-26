@@ -30,6 +30,19 @@ Companheiro Animal (escala com o nível do personagem, não com Mana).
 - **Consequência de morte:** se reduzida a 0 de Vida (ou apagada por um efeito que anule fogo), a chama se dissolve e reaparece no início do próximo [descanso curto](../jogar/exploracao.md#descanso) do usuário.
 - *(Sem Intensidade — Custo fixo, habilidade utilitária)*
 
+**Golpe Emprestado** *(Moderado)*
+
+*O golpe não é seu — é de algo que você chamou por um segundo, e que já sumiu quando o inimigo entende o que aconteceu.*
+
+- **Chave:** [Conjuração](../glossario.md#conjuracao)
+- **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura — o invocado surge numa casa livre adjacente a ela
+- **Golpe único:** o invocado aparece, golpeia e se desfaz no mesmo instante. Não tem ficha nem turno próprio, não pode ser alvo de nada, e não conta como Aliado de Combate
+- **Surge junto do alvo:** o golpe não precisa de linha de visada livre nem de caminho desimpedido — basta o usuário saber onde o alvo está
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + o alvo perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + o alvo perde a próxima Reação, e o invocado permanece até o início do próximo turno do usuário, ocupando a casa e bloqueando a passagem por ela
+- **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
+
 **Espada Vingadora** *(Maior)*
 
 *Espadas espectrais brotam do chão continuamente, perfurando qualquer um que passe por perto.*

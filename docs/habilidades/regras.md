@@ -224,7 +224,7 @@ Uma minoria das habilidades inverte o fluxo de Ataque: em vez do usuário rolar 
 
 A diferença não é cosmética — é sobre **de quem é a incerteza**. Num Ataque, o usuário é quem pode errar o golpe. Num Teste de Resistência, o usuário já acertou (ou nem precisou de golpe, como um veneno plantado antes) e é o **alvo** que corre risco de não aguentar.
 
-Use Teste de Resistência pra efeito que o corpo resiste **por dentro** — veneno de ação lenta, maldição plantada, algo que só dispara depois. Use Ataque pra golpe ou magia mirada num instante. Ver [Testes de d100 → Teste de Resistência](../jogar/testes.md#teste-de-resistencia) pra fórmula completa.
+Use Teste de Resistência em dois casos: efeito que o corpo resiste **por dentro** — veneno de ação lenta, maldição plantada, algo que só dispara depois —, e efeito de que **não se esquiva**, porque não vem por uma trajetória: dobra do espaço, gravidade, sucção dimensional. Use Ataque pra golpe ou magia mirada num instante, que um passo pro lado evita. Ver [Testes de d100 → Teste de Resistência](../jogar/testes.md#teste-de-resistencia) pra fórmula completa.
 
 ### Componentes
 
