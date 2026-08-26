@@ -1030,6 +1030,34 @@ Só **3 pares** não se sustentavam, e nos três o flavor já dizia o que a regr
 é praticamente a única variação que existe, por desenho — cada arma tem Básica, Avançada e Especial
 no mesmo molde.
 
+**Camada C remedida — e aposentada como número (2026-08-27).** Diferente das outras duas, ela **não
+caiu**: continua em 141. A leitura dos clusters explicou por quê — os maiores são **assinatura
+funcionando**, não dívida:
+
+| Cluster | Quantas | O que é |
+|---|---|---|
+| `área + dano + Queimando` | 22 | o Fogo sendo Fogo |
+| `área + dano + duração` | 22 | a Zona Amaldiçoada e as zonas de Fogo/Veneno |
+| `área + Atordoado + dano` | 6 | o Raio sendo Raio |
+| `aliados + invocar + duração` | 6 | os Aliados de Combate, iguais por desenho |
+
+⚠ **O número 141 não conta defeitos, conta habilidades em cluster.** Num sistema onde cada elemento
+tem assinatura declarada, colisão de vocabulário mecânico é o **resultado esperado** — a métrica mede
+justamente o que o design manda acontecer. Fica registrado pra ninguém reabrir isso achando que são
+141 problemas.
+
+O que sobrava de real eram **6 habilidades gerais de Marciais em área** que ainda empurravam e
+derrubavam. **5 das 6 usam dano fixo**, não o dado da arma — então não podiam herdar a assinatura de
+tipo de dano criada hoje, e foram tratadas caso a caso: *Rodamoinho* (Sangrando), *Esmagador de Ossos*
+(Lento), *Grilhões da Alma* (Imóvel — o nome é grilhão), *Andorinhas de Bambu* (Desvantagem contra o
+usuário, pelo "borrão entre ilusões"), *Onda Lunática* (mantém o empurrão, mas quem bate em obstáculo
+sofre dano de colisão — **exceção declarada** à regra de Empurrar) e *Lampejo de Luz* (o segundo arco
+acerta quem **resistiu** ao primeiro — mecânica que só passou a existir com a resolução de área de
+2026-08-26).
+
+⚠ A checagem de âncora do `verifica.py` pegou um link meu: escrevi `#empurrar`, e o verbete é
+**Empurrar e Puxar** (`#empurrar-e-puxar`).
+
 Em aberto:
 
 **Revisado pelo autor em 2026-08-27** — este bloco está fechado:
@@ -1059,10 +1087,9 @@ novas do `verifica.py` pega isso**, porque é número, não vocabulário — é 
    decorativos no glossário, enquanto os 10 elementos têm tabela própria. É essa lacuna que empurra
    toda habilidade marcial nova pro mesmo "empurra + derruba"; a leva de hoje tratou 8 sintomas, não
    a causa
-5. **Camada C das duplicatas** — ~141 colisões de assinatura em `notas/duplicatas.md`. O bloco 1
-   (o clichê marcial) e o bloco 2 (o par que abriu a revisão) foram fechados; o resto **vale remedir**
-   antes de qualquer coisa, porque as levas de 2026-08-26/27 mexeram em mais de 300 fichas. A
-   **Camada A e a Camada B estão fechadas**
+5. **As três camadas de duplicatas estão fechadas.** A A (clones literais) e a B (redundância de
+   forma) foram zeradas do que era defeito; a C foi **aposentada como métrica** — ver acima. O que
+   sobra em `notas/duplicatas.md` é registro histórico, não fila de trabalho
 6. **Coerência entre páginas: metade resolvida.** O `verifica.py` ganhou duas checagens em
    2026-08-27 (vocabulário aposentado e condição sem verbete), mas as duas são **listas de termos
    vigiados**, não análise de sentido: pegam uma regra que voltou a usar palavra velha, e não uma que

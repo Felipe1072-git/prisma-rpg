@@ -275,9 +275,9 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alvos:** todas as criaturas adjacentes
 - **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando) e é derrubado
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + cada alvo fica [Sangrando](../glossario.md#sangrando) causando 8d4, é derrubado, e perde a próxima Reação
 
 **Grande X**
 
@@ -319,9 +319,9 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alvos:** linha de 5 casas à frente
 - **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + cada alvo fica [Lento](../glossario.md#lento) e é derrubado
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + cada alvo fica [Lento](../glossario.md#lento), é derrubado, e perde a próxima Reação
 
 **Dança da Perdição**
 
@@ -352,9 +352,10 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alcance:** 8 casas | **Alvos:** 2 casas de raio do ponto
 - **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d10 de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d12 de dano + empurra 1 casa e derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d12 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Grilhões:** a lâmina fincada prende os alvos ao chão — quem estiver preso não se move, mas continua agindo normalmente
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d10 de dano em cada alvo + cada alvo fica [Imóvel](../glossario.md#imovel) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 2d10 de dano + cada alvo fica [Imóvel](../glossario.md#imovel) e é derrubado
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d12 de dano + cada alvo fica [Imóvel](../glossario.md#imovel), é derrubado, e perde a próxima Reação
 
 **Chute Navalha** *(Moderado)*
 
@@ -388,9 +389,10 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alvos:** 2 casas de raio ao redor do usuário
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
 - **Resistiu:** cada alvo resiste com **Agilidade** — o efeito não acontece
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
+- **Borrão:** o lutador não para de se mover — enquanto durar, quem tentar acertá-lo mira uma ilusão
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo + até o início do próximo turno do usuário, ataques contra ele rolam com [Desvantagem](../glossario.md#desvantagem)
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + o mesmo, e cada alvo é derrubado
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + o mesmo, cada alvo é derrubado e perde a próxima Reação
 
 **Mão Infinita** *(Moderado)*
 
@@ -482,9 +484,10 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alcance:** linha de 8 casas | **Alvos:** todas as criaturas na linha
 - **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 2 casas cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 2 casas e derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 2 casas e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Colisão:** a onda joga o alvo pra trás com força suficiente pra machucar no impacto — **exceção declarada** à regra de [empurrar](../glossario.md#empurrar-e-puxar), que normalmente não causa dano de colisão
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 2 casas cada alvo; quem bater num obstáculo antes de completar o deslocamento sofre mais 2d4
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 3 casas, e a colisão passa a causar 4d4
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 4 casas e derruba cada alvo, e a colisão passa a causar 6d4
 
 **Golpe do Desespero** *(Moderado)*
 
@@ -529,9 +532,10 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Resolução:** Teste de Resistência | **Vs:** Ataque | **Alcance:** linha de 5 casas | **Alvos:** todas as criaturas na linha
 - **Resistiu:** cada alvo resiste com **Agilidade** — metade do dano, sem condições
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Segundo arco:** o golpe volta pelo mesmo caminho — todo alvo que **resistiu** ao primeiro corte é atingido de novo, e dessa vez não há teste
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo; quem resistiu sofre o segundo arco por 1d4
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + cada alvo é derrubado; quem resistiu sofre o segundo arco por 1d6
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + cada alvo é derrubado e perde a próxima Reação; quem resistiu sofre o segundo arco por 1d8
 
 **Lua Crescente** *(Moderado)*
 
