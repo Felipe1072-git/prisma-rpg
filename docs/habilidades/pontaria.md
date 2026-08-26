@@ -43,9 +43,10 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 
 - **Chave:** [Pontaria](../glossario.md#pontaria)
 - **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano + empurra 3 casas
-- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + empurra 5 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 7 casas e derruba o alvo
+- **Mira firme:** se o usuário não gastou Movimento neste turno, o dano desta habilidade dobra
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano — 2d8 com mira firme
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano — 2d10 com mira firme
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano — 4d10 com mira firme
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Rodamoinho de Balas** *(Maior)*
@@ -65,9 +66,10 @@ Salvo indicação na ficha, as habilidades gerais de Pontaria exigem uma **arma 
 
 - **Chave:** [Pontaria](../glossario.md#pontaria)
 - **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** 2d6 de dano + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 2d8 de dano + empurra 2 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + empurra 2 casas e derruba o alvo, e ele perde a próxima Reação
+- **Ferida aberta:** o [Sangrando](../glossario.md#sangrando) desta habilidade dispara de novo toda vez que o alvo se mover, além do início do turno dele
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** 2d6 de dano + o alvo fica [Sangrando](../glossario.md#sangrando) com ferida aberta
+- **Intensidade II — ◈◈ (2 PA) + 18 Mana:** 2d8 de dano + o mesmo, e o alvo rola o próximo ataque com [Desvantagem](../glossario.md#desvantagem)
+- **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** 4d8 de dano + o mesmo, e o alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Sentença Final** *(Supremo)*

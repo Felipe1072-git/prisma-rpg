@@ -801,12 +801,51 @@ várias habilidades **já declaravam o teste dentro do texto** ("um teste de Mag
 Mágica"), o que contradizia o bullet novo. A segunda virou regra do script: **quando o corpo já diz o
 atributo, ele manda na heurística**.
 
+**Camada C, bloco 1 — o clichê marcial (2026-08-26).** O maior cluster de colisão de assinatura era
+**23 habilidades "dano + empurra + derruba"**, espalhadas por Marciais, Pontaria, Debuff, Arcano e
+Vento — onde a única variação era **quantas casas empurra** (1, 2, 3, 5, 6, 7). *Grande X*, *Esmagador*,
+*Disparo Voraz* e *Tornados Gêmeos* eram a mesma habilidade; *Mordida*, *Arrasador* e *Tiro
+Concentrado* também.
+
+⚠ **A causa não era escrita preguiçosa, era uma lacuna de sistema: os três tipos de dano físico não
+têm mecânica nenhuma.** O glossário define Cortante como "Espadas, machados, foices, garras" e para
+aí — Impacto e Perfurante idem —, enquanto os 10 elementos têm uma tabela inteira de Assinatura (Fogo
+consome, Gelo trava, Raio rouba a ação). Sem verbo próprio no lado físico, toda habilidade marcial
+caiu no único disponível. **A lacuna continua aberta** — dar assinatura a Cortante/Impacto/Perfurante
+foi oferecido e o autor preferiu distribuir à mão desta vez.
+
+Das 23, **15 tinham justificativa e ficaram**: empurrar **é** a assinatura do Vento; Arrasador e Disparo
+Voraz já foram decididos na Camada A como o empurrão forte e a versão barata; *Pressão Brutal* tem
+"um empurrão bruto" no próprio flavor; e as marciais restantes têm combo de vários golpes, lançamento
+ao ar ou reposicionamento do usuário como identidade.
+
+As **8 restantes** ganharam verbo próprio, tirado da arma que o próprio flavor nomeia — foice puxa,
+espada sangra, peso atordoa: *Giro Audaz* (puxa), *Mordida* (Sangrando + Desvantagem), *Confete
+Explosivo* ([Cego](docs/glossario.md)), *Tornados Gêmeos* (Sangrando em área), *Grande X* (Marcado —
+o único de Marciais que abre o alvo pros aliados), *Esmagador* (Lento → Atordoado), *Tiro Concentrado*
+(dano dobra se o usuário não gastou Movimento) e *Rajada Sangrenta* (o Sangrando reabre toda vez que
+o alvo se move).
+
+O cluster caiu de **23 para 15**, e a Camada C de **155 para 141** colisões. Debuff e Pontaria saíram
+dele por completo.
+
+⚠ **Nem toda colisão de assinatura é defeito** — foi o que tornou a Camada C tratável. Os outros dois
+clusters do topo são **assinatura funcionando**: `área + dano + Queimando` (22) é o Fogo sendo Fogo, e
+`área + dano + duração` (22) é a Zona Amaldiçoada de Sombras. Só se mexe onde **nenhum elemento manda
+no verbo**.
+
+⚠ *Tiro Concentrado* quase ganhou "ignora Escudo e Resistência" — que é exatamente a **Força Perfeita**,
+reformulada horas antes na mesma sessão. Ao desenhar habilidade nova, cheque o que a própria leva já
+criou, não só o que existia antes dela.
+
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
 2. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — problema conhecido, adiado de
    propósito porque a correção mexeria nas 573 habilidades. Só reabrir se ele trouxer
 3. Os sete itens da seção 4.3 de `notas/auditoria.md` — exigem escolha de conteúdo, não correção
-4. **Camadas B e C das duplicatas** — 35 redundâncias de forma e 155 colisões de assinatura,
-   listadas em `notas/duplicatas.md`. Inclui os 26 "dano + empurra + derruba" espalhados por 5 grupos
-   e o par *Pacto de Sangue* / *Aumento Sombrio*
-5. Conteúdo novo é sempre bem-vindo, mas nenhuma lacuna estrutural de regra permanece
+4. **Camadas B e C das duplicatas** — 35 redundâncias de forma e **141** colisões de assinatura,
+   listadas em `notas/duplicatas.md`. O bloco 1 da C (o clichê marcial) foi fechado; segue aberto o
+   par *Pacto de Sangue* / *Aumento Sombrio*, que abriu a revisão e nunca foi tocado
+5. **Os três tipos de dano físico não têm assinatura mecânica** — Cortante, Impacto e Perfurante são
+   decorativos, e é essa lacuna que empurra toda habilidade marcial nova pro mesmo "empurra + derruba"
+6. Conteúdo novo é sempre bem-vindo, mas nenhuma lacuna estrutural de regra permanece

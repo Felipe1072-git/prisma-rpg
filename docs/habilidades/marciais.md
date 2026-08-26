@@ -75,9 +75,9 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alvos:** até 3 criaturas à escolha, ao alcance da arma equipada
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano em cada alvo + cada alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + [Sangrando](../glossario.md#sangrando), e cada alvo rola o próximo ataque com [Desvantagem](../glossario.md#desvantagem)
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando) causando 8d4, e cada alvo perde a próxima Reação
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual em todos, e sobe 1 Intensidade
 
 **Toma Toma Toma** *(Moderado)*
@@ -285,9 +285,9 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba o alvo, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + o alvo fica [Marcado](../glossario.md#marcado)
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + [Marcado](../glossario.md#marcado) e [Sangrando](../glossario.md#sangrando)
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando), e o alvo fica [Marcado](../glossario.md#marcado) pela rodada inteira — todo aliado que o atacar rola com Vantagem, não só o primeiro
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Giga Corte** *(Moderado)*
@@ -571,9 +571,9 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + empurra 1 casa e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + empurra 1 casa e derruba o alvo, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** 1d8 de dano + o alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** 1d10 de dano + [Lento](../glossario.md#lento), e o alvo é derrubado sob o peso
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** 2d10 de dano + o alvo fica [Atordoado](../glossario.md#atordoado) até o fim do próximo turno dele
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Divisão Espacial** *(Supremo)*

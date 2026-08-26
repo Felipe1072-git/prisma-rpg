@@ -63,9 +63,9 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano + empurra 2 casas
-- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + empurra 2 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 4 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano + puxa o alvo 2 casas em direção ao usuário
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + puxa o alvo 3 casas, e ele fica [Sangrando](../glossario.md#sangrando) (a lâmina corta ao enganchar)
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + puxa o alvo até ficar adjacente ao usuário, [Sangrando](../glossario.md#sangrando), e derrubado
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Lança Perfurante** *(Moderado)*
@@ -94,9 +94,9 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano + empurra 3 casas
-- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + empurra 3 casas e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + empurra 5 casas e derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d8 de dano + o alvo fica [Sangrando](../glossario.md#sangrando)
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d10 de dano + [Sangrando](../glossario.md#sangrando), e o alvo rola o próximo ataque com [Desvantagem](../glossario.md#desvantagem)
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d10 de dano + [Sangrando](../glossario.md#sangrando) causando 8d4, e o alvo rola o próximo ataque com [Desvantagem](../glossario.md#desvantagem)
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Abismo** *(Maior)*
@@ -462,9 +462,9 @@ Criar desvantagens para inimigos ou em testes.
 
 - **Chave:** [Debuff](../glossario.md#debuff)
 - **Atributo:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d4 de dano + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d6 de dano + empurra 2 casas e derruba
-- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d6 de dano + empurra 3 casas, derruba, e alvo perde a próxima Ação Básica
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d4 de dano + o alvo fica [Cego](../glossario.md#cego)
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d6 de dano + [Cego](../glossario.md#cego), e o alvo perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d6 de dano + [Cego](../glossario.md#cego) até o fim do segundo turno dele, e ele perde a próxima Ação Básica
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
 **Valsa da Imperatriz** *(Supremo)*
