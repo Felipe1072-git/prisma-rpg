@@ -32,9 +32,9 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Ataque | **Alvos:** o próprio usuário
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 9 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +5 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
-- **Intensidade II — 0 PA + 18 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +10 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
-- **Intensidade III — 0 PA + 27 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +15 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade I — 0 PA + 9 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +5 de [Evasão](../glossario.md#evasao) contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade II — 0 PA + 18 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +10 de [Evasão](../glossario.md#evasao) contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade III — 0 PA + 27 Mana:** quando for alvo de um ataque à distância ou mágico, o usuário pode usar esta habilidade como Reação pra ganhar +15 de [Evasão](../glossario.md#evasao) contra aquele ataque, antes do teste de acerto ser resolvido.
 
 **Postura Inabalável** *(Maior)*
 
@@ -475,9 +475,9 @@ Incremento de força, imbuir elementos em armas, etc.
 - **Requisito:** usuário precisa ter um [Broquel](../equipamento/index.md#equ-broquel) equipado
 - **Atributo:** Agilidade | **Alvos:** o próprio usuário
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 9 Mana:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra ganhar +6 de Defesa contra aquele ataque, antes do teste de acerto ser resolvido.
-- **Intensidade II — 0 PA + 18 Mana:** o mesmo, com +12 de Defesa.
-- **Intensidade III — 0 PA + 27 Mana:** o mesmo, com +18 de Defesa. Se o ataque errar, o usuário pode imediatamente fazer um Ataque Básico contra o atacante, sem gastar PA.
+- **Intensidade I — 0 PA + 9 Mana:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra ganhar +6 de [Evasão](../glossario.md#evasao) contra aquele ataque, antes do teste de acerto ser resolvido.
+- **Intensidade II — 0 PA + 18 Mana:** o mesmo, com +12 de [Evasão](../glossario.md#evasao).
+- **Intensidade III — 0 PA + 27 Mana:** o mesmo, com +18 de [Evasão](../glossario.md#evasao). Se o ataque errar, o usuário pode imediatamente fazer um Ataque Básico contra o atacante, sem gastar PA.
 
 **Cúpula Protetora** *(Maior)*
 
