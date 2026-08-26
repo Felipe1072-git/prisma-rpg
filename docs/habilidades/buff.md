@@ -21,9 +21,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alvos:** o usuário e aliados em 3 casas de raio
-- **Intensidade I — ◈ (1 PA) + 18 Mana:** por 3 rodadas, os alvos ganham +1 no dano de ataques, +1 de Defesa, e um Escudo de 1d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
-- **Intensidade II — ◈◈ (2 PA) + 27 Mana:** por 4 rodadas, os alvos ganham +2 no dano de ataques, +2 de Defesa, e um Escudo de 2d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
-- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** por 5 rodadas, os alvos ganham +3 no dano de ataques, +3 de Defesa, e um Escudo de 3d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
+- **Intensidade I — ◈ (1 PA) + 18 Mana:** por 3 rodadas, os alvos ganham +2 no dano de ataques, +1 de Defesa, e um Escudo de 1d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
+- **Intensidade II — ◈◈ (2 PA) + 27 Mana:** por 4 rodadas, os alvos ganham +4 no dano de ataques, +2 de Defesa, e um Escudo de 2d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
+- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** por 5 rodadas, os alvos ganham +6 no dano de ataques, +3 de Defesa, e um Escudo de 3d4 pontos (o Escudo dura enquanto o buff durar). Pode ser reaplicada antes de expirar, empilhando o bônus de dano até 3 vezes (Defesa e Escudo não empilham).
 
 **Defesa Mágica** *(usada como Reação)*
 
@@ -73,9 +73,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alvos:** usuário e aliados em 3 casas de raio
-- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 3 rodadas, os alvos ganham +1 no dano de ataques
-- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 4 rodadas, os alvos ganham +2 no dano de ataques
-- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 5 rodadas, os alvos ganham +3 no dano de ataques
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 3 rodadas, os alvos ganham +2 no dano de ataques
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 4 rodadas, os alvos ganham +4 no dano de ataques
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 5 rodadas, os alvos ganham +6 no dano de ataques
 
 **Transformação do Lobo** *(Maior)*
 
@@ -83,9 +83,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Ataque | **Alvos:** o próprio usuário, e aliados em 2 casas de raio
-- **Intensidade I — ◈ (1 PA) + 12 Mana:** por 3 rodadas, o usuário ganha +1d4 de dano em ataques corpo a corpo e +2 de Movimento. Aliados dentro de 2 casas do usuário ganham +1 de dano em ataques corpo a corpo enquanto permanecerem na área.
-- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** por 3 rodadas, o usuário ganha +2d4 de dano em ataques corpo a corpo e +3 de Movimento. Aliados dentro de 2 casas do usuário ganham +2 de dano em ataques corpo a corpo enquanto permanecerem na área.
-- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** por 3 rodadas, o usuário ganha +3d4 de dano em ataques corpo a corpo e +4 de Movimento. Aliados dentro de 2 casas do usuário ganham +3 de dano em ataques corpo a corpo enquanto permanecerem na área.
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** por 3 rodadas, o usuário ganha +1d4 de dano em ataques corpo a corpo e +2 de Movimento. Aliados dentro de 2 casas do usuário ganham +2 de dano em ataques corpo a corpo enquanto permanecerem na área.
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** por 3 rodadas, o usuário ganha +2d4 de dano em ataques corpo a corpo e +3 de Movimento. Aliados dentro de 2 casas do usuário ganham +4 de dano em ataques corpo a corpo enquanto permanecerem na área.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** por 3 rodadas, o usuário ganha +3d4 de dano em ataques corpo a corpo e +4 de Movimento. Aliados dentro de 2 casas do usuário ganham +6 de dano em ataques corpo a corpo enquanto permanecerem na área.
 
 **Espada Defensiva** *(usada como Reação)*
 
@@ -215,9 +215,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Ataque | **Alvos:** o próprio usuário
-- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 2 rodadas, o usuário ganha +1 no dano de ataques, +2 de Defesa, e +2 de Movimento.
-- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 2 rodadas, o usuário ganha +2 no dano de ataques, +3 de Defesa, e +3 de Movimento.
-- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 2 rodadas, o usuário ganha +3 no dano de ataques, +4 de Defesa, e +4 de Movimento.
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 2 rodadas, o usuário ganha +4 no dano de ataques, +2 de Defesa, e +2 de Movimento.
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 2 rodadas, o usuário ganha +8 no dano de ataques, +3 de Defesa, e +3 de Movimento.
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 2 rodadas, o usuário ganha +12 no dano de ataques, +4 de Defesa, e +4 de Movimento.
 
 **Aura de Defesa** *(Maior)*
 
@@ -235,9 +235,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alvos:** usuário e aliados em 5 casas de raio
-- **Intensidade I — ◈ (1 PA) + 12 Mana:** por 3 rodadas, os alvos ganham +1 no ataque e +1 no dano de ataques.
-- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** por 4 rodadas, os alvos ganham +2 no ataque e +2 no dano de ataques.
-- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** por 5 rodadas, os alvos ganham +3 no ataque e +3 no dano de ataques.
+- **Intensidade I — ◈ (1 PA) + 12 Mana:** por 3 rodadas, os alvos ganham +1 no ataque e +2 no dano de ataques.
+- **Intensidade II — ◈◈ (2 PA) + 21 Mana:** por 4 rodadas, os alvos ganham +2 no ataque e +4 no dano de ataques.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** por 5 rodadas, os alvos ganham +3 no ataque e +6 no dano de ataques.
 
 **Aura de Auxílio** *(Maior)*
 
@@ -365,9 +365,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alvos:** usuário e aliados em 3 casas de raio
-- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 2 rodadas, os alvos ganham +1 no dano de ataques.
-- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 3 rodadas, os alvos ganham +2 no dano de ataques.
-- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 4 rodadas, os alvos ganham +3 no dano de ataques.
+- **Intensidade I — ◈ (1 PA) + 15 Mana:** por 2 rodadas, os alvos ganham +2 no dano de ataques.
+- **Intensidade II — ◈◈ (2 PA) + 24 Mana:** por 3 rodadas, os alvos ganham +4 no dano de ataques.
+- **Intensidade III — ◈◈◈ (3 PA) + 33 Mana:** por 4 rodadas, os alvos ganham +6 no dano de ataques.
 
 **Couraça Vingativa** *(Maior)*
 
@@ -540,9 +540,9 @@ Incremento de força, imbuir elementos em armas, etc.
 
 - **Chave:** [Buff](../glossario.md#buff)
 - **Atributo:** Magia | **Alcance:** 6 casas | **Alvos:** usuário e aliados em 3 casas de raio do ponto onde o totem é colocado
-- **Intensidade I — ◈ (1 PA) + 18 Mana:** o totem tem 1d6 + Magia de Vida temporária e Evasão 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +1 no dano de ataques.
-- **Intensidade II — ◈◈ (2 PA) + 27 Mana:** o totem tem 2d6 + Magia de Vida temporária e Evasão 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +2 no dano de ataques.
-- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** o totem tem 3d6 + Magia de Vida temporária e Evasão 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +3 no dano de ataques.
+- **Intensidade I — ◈ (1 PA) + 18 Mana:** o totem tem 1d6 + Magia de Vida temporária e Evasão 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +2 no dano de ataques.
+- **Intensidade II — ◈◈ (2 PA) + 27 Mana:** o totem tem 2d6 + Magia de Vida temporária e Evasão 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +4 no dano de ataques.
+- **Intensidade III — ◈◈◈ (3 PA) + 36 Mana:** o totem tem 3d6 + Magia de Vida temporária e Evasão 5, e fica fixo no ponto onde foi colocado (diferente de uma Aura normal, não segue o usuário). Por 3 rodadas, ou até ser destruído, aliados dentro do raio ganham +6 no dano de ataques.
 
 **Canalização Espiritual** *(Maior)*
 

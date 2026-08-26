@@ -838,6 +838,35 @@ no verbo**.
 reformulada horas antes na mesma sessão. Ao desenhar habilidade nova, cheque o que a própria leva já
 criou, não só o que existia antes dela.
 
+**Camada C, bloco 2 — o par que abriu a revisão, e a escala do d20 que ficou pra trás
+(2026-08-26).** *Pacto de Sangue* (Sangue) e *Aumento Sombrio* (Necromancia) eram a mesma ideia —
+pagar Vida por bônus de dano — em dois grupos. E um era **estritamente pior**: o Aumento cobrava o
+dobro da Vida (3×3d4 empilhado) pra entregar menos bônus (+12 contra +14) por menos tempo. Mesmo
+defeito do *Poder Dinâmico* contra a *Liberação de Poder*, corrigido em 2026-08-18.
+
+A separação veio do verbo que **cada grupo já declara**: Sangue "troca Vida por poder" — a própria;
+Necromancia abre com "**drenar vigor**" — a dos outros. O Aumento Sombrio passou a **drenar de um
+alvo** (1d6/2d6/3d6, Teste de Resistência vs Defesa) em vez de custar a própria Vida, e o Pacto de
+Sangue ficou como o único que paga com o próprio sangue. *Flor Carmesim* não precisou de nada — aura
+de dano com custo de Vida **por turno** já era distinta.
+
+⚠ **A migração pro d100 deixou os bônus planos pra trás, e ninguém tinha notado.** Observação do
+autor: "+1 ou +2 de dano é insignificante nos valores do d100; quando o sistema era d20 fazia
+sentido". O levantamento confirmou: das **9 habilidades com bônus plano de dano**, **7 ainda usavam
++1/+2/+3** — só o Pacto de Sangue tinha sido reescalado. A incoerência que provava o diagnóstico: os
+buffs que dão **dados** já entregavam mais que os planos (*Fúria Imortal* +3d4 ≈ 7,5; *Imbuir
+Elemento* +3d6 ≈ 10,5, contra um "+3"). Num golpe típico de 2d10 (~11), +3 é 27%; +3d6 é quase 100%.
+
+A escala nova, decidida pelo autor: **buff de grupo +2/+4/+6** (vale menos por cabeça porque
+multiplica pelos aliados), **buff pessoal +4/+8/+12**, e o **Pacto de Sangue em +5/+10/+15** — acima
+do teto comum, justificado por custar a própria Vida sob Risco, e com escada regular no lugar do
+salto de +8 pra +14. Vale lembrar que [bônus planos de buffs diferentes não somam](notas/auditoria.md),
+então subir todos não empilha: só torna cada um relevante sozinho.
+
+⚠ **Fica em aberto o mesmo problema nos bônus de teste**: a *Aura de Ataque* dá "+1/+2/+3 no ataque",
+e num teste de d100 isso é ainda mais irrelevante que no dano. A varredura dos bônus de *teste*
+(ataque, Defesa, Evasão, Movimento) não foi feita e é provavelmente maior que a do dano.
+
 Em aberto:
 1. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
 2. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — problema conhecido, adiado de

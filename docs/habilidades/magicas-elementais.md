@@ -1512,9 +1512,9 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 - **Atributo:** Magia | **Dano:** Sangue | **Alvos:** o próprio usuário
 - **Custo em Vida:** esta habilidade não gasta Mana — custa sempre **4d4 de Vida**, em qualquer Intensidade
 - **Efeito:** por 3 rodadas, o usuário ganha o bônus abaixo no dano de todos os ataques
-- **Intensidade I — ◈ (1 PA) + 4d4 de Vida:** +4 de dano
-- **Intensidade II — ◈◈ (2 PA) + 4d4 de Vida:** +8 de dano
-- **Intensidade III — ◈◈◈ (3 PA) + 4d4 de Vida:** +14 de dano
+- **Intensidade I — ◈ (1 PA) + 4d4 de Vida:** +5 de dano
+- **Intensidade II — ◈◈ (2 PA) + 4d4 de Vida:** +10 de dano
+- **Intensidade III — ◈◈◈ (3 PA) + 4d4 de Vida:** +15 de dano
 - *(Sem teste de ataque — habilidade de buff)*
 
 **Chuva de Espinhos Vermelhos**

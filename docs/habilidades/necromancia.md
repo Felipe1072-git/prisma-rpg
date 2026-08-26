@@ -15,17 +15,17 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 - **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** 2d8 de dano, e o usuário recupera Vida igual ao dobro do dano causado
 - **Crítico:** dano máximo dos dados da Intensidade usada + uma rolagem extra igual, e sobe 1 Intensidade
 
-**Aumento Sombrio**
+**Aumento Sombrio** *(Moderado)*
 
-*O poder das trevas é absorvido às pressas — quanto mais fundo, maior o preço.*
+*O vigor é arrancado de outro corpo e absorvido às pressas — o que se toma assim nunca vem limpo.*
 
 - **Chave:** [Necromancia](../glossario.md#necromancia)
-- **Atributo:** Magia | **Alvos:** o próprio usuário
-- **Custo em Vida:** esta habilidade não gasta Mana — o custo de cada Intensidade é pago em **Vida**
-- **Intensidade I — ◈ (1 PA) + 1d4 de Vida:** o usuário ganha +2 no dano de ataques por 2 rodadas
-- **Intensidade II — ◈◈ (2 PA) + 2d4 de Vida:** o usuário ganha +3 no dano de ataques por 2 rodadas
-- **Intensidade III — ◈◈◈ (3 PA) + 3d4 de Vida:** o usuário ganha +4 no dano de ataques por 2 rodadas
-- **Empilhar:** pode ser usada de novo antes de expirar, somando o bônus (e pagando o custo de Vida outra vez) até 3 vezes
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 6 casas | **Alvos:** 1 criatura
+- **Dreno:** o vigor tomado vira poder — o usuário não paga com a própria Vida, paga com a exigência de ter um alvo ao alcance
+- **Resistiu:** o alvo resiste com **Defesa** — metade do dano, e o usuário ganha metade do bônus (arredondado pra baixo)
+- **Intensidade I — ◈ (1 PA) + 6 Mana:** o alvo perde 1d6 de Vida, e o usuário ganha +3 no dano de ataques por 2 rodadas
+- **Intensidade II — ◈◈ (2 PA) + 15 Mana:** o alvo perde 2d6 de Vida, e o usuário ganha +6 no dano de ataques por 2 rodadas
+- **Intensidade III — ◈◈◈ (3 PA) + 24 Mana:** o alvo perde 3d6 de Vida, e o usuário ganha +9 no dano de ataques por 3 rodadas, além de recuperar Vida igual à metade do que foi drenado
 
 **Flor Carmesim** *(Maior)*
 
