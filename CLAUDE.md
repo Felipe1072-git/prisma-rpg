@@ -1146,6 +1146,42 @@ monta bicho precisa saber.
 ⚠ **Isso aumenta o dano das criaturas e não foi testado em mesa.** É a mesma aritmética de sempre com
 um efeito novo por cima; o Bestiário foi reescalado pela lore em 2026-08-03 e não reviu esse degrau.
 
+**Diagnóstico do dano das criaturas (2026-08-27).** Medido depois que a assinatura passou a valer
+pras criaturas, pra ter contra o que comparar quando houver mesa. **Nenhum ajuste foi feito** — a
+medição não achou o que corrigir.
+
+Dano médio por golpe, por Tier e tipo:
+
+| Tier | Cortante | Perfurante | Impacto |
+|---|---|---|---|
+| Comum | — | 6,7 | 9,0 |
+| Treinado | 11,7 | 10,8 | 16,7 |
+| Formidável | 18,7 | 18,2 | 20,4 |
+| Lendário | 30,5 | 49,5 | 30,2 |
+
+O **49,5 do Perfurante Lendário** parece anomalia e não é: vem de dois ataques só — Bicada do Roc
+(9d8) e Mordida do Tarrasque (9d12 = 58,5), a criatura mais extrema do jogo, com 680 de Vida. Entre os
+oito Lendários a escala é coerente e acompanha Vida e Ameaça: Vampiro 22,5 → Kraken 27,5 → Golem e
+Treant 31,5 → Dragão 38,5 → Roc 40,5 → Tarrasque 58,5.
+
+⚠ **O que a assinatura acrescenta não é equivalente entre os tipos**, e o autor aceitou isso como
+papéis diferentes (Cortante = dano, Impacto = controle, Perfurante = combo):
+
+| | Acréscimo por golpe | Condicional? |
+|---|---|---|
+| **Cortante** → Sangrando | **+10** (4d4) | não, é garantido |
+| **Perfurante** → +1d6 | +3,5 | **sim**, só contra alvo preso |
+| **Impacto** → derruba + Lento | **0 de dano** | é controle |
+
+⚠ **O Sangrando é fixo e não escala com a fonte** — são sempre 4d4, do Goblin ao Tarrasque. Num
+Treinado que bate 11,7 isso é **+85% de dano**; num Lendário que bate 30,5, é +33%. A mesma regra pesa
+o dobro nos Tiers baixos, e isso vale igual pras armas dos personagens.
+
+**A pergunta que só a mesa responde:** um Treinado cortante passou de 11,7 por acerto pra quase 22
+(golpe + Sangrando). Se os combates ficarem curtos demais, o primeiro lugar a olhar é este — e o
+ajuste provável é **fazer o Sangrando escalar com o dano do golpe que o causou** (proposta rejeitada
+hoje em favor dos papéis diferentes, mas que resolveria a distorção entre Tiers de uma vez).
+
 Em aberto:
 
 **Revisado pelo autor em 2026-08-27** — este bloco está fechado:
