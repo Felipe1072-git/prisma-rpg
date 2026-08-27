@@ -36,20 +36,30 @@ Isso é, na ordem: o **custo em PA** (◈), o **bônus que o Mestre soma no d100
 
 ### O tipo de dano vale nos dois lados
 
-Desde 2026-08-27 os três tipos de dano físico têm **assinatura mecânica própria**, como os elementos sempre tiveram (ver [Assinatura de Tipo de Dano](../jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano)). Isso vale para as garras e mordidas da criatura do mesmo jeito que vale para a espada do personagem:
+O tipo de dano de um ataque **não impõe efeito nenhum** — o que a criatura faz é o que a ficha
+dela diz. Mas o tipo é uma boa **fonte de ideias** na hora de escrever o ataque: um golpe merece
+o efeito que o tipo dele sugere, quando o conceito do bicho pede.
 
-| Tipo | O ataque da criatura também… |
+| Se o ataque é… | costuma render |
 |---|---|
-| **Cortante** | deixa o alvo [Sangrando](../glossario.md#sangrando) |
-| **Impacto** | derruba, e deixa [Lento](../glossario.md#lento) |
-| **Perfurante** | causa **+1d6** contra alvo preso — [Lento](../glossario.md#lento), [Imóvel](../glossario.md#imovel), [Atordoado](../glossario.md#atordoado), [Agarrado](../glossario.md#agarrado) ou derrubado |
+| **Cortante** | garras e presas que rasgam — deixe o alvo [Sangrando](../glossario.md#sangrando) |
+| **Impacto** | coice, cauda, martelo — derrube, ou deixe [Lento](../glossario.md#lento) |
+| **Perfurante** | chifre, ferrão, bicada — dano extra contra alvo já preso |
 
-**A ficha não escreve isso.** A assinatura vem do tipo que o ataque já declara — o mesmo motivo pelo qual a ficha não repete a Couraça nem a regra da Ação de Lenda. Se um ataque deve fazer **mais** que a assinatura, aí sim a ficha diz.
+Isso é diretriz, não obrigação: um lobo que só morde e um urso que só esmaga estão certos sem
+efeito nenhum além do dano. Escreva o efeito quando ele **for** o bicho — a mordida do Troll que
+não para de sangrar, o coice do Gigante que joga o personagem no chão.
 
-!!! cuidado "Resistência apaga a assinatura, não só metade do dano"
-    Ao dar **Resistência** a um tipo físico, saiba que ela ficou mais forte: além de cortar o dano pela metade, a criatura **não sofre a assinatura daquele tipo**. Resistente a Cortante não fica Sangrando, a Impacto não é derrubado nem fica Lento, a Perfurante não leva o dano extra.
+!!! regra "O tipo pesa mesmo é na Resistência"
+    Escolher o tipo do ataque decide contra quem ele funciona mal. Uma criatura
+    [Resistente](../glossario.md#resistencia) a um tipo sofre metade do dano **e não sofre o
+    efeito característico dele** — resistente a Cortante não sangra, a Impacto não é derrubado
+    nem fica Lento, a Perfurante não leva o dano extra. Ver
+    [Tipos de Dano Físico](../jogar/regras-de-equipamento.md#tipos-de-dano-fisico).
 
-    É o que faz um esqueleto não sangrar e um slime não cair de costas — mas pesa: uma criatura resistente aos **três** tipos (Enxame de Ratos, Sombra, Carniçal) deixa qualquer arma física quase inútil, e é isso que empurra o grupo pra magia. Use de propósito, não por decoração.
+    Isso pesa dos dois lados: dar Resistência aos três tipos físicos (Enxame, Sombra, Carniçal)
+    deixa qualquer arma física quase inútil contra a criatura — de propósito, mas quem monta
+    bicho precisa saber.
 
 ### Um turno jogado
 

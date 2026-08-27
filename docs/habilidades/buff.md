@@ -389,7 +389,7 @@ Incremento de força, imbuir elementos em armas, etc.
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
 - **Enquanto durar:** todo dano de ataque corpo a corpo contra o usuário é absorvido pela Muralha até onde ela alcançar, e o atacante sofre automaticamente dano igual ao que foi absorvido. A Muralha perde esses pontos; o dano que sobrar passa, e o usuário o sofre normalmente. Ataques à distância a atravessam sem serem absorvidos nem refletidos.
 - **A Muralha não é um [Escudo](../glossario.md#escudo):** os dois convivem e nenhum substitui o outro — a Muralha absorve primeiro, e só o que passar por ela chega ao Escudo
-- **O dano refletido não tem tipo:** é a força do próprio atacante voltando, não um golpe do usuário — não carrega [assinatura de tipo de dano](../jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano), e nenhuma [Resistência](../glossario.md#resistencia) por tipo o reduz
+- **O dano refletido não tem tipo:** é a força do próprio atacante voltando, não um golpe do usuário — não tem [tipo de dano](../jogar/regras-de-equipamento.md#tipos-de-dano-fisico), e nenhuma [Resistência](../glossario.md#resistencia) por tipo o reduz
 - **Reaplicar** restaura a Muralha ao valor cheio; não empilha
 - **Intensidade I — 0 PA + 12 Mana:** quando for alvo de um ataque corpo a corpo, o usuário pode usar esta habilidade como Reação pra erguer a Muralha antes daquele golpe ser resolvido — ela já absorve e reflete o ataque que a disparou. A Muralha tem Defesa ÷ 4 pontos, arredondado pra baixo.
 - **Intensidade II — 0 PA + 21 Mana:** o mesmo, com Defesa ÷ 3 pontos.

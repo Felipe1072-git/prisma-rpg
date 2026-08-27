@@ -291,27 +291,27 @@ Todo dano tem um tipo. Os três primeiros vêm da arma empunhada; o quarto, de f
 
 ### Cortante
 
-Espadas, machados, foices, garras. **A ferida não fecha:** o alvo fica [Sangrando](#sangrando) — **8d4** na Intensidade II, **12d4** na III.
+Espadas, machados, foices, garras. Rende contra carne exposta e tendões. O tipo **não impõe efeito**: quem diz o que o golpe faz é a ficha da habilidade.
 
-A assinatura vem junto com o dano, sem custo à parte, e vale para as garras de uma criatura do mesmo jeito que para a espada de um personagem. [Resistência](#resistencia) ao tipo apaga a assinatura, não só metade do dano. Ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano).
+Onde ele decide de verdade é contra quem resiste: uma criatura [Resistente](#resistencia) a Cortante não fica [Sangrando](#sangrando), mesmo que a ficha diga que fica — um esqueleto não sangra. Ver [Tipos de Dano Físico](jogar/regras-de-equipamento.md#tipos-de-dano-fisico).
 ### Perfurante
 
-Lanças, adagas, flechas, projéteis de arma de fogo. **Acha a brecha:** **+1d6** de dano contra alvo preso — **+2d6** na Intensidade II, **+3d6** na III.
+Lanças, adagas, flechas, projéteis de arma de fogo. Rende contra brechas de armadura e alvos volumosos. O tipo **não impõe efeito**: quem diz o que o golpe faz é a ficha da habilidade.
 
-**Alvo preso** é quem não consegue se desviar: [Lento](#lento), [Imóvel](#imovel), [Atordoado](#atordoado), [Agarrado](#agarrado) ou [Derrubado](#derrubado). É por isso que o Impacto e o Perfurante conversam — o martelo derruba, e a lança cobra por isso. [Resistência](#resistencia) ao tipo apaga a assinatura. Ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano).
+Onde ele decide de verdade é contra quem resiste: uma criatura [Resistente](#resistencia) a Perfurante não leva o dano extra que a ficha prometer contra alvo preso. Ver [Tipos de Dano Físico](jogar/regras-de-equipamento.md#tipos-de-dano-fisico).
 ### Impacto
 
-Martelos, bastões, punhos, manguais; também é o tipo do [Dano Desarmado](habilidades/marciais.md#dano-desarmado). **Derruba a postura:** derruba o alvo — e o deixa [Lento](#lento) na Intensidade II; na III, levantar custa ◈ a mais.
+Martelos, bastões, punhos, manguais; também é o tipo do [Dano Desarmado](habilidades/marciais.md#dano-desarmado). Rende contra ossos, cascas e armaduras rígidas. O tipo **não impõe efeito**: quem diz o que o golpe faz é a ficha da habilidade.
 
-A assinatura vem junto com o dano, sem custo à parte, e vale para o coice de uma criatura do mesmo jeito que para o martelo de um personagem. [Resistência](#resistencia) ao tipo apaga a assinatura. Ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano).
+Onde ele decide de verdade é contra quem resiste: uma criatura [Resistente](#resistencia) a Impacto não é derrubada nem fica [Lento](#lento), mesmo que a ficha diga — um slime não cai de costas. Ver [Tipos de Dano Físico](jogar/regras-de-equipamento.md#tipos-de-dano-fisico).
 ### Arcano
 
-Focos mágicos — canalização sem forma física definida. **O golpe realimenta:** devolve **1 Mana** ao usuário — **2** na Intensidade II, **3** na III.
+Focos mágicos — canalização sem forma física definida. Fere o que não tem corpo pra ferir, e não é elemento: Fogo, Gelo, Raio e os outros causam dano do próprio tipo.
 
-Devolve pouco de propósito: a arma estica o pool de Mana, nunca se paga. Ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano).
+O tipo **não impõe efeito**: quem diz o que a habilidade faz é a ficha dela. Ver [Tipos de Dano Físico](jogar/regras-de-equipamento.md#tipos-de-dano-fisico).
 ### Resistência
 
-O dano daquele tipo cai pela **metade** (arredondado pra baixo) — e, se for um tipo **físico**, a [assinatura dele não acontece](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano): resistente a Cortante não fica Sangrando, a Impacto não é derrubado nem fica Lento, a Perfurante não leva o dano extra. A arma errada perde o efeito, não só metade do número.
+O dano daquele tipo cai pela **metade** (arredondado pra baixo) — e, se for um tipo **físico**, a [o efeito característico dele também não acontece](jogar/regras-de-equipamento.md#tipos-de-dano-fisico): resistente a Cortante não fica Sangrando, a Impacto não é derrubado nem fica Lento, a Perfurante não leva o dano extra. A arma errada perde o efeito, não só metade do número.
 
 ### Imunidade
 

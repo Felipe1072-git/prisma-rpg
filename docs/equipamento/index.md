@@ -131,43 +131,40 @@ Dentro de cada família, as armas são ordenadas por poder (dado crescente; empa
 | [Cajado](#cajado) | Focos Mágicos | 1d10 | Arcano | 120 p | Duas Mãos | Magia 15 | canalização pesada |
 | [Módulo Alado](#modulo-alado) | Focos Mágicos | 1d10 | Arcano | 120 p | *(especial — não é empunhado)* | Magia 25 | enxame tecnológico de lâminas voadoras |
 
-## Assinatura de Tipo de Dano
+## Tipos de Dano Físico
 
-Escolher a arma é escolher **um verbo**, do mesmo jeito que escolher um elemento é (ver
-[Assinatura de Elemento](../habilidades/magicas-elementais.md#assinatura-de-elemento)). O tipo de dano
-não é só o rótulo do que a lâmina faz: ele decide o **que sobra depois do golpe**.
+Toda arma causa um dos quatro tipos, e a tabela de cada família diz qual. O tipo **não impõe
+efeito nenhum**: o que a habilidade faz é o que está escrito na ficha dela — se um golpe de
+adaga faz sangrar, é porque a ficha diz que faz, não porque adagas sangram.
 
-| Tipo | Assinatura | Intensidade I | II | III |
-|---|---|---|---|---|
-| **Cortante** | a ferida não fecha | [Sangrando](../glossario.md#sangrando) | Sangrando a **8d4** | Sangrando a **12d4** |
-| **Impacto** | derruba a postura | derruba | derruba e [Lento](../glossario.md#lento) | derruba, Lento, e **levantar custa ◈ a mais** |
-| **Perfurante** | acha a brecha | **+1d6** contra alvo preso | **+2d6** contra alvo preso | **+3d6** contra alvo preso |
-| **Arcano** | o golpe realimenta | devolve **1 Mana** | devolve **2 Mana** | devolve **3 Mana** |
+| Tipo | O que é | Contra o que costuma render |
+|---|---|---|
+| **Cortante** | espadas, machados, foices, garras | carne exposta, tendões |
+| **Perfurante** | lanças, adagas, flechas, projéteis | brechas de armadura, alvos volumosos |
+| **Impacto** | martelos, bastões, punhos, manguais | ossos, cascas, armaduras rígidas, esqueletos |
+| **Arcano** | focos mágicos | o que não tem corpo pra ferir |
 
-**Alvo preso** é qualquer criatura que não consiga se desviar: [Lento](../glossario.md#lento),
-[Imóvel](../glossario.md#imovel), [Atordoado](../glossario.md#atordoado),
-[Agarrado](../glossario.md#agarrado) ou [Derrubado](../glossario.md#derrubado). É por isso que o
-**Impacto e o Perfurante conversam**: o martelo derruba, e a lança cobra por isso.
+!!! regra "Onde o tipo decide de verdade: Resistência e Vulnerabilidade"
+    O tipo pesa na hora em que ele **encontra a criatura errada**. Uma criatura
+    [Resistente](../glossario.md#resistencia) a um tipo não sofre só metade do dano dele — ela
+    também **não sofre o efeito característico daquele tipo**, mesmo que a habilidade o escreva:
 
-A assinatura **vem junto com o dano**, sem custo à parte: uma Habilidade Básica de espada não precisa
-dizer "e o alvo fica Sangrando" — ela sangra porque é cortante. A ficha só escreve o que **foge** da
-assinatura.
+    - resistente a **Cortante** não fica [Sangrando](../glossario.md#sangrando)
+    - resistente a **Impacto** não é derrubado nem fica [Lento](../glossario.md#lento)
+    - resistente a **Perfurante** não leva o dano extra contra alvo preso
 
-!!! nota "Resistência apaga a assinatura, não só o dano"
-    Uma criatura **Resistente** a um tipo físico não sofre a assinatura dele: resistente a Cortante
-    não fica [Sangrando](../glossario.md#sangrando), a Impacto não é derrubado nem fica
-    [Lento](../glossario.md#lento), a Perfurante não leva o dano extra. Um esqueleto não sangra, e
-    um slime não cai de costas — a arma errada perde o efeito, não só metade do número.
+    Um esqueleto não sangra, e um slime não cai de costas. É isso que faz escolher a arma
+    importar — não uma tabela que obriga toda espada a fazer a mesma coisa.
 
-!!! nota "Por que o Arcano devolve tão pouco"
-    Uma arma mágica nunca se paga: a devolução máxima (3) fica abaixo do custo mínimo de uma
-    Habilidade Básica (3 na Intensidade I, 9 na II). Ela **estica o pool**, não cria um motor — a
-    auditoria de 2026-07-27 já teve que corrigir uma habilidade que devolvia o próprio custo.
+!!! nota "Por que não existe mais uma assinatura obrigatória por tipo"
+    Entre 2026-08-27 e 2026-08-28 os quatro tipos tiveram uma **assinatura mecânica** que vinha
+    junto com o dano, sem a ficha precisar escrever. A intenção era boa — separar espada de
+    martelo, que até então faziam a mesma coisa —, mas ela cobrava caro na mesa: além de Mana,
+    Intensidade e do que a ficha já dizia, o jogador tinha uma quarta camada pra lembrar em todo
+    golpe. E empilhava: uma habilidade de adaga que sangrasse passava a sangrar **e** perfurar.
 
-!!! nota "Armas mágicas continuam genéricas"
-    Devolver Mana não dá tema a um cetro: ele segue sem elemento, sem escola e sem lock, como decidido
-    quando o Arsenal foi desenhado. O que ele ganha é **economia**, que é neutra — nada que empurre o
-    jogo de volta pra lógica de classe.
+    O que sobrou dela é o que valia a pena — a interação com Resistência, acima, e a orientação
+    de quem escreve criatura nova (ver [Criando uma Criatura](../mestre/criando-criaturas.md)).
 
 ## Propriedades de Arma
 
