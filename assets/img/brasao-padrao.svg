@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Prisma RPG" focusable="false">
+  <!-- Losango dentro de losango: o motif do sistema, sem tema de grupo. -->
+  <path d="M32 3 L61 32 L32 61 L3 32z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".45"/>
+  <path d="M32 9 L55 32 L32 55 L9 32z" fill="currentColor" opacity=".05"/>
+  <path d="M32 14 L50 32 L32 50 L14 32z" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".7"/>
+
+  <!-- Prisma: o losango central refratado em três faixas. -->
+  <path d="M32 22 L42 32 L32 42 L22 32z" fill="currentColor" opacity=".9"/>
+  <path d="M32 22 L42 32 L32 32z" fill="currentColor" opacity=".35"/>
+
+  <circle cx="32" cy="6" r="1.6" fill="currentColor" opacity=".7"/>
+  <circle cx="32" cy="58" r="1.6" fill="currentColor" opacity=".7"/>
+  <circle cx="6" cy="32" r="1.6" fill="currentColor" opacity=".7"/>
+  <circle cx="58" cy="32" r="1.6" fill="currentColor" opacity=".7"/>
+</svg>

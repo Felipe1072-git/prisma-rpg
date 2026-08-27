@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Habilidades Marciais" focusable="false">
+  <!-- Moldura em losango: o mesmo motif do Ponto de Ação (◈). -->
+  <path d="M32 3 L61 32 L32 61 L3 32z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".45"/>
+  <path d="M32 9 L55 32 L32 55 L9 32z" fill="currentColor" opacity=".05"/>
+
+  <!-- Espadas cruzadas -->
+  <g stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 44 L43 21" stroke-width="2.6"/>
+    <path d="M44 44 L21 21" stroke-width="2.6"/>
+    <path d="M19 37 L27 45" stroke-width="1.8" opacity=".8"/>
+    <path d="M45 37 L37 45" stroke-width="1.8" opacity=".8"/>
+  </g>
+
+  <!-- Pontas -->
+  <path d="M43 21 L47 17 L44 24z" fill="currentColor"/>
+  <path d="M21 21 L17 17 L20 24z" fill="currentColor"/>
+
+  <!-- Pomos -->
+  <circle cx="18" cy="46" r="2.3" fill="currentColor" opacity=".85"/>
+  <circle cx="46" cy="46" r="2.3" fill="currentColor" opacity=".85"/>
+
+  <!-- Losango de foco no cruzamento -->
+  <path d="M32 27 L36 32 L32 37 L28 32z" fill="currentColor" opacity=".9"/>
+</svg>

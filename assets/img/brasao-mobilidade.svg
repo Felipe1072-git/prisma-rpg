@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Habilidades de Mobilidade" focusable="false">
+  <path d="M32 3 L61 32 L32 61 L3 32z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".45"/>
+  <path d="M32 9 L55 32 L32 55 L9 32z" fill="currentColor" opacity=".05"/>
+
+  <!-- Asa aberta, penas em leque -->
+  <path d="M42 18 q-14 3 -19 14 q-3 7 2 12 q9 -1 15 -8 q6 -8 2 -18z"
+        fill="currentColor" opacity=".12"/>
+  <path d="M42 18 q-14 3 -19 14 q-3 7 2 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+  <g stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none" opacity=".8">
+    <path d="M38 21 q-6 6 -6 13"/>
+    <path d="M32 26 q-5 6 -4 12"/>
+    <path d="M27 32 q-3 6 -2 10"/>
+  </g>
+
+  <!-- Rastro de velocidade -->
+  <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".55">
+    <path d="M12 24 h10"/>
+    <path d="M9 32 h9"/>
+    <path d="M13 40 h8"/>
+  </g>
+</svg>

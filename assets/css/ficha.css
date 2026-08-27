@@ -1,0 +1,450 @@
+/* =========================================================================
+   Prisma RPG — Ficha de Personagem imprimível.
+   Escopo: tudo aqui vive sob .prg-ficha, pra não vazar pro resto do site.
+   Pensada pra impressão em A4; a tela mostra a mesma coisa, com sombra de
+   página e fundo neutro pra simular papel independente do tema claro/escuro.
+   ========================================================================= */
+
+.prg-ficha {
+  --pf-bg: #faf7ef;
+  --pf-bg-alt: #f1ebdc;
+  --pf-tinta: #211c14;
+  --pf-tinta-leve: #5b5343;
+  --pf-linha: #b8ac8f;
+  --pf-linha-forte: #83765a;
+  --pf-destaque: #6a3fa0;
+  --pf-destaque-bg: rgba(106, 63, 160, 0.08);
+
+  /* Cor por atributo — carrega pros recursos/estatísticas derivadas dele.
+     Identidade (Traços/Origem) e Equipado usam --pf-verde: são "outra coisa",
+     não atributo, então não competem pela mesma paleta viva. */
+  --pf-ataque: #b8502e;
+  --pf-defesa: #a3781a;
+  --pf-agilidade: #4c7a3d;
+  --pf-magia: #3f5fa0;
+  --pf-social: #a04570;
+  --pf-exploracao: #2d7a6e;
+  --pf-sorte: #b39422;
+  --pf-sanidade: #6a3fa0;
+  --pf-verde: #159c56;
+  --pf-neutro: #5b5343;
+
+  color: var(--pf-tinta);
+  font-family: "Crimson Pro", Georgia, serif;
+  margin-top: 1.5rem;
+}
+
+.prg-ficha * {
+  box-sizing: border-box;
+}
+
+.prg-ficha__intro {
+  max-width: 46rem;
+  margin: 0 auto 1.5rem;
+  color: var(--md-default-fg-color--light);
+  text-align: center;
+}
+
+/* ------------------------------------------------------------- a página */
+
+.prg-ficha__pagina {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto 2rem;
+  padding: 9mm 10mm;
+  background: var(--pf-bg);
+  color: var(--pf-tinta);
+  border: 1px solid var(--pf-linha);
+  box-shadow: 0 4px 18px rgba(20, 10, 40, 0.18);
+  display: flex;
+  flex-direction: column;
+  gap: 1.6mm;
+  font-size: 8.3pt;
+  line-height: 1.25;
+}
+
+.prg-ficha__cabecalho {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1.5pt solid var(--pf-linha-forte);
+  padding-bottom: 1.5mm;
+  margin-bottom: 0.5mm;
+}
+
+.prg-ficha__titulo {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-weight: 700;
+  font-size: 13pt;
+  color: var(--pf-destaque);
+  letter-spacing: 0.02em;
+}
+
+.prg-ficha__pagina-label {
+  font-size: 7.5pt;
+  color: var(--pf-tinta-leve);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* -------------------------------------------------------------- seções */
+
+.prg-secao {
+  border: 1px solid var(--pf-linha);
+  border-radius: 3px;
+  padding: 1.3mm 2mm 1.8mm;
+  background: color-mix(in srgb, var(--pf-bg-alt) 55%, transparent);
+}
+
+.prg-secao__titulo {
+  font-size: 7.3pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--pf-destaque);
+  margin: 0 0 1mm;
+}
+
+.prg-secao--flex1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.prg-secao__nota {
+  font-size: 6.6pt;
+  font-style: italic;
+  color: var(--pf-tinta-leve);
+  margin: 0 0 1.2mm;
+}
+
+/* ------------------------------------------------------------ grid geral */
+
+.prg-linha {
+  display: flex;
+  gap: 2mm;
+  align-items: stretch;
+}
+
+.prg-linha > * { flex: 1; }
+
+.prg-grid {
+  display: grid;
+  gap: 1.5mm 2mm;
+}
+
+/* ---------------------------------------------------------------- campo */
+
+.prg-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3mm;
+}
+
+.prg-campo__rotulo {
+  font-size: 6.6pt;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--pf-tinta-leve);
+  white-space: nowrap;
+}
+
+.prg-campo__valor {
+  border-bottom: 1px solid var(--pf-linha-forte);
+  min-height: 3.2mm;
+}
+
+.prg-campo--caixa .prg-campo__valor {
+  border: 1px solid var(--pf-linha-forte);
+  border-radius: 2px;
+  min-height: 4.5mm;
+  background: var(--pf-bg);
+}
+
+.prg-campo--grande { flex: 2; }
+.prg-campo--pequeno { flex: 0.5; }
+
+/* PA — pontinhos de gasto */
+.prg-pa {
+  display: flex;
+  justify-content: center;
+  gap: 1.5mm;
+  margin: 1.5mm 0 0.6mm;
+}
+
+.prg-pa__ponto {
+  width: 5mm;
+  height: 5mm;
+  border: 1.2pt solid var(--pf-destaque);
+  border-radius: 50%;
+}
+
+/* ----------------------------------------------------- card de habilidade */
+
+.prg-hab-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1mm;
+}
+
+.prg-hab-card {
+  border: 1px solid var(--pf-linha-forte);
+  border-radius: 3px;
+  padding: 0.8mm 2.2mm 0.8mm;
+  background: var(--pf-bg);
+  break-inside: avoid;
+}
+
+.prg-hab-card__cabecalho {
+  display: flex;
+  gap: 2.5mm;
+  padding-bottom: 0.6mm;
+  margin-bottom: 0.6mm;
+  border-bottom: 1px solid var(--pf-linha);
+}
+
+.prg-hab-card__linha {
+  display: flex;
+  align-items: baseline;
+  gap: 2mm;
+  padding: 0.4mm 0;
+}
+
+.prg-hab-card__rotulo {
+  flex: 0 0 21mm;
+  font-size: 6.8pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--pf-destaque);
+}
+
+.prg-hab-card__valor {
+  flex: 1;
+  border-bottom: 1px dotted var(--pf-linha);
+  min-height: 4.5mm;
+}
+
+/* --------------------------------------------------------------- tabela */
+
+.prg-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 7.4pt;
+}
+
+.prg-tabela th,
+.prg-tabela td {
+  border: 1px solid var(--pf-linha);
+  padding: 0.8mm 1.2mm;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prg-tabela th {
+  background: var(--pf-destaque-bg);
+  font-size: 6.6pt;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--pf-destaque);
+  font-weight: 700;
+}
+
+.prg-tabela td.prg-vazia {
+  min-height: 6mm;
+  height: 6mm;
+}
+
+/* --------------------------------------------------------- apêndice p3 */
+
+.prg-condicoes {
+  columns: 2;
+  column-gap: 3mm;
+  font-size: 7.2pt;
+}
+
+.prg-condicao {
+  break-inside: avoid;
+  margin-bottom: 1mm;
+  padding-bottom: 0.8mm;
+  border-bottom: 1px dotted var(--pf-linha);
+}
+
+.prg-condicao__nome {
+  font-weight: 700;
+  color: var(--pf-destaque);
+}
+
+.prg-tabela-mini {
+  border-collapse: collapse;
+  font-size: 6.6pt;
+  margin: 0.6mm 0 0;
+}
+
+.prg-tabela-mini th,
+.prg-tabela-mini td {
+  border: 1px solid var(--pf-linha);
+  padding: 0.3mm 1.4mm;
+  text-align: center;
+}
+
+.prg-tabela-mini th {
+  background: var(--pf-destaque-bg);
+  color: var(--pf-destaque);
+  font-weight: 700;
+}
+
+.prg-notas {
+  flex: 1;
+  min-height: 104mm;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 5.2mm,
+    var(--pf-linha) 5.2mm,
+    var(--pf-linha) calc(5.2mm + 1px)
+  );
+}
+
+/* ------------------------------------------------------------- rodapé */
+
+.prg-ficha__rodape {
+  margin-top: auto;
+  padding-top: 1mm;
+  border-top: 1px solid var(--pf-linha);
+  font-size: 6pt;
+  color: var(--pf-tinta-leve);
+  text-align: center;
+}
+
+/* --------------------------------------------------------- ações tela */
+
+.prg-ficha__acoes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.prg-ficha__botao {
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.55rem 1.4rem;
+  border-radius: 2rem;
+  border: none;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  cursor: pointer;
+}
+
+.prg-ficha__botao:hover { filter: brightness(1.1); }
+
+/* ============================================== tabelas: papel, não tema
+
+   A ficha é uma folha de papel bege, mas as tabelas dentro dela caíam no
+   seletor genérico do tema (`.md-typeset table:not([class])`), que pinta
+   fundo e bordas com variáveis de esquema. No modo escuro isso as
+   transformava em retângulos quase pretos com texto escuro por cima —
+   ilegíveis na tela, embora corretas na impressão, porque o CSS de print
+   já neutralizava as cores do tema.
+
+   Aqui elas são presas ao papel: fundo transparente (quem pinta o
+   cabeçalho é o `background` inline do `<tr>`), bordas e texto na
+   paleta da ficha, em qualquer esquema.                                  */
+
+/* O tema envolve toda tabela em `.md-typeset__scrollwrap > .md-typeset__table`,
+   e o segundo é `inline-block` — encolhe até o conteúdo. Com isso o
+   `width:100%` da tabela virava 100% de um pai já encolhido, e a tabela
+   parava no meio da linha: 367px numa página de 742px, com o resto vazio
+   à direita. Na ficha a tabela é diagramada, não rolável: o wrapper vira
+   bloco de largura cheia e a tabela volta a ocupar a linha inteira.       */
+
+.prg-ficha .md-typeset__scrollwrap,
+.prg-ficha .md-typeset__table {
+  display: block;
+  width: 100%;
+  margin: 0;
+  overflow: visible;
+}
+
+.prg-ficha table,
+.md-typeset .prg-ficha table:not([class]) {
+  display: table;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: #211c14;
+}
+
+.md-typeset .prg-ficha table:not([class]) th,
+.md-typeset .prg-ficha table:not([class]) td {
+  background-color: transparent;
+  border-color: #cabf9f;
+  color: inherit;
+}
+
+/* ================================================================ print */
+
+@media print {
+  body:has(.prg-ficha) .md-header,
+  body:has(.prg-ficha) .md-tabs,
+  body:has(.prg-ficha) .md-sidebar,
+  body:has(.prg-ficha) .md-footer,
+  body:has(.prg-ficha) .md-nav,
+  body:has(.prg-ficha) .md-content__button,
+  body:has(.prg-ficha) .md-typeset h1,
+  body:has(.prg-ficha) .prg-ficha__intro,
+  body:has(.prg-ficha) .prg-ficha__acoes {
+    display: none !important;
+  }
+
+  body:has(.prg-ficha) .md-main,
+  body:has(.prg-ficha) .md-main__inner,
+  body:has(.prg-ficha) .md-content,
+  body:has(.prg-ficha) .md-content__inner,
+  body:has(.prg-ficha) .md-typeset,
+  body:has(.prg-ficha) .md-grid,
+  body:has(.prg-ficha) .prg-ficha {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+
+  body:has(.prg-ficha) .md-content__inner::before {
+    display: none !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  html:has(.prg-ficha), body:has(.prg-ficha) {
+    background: #fff !important;
+  }
+
+  /* A página impressa é o mesmo HTML/CSS da tela, do tamanho exato da
+     folha — sem largura/altura recalculadas pro papel. O @page acima
+     não tira margem nenhuma (a "margem" já é o padding interno de cada
+     página), então não sobra diferença nenhuma pra reconciliar aqui. */
+  .prg-ficha__pagina {
+    width: 210mm;
+    height: 297mm;
+    min-height: 297mm;
+    max-height: 297mm;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    overflow: hidden;
+    break-inside: avoid;
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .prg-ficha__pagina:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+}
