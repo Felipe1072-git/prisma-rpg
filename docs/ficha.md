@@ -331,7 +331,9 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
         <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Custo</span>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Ação</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:7px; padding:1px 8px;">
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Ação</span>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ação</label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span></label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
@@ -401,7 +403,9 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
         <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Custo</span>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Ação</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:7px; padding:1px 8px;">
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Ação</span>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ação</label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span></label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
@@ -470,7 +474,9 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
         <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Custo</span>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Ação</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:7px; padding:1px 8px;">
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Ação</span>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ação</label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span></label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
@@ -540,7 +546,9 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
         <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Custo</span>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Ação</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:7px; padding:1px 8px;">
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Ação</span>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ação</label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span></label>
         <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
