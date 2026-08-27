@@ -864,6 +864,40 @@
   font-weight: 600;
 }
 
+/* Botão de zerar tudo. Mesma casca do "Ocultar filtros", mas em destaque:
+   ele só existe na tela quando há filtro ligado, então quando aparece é
+   porque tem função. */
+.prg-filtro__limpar {
+  flex: none;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--prg-c-arcano);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--prg-c-arcano);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.prg-filtro__limpar:hover,
+.prg-filtro__limpar:focus-visible {
+  background: color-mix(in srgb, var(--prg-c-arcano) 12%, transparent);
+}
+
+/* O controle mexido se marca sozinho: com doze menus lado a lado, saber
+   *quantos* estão ligados não diz *quais*. */
+.prg-filtro select.is-ativo {
+  border-color: var(--prg-c-arcano);
+  color: var(--prg-c-arcano);
+  font-weight: 600;
+}
+
+.prg-filtro input[type="range"].is-ativo {
+  accent-color: var(--prg-c-arcano);
+}
+
 .prg-filtro__campo {
   flex: 1 1 14rem;
   min-width: 0;

@@ -391,7 +391,7 @@
     }
 
     iniciaSorteio(barra, cards, selects, campo, atualiza);
-    iniciaRecolherFiltros(barra, selects, sliders, checkDesarmado);
+    iniciaRecolherFiltros(barra, selects, sliders, checkDesarmado, campo, atualiza);
     atualiza();
   }
 
@@ -404,7 +404,7 @@
   //
   // O botão é criado aqui, não no hook: sem JS a página continua exatamente
   // como era, com todos os filtros visíveis.
-  function iniciaRecolherFiltros(barra, selects, sliders, checkDesarmado) {
+  function iniciaRecolherFiltros(barra, selects, sliders, checkDesarmado, campo, atualiza) {
     var avancado = barra.querySelector(".prg-filtro__avancado");
     if (!avancado) return;
     var linha1 = barra.querySelector(".prg-filtro__linha1");
@@ -414,6 +414,28 @@
     botao.type = "button";
     botao.className = "prg-filtro__recolher";
     linha1.appendChild(botao);
+
+    // Zerar tudo de uma vez. Aparece só quando há o que zerar: um botão que
+    // nunca faz nada é ruído na barra, e a presença dele já avisa que algum
+    // filtro está ligado.
+    var limpar = document.createElement("button");
+    limpar.type = "button";
+    limpar.className = "prg-filtro__limpar";
+    limpar.textContent = "Limpar filtros";
+    limpar.hidden = true;
+    linha1.insertBefore(limpar, botao);
+
+    limpar.addEventListener("click", function () {
+      selects.forEach(function (f) { f.el.value = ""; });
+      sliders.forEach(function (s) {
+        s.el.value = s.el.max;
+        if (s.saida) s.saida.textContent = s.el.value;
+      });
+      if (checkDesarmado) checkDesarmado.checked = false;
+      if (campo) campo.value = "";
+      if (atualiza) atualiza();
+      pinta();
+    });
 
     // Quantos filtros estão mexidos — pra quem recolhe não esquecer que
     // deixou um ligado e achar que a lista está incompleta por bug.
@@ -428,6 +450,15 @@
     function pinta() {
       var aberto = !barra.classList.contains("is-recolhido");
       var n = ativos();
+      // Cada controle mexido se marca sozinho — com doze menus lado a lado,
+      // contar quantos estão ligados não diz *quais*.
+      selects.forEach(function (f) {
+        f.el.classList.toggle("is-ativo", !!f.el.value);
+      });
+      sliders.forEach(function (s) {
+        s.el.classList.toggle("is-ativo", s.el.value !== s.el.max);
+      });
+      limpar.hidden = n === 0 && !(campo && campo.value.trim());
       botao.setAttribute("aria-expanded", aberto ? "true" : "false");
       botao.textContent = aberto
         ? "Ocultar filtros"
@@ -449,6 +480,7 @@
     selects.forEach(function (f) { f.el.addEventListener("change", pinta); });
     sliders.forEach(function (s) { s.el.addEventListener("input", pinta); });
     if (checkDesarmado) checkDesarmado.addEventListener("change", pinta);
+    if (campo) campo.addEventListener("input", pinta);
     pinta();
   }
 
