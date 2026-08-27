@@ -152,7 +152,7 @@ São **seis listagens**, todas com a mesma carcaça (`monta_card_base`) e a mesm
 
 | Página | O que acontece | Id do card |
 |---|---|---|
-| `habilidades/index.md` | as 753 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
+| `habilidades/index.md` | as 762 habilidades viram cards (grupo, elemento, arma, atributo, alvo, Mana) | `hab-{arma}-{nome}` ou `hab-{nome}` |
 | `racas/index.md` | as 24 seções `##` viram cards (leva, atributos, nº de traços); as duas divisórias de leva viram prosa acima da lista | `rac-{nome}` |
 | `origens/index.md` | as 3 tabelas d20 viram 60 cards (eixo, tipo de traço, atributo) + sorteio | `ori-{eixo}-{nome}` |
 | `equipamento/index.md` | as 62 seções de arma + escudos + armaduras viram 68 cards; a ficha vem da tabela de dado de dano | `equ-{nome}` |
@@ -294,11 +294,11 @@ com deploy automático a cada push (workflow em `.github/workflows/deploy.yml`).
 
 | | |
 |---|---|
-| **753 habilidades** | 567 gerais em 15 grupos + 186 de arma (62 armas × 3 graus) |
+| **762 habilidades** | 576 gerais em 15 grupos + 186 de arma (62 armas × 3 graus) |
 | **101 pacotes** · **60 origens** · **25 raças** | trilhas, passado e linhagem |
 | **76 itens** no Equipamento | 62 armas + escudos + armaduras |
 | **56 fichas** no Bestiário | 4 Tiers, de Goblin a Tarrasque |
-| **150 verbetes** no glossário | com popover e filtro por categoria |
+| **154 verbetes** no glossário | com popover e filtro por categoria |
 
 **Duas coisas mudaram o sistema por baixo, e valem mais que qualquer contagem:**
 
@@ -1289,6 +1289,93 @@ devolve "—" pra Reação e Passiva **de propósito**, não por acidente de tab
 ⚠ O sintoma era um número, não uma mensagem: os cards sem cooldown caíram de 41 pra 28. **Build e
 `verifica.py` passaram limpos nas duas versões** — nenhum dos dois compara contagem entre builds.
 
+**Doze ideias de anime, nove habilidades, e dois bugs vivos (2026-08-27).** O autor trouxe uma lista
+de habilidades do *The Exiled Heavy Knight* e pediu que cada uma fosse conferida contra o repertório
+antes de virar ficha. Nove viraram; **três fecharam sem ficha nova**, e é o resultado que mais vale
+registrar — o jogo já as tinha.
+
+| Habilidade | Grupo | O que era inédito |
+|---|---|---|
+| **Muralha de Reversão** | Buff | primeira mitigação de dano do sistema; Reação que absorve e devolve o que segurou |
+| **Golpe Debilitante** | Debuff | primeira redução plana do atributo Ataque — antes só existia Desvantagem |
+| **Varredura** | Percepção Arcana | primeira detecção de criaturas em raio; a Intensidade escala a **informação** |
+| **Banquete Profano** | Necromancia | primeira habilidade a cobrar **Estresse**, no molde do Preço de Sangue |
+| **Guarda Crescente** | Buff | primeiro acúmulo automático por evento |
+| **Golpe do Acaso** | Marciais | primeira a **substituir** o limiar de Crítico: dentro dela quem decide é um d6 |
+| **Pisar na Sombra** | Debuff | primeira a travar o movimento do **próprio usuário** como condição |
+| **Passo de Parede** | Mobilidade | a irmã barata do Voo Repentino, limitada a superfície contínua |
+| **Maré de Sorte** | Buff, Passiva | primeiro buff de Sorte e **primeiro multiplicador de atributo** do jogo |
+
+As três descartadas: **Shield Bash** (o `Ataque com Escudo` já era, e ganhou o dano de colisão que
+faltava), **Doppel Illusion** (o `Reflexo Múltiplo` III já cria 4 réplicas) e **Parry** (o `Aparar`
+já era — e estava quebrado, ver abaixo).
+
+⚠ **Defesa não entra na Evasão, e duas habilidades viviam disso.** `Evasão = Agilidade +
+Escudo/Couraça`; o atributo **Defesa** vira Vida Máxima e Fortitude Física. O `Aparar` e a `Defesa
+Mágica` — as **duas Reações defensivas dedicadas do jogo** — davam "+N de Defesa contra aquele
+ataque, antes do teste de acerto". O teste roda contra Evasão: elas custavam Mana e **não faziam
+nada**. O `Aparar` chegava a ter a Intensidade III condicionada a *"se o ataque errar"*, sem tornar
+isso mais provável. Consertadas trocando o atributo, sem mexer em valor.
+
+⚠ **Isso vale como régua pra qualquer buff defensivo novo**: os 37 "+X de Defesa" que existem hoje
+deixam o personagem mais difícil de **matar**, não de **acertar**. Quem quer o segundo escreve
+**Evasão** — e o jogo tem 14 debuffs que reduzem Evasão do inimigo contra **1** buff que aumenta a
+sua, uma assimetria que a `Guarda Crescente` passou a preencher.
+
+⚠ **A régua da Escala de Poder funciona como detector de desequilíbrio, e não só como
+classificadora.** A `Guarda Crescente` saiu `Suprema` custando 33 de Mana: ela ganhava do `Anel de
+Fogo` em bônus, duração **e** preço ao mesmo tempo, e teria sido gravada assim se o card não tivesse
+sido conferido. **Ao criar habilidade, olhe a Escala derivada antes de fechar o custo.**
+
+⚠ **Mas Escala alta não é sinal de erro por si só**: 44 das 65 Supremas começam **abaixo de 48 de
+Mana**. A Escala mede o que a habilidade entrega e o Mana o que ela cobra — desacoplados de
+propósito em 2026-08-26.
+
+**Dois bugs vivos, achados de passagem.** Nenhum dos dois era pego por `--strict` nem pelo
+`verifica.py`:
+
+- **A régua lia metade das durações.** `eixo_duracao` só reconhecia a forma literal `por N rodadas`;
+  uma ficha que escrevesse "**Duração:** 3 rodadas" era medida como **instantânea**. Eram 21 fichas,
+  e **11 saíam classificadas abaixo do que entregam** — nenhuma acima, o que confirmou que era o
+  regex e não julgamento. Uma linha resolveu.
+- **Quatro fichas declaravam `Resolução:` duas vezes na mesma linha**, sobra da conversão de área de
+  2026-08-26. O padrão é Resolução **antes** do Vs.
+
+**Quatro mecânicas centrais ganharam verbete.** O `Ataque de Oportunidade` era usado por 5
+habilidades e **não estava definido em lugar nenhum** — nem glossário, nem Jogando o Jogo, nem Livro
+do Mestre. Não é condição, então as checagens do `verifica.py` não o pegavam. O verbete não inventou
+regra: o gatilho estava escrito dentro da *Guarda Atenta* ("como se ela tivesse deixado o alcance
+dele"), o limite de 1 por rodada é a regra de Reação, e deslocamento forçado não provocar vem do
+próprio glossário. **Teleporte não provoca** — decisão do autor, porque não percorre o caminho.
+
+Junto entraram **Teste de Resistência** (180 usos, 3 linkados, zero verbete), **Ação Básica** (30) e
+**Ataque Básico** (23) — este é o que *todo personagem faz em todo turno*. O auto-link gerou 7 links
+novos, auditados um a um: todos corretos.
+
+**O Impacto parou de empurrar.** A varredura de 2026-08-27 tirou o empurrão genérico das fichas de
+**arma**, mas não alcançou as habilidades gerais que usam **Dano Desarmado** (que é Impacto). Eram
+13, e 12 já derrubavam — o empurrão era pura redundância. Onze foram limpas; o `Ataque com Escudo`
+ficou (o empurrão alimenta a colisão) e o `Golpe Bruto` também (serve pro usuário avançar).
+
+⚠ **Dry-run por linha não pega defeito de escada.** Remover o empurrão deixou a `Postura do Dragão`
+com a **Intensidade II entregando menos que a I** — o empurrão era o que as separava. O dry-run
+mostrou as linhas isoladas e não viu, porque o defeito estava na **relação** entre elas. Em três
+outras (`Ataque Desarmado`, `Chute Navalha`, `Dragão Celeste`) o empurrão era o **único** efeito da
+Intensidade I, e removê-lo produziria o defeito das 163 fichas de 2026-08-16: pagar Mana pelo que o
+Ataque Básico dá de graça. Nas quatro, a assinatura de Impacto entrou inteira (derruba → derruba e
+Lento). **Depois do dry-run por linha, leia a escada.**
+
+**A ficha imprimível contava a história antiga em cinco pontos.** Ela afirmava *"o alvo nunca rola
+defesa"*, e a expressão **Teste de Resistência não aparecia em nenhuma das 6 páginas** — 173
+habilidades contradizem isso desde 2026-08-26, e quem só tivesse a ficha impressa rodaria toda área
+invertida. Também descrevia os tipos de dano físico pelo texto anterior à assinatura, e citava
+"empurrar" no Dano Desarmado. Corrigidos os cinco, e entraram Cooldown, Escala de Poder (que a
+página 5 citava sem definir) e Ataque de Oportunidade.
+
+⚠ **A ficha é o lugar que envelhece sem avisar.** Nada no build compara o que ela diz com as regras
+vigentes. Ao mudar uma regra que o jogador aplica na mesa, **abra `docs/ficha.md`** — foi assim que
+uma mudança de 2026-08-26 sobreviveu meses numa página impressa.
+
 Em aberto:
 
 **Revisado pelo autor em 2026-08-27** — este bloco está fechado:
@@ -1325,19 +1412,30 @@ novas do `verifica.py` pega isso**, porque é número, não vocabulário — é 
 
 7. **Área nunca mais zera** — com a mudança de 2026-08-26, resistir dá metade do dano em vez de nada.
    As áreas ficaram mais confiáveis e **nenhum dado foi reduzido pra compensar**. Só a mesa responde
-8. **Lâmina de Sangue** causa 10d8 nas três Intensidades — só o dreno escala. Anomalia notada de
-   passagem, nunca investigada
-9. **Familiares de Conjuração** — *Olhos Emprestados* e *Chama de Bolso* têm ficha idêntica (Menor,
-   ◈ + 6 Mana, vínculo permanente que não cresce); só o efeito utilitário difere
-10. **Condições órfãs — varredura não feita.** Quatro apareceram por acaso em 2026-08-27
-    (`Silenciado` definido e nunca aplicado; `Caído`, `Estável` e `Último Turno` aplicados sem
-    verbete; `Couraça` decidindo a defesa de 56 criaturas sem existir no glossário) e foram
-    resolvidas. **Ninguém varreu o resto** — a checagem nova do `verifica.py` pega só o segundo tipo
+8. **Lâmina de Sangue** — medida em 2026-08-27 e **aceita como está** pelo autor. É pior do que o
+   registro anterior dizia: nem o dano nem o custo escalam. São **10d8 (45 de média) e 4d4 de Vida
+   nas três Intensidades** — a Intensidade só compra dreno, e na III o usuário sai com **+80 de Vida
+   líquida** enquanto causa 45, por 1 PA e zero Mana. Para comparar: a média de uma habilidade geral
+   é 11,4, e a de uma Suprema é 12,3. Fica como anomalia conhecida, não como defeito a corrigir
+9. **Familiares de Conjuração — lidos em 2026-08-27, e o veredito é que não é defeito.** *Olhos
+   Emprestados* e *Chama de Bolso* têm a mesma ficha (Menor, ◈ + 6 Mana, vínculo permanente que não
+   cresce), mas num familiar utilitário **o efeito é a habilidade**, e ver à distância não se parece
+   com iluminar — o mesmo argumento que fechou a Camada B. O que sobra de real é desequilíbrio: o
+   corvo tem o dobro da Vida, o dobro do Movimento e utilidade mais ampla, enquanto a chama entrega
+   o que uma tocha resolve
+10. **Condições órfãs — varredura feita em 2026-08-27, e voltou limpa.** O padrão que pegou
+    `Silenciado`, `Caído`, `Estável` e `Último Turno` (`fica X` / `está X` / `sofre X` com termo
+    capitalizado fora de link) **não achou nenhuma condição nova** — os únicos hits foram plurais de
+    verbetes existentes. O item está fechado. O que a varredura achou foi outra família, tratada
+    junto: **mecânicas centrais sem verbete** (ver a entrada de 2026-08-27 acima)
 11. **Dano dos PJs escala pouco** (2,7x contra 7,6x da Vida) — adiado de propósito. As reescalas de
     bônus de 2026-08-26 **não** atacaram isso: mexeram no bônus plano, não no dado das habilidades
 
 **Trabalho novo, quando houver vontade:**
 
-12. **Ficha de personagem imprimível** — a construir do zero, elemento por elemento (ver acima)
+12. **Ficha de personagem imprimível — existe, e tem 6 páginas** (`docs/ficha.md`): ficha principal,
+    apêndice de Habilidades, Como Jogar, Consulta Rápida, Recursos e Notas. O que ela precisa não é
+    construção, é **manutenção**: em 2026-08-27 estava contando a história antiga em cinco pontos
+    (ver acima). Ao mudar uma regra, **confira se ela aparece na ficha** — build limpo não acusa
 13. Os sete itens da seção 4.3 de `notas/auditoria.md` — exigem escolha de conteúdo, não correção
 14. Conteúdo novo é sempre bem-vindo; nenhuma lacuna estrutural de regra permanece
