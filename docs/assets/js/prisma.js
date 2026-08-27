@@ -415,14 +415,16 @@
     botao.className = "prg-filtro__recolher";
     linha1.appendChild(botao);
 
-    // Zerar tudo de uma vez. Aparece só quando há o que zerar: um botão que
-    // nunca faz nada é ruído na barra, e a presença dele já avisa que algum
-    // filtro está ligado.
+    // Zerar tudo de uma vez. Fica sempre na barra, ao lado de "Expandir tudo"
+    // e "Ocultar filtros" — é onde se procura por ele. Só que desabilitado
+    // enquanto não há o que zerar, pra não prometer uma ação que não faria
+    // nada: esconder tornaria o botão indescobrível justamente para quem
+    // ainda não sabe que ele existe.
     var limpar = document.createElement("button");
     limpar.type = "button";
     limpar.className = "prg-filtro__limpar";
     limpar.textContent = "Limpar filtros";
-    limpar.hidden = true;
+    limpar.disabled = true;
     linha1.insertBefore(limpar, botao);
 
     limpar.addEventListener("click", function () {
@@ -458,7 +460,7 @@
       sliders.forEach(function (s) {
         s.el.classList.toggle("is-ativo", s.el.value !== s.el.max);
       });
-      limpar.hidden = n === 0 && !(campo && campo.value.trim());
+      limpar.disabled = n === 0 && !(campo && campo.value.trim());
       botao.setAttribute("aria-expanded", aberto ? "true" : "false");
       botao.textContent = aberto
         ? "Ocultar filtros"

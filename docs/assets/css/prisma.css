@@ -881,9 +881,19 @@
   white-space: nowrap;
 }
 
-.prg-filtro__limpar:hover,
+.prg-filtro__limpar:hover:not(:disabled),
 .prg-filtro__limpar:focus-visible {
   background: color-mix(in srgb, var(--prg-c-arcano) 12%, transparent);
+}
+
+/* Sem nada pra zerar ele continua na barra, mas apagado: some o destaque e
+   o cursor deixa de convidar. */
+.prg-filtro__limpar:disabled {
+  border-color: var(--prg-borda);
+  color: var(--md-default-fg-color--light);
+  font-weight: 400;
+  opacity: 0.55;
+  cursor: default;
 }
 
 /* O controle mexido se marca sozinho: com doze menus lado a lado, saber
