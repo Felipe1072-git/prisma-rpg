@@ -312,29 +312,35 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
         <div style="font-size:6.3px; color:#83765a; text-transform:uppercase; letter-spacing:0.05em;">Nome</div>
         <div style="border-bottom:1px solid #cabf9f; min-height:11px; font-size:10px;">&nbsp;</div>
       </div>
-      <div style="display:flex; gap:9px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
-        <div style="flex:1;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      <div style="display:flex; gap:8px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
+        <div style="flex:1.3;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
         <div style="flex:1;">Atributo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
-        <div style="flex:1;">Tipo de Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
-        <div style="flex:1;">Alvo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Alvos<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
         <div style="flex:1;">Alcance<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Área<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      </div>
+      <div style="display:flex; gap:8px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
+        <div style="flex:1.3;">Duração<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Componentes<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Cooldown<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Vs<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Escala<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       </div>
       <div style="display:flex; align-items:center; gap:7px; padding:2px 8px 1px;">
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Tipo</span>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Custo</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Ação</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ação</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span></label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
       </div>
       <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px; border-bottom:1.2px solid #83765a;">
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Ação</span>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Área</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Efeito</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;">
-          <span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>
-          <svg viewBox="0 0 10 10" style="width:7px; height:7px;" aria-hidden="true"><path d="M5 1 L9 9 L1 9 Z" fill="#159c56"/></svg>
-          Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span>
-        </label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Resolução</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Teste de Resistência</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Automática</label>
       </div>
       <div style="padding:5px 8px 5px; display:flex; flex-direction:column; justify-content:space-evenly; flex:1;">
         <div style="display:flex; align-items:baseline; gap:5px;">
@@ -376,29 +382,35 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
         <div style="font-size:6.3px; color:#83765a; text-transform:uppercase; letter-spacing:0.05em;">Nome</div>
         <div style="border-bottom:1px solid #cabf9f; min-height:11px; font-size:10px;">&nbsp;</div>
       </div>
-      <div style="display:flex; gap:9px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
-        <div style="flex:1;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      <div style="display:flex; gap:8px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
+        <div style="flex:1.3;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
         <div style="flex:1;">Atributo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
-        <div style="flex:1;">Tipo de Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
-        <div style="flex:1;">Alvo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Alvos<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
         <div style="flex:1;">Alcance<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Área<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      </div>
+      <div style="display:flex; gap:8px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
+        <div style="flex:1.3;">Duração<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Componentes<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Cooldown<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Vs<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Escala<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       </div>
       <div style="display:flex; align-items:center; gap:7px; padding:2px 8px 1px;">
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Tipo</span>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Custo</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Ação</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ação</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span></label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
       </div>
       <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px; border-bottom:1.2px solid #83765a;">
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Ação</span>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Área</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Efeito</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;">
-          <span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>
-          <svg viewBox="0 0 10 10" style="width:7px; height:7px;" aria-hidden="true"><path d="M5 1 L9 9 L1 9 Z" fill="#159c56"/></svg>
-          Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span>
-        </label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Resolução</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Teste de Resistência</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Automática</label>
       </div>
       <div style="padding:5px 8px 5px; display:flex; flex-direction:column; justify-content:space-evenly; flex:1;">
         <div style="display:flex; align-items:baseline; gap:5px;">
@@ -439,29 +451,35 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
         <div style="font-size:6.3px; color:#83765a; text-transform:uppercase; letter-spacing:0.05em;">Nome</div>
         <div style="border-bottom:1px solid #cabf9f; min-height:11px; font-size:10px;">&nbsp;</div>
       </div>
-      <div style="display:flex; gap:9px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
-        <div style="flex:1;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      <div style="display:flex; gap:8px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
+        <div style="flex:1.3;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
         <div style="flex:1;">Atributo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
-        <div style="flex:1;">Tipo de Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
-        <div style="flex:1;">Alvo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Alvos<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
         <div style="flex:1;">Alcance<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Área<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      </div>
+      <div style="display:flex; gap:8px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
+        <div style="flex:1.3;">Duração<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Componentes<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Cooldown<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Vs<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Escala<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       </div>
       <div style="display:flex; align-items:center; gap:7px; padding:2px 8px 1px;">
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Tipo</span>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Custo</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Ação</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ação</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span></label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
       </div>
       <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px; border-bottom:1.2px solid #83765a;">
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Ação</span>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Área</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Efeito</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;">
-          <span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>
-          <svg viewBox="0 0 10 10" style="width:7px; height:7px;" aria-hidden="true"><path d="M5 1 L9 9 L1 9 Z" fill="#159c56"/></svg>
-          Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span>
-        </label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Resolução</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Teste de Resistência</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Automática</label>
       </div>
       <div style="padding:5px 8px 5px; display:flex; flex-direction:column; justify-content:space-evenly; flex:1;">
         <div style="display:flex; align-items:baseline; gap:5px;">
@@ -503,29 +521,35 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
         <div style="font-size:6.3px; color:#83765a; text-transform:uppercase; letter-spacing:0.05em;">Nome</div>
         <div style="border-bottom:1px solid #cabf9f; min-height:11px; font-size:10px;">&nbsp;</div>
       </div>
-      <div style="display:flex; gap:9px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
-        <div style="flex:1;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      <div style="display:flex; gap:8px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
+        <div style="flex:1.3;">Chave<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
         <div style="flex:1;">Atributo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
-        <div style="flex:1;">Tipo de Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
-        <div style="flex:1;">Alvo<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Dano<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Alvos<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
         <div style="flex:1;">Alcance<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Área<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+      </div>
+      <div style="display:flex; gap:8px; padding:2px 8px; font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em;">
+        <div style="flex:1.3;">Duração<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Componentes<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Cooldown<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Vs<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
+        <div style="flex:1;">Escala<div style="border-bottom:1px solid #cabf9f; min-height:9px; color:#211c14; font-size:8.5px; text-transform:none;">&nbsp;</div></div>
       </div>
       <div style="display:flex; align-items:center; gap:7px; padding:2px 8px 1px;">
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Tipo</span>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Custo</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Intensidade</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Custo Fixo</label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 34px;">Ação</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ação</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span></label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Passiva</label>
       </div>
       <div style="display:flex; align-items:center; gap:7px; padding:1px 8px 2px; border-bottom:1.2px solid #83765a;">
-        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 28px;">Ação</span>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Área</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Efeito</label>
-        <label style="display:flex; align-items:center; gap:2px; font-size:6.8px;">
-          <span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>
-          <svg viewBox="0 0 10 10" style="width:7px; height:7px;" aria-hidden="true"><path d="M5 1 L9 9 L1 9 Z" fill="#159c56"/></svg>
-          Reação <span style="color:#83765a; font-size:5.7px;">(máx. 1×/rodada)</span>
-        </label>
+        <span style="font-size:6.1px; color:#83765a; text-transform:uppercase; letter-spacing:0.04em; flex:0 0 48px;">Resolução</span>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Ataque</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Teste de Resistência</label>
+        <label style="display:flex; align-items:center; gap:2px; font-size:6.5px;"><span style="width:6px; height:6px; border:1.1px solid #159c56; display:inline-block;"></span>Automática</label>
       </div>
       <div style="padding:5px 8px 5px; display:flex; flex-direction:column; justify-content:space-evenly; flex:1;">
         <div style="display:flex; align-items:baseline; gap:5px;">
