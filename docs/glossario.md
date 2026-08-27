@@ -34,7 +34,19 @@ Deslocamentos forçados não são movimento do alvo (funcionam contra [Imóvel](
 
 Quando uma criatura **deixa o alcance corpo a corpo** de outra, quem fica pode gastar a própria [Reação](jogar/combate.md#pontos-de-acao) pra fazer um Ataque Básico contra ela, antes do deslocamento se completar. Vale o limite normal de **1 Reação por rodada**, e o PA sai do mesmo pool.
 
-[Deslocamento forçado](#empurrar-e-puxar) não provoca — não é movimento do alvo. Habilidades que dizem "sem provocar Ataque de Oportunidade" liberam o movimento daquele efeito.
+[Deslocamento forçado](#empurrar-e-puxar) e **teleporte** não provocam — o primeiro não é movimento do alvo, e o segundo não percorre o caminho. Habilidades que dizem "sem provocar Ataque de Oportunidade" liberam o movimento daquele efeito.
+
+### Ataque Básico
+
+Um golpe com a arma equipada, sem habilidade nenhuma por trás: custa **◈ (1 PA)**, causa o **dado de dano da arma** e nenhum efeito extra. Funciona mesmo com uma arma cujas Habilidades o personagem nunca aprendeu — é o que permite ter uma arma na mão desde o nível 0. Ver [Combate → Pontos de Ação](jogar/combate.md#pontos-de-acao).
+
+### Ação Básica
+
+Tudo o que leva um instante e não tem ficha própria: abrir uma porta, sacar um item, gritar uma ordem, [estabilizar um aliado](jogar/dano-e-cura.md#chegando-a-0-de-vida). Custa **◈ (1 PA)**. Ver [Combate → Pontos de Ação](jogar/combate.md#pontos-de-acao).
+
+### Teste de Resistência
+
+A [Resolução](#resolucao) em que **o alvo rola, não o usuário**: d100 + o atributo que a ficha declara no campo **Vs**, contra o Atributo de lançamento do usuário, cru. Igualou ou superou, **resistiu** — sofre metade do dano e nenhuma das condições; se o d100 puro dele cair dentro do próprio limiar de [Crítico](jogar/testes.md#criticos), **escapa por completo**. É por isso que habilidade resistida não traz bullet de Crítico: quem rola é quem critica. Ver [Regras de Habilidade → Teste de Resistência](jogar/regras-de-habilidade.md#teste-de-resistencia).
 
 ### Perde a próxima Reação
 
