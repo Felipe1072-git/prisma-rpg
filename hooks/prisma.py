@@ -3826,7 +3826,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         barra = monta_barra(
             "termos",
             "Filtrar por termo ou definição…",
-            [("categoria", "Todas as categorias", False)],
+            [("categoria", "Categorias", False)],
             alvo=".prg-verbete",
             expandir=False,
         )
@@ -3845,9 +3845,9 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             "origens",
             "Filtrar por nome ou efeito do traço…",
             [
-                ("eixo", "Os três eixos", False),
-                ("feitio", "Qualquer tipo de traço", False),
-                ("atributos", "Todos os atributos", True),
+                ("eixo", "Eixos", False),
+                ("feitio", "Tipo de traço", False),
+                ("atributos", "Atributos", True),
             ],
             linha3=sorteio("eixo", "Qualquer eixo", "Sortear origem (1d20)"),
         )
@@ -3859,9 +3859,9 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             "raças",
             "Filtrar por nome, traço, aparência…",
             [
-                ("leva", "Todas as levas", False),
-                ("atributos", "Todos os atributos", True),
-                ("tracos", "Qualquer nº de traços", False),
+                ("leva", "Levas", False),
+                ("atributos", "Atributos", True),
+                ("tracos", "Nº de traços", False),
             ],
         )
         return insere_barra(markdown, barra, '<div class="prg-card')
@@ -3872,11 +3872,11 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             "criaturas",
             "Filtrar por nome, ataque, traço, condição…",
             [
-                ("tier", "Todos os tiers", False),
-                ("tipo", "Todo tipo de criatura", False),
-                ("vulneravel", "Fraca contra qualquer coisa", True),
-                ("imune", "Imune a qualquer coisa", True),
-                ("faz", "Faz qualquer coisa", True),
+                ("tier", "Tiers", False),
+                ("tipo", "Tipo", False),
+                ("vulneravel", "Vulnerável a", True),
+                ("imune", "Imune a", True),
+                ("faz", "Faz o quê", True),
             ],
             linha3=slider("ameaca", "Orçamento de encontro"),
         )
@@ -3888,19 +3888,19 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             "habilidades",
             "Filtrar por nome, efeito, condição…",
             [
-                ("grupo", "Todos os tipos", False),
-                ("elemento", "Todo tipo de dano", False),
-                ("escala", "Toda escala", False),
-                ("arma", "Todas as armas", False),
-                ("atributos", "Todos os atributos", True),
-                ("alvo", "Todos os alvos", False),
+                ("grupo", "Tipos", False),
+                ("elemento", "Tipo de dano", False),
+                ("escala", "Escala", False),
+                ("arma", "Armas", False),
+                ("atributos", "Atributos", True),
+                ("alvo", "Alvos", False),
                 # Da ficha técnica: as perguntas que se faz no meio do turno.
                 ("acao", "Ação e Reação", False),
-                ("resolucao", "Toda resolução", False),
-                ("alcance", "Todo alcance", False),
-                ("area", "Toda área", False),
-                ("cooldown", "Todo cooldown", False),
-                ("componentes", "Todos os componentes", True),
+                ("resolucao", "Resolução", False),
+                ("alcance", "Alcance", False),
+                ("area", "Área", False),
+                ("cooldown", "Cooldown", False),
+                ("componentes", "Componentes", True),
             ],
             linha3=slider("mana-min", "Mana disponível")
             + '<label class="prg-filtro__desarmado">\n'
@@ -3923,10 +3923,10 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             "pacotes",
             "Filtrar por nome, conceito, habilidade da trilha…",
             [
-                ("vertente", "Todas as vertentes", False),
-                ("armas", "Todas as armas iniciais", True),
-                ("atributos", "Todos os atributos", True),
-                ("final", "Termina em qualquer coisa", False),
+                ("vertente", "Vertentes", False),
+                ("armas", "Armas iniciais", True),
+                ("atributos", "Atributos", True),
+                ("final", "Suprema final", False),
             ],
             linha3=sorteio("vertente", "Qualquer vertente", "Sortear pacote (1d20)"),
         )
@@ -3941,10 +3941,10 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             "Filtrar por nome, técnica, propriedade…",
             [
                 ("categoria", "Arma, escudo ou armadura", False),
-                ("grupo", "Todos os estilos", False),
-                ("familia", "Todas as famílias", False),
-                ("tipo", "Todo tipo de dano", False),
-                ("chaves", "Todas as propriedades", True),
+                ("grupo", "Estilos", False),
+                ("familia", "Famílias", False),
+                ("tipo", "Tipo de dano", False),
+                ("chaves", "Propriedades", True),
             ],
             linha3=slider("preco", "Prata disponível", oculta_sem_valor=True),
         )
