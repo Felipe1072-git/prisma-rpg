@@ -340,6 +340,51 @@
 
 .prg-ficha__botao:hover { filter: brightness(1.1); }
 
+/* ============================================== tabelas: papel, não tema
+
+   A ficha é uma folha de papel bege, mas as tabelas dentro dela caíam no
+   seletor genérico do tema (`.md-typeset table:not([class])`), que pinta
+   fundo e bordas com variáveis de esquema. No modo escuro isso as
+   transformava em retângulos quase pretos com texto escuro por cima —
+   ilegíveis na tela, embora corretas na impressão, porque o CSS de print
+   já neutralizava as cores do tema.
+
+   Aqui elas são presas ao papel: fundo transparente (quem pinta o
+   cabeçalho é o `background` inline do `<tr>`), bordas e texto na
+   paleta da ficha, em qualquer esquema.                                  */
+
+/* O tema envolve toda tabela em `.md-typeset__scrollwrap > .md-typeset__table`,
+   e o segundo é `inline-block` — encolhe até o conteúdo. Com isso o
+   `width:100%` da tabela virava 100% de um pai já encolhido, e a tabela
+   parava no meio da linha: 367px numa página de 742px, com o resto vazio
+   à direita. Na ficha a tabela é diagramada, não rolável: o wrapper vira
+   bloco de largura cheia e a tabela volta a ocupar a linha inteira.       */
+
+.prg-ficha .md-typeset__scrollwrap,
+.prg-ficha .md-typeset__table {
+  display: block;
+  width: 100%;
+  margin: 0;
+  overflow: visible;
+}
+
+.prg-ficha table,
+.md-typeset .prg-ficha table:not([class]) {
+  display: table;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: #211c14;
+}
+
+.md-typeset .prg-ficha table:not([class]) th,
+.md-typeset .prg-ficha table:not([class]) td {
+  background-color: transparent;
+  border-color: #cabf9f;
+  color: inherit;
+}
+
 /* ================================================================ print */
 
 @media print {
