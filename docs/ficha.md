@@ -612,9 +612,9 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
   </table>
 
   <div style="font-size:9px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#83765a; margin-bottom:3.2px; display:flex; align-items:center; gap:5px;">
-    <svg viewBox="0 0 10 10" style="width:6px; height:6px; color:#159c56;"><path d="M5 0 L10 5 L5 10 L0 5z" fill="currentColor" opacity=".7"/></svg>Quem age, rola
+    <svg viewBox="0 0 10 10" style="width:6px; height:6px; color:#159c56;"><path d="M5 0 L10 5 L5 10 L0 5z" fill="currentColor" opacity=".7"/></svg>Quem rola, e contra o quê
   </div>
-  <div style="font-size:8px; line-height:1.4; margin-bottom:4px;">Você ataca → <b>você</b> rola d100 + Atributo contra o número-alvo do alvo. O alvo nunca rola defesa — o número dele é o que você precisa superar. Cada tipo de efeito testa um número diferente:</div>
+  <div style="font-size:8px; line-height:1.4; margin-bottom:4px;">Depende da <b>Resolução</b> da Habilidade. Em <b>Ataque</b>, <b>você</b> rola d100 + Atributo contra o número-alvo do alvo, que não rola nada. Em <b>Teste de Resistência</b> — toda área, e todo efeito que o corpo aguenta por dentro — é o <b>alvo</b> quem rola, contra o seu Atributo cru: igualou ou superou, sofre metade do dano e nenhuma condição (e escapa por completo se o d100 puro dele cair no próprio limiar de Crítico).</div>
   <table style="width:100%; border-collapse:collapse; font-size:7.2px; margin-bottom:6.4px;">
     <tr style="background:#e5ddc4;"><th style="border:1px solid #cabf9f; padding:1.5px 5px; text-align:left; color:#159c56;">Tipo de efeito</th><th style="border:1px solid #cabf9f; padding:1.5px 5px; text-align:left; color:#159c56;">Número-alvo</th></tr>
     <tr><td style="border:1px solid #cabf9f; padding:1.5px 5px;">Físico (dano, empurrar, derrubar)</td><td style="border:1px solid #cabf9f; padding:1.5px 5px; color:#a3781a; font-weight:700;">Evasão</td></tr>
@@ -623,6 +623,7 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
     <tr><td style="border:1px solid #cabf9f; padding:1.5px 5px;">Veneno, doença, exaustão</td><td style="border:1px solid #cabf9f; padding:1.5px 5px; color:#a3781a; font-weight:700;">Fortitude Física (Defesa)</td></tr>
     <tr><td style="border:1px solid #cabf9f; padding:1.5px 5px;">Horror, insanidade, colapso mental</td><td style="border:1px solid #cabf9f; padding:1.5px 5px; color:#6a3fa0; font-weight:700;">Sanidade</td></tr>
     <tr><td style="border:1px solid #cabf9f; padding:1.5px 5px;">Furtividade, detecção</td><td style="border:1px solid #cabf9f; padding:1.5px 5px; color:#2d7a6e; font-weight:700;">Exploração</td></tr>
+    <tr><td style="border:1px solid #cabf9f; padding:1.5px 5px;"><i>Área, ou efeito de que não se esquiva</i></td><td style="border:1px solid #cabf9f; padding:1.5px 5px; color:#b8502e; font-weight:700;">o <i>alvo</i> rola, contra o seu Atributo cru</td></tr>
   </table>
 
   <div style="display:flex; gap:8px; margin-bottom:4.8px;">
@@ -632,26 +633,26 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
     </div>
     <div style="flex:1; position:relative; border:1.2px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; padding:4.5px 10px;">
       <div style="font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#159c56; margin-bottom:1.6px;">Reações</div>
-      <div style="font-size:7.6px; line-height:1.35;"><b>Limite: 1 Reação por rodada</b>, sempre — não importa quanto ◈ sobrou. Pra reagir com uma Habilidade comum, ainda precisa ter ◈ sobrando do turno anterior; a <b>dedicada a Reação</b> custa 0 PA — só Mana.</div>
+      <div style="font-size:7.3px; line-height:1.32;"><b>Limite: 1 Reação por rodada</b>, sempre — não importa quanto ◈ sobrou. Pra reagir com uma Habilidade comum, ainda precisa ter ◈ sobrando do turno anterior; a <b>dedicada a Reação</b> custa 0 PA — só Mana.<br><b>Ataque de Oportunidade:</b> quem <i>deixa</i> o alcance corpo a corpo de alguém leva um Ataque Básico — e gasta a Reação de quem ficou. Empurrar, puxar e teleporte não provocam.</div>
     </div>
   </div>
 
   <div style="font-size:9px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#83765a; margin-bottom:3.2px; display:flex; align-items:center; gap:5px;">
-    <svg viewBox="0 0 10 10" style="width:6px; height:6px; color:#159c56;"><path d="M5 0 L10 5 L5 10 L0 5z" fill="currentColor" opacity=".7"/></svg>Os selos de Ação, no card de Habilidade
+    <svg viewBox="0 0 10 10" style="width:6px; height:6px; color:#159c56;"><path d="M5 0 L10 5 L5 10 L0 5z" fill="currentColor" opacity=".7"/></svg>A Resolução, no card de Habilidade
   </div>
-  <div style="font-size:7.6px; line-height:1.4; margin-bottom:4px;">Cada Habilidade marca uma (ou mais) dessas caixinhas — é o que ela <i>faz</i> no turno, não quanto custa. <b>Reação</b> é a quarta opção — já explicada no card ao lado, acima.</div>
+  <div style="font-size:7.6px; line-height:1.4; margin-bottom:4px;">Toda Habilidade declara uma <b>Resolução</b> — quem rola o dado, e contra o quê. <b>Reação</b> não é resolução: é <i>quando</i> ela é usada, e vem explicada no card acima.</div>
   <div style="display:flex; gap:8px; margin-bottom:4.8px;">
     <div style="flex:1; position:relative; border:1.2px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; padding:4.5px 10px;">
       <div style="font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#159c56; margin-bottom:1.6px;">Ataque</div>
       <div style="font-size:7.6px; line-height:1.35;">Faz um teste (d100 + Atributo) contra o número-alvo de 1 criatura.</div>
     </div>
     <div style="flex:1; position:relative; border:1.2px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; padding:4.5px 10px;">
-      <div style="font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#159c56; margin-bottom:1.6px;">Área</div>
-      <div style="font-size:7.6px; line-height:1.35;">Atinge vários alvos numa região, não só 1 criatura.</div>
+      <div style="font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#159c56; margin-bottom:1.6px;">Teste de Resistência</div>
+      <div style="font-size:7.6px; line-height:1.35;">O <b>alvo</b> é que rola, contra o seu Atributo cru. Toda área usa esta.</div>
     </div>
     <div style="flex:1; position:relative; border:1.2px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; padding:4.5px 10px;">
-      <div style="font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#159c56; margin-bottom:1.6px;">Efeito</div>
-      <div style="font-size:7.6px; line-height:1.35;">Aplica algo direto, sem teste de ataque (buff, cura, mobilidade).</div>
+      <div style="font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#159c56; margin-bottom:1.6px;">Automática</div>
+      <div style="font-size:7.6px; line-height:1.35;">Ninguém rola: o efeito acontece (buff, cura, escudo, zona).</div>
     </div>
   </div>
 
@@ -736,9 +737,9 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
     <svg viewBox="0 0 10 10" style="width:6px; height:6px; color:#159c56;"><path d="M5 0 L10 5 L5 10 L0 5z" fill="currentColor" opacity=".7"/></svg>Dano & Ambiente
   </div>
   <div style="columns:2; column-gap:14px; font-size:6.9px; line-height:1.35; margin-bottom:6px;">
-    <div style="break-inside:avoid; padding-bottom:2.5px; margin-bottom:2.5px; border-bottom:1px dotted #cabf9f;"><b style="color:#159c56;">Cortante / Perfurante / Impacto</b> — espada/machado, lança/flecha, martelo/punho. Bom contra carne, armadura e ossos, respectivamente.</div>
+    <div style="break-inside:avoid; padding-bottom:2.5px; margin-bottom:2.5px; border-bottom:1px dotted #cabf9f;"><b style="color:#159c56;">Assinatura do tipo de dano</b> — o tipo escolhe um <i>verbo</i>, e ele vem junto com o golpe, sem custo à parte. Sobe com a Intensidade:<table style="width:100%; border-collapse:collapse; font-size:6.4px; margin-top:2px;"><tr style="background:#e5ddc4;"><th style="border:1px solid #cabf9f; padding:1px 4px; text-align:left; color:#159c56;">Tipo</th><th style="border:1px solid #cabf9f; padding:1px 4px; text-align:left; color:#159c56;">I</th><th style="border:1px solid #cabf9f; padding:1px 4px; text-align:left; color:#159c56;">II</th><th style="border:1px solid #cabf9f; padding:1px 4px; text-align:left; color:#159c56;">III</th></tr><tr><td style="border:1px solid #cabf9f; padding:1px 4px;"><b>Cortante</b></td><td style="border:1px solid #cabf9f; padding:1px 4px;">Sangrando</td><td style="border:1px solid #cabf9f; padding:1px 4px;">Sangrando 8d4</td><td style="border:1px solid #cabf9f; padding:1px 4px;">Sangrando 12d4</td></tr><tr><td style="border:1px solid #cabf9f; padding:1px 4px;"><b>Impacto</b></td><td style="border:1px solid #cabf9f; padding:1px 4px;">derruba</td><td style="border:1px solid #cabf9f; padding:1px 4px;">derruba e Lento</td><td style="border:1px solid #cabf9f; padding:1px 4px;">+ levantar custa ◈ a mais</td></tr><tr><td style="border:1px solid #cabf9f; padding:1px 4px;"><b>Perfurante</b></td><td style="border:1px solid #cabf9f; padding:1px 4px;">+1d6</td><td style="border:1px solid #cabf9f; padding:1px 4px;">+2d6</td><td style="border:1px solid #cabf9f; padding:1px 4px;">+3d6 <i>— contra alvo preso</i></td></tr><tr><td style="border:1px solid #cabf9f; padding:1px 4px;"><b>Arcano</b></td><td style="border:1px solid #cabf9f; padding:1px 4px;">devolve 1 Mana</td><td style="border:1px solid #cabf9f; padding:1px 4px;">2 Mana</td><td style="border:1px solid #cabf9f; padding:1px 4px;">3 Mana</td></tr></table><div style="font-size:6.1px; color:#5b5343; margin-top:1.5px;"><b>Alvo preso:</b> Lento, Imóvel, Atordoado, Agarrado ou Derrubado.</div></div>
     <div style="break-inside:avoid; padding-bottom:2.5px; margin-bottom:2.5px; border-bottom:1px dotted #cabf9f;"><b style="color:#159c56;">Arcano</b> — dano de magia sem assinatura elemental (focos mágicos, Espaço-Tempo). Fogo, Gelo, Raio e os outros elementos verdadeiros causam dano do próprio tipo, não Arcano.</div>
-    <div style="break-inside:avoid; padding-bottom:2.5px; margin-bottom:2.5px; border-bottom:1px dotted #cabf9f;"><b style="color:#159c56;">Resist. / Imunidade / Vulnerab.</b> — dano cai pela metade / é ignorado / dobra, depois de tudo (inclusive Crítico). Nunca as duas primeiras juntas — cancelam.</div>
+    <div style="break-inside:avoid; padding-bottom:2.5px; margin-bottom:2.5px; border-bottom:1px dotted #cabf9f;"><b style="color:#159c56;">Resist. / Imunidade / Vulnerab.</b> — dano cai pela metade / é ignorado / dobra, depois de tudo (inclusive Crítico). Nunca as duas primeiras juntas — cancelam. Resistência a um tipo <b>físico</b> também apaga a assinatura dele: resistente a Cortante não fica Sangrando.</div>
     <div style="break-inside:avoid; padding-bottom:2.5px; margin-bottom:2.5px; border-bottom:1px dotted #cabf9f;"><b style="color:#159c56;">Acúmulo de bônus</b> — bônus planos de fontes diferentes não somam; vale o maior. Resistências ao mesmo tipo também não acumulam.</div>
     <div style="break-inside:avoid; padding-bottom:2.5px; margin-bottom:2.5px; border-bottom:1px dotted #cabf9f;"><b style="color:#159c56;">Luz e Escuridão</b> — parcial: Desvantagem em testes visuais. Total: só age com quem está adjacente, sem ataque à distância.</div>
     <div style="break-inside:avoid; padding-bottom:2.5px; margin-bottom:2.5px; border-bottom:1px dotted #cabf9f;"><b style="color:#159c56;">Água</b> — nadar é Terreno Difícil. Fôlego: 1+(Defesa÷10) rodadas antes de afogar; depois, 1 grau de Exausto/rodada. Sem traço aquático, corpo a corpo com Desvantagem.</div>
@@ -751,7 +752,7 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
       <tr><td style="border:1px solid #cabf9f; padding:1.5px 5px; text-align:center;">2d6</td><td style="border:1px solid #cabf9f; padding:1.5px 5px; text-align:center;">2d12</td><td style="border:1px solid #cabf9f; padding:1.5px 5px; text-align:center;">2d20</td><td style="border:1px solid #cabf9f; padding:1.5px 5px; text-align:center;">3d20</td></tr>
     </table>
   </div>
-  <div style="font-size:6.3px; line-height:1.25; color:#5b5343; margin-bottom:6px;">Traço racial de "1 grau acima" empurra pra faixa seguinte da tabela. Habilidades Marciais que dizem "usa o Dano Desarmado" (Ataque Desarmado, Toma Toma Toma, Chute Meteoro...) têm esse dado fixo em qualquer Intensidade — só o efeito extra (empurrar, derrubar, Atordoado) muda.</div>
+  <div style="font-size:6.3px; line-height:1.25; color:#5b5343; margin-bottom:6px;">Traço racial de "1 grau acima" empurra pra faixa seguinte da tabela. Habilidades Marciais que dizem "usa o Dano Desarmado" (Ataque Desarmado, Toma Toma Toma, Chute Meteoro...) têm esse dado fixo em qualquer Intensidade — só o efeito extra (derrubar, Lento, Atordoado) muda.</div>
 
   <div style="font-size:9px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#83765a; margin-bottom:4px; display:flex; align-items:center; gap:5px;">
     <svg viewBox="0 0 10 10" style="width:6px; height:6px; color:#159c56;"><path d="M5 0 L10 5 L5 10 L0 5z" fill="currentColor" opacity=".7"/></svg>Para que serve cada Atributo
@@ -798,6 +799,17 @@ Seis páginas: a ficha principal, um apêndice de Habilidades, um resumo de Como
     <div style="flex:1; position:relative; border:1.2px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; padding:6px 10px;">
       <div style="font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#159c56; margin-bottom:2px;">Mana e Intensidade</div>
       <div style="font-size:7.6px; line-height:1.35;">Cada Intensidade (I/II/III) tem seu próprio custo de Mana, além do PA — quanto mais forte o efeito, mais das duas coisas ele consome. <b>Separadamente:</b> Atributo abaixo do recomendado pra Escala da habilidade rola com Desvantagem.</div>
+    </div>
+  </div>
+
+  <div style="display:flex; gap:8px; margin-bottom:8px;">
+    <div style="flex:1; position:relative; border:1.2px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; padding:6px 10px;">
+      <div style="font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#159c56; margin-bottom:2px;">Cooldown</div>
+      <div style="font-size:7.3px; line-height:1.32;">Vem do que a habilidade <b>custa</b>, não do que entrega. Só existem quatro degraus:<br><b>3–9 Mana</b> (Básica) sem cooldown · <b>12–24</b> (Avançada) 1 rodada · <b>27–45</b> (Especial) 2 rodadas · <b>48+</b> 1x por cena.<br>Reação e Passiva <b>nunca</b> têm cooldown — o gatilho já as limita.</div>
+    </div>
+    <div style="flex:1; position:relative; border:1.2px solid #159c56; clip-path:polygon(6px 0,100% 0,100% 100%,6px 100%,0 calc(100% - 6px),0 6px); background:#f1ebdc; padding:6px 10px;">
+      <div style="font-size:7px; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#159c56; margin-bottom:2px;">Escala de Poder</div>
+      <div style="font-size:7.3px; line-height:1.32;"><b>Menor · Moderada · Notável · Maior · Suprema.</b> Responde <i>quão grande é</i>, não quanto custa — existe habilidade barata que faz muito. É calculada: dano, alcance, controle e permanência valem 0, 1 ou 2 cada, e vale a <b>soma dos dois maiores</b>.</div>
     </div>
   </div>
 
