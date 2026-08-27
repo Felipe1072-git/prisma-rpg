@@ -550,7 +550,11 @@ def eixo_duracao(texto: str) -> int:
         texto,
     ):
         return 2
-    if re.search(r"por \d+ rodadas?|fim do próximo turno|fim do turno|próxima vez", texto):
+    # "\d+ rodadas" sem exigir o "por": a ficha escreve a duração de várias
+    # formas ("**Duração:** 3 rodadas", "dura 3 rodadas"), e exigir a preposição
+    # fazia 21 fichas serem medidas como instantâneas — 12 delas classificadas
+    # abaixo do que entregam.
+    if re.search(r"\d+ rodadas?|fim do próximo turno|fim do turno|próxima vez", texto):
         return 1
     return 0
 

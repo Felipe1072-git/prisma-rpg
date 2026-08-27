@@ -191,7 +191,7 @@ Drenar vigor, amaldiçoar, erguer mortos, gastar a própria vitalidade.
 *O golpe não dói agora — ele só espera.*
 
 - **Chave:** [Necromancia](../glossario.md#necromancia)
-- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Resolução:** Teste de Resistência | **Alvos:** 1 criatura, corpo a corpo
+- **Custo fixo:** ◈◈◈ (3 PA) + 48 Mana | **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alvos:** 1 criatura, corpo a corpo
 - **Resistiu:** o alvo resiste com **Defesa** — metade do dano, sem condições
 - **Acerto:** planta um efeito adormecido no alvo — sem dano nesse momento. Só 1 alvo pode carregar o efeito por vez; plantar de novo substitui o anterior.
 - **Detonar:** a qualquer momento depois — mesmo dias mais tarde, contanto que o usuário e o alvo estejam no mesmo plano — o usuário pode gastar uma Ação Básica pra detonar o efeito à distância. O alvo faz um teste de resistência (d100 + Defesa) contra a Fortitude Mágica do usuário: falhando, sofre 8d10 de dano automático; passando, sofre metade. Detonar consome o efeito.

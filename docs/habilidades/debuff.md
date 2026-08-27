@@ -159,7 +159,7 @@ Criar desvantagens para inimigos ou em testes.
 *Um veneno mágico é injetado no alvo, corroendo sua força e vigor.*
 
 - **Chave:** [Debuff](../glossario.md#debuff)
-- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Resolução:** Teste de Resistência | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Arcano | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Resistiu:** o alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** 1d6 de dano + alvo fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** 1d8 de dano + Lento + alvo fica [Envenenado](../glossario.md#envenenado) (1 acúmulo)

@@ -1446,7 +1446,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Uma agulha invisível de veneno perfura a pele — a dor real só vem depois.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Resolução:** Teste de Resistência | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Dano:** Veneno | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Resistiu:** o alvo resiste com **Defesa** — metade do dano, sem condições
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** alvo fica [Envenenado](../glossario.md#envenenado)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** [Envenenado](../glossario.md#envenenado) com 2 acúmulos (8d4 por turno)
@@ -1466,7 +1466,7 @@ Habilidades de **Custo fixo** (áreas de raio 3+, Supremas) entregam direto o de
 *Um veneno lento entra na corrente sanguínea, e a força do alvo esvai junto com ele.*
 
 - **Chave:** [Mágicas por Elemento](../glossario.md#magicas-por-elemento) - [Veneno](../glossario.md#veneno)
-- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Resolução:** Teste de Resistência | **Alcance:** 8 casas | **Alvos:** 1 criatura
+- **Atributo:** Magia | **Resolução:** Teste de Resistência | **Vs:** Magia | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Resistiu:** o alvo resiste com **Defesa** — o efeito não acontece
 - **Intensidade I — ◈ (1 PA) + 6 Mana:** alvo fica [Envenenado](../glossario.md#envenenado)
 - **Intensidade II — ◈◈ (2 PA) + 15 Mana:** [Envenenado](../glossario.md#envenenado) com 2 acúmulos (8d4 por turno)
