@@ -98,7 +98,7 @@ Voo, deslocamento.
 - **Chave:** [Mobilidade](../glossario.md#mobilidade)
 - **Atributo:** Agilidade | **Alcance:** 6 casas | **Alvos:** o próprio usuário, e 1 aliado a até 6 casas
 - *(Dedicada a Reação — sempre 0 PA; a Intensidade escolhe só quanto Mana gastar)*
-- **Intensidade I — 0 PA + 12 Mana:** quando uma criatura hostil terminar o próprio turno adjacente ao usuário, ele pode usar esta habilidade como Reação pra se deslocar até metade do Movimento, sem provocar Ataque de Oportunidade. O aliado escolhido pode então usar a própria Reação pra fazer o mesmo.
+- **Intensidade I — 0 PA + 12 Mana:** quando uma criatura hostil terminar o próprio turno adjacente ao usuário, ele pode usar esta habilidade como Reação pra se deslocar até metade do Movimento, sem provocar [Ataque de Oportunidade](../glossario.md#ataque-de-oportunidade). O aliado escolhido pode então usar a própria Reação pra fazer o mesmo.
 - **Intensidade II — 0 PA + 21 Mana:** o mesmo, deslocando até o Movimento cheio.
 - **Intensidade III — 0 PA + 30 Mana:** o mesmo, e tanto o usuário quanto o aliado ganham +10 de Evasão até o início do próprio próximo turno.
 
@@ -120,7 +120,7 @@ Voo, deslocamento.
 - **Atributo:** Magia | **Alvos:** o próprio usuário, e opcionalmente 1 aliado disposto
 - **Intensidade I — ◈ (1 PA) + 12 Mana:** o usuário se teleporta até 4 casas pra um espaço desocupado que possa ver. Como alternativa, pode trocar de lugar com um aliado disposto a até 4 casas.
 - **Intensidade II — ◈◈ (2 PA) + 21 Mana:** o mesmo, até 6 casas.
-- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, até 8 casas, e nenhuma das opções provoca Ataque de Oportunidade.
+- **Intensidade III — ◈◈◈ (3 PA) + 30 Mana:** o mesmo, até 8 casas, e nenhuma das opções provoca [Ataque de Oportunidade](../glossario.md#ataque-de-oportunidade).
 
 **Salto ao Sangue** *(usada como Reação)*
 

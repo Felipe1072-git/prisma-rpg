@@ -28,8 +28,8 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo, e ele fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano desarmado máximo + dano desarmado extra, e sobe 1 Intensidade
 
@@ -88,7 +88,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até 2 casas em direção ao alvo + dano desarmado + empurra 1 casa
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até 2 casas em direção ao alvo + dano desarmado
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o usuário se desloca até 2 casas em direção ao alvo + dano desarmado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até 2 casas em direção ao alvo + dano desarmado + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
@@ -101,9 +101,9 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
 - **Combo** (os três chutes) e **Chute Final** — cada um é um teste de ataque separado
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** o Combo acerta por dano desarmado + empurra 1 casa; o Chute Final acerta por dano desarmado
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o Combo acerta por dano desarmado + empurra 1 casa; o Chute Final acerta por dano desarmado e derruba o alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o Combo acerta por dano desarmado + empurra 1 casa; o Chute Final acerta por dano desarmado, derruba o alvo, e ele perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o Combo acerta por dano desarmado; o Chute Final acerta por dano desarmado
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o Combo acerta por dano desarmado; o Chute Final acerta por dano desarmado e derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o Combo acerta por dano desarmado; o Chute Final acerta por dano desarmado, derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** cada golpe crítica separadamente — dano desarmado máximo + rolagem extra naquele golpe
 
 **Ataque Frenético** *(Moderado)*
@@ -127,9 +127,9 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
 - **Chute descendente:** entre os alvos atingidos, escolha 1 — ele recebe o efeito extra da Intensidade, além do que todos os outros levam
 - **Resistiu:** cada alvo resiste com **Agilidade** — o efeito não acontece
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo; o alvo do chute descendente também é derrubado
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + empurra 1 casa e derruba cada alvo; o alvo do chute descendente também perde a próxima Reação
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação; o alvo do chute descendente fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo; o alvo do chute descendente também é derrubado
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba cada alvo; o alvo do chute descendente também perde a próxima Reação
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação; o alvo do chute descendente fica [Atordoado](../glossario.md#atordoado) até o fim do próprio próximo turno
 
 **Dragão Celeste** *(Moderado)*
 
@@ -138,7 +138,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 1 casa
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + derruba o alvo
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado, e o alvo sobe aos ares — no início do próprio próximo turno dele, cai e fica [Derrubado](../glossario.md#derrubado)
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado, e o alvo sobe aos ares — no início do próprio próximo turno dele, cai, fica Derrubado, e perde a próxima Reação
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
@@ -163,7 +163,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Atributo:** Ataque | **Alcance do avanço:** até o valor de Movimento, em casas | **Alvos:** 2 criaturas diferentes
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
 - **Golpe surpresa:** o segundo alvo escolhido leva o golpe pelas costas — esse ataque rola com [Vantagem](../glossario.md#vantagem)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até o primeiro alvo + dano desarmado em cada alvo + empurra 1 casa cada alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** o usuário se desloca até o primeiro alvo + dano desarmado em cada alvo
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** o usuário se desloca até o primeiro alvo + dano desarmado + derruba cada alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** o usuário se desloca até o primeiro alvo + dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
@@ -176,9 +176,9 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Atributo:** Ataque | **Alvos:** até 4 criaturas à escolha, ao alcance do Movimento
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
 - **Efeito adicional:** se esta habilidade derrubar pelo menos 1 alvo, o usuário recupera **1 Mana**
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo + empurra 1 casa cada alvo
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + empurra 1 casa e derruba cada alvo
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + empurra 1 casa e derruba cada alvo, e cada alvo perde a próxima Reação
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado em cada alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba cada alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba cada alvo, e cada alvo perde a próxima Reação
 - **Crítico:** dano desarmado máximo + rolagem extra em todos, e sobe 1 Intensidade
 
 **Espada do Infinito**
@@ -379,8 +379,8 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 1 casa
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo, e ele fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
@@ -391,7 +391,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Atributo:** Ataque | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 2 casas, e o usuário termina atrás do alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado, e o usuário termina atrás do alvo
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo, e o usuário termina atrás dele
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação; o usuário termina atrás dele
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
@@ -429,7 +429,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais) - [Especial](../glossario.md#especial)
 - **Atributo:** Ataque | **Alcance:** até o valor de Movimento, em casas | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
-- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + empurra 2 casas, e o usuário se desloca até o alvo
+- **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado, e o usuário se desloca até o alvo
 - **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + derruba o alvo
 - **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + derruba o alvo, e ele perde a próxima Reação
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
@@ -442,8 +442,8 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Atributo:** Ataque | **Alcance:** 8 casas | **Alvos:** 1 criatura
 - **Dano:** usa o [Dano Desarmado](../glossario.md#dano-desarmado)
 - **Intensidade I — ◈ (1 PA) + 3 Mana:** dano desarmado + alvo fica [Marcado](../glossario.md#marcado), e o usuário se desloca pra trás do alvo
-- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + Marcado + empurra 1 casa
-- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + Marcado + empurra 3 casas e derruba o alvo
+- **Intensidade II — ◈◈ (2 PA) + 9 Mana:** dano desarmado + Marcado + derruba o alvo
+- **Intensidade III — ◈◈◈ (3 PA) + 18 Mana:** dano desarmado + Marcado + derruba o alvo, e ele fica [Lento](../glossario.md#lento) até o fim do próximo turno dele
 - **Crítico:** dano desarmado máximo + rolagem extra, e sobe 1 Intensidade
 
 **Postura do Tigre** *(Moderado)*
@@ -633,7 +633,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Requisito:** usuário precisa ter aprendido Ataque Temerário, e só pode usar esta habilidade num golpe em que declarou atacar de forma temerária (abrindo mão da própria Vantagem daquele ataque)
 - **Atributo:** Ataque | **Dano:** usa o dado de dano da arma equipada, ou o [Dano Desarmado](../glossario.md#dano-desarmado) | **Alvos:** 1 criatura
-- **Intensidade I — ◈ (1 PA) + 9 Mana:** +1d10 de dano extra, e o alvo é empurrado 3 casas — o usuário pode então se deslocar até metade do Movimento em direção a ele, sem provocar Ataque de Oportunidade.
+- **Intensidade I — ◈ (1 PA) + 9 Mana:** +1d10 de dano extra, e o alvo é empurrado 3 casas — o usuário pode então se deslocar até metade do Movimento em direção a ele, sem provocar [Ataque de Oportunidade](../glossario.md#ataque-de-oportunidade).
 - **Intensidade II — ◈◈ (2 PA) + 18 Mana:** +1d10 de dano extra, e o Movimento do alvo é reduzido em 3 casas até o início do próprio próximo turno dele (não acumula com outro Golpe Bruto — vale o mais recente).
 - **Intensidade III — ◈◈◈ (3 PA) + 27 Mana:** +2d10 de dano extra, e o usuário escolhe um: **(a)** o alvo tem [Desvantagem](../glossario.md#desvantagem) no próximo teste de resistência que fizer, e não pode usar Reações até o início do próprio próximo turno; ou **(b)** o próximo ataque de qualquer outra criatura contra o alvo rola com [Vantagem](../glossario.md#vantagem), até o início do próximo turno do usuário.
 - **Crítico:** dano extra máximo + rolagem extra, e sobe 1 Intensidade
@@ -874,7 +874,7 @@ O tipo de dano do golpe desarmado é [Impacto](../glossario.md#impacto), salvo q
 
 - **Chave:** [Marciais](../glossario.md#marciais)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
-- **Efeito:** sempre que uma criatura adjacente ao usuário causar dano nele, ou num aliado também adjacente ao usuário, ele pode fazer um Ataque de Oportunidade contra essa criatura, como se ela tivesse deixado o alcance dele.
+- **Efeito:** sempre que uma criatura adjacente ao usuário causar dano nele, ou num aliado também adjacente ao usuário, ele pode fazer um [Ataque de Oportunidade](../glossario.md#ataque-de-oportunidade) contra essa criatura, como se ela tivesse deixado o alcance dele.
 
 **Instinto Predador** *(Passiva)*
 

@@ -102,9 +102,8 @@ Furtividade, ladinagem.
 *Antes mesmo de ver o fio esticado ou a tábua solta, o corpo já sabe que ali tem algo errado.*
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
-- **Custo fixo:** ◈ (1 PA) + 24 Mana | **Atributo:** Exploração | **Resolução:** Teste de Resistência | **Vs:** Exploração | **Alvos:** área de 4 casas de raio ao redor do usuário
+- **Custo fixo:** ◈ (1 PA) + 24 Mana | **Atributo:** Exploração | **Alvos:** área de 4 casas de raio ao redor do usuário
 - **Compara o total contra a Dificuldade de ocultação** de qualquer armadilha, mecanismo escondido ou passagem secreta na área, definida pelo Mestre
-- **Resistiu:** cada alvo resiste com **Agilidade** — o efeito não acontece
 - **Acerto:** identifica localização exata e natureza de cada coisa escondida
 
 **Instinto de Perigo** *(Passiva)*
@@ -121,7 +120,7 @@ Furtividade, ladinagem.
 
 - **Chave:** [Infiltração](../glossario.md#infiltracao)
 - **Custo:** nenhum — Passiva, sempre ativa desde que aprendida
-- **Efeito:** sempre que o usuário acertar uma criatura com um ataque corpo a corpo, ela não pode fazer Ataque de Oportunidade contra ele até o fim do turno atual.
+- **Efeito:** sempre que o usuário acertar uma criatura com um ataque corpo a corpo, ela não pode fazer [Ataque de Oportunidade](../glossario.md#ataque-de-oportunidade) contra ele até o fim do turno atual.
 
 **Fingir a Morte** *(Maior)*
 

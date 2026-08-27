@@ -30,6 +30,12 @@ Uma unidade contínua de ação num mesmo lugar e tempo — uma luta, uma negoci
 
 Deslocamentos forçados não são movimento do alvo (funcionam contra [Imóvel](#imovel)). O deslocamento **para ao encontrar um obstáculo** — parede, criatura, borda — e as casas não percorridas são perdidas, sem dano de colisão. Ser empurrado ou puxado pra dentro de uma zona de dano conta como **entrar** nela.
 
+### Ataque de Oportunidade
+
+Quando uma criatura **deixa o alcance corpo a corpo** de outra, quem fica pode gastar a própria [Reação](jogar/combate.md#pontos-de-acao) pra fazer um Ataque Básico contra ela, antes do deslocamento se completar. Vale o limite normal de **1 Reação por rodada**, e o PA sai do mesmo pool.
+
+[Deslocamento forçado](#empurrar-e-puxar) não provoca — não é movimento do alvo. Habilidades que dizem "sem provocar Ataque de Oportunidade" liberam o movimento daquele efeito.
+
 ### Perde a próxima Reação
 
 A próxima Reação que o alvo tentaria usar é negada — **inclusive Reações dedicadas** (0 PA). Vale até o fim da **próxima rodada**; se ele não tentar reagir nesse prazo, o efeito expira sem uso.
