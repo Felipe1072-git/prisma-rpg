@@ -291,20 +291,24 @@ Todo dano tem um tipo. Os três primeiros vêm da arma empunhada; o quarto, de f
 
 ### Cortante
 
-Espadas, machados, foices, garras.
+Espadas, machados, foices, garras. **A ferida não fecha:** o alvo fica [Sangrando](#sangrando) — **8d4** na Intensidade II, **12d4** na III.
 
+A assinatura vem junto com o dano, sem custo à parte, e vale para as garras de uma criatura do mesmo jeito que para a espada de um personagem. [Resistência](#resistencia) ao tipo apaga a assinatura, não só metade do dano. Ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano).
 ### Perfurante
 
-Lanças, adagas, flechas, projéteis de arma de fogo.
+Lanças, adagas, flechas, projéteis de arma de fogo. **Acha a brecha:** **+1d6** de dano contra alvo preso — **+2d6** na Intensidade II, **+3d6** na III.
 
+**Alvo preso** é quem não consegue se desviar: [Lento](#lento), [Imóvel](#imovel), [Atordoado](#atordoado), [Agarrado](#agarrado) ou [Derrubado](#derrubado). É por isso que o Impacto e o Perfurante conversam — o martelo derruba, e a lança cobra por isso. [Resistência](#resistencia) ao tipo apaga a assinatura. Ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano).
 ### Impacto
 
-Martelos, bastões, punhos, manguais. Também é o tipo do [Dano Desarmado](habilidades/marciais.md#dano-desarmado).
+Martelos, bastões, punhos, manguais; também é o tipo do [Dano Desarmado](habilidades/marciais.md#dano-desarmado). **Derruba a postura:** derruba o alvo — e o deixa [Lento](#lento) na Intensidade II; na III, levantar custa ◈ a mais.
 
+A assinatura vem junto com o dano, sem custo à parte, e vale para o coice de uma criatura do mesmo jeito que para o martelo de um personagem. [Resistência](#resistencia) ao tipo apaga a assinatura. Ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano).
 ### Arcano
 
-Focos mágicos — canalização sem forma física definida.
+Focos mágicos — canalização sem forma física definida. **O golpe realimenta:** devolve **1 Mana** ao usuário — **2** na Intensidade II, **3** na III.
 
+Devolve pouco de propósito: a arma estica o pool de Mana, nunca se paga. Ver [Assinatura de Tipo de Dano](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano).
 ### Resistência
 
 O dano daquele tipo cai pela **metade** (arredondado pra baixo) — e, se for um tipo **físico**, a [assinatura dele não acontece](jogar/regras-de-equipamento.md#assinatura-de-tipo-de-dano): resistente a Cortante não fica Sangrando, a Impacto não é derrubado nem fica Lento, a Perfurante não leva o dano extra. A arma errada perde o efeito, não só metade do número.

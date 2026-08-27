@@ -176,7 +176,10 @@
     elemento: {
       fogo: "Fogo", gelo: "Gelo", terra: "Terra", raio: "Raio", vento: "Vento",
       agua: "Água", luz: "Luz", sombras: "Sombras", veneno: "Veneno",
-      sangue: "Sangue", arcano: "Arcano"
+      sangue: "Sangue", arcano: "Arcano",
+      // Os três tipos físicos dividem a faceta com os elementos: a pergunta
+      // "o que causa dano cortante" é a mesma que "o que causa dano de fogo".
+      cortante: "Cortante", perfurante: "Perfurante", impacto: "Impacto"
     },
     escala: {
       basica: "Básica", avancada: "Avançada", especial: "Especial",

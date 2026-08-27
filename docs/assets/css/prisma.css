@@ -402,6 +402,14 @@
   display: none;
 }
 
+/* ...menos no Equipamento, que não tem ficha técnica: ali nada assume o papel
+   das colunas, e o tipo de dano da arma sumiria justamente quando o card é
+   aberto pra estudar as habilidades dela — deixando o leitor sem a única
+   informação de que ele precisa pra saber qual assinatura o golpe carrega. */
+.prg-card--equipamento.is-aberto .prg-card__cols {
+  display: flex;
+}
+
 .prg-tecnica {
   display: flex;
   flex-wrap: wrap;

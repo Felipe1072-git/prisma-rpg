@@ -275,6 +275,10 @@ def computa_desarmado(campos: dict[str, str], corpo: list[str]) -> bool:
 _ELEMENTOS_VALIDOS = {
     "fogo", "gelo", "terra", "raio", "agua", "vento",
     "luz", "sombras", "veneno", "sangue", "arcano",
+    # Os três tipos físicos entram na mesma faceta: quem procura "o que causa
+    # dano cortante" faz a mesma pergunta de quem procura "o que causa dano de
+    # fogo", e antes só a segunda tinha resposta.
+    "cortante", "perfurante", "impacto",
 }
 
 
@@ -1444,7 +1448,8 @@ def extrai_blocos_de_habilidade(linhas: list[str]) -> list[BlocoHabilidade]:
 
 
 def transforma_habilidades(
-    markdown: str, grupo: str = "", arma: str = "", arma_nome: str = "", elemento: str = ""
+    markdown: str, grupo: str = "", arma: str = "", arma_nome: str = "",
+    elemento: str = "", dano_padrao: str = "",
 ) -> tuple[str, int, list[str]]:
     """Retorna (markdown com os cards no lugar, quantos cards, e a lista deles
     isolada) — a lista isolada é o que a listagem única usa pra concatenar
@@ -1457,8 +1462,14 @@ def transforma_habilidades(
     cursor = 0
     for b in blocos:
         saida.extend(linhas[cursor : b.inicio])
+        campos = b.campos
+        # O tipo de dano de uma habilidade de arma é o da arma — está na tabela
+        # do Arsenal, e a ficha não repete. Sem isto o card mostrava "Dano —"
+        # justamente onde o leitor precisa saber qual assinatura o golpe carrega.
+        if dano_padrao and not texto_puro(campos.get("Dano", "")).strip():
+            campos = {**campos, "Dano": dano_padrao}
         card_html = monta_card(
-            b.nome, b.flavor, b.campos, b.corpo, b.qualificador,
+            b.nome, b.flavor, campos, b.corpo, b.qualificador,
             grupo=grupo, arma=arma, arma_nome=arma_nome, elemento=elemento,
         )
         saida.append(card_html)
@@ -2462,13 +2473,16 @@ def extrai_secoes_de_arma(arsenal_md: str) -> list[tuple[str, str]]:
 def cards_de_arma(arsenal_md: str) -> tuple[list[str], int]:
     """Todos os cards das 3 habilidades de cada uma das 62 armas."""
     mapa_grupo = mapa_grupo_por_arma(arsenal_md)
+    fichas = le_tabelas_de_arma(arsenal_md)
     todos: list[str] = []
     total = 0
     for nome, secao_md in extrai_secoes_de_arma(arsenal_md):
         arma_slug = slug(nome)
         grupo = mapa_grupo.get(arma_slug, "")
+        ficha = fichas.get(arma_slug)
+        tipo = texto_puro(ficha.campos.get("Tipo", "")).strip() if ficha else ""
         _md, n, cards = transforma_habilidades(
-            secao_md, grupo=grupo, arma=arma_slug, arma_nome=nome
+            secao_md, grupo=grupo, arma=arma_slug, arma_nome=nome, dano_padrao=tipo
         )
         todos.extend(cards)
         total += n
@@ -3875,7 +3889,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             "Filtrar por nome, efeito, condição…",
             [
                 ("grupo", "Todos os tipos", False),
-                ("elemento", "Todos os elementos", False),
+                ("elemento", "Todo tipo de dano", False),
                 ("escala", "Toda escala", False),
                 ("arma", "Todas as armas", False),
                 ("atributos", "Todos os atributos", True),
